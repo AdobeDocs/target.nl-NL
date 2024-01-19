@@ -2,12 +2,12 @@
 keywords: Recommendations;intro;introductie;webinar;demo
 description: Meer informatie over Recommendations-activiteiten in Adobe [!DNL Target] die automatisch inhoud weergeven die mogelijk van belang is voor uw klanten op basis van eerdere gebruikersactiviteiten of andere algoritmen.
 title: Wat zijn Recommendations-activiteiten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2114'
+source-wordcount: '2086'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 De tekst in dit artikel is afkomstig uit de *Inleiding tot Recommendations* webinar, dat u hieronder in zijn geheel kunt bekijken.
 
-De *Inleiding tot Recommendations* webinar bevat een diepgaande analyse van hoe u de waarde van [!DNL Adobe Target Recommendations]. Ontdek hoe dit [!DNL Target] De activiteit toont automatisch producten of inhoud die uw klanten zouden kunnen interesseren door suggesties in real time te optimaliseren die op vorige bezoeken worden gebaseerd. Verder duik in de [!DNL Target] UI voor een geleidelijke overzicht van hoe te om een [!DNL Recommendations] activiteit.
+De *Inleiding tot Recommendations* webinar bevat een diepgaande verkenning van hoe u de waarde van [!DNL Adobe Target Recommendations]. Ontdek hoe dit [!DNL Target] De activiteit toont automatisch producten of inhoud die uw klanten zouden kunnen interesseren door suggesties in real time te optimaliseren die op vorige bezoeken worden gebaseerd. Verder duik in de [!DNL Target] UI voor een geleidelijke overzicht van hoe te om een [!DNL Recommendations] activiteit.
 
 ## Inleiding
 
@@ -36,10 +36,10 @@ Marketers gebruiken [!DNL Adobe Target] om gepersonaliseerde ervaringen over een
 
 ![Illustratie waarin wordt getoond hoe Target aanbevelingen op verschillende plaatsen levert](/help/main/c-recommendations/assets/intro-3.png)
 
-* **Publiceren**: Webuitgevers gebruiken [!DNL Target Recommendations] om artikelen aan te bevelen aan bezoekers van de site en een grotere betrokkenheid te stimuleren.
+* **Publiceren**: Web publishers gebruiken [!DNL Target Recommendations] om artikelen aan te bevelen aan bezoekers van de site en een grotere betrokkenheid te stimuleren.
 * **Video-Tutorials**: [!DNL Adobe Creative Cloud] gebruik [!DNL Target] om videozelfstudies aan te bevelen aan Photoshop-gebruikers in de Photoshop-toepassing.
-* **Games**: Games gebruiken [!DNL Target] om games en inhoud aan gebruikers op hun consoles aan te bevelen.
-* **B2B-verkoop**: [Bedrijven van bedrijf tot bedrijf gebruiken Target om video&#39;s, whitepapers, en blogberichten aan B2B vooruitzichten aan te bevelen; downloads leveren; en hulp bieden aan bestaande klanten](https://theblog.adobe.com/testing-shifts-high-gear-intel).
+* **Games**: Gamingbedrijven gebruiken [!DNL Target] om games en inhoud aan gebruikers op hun consoles aan te bevelen.
+* **B2B-verkoop**: [Zakelijk-zakelijke bedrijven gebruiken Target om video&#39;s, whitepapers en blogberichten aan B2B-vooruitzichten aan te bevelen, downloads te leveren en hulp te bieden aan bestaande klanten](https://theblog.adobe.com/testing-shifts-high-gear-intel).
 
 * **Reizen**: [Een Duits reisboekje gebruikt Target om hotels en meer aan reizigers aan te bevelen](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
 
@@ -83,7 +83,7 @@ Wanneer u begint met [!DNL Recommendations], geeft u informatie door over elk on
 
 ![Illustratie waarin wordt getoond hoe u Doel kunt onderwijzen over uw context of producten](/help/main/c-recommendations/assets/intro-7.png)
 
-De eenvoudigste en meest gebruikte methode is het dagelijks of wekelijks verzenden van een CSV-bestand via uw systeem voor productinformatiebeheer of uw contentbeheersysteem. Maar u kunt ook informatie over de gegevenslaag van uw pagina doorgeven met behulp van de [!DNL Adobe Target] De bibliotheek van JavaScript, hefboomwerking onze APIs om informatie van uw bronsysteem direct over te gaan, of ons te gebruiken [!DNL Adobe Analytics] integratie als u al catalogusgegevens doorgeeft aan [!DNL Analytics].
+De eenvoudigste en meest gebruikte methode is het dagelijks of wekelijks verzenden van een CSV-bestand via uw systeem voor productinformatiebeheer of uw contentbeheersysteem. Maar u kunt ook informatie over de gegevenslaag van uw pagina doorgeven met de opdracht [!DNL Adobe Target] De bibliotheek van JavaScript, hefboomwerking onze APIs om informatie van uw bronsysteem direct over te gaan, of ons gebruiken [!DNL Adobe Analytics] integratie als u al catalogusgegevens doorgeeft aan [!DNL Analytics].
 
 Soms wilt u wellicht meerdere opties tegelijk gebruiken, bijvoorbeeld het doorgeven van de meeste gegevens per dag via een CSV-bestand en het vaker doorgeven van inventarisupdates via een API.
 
@@ -105,7 +105,7 @@ Vervolgens moet u tags toevoegen of gebruikmaken van uw bestaande tags [!DNL Ana
 
 U moet ervoor zorgen dat [!DNL Target] Houd rekening met de objecten die uw gebruikers bekijken en kopen. Als de aankoop niet relevant voor uw context is, zou u een verschillend type van omzettingsgebeurtenis kunnen willen volgen, bijvoorbeeld, het downloaden van een PDF, het voltooien van een onderzoek, het intekenen op een nieuwsbrief, het letten van een video, etc.
 
-Als u al [!DNL Target] om A/B testactiviteiten op uw plaats in werking te stellen, zou u deze stap reeds kunnen voltooid hebben. Of als u al gebruikmaakt [!DNL Adobe Analytics] voor het melden van bezoeken ter plaatse en het conversiegedrag kunt u [!DNL Analytics] als uw gedragsgegevensbron. Als dat niet het geval is, kunt u dit het gemakkelijkst instellen met een tagbeheer, zoals tags in [[!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. Het is ook mogelijk om offline of in-app interacties te verzenden naar [!DNL Target] via real-time API.
+Als u al [!DNL Target] om A/B testactiviteiten op uw plaats in werking te stellen, zou u deze stap reeds kunnen voltooid hebben. Of als u al gebruikmaakt [!DNL Adobe Analytics] voor het melden van bezoeken ter plaatse en het conversiegedrag kunt u [!DNL Analytics] als uw gedragsgegevensbron. Als dat niet het geval is, kunt u dit het gemakkelijkst instellen met een tagbeheer, zoals tags in [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. Het is ook mogelijk om offline of in-app interacties te verzenden naar [!DNL Target] via real-time API.
 
 ### Aanbevelingen ophalen met de juiste context
 
@@ -127,7 +127,7 @@ A [!DNL Recommendations] de activiteit bestaat uit de volgende onderdelen :
 * **Criteria**: Welke items moeten worden aanbevolen?
 * **Ontwerp**: Hoe moeten de aanbevolen items worden weergegeven?
 
-![Illustratie waarin wordt getoond wat een activiteit met aanbevelingen vormt: Soorten publiek, criteria en ontwerpen](/help/main/c-recommendations/assets/intro-12.png)
+![Illustratie waarin wordt getoond wat een activiteit met aanbevelingen is: publiek, criteria en ontwerpen](/help/main/c-recommendations/assets/intro-12.png)
 
 Uit de doos, [!DNL Target] omvat 14 ingebouwde doelgroepen, 42 ingebouwde criteria en 10 ingebouwde ontwerpsjablonen. U kunt elk van deze items aanpassen of uw eigen items toevoegen. We hebben al eerder [webinars over het opbouwen van publiek](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. In dit gedeelte wordt de nadruk gelegd op het definiëren van criteria, die bepalen welke items worden aanbevolen.
 
@@ -153,7 +153,7 @@ Dit zijn alle catalogusattributen die globaal van toepassing zijn die u in veelv
 
 ### Algorithm (advisesleutel en logica)
 
-De volgende stap bestaat uit het kiezen van een aanbevolen sleutel en logica. Hier bepaalt u wat de basis voor uw aanbeveling is.
+De volgende stap bestaat uit het kiezen van een advisesleutel en logica. Hier bepaalt u wat de basis voor uw aanbeveling is.
 
 ![Algorithm illustration](/help/main/c-recommendations/assets/intro-17.png)
 
@@ -164,7 +164,7 @@ U kunt uw aanbeveling baseren op:
 * Het item dat de bezoeker momenteel bekijkt
 * De categorie die de bezoeker momenteel bekijkt
 * Het object dat de bezoeker voor het laatst heeft gekocht of aan het winkelwagentje heeft toegevoegd
-* Een aangepast kenmerk dat is gekoppeld aan een bezoeker of een item
+* Een aangepast kenmerk voor een bezoeker of een item
 
 Op basis van deze toetsen kiest u vervolgens de gewenste logica voor de aanbeveling:
 
@@ -183,7 +183,7 @@ Uit de doos, [!DNL Target] bevat een portfolio met algoritmen.
 * **Persoonlijke algoritmen** omvatten Recent Bekeken, de Aangesloten Plaats, en profiel-verbeterde samenwerkings het filtreren.
 * **Uw eigen algoritmen gebruiken** laat u uw eigen douanealgoritmen gebruiken.
 
-### Online bedrijfsregels
+### Onlinebedrijfsregels
 
 De laatste stap is het toepassen van online bedrijfsregels. Op deze manier kunt u algoritmen in staat stellen om domeinkennis en de huidige context te gebruiken op basis van wat de bezoeker doet voor uw digitale eigenschap.
 

@@ -4,20 +4,20 @@ description: Leer hoe u bezoekers kunt aanwijzen met [!DNL Adobe Target] die zic
 title: Kan ik bezoekers richten op basis van sitepagina's?
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
 
 # Sitepagina&#39;s
 
-U kunt bezoekers als doel instellen met [!DNL Adobe Target] die toegang hebben tot een specifieke pagina op uw site.
+U kunt bezoekers aanspreken met [!DNL Adobe Target] die toegang hebben tot een specifieke pagina op uw site.
 
 1. In de [!DNL Target] interface, klik **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Geef een naam op voor het publiek en voeg een optionele beschrijving toe.
-1. Slepen en neerzetten **[!UICONTROL Site Pages]** in het deelvenster voor publieksopbouw.
+1. Slepen en slepen **[!UICONTROL Site Pages]** in het deelvenster voor publieksopbouw.
 
    ![Sitepagina&#39;s, publiek](assets/target_site_pages.png)
 
@@ -27,11 +27,11 @@ U kunt bezoekers als doel instellen met [!DNL Adobe Target] die toegang hebben t
 
    ![Huidige pagina](assets/current-page.png)
 
-   De volgende opties zijn beschikbaar in de eerste vervolgkeuzelijst wanneer u [!UICONTROL Select].
+   Als u de optie [!UICONTROL Select].
 
    * **[!UICONTROL Current Page]:** De pagina die de gebruiker bekijkt.
 
-      De tweede vervolgkeuzelijst bevat de volgende opties als u deze optie kiest:
+     Als u deze optie kiest, zijn de volgende opties beschikbaar in de tweede vervolgkeuzelijst:
 
       * [!UICONTROL URL] (Voor meer informatie over hoe [!DNL Target] evalueert URLs, zie [Veelgestelde vragen over doelen en doelgroepen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * [!UICONTROL Domain]
@@ -40,9 +40,10 @@ U kunt bezoekers als doel instellen met [!DNL Adobe Target] die toegang hebben t
       * [!UICONTROL Top-Level Domain]
       * [!UICONTROL Path]
       * [!UICONTROL Hash (#) fragment]
+
    * **[!UICONTROL Previous Page]:** De pagina die de gebruiker heeft bekeken voordat deze op de huidige pagina klikte. De pagina wordt alleen bijgehouden als de gebruiker van de vorige pagina naar de huidige pagina klikt. De vorige pagina wordt niet bijgehouden als de gebruiker een nieuwe URL in browser typt. De feitelijke inhoud van deze pagina is afhankelijk van het ontwerp van uw site. Als op de huidige pagina bijvoorbeeld informatie over een bepaald product wordt weergegeven, is de vorige pagina mogelijk een categoriepagina waarop de bezoeker het specifieke item selecteert. Een pagina die bijvoorbeeld verschillende camera&#39;s van een bepaald type weergeeft, of de pagina &quot;home&quot; die tot de uiteindelijke pagina leidt.
 
-      De tweede vervolgkeuzelijst bevat de volgende opties als u deze optie kiest:
+     Als u deze optie kiest, zijn de volgende opties beschikbaar in de tweede vervolgkeuzelijst:
 
       * [!UICONTROL URL] (Voor meer informatie over hoe het Doel URLs evalueert, zie [Veelgestelde vragen over doelen en doelgroepen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * [!UICONTROL Domain]
@@ -50,9 +51,10 @@ U kunt bezoekers als doel instellen met [!DNL Adobe Target] die toegang hebben t
       * [!UICONTROL Subdomain]
       * [!UICONTROL Top-Level Domain]
       * [!UICONTROL Path]
+
    * **[!UICONTROL Landing Page]:** De openingspagina is de eerste pagina die de bezoeker ziet wanneer hij of zij uw site opent. Als de bezoeker bijvoorbeeld op een koppeling op Google klikt die naar een categoriepagina leidt, is de categoriepagina de landingspagina. Als de koppeling naar uw startpagina leidt, is de startpagina de bestemmingspagina. De landingspagina wordt onthouden voor de sessie van de bezoeker. U kunt de site dieper plaatsen op basis van de bestemmingspagina van de bezoeker in deze sessie.
 
-      De tweede vervolgkeuzelijst bevat de volgende opties als u deze optie kiest:
+     Als u deze optie kiest, zijn de volgende opties beschikbaar in de tweede vervolgkeuzelijst:
 
       * [!UICONTROL URL] (Voor meer informatie over hoe het Doel URLs evalueert, zie [Veelgestelde vragen over doelen en doelgroepen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * [!UICONTROL Domain]
@@ -62,13 +64,13 @@ U kunt bezoekers als doel instellen met [!DNL Adobe Target] die toegang hebben t
       * [!UICONTROL Path]
       * [!UICONTROL Hash (#) fragment]
 
-      >[!NOTE]
-      >
-      >De `landing.url` object wordt opnieuw ingesteld op een subdomeinwijziging of directe URL-vervanging.
+     >[!NOTE]
+     >
+     >De `landing.url` object wordt opnieuw ingesteld op een subdomeinwijziging of directe URL-vervanging.
 
    * **[!UICONTROL HTTP Header]:** Met deze optie wordt de informatie in de HTTP-header van het dialoogvenster [!DNL Target] verzoek. Als de HTTP-header bijvoorbeeld taalinformatie bevat, kunt u een regel maken die de `Accept-Language: es` voorwaarde voor doelbezoekers die de pagina in het Spaans openen.
 
-      De tweede vervolgkeuzelijst bevat de volgende opties als u deze optie kiest:
+     Als u deze optie kiest, zijn de volgende opties beschikbaar in de tweede vervolgkeuzelijst:
 
       * [!UICONTROL Accept]
       * [!UICONTROL Accept-Charset]
@@ -102,14 +104,10 @@ U kunt bezoekers als doel instellen met [!DNL Adobe Target] die toegang hebben t
 
    Als u [!UICONTROL Current Page], [!UICONTROL Previous Page], of [!UICONTROL Landing Page]de [!UICONTROL Domain] en [!UICONTROL Query] zijn beschikbaar. Houd rekening met het volgende wanneer u deze opties kiest:
 
-   * **Domein:** Het volledige domein van de pagina. Als u een domein opgeeft, kunt u het beste &#39;contains&#39; gebruiken. &quot;Domain equals facebook.com&quot; accepteert bijvoorbeeld niet `m.facebook.com` of `www.facebook.com`. &quot;Domein bevat facebook.com&quot; accepteert elke variant van facebook.com.
+   * **Domein:** Het volledige domein van de pagina. Als u een domein opgeeft, kunt u het beste &#39;contains&#39; gebruiken. &quot;Domein is bijvoorbeeld gelijk aan facebook.com&quot; accepteert niet `m.facebook.com` of `www.facebook.com`. &quot;Domein bevat facebook.com&quot; accepteert elke variant van facebook.com.
    * **Query:** De inhoud van de URL na het eerste vraagteken (?).
 
-      `foo.html?e0a72cb2a2c7`
-
-
-
-
+     `foo.html?e0a72cb2a2c7`
 
 1. (Optioneel) Stel aanvullende regels voor het publiek in.
 1. Klik op **[!UICONTROL Done]**.
@@ -125,9 +123,9 @@ Gebruik een:
 
 * Om ervoor te zorgen dat het publiek op de bestemmingspagina correct kan functioneren, moeten de aanvragen `mboxReferrer` parameterset (voor de bezorgings-API wordt de `context.address.referringUrl` parameter) die de JavaScript-bibliotheek at.js van de pagina neemt met behulp van de `document.referrer` kenmerk. Dit `HTMLDocument` dit kenmerk retourneert de URI van de pagina waarvandaan de gebruiker is genavigeerd. De waarde van dit kenmerk is een lege tekenreeks wanneer de gebruiker rechtstreeks naar de pagina navigeert (niet via een koppeling, maar bijvoorbeeld via een bladwijzer).
 
-   Als dit gedrag niet aan uw vereisten voldoet, kunt u een van de volgende handelingen uitvoeren:
+  Als dit gedrag niet aan uw vereisten voldoet, kunt u een van de volgende handelingen uitvoeren:
 
-   * Voldoende [mbox-parameters](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} tot [!DNL Target] voor doeldoeleinden te gebruiken.
+   * Voldoende [mbox-parameters](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} tot [!DNL Target] voor doeldoeleinden te gebruiken.
    * Een [A/B Testactiviteit](/help/main/c-activities/t-test-ab/test-ab.md) in plaats van een activiteit op een bestemmingspagina. Bij de A/B-testactiviteiten wordt niet van ervaring gewisseld voor dezelfde bezoeker.
    * Een [bezoekersprofiel](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) in plaats daarvan.
 
@@ -142,6 +140,6 @@ Gebruik een:
 Deze video bevat informatie over het gebruik van publiekscategorieën.
 
 * Soorten publiek maken
-* Doelcategorieën definiëren
+* Categorieën publiek definiëren
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)

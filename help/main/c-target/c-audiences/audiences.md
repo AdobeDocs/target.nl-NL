@@ -4,9 +4,9 @@ description: Leer hoe u het publiek kunt gebruiken in [!DNL Adobe Target].
 title: Hoe gebruik ik de Audience List?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Het publiek wordt gebruikt overal waar het richten beschikbaar is. Wanneer u een
 * [Een activiteitspecifiek publiek maken](/help/main/c-target/creating-activity-only-audience.md) en als doel instellen
 * [Meerdere doelgroepen combineren](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) om een ad-hocpubliek te maken
 
-U kunt ook publieksgegevens gebruiken die zijn verzameld door [!DNL Adobe Analytics] voor realtime gericht werken en personalisatie in [!DNL Target] en andere [!DNL Adobe Experience Cloud] toepassingen. Zie [Experience Cloud publiek](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) in de *Experience Cloud Central-interfacecomponenten* hulplijn.
+U kunt ook publieksgegevens gebruiken die zijn verzameld door [!DNL Adobe Analytics] voor realtime gericht werken en personalisatie in [!DNL Target] en andere [!DNL Adobe Experience Cloud] toepassingen. Zie [Soorten publiek Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) in de *Experience Cloud Central Interface-componenten* hulplijn.
 
 Er zijn twee soorten publiek in [!DNL Target]:
 
@@ -32,7 +32,7 @@ Er zijn twee soorten publiek in [!DNL Target]:
 
 ## Gebruik de [!UICONTROL Audiences] list {#use-list}
 
-Om toegang te krijgen tot [!UICONTROL Audiences] lijst, klikt u op **[!UICONTROL Audiences]** in de bovenste menubalk:
+Als u toegang wilt krijgen tot [!UICONTROL Audiences] lijst, klik **[!UICONTROL Audiences]** in de bovenste menubalk:
 
 ![[!UICONTROL Audiences] list](assets/audiences_list.png)
 
@@ -45,9 +45,9 @@ De [!UICONTROL Audiences] Deze lijst bevat het publiek dat u in uw activiteiten 
 
   >[!NOTE]
   >
-  >De [!DNL Adobe Experience Platform] bron is beschikbaar voor iedereen [!DNL Target] klanten die [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Publiek beschikbaar bij de [!DNL Adobe Experience Platform] kan worden gebruikt zoals is of [gecombineerd met bestaand publiek](/help/main/c-target/combining-multiple-audiences.md).
+  >De [!DNL Adobe Experience Platform] bron is beschikbaar voor iedereen [!DNL Target] klanten die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Publiek beschikbaar bij de [!DNL Adobe Experience Platform] kan worden gebruikt zoals is of [gecombineerd met bestaand publiek](/help/main/c-target/combining-multiple-audiences.md).
   >
-  >Gebruikers moeten beschikken over [!UICONTROL Approver] of hoger [!DNL Target] om te vormen [!DNL Target] [!UICONTROL Destinations] kaarten in AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
+  >Gebruikers moeten [!UICONTROL Approver] of hoger [!DNL Target] om te vormen [!DNL Target] [!UICONTROL Destinations] kaarten in AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
   >
   >Zie voor meer informatie [Soorten publiek uit Adobe Experience Platform gebruiken](#aep).
 
@@ -55,16 +55,16 @@ Vooraf gedefinieerde doelgroepen, zoals &quot;[!UICONTROL New Visitors]&quot; en
 
 Wanneer u werkt met soorten publiek die oorspronkelijk zijn gemaakt in [!DNL Experience Cloud] of [!DNL Adobe Experience Platform], [!DNL Target] waarschuwt u als u een publiek in [!DNL Target] activiteiten die later zijn verwijderd in [!DNL Experience Cloud] of [!DNL Adobe Experience Platform].
 
-* Als een publiek is verwijderd in [!DNL Experience Cloud] of [!DNL Adobe Experience Platform], een waarschuwingspictogram in beide [!UICONTROL Audience] wordt weergegeven. Knopinfo in de [!DNL Target] De gebruikersinterface geeft ook aan dat het publiek is verwijderd in [!DNL Experience Cloud] of [!DNL Adobe Experience Platform].
+* Als een publiek is verwijderd in [!DNL Experience Cloud] of [!DNL Adobe Experience Platform], een waarschuwingspictogram in beide [!UICONTROL Audience] wordt weergegeven. Knopinfo in het deelvenster [!DNL Target] De gebruikersinterface geeft ook aan dat het publiek is verwijderd in [!DNL Experience Cloud] of [!DNL Adobe Experience Platform].
 * Als u meerdere soorten publiek probeert te combineren met een verwijderd publiek of als u een activiteit probeert op te slaan die verwijst naar een verwijderd publiek, wordt een waarschuwingsbericht weergegeven.
 
 U kunt ook aangepaste profielparameters en `user.` parameters. Wanneer het creëren van een publiek, sleep de attributen u wilt gebruiken om uw activiteit in het venster van de publieksbouwer te richten. Als het gewenste kenmerk niet wordt weergegeven, is het kenmerk niet geactiveerd door een mbox. Andere aangepaste mbox-parameters zijn beschikbaar in het dialoogvenster [!UICONTROL Custom Parameters] vervolgkeuzelijst.
 
-Gebruik de [!UICONTROL Filters] om het filter [!UICONTROL Audiences] lijst op bron: [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud], en [!DNL Adobe Experience Platform].
+Gebruik de [!UICONTROL Filters] knop om het filter [!UICONTROL Audiences] lijst op bron: [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud], en [!DNL Adobe Experience Platform].
 
 ![De optie Filters in het dialoogvenster [!UICONTROL Audiences] list](assets/filters.png)
 
-Gebruik de [!UICONTROL Search audiences] vak waarin u kunt zoeken [!UICONTROL Audiences] lijst. U kunt zoeken naar een willekeurig deel van een publieksnaam of u kunt een specifieke tekenreeks tussen aanhalingstekens plaatsen.
+Gebruik de [!UICONTROL Search audiences] vak om te zoeken in uw [!UICONTROL Audiences] lijst. U kunt zoeken naar een willekeurig deel van een publieksnaam of u kunt een specifieke tekenreeks tussen aanhalingstekens plaatsen.
 
 U kunt de [!UICONTROL Audiences] lijst op publieksnaam of op de datum waarop deze voor het laatst is gewijzigd. Als u op naam of datum wilt sorteren, klikt u op de kolomkop en selecteert u deze om het publiek in oplopende of aflopende volgorde weer te geven.
 
@@ -80,7 +80,7 @@ U kunt de volgende publieksdefinitiekaart openen door op de knop [!UICONTROL Vie
 
 ![Activiteiten > Definitie van publiek](assets/view-details-activity-overview.png)
 
-De publieksdefinitiekaart toont zij het type, de bron, en de attributen van het publiek. Klikken **[!UICONTROL View full details]** andere activiteiten te bekijken die naar dat publiek verwijzen, indien van toepassing. Als u een publieksdefinitiekaart van een activiteit bekijkt [!UICONTROL Overview] pagina, klikt u op **[!UICONTROL Audience Usage]**.
+De publieksdefinitiekaart toont zij het type, de bron, en de attributen van het publiek. Klikken **[!UICONTROL View full details]** andere activiteiten te bekijken die naar dat publiek verwijzen, indien van toepassing. Als u een publieksdefinitiekaart van een activiteit bekijkt [!UICONTROL Overview] pagina, klikt u **[!UICONTROL Audience Usage]**.
 
 De informatie over het gebruik van het publiek kan u helpen onbedoelde gevolgen voor andere activiteiten te vermijden terwijl het uitgeven van publiek. Informatie omvat [!UICONTROL Live Activities], [!UICONTROL Inactive Activities], [!UICONTROL Archived Activities], en [!UICONTROL Syncing Activities]. Deze functie is beschikbaar voor alle soorten publiek (publiek in de bibliotheek en [alleen-activiteitstoepassingen](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
 
@@ -105,11 +105,11 @@ Keep the following points in mind as you work with imported audiences:
 * Expression target audiences are no longer supported in Target Standard/Premium. 
 * Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.-->
 
-## Gebruik publiek van [!DNL Adobe Experience Platform] {#aep}
+## Soorten publiek gebruiken uit [!DNL Adobe Experience Platform] {#aep}
 
 Het publiek gebruiken dat is gemaakt in [!DNL Adobe Experience Platform] Verstrek rijkere klantengegevens die tot uitvoerigere verpersoonlijking leiden.
 
-Zie voor meer informatie [Gebruik publiek van [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
+Zie voor meer informatie [Soorten publiek gebruiken uit [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
 
 ## Trainingsvideo: Soorten publiek gebruiken ![Zelfstudie-badge](/help/main/assets/tutorial.png)
 

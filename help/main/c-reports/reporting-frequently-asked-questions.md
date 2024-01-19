@@ -4,9 +4,9 @@ description: Een lijst met veelgestelde vragen en antwoorden over Adobe bekijken
 title: Waar kan ik antwoorden vinden op vragen over [!DNL Target] Rapportage?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 5856bed8dd3bf59164c842eef687757f4e877bd5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1367'
 ht-degree: 0%
 
 ---
@@ -125,6 +125,6 @@ Bijvoorbeeld, plaatste ik de verkeersverdeling aan 50/50 of 25/25/25/25 maar ik 
 * De beste praktijk voor A/B- en MVT-tests is het gelijkmatig verdelen van het verkeer. Het wijzigen van de verkeersverdeling tussen ervaringen (bijvoorbeeld van 90/10 naar 50/50) tijdens een test kan leiden tot ongelijke ervaringen tussen bezoekers. De lagere verkeerservaring zou nooit &quot;inhalen.&quot;
 * Als u de bovenstaande beste praktijken volgt en de verkeerssplitsing niet in tijd normaliseert, zou u het volgende moeten controleren:
 
-   * Gebruikt u de nieuwste bibliotheek van at.js? Voor meer informatie over de huidige versie en bijbehorende versienota&#39;s, zie [details at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+   * Gebruikt u de nieuwste bibliotheek van at.js? Voor meer informatie over de huidige versie en bijbehorende versienota&#39;s, zie [details at.js-versie](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
    * Is het een omleidingstest? Onjuiste timing van het afvuren van tags op de pagina kan leiden tot ongelijkmatige bewegingssplitsingen, vooral bij gebruik van [!DNL Analytics] als gegevensbron voor een [!DNL Target] activiteit. Voor details om ongelijke verkeersdistributie op een omleidingsactiviteit met Analytics voor Doel (A4T) te verhelpen, zie [Aanbiedingen omleiden - Veelgestelde vragen A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

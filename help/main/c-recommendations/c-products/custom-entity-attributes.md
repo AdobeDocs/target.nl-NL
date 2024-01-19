@@ -1,14 +1,14 @@
 ---
 keywords: multi-value entiteitsattributen;douane entiteitattributen;geldige JSON;entiteitkenmerkwaarde;JSON serie;multi-getaxeerde;multivalueerde
-description: Leer hoe u aangepaste entiteitskenmerken voor enkelvoudige en meervoudige waarden gebruikt om aanvullende informatie over items in uw Adobe te definiëren [!DNL Target] Recommendations-catalogus.
+description: Leer hoe u aangepaste entiteitskenmerken voor één of meerdere waarden kunt gebruiken om aanvullende informatie over items in uw Adobe te definiëren [!DNL Target] Recommendations-catalogus.
 title: Hoe gebruik ik aangepaste entiteitskenmerken?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Een attribuut van een aangepaste entiteit met meerdere waarden moet worden verzo
 
 `entity.genre=["genre1", "genre2"]`
 
-Voorbeelden van geldige JSON-arrays die worden ondersteund door [!DNL Recommendations]:
+Voorbeelden van geldige JSON-arrays die door [!DNL Recommendations]:
 
 * `["AB","BC"]` alle waarden zijn tekenreeksen
 * `[1,2]` alle waarden zijn numeriek
@@ -57,13 +57,13 @@ Nadat een aangepast kenmerk is verzonden als een geldige JSON-array, wordt het k
 **Beperkingen**:
 
 * U kunt vooraf gedefinieerde namen van entiteitskenmerken niet gebruiken voor aangepaste entiteitskenmerken. (Zie [Entiteitskenmerken](/help/main/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).)
-* Het kenmerk `entity.environment` is gereserveerd door het systeem en kan niet worden gebruikt voor attributen van douaneentiteit. Pogingen om te slagen `entity.environment` gebruiken `targetPageParams`, feeds of API&#39;s worden genegeerd.
+* Het kenmerk `entity.environment` is gereserveerd door het systeem en kan niet worden gebruikt voor de attributen van de douaneentiteit. Pogingen om te slagen `entity.environment` gebruiken `targetPageParams`, feeds of API&#39;s worden genegeerd.
 * Arrays moeten één waardetype bevatten. Arrays met gemengde waarde ( `["AB",1,true]`) worden niet ondersteund.
 * Een kenmerk met meerdere waarden dat een geneste JSON-array bevat ( `[10,12,[1,2,3]]`) wordt behandeld als een attribuut van één waarde.
 
 ## Meerdere-waardekenmerken implementeren {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Aangepaste entiteitskenmerken met meerdere waarden worden ondersteund bij gebruik van feeds (CSV). `targetPageParams`en de leverings-API om producten te uploaden. Nieuwe waarden vervangen huidige waarden. zij worden niet toegevoegd. Lege arrays ( [] ) worden beschouwd als zijnde zonder waarden.
+Aangepaste entiteitskenmerken met meerdere waarden worden ondersteund bij gebruik van feeds (CSV). `targetPageParams`en de leverings-API om producten te uploaden. Nieuwe waarden vervangen huidige waarden; ze worden niet toegevoegd. Lege arrays ( [] ) worden beschouwd als zijnde zonder waarden.
 
 Dubbele aanhalingstekens moeten worden vermeden. Bijvoorbeeld: `"[""test"", ""value""]"` is een geldige JSON-array die kan worden gebruikt in CSV.
 
@@ -127,7 +127,7 @@ U kunt kenmerken met meerdere waarden doorgeven met de API voor aflevering in ee
   }
 ```
 
-Zie de [Adobe Recommendations API-documentatie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} voor informatie over het gebruik van de API&#39;s voor levering en opslaan van entiteiten.
+Zie de [Adobe Recommendations API-documentatie](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} voor informatie over het gebruik van de API&#39;s voor levering en opslaan van entiteiten.
 
 ## Operatoren met kenmerken van meerdere waarden gebruiken {#section_83C2288A805242D9A02EBC4F07DEE945}
 
@@ -258,7 +258,7 @@ Kenmerken met meerdere waarden worden weergegeven als een lijst met door komma&#
 
 Voorbeeld:
 
-Wanneer `entity.genre=["genre1","genre2"]` in een ontwerp wordt verwezen als `$entity<N>.genre`het resultaat `genre1, genre2`.
+Wanneer `entity.genre=["genre1","genre2"]` in een ontwerp wordt ernaar verwezen als `$entity<N>.genre`, het resultaat `genre1, genre2`.
 
 ## Verwante onderwerpen:
 

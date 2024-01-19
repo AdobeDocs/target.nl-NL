@@ -4,9 +4,9 @@ description: Leer hoe u aangepaste parameters kunt doorgeven [!DNL Adobe Target]
 title: Kan ik bezoekers richten die op de Parameters van de Douane worden gebaseerd?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 Aangepaste parameters zijn maboxparameters in [!DNL Adobe Target]. Als u parameters mbox aan vakjes doorgeeft, of gebruik `targetPageParams` functies, worden deze parameters hier weergegeven voor gebruik bij het publiek.
 
-Zie voor meer informatie [Parameters doorgeven aan een globale box](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.
+Zie voor meer informatie [Parameters doorgeven aan een globale box](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.
 
 Wanneer u een aangepast publiek maakt op basis van een mbox-parameter, `mboxParameter` vraagt u niet meer om `mboxName`. De naam van het selectievakje is nu optioneel. Met deze wijziging kunt u parameters uit meerdere vakken gebruiken of verwijzen naar een parameter die nog niet op de rand is opgenomen.
 
 1. In de [!DNL Target] interface, klik **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Geef een naam op voor het publiek en voeg een optionele beschrijving toe.
-1. Slepen en neerzetten **[!UICONTROL Custom]** in de Audience Builder.
+1. Slepen en slepen **[!UICONTROL Custom]** in de Audience Builder.
 
    De gewenste parameter selecteren:
 
@@ -60,7 +60,7 @@ Wanneer u een aangepast publiek maakt op basis van een mbox-parameter, `mboxPara
 1. (Optioneel) Stel aanvullende regels voor het publiek in.
 1. Klik op **[!UICONTROL Done]**.
 
-De doelgroep [pop-upkaart met definitiedetails](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) toont de parameternaam in het dialoogvenster **[!UICONTROL Rules]** sectie. Er is geen verwijzing naar mbox gebruikt voor het filtreren.
+De doelgroep [pop-upkaart met definitiedetails](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) toont de parameternaam in het dialoogvenster **[!UICONTROL Rules]** sectie. Er is geen verwijzing naar de box die voor het filtreren wordt gebruikt.
 
 >[!NOTE]
 >
@@ -76,6 +76,6 @@ De doelgroep [pop-upkaart met definitiedetails](/help/main/c-target/c-audiences/
 Deze video bevat informatie over het gebruik van publiekscategorieën.
 
 * Soorten publiek maken
-* Doelcategorieën definiëren
+* Categorieën publiek definiëren
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)

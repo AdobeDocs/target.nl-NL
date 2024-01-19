@@ -2,12 +2,12 @@
 keywords: verzameling;gericht
 description: Leer hoe u verzamelingen in Adobe kunt gebruiken [!DNL Target] Recommendations. Een verzameling is een reeks producten of items die in aanmerking komen voor een aanbeveling.
 title: Hoe gebruik ik verzamelingen in Recommendations-activiteiten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '862'
 ht-degree: 0%
 
 ---
@@ -44,13 +44,13 @@ Maak een verzameling om de producten of inhoud te ordenen die u wilt weergeven i
 
    De [!UICONTROL Collections] wordt een lijst met uw bestaande verzamelingen weergegeven. U maakt nieuwe verzamelingen door op de knop [!UICONTROL Create Collection] knop. U kunt ook bestaande verzamelingen bewerken, kopiëren en verwijderen door de muisaanwijzer boven de gewenste verzameling te plaatsen en op het gewenste pictogram te klikken.
 
-   ![Aanwijspictogrammen: bewerken, kopiëren en verwijderen](/help/main/c-recommendations/c-products/assets/hover-icons.png)
+   ![Pictogrammen voor aanwijzen: bewerken, kopiëren en verwijderen](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Het &quot;aantal items&quot; dat voor elke verzameling op het [!UICONTROL Collections] lijstmening is het aantal producten die de regels voor die inzameling binnen gevormde gebrek Recommendations aanpassen [hostgroep](/help/main/administrating-target/hosts.md) (milieu). Zie [Instellingen](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} om de standaardgastheergroep te veranderen.
+   Het &quot;aantal items&quot; dat voor elke verzameling op het [!UICONTROL Collections] lijstmening is het aantal producten die de regels voor die inzameling binnen gevormde gebrek Recommendations aanpassen [hostgroep](/help/main/administrating-target/hosts.md) (milieu). Zie [Instellingen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} om de standaardgastheergroep te veranderen.
 
 1. Klik op **[!UICONTROL Create Collection]**.
 
-1. (Voorwaardelijk) Kies een omgeving in het menu **[!UICONTROL Environment]** filter tijdens het maken (of bijwerken) van een verzameling om een voorvertoning van de inhoud van de verzameling in die omgeving weer te geven. Standaard worden de resultaten van de standaardhostgroep weergegeven.
+1. (Voorwaardelijk) Kies een omgeving in het menu **[!UICONTROL Environment]** filter tijdens het maken (of bijwerken) van een verzameling om de inhoud van de verzameling in die omgeving voor te vertonen. Standaard worden de resultaten van de standaardhostgroep weergegeven.
 
    ![Verzameling maken](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
 
@@ -76,7 +76,7 @@ Nadat u een zoekopdracht hebt gemaakt met &#39;id > contains&#39;, kunt u bijvoo
 
 >[!IMPORTANT]
 >
->De functie Geavanceerd zoeken is niet hoofdlettergevoelig. producten die op het tijdstip van levering worden geretourneerd, zijn echter gebaseerd op hoofdlettergevoelige zoekopdrachten. Deze wanverhouding kan tot verwarring leiden. Zorg ervoor dat u rekening houdt met hoofdlettergevoeligheid wanneer u verzamelingen maakt op basis van resultaten met de functie Geavanceerd zoeken. Als u bijvoorbeeld zoekt naar &#39;Vakantie&#39;, worden in de eerste zoekopdracht resultaten weergegeven die &#39;Vakantie&#39; en &#39;Vakantie&#39; bevatten. Als u vervolgens een catalogus maakt met de bedoeling producten met &quot;vakantie&quot; terug te sturen, worden alleen producten met &quot;vakantie&quot; geretourneerd. Producten met &quot;Vakantie&quot; worden niet geretourneerd.
+>De functie Geavanceerd zoeken is niet hoofdlettergevoelig. Producten die op het moment van levering worden geretourneerd, zijn echter gebaseerd op hoofdlettergevoelige zoekopdrachten. Deze wanverhouding kan tot verwarring leiden. Zorg ervoor dat u rekening houdt met hoofdlettergevoeligheid wanneer u verzamelingen maakt op basis van resultaten met de functie Geavanceerd zoeken. Als u bijvoorbeeld zoekt naar &#39;Vakantie&#39;, worden in de eerste zoekopdracht resultaten weergegeven die &#39;Vakantie&#39; en &#39;Vakantie&#39; bevatten. Als u vervolgens een catalogus maakt met de intentie om producten met &quot;vakantie&quot; te retourneren, worden alleen producten met &quot;vakantie&quot; geretourneerd. Producten met &quot;Vakantie&quot; worden niet geretourneerd.
 
 ## Een verzameling bewerken, kopiëren of verwijderen
 

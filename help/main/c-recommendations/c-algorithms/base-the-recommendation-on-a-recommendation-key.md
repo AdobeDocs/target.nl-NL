@@ -1,13 +1,13 @@
 ---
 keywords: aanbeveling sleutel;aanbeveling logica;huidige categorie;aangepast kenmerk;laatst gekocht item;laatst bekeken item;meest bekeken item;meest bekeken item;favoriete categorie;populariteit;onlangs bekeken item;laatst gekocht;laatst bekeken item;laatst bekeken;meest bekeken;meest bekeken;favoriet;onlangs bekeken
-description: Leer hoe u aanbevelingen kunt gebruiken op basis van toetsen die de context van het gedrag van de bezoeker gebruiken om relevante resultaten weer te geven in Adobe [!DNL Target] Recommendations-activiteiten.
+description: Leer hoe u aanbevelingen kunt gebruiken op basis van toetsen die de gedragscontext van de bezoeker gebruiken om relevante resultaten in de Adobe weer te geven [!DNL Target] Recommendations-activiteiten
 title: Hoe baseer ik de Aanbeveling op een Sleutel van de Aanbeveling?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '3831'
+source-wordcount: '3845'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Elk type algoritme verstrekt verschillende algoritmen aangewezen voor zijn type,
 
 | Het type Algorithm | Wanneer gebruiken | Beschikbare algoritmen |
 | --- | --- | --- |
-| [!UICONTROL Cart-Based] | Aanbevelingen doen op basis van de inhoud van het winkelwagentje van de gebruiker. | <ul><li>Personen die ze bekeken, bekeken ze</li><li>Mensen die ze bekeken, kochten hen</li><li>Mensen die deze hebben gekocht, hebben de</li></ul> |
+| [!UICONTROL Cart-Based] | Aanbevelingen doen op basis van de inhoud van het winkelwagentje. | <ul><li>Personen die ze bekeken, bekeken ze</li><li>Mensen die ze bekeken, kochten hen</li><li>Mensen die deze hebben gekocht, hebben de</li></ul> |
 | [!UICONTROL Popularity-Based] | Aanbevelingen doen op basis van de algemene populariteit van een item op uw site of op basis van de populariteit van items in de favoriete of meest bekeken categorie, het merk, het genre enzovoort van een gebruiker. | <ul><li>Meest bekeken op de site</li><li>Meest bekeken op rubriek</li><li>Meest bekeken door kenmerk Item</li><li>Topverkopers op de hele site</li><li>Topverkopers op rubriek</li><li>Topverkopers op objectkenmerk</li><li>Metrisch, boven op Analytics</li></ul> |
 | [!UICONTROL Item-Based] | Aanbevelingen doen op basis van het zoeken naar objecten die vergelijkbaar zijn met een item dat de gebruiker momenteel bekijkt of onlangs heeft bekeken. | <ul><li>Personen die dit hebben bekeken, zagen het volgende</li><li>Mensen die dit bekeken hebben, hebben het volgende gekocht</li><li>Mensen die dit hebben gekocht, hebben het volgende gekocht</li><li>Objecten met vergelijkbare kenmerken</li></ul> |
 | [!UICONTROL User-Based] | Aanbevelingen doen op basis van het gedrag van de gebruiker. | <ul><li>Onlangs bekeken objecten</li><li>Aanbevolen voor u</li></ul> |
@@ -34,7 +34,7 @@ Verschillende aanbevelingen voor algoritmen kunnen op verschillende typen pagina
 
 ## Op basis van winkelwagentje {#cart-based}
 
-De [!UICONTROL Cart-Based] het type van algoritme laat punten adviseren die op de inhoud van de huidige kar van de bezoeker worden gebaseerd. De aanbevelingen sleutels worden geleverd door [mbox, parameter `cartIds`](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} in door komma&#39;s gescheiden waarden. Alleen de eerste tien waarden worden in aanmerking genomen.
+De [!UICONTROL Cart-Based] het type van algoritme laat punten adviseren die op de inhoud van de huidige kar van de bezoeker worden gebaseerd. De aanbevelingen sleutels worden geleverd door [mbox, parameter `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} in door komma&#39;s gescheiden waarden. Alleen de eerste tien waarden worden in aanmerking genomen.
 
 De logica van een op winkelwagentje gebaseerde aanbeveling is vergelijkbaar met &quot;[!UICONTROL Recommended For You]&quot; op gebruiker gebaseerd algoritme en aan &quot;[!UICONTROL People Who Viewed These, Bought Those]&quot; en &quot;[!UICONTROL People Who Bought These, Bought Those]&quot; op items gebaseerde algoritmen.
 
@@ -42,13 +42,13 @@ De logica van een op winkelwagentje gebaseerde aanbeveling is vergelijkbaar met 
 
 [!DNL Target] biedt marketers ook de keuze om het gedrag van bezoekers binnen één sessie of over meerdere sessies te bekijken:
 
-* **[!UICONTROL Single Session]**: Gebaseerd op wat andere bezoekers binnen één enkele zitting deden.
+* **[!UICONTROL Single Session]**: Gebaseerd op wat andere bezoekers binnen één sessie deden.
 
-   Het bekijken van gedrag binnen één enkele zitting zou kunnen zinvol zijn wanneer er een gevoel is dat de producten sterk &quot;met&quot;elkaar op basis van een gebruik, een geval, of een gebeurtenis &quot;gaan. Een bezoeker koopt bijvoorbeeld een printer en heeft inkt en papier nodig. Of een bezoeker koopt pindakaas en heeft misschien ook brood en gelei nodig.
+  Het bekijken van gedrag binnen één enkele zitting zou kunnen zinvol zijn wanneer er een gevoel is dat de producten sterk &quot;met&quot;elkaar op een gebruik, een gelegenheid, of een gebeurtenis &quot;gaan. Een bezoeker koopt bijvoorbeeld een printer en heeft inkt en papier nodig. Of een bezoeker koopt pindakaas en heeft misschien ook brood en gelei nodig.
 
 * **[!UICONTROL Across Sessions]**: Gebaseerd op wat andere bezoekers tijdens meerdere sessies deden.
 
-   Wanneer u gedrag in meerdere sessies bekijkt, kan het logisch zijn dat producten sterk met elkaar &#39;meegaan&#39; op basis van de voorkeur of smaak van de bezoeker. Bijvoorbeeld, houdt een bezoeker van Star Wars en zou ook als Indiana Jones kunnen houden, zelfs als de bezoeker niet noodzakelijk beide films in de zelfde vergadering wil bekijken. Of een bezoeker houdt van het bordspel &quot;Codenames&quot; en zou ook van het bordspel &quot;Avalon&quot; kunnen houden, zelfs als de bezoeker beide games niet gelijktijdig kan spelen. 
+  Wanneer u gedrag in meerdere sessies bekijkt, kan het logisch zijn dat producten sterk &quot;met elkaar meegaan&quot; op basis van de voorkeur of smaak van de bezoeker. Bijvoorbeeld, houdt een bezoeker van Star Wars en zou ook als Indiana Jones kunnen houden, zelfs als de bezoeker niet noodzakelijk beide films in de zelfde vergadering wil bekijken. Of een bezoeker houdt van het bordspel &quot;Codenames&quot; en zou ook van het bordspel &quot;Avalon&quot; kunnen houden, zelfs als de bezoeker beide games niet gelijktijdig kan spelen. 
 
 [!DNL Target] doet aanbevelingen voor elke bezoeker op de punten in hun huidige kar wordt gebaseerd die, ongeacht of u bezoekersgedrag binnen één enkele zitting of over veelvoudige zittingen bekijkt.
 
@@ -58,7 +58,7 @@ De volgende algoritmen zijn beschikbaar met de [!UICONTROL Cart-Based] type algo
 
 Hiermee worden items aanbevolen die het vaakst worden weergegeven in dezelfde sessie als waarin het opgegeven item wordt weergegeven.
 
-Deze logica retourneert andere producten die worden weergegeven na het bekijken van deze logica. het opgegeven product niet in de resultatenset is opgenomen.
+Deze logica retourneert andere producten die worden weergegeven nadat deze is bekeken. Het opgegeven product is niet opgenomen in de resultatenset.
 
 Met deze logica kunt u aanvullende conversiemogelijkheden creëren door items aan te bevelen die andere bezoekers die een item hebben bekeken, ook hebben weergegeven. Bezoekers die op uw site fietsen bekijken, kunnen bijvoorbeeld ook fietshelmen, fietskits, sloten enzovoort bekijken. U kunt een aanbeveling tot stand brengen gebruikend deze logica die andere producten aanbeveelt u helpen opbrengst verhogen.
 
@@ -71,11 +71,11 @@ Als u dit algoritme selecteert, kunt u de volgende Recommendations-toetsen selec
 
 ### Mensen die dit bekeken hebben, kochten hen
 
-raadt objecten aan die het vaakst worden aangeschaft in dezelfde sessie als waarin het opgegeven item wordt weergegeven. Dit criterium retourneert andere producten die mensen hebben aangeschaft nadat deze is bekeken. Het opgegeven product is niet opgenomen in de resultatenset.
+Hiermee raadt u objecten aan die het vaakst worden aangeschaft in dezelfde sessie als waarin het opgegeven item wordt weergegeven. Dit criterium retourneert andere producten die mensen hebben aangeschaft nadat deze is bekeken. Het opgegeven product is niet opgenomen in de resultatenset.
 
-Deze logica retourneert andere producten die zijn aangeschaft nadat deze is bekeken. het opgegeven product niet in de resultatenset is opgenomen.
+Deze logica retourneert andere producten die mensen hebben gekocht na het bekijken van deze software. Het opgegeven product is niet opgenomen in de resultatenset.
 
-Met deze logica kunt u de mogelijkheden voor cross-selling vergroten door bijvoorbeeld een aanbeveling weer te geven op een productpagina die items weergeeft die andere bezoekers hebben bekeken die het object hebben gekocht. Als de bezoeker bijvoorbeeld een vispool bekijkt, kan de aanbeveling extra items weergeven die andere bezoekers hebben aangeschaft, zoals hakbalken, golven en blaasjes. Wanneer bezoekers door uw site bladeren, geeft u hun aanvullende aankoopaanbevelingen.
+Met deze logica kunt u de mogelijkheden voor cross-selling vergroten door bijvoorbeeld een aanbeveling weer te geven op een productpagina die items weergeeft die andere bezoekers hebben bekeken die het object hebben aangeschaft. Als de bezoeker bijvoorbeeld een vispool bekijkt, kan de aanbeveling extra items weergeven die andere bezoekers hebben aangeschaft, zoals hakbalken, golven en blaasjes. Wanneer bezoekers door uw site bladeren, geeft u hun aanvullende aankoopaanbevelingen.
 
 Als u dit algoritme selecteert, kunt u de volgende Recommendations-toetsen selecteren:
 
@@ -86,11 +86,11 @@ Als u dit algoritme selecteert, kunt u de volgende Recommendations-toetsen selec
 
 ### De mensen die dit hebben gekocht, hebben de
 
-Aanbevolen objecten die het meest door klanten tegelijk met het opgegeven item worden gekocht.
+Aanbevolen objecten die het meest door klanten tegelijk met het opgegeven item worden aangeschaft.
 
-Deze logica retourneert andere producten die mensen hebben gekocht na de aankoop van deze logica. het opgegeven product niet in de resultatenset is opgenomen.
+Deze logica retourneert andere producten die mensen hebben gekocht na deze aankoop. Het opgegeven product is niet opgenomen in de resultatenset.
 
-Met deze logica kunt u de mogelijkheden voor cross-selling vergroten door bijvoorbeeld een aanbeveling weer te geven op een overzichtspagina van winkelwagentjes waarin objecten worden weergegeven die andere kopers ook hebben gekocht. Als de bezoeker bijvoorbeeld een pak koopt, kan de aanbeveling extra artikelen weergeven die andere bezoekers samen met het pak hebben gekocht, zoals bijvoorbeeld banden, jurkschoenen en knipsels. Wanneer bezoekers hun aankopen bekijken, geeft u ze aanvullende aanbevelingen.
+Met deze logica kunt u de mogelijkheden voor cross-selling vergroten door bijvoorbeeld een aanbeveling weer te geven op een overzichtspagina van winkelwagentjes waarin objecten worden weergegeven die andere kopers ook hebben gekocht. Als de bezoeker bijvoorbeeld een pak koopt, kan de aanbeveling extra artikelen weergeven die andere bezoekers samen met het pak hebben gekocht, zoals bijvoorbeeld banden, jurkschoenen en knipsels. Wanneer bezoekers hun aankopen bekijken, geeft u aanvullende aanbevelingen aan hen.
 
 Als u dit algoritme selecteert, kunt u de volgende Recommendations-toetsen selecteren:
 
@@ -113,7 +113,7 @@ De aanbeveling wordt bepaald door het punt dat het vaakst is bekeken. Dit wordt 
 * 5 punten voor elke volgende weergave
 * Aan het einde van de sessie worden alle waarden door 2 gedeeld
 
-Als u bijvoorbeeld surfboardA en surfboardB in één sessie weergeeft, resulteert dit in A: 10, B: 5. Wanneer de zitting beëindigt, hebt u A: 5, B: 2.5 Als u dezelfde items in de volgende sessie bekijkt, veranderen de waarden in A: 15 B: 7.5
+Als u bijvoorbeeld surfboardA en surfboardB in één sessie weergeeft, resulteert dit in A: 10, B: 5. Wanneer de sessie wordt beëindigd, hebt u A: 5, B: 2.5. Als u dezelfde items in de volgende sessie bekijkt, veranderen de waarden in A: 15 B: 7.5.
 
 Gebruik dit algoritme op algemene pagina&#39;s, zoals startpagina&#39;s of bestemmingspagina&#39;s en offsite advertenties.
 
@@ -128,7 +128,7 @@ Dit wordt bepaald aan de hand van de recenentie-/frequentiecriteria die als volg
 
 De categorieën die voor het eerst worden bezocht, krijgen 10 punten. 5 punten voor latere bezoeken aan dezelfde categorie. Bij elk bezoek worden niet-huidige categorieën die eerder zijn bekeken, verlaagd met 1.
 
-Als u bijvoorbeeld CategorieA en daarna CategorieB in één sessie weergeeft, resulteert dit in A: 9, B: 10 Als u dezelfde items in de volgende sessie bekijkt, veranderen de waarden in A: 20 B: 9.
+Als u bijvoorbeeld CategorieA en daarna CategorieB in één sessie weergeeft, resulteert dit in A: 9, B: 10. Als u dezelfde items in de volgende sessie weergeeft, veranderen de waarden in A: 20 B: 9.
 
 Gebruik dit algoritme op algemene pagina&#39;s, zoals startpagina&#39;s of bestemmingspagina&#39;s en offsite advertenties.
 
@@ -184,7 +184,7 @@ De volgende algoritmen zijn beschikbaar met de [!UICONTROL Item-Based] type algo
 
 Hiermee worden items aanbevolen die het vaakst worden weergegeven in dezelfde sessie als waarin het opgegeven item wordt weergegeven.
 
-Deze logica retourneert andere producten die worden weergegeven na het bekijken van deze logica. het opgegeven product niet in de resultatenset is opgenomen.
+Deze logica retourneert andere producten die worden weergegeven nadat deze is bekeken. Het opgegeven product is niet opgenomen in de resultatenset.
 
 Met deze logica kunt u aanvullende conversiemogelijkheden creëren door items aan te bevelen die andere bezoekers die een item hebben bekeken, ook hebben weergegeven. Bezoekers die op uw site fietsen bekijken, kunnen bijvoorbeeld ook fietshelmen, fietskits, sloten enzovoort bekijken. U kunt een aanbeveling tot stand brengen gebruikend deze logica die andere producten aanbeveelt u helpen opbrengst verhogen.
 
@@ -197,11 +197,11 @@ Als u dit algoritme selecteert, kunt u de volgende Recommendations-toetsen selec
 
 ### Mensen die dit bekeken hebben, hebben het volgende gekocht {#viewed-bought}
 
-raadt objecten aan die het vaakst worden aangeschaft in dezelfde sessie als waarin het opgegeven item wordt weergegeven. Dit criterium retourneert andere producten die mensen hebben aangeschaft nadat deze is bekeken. Het opgegeven product is niet opgenomen in de resultatenset.
+Hiermee raadt u objecten aan die het vaakst worden aangeschaft in dezelfde sessie als waarin het opgegeven item wordt weergegeven. Dit criterium retourneert andere producten die mensen hebben aangeschaft nadat deze is bekeken. Het opgegeven product is niet opgenomen in de resultatenset.
 
-Deze logica retourneert andere producten die zijn aangeschaft nadat deze is bekeken. het opgegeven product niet in de resultatenset is opgenomen.
+Deze logica retourneert andere producten die mensen hebben gekocht na het bekijken van deze software. Het opgegeven product is niet opgenomen in de resultatenset.
 
-Met deze logica kunt u de mogelijkheden voor cross-selling vergroten door bijvoorbeeld een aanbeveling weer te geven op een productpagina die items weergeeft die andere bezoekers hebben bekeken die het object hebben gekocht. Als de bezoeker bijvoorbeeld een vispool bekijkt, kan de aanbeveling extra items weergeven die andere bezoekers hebben aangeschaft, zoals hakbalken, golven en blaasjes. Wanneer bezoekers door uw site bladeren, geeft u hun aanvullende aankoopaanbevelingen.
+Met deze logica kunt u de mogelijkheden voor cross-selling vergroten door bijvoorbeeld een aanbeveling weer te geven op een productpagina die items weergeeft die andere bezoekers hebben bekeken die het object hebben aangeschaft. Als de bezoeker bijvoorbeeld een vispool bekijkt, kan de aanbeveling extra items weergeven die andere bezoekers hebben aangeschaft, zoals hakbalken, golven en blaasjes. Wanneer bezoekers door uw site bladeren, geeft u hun aanvullende aankoopaanbevelingen.
 
 Als u dit algoritme selecteert, kunt u de volgende Recommendations-toetsen selecteren:
 
@@ -212,11 +212,11 @@ Als u dit algoritme selecteert, kunt u de volgende Recommendations-toetsen selec
 
 ### Mensen die dit hebben gekocht, hebben het volgende gekocht {#bought-bought}
 
-Aanbevolen objecten die het meest door klanten tegelijk met het opgegeven item worden gekocht.
+Aanbevolen objecten die het meest door klanten tegelijk met het opgegeven item worden aangeschaft.
 
-Deze logica retourneert andere producten die mensen hebben gekocht na de aankoop van deze logica. het opgegeven product niet in de resultatenset is opgenomen.
+Deze logica retourneert andere producten die mensen hebben gekocht na deze aankoop. Het opgegeven product is niet opgenomen in de resultatenset.
 
-Met deze logica kunt u de mogelijkheden voor cross-selling vergroten door bijvoorbeeld een aanbeveling weer te geven op een overzichtspagina van winkelwagentjes waarin objecten worden weergegeven die andere kopers ook hebben gekocht. Als de bezoeker bijvoorbeeld een pak koopt, kan de aanbeveling extra artikelen weergeven die andere bezoekers samen met het pak hebben gekocht, zoals bijvoorbeeld banden, jurkschoenen en knipsels. Wanneer bezoekers hun aankopen bekijken, geeft u ze aanvullende aanbevelingen.
+Met deze logica kunt u de mogelijkheden voor cross-selling vergroten door bijvoorbeeld een aanbeveling weer te geven op een overzichtspagina van winkelwagentjes waarin objecten worden weergegeven die andere kopers ook hebben gekocht. Als de bezoeker bijvoorbeeld een pak koopt, kan de aanbeveling extra artikelen weergeven die andere bezoekers samen met het pak hebben gekocht, zoals bijvoorbeeld banden, jurkschoenen en knipsels. Wanneer bezoekers hun aankopen bekijken, geeft u aanvullende aanbevelingen aan hen.
 
 Als u dit algoritme selecteert, kunt u de volgende Recommendations-toetsen selecteren:
 
@@ -269,7 +269,7 @@ Gebruik dit algoritme op algemene pagina&#39;s, zoals startpagina&#39;s of beste
 
 >[!NOTE]
 >
->[!UICONTROL Recently Viewed Items] Hiermee worden zowel de globale instellingen voor uitsluitingen als de geselecteerde verzamelingsinstelling voor de activiteit in acht genomen. Als een item wordt uitgesloten door een algemene uitsluiting of niet in de geselecteerde verzameling voorkomt, wordt het item niet weergegeven. Daarom bij het gebruik van een [!UICONTROL Recently Viewed Items] criteria, moet de instelling &quot;Alle verzamelingen&quot; doorgaans worden gebruikt.
+>[!UICONTROL Recently Viewed Items] Hiermee worden zowel de globale instellingen voor uitsluitingen als de geselecteerde verzamelingsinstelling voor de activiteit in acht genomen. Als een item wordt uitgesloten door een algemene uitsluiting of niet in de geselecteerde verzameling voorkomt, wordt het item niet weergegeven. Daarom bij het gebruik van een [!UICONTROL Recently Viewed Items] De instelling &quot;Alle verzamelingen&quot; moet in het algemeen worden gebruikt.
 
 ### Aanbevolen voor u {#recommended-for-you}
 
@@ -303,7 +303,7 @@ Wanneer u aanbevelingen baseert op douanekenmerken, moet u het douanekenmerk sel
 
 U kunt filter in real time bovenop uw eigen output van douanecriteria uitvoeren. U kunt bijvoorbeeld de aanbevolen objecten beperken tot objecten van de favoriete rubriek of het favoriete merk van een bezoeker. Dit geeft u de macht om off-line berekeningen met het filtreren in real time te combineren.
 
-Deze functionaliteit betekent dat u [!DNL Target] om verpersoonlijking bovenop uw off-line berekende aanbevelingen of douane-gebogen lijsten toe te voegen. Dit combineert de kracht van gegevenswetenschappers en onderzoek met uw beproefde levering, runtime het filtreren, A/B het testen, het richten, het melden, de integratie, en meer.
+Deze functionaliteit betekent dat u kunt gebruiken [!DNL Target] om verpersoonlijking bovenop uw off-line berekende aanbevelingen of douane-gebogen lijsten toe te voegen. Dit combineert de kracht van uw gegevenswetenschappers en onderzoek met de beproefde levering van de Adobe, runtime het filtreren, het testen A/B, het richten, het melden, de integratie, en meer.
 
 Met de toevoeging van inclusieregels op de criteria van de Douane, verandert dit anders statische aanbevelingen in dynamische aanbevelingen gebaseerd op de belangen van een bezoeker.
 
@@ -324,7 +324,7 @@ De volgende aanbevelingen zijn beschikbaar via de [!UICONTROL Recommendation Key
 
 De aanbeveling wordt bepaald door het item dat de bezoeker momenteel bekijkt.
 
-Recommendations geeft andere objecten weer die bezoekers interesseren voor het opgegeven object.
+Recommendations geeft andere objecten weer die bezoekers kunnen interesseren voor het opgegeven object.
 
 Als deze optie is geselecteerd, wordt `entity.id` waarde moet als parameter in de vertoningsdoos worden overgegaan.
 
@@ -369,7 +369,7 @@ Als uw attribuut van het douaneprofiel niet direct met één enkele entiteitiden
 
 1. Selecteer het aangepaste profielkenmerk in het menu **[!UICONTROL Recommendation Key]** vervolgkeuzelijst (bijvoorbeeld Favoriete merk).
 
-1. Selecteer vervolgens de **[!UICONTROL Recommendation Logic]** wilt gebruiken met deze sleutel (bijvoorbeeld &#39;Topverkopers&#39;).
+1. Selecteer vervolgens de optie **[!UICONTROL Recommendation Logic]** Je wilt deze sleutel gebruiken (bijvoorbeeld Topverkopers).
 
    De [!UICONTROL Group By Unique Value Of] weergegeven.
 

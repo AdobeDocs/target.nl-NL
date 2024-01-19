@@ -4,9 +4,9 @@ description: Leren gebruiken [!DNL Adobe Experience Manager] [!UICONTROL Content
 title: Hoe gebruikt u [!DNL Adobe Experience Manager] AEM [!UICONTROL Content Fragments]?
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
-source-git-commit: 593cbcc1ff8ccae7afa6098524e95659aa6890f3
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Meer informatie over AEM [!UICONTROL Content Fragments] en [!UICONTROL Experienc
 
 ## Vereisten {#requirements}
 
-U moet [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. Uw accountvertegenwoordiger kan ervoor zorgen dat u voldoet aan de vereisten om deze functie te gebruiken:
+U moet [[!DNL AEM] as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. Uw accountvertegenwoordiger kan ervoor zorgen dat u voldoet aan de vereisten om deze functie te gebruiken:
 
 Contact [Adobe Target Klantenservice](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om de integratie toe te laten en u van authentificatiedetails te voorzien.
 

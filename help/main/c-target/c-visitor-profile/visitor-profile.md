@@ -4,10 +4,10 @@ description: Leer meer over bezoekersprofielen die informatie bevatten over hoe 
 title: Wat zijn bezoekerprofielen?
 feature: Audiences
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 1%
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
@@ -21,9 +21,9 @@ Standaard, [!DNL Target] profielgegevens worden opgeslagen in één cookie van d
 
 De volgende secties bevatten meer informatie:
 
-- [Levensduur bezoekersprofiel](visitor-profile-lifetime.md)
+- [Levensduur van bezoekersprofiel](visitor-profile-lifetime.md)
 - [Profielkenmerken](profile-parameters.md)
 - [Categorie-affiniteit](category-affinity.md)
-- [Klantkenmerken](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+- [Klantkenmerken](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 - [Profielsynchronisatie in realtime voor mbox3rdPartyID](3rd-party-id.md)
 - [Profiel en verklarende woordenlijst voor variabelen](variables-profiles-parameters-methods.md)

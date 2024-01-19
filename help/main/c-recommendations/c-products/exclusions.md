@@ -4,9 +4,9 @@ description: Leer hoe u uitsluitingen maakt in Adobe [!DNL Target] Recommendatio
 title: Hoe gebruik ik uitsluitingen in Recommendations-activiteiten?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Enkele voorbeelden van de tijden u uitsluitingen zou gebruiken omvatten:
 
    ![exclusies_list-afbeelding](assets/exclusions_list.png)
 
-   Het gerapporteerde &quot;Aantal posten&quot; voor elke uitsluiting op de [!UICONTROL Exclusions] lijstmening is het aantal producten die de regels voor die uitsluiting binnen de gevormde standaardRecommendations aanpassen [hostgroep](/help/main/administrating-target/hosts.md) (milieu). Zie [Instellingen](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} om de standaardgastheergroep te veranderen.
+   Het gerapporteerde &quot;Aantal posten&quot; voor elke uitsluiting op de [!UICONTROL Exclusions] lijstmening is het aantal producten die de regels voor die uitsluiting binnen de gevormde standaardRecommendations aanpassen [hostgroep](/help/main/administrating-target/hosts.md) (milieu). Zie [Instellingen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} om de standaardgastheergroep te veranderen.
 
 1. Klik op **[!UICONTROL Create Exclusion]**.
 
@@ -63,7 +63,7 @@ Nadat u een zoekopdracht hebt gemaakt met &#39;id > contains&#39;, kunt u bijvoo
 
 >[!IMPORTANT]
 >
->De [!UICONTROL Advanced Search] de functionaliteit is niet hoofdlettergevoelig; producten die op het tijdstip van levering worden geretourneerd, zijn echter gebaseerd op hoofdlettergevoelige zoekopdrachten. Deze wanverhouding kan tot verwarring leiden. Zorg ervoor dat u rekening houdt met hoofdlettergevoeligheid wanneer u uitsluitingen maakt op basis van resultaten met de functie Geavanceerd zoeken. Als u bijvoorbeeld zoekt naar &#39;Vakantie&#39;, worden in de eerste zoekopdracht resultaten weergegeven die &#39;Vakantie&#39; en &#39;Vakantie&#39; bevatten. Als u vervolgens een uitzondering maakt met de bedoeling producten die vakantie bevatten, uit te sluiten, worden alleen producten die vakantie bevatten, uitgesloten. Producten die &quot;vakantie&quot; bevatten, zijn niet uitgesloten.
+>De [!UICONTROL Advanced Search] de functionaliteit is case-insensitive; nochtans, zijn de producten die op het tijdstip van levering zijn teruggekeerd gebaseerd op case-sensitive onderzoek. Deze wanverhouding kan tot verwarring leiden. Zorg ervoor dat u rekening houdt met hoofdlettergevoeligheid wanneer u uitsluitingen maakt op basis van resultaten met de functie Geavanceerd zoeken. Als u bijvoorbeeld zoekt naar &#39;Vakantie&#39;, worden in de eerste zoekopdracht resultaten weergegeven die &#39;Vakantie&#39; en &#39;Vakantie&#39; bevatten. Als u vervolgens een uitzondering maakt met de bedoeling producten die vakantie bevatten, uit te sluiten, worden alleen producten die vakantie bevatten, uitgesloten. Producten die &quot;vakantie&quot; bevatten, zijn niet uitgesloten.
 
 ## Een uitsluiting bewerken, kopiëren of verwijderen
 

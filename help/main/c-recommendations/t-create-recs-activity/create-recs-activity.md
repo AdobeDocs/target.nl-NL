@@ -2,12 +2,12 @@
 keywords: aanbevelingen maken;aanbevelingen, activiteit;nieuwe aanbevelingen;aanbevelingen, overzicht
 description: Leer hoe u de Adobe gebruikt [!DNL Target] Visual Experience Composer (VEC) om een Recommendations-activiteit rechtstreeks op een [!DNL Target]-enabled pagina.
 title: Hoe maak ik een Recommendations-activiteit?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1252'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit van Recommendations direct op een Doel-Toegelaten pagina tot stand te brengen en gedeelten van de pagina binnen Doel te wijzigen.
 
-1. Klik op **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
+1. Klikken **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
 
    ![Recommendations-activiteit maken](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_CreateActivity.png)
 
@@ -24,13 +24,13 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 
    ![Recommendations-activiteit maken, dialoogvenster](/help/main/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
 
-   Selecteer [!UICONTROL Form]. Zie [Formuliergebaseerde Experience Composer](/help/main/c-experiences/form-experience-composer.md) voor meer informatie .
+   Als u liever de Form-Based Experience Composer gebruikt, selecteert u [!UICONTROL Form]. Zie [Formuliergebaseerde Experience Composer](/help/main/c-experiences/form-experience-composer.md) voor meer informatie .
 
    >[!NOTE]
    >
-   >Naast de VEC en Form-Based Experience Composer, biedt Target de Single Page Application VEC en de VEC voor Mobile Apps. Voor meer informatie over de verschillende composers raadpleegt u [Ervaringen en aanbiedingen](/help/main/c-experiences/experiences.md).
+   >Naast de VEC en Form-Based Experience Composer, biedt Target de Single Page Application VEC en de VEC voor Mobile Apps. Zie voor meer informatie over de verschillende composers [Ervaringen en aanbiedingen](/help/main/c-experiences/experiences.md).
    >
-   >Voor het oplossen van problemeninformatie over VEC, als u problemen hebt, zie [Het oplossen van problemen de Visuele Composer van de Ervaring](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+   >Voor het oplossen van problemeninformatie over VEC, als u problemen hebt, zie [Problemen oplossen met de composer voor visuele ervaring](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
    >De [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) optie in de voorgaande illustratie is een [Doelpremie](/help/main/c-intro/intro.md) gebruiken. Uw organisatie heeft een licentie voor Target Standard als deze optie niet wordt weergegeven.
 
@@ -40,7 +40,7 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 
    >[!NOTE]
    >
-   >[!DNL Target] maakt geen onderscheid tussen URL-protocollen ( [!DNL https] en [!DNL http]). Dientengevolge [!DNL `http://www.adobe.com`] en [!DNL `https://wwww.adobe.com`] beide komen overeen.
+   >[!DNL Target] maakt geen onderscheid tussen URL-protocollen ( [!DNL https] en [!DNL http]). Dientengevolge, [!DNL `http://www.adobe.com`] en [!DNL `https://wwww.adobe.com`] beide komen overeen.
 
    De activiteiten-URL is de pagina waarop de aanbevelingen worden weergegeven.
 
@@ -75,21 +75,21 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 
 1. Selecteer een of meer [criteria](/help/main/c-recommendations/c-algorithms/algorithms.md).
 
-   De criteria worden getoond als kaarten die informatie over elke criteria tonen. Standaard worden de [!UICONTROL Select Criteria] op het scherm worden criteria weergegeven die compatibel zijn met de verticale instellingen van uw bedrijf en het paginatype dat u in de vorige stap hebt geselecteerd. U kunt deze opties wijzigen om andere criteria weer te geven.
+   De criteria worden getoond als kaarten die informatie over elke criteria tonen. Standaard worden de [!UICONTROL Select Criteria] op het scherm worden criteria weergegeven die compatibel zijn met de verticale instellingen van uw bedrijf en het paginatype dat u in de vorige stap hebt geselecteerd. U kunt deze opties wijzigen en andere criteria weergeven.
 
    >[!NOTE]
    >
-   >Niet alle criteria worden op elke pagina correct uitgevoerd. De pagina of het selectievakje moet worden ingeschakeld `entity.id` of `entity.categoryId` voor het huidige item of de huidige categorie. Over het algemeen is het beter alleen compatibele criteria te laten zien. Als u echter incompatibele criteria voor de activiteit wilt gebruiken, wist u de optie **[!UICONTROL Compatible]** selectievakje. De [!UICONTROL Compatible] deze optie wordt mogelijk niet weergegeven, afhankelijk van uw Recommendations-instellingen ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Zie voor meer informatie [Instellingen](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+   >Niet alle criteria worden op elke pagina correct uitgevoerd. De pagina of het selectievakje moet worden ingeschakeld `entity.id` of `entity.categoryId` voor het huidige item of de huidige categorie compatibele aanbevelingen. Over het algemeen is het beter alleen compatibele criteria te laten zien. Als u echter incompatibele criteria voor de activiteit wilt gebruiken, wist u de optie **[!UICONTROL Compatible]** selectievakje. De [!UICONTROL Compatible] deze optie wordt mogelijk niet weergegeven, afhankelijk van uw Recommendations-instellingen ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Zie voor meer informatie [Instellingen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
    ![Selectiecriteria, dialoogvenster](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
    Als u meerdere criteria selecteert, wordt het verkeer gelijkmatig over de geselecteerde criteria verdeeld. Als u bijvoorbeeld twee criteria hebt geselecteerd en uw activiteit is ontworpen om standaardinhoud weer te geven voor 20% van de deelnemers aan de activiteit, dan zal 40% van de deelnemers aan de activiteit de aanbevelingen zien die door elke criteria worden gecontroleerd. Er is geen optie om de percentages voor elke criteria te wijzigen.
 
-   * Als u naar bestaande criteria wilt zoeken (bijvoorbeeld als een groot aantal kaarten met criteria wordt weergegeven), typt u in het zoekveld totdat de gewenste criteria worden weergegeven, selecteert u de criteria en klikt u op **[!UICONTROL Next]**.
+   * Als u naar bestaande criteria wilt zoeken (bijvoorbeeld als een groot aantal criteria wordt weergegeven), typt u in het zoekveld totdat de gewenste criteria worden weergegeven, selecteert u de criteria en klikt u op **[!UICONTROL Next]**.
 
-      Sommige criteria worden verstrekt [!DNL Recommendations]. U en uw team kunnen ook uw eigen aangepaste criteria maken.
+     Sommige criteria worden geleverd bij [!DNL Recommendations]. U en uw team kunnen ook uw eigen aangepaste criteria maken.
 
-   * Als u nieuwe criteria wilt maken, klikt u op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** en vult vervolgens de informatie voor de nieuwe criteria in. Voor informatie over het creëren van nieuwe criteria, zie [Criteria maken](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
+   * Als u nieuwe criteria wilt maken, klikt u op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** en vult vervolgens de informatie voor de nieuwe criteria in. Voor informatie over het maken van nieuwe criteria raadpleegt u [Criteria maken](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
    * U kunt criteria ook in reeksen groeperen. Als u een nieuwe reeks criteria wilt maken, klikt u op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Zie [Criteria-reeks maken](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md) voor meer informatie .
 
 1. Klik op **[!UICONTROL Next]**.
@@ -103,9 +103,9 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 
    * Als u een of meer bestaande ontwerpen wilt selecteren, klikt u op de ontwerpen en vervolgens op **[!UICONTROL Next]**.
 
-      Als u meerdere criteria hebt geselecteerd, kunt u slechts één ontwerp selecteren.
+     Als u meerdere criteria hebt geselecteerd, kunt u slechts één ontwerp selecteren.
 
-   * Als u een aangepast ontwerp wilt maken, klikt u op **[!UICONTROL Create Design]** en vult vervolgens de naam en de code voor het nieuwe ontwerp in. Klikken **[!UICONTROL Next]** selecteert of uploadt u vervolgens een afbeelding en klikt u op **[!UICONTROL Done]** > **[!UICONTROL Done]**. Voor informatie over het maken van een nieuw ontwerp raadpleegt u [Een ontwerp maken](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   * Als u een aangepast ontwerp wilt maken, klikt u **[!UICONTROL Create Design]** en vult vervolgens de naam en de code voor het nieuwe ontwerp in. Klikken **[!UICONTROL Next]** selecteert of uploadt u vervolgens een afbeelding en klikt u op **[!UICONTROL Done]** > **[!UICONTROL Done]**. Voor informatie over het maken van een nieuw ontwerp raadpleegt u [Een ontwerp maken](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 
 1. Klik op **[!UICONTROL Next]**.
 
@@ -133,16 +133,16 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 
    * Wijzig het publiek dat de aanbevelingen zal zien
 
-      >[!NOTE]
-      >
-      >Naast het selecteren van een bestaand publiek, kunt u [een alleen-actief publiek maken](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) of [meerdere soorten publiek combineren](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) ad-hocdoelgroepen maken in plaats van een nieuw publiek te creëren.
+     >[!NOTE]
+     >
+     >Naast het selecteren van een bestaand publiek, kunt u [een alleen-actief publiek maken](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) of [meerdere soorten publiek combineren](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) ad-hocdoelgroepen maken in plaats van een nieuw publiek te creëren.
 
-      Standaard zien alle gebruikers de aanbevelingen. U kunt de aanbeveling echter richten op een specifiek publiek.
+     Standaard zien alle gebruikers de aanbevelingen. U kunt de aanbeveling echter richten op een specifiek publiek.
 
-      Voor een [!DNL Recommendations] activiteit, ziet de controlegroep de pagina zonder enige aanbevelingen.
+     Voor een [!DNL Recommendations] activiteit, ziet de controlegroep de pagina zonder enige aanbevelingen.
 
    * De criteria weergeven
-   * De verzameling wijzigen (naast de [!UICONTROL Criteria] label)
+   * Wijzig de verzameling (naast de [!UICONTROL Criteria] label)
    * Wijzig het percentage gegadigden dat de controleervaring ziet
    * De ontwerpcode weergeven
    * Een ontwerp wijzigen of verwijderen
@@ -150,13 +150,13 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 1. Klikken **[!UICONTROL Next]** wanneer gereed.
 1. Geef de activiteitinstellingen op.
 
-   Typ bijvoorbeeld een naam (vereist) en een doelstelling (optioneel) voor de activiteit. Voor informatie over de instellingen raadpleegt u [Recommendations Activity Settings](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
+   Typ bijvoorbeeld een naam (vereist) en een doelstelling (optioneel) voor de activiteit. Zie voor informatie over de instellingen [Recommendations Activity Settings](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
 
    >[!NOTE]
    >
    >Als u een [!DNL Recommendation] naam van activiteit die al bestaat voor een andere activiteit in [!DNL Recommendations Classic], wordt de nieuwe activiteit opnieuw gesynchroniseerd met een nieuwe naam. De nieuwe naam is de oorspronkelijke naam die met een tijdstempel is toegevoegd om deze uniek te maken. Deze nieuwe naam wordt in beide weergegeven [!DNL Target Standard/Premium] en [!DNL Recommendations Classic].
 
-1. Als u klaar bent, klikt u op **[!UICONTROL Save & Close]**.
+1. Klik op **[!UICONTROL Save & Close]**.
 
    Er wordt een overzicht van uw activiteiten weergegeven.
 
@@ -164,7 +164,7 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 
    * De activiteit activeren
    * De activiteit bewerken
-   * De activiteit delen met uw Experience Cloud-feed
+   * De activiteit delen met de feed van het Experience Cloud
    * QA de activiteit
    * Ervings-URL&#39;s weergeven
    * Gegevens downloaden

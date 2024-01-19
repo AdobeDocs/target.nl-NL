@@ -1,13 +1,13 @@
 ---
 keywords: entiteit;entiteitskenmerken;informatie doorgeven aan Recommendations;gedraggegevens;gegevensteller;relatieve URL definiëren;inventarisniveau weergeven;prijs definiëren;winstmarge definiëren;aangepaste kenmerken
 description: Leer hoe u entiteitskenmerken kunt gebruiken om product- of inhoudsgegevens door te geven aan [!DNL Target] Recommendations.
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
 title: Hoe gebruik ik entiteitskenmerken?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ In het algemeen ziet het informatievenster voor de weergave er als in het volgen
 
 >[!NOTE]
 >
->Als u at.js 2 gebruikt.*x*, `mboxCreate` (zoals in het volgende voorbeeld wordt gebruikt) wordt niet meer ondersteund. Product- of inhoudsgegevens doorgeven aan [!DNL Recommendations] met behulp van at.js 2.*x*, gebruik [targetPageParams](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+>Als u at.js 2 gebruikt.*x*, `mboxCreate` (zoals in het volgende voorbeeld wordt gebruikt) wordt niet meer ondersteund. Product- of inhoudsgegevens doorgeven aan [!DNL Recommendations] met behulp van at.js 2.*x*, gebruik [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -95,19 +95,19 @@ Voorbeeld: `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Ondersteunt meerdere waarden (door komma&#39;s gescheiden lijst).
 
-Categorie van de huidige pagina. De entiteit.categoryID kan meerdere categorieën bevatten, zoals een subsectie over cardigans (bijvoorbeeld vrouwen, vrouwen:zweet, vrouwen):sweaters:cardigans). Meerdere categorieën moeten worden gescheiden door komma&#39;s.
+Categorie van de huidige pagina. De entiteit.categoryID kan veelvoudige categorieën, zoals een cardigans subsection (bijvoorbeeld vrouwen, vrouwen:truien, vrouwen omvatten:sweaters:cardigans). Meerdere categorieën moeten worden gescheiden door komma&#39;s.
 
 De `categoryId` waarde is beperkt tot 250 tekens.
 
 >[!NOTE]
 >
->Een aanbeveling weergeven op basis van een categorie in een [!UICONTROL Category] pagina, slechts één `categoryId` kan in mbox worden overgegaan die wordt gebruikt om die bepaalde aanbeveling te tonen. De waarde van de `categoryId` moet exact overeenkomen met de waarde van `entity.categoryId` doorgegeven aan de [!UICONTROL Product Detail] pagina.
+>Een aanbeveling weergeven op basis van een categorie in een [!UICONTROL Category] pagina, slechts één `categoryId` kan in mbox worden overgegaan die wordt gebruikt om die bepaalde aanbeveling te tonen. De waarde van `categoryId` moet exact overeenkomen met de waarde van `entity.categoryId` doorgegeven aan de [!UICONTROL Product Detail] pagina.
 
 Voorbeelden:
 
 * Voorbeeld van productdetailpagina: vrouwen, vrouwen:truien, vrouwen:sweaters:cardigans
-* Voorbeeld van categorie Paginanummers: vrouwen:truien
-* Voorbeeld van paginakaartjes voor categorieën: vrouwen:sweaters:cardigans
+* Voorbeeld van categorie Paginanummers: vrouwen:sweaters
+* Voorbeeld van paginakardigans: vrouwen:sweaters:cardigans
 
 Voor op categorieën gebaseerde aanbevelingen wordt de categoriewaarde met een komma van elkaar gescheiden. Waarden die door komma&#39;s worden gescheiden, worden categorieën. U kunt ook subcategorieën definiëren door een ander scheidingsteken, zoals een dubbele punt (:), te gebruiken om subcategorieën binnen de categoriewaarde te scheiden.
 
@@ -123,7 +123,7 @@ Voor de levering mbox, wordt de langste kenmerknaam gebruikt voor de sleutel. Al
 
 Alleen één waarde.
 
-Hiermee geeft u de merknaam van een item weer.
+Geeft de merknaam van een item weer.
 
 Voorbeeld: `'entity.brand=brandxyz'`
 
@@ -204,7 +204,7 @@ Aangepaste entiteitskenmerken ondersteunen meerdere waarden. Zie [Aangepaste ent
 
 Voorbeeld: `'entity.secondary=["band1",&nbsp;"band2"]'`
 
-Aangepaste entiteitskenmerken van meerdere waarden vereisen geldige JSON-arrays. Voor correcte syntaxisinformatie raadpleegt u [Kenmerken Aangepaste entiteit](/help/main/c-recommendations/c-products/custom-entity-attributes.md).
+Aangepaste entiteitskenmerken van meerdere waarden vereisen geldige JSON-arrays. Zie voor correcte syntaxisinformatie [Kenmerken Aangepaste entiteit](/help/main/c-recommendations/c-products/custom-entity-attributes.md).
 
 ### entity.event.detailsOnly
 
@@ -224,4 +224,3 @@ mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new yo
 >[!MORELIKETHIS]
 >
 >* [Kenmerken Aangepaste entiteit](/help/main/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
-

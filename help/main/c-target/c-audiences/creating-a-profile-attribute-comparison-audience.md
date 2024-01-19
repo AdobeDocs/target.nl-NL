@@ -4,9 +4,9 @@ description: Leer hoe u een publiek definieert om twee profielkenmerken te verge
 title: Kan ik twee profielkenmerken vergelijken voor gebruik bij het publiek?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,13 @@ Bijvoorbeeld, veronderstellen wij u voor een meubelbedrijf werkt en twee klanten
 
 Je zou een publiek kunnen maken dat gedefinieerd wordt als de neiging om eetkamermeubilair te kopen groter is dan de neiging om meubilair van woonkamertjes te kopen. [!DNL Target] Vervolgens worden de scores voor de eetruimte en de neiging tot woonkamer dynamisch met elkaar vergeleken om te bepalen of de bezoeker voor dit publiek in aanmerking komt.
 
-Zie voor meer informatie [Methoden om gegevens op te halen in doel](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
+Zie voor meer informatie [Methoden om gegevens op te halen in doel](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 ## Een vergelijkingspubliek voor profielkenmerken maken {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. Klik op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Klikken **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Geef een naam op voor het publiek en voeg een optionele beschrijving toe.
-1. Slepen en neerzetten **[!UICONTROL Visitor Profile]** in het deelvenster voor publieksopbouw.
+1. Slepen en slepen **[!UICONTROL Visitor Profile]** in het deelvenster voor publieksopbouw.
 1. Van de **[!UICONTROL Visitor Profile]** kiest u een kenmerk in de vervolgkeuzelijst:
 
    ![Propensatiescore 1](assets/propensity_score_1.png)

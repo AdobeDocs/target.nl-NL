@@ -4,16 +4,16 @@ description: Herzie een lijst van onderwerpen om u te helpen kwesties in Adobe T
 title: Hoe los ik Doel problemen op?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
 
 # Doel oplossen
 
-Lijst met onderwerpen die u helpen problemen op te lossen in [!DNL Adobe Target], waaronder onderwerpen over probleemoplossing, veelgestelde vragen (FAQ&#39;s) en andere nuttige onderwerpen.
+Lijst met onderwerpen om u te helpen problemen op te lossen in [!DNL Adobe Target], waaronder onderwerpen over probleemoplossing, veelgestelde vragen (FAQ&#39;s) en andere nuttige onderwerpen.
 
 ## Activiteiten
 
@@ -70,7 +70,7 @@ De volgende secties bevatten het oplossen van problemeninformatie over activitei
    * [Metrische definities - Veelgestelde vragen A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
    * [Metrische gegevens, segmenten en rapporten delen - Veelgestelde vragen voor A4T](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
    * [Classificaties - A4T Veelgestelde vragen](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
-   * [Legacy SiteCatalyst tot Test &amp; Target-integratie - A4T - Veelgestelde vragen](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
+   * [Legacy SiteCatalyst voor Test &amp; Target-integratie - A4T veelgestelde vragen](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
 
 ## Soorten publiek en doelstellingen
 
@@ -96,7 +96,7 @@ De volgende secties bevatten het oplossen van problemeninformatie over activitei
 
 ## Globale mbox
 
-* [Globale mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [Globale mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ## Gastheren/omgevingen
 
@@ -108,23 +108,23 @@ De volgende secties bevatten het oplossen van problemeninformatie over het uitvo
 
 ### Algemene uitvoering
 
-* [Ondersteunde browsers](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
-* [Op cloud gebaseerde instanties gebruiken met Doel](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
+* [Ondersteunde browsers](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
+* [Op cloud gebaseerde instanties gebruiken met Doel](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
 
 ### Algemene vakken
 
-* [Veelgestelde vragen over Global mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [Veelgestelde vragen over Global mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ### at.js
 
 * [at.js Veelgestelde vragen](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html)
-* [Foutopsporing bij .js met Adobe Experience Cloud Debugger](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
-* [details van de at.js-versie](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
+* [Foutopsporing bij .js met Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
+* [details at.js-versie](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
 * &quot;Office Hours&quot;-video, een initiatief onder leiding van het Adobe Customer Care-team.
 
 ## Mobiele apps
 
-* [Veelgestelde vragen over het doel voor mobiele apps](https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
+* [Veelgestelde vragen over het doel voor mobiele apps](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
 
 ## Rapportage
 
@@ -133,17 +133,17 @@ De volgende secties bevatten het oplossen van problemeninformatie over het uitvo
 
 ## SEO (Search Engine Optimization)
 
-* [SEO-tests (Search Engine Optimization, optimalisatie van zoekprogramma&#39;s)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [SEO-tests (Search Engine Optimization, optimalisatie van zoekmachines)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 
 ## Beveiliging
 
-* [Inhoudsbeveiligingsbeleid (CSP)-instructies](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
+* [Inhoudsbeveiligingsbeleid (CSP)-instructies](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
 
 ## Systeemstatus
 
 * [Systeemstatusupdates](/help/main/r-release-notes/system-status-updates.md)
 
-## Doelstelling
+## Targeting
 
 * [Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md)
 
@@ -154,7 +154,7 @@ De volgende secties bevatten het oplossen van problemeninformatie over het uitvo
 ## Visual Experience Composer (VEC)
 
 * [Veelgestelde vragen over optimalisatie en personalisatie](/help/main/c-intro/cmp-target-standard-cheatsheet.md)
-* [Het oplossen van problemen de Visuele Composer van de Ervaring](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
+* [Problemen oplossen met de composer voor visuele ervaring](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
 * [Aanbevolen werkwijzen en beperkingen van Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [Wijzigingen](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
 * [De extensie Visuele bewerkingshulp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
