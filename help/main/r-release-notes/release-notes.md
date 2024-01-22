@@ -6,9 +6,9 @@ short-description: Meer informatie over de nieuwe functies, verbeteringen en opl
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -19,23 +19,28 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
 
-## [!DNL Target] Standaard/Premium 23.11.1 (13 en 14 november 2023)
+## Afschrijving van iPad en iPhone van kenmerk Browser-publiek (30 april 2024)
+
+| Deprectie | Details |
+|--- |--- |
+| [!DNL iPad] en [!DNL iPhone] worden vervangen door de [Browserkenmerk](/help/main/c-target/c-audiences/c-target-rules/browser.md) gebruikt bij het maken van soorten publiek.<p>Vervaldatum:<P>30 april 2024 | [!DNL Adobe Target] laat u [doel op een van de verschillende categoriekenmerken](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inclusief gebruikers die een specifieke [browser- of browseropties](/help/main/c-target/c-audiences/c-target-rules/browser.md) wanneer ze uw pagina bezoeken.<P><B>Vanaf 30 april 2024 worden iPad en iPhone van de beschikbare [!UICONTROL Browser] Typ een vervolgkeuzelijst bij het maken van categorieën voor het publiek.</b><P>Als u een publiek hebt dat iPads of iPhones als doel heeft met de [!UICONTROL Browser] , moet u deze instellingen vóór 30 april 2024 wijzigen om ervoor te zorgen dat dit publiek naar behoren blijft functioneren.<p>Zie voor voorbeelden van alternatieve instellingen [Afschrijving van iPad en iPhone van kenmerk Browser-publiek (30 april 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
+
+## [!DNL Target] Standard/Premium 24.1.1 (22, 23 en 25 januari 2024)
 
 Deze release is gepland voor de volgende dagen:
 
-* **13 november**: regio Azië-Stille Oceaan (APAC)
-* **14 november**: Amerikaanse regio
-* **14 november** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
+* **22 januari** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
+* **23 januari**: regio Azië-Stille Oceaan (APAC)
+* **25 januari**: Amerikaanse regio
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
-* Verbeterde het [Activiteit QA](/help/main/c-activities/c-activity-qa/activity-qa.md) te ondersteunen functie [dubbele aanbiedingen negeren](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) voor ervaringen in [!UICONTROL Automated Personalization] activiteiten. (TGT-46627)
-* Knopinfo toegevoegd in het dialoogvenster [!DNL Target] UI om klanten te helpen begrijpen waarom er geen gegevens beschikbaar in activiteitenrapporten zouden kunnen zijn als geen verkeer aan de controleervaring wordt toegewezen. De knopinfo bevat een koppeling naar meer informatie: [Waarom zijn er geen gegevens beschikbaar voor mijn activiteitenverslag?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
-* Probleem verholpen waardoor activiteiten niet correct konden worden weergegeven op het tabblad [!UICONTROL Activities] pagina voor een paar klanten. (TGT-46830)
-* De volgende problemen verholpen die van invloed waren op activiteiten die [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) als rapportagebron:
-   * Probleem verholpen waardoor sommige klanten geen rapportgegevens konden weergeven. (TGT-46557)
-   * Het probleem dat soms de oorzaak was van de [!UICONTROL View in Analytics] koppeling op pagina&#39;s met activiteitenrapportage om niet correct te functioneren. (TGT-46731)
-   * Probleem verholpen waarbij gegevens werden geblokkeerd voor [!UICONTROL Lift] en [!UICONTROL Confidence] om correct weer te geven in de [!DNL Target] UI. (TGT-46592, TGT-46554, &amp; TGT-46586)
+* [!UICONTROL Analytics for Target] (A4T) de activiteiten met de metriek van het opbrengstdoel &quot;Inkomsten&quot;niet tonen aangezien de kolomnaam en de opbrengst metrisch niet in ($) formaat in rapportering getoond. Dit was een cosmetische kwestie die is opgelost. (TGT-46995)
+* Probleem verholpen waarbij de intervallen van de rapportdatum niet correct werkten. (TGT-47396)
+* Probleem opgelost waarbij de onjuiste status werd weergegeven op het tabblad [!UICONTROL All Activities] pagina nadat klanten een activiteit hebben geactiveerd of gedeactiveerd met [!UICONTROL More Actions] pictogram. (TGT-47367)
+* Het probleem dat de oorzaak was van de [!UICONTROL Important Attributes] rapport niet voor één enkele klant tonen. (TGT-47272)
+* Probleem verholpen waarbij een bericht &#39;Ongeldige lading&#39; werd weergegeven wanneer één klant probeerde &#39;Verificatie vereisen&#39; in te schakelen. (TGT-47195)
+* Verschillende gelokaliseerde tekenreeksen in de [!DNL Target] UI.
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 

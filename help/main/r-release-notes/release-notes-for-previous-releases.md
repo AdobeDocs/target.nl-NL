@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
-source-wordcount: '37330'
+source-wordcount: '37522'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,24 @@ Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en
 >Zie [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) voor informatie over de Target-releases van de huidige maand (platform en Target Standard/Premium).
 
 ## Opmerkingen bij de release - 2023
+
+### [!DNL Target] Standaard/Premium 23.11.1 (13 en 14 november 2023)
+
+Deze release is gepland voor de volgende dagen:
+
+* **13 november**: regio Azië-Stille Oceaan (APAC)
+* **14 november**: Amerikaanse regio
+* **14 november** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
+
+Deze versie bevat de volgende verbeteringen en oplossingen:
+
+* Verbeterde het [Activiteit QA](/help/main/c-activities/c-activity-qa/activity-qa.md) te ondersteunen functie [dubbele aanbiedingen negeren](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) voor ervaringen in [!UICONTROL Automated Personalization] activiteiten. (TGT-46627)
+* Knopinfo toegevoegd in het dialoogvenster [!DNL Target] UI om klanten te helpen begrijpen waarom er geen gegevens beschikbaar in activiteitenrapporten zouden kunnen zijn als geen verkeer aan de controleervaring wordt toegewezen. De knopinfo bevat een koppeling naar meer informatie: [Waarom zijn er geen gegevens beschikbaar voor mijn activiteitenverslag?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
+* Probleem verholpen waardoor activiteiten niet correct konden worden weergegeven op het tabblad [!UICONTROL Activities] pagina voor een paar klanten. (TGT-46830)
+* De volgende problemen verholpen die van invloed waren op activiteiten die [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) als rapportagebron:
+   * Probleem verholpen waardoor sommige klanten geen rapportgegevens konden weergeven. (TGT-46557)
+   * Het probleem dat soms de oorzaak was van de [!UICONTROL View in Analytics] koppeling op pagina&#39;s met activiteitenrapportage om niet correct te functioneren. (TGT-46731)
+   * Probleem verholpen waarbij gegevens werden geblokkeerd voor [!UICONTROL Lift] en [!UICONTROL Confidence] om correct weer te geven in de [!DNL Target] UI. (TGT-46592, TGT-46554, &amp; TGT-46586)
 
 ### [!UICONTROL Activities] gebruikersinterface pagina vernieuwen (25 oktober 2023)
 
