@@ -4,9 +4,9 @@ description: Leer hoe u een publiek kunt maken in [!DNL Adobe Target] om gebruik
 title: Kan ik bezoekers richten die op Browser type worden gebaseerd?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
+source-git-commit: 968f9982299156d3f4d599d00322106fe3629610
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -17,22 +17,22 @@ U kunt zich richten op gebruikers die een specifieke browser of specifieke brows
 
 U kunt de volgende browsers als doel instellen:
 
-* Chroom
-* Firefox
-* Safari
-* Internet Explorer
-* Microsoft Edge
-* Opera
-* iPad
-* iPhone
+* [!UICONTROL Chrome]
+* [!UICONTROL Firefox]
+* [!UICONTROL Safari]
+* [!UICONTROL Internet Explorer]
+* [!UICONTROL Microsoft Edge]
+* [!UICONTROL Opera]
+* [!DNL iPad]
+* [!DNL iPhone]
 
 >[!IMPORTANT]
 >
->Vanaf 30 april 2024 worden iPad en iPhone van de beschikbare [!UICONTROL Browser] Typ een vervolgkeuzelijst bij het maken van categorieën voor het publiek. Zie voor instellingen voor tijdelijke oplossing [Afschrijving van iPad en iPhone van kenmerk Browser-publiek (30 april 2024)](#deprecation) hieronder.
+>Vanaf 30 april 2024, [!DNL iPad] en [!DNL iPhone] wordt verwijderd uit de beschikbare [!UICONTROL Browser] Typ een vervolgkeuzelijst bij het maken van categorieën voor het publiek. Zie voor instellingen voor tijdelijke oplossing [Afschrijving van iPad en iPhone van kenmerk Browser-publiek (30 april 2024)](#deprecation) hieronder.
 
 Er zijn twee manieren om browsers als doel in te stellen:
 
-* **Vooraf gebouwd publiek:** Gebruik het vooraf gebouwde publiek als u alleen bezoekers wilt aanspreken die een specifieke browser gebruiken om uw site te bezoeken. Als u bijvoorbeeld een Chrome-extensie aanbiedt, richt u zich alleen op Chrome-gebruikers.
+* **Vooraf gebouwd publiek:** Gebruik het vooraf gebouwde publiek als u alleen bezoekers wilt aanspreken die een specifieke browser gebruiken om uw site te bezoeken. Als u bijvoorbeeld een [!DNL Chrome] extensie, alleen als doel instellen [!DNL Chrome] gebruikers.
 
    1. Selecteer de browser in de vervolgkeuzelijst wanneer u uw activiteit instelt.
 
@@ -57,7 +57,7 @@ Er zijn twee manieren om browsers als doel in te stellen:
    1. (Optioneel) Stel aanvullende regels voor het publiek in.
    1. Klik op **[!UICONTROL Done]**.
 
-  In het volgende voorbeeld ziet u een publiek dat Microsoft Edge-gebruikers in versie 91 of 92 omvat:
+  In het volgende voorbeeld wordt een publiek getoond dat [!DNL Microsoft Edge] gebruikers in versie 91 of 92:
 
   ![Doelrand 91 of 92](assets/target_edge.png)
 
@@ -71,8 +71,8 @@ Een bepaalde browser activeren of uitsluiten.
 
 Selecteren **[!UICONTROL Type]** kiest u een van beide gelijk aan of niet gelijk aan.
 
-* Gelijk aan: doel de geselecteerde browsers.
-* Is niet gelijk aan: sluit de geselecteerde browsers uit.
+* [!UICONTROL Equals]: Kies voor de geselecteerde browsers.
+* [!UICONTROL Does not equal]: Sluit de geselecteerde browsers uit.
 
 Selecteer een of meer browsers. Meerdere opties zijn verbonden met een OR.
 
@@ -86,8 +86,8 @@ Het opnemen of uitsluiten van de browsertaal kan een nauwkeurigere keuze voor be
 
 Selecteren **[!UICONTROL Language]** kiest u een van beide gelijk aan of niet gelijk aan.
 
-* Gelijk aan: richt de geselecteerde browser talen.
-* Is niet gelijk aan: sluit de geselecteerde browsertalen uit.
+* [!UICONTROL Equals]: Kies de geselecteerde browsertalen.
+* [!UICONTROL Does not equal]: Sluit de geselecteerde browsertalen uit.
 
 Selecteer een of meer talen. Meerdere opties zijn verbonden met een OR.
 
@@ -107,16 +107,16 @@ De volgende browsertalen kunnen worden aangewezen of uitgesloten:
 
 Bepaalde browserversies activeren of uitsluiten.
 
-Als uw pagina bijvoorbeeld niet correct wordt weergegeven in Internet Explorer versie 11 of lager, kunt u een publiek maken dat deze versies uitsluit. In dat geval, zou u opstelling een regel waar browser type Internet Explorer evenaart en een tweede regel toevoegt waar de versie minder dan of gelijk aan 11 is.
+Als uw pagina bijvoorbeeld niet correct wordt weergegeven in [!DNL Internet Explorer] In versie 11 of lager kunt u een publiek maken dat deze versies uitsluit. In dat geval zou u een regel instellen waarbij het browsertype gelijk is [!DNL Internet Explorer] en voeg een tweede regel toe waar de versie 11 of lager is.
 
 Selecteren **[!UICONTROL Version]** kiest u vervolgens een operator:
 
-* Gelijk
-* Is niet gelijk aan
-* Is groter dan
+* [!UICONTROL Equals]
+* [!UICONTROL Does not equal]
+* [!UICONTROL Is greater than]
 * Is groter dan of gelijk aan
-* Is kleiner dan
-* Is kleiner dan of gelijk aan
+* [!UICONTROL Is less than]
+* [!UICONTROL Is less than or equal to]
 
 Typ het versienummer. Alleen hoofdversies kunnen in het tekstveld worden ingevoerd. De opgegeven versie bevat een kleine versie van die versie. Als u bijvoorbeeld versie 10 opgeeft, worden bezoekers van versie 10.1 ook opgenomen.
 
@@ -137,7 +137,9 @@ Deze video bevat informatie over het gebruik van publiekscategorieën.
 
 Vanaf 30 april 2024 worden iPad en iPhone van de beschikbare [!UICONTROL Browser] Typ een vervolgkeuzelijst bij het maken van categorieën voor het publiek.
 
-Als u een publiek hebt dat iPads of iPhones als doel heeft met de [!UICONTROL Browser] , moet u deze instellingen vóór 30 april 2024 wijzigen om ervoor te zorgen dat dit publiek naar behoren blijft functioneren.
+Ingebouwd publiek, zoals &quot;Browser: iPad&quot; en &quot;Browser: iPhone&quot;, wordt automatisch naar de nieuwe definitie van het publiek verplaatst. Alle profielscripts die &quot;user.browserType&quot; gebruiken, worden *niet* automatisch worden bijgewerkt: als u deze niet handmatig bijwerkt, kan de kwalificatie van de gebruiker niet naar behoren plaatsvinden.
+
+Als u een publiek hebt dat iPads of iPhones als doel heeft met de [!UICONTROL Browser] moet u deze instellingen vóór 30 april 2024 wijzigen om ervoor te zorgen dat dit publiek naar behoren blijft functioneren.
 
 ### Soorten publiek gemaakt met de [!DNL Target] UI
 
@@ -171,17 +173,17 @@ Er zijn vele andere mogelijke montages die zouden kunnen worden gebruikt, bijvoo
 
 ### Soorten publiek gemaakt met behulp van profielscripts
 
-Als u `user.browserType` in JavaScript-segmenten zoals wordt uitgelegd in [Profiel en verklarende woordenlijst voor variabelen](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), moeten de volgende wijzigingen worden aangebracht:
+Als u `user.browserType` in soorten publiek die profielscripts gebruiken, zoals wordt uitgelegd in [Profiel en verklarende woordenlijst voor variabelen](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), moeten de volgende wijzigingen worden aangebracht:
 
 >[!NOTE]
 >
 >De volgende profielen zullen naar verwachting de komende dagen, vanaf 24 januari 2024, worden vrijgegeven. De [Opmerkingen bij de huidige release](/help/main/r-release-notes/release-notes.md) worden bijgewerkt wanneer deze profielen beschikbaar zijn.
-
-Deze profielen maken de volgende wijzigingen mogelijk:
->>
-* `profile.mobile.isTablet`
->>
-* `profile.mobile.isMobilePhone`
+>
+>Deze profielen maken de volgende wijzigingen mogelijk:
+>
+>* `profile.mobile.isTablet`
+>
+>* `profile.mobile.isMobilePhone`
 
 * **BrowserType is iPhone**:
 
