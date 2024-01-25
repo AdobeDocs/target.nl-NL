@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
+source-git-commit: c00bb07f002187a761ca24939a4ebf2278e3480e
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 | --- | --- | --- |
 | 24 januari | [details at.js-versie](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Opmerkingen bij de release toegevoegd voor versie 2.11.4 van at.js. |
 |  | [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | De twee nieuwe profielen zijn nog niet beschikbaar. Deze notities worden bijgewerkt wanneer deze profielen beschikbaar zijn. |
+|  | [om.js Veelgestelde Vragen](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank} | Toegevoegde veelgestelde vragen over at.js in een Ionic App-omgeving. Deze implementatie wordt niet getest of aanbevolen. |
 | 22 januari | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Belangrijke informatie over de veroudering van iPad en iPhone van de [!UICONTROL Browser] publiekskenmerk waarvoor vóór 30 april 2024 wijzigingen nodig zijn. |
 |  | [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Nieuwe sectie toegevoegd: <ul><li>Afschrijving van iPad en iPhone van kenmerk Browser-publiek (30 april 2024)</li></ul> |
 |  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] 24.1.1. |
