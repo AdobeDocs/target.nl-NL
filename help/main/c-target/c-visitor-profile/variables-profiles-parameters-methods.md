@@ -4,7 +4,7 @@ description: Een lijst met verschillende profielen, variabelen en parameters wee
 title: In welke profielen, variabelen en parameters worden gebruikt [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 8ff786fe55337df2465426c9a87f71002cce3de5
+source-git-commit: 2b72d2edb3da75e6a3f5d0af4ddb18a49f39b851
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -48,8 +48,8 @@ Deze pagina bevat profielen, variabelen en parameters die nuttig zijn in profiel
 | profile.browserTime | De lokale browsertijd van de bezoeker. Maak een nieuw datumobject in het profielscript voor de systeemtijd |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
-| profile.mobile.isTablet | Bezoekerapparaat is een tablet.<P>**OPMERKING**: Dit profiel vervangt de verouderde oudere browser en is de publiekscategorie iPad. Zie [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecated) voor meer informatie . |
-| profile.mobile.isMobilePhone | Bezoekersapparaat is een mobiele telefoon.<P>**OPMERKING**: Dit profiel vervangt de verouderde oudere browser en is de publiekscategorie iPhone. Zie [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecated) voor meer informatie . |
+| profile.mobile.isTablet | Bezoekerapparaat is een tablet.<P>**OPMERKING**: Dit profiel vervangt de verouderde oudere browser en is de publiekscategorie iPad. Zie [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md#profile-scripts) voor meer informatie . |
+| profile.mobile.isMobilePhone | Bezoekersapparaat is een mobiele telefoon.<P>**OPMERKING**: Dit profiel vervangt de verouderde oudere browser en is de publiekscategorie iPhone. Zie [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md#profile-scripts) voor meer informatie . |
 | parameter= | Algemene term voor extra waarden die met een box worden doorgegeven, meestal als naam-/waardeparen. Niet blijvend tenzij dit gebeurt met `profile.parameter` of `user.parameter`. |
 
 ## URL-variabelen {#section_8F25958273164EBAA6DC659302993FD3}
