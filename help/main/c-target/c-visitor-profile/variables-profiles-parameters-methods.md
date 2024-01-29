@@ -4,9 +4,9 @@ description: Een lijst met verschillende profielen, variabelen en parameters wee
 title: In welke profielen, variabelen en parameters worden gebruikt [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: d3c9a5bfa1e0496387103d82dd811f28581ba8bf
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,8 @@ Deze pagina bevat profielen, variabelen en parameters die nuttig zijn in profiel
 | profile.browserTime | De lokale browsertijd van de bezoeker. Maak een nieuw datumobject in het profielscript voor de systeemtijd |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
+| profile.mobile.isTablet | Bezoekerapparaat is een tablet.<P>Dit profiel vervangt de vervangen verouderde versie [Browser is iPad-publiekscategorie](/help/main/c-target/c-audiences/c-target-rules/browser.md). |
+| profile.mobile.isMobilePhone | Bezoekersapparaat is een mobiele telefoon.<P>Dit profiel vervangt de vervangen verouderde versie [Browser is iPhone-publiekscategorie](/help/main/c-target/c-audiences/c-target-rules/browser.md). |
 | parameter= | Algemene term voor extra waarden die met een box worden doorgegeven, meestal als naam-/waardeparen. Niet blijvend tenzij dit gebeurt met `profile.parameter` of `user.parameter`. |
 
 ## URL-variabelen {#section_8F25958273164EBAA6DC659302993FD3}
