@@ -4,9 +4,9 @@ description: Leer hoe u een publiek kunt maken in [!DNL Adobe Target] om gebruik
 title: Kan ik bezoekers richten die op Browser type worden gebaseerd?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 968f9982299156d3f4d599d00322106fe3629610
+source-git-commit: 1313ea7897b811ef5550c3d29cfc5a66f9215c9f
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '968'
 ht-degree: 0%
 
 ---
@@ -135,13 +135,13 @@ Deze video bevat informatie over het gebruik van publiekscategorieën.
 
 [!DNL Adobe Target] laat u [doel op een van de verschillende categoriekenmerken](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inclusief gebruikers die een specifieke browser of browseropties gebruiken wanneer ze uw pagina bezoeken.
 
-Vanaf 30 april 2024 worden iPad en iPhone van de beschikbare [!UICONTROL Browser] Typ een vervolgkeuzelijst bij het maken van categorieën voor het publiek.
+Vanaf 30 april 2024 worden iPad en iPhone van de beschikbare [!UICONTROL Browser] type vervolgkeuzelijst in het dialoogvenster [!DNL Target] UI bij het maken van categorieën voor het publiek.
 
-Ingebouwd publiek, zoals &quot;Browser: iPad&quot; en &quot;Browser: iPhone&quot;, wordt automatisch naar de nieuwe definitie van het publiek verplaatst. Alle profielscripts die &quot;user.browserType&quot; gebruiken, worden *niet* automatisch worden bijgewerkt: als u deze niet handmatig bijwerkt, kan de kwalificatie van de gebruiker niet naar behoren plaatsvinden.
+Ingebouwde soorten publiek die zijn gemaakt met de [!DNL Target] UI, zoals &quot;Browser: iPad&quot; en &quot;Browser: iPhone&quot;, wordt automatisch verplaatst naar de nieuwe definitie van het publiek. In de toekomst moet u echter de instellingen gebruiken [hieronder beschreven](#ui).
 
-Als u een publiek hebt dat iPads of iPhones als doel heeft met de [!UICONTROL Browser] moet u deze instellingen vóór 30 april 2024 wijzigen om ervoor te zorgen dat dit publiek naar behoren blijft functioneren.
+Als u `user.browserType` in alle profielscripts om te controleren of het een iPhone of iPad is (bijvoorbeeld `user.browserType == 'iphone'` of `user.browserType != 'ipad'`), moeten deze profielscripts worden gewijzigd als [hieronder uitgelegd](#profile-scripts) vóór 30 april 2024 om ervoor te zorgen dat dit publiek naar verwachting blijft functioneren.
 
-### Soorten publiek gemaakt met de [!DNL Target] UI
+### Soorten publiek gemaakt met de [!DNL Target] UI {#ui}
 
 De volgende instellingen kunnen in de toekomst worden gebruikt:
 
@@ -171,7 +171,7 @@ Er zijn vele andere mogelijke montages die zouden kunnen worden gebruikt, bijvoo
 
   ![Geen tablet](/help/main/r-release-notes/assets/tablet-false.png)
 
-### Soorten publiek gemaakt met behulp van profielscripts
+### Soorten publiek gemaakt met behulp van profielscripts {#profile-scripts}
 
 Als u `user.browserType` in soorten publiek die profielscripts gebruiken, zoals wordt uitgelegd in [Profiel en verklarende woordenlijst voor variabelen](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), moeten de volgende wijzigingen worden aangebracht:
 
