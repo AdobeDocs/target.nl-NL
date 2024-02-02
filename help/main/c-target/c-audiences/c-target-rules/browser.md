@@ -4,9 +4,9 @@ description: Leer hoe u een publiek kunt maken in [!DNL Adobe Target] om gebruik
 title: Kan ik bezoekers richten die op Browser type worden gebaseerd?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 1313ea7897b811ef5550c3d29cfc5a66f9215c9f
+source-git-commit: aa7bef57c94c0dc996c9e1bd0ed23b48aa199874
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -141,6 +141,8 @@ Ingebouwde soorten publiek die zijn gemaakt met de [!DNL Target] UI, zoals &quot
 
 Als u `user.browserType` in alle profielscripts om te controleren of het een iPhone of iPad is (bijvoorbeeld `user.browserType == 'iphone'` of `user.browserType != 'ipad'`), moeten deze profielscripts worden gewijzigd als [hieronder uitgelegd](#profile-scripts) vóór 30 april 2024 om ervoor te zorgen dat dit publiek naar verwachting blijft functioneren.
 
+JavaScript-publiek dat profielscripts gebruikt, is verouderd publiek dat is vervangen door het [!DNL Target Classic] UI. Deze soorten publiek kunnen alleen via de API worden gewijzigd. Klanten moeten deze soorten publiek alleen bijwerken als ze gebruik maken van verouderde doelgroepen in activiteiten in de nieuwe [!DNL Target Standard/Premium] UI.
+
 ### Soorten publiek gemaakt met de [!DNL Target] UI {#ui}
 
 De volgende instellingen kunnen in de toekomst worden gebruikt:
@@ -173,11 +175,11 @@ Er zijn vele andere mogelijke montages die zouden kunnen worden gebruikt, bijvoo
 
 ### Soorten publiek gemaakt met behulp van profielscripts {#profile-scripts}
 
-Als u `user.browserType` in soorten publiek die profielscripts gebruiken, zoals wordt uitgelegd in [Profiel en verklarende woordenlijst voor variabelen](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), moeten de volgende wijzigingen worden aangebracht:
+Als u `user.browserType` in verouderde [!DNL Target Classic] publiek dat profielscripts gebruikt, zoals wordt uitgelegd in [Profiel en verklarende woordenlijst voor variabelen](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), moeten de volgende wijzigingen worden aangebracht:
 
 >[!NOTE]
 >
->De volgende profielen zullen naar verwachting de komende dagen, vanaf 24 januari 2024, worden vrijgegeven. De [Opmerkingen bij de huidige release](/help/main/r-release-notes/release-notes.md) worden bijgewerkt wanneer deze profielen beschikbaar zijn.
+>De volgende profielen zullen naar verwachting in de komende weken worden gepubliceerd, vanaf 24 januari 2024. De [Opmerkingen bij de huidige release](/help/main/r-release-notes/release-notes.md) worden bijgewerkt wanneer deze profielen beschikbaar zijn.
 >
 >Deze profielen maken de volgende wijzigingen mogelijk:
 >
