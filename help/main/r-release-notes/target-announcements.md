@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 626f6debb36d7610bd0284142caf57e6ce911f83
+source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
 workflow-type: tm+mt
-source-wordcount: '2340'
+source-wordcount: '2468'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,26 @@ ht-degree: 0%
 
 Aankondigingen en informatie over [!DNL Adobe Target] gebeurtenissen, waaronder [!DNL Target] Coffee Break-sessies, [!DNL Target] webinarserie, [!DNL Target] Skill Builder-sessies, ontwikkelaarstekkers en meer. Koppelingen naar eerdere opnamen worden opgenomen, indien beschikbaar.
 
-## Adobe Target 2024 Personalization Maturity Webinar Series
+## Adobe Target Community - Koffiepauze voor vragen en antwoorden
+
+* **Art of the Mogelijk Webinar Follow-up questions (Part 1 of Personalization Maturity Series)**
+* **Woensdag 7 februari 2024**
+* **8:00 - 9:00 (PST -8 GMT)**
+* **[Registratiegegevens](https://shorturl.at/gknVY){target=_blank}**
+
++++Details
+
+Verbinden [!DNL Adobe Target] experts Brent Kostak, Ryan Roberts en Drew Burns geven in real-time antwoorden op vragen van klanten over inhoud die tijdens [Deel 1 van de [!DNL Adobe Target] Webinar Series over de &quot;Kunst van het Mogelijke](#maturity-series),&quot; waar onze deskundigen de volgende onderwerpen hebben behandeld:
+
+* Hoe elk [!DNL Target] vermogen speelt een strategische rol bij de uitvoering van personalisatie op grote schaal
+* Belangrijkste gebruiksgevallen waarin klanten AI-mogelijkheden configureren om dit op schaal te realiseren
+* Hoe u controle hebt over het leren van machines om door AI aangedreven Personalisatie aan uw specifieke doelstellingen te activeren
+
+Als u het oorspronkelijke webinar overgeslagen hebt, [beluisteren naar de opname](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+
++++
+
+## Adobe Target 2024 Personalization Maturity Webinar Series {#maturity-series}
 
 Deze live webinar-reeks markeert de sleutel [!DNL Adobe Target] mogelijkheden, gebruiksscenario&#39;s en tips om personalisatie op AI-basis te ontgrendelen terwijl klanten hun experimenteerproces en personalisatietraject uitbreiden met [!DNL Adobe Experience Platform].
 
@@ -34,6 +53,8 @@ Waarom zou u moeten bijwonen:
    * **10:00 - 11:00 (PST -8 GMT)**
 
      De kern van de rijpheid van de personalisatie is het leren van kunstmatige intelligentie en machines. [!DNL Adobe Target] Gebruikt deze technologieën om gebruikersgedrag te begrijpen, voorkeur te voorspellen, en dynamisch inhoud aan te passen. Door de macht van AI en ML te gebruiken, leer hoe de merken zich voorbij statische tests A/B en op regels-gebaseerde verpersoonlijking bewegen om dynamische, contextafhankelijke ervaringen te leveren.
+
+     [Luister naar de opname.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **Krachtige Recommendations**
    * **Dinsdag 13 februari 2024**
