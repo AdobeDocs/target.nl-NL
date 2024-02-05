@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c00bb07f002187a761ca24939a4ebf2278e3480e
+source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1297'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 5 februari | [Maak een activiteit die Analytics als rapportbron gebruikt](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | Toegevoegde tekst die aangeeft dat u niet dezelfde activiteitnaam kunt gebruiken voor twee activiteiten vanuit afzonderlijke werkruimten tijdens het gebruik [!UICONTROL Analytics for Target] (A4T) als bron van rapportage. |
+|  | [Activiteitsinstellingen - Veelgestelde vragen voor A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Toegevoegde tekst die aangeeft dat u niet dezelfde activiteitnaam kunt gebruiken voor twee activiteiten vanuit afzonderlijke werkruimten tijdens het gebruik [!UICONTROL Analytics for Target] (A4T) als bron van rapportage. |
 | 24 januari | [details at.js-versie](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Opmerkingen bij de release toegevoegd voor versie 2.11.4 van at.js. |
 |  | [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | De twee nieuwe profielen zijn nog niet beschikbaar. Deze notities worden bijgewerkt wanneer deze profielen beschikbaar zijn. |
 |  | [om.js Veelgestelde Vragen](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank} | Toegevoegde veelgestelde vragen over at.js in een Ionic App-omgeving. Deze implementatie wordt niet getest of aanbevolen. |
