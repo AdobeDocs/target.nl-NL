@@ -4,9 +4,9 @@ description: Een lijst met verschillende profielen, variabelen en parameters wee
 title: In welke profielen, variabelen en parameters worden gebruikt [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 2b72d2edb3da75e6a3f5d0af4ddb18a49f39b851
+source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,7 @@ Deze pagina bevat profielen, variabelen en parameters die nuttig zijn in profiel
 | user.isNewSession |  |
 | user.daysSinceLastVisit |  |
 | user.browser | De gebruikersagent |
+| user.browserType | Retourneert het browsertype, bijvoorbeeld safari, chroom enzovoort. |
 | user.header | Alles `user.header` profielen zijn ingebouwd uit de headergegevens van de multibox-aanvraag |
 | user.header(&#39;x-door:sturen-for&#39;) | Het openbaar-onder ogen ziet IP adres van de netwerkverbinding die de bezoeker is.<br>U kunt dit op verschillende manieren bereiken, bijvoorbeeld [whatismyip.com](https://www.whatismyip.com/). Het IP adres is niet het NATIONAAL adres (intern adres), beginnend met 10., 192.168., of 172.<br>Opmerking: user.header(&#39;x-cluster-client-ip&#39;) is vervangen. |
 | user.header(&#39;host&#39;) | Hostnaam website |
