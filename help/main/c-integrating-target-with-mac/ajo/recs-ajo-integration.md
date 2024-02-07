@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn bètafuncties in [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: 094ae9cc8b9700fab4ec583d045c0c31e741ddcb
+source-git-commit: 9cf9236dbd830796ef5362a9e292de7ec6fd8491
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Als u de opdracht [!DNL Target Recommendations] en [!DNL Adobe Journey Optimizer
 
 ## Gebruiksscenario&#39;s
 
-Hieronder volgt een aantal mogelijke toepassingen voor integratie [!DNL Target Recommendations] with [!DNL Adobe Journey Optimizer]:
+Dit zijn slechts een paar mogelijke toepassingen voor integratie [!DNL Target Recommendations] with [!DNL Adobe Journey Optimizer]:
 
 * **[!DNL Adobe Journey Optimizer]een persoonlijke e-mail verzenden na het verlaten van het winkelwagentje**: Dit gebruiksgeval is gebaseerd op een klant die een website bezoekt, artikelen in het winkelwagentje plaatst en de site vervolgens verlaat zonder het aankoopproces te voltooien.
 
