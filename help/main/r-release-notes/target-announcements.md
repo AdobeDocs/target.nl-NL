@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
+source-git-commit: 1afcd6838c8a3fd5186c66fc401ee0e8b4b5feb3
 workflow-type: tm+mt
-source-wordcount: '2468'
+source-wordcount: '2345'
 ht-degree: 0%
 
 ---
@@ -15,24 +15,24 @@ ht-degree: 0%
 
 Aankondigingen en informatie over [!DNL Adobe Target] gebeurtenissen, waaronder [!DNL Target] Coffee Break-sessies, [!DNL Target] webinarserie, [!DNL Target] Skill Builder-sessies, ontwikkelaarstekkers en meer. Koppelingen naar eerdere opnamen worden opgenomen, indien beschikbaar.
 
-## Adobe Target Community - Koffiepauze voor vragen en antwoorden
+<!--## Adobe Target Community Q&A Coffee Break
 
-* **Art of the Mogelijk Webinar Follow-up questions (Part 1 of Personalization Maturity Series)**
-* **Woensdag 7 februari 2024**
+* **Art of the Possible Webinar Follow-up Questions (Part 1 of Personalization Maturity Series)**
+* **Wednesday, February 7, 2024**
 * **8:00 - 9:00 (PST -8 GMT)**
-* **[Registratiegegevens](https://shorturl.at/gknVY){target=_blank}**
+* **[Registration information](https://shorturl.at/gknVY){target=_blank}**
 
 +++Details
 
-Verbinden [!DNL Adobe Target] experts Brent Kostak, Ryan Roberts en Drew Burns geven in real-time antwoorden op vragen van klanten over inhoud die tijdens [Deel 1 van de [!DNL Adobe Target] Webinar Series over de &quot;Kunst van het Mogelijke](#maturity-series),&quot; waar onze deskundigen de volgende onderwerpen hebben behandeld:
+Join [!DNL Adobe Target] experts Brent Kostak, Ryan Roberts, and Drew Burns as they provide answers in real-time to customers' questions related to content covered during [Part 1 of the [!DNL Adobe Target] Webinar Series on the "Art of the Possible](#maturity-series)," where our experts covered the following topics:
 
-* Hoe elk [!DNL Target] vermogen speelt een strategische rol bij de uitvoering van personalisatie op grote schaal
-* Belangrijkste gebruiksgevallen waarin klanten AI-mogelijkheden configureren om dit op schaal te realiseren
-* Hoe u controle hebt over het leren van machines om door AI aangedreven Personalisatie aan uw specifieke doelstellingen te activeren
+* How each [!DNL Target] capability plays a strategic role in executing personalization at scale
+* Top use cases that customers are configuring AI capabilities to accomplish at scale
+* How you are in control of machine learning to activate AI-powered Personalization to your specific goals
 
-Als u het oorspronkelijke webinar overgeslagen hebt, [beluisteren naar de opname](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
-+++
++++-->
 
 ## Adobe Target 2024 Personalization Maturity Webinar Series {#maturity-series}
 
