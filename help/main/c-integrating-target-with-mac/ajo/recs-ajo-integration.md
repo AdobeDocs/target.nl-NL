@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn bètafuncties in [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: e0d1e06f21c9a1e630643ed045c970526bc2a3b6
+source-git-commit: ce74c85380333476b97f47fab4d2659a3c9c86e1
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,6 @@ Dit zijn slechts een paar mogelijke toepassingen voor integratie [!DNL Target Re
 
 * **[!DNL Adobe Journey Optimizer]stuurt een grote hoeveelheid e-mail naar gekwalificeerde bezoekers na een bezoek om populaire objecten voor te stellen**: Deze kwestie van gebruik is gebaseerd op een bezoeker die een website bezoekt, maar geen bepaalde punten bekijkt. Het e-mailbericht wordt bulksgewijs verzonden naar iedereen die in aanmerking komt voor een bepaald publiek, bijvoorbeeld:
 
-  Stel dat de bezoeker geen bepaalde stalen ziet. Misschien heeft de bezoeker gewoon rond de site geklikt en rubriekpagina&#39;s of blogberichten weergegeven. Dientengevolge, [!DNL Target] profiel bevat geen specifieke informatie over onlangs weergegeven items. In deze situatie [!DNL Target Recommendations] kan [aanbeveling voor back-up](/help/main/c-recommendations/c-algorithms/backup-recs.md) zodat [!DNL Adobe Journey Optimizer] U kunt een e-mail met afbeeldingen en koppelingen naar populaire items op de website verzenden om de bezoeker te laten terugkeren en eventueel een aankoop te doen.
+  Stel dat de bezoeker geen bepaalde stalen ziet. Misschien heeft de bezoeker gewoon rond de site geklikt en rubriekpagina&#39;s of blogberichten weergegeven. Dientengevolge, [!DNL Target] profiel bevat geen specifieke informatie over onlangs weergegeven items. In deze situatie [!DNL Target Recommendations] gebruikt een [aanbeveling voor back-up](/help/main/c-recommendations/c-algorithms/backup-recs.md) zodat [!DNL Adobe Journey Optimizer] U kunt een e-mail met afbeeldingen en koppelingen naar populaire items op de website verzenden om de bezoeker te laten terugkeren en eventueel een aankoop te doen.
 
 
