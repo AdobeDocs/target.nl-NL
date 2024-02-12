@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn bètafuncties in [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: 9cf9236dbd830796ef5362a9e292de7ec6fd8491
+source-git-commit: d93e58540568fb685bd18ee5e39ad2917323bce4
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -40,15 +40,15 @@ Dit zijn slechts een paar mogelijke toepassingen voor integratie [!DNL Target Re
 
   Na een bepaalde periode, misschien een paar uur of een dag, een aangepaste handeling in [!DNL Adobe Journey Optimizer] roept om [!DNL Target Recommendations] om de inhoud van het verlaten winkelwagentje te bepalen gebruikend een [aanbevelingen op basis van karretjes](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) algoritme. [!DNL Adobe Journey Optimizer] verstuurt deze bezoeker vervolgens een persoonlijke e-mail als herinnering dat het aankoopproces niet is voltooid, samen met afbeeldingen en koppelingen naar de verlaten items.
 
-* **[!DNL Adobe Journey Optimizer]stuurt een e-mail na een bezoek aan de site om de bezoeker te herinneren welke items zijn weergegeven**: Deze gebruikszaak is gebaseerd op een bezoeker die een website bezoekt, verschillende items weergeeft en vervolgens de site of de app verlaat zonder items in het winkelwagentje te plaatsen.
+* **[!DNL Adobe Journey Optimizer]stuurt een grote e-mail na bezoeken ter plaatse om bezoekers eraan te herinneren welke items zijn weergegeven**: Met dit gebruiksgeval kunnen bezoekers een website bezoeken, verschillende items weergeven en de site of app verlaten zonder items in het winkelwagentje te plaatsen.
 
-  Na een opgegeven punt wordt een aangepaste handeling uitgevoerd in [!DNL Adobe Journey Optimizer] roept om [!DNL Target Recommendations] om te bepalen welke items deze bezoeker heeft weergegeven, gebruikt u de [!DNL Adobe Experience Cloud Identifier] (EDID), [!DNL Target] en een [op gebruiker gebaseerd](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) algoritme. [!DNL Adobe Journey Optimizer] stuurt deze bezoeker vervolgens een gepersonaliseerde e-mail met afbeeldingen en koppelingen naar de weergegeven items om de bezoeker te laten terugkeren en een aankoop te doen.
+  Na een opgegeven punt wordt een aangepaste handeling uitgevoerd in [!DNL Adobe Journey Optimizer] roept om [!DNL Target Recommendations] om te bepalen welke items elke bezoeker heeft weergegeven, met gebruik van de [!DNL Adobe Experience Cloud Identifier] (EDID), [!DNL Target] en een [op gebruiker gebaseerd](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) algoritme. [!DNL Adobe Journey Optimizer] stuurt elk lid van het gekwalificeerde publiek vervolgens een persoonlijke e-mail met afbeeldingen en koppelingen naar de weergegeven items van elke bezoeker om de bezoeker te laten terugkeren en een aankoop te doen.
 
-  In dit scenario wordt [!UICONTROL Experience Cloud Visitor ID] (ECID) en de inhoud [!DNL Target] wordt gebruikt om de aanbeveling te produceren die op het onlangs bekeken algoritme wordt gebaseerd.
+  In dit scenario wordt [!UICONTROL Experience Cloud Visitor ID] (ECID) en de inhoud van de [!DNL Target] wordt gebruikt om de aanbeveling te produceren die op het onlangs bekeken algoritme wordt gebaseerd.
 
-  Stel dat een bezoeker bijvoorbeeld een website in de detailhandel bezoekt en verschillende stalen bekijkt. Deze bezoeker [!DNL Target] wordt bijgewerkt met een lijst met de weergegeven stalen. De ECID en de [!DNL Target] profiel, [!DNL Target] zendt de aanbeveling aan [!DNL Adobe Journey Optimizer]. [!DNL Adobe Journey Optimizer] verzendt vervolgens een e-mail met afbeeldingen en koppelingen naar de stalen die deze bezoeker heeft bekeken met het onlangs weergegeven algoritme.
+  Stel dat een bezoeker bijvoorbeeld een website in de detailhandel bezoekt en verschillende stalen bekijkt. Deze bezoeker [!DNL Target] wordt bijgewerkt met een lijst met de weergegeven stalen. De ECID en de [!DNL Target] profiel, [!DNL Target] zendt de aanbeveling aan [!DNL Adobe Journey Optimizer]. [!DNL Adobe Journey Optimizer] verzendt vervolgens een e-mail met afbeeldingen en koppelingen naar de stalen die deze bezoeker heeft bekeken met het onlangs weergegeven algoritme. Een andere bezoeker ontvangt een persoonlijke e-mail met afbeeldingen en koppelingen naar de items die deze bezoeker heeft weergegeven. Elk e-mailbericht is gepersonaliseerd.
 
-* **[!DNL Adobe Journey Optimizer]stuurt een e-mail na een bezoek aan de site om populaire objecten voor te stellen**: Deze kwestie van gebruik is gebaseerd op een bezoeker die een website bezoekt, maar geen bepaalde punten bekijkt. In tegenstelling tot de vorige gebruiksgevallen wordt de e-mail in bulk verzonden naar iedereen die voor een bepaald publiek in aanmerking komt, bijvoorbeeld.
+* **[!DNL Adobe Journey Optimizer]stuurt een grote hoeveelheid e-mail naar gekwalificeerde bezoekers na een bezoek om populaire objecten voor te stellen**: Deze kwestie van gebruik is gebaseerd op een bezoeker die een website bezoekt, maar geen bepaalde punten bekijkt. Het e-mailbericht wordt bulksgewijs verzonden naar iedereen die in aanmerking komt voor een bepaald publiek, bijvoorbeeld:
 
   Stel dat de bezoeker geen bepaalde stalen ziet. Misschien heeft de bezoeker gewoon rond de site geklikt en rubriekpagina&#39;s of blogberichten weergegeven. Dientengevolge, [!DNL Target] profiel bevat geen specifieke informatie over onlangs weergegeven items. In deze situatie [!DNL Target Recommendations] kan [aanbeveling voor back-up](/help/main/c-recommendations/c-algorithms/backup-recs.md) zodat [!DNL Adobe Journey Optimizer] U kunt een e-mail met afbeeldingen en koppelingen naar populaire items op de website verzenden om de bezoeker te laten terugkeren en eventueel een aankoop te doen.
 
