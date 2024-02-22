@@ -1,13 +1,13 @@
 ---
 keywords: activiteitenlijst;activiteiten;activiteit;activiteitstypen;activiteit bewerken;activiteit;activiteit, acties;activiteitskenmerk;activiteitlijstfilter;activiteitsbeperkingen;personaliseren;personalisatie
-description: Meer informatie over activiteiten in Adobe [!DNL Target] Hiermee kunt u de inhoud aanpassen aan specifieke doelgroepen en kunt u paginaontwerpen testen.
+description: Meer informatie over activiteiten in [!DNL Target] Hiermee kunt u de inhoud aanpassen aan specifieke doelgroepen en kunt u paginaontwerpen testen.
 title: Hoe kan ik inhoud personaliseren en pagina-ontwerpen testen met [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: dba58f591b60ccfa1cdcd27d2704ebf28c40ba10
+source-git-commit: 38a3eb1f194a63620b8b4866a48a17903801fa46
 workflow-type: tm+mt
-source-wordcount: '2342'
-ht-degree: 1%
+source-wordcount: '2284'
+ht-degree: 0%
 
 ---
 
@@ -59,7 +59,7 @@ De [!UICONTROL Activities] De lijst geeft een overzicht van alle activiteiten en
 | [A/B-test](/help/main/c-activities/t-test-ab/test-ab.md) | Bij een A/B-test worden twee of meer versies van uw website-inhoud vergeleken om te zien welke versie uw conversies het beste verbetert tijdens een vooraf opgegeven testperiode. |
 | [Automatisch toewijzen](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | [!UICONTROL Auto-Allocate], een type A/B test, identificeert een winnaar onder twee of meer ervaringen en wijst automatisch meer verkeer aan de winnaar toe om omzettingen te verhogen terwijl de test blijft lopen en leren. |
 | [Automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md)<P>![Doelpremie](/help/main/assets/premium.png) | Auto-Target, een type A/B test, gebruikt geavanceerd machine leren om veelvoudige high-performance marketer-bepaalde ervaringen te identificeren, en dient de meest op maat gemaakte ervaring aan elke bezoeker die op het profiel van de individuele klant en het gedrag van vorige bezoekers met gelijkaardige profielen wordt gebaseerd, om inhoud en aandrijvingsomzettingen te personaliseren. |
-| [Multivariatietest](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | [!UICONTROL Multivariate Testing]MVT () vergelijkt combinaties van aanbiedingen in elementen op een pagina om te bepalen welke combinatie het beste voor een specifieke doelgroep presteert, en identificeert welk element de meeste invloed op het succes van de activiteit heeft. |
+| [Multivariatietest](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | [!UICONTROL Multivariate Testing] (MVT) vergelijkt combinaties aanbiedingen in elementen op een pagina om te bepalen welke combinatie het beste voor een specifiek publiek presteert, en identificeert welk element het meest van invloed is op het succes van de activiteit. |
 | [Gericht op ervaring](/help/main/c-activities/t-experience-target/experience-target.md) | [!UICONTROL Experience Targeting] (XT) levert inhoud aan een specifiek publiek dat op een reeks van tellers-bepaalde regels en criteria wordt gebaseerd. |
 | [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<P>![Doelpremie](/help/main/assets/premium.png) | [!UICONTROL Automated Personalization] (AP) combineert aanbiedingen of berichten en maakt gebruik van geavanceerd computerleren om verschillende verschillen met elke bezoeker op basis van hun individuele klantprofiel met elkaar in overeenstemming te brengen, om inhoud en schijfconversies aan te passen. |
 | [Recommendations](/help/main/c-recommendations/recommendations.md)<P>![Doelpremie](/help/main/assets/premium.png) | Een aanbeveling bepaalt hoe een product aan een websitebezoeker wordt voorgesteld, afhankelijk van de activiteiten van die bezoeker op de plaats.<P>U kunt bijvoorbeeld mensen die een rugzak kopen aanmoedigen om wandelschoenen en wandelstokken te kopen. U kunt een aanbeveling maken die items toont die vaak samen worden aangeschaft met het algoritme &quot;Personen die dit hebben gekocht, hebben dat ook gekocht&quot;. U kunt bezoekers ook aanmoedigen om meer tijd te besteden aan uw mediasite door vergelijkbare video&#39;s aan te bevelen als de video die ze bekijken. Gebruik hiervoor het algoritme &quot;Personen die dit hebben bekeken&quot;.<P>**OPMERKING**: U kunt ook aanbevelingen opnemen in [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], en [!UICONTROL Experience Targeting] (XT) activiteiten. Zie voor meer informatie [Recommendations als voorstel](/help/main/c-recommendations/recommendations-as-an-offer.md). Voor deze functionaliteit hebt u een [Licentie voor doelpremie](/help/main/c-intro/intro.md#premium). |
