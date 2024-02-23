@@ -4,9 +4,9 @@ description: Meer informatie over bezoekersspecifieke kenmerken die zijn opgesla
 title: Wat zijn profielkenmerken?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
 workflow-type: tm+mt
-source-wordcount: '2420'
+source-wordcount: '2426'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Profielkenmerken in [!DNL Adobe Target] zijn parameters die specifiek zijn voor een bezoeker. Deze kenmerken worden opgeslagen in het profiel van de bezoeker om informatie over de bezoeker te verstrekken die in uw activiteiten kan worden gebruikt.
 
-Een gebruikersprofiel bevat demografische en gedragsinformatie van een bezoeker van een webpagina. Deze informatie kan leeftijd, geslacht, aangekochte producten, laatste tijd van bezoek omvatten, etc. dat [!DNL Target] gebruikt om de inhoud aan de bezoeker aan te passen.
+Een gebruikersprofiel bevat demografische en gedragsinformatie van een bezoeker van een webpagina. Deze informatie kan leeftijd, geslacht, aangekochte producten, laatste tijd van bezoek omvatten, etc. [!DNL Target] gebruikt deze informatie om de inhoud aan te passen die deze voor die bezoeker dient.
 
 Wanneer een bezoeker door uw website bladert of wanneer de bezoeker voor een andere sessie terugkeert, kunnen de opgeslagen profielkenmerken in het profiel worden gebruikt om inhoud of logboekinformatie voor segmentfiltering als doel in te stellen.
 
@@ -33,8 +33,8 @@ Profielkenmerken instellen:
 
    | Type parameter | Beschrijving |
    |--- |--- |
-   | mbox | Direct door paginacode doorgegeven tijdens het maken van het mbox. Zie [Parameters doorgeven aan een globale box](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.<br>**Opmerking**: [!DNL Target] heeft een limiet van 50 unieke profielkenmerken per mbox-aanroep. Als u meer dan 50 profielkenmerken moet doorgeven aan [!DNL Target], geeft u deze door met de API-methode voor het bijwerken van profielen. Zie voor meer informatie [Profielupdate in het dialoogvenster [!DNL Adobe Target] API-documentatie](https://developers.adobetarget.com/api/#updating-profiles). |
-   | Profiel | Direct gedefinieerd met een JavaScript-codefragment. Deze fragmenten kunnen lopende totalen opslaan zoals het totale geld dat de consument besteedt en worden uitgevoerd op elke mbox-aanvraag. Zie Profielscriptkenmerken hieronder. |
+   | mbox | Direct door paginacode doorgegeven tijdens het maken van het mbox. Zie [Parameters doorgeven aan een globale box](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} in de *Doelontwikkelaarsgids*..<P>**Opmerking**: [!DNL Target] heeft een limiet van 50 unieke profielkenmerken per mbox-aanroep. Als u meer dan 50 profielkenmerken moet doorgeven aan [!DNL Target], geeft u deze door met de [!UICONTROL Profile Update API] methode. Zie voor meer informatie [Profielen bijwerken](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} in de *Doelontwikkelaarsgids*. |
+   | Profiel | Direct gedefinieerd met een JavaScript-codefragment. Deze fragmenten kunnen lopende totalen opslaan, zoals het totale geld dat de consument besteedt, en worden uitgevoerd op elke mbox-aanvraag. Zie *Profielscriptkenmerken* hieronder. |
 
 ## Profielscriptkenmerken {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
