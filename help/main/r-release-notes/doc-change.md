@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7d84ce530081c20f7cdcb6e89010baef6f638647
+source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 23 februari | [IP adressen die door worden gebruikt [!DNL Recommendations] feed-processing-servers](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Voegt de volgende belangrijke nota en de nieuwe IP adressen toe die u lijst van gewenste personen zou moeten.<P>**Belangrijk**: De [!DNL Target] het team werkt momenteel de NATIONAAL gatewayadressen voor het downloaden bij [!DNL Recommendations] feeds. Als u IP voegend op lijst van gewenste personen  uitvoert, zorg ervoor dat u de volgende nieuwe gastheren van AWS voegt op lijst van gewenste personen. De bestaande hosts worden op 30 juni 2024 buiten bedrijf gesteld. Om een vlotte overgang te verzekeren, lijst van gewenste personen alle negen adressen. Er is geen urgentie om de bestaande adressen te verwijderen. |
 | 8 februari | [Prefetch](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | Nieuwe sectie toegevoegd: &quot;Prefetch-vakken met clickTrack-meetgegevens bij gebruik van Analytics for Target (A4T)&quot; |
 | 5 februari | [Maak een activiteit die Analytics als rapportbron gebruikt](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | Toegevoegde tekst die aangeeft dat u niet dezelfde activiteitnaam kunt gebruiken voor twee activiteiten vanuit afzonderlijke werkruimten tijdens het gebruik [!UICONTROL Analytics for Target] (A4T) als bron van rapportage. |
 |  | [Activiteitsinstellingen - Veelgestelde vragen voor A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Toegevoegde tekst die aangeeft dat u niet dezelfde activiteitnaam kunt gebruiken voor twee activiteiten vanuit afzonderlijke werkruimten tijdens het gebruik [!UICONTROL Analytics for Target] (A4T) als bron van rapportage. |

@@ -5,9 +5,9 @@ title: Welke IP adressen gebruiken de servers van de het voeder-Verwerking van R
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
-source-git-commit: 558de92e672c276474bc76fad19e5461ae7d4c88
+source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Lijst met IP-adressen gebruikt in [!DNL Adobe Target] [!DNL Recommendations] fee
 
 >[!IMPORTANT]
 >
->23 februari 2023: De [!DNL Target] het team werkt momenteel de NATIONAAL gatewayadressen voor het downloaden bij [!DNL Recommendations] feeds. Als u IP voegend op lijst van gewenste personen  uitvoert, zorg ervoor dat u de volgende nieuwe gastheren van AWS voegt op lijst van gewenste personen. De bestaande hosts worden in de toekomst buiten bedrijf gesteld. Alle negen hosts zijn nu operationeel.
+>De [!DNL Target] het team werkt momenteel de NATIONAAL gatewayadressen voor het downloaden bij [!DNL Recommendations] feeds. Als u IP voegend op lijst van gewenste personen  uitvoert, zorg ervoor dat u de volgende nieuwe gastheren van AWS voegt op lijst van gewenste personen. De bestaande hosts worden op 30 juni 2024 buiten bedrijf gesteld. Om een vlotte overgang te verzekeren, lijst van gewenste personen alle negen adressen. Er is geen urgentie om de bestaande adressen te verwijderen.
 
 [!DNL Target] [!UICONTROL Recommendations] De activiteiten gebruiken de volgende gastheren van AWS wanneer het toegang tot de servers van FTP van klanten:
 
