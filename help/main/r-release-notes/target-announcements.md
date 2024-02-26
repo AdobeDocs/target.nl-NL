@@ -4,9 +4,9 @@ description: Kennisgevingen lezen en zich aanmelden voor Adobe [!DNL Target] geb
 title: Waar kan ik vinden? [!DNL Target] Aankondigingen en gebeurtenisinformatie?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1afcd6838c8a3fd5186c66fc401ee0e8b4b5feb3
+source-git-commit: 7ae2aa9f95b01653891e9857c1ee5b94f6c809a9
 workflow-type: tm+mt
-source-wordcount: '2345'
+source-wordcount: '2519'
 ht-degree: 0%
 
 ---
@@ -15,24 +15,26 @@ ht-degree: 0%
 
 Aankondigingen en informatie over [!DNL Adobe Target] gebeurtenissen, waaronder [!DNL Target] Coffee Break-sessies, [!DNL Target] webinarserie, [!DNL Target] Skill Builder-sessies, ontwikkelaarstekkers en meer. Koppelingen naar eerdere opnamen worden opgenomen, indien beschikbaar.
 
-<!--## Adobe Target Community Q&A Coffee Break
+## Adobe Target Community - Koffiepauze voor vragen en antwoorden
 
-* **Art of the Possible Webinar Follow-up Questions (Part 1 of Personalization Maturity Series)**
-* **Wednesday, February 7, 2024**
+* **Krachtige Recommendations Webinar-vervolgvragen (Deel 2 van Persoonlijke maturiteitsreeks)**
+* **Woensdag 28 februari 2024**
 * **8:00 - 9:00 (PST -8 GMT)**
-* **[Registration information](https://shorturl.at/gknVY){target=_blank}**
+* **[Registratiegegevens](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
 
 +++Details
 
-Join [!DNL Adobe Target] experts Brent Kostak, Ryan Roberts, and Drew Burns as they provide answers in real-time to customers' questions related to content covered during [Part 1 of the [!DNL Adobe Target] Webinar Series on the "Art of the Possible](#maturity-series)," where our experts covered the following topics:
+Verbinden [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak en Timothy Furlow (Target Recommendations-expert &amp; Senior Manager of Personalization &amp; Optimization at Lenovo) omdat zij in real-time antwoorden geven op vragen van klanten over inhoud die tijdens [Deel 2 van de [!DNL Adobe Target] Webinar Series over de &quot;High Performance Recommendations](#maturity-series),&quot; waar onze deskundigen de volgende onderwerpen hebben behandeld:
 
-* How each [!DNL Target] capability plays a strategic role in executing personalization at scale
-* Top use cases that customers are configuring AI capabilities to accomplish at scale
-* How you are in control of machine learning to activate AI-powered Personalization to your specific goals
+* Geavanceerde functies die meer nauwkeurigheid en adaptieve aanbevelingen bieden wanneer de klant een relatie met uw merk ontwikkelt.
+* Hoe een niet-technische gebruiker of een marktleider volledige controle van het vormen en het beheren van de algoritmen is.
+* Hoe te om AI en douaneeigenschappen met aanbevelingen te gebruiken om gebruiksgevallen te ontgrendelen die immense invloed op vermindering van kliks en stijgende opbrengst hebben.
 
-If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+Als u het oorspronkelijke webinar overgeslagen hebt, [beluisteren naar de opname](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
-+++-->
+Zorg ervoor dat u zich registreert voor deel 3 van de Webinar-reeks die op 12-3-24 verschijnt en die &quot;[Recommendations met AI-voeding ontgrendelen](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}.&quot;
+
++++
 
 ## Adobe Target 2024 Personalization Maturity Webinar Series {#maturity-series}
 
@@ -42,7 +44,7 @@ Waarom zou u moeten bijwonen:
 
 * **Belangrijkste voorbeelden**: Transformeer visies in realiteit met een blauwdruk voor intelligente optimalisatie, rijping [!DNL Adobe Target] klanten die verder gaan dan op regels gebaseerde experimenten en A/B-tests.
 * **Unieke mogelijkheden maximaliseren**: De ervaringen van de spoorstaaf voor succes met krachtige aanbevelingen om ROI, opbrengst, en omzetting te maximaliseren.
-* **Geavanceerde aanpassingsstrategieën**: Diep duiken in AI/ML geavanceerde technieken om bedrijfseffect te schalen, met nieuwe segmenten/publiek resoneren, en verpersoonlijkingsmodellen verfijnen voor geoptimaliseerde ervaringen
+* **Geavanceerde aanpassingsstrategieën**: Diep duik in AI/ML geavanceerde technieken om bedrijfseffect te schrapen, met nieuwe segmenten/publiek resoneren, en verpersoonlijkingsmodellen verfijnen voor geoptimaliseerde ervaringen.
 
 * **[Hier registreren](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
@@ -61,6 +63,8 @@ Waarom zou u moeten bijwonen:
    * **10:00 - 11:00 (PST -8 GMT)**
 
      Leer hoe aanbevelingsalgoritmen een game-wisselaar kunnen zijn voor bedrijven, waardoor betrokkenheid en inkomsten worden bevorderd. Van gepersonaliseerde productsuggesties aan inhoudaanbevelingen, de capaciteit om gebruikers naadloos door hun reis te begeleiden draagt direct aan het ontsluiten van significante bedrijfsgroei bij.
+
+     [Luister naar de opname.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **Persoonlijke instellingen op AI-basis ontgrendelen**
    * **Dinsdag 12 maart 2024**
