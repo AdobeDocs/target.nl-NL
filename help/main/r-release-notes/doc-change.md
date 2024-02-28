@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7ae2aa9f95b01653891e9857c1ee5b94f6c809a9
+source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 28 februari | [[!DNL Target] releaseopmerkingen (pre-release)](/help/main/r-release-notes/target-release-notes.md) | Extra informatie over de [!DNL Target] Standard/Premium 24.3.1 (4-6 maart 2024). |
 | 26 februari | [[!DNL Adobe Target] aankondigingen en evenementen](/help/main/r-release-notes/target-announcements.md) | Extra informatie over de komende [!UICONTROL Adobe Target Community] Coffee Break (28 februari 2024). |
 | 23 februari | [IP adressen die door worden gebruikt [!DNL Recommendations] feed-processing-servers](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Voegt de volgende belangrijke nota en de nieuwe IP adressen toe die u lijst van gewenste personen zou moeten.<P>**Belangrijk**: De [!DNL Target] het team werkt momenteel de NATIONAAL gatewayadressen voor het downloaden bij [!DNL Recommendations] feeds. Als u IP voegend op lijst van gewenste personen  uitvoert, zorg ervoor dat u de volgende nieuwe gastheren van AWS voegt op lijst van gewenste personen. De bestaande hosts worden op 30 juni 2024 buiten bedrijf gesteld. Om een vlotte overgang te verzekeren, lijst van gewenste personen alle negen adressen. Er is geen urgentie om de bestaande adressen te verwijderen. |
 | 8 februari | [Prefetch](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | Nieuwe sectie toegevoegd: &quot;Prefetch-vakken met clickTrack-meetgegevens bij gebruik van Analytics for Target (A4T)&quot; |

@@ -4,9 +4,9 @@ description: Meer informatie over de nieuwe functies, verbeteringen en oplossing
 title: Welke nieuwe functies en verbeteringen worden opgenomen in de komende [!DNL Target] Vrijgeven?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
+source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,28 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor volgende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**Laatst bijgewerkt: 22 januari 2024**
+**Laatst bijgewerkt: 28 februari 2024**
 
 >[!NOTE]
 >
 >Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 >
 >Voor informatie over de huidige versie raadpleegt u [Opmerkingen bij de doelversie](release-notes.md). De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruik.
+
+## [!DNL Target] Standard/Premium 24.3.1 (4-6 maart 2024)
+
+Deze release is gepland voor de volgende dagen:
+
+* **4 maart** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
+* **5 maart**: regio Azië-Stille Oceaan (APAC)
+* **6 maart**: Amerikaanse regio
+
+Deze versie bevat de volgende verbeteringen en oplossingen:
+
+* Probleem verholpen met de logica die het aantal unieke kiezers in een activiteit berekent. (TGT-47878)
+* Probleem verholpen dat ertoe heeft geleid [!UICONTROL Multivariate] (MVT) activiteiten geconfigureerd met [!UICONTROL Analytics for Target] (A4T) rapporteren om niet correct weer te geven. (TGT-47490)
+* Verbeterde het waarschuwingsbericht dat in het melden wordt getoond wanneer een ervaring zonder verkeer als controleervaring wordt gebruikt. (TGT-47537)
+* Er zijn veel oplossingen toegevoegd voor backend en lokalisatie.
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
