@@ -6,9 +6,9 @@ short-description: Meer informatie over de nieuwe functies, verbeteringen en opl
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
+source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -19,28 +19,26 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
 
-## Afschrijving van iPad en iPhone van kenmerk Browser-publiek (30 april 2024)
+## Updates voor `Browser:iPad` en `Browser:iPhone` in [!UICONTROL Browser] attributen voor het publiek (30 april 2024)
 
-| Deprectie | Details |
+| Updates | Details |
 |--- |--- |
-| [!DNL iPad] en [!DNL iPhone] worden vervangen door de [Browserkenmerk](/help/main/c-target/c-audiences/c-target-rules/browser.md) gebruikt bij het maken van soorten publiek.<p>Vervaldatum:<P>30 april 2024 | [!DNL Adobe Target] laat u [doel op een van de verschillende categoriekenmerken](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inclusief gebruikers die een specifieke [browser- of browseropties](/help/main/c-target/c-audiences/c-target-rules/browser.md) wanneer ze uw pagina bezoeken.<P><B>Vanaf 30 april 2024 worden iPad en iPhone van de beschikbare [!UICONTROL Browser] Typ een vervolgkeuzelijst bij het maken van categorieën voor het publiek.</b><P>Ingebouwde soorten publiek die zijn gemaakt met de [!DNL Target] UI, zoals &quot;Browser: iPad&quot; en &quot;Browser: iPhone&quot;, wordt automatisch verplaatst naar de nieuwe definitie van het publiek.<p>Voor voorbeelden van alternatieve instellingen die handmatig moeten worden gewijzigd, raadpleegt u [Afschrijving van iPad en iPhone van kenmerk Browser-publiek (30 april 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
+| [!UICONTROL Browser:iPad] en [!UICONTROL Browser:iPhone] bijgewerkt in [Browserkenmerken](/help/main/c-target/c-audiences/c-target-rules/browser.md) gebruikt bij het maken van soorten publiek. | [!DNL Adobe Target] laat u [doel op een van de verschillende categoriekenmerken](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), met inbegrip van bezoekers die een specifieke [browser- of browseropties](/help/main/c-target/c-audiences/c-target-rules/browser.md) wanneer ze uw pagina bezoeken.<P>Beginnen met de [!DNL Target] Standard/Premium 24.3.1 (4-6 maart 2024), ingebouwde doelgroepen, zoals `Browser:iPad` en `Browser:iPhone` wordt bijgewerkt om de juiste doelversie uit te voeren voor [!DNL iPad] en [!DNL iPhone] gebruiken `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` en `profile.mobile.isTablet`.<P>Deze update vereist geen actie aan de kant van de klanten.<p><B>Belangrijk</b>: Voor klanten om het juiste richten uit te voeren voor [!DNL iPad] en [!DNL iPhone] in profielscripts (en JavaScript-segmenten) moet de klant handmatig wijzigingen aanbrengen door **30 april 2024**. Voor voorbeelden van alternatieve instellingen die handmatig moeten worden gewijzigd, raadpleegt u [Updates voor [!DNL iPad] en [!DNL iPhone] in [!UICONTROL Browser] publiekskenmerken](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
 
-## [!DNL Target] Standard/Premium 24.1.1 (22, 23 en 25 januari 2024)
+## [!DNL Target] Standard/Premium 24.3.1 (4-6 maart 2024)
 
 Deze release is gepland voor de volgende dagen:
 
-* **22 januari** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
-* **23 januari**: regio Azië-Stille Oceaan (APAC)
-* **25 januari**: Amerikaanse regio
+* **4 maart** Betreft: Europa, Midden-Oosten en Afrika (EMEA)
+* **5 maart**: regio Azië-Stille Oceaan (APAC)
+* **6 maart**: Amerikaanse regio
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
-* [!UICONTROL Analytics for Target] (A4T) de activiteiten met de metriek van het opbrengstdoel &quot;Inkomsten&quot;niet tonen aangezien de kolomnaam en de opbrengst metrisch niet in ($) formaat in rapportering getoond. Dit was een cosmetische kwestie die is opgelost. (TGT-46995)
-* Probleem verholpen waarbij de intervallen van de rapportdatum niet correct werkten. (TGT-47396)
-* Probleem opgelost waarbij de onjuiste status werd weergegeven op het tabblad [!UICONTROL All Activities] pagina nadat klanten een activiteit hebben geactiveerd of gedeactiveerd met [!UICONTROL More Actions] pictogram. (TGT-47367)
-* Het probleem dat de oorzaak was van de [!UICONTROL Important Attributes] rapport niet voor één enkele klant tonen. (TGT-47272)
-* Probleem verholpen waarbij een bericht &#39;Ongeldige lading&#39; werd weergegeven wanneer één klant probeerde &#39;Verificatie vereisen&#39; in te schakelen. (TGT-47195)
-* Verschillende gelokaliseerde tekenreeksen in de [!DNL Target] UI.
+* Probleem verholpen met de logica die het aantal unieke kiezers in een activiteit berekent. (TGT-47878)
+* Probleem verholpen dat ertoe heeft geleid [!UICONTROL Multivariate] (MVT) activiteiten geconfigureerd met [!UICONTROL Analytics for Target] (A4T) rapporteren om niet correct weer te geven. (TGT-47490)
+* Verbeterde het waarschuwingsbericht dat in het melden wordt getoond wanneer een ervaring zonder verkeer als controleervaring wordt gebruikt. (TGT-47537)
+* Er zijn veel oplossingen toegevoegd voor backend en lokalisatie.
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 

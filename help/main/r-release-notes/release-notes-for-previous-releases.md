@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
+source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
 workflow-type: tm+mt
-source-wordcount: '37522'
+source-wordcount: '37672'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,19 @@ Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en
 >[!NOTE]
 >
 >Zie [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) voor informatie over de Target-releases van de huidige maand (platform en Target Standard/Premium).
+
+## Opmerkingen bij de release - 2024
+
+### [!DNL Target] Standard/Premium 24.1.1 (22, 23 en 25 januari 2024)
+
+Deze versie bevat de volgende verbeteringen en oplossingen:
+
+* [!UICONTROL Analytics for Target] (A4T) de activiteiten met de metriek van het opbrengstdoel &quot;Inkomsten&quot;niet tonen aangezien de kolomnaam en de opbrengst metrisch niet in ($) formaat in rapportering getoond. Dit was een cosmetische kwestie die is opgelost. (TGT-46995)
+* Probleem verholpen waarbij de intervallen van de rapportdatum niet correct werkten. (TGT-47396)
+* Probleem opgelost waarbij de onjuiste status werd weergegeven op het tabblad [!UICONTROL All Activities] pagina nadat klanten een activiteit hebben geactiveerd of gedeactiveerd met [!UICONTROL More Actions] pictogram. (TGT-47367)
+* Het probleem dat de oorzaak was van de [!UICONTROL Important Attributes] rapport niet voor één enkele klant tonen. (TGT-47272)
+* Probleem verholpen waarbij een bericht &#39;Ongeldige lading&#39; werd weergegeven wanneer één klant probeerde &#39;Verificatie vereisen&#39; in te schakelen. (TGT-47195)
+* Verschillende gelokaliseerde tekenreeksen in de [!DNL Target] UI.
 
 ## Opmerkingen bij de release - 2023
 
@@ -557,7 +570,7 @@ Deze release bevat de volgende nieuwe functies:
 | --- | --- |
 | [!UICONTROL Audiences] UI vernieuwen | Als onderdeel van het [!DNL Adobe Target] de voortdurende inspanning van het team om de gebruiker-ervaring voor te verbeteren [!DNL Target] gebruikers, deze versie vernieuwt de [!UICONTROL Audiences] en [!UICONTROL Profile Scripts] pagina&#39;s in het dialoogvenster [!DNL Target] UI. Deze update verenigt en normaliseert ontwerppatronen die eerder inconsistent waren, terwijl het toevoegen van nieuwe verhogingen, zoals:<ul><li>De mogelijkheid om meerdere soorten publiek tegelijk te selecteren en te verwijderen</li><li>Een vernieuwd [ontwerp van publiek builder](/help/main/c-target/c-audiences/create-audience.md)</li><li>Ondersteuning voor uitsluitingsregels in het dialoogvenster [!UICONTROL Audience] bibliotheekregelbouwer</li><li>Een nieuw filter &quot;Bron publiek&quot;, waarmee u sneller uw doelgroep kunt detecteren</li><li>Opties voor permanent zoeken en filteren tijdens sessies</li></ul>Zie voor meer informatie [Soorten publiek](/help/main/c-target/target.md). |
 | [!UICONTROL Profile Scripts] UI vernieuwen | De [!UICONTROL Profile Scripts] De bibliotheek is ook bijgewerkt en bevat een vernieuwde interface en diverse productiviteitsupdates:<ul><li>Meerdere profielscripts tegelijk selecteren en verwijderen</li><li>Een nieuwe code-editor voor profielscripts</li><li>Syntaxis markeren en fout controleren in de code-editor</li><li>Automatisch aanvullen van tokens (mbox of profiel) via sneltoetsen</li></ul>Zie voor meer informatie [Bezoekerprofielen](/help/main/c-target/c-visitor-profile/visitor-profile.md). |
-| [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."} | De [!UICONTROL Recommendations Criteria] de workflow voor het maken en bewerken van bestanden is gestroomlijnd om het kiezen van het juiste algoritme en de juiste instellingen voor het uitvoeren van aanbevelingen te vereenvoudigen.<br>Zie voor meer informatie [Criteria maken](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md). |
+| [!BADGE Premium]{type=Positive url=&quot;/help/main/c-intro/intro.md#premium newtab=true&quot; tooltip=&quot;Zie wat er in Target Premium is opgenomen.&quot;} Recommendations-criteria maken en bewerken | De [!UICONTROL Recommendations Criteria] de workflow voor het maken en bewerken van bestanden is gestroomlijnd om het kiezen van het juiste algoritme en de juiste instellingen voor het uitvoeren van aanbevelingen te vereenvoudigen.<br>Zie voor meer informatie [Criteria maken](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md). |
 | ![Premium badge](/help/main/assets/premium.png) Verbeteringen in de snelheid van Recommendations-terugzoekvensters en -algoritmes | U kunt de algoritmen &quot;Meest bekeken&quot; en &quot;Hoogste verkopers&quot; nu uitvoeren met een terugkijkvenster van zes uur om de inhoud vast te leggen die het laatst wordt doorzocht. Wanneer het terugkijkvenster van zes uur wordt geselecteerd, worden uw aanbevelingen resultaten bijgewerkt om de 3-6 uur door de dag.<br>Zie voor meer informatie [Gegevensbron](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *Criteria maken*. |
 
 ### [!DNL Target Standard/Premium] 21.9.1 (14 september 2021)

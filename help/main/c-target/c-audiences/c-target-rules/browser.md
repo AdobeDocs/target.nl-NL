@@ -4,14 +4,14 @@ description: Leer hoe u een publiek kunt maken in [!DNL Adobe Target] om gebruik
 title: Kan ik bezoekers richten die op Browser type worden gebaseerd?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
+source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1015'
 ht-degree: 0%
 
 ---
 
-# Browser
+# [!UICONTROL Browser]
 
 U kunt zich richten op gebruikers die een specifieke browser of specifieke browseropties gebruiken wanneer zij uw pagina bezoeken.
 
@@ -28,7 +28,11 @@ U kunt de volgende browsers als doel instellen:
 
 >[!IMPORTANT]
 >
->Vanaf 30 april 2024, [!DNL iPad] en [!DNL iPhone] wordt verwijderd uit de beschikbare [!UICONTROL Browser] Typ een vervolgkeuzelijst bij het maken van categorieën voor het publiek. Zie voor instellingen voor tijdelijke oplossing [Afschrijving van iPad en iPhone van kenmerk Browser-publiek (30 april 2024)](#deprecation) hieronder.
+>Beginnen met de [!DNL Target] Standard/Premium 24.3.1 (4-6 maart 2024), ingebouwde doelgroepen, zoals `Browser:iPad` en `Browser:iPhone` zijn bijgewerkt om het juiste richten voor uit te voeren [!DNL iPad] en [!DNL iPhone] gebruiken `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone`, en `profile.mobile.isTablet`.
+>
+>Deze update vereist geen actie aan de kant van de klanten. De labels in het dialoogvenster [!DNL Target] De interface wordt in de toekomst gewijzigd en wordt bekendgemaakt in [[!DNL Target] releaseopmerkingen (huidig)](/help/main/r-release-notes/release-notes.md) wanneer deze wijzigingen worden aangebracht.
+>
+>Zie voor instellingen voor tijdelijke oplossing [Updates voor [!DNL iPad] en [!DNL iPhone] in [!UICONTROL Browser] attributen voor het publiek (30 april 2024)](#updates) hieronder.
 
 Er zijn twee manieren om browsers als doel in te stellen:
 
@@ -131,17 +135,17 @@ Deze video bevat informatie over het gebruik van publiekscategorieën.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
 
-## Afschrijving van iPad en iPhone van kenmerk Browser-publiek (30 april 2024) {#deprecation}
+## Updates voor [!DNL iPad] en [!DNL iPhone] in [!UICONTROL Browser] attributen voor het publiek (30 april 2024) {#updates}
 
 [!DNL Adobe Target] laat u [doel op een van de verschillende categoriekenmerken](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inclusief gebruikers die een specifieke browser of browseropties gebruiken wanneer ze uw pagina bezoeken.
 
-Vanaf 30 april 2024 worden iPad en iPhone van de beschikbare [!UICONTROL Browser] type vervolgkeuzelijst in het dialoogvenster [!DNL Target] UI bij het maken van categorieën voor het publiek.
+Beginnen met de [!DNL Target] Standard/Premium 24.3.1 (4-6 maart 2024), ingebouwde doelgroepen, zoals `Browser:iPad` en `Browser:iPhone` zijn bijgewerkt om het juiste richten voor uit te voeren [!DNL iPad] en [!DNL iPhone] gebruiken `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` en `profile.mobile.isTablet`.
 
-Ingebouwde soorten publiek die zijn gemaakt met de [!DNL Target] UI, zoals &quot;Browser: iPad&quot; en &quot;Browser: iPhone&quot;, wordt automatisch verplaatst naar de nieuwe definitie van het publiek. In de toekomst moet u echter de instellingen gebruiken [hieronder beschreven](#ui).
+Ingebouwde soorten publiek die zijn gemaakt met de [!DNL Target] UI, zoals `Browser:iPad` en `Browser:iPhone`, wordt automatisch naar de nieuwe definitie van het publiek verplaatst en vereist geen actie aan de kant van de klant. In de toekomst moet u echter de instellingen gebruiken [hieronder beschreven](#ui).
 
-Als u `user.browserType` in alle profielscripts om te controleren of het een iPhone of iPad is (bijvoorbeeld `user.browserType == 'iphone'` of `user.browserType != 'ipad'`), moeten deze profielscripts worden gewijzigd als [hieronder uitgelegd](#profile-scripts) vóór 30 april 2024 om ervoor te zorgen dat dit publiek naar verwachting blijft functioneren.
+Als u `user.browserType` in alle profielscripts om te controleren of het een [!DNL iPhone] of [!DNL iPad] (bijvoorbeeld `user.browserType == 'iphone'` of `user.browserType != 'ipad'`), moeten deze profielscripts worden gewijzigd als [hieronder uitgelegd](#profile-scripts) vóór 30 april 2024 om ervoor te zorgen dat dit publiek naar verwachting blijft functioneren.
 
-JavaScript-publiek is verouderd publiek dat gebruikmaakt van doelexpressies die zijn vervangen door het [!DNL Target Classic] UI. Deze soorten publiek kunnen alleen via de API worden gewijzigd. Klanten moeten deze soorten publiek alleen bijwerken als ze hun verouderde publiek blijven gebruiken voor activiteiten.
+JavaScript-publiek is een verouderd publiek dat [!DNL Target] expressies die zijn vervangen door de [!DNL Target Classic] UI. Deze soorten publiek kunnen alleen via de API worden gewijzigd. Klanten moeten deze soorten publiek alleen bijwerken als ze hun verouderde publiek blijven gebruiken voor activiteiten.
 
 ### Soorten publiek gemaakt met de [!DNL Target] UI {#ui}
 
@@ -176,16 +180,6 @@ Er zijn vele andere mogelijke montages die zouden kunnen worden gebruikt, bijvoo
 ### Soorten publiek gemaakt met behulp van profielscripts {#profile-scripts}
 
 Als u `user.browserType` in verouderde [!DNL Target Classic] publiek of in profielmanuscripten, zouden de veranderingen het volgende moeten omvatten:
-
->[!NOTE]
->
->De volgende profielen zullen naar verwachting in de komende weken worden gepubliceerd, vanaf 24 januari 2024. De [Opmerkingen bij de huidige release](/help/main/r-release-notes/release-notes.md) worden bijgewerkt wanneer deze profielen beschikbaar zijn.
->
->Deze profielen maken de volgende wijzigingen mogelijk:
->
->* `profile.mobile.isTablet`
->
->* `profile.mobile.isMobilePhone`
 
 * **BrowserType is iPhone**:
 
