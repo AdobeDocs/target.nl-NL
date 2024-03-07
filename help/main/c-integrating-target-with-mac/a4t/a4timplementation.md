@@ -4,9 +4,9 @@ description: Voer de stappen uit die nodig zijn voor het implementeren van Analy
 title: Hoe kan ik Analyses implementeren voor [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: ddfb06a17a24200b2aa4f01d370cc0e92ff5f180
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ Bij de implementatie zijn verschillende stappen vereist [!DNL Adobe Analytics] a
 
 ## ![Adobe Experience Platform Web SDK-badge](/help/main/assets/platform.png) Implementatiestappen voor een Adobe Experience Platform Web SDK-implementatie {#platform}
 
-De volgende secties beschrijven de stappen die worden vereist om deze integratie aan uw plaats op te stellen als u van plan bent om SDK van het Web van het Platform te gebruiken:
+De volgende secties beschrijven de stappen die worden vereist om deze integratie aan uw plaats op te stellen als u van plan bent om het Web SDK van het Platform te gebruiken:
 
-### Stap 1: Inrichting aanvragen voor [!DNL Analytics] en [!DNL Target]
+### Stap 1: provisioning aanvragen voor [!DNL Analytics] en [!DNL Target]
 
 Voordat u A4T implementeert, moet u provisioning uitvoeren voor [!DNL Analytics] en [!DNL Target]. [Gebruik dit formulier om provisioning aan te vragen](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y).
 
@@ -29,13 +29,13 @@ Aan de vereisten voor gebruikersaccounts moet worden voldaan voordat u een activ
 
 ### Stap 3: Een Edge-configuratie maken
 
-Een Edge-configuratie maken met [!DNL Adobe Experience Platform] met het gereedschap voor randconfiguratie. Configureer de [[!DNL Analytics] and [!DNL Target] randconfiguratie-instellingen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html).
+Een Edge-configuratie maken met [!DNL Adobe Experience Platform] met het gereedschap voor randconfiguratie. Vorm [Gegevensstromen maken en configureren](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
 
-### Stap 4: De SDK van het Web Platform installeren en configureren
+### Stap 4: Installeer en vorm de SDK van het Web Platform
 
 Beginnen met leveren [!DNL Target] ervaringen en toepassing [!DNL Analytics] voor tracerings- en analysedoeleinden, [Installeren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) en [vormen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) de SDK van het Web van het Platform op uw plaatspagina&#39;s.
 
-### Stap 5: Opties inschakelen voor het gebruik van A4T
+### Stap 5: Schakel de opties voor het gebruik van A4T in
 
 In de [!DNL Target] UI, klik **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** kiest u vervolgens **[!UICONTROL Select per activity]** of **[!UICONTROL Adobe Analytics]**.
 
@@ -46,7 +46,7 @@ In de [!DNL Target] UI, klik **[!UICONTROL Administration]** > **[!UICONTROL Vis
 
 In de volgende secties worden de stappen beschreven die nodig zijn om deze integratie op uw site te implementeren als u van plan bent om at.js te gebruiken:
 
-### Stap 1: Aanvoer aanvragen voor Analytics en Target
+### Stap 1: De levering van het verzoek voor Analytics en Doel
 
 Na de implementatie [!DNL Analytics] als bron van rapportage voor [!DNL Target], moet u zijn ingericht voor [!DNL Analytics] en [!DNL Target]. [Gebruik dit formulier om provisioning aan te vragen](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}.
 
@@ -54,33 +54,33 @@ Na de implementatie [!DNL Analytics] als bron van rapportage voor [!DNL Target],
 
 Aan de vereisten voor gebruikersaccounts moet worden voldaan voordat u een [!DNL Analytics]-gebaseerde activiteit in [!DNL Target]. Zie [Vereisten voor gebruikerstoegang](/help/main/c-integrating-target-with-mac/a4t/account-reqs.md).
 
-### Stap 3: De service Experience Cloud Visitor ID implementeren
+### Stap 3: Voer de dienst van identiteitskaart van de Bezoeker van het Experience Cloud uit
 
-Met de bezoekersidentiteitsservice kunt u gebruikers overal herkennen [!DNL Adobe Experience Cloud] oplossingen. Voer of migreer aan de vereiste versie van identiteitskaart van de Bezoeker van de Experience Cloud uit. Zie &quot;Implementatievereisten&quot; in [Voordat u implementeert](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
+Met de bezoekersidentiteitsservice kunt u gebruikers overal herkennen [!DNL Adobe Experience Cloud] oplossingen. Implementeer of migreer naar de vereiste versie van de Experience Cloud Bezoeker-id. Zie &quot;Implementatievereisten&quot; in [Voordat u implementeert](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Zie [Implementeer de Experience Cloud ID-service voor Doel](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) in de *Experience Cloud Bezoeker-id-service* documentatie.
+Zie [Voer de Dienst van identiteitskaart van het Experience Cloud voor Doel uit](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) in de *Experience Cloud Visitor ID Service* documentatie.
 
 ### Stap 4: AppMeasurement voor JavaScript of s_code bijwerken
 
 Implementeer of migreer naar de vereiste versie van appMeasurement.js. Zie &quot;Implementatievereisten&quot; in [Voordat u implementeert](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Voor nieuwe implementaties raadpleegt u [Overzicht van JavaScript-implementatie](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) in de *Handleiding voor analytische implementatie*.
+Zie voor nieuwe implementaties [Overzicht van JavaScript-implementatie](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) in de *Handleiding voor analytische implementatie*.
 
 Voor een migratie raadpleegt u [Migreren naar AppMeasurement voor JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html) in de *Handleiding voor analytische implementatie*.
 
-### Stap 5: Downloaden en bijwerken om.js
+### Stap 5: Download en werk de update om.js bij
 
 Implementeer of migreer naar de vereiste versie van at.js met uw productieaccount. De code hoeft niet te worden gewijzigd.
 
 Zie &quot;Implementatievereisten&quot; in [Voordat u implementeert](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-### Stap 6: Host om.js
+### Stap 6: Host at.js
 
 Als u eerder om.js opstelde, kunt u uw bestaand dossier met de bijgewerkte versie vervangen. Zie &quot;Implementatievereisten&quot; in [Voordat u implementeert](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Anders kan dit bestand worden gehost samen met de bezoekersidentiteitsservice en AppMeasurement voor JavaScript-bestanden. Deze bestanden moeten worden gehost op een webserver die toegankelijk is voor alle pagina&#39;s op uw site. U hebt het pad naar deze bestanden nodig in de volgende stap.
+Anders kan dit bestand samen met de bezoekersidentiteitsservice en het AppMeasurement voor JavaScript-bestanden worden gehost. Deze bestanden moeten worden gehost op een webserver die toegankelijk is voor alle pagina&#39;s op uw site. U hebt het pad naar deze bestanden nodig in de volgende stap.
 
-### Stap 7: Referentie om.js op alle sitepagina&#39;s {#step7}
+### Stap 7: Verwijzing bij.js op alle plaatspagina&#39;s {#step7}
 
 Neem de code at.js onder VisitorAPI.js op door de volgende coderegel toe te voegen aan de tag op elke pagina:
 
@@ -95,7 +95,7 @@ De visitorAPI.js moet worden geladen vóór at.js. Als u een bestaand at.js- dos
 
 De standaardinstelling voor [!DNL Target] en [!DNL Analytics] vanuit het perspectief van de implementatie moet de SDID die van de pagina is doorgegeven, worden gebruikt om de [!DNL Target] en [!DNL Analytics] automatisch op de achtergrond samen aanvragen.
 
-U kunt bepalen hoe en wanneer u analysegegevens verzendt met betrekking tot [!DNL Target] tot [!DNL Analytics] voor rapportagedoeleinden. Als u zich niet wilt aanmelden bij de standaardinstellingen voor [!DNL Target] en [!DNL Analytics] De analysegegevens automatisch koppelen via de SDID, instellen **analyticsLogging = client_side** via **window.targetGlobalSettings**. Opmerking: versies onder 2.1 ondersteunen deze aanpak niet.
+U kunt bepalen hoe en wanneer u analysegegevens verzendt met betrekking tot [!DNL Target] tot [!DNL Analytics] voor rapportagedoeleinden. Als u zich niet wilt aanmelden bij de standaardinstellingen van [!DNL Target] en [!DNL Analytics] De analysegegevens automatisch koppelen via de SDID, instellen **analyticsLogging = client_side** via **window.targetGlobalSettings**. Opmerking: versies onder 2.1 ondersteunen deze aanpak niet.
 
 Bijvoorbeeld:
 
@@ -186,11 +186,11 @@ Het is vooral belangrijk om te bevestigen dat deze waarden in de Toepassingen va
 >
 >Een4T werkt alleen correct als deze waarden overeenkomen.
 
-### Stap 9: (Optioneel) Vorige integratiecode verwijderen
+### Stap 9: (Optioneel) Verwijder vorige integratiecode
 
 Adobe raadt u aan de vorige integratie te verwijderen om de implementatie te vereenvoudigen en de verschillen tussen de systemen weg te werken. U kunt om het even welke code verwijderen u voor een vorige integratie van Sc aan T&amp;T, met inbegrip van hebt opgesteld `mboxLoadSCPlugin`.
 
-### Stap 10: De opties inschakelen voor het gebruik van Analytics als rapportagebron voor Doel
+### Stap 10: Laat de opties toe om Analytics als rapporteringsbron voor Doel te gebruiken
 
 In [!DNL Target], klikt u op **[!UICONTROL Administration > Reporting]** en kiest u **[!UICONTROL Select per activity]** of **[!UICONTROL Adobe Analytics]** om de opties in te schakelen.
 
