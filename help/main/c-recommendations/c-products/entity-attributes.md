@@ -5,9 +5,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 title: Hoe gebruik ik entiteitskenmerken?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: b6697eee5925cb8fa3b2fa2e107af0c617d30f94
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1070'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Voorbeeld: `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Ondersteunt meerdere waarden (door komma&#39;s gescheiden lijst).
 
-Categorie van de huidige pagina. De entiteit.categoryID kan veelvoudige categorieën, zoals een cardigans subsection (bijvoorbeeld vrouwen, vrouwen:truien, vrouwen omvatten:sweaters:cardigans). Meerdere categorieën moeten worden gescheiden door komma&#39;s.
+Categorie van de huidige pagina. De entiteit.categoryID kan veelvoudige categorieën, zoals een cardigans subsection (bijvoorbeeld) omvatten `womens`, `womens:sweaters`, `womens:sweaters:cardigans`). Meerdere categorieën moeten worden gescheiden door komma&#39;s.
 
 De `categoryId` waarde is beperkt tot 250 tekens.
 
@@ -105,9 +105,9 @@ De `categoryId` waarde is beperkt tot 250 tekens.
 
 Voorbeelden:
 
-* Voorbeeld van productdetailpagina: vrouwen, vrouwen:truien, vrouwen:sweaters:cardigans
-* Voorbeeld van categorie Paginanummers: vrouwen:sweaters
-* Voorbeeld van paginakardigans: vrouwen:sweaters:cardigans
+* Voorbeeld van productdetailpagina: `womens`, `womens:sweaters`, `womens:sweaters:cardigans`
+* Voorbeeld van categorie Paginanummers: `womens:sweaters`
+* Voorbeeld van paginakaartjes voor categorieën: `womens:sweaters:cardigans`
 
 Voor op categorieën gebaseerde aanbevelingen wordt de categoriewaarde met een komma van elkaar gescheiden. Waarden die door komma&#39;s worden gescheiden, worden categorieën. U kunt ook subcategorieën definiëren door een ander scheidingsteken, zoals een dubbele punt (:), te gebruiken om subcategorieën binnen de categoriewaarde te scheiden.
 
@@ -117,7 +117,7 @@ In de volgende code is de categorie Vrouwen bijvoorbeeld onderverdeeld in versch
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban', 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
-Voor de levering mbox, wordt de langste kenmerknaam gebruikt voor de sleutel. Als er een tijd is, wordt het laatste kenmerk gebruikt. In het bovenstaande voorbeeld is de categorietoets Womens:Outerwear:Jasjes:Caban.
+Voor de levering mbox, wordt de langste kenmerknaam gebruikt voor de sleutel. Als er een tijd is, wordt het laatste kenmerk gebruikt. In het bovenstaande voorbeeld is de categorietoets `Womens:Outerwear:Jackets:Caban`.
 
 ### entity.brand
 
