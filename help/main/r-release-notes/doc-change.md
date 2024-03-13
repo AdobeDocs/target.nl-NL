@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
+source-git-commit: 0e4698935b90cc0236abe6a47a6183c7fd2a7b20
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 13 maart | [[!UICONTROL Time Frame]](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | Toegevoegde informatie aan nota om op tijd-gebaseerd publiek opnieuw te bewaren om rekening te houden met de Tijd van de Besparing van het Daglicht (DST). |
 | 6 maart | [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) | Bijgewerkte informatie in de volgende sectie: &quot;Updates voor [!DNL iPad] en [!DNL iPhone] in [!UICONTROL Browser] attributen voor het publiek (30 april 2024)&quot;. |
 |  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Bijgewerkte volledige sectie: &quot;Updates voor `Browser:iPad` en `Browser:iPhone` in [!UICONTROL Browser] attributen voor het publiek (30 april 2024)&quot;. |
 |  | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] 24.1.1. |

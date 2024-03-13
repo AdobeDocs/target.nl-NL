@@ -4,14 +4,14 @@ description: Leer hoe u begin- en einddatums en -tijden kunt gebruiken voor gebr
 title: Kan ik mij richten op bezoekers die mijn site op specifieke tijdstippen bezoeken?
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
-source-git-commit: 1081baa170e8ee979562223c0aa760002d4b9c8c
+source-git-commit: 0e4698935b90cc0236abe6a47a6183c7fd2a7b20
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
 
-# Tijdschema
+# [!UICONTROL Time Frame]
 
 U kunt begin- en einddatums en -tijden toevoegen in [!DNL Adobe Target] om gebruikers te richten die uw plaats tijdens een specifiek tijdkader bezoeken. U kunt ook de opties voor Week- en Dagscheiding instellen om herhalende patronen te maken voor doelgroepen.
 
@@ -35,7 +35,7 @@ Als u bijvoorbeeld de [functie voor gecombineerd, ad-hocpubliek](/help/main/c-ta
    >
    >* De tijdzone voor begin-/einddatums wordt weergegeven als GMT +/- NN:NN, waarbij NN:NN de verschuiving van GMT is en de tijdzone op accountniveau in plaats van de tijdzone van de bezoeker weerspiegelt. De tijdzone van Californië wordt bijvoorbeeld weergegeven als GMT -08:00.
    >
-   >* [!DNL Target] de tijdkijkers houden geen rekening met de veranderingen van de Tijd van de Besparing van het Daglicht (DST). U moet het publiek handmatig bijwerken om rekening te houden met DST-wijzigingen.
+   >* [!DNL Target] de tijdkijkers houden geen rekening met de veranderingen van de Tijd van de Besparing van het Daglicht (DST). U moet het publiek handmatig opnieuw opslaan om rekening te houden met DST-wijzigingen.
 
 1. (Voorwaardelijk) Klik **[!UICONTROL Set frequency]** om terugkerende patronen in te stellen, inclusief de dagen van de weken en tijden.
 
