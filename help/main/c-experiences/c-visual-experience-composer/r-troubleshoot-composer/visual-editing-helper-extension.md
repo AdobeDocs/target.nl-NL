@@ -1,19 +1,19 @@
 ---
-keywords: vec;composer voor visuele ervaring; vec;iframe;extension;browser;faq
+keywords: vec;visual experience composer; vec;iframe;extension;browser;faq
 description: Ontdek waarom sommige websites niet betrouwbaar kunnen worden geopend in de [!UICONTROL Visual Experience Composer] (VEC). De [!UICONTROL Visual Editing Helper] Met browserextensie kunt u websites betrouwbaar laden binnen de VEC.
 title: Hoe gebruik ik de [!UICONTROL Visual Editing Helper] Uitbreiding?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 30ad6712d9722854384721ca20d38a605930c4d7
+source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Visual Editing Helper] extension
 
-De [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] Met browserextensie voor Google Chrome kunt u websites betrouwbaar laden binnen de [!UICONTROL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) voor een snelle ervaring met auteurs en QA-websites.
+De [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] browserextensie voor [!DNL Google Chrome] Hiermee kunt u websites betrouwbaar laden binnen de [!UICONTROL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) voor een snelle ervaring met auteurs en QA-websites.
 
 >[!IMPORTANT]
 >
@@ -25,25 +25,25 @@ De [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] Met browsere
 * De website bevindt zich in een iframe.
 * De QA- of werkgebiedsite van de klant is niet beschikbaar voor de buitenwereld (de site is intern).
 
-De [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] browser uitbreiding voor Chrome lost plaats ladende kwesties op waarvoor de klanten nu op [!DNL Target] [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) of extensies van derden, zoals &quot;opzichtig&quot;.
+De [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] browserextensie voor het oplossen van problemen bij het laden van sites waarop klanten nu vertrouwen op de [!DNL Target] [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) of extensies van derden, zoals &quot;opzichtig&quot;.
 
 ## De voordelen van het gebruik van de [!UICONTROL Visual Editing Helper] extension
 
 * Alle iframe-opwindende headers, zoals `X-Frame-Options` en `Content-Security-Policy`, impliciet uit de website worden verwijderd. Het is niet nodig om ingewikkelde regels te creëren die verplicht zijn.
 * Als een webpagina nog geen [!DNL Target] in de bibliotheek at.js kunt u de extensie gebruiken om de bibliotheek te injecteren, zodat u de website kunt ontwerpen. U kunt vervolgens activiteiten maken en deze via voorvertoningskoppelingen kwaliteitscontrole laten uitvoeren.
 
-   Met de [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), injecteert de extensie niet in at.js, maar is de functionaliteit SameSite Cookie nog steeds aanwezig. Schakel de EEG uit als u om 1.js op de webpagina wilt injecteren.
+  Met de [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), injecteert de extensie niet in at.js, maar is de functionaliteit SameSite Cookie nog steeds aanwezig. Schakel de EEG uit als u om 1.js op de webpagina wilt injecteren.
 
-* [Mobiele viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) worden ondersteund, zelfs zonder de [!UICONTROL Enhanced Experience Composer] (EEG)
-* Klanten die niet bekend zijn met [!DNL Target] kan de extensie gebruiken om te experimenteren met [!DNL Target] zelfs als hun ontwikkelaars van IT nog niet ten uitvoer hebben gelegd [!DNL Target] op hun websites.
+* [Mobiele viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) worden zelfs zonder de [!UICONTROL Enhanced Experience Composer] (EEG).
+* Klanten die niet bekend zijn met [!DNL Target] kan de extensie gebruiken om met [!DNL Target] zelfs als hun ontwikkelaars van IT nog niet ten uitvoer hebben gelegd [!DNL Target] op hun websites.
 * Partners die de websites van veelvoudige klanten onderhouden en [!DNL Target] de rekeningen hebben nu één eenvoudig mechanisme om laden VEC te steunen, in plaats van het beheren van veelvoudige regels in derdehulpmiddelen.
 
 ## Verkrijg en installeer [!UICONTROL Visual Editing Helper] browserextensie
 
 1. Ga naar de [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] browserextensie in de Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
-1. Klik op **[!UICONTROL Add to Chrome]** > **[!UICONTROL Add Extension]**.
+1. Klikken **[!UICONTROL Add to Chrome]** > **[!UICONTROL Add Extension]**.
 1. VEC openen in [!DNL Target].
-1. Als u de extensie wilt gebruiken, klikt u op de knop [!UICONTROL Visual Editing Helper] browserextensiepictogram ( ![Pictogram Visuele bewerkingsextensie](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png) ) in de werkbalk van uw Chrome-browser in de modus VEC of QA.
+1. Klik op de knop [!UICONTROL Visual Editing Helper] browserextensiepictogram ( ![Pictogram Visuele bewerkingsextensie](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png) ) in de werkbalk van uw Chrome-browser in de modus VEC of QA.
 
    De [!UICONTROL Visual Editing Helper] wordt automatisch ingeschakeld wanneer een website wordt geopend in het dialoogvenster [!UICONTROL Target] VEC aan macht authoring. De extensie heeft geen voorwaardelijke instellingen. De extensie verwerkt automatisch alle instellingen, inclusief de instellingen voor SameSite-cookies.
 
