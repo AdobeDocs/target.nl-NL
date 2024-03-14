@@ -6,7 +6,7 @@ short-description: Meer informatie over de nieuwe functies, verbeteringen en opl
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
+source-git-commit: f9bfe01924660e42b19f922e00ddc6393c5cfdba
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 |--- |--- |
 | [!UICONTROL Browser:iPad] en [!UICONTROL Browser:iPhone] bijgewerkt in [Browserkenmerken](/help/main/c-target/c-audiences/c-target-rules/browser.md) gebruikt bij het maken van soorten publiek. | [!DNL Adobe Target] laat u [doel op een van de verschillende categoriekenmerken](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), met inbegrip van bezoekers die een specifieke [browser- of browseropties](/help/main/c-target/c-audiences/c-target-rules/browser.md) wanneer ze uw pagina bezoeken.<P>Beginnen met de [!DNL Target] Standard/Premium 24.3.1 (4-6 maart 2024), ingebouwde doelgroepen, zoals `Browser:iPad` en `Browser:iPhone` wordt bijgewerkt om de juiste doelversie uit te voeren voor [!DNL iPad] en [!DNL iPhone] gebruiken `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` en `profile.mobile.isTablet`.<P>Deze update vereist geen actie aan de kant van de klanten.<p><B>Belangrijk</b>: Voor klanten om het juiste richten uit te voeren voor [!DNL iPad] en [!DNL iPhone] in profielscripts (en JavaScript-segmenten) moet de klant handmatig wijzigingen aanbrengen door **30 april 2024**. Voor voorbeelden van alternatieve instellingen die handmatig moeten worden gewijzigd, raadpleegt u [Updates voor [!DNL iPad] en [!DNL iPhone] in [!UICONTROL Browser] publiekskenmerken](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
 
-## [!UICONTROL Visual Editing Helper] verlenging (14 maart 2023)
+## [!UICONTROL Visual Editing Helper] verlenging (14 maart 2024)
 
 Deze versie bevat de volgende verbeteringen en oplossingen voor de [[!DNL Adobe Experience Cloud Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) verlenging voor [!DNL Google Chrome]:
 
