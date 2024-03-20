@@ -4,9 +4,9 @@ description: Leer hoe u een voorvertoning van uw Adobe kunt weergeven [!DNL Targ
 title: Hoe kan ik een Recommendations-activiteit voorvertonen en starten?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 0d875bfaf8c0670f657046469d2adba0647de4fb
+source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1340'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Er wordt een CSV-bestand gedownload. Open het venster om de aanbevolen items wee
 
 Van links naar rechts is een lijst met aanbevolen items, in dit geval de meest bekeken items. De aanbevelingen worden gescheiden door het milieu, in dit geval heeft alleen de productieomgeving aanbevelingen.
 
-Als een sterretje (*) de eerste waarde van een rij is, worden back-upitems aangegeven. Back-upitems worden weergegeven als niet alle sleuven in een ontwerp kunnen worden ingevuld door de aanbevolen items van het algoritme (criteria). Voor een populariteitsalgoritme zoals top verkocht, kan er slechts nul of één non-backup rij voor elke milieu in het Csv- dossier zijn omdat deze algoritmetypes geen &quot;sleutel&quot;hebben, b.v. &quot;toon de klant de populairste producten ongeacht wat zij of kopen.&quot;kunnen bekijken In tegenstelling tot andere op toetsen gebaseerde algoritmen, bijvoorbeeld view-view, is de eerste waarde in de rij NIET de sleutel, maar het eerste item in de lijst met aanbevolen items.
+Als een sterretje (*) de eerste waarde van een rij is, wordt dit [back-upitems](/help/main/c-recommendations/c-algorithms/backup-recs.md). Back-upitems worden weergegeven als niet alle sleuven in een ontwerp kunnen worden ingevuld door de aanbevolen items van het algoritme (criteria).
 
 Voor andere op een sleutelwaarde gebaseerde algoritmypen, zoals [!UICONTROL People Who Viewed This, Viewed That], zijn de belangrijkste waarden (d.w.z. de &quot;Deze&quot;punten) vermeld in de meest linkse kolom en de geadviseerde punten (d.w.z. de &quot;dat&quot;punten) worden vermeld links-aan-recht in de kolommen Recommendation_X.
 
