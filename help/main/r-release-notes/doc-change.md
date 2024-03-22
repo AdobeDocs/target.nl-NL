@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
+source-git-commit: 324274a9e97fceaa3e559e63b3b0f2e74bbd886f
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1573'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 22 maart | [Lijst van gewenste personen randknooppunten doel](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | Verwijderd verwijzingen naar randknooppunten 31 tot en met 38 omdat deze knooppunten niet meer bestaan. Zorg ervoor dat uw lijst van gewenste personen bijgewerkt is. |
+|  | [Het effect van de afleiding van cookies van derden op Target (at.js)](https://experienceleague.adobe.com/docs/target-dev/assets/third_party_cookie_deprecation){target=_blank} | Nieuw blogbericht waarin wordt beschreven wat Google van plan is te vervangen door cookies van derden voor uw [!DNL Adobe Target] at.js-implementatie. |
 | 14 maart | [[!DNL Target] releaseopmerkingen (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Adobe Experience Platform Visual Editing Helper] for [!DNL Google Chrome]. |
 | 13 maart | [[!UICONTROL Time Frame]](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | Toegevoegde informatie aan nota om op tijd-gebaseerd publiek opnieuw te bewaren om rekening te houden met de Tijd van de Besparing van het Daglicht (DST). |
 | 6 maart | [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) | Bijgewerkte informatie in de volgende sectie: &quot;Updates voor [!DNL iPad] en [!DNL iPhone] in [!UICONTROL Browser] attributen voor het publiek (30 april 2024)&quot;. |
