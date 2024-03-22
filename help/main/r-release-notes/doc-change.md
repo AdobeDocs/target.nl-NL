@@ -4,7 +4,7 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a470b414705135885b0671cb2008315848703724
+source-git-commit: 31ad1682fc85f65fb80e96d7303cce55e36a442f
 workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 0%
@@ -124,4 +124,3 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 | 25 juli | [[!DNL Target] releaseopmerkingen (huidig)](/help/main/r-release-notes/release-notes.md#edge) | Extra informatie over de geplande upgrade van de Edge-infrastructuur die gepland is voor 9 augustus 2023. |
 |  | [Lijst van gewenste personen randknooppunten doel](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | Bijgewerkt NATIONAAL en IP/domeinen voor randplaatsingen 41-48. |
 | 24 juli | [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Target Standard/Premium] Release 23.7.1. |
-
