@@ -4,7 +4,7 @@ title: Handleiding Adobe Target Business Practitioner
 description: Leer hoe u Adobe gebruikt [!DNL Target] om de ervaring van uw klanten aan te passen om uw omzet op uw website en mobiele sites, apps en andere digitale kanalen te maximaliseren.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 324274a9e97fceaa3e559e63b3b0f2e74bbd886f
+source-git-commit: 0b690563d9719b3374f5a6be16a75990e629ab2b
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -76,3 +76,4 @@ Marketers, ontwikkelaars, beheerders, analisten en technici voor kwaliteitsborgi
 | Adobe [!DNL Target] hulp bij oplossingen | [!DNL Adobe Experience Cloud] bronnen |
 |--- |--- |
 | <ul><li>[Adobe Target - Meer informatie en ondersteuning](https://helpx.adobe.com/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html)</li><li>[Doel-API-documentatie](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html){target=_blank}</li></ul> | <ul><li>[Doelforum van de Gemeenschap](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Opmerkingen bij de release Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)</li><li>[Help bij Experience Cloud Home](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Adobe Experience Cloud-documentatie](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html)</li><li>[Opleiding van Adoben en Tutorials](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
+
