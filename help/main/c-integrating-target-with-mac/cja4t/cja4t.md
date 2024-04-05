@@ -7,7 +7,7 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 1ae3f234ee475e56c6c072ccceb79c417b7ba245
+source-git-commit: f87f6f13ab02c77d298ea9dac0d307852d3e64af
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 0%
@@ -22,7 +22,7 @@ De belangrijkste voordelen van het gebruik [!DNL Customer Journey Analytics] als
 
 * Marketers kunnen dynamisch toepassen [!DNL Customer Journey Analytics] succescijfers naar [!DNL Target] activiteitenverslagen op elk moment. U hoeft niet alles op te geven voordat u de activiteit uitvoert.
 * Marketers kunnen profiteren van [!DNL Customer Journey Analytics] functies, zoals de [Deelvenster Experimentatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}, om de personalisatie van hun website verder te analyseren.
-*Marketers kunnen één bron van rapportage hebben voor [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} en [!DNL Target]. Beide verpersoonlijkingsproducten kunnen met worden verbonden [!DNL Customer Journey Analytics] voor een meer holistische mening van uw Webverpersoonlijking.
+* Marktdeelnemers kunnen één bron van rapportage hebben voor [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} en [!DNL Target]. Beide verpersoonlijkingsproducten kunnen met worden verbonden [!DNL Customer Journey Analytics] voor een meer holistische mening van uw Webverpersoonlijking.
 
 ## Overwegingen
 
