@@ -7,7 +7,7 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: f87f6f13ab02c77d298ea9dac0d307852d3e64af
+source-git-commit: 07b7dd8e0e2dbf2b57d5b847f89886208eb66614
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Overweeg de volgende informatie alvorens te gebruiken [!DNL Customer Journey Ana
    * Als u een [Doelstandaard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) account, zie [Rollen en machtigingen opgeven](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Gebruikers*.
    * Als u een [Doelpremie](/help/main/c-intro/intro.md#premium) account, zie [Rollen en machtigingen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions) in *Machtigingen voor Enterprise-gebruikers*.
 
-* U moet deel uitmaken van een rol in [!DNL Adobe Experience Platform] een [!DNL Target] activiteit met [!DNL Customer Journey Analytics] als de bron van de rapportage. Zie voor meer informatie [Een rol toevoegen in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions){target=_blank} in *Machtigingen configureren* in de *Zelfstudie voor gegevensarchitect en engineer.*
+* U moet deel uitmaken van een rol in [!DNL Adobe Experience Platform] een [!DNL Target] activiteit met [!DNL Customer Journey Analytics] als de bron van de rapportage. Zie voor meer informatie [Een rol toevoegen in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank} in *Machtigingen configureren* in de *Zelfstudie voor gegevensarchitect en engineer.*
 * Afhankelijk van uw instellingen kan de rapportage per activiteit of op organisatieniveau worden gewijzigd. Zie [Cloudoplossing rapporteren](/help/main/administrating-target/reporting.md#solution) in *Rapportage in doel configureren*.
 * Gebruik één rapporteringsbron of andere. U kunt geen gegevens voor één activiteit aan veelvoudige rapporteringsbronnen verzamelen.
 * Wanneer u instelt [!DNL Customer Journey Analytics] als rapportbron wordt u gevraagd de sandbox voor rapportage op te geven. Tijdens de configuratie ziet u alleen de sandboxen waartoe u toegang hebt.
