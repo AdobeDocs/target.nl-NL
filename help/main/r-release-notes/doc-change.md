@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 31ad1682fc85f65fb80e96d7303cce55e36a442f
+source-git-commit: 45576f31f055a83bcdc106771fb0fa25357d226a
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1613'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 9 april | [Problemen met het oplossen van problemen in verband met de [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | De volgende sectie is bijgewerkt:<ul><li>Mijn pagina wordt niet weergegeven in de VEC (alleen VEC)</li></ul>De volgende nieuwe sectie toegevoegd:<ul><li>Problemen die worden veroorzaakt door CSS-conflicten in de [!UICONTROL Visual Experience Composer]</li></ul> |
+|  | [Persoonlijkheidsrapporten](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | De sectie Overwegingen is bijgewerkt. |
 | 22 maart | [Lijst van gewenste personen randknooppunten doel](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | Verwijderd verwijzingen naar randknooppunten 31 tot en met 38 omdat deze knooppunten niet meer bestaan. Zorg ervoor dat uw lijst van gewenste personen bijgewerkt is. |
 |  | [Het effect van de afleiding van cookies van derden op Target (at.js)](https://experienceleague.adobe.com/docs/target-dev/assets/third_party_cookie_deprecation){target=_blank} | Nieuw blogbericht waarin wordt beschreven wat Google van plan is te vervangen door cookies van derden voor uw [!DNL Adobe Target] at.js-implementatie. |
 | 14 maart | [[!DNL Target] releaseopmerkingen (huidig)](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de [!DNL Adobe Experience Platform Visual Editing Helper] for [!DNL Google Chrome]. |
