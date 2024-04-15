@@ -6,9 +6,9 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn bètafuncties in [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: 886ca4c924c83d182597d298eb4724a79a24faa2
+source-git-commit: fb6383c86503ac9a8313aed65418e9564c93aa1c
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Gebruik de [!UICONTROL Offers] bibliotheek in [!DNL Adobe Target] om uw codeaanb
 
 >[!NOTE]
 >
->Dit artikel bevat informatie over de functionaliteit van het Doel die momenteel deel van een Bètaprogramma uitmaakt. Het Adobe Target-team biedt vaak nieuwe functies voor bepaalde klanten voor test- en feedbackdoeleinden. Nadat de testperiode is voltooid, worden deze functies in de toekomst voor alle klanten ingeschakeld [!DNL Target Standard/Premium] releases en aankondigingen in de releaseopmerkingen.
+>Dit artikel bevat informatie over de [!DNL Target] functionaliteit die momenteel deel uitmaakt van een bètaprogramma. De [!DNL Adobe Target] team laat vaak nieuwe eigenschappen voor bepaalde klanten voor het testen en terugkoppelen doeleinden toe. Nadat de testperiode is voltooid, worden deze functies in de toekomst voor alle klanten ingeschakeld [!DNL Target Standard/Premium] releases en aankondigingen in de releaseopmerkingen.
 
 1. Klikken **[!UICONTROL Offers]** de bibliotheek openen.
 
