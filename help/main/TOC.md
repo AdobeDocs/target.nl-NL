@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 1faedc44c4f8f95000b666af8eecaf1eca5bf48d
+source-git-commit: 4b7c6d82e6988c64ace401d8f749b181b8dc1866
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1228'
 ht-degree: 3%
 
 ---
@@ -247,6 +247,7 @@ ht-degree: 3%
    + [Single Page App (SPA) Visual Experience Composer](c-experiences/spa-visual-experience-composer.md)
    + Aanbiedingen {#offers}
       + [Overzicht van aanbiedingen](c-experiences/c-manage-content/manage-content.md)
+      + [bètaversie van aanbiedingen](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#offers} {#hidden}
       + [Aanbiedingenmap maken](c-experiences/c-manage-content/create-content-folder.md)
       + [Inhoud uploaden](c-experiences/c-manage-content/assets-upload.md)
       + [Omleidingsvoorstellen maken](c-experiences/c-manage-content/offer-redirect.md)
