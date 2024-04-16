@@ -7,9 +7,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 14e800deda4a26c02555c4a653993737f062f686
+source-git-commit: cd8035d9e2a369b9503763474ce09c4fe2434ae9
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,10 @@ Klik op de knop **[!UICONTROL Quick Info]** naast elke aanbiedingsnaam om meer i
 
 ### Meer handelingen
 
+De beschikbare acties voor Codevoorstellen en voor Afbeeldingsaanbiedingen verschillen enigszins. De volgende secties bevatten meer informatie:
+
+#### [!UICONTROL Code Offer] opties
+
 Klik op de knop **[!UICONTROL More actions]** het pictogram (de horizontale ellips) naast elke aanbiedingsnaam om een menu te openen dat u snelle acties op een activiteit laat uitvoeren. De volgende acties zijn beschikbaar (afhankelijk van uw machtigingen en de status van het aanbod): [!UICONTROL Edit], [!UICONTROL Copy], [!UICONTROL Delete], en [!UICONTROL Move].
 
 ![De optie Meer handelingen in de bibliotheek met doelaanbiedingen](/help/main/c-experiences/c-manage-content/assets/more-actions.png)
@@ -80,6 +84,8 @@ Klik op de knop **[!UICONTROL More actions]** het pictogram (de horizontale elli
 Afhankelijk van uw machtigingen worden mogelijk niet alle pictogrammen voor opties weergegeven. Bijvoorbeeld een gebruiker met [!UICONTROL Observer] machtigingen hebben niet de rechten om de [!UICONTROL Copy] -optie.
 
 Voor gedetailleerde informatie over de taken die u kunt uitvoeren op aanbiedingen en omslagen, zie [Werken met inhoud in de elementenbibliotheek](/help/main/c-experiences/c-manage-content/assets-working.md).
+
+#### [!UICONTROL Image Offer] opties
 
 Voer aanvullende taken uit door de muisaanwijzer boven de gewenste afbeeldingsaanbieding of map op de [!UICONTROL Image Offers] door op het gewenste pictogram te klikken.
 
@@ -100,68 +106,64 @@ Voor gedetailleerde informatie over de taken die u kunt uitvoeren op aanbiedinge
 >
 >Aanbiedingen voor afbeeldingen maken geen deel uit van de [Machtigingen voor zakelijke gebruikers](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) model.
 
-<!--
+## Definities van aanbiedingen weergeven {#section_6B059DD121434E6292CAB393507D010E}
 
-## Viewing offer definitions {#section_6B059DD121434E6292CAB393507D010E}
+U kunt definitiedetails van voorstellen op een pop-up kaart in bekijken [!UICONTROL Offers] bibliotheek zonder de aanbieding te openen.
 
-You can view offer definition details on a pop-up card in the [!UICONTROL Offers] library without opening the offer.
+De volgende aanbiedingsdefinitiekaart voor een HTML-aanbieding is bijvoorbeeld toegankelijk door de muis boven een aanbieding op de [!UICONTROL Content] en klik vervolgens op het informatiepictogram:
 
-For example, the following offer definition card for an HTML offer is accessed by hovering over an offer on the [!UICONTROL Content] list, then clicking the information icon:
+![aanbiedingskaart-html-afbeelding](assets/offer-card-html.png)
 
-![offer-card-html image](assets/offer-card-html.png)
+De volgende informatie is beschikbaar:
 
-The following information is available:
+* Naam
+* Bron
+* Type
+* Aanbieding-id
+* Pad aanbod
+* Laatst gewijzigd
 
-* Name 
-* Source 
-* Type 
-* Offer ID 
-* Offer path 
-* Last Modified
+Klik op de knop [!UICONTROL Offer Usage] om de activiteiten weer te geven die verwijzen naar een codeaanbieding in de definitie-pop-upkaart van elke aanbieding. Deze functionaliteit is niet van toepassing op afbeeldingsaanbiedingen. Op deze manier voorkomt u dat andere activiteiten worden beïnvloed tijdens het bewerken van aanbiedingen. Informatie omvat [!UICONTROL Live Activities] en [!UICONTROL Inactive Activities].
 
-Click the [!UICONTROL Offer Usage] tab to view the activities that reference a code offer in each offer's definition pop-up card. This functionality does not apply to image offers. This way you can avoid impact to other activities while editing offers. Information includes [!UICONTROL Live Activities] and [!UICONTROL Inactive Activities].
+![afbeelding met handige kaart](assets/offer-card-usage.png)
 
-![offer-card-usage image](assets/offer-card-usage.png)
+De volgende aanbieding definitiekaart voor een Voorstelling van de Omleiding:
 
-The following offer definition card for a Redirect offer:
+![aanbieding-kaart-omleiding afbeelding](assets/offer-card-redirect.png)
 
-![offer-card-redirect image](assets/offer-card-redirect.png)
+De volgende informatie is beschikbaar:
 
-The following information is available:
+* Naam
+* Bron
+* Type
+* Aanbieding-id
+* Pad aanbod
+* Laatst gewijzigd
+* URL omleiden
+* Alle URL-parameters opnemen (Aan of Uit)
+* Identiteitskaart van de vergaderingszitting van de pas (aan of weg)
 
-* Name 
-* Source 
-* Type 
-* Offer ID 
-* Offer Path 
-* Last Modified 
-* Redirect URL 
-* Include all URL parameters (On or Off) 
-* Pass mbox session ID (On or Off)
+De volgende kaart van de aanbiedingsdefinitie voor een Verre aanbieding:
 
-The following offer definition card for a Remote offer:
+![extern image met creditcard](assets/offer-card-remote.png)
 
-![offer-card-remote image](assets/offer-card-remote.png)
+De volgende informatie is beschikbaar:
 
-The following information is available:
+* Naam
+* Bron
+* Type
+* Aanbieding-id
+* Pad aanbod
+* Laatst gewijzigd
+* Type URL omleiden
+* Absolute of relatieve URL
 
-* Name 
-* Source 
-* Type 
-* Offer ID 
-* Offer Path 
-* Last Modified 
-* Redirect URL Type 
-* Absolute or Relative URL
+## Trainingsvideo: De opslagplaats voor inhoud ![Overzicht badge](/help/main/assets/overview.png)
 
-## Training video: The Content Repository ![Overview badge](/help/main/assets/overview.png)
+Deze video bevat informatie over het beheer van aanbiedingen.
 
-This video includes information about managing offers.
-
-* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
-* Custom HTML Offers 
-* Custom HTML Offer in the Visual Experience Composer
+* Verbinding tussen de [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) en de doelinhoudsbibliotheek
+* Aangepaste HTML-aanbiedingen
+* Aanbod van de HTML van de douane in de Visuele Composer van de Ervaring
 
 >[!VIDEO](https://video.tv.adobe.com/v/17387)
-
--->
