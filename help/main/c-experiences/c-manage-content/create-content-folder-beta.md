@@ -6,9 +6,9 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn bètafuncties in [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
+source-git-commit: d3379243f8c64a1a0b56268dd60447375020e11b
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Mappen maken in het dialoogvenster [!DNL Adobe Target] [!UICONTROL Offer] biblio
 
 Het proces voor het maken van mappen voor codeaanbiedingen en afbeeldingsaanbiedingen verschilt enigszins. De volgende secties bevatten meer informatie.
 
-## Codeaanbiedingsmappen
+## [!UICONTROL Code Offer] mappen
 
 1. Klikken **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
@@ -35,7 +35,7 @@ Het proces voor het maken van mappen voor codeaanbiedingen en afbeeldingsaanbied
 
 Voor informatie over de taken die u kunt uitvoeren op aanbiedingen en omslagen, zie [Werken met inhoud in de elementenbibliotheek](/help/main/c-experiences/c-manage-content/assets-working.md).
 
-## Afbeeldingsaanbiedingsmappen
+## [!UICONTROL Image Offer] mappen
 
 1. Klikken **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
