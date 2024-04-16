@@ -3,9 +3,12 @@ keywords: inhoud;map maken;middelen;map verplaatsen;map kopiëren;map verwijdere
 description: Hoe maak ik mappen in de [!UICONTROL Offers] bibliotheek?
 title: Leer hoe u mappen maakt in het dialoogvenster [!UICONTROL Offers] bibliotheek om code en beeldaanbiedingen, evenals andere omslagen te houden.
 feature: Experiences and Offers
-source-git-commit: cd8035d9e2a369b9503763474ce09c4fe2434ae9
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn bètafuncties in [!DNL Adobe Target]."
+hide: true
+hidefromtoc: true
+source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
