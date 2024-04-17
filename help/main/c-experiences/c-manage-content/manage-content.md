@@ -4,9 +4,9 @@ description: Leer hoe u code- en afbeeldingsaanbiedingen kunt beheren met de bib
 title: Hoe kan ik code- en afbeeldingsaanbiedingen beheren?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: be59e8ccbf12f7b3cc42becc36a8b3c7474f2f9e
+source-git-commit: f93e33e91fb7be9c0d1772a2014864b46c1dfe47
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -69,60 +69,33 @@ Gebruik de [!UICONTROL Offers] bibliotheek in [!DNL Adobe Target] om uw codeaanb
 
 U kunt definitiedetails van voorstellen op een pop-up kaart in bekijken [!UICONTROL Offers] bibliotheek zonder de aanbieding te openen.
 
-De volgende aanbiedingsdefinitiekaart voor een HTML-aanbieding is bijvoorbeeld toegankelijk door de muis boven een aanbieding op de [!UICONTROL Content] en klik vervolgens op het informatiepictogram:
+De volgende aanbiedingsdefinitiekaart voor een HTML-aanbieding wordt bijvoorbeeld geopend door op het informatiepictogram te klikken:
 
-![aanbiedingskaart-html-afbeelding](assets/offer-card-html.png)
-
-De volgende informatie is beschikbaar:
-
-* Naam
-* Bron
-* Type
-* Aanbieding-id
-* Pad aanbod
-* Laatst gewijzigd
-
-Klik op de knop [!UICONTROL Offer Usage] om de activiteiten weer te geven die verwijzen naar een codeaanbieding in de definitie-pop-upkaart van elke aanbieding. Deze functionaliteit is niet van toepassing op afbeeldingsaanbiedingen. Op deze manier voorkomt u dat andere activiteiten worden beïnvloed tijdens het bewerken van aanbiedingen. Informatie omvat [!UICONTROL Live Activities] en [!UICONTROL Inactive Activities].
-
-![afbeelding met handige kaart](assets/offer-card-usage.png)
-
-De volgende aanbieding definitiekaart voor een Voorstelling van de Omleiding:
-
-![aanbieding-kaart-omleiding afbeelding](assets/offer-card-redirect.png)
+![aanbiedingskaart-html-afbeelding](assets/offer-card-html-new.png)
 
 De volgende informatie is beschikbaar:
 
 * Naam
-* Bron
-* Type
 * Aanbieding-id
-* Pad aanbod
-* Laatst gewijzigd
-* URL omleiden
-* Alle URL-parameters opnemen (Aan of Uit)
-* Identiteitskaart van de vergaderingszitting van de pas (aan of weg)
-
-De volgende kaart van de aanbiedingsdefinitie voor een Verre aanbieding:
-
-![extern image met creditcard](assets/offer-card-remote.png)
-
-De volgende informatie is beschikbaar:
-
-* Naam
-* Bron
 * Type
-* Aanbieding-id
-* Pad aanbod
 * Laatst gewijzigd
-* Type URL omleiden
-* Absolute of relatieve URL
 
-## Trainingsvideo: De opslagplaats voor inhoud ![Overzicht badge](/help/main/assets/overview.png)
+Klik op de knop [!UICONTROL View Full Details] link naar de inhoud van de aanbieding en de activiteiten die verwijzen naar een codeaanbieding. Op deze manier voorkomt u dat andere activiteiten worden beïnvloed tijdens het bewerken van aanbiedingen. Informatie omvat [!UICONTROL Live Activities] en [!UICONTROL Inactive Activities].
 
-Deze video bevat informatie over het beheer van aanbiedingen.
+De beschikbare informatie op elke kaart varieert afhankelijk van het type aanbieding: HTML-aanbieding, [Ervaar fragmenten](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Omleidingsvoorstel](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Externe aanbieding](/help/main/c-experiences/c-manage-content/about-remote-offers.md), of [JSON-aanbiedingen](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
-* Verbinding tussen de [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) en de doelinhoudsbibliotheek
-* Aangepaste HTML-aanbiedingen
-* Aanbod van de HTML van de douane in de Visuele Composer van de Ervaring
+De functionaliteit voor details van de aanbieding is niet van toepassing op afbeeldingsaanbiedingen.
+
+<!--
+
+## Training video: The Content Repository ![Overview badge](/help/main/assets/overview.png)
+
+This video includes information about managing offers.
+
+* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
+* Custom HTML Offers 
+* Custom HTML Offer in the [!UICONTROL Visual Experience Composer]
 
 >[!VIDEO](https://video.tv.adobe.com/v/17387)
+
+-->
