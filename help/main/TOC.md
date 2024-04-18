@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 3ddd97008dc40634de876851c2d798eb57a6a3ee
+source-git-commit: bd7e6cc206f0d38ee6672c37d836e40b8831da1c
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1244'
 ht-degree: 3%
 
 ---
@@ -255,6 +255,7 @@ ht-degree: 3%
       + [Omleidingsvoorstellen maken](c-experiences/c-manage-content/offer-redirect.md)
       + [Omleidingsvoorstellen maken](c-experiences/c-manage-content/offer-redirect-beta.md) {#redirect-offers} {#hidden}
       + [Externe aanbiedingen maken](c-experiences/c-manage-content/about-remote-offers.md)
+      + [bèta voor externe aanbiedingen maken](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md) {#remote} {#hidden}
       + [JSON-aanbiedingen maken](c-experiences/c-manage-content/create-json-offer.md)
       + [Werken met inhoud in de bibliotheek](c-experiences/c-manage-content/assets-working.md)
       + [Inhoud zoeken](c-experiences/c-manage-content/filter-and-search-content.md)
