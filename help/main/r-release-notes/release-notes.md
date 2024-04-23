@@ -6,9 +6,9 @@ short-description: Meer informatie over de nieuwe functies, verbeteringen en opl
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
+source-git-commit: 97b1d78de2d6ba33c1dd72494edcfc97fc3ba7e6
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,12 @@ ht-degree: 0%
 Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplossingen voor elke versie [!DNL Adobe Target Standard] en [!DNL Target Premium] vrijgeven. Daarnaast kunt u opmerkingen bij de release publiceren voor [!DNL Target] API&#39;s, SDK&#39;s, de [!DNL Adobe Experience Platform Web SDK]en andere platformwijzigingen worden, indien van toepassing, ook opgenomen.
 
 (De uitgiftenummers tussen haakjes zijn voor intern [!DNL Adobe] gebruiken.)
+
+## [!UICONTROL Visual Experience Composer] helperverlenging (23 april 2024)
+
+De nalatenschap [!DNL Target] De hulpuitbreiding van de Composer van de Visuele Ervaring werd gecreeerd gebruikend Manifest V2. [!DNL Google] heeft aangekondigd dat het geen extensies meer zal toestaan die zijn gemaakt met Manifest V2 vanaf juni 2024. Zie voor meer informatie [[!UICONTROL Visual Experience Composer] helperuitbreiding](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+
+[!DNL Adobe] raadt klanten aan naar de nieuwere [De extensie Visuele bewerkingshulp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) zo spoedig mogelijk.
 
 ## Updates voor `Browser:iPad` en `Browser:iPhone` in [!UICONTROL Browser] attributen voor het publiek (30 april 2024)
 

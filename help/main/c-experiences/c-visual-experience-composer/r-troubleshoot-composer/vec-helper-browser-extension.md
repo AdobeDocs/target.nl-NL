@@ -4,9 +4,9 @@ description: Ontdek waarom sommige websites niet betrouwbaar kunnen worden geope
 title: Hoe gebruik ik de [!UICONTROL Visual Experience Composer] (VEC) Helper Extension?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 8edae6a197a3ac82b85fcce4d99c8b0d5f45c712
+source-git-commit: 97b1d78de2d6ba33c1dd72494edcfc97fc3ba7e6
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,9 @@ De VEC Helper-browser is een [!DNL Chrome] extensie. Deze extensie is niet nodig
 
 >[!IMPORTANT]
 >
->De huidige [!DNL Target] De in dit artikel gedocumenteerde VEC Helper-extensie is gemaakt met Manifest v2. Google heeft onlangs aangekondigd dat het vanaf juni 2024 geen nieuwe extensies meer toestaat die met Manifest v2 zijn gemaakt. Zie de klasse [Duidelijke aankondiging van tijdlijn voor V2-ondersteuning](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} van [!DNL Google] op de *Chrome voor ontwikkelaars* site.
+>De nalatenschap [!DNL Target] De in dit artikel gedocumenteerde VEC Helper-extensie is gemaakt met Manifest V2. [!DNL Google] heeft aangekondigd dat het geen extensies meer zal toestaan die zijn gemaakt met Manifest V2 vanaf juni 2024. Zie de klasse [Duidelijke aankondiging van tijdlijn voor V2-ondersteuning](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} van [!DNL Google] op de *Chrome voor ontwikkelaars* site.
 >
->De bestaande extensie werkt nog steeds in Google Chrome. Vanaf juni 2024 [!DNL Adobe] zal beginnen onbruikbaar makend de helperuitbreiding die in dit onderwerp wordt gedocumenteerd en zal klanten vereisen om naar nieuwer te bewegen [De extensie Visuele bewerkingshulp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
->
-U wordt op de hoogte gesteld via releaseopmerkingen, een in-product aankondiging en tekst in dit artikel wanneer deze extensie niet meer werkt. Vanwege de beveiligingsverbeteringen in Manifest v3, [!DNL Adobe] moet u de nieuwe extensie downloaden om uw websites visueel te kunnen blijven ontwerpen in [!DNL Target].
+>Vanaf juni 2024 [!DNL Google] zal beginnen onbruikbaar makend uitbreidingen die gebruikend Manifest V2 worden gecreeerd, met inbegrip van de uitbreiding die in dit onderwerp wordt gedocumenteerd. [!DNL Adobe] raadt klanten aan naar de nieuwere [De extensie Visuele bewerkingshulp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) zo spoedig mogelijk.
 
 ## Redenen waarom sommige websites niet betrouwbaar in de VEC kunnen worden geopend
 

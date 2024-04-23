@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 45576f31f055a83bcdc106771fb0fa25357d226a
+source-git-commit: 97b1d78de2d6ba33c1dd72494edcfc97fc3ba7e6
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 23 april | [[!DNL Target] releaseopmerkingen (huidig)](/help/main/r-release-notes/release-notes.md) | Toegevoegde informatie waarin Google wordt uitgelegd hoe u extensies die zijn gemaakt met Manifest V2, kunt uitschakelen. [!DNL Adobe] raadt klanten aan naar de nieuwe [!UICONTROL Visual Editing Helper] zo spoedig mogelijk worden verlengd. |
+| 23 april | [[!UICONTROL Visual Experience Composer] helperuitbreiding](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | De belangrijke opmerking boven aan de pagina waarin het Google-plan wordt uitgelegd voor het uitschakelen van extensies die zijn gemaakt met Manifest V2, is bijgewerkt. Deze extensie bevat de extensie die in dit artikel wordt beschreven. [!DNL Adobe] raadt klanten aan naar de nieuwe [!UICONTROL Visual Editing Helper] zo spoedig mogelijk worden verlengd. |
 | 9 april | [Problemen met het oplossen van problemen in verband met de [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | De volgende sectie is bijgewerkt:<ul><li>Mijn pagina wordt niet weergegeven in de VEC (alleen VEC)</li></ul>De volgende nieuwe sectie toegevoegd:<ul><li>Problemen die worden veroorzaakt door CSS-conflicten in de [!UICONTROL Visual Experience Composer]</li></ul> |
 |  | [Persoonlijkheidsrapporten](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | De sectie Overwegingen is bijgewerkt. |
 | 22 maart | [Lijst van gewenste personen randknooppunten doel](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | Verwijderd verwijzingen naar randknooppunten 31 tot en met 38 omdat deze knooppunten niet meer bestaan. Zorg ervoor dat uw lijst van gewenste personen bijgewerkt is. |
