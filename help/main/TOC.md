@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: bd7e6cc206f0d38ee6672c37d836e40b8831da1c
+source-git-commit: f11f65a9dc88acca53c34cb2a151dffb390cfee7
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1239'
 ht-degree: 3%
 
 ---
@@ -89,8 +89,8 @@ ht-degree: 3%
          + [Metriek, publiek en rapporten delen - Veelgestelde vragen voor A4T](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Legacy SiteCatalyst to Test&amp;Target Integration - A4T Veelgestelde vragen](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Verwachte gegevensvariaties tussen Doel en Analytics bij gebruik en niet bij gebruik van A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + Doel integreren met Adobe Customer Journey Analytics (CJA4T) {#cja4t} {#hidden}
-      + [Adobe Customer Journey Analytics als bron voor rapportage voor Target (CJA4T)](/help/main/c-integrating-target-with-mac/cja4t/cja4t.md)
+   + Doel integreren met Adobe Customer Journey Analytics {#cja} {#hidden}
+      + [Doelrapportage in Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Doel integreren met Adobe Journey Optimizer (AJO) {#ajo}
       + [Besluiten over aanbiedingen gebruiken](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [Integreren [!DNL Adobe Target Recommendations] en [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
