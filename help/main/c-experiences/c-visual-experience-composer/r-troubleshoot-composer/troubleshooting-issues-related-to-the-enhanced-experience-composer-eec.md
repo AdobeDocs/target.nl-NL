@@ -4,10 +4,10 @@ description: Leer hoe te om problemen op te lossen die soms in de Adobe voorkome
 title: Hoe los ik problemen op met betrekking tot de Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: f948e6bd66a42939834b598821d68b93c82fa6af
+source-git-commit: cb16350389e1504c88f1cf97aeda243e1300b65e
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 2%
+source-wordcount: '414'
+ht-degree: 0%
 
 ---
 
@@ -21,15 +21,15 @@ Dit kan worden opgelost door de volgende IP adressen te voegend op lijst van gew
 
 Vraag uw team van IT om de volgende IP adressen te lijsten van gewenste personen:
 
-* 52.18.97.86
-* 52.209.31.20
-* 52.214.41.220
-* 54.144.66.225
-* 54.82.53.36
-* 34.206.104.26
-* 3.115.90.128
-* 18.178.137.67
-* 3.112.77.52
+* 99 80 139 221
+* 54 78 56 224
+* 54 247 179 246
+* 54 80 219 243
+* 34.201.235,54
+* 54 196 224 236
+* 35.75.212,45
+* 52 199 184 130
+* 18 180 161 176
 
 U ziet mogelijk het volgende foutbericht in [!DNL Target]:
 
@@ -58,7 +58,7 @@ Als u de TLS-versie op uw website wilt controleren met Firefox (andere browsers 
 
    ![firefox_more_info image](assets/firefox_more_info.png)
 
-1. Klik op **[!UICONTROL Show Connection Details]** > **[!UICONTROL More Information]**.
+1. Klikken **[!UICONTROL Show Connection Details]** > **[!UICONTROL More Information]**.
 
    ![afbeelding firefox_more_info_2](assets/firefox_more_info_2.png)
 
