@@ -1,12 +1,12 @@
 ---
 keywords: aanbieding op afstand;aanbieding op afstand maken
-description: Leer JSON-aanbiedingen maken in Adobe [!DNL Target] voor gebruik in de Form-based Experience Composer.
+description: Leer hoe u JSON-aanbiedingen maakt in Adobe [!DNL Target] voor gebruik in de Form-based Experience Composer.
 title: Hoe maak ik JSON-aanbiedingen?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
+source-git-commit: 45b81a2a77410947ce828cbea69e4dad7fc1cb03
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ JSON-aanbiedingen kunnen worden gebruikt in op formulieren gebaseerde activiteit
 
 Houd rekening met de volgende informatie terwijl u met JSON werkt:
 
-* JSON-voorstellen zijn momenteel alleen beschikbaar voor [!UICONTROL A/B Test], Automated Personalization (AP) en [!UICONTROL Experience Targeting] (XT) activiteiten.
+* JSON-voorstellen zijn momenteel alleen beschikbaar voor [!UICONTROL A/B Test], Automated Personalization (AP), en [!UICONTROL Experience Targeting] (XT) activiteiten.
 * JSON-aanbiedingen kunnen worden gebruikt in [op formulieren gebaseerde activiteiten](/help/main/c-experiences/form-experience-composer.md) alleen.
 * U kunt de JSON-aanbieding rechtstreeks ophalen wanneer u de [Server Side API&#39;s en Mobile Node.js, Java, .NET en Python SDK&#39;s](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
 * In de browser kunnen JSON-aanbiedingen ALLEEN worden opgehaald via at.js 1.2.3 (of hoger) en via [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} door acties te filteren met de `setJson` handeling.
@@ -30,11 +30,11 @@ Houd rekening met de volgende informatie terwijl u met JSON werkt:
 
 ## Een JSON-aanbieding maken {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. Klik op **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
+1. Klikken **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
    ![Aanbiedingen > tabblad Codevoorstellen](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
 
-1. Klik op **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
+1. Klikken **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
 
    ![aanbiedingsafbeelding](assets/offer-json.png)
 
@@ -81,7 +81,7 @@ De actiesarray heeft deze structuur:
 ]
 ```
 
-Als u het JSON-aanbod wilt extraheren, doorloopt u de handelingen en zoekt u de handeling met de `setJson` en doorloopt vervolgens de inhoudarray.
+Als u het JSON-aanbod wilt uitpakken, doorloopt u de handelingen en zoekt u de handeling met de `setJson` en doorloopt vervolgens de inhoudarray.
 
 ## Hoofdletters gebruiken {#section_85B07907B51A43239C8E3498EF58B1E5}
 
@@ -98,7 +98,7 @@ Stel dat de volgende JSON-aanbieding op uw webpagina wordt afgeleverd:
     "tags": [ 
       "esse", 
       "commodo", 
-      "excepteur", 
+      "excepteur"
     ], 
     "friends": [ 
       { 
@@ -108,7 +108,7 @@ Stel dat de volgende JSON-aanbieding op uw webpagina wordt afgeleverd:
       { 
         "id": 1, 
         "name": "Ollie Mooney" 
-      }, 
+      } 
     ], 
     "greeting": "Hello, Stephenson Fernandez! You have 4 unread messages.", 
     "favoriteFruit": "strawberry" 
