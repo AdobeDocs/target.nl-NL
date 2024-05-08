@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cb16350389e1504c88f1cf97aeda243e1300b65e
+source-git-commit: 83c6f67b141a3dbaf58df3b6b3b1172930939537
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1723'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 8 mei | [[!DNL Target] rapporteren in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | Nieuw artikel: Informatie toegevoegd over de [!DNL Target] integratie met [!DNL Adobe Customer Journey Analytics]. |
 | 30 april | [Problemen met het oplossen van problemen in verband met de [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Bijgewerkt de lijst van IP adressen voor de server van de Adobe die voor de EEG volmacht aan lijst van gewenste personen wordt gebruikt. |
 | 23 april | [[!DNL Target] releaseopmerkingen (huidig)](/help/main/r-release-notes/release-notes.md) | Toegevoegde informatie waarin Google wordt uitgelegd hoe u extensies die zijn gemaakt met Manifest V2, kunt uitschakelen. [!DNL Adobe] raadt klanten aan naar de nieuwe [!UICONTROL Visual Editing Helper] zo spoedig mogelijk worden verlengd. |
 | 23 april | [[!UICONTROL Visual Experience Composer] helperuitbreiding](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | De belangrijke opmerking boven aan de pagina waarin het Google-plan wordt uitgelegd voor het uitschakelen van extensies die zijn gemaakt met Manifest V2, is bijgewerkt. Deze extensie bevat de extensie die in dit artikel wordt beschreven. [!DNL Adobe] raadt klanten aan naar de nieuwe [!UICONTROL Visual Editing Helper] zo spoedig mogelijk worden verlengd. |
