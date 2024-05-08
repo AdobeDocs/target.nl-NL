@@ -4,9 +4,9 @@ description: Gebruiken [!DNL Target] rapporteren in [!DNL Adobe Customer Journey
 title: Wat is [!DNL Target] rapporteren in [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
+source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,10 @@ De volgende activiteitstypen worden ondersteund wanneer u de [Adobe Experience P
 ## Een activiteit maken die [!DNL Customer Journey Analytics] als bron van de rapportage
 
 Een [!DNL Target] activiteit die [!DNL Customer Journey Analytics] aangezien de bron van de rapportage vergelijkbaar is met het instellen van een [!DNL Target] activiteit.
+
+>[!TIP]
+>
+>U kunt ook opgeven dat [!DNL Target] gebruikt rapportering in [!DNL Customer Journey Analytics] voor alle activiteiten die in uw account zijn gemaakt (**[!UICONTROL Administration]** > **[!UICONTROL Reporting]** > **[!UICONTROL Reporting Experience Cloud Solution]**). Zie voor meer informatie *Cloudoplossing rapporteren* in [Rapportage configureren in [!DNL Target]](/help/main/administrating-target/reporting.md#solution).
 
 1. Van de **[!UICONTROL Activities]** lijst, klik **[!UICONTROL Create Activity]** selecteert u vervolgens het type activiteit (volgens de [ondersteund activiteitenoverzicht boven](#supported-activities)) en beginnen met het instellen van de activiteit.
 1. Wanneer u de **[!UICONTROL Goals & Settings]** pagina van de workflow voor het maken van activiteiten in drie delen, selecteert u **[!DNL Customer Journey Analytics]** als de bron van de rapportage.

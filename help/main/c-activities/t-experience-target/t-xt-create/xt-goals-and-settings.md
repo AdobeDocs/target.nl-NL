@@ -4,9 +4,9 @@ description: Leer hoe u de [!UICONTROL Goals & Settings] pagina in [!DNL Adobe T
 title: Hoe geef ik op [!UICONTROL Goals & Settings] in een [!UICONTROL Experience Targeting] Activiteit?
 feature: Experience Targeting
 exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
-source-git-commit: d7c1bbbbc8d1dcc45ac09a09f6b3be01f7542384
+source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
@@ -60,17 +60,23 @@ De volgende instellingen zijn beschikbaar:
 
 ### [!UICONTROL Reporting Source]
 
-Opgeven of gegevens moeten worden verzameld [!DNL Target] of van [!DNL Adobe Analytics]. Zie [Adobe Analytics als rapportbron voor Doel](/help/main/c-integrating-target-with-mac/a4t/a4t.md) kennis te nemen van de verschillen tussen de rapporteringsoplossingen en de voordelen van beide.
+Geef op welke oplossingsgegevens worden verzameld:
+
+* [!DNL Adobe Target]
+* [!DNL Adobe Analytics]
+* [!DNL Adobe Customer Journey Analytics]
+
+Als een rapporteringsoplossing in uw wordt gespecificeerd [accountinstellingen](/help/main/administrating-target/reporting.md), wordt de opgegeven oplossing gebruikt en is deze instelling niet zichtbaar.
+
+U kunt de rapportbron niet wijzigen nadat de activiteit live gaat om rapporten consistent te houden.
+
+**[!DNL Adobe Analytics]**: Zie [[!DNL Adobe Analytics] als bron van rapportage voor [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) kennis te nemen van de verschillen tussen de rapporteringsoplossingen en de voordelen van beide.
 
 Als u [!DNL Analytics] als bron van rapportage voor [!DNL Target] (A4T) selecteert u een [!DNL Analytics] te ontvangen rapportsuite [!DNL Target] activiteitsgegevens. Kies eerst een van de opties [!DNL Analytics] bedrijven waaraan uw account is gekoppeld, en selecteer vervolgens de juiste rapportsuite voor de activiteit. Alleen rapportsuites die zijn ingericht voor verbinding met [!DNL Target] zijn beschikbaar voor selectie. Als u de rapportsuite die u verwacht niet ziet, meldt u zich eerst af en meldt u zich weer aan bij de [!DNL Adobe Experience Cloud] om het opnieuw te proberen. Als de rapportsuite nog steeds ontbreekt in de lijst, neemt u contact op met [Klantenservice](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
 [!DNL Analytics for Target] (A4T) vereist een volgende server om resultaten correct te melden. Een standaard volgende server wordt weergegeven in het dialoogvenster [!UICONTROL Tracking Server] veld. Als u meer dan één volgende server gebruikt, zorg ervoor u de correcte het volgen server in dit gebied omvat. Zie [Een Analytics Tracking Server gebruiken](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) voor meer informatie .
 
-Als er een rapportoplossing is opgegeven in uw accountinstellingen, wordt de opgegeven oplossing gebruikt en is deze instelling niet zichtbaar.
-
->[!NOTE]
->
->U kunt de rapportbron niet wijzigen nadat de activiteit live gaat om rapporten consistent te houden.
+**[!DNL Adobe Customer Journey Analytics]**: Zie [[!DNL Target] rapporteren in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) voor meer informatie over de integratie tussen [!DNL Adobe Customer Journey Analytics] en [!DNL Target].
 
 ### [!UICONTROL Goal Metric]
 
@@ -129,7 +135,7 @@ De [!UICONTROL Add Dependency] optie staat succesmetrisch toe om te verhogen als
 Een afhankelijkheid toevoegen:
 
 1. Klik op **[!UICONTROL Advanced Settings]**.
-2. Klik op **[!UICONTROL Add Dependency]**:
+2. Klikken **[!UICONTROL Add Dependency]**:
 
    ![Koppeling voor afhankelijkheid toevoegen](/help/main/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
 

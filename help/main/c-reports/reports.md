@@ -1,12 +1,12 @@
 ---
 keywords: rapporten;blok ip adres;blok bezoeker van ip adres;download rapporten;csv;rapportering
-description: Leer hoe u de rapportfuncties in Adobe gebruikt [!DNL Target] om de prestaties van uw activiteiten te onderzoeken. Maak betere besluiten die op uw gegevens worden gebaseerd om ROI te verhogen.
+description: Leer hoe u de rapportfuncties in Adobe kunt gebruiken [!DNL Target] om de prestaties van uw activiteiten te onderzoeken. Maak betere besluiten die op uw gegevens worden gebaseerd om ROI te verhogen.
 title: Hoe kan ik rapporten weergeven?
 feature: Reports
 exl-id: c5710eb3-0c72-47f8-870d-df50453ecf08
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: a7a03cba466fbe7abfc8eb1f80292e1a2de7fe2d
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ De rapporten verstrekken informatie over de vooruitgang en de resultaten van uw 
 
    Als u vele activiteiten hebt, kunt u de lijst filtreren door opties van te selecteren [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], en [!UICONTROL Activity Source] vervolgkeuzelijsten.
 
-   U kunt bijvoorbeeld [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] van de [!UICONTROL Type] vervolgkeuzelijst en [!UICONTROL Live] van de [!UICONTROL Status] vervolgkeuzelijst om alleen A/B-tests en Experience Targeting-activiteiten weer te geven die actief zijn.
+   U kunt bijvoorbeeld [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] van de [!UICONTROL Type] vervolgkeuzelijst [!UICONTROL Live] van de [!UICONTROL Status] vervolgkeuzelijst om alleen A/B-tests en Experience Targeting-activiteiten weer te geven die actief zijn.
 
    In de volgende afbeelding ziet u de [!UICONTROL Type] vervolgkeuzelijst met twee geselecteerde typen: [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting]. Merk op dat de drie typen A/B-tests (Handmatig), [Automatisch toewijzen](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), en [Automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md)) zijn standaard geselecteerd. U kunt desgewenst een of meer typen deselecteren.
 
@@ -36,11 +36,11 @@ De rapporten verstrekken informatie over de vooruitgang en de resultaten van uw 
    De legenda geeft de volgende informatie weer:
 
    * De status van de activiteit, inclusief het datumbereik waarop de activiteit werd uitgevoerd.
-   * De [verwachte succesvolle ervaring](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) (indien beschikbaar).
+   * De [voorspelde succesvolle ervaring](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) (indien beschikbaar).
 
    >[!NOTE]
    >
-   >Ervaringsresultaten verschijnen nadat ten minste één kandidaat de ervaring heeft gezien.
+   >Ervaringsresultaten worden weergegeven nadat ten minste één kandidaat de ervaring heeft gezien.
 
 1. (Optioneel) [Het rapport configureren](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA), naar wens.
 1. (Optioneel) [Het rapport downloaden in CSV-indeling](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) voor analyse in Excel en andere hulpmiddelen.
@@ -70,10 +70,11 @@ Naast de algemene rapporteringsinformatie in dit onderwerp en zijn subtopics, is
 |--- |--- |
 | [A/B-test](/help/main/c-activities/t-test-ab/test-ab.md) | Om inzicht te krijgen in lift en vertrouwen en de statistische benaderingen die worden gebruikt in [!DNL Target], zie [Een A/B-test plannen](/help/main/c-activities/t-test-ab/sample-size-determination.md). |
 | [Rapporten automatisch toewijzen interpreteren](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | De resultaten van een [!UICONTROL Auto-Allocate] A/B-activiteit door belangrijke indicatoren, waaronder lift en vertrouwen, in de [!DNL Target] UI. |
-| [Automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) | Informatie over de [!UICONTROL Summary] verslag voor AT-activiteiten. Zie voor meer informatie [Samenvattingsrapport autom. doel](/help/main/c-reports/personalization-reports/auto-target-summary-report.md).<br>Informatie over beide [!UICONTROL Personalization Insights] rapporten voor AT- en AP-activiteiten: [!UICONTROL Automated Segments] verslag en [!UICONTROL Important Attributes] verslag. Zie voor meer informatie [Persoonlijkheidsrapporten](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md). |
-| [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) | Informatie over beide [!UICONTROL Automated Personalization Summary] rapporten voor AP-activiteiten: [!UICONTROL Activity Level] verslag en [!UICONTROL Offer Level] verslag. Zie voor meer informatie [Samenvattingsrapporten van Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md).<br>Informatie over beide [!UICONTROL Personalization Insights] rapporten voor AT- en AP-activiteiten: [!UICONTROL Automated Segments] verslag en [!UICONTROL Important Attributes] verslag. Zie voor meer informatie [Persoonlijkheidsrapporten](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md). |
+| [Automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) | Informatie over de [!UICONTROL Summary] verslag voor AT-activiteiten. Zie voor meer informatie [Samenvattingsrapport automatisch doel](/help/main/c-reports/personalization-reports/auto-target-summary-report.md).<br>Informatie over beide [!UICONTROL Personalization Insights] rapporten voor AT en AP activiteiten: [!UICONTROL Automated Segments] verslag en [!UICONTROL Important Attributes] verslag. Zie voor meer informatie [Persoonlijkheidsrapporten](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md). |
+| [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) | Informatie over beide [!UICONTROL Automated Personalization Summary] rapporten voor AP-activiteiten: [!UICONTROL Activity Level] verslag en [!UICONTROL Offer Level] verslag. Zie voor meer informatie [Samenvattingsrapporten van Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md).<br>Informatie over beide [!UICONTROL Personalization Insights] rapporten voor AT en AP activiteiten: [!UICONTROL Automated Segments] verslag en [!UICONTROL Important Attributes] verslag. Zie voor meer informatie [Persoonlijkheidsrapporten](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md). |
 | [Multivariatietest](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | Informatie over de twee verslagen over MVT-activiteiten: [!UICONTROL Experience Performance] verslag en [!UICONTROL Location Contribution] verslag. Zie voor meer informatie [Experience Performance Report](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md) (MVT) en  [Locatiebijdragerapport](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) (MVT). |
-| [Adobe Analytics als rapportagebron voor Adobe Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) | Informatie over het gebruik [!DNL Adobe Analytics] als bron van rapportage voor [!DNL Target]. A4T geeft u toegang tot [!DNL Analytics] rapporten voor uw [!DNL Target] activiteiten. Zie voor meer informatie [Analyses voor doelrapportage (A4T)](/help/main/c-reports/analytics-for-target-a4t-reporting.md). |
+| [Adobe Analytics als rapportagebron voor Adobe Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) | Informatie over het gebruik [!DNL Adobe Analytics] als bron van rapportage voor [!DNL Target]. A4T geeft u toegang tot [!DNL Analytics] rapporten voor [!DNL Target] activiteiten. Zie voor meer informatie [Analyses voor doelrapportage (A4T)](/help/main/c-reports/analytics-for-target-a4t-reporting.md). |
+| [[!DNL Target] rapporteren in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | Informatie over de integratie tussen [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} en [!DNL Target] die krachtige hulpmiddelen voor analyse en tijdbesparend maken voor uw optimalisatieprogramma. |
 
 ## Blokrapportgegevens van opgegeven IP-adressen
 

@@ -1,18 +1,18 @@
 ---
 keywords: rapport;rapporten;rapportering;ervaring wolkenoplossing;tijdzone;tijdzone;valuta;uitsluiten IPs;geschatte opheffing van inkomsten;opbrengst;opheffing van inkomsten;fijnkorrelige prioriteiten;fijnkorrelige prioriteiten
-description: Gebruiken [!DNL Target] Voor Adobe Analytics als rapportagebron geeft u de standaardnotatie voor tijdzone en valuta op, voegt u IP-adressen toe die u van rapportage wilt uitsluiten, enzovoort.
-title: Hoe vorm ik Rapportering in Doel?
+description: Gebruiken [!DNL Target], [!DNL Adobe Analytics], or [!DNL Adobe Customer Journey Analytics] als rapporteringsbron, specificeer de standaardtijdzone en muntformaat, voeg IP adressen toe om van rapportering uit te sluiten, en meer.
+title: Hoe ik Rapportering in Vorm [!DNL Target]?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: d414f1554e1875e873f1ce557a7edf86b88ee79e
+source-git-commit: ea9513c4310d13e1e7899aa7e228b4d7ecdf0748
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
 
-# Rapportage in doel configureren
+# Rapportage configureren in [!DNL Target]
 
 Algemene instellingen configureren voor gebruik in [!DNL Adobe Target] rapportage die van toepassing is op uw gehele [!DNL Target] account.
 
@@ -29,7 +29,7 @@ U kunt de volgende instellingen opgeven op deze pagina:
 
 >[!NOTE]
 >
->Houd er rekening mee dat de tijdzone, de valuta en IP-adressen waarop instellingen moeten worden uitgesloten van toepassing zijn op activiteiten die gebruikmaken [!DNL Target] rapportage. Deze instellingen zijn niet van toepassing op activiteiten die [Analyses voor doel (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) als de bron van de rapportage.
+>Houd er rekening mee dat de tijdzone, de valuta en IP-adressen waarop instellingen moeten worden uitgesloten van toepassing zijn op activiteiten die gebruikmaken [!DNL Target] rapportage. Deze instellingen zijn niet van toepassing op activiteiten die [Analyses voor doel (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) of [!DNL Customer Journey Analytics] als de bron van de rapportage.
 
 ![Pagina rapporteren](/help/main/administrating-target/assets/reporting.png)
 
@@ -37,14 +37,30 @@ U kunt de volgende instellingen opgeven op deze pagina:
 
 Stel opties in om te bepalen welke gegevens worden gebruikt voor de resultaten en rapporten.
 
-Selecteer de rapporteringsbron voor uw activiteiten, of [!DNL Target] of [!DNL Adobe Analytics]. U kunt ook de rapportbron per activiteit selecteren.
+Selecteer de rapporteringsbron voor uw activiteiten, of [!DNL Target], [!DNL Adobe Analytics], of [!DNL Adobe Customer Journey Analytics]. U kunt ook de rapportbron per activiteit selecteren als onderdeel van een driedelige geleide workflow terwijl u de activiteit maakt.
 
 Houd rekening met de volgende informatie wanneer u uw rapportbron kiest:
 
-* Als de rapportbron is ingesteld op **[!DNL Target]** hier kunt u geen activiteit activeren die [!DNL Analytics] als de bron van de rapportage. U moet de rapportbron wijzigen in [!DNL Target] in uw activiteit of verander de rapportbron in **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
-* Als de rapportbron is ingesteld op **[!DNL Analytics]** hier kunt u geen activiteit activeren die [!DNL Target] als bron van de rapportage (de bron van de rapportage wordt gespecificeerd zoals **[!UICONTROL Target per activity])**. U moet de rapportbron wijzigen in [!DNL Analytics] in uw activiteit of verander de rapporteringsmotor in **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
-* Als de rapportbron is ingesteld op **[!UICONTROL Select per activity]** Hier kunt u activiteiten maken, activeren en deactiveren die door de geselecteerde rapportbron worden ondersteund. Zie voor een matrix van ondersteunde activiteiten [Ondersteunde activiteitstypen](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als bron van rapportage voor Adobe Target (A4t)*.
-* [!UICONTROL Automated Personalization] (AP) het creëren van activiteit, activering, en deactivering worden toegestaan ongeacht de geselecteerde rapporteringsbron. Automated Personalization-activiteiten worden niet ondersteund wanneer u [Adobe Analytics als bron van rapportage voor Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). Zelfs als u [!DNL Analytics] als bron voor de rapportage, [!DNL Target] wordt gebruikt als rapportagebron voor Automated Personalization-activiteiten. Zie voor meer informatie [Ondersteunde activiteitstypen](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als bron van rapportage voor Adobe Target (A4t)*.
+* **[!DNL Adobe Target]**: Indien de bron van de rapportage is ingesteld op **[!DNL Target]** U mag hier geen activiteit maken of activeren die [!DNL Analytics] of [!DNL Customer Journey Analytics] als de bron van de rapportage. U moet de rapportbron wijzigen in **[!UICONTROL Select per activity]**.
+* **[!DNL Adobe Analytics]**: Indien de bron van de rapportage is ingesteld op **[!DNL Analytics]** U mag hier geen activiteit maken of activeren die [!DNL Target] of [!DNL Customer Journey Analytics] als de bron van de rapportage. U moet de rapportbron wijzigen in **[!UICONTROL Select per activity]**.
+* **[!DNL Adobe Customer Journey Analytics]**: Indien de bron van de rapportage is ingesteld op **[!DNL Customer Journey Analytics]** U mag hier geen activiteit maken of activeren die [!DNL Target] of [!DNL Analytics] als de bron van de rapportage. U moet de rapportbron wijzigen in **[!UICONTROL Select per activity]**.
+* **Selecteren per activiteit**: Indien de bron van de rapportage is ingesteld op **[!UICONTROL Select per activity]** Hier kunt u activiteiten maken en activeren die worden ondersteund door de geselecteerde rapportbron.
+
+Houd rekening met de volgende informatie wanneer u de rapportbron bepaalt:
+
+* **[!DNL Analytics]**: Voor een matrix van ondersteunde activiteiten die [!DNL Analytics] als rapportagebron (A4T), zie [Ondersteunde activiteitstypen](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als bron van rapportage voor Adobe Target (A4t)*.
+
+  [!UICONTROL Automated Personalization] (AP) het creëren en activeren van activiteiten is toegestaan ongeacht de geselecteerde bron van rapportage. [!UICONTROL Automated Personalization] activiteiten worden niet ondersteund wanneer u [Adobe Analytics als bron van rapportage voor Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+
+  Zelfs als u [!DNL Analytics] als bron voor de rapportage, [!DNL Target] wordt gebruikt als bron van rapportage voor [!DNL Automated Personalization] activiteiten.
+
+* **[!DNL Customer Journey Analytics]**: Voor een matrix van ondersteunde activiteiten die [!DNL Target] rapporteren in [!DNL Customer Journey Analytics], zie [Ondersteunde activiteitstypen](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) in *[!DNL Target]rapporteren in[!DNL Adobe Customer Journey Analytics]*.
+
+  [!UICONTROL Automated Personalization] (AP), [!UICONTROL Auto-Allocate], en [!UICONTROL Auto-Target] het creëren en activeren van activiteiten is toegestaan, ongeacht de gekozen bron van rapportage. Deze activiteiten worden niet ondersteund wanneer u [Adobe Customer Journey Analytics als bron van rapportage](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
+
+  Zelfs als u [!DNL Customer Journey Analytics] als bron voor de rapportage, [!DNL Target] wordt gebruikt als bron van rapportage voor [!DNL Automated Personalization] activiteiten.
+
+  Als u [!DNL Customer Journey Analytics] als rapportagebron voor [!UICONTROL Auto-Allocate] of [!UICONTROL Auto-Target] activiteiten, [!DNL Target] of [!DNL Analytics] kan worden gebruikt als bron van rapportage.
 
 ## Tijdzone voor rapportage
 
