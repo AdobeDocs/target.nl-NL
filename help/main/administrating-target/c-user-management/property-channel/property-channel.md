@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: d414f1554e1875e873f1ce557a7edf86b88ee79e
+source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
 workflow-type: tm+mt
-source-wordcount: '3180'
+source-wordcount: '3172'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Eigenschappen worden toegelaten door een specifiek naam/waardepaar als parameter
 
 Eigenschappen behoren tot specifieke kanalen (Web, Mobiel, E-mail, of API/Overige).
 
-### Werkruimte (productprofiel)
+### Werkruimte (productprofiel) {#workspace}
 
 Met een werkruimte kan een organisatie een specifieke set gebruikers toewijzen aan een specifieke set eigenschappen. In veel opzichten is een werkruimte vergelijkbaar met een rapportsuite in [!DNL Adobe Analytics].
 

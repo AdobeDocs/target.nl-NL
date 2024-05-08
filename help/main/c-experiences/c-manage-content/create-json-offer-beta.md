@@ -3,10 +3,11 @@ keywords: json-aanbieding;create json-aanbieding
 description: Leer hoe u JSON-aanbiedingen kunt maken voor gebruik in de [!UICONTROL Form-Based Experience Composer].
 title: Hoe maak ik JSON-aanbiedingen?
 feature: Experiences and Offers
-exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
+hide: true
+hidefromtoc: true
 source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -32,15 +33,17 @@ Houd rekening met de volgende informatie terwijl u met JSON werkt:
 
 1. Klikken **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
-   ![Aanbiedingen > tabblad Codevoorstellen](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
+   ![Aanbiedingen > tabblad Codevoorstellen](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
 
-1. Klikken **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
+1. Klikken **[!UICONTROL Create Offer]** > **[!UICONTROL JSON Offer]**.
 
-   ![aanbiedingsafbeelding](assets/offer-json.png)
+   ![aanbiedingsafbeelding](assets/offer-json-new.png)
 
 1. Typ een naam voor het voorstel.
+1. (Voorwaardelijk) Als u een [[!DNL Target] Premium-account](/help/main/c-intro/intro.md#premium)kiest u de gewenste [werkruimte](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace).
+1. (Voorwaardelijk) Kies de gewenste profielkenmerken.
 1. Typ of plak uw JSON-code in het dialoogvenster **[!UICONTROL Code]** doos.
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Create]**.
 
 ## JSON-voorbeeld {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
@@ -60,7 +63,7 @@ adobe.target.getOffer({
 });
 ```
 
-De acties die aan succesvolle callback worden overgegaan zijn een serie van voorwerp. Ervan uitgaande dat we één enkel JSON-aanbod hebben, dat de volgende inhoud heeft:
+De acties die aan succesvolle callback worden overgegaan zijn een serie van voorwerp. Ervan uitgaande dat u één JSON-aanbieding hebt, die de volgende inhoud heeft:
 
 ```json
 { 
@@ -139,6 +142,6 @@ Zie voor meer informatie [CDP-profielkenmerken in realtime delen met [!DNL Targe
 
 ## Aanbiedingen filteren door het type JSON-aanbieding {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-U kunt het filter [!UICONTROL Offers] bibliotheek van het aanbiedingstype JSON door op het **[!UICONTROL Type]** vervolgkeuzelijst, selecteert u vervolgens de **[!UICONTROL JSON]** selectievakje.
+U kunt het filter [!UICONTROL Offers] bibliotheek van het aanbiedingstype JSON door op het **[!UICONTROL Show filters]** pictogram, dan door **[!UICONTROL JSON]** selectievakje.
 
-![aanbieding-json-filter beeld](assets/offer-json-filter.png)
+![aanbieding-json-filter beeld](assets/offer-json-filter-new.png)

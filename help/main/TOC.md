@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: f11f65a9dc88acca53c34cb2a151dffb390cfee7
+source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1250'
 ht-degree: 3%
 
 ---
@@ -257,7 +257,9 @@ ht-degree: 3%
       + [Externe aanbiedingen maken](c-experiences/c-manage-content/about-remote-offers.md)
       + [bèta voor externe aanbiedingen maken](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md) {#remote} {#hidden}
       + [JSON-aanbiedingen maken](c-experiences/c-manage-content/create-json-offer.md)
+      + [JSON-bètaversie biedt](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md) {#json} {#hidden}
       + [Werken met inhoud in de bibliotheek](c-experiences/c-manage-content/assets-working.md)
+      + [Werken met inhoud in de bètabibliotheek van de bibliotheek](/help/main/c-experiences/c-manage-content/assets-working-beta) {#working} {#hidden}
       + [Inhoud zoeken](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Dynamische gegevens in aanbiedingen doorgeven](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM Ervaring en inhoudsfragmenten](c-experiences/c-manage-content/aem-experience-fragments.md)
