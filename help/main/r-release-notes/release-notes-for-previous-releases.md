@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
+source-git-commit: 44445f269a69a3ac3e3bc88bab8abf9fc4d51663
 workflow-type: tm+mt
-source-wordcount: '37672'
+source-wordcount: '37965'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,34 @@ Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en
 >Zie [Opmerkingen bij de doelversie (huidig)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) voor informatie over de Target-releases van de huidige maand (platform en Target Standard/Premium).
 
 ## Opmerkingen bij de release - 2024
+
+### [!UICONTROL Visual Experience Composer] helperverlenging (23 april 2024)
+
+De nalatenschap [!DNL Target] De hulpuitbreiding van de Composer van de Visuele Ervaring werd gecreeerd gebruikend Manifest V2. [!DNL Google] heeft aangekondigd dat het geen extensies meer zal toestaan die zijn gemaakt met Manifest V2 vanaf juni 2024. Zie voor meer informatie [[!UICONTROL Visual Experience Composer] helperuitbreiding](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+
+[!DNL Adobe] raadt klanten aan naar de nieuwere [De extensie Visuele bewerkingshulp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) zo spoedig mogelijk.
+
+### Updates voor `Browser:iPad` en `Browser:iPhone` in [!UICONTROL Browser] attributen voor het publiek (30 april 2024)
+
+| Updates | Details |
+|--- |--- |
+| [!UICONTROL Browser:iPad] en [!UICONTROL Browser:iPhone] bijgewerkt in [Browserkenmerken](/help/main/c-target/c-audiences/c-target-rules/browser.md) gebruikt bij het maken van soorten publiek. | [!DNL Adobe Target] laat u [doel op een van de verschillende categoriekenmerken](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), met inbegrip van bezoekers die een specifieke [browser- of browseropties](/help/main/c-target/c-audiences/c-target-rules/browser.md) wanneer ze uw pagina bezoeken.<P>Beginnen met de [!DNL Target] Standard/Premium 24.3.1 (4-6 maart 2024), ingebouwde doelgroepen, zoals `Browser:iPad` en `Browser:iPhone` wordt bijgewerkt om de juiste doelversie uit te voeren voor [!DNL iPad] en [!DNL iPhone] gebruiken `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` en `profile.mobile.isTablet`.<P>Deze update vereist geen actie aan de kant van de klanten.<p><B>Belangrijk</b>: Voor klanten om het juiste richten uit te voeren voor [!DNL iPad] en [!DNL iPhone] in profielscripts (en JavaScript-segmenten) moet de klant handmatig wijzigingen aanbrengen door **30 april 2024**. Voor voorbeelden van alternatieve instellingen die handmatig moeten worden gewijzigd, raadpleegt u [Updates voor [!DNL iPad] en [!DNL iPhone] in [!UICONTROL Browser] publiekskenmerken](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
+
+### [!UICONTROL Visual Editing Helper] verlenging (14 maart 2024)
+
+Deze versie bevat de volgende verbeteringen en oplossingen voor de [[!DNL Adobe Experience Cloud Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) verlenging voor [!DNL Google Chrome]:
+
+* Verbeterde laadmethode voor iFrame bij het ontwerpen in websites van klanten.
+* Probleem verholpen waarbij de extensie cookies dupliceerde tijdens het ontwerpen in het dialoogvenster [!UICONTROL Visual Experience Composer] (VEC).
+
+### [!DNL Target] Standard/Premium 24.3.1 (4-6 maart 2024)
+
+Deze versie bevat de volgende verbeteringen en oplossingen:
+
+* Probleem verholpen met de logica die het aantal unieke kiezers in een activiteit berekent. (TGT-47878)
+* Probleem verholpen dat ertoe heeft geleid [!UICONTROL Multivariate] (MVT) activiteiten geconfigureerd met [!UICONTROL Analytics for Target] (A4T) rapporteren om niet correct weer te geven. (TGT-47490)
+* Verbeterde het waarschuwingsbericht dat in het melden wordt getoond wanneer een ervaring zonder verkeer als controleervaring wordt gebruikt. (TGT-47537)
+* Er zijn veel oplossingen toegevoegd voor backend en lokalisatie.
 
 ### [!DNL Target] Standard/Premium 24.1.1 (22, 23 en 25 januari 2024)
 
@@ -570,7 +598,7 @@ Deze release bevat de volgende nieuwe functies:
 | --- | --- |
 | [!UICONTROL Audiences] UI vernieuwen | Als onderdeel van het [!DNL Adobe Target] de voortdurende inspanning van het team om de gebruiker-ervaring voor te verbeteren [!DNL Target] gebruikers, deze versie vernieuwt de [!UICONTROL Audiences] en [!UICONTROL Profile Scripts] pagina&#39;s in het dialoogvenster [!DNL Target] UI. Deze update verenigt en normaliseert ontwerppatronen die eerder inconsistent waren, terwijl het toevoegen van nieuwe verhogingen, zoals:<ul><li>De mogelijkheid om meerdere soorten publiek tegelijk te selecteren en te verwijderen</li><li>Een vernieuwd [ontwerp van publiek builder](/help/main/c-target/c-audiences/create-audience.md)</li><li>Ondersteuning voor uitsluitingsregels in het dialoogvenster [!UICONTROL Audience] bibliotheekregelbouwer</li><li>Een nieuw filter &quot;Bron publiek&quot;, waarmee u sneller uw doelgroep kunt detecteren</li><li>Opties voor permanent zoeken en filteren tijdens sessies</li></ul>Zie voor meer informatie [Soorten publiek](/help/main/c-target/target.md). |
 | [!UICONTROL Profile Scripts] UI vernieuwen | De [!UICONTROL Profile Scripts] De bibliotheek is ook bijgewerkt en bevat een vernieuwde interface en diverse productiviteitsupdates:<ul><li>Meerdere profielscripts tegelijk selecteren en verwijderen</li><li>Een nieuwe code-editor voor profielscripts</li><li>Syntaxis markeren en fout controleren in de code-editor</li><li>Automatisch aanvullen van tokens (mbox of profiel) via sneltoetsen</li></ul>Zie voor meer informatie [Bezoekerprofielen](/help/main/c-target/c-visitor-profile/visitor-profile.md). |
-| [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."} Recommendations-criteria maken en bewerken | De [!UICONTROL Recommendations Criteria] de workflow voor het maken en bewerken van bestanden is gestroomlijnd om het kiezen van het juiste algoritme en de juiste instellingen voor het uitvoeren van aanbevelingen te vereenvoudigen.<br>Zie voor meer informatie [Criteria maken](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md). |
+| [!BADGE Premium]{type=Positive url=&quot;/help/main/c-intro/intro.md#premium newtab=true&quot; tooltip=&quot;Zie wat er in Target Premium is opgenomen.&quot;} Recommendations-criteria maken en bewerken | De [!UICONTROL Recommendations Criteria] de workflow voor het maken en bewerken van bestanden is gestroomlijnd om het kiezen van het juiste algoritme en de juiste instellingen voor het uitvoeren van aanbevelingen te vereenvoudigen.<br>Zie voor meer informatie [Criteria maken](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md). |
 | ![Premium badge](/help/main/assets/premium.png) Verbeteringen in de snelheid van Recommendations-terugzoekvensters en -algoritmes | U kunt de algoritmen &quot;Meest bekeken&quot; en &quot;Hoogste verkopers&quot; nu uitvoeren met een terugkijkvenster van zes uur om de inhoud vast te leggen die het laatst wordt doorzocht. Wanneer het terugkijkvenster van zes uur wordt geselecteerd, worden uw aanbevelingen resultaten bijgewerkt om de 3-6 uur door de dag.<br>Zie voor meer informatie [Gegevensbron](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *Criteria maken*. |
 
 ### [!DNL Target Standard/Premium] 21.9.1 (14 september 2021)
