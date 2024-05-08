@@ -3,13 +3,10 @@ keywords: reisanalyse van klanten;analyse van klanten van de reis voor doel;rapp
 description: Gebruiken [!DNL Target] rapporteren in [!DNL Adobe Customer Journey Analytics] om activiteiten te creëren op basis van [!DNL Customer Journey Analytics] conversiemetriek en publiekssegmenten en gebruik [!DNL Customer Journey Analytics] verslagen om de resultaten te onderzoeken.
 title: Wat is [!DNL Target] rapporteren in [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn bètafuncties in [!DNL Adobe Target]."
-hide: true
-hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 8475365099315f3f8f2a47bfca9dd9f245b16720
+source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
