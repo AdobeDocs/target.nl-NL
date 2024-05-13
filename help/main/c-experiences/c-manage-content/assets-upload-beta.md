@@ -6,7 +6,8 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn bètafuncties in [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: 7a81d4f0918599480c1d50c82c09dc3a62a5bf71
+exl-id: f509ff00-ed0e-4836-826d-f6cb122d8867
+source-git-commit: 94e391021d86607b830f9716742059c6aef8f004
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # Aanbiedingen voor afbeeldingen uploaden of verwijderen
 
-U kunt afbeeldingen uploaden naar [!UICONTROL Image Offers] lijst in [!DNL Adobe Target] om te gebruiken als beeldaanbiedingen in activiteiten. U kunt ook aanbiedingen voor afbeeldingen verwijderen die u niet meer nodig hebt in activiteiten.
+U kunt afbeeldingen uploaden naar [!UICONTROL Image Offers] pagina in [!DNL Adobe Target] om te gebruiken als beeldaanbiedingen in activiteiten. U kunt ook aanbiedingen voor afbeeldingen verwijderen die u niet meer nodig hebt in activiteiten.
 
 >[!NOTE]
 >
@@ -25,7 +26,7 @@ U kunt afbeeldingen uploaden naar [!UICONTROL Image Offers] lijst in [!DNL Adobe
 
 1. Klikken **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
-   ![Aanbiedingen > Afbeeldingsaanbiedingen](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
+   ![Aanbiedingen > Afbeeldingsaanbiedingen](/help/main/c-experiences/c-manage-content/assets/image-offers-new.png)
 
 1. Klikken **[!UICONTROL Create]** > **[!UICONTROL Files]**.
 1. Blader naar het item dat u wilt toevoegen en selecteer het item. Klik vervolgens op **[!UICONTROL Open]**.

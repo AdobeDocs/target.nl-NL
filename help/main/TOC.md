@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
+source-git-commit: 94e391021d86607b830f9716742059c6aef8f004
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1252'
 ht-degree: 3%
 
 ---
@@ -247,19 +247,19 @@ ht-degree: 3%
    + [Single Page App (SPA) Visual Experience Composer](c-experiences/spa-visual-experience-composer.md)
    + Aanbiedingen {#offers}
       + [Overzicht van aanbiedingen](c-experiences/c-manage-content/manage-content.md)
-      + [bètaversie van aanbiedingen](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#manage-offers} {#hidden}
+      + [bètaversie van aanbiedingen](/help/main/c-experiences/c-manage-content/manage-content-beta.md)
       + [Aanbiedingenmap maken](c-experiences/c-manage-content/create-content-folder.md)
-      + [bètaversie van aanbiedingenmap maken](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#create-offer-folders} {#hidden}
+      + [bètaversie van aanbiedingenmap maken](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md)
       + [Inhoud uploaden](c-experiences/c-manage-content/assets-upload.md)
-      + [Aanbiedingen voor afbeeldingen uploaden of verwijderen](/help/main/c-experiences/c-manage-content/assets-upload-beta.md) {#upload-delete-offers} {#hidden}
+      + [Een bètaversie van een afbeelding uploaden of verwijderen](/help/main/c-experiences/c-manage-content/assets-upload-beta.md)
       + [Omleidingsvoorstellen maken](c-experiences/c-manage-content/offer-redirect.md)
-      + [Omleidingsvoorstellen maken](c-experiences/c-manage-content/offer-redirect-beta.md) {#redirect-offers} {#hidden}
+      + [bètaversie van aanbiedingen voor omleiding maken](c-experiences/c-manage-content/offer-redirect-beta.md)
       + [Externe aanbiedingen maken](c-experiences/c-manage-content/about-remote-offers.md)
-      + [bèta voor externe aanbiedingen maken](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md) {#remote} {#hidden}
+      + [bèta voor externe aanbiedingen maken](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md)
       + [JSON-aanbiedingen maken](c-experiences/c-manage-content/create-json-offer.md)
-      + [JSON-bètaversie biedt](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md) {#json} {#hidden}
+      + [JSON-bètaversie biedt](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [Werken met inhoud in de bibliotheek](c-experiences/c-manage-content/assets-working.md)
-      + [Werken met inhoud in de bètabibliotheek van de bibliotheek](/help/main/c-experiences/c-manage-content/assets-working-beta) {#working} {#hidden}
+      + [Werken met inhoud in de bètabibliotheek van de bibliotheek](/help/main/c-experiences/c-manage-content/assets-working-beta)
       + [Inhoud zoeken](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Dynamische gegevens in aanbiedingen doorgeven](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM Ervaring en inhoudsfragmenten](c-experiences/c-manage-content/aem-experience-fragments.md)
