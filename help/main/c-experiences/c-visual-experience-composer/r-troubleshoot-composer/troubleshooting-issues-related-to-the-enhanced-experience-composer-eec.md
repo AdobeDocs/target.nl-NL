@@ -4,9 +4,9 @@ description: Leer hoe te om problemen op te lossen die soms in de Adobe voorkome
 title: Hoe los ik problemen op met betrekking tot de Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: cb16350389e1504c88f1cf97aeda243e1300b65e
+source-git-commit: 7562a1da201b570ee529db9763ef5f4b463f65a8
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,15 @@ Dit kan worden opgelost door de volgende IP adressen te voegend op lijst van gew
 
 Vraag uw team van IT om de volgende IP adressen te lijsten van gewenste personen:
 
+* 34 254 77 200
+* 54.73.2007.147
+* 54 229 152 123
+* 3 224 194 242
+* 54 90 51 39
+* 34 228 136 112
+* 54 150 116 11
+* 18 178 142,8
+* 54 199 107,77
 * 99 80 139 221
 * 54 78 56 224
 * 54 247 179 246
@@ -66,7 +75,7 @@ Als u de TLS-versie op uw website wilt controleren met Firefox (andere browsers 
 
    ![firefox_more_info_3 afbeelding](assets/firefox_more_info_3.png)
 
-1. Als u ziet dat op uw website TLS 1.0 wordt weergegeven, raadpleegt u [De Veranderingen van de Encryptie van TLS (de Veiligheid van de Laag van het Vervoer)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} for information about Target's TLS support policy. To remedy the situation for now (valid until September 12, 2018){target=_blank}, bereik [Klantenservice](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) voor configuratie met uw versie van TLS en het domein.
+1. Als u ziet dat op uw website TLS 1.0 wordt weergegeven, raadpleegt u [De Veranderingen van de Encryptie van TLS (de Veiligheid van de Laag van het Vervoer)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} voor informatie over het TLS-ondersteuningsbeleid van Target. Om de situatie voorlopig te verhelpen (geldig tot 12 september 2018){target=_blank}, bereik [Klantenservice](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) voor configuratie met uw versie van TLS en het domein.
 
 ## Ik zie onderbrekingen of &quot;ontkende toegang&quot;fouten wanneer het laden van plaatsen met toegelaten volmacht. (alleen EEG) {#section_60CBB9022DC449F593606C0E6252302D}
 
