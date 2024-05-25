@@ -3,7 +3,7 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: c6393642a8170e1f2ef207eb0daf972e380f79b5
+source-git-commit: 3f4c744b9f6bb91f55616138901c20961a72629e
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 3%
@@ -64,7 +64,7 @@ ht-degree: 3%
          + [Machtigingen voor Enterprise-gebruikers](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Bedrijfsmachtigingen configureren](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [Toegang tot werkruimten voor Adobe I/O-integratie verlenen en rollen toewijzen](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [Recommendations](/help/main/administrating-target/reommendations-settings.md)
+   + [Recommendations](/help/main/administrating-target/recommendations-settings.md)
 + Doel implementeren {#implement-target}
    + [Overzicht van doel implementeren](c-implementing-target/implementing-target.md)
 + Doel integreren met het Experience Cloud {#integrate}
