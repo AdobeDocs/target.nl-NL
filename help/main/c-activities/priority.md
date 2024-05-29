@@ -4,20 +4,20 @@ description: Meer informatie [!DNL Adobe Target] bepaalt welke activiteit (of ac
 title: Hoe werkt [!DNL Target] Prioriteit toewijzen aan verschillende activiteiten?
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
-source-git-commit: 18765a82b5dca94654a412e2012a3f6c1a7b5128
+source-git-commit: f935b963d8686ca8991544a96720adfc32b1083e
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1065'
 ht-degree: 0%
 
 ---
 
 # Prioriteit
 
-[!DNL Adobe Target] bepaalt welke activiteit (of activiteiten) er op een pagina moet worden uitgevoerd, afhankelijk van welke [!DNL Target] interface en welke functie voor het maken van activiteit ([[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) of [Formuliergebaseerde Experience Composer](/help/main/c-experiences/form-experience-composer.md)) gebruikt u.
+[!DNL Adobe Target] bepaalt welke activiteit (of activiteiten) er op een pagina moet worden uitgevoerd, afhankelijk van welke [!DNL Target] interface en welke functie voor het maken van activiteit ([[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) of [Formuliergebaseerde Experience Composer](/help/main/c-experiences/form-experience-composer.md)) gebruikt u.
 
 ## [!DNL Target Standard/Premium] [!UICONTROL Visual Experience Composer] alleen of [!UICONTROL Form-Based Experience Composer] het gebruiken van globale [!DNL Target] alleen aanvragen {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
-Als uw bedrijf [!DNL Target Standard/Premium] en de [!UICONTROL Visual Experience Composer] uitsluitend, kan de inhoud van veelvoudige activiteiten voor de zelfde vraag worden teruggekeerd. De activiteiten worden geleverd gebruikend de volgende beslissingsstroom:
+Als uw bedrijf [!DNL Target Standard/Premium] en VEC uitsluitend, kan de inhoud van veelvoudige activiteiten voor de zelfde vraag worden teruggegeven. De activiteiten worden geleverd gebruikend de volgende beslissingsstroom:
 
 1. De [!DNL Target] serveraanroep komt op [!DNL Target] met informatie over de URL.
 1. [!DNL Target] trekt elke activiteit die op die URL loopt.
@@ -43,18 +43,20 @@ Als uw bedrijf [!DNL Target Standard/Premium] en de [!UICONTROL Visual Experienc
 
 >[!NOTE]
 >
->Deze informatie is ook van toepassing op alle uitgevoerde campagnes die zijn gemaakt in [!DNL Target Classic].
+>Deze informatie is ook van toepassing op alle actieve activiteiten die zijn gemaakt in [!DNL Target Classic].
 
-Als uw bedrijf de [!UICONTROL Form-Based Experience Composer] in [!DNL Target Standard/Premium] en de [!DNL Target Standard/Premium] [!UICONTROL Visual Experience Composer], dan inhoud van meerdere [!UICONTROL Visual Experience Composer] activiteiten kunnen leveren, maar slechts één activiteit van de formuliergebaseerde workflow. De levering van de activiteit wordt bepaald gebruikend de volgende beslissingsstroom:
+Als uw bedrijf de [!UICONTROL Form-Based Experience Composer] *en* de VEC, inhoud van meerdere [!UICONTROL Form-Based Experience Composer] en VEC-activiteiten kunnen leveren. Voorheen kon slechts één activiteit van de formuliergebaseerde workflow leveren. Er geldt niet langer een beperking voor het aantal op formulieren gebaseerde activiteiten dat kan leveren.
+
+De levering van de activiteit wordt bepaald gebruikend de volgende beslissingsstroom:
 
 1. [!DNL Target] serveraanroep komt op [!DNL Target] met informatie over de [!DNL Target] aanvraag en URL.
-1. [!DNL Target Classic] en [!DNL Target Standard/Premium] elke activiteit die in dat programma wordt uitgevoerd [!DNL Target] verzoek.
+1. [!DNL Target Standard/Premium] trekt elke activiteit die in dat loopt [!DNL Target] verzoek.
 1. [!DNL Target] pogingen om de bezoeker in activiteiten aan te passen.
 
    Als de bezoeker zich al in een [!UICONTROL A/B Test] of [!UICONTROL Multivariate Test] , komen ze overeen met die test totdat ze worden omgezet. Als ze voorheen in een [!UICONTROL Experience Targeting] , moeten ze er weer in passen. Als ze aan de publieksregels voldoen, valt de bezoeker in die activiteiten en in specifieke ervaringen.
 
-1. Als een op formulieren gebaseerde activiteit de hoogste prioriteit heeft, wordt die activiteiteninhoud samen met alle overeenkomende activiteiteninhoud van geretourneerd [!UICONTROL Visual Experience Composer] activiteiten.
-1. Indien een [!UICONTROL Visual Experience Composer] activiteit is de hoogste prioriteit, dan inhoud van alle overeenkomstige [!UICONTROL Visual Experience Composer] activiteiten worden geretourneerd, maar geen [!DNL Target Classic] of op formulieren gebaseerde activiteit-inhoud wordt geretourneerd.
+1. Als een op vorm-gebaseerde activiteit de hoogste prioriteit is, dan is die activiteiteninhoud teruggekeerd samen met alle passende activiteiteninhoud van VEC activiteiten.
+1. Als een activiteit VEC de hoogste prioriteit is, dan wordt de inhoud van alle passende activiteiten VEC teruggegeven, maar geen [!DNL Target Classic] of op formulieren gebaseerde activiteit-inhoud wordt geretourneerd.
 
    De resultaten van alle activiteiten die op de pagina worden uitgevoerd, worden geteld en weerspiegeld in de rapporten.
 
