@@ -4,9 +4,9 @@ description: Houd up-to-date met belangrijke toevoegingen en wijzigingen in de [
 title: Waar kan ik documentatieupdates zien voor [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7562a1da201b570ee529db9763ef5f4b463f65a8
+source-git-commit: be6e45ff301f549eb5be24a65b05c4a9c1cd6089
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1783'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat belangrijke wijzigingen die zijn aangebracht in het dialoogven
 
 | Datum | Onderwerp | Wijzigingen |
 | --- | --- | --- |
+| 3 juni | [Prioriteit](/help/main/c-activities/priority.md) | Bijgewerkt volledig onderwerp, met inbegrip van het erop wijzen van dat inhoud van veelvoudige [!UICONTROL Form-Based Experience Composer] en VEC-activiteiten kunnen leveren. Voorheen kon slechts één activiteit van de formuliergebaseerde workflow leveren. Er geldt niet langer een beperking voor het aantal op formulieren gebaseerde activiteiten dat kan leveren. |
 | 17 mei | [Problemen met het oplossen van problemen in verband met de [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Toegevoegde extra IP adressen die u kunt lijsten van gewenste personen wanneer het gebruiken van [!UICONTROL Enhanced Experience Composer]. |
 | 8 mei | [[!DNL Target] rapporteren in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | Nieuw artikel: Informatie toegevoegd over de [!DNL Target] integratie met [!DNL Adobe Customer Journey Analytics]. |
 | 30 april | [Problemen met het oplossen van problemen in verband met de [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Bijgewerkt de lijst van IP adressen voor de server van de Adobe die voor de EEG volmacht aan lijst van gewenste personen wordt gebruikt. |

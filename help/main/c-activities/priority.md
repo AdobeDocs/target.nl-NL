@@ -4,9 +4,9 @@ description: Meer informatie [!DNL Adobe Target] bepaalt welke activiteit (of ac
 title: Hoe werkt [!DNL Target] Prioriteit toewijzen aan verschillende activiteiten?
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
-source-git-commit: f935b963d8686ca8991544a96720adfc32b1083e
+source-git-commit: be6e45ff301f549eb5be24a65b05c4a9c1cd6089
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 [!DNL Adobe Target] bepaalt welke activiteit (of activiteiten) er op een pagina moet worden uitgevoerd, afhankelijk van welke [!DNL Target] interface en welke functie voor het maken van activiteit ([[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) of [Formuliergebaseerde Experience Composer](/help/main/c-experiences/form-experience-composer.md)) gebruikt u.
 
-## [!DNL Target Standard/Premium] [!UICONTROL Visual Experience Composer] alleen of [!UICONTROL Form-Based Experience Composer] het gebruiken van globale [!DNL Target] alleen aanvragen {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## [!UICONTROL Visual Experience Composer] alleen of [!UICONTROL Form-Based Experience Composer] het gebruiken van globale [!DNL Target] alleen aanvragen {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
-Als uw bedrijf [!DNL Target Standard/Premium] en VEC uitsluitend, kan de inhoud van veelvoudige activiteiten voor de zelfde vraag worden teruggegeven. De activiteiten worden geleverd gebruikend de volgende beslissingsstroom:
+Als uw bedrijf VEC exclusief gebruikt, kan de inhoud van veelvoudige activiteiten voor de zelfde vraag zijn teruggekeerd. De activiteiten worden geleverd gebruikend de volgende beslissingsstroom:
 
 1. De [!DNL Target] serveraanroep komt op [!DNL Target] met informatie over de URL.
 1. [!DNL Target] trekt elke activiteit die op die URL loopt.
@@ -39,24 +39,20 @@ Als uw bedrijf [!DNL Target Standard/Premium] en VEC uitsluitend, kan de inhoud 
    * Als slechts één activiteit het richten van het publiek heeft, wordt die activiteit getoond.
    * Als alles of niets het richten heeft, dan wordt de activiteit die eerst werd goedgekeurd getoond.
 
-## [!DNL Target Standard/Premium] [!UICONTROL Form-Based Experience Composer] en [!DNL Target Standard/Premium] [!UICONTROL Visual Experience Composer] {#section_4620253E1CE942DD830724C7822B175F}
-
->[!NOTE]
->
->Deze informatie is ook van toepassing op alle actieve activiteiten die zijn gemaakt in [!DNL Target Classic].
+## [!UICONTROL Form-Based Experience Composer] en [!UICONTROL Visual Experience Composer] {#section_4620253E1CE942DD830724C7822B175F}
 
 Als uw bedrijf de [!UICONTROL Form-Based Experience Composer] *en* de VEC, inhoud van meerdere [!UICONTROL Form-Based Experience Composer] en VEC-activiteiten kunnen leveren. Voorheen kon slechts één activiteit van de formuliergebaseerde workflow leveren. Er geldt niet langer een beperking voor het aantal op formulieren gebaseerde activiteiten dat kan leveren.
 
 De levering van de activiteit wordt bepaald gebruikend de volgende beslissingsstroom:
 
 1. [!DNL Target] serveraanroep komt op [!DNL Target] met informatie over de [!DNL Target] aanvraag en URL.
-1. [!DNL Target Standard/Premium] trekt elke activiteit die in dat loopt [!DNL Target] verzoek.
+1. [!DNL Target] trekt elke activiteit die in dat loopt [!DNL Target] verzoek.
 1. [!DNL Target] pogingen om de bezoeker in activiteiten aan te passen.
 
    Als de bezoeker zich al in een [!UICONTROL A/B Test] of [!UICONTROL Multivariate Test] , komen ze overeen met die test totdat ze worden omgezet. Als ze voorheen in een [!UICONTROL Experience Targeting] , moeten ze er weer in passen. Als ze aan de publieksregels voldoen, valt de bezoeker in die activiteiten en in specifieke ervaringen.
 
 1. Als een op vorm-gebaseerde activiteit de hoogste prioriteit is, dan is die activiteiteninhoud teruggekeerd samen met alle passende activiteiteninhoud van VEC activiteiten.
-1. Als een activiteit VEC de hoogste prioriteit is, dan wordt de inhoud van alle passende activiteiten VEC teruggegeven, maar geen [!DNL Target Classic] of op formulieren gebaseerde activiteit-inhoud wordt geretourneerd.
+1. Als een activiteit VEC de hoogste prioriteit is, dan wordt de inhoud van alle passende activiteiten VEC teruggegeven, maar geen op vorm-gebaseerde activiteiteninhoud is teruggekeerd.
 
    De resultaten van alle activiteiten die op de pagina worden uitgevoerd, worden geteld en weerspiegeld in de rapporten.
 
@@ -66,11 +62,7 @@ Als u twee activiteiten hebt, één gericht op het branded onderzoekssleutelwoor
 
 Als beide doelactiviteiten dezelfde prioriteit hebben, wordt de activiteit weergegeven die het laatst is bekeken. Als de bezoeker nieuw is voor de pagina, wordt de activiteit weergegeven die het laatst is geactiveerd.
 
-## [!DNL Target Standard/Premium] [!UICONTROL Form-Based Experience Composer] met niet-mondiaal [!DNL Target] verzoeken {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
-
->[!NOTE]
->
->Deze informatie is ook van toepassing op alle actieve activiteiten die zijn gemaakt in [!DNL Target Classic].
+## [!UICONTROL Form-Based Experience Composer] met niet-mondiaal [!DNL Target] verzoeken {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 Als uw bedrijf [!DNL Target] andere verzoeken dan de algemene [!DNL Target] in de op formulier gebaseerde composer kan inhoud van slechts één activiteit per oproep worden geretourneerd. De levering van de activiteit wordt bepaald gebruikend de volgende beslissingsstroom:
 
@@ -91,11 +83,6 @@ Als uw bedrijf [!DNL Target] andere verzoeken dan de algemene [!DNL Target] in d
 >
 >Afhankelijk van uw instellingen variëren de prioriteitswaarden. U kunt de oudere instellingen van [!UICONTROL Low], [!UICONTROL Medium], of [!UICONTROL High]of u kunt fijnkorrelige prioriteiten inschakelen van 0 tot en met 999. Zie voor meer informatie [Activiteiteninstellingen](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
-**Twee [!DNL Target Classic] activiteiten gebruiken niet-mondiaal [!DNL Target] verzoeken**
-
-* Activiteit 1: homePageHero, aanbieding1, hoge prioriteit
-* Activiteit 2: homePageHero, aanbieding2, prioritair laag
-
 Reactie: aanbieding1
 
 **Voor twee activiteiten worden alleen aanbiedingen gebruikt die zijn gemaakt in de [!UICONTROL Visual Experience Composer] voor verschillende kiezers**
@@ -111,23 +98,6 @@ Response: visualExpCompOffer1, visualExpCompOffer2
 * Activiteit 2: target-global-mbox, selector1, visualExpCompOffer2, prioriteit hoog
 
 Response: visualExpCompOffer1, visualExpCompOffer2
-
->[!NOTE]
->
->Dit is dezelfde reactie als in het tweede geval van gebruik hierboven omdat [!DNL Target Classic] heeft geen selectiebotsingen afgehandeld. [!DNL Target Standard/Premium] vangt dergelijk gedrag en andere gebruiksgevallen op wanneer kiezers zowel in DOM als visueel kunnen botsen (gewoonlijk gedaan op het niveau van de ervaringseditor of in de modus van de activiteitssimulatie).
-
-**Twee activiteiten gebruiken aanbiedingen die zijn gemaakt in het dialoogvenster [!UICONTROL Visual Experience Composer] en twee [!DNL Target Classic] activiteiten**
-
-* Activiteit 1: target-global-mbox, selector1, visualExpCompOffer1, gemiddeld hoog
-* Activiteit 2: target-global-mbox, selector2, visualExpCompOffer2, priority low
-* Activiteit 1: target-global-mbox, aanbieding1, prioriteit hoog
-* Activiteit 2: target-global-mbox, aanbieding2, prioriteit laag
-
-Response: aanbieding1, visualExpCompOffer2, visualExpCompOffer1
-
->[!NOTE]
->
->De volgorde van gecombineerde reacties is dat [!DNL Target Classic] inhoud komt bovenaan. Slechts één [!DNL Target Classic] de respons wordt onderhouden zoals in het eerste geval, en dan [!UICONTROL Visual Experience Composer] bieden reacties aan die door omgekeerde prioriteit worden bevolen.
 
 ## Trainingsvideo: Instellingen voor activiteit (3:02)
 
