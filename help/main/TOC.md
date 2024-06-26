@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: c2d553a9f292ff9942fe973c17040e003db8c60d
+source-git-commit: c8bd2bb45ee8ef1a849fd9091554caec77effba0
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1260'
 ht-degree: 3%
 
 ---
@@ -273,11 +273,11 @@ ht-degree: 3%
       + [Gegevens downloaden in een CSV-bestand](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + Statistische methodologie {#statistical-methodology}
       + [Statistische berekeningen voor A/Bn-tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
-   + Persoonlijkingsrapporten {#personalization-reports}
+   + Personalization-rapporten {#personalization-reports}
       + [Samenvattingsrapport voor automatisch doel](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Samenvattingsrapporten van Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md)
-   + Verslag over persoonlijke inzichten {#insights}
-      + [Overzicht van rapporten over persoonlijke inzichten](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
+   + Personalization Insights-rapport {#insights}
+      + [Overzicht van Personalization Insights-rapporten](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Rapport Automated Segments](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [Rapport Belangrijke kenmerken](c-reports/c-personalization-insights-reports/important-attributes-report.md)
    + Testrapporten met meerdere varianten {#multivariate-test-reports}
@@ -298,6 +298,7 @@ ht-degree: 3%
       + [Catalogus zoeken](c-recommendations/c-products/catalog-search.md)
       + [Zoekbètaversie van catalogus](/help/main/c-recommendations/c-products/catalog-search-beta.md)
       + [Verzamelingen](c-recommendations/c-products/collections.md)
+      + [Verzamelingen bèta](/help/main/c-recommendations/c-products/collections-beta.md)
       + [Uitsluitingen](c-recommendations/c-products/exclusions.md)
    + Criteria {#criteria}
       + [Overzicht van criteria](c-recommendations/c-algorithms/algorithms.md)
