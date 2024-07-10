@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: b6eaf89ef71ea3448584dcdadc926c45dba77504
+source-git-commit: 31cf23a52c331eabad0e5f6423eeeca84df87625
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -65,17 +65,17 @@ Maak een verzameling om de producten of inhoud te ordenen die u wilt weergeven i
 
 1. Klik op **[!UICONTROL Create]**.
 
-## Een verzameling maken met [!UICONTROL Advanced Search]
+<!-- ## Create a collection using [!UICONTROL Advanced Search]
 
-U kunt ook verzamelingen maken met [!UICONTROL Advanced Search] op de [Catalogus zoeken](/help/main/c-recommendations/c-products/catalog-search.md#save-as) pagina ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+You can also create collections using [!UICONTROL Advanced Search] on the [Catalog Search](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). 
 
-![Opslaan als dialoogvenster](/help/main/c-recommendations/c-products/assets/save-as.png)
+![Save as dialog](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-Nadat u een zoekopdracht hebt gemaakt met &#39;id > contains&#39;, kunt u bijvoorbeeld op [!UICONTROL Save As] > [!UICONTROL Collection].
+After creating a search using "id > contains," for example, you can then click [!UICONTROL Save As] > [!UICONTROL Collection].
 
 >[!IMPORTANT]
 >
->De [!UICONTROL Advanced Search] de functionaliteit is case-insensitive; nochtans, zijn de producten die op het tijdstip van levering zijn teruggekeerd gebaseerd op case-sensitive onderzoek. Deze wanverhouding kan tot verwarring leiden. Zorg ervoor dat u rekening houdt met hoofdlettergevoeligheid wanneer u verzamelingen maakt op basis van resultaten met de [!UICONTROL Advanced Search] functionaliteit. Als u bijvoorbeeld zoekt naar &#39;Vakantie&#39;, worden in de eerste zoekopdracht resultaten weergegeven die &#39;Vakantie&#39; en &#39;Vakantie&#39; bevatten. Als u vervolgens een catalogus maakt met de intentie om producten met &quot;vakantie&quot; te retourneren, worden alleen producten met &quot;vakantie&quot; geretourneerd. Producten met &quot;Vakantie&quot; worden niet geretourneerd.
+>The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. -->
 
 ## Een verzameling bewerken, kopiëren of verwijderen
 
@@ -100,12 +100,3 @@ Houd er rekening mee dat verzamelingen beschikbaar zijn voor de gehele account. 
 1. (Voorwaardelijk) Om een bestaande inzameling te veranderen die, op **[!UICONTROL Experiences]** pagina (stap 2 van de driedelige geleide workflow), klik op een locatie waar u aanbevelingen hebt gedaan en klik op **[!UICONTROL Change Collection]** Selecteer vervolgens de gewenste verzameling.
 
    ![Verzameling wijzigen, optie](/help/main/c-recommendations/c-products/assets/change-collection.png)
-
-## Trainingsvideo: Verzamelingen en uitsluitingen maken in Recommendations (7:05) ![Zelfstudie-badge](/help/main/assets/tutorial.png)
-
-Deze video bevat de volgende informatie:
-
-* Een verzameling maken
-* Een uitsluiting maken
-
->[!VIDEO](https://video.tv.adobe.com/v/27689)
