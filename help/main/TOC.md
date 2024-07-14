@@ -3,10 +3,10 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: edb603b6e71edaa673be9ee0954e60f5cb04e195
+source-git-commit: 77bbdd4438aa17f2e8d96e00bd3d37806a474585
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 3%
+source-wordcount: '1284'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 3%
       + [Overzicht van de welkomstkit](/help/main/c-intro/target-welcome-kit.md)
       + [Hoofdstuk 1: Inleiding](/help/main/c-intro/target-welcome-kit-1.md)
       + [Hoofdstuk 2: Doel in één oogopslag](/help/main/c-intro/target-welcome-kit-2.md)
-      + [Hoofdstuk 3: Ontwikkel uw test en verpersoonlijkingsideeën](/help/main/c-intro/target-welcome-kit-3.md)
+      + [ Hoofdstuk 3: Ontwikkel uw het testen en verpersoonlijkingsideeën ](/help/main/c-intro/target-welcome-kit-3.md)
       + [Hoofdstuk 4: Tips voor het gebruik van Doel](/help/main/c-intro/target-welcome-kit-4.md)
       + [Hoofdstuk 5: Inspiratie voor test- en personalisatieactiviteiten](/help/main/c-intro/target-welcome-kit-5.md)
       + [Hoofdstuk 6: Eenvoudig te vermijden valkuilen](/help/main/c-intro/target-welcome-kit-6.md)
@@ -47,7 +47,7 @@ ht-degree: 3%
    + [Overzicht van Doel beheren](administrating-target/administrating-target.md)
    + [Eerste stappen van beheerder](administrating-target/start-target.md)
    + [Vorm Composer van de Visuele Ervaring](/help/main/administrating-target/visual-experience-composer-set-up.md)
-   + Rapportage {#reporting}
+   + Rapporteren {#reporting}
       + [Rapportage configureren](/help/main/administrating-target/reporting.md)
       + [Raming van de inkomsten](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
    + [Scene7-configuratie](administrating-target/scene7-settings.md)
@@ -60,15 +60,15 @@ ht-degree: 3%
       + Gebruikers {#users}
          + [Overzicht van gebruikers](administrating-target/c-user-management/c-user-management/user-management.md)
          + [Gebruikersbeheer oplossen](administrating-target/c-user-management/c-user-management/troubleshooting-user-management.md)
-      + Machtigingen voor Enterprise-gebruikers {#enterprise}
+      + Machtigingen voor zakelijke gebruikers {#enterprise}
          + [Machtigingen voor Enterprise-gebruikers](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Bedrijfsmachtigingen configureren](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [Toegang tot werkruimten voor Adobe I/O-integratie verlenen en rollen toewijzen](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Recommendations](/help/main/administrating-target/recommendations-settings.md)
 + Doel implementeren {#implement-target}
-   + [Overzicht van doel implementeren](c-implementing-target/implementing-target.md)
-+ Doel integreren met het Experience Cloud {#integrate}
-   + Adobe Analytics als de rapportagebron voor Target (A4T) {#a4t}
+   + [ voer het overzicht van het Doel uit ](c-implementing-target/implementing-target.md)
++ Doel integreren met Experience Cloud {#integrate}
+   + Adobe Analytics als rapportagebron voor Doel (A4T) {#a4t}
       + [A4T-overzicht](c-integrating-target-with-mac/a4t/a4t.md)
       + [Voordat u implementeert](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Analyses voor doelimplementatie](c-integrating-target-with-mac/a4t/a4timplementation.md)
@@ -94,7 +94,7 @@ ht-degree: 3%
       + [Doelrapportage in Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Doel integreren met Adobe Journey Optimizer (AJO) {#ajo}
       + [Besluiten over aanbiedingen gebruiken](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-      + [Integreren [!DNL Adobe Target Recommendations] en [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
+      + [ integreren  [!DNL Adobe Target Recommendations]  en  [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
    + [Soorten publiek Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
    + Doel integreren met Adobe Experience Manager (AEM) {#aem}
       + [Doel integreren met AEM overzicht](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
@@ -148,7 +148,7 @@ ht-degree: 3%
       + [Problemen met Automated Personalization oplossen](c-activities/t-automated-personalization/ap-trouble.md)
    + Gericht op ervaring {#experience-targeting}
       + [Gericht overzicht van de ervaring](c-activities/t-experience-target/experience-target.md)
-      + Een belevenis maken die gericht is op activiteit {#create-targeting}
+      + Een belevenis voor doelactiviteit maken {#create-targeting}
          + [Een activiteit maken](c-activities/t-experience-target/t-xt-create/xt-create.md)
          + [URL van activiteit](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
          + [Een ervaring maken](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
@@ -173,12 +173,12 @@ ht-degree: 3%
    + [Een activiteit bewerken of opslaan als concept](c-activities/edit-activity.md)
    + [Prioriteit](c-activities/priority.md)
    + [Activiteiteninstellingen](c-activities/activity-settings.md)
-   + Succeswaarden {#success-metrics}
+   + Geslaagde maatstaven {#success-metrics}
       + [Succeswaarden](c-activities/r-success-metrics/success-metrics.md)
       + [Klikken bijhouden](c-activities/r-success-metrics/click-tracking.md)
       + [Vastlegscore](c-activities/r-success-metrics/capture-score.md)
    + [Logboek voor wijziging van de activiteit](c-activities/change-log.md)
-   + Problemen met activiteiten oplossen {#troubleshoot-activities}
+   + Activiteiten oplossen {#troubleshoot-activities}
       + [Overzicht van probleemoplossingactiviteiten](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
       + [Problemen met de levering van inhoud oplossen](c-activities/c-troubleshooting-activities/content-trouble.md)
    + Activiteit QA {#activity-qa}
@@ -208,7 +208,7 @@ ht-degree: 3%
    + [Een alleen-activiteitpubliek maken](c-target/creating-activity-only-audience.md)
    + [Auditiefilters voor rapportage](c-target/managing-audience-filters.md)
    + [Pas een rapporterend publiek op succes toe metrisch](c-target/apply-reporting-audience-success-metric.md)
-   + Bezoekerprofielen {#visitor-profiles}
+   + Bezoekersprofielen {#visitor-profiles}
       + [Overzicht van bezoekersprofielen](c-target/c-visitor-profile/visitor-profile.md)
       + [Levensduur van bezoekersprofiel](c-target/c-visitor-profile/visitor-profile-lifetime.md)
       + [Profielkenmerken](c-target/c-visitor-profile/profile-parameters.md)
@@ -233,7 +233,7 @@ ht-degree: 3%
       + [Elementkiezers die worden gebruikt in de composer voor visuele ervaring](c-experiences/c-visual-experience-composer/vec-selectors.md)
       + [Mobiele viewports voor responsieve ervaringen](c-experiences/c-visual-experience-composer/mobile-viewports.md)
       + [Aanbevolen werkwijzen en beperkingen van Visual Experience Composer](c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
-      + Problemen oplossen met de composer voor visuele ervaring {#troubleshoot-composer}
+      + Problemen met de Visual Experience Composer oplossen {#troubleshoot-composer}
          + [Het oplossen van problemen de Visuele Composer van de Ervaring](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
          + [Problemen oplossen met de composer voor visuele ervaring en de Enhanced Experience Composer](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
          + [Problemen oplossen met de composer voor visuele ervaring](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
@@ -271,7 +271,7 @@ ht-degree: 3%
       + [Meerdere metriek in een rapport weergeven](c-reports/c-report-settings/view-multiple-metrics.md)
       + [Extreme waarden uitsluiten](c-reports/c-report-settings/excluding-extreme-orders.md)
       + [Gegevens downloaden in een CSV-bestand](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
-   + Statistische methodologie {#statistical-methodology}
+   + Statistische methode {#statistical-methodology}
       + [Statistische berekeningen voor A/Bn-tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
    + Personalization-rapporten {#personalization-reports}
       + [Samenvattingsrapport voor automatisch doel](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
@@ -303,12 +303,17 @@ ht-degree: 3%
       + [Exclusieve bèta](/help/main/c-recommendations/c-products/exclusions-beta.md)
    + Criteria {#criteria}
       + [Overzicht van criteria](c-recommendations/c-algorithms/algorithms.md)
+      + [ het overzicht van Criteria bèta ](/help/main/c-recommendations/c-algorithms/algorithms-beta.md)
       + [Criteria maken](c-recommendations/c-algorithms/create-new-algorithm.md)
+      + [Criteria-bètaversie maken](/help/main/c-recommendations/c-algorithms/create-new-algorithm-beta.md)
       + [Criteria-reeksen maken](c-recommendations/c-algorithms/create-criteria-sequence.md)
+      + [bètareeksen met criteria maken](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md)
       + [De aanbeveling baseren op een aanbevelingen](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
+      + [De aanbeveling baseren op een bètaversie met een aanbevolen toets](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md)
       + [De wetenschap achter de aanbevelingen van Target algoritmen](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [Aangepaste criteria uploaden](c-recommendations/c-algorithms/recommendations-csv.md)
-      + Dynamische en statische insluitingsregels {#dynamic-static}
+      + [Aangepaste criteria bèta uploaden](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
+      + Dynamische en statische opnameregels {#dynamic-static}
          + [Regels voor dynamische en statische integratie gebruiken](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [Identiteitskenmerk](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [Overeenkomende profielkenmerken](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
@@ -340,4 +345,4 @@ ht-degree: 3%
    + [Limieten](r-troubleshooting-target/target-limits.md)
 + Doel-API&#39;s {#apis}
    + [Overzicht Adobe Target API](/help/main/api/api-overview.md)
-+ [Bronnen en contactgegevens](cmp-resources-and-contact-information.md)
++ [ Middelen en contactinformatie ](cmp-resources-and-contact-information.md)
