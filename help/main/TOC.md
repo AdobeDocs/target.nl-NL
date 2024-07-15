@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: b6a55260fd49e07e2b217f6becfbc778251a5d0d
+source-git-commit: 6d2a313b0e54aa5f6717eee850c79e4092309e7d
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1320'
 ht-degree: 2%
 
 ---
@@ -325,8 +325,11 @@ ht-degree: 2%
          + [Statisch filter](/help/main/c-recommendations/c-algorithms/static-value.md)
          + [Statische filterbèta](/help/main/c-recommendations/c-algorithms/static-value-beta.md)
       + [Een back-upaanbeveling gebruiken](c-recommendations/c-algorithms/backup-recs.md)
+      + [Een back-upaanbeveling gebruiken](/help/main/c-recommendations/c-algorithms/backup-recs-beta.md)
       + [Werken met kenmerken van meerdere waarden](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
+      + [Werken met bètakenmerken voor meerdere waarden](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes-beta.md)
       + [Adobe Analytics gebruiken met Recommendations](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
+      + [Adobe Analytics gebruiken met Recommendations bèta](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations-beta.md)
    + Ontwerp {#recommendations-design}
       + [Overzicht van ontwerp](c-recommendations/c-design-overview/design-overview.md)
       + [Een ontwerp maken](c-recommendations/c-design-overview/create-design.md)
