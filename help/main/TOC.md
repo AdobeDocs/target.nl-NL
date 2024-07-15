@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 2393925a4c8cc6d880278b23551ba33f23268a8e
+source-git-commit: b6a55260fd49e07e2b217f6becfbc778251a5d0d
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1305'
 ht-degree: 2%
 
 ---
@@ -317,9 +317,13 @@ ht-degree: 2%
          + [Regels voor dynamische en statische integratie gebruiken](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [De bèta van dynamische en statische inclusieregels gebruiken](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
          + [Identiteitskenmerk](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
+         + [Entiteitskenmerk overeenkomende bèta](/help/main/c-recommendations/c-algorithms/entity-attribute-matching-beta.md)
          + [Overeenkomende profielkenmerken](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
+         + [Profielkenmerk overeenkomende bèta](/help/main/c-recommendations/c-algorithms/profile-attribute-matching-beta.md)
          + [Overeenkomende parameter](/help/main/c-recommendations/c-algorithms/parameter-matching.md)
+         + [Parameter die overeenkomt met bèta](/help/main/c-recommendations/c-algorithms/parameter-matching-beta.md)
          + [Statisch filter](/help/main/c-recommendations/c-algorithms/static-value.md)
+         + [Statische filterbèta](/help/main/c-recommendations/c-algorithms/static-value-beta.md)
       + [Een back-upaanbeveling gebruiken](c-recommendations/c-algorithms/backup-recs.md)
       + [Werken met kenmerken van meerdere waarden](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
       + [Adobe Analytics gebruiken met Recommendations](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
