@@ -7,9 +7,9 @@ feature: Recommendations
 mini-toc-levels: 3
 hide: true
 hidefromtoc: true
-source-git-commit: 43986f4b83d0165b03046f52afd3cd6b5b42ab65
+source-git-commit: 84f2ea906dcab939b3892b11eabf96494f4514cb
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1825'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ De volgende secties bevatten meer informatie:
 
    ![ voegt het Filtreren Regel ](/help/main/c-recommendations/c-algorithms/assets/add-fitering-rule.png) toe
 
-1. Om te kiezen of om dynamische of statische inclusieregels te gebruiken, klik **Statische Filter** in &quot;welke andere regels de aanbeveling&quot;doos zouden moeten volgen, dan de gewenste optie van de Statische drop-down lijst van de Filter kiezen.
+1. Klik de **Statische drop-down lijst van de Filter** in &quot;Welke andere regels de aanbeveling&quot;doos zouden moeten volgen, dan kies de gewenste optie van de [!UICONTROL Static Filter] drop-down lijst.
 
    ![ Statische drop-down lijst van de Filter ](/help/main/c-recommendations/c-algorithms/assets/dynamic-and-static.png)
 
