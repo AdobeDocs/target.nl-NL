@@ -1,28 +1,28 @@
 ---
 keywords: aangepast ontwerp;snelheid;decimaal;komma;ontwerp aanpassen
-description: Leer hoe u de ontwerptaal van de opensource-snelheid gebruikt om aanbevelingen aan te passen in Adobe [!DNL Target] Recommendations.
+description: Leer hoe te om de open-bron  [!DNL Velocity]  ontwerptaal te gebruiken om aanbevelingsontwerpen in  [!DNL Target]  Recommendations aan te passen.
 title: Hoe pas ik een ontwerp aan gebruikend snelheid?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
 
-# Een ontwerp aanpassen met Snelheid
+# Een ontwerp aanpassen met [!DNL Velocity]
 
-Gebruik de open-source ontwerptaal van de Snelheid om aanbevelingen aan te passen in [!DNL Adobe Target Recommendations].
+Gebruik de ontwerptaal open-source [!DNL Velocity] om aanbevelingsontwerpen aan te passen in [!DNL Adobe Target Recommendations] .
 
-## Overzicht van snelheid {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## [!DNL Velocity] overzicht {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
-Informatie over snelheid vindt u op [https://velocity.apache.org](https://velocity.apache.org).
+De informatie over [!DNL Velocity] kan in [ https://velocity.apache.org ](https://velocity.apache.org) worden gevonden.
 
-Alle logica van de Snelheid, syntaxis, etc. kunnen voor een aanbevelingsontwerp worden gebruikt. Dit betekent dat u *for* lussen, *indien* instructies, en andere code die Snelheid gebruiken eerder dan JavaScript.
+Alle [!DNL Velocity] -logica, -syntaxis, enzovoort kunnen worden gebruikt voor een aanbevolen ontwerp. Dit betekent dat u *voor* lijnen, *kunt tot stand brengen als* verklaringen, en andere code gebruikend [!DNL Velocity] eerder dan JavaScript.
 
-Entiteitskenmerken verzonden naar [!DNL Recommendations] in de `productPage` mbox of de CSV-upload kan worden weergegeven in een ontwerp, met uitzondering van de kenmerken &quot;multi-value&quot;. Elk type kenmerk kan worden verzonden; echter [!DNL Target] geeft geen kenmerken door van het type &quot;multi-value&quot; als een array waarover een sjabloon kan doorlopen (bijvoorbeeld `entityN.categoriesList`).
+Entiteitskenmerken die naar [!DNL Recommendations] worden verzonden in de `productPage` mbox of de CSV-upload, kunnen in een ontwerp worden weergegeven, met uitzondering van &quot;multi-value&quot;-kenmerken. Elk type kenmerk kan worden verzonden, maar [!DNL Target] geeft geen kenmerken van het type &quot;multi-value&quot; door als een array die door een sjabloon kan worden herhaald (bijvoorbeeld `entityN.categoriesList` ).
 
 Naar deze waarden wordt verwezen met de volgende syntaxis:
 
@@ -30,7 +30,7 @@ Naar deze waarden wordt verwezen met de volgende syntaxis:
 $entityN.variable
 ```
 
-Kenmerknamen van entiteiten moeten de snelheidshorthand-notatie volgen, die bestaat uit een regelafstand *$* teken, gevolgd door een VTL-id (Velocity Template Language). De VTL-id moet beginnen met een alfabetisch teken (a-z of A-Z).
+Namen van entiteitskenmerken moeten volgen op [!DNL Velocity] stenornotatie, die bestaat uit een voorloopteken *$* , gevolgd door een id voor [!DNL Velocity] Sjabloontaal (VTL). De VTL-id moet beginnen met een alfabetisch teken (a-z of A-Z).
 
 Namen van kenmerken van snelheidsentiteiten zijn beperkt tot de volgende typen tekens:
 
@@ -39,7 +39,7 @@ Namen van kenmerken van snelheidsentiteiten zijn beperkt tot de volgende typen t
 * Afbreekstreepje ( - )
 * Onderstrepingsteken ( _ )
 
-De volgende kenmerken zijn beschikbaar als snelheidsarrays. Als zodanig kunnen ze worden herhaald of via index naar ze worden verwezen.
+De volgende kenmerken zijn beschikbaar als [!DNL Velocity] -arrays. Als zodanig kunnen ze worden herhaald of via index naar ze worden verwezen.
 
 * `entities`
 * `entityN.categoriesList`
@@ -60,9 +60,9 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-Voor meer informatie over de variabelen van de Snelheid (attributen), zie [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
+Voor meer informatie over [!DNL Velocity] variabelen (attributen), zie [ https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables ](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
-Als u een profielmanuscript in uw ontwerp gebruikt, moet $ voorafgaand aan de manuscriptnaam met een beschermd zijn `\` (backslash). Bijvoorbeeld:
+Als u een profielscript in uw ontwerp gebruikt, moet $ voorafgaand aan de scriptnaam met een `\` (backslash) worden beschermd. Bijvoorbeeld:
 
 `\${user.script_name}`
 
@@ -72,7 +72,7 @@ Als u een profielmanuscript in uw ontwerp gebruikt, moet $ voorafgaand aan de ma
 
 Als u bijvoorbeeld een ontwerp wilt dat iets dergelijks weergeeft:
 
-![snelheid_voorbeeldafbeelding](assets/velocity_example.png)
+![ snelheid_example beeld ](assets/velocity_example.png)
 
 u kunt de volgende code gebruiken:
 
@@ -123,17 +123,17 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->Als u na de waarde van een kenmerk tekst wilt toevoegen vóór een tag die aangeeft dat de naam van het kenmerk is voltooid, kunt u dit doen met een formele notatie om de naam van het kenmerk in te sluiten. Bijvoorbeeld: `${entity1.thumbnailUrl}.gif`.
+>Als u tekst wilt toevoegen na de waarde van een kenmerk vóór een tag die aangeeft dat de naam van het kenmerk is voltooid, kunt u dit doen met een formele notatie om de naam van het kenmerk in te sluiten. Bijvoorbeeld: `${entity1.thumbnailUrl}.gif` .
 
-U kunt ook `algorithm.name` en `algorithm.dayCount` als entiteitattributen in ontwerpen, zodat kan één ontwerp worden gebruikt om veelvoudige criteria te testen, en de criteria kunnen de naam dynamisch in het ontwerp worden getoond. Dit toont de bezoeker die hij of zij kijkt naar &quot;topverkopers&quot; of &quot;mensen die dit bekeken hebben die dat gekocht hebben.&quot; U kunt deze kenmerken zelfs gebruiken om de `dayCount` (aantal dagen dat de criteria worden gebruikt, zoals &quot;hoogste verkopers in de afgelopen twee dagen&quot;, enz.
+U kunt `algorithm.name` en `algorithm.dayCount` ook gebruiken als entiteitskenmerken in ontwerpen, zodat één ontwerp kan worden gebruikt om meerdere criteria te testen, en de naam van de criteria kan dynamisch in het ontwerp worden getoond. Dit toont de bezoeker die hij of zij kijkt naar &quot;topverkopers&quot; of &quot;mensen die dit bekeken hebben die dat gekocht hebben.&quot; U kunt deze kenmerken zelfs gebruiken om de `dayCount` weer te geven (aantal dagen dat gegevens in de criteria zijn gebruikt, zoals &#39;hoogste verkopers in de afgelopen 2 dagen&#39;, enzovoort.
 
-## Werken met getallen in snelheidssjablonen
+## Werken met getallen in [!DNL Velocity] sjablonen
 
-Door gebrek, behandelen de malplaatjes van de Snelheid alle entiteitattributen als koordwaarden. Mogelijk wilt u een entiteitskenmerk behandelen als een numerieke waarde om een wiskundige bewerking uit te voeren of deze te vergelijken met een andere numerieke waarde. Voer de volgende stappen uit om een entiteitskenmerk als een numerieke waarde te behandelen:
+Standaard behandelen [!DNL Velocity] -sjablonen alle entiteitkenmerken als tekenreekswaarden. Mogelijk wilt u een entiteitskenmerk behandelen als een numerieke waarde om een wiskundige bewerking uit te voeren of deze te vergelijken met een andere numerieke waarde. Voer de volgende stappen uit om een entiteitskenmerk als een numerieke waarde te behandelen:
 
 1. Declareer een dummyvariabele en initialiseer deze naar een willekeurig geheel getal of een dubbele waarde.
-1. Zorg ervoor dat het entiteitskenmerk dat u wilt gebruiken niet leeg is (vereist voor [!DNL Target Recommendations]&#39; sjabloonparser om de sjabloon te valideren en op te slaan).
-1. Geef het entiteitskenmerk door aan de `parseInt` of `parseDouble` op de dummyvariabele die u in stap 1 hebt gemaakt om van de tekenreeks een geheel getal of dubbele waarde te maken.
+1. Zorg ervoor dat het entiteitskenmerk dat u wilt gebruiken, niet leeg is (vereist voor [!DNL Target Recommendations] &#39;-sjabloonparser om de sjabloon te valideren en op te slaan).
+1. Geef het entiteitskenmerk door in de methode `parseInt` of `parseDouble` van de dummyvariabele die u in stap 1 hebt gemaakt om de tekenreeks om te zetten in een geheel getal of dubbele waarde.
 1. Voer de wiskundige bewerking of vergelijking uit op de nieuwe numerieke waarde.
 
 ### Voorbeeld: Een kortingsprijs berekenen
@@ -151,7 +151,7 @@ Stel dat je de weergegeven prijs van een object met $0,99 wilt verlagen om een k
 #end
 ```
 
-### Voorbeeld: Het aantal sterren dat moet worden weergegeven op basis van de waardering van een item
+### Voorbeeld: Het aantal sterren kiezen dat moet worden weergegeven op basis van de waardering van een item
 
 Stel dat u een geschikt aantal sterren wilt weergeven op basis van de numerieke gemiddelde klantbeoordeling van een item. U kunt de volgende methode gebruiken om dit resultaat te bereiken:
 
@@ -176,7 +176,7 @@ Stel dat u een geschikt aantal sterren wilt weergeven op basis van de numerieke 
 #end
 ```
 
-### Voorbeeld: De tijd in uren en minuten berekenen op basis van de lengte van een item in minuten
+### Voorbeeld: de tijd in uren en minuten berekenen op basis van de lengte van een item in minuten
 
 Stel dat u de lengte van een film in minuten opslaat, maar de lengte in uren en minuten wilt weergeven. U kunt de volgende methode gebruiken om dit resultaat te bereiken:
 
@@ -193,7 +193,7 @@ Stel dat u de lengte van een film in minuten opslaat, maar de lengte in uren en 
 
 U kunt uw ontwerp aanpassen om uw belangrijkste punt naast andere geadviseerde producten te tonen. U kunt bijvoorbeeld het huidige item ter referentie naast de aanbevelingen weergeven.
 
-Hiervoor maakt u een kolom in uw ontwerp die gebruikmaakt van de `$key` kenmerk waarop u uw aanbeveling baseert in plaats van de `$entity` kenmerk. De code voor uw sleutelkolom kan er bijvoorbeeld als volgt uitzien:
+Hiertoe maakt u in uw ontwerp een kolom waarin het kenmerk `$key` wordt gebruikt waarop u uw aanbeveling baseert in plaats van het kenmerk `$entity` . De code voor uw sleutelkolom kan er bijvoorbeeld als volgt uitzien:
 
 ```
 <div class="at-table-column"> 
@@ -208,9 +208,9 @@ Hiervoor maakt u een kolom in uw ontwerp die gebruikmaakt van de `$key` kenmerk 
 
 Het resultaat is een ontwerp als het volgende, waarbij in één kolom het sleutelitem wordt weergegeven.
 
-![rec_key-afbeelding](assets/rec_key.png)
+![ rec_key beeld ](assets/rec_key.png)
 
-Wanneer u uw [!DNL Recommendations] activiteit, als het sleutelitem uit het profiel van de bezoeker wordt gehaald, zoals &quot;laatst gekocht item&quot;, [!DNL Target] geeft een willekeurig product weer in de [!UICONTROL Visual Experience Composer] (VEC). Dit komt omdat er geen profiel beschikbaar is terwijl u de activiteit ontwerpt. Wanneer bezoekers de pagina bekijken, zullen zij het verwachte belangrijkste punt zien.
+Wanneer u uw [!DNL Recommendations] activiteit creeert, als het belangrijkste punt uit het profiel van de bezoeker, zoals &quot;laatst gekocht voorwerp wordt genomen,&quot;[!DNL Target] toont een willekeurig product in [!UICONTROL Visual Experience Composer] (VEC). Dit komt omdat er geen profiel beschikbaar is terwijl u de activiteit ontwerpt. Wanneer bezoekers de pagina bekijken, zullen zij het verwachte belangrijkste punt zien.
 
 ## Vervangingen in een tekenreekswaarde uitvoeren {#section_01F8C993C79F42978ED00E39956FA8CA}
 
@@ -240,12 +240,12 @@ De volgende code is een volledig voorwaardelijk voorbeeld van een verkoopprijs:
 
 ## De sjabloongrootte aanpassen en blanco waarden controleren {#default}
 
-Gebruikend een manuscript van de Snelheid om voor het dynamische rangschikken van de entiteitvertoning te controleren, past het volgende malplaatje een 1-aan-vele resultaat aan vermijden creërend lege HTML elementen wanneer er niet genoeg passende die entiteiten van zijn teruggekeerd [!DNL Recommendations]. Dit script is het meest geschikt voor scenario&#39;s waarin back-upaanbevelingen geen nut zouden hebben en [!UICONTROL Partial Template Rendering] is ingeschakeld.
+Met behulp van een [!DNL Velocity] -script voor het dynamisch instellen van de grootte van de entiteitsweergave, past de volgende sjabloon een 1-op-veel-resultaat toe om te voorkomen dat lege HTML-elementen worden gemaakt wanneer er onvoldoende overeenkomende entiteiten worden geretourneerd van [!DNL Recommendations] . Dit script is het meest geschikt voor scenario&#39;s waarin back-upaanbevelingen geen nut hebben en [!UICONTROL Partial Template Rendering] is ingeschakeld.
 
 Het volgende HTML-fragment vervangt het bestaande HTML-gedeelte in het standaardontwerp van 4 x 2 (de CSS is hier niet opgenomen omwille van de beknoptheid):
 
-* Als er een vijfde entiteit bestaat, voegt het script een afsluitende div in en wordt een nieuwe rij geopend met `<div class="at-table-row">`.
-* Met 4x2, zullen de maximumgetoonde resultaten acht zijn, maar dit kon voor kleinere of grotere lijsten worden aangepast door te wijzigen `$count <=8`.
+* Als er een vijfde entiteit bestaat, voegt het script een afsluitende div in en wordt een nieuwe rij geopend met `<div class="at-table-row">` .
+* Met 4x2 zijn de maximale resultaten acht, maar deze kunnen voor kleinere of grotere lijsten worden aangepast door `$count <=8` aan te passen.
 * Houd er rekening mee dat de logica de entiteiten op meerdere rijen niet in evenwicht brengt. Bijvoorbeeld, als er vijf of zes te tonen entiteiten zijn, zal het dynamisch niet drie op bovenkant en twee op de bodem (of drie op bovenkant en drie op de bodem) worden. In de bovenste rij worden vier items weergegeven voordat een tweede rij wordt gestart.
 
 ```

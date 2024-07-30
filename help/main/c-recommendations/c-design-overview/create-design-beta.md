@@ -1,13 +1,14 @@
 ---
 keywords: aanbevelingen ontwerp;ontwerp maken;ontwerp kopiëren
-description: Leer hoe te om een Adobe  [!DNL Target]  ontwerp van Recommendations tot stand te brengen gebruikend een standaardontwerp of door een douaneontwerp te creëren om de lay-out van uw pagina het best te passen.
+description: Leer hoe te om een  [!DNL Target Recommendations]  ontwerp tot stand te brengen gebruikend een standaardontwerp of door een douaneontwerp te creëren om de lay-out van uw pagina het best te passen.
 title: Hoe maak ik een ontwerp in Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
 feature: Recommendations
-exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
+hide: true
+hidefromtoc: true
 source-git-commit: d33fa5b84ccffc20d8db638aafcc0601c060dbcb
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ In deze afbeelding ziet u een aangepast ontwerp:
 
 ![ Het ontwerp van de Douane ](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
 
-U kunt een ontwerp tijdens het activiteit-creatie proces van binnen Visual Experience Composer (VEC) of van de ontwerpbibliotheek buiten de activiteitenverwezenlijking tot stand brengen. In de volgende secties wordt aangenomen dat u ontwerpen maakt vanuit de bibliotheek, maar dat de stappen op elkaar lijken.
+U kunt een ontwerp maken tijdens het proces voor het maken van activiteiten vanuit [!UICONTROL Visual Experience Composer] (VEC) of vanuit de ontwerpbibliotheek buiten het maken van activiteiten. In de volgende secties wordt aangenomen dat u ontwerpen maakt vanuit de bibliotheek, maar dat de stappen op elkaar lijken.
 
 ## Ontwerpen maken
 
@@ -43,15 +44,12 @@ U kunt een ontwerp tot stand brengen dat op een standaardontwerp wordt gebaseerd
 
 1. Klik op **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** om de [!UICONTROL Designs] -bibliotheek weer te geven.
 
-   ![ de bibliotheek van Ontwerpen ](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
 
 1. Plaats de muis boven de kaart voor het ontwerp dat u wilt maken en klik vervolgens op het pictogram **[!UICONTROL Copy]** .
 
-   ![ beeld Card_CopyDesign ](assets/Card_CopyDesign.png)
+   ![ beeld Card_CopyDesign ](/help/main/c-recommendations/c-design-overview/assets/card-copy-design.png)
 
    Het dialoogvenster [!UICONTROL Create Design] wordt weergegeven.
-
-   ![ createDesign beeld ](assets/createDesign.png)
 
 1. Voeg in het deelvenster **[!UICONTROL Information]** een **[!UICONTROL Content Name]** en een optionele voorvertoning toe die u op de ontwerpkaart wilt weergeven.
 
@@ -59,7 +57,7 @@ U kunt een ontwerp tot stand brengen dat op een standaardontwerp wordt gebaseerd
 
 1. (Voorwaardelijk) Bewerk het ontwerp **[!UICONTROL Code]** naar wens.
 
-   Bij het ontwerpen van aanbevelingen wordt de ontwerptaal open-source [!DNL Velocity] gebruikt. De informatie over [!DNL Velocity] kan in [ https://velocity.apache.org ](https://velocity.apache.org) worden gevonden en in [ past een ontwerp aan gebruikend  [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
+   De ontwerpen van de aanbeveling gebruiken de open-source ontwerptaal van de Snelheid. De informatie over Snelheid kan in [ https://velocity.apache.org ](https://velocity.apache.org) worden gevonden en in [ past een ontwerp aan gebruikend Snelheid ](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
    Een ontwerp kan HTML of niet-HTML zijn. Standaard worden HTML-ontwerpen voorzien van een tag `<div>` , zodat muisklik kan worden gevolgd in een webomgeving. Niet-HTML-ontwerpen zijn bedoeld voor omgevingen die geen webomgeving zijn en waar het bijhouden van klikken niet mogelijk is. Sleep de schakeloptie [!UICONTROL HTML Design] naar de uitstand om niet-HTML code te gebruiken.
 
@@ -91,17 +89,15 @@ U kunt een standaardontwerp niet bewerken of kopiëren. U kunt alleen standaardo
 
 Houd de muisaanwijzer boven het gewenste ontwerp in de [!UICONTROL Design] -bibliotheek en klik vervolgens op het juiste pictogram: bewerken, kopiëren of verwijderen.
 
-![ pictogrammen van de Bedekking voor een ontwerp ](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
-
 U kunt een bestaand ontwerp kopiëren om een dubbel ontwerp tot stand te brengen dat u dan kunt wijzigen. Met dit proces kunt u een vergelijkbaar ontwerp maken met minder moeite.
 
-Houd er rekening mee dat ontwerpen beschikbaar zijn voor de gehele account. Overweeg het gebruik in andere accounts voordat u een ontwerp verwijdert. Verwijderde ontwerpen kunnen niet worden hersteld.
+Houd er rekening mee dat ontwerpen beschikbaar zijn voor de gehele account. Zorg ervoor dat u rekening houdt met het gebruik in verschillende accounts voordat u een ontwerp verwijdert. Verwijderde ontwerpen kunnen niet worden hersteld.
 
 ## JSON-voorbeeld {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-In het volgende voorbeeld ziet u hoe JSON-reacties kunnen worden geretourneerd wanneer een activiteit wordt geconfigureerd via de formuliereditor.
+Het volgende voorbeeld toont hoe de reacties JSON kunnen zijn teruggekeerd wanneer het vormen van een activiteit via de [ vorm-gebaseerde redacteur ](/help/main/c-experiences/form-experience-composer.md).
 
-1. Maak een ontwerp vanuit de ontwerpbibliotheek of vanuit de formuliergebaseerde workflow. Als u een ontwerp probeert te maken in de [!UICONTROL Visual Experience Composer] (VEC)-workflow, kunt u alleen een HTML-ontwerp maken dat in een `<div>` is opgenomen om te klikken op bijhouden.
+1. Maak een ontwerp vanuit [!UICONTROL Design library] of vanuit de formuliergebaseerde workflow. Als u een ontwerp probeert te maken in de [!UICONTROL Visual Experience Composer] (VEC)-workflow, kunt u alleen een HTML-ontwerp maken dat in een `<div>` is opgenomen voor kliktraceringsdoeleinden.
 
 1. Zorg ervoor dat de optie &quot;HTML-ontwerp&quot; is uitgeschakeld:
 
@@ -174,13 +170,13 @@ Nadat het algoritme is uitgevoerd en u resultaten hebt, moet uw reactie er ongev
 
 ## Extra tips en trucs voor JSON-objecten {#section_C305673C68944749969DB239E3221DC2}
 
-U kunt ook gewoon een eenvoudige door komma&#39;s gescheiden lijst met items terugsturen door een ontwerp in te stellen met de volgende syntaxis:
+U kunt ook een eenvoudige lijst met door komma&#39;s gescheiden items terugsturen door een ontwerp in te stellen met de volgende syntaxis:
 
 ```
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-U kunt ook aanvullende informatie in de reactie verzenden. Het volgende codedossier is een complexer voorbeeld dat veel meer dan entiteitsidentiteitskaart met hun bijbehorende groeven (orde) terugkeert. In dit ontwerpvoorbeeld worden ook de activiteitsgegevens, de gegevens van het doelprofiel (indien van toepassing) en andere `entity.attributes` die aan de geretourneerde items zijn gekoppeld, geretourneerd.
+U kunt ook aanvullende informatie in de reactie verzenden. Het volgende codedossier is een complexer voorbeeld dat veel meer dan entiteitsidentiteitskaart met hun bijbehorende groeven (orde) terugkeert. In dit ontwerpvoorbeeld worden ook de activiteitsgegevens, [!UICONTROL Target Profile] details (zoals van toepassing) en andere `entity.attributes` die aan de geretourneerde items zijn gekoppeld, geretourneerd.
 
 ```javascript
     {   
