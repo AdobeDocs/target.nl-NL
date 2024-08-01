@@ -1,36 +1,40 @@
 ---
 keywords: problemen oplossen;veelgestelde vragen;Veelgestelde vragen;Veelgestelde vragen;aanbevelingen;speciale tekens;weging van kenmerken;gelijkenis van inhoud
-description: Een lijst met veelgestelde vragen en antwoorden over Adobe weergeven [!DNL Target] Recommendations-activiteiten
-title: Waar kan ik vragen en antwoorden vinden over [!DNL Target] Recommendations?
+description: Bekijk een lijst van vaak gestelde vragen en antwoorden over  [!DNL Target Recommendations]  activiteiten.
+title: Waar kan ik Vragen en Antwoorden over  [!DNL Recommendations] vinden?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
 workflow-type: tm+mt
-source-wordcount: '3448'
+source-wordcount: '3485'
 ht-degree: 0%
 
 ---
 
 # Veelgestelde vragen over Recommendations
 
-Lijst met veelgestelde vragen (FAQ&#39;s) over [!DNL Adobe Target] [!DNL Recommendations] activiteiten.
+Lijst met veelgestelde vragen (FAQ&#39;s) over [!DNL Adobe Target] [!DNL Recommendations] -activiteiten.
 
-## Waarom doet [!UICONTROL Catalog Search] De juiste resultaten niet weergeven wanneer ik een aangepast kenmerk met een numerieke waarde zoek?
+## Kan ik met de API&#39;s van [!DNL Target] visuele aanbiedingen beheren die door [!DNL Target] in de gebruikersinterface zijn gemaakt?
+
+Nee. [!DNL Recommendations] -activiteiten met visuele aanbiedingen die zijn gemaakt in de [!DNL Target] -gebruikersinterface, kunnen niet worden beheerd met de [!DNL Target] -API&#39;s. Hoewel deze activiteiten in de [!UICONTROL Activities] -lijst worden weergegeven, kunt u ze niet lezen of bijwerken (met GET/PUT).
+
+## Waarom geeft [!UICONTROL Catalog Search] niet de juiste resultaten weer wanneer ik zoek naar een aangepast kenmerk met een numerieke waarde?
 
 Wanneer u een cataloguszoekopdracht uitvoert op een aangepast kenmerk met een numerieke waarde, wordt het aangepaste kenmerk in de resultaten behandeld als een tekenreeks in plaats van een numerieke waarde.
 
-Er is momenteel geen functionaliteit beschikbaar waarmee klanten het type van een kenmerk kunnen wijzigen. Als u een wijziging wilt aanbrengen, [een klantenprobleem openen](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) het verwijzen naar de kenmerken waarvoor het type moet worden gewijzigd van tekenreeks in numeriek.
+Er is momenteel geen functionaliteit beschikbaar waarmee klanten het type van een kenmerk kunnen wijzigen. Om een verandering aan te brengen, [ open een klantenkwestie ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) van verwijzingen voorzien van de attributen die het type vereisen dat van koord in numeriek wordt veranderd.
 
 ## Hoe lang duurt het voordat updates van items in mijn catalogus op mijn site worden weergegeven?
 
 Het tijdkader en de resultaten variëren, afhankelijk van hoe de items worden bijgewerkt.
 
-| Bron | Details |
+| Source | Details |
 | --- | --- |
 | Itemkenmerken bijgewerkt via mbox of API | <ul><li>Recommendations wordt binnen 15 minuten bijgewerkt.</li><li>Bestaande aanbevelingen en itemkenmerken worden weergegeven totdat updates beschikbaar zijn.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na catalogusindex (3-8 uur).</li></ul> |
 | Itemkenmerken bijgewerkt via feed | <ul><li>Recommendations wordt bijgewerkt na inname van het voer (2-8 uur).</li><li>Bestaande aanbevelingen en itemkenmerken worden weergegeven totdat updates beschikbaar zijn.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na invoer (2-8 uur) en na volgende catalogusindex (3-8 uur). Zoekopdrachten voor catalogi worden binnen 5-16 uur bijgewerkt.</li></ul> |
-| Item verwijderd uit catalogus via [!DNL Target] UI of API | <ul><li>Recommendations wordt binnen 15 minuten bijgewerkt.</li><li>Bestaande aanbevelingen en itemkenmerken worden weergegeven totdat updates beschikbaar zijn.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na catalogusindex (3-8 uur).</li></ul> |
+| Item dat via de gebruikersinterface of API van [!DNL Target] uit de catalogus is verwijderd | <ul><li>Recommendations wordt binnen 15 minuten bijgewerkt.</li><li>Bestaande aanbevelingen en itemkenmerken worden weergegeven totdat updates beschikbaar zijn.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na catalogusindex (3-8 uur).</li></ul> |
 | Item dat via mbox of API aan de catalogus is toegevoegd | <ul><li>Recommendations wordt bijgewerkt nadat het algoritme is uitgevoerd. Algorithm-run is elke 12 uur gepland voor algoritmes van 1 tot 2 dagen en elke 24 uur voor algoritmen van 7 of meer dagen.</li><li>Bestaande aanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item geen gevraagde sleutel is.</li><li>Back-upaanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item een gevraagde sleutel is.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na catalogusindex (3-8 uur).</li></ul> |
 | Item dat via feed aan de catalogus is toegevoegd | <ul><li>Recommendations wordt bijgewerkt na inname van het voer (2-8 uur). De volgende algoritmelooppas wordt gepland om de 12 uur voor 1-2 dagalgoritmen en om de 24 uur voor 7+ dagalgoritmen. Recommendations wordt in totaal binnen 2-32 uur bijgewerkt.</li><li>Bestaande aanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item geen gevraagde sleutel is.</li><li>Back-upaanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item een gevraagde sleutel is.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na invoer (2-8 uur) en na catalogusindex (3-8 uur). Zoekopdrachten voor catalogi worden binnen 5-16 uur bijgewerkt.</li></ul> |
 
@@ -38,7 +42,7 @@ Nadat u een feed-bestand hebt geïmporteerd of nadat u eenheidupdates hebt ontva
 
 * Als een item eerder was uitgesloten maar nu moet worden opgenomen, wordt het item opgenomen in de volgende reeks algoritmen (12-24 uur).
 
-  Deze situatie doet zich voor omdat [!DNL Target] Hiermee past u zowel online als offline uitsluitingen toe. Wanneer een item pas wordt uitgesloten, wordt de online uitsluiting snel toegepast. Wanneer een item pas wordt opgenomen, gaat de onlineuitsluiting snel weg, maar de offline uitsluiting gaat pas weg als het volgende algoritme wordt uitgevoerd.
+  Deze situatie doet zich voor omdat [!DNL Target] zowel online als offline uitsluitingen toepast. Wanneer een item pas wordt uitgesloten, wordt de online uitsluiting snel toegepast. Wanneer een item pas wordt opgenomen, gaat de onlineuitsluiting snel weg, maar de offline uitsluiting gaat pas weg als het volgende algoritme wordt uitgevoerd.
 
 * Als een item eerder was opgenomen, maar nu moet worden uitgesloten, wordt het item uitgesloten volgens de tijdlijn die hierboven wordt besproken op basis van de voederbron (15 minuten via mbox/API of 12-24 uur via feed).
 
@@ -54,7 +58,7 @@ De volgende wijzigingen worden pas doorgevoerd wanneer het volgende algoritme wo
 >
 >Een voederdossier wordt beschouwd als ingevoerd wanneer zijn status van &quot;het Importeren van Punten&quot;in &quot;het Voorbereiden van de Updates van de Index van het Onderzoek&quot; verandert. Het kan meer dan 60 minuten duren voordat updates worden weergegeven in de gebruikersinterface van Cataloguszoekopdracht. Het zoeken naar catalogi is bijgewerkt wanneer de status van de feed verandert in &quot;Updates voltooid&quot;. Zelfs als Catalog Search nog niet bijgewerkt is, geeft uw site updates van de hierboven vermelde tijdframes weer. De meest recente update van de index van het Onderzoek van de Catalogus wordt getoond op de pagina van het Onderzoek van de Catalogus.
 
-## Hoe lang duurt het voor een verandering in de configuratie van mijn [!UICONTROL Recommendations] activiteiten, aanbiedingen, promoties of criteria die op mijn site moeten worden weergegeven?
+## Hoe lang duurt het voordat een wijziging in de configuratie van mijn [!UICONTROL Recommendations] activiteit, aanbieding, promoties of criteria op mijn site wordt weerspiegeld?
 
 * Een wijziging in de instellingen voor speciale acties kan maximaal vijf uur duren voordat deze op de site worden weergegeven.
 * Een wijziging in andere criteria wordt mogelijk pas doorgevoerd bij de volgende uitvoering van het algoritme:
@@ -63,12 +67,12 @@ De volgende wijzigingen worden pas doorgevoerd wanneer het volgende algoritme wo
    * Andere criteria kunnen de montages (bijvoorbeeld &quot;verwijdering van een dynamische inclusieregel&quot;, verandering van raadplegingsvenster, etc.) niet tot de volgende algoritmelooppas worden opgenomen.
    * De looppas van het algoritme wordt teweeggebracht door deze veranderingen maar kan tot 24 uren vergen om worden voltooid. Algoritmen lopen ook op een geplande basis om de 12-24 uur.
 
-## Hoe lang duurt het voordat het gedrag van een gebruiker (bijvoorbeeld door op product A te klikken en product B te kopen) in de aanbevelingen wordt weerspiegeld *dat* gebruiker ontvangt?
+## Hoe lang neemt het voor het gedrag van een gebruiker (bijvoorbeeld, klikkend product A en het kopen product B) om in de aanbevelingen *worden weerspiegeld dat* gebruiker ontvangt?
 
-* Bekeken/aangeschaft product/inhoud beïnvloedt momenteel de aanbevelingen die de gebruiker op de zelfde pagina ontvangt/[!DNL Target] inhoudsverzoek.
-* Historisch gebruikersgedrag, zoals &quot;laatst bekeken product&quot;, &quot;meest bekeken product&quot; en de algemene weergave-/aankoopgeschiedenis worden bijgewerkt met dat verzoek en beïnvloeden de aanbevelingen die de gebruiker ontvangt op de volgende pagina/[!DNL Target] inhoudsverzoek. De algoritmen &quot;Recent bekeken items&quot; en &quot;Aanbevolen voor u&quot; werken bijvoorbeeld bij met elke productweergave/aankoop en worden weergegeven in de volgende inhoudsaanvraag.
+* Momenteel bekeken/gekochte product/inhoud beïnvloeden de aanbevelingen de gebruiker op de zelfde pagina/ [!DNL Target] inhoudverzoek ontvangt.
+* Historisch gebruikersgedrag, zoals &quot;laatst bekeken product,&quot;het meest bekeken product,&quot;en algemene het bekijken/het kopen geschiedenis wordt bijgewerkt met dat verzoek en beïnvloedt de aanbevelingen die de gebruiker op het volgende pagina ontvangt [!DNL Target] inhoudsverzoek. De algoritmen &quot;Recent bekeken items&quot; en &quot;Aanbevolen voor u&quot; werken bijvoorbeeld bij met elke productweergave/aankoop en worden weergegeven in de volgende inhoudsaanvraag.
 
-## Hoe lang duurt het voordat het gedrag van een gebruiker (bijvoorbeeld door op product A te klikken en product B te kopen) in de aanbevelingen wordt weerspiegeld *overige* gebruikers ontvangen?
+## Hoe lang duurt het voor het gedrag van een gebruiker (bijvoorbeeld, klikkend product A en het kopen product B) om in de aanbevelingen *worden weerspiegeld andere* gebruikers ontvangen?
 
 Het gedrag van geaggregeerde gebruikers wordt opgenomen in de verwerking van offlinealgoritmen, waarbij elk algoritme elke 12-24 uur wordt uitgevoerd.
 
@@ -95,44 +99,44 @@ Als de plaats waarop u deze criteria toepast niet de categorie ID bevat, zijn be
 
 Als u een locatie gebruikt waar categorie-id aanwezig is in het vak, bevat de kiezer voor criteria alle toepasselijke criteria.
 
-[!DNL Target] heeft een [Niet-compatibele criteria filteren](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} instellen om het intelligent filteren van de algoritmekiezer te beheren.
+[!DNL Target] heeft a [ Incompatibele Criteria van de Filter ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html) {target=_blank} het plaatsen om intelligent het filtreren van de algoritmeplukker te controleren.
 
 >[!NOTE]
 >
->Deze instelling is van toepassing op activiteiten die in het dialoogvenster [!UICONTROL Visual Experience Composer] (VEC) alleen. Deze instelling is niet van toepassing op activiteiten die zijn gemaakt in de Form-Based Experience Composer ([!DNL Target] heeft geen locatiecontext).
+>Deze instelling is alleen van toepassing op activiteiten die zijn gemaakt in de map [!UICONTROL Visual Experience Composer] (VEC). Deze instelling is niet van toepassing op activiteiten die zijn gemaakt in de Form-Based Experience Composer ([!DNL Target] heeft geen locatiecontext).
 
-Als u toegang wilt krijgen tot [!UICONTROL Filter Incompatible Criteria] instellen, klikken [!UICONTROL Recommendations] > [!UICONTROL Settings]:
+Klik op [!UICONTROL Recommendations] > [!UICONTROL Settings] om de instelling [!UICONTROL Filter Incompatible Criteria] te openen:
 
-![recs_settings_filter, afbeelding](assets/recs_settings_filter.png)
+![ recs_settings_filter beeld ](assets/recs_settings_filter.png)
 
-Als de [!UICONTROL Filter Incompatible Criteria] instelling NIET ingeschakeld is, [!DNL Target] filtert geen algoritmes in de Algoritmekiezer en alle algoritmen worden weergegeven.
+Als de instelling [!UICONTROL Filter Incompatible Criteria] NIET is ingeschakeld, filtert [!DNL Target] geen algoritmen in de Algorituurkiezer en worden alle algoritmen weergegeven.
 
-Als de [!UICONTROL Filter Incompatible Criteria] de instelling is ingeschakeld bij VEC-activiteiten; [!DNL Target] leest entityId en categorie ID van de geselecteerde plaats en toont dan algoritmen die op worden gebaseerd `currentItem|currentCategory` (als de respectieve waarden op die plaats aanwezig zijn). Hierdoor worden standaard alleen compatibele algoritmen voor de geselecteerde locatie weergegeven in de algoritmekiezer.
+Als de instelling [!UICONTROL Filter Incompatible Criteria] is ingeschakeld, leest [!DNL Target] in VEC-activiteiten entiteit-id en categorie-id van de geselecteerde locatie en worden vervolgens algoritmen weergegeven op basis van `currentItem|currentCategory` (als er respectievelijke waarden aanwezig zijn op die locatie). Hierdoor worden standaard alleen compatibele algoritmen voor de geselecteerde locatie weergegeven in de algoritmekiezer.
 
-Als de [!UICONTROL Filter Incompatible Criteria] instelling is ingeschakeld, kunt u nog steeds niet-compatibele algoritmen weergeven door de selectie van de optie [!UICONTROL Compatible] selectievakje tijdens het selecteren van criteria.
+Als de instelling [!UICONTROL Filter Incompatible Criteria] is ingeschakeld, kunt u nog steeds niet-compatibele algoritmen weergeven door het selectievakje [!UICONTROL Compatible] uit te schakelen terwijl u criteria selecteert.
 
-![afbeelding compatible_checkbox](assets/compatible_checkbox.png)
+![ compatible_checkbox beeld ](assets/compatible_checkbox.png)
 
-De volgende lijst bevat speciale gevallen waarin [!DNL Target] wordt niet weergegeven [!UICONTROL Compatible] selectievakje:
+De volgende lijst bevat speciale gevallen waarin [!DNL Target] het selectievakje [!UICONTROL Compatible] niet weergeeft:
 
 * Zowel entiteitskaart als categorie ID zijn aanwezig op de plaats, dan niets wordt gefilterd.
-* U gebruikt [!DNL mbox.js] versie 55 of lager.
+* U gebruikt [!DNL mbox.js] versie 55 of eerder.
 * Geen mbox vraag wordt in brand gestoken van de pagina (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
-* [!DNL Target] parameters zijn niet gedefinieerd.
+* [!DNL Target] -parameters zijn niet gedefinieerd.
 
 ## Wat moet ik doen als een verzameling in Recommendations naar nul gaat (0)? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 Overweeg de volgende informatie als u een inzameling ziet gaan naar nul die eerder niet bij nul was:
 
 * U kunt de verzameling opnieuw opslaan en zien of het nummer wordt bijgewerkt. Door op te slaan, herstelt de inzameling alle algoritmen die die inzameling gebruiken.
-* Kijk je naar de juiste omgeving? Ga naar [!DNL /target/products.html#recsSettings] om (zoals hieronder getoond) tweemaal te controleren.
+* Kijk je naar de juiste omgeving? Ga naar [!DNL /target/products.html#recsSettings] om te dubbelklikken (zoals hieronder wordt weergegeven).
 
-  ![product_catalog-afbeelding](assets/product_catalog.png)
+  ![ product_catalog beeld ](assets/product_catalog.png)
 
-* Is uw index up-to-date? Ga naar [!DNL /target/products.html#productSearch] en controleer hoeveel uren de index (bijvoorbeeld &quot;Geïndexeerde 3 uur geleden&quot;) is. U kunt de index naar wens vernieuwen.
+* Is uw index up-to-date? Ga naar [!DNL /target/products.html#productSearch] en controleer hoeveel uren de index is (bijvoorbeeld &quot;Geïndexeerde 3 uur geleden&quot;). U kunt de index naar wens vernieuwen.
 * Heeft u iets in de feed of de gegevenslaag gewijzigd waardoor de entiteiten niet meer overeenkomen met de verzamelingsregels? Zorg ervoor dat uw HOOFDLETTERS overeenkomen (hoofdlettergevoelig).
 * Is uw feed gelukt? Heeft iemand de FTP-map, het wachtwoord enzovoort gewijzigd?
-* [!DNL Target] doet zijn best om updates voor de levering (op de pagina/app van de klant) zo snel mogelijk uit te voeren. Toch [!DNL Target] ook moet één of andere vertegenwoordiging in UI voor de telleraar verstrekken. [!DNL Target] zorgt ervoor dat de leveringsupdates niet worden vertraagd totdat de UI-updates gesynchroniseerd zijn. U kunt [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) om te zien wat er in het systeem staat op het moment dat een verzoek wordt ingediend.
+* [!DNL Target] doet zijn best om updates voor de levering (op de pagina/app van de klant) zo snel mogelijk uit te voeren. Toch moet [!DNL Target] ook een representatie in de gebruikersinterface bieden voor de markeerteken. [!DNL Target] zorgt ervoor dat de leveringsupdates niet worden vertraagd totdat de UI-updates gesynchroniseerd zijn. U kunt [ mboxTrace ](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) gebruiken om te zien wat in het systeem op het tijdstip is een verzoek binnen komt.
 
 ## Wat is het verschil tussen de algemene weging van de Waarden van Attributen en Inhoud gelijksoortig-specifieke attributen? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -140,21 +144,21 @@ Kenmerkweging bestaat in twee vormen: &quot;weging van standaardkenmerken&quot; 
 
 De &quot;Standaard kenmerkenweging&quot; is van toepassing op de meeste, zo niet alle, definitietypen (niet alleen de Gelijksoortigheid van de Inhoud). Dit type weging geeft meer gewicht aan bepaalde kenmerkwaarden. In het volgende voorbeeld krijgen Nike-producten een reliëf in de aanbevelingen voor uitvoer.
 
-![attribute_weight_example, afbeelding](assets/attribute_weighting_example.png)
+![ attribute_weight_example beeld ](assets/attribute_weighting_example.png)
 
 De &quot;weging van de gelijksoortige eigenschappen van de inhoud&quot;is slechts op de criteria van de Gelijksoortigheid van de Inhoud van toepassing.
 
 Dit type weging is dynamischer en is gebaseerd op de huidige &quot;aanbeveling key&quot; (het momenteel bekeken item). In het volgende voorbeeld (merk x 16), als een bezoeker Nike sneakers zou bekijken, zal die bezoeker eerder andere Nike-producten (niet noodzakelijkerwijs alleen sneakers) dan concurrenten-sneakers aanraden. Als een bezoeker Adidas sneakers bekijkt, zal die bezoeker eerder Adidas producten worden geadviseerd.
 
-![content_similarity_example image](assets/content_similarity_example.png)
+![ content_similarity_example beeld ](assets/content_similarity_example.png)
 
-## Waarom is [!DNL Target] soms niet in staat om aanbevelingen te tonen? {#section_DB3F40673AED42228E407C05437D99E9}
+## Waarom kan [!DNL Target] soms geen aanbevelingen weergeven? {#section_DB3F40673AED42228E407C05437D99E9}
 
-[!DNL Target] kunnen soms geen aanbevelingen tonen wegens het lage aantal beschikbare aanbevelingen.
+[!DNL Target] kan soms geen aanbevelingen weergeven vanwege het lage aantal beschikbare aanbevelingen.
 
 Het aantal waarden dat per criterium wordt gegenereerd, is driemaal zo groot als het aantal entiteiten dat in het ontwerp is opgegeven. Het filtreren van runtime (bijvoorbeeld, inventaris, mbox kenmerkenaanpassing) wordt toegepast nadat de 3x waarden worden geproduceerd, zodat is het mogelijk met minder dan 3x waarden bij leveringstijd beëindigen. Om deze situatie te verzachten, vergroot u het aantal entiteiten in het ontwerp door andere entiteiten te verbergen.
 
-Het volgende JavaScript kan aan het begin van het ontwerp worden gebruikt om het aantal gevraagde entiteiten te verhogen. In dit voorbeeld is het aantal aangevraagde entiteiten 30 (3x10).
+De volgende JavaScript kan aan het begin van het ontwerp worden gebruikt om het aantal gevraagde entiteiten te verhogen. In dit voorbeeld is het aantal aangevraagde entiteiten 30 (3x10).
 
 ```
 #foreach($entity in $entities) 
@@ -167,13 +171,13 @@ Het volgende JavaScript kan aan het begin van het ontwerp worden gebruikt om het
 
 ## Wat is de formaatgrens van een API vraag voor tussenvoegsel/updateproducten? Kan ik 50.000 producten in één vraag bijwerken gebruikend API in plaats van een voer? {#section_434FE1F187B7436AA39B7C14C7895168}
 
-[!DNL Target] Hiermee wordt een limiet van 50 MB aan post ingesteld op toepassingsniveau. Dit is echter alleen mogelijk wanneer u de waarde `application/x-www-form-urlencoded` koptekst inhoudstype.
+[!DNL Target] legt een postlimiet van 50 MB op toepassingsniveau op. Dit is echter alleen wanneer u de header van het inhoudstype `application/x-www-form-urlencoded` doorgeeft.
 
 Je zou zeker kunnen proberen om 50.000 producten in één enkele vraag te verzenden. Als het ontbreekt, kunt u het in partijen verdelen. De Adobe beveelt aan dat klanten hun vraag in 5.000 of 10.000 productpartijen breken om de waarschijnlijkheid van een onderbreking wegens systeemlading te verminderen.
 
 ## Moet ik de naam van het selectievakje opgeven bij het maken van Recommendations-criteria, -promoties of -testregels voor sjablonen? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
-Bij het maken van Recommendations-criteria, -promoties of -testregels voor sjablonen op basis van een mbox-parameter, `mboxParameter` vraagt u niet meer om `mboxName`. mbox name is nu optioneel. Met deze wijziging kunt u parameters uit meerdere vakken gebruiken of verwijzen naar een parameter die nog niet op de rand is opgenomen.
+Wanneer u Recommendations-criteria, -promoties of -sjabloontestregels maakt op basis van een mbox-parameter, vraagt `mboxParameter` u niet langer om `mboxName` . mbox name is nu optioneel. Met deze wijziging kunt u parameters uit meerdere vakken gebruiken of verwijzen naar een parameter die nog niet op de rand is opgenomen.
 
 De gewenste parameter selecteren:
 
@@ -190,21 +194,21 @@ Zorg ervoor dat het publiek een unieke naam heeft. Als u het publiek dezelfde na
 
 ## Wat is de maximumgrootte van een CSV-bestand voor een feed-upload? {#section_20F1AF4839A447B9889B246D6E873538}
 
-Het aantal rijen of de bestandsgrootte voor het uploaden van een CSV-bestand van een feed is niet hard beperkt. De Adobe raadt echter aan de CSV-bestandsgrootte te beperken tot 1 GB om fouten tijdens het uploaden van het bestand te voorkomen. Als de grootte van het bestand groter is dan 1 GB, kan het bestand idealiter in meerdere feed-bestanden worden gesplitst. Het maximumaantal kolommen voor aangepaste kenmerken is 100 en de aangepaste kenmerken zijn beperkt tot 4096 tekens. Andere limieten voor de lengte van vereiste kolommen zijn beschikbaar op de [[!DNL Target] Pagina Beperkingen](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+Het aantal rijen of de bestandsgrootte voor het uploaden van een CSV-bestand van een feed is niet hard beperkt. De Adobe raadt echter aan de CSV-bestandsgrootte te beperken tot 1 GB om fouten tijdens het uploaden van het bestand te voorkomen. Als de grootte van het bestand groter is dan 1 GB, kan het bestand idealiter in meerdere feed-bestanden worden gesplitst. Het maximumaantal kolommen voor aangepaste kenmerken is 100 en de aangepaste kenmerken zijn beperkt tot 4096 tekens. Andere grenzen op de lengte van vereiste kolommen zijn beschikbaar op de [[!DNL Target]  pagina van Beperkingen ](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## Kan ik een entiteit dynamisch uitsluiten? {#exclude}
 
 In het vraagkoord, kunt u entiteit IDs voor entiteiten overgaan die u van uw aanbevelingen wilt uitsluiten. U kunt bijvoorbeeld items uitsluiten die zich al in het winkelwagentje bevinden.
 
-Als u de uitsluitingsfunctionaliteit wilt inschakelen, gebruikt u de opdracht `excludedIds` mbox-parameter. Deze parameter verwijst naar een lijst met door komma&#39;s gescheiden id&#39;s. Bijvoorbeeld: `mboxCreate(..., "excludedIds=1,2,3,4,5")`. De waarde wordt verzonden wanneer het verzoeken van om aanbevelingen.
+Gebruik de parameter `excludedIds` mbox om de uitsluitingsfunctionaliteit in te schakelen. Deze parameter verwijst naar een lijst met door komma&#39;s gescheiden id&#39;s. Bijvoorbeeld `mboxCreate(..., "excludedIds=1,2,3,4,5")` . De waarde wordt verzonden wanneer het verzoeken van om aanbevelingen.
 
-De uitsluiting wordt uitgevoerd voor de huidige [!DNL Target] alleen bellen; items worden bij volgende oproepen niet uitgesloten [!DNL Target] roept tenzij `excludedIds` waarde wordt opnieuw doorgegeven. Als u items in het winkelwagentje wilt uitsluiten van aanbevelingen op elke pagina, gaat u door met `excludedIds` op elke pagina.
+De uitsluiting wordt alleen uitgevoerd voor de huidige [!DNL Target] -aanroep; items worden niet uitgesloten bij volgende [!DNL Target] -aanroepen, tenzij de waarde `excludedIds` opnieuw wordt doorgegeven. Als u items in het winkelwagentje wilt uitsluiten van aanbevelingen op elke pagina, blijft u de waarde `excludedIds` op elke pagina doorgeven.
 
 >[!NOTE]
 >
 >Als te veel entiteiten zijn uitgesloten, gedragen de aanbevelingen zich alsof er niet genoeg entiteiten zijn om het advisemalplaatje te vullen.
 
-Uitsluiten `entityIds`, voegt u de `&excludes=${mbox.excludedIds}` token voor de inhoud-URL van het aanbod. Wanneer de inhoud-URL wordt geëxtraheerd, worden de vereiste parameters vervangen door de huidige parameters voor mbox-aanvragen.
+Als u `entityIds` wilt uitsluiten, voegt u de token `&excludes=${mbox.excludedIds}` toe aan de inhoud-URL van de aanbieding. Wanneer de inhoud-URL wordt geëxtraheerd, worden de vereiste parameters vervangen door de huidige parameters voor mbox-aanvragen.
 
 Deze functie is standaard ingeschakeld voor nieuwe aanbevelingen. Bestaande aanbevelingen moeten worden opgeslagen om dynamisch uitgesloten entiteiten te ondersteunen.
 
@@ -236,19 +240,19 @@ Wanneer de sessie wordt beëindigd (doorgaans wanneer deze verloopt na 30 minute
 
 De volgende zittingen van verschillende apparaten kunnen dan tot deze onlangs bekeken punten toegang hebben zolang de nieuwe zitting met het klantenprofiel via zelfde Marketing Cloud ID (MCID), Experience Cloud ID (ECID), of CustomerID/mbox3rdPartyId wordt verbonden.
 
-Als een bezoeker twee actieve zittingen tezelfdertijd heeft, onlangs bekeken punten op één apparaat niet de onlangs bekeken punten op het andere apparaat bijwerken, tenzij de apparaten worden gedwongen om zittingsidentiteitskaart te delen. Er is een mogelijke oplossing voor dit probleem, maar [!DNL Target] biedt niet rechtstreeks ondersteuning voor het delen van een sessie-id op meerdere apparaten. De klant moet deze id zelf delen.
+Als een bezoeker twee actieve zittingen tezelfdertijd heeft, onlangs bekeken punten op één apparaat niet de onlangs bekeken punten op het andere apparaat bijwerken, tenzij de apparaten worden gedwongen om zittingsidentiteitskaart te delen. Er is een mogelijke oplossing voor het probleem, maar [!DNL Target] biedt geen directe ondersteuning voor het delen van een sessie-id op meerdere apparaten. De klant moet deze id zelf delen.
 
 Dit gedrag treedt nog steeds op als een bezoeker actief is op het ene apparaat en vervolgens een paar minuten later actief wordt op het andere apparaat. De sessie van het eerste apparaat verloopt niet gedurende 30 minuten en er kan maximaal vijf minuten vertraging optreden voordat de profielstatus naar de permanente status wordt geschreven en wordt verwerkt. 35 minuten laten verlopen voordat de sessie verloopt en het profiel moet worden opgeslagen wanneer dit gedrag wordt getest.
 
 Als de bezoeker niet tegelijkertijd twee actieve sessies heeft, worden onlangs bekeken items op het ene apparaat bijgewerkt met de onlangs weergegeven items op het andere apparaat zolang de sessie is beëindigd. Laat 35 minuten verlopen voor de sessie wanneer u dit gedrag test.
 
-## Kan ik een algoritme gebruiken dat is gemaakt in [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium]?
+## Kan ik een algoritme gebruiken dat is gemaakt in [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium] ?
 
-Een algoritme gemaakt in [!DNL Recommendations Classic] wordt niet ondersteund in [!DNL Recommendations Premium]. Mogelijk kunt u het verouderde algoritme gebruiken in [!DNL Target Premium]; het algoritme kan echter synchronisatieproblemen veroorzaken wanneer de activiteit in het [!DNL Target Premium] UI. Voor meer informatie over de verschillen tussen de twee oplossingen, zie [[!DNL Recommendations Classic] versus [!DNL Recommendations] activiteiten in [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+Een algoritme dat is gemaakt in [!DNL Recommendations Classic] , wordt niet ondersteund in [!DNL Recommendations Premium] . U kunt het oude algoritme wellicht gebruiken in [!DNL Target Premium] , maar het algoritme kan synchronisatieproblemen veroorzaken wanneer u de activiteit in de [!DNL Target Premium] -gebruikersinterface deactiveert of verwijdert. Voor meer informatie over de verschillen tussen de twee oplossingen, zie [[!DNL Recommendations Classic]  tegenover  [!DNL Recommendations]  activiteiten in  [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
 ## Hoe kan ik alleen nieuwe artikelen of video&#39;s aanbevelen? {#recommend-new-articles}
 
-Sommige klanten in media en uitgevers willen ervoor zorgen dat de aanbevolen items alleen de nieuwste artikelen of video&#39;s bevatten. Als voorbeeld: [!DNL Target] de klant heeft de volgende aanpak gebruikt om artikelen van minder dan 60 dagen aan te bevelen :
+Sommige klanten in media en uitgevers willen ervoor zorgen dat de aanbevolen items alleen de nieuwste artikelen of video&#39;s bevatten. Een [!DNL Target] -klant heeft bijvoorbeeld de volgende aanpak gebruikt om artikelen van minder dan 60 dagen aan te bevelen:
 
 1. Geef de publicatiedatum van het artikel in de notatie JJMMDDD door als een attribuut van de douaneentiteit.
 1. Maak een profielscript dat de datum minus 60 dagen van vandaag is, ook in de notatie JJJMMDD.
@@ -266,21 +270,21 @@ Sommige klanten in media en uitgevers willen ervoor zorgen dat de aanbevolen ite
 
 ### Configureer het profielscript:
 
-![Voorbeeldprofielscript](/help/main/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
+![ het profielmanuscript van de Steekproef ](/help/main/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
 
 ### Configureer de insluitingsregel:
 
-![Voorbeeld van insluitingsregel](/help/main/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
+![ de integratieregel van de Steekproef ](/help/main/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
 
 >[!NOTE]
 >
->Dit voorbeeld kan ook worden uitgevoerd door parameter matching en het doorgeven van `priorDate60` waarde als een mbox-parameter.
+>Dit voorbeeld kan ook worden uitgevoerd door parameter-overeenkomsten te gebruiken en de waarde `priorDate60` door te geven als een mbox-parameter.
 
-### Wat zijn enkele bekende problemen bij het gebruik [!DNL Recommendations] activiteiten?
+### Wat zijn enkele bekende problemen bij het gebruik van [!DNL Recommendations] -activiteiten?
 
-Hier volgen bekende problemen met [!UICONTROL Recommendations] activiteiten:
+Hier volgen bekende problemen met [!UICONTROL Recommendations] -activiteiten:
 
-* Wanneer [!DNL Target] retourneert een JSON-aanbieding met getOffer(), het retourneert het type JSON. Als u echter een JSON Recommendations-ontwerp retourneert, retourneert dit met een type HTML.
+* Wanneer [!DNL Target] een JSON-aanbieding met getOffer() retourneert, retourneert deze met het type JSON. Als u echter een JSON Recommendations-ontwerp retourneert, retourneert dit met een type HTML.
 * Verlopen entiteiten zijn na 60 dagen na ontvangst van geen updates via feed of API correct verlopen. De verlopen entiteiten worden echter na afloop niet uit de zoekindex van catalogus verwijderd. Entiteiten die via feed of API zijn verwijderd, worden momenteel ook niet verwijderd uit de zoekindex van de catalogus. (IRI-857)
 * Recommendations-aanbiedingen in A/B en Experience Targeting-activiteiten tonen geen visuele voorvertoning van de Recommendations-lade (TGT-33426)
 * Verzamelingen, uitsluitingen, criteria en ontwerpen die via de API zijn gemaakt, zijn niet zichtbaar in de doelgebruikersinterface en kunnen alleen via de API worden bewerkt. Op dezelfde manier, als u om het even welk van deze punten in het Doel UI creeert en later hen via API uitgeeft, worden die veranderingen niet weerspiegeld in het Doel UI. Items die via de API worden bewerkt, moeten ook in de toekomst via de API worden bewerkt om te voorkomen dat wijzigingen verloren gaan. (TGT-35777)
