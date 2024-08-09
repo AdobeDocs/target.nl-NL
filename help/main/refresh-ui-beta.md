@@ -6,22 +6,24 @@ badgePremium: label="Beta" type="Informative" url="https://experienceleague.adob
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 14eb82806c9642c69c204d32d0e51a71d6461b65
+source-git-commit: 46ec133920ada0154e143eed8eb5e020aec3a875
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
 
 # [!DNL Target] [!UICONTROL Activities] , [!UICONTROL Offers] en [!UICONTROL Recommendations] UI vernieuwen Beta-programma
 
-Gebruik deze koppelingen in dit artikel voor toegang tot bijgewerkte documentatie als onderdeel van het Beta-programma voor het vernieuwen van de [!DNL Adobe Target] gebruikersinterface voor [!UICONTROL Activities] , [!UICONTROL Offers] en [!UICONTROL Recommendations] .
+Gebruik deze koppelingen om toegang te krijgen tot bijgewerkte documentatie als onderdeel van het Beta-programma voor het vernieuwen van de [!DNL Adobe Target] gebruikersinterface voor [!UICONTROL Activities] , [!UICONTROL Offers] en [!UICONTROL Recommendations] .
 
 >[!NOTE]
 >
->De informatie in deze artikelen wordt vaak bijgewerkt tijdens het Beta-programma.
+>Het team van [!DNL Adobe Target] laat vaak nieuwe eigenschappen voor bepaalde klanten voor het testen en terugkoppelen doeleinden toe. Nadat de testperiode is voltooid, worden deze functies in toekomstige versies van [!DNL Target] voor alle klanten ingeschakeld en in releaseopmerkingen aangekondigd.
+>
+>De informatie in deze artikelen wordt vaak zonder voorafgaande kennisgeving bijgewerkt tijdens het Beta-programma.
 
-+++ Activiteiten (klik om uit te vouwen)
++++Activiteiten (klik om uit te breiden)
 
 + [ Overzicht van Activiteiten ](c-activities/activities.md){target=_blank}
 + [ de activiteitstypes van het Doel ](c-activities/target-activities-guide.md){target=_blank}
@@ -105,7 +107,7 @@ Gebruik deze koppelingen in dit artikel voor toegang tot bijgewerkte documentati
 
 +++
 
-+++ Aanbiedingen (klik om uit te vouwen)
++++Aanbiedingen (klik om uit te breiden)
 
 + [ Overzicht van aanbiedingen ](/help/main/c-experiences/c-manage-content/manage-content-beta.md){target="_blank"}
 + [ creeer aanbiedingsomslag ](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md){target="_blank"}
