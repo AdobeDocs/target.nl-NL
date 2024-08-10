@@ -6,7 +6,7 @@ badgePremium: label="Beta" type="Informative" url="https://experienceleague.adob
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 46ec133920ada0154e143eed8eb5e020aec3a875
+source-git-commit: 878ad2a0cce193e5905824fe02d7380c5cff7136
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -23,7 +23,9 @@ Gebruik deze koppelingen om toegang te krijgen tot bijgewerkte documentatie als 
 >
 >De informatie in deze artikelen wordt vaak zonder voorafgaande kennisgeving bijgewerkt tijdens het Beta-programma.
 
-+++Activiteiten (klik om uit te breiden)
+## Activiteiten
+
+++ + klikken om uit te breiden
 
 + [ Overzicht van Activiteiten ](c-activities/activities.md){target=_blank}
 + [ de activiteitstypes van het Doel ](c-activities/target-activities-guide.md){target=_blank}
@@ -107,7 +109,9 @@ Gebruik deze koppelingen om toegang te krijgen tot bijgewerkte documentatie als 
 
 +++
 
-+++Aanbiedingen (klik om uit te breiden)
+## Aanbiedingen
+
+++ + klikken om uit te breiden
 
 + [ Overzicht van aanbiedingen ](/help/main/c-experiences/c-manage-content/manage-content-beta.md){target="_blank"}
 + [ creeer aanbiedingsomslag ](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md){target="_blank"}
