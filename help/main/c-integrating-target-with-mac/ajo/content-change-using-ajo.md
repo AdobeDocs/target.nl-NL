@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: bbf56b2d041ea6537116d900278242a7a679dedd
+source-git-commit: 9a9447b3067311ef203e91b186fff506e60bf590
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Inhoud verandert via A/B-tests in [!DNL Adobe Journey Optimizer]
 
 Met dit gebruiksgeval kunt u de geheimen ontgrendelen zodat wijzigingen in de inhoud van A/B-tests in [!DNL Adobe Journey Optimizer] worden doorgevoerd.
+
+Dit gebruiksgeval wordt ontworpen om aan te tonen hoe te om een vertrouwde taak in [!DNL Adobe Target] uit te voeren, A/B het testen gebruikend een [ activiteit van de Test A/B ](/help/main/c-activities/t-test-ab/test-ab.md), maar het gebruiken [!DNL Journey Optimizer].
 
 ## Scenario
 
@@ -29,6 +31,10 @@ Een leerbedrijf verhoogde omzettingen door diverse beelden te testen en campagne
 
 ## Stapsgewijze instructies
 
+>[!NOTE]
+>
+>In de instructies in deze sectie wordt de nadruk gelegd op de stappen die nodig zijn om een afbeelding te wijzigen en om profielkenmerken te gebruiken om tekstberichten aan te passen. Voor meer informatie over beschikbare opties in de [!DNL Journey Optimizer] Webontwerper, zie [ Webinhoud ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content) {target=_blank} in de *documentatie van Journey Optimizer* uitgeven.
+
 Voer de volgende stappen uit om een webpagina te optimaliseren door verschillende afbeeldingen te testen en berichten aan te passen aan de voornamen van gebruikers:
 
 1. In [!DNL Adobe Journey Optimizer], klik **Campagnes** in het linkerspoor om de [!UICONTROL Campaigns] pagina te tonen.
@@ -41,21 +47,27 @@ Voer de volgende stappen uit om een webpagina te optimaliseren door verschillend
 
    ![ pagina van de Details van de Campagne in Adobe Journey Optimizer ](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
-1. Geef een beschrijvende naam en een optionele beschrijving voor de campagne op.
+1. Geef in de sectie **[!UICONTROL Properties]** een beschrijvende naam en een optionele beschrijving voor de campagne op.
 
-1. (Voorwaardelijk) Klik **[!UICONTROL Select Audience]** en kies het gewenste publiek.
+1. (Voorwaardelijk) Klik in de sectie **[!UICONTROL Audience]** op **[!UICONTROL Select Audience]** en kies het gewenste publiek.
 
    In dit geval hebben we ervoor gekozen de campagne voor alle bezoekers te activeren (de standaardinstelling).
 
-1. Kies **[!UICONTROL Web]** in de vervolgkeuzelijst **[!UICONTROL Action]** en selecteer of maak een nieuwe webconfiguratie.
+1. Kies in de sectie **[!UICONTROL Action]** de optie **[!UICONTROL Web]** in de vervolgkeuzelijst **[!UICONTROL Action]** en selecteer of maak een nieuwe webconfiguratie.
 
-   Een Webconfiguratie, of kanaaloppervlakte, is een configuratie die door een Beheerder van het Systeem is bepaald. De webconfiguratie bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameter, subdomein, mobiele apps enzovoort.
+   Een Webconfiguratie, of kanaaloppervlakte, is een configuratie die door een Beheerder van het Systeem wordt bepaald. De webconfiguratie bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameter, subdomein, mobiele apps enzovoort.
 
    Voor meer informatie, zie [ de oppervlakken van het het kanaalkanaal van de Opstelling ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces) {target=_blank} in de *documentatie van Journey Optimizer*.
 
-1. Klik op **[!UICONTROL Edit Content]** om uw website te openen in de [!DNL Journey Optimizer] -webontwerper.
+1. Klik in de sectie **[!UICONTROL Action]** op **[!UICONTROL Edit Content]** om uw website te openen in de webontwerper van [!DNL Journey Optimizer] .
+
+   Voor A/B-tests zijn twee of meer experimenten nodig. U kunt uw bestaande homepage als eerste experiment gebruiken. In de volgende stappen wordt uitgelegd hoe u een tweede experiment instelt.
 
    ![ Yoga landende pagina op de website LUMA ](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
+
+1. Als u een experiment wilt maken om te testen welke inhoud het beste werkt, klikt u op **[!UICONTROL Create Experiment]** .
+
+   Met contentexperimenten kunt u de inhoud, het onderwerp of de afzender van berichten variëren om meerdere behandelingen te definiëren en de beste combinatie voor uw publiek te bepalen. Voor meer informatie, zie [ een inhoudexperiment ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment) {target=_blank} in de *documentatie van Journey Optimizer* creëren.
 
 1. Klik op **[!UICONTROL Edit Web Page]** in de rechtertrack.
 
@@ -73,6 +85,8 @@ Voer de volgende stappen uit om een webpagina te optimaliseren door verschillend
 
    ![ voeg de knoop van Personalization toe.](/help/main/c-integrating-target-with-mac/ajo/assets/add-personalization-button.png)
 
+   Voor meer informatie over profielattributen, zie [ begonnen worden met de verpersoonlijkingsredacteur ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions) {target=_blank} in de *documentatie van Journey Optimizer*.
+
 1. Zoek en selecteer het profielkenmerk &quot;first name&quot;, pas de tekst naar wens aan en klik op **[!UICONTROL Save]** .
 
    ![ voeg profielattributen voor naam ](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png) toe
@@ -84,6 +98,15 @@ Voer de volgende stappen uit om een webpagina te optimaliseren door verschillend
    ![ de pijl van de Rug ](/help/main/c-integrating-target-with-mac/ajo/assets/back-arrow.png)
 
 1. Klik **[!UICONTROL Review to Activate]**, zorg ervoor dat alles zoals verwacht kijkt, dan klik **activeert**.
+
+## Rapporten weergeven
+
+Klik op de knop Rapporten en klik vervolgens op de gewenste rapportageperiode:
+
+* [!UICONTROL View all time report]
+* [!UICONTROL View last 24hrs report]
+
+Voor meer informatie, zie [ begonnen worden met nieuwe Rapporterende interface ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja) {target=_blank} in de *documentatie van Journey Optimizer*.
 
 >[!MORELIKETHIS]
 >
