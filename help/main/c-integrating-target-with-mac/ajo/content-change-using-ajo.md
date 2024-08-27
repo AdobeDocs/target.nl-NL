@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 9a9447b3067311ef203e91b186fff506e60bf590
+source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,13 @@ ht-degree: 0%
 
 Met dit gebruiksgeval kunt u de geheimen ontgrendelen zodat wijzigingen in de inhoud van A/B-tests in [!DNL Adobe Journey Optimizer] worden doorgevoerd.
 
-Dit gebruiksgeval wordt ontworpen om aan te tonen hoe te om een vertrouwde taak in [!DNL Adobe Target] uit te voeren, A/B het testen gebruikend een [ activiteit van de Test A/B ](/help/main/c-activities/t-test-ab/test-ab.md), maar het gebruiken [!DNL Journey Optimizer].
+Dit gebruiksgeval wordt ontworpen om aan te tonen hoe te om vertrouwde taken in [!DNL Adobe Target] uit te voeren, A/B het testen gebruikend een [ activiteit van de Test A/B ](/help/main/c-activities/t-test-ab/test-ab.md), maar het gebruiken [!DNL Journey Optimizer].
 
-## Scenario
+## Mogelijke scenario&#39;s
 
-Een leerbedrijf verhoogde omzettingen door diverse beelden te testen en campagne landende pagina&#39;s met de voornamen van gebruikers van hun profielattributen te personaliseren.
+* Een leerbedrijf verhoogde omzettingen door diverse beelden te testen en campagne landende pagina&#39;s met de voornamen van gebruikers van hun profielattributen te personaliseren.
+
+* Door verschillende productomschrijvingen en afbeeldingen op een campagnelandpagina te testen, stelde een e-commercebedrijf vast dat zijn goudloyalisten hogere omrekeningskoersen hadden, wat leidde tot meer verkoop.
 
 ## Voordelen en waarde
 
@@ -29,13 +31,13 @@ Een leerbedrijf verhoogde omzettingen door diverse beelden te testen en campagne
 * **gegevens-gedreven besluiten**: De gegevens van de hefboomwerking om geïnformeerde besluiten over uw inhoudsstrategie te nemen, die maximumeffect verzekeren.
 * **Gepersonaliseerde gebruikerservaring**: Inhoud van de spoorstaaf om aan de unieke voorkeur en de behoeften van al uw publiekssegmenten te voldoen.
 
-## Stapsgewijze instructies
+## Stappen
 
 >[!NOTE]
 >
->In de instructies in deze sectie wordt de nadruk gelegd op de stappen die nodig zijn om een afbeelding te wijzigen en om profielkenmerken te gebruiken om tekstberichten aan te passen. Voor meer informatie over beschikbare opties in de [!DNL Journey Optimizer] Webontwerper, zie [ Webinhoud ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content) {target=_blank} in de *documentatie van Journey Optimizer* uitgeven.
+>In de instructies in deze sectie wordt de nadruk gelegd op de stappen die nodig zijn om een afbeelding te wijzigen en om profielkenmerken te gebruiken om tekstberichten aan te passen. Voor meer informatie over beschikbare opties in de [!DNL Journey Optimizer] Webontwerper, zie [ Webinhoud ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content) {target=_blank} in de *documentatie van Journey Optimizer* uitgeven. De video onder aan de pagina is vooral handig.
 
-Voer de volgende stappen uit om een webpagina te optimaliseren door verschillende afbeeldingen te testen en berichten aan te passen aan de voornamen van gebruikers:
+Voer de volgende stappen uit om een webpagina te optimaliseren door verschillende afbeeldingen te testen en berichten aan te passen aan de voornamen van gebruikers met behulp van een profielscript:
 
 1. In [!DNL Adobe Journey Optimizer], klik **Campagnes** in het linkerspoor om de [!UICONTROL Campaigns] pagina te tonen.
 
@@ -51,7 +53,7 @@ Voer de volgende stappen uit om een webpagina te optimaliseren door verschillend
 
 1. (Voorwaardelijk) Klik in de sectie **[!UICONTROL Audience]** op **[!UICONTROL Select Audience]** en kies het gewenste publiek.
 
-   In dit geval hebben we ervoor gekozen de campagne voor alle bezoekers te activeren (de standaardinstelling).
+   In dit geval hebben we ervoor gekozen de campagne voor [!UICONTROL All Visitors] te activeren (de standaardinstelling).
 
 1. Kies in de sectie **[!UICONTROL Action]** de optie **[!UICONTROL Web]** in de vervolgkeuzelijst **[!UICONTROL Action]** en selecteer of maak een nieuwe webconfiguratie.
 
@@ -111,6 +113,6 @@ Voor meer informatie, zie [ begonnen worden met nieuwe Rapporterende interface ]
 >[!MORELIKETHIS]
 >
 >[ geef Webinhoud ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content) {target=_blank} in de *documentatie van Journey Optimizer* uit
->[Hoe te video ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/web-spa#video) {target=_blank} in de *documentatie van Journey Optimizer*
+>[Hoe te video ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video) {target=_blank} in de *documentatie van Journey Optimizer*
 >[Creeer een campagne ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign) {target=_blank} in *Tutorials van Journey Optimizer*
 

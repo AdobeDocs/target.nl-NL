@@ -6,16 +6,16 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 011a47ea8d19387d6ef3c633c2a253e2f82a50d0
+source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
 
-# Gebruiksscenario&#39;s voor optimalisatie boven in [!DNL Adobe Journey Optimizer] - web- en op code gebaseerde kanalen
+# Gebruiksscenario&#39;s voor optimalisatie bovenaan in [!DNL Adobe Journey Optimizer] - web- en op code gebaseerde kanalen
 
-Ontdek hoe u de meest effectieve gebruiksgevallen voor optimalisatie effectief kunt implementeren in [!DNL Adobe Journey Optimizer] .
+Ontdek hoe u de meest effectieve gebruiksscenario&#39;s voor optimalisatie effectief kunt implementeren in [!DNL Adobe Journey Optimizer] in webkanalen en op code gebaseerde kanalen.
 
 ## Vereisten
 
