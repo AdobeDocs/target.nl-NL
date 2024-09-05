@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
+source-git-commit: a8d1ad897972edd4263901d411f57b4d22fdd1eb
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,9 @@ ht-degree: 0%
 
 Met dit gebruiksgeval kunt u de geheimen ontgrendelen zodat wijzigingen in de inhoud van A/B-tests in [!DNL Adobe Journey Optimizer] worden doorgevoerd.
 
-Dit gebruiksgeval wordt ontworpen om aan te tonen hoe te om vertrouwde taken in [!DNL Adobe Target] uit te voeren, A/B het testen gebruikend een [ activiteit van de Test A/B ](/help/main/c-activities/t-test-ab/test-ab.md), maar het gebruiken [!DNL Journey Optimizer].
+Dit gebruiksgeval toont aan hoe te om vertrouwde taken uit te voeren, zoals het testen A/B met een [ activiteit van de Test A/B ](/help/main/c-activities/t-test-ab/test-ab.md), gebruikend [!DNL Journey Optimizer] in plaats van [!DNL Adobe Target].
 
-## Mogelijke scenario&#39;s
-
-* Een leerbedrijf verhoogde omzettingen door diverse beelden te testen en campagne landende pagina&#39;s met de voornamen van gebruikers van hun profielattributen te personaliseren.
-
-* Door verschillende productomschrijvingen en afbeeldingen op een campagnelandpagina te testen, stelde een e-commercebedrijf vast dat zijn goudloyalisten hogere omrekeningskoersen hadden, wat leidde tot meer verkoop.
+Dit gebruiksgeval wordt ontworpen om aan te tonen hoe te om vertrouwde taken uit te voeren u het gebruiken van [!DNL Adobe Target], A/B het testen gebruikend een [ activiteit van de Test A/B ](/help/main/c-activities/t-test-ab/test-ab.md) zou kunnen hebben uitgevoerd, maar het gebruiken [!DNL Journey Optimizer].
 
 ## Voordelen en waarde
 
@@ -31,11 +27,19 @@ Dit gebruiksgeval wordt ontworpen om aan te tonen hoe te om vertrouwde taken in 
 * **gegevens-gedreven besluiten**: De gegevens van de hefboomwerking om geïnformeerde besluiten over uw inhoudsstrategie te nemen, die maximumeffect verzekeren.
 * **Gepersonaliseerde gebruikerservaring**: Inhoud van de spoorstaaf om aan de unieke voorkeur en de behoeften van al uw publiekssegmenten te voldoen.
 
+## Mogelijke scenario&#39;s
+
+* Een apparel bedrijf verhoogde omzettingen door diverse beelden te testen en campagne landende pagina&#39;s met de voornamen van gebruikers in de vraag-aan-actie tekst te personaliseren.
+
+* Een e-commercebedrijf stelde vast dat zijn leden van de goudloyaliteit hogere omrekeningskoersen hadden door verschillende productbeschrijvingen en afbeeldingen op een campagnelandingspagina te testen, wat tot meer verkoop leidde.
+
 ## Stappen
 
 >[!NOTE]
 >
->In de instructies in deze sectie wordt de nadruk gelegd op de stappen die nodig zijn om een afbeelding te wijzigen en om profielkenmerken te gebruiken om tekstberichten aan te passen. Voor meer informatie over beschikbare opties in de [!DNL Journey Optimizer] Webontwerper, zie [ Webinhoud ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content) {target=_blank} in de *documentatie van Journey Optimizer* uitgeven. De video onder aan de pagina is vooral handig.
+>In de instructies in deze sectie wordt de nadruk gelegd op de stappen die nodig zijn om een afbeelding te wijzigen en om profielkenmerken te gebruiken om tekstberichten aan te passen. Voor meer informatie over beschikbare opties in de [!DNL Journey Optimizer] Webontwerper, zie [ Webinhoud ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content) {target=_blank} in de *documentatie van Journey Optimizer* uitgeven.
+>
+>De video onder aan de pagina is vooral handig.
 
 Voer de volgende stappen uit om een webpagina te optimaliseren door verschillende afbeeldingen te testen en berichten aan te passen aan de voornamen van gebruikers met behulp van een profielscript:
 
@@ -53,11 +57,11 @@ Voer de volgende stappen uit om een webpagina te optimaliseren door verschillend
 
 1. (Voorwaardelijk) Klik in de sectie **[!UICONTROL Audience]** op **[!UICONTROL Select Audience]** en kies het gewenste publiek.
 
-   In dit geval hebben we ervoor gekozen de campagne voor [!UICONTROL All Visitors] te activeren (de standaardinstelling).
+   Voor dit gebruik kunt u de campagne voor [!UICONTROL All Visitors] activeren (de standaardinstelling).
 
 1. Kies in de sectie **[!UICONTROL Action]** de optie **[!UICONTROL Web]** in de vervolgkeuzelijst **[!UICONTROL Action]** en selecteer of maak een nieuwe webconfiguratie.
 
-   Een Webconfiguratie, of kanaaloppervlakte, is een configuratie die door een Beheerder van het Systeem wordt bepaald. De webconfiguratie bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameter, subdomein, mobiele apps enzovoort.
+   Een Webconfiguratie, of kanaaloppervlakte, is een configuratie die door een systeembeheerder wordt bepaald. De webconfiguratie bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameter, subdomein, mobiele apps enzovoort.
 
    Voor meer informatie, zie [ de oppervlakken van het het kanaalkanaal van de Opstelling ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces) {target=_blank} in de *documentatie van Journey Optimizer*.
 
@@ -67,9 +71,23 @@ Voer de volgende stappen uit om een webpagina te optimaliseren door verschillend
 
    ![ Yoga landende pagina op de website LUMA ](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. Als u een experiment wilt maken om te testen welke inhoud het beste werkt, klikt u op **[!UICONTROL Create Experiment]** .
+1. Klik op **[!UICONTROL Create Experiment]** als u een experiment wilt maken om te bepalen welke inhoud beter presteert.
 
    Met contentexperimenten kunt u de inhoud, het onderwerp of de afzender van berichten variëren om meerdere behandelingen te definiëren en de beste combinatie voor uw publiek te bepalen. Voor meer informatie, zie [ een inhoudexperiment ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment) {target=_blank} in de *documentatie van Journey Optimizer* creëren.
+
+1. Selecteer metrisch succes en klik actie.
+
+   Klik op de Help-pictogrammen voor meer informatie en voor koppelingen naar relevante artikelen.
+
+1. Klik op **[!UICONTROL Add Treatment]** en vervolgens op **[!UICONTROL Create]** .
+
+   In dit geval kunt u de verdeling voor elk experiment op 50% laten staan.
+
+1. Klik onder **[!UICONTROL Action]** onder **[!UICONTROL Edit Content]** op de pagina met [!UICONTROL Campaign] details.
+
+1. Klik op Web onder Behandeling B
+
+   Voor dit gebruik moet u [!UICONTROL Treatment A] ongewijzigd laten om de oorspronkelijke ervaring te gebruiken als de eerste ervaring in de A/B-test.
 
 1. Klik op **[!UICONTROL Edit Web Page]** in de rechtertrack.
 
@@ -89,7 +107,7 @@ Voer de volgende stappen uit om een webpagina te optimaliseren door verschillend
 
    Voor meer informatie over profielattributen, zie [ begonnen worden met de verpersoonlijkingsredacteur ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions) {target=_blank} in de *documentatie van Journey Optimizer*.
 
-1. Zoek en selecteer het profielkenmerk &quot;first name&quot;, pas de tekst naar wens aan en klik op **[!UICONTROL Save]** .
+1. Zoek en klik op het plusteken om het profielkenmerk &quot;voornaam&quot; toe te voegen, pas de tekst naar wens aan en klik op **[!UICONTROL Save]** .
 
    ![ voeg profielattributen voor naam ](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png) toe
 
@@ -103,7 +121,7 @@ Voer de volgende stappen uit om een webpagina te optimaliseren door verschillend
 
 ## Rapporten weergeven
 
-Klik op de knop Rapporten en klik vervolgens op de gewenste rapportageperiode:
+Klik op de knop [!UICONTROL Reports] en klik vervolgens op de gewenste rapportageperiode:
 
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
