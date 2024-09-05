@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
+source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1367'
 ht-degree: 2%
 
 ---
@@ -99,6 +99,7 @@ ht-degree: 2%
       + Adobe Journey Optimizer Use Case {#use-cases}
          + [Gebruiksscenario&#39;s voor optimalisatie bovenaan in Adobe Journey Optimizer - web- en op code gebaseerde kanalen](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + [Inhoud wijzigt via A/B-tests in Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+         + [Componenten aan uw webpagina toevoegen of verbergen](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Soorten publiek Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
    + Doel integreren met Adobe Experience Manager (AEM) {#aem}
       + [Doel integreren met AEM overzicht](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)

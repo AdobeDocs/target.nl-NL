@@ -1,0 +1,95 @@
+---
+keywords: optimalisatie;personalisatie;adobe-reis optimizer;ajo;use cases;scenario's;voeg inhoud toe;verberg inhoud;voeg componenten toe;verberg componenten
+description: Leer hoe te om componenten op uw Web-pagina toe te voegen of te verbergen gebruikend  [!DNL Adobe Journey Optimizer].
+title: Componenten aan uw webpagina toevoegen of verbergen in  [!DNL Adobe Journey Optimizer]
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
+feature: Integrations
+hide: true
+hidefromtoc: true
+source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
+workflow-type: tm+mt
+source-wordcount: '550'
+ht-degree: 0%
+
+---
+
+# Componenten aan uw webpagina toevoegen of verbergen
+
+Met dit gebruiksgeval kunt u de geheimen ontgrendelen zodat wijzigingen in de inhoud van A/B-tests in [!DNL Adobe Journey Optimizer] worden doorgevoerd.
+
+Dit gebruiksgeval toont aan hoe te om vertrouwde taken uit te voeren, zoals het testen A/B met een [ activiteit van de Test A/B ](/help/main/c-activities/t-test-ab/test-ab.md), gebruikend [!DNL Journey Optimizer] in plaats van [!DNL Adobe Target].
+
+Dit gebruiksgeval wordt ontworpen om aan te tonen hoe te om vertrouwde taken uit te voeren u het gebruiken van [!DNL Adobe Target], A/B het testen gebruikend een [ activiteit van de Test A/B ](/help/main/c-activities/t-test-ab/test-ab.md) zou kunnen hebben uitgevoerd, maar het gebruiken [!DNL Journey Optimizer].
+
+## Voordelen en waarde
+
+* **verbeter gebruikersovereenkomst**: Leg de aandacht van de gebruikers van de Vangst met een geoptimaliseerd paginaontwerp dat relevante informatie, zoals bevorderingen benadrukt.
+* **verbeter ontdekkingsbaarheid**: Plaats strategisch nieuwe componenten of inhoud op Web of mobiele apps om acties te stroomlijnen en navigatie te verbeteren.
+* **Verhoog extra touchpoints**: Gids gebruikers effectief naar omzettingsgebeurtenissen en doelstellingen om bedrijfseffect te versnellen.
+
+## Mogelijke scenario&#39;s
+
+* Een bedrijf voor financiële diensten is van plan een nieuwe tegel op zijn startpagina toe te voegen voor snelle toegang tot de calculator voor leningen, waardoor de zoektijd wordt verkort en kredietaanvragen worden gestimuleerd.
+
+* Een apparel bedrijf verhoogde omzettingen door een nieuwe vraag-aan-actie knoop op zijn Web-pagina toe te voegen.
+
+## Stappen
+
+>[!NOTE]
+>
+>In de instructies in deze sectie wordt de nadruk gelegd op de stappen die nodig zijn om een afbeelding te wijzigen en om profielkenmerken te gebruiken om tekstberichten aan te passen. Voor meer informatie over beschikbare opties in de [!DNL Journey Optimizer] Webontwerper, zie [ Webinhoud ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content) {target=_blank} in de *documentatie van Journey Optimizer* uitgeven.
+>
+>De video onder aan de pagina is vooral handig.
+
+Voer de volgende stappen uit om componenten toe te voegen of componenten op uw webpagina te verbergen:
+
+1. In [!DNL Adobe Journey Optimizer], klik **Campagnes** in het linkerspoor om de [!UICONTROL Campaigns] pagina te tonen.
+
+   ![ Adobe Journey Optimizer het landen pagina met benadrukte het lusje van Campagnes.](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
+
+1. Klik op **[!UICONTROL Create Campaign]** in de rechterbovenhoek van de pagina [!UICONTROL Campaigns] .
+
+1. Selecteer **[!UICONTROL Scheduled - Marketing]** (het gebrek), dan klik **creëren** om de [!UICONTROL Campaign] detailspagina te tonen.
+
+   ![ pagina van de Details van de Campagne in Adobe Journey Optimizer ](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
+
+1. Geef in de sectie **[!UICONTROL Properties]** een beschrijvende naam en een optionele beschrijving voor de campagne op.
+
+1. (Voorwaardelijk) Klik in de sectie **[!UICONTROL Audience]** op **[!UICONTROL Select Audience]** en kies het gewenste publiek.
+
+   Voor dit gebruik kunt u de campagne voor [!UICONTROL All Visitors] activeren (de standaardinstelling).
+
+1. Kies in de sectie **[!UICONTROL Action]** de optie **[!UICONTROL Web]** in de vervolgkeuzelijst **[!UICONTROL Action]** en selecteer of maak een nieuwe webconfiguratie.
+
+   Een Webconfiguratie, of kanaaloppervlakte, is een configuratie die door een systeembeheerder wordt bepaald. De webconfiguratie bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameter, subdomein, mobiele apps enzovoort.
+
+   Voor meer informatie, zie [ de oppervlakken van het het kanaalkanaal van de Opstelling ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces) {target=_blank} in de *documentatie van Journey Optimizer*.
+
+1. Klik in de sectie **[!UICONTROL Action]** op **[!UICONTROL Edit Content]** om uw website te openen in de webontwerper van [!DNL Journey Optimizer] .
+
+   ![ Yoga landende pagina op de website LUMA ](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
+
+1. Als u een knop call-to-action wilt toevoegen, klikt u op **[!UICONTROL Edit Web Page]** in de rechtertrack.
+
+1. Klik op de knop
+
+1. Klik op de pijl Vorige in de linkerbovenhoek om terug te keren naar de webontwerper.
+
+   ![ de pijl van de Rug ](/help/main/c-integrating-target-with-mac/ajo/assets/back-arrow.png)
+
+1. Klik **[!UICONTROL Review to Activate]**, zorg ervoor dat alles zoals verwacht kijkt, dan klik **activeert**.
+
+## Rapporten weergeven
+
+Klik op de knop [!UICONTROL Reports] en klik vervolgens op de gewenste rapportageperiode:
+
+* [!UICONTROL View all time report]
+* [!UICONTROL View last 24hrs report]
+
+Voor meer informatie, zie [ begonnen worden met nieuwe Rapporterende interface ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja) {target=_blank} in de *documentatie van Journey Optimizer*.
+
+>[!MORELIKETHIS]
+>
+>[ geef Webinhoud ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content) {target=_blank} in de *documentatie van Journey Optimizer* uit
+>[Hoe te video ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video) {target=_blank} in de *documentatie van Journey Optimizer*
+>[Creeer een campagne ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign) {target=_blank} in *Tutorials van Journey Optimizer*

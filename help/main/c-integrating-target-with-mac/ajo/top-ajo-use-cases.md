@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
+source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -31,3 +31,4 @@ De volgende gebruiksgevallen tonen aan hoe u bekende taken vanuit [!DNL Target] 
 Deze gebruiksgevallen hebben betrekking op het web en op code gebaseerde kanalen.
 
 * [De inhoud verandert door het testen A/B in  [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+* [Componenten aan uw webpagina toevoegen of verbergen](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
