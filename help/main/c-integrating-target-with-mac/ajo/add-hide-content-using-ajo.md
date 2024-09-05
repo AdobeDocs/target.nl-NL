@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
+source-git-commit: b68ee55246f46f59bc0117e7702b06589fc1e58c
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,13 @@ Voer de volgende stappen uit om componenten toe te voegen of componenten op uw w
 
    ![ Yoga landende pagina op de website LUMA ](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. Als u een knop call-to-action wilt toevoegen, klikt u op **[!UICONTROL Edit Web Page]** in de rechtertrack.
+1. Als u een element wilt verbergen, klikt u op **[!UICONTROL Edit Web Page]** in de rechtertrack.
 
-1. Klik op de knop
+1. Klik op het element dat u wilt verbergen en klik vervolgens op de knop [!UICONTROL Hide] in de rechtertrack.
+
+   De juiste spoorvertoningen optie die u op het geselecteerde element kunt uitvoeren. Deze opties variëren, afhankelijk van het geselecteerde element.
+
+   ![ de elementenknoop van de Huid ](/help/main/c-integrating-target-with-mac/ajo/assets/hide-element.png)
 
 1. Klik op de pijl Vorige in de linkerbovenhoek om terug te keren naar de webontwerper.
 
