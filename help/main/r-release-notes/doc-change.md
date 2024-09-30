@@ -4,9 +4,9 @@ description: Houd bijgewerkt met belangrijke toevoegingen en veranderingen in de
 title: Waar kan ik documentatieupdates voor  [!DNL Target] zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6c4d5c5d415a16661a56bb0c4d5b72f295baf30a
+source-git-commit: 61557ba80f5fb29098d108af6ed3fd864cadcae6
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 |--- |--- |--- |
+| 29 september | [ at.js versiedetails ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions) {target=_blank} | Toegevoegde informatie over de release at.js 2.11.6. |
 | 11 september | [ Gebruikers ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | De volgende opmerking is toegevoegd onder Rollen en machtigingen opgeven:<P> Als u activiteiten wilt weergeven in [!DNL Target] , moeten gebruikers rechtstreeks worden toegewezen aan een werkruimte met ten minste de rol [!UICONTROL Observer] . Toewijzing via alleen gebruikersgroepen is onvoldoende. Het wordt over het algemeen aanbevolen gebruikers toegang te verlenen tot de standaardwerkruimte. |
 | 1 augustus | [ Veelgestelde vragen van Recommendations ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | De volgende veelgestelde vragen zijn toegevoegd: &quot;Kan ik [!DNL Target] door de gebruikersinterface gemaakte visuele aanbiedingen beheren met behulp van de [!DNL Target] API&#39;s?&quot; |
 | 10 juli | [ Configuratie van de Volmacht (Java) ](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/java/proxy-configuration) {target=_blank} | Nieuwe sectie toegevoegd: Apparaatbeslissing |
