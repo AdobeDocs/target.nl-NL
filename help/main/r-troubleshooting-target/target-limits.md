@@ -1,20 +1,20 @@
 ---
 keywords: tekenlimiet;mbox-parameters;batch-levering api;profielparameters;limieten;ingebouwde profielen;maximum;limit;constraint;character;best practice;orderTotal;mbox3rdPartyID;category;categoryID;problemen oplossen
-description: Een lijst weergeven met tekenlimieten en andere beperkingen die van invloed zijn op activiteiten en andere elementen in [!DNL Adobe Target].
-title: Wat zijn de verschillende karakter, grootte en andere grenzen in [!DNL Adobe Target]?
+description: Bekijk een lijst van karaktergrenzen en andere grenzen die activiteiten en andere elementen in  [!DNL Adobe Target] beïnvloeden.
+title: Wat zijn het diverse karakter, de grootte, en andere grenzen in  [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 5ab209ae91580403ad9ec63998fcf3077400490f
+source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
 workflow-type: tm+mt
-source-wordcount: '1594'
+source-wordcount: '1704'
 ht-degree: 0%
 
 ---
 
 # Limieten
 
-Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, waarden, parameters, enz.) die van invloed zijn op activiteiten en andere elementen in [!DNL Adobe Target].
+Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, waarden, parameters, enz.) die van invloed zijn op activiteiten en andere elementen in [!DNL Adobe Target] .
 
 >[!NOTE]
 >
@@ -22,51 +22,51 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 >
 >Wanneer de limieten die als &quot;aanbevolen&quot; zijn opgegeven, worden benaderd of overschreden, kan de prestatie trager worden. Trage tijden van interfacebelasting kunnen ook worden veroorzaakt door een zeer complexe activiteit, zoals vele publiek, doelstellingen, en ervaringen allen in één activiteit.
 >
->Zeer complexe activiteiten moeten worden herzien met [!DNL Adobe] Consulting en tests in een beperkte omgeving voordat ze worden vrijgegeven voor productie.
+>Zeer complexe activiteiten dienen te worden beoordeeld met [!DNL Adobe] Consulting en getest in een beperkte omgeving voordat ze worden vrijgegeven voor productie.
 
 ## Activiteiten
 
 ### Activiteitennamen
 
-* **Limiet**: 250 tekens.
+* **Grens**: 250 karakters.
 
 ### Aantal activiteiten per rekening
 
-* **Aanbevolen limiet**: 10.000 actieve live-activiteiten.
+* **geadviseerde grens**: 10.000 actieve levende activiteiten.
 
-* **Aanbevolen limiet**: 10.000 actieve opgeslagen (en niet beëindigde) activiteiten.
+* **geadviseerde grens**: 10.000 actieve bewaarde (en niet gebeëindigde) activiteiten.
 
 ## API-aanroepen van doel
 
-* **Limiet**: 50 aanroepen per minuut voor de API&#39;s Admin, Reporting en bulkprofielupdate. Deze limiet geldt niet voor de API&#39;s voor levering en één profiel bijwerken.
+* **Grens**: 50 vraag per minuut voor Admin, het Melden, en bulkprofielupdate APIs. Deze limiet geldt niet voor de API&#39;s voor levering en één profiel bijwerken.
 
-  Als u meer dan 50 API vraag per minuut maakt, [!DNL Target] retourneert een foutbericht &quot;503 HTTP status&quot;.
+  Als u meer dan 50 API-aanroepen per minuut maakt, geeft [!DNL Target] een foutbericht &quot;503 HTTP status&quot;.
 
 ## Soorten publiek
 
 ### Namen publiek
 
-* **Limiet**: 255 tekens.
+* **Grens**: 255 karakters.
 
 ### Soorten publiek, herbruikbaar per account
 
-* **Aanbevolen limiet**: 20.000 publiek.
+* **geadviseerde grens**: 20.000 publiek.
 
 ### Aantal soorten publiek per doos, metrisch, of ervaring
 
-* **Limiet**: 50 soorten publiek
+* **Grens**: 50 publiek
 
 ## categoryId, parameter
 
-* **Limiet**: 256 tekens.
+* **Grens**: 256 karakters.
 
 ## Inhoud leveren {#content-delivery}
 
-* **Limiet**: 100 gelijktijdige [!DNL Target] aanvragen voor de levering van inhoud per gebruikerssessie.
+* **Grens**: 100 gezamenlijke [!DNL Target] verzoeken van de inhoudslevering per gebruikerszitting.
 
-  Als een klant meer dan 100 gelijktijdige [!DNL Target] verzoeken om de levering van inhoud voor een bepaalde gebruikerssessie, alle volgende aanvragen voor die gebruikerssessie worden geblokkeerd. Twee of meer verzoeken worden beschouwd als gelijktijdig als zij allen naar [!DNL Target] -server voordat de reactie voor een van de reacties wordt ontvangen. [!DNL Target] verwerkt opeenvolgende gezamenlijke aanvragen voor dezelfde sessie.
+  Als een klant meer dan 100 gelijktijdige [!DNL Target] verzoeken om inhoud voor een bepaalde gebruikerssessie indient, worden alle volgende aanvragen voor die gebruikerssessie geblokkeerd. Twee of meer verzoeken worden beschouwd als gelijktijdige aanvragen als ze allemaal naar de [!DNL Target] -server worden verzonden voordat de reactie voor een van deze aanvragen wordt ontvangen. [!DNL Target] verwerkt opeenvolgende gelijktijdige aanvragen voor dezelfde sessie.
 
-   * **Foutgedrag**:
+   * **het gedrag van de Fout**:
 
       * Delivery API and Batch Mbox v2:
          * Foutcode: HTTP 420 Te veel aanvragen
@@ -78,19 +78,19 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
       * at.js:
          * Standaardinhoud weergegeven
 
-* **Limiet**: 50 dozen per [!DNL Target] aanvraag voor batchverwerking van inhoud.
+* **Grens**: 50 dozen per [!DNL Target] verzoek van de partij van de inhoudslevering.
 
-  van meer dan 50 dozen per doos [!DNL Target] inhoud leveren batch-aanvraag resulteert in een foutcode voor reactie `HTTP 400` met foutbericht `size must be between 0 and 50`.
+  Als u meer dan 50 vakken per batch-aanvraag voor [!DNL Target] levering van inhoud aanvraagt, treedt er een foutcode voor de reactie op `HTTP 400` met foutbericht `size must be between 0 and 50` .
 
   De verzoeken van de partijdoos worden opeenvolgend verwerkt, die de algemene reactietijd met elke herhaling verhogen. Hoe meer vakjes in het batchverzoek, des te meer responslatentie kan worden verwacht en daarom is er mogelijk time-outs. Als de ervaring het teruggeven op deze hoge latentiepartijverzoeken wordt geblokkeerd, zou de latentie in een degraded gebruikerservaring kunnen resulteren aangezien de gebruikers op ervaringen wachten om terug te geven.
 
-* **Limiet**: 60 MB de lichaamsomvang van de POST van HTTP voor [!DNL Target] verzoeken om levering van inhoud.
+* **Grens**: 60 MB het lichaamsomvang van de POST van HTTP voor [!DNL Target] verzoeken van de inhoudslevering.
 
-  Meer dan 60 MB op de lichaamsgrootte van de POST van HTTP [!DNL Target] de leveringsaanvraag van de inhoud resulteert in een code van de reactiefout `HTTP 413 Request Entity Too Large`.
+  Als de inhoud van een [!DNL Target] -aanvraag voor levering van inhoud groter is dan 60 MB, resulteert dit in een foutcode voor de reactie `HTTP 413 Request Entity Too Large` .
 
-* **Aanbevolen limiet**: 50 meldingen per [!DNL Target] aanvraag voor leveringsbatch.
+* **Geadviseerde grens**: 50 berichten per [!DNL Target] verzoek van de leveringspartij.
 
-  Meer dan 50 meldingen per [!DNL Target] aanvraag voor de leveringsbatch leidt waarschijnlijk tot meer responslatentie en time-outs.
+  Als u meer dan 50 berichten per aanvraag voor de leveringsbatch van [!DNL Target] verzendt, resulteert dit waarschijnlijk in een hogere responslatentie en time-outs.
 
   De verzoeken van het partijbericht worden opeenvolgend verwerkt, die de algemene reactietijd met elke herhaling verhogen. Hoe meer meldingen over het batchverzoek, des te meer responslatentie kan worden verwacht, en dus ook de mogelijkheid van time-outs. Sommige extra latentie op de verzoeken van het partijbericht zou voor sommige klanten aanvaardbaar kunnen zijn, maar ben zich ervan bewust dat onderbrekingen en om het even welke verdere pogingen nog latentie zouden kunnen veroorzaken.
 
@@ -98,17 +98,17 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
 ### Kenmerknamen van klant
 
-* **Limiet**: 250 tekens via feed of API.
+* **Grens**: 250 karakters door voer of API.
 
 ### Aliasid van kenmerk Klant
 
-* **Limiet** 50 tekens.
+* **Grens** 50 karakters.
 
 ### Klantkenmerken, uploaden
 
-* **Maximale bestandsgrootte voor elke upload met de HTTP-methode**: 100 MB.
-* **maximale bestandsgrootte voor elke upload met de FTP-methode**: 4 GB.
-* **Aantal toegestane kenmerken voor abonnement**: 5 for [!DNL Target Standard] en 200 voor [!DNL Target Premium].
+* **Maximale dossiergrootte voor elke upload die de methode van HTTP** gebruikt: 100 MB.
+* **maximumdossiergrootte voor elke upload die de methode van FTP gebruikt**: 4 GB.
+* **Aantal attributen toegestaan om** in te tekenen: 5 voor [!DNL Target Standard] en 200 voor [!DNL Target Premium].
 
 ## Entiteiten
 
@@ -116,13 +116,13 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
 * Het maximumaantal entiteiten waarnaar in een ontwerp kan worden verwezen, is 99, ofwel hardcoded ofwel via lussen.
 * De aanbevolen limiet voor de beste prestaties is om de catalogus minder dan 1 miljoen items per omgeving en minder dan 10 miljoen items in alle omgevingen te houden.
-* De maximumgrens is tien miljoen punten per milieu en 100 miljoen punten over alle milieu&#39;s. Als u tussen één miljoen en tien miljoen punten per milieu hebt, prestaties [!UICONTROL Catalog Search] De interface is hierdoor beïnvloed. [!DNL Target Recommendations], maar blijft aanbevelingen opstellen en doen.
+* De maximumgrens is tien miljoen punten per milieu en 100 miljoen punten over alle milieu&#39;s. Als u tussen een miljoen en tien miljoen items per omgeving hebt, heeft dit gevolgen voor de prestaties van de gebruikersinterface van [!UICONTROL Catalog Search] . [!DNL Target Recommendations] blijft echter aanbevelingen produceren en leveren.
 
 ### Aangepaste kenmerken van entiteit
 
-* **Aangepaste entiteitskenmerken**: 100.
+* **de entiteitattributen van de Douane**: 100.
 
-* **Limiet tekens**: De maximale tekenlengte is afhankelijk van de taal.
+* **Grens van het Karakter**: De maximumkarakterlengte hangt van de taal af.
 
    * 15.000 tekens (talen van één waarde, van één en van twee bytes)
    * 500 waarden, 100 tekens per waarde (meerdere waarden)
@@ -133,17 +133,17 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
 ### entity.id
 
-* **Limiet voor implementaties waarvoor aankoopgegevens moeten worden vastgelegd**: 50 tekens.
+* **Grens voor implementaties die het vangen van koopinformatie** vereisen: 50 karakters.
 
-  Deze limiet geldt omdat de `productPurchasedId` met de parameter mbox wordt het bestand entity.ids vastgelegd. Dit beperkt het aantal tekens tot 50.
+  Deze beperking wordt afgedwongen omdat de parameter `productPurchasedId` mbox de entiteit.ids vastlegt, die het aantal tekens tot 50 beperkt.
 
-* **Limiet voor implementaties die alleen op weergave gebaseerde algoritmen vereisen:**: 1.000 tekens.
+* **Grens voor implementaties die op mening-gebaseerde algoritmen slechts vereisen:**: 1.000 karakters.
 
   Op weergave gebaseerde algoritmen zijn onder andere weergave/weergave, meest bekeken, onlangs weergegeven enzovoort.
 
 ## excludeIds {#excludedid}
 
-* **Limiet**: 5 kB voor verzoeken om POST. 2.083 tekens min de lengte van de URL voor aanvragen van GET.
+* **Grens**: 5 KB voor de verzoeken van de POST. 2.083 tekens min de lengte van de URL voor aanvragen van GET.
 
   Voor GET-aanvragen geldt dat, hoewel de limiet voor het achterste gedeelte 5 kB is, omdat Microsoft Internet Explorer de URL beperkt tot 2083 tekens, de realistische limiet 2083 tekens min de huidige lengte van de URL is.
 
@@ -151,41 +151,41 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
 ### Ervaringsnamen
 
-* **Limiet**: 50 tekens.
+* **Grens**: 50 karakters.
 
 ### Ervaringen per activiteit
 
-* **Limiet**: 2.000 ervaringen per [!UICONTROL Experience Targeting] (XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT), en [!UICONTROL Auto-Target] activiteit.
+* **Grens**: 2.000 ervaringen per [!UICONTROL Experience Targeting] (XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT), en [!UICONTROL Auto-Target] activiteit.
 
   30.000 ervaringen per Automated Personalization (AP) activiteit.
 
 ### Wijzigingen per ervaring
 
-* **Limiet**: 50 per ervaring op elke activiteit
+* **Grens**: 50 per ervaring op om het even welke activiteit
 
 ## mboxes
 
 ### In-box-profielkenmerkwaarde {#in-mbox}
 
-* **Limiet**: 256 tekens.
+* **Grens**: 256 karakters.
 
-  Waarden van meer dan 256 tekens worden afgebroken bij gebruik van at.js 1.*x*. Er wordt een foutbericht weergegeven wanneer u waarden met meer dan 256 tekens verzendt bij gebruik van at.js 2.*x* of de [!DNL Adobe Experience Platform Web SDK]. Waarden worden niet automatisch afgekapt.
+  Waarden van meer dan 256 tekens worden afgebroken bij gebruik van at.js 1.*x*. Er wordt een foutbericht weergegeven wanneer u waarden met meer dan 256 tekens verzendt bij gebruik van at.js 2.*x* of [!DNL Adobe Experience Platform Web SDK]. Waarden worden niet automatisch afgekapt.
 
 ### In-box-profielnamen
 
-* **Limiet**: 128 tekens.
+* **Grens**: 128 karakters.
 
 ### mbox-namen {#mbox-names}
 
-* **Limiet**: 250 tekens.
+* **Grens**: 250 karakters.
 
-  Voor [!DNL Delivery API] (te.js 2.*x*), Batchbox V2, en [!DNL Adobe Experience Platform Web SDK] (alloy.js) integraties, mbox namen *kan* bevatten alfanumerieke tekens (A-Z, a-z, 0-9) en een of meer van de volgende tekens:
+  Voor [!DNL Delivery API] (at.js 2.*x*), de integratie van de Partij V2, en [!DNL Adobe Experience Platform Web SDK] (alloy.js), kunnen de namen van mbox *alfanumerieke karakters (a-z, a-z, 0-9) en om het even welke volgende karakters bevatten:*
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
   ```
 
-  Voor om.js 1.*x* integraties, mbox-namen *kan* bevatten een van de volgende tekens:
+  Voor om.js 1.*x* integraties, kunnen de namen van mbox *niet* om het even welke volgende karakters bevatten:
 
   ```
   ' " %22 %27 < > %3C %3E 
@@ -193,7 +193,7 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
 ### mbox-parameters {#mbox-parameters}
 
-* **Limiet**: De volgende limieten gelden voor mbox-parameters:
+* **Grens**: De volgende grenzen zijn op mbox parameters van toepassing:
 
   Voor standaard mbox vraag:
 
@@ -211,7 +211,7 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
   Limieten ingesteld voor eindpunten:
 
-  **Batchbox v2**:
+  **Batch mbox v2**:
 
    * mbox-parameters 100
    * naam van parameter mbox max. lengte 128
@@ -222,7 +222,7 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
    * waarde van profielparameter mag niet null zijn
    * waarde van profielparameter max. lengte 5000
 
-  **API-eindpunt voor levering**:
+  **Eind van levering API**:
 
    * mbox-parameters 100
    * naam van parameter mbox max. lengte 128
@@ -235,23 +235,25 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
 ### verzoek-URL&#39;s
 
-* **Limiet**: 2.083 tekens.
+* **Grens**: 2.083 karakters.
 
   Deze limiet is het gevolg van beperkingen voor de URL-lengte van Microsoft Internet Explorer.
 
 ### mbox3rdPartyId, parameter
 
-* **Limiet**: 256 tekens.
+* **Grens**: 256 karakters.
 
 ## Aanbiedingen
 
 ### Aanbiedingsnamen
 
-* **Limiet**: 250 tekens.
+* **Grens**: 250 karakters.
 
 ### Aantal aanbiedingen
 
-* **Aanbevolen limiet**: in totaal 50.000 aanbiedingen.
+* **Grens**: 150.000 totale aanbiedingen.
+
+  Activiteitsynchronisatiefouten treden op als de limiet van 150.000 aanbiedingen wordt overschreden.
 
 ### Grootte voorstel {#offer-size}
 
@@ -267,47 +269,47 @@ Voor aanbiedingen gelden de volgende groottegrenzen:
 
 ## orderId, parameter
 
-* **Aanbevolen limiet**: 120 tekens.
+* **geadviseerde grens**: 120 karakters.
 
 ## orderTotal, parameter
 
-* **Aanbevolen limiet**: 120 tekens.
+* **geadviseerde grens**: 120 karakters.
 
 ## productPurchasedId, parameter
 
-* **Limiet**: 50 tekens per door komma&#39;s gescheiden waarde en 250 tekens in totaal. Individuele waarden van meer dan 50 tekens worden door het systeem afgekapt. Totale lengte boven 250 tekens resulteert in een fout van 400.
+* **Grens**: 50 karakters per komma-gescheiden waarde en 250 karakters in totaal. Individuele waarden van meer dan 50 tekens worden door het systeem afgekapt. Totale lengte boven 250 tekens resulteert in een fout van 400.
 
 ## Profielscripts
 
-* **Aanbevolen limiet voor actieve profielscripts (die zijn ingeschakeld)**: 300
+* **geadviseerde grens van actieve profielmanuscripten (die worden toegelaten)**: 300
 
-* **Aanbevolen limiet voor totale profielscripts per account**: 2.000
+* **geadviseerde grens van totale profielmanuscripten per rekening**: 2.000
 
-* **Recommendations voor het beperken van de complexiteit van profielscripts**: Profielscripts kunnen een beperkt aantal instructies uitvoeren. Zie voor meer informatie [Aanbevolen procedures](/help/main/c-target/c-visitor-profile/profile-parameters.md#best) in *Profielkenmerken*.
+* **Recommendations voor het beperken van de ingewikkeldheid van het profielmanuscript**: De manuscripten van het profiel kunnen een beperkt aantal instructies uitvoeren. Voor meer informatie, zie [ Beste praktijken ](/help/main/c-target/c-visitor-profile/profile-parameters.md#best) in *attributen van het Profiel*.
 
 ## Eigenschappen
 
-* **Aanbevolen limiet**: 5.000 eigenschappen.
+* **geadviseerde grens**: 5.000 eigenschappen.
 
 ## Publiek/segmenten rapporteren
 
-* **Limiet**: 50 verslaggevingspubliek/segmenten per activiteit.
+* **Grens**: 50 rapporterend publiek/segmenten per activiteit.
 
-## Script-profielinvoervak in het dialoogvenster [!DNL Target] UI
+## Het invoervak voor scriptprofielen in de gebruikersinterface van [!DNL Target]
 
-* **Aanbevolen limiet**: 2.000 tekens.
+* **geadviseerde grens**: 2.000 karakters.
 
-  Afhankelijk van de grootte van de gecodeerde tekenreeks, die veel langer kan zijn dan de onbewerkte tekenreeks. Als de tekenreeks te groot is, mislukt deze voordat deze wordt uitgevoerd [!DNL Adobe Target].
+  Afhankelijk van de grootte van de gecodeerde tekenreeks, die veel langer kan zijn dan de onbewerkte tekenreeks. Als de tekenreeks te groot is, mislukt deze voordat deze op [!DNL Adobe Target] wordt ingesteld.
 
 ## Scriptprofielen
 
 ### Scriptprofielnamen
 
-* **Limiet**: 50 tekens.
+* **Grens**: 50 karakters.
 
 ### Scriptprofielwaarden
 
-* **Limiet**: 2.048 tekens.
+* **Grens**: 2.048 karakters.
 
   Om prestatieredenen raden we een geretourneerde waarde aan die niet langer is dan 256 tekens.
 
@@ -317,18 +319,18 @@ Voor aanbiedingen gelden de volgende groottegrenzen:
 
 ## Succeswaarden
 
-* **Limiet**: 200 per activiteit.
+* **Grens**: 200 per activiteit.
 
 ## Targeting
 
 ### Doelvoorwaarden
 
-* **Aanbevolen limiet**: 1.000 waarden.
+* **geadviseerde grens**: 1.000 waarden.
 
   Dit verwijst naar het aantal waarden met regelscheiding in het tekstgebied dat als doel is ingesteld. U kunt bijvoorbeeld 1000 ZIP-codes invoeren in een ZIP-codedoel.
 
 ### Doelstellingen {#targeting-rules}
 
-* **Aanbevolen limiet**: 2.500 tekens per doelregelwaarde.
-* **Aanbevolen limiet**: 50.000 unieke waarden per publiek over het richten van regels.
-* **Aanbevolen limiet**: 100.000 unieke waarden voor doelregels per activiteit.
+* **geadviseerde grens**: 2.500 karakters per het richten regelwaarde.
+* **geadviseerde grens**: 50.000 unieke waarden per publiek over het richten van regels.
+* **geadviseerde grens**: 100.000 uniek het richten regelwaarden per activiteit.
