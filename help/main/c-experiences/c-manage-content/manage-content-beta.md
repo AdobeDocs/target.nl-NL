@@ -1,15 +1,15 @@
 ---
 keywords: inhoud;elementen;inhoud beheren;aanbiedingen;elementen beheren;selectiemodus openen;selectiemodus
-description: Ontdek hoe u code- en afbeeldingsaanbiedingen efficiënt kunt beheren met de [!UICONTROL Offers] -bibliotheek. Leer beste praktijken en tips om uw werkschema te stroomlijnen en uw projecten te verbeteren.
+description: Ontdek hoe u code- en afbeeldingsaanbiedingen efficiënt kunt beheren met de [!UICONTROL Offers] -bibliotheek.
 title: Hoe kan ik code- en afbeeldingsaanbiedingen beheren?
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 2831d370d774ce389a8c3621fa5e4354223af993
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
