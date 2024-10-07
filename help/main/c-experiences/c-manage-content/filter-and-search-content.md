@@ -4,14 +4,14 @@ description: Leer hoe te om naar code en beeldaanbiedingen in de Adobe  [!DNL Ta
 title: Hoe zoek ik naar inhoud in de bibliotheek met aanbiedingen?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-source-git-commit: c9d987a7e27bbaa605f4d7b45975c854b61783de
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
 
-# Inhoud zoeken
+# Inhoud zoeken en filteren
 
 Zoeken naar elementen op trefwoorden in de [!UICONTROL Offers] -bibliotheek in [!DNL Adobe Target] .
 

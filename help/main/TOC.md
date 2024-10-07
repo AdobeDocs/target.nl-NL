@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1374'
 ht-degree: 2%
 
 ---
@@ -266,7 +266,8 @@ ht-degree: 2%
       + [JSON-bètaversie biedt](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [Werken met inhoud in de bibliotheek](c-experiences/c-manage-content/assets-working.md)
       + [Werken met inhoud in de bètabibliotheek van de bibliotheek](/help/main/c-experiences/c-manage-content/assets-working-beta.md)
-      + [Inhoud zoeken](c-experiences/c-manage-content/filter-and-search-content.md)
+      + [Inhoud zoeken en filteren](c-experiences/c-manage-content/filter-and-search-content.md)
+      + [bèta met inhoud zoeken en filteren](/help/main/c-experiences/c-manage-content/filter-and-search-content-beta.md)
       + [Dynamische gegevens in aanbiedingen doorgeven](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM Ervaring en inhoudsfragmenten](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Rapporten {#reports}

@@ -1,53 +1,48 @@
 ---
 keywords: json-aanbieding;create json-aanbieding
-description: Leer hoe u JSON-aanbiedingen kunt maken voor gebruik in de [!UICONTROL Form-Based Experience Composer].
+description: Leer hoe u JSON-aanbiedingen maakt voor gebruik in de [!UICONTROL Form-Based Experience Composer] .
 title: Hoe maak ik JSON-aanbiedingen?
 feature: Experiences and Offers
 hide: true
 hidefromtoc: true
-source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
+exl-id: e022c2d1-3326-405b-aead-5bb4ffa309b3
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
 
 # JSON-aanbiedingen maken
 
-JSON-aanbiedingen maken in het dialoogvenster [!UICONTROL Offer Library] in [!DNL Adobe Target] voor gebruik in de [!UICONTROL Form-Based Experience Composer].
+Maak JSON-aanbiedingen in de [!UICONTROL Offer Library] in [!DNL Adobe Target] voor gebruik in de [!UICONTROL Form-Based Experience Composer] .
 
-JSON-aanbiedingen kunnen worden gebruikt in formuliergebaseerde activiteiten om gebruiksituaties mogelijk te maken waarin [!DNL Target] Beslissing is vereist om een aanbod in JSON-indeling te verzenden voor gebruik in SPA framework of serverintegratie.
+JSON-aanbiedingen kunnen worden gebruikt in formuliergebaseerde activiteiten om gebruiksituaties mogelijk te maken waarin [!DNL Target] -beslissingen vereist zijn voor het verzenden van een aanbieding in JSON-indeling voor gebruik in SPA framework of serverintegratie.
 
 ## JSON-overwegingen
 
 Houd rekening met de volgende informatie terwijl u met JSON werkt:
 
-* JSON-voorstellen zijn momenteel alleen beschikbaar voor [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] (AP), en [!UICONTROL Experience Targeting] (XT) activiteiten.
-* JSON-aanbiedingen kunnen worden gebruikt in [op formulieren gebaseerde activiteiten](/help/main/c-experiences/form-experience-composer.md) alleen.
-* JSON-aanbiedingen kunnen rechtstreeks worden opgehaald wanneer u de [Server Side API&#39;s en Mobile Node.js, Java, .NET en Python SDK&#39;s](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
-* In de browser kunnen JSON-aanbiedingen alleen worden opgehaald via at.js 1.2.3 (of hoger) en via [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} door acties te filteren met de `setJson` handeling.
+* JSON-aanbiedingen zijn momenteel alleen beschikbaar voor [!UICONTROL A/B Test]-, [!UICONTROL Automated Personalization] (AP)- en [!UICONTROL Experience Targeting] (XT)-activiteiten.
+* De aanbiedingen JSON kunnen in [ vorm-gebaseerde activiteiten ](/help/main/c-experiences/form-experience-composer.md) slechts worden gebruikt.
+* De aanbiedingen JSON kunnen direct worden teruggewonnen wanneer u de [ Zijde APIs van de Server en Mobiele Node.js, Java, .NET, en Python SDKs ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html) {target=_blank} gebruikt.
+* In browser, kunnen de aanbiedingen JSON slechts via at.js 1.2.3 (of recenter) worden teruggewonnen en [ getOffer () gebruiken ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html) {target=_blank} door acties te filtreren gebruikend de `setJson` actie.
 * JSON-aanbiedingen worden geleverd als native JSON-objecten in plaats van als tekenreeksen. Consumenten van deze objecten hoeven objecten niet langer als tekenreeksen te verwerken en deze in JSON-objecten om te zetten.
-* JSON-aanbiedingen worden niet automatisch toegepast in tegenstelling tot andere aanbiedingen (zoals HTML-aanbiedingen), omdat JSON-aanbiedingen niet-visuele aanbiedingen zijn. Ontwikkelaars moeten code schrijven om de aanbieding expliciet op te halen met [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}.
+* JSON-aanbiedingen worden niet automatisch toegepast in tegenstelling tot andere aanbiedingen (zoals HTML-aanbiedingen), omdat JSON-aanbiedingen niet-visuele aanbiedingen zijn. De ontwikkelaars moeten code schrijven om de aanbieding uitdrukkelijk te krijgen gebruikend [ getOffer () ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html) {target=_blank}.
 
 ## Een JSON-aanbieding maken {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. Klikken **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
-
-   ![Aanbiedingen > tabblad Codevoorstellen](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
-
-1. Klikken **[!UICONTROL Create Offer]** > **[!UICONTROL JSON Offer]**.
-
-   ![aanbiedingsafbeelding](assets/offer-json-new.png)
-
+1. Klik op **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]** .
+1. Klik op **[!UICONTROL Create Offer]** > **[!UICONTROL JSON Offer]** .
 1. Typ een naam voor het voorstel.
-1. (Voorwaardelijk) Als u een [[!DNL Target] Premium-account](/help/main/c-intro/intro.md#premium)kiest u de gewenste [werkruimte](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace).
+1. (Voorwaardelijk) als u de rekening van de a [[!DNL Target]  Premium ](/help/main/c-intro/intro.md#premium) hebt, kies de gewenste [ werkruimte ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace).
 1. (Voorwaardelijk) Kies de gewenste profielkenmerken.
-1. Typ of plak uw JSON-code in het dialoogvenster **[!UICONTROL Code]** doos.
+1. Typ of plak de JSON-code in het vak **[!UICONTROL Code]** .
 1. Klik op **[!UICONTROL Create]**.
 
 ## JSON-voorbeeld {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
-JSON-aanbiedingen worden alleen ondersteund in activiteiten die zijn gemaakt met de [Formuliergebaseerde Experience Composer](/help/main/c-experiences/form-experience-composer.md). De enige manier om JSON-aanbiedingen te kunnen gebruiken is momenteel via directe API/SDK-aanroepen.
+De aanbiedingen JSON worden gesteund slechts in activiteiten die worden gecreeerd gebruikend [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md). De enige manier om JSON-aanbiedingen te kunnen gebruiken is momenteel via directe API/SDK-aanroepen.
 
 Hier volgt een voorbeeld:
 
@@ -84,7 +79,7 @@ De actiesarray heeft deze structuur:
 ]
 ```
 
-Als u het JSON-aanbod wilt uitpakken, doorloopt u de handelingen en zoekt u de handeling met de `setJson` en doorloopt vervolgens de inhoudarray.
+Als u het JSON-aanbod wilt extraheren, doorloopt u de handelingen en zoekt u de handeling met de handeling `setJson` en doorloopt u vervolgens de inhoudarray.
 
 ## Hoofdletters gebruiken {#section_85B07907B51A43239C8E3498EF58B1E5}
 
@@ -138,10 +133,8 @@ adobe.target.getOffer({
 
 CDP-profielkenmerken in realtime kunnen worden gedeeld met [!DNL Target] voor gebruik in HTML- en JSON-aanbiedingen.
 
-Zie voor meer informatie [CDP-profielkenmerken in realtime delen met [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
+Voor meer informatie, zie [ de Attributen van het Profiel in real time CDP van het Aandeel met  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
 
 ## Aanbiedingen filteren door het type JSON-aanbieding {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-U kunt het filter [!UICONTROL Offers] bibliotheek van het aanbiedingstype JSON door op het **[!UICONTROL Show filters]** pictogram, dan door **[!UICONTROL JSON]** selectievakje.
-
-![aanbieding-json-filter beeld](assets/offer-json-filter-new.png)
+U kunt de [!UICONTROL Offers] bibliotheek door het aanbiedingstype van JSON filtreren door het **[!UICONTROL Show filters]** pictogram ( ![ tonen het pictogram van Filters ](/help/main/assets/icons/Filter.svg)) te klikken, dan door **[!UICONTROL JSON Offers]** checkbox te selecteren.
