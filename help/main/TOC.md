@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+source-git-commit: f4af2527bfed992e6d341b503aa84ae74dc34d89
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1410'
 ht-degree: 2%
 
 ---
@@ -129,9 +129,12 @@ ht-degree: 2%
          + [Doelgroep selecteren](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
          + [bètaversie van publiek selecteren](c-activities/t-test-ab/t-test-create-ab/ab-audience-beta.md)
          + [Doelstellingen en instellingen](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
+         + [Doelstellingen en instellingen bèta](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md)
          + [Analysegegevens gebruiken](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Metrisch instellen](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
+         + [Metrische bètaversie instellen](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md)
          + [Meerdere ervaringsdoelgroepen in een A/B-test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [Meerdere ervaringsdoelgroepen in een bèta A/B-test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md)
    + Automatisch toewijzen {#auto-allocate}
       + [Overzicht van automatisch toewijzen](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Een activiteit voor automatisch toewijzen maken](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
