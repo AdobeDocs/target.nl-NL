@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 54be0689d6e8aea9d7923a93a1660548894d9941
+source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1394'
 ht-degree: 2%
 
 ---
@@ -123,8 +123,11 @@ ht-degree: 2%
          + [Een A/B-test maken](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [Een bètatest A/B maken](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md)
          + [URL van activiteit](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
+         + [Activiteit-URL-bètaversie](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md)
          + [Ervaring toevoegen](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
+         + [Ervaring bèta toevoegen](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md)
          + [Doelgroep selecteren](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
+         + [bètaversie van publiek selecteren](c-activities/t-test-ab/t-test-create-ab/ab-audience-beta.md)
          + [Doelstellingen en instellingen](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
          + [Analysegegevens gebruiken](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Metrisch instellen](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
