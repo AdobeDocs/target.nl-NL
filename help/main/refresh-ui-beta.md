@@ -6,7 +6,8 @@ badgePremium: label="Beta" type="Informative" url="https://experienceleague.adob
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 23f6a8bfd198649ea1e234dbd57593eb868fc569
+exl-id: 54834393-9121-41e7-93fb-b00924869d73
+source-git-commit: f44189ee552f153f8b0d08bc427189712e37d636
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -30,19 +31,19 @@ Gebruik deze koppelingen om toegang te krijgen tot bijgewerkte documentatie als 
 * [ Overzicht van Activiteiten ](c-activities/activities.md){target=_blank}
 * [ de activiteitstypes van het Doel ](c-activities/target-activities-guide.md){target=_blank}
 * A/B-test {#abtest}
-   * [ A/B testoverzicht ](c-activities/t-test-ab/test-ab.md){target=_blank}
+   * [ A/B testoverzicht ](c-activities/t-test-ab/test-ab-beta.md){target=_blank}
    * [ hoe lang zou u een test A/B in werking moeten stellen?](c-activities/t-test-ab/sample-size-determination.md){target=_blank}
    * [ tien gemeenschappelijke A/B testende valkuilen en hoe te om hen te vermijden ](c-activities/t-test-ab/common-ab-testing-pitfalls.md){target=_blank}
    * [ het testen A/A ](/help/main/c-activities/t-test-ab/aa-testing.md){target=_blank}
    * Een A/B-test maken {#create}
-      * [ creeer een test A/B ](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md){target=_blank}
-      * [ Activiteit URL ](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md){target=_blank}
-      * [ voeg ervaring ](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md){target=_blank} toe
+      * [ creeer een test A/B ](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md){target=_blank}
+      * [ Activiteit URL ](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md){target=_blank}
+      * [ voeg ervaring ](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md){target=_blank} toe
       * [ Uitgezochte publiek ](c-activities/t-test-ab/t-test-create-ab/ab-audience.md){target=_blank}
-      * [ Doelen en montages ](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md){target=_blank}
+      * [ Doelen en montages ](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md){target=_blank}
       * [ Gegevens van de Analyse van het Gebruik ](c-activities/t-test-ab/t-test-create-ab/create-a4t.md){target=_blank}
-      * [ vastgestelde metriek ](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md){target=_blank}
-      * [ Veelvoudig ervaringspubliek in een Test A/B ](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md){target=_blank}
+      * [ vastgestelde metriek ](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md){target=_blank}
+      * [ Veelvoudig ervaringspubliek in een Test A/B ](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md){target=_blank}
 * Automatisch toewijzen {#auto-allocate}
    * [ auto-Wijs overzicht ](c-activities/automated-traffic-allocation/automated-traffic-allocation.md){target=_blank} toe
    * [ creeer een auto-Wijs activiteit ](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md){target=_blank} toe
@@ -180,4 +181,3 @@ Gebruik deze koppelingen om toegang te krijgen tot bijgewerkte documentatie als 
    * [ Klassieke documentatie van Recommendations ](/help/main/c-recommendations/recommendations-classic-documentaton.md){target="_blank"}
 
 +++
-
