@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1447'
 ht-degree: 2%
 
 ---
@@ -153,10 +153,13 @@ ht-degree: 2%
       + [Automated Personalization-overzicht](c-activities/t-automated-personalization/automated-personalization.md)
       + [Random Forest Algorithm](c-activities/t-automated-personalization/algo-random-forest.md)
       + [Een Automated Personalization-activiteit maken](c-activities/t-automated-personalization/create-ap-activity.md)
+      + [Een bètaversie van Automated Personalization-activiteit maken](c-activities/t-automated-personalization/create-ap-activity-beta.md)
       + [Gegevens uploaden voor de Target-verpersoonlijkingsalgoritmen](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Gegevensverzameling voor de personalisatiealgoritmen van het Doel](c-activities/t-automated-personalization/ap-data.md)
       + [Schatting van het verkeer dat voor succes wordt vereist](c-activities/t-automated-personalization/ap-traffic-estimator.md)
+      + [Schatting van het verkeer dat voor succesbèta wordt vereist](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md)
       + [Voorvertoning van een Automated Personalization-test](c-activities/t-automated-personalization/ap-preview-experiences.md)
+      + [Voorvertoning van ervaringen met een bètaversie van een Automated Personalization-test](c-activities/t-automated-personalization/ap-preview-experiences-beta.md)
       + [Automated Personalization-doelaanbiedingen](c-activities/t-automated-personalization/ap-target-offers.md)
       + [Uitsluitingen beheren](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Rapportagegroepen aanbieden in Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
