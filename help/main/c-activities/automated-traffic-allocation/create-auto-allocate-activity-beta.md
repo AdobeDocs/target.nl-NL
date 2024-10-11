@@ -1,28 +1,24 @@
 ---
-keywords: A/B;A/B test;A/B activiteit;nieuwe a/b activiteit;creeer a/b
-description: Meester [!UICONTROL Visual Experience Composer] (VEC) om de activiteiten van de Test van A/B rechtstreeks op a  [!DNL Target]-Toegelaten pagina tot stand te brengen.
-title: Hoe maak ik een A/B-test?
-feature: A/B Tests
+keywords: automatisch toewijzen maken;A/B-test;automatisch toewijzen van activiteit;nieuwe a/b-activiteit;automatisch toewijzen;automatisch toewijzen aan beste ervaring;toewijzen;automatisch toewijzen
+description: Leer hoe u [!UICONTROL Visual Experience Composer] (VEC) gebruikt om [!UICONTROL Auto-Allocate] A/B-testactiviteiten te maken.
+title: Hoe maak ik een [!UICONTROL Auto-Allocate] -activiteit?
+feature: Auto-Allocate
 hide: true
 hidefromtoc: true
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+source-git-commit: fb29bd9704d3c2c3cf2c225114b2e52dc5061796
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
 
-# Een A/B-testactiviteit maken
+# Een [!UICONTROL Auto-Allocate] activiteit maken
 
-Gebruik [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] om [!UICONTROL A/B Test] -activiteiten rechtstreeks op een pagina met [!DNL Target] activering te maken en paginagedeelten in [!DNL Target] te wijzigen.
+Gebruik [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] om uw [!UICONTROL Auto-Allocate] [!UICONTROL A/B Test] -activiteit rechtstreeks op een pagina met [!DNL Target] functies te maken en om delen van de pagina binnen [!DNL Target] te wijzigen.
 
->[!NOTE]
->
->Naast de [!UICONTROL Manual] (Standaard) [!UICONTROL A/B Test] -activiteit (die in dit artikel wordt besproken), biedt [!DNL Target] twee extra typen [!UICONTROL A/B Test] -activiteiten: [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] .
->
->Zie [ Types van A/B het Testen activiteiten ](/help/main/c-activities/t-test-ab/test-ab.md#types) in *A/B het overzicht van de Test*.
+Naast de [!UICONTROL Auto-Allocate] [!UICONTROL A/B Test] -activiteit (die in dit artikel wordt besproken), biedt [!DNL Target] twee extra typen [!UICONTROL A/B Test] -activiteiten: [!UICONTROL Manual (Default)] en [!UICONTROL Auto-Target] . Zie [ Types van A/B het Testen activiteiten ](/help/main/c-activities/t-test-ab/test-ab.md#types) in *A/B het overzicht van de Test*.
 
-Een handmatige [!UICONTROL A/B Test] activiteit maken:
+Een [!UICONTROL Auto-Allocate] -activiteit maken:
 
 1. Klik in de lijst **[!UICONTROL Activities]** op **[!UICONTROL Create Activity]** > **[!UICONTROL A/B Test]** .
 
@@ -108,11 +104,11 @@ Een handmatige [!UICONTROL A/B Test] activiteit maken:
 
    U kunt bijvoorbeeld items beperken tot 50% van alle bezoekers of 45% van uw &quot;Californische&quot; publiek.
 
-1. Klik de **[!UICONTROL Traffic Allocation]** controle, dan kies de gewenste methode van de verkeerstoewijzing in de juiste ruit, zoals hieronder getoond:
+1. Klik de **[!UICONTROL Traffic Allocation]** controle, dan kies de gewenste methode van de verkeerstoewijzing in de juiste ruit. Klik in dit scenario op **[!UICONTROL Auto-Allocate to best experience]** .
 
    ![ montages van de Methode van de Toewijzing van het Verkeer ](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
-   Kies uw gewenste methode voor verkeerstoewijzing:
+   De volgende methoden voor verkeerstoewijzing zijn beschikbaar:
 
    * **[!UICONTROL Manual (Default)]**: geef het percentage van de gegadigden op dat u elke ervaring wilt zien. U kunt de percentages gelijkmatig over alle ervaringen verdelen, of hogere of lagere percentages voor elke ervaring specificeren. Het totaal voor alle ervaringen moet 100% bedragen.
 
@@ -125,6 +121,10 @@ Een handmatige [!UICONTROL A/B Test] activiteit maken:
 1. Als u tevreden bent met het publiek, de ervaringsopties en de keuzes voor verkeerstoewijzing, klikt u op **[!UICONTROL Next]** om naar de derde stap van de driestappenworkflow met instructies te gaan.
 
 1. Specificeer de [ doelstellingen en de montages ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) voor de activiteit.
+
+   >[!NOTE]
+   >
+   >Als u [ Analytics voor Doel ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) met deze activiteit wilt gebruiken, zie belangrijke informatie in [ steun A4T voor auto-Wijs en auto-Doel activiteiten ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 1. Klik op **[!UICONTROL Save & Close]** of **[!UICONTROL Save]** .
 

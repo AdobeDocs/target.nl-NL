@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: f4af2527bfed992e6d341b503aa84ae74dc34d89
+source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1426'
 ht-degree: 2%
 
 ---
@@ -138,11 +138,15 @@ ht-degree: 2%
    + Automatisch toewijzen {#auto-allocate}
       + [Overzicht van automatisch toewijzen](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Een activiteit voor automatisch toewijzen maken](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
+      + [Een activiteit voor automatisch toewijzen maken](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md)
       + [Rapporten automatisch toewijzen interpreteren](c-activities/automated-traffic-allocation/determine-winner.md)
+      + [De bètaversie van rapporten automatisch toewijzen interpreteren](c-activities/automated-traffic-allocation/determine-winner-beta.md)
       + [Automatisch toewijzen kan u snellere testresultaten en hogere opbrengsten opleveren dan een handmatige test](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + Automatisch doel {#auto-target}
       + [Overzicht van automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+      + [bètaversie van AutoTarget-overzicht](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md)
       + [Een automatisch doelactiviteit maken](/help/main/c-activities/auto-target/create-auto-target.md)
+      + [Een bètaversie van Auto-Target-activiteit maken](/help/main/c-activities/auto-target/create-auto-target-beta.md)
       + [Veelgestelde vragen en problemen automatisch oplossen](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [Rapportage en automatisch doel](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
