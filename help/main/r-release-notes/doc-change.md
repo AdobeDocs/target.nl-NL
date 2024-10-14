@@ -4,9 +4,9 @@ description: Houd bijgewerkt met belangrijke toevoegingen en veranderingen in de
 title: Waar kan ik documentatieupdates voor  [!DNL Target] zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
+source-git-commit: 78a7f7deb2654b7a1cb25e43beabf82b161205ff
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 |--- |--- |--- |
+| 14 oktober | [[!DNL Target]  versienota&#39;s (prerelease) ](/help/main/r-release-notes/target-release-notes.md) | Opmerkingen bij de release [!DNL Target Standard/Premium] 24.10.2 toegevoegd. |
 | 30 september | [ Limieten ](/help/main/r-troubleshooting-target/target-limits.md) | Het toegestane aantal voorstellen is bijgewerkt. |
 | 29 september | [ at.js versiedetails ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions) {target=_blank} | Toegevoegde informatie over de release at.js 2.11.6. |
 | 11 september | [ Gebruikers ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | De volgende opmerking is toegevoegd onder Rollen en machtigingen opgeven:<P> Als u activiteiten wilt weergeven in [!DNL Target] , moeten gebruikers rechtstreeks worden toegewezen aan een werkruimte met ten minste de rol [!UICONTROL Observer] . Toewijzing via alleen gebruikersgroepen is onvoldoende. Het wordt over het algemeen aanbevolen gebruikers toegang te verlenen tot de standaardwerkruimte. |
