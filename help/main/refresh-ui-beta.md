@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: f44189ee552f153f8b0d08bc427189712e37d636
+source-git-commit: 8038be5a536ad52b5fd7e1c835bb0b48630a8a11
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -28,42 +28,27 @@ Gebruik deze koppelingen om toegang te krijgen tot bijgewerkte documentatie als 
 
 ++ + klikken om uit te breiden
 
-* [ Overzicht van Activiteiten ](c-activities/activities.md){target=_blank}
-* [ de activiteitstypes van het Doel ](c-activities/target-activities-guide.md){target=_blank}
 * A/B-test {#abtest}
    * [ A/B testoverzicht ](c-activities/t-test-ab/test-ab-beta.md){target=_blank}
-   * [ hoe lang zou u een test A/B in werking moeten stellen?](c-activities/t-test-ab/sample-size-determination.md){target=_blank}
-   * [ tien gemeenschappelijke A/B testende valkuilen en hoe te om hen te vermijden ](c-activities/t-test-ab/common-ab-testing-pitfalls.md){target=_blank}
-   * [ het testen A/A ](/help/main/c-activities/t-test-ab/aa-testing.md){target=_blank}
-   * Een A/B-test maken {#create}
       * [ creeer een test A/B ](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md){target=_blank}
       * [ Activiteit URL ](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md){target=_blank}
       * [ voeg ervaring ](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md){target=_blank} toe
-      * [ Uitgezochte publiek ](c-activities/t-test-ab/t-test-create-ab/ab-audience.md){target=_blank}
       * [ Doelen en montages ](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md){target=_blank}
-      * [ Gegevens van de Analyse van het Gebruik ](c-activities/t-test-ab/t-test-create-ab/create-a4t.md){target=_blank}
       * [ vastgestelde metriek ](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md){target=_blank}
       * [ Veelvoudig ervaringspubliek in een Test A/B ](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md){target=_blank}
 * Automatisch toewijzen {#auto-allocate}
-   * [ auto-Wijs overzicht ](c-activities/automated-traffic-allocation/automated-traffic-allocation.md){target=_blank} toe
-   * [ creeer een auto-Wijs activiteit ](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md){target=_blank} toe
-   * [ interpreteer auto-Wijs rapporten ](c-activities/automated-traffic-allocation/determine-winner.md){target=_blank} toe
-   * [ auto-toewijst kan u snellere testresultaten en hogere opbrengst dan een handtest geven ](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md){target=_blank}
+   * [ creeer een auto-Wijs activiteit ](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md){target=_blank} toe
+   * [ interpreteer auto-Wijs rapporten ](c-activities/automated-traffic-allocation/determine-winner-beta.md){target=_blank} toe
 * Automatisch doel {#auto-target}
-   * [ Auto-Doel overzicht ](/help/main/c-activities/auto-target/auto-target-to-optimize.md){target=_blank}
-   * [ creeer een auto-Doelactiviteit ](/help/main/c-activities/auto-target/create-auto-target.md){target=_blank}
+   * [ Auto-Doel overzicht ](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md){target=_blank}
+   * [ creeer een auto-Doelactiviteit ](/help/main/c-activities/auto-target/create-auto-target-beta.md){target=_blank}
    * [ auto-Doel FAQs en het oplossen van problemen ](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md){target=_blank}
-   * [ Meldend en auto-Doel ](/help/main/c-activities/auto-target/reporting-and-auto-target.md){target=_blank}
 * Automated Personalization {#automated-personalization}
-   * [ overzicht van Automated Personalization ](c-activities/t-automated-personalization/automated-personalization.md){target=_blank}
-   * [ Willekeurig Bos Algorithm ](c-activities/t-automated-personalization/algo-random-forest.md){target=_blank}
-   * [ creeer een activiteit van Automated Personalization ](c-activities/t-automated-personalization/create-ap-activity.md){target=_blank}
-   * [ upload gegevens voor de de verpersoonlijkingsalgoritmen van het Doel ](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md){target=_blank}
-   * [ inzameling van Gegevens voor de de verpersoonlijkingsalgoritmen van het Doel ](c-activities/t-automated-personalization/ap-data.md){target=_blank}
-   * [ schat het verkeer dat voor succes ](c-activities/t-automated-personalization/ap-traffic-estimator.md){target=_blank} wordt vereist
-   * [ Ervaringen van de Voorproef voor een test van Automated Personalization ](c-activities/t-automated-personalization/ap-preview-experiences.md){target=_blank}
+   * [ creeer een activiteit van Automated Personalization ](c-activities/t-automated-personalization/create-ap-activity-beta.md){target=_blank}
+   * [ schat het verkeer dat voor succes ](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md){target=_blank} wordt vereist
+   * [ Ervaringen van de Voorproef voor een test van Automated Personalization ](c-activities/t-automated-personalization/ap-preview-experiences-beta.md){target=_blank}
    * [ de aanbiedingen van Automated Personalization van het Doel ](c-activities/t-automated-personalization/ap-target-offers.md){target=_blank}
-   * [ beheert uitsluitingen ](c-activities/t-automated-personalization/managing-exclusions.md){target=_blank}
+   * [ beheert uitsluitingen ](c-activities/t-automated-personalization/managing-exclusions-beta.md){target=_blank}
    * [ de rapporteringsgroepen van de Aanbieding in Automated Personalization ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md){target=_blank}
    * [ selecteer de controle voor uw Automated Personalization of auto-Doel activiteit ](c-activities/t-automated-personalization/experience-as-control.md){target=_blank}
    * [ Veelgestelde vragen van Automated Personalization ](c-activities/t-automated-personalization/automated-personalization-faq.md){target=_blank}

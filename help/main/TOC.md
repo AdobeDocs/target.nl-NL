@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
+source-git-commit: 2eb99fb0c108b600d098fc14036b678c50e689b3
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1454'
 ht-degree: 2%
 
 ---
@@ -161,7 +161,9 @@ ht-degree: 2%
       + [Voorvertoning van een Automated Personalization-test](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [Voorvertoning van ervaringen met een bètaversie van een Automated Personalization-test](c-activities/t-automated-personalization/ap-preview-experiences-beta.md)
       + [Automated Personalization-doelaanbiedingen](c-activities/t-automated-personalization/ap-target-offers.md)
+      + [Target Automated Personalization biedt bèta](c-activities/t-automated-personalization/ap-target-offers-beta.md)
       + [Uitsluitingen beheren](c-activities/t-automated-personalization/managing-exclusions.md)
+      + [bètaversie van uitsluitingen beheren](c-activities/t-automated-personalization/managing-exclusions-beta.md)
       + [Rapportagegroepen aanbieden in Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
       + [Selecteer het besturingselement voor uw Automated Personalization- of AutoTarget-activiteit](c-activities/t-automated-personalization/experience-as-control.md)
       + [Veelgestelde vragen over Automated Personalization](c-activities/t-automated-personalization/automated-personalization-faq.md)
