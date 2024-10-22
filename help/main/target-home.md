@@ -1,12 +1,12 @@
 ---
-keywords: Doel;home;populaire onderwerpen;adobe target;target standard;target premium;target premium;target documentatie;adobe target documentation
+keywords: Doel;home;populaire onderwerpen;adobe target;target standard;target premium;target documentation;adobe target documentation;praktische gids;gebruikershandleiding
 title: Handleiding Adobe Target Business Practitioner
 description: Leer hoe te om Adobe  [!DNL Target]  te gebruiken om de ervaring van uw klanten te personaliseren om opbrengst op uw Web en mobiele plaatsen, apps, en andere digitale kanalen te maximaliseren.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: b1ead7317debadafcb42469894cdb7b6ba337110
+source-git-commit: 9761a1ce4a583b39f7093bf9a3761e5268fe0e9c
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
