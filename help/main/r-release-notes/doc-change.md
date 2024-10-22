@@ -4,9 +4,9 @@ description: Houd bijgewerkt met belangrijke toevoegingen en veranderingen in de
 title: Waar kan ik documentatieupdates voor  [!DNL Target] zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
+source-git-commit: b1ead7317debadafcb42469894cdb7b6ba337110
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 |--- |--- |--- |
+| 22 oktober | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | De volgende belangrijke informatie is toegevoegd:<ul><li>[!DNL Adobe Experience Platform Web SDK] `__view__` bereik optimaliseren</li></ul> |
 | 14 oktober | [[!DNL Target]  versienota&#39;s (prerelease) ](/help/main/r-release-notes/target-release-notes.md) | Opmerkingen bij de release [!DNL Target Standard/Premium] 24.10.2 toegevoegd. |
 |  | [[!UICONTROL Visual Experience Composer] helperuitbreiding ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Belangrijke informatie over het gebruik van de extensie met Private Chrome Web Stores is toegevoegd. |
 |  | [[!UICONTROL Visual Editing Helper] extension ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Belangrijke informatie over het gebruik van de extensie met Private Chrome Web Stores is toegevoegd. |
