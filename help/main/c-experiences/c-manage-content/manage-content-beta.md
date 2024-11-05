@@ -7,9 +7,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
+source-git-commit: 0c86e142b7d459d07af51ec0c3454611564c8e08
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Ontdek hoe u code- en afbeeldingsaanbiedingen efficiënt kunt beheren met de [!U
 
 >[!NOTE]
 >
->Dit artikel bevat informatie over updates van de gebruikersinterface van [!DNL Target] die momenteel deel uitmaakt van een Beta-programma. Het team van [!DNL Adobe Target] laat vaak nieuwe eigenschappen voor bepaalde klanten voor het testen en terugkoppelen doeleinden toe. Nadat de testperiode is voltooid, worden deze functies in toekomstige versies van [!DNL Target Standard/Premium] voor alle klanten ingeschakeld en in releaseopmerkingen aangekondigd.
+>Dit artikel bevat informatie over updates van de gebruikersinterface van [!DNL Target] die momenteel deel uitmaakt van een Beta-programma. Het team van [!DNL Adobe Target] laat vaak nieuwe eigenschappen voor bepaalde klanten voor het testen en terugkoppelen doeleinden toe. Nadat de testende periode voltooit, worden deze eigenschappen toegelaten voor alle klanten in toekomstige [!DNL Target] versies en in [ versienota&#39;s ](/help/main/r-release-notes/release-notes.md) aangekondigd.
 
 Als u de [!UICONTROL Offers] -bibliotheek wilt weergeven, klikt u op het tabblad **[!UICONTROL Offers]** boven aan de gebruikersinterface van [!DNL Target] .
 
@@ -33,14 +33,16 @@ De [!UICONTROL Offers] -bibliotheek biedt een overzicht van alle code en afbeeld
 | Element | Beschrijving |
 |--- |--- |
 | Linkernavigatieregel | Schakel tussen het weergeven van [!UICONTROL Code Offers] of [!UICONTROL Image Offers] . |
+| [!UICONTROL Show Folders] / [!UICONTROL Hide Folders]<P>![ toon Filters/verberg Filters pictogram ](/help/main/assets/icons/RailLeft.svg) | Klik op het pictogram **[!UICONTROL Show Folders]** of **[!UICONTROL Hide Folders]** om te schakelen tussen het weergeven van de mappenstructuur voor aanbiedingen of het niet weergeven van de mappenstructuur.<P>Voor meer informatie, zie [ aanbiedingsomslagen ](/help/main/c-experiences/c-manage-content/create-content-folder.md) creëren. |
 | [!UICONTROL Show filters] pictogram<P>![ toon Filters pictogram ](/help/main/assets/icons/Filter.svg) | Klik op het pictogram **[!UICONTROL Show filters]** om aanbiedingen te filteren op [!UICONTROL Type] , [!UICONTROL Source] en [!UICONTROL AEM Type] .<P>Voor meer informatie, zie [ filters op de lijst van Aanbiedingen ](#filters) hieronder toepassen. |
 | Zoeken in velden | Gebruik de velden **[!UICONTROL Search in]** om snel een aanbieding te vinden of om het aantal aanbiedingen dat wordt weergegeven in de [!UICONTROL Offers] -bibliotheek te verminderen. U kunt zoeken op [!UICONTROL Offer Name] , [!UICONTROL AEM Paths] of [!UICONTROL AEM Tags] . |
 | [!UICONTROL Create Folder] | Klik op **[!UICONTROL Create Folder]** om mappen in de [!UICONTROL Offer] -bibliotheek te maken voor de opslag van codeaanbiedingen, afbeeldingsaanbiedingen en andere mappen om een submapstructuur te maken.<P>Voor meer informatie, zie [ aanbiedingsomslagen ](/help/main/c-experiences/c-manage-content/create-content-folder.md) creëren. |
 | [!UICONTROL [!UICONTROL Create Offer]] | Klik op **[!UICONTROL Create Offer]** om een aanbieding te maken.<P>Zie voor meer informatie over het maken van de verschillende soorten aanbiedingen: <ul><li>HTML-aanbod</li><li>[ Aanbieding JSON ](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[ Redirect Aanbieding ](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[ Verre Aanbieding ](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
 | Selectievakjes voor bulkbewerkingen<P>![ het pictogram van Verrichtingen van het Bulk ](/help/main/assets/icons/Rectangle.svg) | Klik op de selectievakjes [!UICONTROL Bulk Operations] om bulkbewerkingen uit te voeren op alle aanbiedingen of op geselecteerde aanbiedingen.<P>Voor een lijst van acties die (afhankelijk van uw toestemmingen en de aanbiedingsstatus) beschikbaar zijn, zie [ snelle acties ](#quick-actions) hieronder uitvoeren. |
-| [!UICONTROL Name] | De naam van elke aanbieding.<P>Klik het **[!UICONTROL Quick Info]** pictogram ( ![ Snelle pictogram van Info ](/help/main/assets/icons/InfoOutline.svg)) naast elke aanbiedingsnaam om meer informatie over die aanbieding in een pop-up kaart, met inbegrip van aanbiedingsidentiteitskaart, type, datum te bekijken de aanbieding, laatst gewijzigd en door wie, en meer.<p>Klik het **[!UICONTROL More Actions]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallList.svg)) naast elke aanbiedingsnaam om een menu te openen dat u snelle acties op een activiteit laat uitvoeren. De volgende handelingen zijn beschikbaar (afhankelijk van uw machtigingen en de status van het aanbod): [!UICONTROL Edit], [!UICONTROL Copy], [!UICONTROL Delete] en [!UICONTROL Move] . Voor meer informatie over elke actie, zie [ snelle acties ](#quick-actions) hieronder uitvoeren.<P>Klik op de tabelkop om de lijst alfabetisch te sorteren in oplopende of aflopende volgorde op naam. |
+| [!UICONTROL Name] | De naam van elke aanbieding.<P>Klik het **[!UICONTROL Quick Info]** pictogram ( ![ Snelle pictogram van Info ](/help/main/assets/icons/InfoOutline.svg)) naast elke aanbiedingsnaam om meer informatie over die aanbieding in een pop-up kaart, met inbegrip van aanbiedingsidentiteitskaart, type, datum te bekijken de aanbieding het laatst werd gewijzigd en door wie, en meer.<p>Klik het **[!UICONTROL More Actions]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallList.svg)) naast elke aanbiedingsnaam om een menu te openen dat u snelle acties op een activiteit laat uitvoeren. De volgende handelingen zijn beschikbaar (afhankelijk van uw machtigingen en de status van het aanbod): [!UICONTROL Edit], [!UICONTROL Copy], [!UICONTROL Delete] en [!UICONTROL Move] . Voor meer informatie over elke actie, zie [ snelle acties ](#quick-actions) hieronder uitvoeren.<P>Klik op de tabelkop om de lijst alfabetisch te sorteren in oplopende of aflopende volgorde op naam. |
 | [!UICONTROL Type] | Het aanbiedingstype: [!UICONTROL HTML Offers], [[!UICONTROL Redirect Offers]](/help/main/c-experiences/c-manage-content/offer-redirect.md), [[!UICONTROL Remote Offers]](/help/main/c-experiences/c-manage-content/about-remote-offers.md) en [[!UICONTROL JSON Offers]](/help/main/c-experiences/c-manage-content/create-json-offer.md). |
 | [!UICONTROL Source] | Toont waar de aanbieding is gemaakt: [!DNL Adobe Target], [!DNL Adobe Target Classic] en [!DNL Adobe Experience Manager] . |
+| [!UICONTROL Last updated] | Geeft de datum en tijd weer waarop de aanbieding voor het laatst is gewijzigd en door wie.<P>Klik op de tabelkop om de lijst op datum in oplopende of aflopende volgorde te sorteren. |
 
 ## Filters toepassen op de bibliotheek met aanbiedingen {#filters}
 
@@ -64,18 +66,18 @@ Klik het **[!UICONTROL Quick Info]** pictogram ( ![ Snelle pictogram van Info ](
 
 ### Meer handelingen
 
-De beschikbare acties voor Codevoorstellen en voor Afbeeldingsaanbiedingen verschillen enigszins. De volgende secties bevatten meer informatie:
+De beschikbare acties voor [!UICONTROL Code Offers] en voor [!UICONTROL Image Offers] verschillen enigszins. De volgende secties bevatten meer informatie:
 
 #### [!UICONTROL Code Offer] opties
 
 Klik het **[!UICONTROL More actions]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallList.svg)) naast elke aanbiedingsnaam om een menu te openen dat u snelle acties op een activiteit laat uitvoeren.
 
-De volgende handelingen zijn beschikbaar (afhankelijk van uw machtigingen en de status van het aanbod): [!UICONTROL Edit], [!UICONTROL Copy], [!UICONTROL Delete] en [!UICONTROL Move] .
+De volgende acties zijn beschikbaar (afhankelijk van uw machtigingen en de status van het aanbod):
 
 * [!UICONTROL Edit]
 * [!UICONTROL Copy]
 * [!UICONTROL Delete]
-* [!UICONTROL Move] (Als u bijvoorbeeld een of meer items naar een map wilt verplaatsen, klikt u op het pictogram **[!UICONTROL Move]** voor het gewenste item, klikt u op de gewenste map en vervolgens op **[!UICONTROL Drop]** .)
+* [!UICONTROL Move] (Als u bijvoorbeeld een of meer items naar een map wilt verplaatsen, klikt u op **[!UICONTROL Move]** naast het gewenste item, klikt u op de gewenste map en vervolgens op **[!UICONTROL Move]** .)
 
 Afhankelijk van uw machtigingen worden mogelijk niet alle pictogrammen voor opties weergegeven. Een gebruiker met [!UICONTROL Observer] -machtigingen heeft bijvoorbeeld niet de rechten om de optie [!UICONTROL Copy] te gebruiken.
 
@@ -108,11 +110,8 @@ Om de details van de aanbiedingsdefinitie op een pop-up kaart in de [!UICONTROL 
 De volgende informatie is beschikbaar:
 
 * [!UICONTROL Name]
-* [!UICONTROL Source]
 * [!UICONTROL Offer ID]
 * [!UICONTROL Type]
 * [!UICONTROL Last Modified]
-* [!UICONTROL Offer path]
-
 
 Klik op de koppeling [!UICONTROL View Full Details] om de kenmerken en activiteiten van de aanbieding te bekijken die verwijzen naar een codeaanbieding in de definitie-pop-upkaart van elke aanbieding. Deze functionaliteit is niet van toepassing op afbeeldingsaanbiedingen. Op deze manier voorkomt u dat andere activiteiten worden beïnvloed tijdens het bewerken van aanbiedingen. Deze informatie bevat gegevens voor [!UICONTROL Live Activities] en [!UICONTROL Inactive Activities] .
