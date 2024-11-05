@@ -1,26 +1,26 @@
 ---
 keywords: omleiden aanbieding;aanbieding voor omleiding maken;aanbieding voor HTML toevoegen;Alle URL-parameters doorgeven in omleiding
-description: Leer hoe u omleidingsvoorstellen kunt maken zodat een browser omleidt naar een nieuwe pagina.
+description: Leer hoe u omleidingsvoorstellen maakt om browsers naadloos naar nieuwe pagina's te leiden.
 title: Hoe maak ik omleidingsvoorstellen?
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
 exl-id: 751a8d97-2e35-4527-99f3-d7a42c104fcb
-source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
+source-git-commit: 4b57712b838906611702db521b51af84077501e6
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
 
 # Omleidingsvoorstellen maken
 
-Omleidingsvoorstellen maken in [!DNL Adobe Target] zodat een browser omleidt naar een nieuwe pagina.
+Leer hoe u omleidingsvoorstellen maakt om browsers naadloos naar nieuwe pagina&#39;s te leiden.
 
 >[!NOTE]
 >
->Dit artikel bevat informatie over updates van de gebruikersinterface van [!DNL Target] die momenteel deel uitmaakt van een Beta-programma. Het team van [!DNL Adobe Target] laat vaak nieuwe eigenschappen voor bepaalde klanten voor het testen en terugkoppelen doeleinden toe. Nadat de testperiode is voltooid, worden deze functies in toekomstige versies van [!DNL Target Standard/Premium] voor alle klanten ingeschakeld en in releaseopmerkingen aangekondigd.
+>Dit artikel bevat informatie over updates van de gebruikersinterface van [!DNL Target] die momenteel deel uitmaakt van een Beta-programma. Het team van [!DNL Adobe Target] laat vaak nieuwe eigenschappen voor bepaalde klanten voor het testen en terugkoppelen doeleinden toe. Nadat de testende periode voltooit, worden deze eigenschappen toegelaten voor alle klanten in toekomstige [!DNL Target] versies en in [ versienota&#39;s ](/help/main/r-release-notes/release-notes.md) aangekondigd.
 
 U hebt misschien twee volledig verschillende pagina&#39;s om te testen in plaats van alleen maar stukken inhoud binnen een pagina te wijzigen. In dit geval vergelijkt uw A/B-test pagina A met pagina B. Stel een [!UICONTROL A/B Test] -activiteit in met twee ervaringen: een die verwijst naar de standaardpagina A en een andere die wordt doorgestuurd naar pagina B. De aanbieding is geconfigureerd om de bezoeker om te leiden naar een andere pagina.
 
@@ -30,7 +30,7 @@ U hebt misschien twee volledig verschillende pagina&#39;s om te testen in plaats
 >
 >* Je kunt geen omleidingsvoorstellen gebruiken in AJAX (`mboxUpdate`).
 >
->* Voor omleidingsaanbiedingen in activiteiten die [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) gebruiken, moet uw implementatie aan bepaalde minimumvereisten voldoen. Bovendien is er belangrijke informatie die u moet weten. Voor meer informatie, zie [ Aanbiedingen opnieuw richten - Veelgestelde vragen A4T ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+>* Voor omleidingsaanbiedingen in activiteiten die [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) gebruiken, moet uw implementatie aan bepaalde minimumvereisten voldoen. Bovendien is er belangrijke informatie die u moet weten. Zie [ Vergelijkende Aanbiedingen - Veelgestelde vragen A4T ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 >
 >* Voor informatie over vestiging een ervaring die opnieuw richt, zie [ opnieuw richten aan een URL ](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA).
 
@@ -58,25 +58,25 @@ De omleidingsaanbieding voert de code van JavaScript uit om browser om te leiden
 
 1. Selecteer de gewenste opties om uw omleidingsvoorstel aan te passen:
 
-   * **omvat alle parameters URL:** laat deze optie toe als u alle parameters URL huidig op de vorige pagina aan de opnieuw gerichte pagina wilt worden verspreid.
+   * **[!UICONTROL Include all URL parameters]:** Schakel deze optie in als u wilt dat alle URL-parameters op de vorige pagina worden doorgegeven aan de omgeleide pagina.
 
-     U wilt bijvoorbeeld mensen rechtstreeks van een mannenpagina omleiden naar de categoriepagina voor heren. U wilt ook dat de dynamische parameters in de URL worden doorgegeven, omdat u op deze manier bijhoudt of mensen uw site via e-mail, banneradvertentie, zoekadvertentie of organisch hebben bereikt. Als u deze optie inschakelt, wordt uw omleidingsvoorstel op pagina `https://www.mycompany.com/mens.html?emailId=123` automatisch `https://www.mycompany.com/mensShirts.html?emailId=123` wanneer u alleen in het vak URL hebt opgegeven `https://www.mycompany.com/mensShirts.html` .
+     U wilt bijvoorbeeld mensen rechtstreeks van een mannenpagina omleiden naar de categoriepagina voor heren. U wilt ook dat de dynamische parameters in de URL worden doorgegeven, omdat u met deze methode kunt bijhouden of personen uw site via e-mail, banneradvertentie, zoekadvertentie of organisch hebben bereikt. Als u deze optie inschakelt, wordt uw omleidingsvoorstel op pagina `https://www.mycompany.com/mens.html?emailId=123` automatisch `https://www.mycompany.com/mensShirts.html?emailId=123` wanneer u alleen in het vak URL hebt opgegeven `https://www.mycompany.com/mensShirts.html` .
 
-   * **Identiteitskaart van de Methakersessie van de Controle:** Vereist om aan een verschillend domein opnieuw te richten. Schuif de schakeloptie om deze optie in te schakelen als u wilt dat de `sessionId` automatisch wordt opgenomen in de omleiding. Deze optie is alleen vereist wanneer u een e-mail test of op een ander domein klikt. De `sessionId` komt overeen met het cookie van de bezoeker, zodat de bezoeker kan blijven worden gevolgd en de juiste inhoud wordt weergegeven.
+   * **[!UICONTROL Pass mbox session ID]:** vereist om naar een ander domein om te leiden. Schuif de schakeloptie om deze optie in te schakelen als u wilt dat de `sessionId` automatisch wordt opgenomen in de omleiding. Deze optie is alleen vereist wanneer u een e-mail test of op een ander domein klikt. De `sessionId` komt overeen met het cookie van de bezoeker, zodat de bezoeker kan blijven worden gevolgd en de juiste inhoud wordt weergegeven.
 
      Als u de setup van het cookie van de eerste en de derde partij gebruikt, hoeft u de sessie-id van de box niet door te geven wanneer u domeinen overschrijdt. De URL is blijvend in een cookie van een andere fabrikant, dus niet nodig in de URL.
 
 1. Klik op **[!UICONTROL Create]**.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Vraag uw implementatieconsultant voordat u deze tests start.
 
 ## Een omleidingsvoorstel maken met de [!UICONTROL Form-Based Experience Composer]
 
 1. Terwijl het creëren van een activiteit die [ op vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) gebruikt, selecteer de plaats om de **[!UICONTROL Content]** sectie te tonen.
-1. Klik op de vervolgkeuzelijst **[!UICONTROL Default Content]** en klik vervolgens op **[!UICONTROL Change Redirect Offer]** .
-1. Klik op **[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]** .
+1. Klik de **[!UICONTROL Content]** drop-down lijst, klik het **[!UICONTROL List]** pictogram ( ![ Lijst ](/help/main/assets/icons/MoreSmallList.svg)), dan klik **[!UICONTROL Change Redirect Offer]**.
+1. Klik op **[!UICONTROL Create Offer]** > **[!UICONTROL Redirect Offer]** .
 1. Geef een beschrijvende naam op voor de aanbieding.
 
    Met een beschrijvende naam kunnen u en anderen snel de aanbieding in de [!UICONTROL Assets] -bibliotheek vinden.
@@ -89,25 +89,25 @@ De omleidingsaanbieding voert de code van JavaScript uit om browser om te leiden
 
 1. Selecteer de gewenste opties om uw omleidingsvoorstel aan te passen:
 
-   * **omvat alle parameters URL:** Schuif de knevel om deze optie toe te laten als u alle parameters URL die op de vorige pagina aanwezig zijn aan de opnieuw gerichte pagina wilt worden verspreid.
+   * **[!UICONTROL Include all URL parameters]:** schuif de knevel om deze optie toe te laten als u alle parameters URL aanwezig op de vorige pagina aan de opnieuw gerichte pagina wilt worden verspreid.
 
-     U wilt bijvoorbeeld mensen rechtstreeks van een mannenpagina omleiden naar de categoriepagina voor heren. U wilt ook dat de dynamische parameters in de URL worden doorgegeven, omdat u op deze manier bijhoudt of mensen uw site via e-mail, banneradvertentie, zoekadvertentie of organisch hebben bereikt. Als u deze optie inschakelt, wordt uw omleidingsvoorstel op pagina `https://www.mycompany.com/mens.html?emailId=123` automatisch `https://www.mycompany.com/mensShirts.html?emailId=123` wanneer u alleen in het vak URL hebt opgegeven `https://www.mycompany.com/mensShirts.html` .
+     U wilt bijvoorbeeld mensen rechtstreeks van een mannenpagina omleiden naar de categoriepagina voor heren. U wilt ook dat de dynamische parameters in de URL worden doorgegeven, omdat u met deze methode kunt bijhouden of personen uw site via e-mail, banneradvertentie, zoekadvertentie of organisch hebben bereikt. Als u deze optie inschakelt, wordt uw omleidingsvoorstel op pagina `https://www.mycompany.com/mens.html?emailId=123` automatisch `https://www.mycompany.com/mensShirts.html?emailId=123` wanneer u alleen in het vak URL hebt opgegeven `https://www.mycompany.com/mensShirts.html` .
 
-   * **Identiteitskaart van de Methakersessie van de Controle:** Vereist om aan een verschillend domein opnieuw te richten. Schuif de schakeloptie om deze optie in te schakelen als u wilt dat de `sessionId` automatisch wordt opgenomen in de omleiding. Deze optie is alleen vereist wanneer u een e-mail test of op een ander domein klikt. De `sessionId` komt overeen met het cookie van de bezoeker, zodat de bezoeker kan blijven worden gevolgd en de juiste inhoud wordt weergegeven.
+   * **[!UICONTROL Pass mbox session ID]:** vereist om naar een ander domein om te leiden. Schuif de schakeloptie om deze optie in te schakelen als u wilt dat de `sessionId` automatisch wordt opgenomen in de omleiding. Deze optie is alleen vereist wanneer u een e-mail test of op een ander domein klikt. De `sessionId` komt overeen met het cookie van de bezoeker, zodat de bezoeker kan blijven worden gevolgd en de juiste inhoud wordt weergegeven.
 
      Als u de setup van het cookie van de eerste en de derde partij gebruikt, hoeft u de sessie-id van de box niet door te geven wanneer u domeinen overschrijdt. De URL is blijvend in een cookie van een andere fabrikant, dus niet nodig in de URL.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Create]**.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Vraag uw implementatieconsultant voordat u deze tests start.
 
 ## Omleidingsvoorstellen gebruiken voor activiteiten
 
-U moet omleidingsvoorstellen toepassen gebruikend [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md). U kunt momenteel geen omleidingsvoorstellen toepassen met behulp van [!UICONTROL Visual Experience Composer] (VEC).
+Pas omleidingsvoorstellen toe gebruikend [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md). U kunt momenteel geen omleidingsvoorstellen toepassen met behulp van [!UICONTROL Visual Experience Composer] (VEC).
 
-[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is een niet-visuele ervaring en biedt een aanmaakinterface die handig is voor het maken van ervaringen voor gebruik in [!UICONTROL A/B Tests] -, [!UICONTROL Experience Targeting] (XT) - [!UICONTROL Automated Personalization] - (AP) - en [!UICONTROL Recommendations] -activiteiten wanneer de Visual Experience Composer niet beschikbaar of praktisch is voor gebruik. U kunt de [!UICONTROL Form-Based Experience Composer] bijvoorbeeld gebruiken om ervaringen te maken die omleidingsaanbiedingen gebruiken.
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is een niet-visuele ervaring en biedt een aanmaakinterface die handig is voor het maken van ervaringen voor gebruik in [!UICONTROL A/B Tests] , [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Recommendations] -activiteiten wanneer [!UICONTROL Visual Experience Composer] niet beschikbaar of praktisch is voor gebruik. U kunt de [!UICONTROL Form-Based Experience Composer] bijvoorbeeld gebruiken om ervaringen te maken die omleidingsaanbiedingen gebruiken.
 
 1. Maak of bewerk een activiteit in de [!UICONTROL Form-Based Experience Composer] .
 
@@ -115,16 +115,6 @@ U moet omleidingsvoorstellen toepassen gebruikend [[!UICONTROL Form-Based Experi
 
 1. Geef de gewenste locatie op en voeg desgewenst verfijningen voor de doelgroep toe.
 
-1. Klik op de vervolgkeuzelijst in de sectie **[!UICONTROL Content]** en klik vervolgens op **[!UICONTROL Change Redirect Offer]** .
-1. Selecteer het gewenste omleidingsaanbod in het dialoogvenster [!UICONTROL Select Remote Offer] en klik op **[!UICONTROL Done]** .
+1. Klik de **[!UICONTROL Content]** drop-down lijst, klik het **[!UICONTROL List]** pictogram ( ![ Lijst ](/help/main/assets/icons/MoreSmallList.svg)), dan klik **[!UICONTROL Change Redirect Offer]**.
+1. Selecteer het gewenste omleidingsaanbod in het dialoogvenster [!UICONTROL Select Redirect Offer] en klik op **[!UICONTROL Add]** .
 1. Voltooi de configuratie van de activiteit.
-
-## De video van de opleiding: Op vorm-Gebaseerde Composer ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
-
-Deze video biedt een demo van de [!UICONTROL Form-Based Experience Composer] , die u kunt gebruiken om omleidingsaanbiedingen te maken.
-
-* Een activiteit maken met de [!UICONTROL Form-Based Experience Composer]
-* Begrijp wanneer u de [!UICONTROL Form-Based Experience Composer] versus de [!UICONTROL Visual Experience Composer] gebruikt
-* Verfijningen gebruiken om een locatie als doel in te stellen
-
->[!VIDEO](https://video.tv.adobe.com/v/17390)

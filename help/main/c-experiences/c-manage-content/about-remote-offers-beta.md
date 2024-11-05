@@ -7,9 +7,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: e83ad57e-716d-4595-b5cf-3a882fcb9e37
-source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
+source-git-commit: 4b57712b838906611702db521b51af84077501e6
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Gebruik externe aanbiedingen om inhoud buiten [!DNL Adobe Target] te hosten, zod
 
 >[!NOTE]
 >
->Dit artikel bevat informatie over updates van de gebruikersinterface van [!DNL Target] die momenteel deel uitmaakt van een Beta-programma. Het team van [!DNL Adobe Target] laat vaak nieuwe eigenschappen voor bepaalde klanten voor het testen en terugkoppelen doeleinden toe. Nadat de testperiode is voltooid, worden deze functies in toekomstige versies van [!DNL Target Standard/Premium] voor alle klanten ingeschakeld en in releaseopmerkingen aangekondigd.
+>Dit artikel bevat informatie over updates van de gebruikersinterface van [!DNL Target] die momenteel deel uitmaakt van een Beta-programma. Het team van [!DNL Adobe Target] laat vaak nieuwe eigenschappen voor bepaalde klanten voor het testen en terugkoppelen doeleinden toe. Nadat de testende periode voltooit, worden deze eigenschappen toegelaten voor alle klanten in toekomstige [!DNL Target] versies en in [ versienota&#39;s ](/help/main/r-release-notes/release-notes.md) aangekondigd.
 
 De verre aanbiedingen kunnen op [!UICONTROL Offers] > [!UICONTROL Code Offers] pagina of in [ op Forms-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) worden gecreeerd. U kunt geen externe aanbiedingen maken of toepassen in [!UICONTROL Visual Experience Composer] (VEC). Inhoud wordt ingespoten op de aanvraaglocaties van [!DNL Target] , zodat deze locaties meestal niet geschikt zijn voor een algemene [!DNL Target] -aanvraag.
 
@@ -70,14 +70,15 @@ Aanbevolen procedures voor het gebruik van externe aanbiedingen in uw activiteit
 ## Een externe aanbieding maken met de [!UICONTROL Form-Based Experience Composer]
 
 1. Terwijl het creëren van een activiteit die [ op vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) gebruikt, selecteer de plaats om de **[!UICONTROL Content]** sectie te tonen.
+1. Klik de **[!UICONTROL Content]** drop-down lijst, klik het **[!UICONTROL List]** pictogram ( ![ Lijst ](/help/main/assets/icons/MoreSmallList.svg)), dan klik **[!UICONTROL Change Remote Offer]**.
 
-1. Klik op de vervolgkeuzelijst **[!UICONTROL Default Content]** en klik vervolgens op **[!UICONTROL Change Remote Offer]** .
-
-1. Klik op **[!UICONTROL Create]** > **[!UICONTROL Remote Offer]** .
+1. Klik op **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]** .
 
 1. Geef een beschrijvende naam op voor de aanbieding.
 
    Met een beschrijvende naam kunnen u en anderen snel de aanbieding in de [!UICONTROL Assets] -bibliotheek vinden.
+
+1. (Voorwaardelijk) als u de rekening van a [ Target Premium ](/help/main/c-intro/intro.md#premium) hebt, selecteer de gewenste [ werkruimte ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
 
 1. Geef het type omleidings-URL op.
 
@@ -85,7 +86,7 @@ Aanbevolen procedures voor het gebruik van externe aanbiedingen in uw activiteit
 
 1. Geef de externe URL voor de externe aanbieding op.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Create]**.
 
 ## Type URL omleiden: [!UICONTROL Onsite Cached] of [!UICONTROL Onsite Dynamic] {#url-type}
 
@@ -111,7 +112,7 @@ U kunt op **[!UICONTROL Add Parameter]** klikken om een of meer [!DNL Target] -a
 
 ## Externe aanbiedingen gebruiken in activiteiten
 
-U moet externe aanbiedingen toepassen met de [!UICONTROL Form-Based Experience Composer] . U kunt momenteel geen externe aanbiedingen toepassen met de methode [!UICONTROL Visual Experience Composer] (VEC).
+Pas externe aanbiedingen toe met behulp van [!UICONTROL Form-Based Experience Composer] . U kunt momenteel geen externe aanbiedingen toepassen met de methode [!UICONTROL Visual Experience Composer] (VEC).
 
 [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is een niet-visuele ervaring en biedt een aanmaakinterface die handig is voor het maken van ervaringen voor gebruik in [!UICONTROL A/B Tests] , [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Recommendations] -activiteiten wanneer [!UICONTROL Visual Experience Composer] niet beschikbaar of praktisch is voor gebruik. U kunt de [!UICONTROL Form-Based Experience Composer] bijvoorbeeld gebruiken om ervaringen op te doen die gebruikmaken van externe aanbiedingen.
 
@@ -121,9 +122,9 @@ U moet externe aanbiedingen toepassen met de [!UICONTROL Form-Based Experience C
 
 1. Geef de gewenste locatie op en voeg desgewenst verfijningen voor de doelgroep toe.
 
-1. Klik op de vervolgkeuzelijst in de sectie **[!UICONTROL Content]** en klik vervolgens op **[!UICONTROL Change Remote Offer]** .
+1. Klik de **[!UICONTROL Content]** drop-down lijst, klik het **[!UICONTROL List]** pictogram ( ![ Lijst ](/help/main/assets/icons/MoreSmallList.svg)), dan klik **[!UICONTROL Change Remote Offer]**.
 
-1. Selecteer de gewenste aanbieding op afstand in het dialoogvenster [!UICONTROL Select Remote Offer] en klik op **[!UICONTROL Done]** .
+1. Selecteer de gewenste aanbieding op afstand in het dialoogvenster [!UICONTROL Change Remote Offer] en klik op **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]** .
 
 1. Voltooi de configuratie van de activiteit.
 
@@ -135,15 +136,15 @@ De aanbieding wordt uitgevoerd nadat u de pagina teruggeeft. Een onzichtbare iFr
 
 ![ remote_offer_howitworks_2 beeld ](assets/remote_offer_howitworks_2.jpeg)
 
-1. De browser van de bezoeker vraagt een pagina van uw server.
+1. De browser van de bezoeker vraagt om een pagina van uw server.
 
 2. De pagina wordt weergegeven in de browser, inclusief de vakken.
 
 3. De aanroep van `mboxCreate` bevat parameters die nodig zijn om dynamische inhoud te renderen.
 
-4. [!DNL Target] retourneert URL met locatie van dynamische inhoud en de bijbehorende parameters. Hiermee wordt een iFrame in het mbox-gebied ingesteld.
+4. [!DNL Target] retourneert een URL met de locatie van dynamische inhoud en de bijbehorende parameters. Stelt een iFrame in het mbox-gebied in.
 
-5. Browser vraagt URL en geeft op pagina terug.
+5. De browser vraagt om de URL en geeft deze op de pagina weer.
 
 ## Selectiematrix voor externe aanbiedingen {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 
@@ -158,13 +159,3 @@ Met de selectiematrix voor externe aanbiedingen kunt u bepalen welk type externe
 | Aanbiedingen kunnen JavaScript bevatten | Ja | Ja |
 | Aanbiedings-URL | Absoluut of Relatief | Relatief |
 | De computer aanvragen | Adobe-servers | De computer van de bezoeker, die de cookies van de bezoeker draagt |
-
-## De video van de opleiding: Op vorm-Gebaseerde Composer ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
-
-Deze video biedt een demo van de [!UICONTROL Form-Based Experience Composer] , die u kunt gebruiken om externe aanbiedingen te maken.
-
-* Een activiteit maken met de [!UICONTROL Form-Based Experience Composer]
-* Begrijp wanneer [!UICONTROL Form-Based Experience Composer] versus [!UICONTROL Visual Experience Composer] moet worden gebruikt
-* Verfijningen gebruiken om een locatie als doel in te stellen
-
->[!VIDEO](https://video.tv.adobe.com/v/17390)

@@ -6,9 +6,9 @@ feature: Experiences and Offers
 hide: true
 hidefromtoc: true
 exl-id: e022c2d1-3326-405b-aead-5bb4ffa309b3
-source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
+source-git-commit: 4b57712b838906611702db521b51af84077501e6
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,10 @@ Houd rekening met de volgende informatie terwijl u met JSON werkt:
 
 * JSON-aanbiedingen zijn momenteel alleen beschikbaar voor [!UICONTROL A/B Test]-, [!UICONTROL Automated Personalization] (AP)- en [!UICONTROL Experience Targeting] (XT)-activiteiten.
 * De aanbiedingen JSON kunnen in [ vorm-gebaseerde activiteiten ](/help/main/c-experiences/form-experience-composer.md) slechts worden gebruikt.
-* De aanbiedingen JSON kunnen direct worden teruggewonnen wanneer u de [ Zijde APIs van de Server en Mobiele Node.js, Java, .NET, en Python SDKs ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html) {target=_blank} gebruikt.
-* In browser, kunnen de aanbiedingen JSON slechts via at.js 1.2.3 (of recenter) worden teruggewonnen en [ getOffer () gebruiken ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html) {target=_blank} door acties te filtreren gebruikend de `setJson` actie.
+* De aanbiedingen JSON kunnen direct worden teruggewonnen wanneer u de [ Zijde APIs van de Server en Mobiele Node.js, Java, .NET, en Python SDKs ](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/server-side-overview) {target=_blank} gebruikt.
+* In browser, kunnen de aanbiedingen JSON slechts via at.js 1.2.3 (of recenter) worden teruggewonnen en [ getOffer () gebruiken ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer) {target=_blank} door acties te filtreren gebruikend de `setJson` actie.
 * JSON-aanbiedingen worden geleverd als native JSON-objecten in plaats van als tekenreeksen. Consumenten van deze objecten hoeven objecten niet langer als tekenreeksen te verwerken en deze in JSON-objecten om te zetten.
-* JSON-aanbiedingen worden niet automatisch toegepast in tegenstelling tot andere aanbiedingen (zoals HTML-aanbiedingen), omdat JSON-aanbiedingen niet-visuele aanbiedingen zijn. De ontwikkelaars moeten code schrijven om de aanbieding uitdrukkelijk te krijgen gebruikend [ getOffer () ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html) {target=_blank}.
+* JSON-aanbiedingen worden niet automatisch toegepast in tegenstelling tot andere aanbiedingen (zoals HTML-aanbiedingen), omdat JSON-aanbiedingen niet-visuele aanbiedingen zijn. De ontwikkelaars moeten code schrijven om de aanbieding uitdrukkelijk te krijgen gebruikend [ getOffer () ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer) {target=_blank}.
 
 ## Een JSON-aanbieding maken {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
