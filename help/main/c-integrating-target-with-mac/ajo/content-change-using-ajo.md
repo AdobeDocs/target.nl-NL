@@ -6,9 +6,10 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: a8d1ad897972edd4263901d411f57b4d22fdd1eb
+exl-id: e5aed7cd-7701-4133-ac7c-98e528c8a763
+source-git-commit: b4f9e14f9dfa94f8648686e43e66eee7e0f7daa1
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -17,9 +18,7 @@ ht-degree: 0%
 
 Met dit gebruiksgeval kunt u de geheimen ontgrendelen zodat wijzigingen in de inhoud van A/B-tests in [!DNL Adobe Journey Optimizer] worden doorgevoerd.
 
-Dit gebruiksgeval toont aan hoe te om vertrouwde taken uit te voeren, zoals het testen A/B met een [ activiteit van de Test A/B ](/help/main/c-activities/t-test-ab/test-ab.md), gebruikend [!DNL Journey Optimizer] in plaats van [!DNL Adobe Target].
-
-Dit gebruiksgeval wordt ontworpen om aan te tonen hoe te om vertrouwde taken uit te voeren u het gebruiken van [!DNL Adobe Target], A/B het testen gebruikend een [ activiteit van de Test A/B ](/help/main/c-activities/t-test-ab/test-ab.md) zou kunnen hebben uitgevoerd, maar het gebruiken [!DNL Journey Optimizer].
+Dit gebruiksgeval toont aan hoe te om vertrouwde taken uit te voeren, zoals het testen A/B met een [ activiteit van de Test A/B ](/help/main/c-activities/t-test-ab/test-ab.md) in [!DNL Adobe Target], gebruikend [!DNL Journey Optimizer] in plaats van [!DNL Adobe Target].
 
 ## Voordelen en waarde
 
@@ -31,7 +30,7 @@ Dit gebruiksgeval wordt ontworpen om aan te tonen hoe te om vertrouwde taken uit
 
 * Een apparel bedrijf verhoogde omzettingen door diverse beelden te testen en campagne landende pagina&#39;s met de voornamen van gebruikers in de vraag-aan-actie tekst te personaliseren.
 
-* Een e-commercebedrijf stelde vast dat zijn leden van de goudloyaliteit hogere omrekeningskoersen hadden door verschillende productbeschrijvingen en afbeeldingen op een campagnelandingspagina te testen, wat tot meer verkoop leidde.
+* Een e-commercebedrijf stelde vast dat zijn leden van de Gold-loyaliteit hogere omrekeningskoersen hadden door verschillende productbeschrijvingen en afbeeldingen op een campagnelandingspagina te testen, wat leidde tot meer verkoop.
 
 ## Stappen
 
@@ -41,17 +40,13 @@ Dit gebruiksgeval wordt ontworpen om aan te tonen hoe te om vertrouwde taken uit
 >
 >De video onder aan de pagina is vooral handig.
 
-Voer de volgende stappen uit om een webpagina te optimaliseren door verschillende afbeeldingen te testen en berichten aan te passen aan de voornamen van gebruikers met behulp van een profielscript:
+Een webpagina optimaliseren door verschillende afbeeldingen te testen en berichten met de voornamen van gebruikers aan te passen met behulp van een profielscript:
 
-1. In [!DNL Adobe Journey Optimizer], klik **Campagnes** in het linkerspoor om de [!UICONTROL Campaigns] pagina te tonen.
-
-   ![ Adobe Journey Optimizer het landen pagina met benadrukte het lusje van Campagnes.](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
+1. In [!DNL Journey Optimizer], klik **Campagnes** in het linkerspoor om de [!UICONTROL Campaigns] pagina te tonen.
 
 1. Klik op **[!UICONTROL Create Campaign]** in de rechterbovenhoek van de pagina [!UICONTROL Campaigns] .
 
 1. Selecteer **[!UICONTROL Scheduled - Marketing]** (het gebrek), dan klik **creëren** om de [!UICONTROL Campaign] detailspagina te tonen.
-
-   ![ pagina van de Details van de Campagne in Adobe Journey Optimizer ](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
 1. Geef in de sectie **[!UICONTROL Properties]** een beschrijvende naam en een optionele beschrijving voor de campagne op.
 
@@ -85,7 +80,7 @@ Voer de volgende stappen uit om een webpagina te optimaliseren door verschillend
 
 1. Klik onder **[!UICONTROL Action]** onder **[!UICONTROL Edit Content]** op de pagina met [!UICONTROL Campaign] details.
 
-1. Klik op Web onder Behandeling B
+1. Klik op Web onder Behandeling B.
 
    Voor dit gebruik moet u [!UICONTROL Treatment A] ongewijzigd laten om de oorspronkelijke ervaring te gebruiken als de eerste ervaring in de A/B-test.
 
@@ -133,4 +128,3 @@ Voor meer informatie, zie [ begonnen worden met nieuwe Rapporterende interface ]
 >[ geef Webinhoud ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content) {target=_blank} in de *documentatie van Journey Optimizer* uit
 >[Hoe te video ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video) {target=_blank} in de *documentatie van Journey Optimizer*
 >[Creeer een campagne ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign) {target=_blank} in *Tutorials van Journey Optimizer*
-
