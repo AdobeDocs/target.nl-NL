@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 61557ba80f5fb29098d108af6ed3fd864cadcae6
+source-git-commit: d823e9993ff17f1970dc1deac996928781c7e79d
 workflow-type: tm+mt
-source-wordcount: '38259'
+source-wordcount: '38296'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,12 @@ Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en
 >Zie [ de versienota&#39;s van het Doel (huidig) ](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) voor informatie over de versies van het Doel van de huidige maand (platform en Target Standard/Premium).
 
 ## Opmerkingen bij de release - 2024
+
+### at.js versie 2.11.6 (29 september 2024)
+
+* Probleem verholpen waarbij [!DNL Target] niet correct werkte met omleidingsvoorstellen binnen [!UICONTROL Visual Experience Composer] (VEC) of [!UICONTROL Form-Based Experience Composer] .
+
+Voor meer informatie over versies at.js, zie [ at.js versiedetails ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions) {target=_blank} in de *Gids van de Ontwikkelaar van Adobe Target*.
 
 ### [!DNL Target] reporting in [!DNL Adobe Customer Journey Analytics] (8 mei 2024)
 
@@ -2093,7 +2099,7 @@ Deze release bevat de volgende functies en verbeteringen (nummer van de uitgave 
 
 Deze release van [!DNL Target] bevat de volgende klantgerichte verbeteringen, oplossingen en wijzigingen:
 
-* U kunt geïmporteerde soorten publiek verwijderen (Klassiek doel, Experience Cloud, enz.) uit de Audience Library. Het doel waarschuwt u als u probeert om een publiek te schrappen dat voor een actieve activiteit wordt gebruikt. (TGT-25171)
+* U kunt geïmporteerde soorten publiek (doel-Klassiek, Experience Cloud, enz.) verwijderen uit de Audience Library. Het doel waarschuwt u als u probeert om een publiek te schrappen dat voor een actieve activiteit wordt gebruikt. (TGT-25171)
 * Uit Target Classic geïmporteerde soorten publiek worden nu als Adobe Target Classic gelabeld in de Audience Library. In het verleden maakte de gebruikersinterface geen onderscheid tussen Target Standard/Premium en Target Classic. (TGT-27093)
 * Verzamelingen gelden nu voor alle criteria (inclusief onlangs bekeken objecten). (TGT-26646)
 * U kunt filteren op Workspace in de Audience Library and Offer Library (van toepassing op Target Premium-gebruikers met Enterprise-gebruikersmachtigingen). (TGT-26813)
@@ -2368,7 +2374,7 @@ Deze release van [!DNL Target] bevat de volgende klantgerichte verbeteringen en 
 
   Als een gebruiker een [!DNL Target] -pagina periodiek activeert en een sessietime-out ervaart, wordt de gebruiker omgeleid om zich opnieuw aan te melden en wordt deze vervolgens omgeleid naar de laatste pagina die is bewerkt in de [!DNL Target] -gebruikersinterface.
 
-* Probleem verholpen waarbij wijzigingen in aangepaste code verloren gingen als de gebruiker wegbladert (wijzigt ervaringen, wisselpagina, wisselend publiek, klikt op Volgende enz.) en vergeet wijzigingen op te slaan. De gebruiker wordt nu gevraagd de wijzigingen op te slaan. (TGT-23766)
+* Probleem verholpen waarbij wijzigingen in aangepaste code verloren gingen als de gebruiker de code verwijdert (wijzigt ervaringen, wisselpagina, wisselt publiek, klikt op Volgende enz.) en vergeet wijzigingen op te slaan. De gebruiker wordt nu gevraagd de wijzigingen op te slaan. (TGT-23766)
 * Wanneer een activiteit wordt gearchiveerd, wordt &quot;Gearchiveerd de activiteit&quot; weergegeven in plaats van &quot;De activiteit bijwerken&quot;. (kB-1517)
 * De drop-down kiezer in de volgende plaatsen binnen het Doel UI is vervangen met auto-volledige functionaliteit om snelheid en prestaties te verbeteren: (TGT-22939)
 
@@ -2559,7 +2565,7 @@ Deze release van [!DNL Target] bevat de volgende verbeteringen en oplossingen:
 * De gebruikersinterface van [!DNL Target] is bijgewerkt ter ondersteuning van omleidingsaanbiedingen in activiteiten die [!UICONTROL Analytics for Target] (A4T) als rapportagebron gebruiken. Voor deze functionaliteit is [!DNL at.js] 0.9.6 vereist. Deze is binnenkort beschikbaar.
 * De gebruikersinterface van [!DNL Target] is op sommige plaatsen bijgewerkt:
 
-   * In rapporten en activiteiten kunt u een aantal opties kiezen ( [!UICONTROL Edit] , [!UICONTROL Share to Feed] , [!UICONTROL View Experience URLs] , enz.) worden nu betreden door het [!UICONTROL More Options] pictogram ( ![ icon_more_options beeld ](assets/icon_more_options.png) te klikken
+   * In rapporten en activiteiten, worden sommige opties ( [!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs], enz.) nu betreden door het [!UICONTROL More Options] pictogram ( ![ icon_more_options beeld ](assets/icon_more_options.png) te klikken
 
      ).
    * In de [!UICONTROL Offers] -bibliotheek worden nu in een lijst weergegeven in plaats van als kaarten. Er zijn andere kleine wijzigingen aangebracht in de gebruikersinterface van de [!UICONTROL Offers] -bibliotheek.

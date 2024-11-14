@@ -6,9 +6,9 @@ short-description: Leer over de nieuwe eigenschappen, de verhogingen, en de moei
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: a708699926bd6cc89adc5c72d88be1ca4f0f0495
+source-git-commit: d823e9993ff17f1970dc1deac996928781c7e79d
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
@@ -53,12 +53,6 @@ Afhankelijk van uw implementatie, controleer [!DNL Analytics] en A4T rapporterin
   Dit implementatietype is de nieuwe [ spleet-vraag implementatiebenadering ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events) {target=_blank} geadviseerd door [!DNL Adobe]. Met deze methode heeft de nieuwe optimalisatie geen invloed op [!DNL Analytics] - of A4T-rapporten.
 
 Als u vragen hebt, contacteer ](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C) de Zorg van de Klant van de Adobe [. (kB-2179)
-
-## at.js versie 2.11.6 (29 september 2024)
-
-* Probleem verholpen waarbij [!DNL Target] niet correct werkte met omleidingsvoorstellen binnen [!UICONTROL Visual Experience Composer] (VEC) of [!UICONTROL Form-Based Experience Composer] .
-
-Voor meer informatie over versies at.js, zie [ at.js versiedetails ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions) {target=_blank} in de *Gids van de Ontwikkelaar van Adobe Target*.
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
