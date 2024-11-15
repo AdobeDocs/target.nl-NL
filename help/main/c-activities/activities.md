@@ -4,9 +4,9 @@ description: Personaliseer inhoud en test paginaontwerpen voor specifiek publiek
 title: Hoe kan ik inhoud en de Ontwerpen van de Pagina van de Test aanpassen met  [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: d7515bab57c5e2973cfd5d2ac75d76c048786646
+source-git-commit: 1e23c1170475869e2798e23551d63575031502b4
 workflow-type: tm+mt
-source-wordcount: '2225'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ In het menu kunt u activiteiten filteren op de volgende kenmerken:
 | Kenmerk | Details |
 | --- | --- |
 | [!UICONTROL Type] | Filter door [ type van activiteit ](#types). |
-| [!UICONTROL Status] | Filteren op activiteitsstatus. |
+| [!UICONTROL Status] | Filteren op activiteitsstatus.<ul><li>**[!UICONTROL Live]**: De activiteit wordt momenteel uitgevoerd.</li><li>**[!UICONTROL Draft]**: De activiteitenopstelling is begonnen maar de activiteit is op [ ontwerp wijze ](/help/main/c-activities/edit-activity.md) en is nog niet klaar om te lopen.</li><li>**[!UICONTROL Scheduled]**: De activiteit kan worden geactiveerd wanneer de opgegeven begindatum en -tijd aankomen.</li><li>**[!UICONTROL Inactive]**: De activiteit is gepauzeerd of gedeactiveerd.</li><li>**[!UICONTROL Syncing]**: De activiteit is opgeslagen en wordt gesynchroniseerd met het [!DNL Target] -leveringsnetwerk.</li><li>**[!UICONTROL Ended]**: De opgegeven einddatum en -tijd van de activiteit zijn bereikt en de activiteit wordt niet meer uitgevoerd.</li><li>**[!UICONTROL Archived]**: De activiteit is gearchiveerd. U kunt een gearchiveerde activiteit activeren om deze opnieuw te gebruiken.</li></ul> |
 | [!UICONTROL Reporting Source] | Filteren op bron rapporteren.<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md): activiteiten weergeven die [!UICONTROL Analytics for Target] (A4T) als rapportagebron gebruiken.</li><li>[[!DNL Target]](/help/main/c-reports/reports.md): activiteiten weergeven die [!DNL Target] als bron voor rapportage gebruiken.</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md): activiteiten weergeven die [!DNL Adobe Customer Analytics] als bron voor rapportage gebruiken.</li></ul> |
 | [!UICONTROL Experience Composer] | Filter op basis waarvan de ervaring met composer is gebruikt tijdens het maken van activiteiten:<ul><li>[ Visueel ](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md): De activiteiten van vertoningen die gebruikend [!UICONTROL Visual Experience Composer] (VEC) werden gecreeerd.</li><li>[ Gebaseerde Vorm ](/help/main/c-experiences/form-experience-composer.md): De activiteiten van de vertoning die gebruikend [!UICONTROL Form-Based Experience Composer] werden gecreeerd.</li></ul> |
 | [!UICONTROL Metrics Type] | Filter waardoor [ metrisch succes ](/help/main/c-activities/r-success-metrics/success-metrics.md) tijdens activiteitenverwezenlijking werd gekozen.<ul><li>[!UICONTROL Conversion]</li><li>[!UICONTROL Revenue]</li><li>[!UICONTROL Engagement]</li><li>[!UICONTROL Use an Analytics metric]</lI></ul> |
@@ -94,7 +94,7 @@ De volgende acties zijn beschikbaar (afhankelijk van uw machtigingen en de activ
 | [!UICONTROL Edit] | Wijzig de activiteit. Elke activiteit kan worden bewerkt.<P>Voor meer informatie over de diverse manieren kunt u activiteiten uitgeven, zie [ een activiteit uitgeven of sparen als ontwerp ](/help/main/c-activities/edit-activity.md). |
 | [!UICONTROL Deactivate] | Stop een live of geplande activiteit. Een gedeactiveerde activiteit kan opnieuw worden geactiveerd of worden gearchiveerd.<P>Als u een activiteit deactiveert of archiveert en deze later opnieuw activeert, blijft een bezoeker deel uitmaken van die activiteit nadat de activiteit opnieuw is geactiveerd, als hij of zij zich daarin bevond voordat de activiteit werd gedeactiveerd of gearchiveerd. Alle conversiemetriek die tijdens de tijd tussen de twee gebeurtenissen is vastgelegd, worden niet aan die activiteit toegewezen. |
 | [!UICONTROL Activate] | Start een inactieve activiteit of een activiteit die klaar is om te worden geactiveerd. |
-| [!UICONTROL Archive] | Verzend de activiteit naar het archief. Gearchiveerde activiteiten worden standaard niet meer weergegeven in de lijst [!UICONTROL Activities] . Wijzig het filter voor de activiteitenlijst om gearchiveerde activiteiten op te nemen om ze te zien. U kunt een gearchiveerde activiteit activeren om deze opnieuw te gebruiken.<P>Als u een activiteit deactiveert of archiveert en deze later opnieuw activeert, blijft een bezoeker deel uitmaken van die activiteit na de reactivering als hij of zij die activiteit had voordat deze werd gedeactiveerd of gearchiveerd. Alle conversiemetriek die tijdens de tijd tussen de twee gebeurtenissen is vastgelegd, worden niet aan die activiteit toegewezen. |
+| [!UICONTROL Archive] | Verzend de activiteit naar het archief. Gearchiveerde activiteiten worden standaard niet meer weergegeven in de lijst [!UICONTROL Activities] . Wijzig het filter voor de lijst [!UICONTROL Activities] om gearchiveerde activiteiten op te nemen om deze weer te geven. U kunt een gearchiveerde activiteit activeren om deze opnieuw te gebruiken.<P>Als u een activiteit deactiveert of archiveert en deze later opnieuw activeert, blijft een bezoeker deel uitmaken van die activiteit na de reactivering als hij of zij die activiteit had voordat deze werd gedeactiveerd of gearchiveerd. Alle conversiemetriek die tijdens de tijd tussen de twee gebeurtenissen is vastgelegd, worden niet aan die activiteit toegewezen. |
 | [!UICONTROL Copy] | Kopieer een activiteit. Elke activiteit kan worden gekopieerd. Wanneer u een activiteit kopieert, wordt er een nieuwe activiteit met dezelfde naam gemaakt, die wordt toegevoegd met &quot;Copy&quot;. Een test met de naam &quot;Browser Offers&quot; wordt bijvoorbeeld gekopieerd naar &quot;Browser Offers Copy&quot;.<P>Visuele aanbiedingen worden gekopieerd met de activiteit. U kunt de voorstellen in de kopie veilig bewerken zonder dat dit invloed heeft op de oorspronkelijke activiteit. De enige uitzondering hierop vormen de opgeslagen aanbiedingen en afbeeldingen in de map Content/Assets. |
 | [!UICONTROL Delete] | Een concept of activiteit verwijderen.<P>**NOTA**: De geschrapte activiteiten kunnen niet worden teruggekregen. Gebruik de handeling [!UICONTROL Archive] , tenzij u zeker weet dat u deze activiteit nooit meer nodig hebt. U kunt de activiteit dan opnieuw activeren indien nodig. |
 
@@ -102,7 +102,7 @@ De volgende acties zijn beschikbaar (afhankelijk van uw machtigingen en de activ
 
 Let op het volgende over de [!UICONTROL Activity] lijst:
 
-* Gearchiveerde en beëindigde activiteiten worden niet weergegeven in de lijst van [!UICONTROL Activities] . Om deze activiteiten te bekijken, filter hen gebruikend het [ pictogram van Filters ](#filters) ( ![ toon het pictogram van Filters ](/help/main/assets/icons/Filter.svg)) bij de bovenkant van de lijst.
+* [!UICONTROL Archived] - en [!UICONTROL Ended] -activiteiten worden niet weergegeven in de lijst [!UICONTROL Activities] . Om deze activiteiten te bekijken, filter hen gebruikend het [ pictogram van Filters ](#filters) ( ![ toon het pictogram van Filters ](/help/main/assets/icons/Filter.svg)) bij de bovenkant van de lijst.
 * Wanneer een activiteit die oorspronkelijk in [!DNL Target Classic] is gemaakt, wordt gedeactiveerd of verwijderd, wordt deze verwijderd uit [!DNL Target Standard/Premium] . Verwijderde activiteiten die oorspronkelijk in [!DNL Target Classic] zijn gemaakt, worden niet verzonden naar de map [!UICONTROL Archive] in [!DNL Target Standard/Premium] . De functionaliteit voor gearchiveerde mappen is alleen van toepassing op activiteiten die zijn gemaakt in [!DNL Target Standard/Premium] .
 * Alle andere activiteitstypen dan [!UICONTROL Automated Personalization] (AP), [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] geven u de keuze om [!DNL Target] of [!DNL Adobe Analytics] als gegevensbron te gebruiken. [!UICONTROL Automated Personalization], [!UICONTROL Auto-Allocate], en [!UICONTROL Auto-Target] *gebruiken altijd* [!DNL Target] gegevens.
 * De activiteiten zijn beschikbaar voor verschillende kanalen:
@@ -115,7 +115,7 @@ Let op het volgende over de [!UICONTROL Activity] lijst:
 
 ## Beperkingen {#section_049D4684403A4E07B998067EB8E9BE56}
 
-Elke doelactiviteit heeft de volgende inhoudsbeperkingen:
+Elke [!DNL Target] -activiteit heeft de volgende inhoudsbeperkingen:
 
 | Item | Limiet |
 |--- |--- |
@@ -129,11 +129,11 @@ De activiteit kan niet worden bewaard als u om het even welk van deze grenzen ov
 
 Als u het aantal van deze items in uw activiteit vergroot, neemt ook de tijd toe die nodig is om de activiteit in [!DNL Target] te synchroniseren.
 
-Voor extra grenzen van V [!UICONTROL Visual Experience Composer] VEC, zie [ de Beperkingen van de Composer van de Visuele Ervaring ](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
+Voor extra grenzen van [!UICONTROL Visual Experience Composer] (VEC), zie [ de Beperkingen van de Composer van de Visuele Ervaring ](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
 ## Attributen geïmporteerd in [!DNL Target] voor activiteiten bijgewerkt buiten [!DNL Target] {#section_802B0D174E6A44E1A96F404CA81AAE44}
 
 Als in [!DNL Target] gemaakte activiteiten van buiten [!DNL Target] (bijvoorbeeld via API) worden bijgewerkt, worden de volgende activiteitskenmerken weer geïmporteerd in [!DNL Target] : `thirdpartyId` , `startDate` , `endDate` , `status` , `priority` en `marketingCloudMetadata(remoteModifiedBy)` .
 
-Deze importtaak wordt uitgevoerd wanneer de pagina met activiteiten wordt geopend, met een maximale vertraging van tien minuten.
+Deze importtaak wordt uitgevoerd wanneer de lijst [!UICONTROL Activities] wordt geopend, met een maximale vertraging van tien minuten.
 
