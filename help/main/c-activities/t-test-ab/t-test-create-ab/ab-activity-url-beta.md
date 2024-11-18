@@ -5,9 +5,10 @@ title: Wat is de activiteit URL in een activiteit A/B?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Geef de activiteit-URL op wanneer hierom wordt gevraagd tijdens het maken van ac
 
 Door gebrek, opent [!UICONTROL Visual Experience Composer] de pagina die in uw [ Visuele montages van Composer van de Ervaring ](/help/main/administrating-target/visual-experience-composer-set-up.md) wordt gespecificeerd. U kunt een andere pagina opgeven tijdens het maken van activiteiten.
 
-1. Als u een andere pagina wilt weergeven nadat de pagina [!UICONTROL Visual Experience Composer] is geopend, klikt u op de **[!UICONTROL Experiences]** pagina **[!UICONTROL Configure]** boven aan de pagina en selecteert u vervolgens **[!UICONTROL Page Delivery]** .
+1. (Voorwaardelijk) Als u een andere pagina wilt weergeven nadat [!UICONTROL Visual Experience Composer] is geopend, klikt u op de **[!UICONTROL Experiences]** -pagina **[!UICONTROL Configure]** boven aan de pagina en selecteert u vervolgens **[!UICONTROL Page Delivery]** .
 
 1. Geef de URL op in het veld **[!UICONTROL URL]** .
 
@@ -40,6 +41,7 @@ Door gebrek, opent [!UICONTROL Visual Experience Composer] de pagina die in uw [
    * Hash-fragment (#)
    * Query
    * mbox-parameter
+   * Aangepast
 
    De extra regels kunnen aan de activiteit URL met EN of OF worden aangesloten. Alle regels die u toevoegt, worden tegen elkaar geëvalueerd met EN.
 

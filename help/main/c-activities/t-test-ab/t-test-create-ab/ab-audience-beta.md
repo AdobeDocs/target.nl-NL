@@ -5,9 +5,10 @@ title: Hoe selecteer ik een Publiek in de Activiteit van A  [!DNL Target]  A/B?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: cc823f84fb93cbe2e55d394d0f6f4fe48bbd5293
+exl-id: 117cec36-87ef-4bd5-8a39-fb885b679d95
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -40,10 +41,12 @@ Voor meer informatie over alle opties in het stroomdiagram, zie [ een activiteit
 
 1. (Voorwaardelijk) klik **Soorten publiek** combineren om [ een publiek tot stand te brengen dat veelvoudige publiek ](/help/main/c-target/combining-multiple-audiences.md) combineert.
 
-1. (Voorwaardelijk) om een nieuw publiek tot stand te brengen dat niet reeds in [!UICONTROL Audience Library] is, klik **tot Audience** leidt. Tijdens het [ creeer-publiek werkschema ](/help/main/c-target/c-audiences/audiences.md), kunt u van de volgende opties kiezen:
+1. (Voorwaardelijk) om een nieuw publiek tot stand te brengen dat niet reeds in [!UICONTROL Audience Library] is, **creeer Publiek**, bepaal het publiek, dan klik **[!UICONTROL Done]**.
 
-   * Maak een publiek op aanvraag dat wordt opgeslagen in de [!UICONTROL Audience Library] en dat opnieuw kan worden gebruikt in andere activiteiten
-   * Creeer een [ activiteit-specifiek publiek ](/help/main/c-target/creating-activity-only-audience.md) dat niet aan [!UICONTROL Audience Library] wordt bewaard en in de huidige activiteit slechts kan worden gebruikt
+   Tijdens het [ creeer-publiek werkschema ](/help/main/c-target/c-audiences/audiences.md), kunt u van de volgende opties kiezen:
+
+   * **[!UICONTROL Audience Library]**: Maak een publiek op aanvraag dat wordt opgeslagen in [!UICONTROL Audience Library] en dat opnieuw kan worden gebruikt in andere activiteiten.
+   * **[!UICONTROL This activity only]**: Creeer een [ activiteit-specifiek publiek ](/help/main/c-target/creating-activity-only-audience.md) dat niet aan [!UICONTROL Audience Library] wordt bewaard en in de huidige activiteit slechts kan worden gebruikt.
 
 1. Klik op **[!UICONTROL Visitor Percentage]** in het rechterdeelvenster en geef vervolgens het percentage gekwalificeerde bezoekers op dat u in de activiteit wilt opnemen.
 
@@ -51,7 +54,7 @@ Voor meer informatie over alle opties in het stroomdiagram, zie [ een activiteit
 
 >[!NOTE]
 >
->Soorten publiek worden automatisch op de achtergrond geïmporteerd wanneer u de lijst met doelgroepen opent en het geïmporteerde publiek langer dan 10 minuten oud is.
+>Soorten publiek worden automatisch op de achtergrond geïmporteerd wanneer u de lijst van [!UICONTROL Audience] opent en het geïmporteerde publiek langer dan 10 minuten oud is.
 
 ## De informatie van een publiek weergeven
 
@@ -64,4 +67,3 @@ Voor meer informatie over alle opties in het stroomdiagram, zie [ een activiteit
 U kunt een publiek uitgeven of kopiëren door het [!UICONTROL More Actions] pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/More.svg)) naast het gewenste publiek in het [!UICONTROL Add Audience] dialoogvakje te klikken, dan door [!UICONTROL Edit] of [!UICONTROL Copy] te klikken.
 
 Het kopiëren van een publiek is handig als u een publiek wilt maken dat vergelijkbaar is met dat van een bestaand publiek. U kunt een kopie van het publiek maken, wijzigingen aanbrengen en deze vervolgens opslaan als een nieuw publiek.
-

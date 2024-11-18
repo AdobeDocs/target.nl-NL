@@ -5,7 +5,8 @@ title: Hoe specificeer ik Doelstellingen en Montages in a  [!DNL Target]  Activi
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 22a12d29fb894e916783efc65dfe8dfd698dff83
+exl-id: aeafb4d8-a486-46cf-8871-4c220bc3674e
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Op de pagina [!UICONTROL Goals & Settings] in [!DNL Adobe Target] geeft u informatie op over de doelen van de activiteit.
 
-De beschikbare montages hangen af van of u Doel of [ Analytics ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) als rapporteringsbron gebruikt.
+De beschikbare montages hangen af van of u Doel of [ Analytics als rapporteringsbron ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) gebruikt.
 
 ## [!UICONTROL Activity Settings] {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -54,7 +55,7 @@ De volgende opties zijn beschikbaar:
 | Instelling | Beschrijving |
 |--- |--- |
 | [!UICONTROL Which success metric must be reached before incrementing this metric?] | Gebruik deze optie om slechts iemand te tellen zoals het bereiken van metrisch succes als zij eerder een verschillend succes metrisch hebben bereikt. Een activiteitconversie is bijvoorbeeld alleen geldig als de bezoeker op het aanbod klikt of een bepaalde pagina bereikt voordat de conversie plaatsvindt. U kunt gebiedsdeel op veelvoudige metriek samen met de flexibiliteit verstrekken om te kiezen of metrisch zou moeten worden bereikt of niet voor de telling om worden bereikt te verhogen. Definieer beide (of meerdere) succeswaarden voordat u de ene afhankelijk van de andere kunt maken. Met de optie [!UICONTROL Add Dependency] kan de metrische waarde met succes worden verhoogd als een andere maatstaf met succes is bereikt of niet is bereikt. Een afhankelijkheid toevoegen:<ul><li>Klik op [!UICONTROL Advanced Settings] nadat u aanvullende metriek hebt toegevoegd.</li><li>Klik op de optie [!UICONTROL Add Dependency] :</li><li>Sleep de gewenste metriek van de linkerruit in de juiste ruit, dan klik [!UICONTROL Reached] om het plaatsen tussen [!UICONTROL Reached] en [!UICONTROL  Not Reached] van een knevel te voorzien.</li><li>U kunt afhankelijkheden bewerken of verwijderen nadat u deze hebt toegevoegd.</li></ul> |
-| [!UICONTROL What will happen after a user encounters this goal metric?] | Er zijn drie opties voor wat gebeurt wanneer een bezoeker het doel metrisch bereikt:<ul><li>Selecteer [!UICONTROL Increment Count & Keep User in Activity] om op te geven hoe het aantal wordt verhoogd.</li><li>Selecteer [!UICONTROL Increment Count, Release User & Allow Reentry] om de ervaring op te geven die de gebruiker ziet als hij of zij de activiteit opnieuw betreedt.</li><li>Selecteer [!UICONTROL Increment Count, Release User & Bar from Reentry] om op te geven wat de gebruiker ziet in plaats van de inhoud van de activiteit.</li></ul> |
+| [!UICONTROL What will happen after a user encounters this goal metric?] | Er zijn drie opties voor wat gebeurt wanneer een bezoeker het doel metrisch bereikt:<ul><li>Selecteer **[!UICONTROL Increment Count & Keep User in Activity]** om op te geven hoe het aantal wordt verhoogd.</li><li>Selecteer **[!UICONTROL Increment Count, Release User & Allow Reentry]** om de ervaring op te geven die de gebruiker ziet als hij of zij de activiteit opnieuw betreedt.</li><li>Selecteer **[!UICONTROL Increment Count, Release User & Bar from Reentry]** om op te geven wat de gebruiker ziet in plaats van de inhoud van de activiteit.</li></ul> |
 | [!UICONTROL How will the count be incremented?] | Er zijn drie opties voor de verhoging van het aantal:<ul><li>[!UICONTROL Once per Entrant]</li><li>[!UICONTROL On Every Impression (Excluding page refreshes)]</li><li>[!UICONTROL On Every Impression]</li></ul> |
 
 Zie [ Metriek van het Succes ](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) voor meer informatie over geavanceerde montages.

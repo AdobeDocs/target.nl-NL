@@ -5,9 +5,10 @@ title: Kan ik veelvoudige ervaringsversies in een activiteit A/B gebruiken?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: ec35109b5d668a96f7e71149df7c965ce2bf3ceb
+exl-id: 791423e3-c748-4771-b824-c5ba6d3d6c32
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ In dit geval hebt u geospecifieke versies van de ervaring nodig, zodat u de geo-
 
 1. Selecteer de ervaring en klik vervolgens op **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]** .
 
-1. Klik het **[!UICONTROL Add Audience]** pictogram ( ![ voeg pictogram ](/help/main/assets/icons/Add.svg)) in de ruit van het Soortpubliek van de Ervaring toe, dan selecteer het eerste publiek u wilt richten. Herhaal dit voor elk publiek.
+1. Klik het **[!UICONTROL Add Audience]** pictogram ( ![ voeg pictogram ](/help/main/assets/icons/Add.svg) toe) in de [!UICONTROL Experience Audiences] ruit, dan selecteer het eerste publiek u wilt richten. Herhaal dit voor elk publiek.
 
    Als het publiek nog niet bestaat, klik [ leidt tot Audience ](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) en opstelling het.
 

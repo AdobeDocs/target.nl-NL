@@ -1,11 +1,12 @@
 ---
 keywords: A/B;A/B test;A/B activiteit;nieuwe a/b activiteit;creeer a/b
-description: Meester [!UICONTROL Visual Experience Composer] (VEC) om de activiteiten van de Test van A/B rechtstreeks op a  [!DNL Target]-Toegelaten pagina tot stand te brengen.
+description: Gebruik [!UICONTROL Visual Experience Composer] (VEC) om de activiteiten van de Test van A/B rechtstreeks op a  [!DNL Target]-Toegelaten pagina tot stand te brengen.
 title: Hoe maak ik een A/B-test?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+exl-id: 35b8d451-289f-4c9d-82ed-c3bdb091c8e3
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 0%
@@ -101,8 +102,8 @@ Een handmatige [!UICONTROL A/B Test] activiteit maken:
 
       Als u een nieuw publiek moet tot stand brengen dat niet reeds in [!UICONTROL Audience Library] is, klik **creeer Publiek**. Tijdens het [ creeer-publiek werkschema ](/help/main/c-target/c-audiences/audiences.md) kunt u van de volgende opties kiezen:
 
-      * Maak een publiek op aanvraag dat wordt opgeslagen in de [!UICONTROL Audience Library] en dat opnieuw kan worden gebruikt in andere activiteiten
-      * Creeer een [ activiteit-specifiek publiek ](/help/main/c-target/creating-activity-only-audience.md) dat niet aan [!UICONTROL Audience Library] wordt bewaard en in de huidige activiteit slechts kan worden gebruikt
+      * **[!UICONTROL Audience Library]**: Maak een publiek op aanvraag dat wordt opgeslagen in [!UICONTROL Audience Library] en dat opnieuw kan worden gebruikt in andere activiteiten.
+      * **[!UICONTROL This activity only]**: Creeer een [ activiteit-specifiek publiek ](/help/main/c-target/creating-activity-only-audience.md) dat niet aan [!UICONTROL Audience Library] wordt bewaard en in de huidige activiteit slechts kan worden gebruikt.
 
    1. Klik op **[!UICONTROL Visitor Percentage]** in het rechterframe en kies het percentage gekwalificeerde bezoekers dat u de activiteit wilt invoeren.
 
