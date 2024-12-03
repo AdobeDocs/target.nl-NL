@@ -7,9 +7,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 0c86e142b7d459d07af51ec0c3454611564c8e08
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ De [!UICONTROL Offers] -bibliotheek biedt een overzicht van alle code en afbeeld
 | Linkernavigatieregel | Schakel tussen het weergeven van [!UICONTROL Code Offers] of [!UICONTROL Image Offers] . |
 | [!UICONTROL Show Folders] / [!UICONTROL Hide Folders]<P>![ toon Filters/verberg Filters pictogram ](/help/main/assets/icons/RailLeft.svg) | Klik op het pictogram **[!UICONTROL Show Folders]** of **[!UICONTROL Hide Folders]** om te schakelen tussen het weergeven van de mappenstructuur voor aanbiedingen of het niet weergeven van de mappenstructuur.<P>Voor meer informatie, zie [ aanbiedingsomslagen ](/help/main/c-experiences/c-manage-content/create-content-folder.md) creëren. |
 | [!UICONTROL Show filters] pictogram<P>![ toon Filters pictogram ](/help/main/assets/icons/Filter.svg) | Klik op het pictogram **[!UICONTROL Show filters]** om aanbiedingen te filteren op [!UICONTROL Type] , [!UICONTROL Source] en [!UICONTROL AEM Type] .<P>Voor meer informatie, zie [ filters op de lijst van Aanbiedingen ](#filters) hieronder toepassen. |
-| Zoeken in velden | Gebruik de velden **[!UICONTROL Search in]** om snel een aanbieding te vinden of om het aantal aanbiedingen dat wordt weergegeven in de [!UICONTROL Offers] -bibliotheek te verminderen. U kunt zoeken op [!UICONTROL Offer Name] , [!UICONTROL AEM Paths] of [!UICONTROL AEM Tags] . |
+| Zoeken in velden | Gebruik de velden **[!UICONTROL Search in]** om snel een aanbieding te vinden of om het aantal aanbiedingen dat wordt weergegeven in de [!UICONTROL Offers] -bibliotheek te verminderen. U kunt zoeken op [!UICONTROL Offer Name] , [!UICONTROL AEM Paths] of [!UICONTROL AEM Tags] . Zoekopties zijn sessiedoneel. |
 | [!UICONTROL Create Folder] | Klik op **[!UICONTROL Create Folder]** om mappen in de [!UICONTROL Offer] -bibliotheek te maken voor de opslag van codeaanbiedingen, afbeeldingsaanbiedingen en andere mappen om een submapstructuur te maken.<P>Voor meer informatie, zie [ aanbiedingsomslagen ](/help/main/c-experiences/c-manage-content/create-content-folder.md) creëren. |
 | [!UICONTROL [!UICONTROL Create Offer]] | Klik op **[!UICONTROL Create Offer]** om een aanbieding te maken.<P>Zie voor meer informatie over het maken van de verschillende soorten aanbiedingen: <ul><li>HTML-aanbod</li><li>[ Aanbieding JSON ](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[ Redirect Aanbieding ](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[ Verre Aanbieding ](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
 | Selectievakjes voor bulkbewerkingen<P>![ het pictogram van Verrichtingen van het Bulk ](/help/main/assets/icons/Rectangle.svg) | Klik op de selectievakjes [!UICONTROL Bulk Operations] om bulkbewerkingen uit te voeren op alle aanbiedingen of op geselecteerde aanbiedingen.<P>Voor een lijst van acties die (afhankelijk van uw toestemmingen en de aanbiedingsstatus) beschikbaar zijn, zie [ snelle acties ](#quick-actions) hieronder uitvoeren. |
@@ -55,6 +55,8 @@ Met het pictogram **[!UICONTROL Show filters]** kunt u aanbiedingen filteren op 
 * **[!UICONTROL Source]** : [!DNL Adobe Target] , [!DNL Adobe Target Classic] en [!DNL Adobe Experience Manager] .
 
 * **AEM Type**: [ de Fragmenten van de Inhoud ](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) en [ de Fragmenten van de Ervaring ](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md). Voor meer informatie over de verschillende fragmenttypes, zie [ AEM het Overzicht van de Fragmenten van de Ervaring en van de Fragmenten van de Inhoud ](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
+
+Filters zijn sessiepermanent.
 
 ## Snelle handelingen uitvoeren {#quick-actions}
 

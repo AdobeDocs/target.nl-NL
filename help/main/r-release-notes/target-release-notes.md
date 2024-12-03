@@ -4,9 +4,9 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke Nieuwe Eigenschappen en de Verbeteringen worden omvat in de aanstaande  [!DNL Target]  Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3f3f7484145c9fd43bf7ff7356cca0997057ef02
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,27 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor komende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**Laatste bijgewerkte: 14 November, 2024**
+**Laatste bijgewerkte: 3 December, 2024**
 
 >[!NOTE]
 >
 >Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 >
 >Om informatie over de huidige versie te bekijken, zie {de Nota&#39;s van de Versie van het 0} Doel ](release-notes.md). [ De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik door [!DNL Adobe] .
+
+## [!UICONTROL Offers Library] update gebruikersinterface (9 januari 2024)
+
+Deze release werkt de gebruikersinterface van [!UICONTROL Offers Library] bij om de gebruikerservaring voor [!DNL Adobe Target] -gebruikers te verbeteren. Met het nieuwste ontwerpsysteem van [!DNL Adobe Spectrum] worden inconsistente ontwerppatronen gestandaardiseerd en worden nieuwe verbeteringen geïntroduceerd, zoals:
+
+* **Bulk het beheer van de Aanbieding**: Selecteer en schrap veelvoudige aanbiedingen gelijktijdig.
+
+* **de verbeteringen van de Redacteur van de Code**: Vernieuwde redacteurs van HTML en JSON met syntaxismarkering en lijnnummering.
+
+* **Verbeterde kaarten van de Aanbieding**: Verbeterde snelle informatie en detailkaarten voor gemakkelijkere informatietoegang.
+
+* **Persistent onderzoek en filters**: Voegt zitting-blijvend onderzoek en filteropties toe.
+
+Vanaf 9 januari 2025 krijgen alle [!DNL Target] klanten toegang tot de nieuwe interface, met de optie om indien nodig terug te schakelen naar de huidige versie van de interface.
 
 ## [!DNL Adobe Experience Platform Web SDK] `__view__` bereik optimaliseren (22 oktober 2024)
 

@@ -6,9 +6,9 @@ feature: Experiences and Offers
 hide: true
 hidefromtoc: true
 exl-id: e022c2d1-3326-405b-aead-5bb4ffa309b3
-source-git-commit: 4b57712b838906611702db521b51af84077501e6
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -46,17 +46,7 @@ De aanbiedingen JSON worden gesteund slechts in activiteiten die worden gecreeer
 
 Hier volgt een voorbeeld:
 
-```json
-adobe.target.getOffer({ 
-  mbox: "some-mbox", 
-  success: function(actions) { 
-    console.log('Success', actions); 
-  }, 
-  error: function(status, error) { 
-    console.log('Error', status, error); 
-  } 
-});
-```
+![ creeer JSON de dialoogdoos van de aanbieding ](/help/main/c-experiences/c-manage-content/assets/json-example.png)
 
 De acties die aan succesvolle callback worden overgegaan zijn een serie van voorwerp. Ervan uitgaande dat u één JSON-aanbieding hebt, die de volgende inhoud heeft:
 
