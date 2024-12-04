@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Auto-Target
 hide: true
 hidefromtoc: true
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+exl-id: d2c4532d-91ce-4bec-9cd3-a70a02f6b289
+source-git-commit: 5846e567cffda70ecd75f2975b0891f9a3f423a5
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -75,7 +76,7 @@ Een [!UICONTROL Auto-Target] -activiteit maken:
 
 1. Maak nieuwe ervaringen door de elementen op de pagina te wijzigen.
 
-   In [!UICONTROL Visual Experience Composer] worden twee tabbladen aan de linkerkant weergegeven nadat u een nieuwe activiteit hebt gemaakt: Experience A en Experience B. Experience A is de controleleving. De focus ligt op het tabblad Experience B, dat u naar wens kunt wijzigen. Ervaring B is de alternatieve ervaring die u aan uw test kunt toevoegen. U kunt veelvoudige ervaringen aan de test toevoegen door het [!UICONTROL Add] pictogram ( ![ toe te voegen pictogram ](/help/main/assets/icons/Add.svg)) bij de bovenkant van de [!UICONTROL Experiences] ruit te klikken. U kunt ook Experience A verwijderen uit de activiteit als u geen standaard site-ervaring wilt opnemen als optie.
+   In [!UICONTROL Visual Experience Composer] worden twee tabbladen aan de linkerkant weergegeven nadat u een nieuwe activiteit hebt gemaakt: [!UICONTROL Experience A] en [!UICONTROL Experience B] . [!UICONTROL Experience A] is de besturingservaring. De focus ligt op de tab [!UICONTROL Experience B] , die u naar wens kunt wijzigen. [!UICONTROL Experience B] is de alternatieve ervaring die u aan de test kunt toevoegen. U kunt veelvoudige ervaringen aan de test toevoegen door het [!UICONTROL Add] pictogram ( ![ toe te voegen pictogram ](/help/main/assets/icons/Add.svg)) bij de bovenkant van de [!UICONTROL Experiences] ruit te klikken. U kunt ook Experience A verwijderen uit de activiteit als u geen standaard site-ervaring wilt opnemen als optie.
 
    Voor meer informatie over het toevoegen van en het wijzigen van ervaringen in [!UICONTROL Visual Experience Composer], zie [ Ervaring ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00) toevoegen. Om Ervaring B te wijzigen, begin met Stap 2.
 
@@ -100,8 +101,8 @@ Een [!UICONTROL Auto-Target] -activiteit maken:
 
       Als u een nieuw publiek moet tot stand brengen dat niet reeds in [!UICONTROL Audience Library] is, klik **creeer Publiek**. Tijdens het [ creeer-publiek werkschema ](/help/main/c-target/c-audiences/audiences.md) kunt u van de volgende opties kiezen:
 
-      * Maak een publiek op aanvraag dat wordt opgeslagen in de [!UICONTROL Audience Library] en dat opnieuw kan worden gebruikt in andere activiteiten
-      * Creeer een [ activiteit-specifiek publiek ](/help/main/c-target/creating-activity-only-audience.md) dat niet aan [!UICONTROL Audience Library] wordt bewaard en in de huidige activiteit slechts kan worden gebruikt
+      * **[!UICONTROL Audience Library]**: Maak een publiek op aanvraag dat wordt opgeslagen in de [!UICONTROL Audience Library] en dat opnieuw kan worden gebruikt in andere activiteiten
+      * **[!UICONTROL This activity only]**: Creeer een [ activiteit-specifiek publiek ](/help/main/c-target/creating-activity-only-audience.md) dat niet aan [!UICONTROL Audience Library] wordt bewaard en in de huidige activiteit slechts kan worden gebruikt
 
    1. Klik op **[!UICONTROL Visitor Percentage]** in het rechterframe en kies het percentage gekwalificeerde bezoekers dat u de activiteit wilt invoeren.
 
@@ -109,7 +110,7 @@ Een [!UICONTROL Auto-Target] -activiteit maken:
 
 1. Klik de **[!UICONTROL Traffic Allocation]** controle, dan kies de gewenste methode van de verkeerstoewijzing in de juiste ruit. Klik in dit scenario op **[!UICONTROL Auto-Taget for personalized experiences]** .
 
-   ![ montages van de Methode van de Toewijzing van het Verkeer ](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
+   ![ montages van de Methode van de Toewijzing van het Verkeer ](/help/main/c-activities/assets/auto-target.png)
 
    De volgende methoden voor verkeerstoewijzing zijn beschikbaar:
 
