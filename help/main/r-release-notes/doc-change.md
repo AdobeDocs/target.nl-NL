@@ -4,9 +4,9 @@ description: Houd bijgewerkt met belangrijke toevoegingen en veranderingen in de
 title: Waar kan ik documentatieupdates voor  [!DNL Target] zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
+source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 |--- |--- |--- |
+| 9 december | [[!UICONTROL Visual Experience Composer] best practices en beperkingen ](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md) | De volgende beperking is toegevoegd:<ul><li>U kunt het [!UICONTROL Button] -element niet selecteren voor herschikking.<P>[!UICONTROL Button] -elementen kunnen niet rechtstreeks worden geselecteerd voor herschikking. Plaats knoppen in een grotere container om herschikking in te schakelen.</li></ul> |
 | 3 december | [[!DNL Target]  versienota&#39;s (prerelease) ](/help/main/r-release-notes/target-release-notes.md) | Opmerkingen bij de pre-releaseversie zijn toegevoegd voor de volgende update van de gebruikersinterface van [!UICONTROL Offers Library] . |
 | 20 november | [ de randknopen van het Doel van de Lijst van gewenste personen ](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges#target-edge-ip-addresses) {target=_blank} | Bijgewerkt de lijst van de randIP van het Doel adressen aan lijst van gewenste personen. |
 | 19 november | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Toegevoegd na een belangrijke opmerking bij de sectie &quot;[!DNL Adobe Experience Platform Web SDK] `__view__` scope optimization (22 oktober 2024)&quot;:<ul><li>BELANGRIJK: als u uw implementatieoverzicht niet kunt voltooien en om het even welke kwesties tegen 3 Februari 2025 kunt oplossen, kunt u een eenmalig, zesmaands uitbreiding verzoeken. Zorg ervoor dat uw verzoek uiterlijk op 31 januari 2025 wordt ingediend. De Adobe zal uw verzoek beoordelen en beslissen.</li><ul> |

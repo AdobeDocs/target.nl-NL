@@ -4,7 +4,7 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke Nieuwe Eigenschappen en de Verbeteringen worden omvat in de aanstaande  [!DNL Target]  Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
+source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
@@ -25,13 +25,13 @@ Dit artikel bevat pre-releasegegevens voor komende [!DNL Adobe Target] versies, 
 
 ## [!UICONTROL Offers Library] update gebruikersinterface (9 januari 2024)
 
-Deze release werkt de gebruikersinterface van [!UICONTROL Offers Library] bij om de gebruikerservaring voor [!DNL Adobe Target] -gebruikers te verbeteren. Met het nieuwste ontwerpsysteem van [!DNL Adobe Spectrum] worden inconsistente ontwerppatronen gestandaardiseerd en worden nieuwe verbeteringen geïntroduceerd, zoals:
+Deze release werkt de gebruikersinterface van [!UICONTROL Offers Library] bij om de gebruikerservaring voor [!DNL Adobe Target] -gebruikers te verbeteren. Met behulp van het nieuwste ontwerpsysteem van [!DNL Adobe Spectrum] worden inconsistente ontwerppatronen gestandaardiseerd en worden nieuwe verbeteringen geïntroduceerd, waaronder:
 
-* **Bulk het beheer van de Aanbieding**: Selecteer en schrap veelvoudige aanbiedingen gelijktijdig.
+* **Bulk aanbiedt beheer**: Selecteer en schrap veelvoudige aanbiedingen gelijktijdig.
 
-* **de verbeteringen van de Redacteur van de Code**: Vernieuwde redacteurs van HTML en JSON met syntaxismarkering en lijnnummering.
+* **[!UICONTROL Code Editor]upgrades** : vernieuwde HTML- en JSON-editors met syntaxismarkering en regelnummering.
 
-* **Verbeterde kaarten van de Aanbieding**: Verbeterde snelle informatie en detailkaarten voor gemakkelijkere informatietoegang.
+* **Verbeterde aanbiedingskaarten**: Verbeterde snelle informatie en detailkaarten voor gemakkelijkere informatietoegang.
 
 * **Persistent onderzoek en filters**: Voegt zitting-blijvend onderzoek en filteropties toe.
 
