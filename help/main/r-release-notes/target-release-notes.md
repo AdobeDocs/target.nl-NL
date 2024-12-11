@@ -4,9 +4,9 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke Nieuwe Eigenschappen en de Verbeteringen worden omvat in de aanstaande  [!DNL Target]  Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
+source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor komende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**Laatste bijgewerkte: 3 December, 2024**
+**Laatste bijgewerkte: 11 December, 2024**
 
 >[!NOTE]
 >
@@ -36,6 +36,10 @@ Deze release werkt de gebruikersinterface van [!UICONTROL Offers Library] bij om
 * **Persistent onderzoek en filters**: Voegt zitting-blijvend onderzoek en filteropties toe.
 
 Vanaf 9 januari 2025 krijgen alle [!DNL Target] klanten toegang tot de nieuwe interface, met de optie om indien nodig terug te schakelen naar de huidige versie van de interface.
+
+Hier volgt een korte video waarin de wijzigingen in deze release worden belicht:
+
+![ aanbiedingen UI verfrist video ](/help/main/r-release-notes/assets/offers-video-v2.gif)
 
 ## [!DNL Adobe Experience Platform Web SDK] `__view__` bereik optimaliseren (22 oktober 2024)
 

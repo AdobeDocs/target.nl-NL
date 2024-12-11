@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 hide: true
 hidefromtoc: true
-source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
+exl-id: fe6e5130-53a0-4254-8299-b52086c20004
+source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1767'
 ht-degree: 0%
 
 ---
@@ -43,7 +44,7 @@ De werkstroom [!UICONTROL Automated Personalization] (AP) activiteit in [!DNL Ta
 
    De pagina met de opgegeven URL wordt geopend in de VEC.
 
-1. Klik **[!UICONTROL Untitled Activity]** bij de bovenkant van VEC, dan specificeer een naam voor de activiteit in de verstrekte ruimte.
+1. Klik het **[!UICONTROL Rename]** pictogram ( ![ anders noemen pictogram ](/help/main/assets/icons/MoreSmallListVert.svg)), klik **[!UICONTROL Rename]**, specificeer een naam voor de activiteit, dan klik **[!UICONTROL Save]**.
 
    De naam van de activiteit mag niet met een van de volgende tekens beginnen:
 
