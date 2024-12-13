@@ -1,39 +1,39 @@
 ---
 keywords: mvt;multivariërende test;aanbiedingen;combinaties
-description: Leer hoe u de [!UICONTROL Visual Experience Composer] (VEC) in Adobe [!DNL Target] om de aanbiedingen te maken die u in uw [!UICONTROL Multivariate Test] (MVT).
+description: Leer hoe te om [!UICONTROL Visual Experience Composer] (VEC) in Adobe  [!DNL Target]  te gebruiken om de aanbiedingen tot stand te brengen u in uw [!UICONTROL Multivariate Test] (MVT) wilt omvatten.
 title: Hoe maak ik combinaties in een [!UICONTROL Multivariate Test] (MVT)?
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
-source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
+source-git-commit: 4a18dc6c9988e593a65bdcf695113d7179d88290
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
 # Combinaties maken
 
-Gebruik de [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] om de aanbiedingen te maken die u in uw [!UICONTROL Multivariate Test] (MVT).
+Gebruik [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] om de aanbiedingen te maken die u in uw [!UICONTROL Multivariate Test] (MVT) wilt opnemen.
 
-Voor meer informatie over het gebruiken van VEC om aanbiedingen tot stand te brengen en uit te geven, zie [Opties voor Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
+Voor meer informatie over het gebruiken van VEC om aanbiedingen tot stand te brengen en uit te geven, zie {de opties van Composer van de 1} Visuele Ervaring.[](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
 
 >[!NOTE]
 >
->U kunt op **[!UICONTROL Expand Selection]** wanneer u objecten op de pagina selecteert om naast het oorspronkelijk geselecteerde element ook het bovenliggende element te selecteren. Wanneer u een bovenliggend element selecteert, worden alle onderliggende elementen van dat element automatisch geselecteerd. U kunt de selectie meerdere keren uitbreiden.
+>U kunt op **[!UICONTROL Expand Selection]** klikken wanneer u objecten op de pagina selecteert om naast het oorspronkelijk geselecteerde element ook het bovenliggende element te selecteren. Wanneer u een bovenliggend element selecteert, worden alle onderliggende elementen van dat element automatisch geselecteerd. U kunt de selectie meerdere keren uitbreiden.
 >
->U kunt ook de opdracht [DOM-pad](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) om door elementen te navigeren.
+>U kunt de [ weg van het DOM ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) ook gebruiken om elementen te navigeren.
 
 ## Afbeeldingsaanbiedingen {#section_A48333211DB149ED926AE467D0032914}
 
 Test meerdere afbeeldingen die op een bepaalde locatie beschikbaar zijn om te bepalen welke afbeelding het meest succesvol is.
 
-1. Klik op een afbeelding op de pagina en selecteer vervolgens **[!UICONTROL Change Image]**.
+1. Klik op een afbeelding op de pagina en selecteer vervolgens **[!UICONTROL Change Image]** .
 
-   ![Afbeelding wijzigen, optie](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
+   ![ de optie van het Beeld van de Verandering ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
 
-1. Selecteer alle afbeeldingen die u in de test wilt opnemen en klik op **[!UICONTROL Save]**.
+1. Selecteer alle afbeeldingen die u in de test wilt opnemen en klik op **[!UICONTROL Save]** .
 
-   ![Dialoogvenster Inhoud selecteren voor het toevoegen van afbeeldingen](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
+   ![ Uitgezochte de dialoogdoos van de Inhoud die wordt gebruikt om beelden toe te voegen ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
 
 Elke afbeelding wordt een aparte ervaring op die locatie.
 
@@ -41,13 +41,13 @@ Elke afbeelding wordt een aparte ervaring op die locatie.
 
 Test meerdere Text/HTML-aanbiedingen binnen een locatie om te bepalen welke aanbieding het meest succesvol is.
 
-1. Klik op een Text/HTML-aanbieding op uw pagina en klik vervolgens op **[!UICONTROL Change Text/HTML]**.
+1. Klik op een aanbod voor tekst/HTML op de pagina en klik vervolgens op **[!UICONTROL Change Text/HTML]** .
 
-   ![Tekst/HTML wijzigen](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changehtml.png)
+   ![ de Tekst/HTML van de Verandering ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changehtml.png)
 
-1. Klikken **[!UICONTROL Add Text/HTML Offer]** Geef de aanbieding een naam en typ of plak de code voor de aanbieding voor tekst/HTML.
+1. Klik op **[!UICONTROL Add Text/HTML Offer]**, geef een naam op voor de aanbieding en typ of plak de code voor de aanbieding voor tekst/HTML.
 
-   ![Aanbiedingen bewerken](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
+   ![ geef aanbiedingen ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png) uit
 
    Herhaal dit voor alle andere Text/HTML-aanbiedingen die u wilt opnemen.
 
@@ -60,7 +60,8 @@ Elke Text/HTML-aanbieding wordt een aparte ervaring op die locatie.
 * Neem niet meer locaties op dan nodig is voor de test. Elke ervaring die u in de test opneemt, verhoogt aanzienlijk de hoeveelheid verkeer en de tijd die nodig is om acceptabele resultaten te bereiken. Als u bijvoorbeeld pagina-elementen hebt met elk drie aanbiedingen, zijn er negen mogelijke combinaties (3x3). Drie elementen, waarbij twee mogelijke aanbiedingen bevatten en één twee aanbiedingen, bieden 18 opties (3x3x2). De aantallen stijgen substantieel met elk extra element en aanbod.
 * Wanneer het creëren van multivariate tests, kunt u meer dan 10 percenten van ervaringen van de test uitsluiten, op voorwaarde dat u de waarschuwing erkent dat u dan off-line rapportering voor analyse moet gebruiken.
 * Gebruik de voorvertoningsfuncties om ongewenste combinaties van inhoud te voorkomen. Je hebt bijvoorbeeld twee afbeeldingen die verschillende kortingen bieden op hetzelfde object of dezelfde service. Het weergeven van beide afbeeldingen op dezelfde pagina is onlogisch en kan tot verwarring leiden.
-* Gebruik de [Verkeersschatting](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) om ervoor te zorgen dat uw test voor de hoeveelheid verkeer wordt ontworpen uw pagina ontvangt. Zorg ervoor dat de schatter van het Verkeer uw testconfiguratie het groene licht geeft zodat kunt u de resultaten krijgen u wenst.
+* Gebruik de [ schatter van het Verkeer ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) om ervoor te zorgen dat uw test voor de hoeveelheid verkeer wordt ontworpen uw pagina ontvangt. Zorg ervoor dat de schatter van het Verkeer uw testconfiguratie het groene licht geeft zodat kunt u de resultaten krijgen u wenst.
 * U moet ten minste drie elementen hebben om te testen. Als u minder hebt, stel een reeks tests A/B in werking.
 * De alternatieven van elk element moeten aanzienlijk van elkaar verschillen.
 * Hoewel niet vereist, is het een goede praktijk voor elk element om het zelfde aantal alternatieven te hebben.
+
