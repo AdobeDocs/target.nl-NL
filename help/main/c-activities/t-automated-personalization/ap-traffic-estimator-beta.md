@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 hide: true
 hidefromtoc: true
-source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
+exl-id: d0eddda6-3ff5-4f80-aa16-87a6a9990170
+source-git-commit: 48dcf100228beb160179e5bb7cfe7db36419b832
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ Vergeet niet dat [!DNL Target] op willekeurige wijze ervaringen oplevert totdat 
 
 ## De schatter van het Verkeer gebruiken
 
-1. Van de [!UICONTROL Experiences] pagina van [!UICONTROL Visual Experience Composer] in een [!UICONTROL Automated Personalization] activiteit, klik het **[!UICONTROL Traffic]** pictogram ( ![ pictogram van de Schatter van het Verkeer ](/help/main/assets/icons/Gauge2.svg)) in de hoogste linkerhoek van de pagina van Ervaringen.
+1. Van de [!UICONTROL Experiences] pagina van [!UICONTROL Visual Experience Composer] in een [!UICONTROL Automated Personalization] activiteit, klik het **[!UICONTROL Traffic]** pictogram ( ![ pictogram van de Schatter van het Verkeer ](/help/main/assets/icons/Gauge2.svg)) in de hoogste linkerhoek van de [!UICONTROL Experiences] pagina.
 
    De lus [!UICONTROL Traffic Estimator] wordt geopend.
 

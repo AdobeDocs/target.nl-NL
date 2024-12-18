@@ -7,9 +7,9 @@ feature: Automated Personalization
 hide: true
 hidefromtoc: true
 exl-id: fe6e5130-53a0-4254-8299-b52086c20004
-source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
+source-git-commit: 48dcf100228beb160179e5bb7cfe7db36419b832
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: '1769'
 ht-degree: 0%
 
 ---
@@ -74,9 +74,7 @@ De werkstroom [!UICONTROL Automated Personalization] (AP) activiteit in [!DNL Ta
 
    U kunt meerdere afbeeldingen tegelijk selecteren in het middelenbeheer. Zo kunt u snel de pagina weergeven met elk van de afbeeldingen die voor de activiteit zijn geconfigureerd. U kunt ook gemakkelijk tekstelementen in uw aanbiedingen bewerken. Wanneer u een element bewerkt, verschijnen er balken op dat element om aan te geven dat u het element hebt gewijzigd.
 
-1. Klik op **[!UICONTROL Manage Content]** om de beschikbare combinaties te configureren.
-
-   ![ beheert de optie van de Inhoud ](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
+1. Klik het **[!UICONTROL Manage Content]** pictogram ( ![ leidt het pictogram van de Inhoud ](/help/main/assets/icons/Experience.svg)) om de beschikbare combinaties te vormen.
 
    Er wordt een dialoogvenster weergegeven met drie opties boven aan het scherm: [!UICONTROL Experiences], [!UICONTROL Offers] en [!UICONTROL Exclusion Groups] .
 
