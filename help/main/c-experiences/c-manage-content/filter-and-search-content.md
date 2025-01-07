@@ -1,12 +1,12 @@
 ---
 keywords: inhoudsbibliotheek;elementen;zoeken;filter
-description: Leer hoe te om naar code en beeldaanbiedingen in de Adobe  [!DNL Target]  bibliotheek van Aanbiedingen te zoeken.
+description: Ontdek hoe u naar code- en afbeeldingsaanbiedingen in de [!UICONTROL Offers] -bibliotheek kunt zoeken.
 title: Hoe zoek ik naar inhoud in de bibliotheek met aanbiedingen?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
+source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -18,40 +18,35 @@ Zoeken naar elementen op trefwoorden in de [!UICONTROL Offers] -bibliotheek in [
 ## Zoeken naar codeaanbiedingen op trefwoord
 
 1. Klik op **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]** .
-1. Typ de gewenste trefwoorden in het vak [!UICONTROL Search] .
+1. Typ de gewenste trefwoorden in het vak **[!UICONTROL Search In]** .
 
-   U kunt ook filteren met de vervolgkeuzelijsten [!UICONTROL Type] en [!UICONTROL Source] om de zoekopdracht verder te verfijnen.
+   Met de vervolgkeuzelijst kunt u filteren op [!UICONTROL Offer name] , [!UICONTROL AEM Paths] of [!UICONTROL AEM Tags] .
+
+   U kunt ook filtreren door [!UICONTROL Type] te gebruiken, [!UICONTROL Source], en [!UICONTROL AEM Type] opties door het [!UICONTROL Show Filters] pictogram ![ te klikken tonen het pictogram van Filters ](/help/main/assets/icons/Filter.svg) om uw onderzoek verder te verfijnen.
 
 ## Aanbiedingen voor afbeeldingen zoeken op trefwoord {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
 1. Klik op **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]** .
 
-1. (Optioneel) U kunt schakelen tussen [!UICONTROL Card View] en [!UICONTROL List View] en op het pictogram [!UICONTROL Card View] of [!UICONTROL List View] rechtsboven in de inhoudsbibliotheek klikken. U kunt [!UICONTROL View Settings] ook gebruiken om de kolommen verder te vormen wanneer het bekijken van [!UICONTROL List View].
-
-   In de volgende afbeelding worden de beschikbare opties getoond wanneer u de [!UICONTROL List View] bekijkt:
-
-   ![ de opties van de Mening van de Lijst ](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
-
-1. Klik op het pictogram **[!UICONTROL Content Only]** linksboven in het zoekvak.
-
-   ![ slechts optie van de Inhoud ](/help/main/c-experiences/c-manage-content/assets/content-only.png)
-
-1. Typ in het zoekvak een trefwoord voor de elementen die u wilt zoeken en druk op Enter.
-
-1. (Optioneel) Gebruik het deelvenster **[!UICONTROL Filters and Options]** om de zoekopdracht verder te verfijnen.
-
-   ![ de Filter en ruit van Opties ](/help/main/c-experiences/c-manage-content/assets/filter-and-options.png)
+1. (Facultatief) knevel tussen [!UICONTROL Card View] en [!UICONTROL List View], klik het [!UICONTROL Card View] pictogram ( ![ pictogram van de de meningsmening van de Kaart ](/help/main/assets/icons/ViewCard.svg)) of het [!UICONTROL List View] pictogram ( ![ pictogram van de lijstmening ](/help/main/assets/icons/ViewList.svg) ) in de hogere juiste hoek van de [!UICONTROL Asset] bibliotheek.
+1. Klik het **[!UICONTROL Content Only]** pictogram ( ![ Inhoud slechts pictogram ](/help/main/assets/icons/RailLeft.svg)) in de hoogste linkerhoek om de onderzoeksdoos te tonen.
+1. Typ in het zoekvak een trefwoord voor de elementen die u wilt zoeken en druk op [!UICONTROL Enter] .
+1. (Voorwaardelijk) gebruik de ruit **[!UICONTROL Filters & Options]** op de linkerkant om uw onderzoek te verfijnen.
 
    U kunt filteren op:
 
-   * Bestandstype: afbeeldingen, documenten, multimedia of archieven.
-   * Bestandsgrootte: Klein, Medium of Groot
-   * Laatst gewijzigd: Uur, Dag, Week, Maand of Jaar.
-   * Goedkeuringsstatus: goedgekeurd of geweigerd.
-   * Vervalstatus: verlopen.
-   * Gemiddelde beoordeling: 1 tot en met 5.
-   * Richting: Horizontaal, Verticaal of Vierkant.
-   * Stijl: kleur of zwart-wit.
-   * Gebruiksscore: minimaal tot maximaal
-   * Impressiescore: minimaal tot maximaal
-   * Klik op Score: 1 tot en met 5.
+   * **[!UICONTROL File Type]**:
+      * [!UICONTROL Images]
+      * [!UICONTROL Documents]
+      * [!UICONTROL Multimedia]
+      * [!UICONTROL Archives]
+   * **[!UICONTROL File Size]**: gebruik de schuifregelaar om de gewenste bestandsgrootte te selecteren: [!UICONTROL Smallest] , [!UICONTROL Small] , [!UICONTROL Medium] , [!UICONTROL Large] of [!UICONTROL Largest] .
+   * **[!UICONTROL Last Modified]**: gebruik de schuifregelaar om de tijdsperiode te selecteren: [!UICONTROL Recent] , [!UICONTROL Hour] , [!UICONTROL Day] , [!UICONTROL Week] , [!UICONTROL Month] , [!UICONTROL Year] of [!UICONTROL All Assets] .
+   * **[!UICONTROL Approval Status]**: [!UICONTROL Approved] of [!UICONTROL Rejected]
+   * **[!UICONTROL Expiry Status]**: [!UICONTROL Expired] .
+   * **[!UICONTROL Average Rating]**: 1 tot en met 5.
+   * **[!UICONTROL Orientation]** : [!UICONTROL Horizontal] , [!UICONTROL Vertical] of [!UICONTROL Square] .
+   * **[!UICONTROL Style]** : [!UICONTROL Color] of [!UICONTROL Black & White] .
+   * **[!UICONTROL Usage Score]** : [!UICONTROL Minimum] to [!UICONTROL Maximum] .
+   * **[!UICONTROL Impression Score]** : [!UICONTROL Minimum] to [!UICONTROL Maximum] .
+   * **[!UICONTROL Click Score]** : [!UICONTROL Minimum] to [!UICONTROL Maximum] .

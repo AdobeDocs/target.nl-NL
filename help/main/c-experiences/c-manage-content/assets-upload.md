@@ -1,46 +1,31 @@
 ---
-keywords: inhoud;inhoud bijwerken;elementen;inhoud uploaden;element uploaden
-description: Leer hoe u afbeeldingen kunt uploaden om te gebruiken als afbeeldingsaanbiedingen in Adobe Target.
-title: Hoe kan ik inhoud uploaden naar de bibliotheek met aanbiedingen?
+keywords: inhoud;inhoud bijwerken;elementen;inhoud uploaden;element uploaden;inhoud verwijderen
+description: Leer hoe u afbeeldingen die als afbeeldingsaanbiedingen worden gebruikt, kunt uploaden of verwijderen.
+title: Hoe kan ik inhoud uploaden of verwijderen in de [!UICONTROL Offers] -bibliotheek?
 feature: Experiences and Offers
 exl-id: c0fb26ca-4b98-4558-81c6-d84cf6841903
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
 
-# Inhoud uploaden
+# Aanbiedingen voor afbeeldingen uploaden of verwijderen
 
-U kunt afbeeldingen uploaden naar [!UICONTROL Image Offers] lijst in [!DNL Adobe Target] gebruiken als afbeeldingsaanbiedingen in activiteiten. U kunt ook aanbiedingen voor afbeeldingen verwijderen die u niet meer nodig hebt in activiteiten.
+U kunt afbeeldingen uploaden naar de [!UICONTROL Image Offers] bibliotheek in [!DNL Adobe Target] om deze te gebruiken als aanbiedingen voor afbeeldingen in activiteiten. U kunt ook aanbiedingen voor afbeeldingen verwijderen die u niet meer nodig hebt in activiteiten.
 
 ## Aanbiedingen voor afbeeldingen aan de lijst toevoegen
 
-1. Klik op **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
-
-   ![Aanbiedingen > Afbeeldingsaanbiedingen](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
-
-1. Klik op **[!UICONTROL Create]** > **[!UICONTROL Files]**.
-1. Blader naar het item dat u wilt toevoegen en selecteer het item. Klik vervolgens op **[!UICONTROL Open]**.
-1. Bewerk indien nodig de bestandsnaam van het item en klik op **[!UICONTROL Upload]**.
+1. Klik op **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]** .
+1. Klik op **[!UICONTROL Create]** > **[!UICONTROL Files]** .
+1. Blader naar het item dat u wilt toevoegen en selecteer dit item. Klik vervolgens op **[!UICONTROL Open]** .
+1. Bewerk indien nodig de bestandsnaam van het item en klik op **[!UICONTROL Upload]** .
 
 ## Aanbiedingen of mappen voor afbeeldingen verwijderen
 
-Schakelen tussen de [!UICONTROL Card View] en [!UICONTROL List View]klikt u op de knop [!UICONTROL Card View] of de [!UICONTROL List View] in de rechterbovenhoek van de inhoudsbibliotheek.
+1. (Voorwaardelijk) om tussen [!UICONTROL Card View] en [!UICONTROL List View] van een knevel te voorzien, klik [!UICONTROL Card View] ( ![ pictogram van de de meningsmening van de Kaart ](/help/main/assets/icons/ViewCard.svg) ) of [!UICONTROL List View] ( ![ pictogram van de de meningsmening van de Lijst ](/help/main/assets/icons/ViewList.svg) ) in de hogere juiste hoek van de inhoudsbibliotheek.
 
-Van de [!UICONTROL Card View], houdt u de muisaanwijzer boven de gewenste afbeeldingsaanbieding of -map en klikt u op de knop **[!UICONTROL Select]** pictogram (het vinkje) en klik vervolgens op **[!UICONTROL Delete]**.
+1. Van [!UICONTROL Card View], houd over de gewenste beeldaanbieding of omslag, klik het **[!UICONTROL Select]** pictogram ( ![ Uitgezochte pictogram ](/help/main/assets/icons/CheckmarkCircleOutline.svg)), dan klik het **[!UICONTROL Delete]** pictogram ( ![ pictogram van de Schrapping ](/help/main/assets/icons/DeleteOutline.svg)).
 
-Van de [!UICONTROL List View]klikt u op de miniatuurafbeelding aan de linkerkant van de lijst om het gewenste afbeeldingsaanbod of de gewenste afbeeldingsmap te selecteren en klikt u vervolgens op **[!UICONTROL Delete]**, zoals hieronder weergegeven:
-
-![Geselecteerd item verwijderen](/help/main/c-experiences/c-manage-content/assets/delete-image-offer.png)
-
-## Trainingsvideo: De opslagplaats voor inhoud ![Overzicht badge](/help/main/assets/overview.png)
-
-Deze video bevat informatie over het beheren van inhoud.
-
-* Verbinding tussen de [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) en de doelinhoudsbibliotheek
-* Aangepaste HTML-aanbiedingen
-* Aanbod van de HTML van de douane in de Visuele Composer van de Ervaring
-
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+1. Van [!UICONTROL List View], klik het beeld duimnagelbeeld op de linkerkant van de lijst om de gewenste beeldaanbieding of omslag te selecteren, dan klik het **[!UICONTROL Delete]** pictogram ( ![ pictogram van de Schrapping ](/help/main/assets/icons/DeleteOutline.svg)).

@@ -4,9 +4,9 @@ description: Houd bijgewerkt met belangrijke toevoegingen en veranderingen in de
 title: Waar kan ik documentatieupdates voor  [!DNL Target] zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
+source-git-commit: 320e2e3828061ee38342dfabcdd50a682a7125a5
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 |--- |--- |--- |
+| 7 januari | [ de versienota&#39;s van het Doel (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de update van de gebruikersinterface van [!UICONTROL Offers Library] (gepland voor 9 januari 2025). Alle artikelen van Aanbiedingen zijn bijgewerkt om de wijzigingen in de gebruikersinterface weer te geven. |
 | 9 december | [[!UICONTROL Visual Experience Composer] best practices en beperkingen ](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md) | De volgende beperking is toegevoegd:<ul><li>U kunt het [!UICONTROL Button] -element niet selecteren voor herschikking.<P>[!UICONTROL Button] -elementen kunnen niet rechtstreeks worden geselecteerd voor herschikking. Plaats knoppen in een grotere container om herschikking in te schakelen.</li></ul> |
 |  | [ adobe.target.triggerView (viewName, opties) - at.js 2.x ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2) {target=_blank} | De volgende sectie toegevoegd:<ul><li>Voorbeeld: Beste compatibiliteit voor `triggerView()` met de Adobe Visual Editing Helper-extensie</li></ul> |
 | 3 december | [[!DNL Target]  versienota&#39;s (prerelease) ](/help/main/r-release-notes/target-release-notes.md) | Opmerkingen bij de pre-releaseversie zijn toegevoegd voor de volgende update van de gebruikersinterface van [!UICONTROL Offers Library] . |

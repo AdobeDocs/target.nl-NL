@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 65367f0a032d2eb680e26d43ee79f5ae0890024b
+source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1420'
 ht-degree: 2%
 
 ---
@@ -271,21 +271,13 @@ ht-degree: 2%
    + [Single Page App (SPA) Visual Experience Composer](c-experiences/spa-visual-experience-composer.md)
    + Aanbiedingen {#offers}
       + [Overzicht van aanbiedingen](c-experiences/c-manage-content/manage-content.md)
-      + [bètaversie van aanbiedingen](/help/main/c-experiences/c-manage-content/manage-content-beta.md)
       + [Aanbiedingenmap maken](c-experiences/c-manage-content/create-content-folder.md)
-      + [bètaversie van aanbiedingenmap maken](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md)
       + [Inhoud uploaden](c-experiences/c-manage-content/assets-upload.md)
-      + [Een bètaversie van een afbeelding uploaden of verwijderen](/help/main/c-experiences/c-manage-content/assets-upload-beta.md)
       + [Omleidingsvoorstellen maken](c-experiences/c-manage-content/offer-redirect.md)
-      + [bètaversie van aanbiedingen voor omleiding maken](c-experiences/c-manage-content/offer-redirect-beta.md)
       + [Externe aanbiedingen maken](c-experiences/c-manage-content/about-remote-offers.md)
-      + [bèta voor externe aanbiedingen maken](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md)
       + [JSON-aanbiedingen maken](c-experiences/c-manage-content/create-json-offer.md)
-      + [JSON-bètaversie biedt](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [Werken met inhoud in de bibliotheek](c-experiences/c-manage-content/assets-working.md)
-      + [Werken met inhoud in de bètabibliotheek van de bibliotheek](/help/main/c-experiences/c-manage-content/assets-working-beta.md)
       + [Inhoud zoeken en filteren](c-experiences/c-manage-content/filter-and-search-content.md)
-      + [bèta met inhoud zoeken en filteren](/help/main/c-experiences/c-manage-content/filter-and-search-content-beta.md)
       + [Dynamische gegevens in aanbiedingen doorgeven](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM Ervaring en inhoudsfragmenten](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Rapporten {#reports}

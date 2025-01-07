@@ -1,101 +1,116 @@
 ---
 keywords: inhoud;elementen;inhoud beheren;aanbiedingen;elementen beheren;selectiemodus openen;selectiemodus
-description: Leer hoe u code- en afbeeldingsaanbiedingen kunt beheren met de bibliotheek Aanbiedingen in Adobe Target.
+description: Ontdek hoe u code- en afbeeldingsaanbiedingen efficiënt kunt beheren met de [!UICONTROL Offers] -bibliotheek.
 title: Hoe kan ik code- en afbeeldingsaanbiedingen beheren?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: f93e33e91fb7be9c0d1772a2014864b46c1dfe47
+source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
 
 # Aanbiedingen
 
-Gebruik de [!UICONTROL Offers] bibliotheek in [!DNL Adobe Target] om uw codeaanbieding en beeldaanbieding inhoud te beheren.
+Ontdek hoe u code- en afbeeldingsaanbiedingen efficiënt kunt beheren met de [!UICONTROL Offers] -bibliotheek in [!DNL Adobe Target] .
 
-1. Klikken **[!UICONTROL Offers]** de bibliotheek openen.
+Als u de [!UICONTROL Offers] -bibliotheek wilt weergeven, klikt u op het tabblad **[!UICONTROL Offers]** boven aan de gebruikersinterface van [!DNL Target] .
 
-   De bibliotheek bevat de aanbiedingen die zijn ingesteld via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) en API&#39;s. Aanbiedingen gemaakt in [!DNL Target Classic] of andere oplossingen kunnen worden bewerkt in [!DNL Target Standard/Premium].
+![ pagina van Aanbiedingen ](/help/main/c-experiences/c-manage-content/assets/offers-page-new.png)
 
-   De [!UICONTROL Offers] De pagina heeft twee tabbladen aan de rechterkant: [!UICONTROL Code Offers] en [!UICONTROL Image Offers] Hiermee kunt u voorstellen op type weergeven.
+>[!NOTE]
+>
+>In dit artikel wordt de bijgewerkte gebruikersinterface van [!UICONTROL Offers] op 9 januari 2025 gepubliceerd. Als u liever de oudere [!UICONTROL Offers] interface wilt gebruiken, schakelt u [!UICONTROL Switch to the Old Experience] in op de aan-positie.
 
-   ![Pagina met aanbiedingen met de tabbladen Codevoorstellen en Afbeeldingsaanbiedingen](/help/main/c-experiences/c-manage-content/assets/offers-page.png)
+De [!UICONTROL Offers] -bibliotheek bevat aanbiedingen die zijn ingesteld via [!DNL Target Standard/Premium] , [!DNL Target Classic] , [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) en API&#39;s. Aanbiedingen die zijn gemaakt in [!DNL Target Classic] of andere oplossingen, kunnen worden bewerkt in [!DNL Target Standard/Premium] .
 
-1. (Optioneel) Klik op de knop **[!UICONTROL Type]** vervolgkeuzelijst voor het filteren van aanbiedingen op type (HTML-aanbieding, [Ervaar fragmenten](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Omleidingsvoorstel](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Externe aanbieding](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [JSON-aanbiedingen](/help/main/c-experiences/c-manage-content/create-json-offer.md), en [Mappen](/help/main/c-experiences/c-manage-content/create-content-folder.md)).
+De [!UICONTROL Offers] -bibliotheek biedt een overzicht van alle code en afbeeldingsaanbiedingen en biedt u de mogelijkheid verschillende handelingen uit te voeren:
 
-   ![aanbiedingen_filter, afbeelding](assets/offers_filter.png)
+| Element | Beschrijving |
+|--- |--- |
+| Linkernavigatieregel | Schakel tussen het weergeven van [!UICONTROL Code Offers] of [!UICONTROL Image Offers] . |
+| [!UICONTROL Show Folders] / [!UICONTROL Hide Folders]<P>![ toon Filters/verberg Filters pictogram ](/help/main/assets/icons/RailLeft.svg) | Klik op het pictogram **[!UICONTROL Show Folders]** of **[!UICONTROL Hide Folders]** om te schakelen tussen het weergeven van de mappenstructuur voor aanbiedingen of het niet weergeven van de mappenstructuur.<P>Voor meer informatie, zie [ aanbiedingsomslagen ](/help/main/c-experiences/c-manage-content/create-content-folder.md) creëren. |
+| [!UICONTROL Show filters] pictogram<P>![ toon Filters pictogram ](/help/main/assets/icons/Filter.svg) | Klik op het pictogram **[!UICONTROL Show filters]** om aanbiedingen te filteren op [!UICONTROL Type] , [!UICONTROL Source] en [!UICONTROL AEM Type] .<P>Voor meer informatie, zie [ filters op de lijst van Aanbiedingen ](#filters) hieronder toepassen. |
+| Zoeken in velden | Gebruik de velden **[!UICONTROL Search in]** om snel een aanbieding te vinden of om het aantal aanbiedingen dat wordt weergegeven in de [!UICONTROL Offers] -bibliotheek te verminderen. U kunt zoeken op [!UICONTROL Offer Name] , [!UICONTROL AEM Paths] of [!UICONTROL AEM Tags] . Zoekopties zijn sessiedoneel. |
+| [!UICONTROL Create Folder] | Klik op **[!UICONTROL Create Folder]** om mappen in de [!UICONTROL Offer] -bibliotheek te maken voor de opslag van codeaanbiedingen, afbeeldingsaanbiedingen en andere mappen om een submapstructuur te maken.<P>Voor meer informatie, zie [ aanbiedingsomslagen ](/help/main/c-experiences/c-manage-content/create-content-folder.md) creëren. |
+| [!UICONTROL [!UICONTROL Create Offer]] | Klik op **[!UICONTROL Create Offer]** om een aanbieding te maken.<P>Zie voor meer informatie over het maken van de verschillende soorten aanbiedingen: <ul><li>HTML-aanbod</li><li>[ Aanbieding JSON ](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[ Redirect Aanbieding ](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[ Verre Aanbieding ](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
+| Selectievakjes voor bulkbewerkingen<P>![ het pictogram van Verrichtingen van het Bulk ](/help/main/assets/icons/Rectangle.svg) | Klik op de selectievakjes [!UICONTROL Bulk Operations] om bulkbewerkingen uit te voeren op alle aanbiedingen of op geselecteerde aanbiedingen.<P>Voor een lijst van acties die (afhankelijk van uw toestemmingen en de aanbiedingsstatus) beschikbaar zijn, zie [ snelle acties ](#quick-actions) hieronder uitvoeren. |
+| [!UICONTROL Name] | De naam van elke aanbieding.<P>Klik het **[!UICONTROL Quick Info]** pictogram ( ![ Snelle pictogram van Info ](/help/main/assets/icons/InfoOutline.svg)) naast elke aanbiedingsnaam om meer informatie over die aanbieding in een pop-up kaart, met inbegrip van aanbiedingsidentiteitskaart, type, datum te bekijken de aanbieding het laatst werd gewijzigd en door wie, en meer.<p>Klik het **[!UICONTROL More Actions]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallList.svg)) naast elke aanbiedingsnaam om een menu te openen dat u snelle acties op een activiteit laat uitvoeren. De volgende handelingen zijn beschikbaar (afhankelijk van uw machtigingen en de status van het aanbod): [!UICONTROL Edit], [!UICONTROL Copy], [!UICONTROL Delete] en [!UICONTROL Move] . Voor meer informatie over elke actie, zie [ snelle acties ](#quick-actions) hieronder uitvoeren.<P>Klik op de tabelkop om de lijst alfabetisch te sorteren in oplopende of aflopende volgorde op naam. |
+| [!UICONTROL Type] | Het aanbiedingstype: [!UICONTROL HTML Offers], [[!UICONTROL Redirect Offers]](/help/main/c-experiences/c-manage-content/offer-redirect.md), [[!UICONTROL Remote Offers]](/help/main/c-experiences/c-manage-content/about-remote-offers.md) en [[!UICONTROL JSON Offers]](/help/main/c-experiences/c-manage-content/create-json-offer.md). |
+| [!UICONTROL Source] | Toont waar de aanbieding is gemaakt: [!DNL Adobe Target], [!DNL Adobe Target Classic] en [!DNL Adobe Experience Manager] . |
+| [!UICONTROL Last updated] | Geeft de datum en tijd weer waarop de aanbieding voor het laatst is gewijzigd en door wie.<P>Klik op de tabelkop om de lijst op datum in oplopende of aflopende volgorde te sorteren. |
 
-1. (Optioneel) Klik op de knop **[!UICONTROL Source]** vervolgkeuzelijst voor het filteren van aanbiedingen op bron (Adobe Target, Adobe Target Classic en Adobe Experience Manager).
+## Filters toepassen op de bibliotheek met aanbiedingen {#filters}
 
-1. (Optioneel) Voer aanvullende taken uit door de muis boven de gewenste aanbieding of map op de [!UICONTROL Code Offers] door op het gewenste pictogram te klikken.
+Klik het **[!UICONTROL Show filters]** pictogram ( ![ toon het pictogram van Filters op de pagina van Aanbiedingen ](/help/main/assets/icons/Filter.svg)) aan filteraanbiedingen door [!UICONTROL Type], [!UICONTROL Source], en [!UICONTROL AEM Type].
 
-   ![Opties voor codeaanbiedingen](assets/offer-picker-large.png)
+Met het pictogram **[!UICONTROL Show filters]** kunt u aanbiedingen filteren op de volgende categorieën:
 
-   U kunt onder andere de volgende opties kiezen:
+* **[!UICONTROL Type]** : [!UICONTROL HTML Offer] , [[!UICONTROL Redirect Offer]](/help/main/c-experiences/c-manage-content/offer-redirect.md) , [[!UICONTROL Remote Offer]](/help/main/c-experiences/c-manage-content/about-remote-offers.md) en [[!UICONTROL JSON Offer]](/help/main/c-experiences/c-manage-content/create-json-offer.md) .
 
-   * Weergeven (zie voor meer informatie [Definities van aanbiedingen weergeven](#section_6B059DD121434E6292CAB393507D010E) hieronder.)
-   * Bewerken
-   * Kopiëren
-   * Verplaatsen (als u bijvoorbeeld een of meer items naar een map wilt verplaatsen, klikt u op de knop **[!UICONTROL Move]** pictogram voor het gewenste item, klik op de gewenste map en klik vervolgens op **[!UICONTROL Drop]**.)
-   * Verwijderen
+* **[!UICONTROL Source]** : [!DNL Adobe Target] , [!DNL Adobe Target Classic] en [!DNL Adobe Experience Manager] .
 
-   Afhankelijk van uw machtigingen worden mogelijk niet alle pictogrammen voor opties weergegeven. Bijvoorbeeld een gebruiker met [!UICONTROL Observer] machtigingen hebben niet de rechten om de [!UICONTROL Copy] -optie.
+* **AEM Type**: [ de Fragmenten van de Inhoud ](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) en [ de Fragmenten van de Ervaring ](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md). Voor meer informatie over de verschillende fragmenttypes, zie [ AEM het Overzicht van de Fragmenten van de Ervaring en van de Fragmenten van de Inhoud ](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
 
-   Voor gedetailleerde informatie over de taken die u kunt uitvoeren op aanbiedingen en omslagen, zie [Werken met inhoud in de elementenbibliotheek](/help/main/c-experiences/c-manage-content/assets-working.md).
+Filters zijn sessiepermanent.
 
-1. (Optioneel) Voer aanvullende taken uit door de muis boven de gewenste afbeeldingsaanbieding of map op de [!UICONTROL Image Offers] door op het gewenste pictogram te klikken.
+## Snelle handelingen uitvoeren {#quick-actions}
 
-   ![Opties voor afbeeldingsaanbiedingen](/help/main/c-experiences/c-manage-content/assets/image-offers-icons.png)
+U kunt de volgende snelle acties uitvoeren door op het juiste pictogram te klikken:
 
-   U kunt onder andere de volgende opties kiezen:
+### Snelle informatie
 
-   * Selecteren
-   * Downloaden
-   * Eigenschappen weergeven
-   * Bewerken
-   * Annoteren
-   * Kopiëren
+Klik het **[!UICONTROL Quick Info]** pictogram ( ![ Snelle pictogram van Info ](/help/main/assets/icons/InfoOutline.svg)) naast elke aanbiedingsnaam om meer informatie over die aanbieding in een pop-up kaart, met inbegrip van aanbiedingsidentiteitskaart, type, datum te bekijken de aanbieding het laatst werd gewijzigd en door wie, en meer. Welke opties beschikbaar zijn, is afhankelijk van het aanbiedingstype: [!UICONTROL HTML Offer], [[!UICONTROL JSON Offer]](/help/main/c-experiences/c-manage-content/create-json-offer.md), [[!UICONTROL Redirect Offer]](/help/main/c-experiences/c-manage-content/offer-redirect.md), [[!UICONTROL Remote Offer]](/help/main/c-experiences/c-manage-content/about-remote-offers.md) .
 
-   Voor gedetailleerde informatie over de taken die u kunt uitvoeren op aanbiedingen en omslagen, zie [Werken met inhoud in de elementenbibliotheek](/help/main/c-experiences/c-manage-content/assets-working.md).
+### Meer handelingen
 
-   >[!NOTE]
-   >
-   >Aanbiedingen voor afbeeldingen maken geen deel uit van de [Machtigingen voor zakelijke gebruikers](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) model.
+De beschikbare acties voor [!UICONTROL Code Offers] en voor [!UICONTROL Image Offers] verschillen enigszins. De volgende secties bevatten meer informatie:
 
+#### [!UICONTROL Code Offer] opties
+
+Klik het **[!UICONTROL More actions]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallList.svg)) naast elke aanbiedingsnaam om een menu te openen dat u snelle acties op een activiteit laat uitvoeren.
+
+De volgende acties zijn beschikbaar (afhankelijk van uw machtigingen en de status van het aanbod):
+
+* [!UICONTROL Edit]
+* [!UICONTROL Copy]
+* [!UICONTROL Delete]
+* [!UICONTROL Move] (Als u bijvoorbeeld een of meer items naar een map wilt verplaatsen, klikt u op **[!UICONTROL Move]** naast het gewenste item, klikt u op de gewenste map en vervolgens op **[!UICONTROL Move]** .)
+
+Afhankelijk van uw machtigingen worden mogelijk niet alle pictogrammen voor opties weergegeven. Een gebruiker met [!UICONTROL Observer] -machtigingen heeft bijvoorbeeld niet de rechten om de optie [!UICONTROL Copy] te gebruiken.
+
+Voor gedetailleerde informatie over de taken kunt u op aanbiedingen en omslagen uitvoeren, zie [ Werk met inhoud in de bibliotheek van Activa ](/help/main/c-experiences/c-manage-content/assets-working.md).
+
+#### [!UICONTROL Image Offer] opties
+
+Voer aanvullende taken uit door de muisaanwijzer boven de gewenste afbeeldingsaanbieding of -map op het tabblad [!UICONTROL Image Offers] te houden en vervolgens op het gewenste pictogram te klikken.
+
+U kunt onder andere de volgende opties kiezen:
+
+* [!UICONTROL Select]
+* [!UICONTROL Download]
+* [!UICONTROL View Properties]
+* [!UICONTROL More Actions]
+* [!UICONTROL Edit]
+* [!UICONTROL Annotate]
+* [!UICONTROL Copy]
+
+Voor gedetailleerde informatie over de taken kunt u op aanbiedingen en omslagen uitvoeren, zie [ Werk met inhoud in de bibliotheek van Activa ](/help/main/c-experiences/c-manage-content/assets-working.md).
+
+>[!NOTE]
+>
+>De aanbiedingen van het beeld maken geen deel uit van het ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) model van de Toestemmingen van de Gebruiker van de Onderneming [.
 
 ## Definities van aanbiedingen weergeven {#section_6B059DD121434E6292CAB393507D010E}
 
-U kunt definitiedetails van voorstellen op een pop-up kaart in bekijken [!UICONTROL Offers] bibliotheek zonder de aanbieding te openen.
-
-De volgende aanbiedingsdefinitiekaart voor een HTML-aanbieding wordt bijvoorbeeld geopend door op het informatiepictogram te klikken:
-
-![aanbiedingskaart-html-afbeelding](assets/offer-card-html-new.png)
+Om de details van de aanbiedingsdefinitie op een pop-up kaart in de [!UICONTROL Offers] bibliotheek te bekijken zonder de aanbieding te openen, klik het ( ![ Snelle pictogram van Info ](/help/main/assets/icons/InfoOutline.svg)).
 
 De volgende informatie is beschikbaar:
 
-* Naam
-* Aanbieding-id
-* Type
-* Laatst gewijzigd
+* [!UICONTROL Name]
+* [!UICONTROL Offer ID]
+* [!UICONTROL Type]
+* [!UICONTROL Last Modified]
 
-Klik op de knop [!UICONTROL View Full Details] link naar de inhoud van de aanbieding en de activiteiten die verwijzen naar een codeaanbieding. Op deze manier voorkomt u dat andere activiteiten worden beïnvloed tijdens het bewerken van aanbiedingen. Informatie omvat [!UICONTROL Live Activities] en [!UICONTROL Inactive Activities].
-
-De beschikbare informatie op elke kaart varieert afhankelijk van het type aanbieding: HTML-aanbieding, [Ervaar fragmenten](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Omleidingsvoorstel](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Externe aanbieding](/help/main/c-experiences/c-manage-content/about-remote-offers.md), of [JSON-aanbiedingen](/help/main/c-experiences/c-manage-content/create-json-offer.md).
-
-De functionaliteit voor details van de aanbieding is niet van toepassing op afbeeldingsaanbiedingen.
-
-<!--
-
-## Training video: The Content Repository ![Overview badge](/help/main/assets/overview.png)
-
-This video includes information about managing offers.
-
-* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
-* Custom HTML Offers 
-* Custom HTML Offer in the [!UICONTROL Visual Experience Composer]
-
->[!VIDEO](https://video.tv.adobe.com/v/17387)
-
--->
+Klik op de koppeling [!UICONTROL View Full Details] om de kenmerken en activiteiten van de aanbieding te bekijken die verwijzen naar een codeaanbieding in de definitie-pop-upkaart van elke aanbieding. Deze functionaliteit is niet van toepassing op afbeeldingsaanbiedingen. Op deze manier voorkomt u dat andere activiteiten worden beïnvloed tijdens het bewerken van aanbiedingen. Deze informatie bevat gegevens voor [!UICONTROL Live Activities] en [!UICONTROL Inactive Activities] .

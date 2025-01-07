@@ -4,9 +4,9 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke Nieuwe Eigenschappen en de Verbeteringen worden omvat in de aanstaande  [!DNL Target]  Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: cf00d2e43b0d0746e4369fcc7933a79f465c9549
+source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor komende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**Laatste bijgewerkte: 11 December, 2024**
+**laatst bijgewerkt: 7 Januari, 2025**
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Dit artikel bevat pre-releasegegevens voor komende [!DNL Adobe Target] versies, 
 
 Deze release werkt de gebruikersinterface van [!UICONTROL Offers Library] bij om de gebruikerservaring voor [!DNL Adobe Target] -gebruikers te verbeteren. Met behulp van het nieuwste ontwerpsysteem van [!DNL Adobe Spectrum] worden inconsistente ontwerppatronen gestandaardiseerd en worden nieuwe verbeteringen geïntroduceerd, waaronder:
 
-* **Bulk aanbiedt beheer**: Selecteer en schrap veelvoudige aanbiedingen gelijktijdig.
+* **Bulk aanbiedt beheer**: Selecteer en schrap of beweeg veelvoudige aanbiedingen gelijktijdig.
 
 * **[!UICONTROL Code Editor]upgrades** : vernieuwde HTML- en JSON-editors met syntaxismarkering en regelnummering.
 
@@ -36,6 +36,8 @@ Deze release werkt de gebruikersinterface van [!UICONTROL Offers Library] bij om
 * **Persistent onderzoek en filters**: Voegt zitting-blijvend onderzoek en filteropties toe.
 
 Vanaf 9 januari 2025 krijgen alle [!DNL Target] klanten toegang tot de nieuwe interface, met de optie om indien nodig terug te schakelen naar de huidige versie van de interface.
+
+Voor meer informatie zie [ Aanbiedingen ](/help/main/c-experiences/c-manage-content/manage-content.md) en subartikelen in deze sectie.
 
 Hier volgt een korte video waarin de wijzigingen in deze release worden belicht:
 
@@ -92,7 +94,7 @@ This release contains the following fixes:
 
 | Bron | Details |
 |--- |--- |
-| [ de nota&#39;s van de Versie: SDK van het Web van de Ervaring van het Platform van Adobe Target ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
+| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
 | [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html) {target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}

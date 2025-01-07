@@ -1,25 +1,21 @@
 ---
-keywords: externe aanbieding;externe aanbiedingsselectiematrix;inhoud in cache;dynamische inhoud;url-type
-description: Meer informatie over het gebruik van externe aanbiedingen in Adobe [!DNL Target] om externe inhoud te hosten (inhoud in een CMS of een ander systeem). Ontdek waarom u externe aanbiedingen wilt gebruiken.
+keywords: externe aanbieding;inhoud in cache;dynamische inhoud;url-type
+description: Ontdek hoe te hefboomwerking verre aanbiedingen in  [!DNL Target]  om externe inhoud van een CMS of andere systemen te ontvangen.
 title: Hoe maak ik externe aanbiedingen?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
 
 # Externe aanbiedingen maken
 
-Externe aanbiedingen gebruiken om inhoud te hosten buiten [!DNL Adobe Target] dat [!DNL Target] verwijzingen en aanbiedingen naar websites van gebruikers. Deze inhoud kan zich in een inhoudsbeheer (CMS) of ander systeem bevinden, om redenen van gebruiksgemak of veiligheid.
+Gebruik externe aanbiedingen om inhoud buiten [!DNL Adobe Target] te hosten, zodat [!DNL Target] naar deze inhoud kan verwijzen en deze aan gebruikerswebsites kan leveren. Deze inhoud kan om redenen van gebruiksgemak of beveiliging in een inhoudsbeheersysteem (CMS) of een ander systeem worden opgeslagen.
 
->[!NOTE]
->
->Externe aanbiedingen kunnen worden gemaakt op de [!UICONTROL Offers] > [!UICONTROL Code Offers] of in de [Op Forms gebaseerde Experience Composer](/help/main/c-experiences/form-experience-composer.md). U kunt geen verre aanbiedingen in de Visuele Composer van de Ervaring (VEC) tot stand brengen of toepassen. De inhoud wordt geïnjecteerd in de [!DNL Target] aanvraaglocaties, zodat deze meestal niet geschikt zijn voor een globale [!DNL Target] verzoek.
->
->[!DNL Target Classic] meegeleverde vergelijkbare functies: [!UICONTROL Offer on Your Site] en [!UICONTROL Offer Outside Test&Target].
+De verre aanbiedingen kunnen op [!UICONTROL Offers] > [!UICONTROL Code Offers] pagina of in [ op Forms-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) worden gecreeerd. U kunt geen externe aanbiedingen maken of toepassen in [!UICONTROL Visual Experience Composer] (VEC). Inhoud wordt ingespoten op de aanvraaglocaties van [!DNL Target] , zodat deze locaties meestal niet geschikt zijn voor een algemene [!DNL Target] -aanvraag.
 
 Voorbeelden van externe aanbiedingen zijn:
 
@@ -36,101 +32,92 @@ Voorbeelden van externe aanbiedingen zijn:
 
 Aanbevolen procedures voor het gebruik van externe aanbiedingen in uw activiteiten:
 
-* Als uw voorstel zich in het zelfde domein zoals bevindt [!DNL Target] aanvragen, met de [!UICONTROL Cached] Met deze optie kunt u relatieve URL&#39;s gebruiken om de locatie van uw aanbieding te beschrijven.
+* Als uw aanbieding zich in hetzelfde domein bevindt als de [!DNL Target] -aanvragen, kunt u met de optie [!UICONTROL Cached] relatieve URL&#39;s gebruiken om de locatie van uw aanbieding te beschrijven.
 
-   Dit betekent dat wanneer u uw activiteit van uw testservers naar productie verplaatst, de inhoud automatisch toegankelijk zal zijn zonder het moeten URL manueel veranderen.
+  Dit betekent dat wanneer u uw activiteit van uw het opvoeren servers aan productie verplaatst, de inhoud automatisch toegankelijk is zonder het moeten URL manueel veranderen.
 
-* Als de test gegevens bevat die dynamisch door de server worden gegenereerd, wordt [!UICONTROL Dynamic] de juiste keuze is.
-* Als u alleen de weergave van uw bestaande externe aanbiedingsinhoud wilt testen, gebruikt u de optie [!UICONTROL Visual Experience Composer] om het uiterlijk te wijzigen van de inhoud die wordt geretourneerd van het contentbeheersysteem.
-* Gebruik de [Selectiematrix externe aanbieding](#reference_B23BEDD29DDD47709A7651AFD27E776B) (hieronder) om je te helpen het voorstel te kiezen dat het meest geschikt is voor je specifieke kwestie. Vraag uw accountvertegenwoordiger.
+* Als bij de test gegevens worden gebruikt die dynamisch door de server worden gegenereerd, is de optie [!UICONTROL Dynamic] mogelijk de juiste keuze.
+* Als u alleen de weergave van uw bestaande externe aanbiedingsinhoud wilt testen, gebruikt u [!UICONTROL Visual Experience Composer] om de weergave van de inhoud die wordt geretourneerd vanuit het inhoudsbeheersysteem te wijzigen.
+* Gebruik de [ Verre Matrijs van de Selectie van de Aanbieding ](#reference_B23BEDD29DDD47709A7651AFD27E776B) (hieronder) om u te helpen de aanbieding het best geschikt voor uw specifiek geval kiezen. Vraag uw accountvertegenwoordiger.
 
-## Een externe aanbieding maken op de pagina Codeaanbiedingen
+## Een externe aanbieding maken op de pagina [!UICONTROL Code Offers]
 
 1. Klik op **[!UICONTROL Offers]** en selecteer vervolgens het tabblad **[!UICONTROL Code Offers]**.
 
-   ![Voorstel > Codevoorstellen](/help/main/c-experiences/c-manage-content/assets/offers-code-offers.png)
+1. Klik op **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]** .
 
-1. Klik op **[!UICONTROL Create]** > **[!UICONTROL Remote Offer]**.
+1. Geef in het dialoogvenster [!UICONTROL Create Remote Offer] een beschrijvende naam op voor de aanbieding.
 
-   ![Externe aanbieding maken, dialoogvenster](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui.png)
+   Met een beschrijvende naam kunnen u en anderen snel de aanbieding in de [!UICONTROL Offers] -bibliotheek vinden.
 
-1. Geef een beschrijvende naam op voor de aanbieding.
+1. (Voorwaardelijk) als u de rekening van a [ Target Premium ](/help/main/c-intro/intro.md#premium) hebt, selecteer de gewenste [ werkruimte ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
 
-   Met een beschrijvende naam kunnen u en anderen het aanbod snel vinden in het dialoogvenster [!UICONTROL Assets] bibliotheek.
+1. Geef het type omleidings-URL op.
 
-1. Geef het type Redirect URL op.
+   Zie [ Type URL omleiden: [!UICONTROL Onsite Cached] of [!UICONTROL Onsite Dynamic]](#url-type) hieronder voor meer informatie.
 
-   Zie [Type URL omleiden: In cache geplaatst of dynamisch](#url-type) hieronder voor meer informatie .
+1. Geef de absolute externe URL voor de externe aanbieding op.
 
-1. Geef de externe URL voor de externe aanbieding op.
+1. Klik op **[!UICONTROL Create]**.
 
-1. Klik op **[!UICONTROL Save]**.
+## Een externe aanbieding maken met de [!UICONTROL Form-Based Experience Composer]
 
-## Een externe aanbieding maken met de Form-Based Experience Composer
+1. Terwijl het creëren van een activiteit die [ op vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) gebruikt, selecteer de plaats om de **[!UICONTROL Content]** sectie te tonen.
+1. Klik de **[!UICONTROL Content]** drop-down lijst, klik het **[!UICONTROL List]** pictogram ( ![ Lijst ](/help/main/assets/icons/MoreSmallList.svg)), dan klik **[!UICONTROL Change Remote Offer]**.
 
-1. Tijdens het maken van een activiteit met de [Formuliergebaseerde Experience Composer](/help/main/c-experiences/form-experience-composer.md)selecteert u de locatie waar u de **[!UICONTROL Content]** sectie.
-
-   ![Sectie Inhoud in Form-Based Experience Composer](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
-
-1. Klik op de knop **[!UICONTROL Default Content]** vervolgkeuzelijst en vervolgens op **[!UICONTROL Change Remote Offer]**.
-
-   ![Externe aanbieding wijzigen, optie](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
-
-1. Klik op **[!UICONTROL Create]** > **[!UICONTROL Remote Offer]**.
-
-   ![Externe aanbieding maken, dialoogvenster](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui.png)
+1. Klik op **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]** .
 
 1. Geef een beschrijvende naam op voor de aanbieding.
 
-   Met een beschrijvende naam kunnen u en anderen het aanbod snel vinden in het dialoogvenster [!UICONTROL Assets] bibliotheek.
+   Met een beschrijvende naam kunnen u en anderen snel de aanbieding in de [!UICONTROL Assets] -bibliotheek vinden.
 
-1. Geef het type Redirect URL op.
+1. (Voorwaardelijk) als u de rekening van a [ Target Premium ](/help/main/c-intro/intro.md#premium) hebt, selecteer de gewenste [ werkruimte ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
 
-   Zie [Type URL omleiden: In cache geplaatst of dynamisch](#url-type) hieronder voor meer informatie .
+1. Geef het type omleidings-URL op.
+
+   Zie [ Type URL omleiden: [!UICONTROL Onsite Cached] of [!UICONTROL Onsite Dynamic]](#url-type) hieronder voor meer informatie.
 
 1. Geef de externe URL voor de externe aanbieding op.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Create]**.
 
-## Type URL omleiden: In cache geplaatst of dynamisch {#url-type}
+## Type URL omleiden: [!UICONTROL Onsite Cached] of [!UICONTROL Onsite Dynamic] {#url-type}
 
 Aan de hand van de volgende informatie kunt u de verschillen tussen de twee opties beter begrijpen:
 
-### URL in cache
+### [!UICONTROL Onsite Cached] URL
 
-De inhoud voor een aanbieding op afstand in de cache wordt aangeboden vanaf [!DNL Target].
+De inhoud voor een externe aanbieding in cache wordt aangeboden vanuit [!DNL Target] .
 
-Om de twee uur, [!DNL Target] haalt de inhoud bij externe URL op en slaat de inhoud vervolgens in [!DNL Target]. Wanneer bezoekers een site laden met een ervaring die een externe aanbieding bevat, wordt de aanbieding geleverd door [!DNL Target].
+[!DNL Target] haalt de inhoud om de twee uur op bij de externe URL en slaat de inhoud vervolgens op in [!DNL Target] . Wanneer bezoekers een site laden met een ervaring die een externe aanbieding bevat, levert [!DNL Target] de aanbieding.
 
-Externe aanbiedingen in cache bieden uitgebreide beveiliging omdat iemand zich heeft aangemeld bij [!DNL Target] kan de inhoud niet wijzigen. Als u de inhoud wilt wijzigen, moet iemand zich aanmelden bij het inhoudsbeheer of een ander systeem en de inhoud daar wijzigen.
+Externe aanbiedingen in cache bieden uitgebreide beveiliging omdat iemand die zich heeft aangemeld bij [!DNL Target] de inhoud niet kan wijzigen. Als u de inhoud wilt wijzigen, moet iemand zich aanmelden bij het inhoudsbeheer of een ander systeem en de inhoud daar wijzigen.
 
 U kunt een absolute of relatieve URL opgeven voor een externe aanbieding die in cache wordt geplaatst.
 
-### Dynamische URL
+### [!UICONTROL Onsite Dynamic] URL
 
-Een dynamische aanbieding op afstand wordt aangeboden via het contentbeheer of een ander systeem in plaats van via [!DNL Target].
+Een dynamische aanbieding op afstand wordt aangeboden door het inhoudsbeheer of een ander systeem in plaats van door [!DNL Target] .
 
-Mogelijk wilt u de inhoud niet periodiek in cache plaatsen en vervolgens leveren via [!DNL Target] wanneer bezoekers een site laden met een ervaring die een externe aanbieding bevat. In plaats daarvan, wilt u het systeem roepen dat de inhoud ontvangt, misschien in specifieke informatie overgaan zodat de teruggekeerde aanbieding dynamisch (of verschillend) voor elke gebruiker kan zijn. Als een gebruiker zich bijvoorbeeld bij een website aanmeldt voor een creditcard die een ervaring met een dynamische externe aanbieding bevat, kunt u parameters aan de URL doorgeven voor de accountgegevens van de gebruiker. Vervolgens kan de website gebruikersspecifieke informatie verstrekken, zoals de accountbalans.
+Mogelijk wilt u de inhoud niet periodiek in cache plaatsen en vervolgens door [!DNL Target] leveren wanneer bezoekers een site laden met een ervaring die een externe aanbieding bevat. In plaats daarvan, wilt u het systeem roepen dat de inhoud ontvangt, misschien in specifieke informatie overgaan zodat de teruggekeerde aanbieding dynamisch (of verschillend) voor elke gebruiker kan zijn. Als een gebruiker zich bijvoorbeeld bij een website aanmeldt voor een creditcard die een ervaring met een dynamische externe aanbieding bevat, kunt u parameters aan de URL doorgeven voor de accountgegevens van de gebruiker. Vervolgens kan de website gebruikersspecifieke informatie verstrekken, zoals de balans van de account.
 
-U kunt op **[!UICONTROL Add Parameter]** om een of meer [!DNL Target] aanvragen of parameters aanvragen.
+U kunt op **[!UICONTROL Add Parameter]** klikken om een of meer [!DNL Target] -aanvragen of aanvraagparameters toe te voegen.
 
 ## Externe aanbiedingen gebruiken in activiteiten
 
-U moet externe aanbiedingen toepassen met de [!UICONTROL Form-Based Experience Composer]. U kunt momenteel geen verre voorstellen toepassen gebruikend VEC.
+Pas externe aanbiedingen toe met behulp van [!UICONTROL Form-Based Experience Composer] . U kunt momenteel geen externe aanbiedingen toepassen met de methode [!UICONTROL Visual Experience Composer] (VEC).
 
-De [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is een niet-visuele ervaring en biedt een aanmaakinterface die handig is voor het maken van ervaringen voor gebruik in [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP), en [!UICONTROL Recommendations] activiteiten wanneer de composer voor visuele ervaring niet beschikbaar of praktisch voor gebruik is. U kunt bijvoorbeeld de opdracht [!UICONTROL Form-Based Experience Composer] om ervaringen te creëren die verre aanbiedingen gebruiken.
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is een niet-visuele ervaring en biedt een aanmaakinterface die handig is voor het maken van ervaringen voor gebruik in [!UICONTROL A/B Tests] , [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Recommendations] -activiteiten wanneer [!UICONTROL Visual Experience Composer] niet beschikbaar of praktisch is voor gebruik. U kunt de [!UICONTROL Form-Based Experience Composer] bijvoorbeeld gebruiken om ervaringen op te doen die gebruikmaken van externe aanbiedingen.
 
-1. Een activiteit maken of bewerken in het dialoogvenster [!UICONTROL Form-Based Experience Composer].
+1. Maak of bewerk een activiteit in de [!UICONTROL Form-Based Experience Composer] .
 
-   Zie [Formuliergebaseerde Experience Composer](/help/main/c-experiences/form-experience-composer.md) voor gedetailleerde stapsgewijze instructies.
+   Zie [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) voor gedetailleerde geleidelijke instructies.
 
 1. Geef de gewenste locatie op en voeg desgewenst verfijningen voor de doelgroep toe.
 
-1. Klik op de vervolgkeuzelijst in het dialoogvenster **[!UICONTROL Content]** en klik vervolgens op **[!UICONTROL Change Remote Offer]**.
+1. Klik de **[!UICONTROL Content]** drop-down lijst, klik het **[!UICONTROL List]** pictogram ( ![ Lijst ](/help/main/assets/icons/MoreSmallList.svg)), dan klik **[!UICONTROL Change Remote Offer]**.
 
-   ![Externe aanbieding wijzigen, optie](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
-
-1. Selecteer de gewenste aanbieding op afstand in het menu [!UICONTROL Select Remote Offer] en klikt u vervolgens op **[!UICONTROL Done]**.
+1. Selecteer de gewenste aanbieding op afstand in het dialoogvenster [!UICONTROL Change Remote Offer] en klik op **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]** .
 
 1. Voltooi de configuratie van de activiteit.
 
@@ -138,30 +125,30 @@ De [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] is een niet-v
 
 Dynamische externe aanbiedingen gebruiken uw dynamische paginatechnologie om waarden aan de aanbieding door te geven.
 
-De aanbieding wordt uitgevoerd nadat u de pagina teruggeeft. Een onzichtbaar iframe verzamelt de gegevens, kopieert het uit het frame en voegt in op de pagina en laadt de doorgegeven waarden.
+De aanbieding wordt uitgevoerd nadat u de pagina teruggeeft. Een onzichtbare iFrame verzamelt de gegevens, kopieert deze uit het frame en voegt deze op de pagina in en laadt de doorgegeven waarden.
 
-![image remote_offer_howitworks_2](assets/remote_offer_howitworks_2.jpeg)
+![ remote_offer_howitworks_2 beeld ](assets/remote_offer_howitworks_2.jpeg)
+
+1. De browser van de bezoeker vraagt om een pagina van uw server.
+
+2. De pagina wordt weergegeven in de browser, inclusief de vakken.
+
+3. De aanroep van `mboxCreate` bevat parameters die nodig zijn om dynamische inhoud te renderen.
+
+4. [!DNL Target] retourneert een URL met de locatie van dynamische inhoud en de bijbehorende parameters. Stelt een iFrame in het mbox-gebied in.
+
+5. De browser vraagt om de URL en geeft deze op de pagina weer.
 
 ## Selectiematrix voor externe aanbiedingen {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 
-Met de Matrix Selectie voor externe aanbiedingen kunt u bepalen welk type externe aanbieding u wilt kiezen: [!UICONTROL Cached] of [!UICONTROL Dynamic].
+Met de selectiematrix voor externe aanbiedingen kunt u bepalen welk type externe aanbieding u wilt kiezen: [!UICONTROL Onsite Cached] of [!UICONTROL Onsite Dynamic] .
 
-| Functie | cachegeheugen | Dynamisch |
+| Functie | Onsite caching | Onsite dynamisch |
 |--- |--- |--- |
 | Wordt bijgewerkt wanneer een bezoeker een aanvraag indient | Nee | Ja |
-| Inhoud bijwerken | Wordt elke 2 uur in de cache geplaatst | Onmiddellijk bijgewerkt na elk verzoek |
-| Tijdstip van laden | Sneller | Langzamer vanwege verwerking van aanvragen |
+| Inhoud bijwerken | Wordt elke twee uur in de cache geplaatst | Onmiddellijk bijgewerkt na elk verzoek |
+| Tijd laden | Sneller | Langzamer vanwege verwerking van aanvragen |
 | Kan JavaScript op pagina zien | Ja | Nee, maar kan wel via URL worden doorgegeven |
 | Aanbiedingen kunnen JavaScript bevatten | Ja | Ja |
 | Aanbiedings-URL | Absoluut of Relatief | Relatief |
 | De computer aanvragen | Adobe-servers | De computer van de bezoeker, die de cookies van de bezoeker draagt |
-
-## Trainingsvideo: Op formulieren gebaseerde composer ![Zelfstudie-badge](/help/main/assets/tutorial.png)
-
-Deze video bevat een demo van de op formulieren gebaseerde composer, waarmee u externe aanbiedingen kunt maken.
-
-* Een activiteit maken met de Form-Based Experience Composer
-* Begrijp wanneer om vorm-Gebaseerde Composer van de Ervaring tegenover Visual Experience Composer te gebruiken
-* Verfijningen gebruiken om een locatie als doel in te stellen
-
->[!VIDEO](https://video.tv.adobe.com/v/17390)
