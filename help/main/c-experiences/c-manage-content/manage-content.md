@@ -4,9 +4,9 @@ description: Ontdek hoe u code- en afbeeldingsaanbiedingen efficiënt kunt beher
 title: Hoe kan ik code- en afbeeldingsaanbiedingen beheren?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
+source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,6 @@ Ontdek hoe u code- en afbeeldingsaanbiedingen efficiënt kunt beheren met de [!U
 Als u de [!UICONTROL Offers] -bibliotheek wilt weergeven, klikt u op het tabblad **[!UICONTROL Offers]** boven aan de gebruikersinterface van [!DNL Target] .
 
 ![ pagina van Aanbiedingen ](/help/main/c-experiences/c-manage-content/assets/offers-page-new.png)
-
->[!NOTE]
->
->In dit artikel wordt de bijgewerkte gebruikersinterface van [!UICONTROL Offers] op 9 januari 2025 gepubliceerd. Als u liever de oudere [!UICONTROL Offers] interface wilt gebruiken, schakelt u [!UICONTROL Switch to the Old Experience] in op de aan-positie.
 
 De [!UICONTROL Offers] -bibliotheek bevat aanbiedingen die zijn ingesteld via [!DNL Target Standard/Premium] , [!DNL Target Classic] , [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) en API&#39;s. Aanbiedingen die zijn gemaakt in [!DNL Target Classic] of andere oplossingen, kunnen worden bewerkt in [!DNL Target Standard/Premium] .
 
