@@ -6,9 +6,9 @@ short-description: Leer over de nieuwe eigenschappen, de verhogingen, en de moei
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
+source-git-commit: 872b63bc7df255af8334fa29fa89e1c532d3a734
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Deze release werkt de gebruikersinterface van [!UICONTROL Offers Library] bij om
 
 * **Persistent onderzoek en filters**: Voegt zitting-blijvend onderzoek en filteropties toe.
 
-Voor meer informatie zie [ Aanbiedingen ](/help/main/c-experiences/c-manage-content/manage-content.md) en subartikelen in deze sectie.
+Voor meer informatie zie [ Aanbiedingen ](/help/main/c-experiences/c-manage-content/manage-content.md) en subartikelen in deze sectie. Alle artikelen voor aanbiedingen in deze sectie zijn bijgewerkt met deze wijzigingen in de gebruikersinterface.
 
 Hier volgt een korte video waarin de wijzigingen in deze release worden belicht:
 
