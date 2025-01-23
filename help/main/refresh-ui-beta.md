@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 69c4bb69f77258d0e5d5d18750ccbeee0474763d
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,11 @@ Gebruik deze koppelingen om toegang te krijgen tot bijgewerkte documentatie als 
    * [ Auto-Doel overzicht ](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md){target=_blank}
    * [ creeer een auto-Doelactiviteit ](/help/main/c-activities/auto-target/create-auto-target-beta.md){target=_blank}
    * [ auto-Doel FAQs en het oplossen van problemen ](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md){target=_blank}
-
+* Automated Personalization {#automated-personalization}
+   * [Een Automated Personalization-activiteit maken](/help/main/c-activities/t-automated-personalization/create-ap-activity-beta.md)
+   * [ schat het verkeer dat voor succes ](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-traffic-estimator-beta) wordt vereist
+   * [ ervaringen van de Voorproef in de activiteiten van Automated Personalization in de Visuele Composer van de Ervaring (VEC) ](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-preview-experiences-beta)
+   * [ de aanbiedingen van Automated Personalization van het Doel ](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-target-offers)
 +++
 
 <!-- 

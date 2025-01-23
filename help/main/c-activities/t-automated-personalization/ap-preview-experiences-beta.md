@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 hide: true
 hidefromtoc: true
-source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
+exl-id: 35f9d20e-923e-4305-9e42-8197b68e8ccf
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -29,6 +30,6 @@ Omdat bij [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)-activi
 
    U kunt een ervaring uitsluiten die conflicterende variaties vertoont of een ervaring die niet esthetisch in evenwicht is.
 
-1. (Voorwaardelijk) om veelvoudige ervaringen uit te sluiten, selecteer de controledozen voor de gewenste ervaringen, dan klik het **[!UICONTROL More Actions]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallList.svg)) naast de ervaringen die u wilt uitsluiten, dan klik **[!UICONTROL Exclude]**.
+1. (Voorwaardelijk) Als u meerdere ervaringen wilt uitsluiten, schakelt u de selectievakjes voor de gewenste ervaringen in en klikt u op **[!UICONTROL Exclude]** .
 
-1. (Voorwaardelijk) om veelvoudige ervaringen te omvatten die zijn uitgesloten, selecteer de controledozen voor de gewenste ervaringen, dan klik het **[!UICONTROL More Actions]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallList.svg)) naast de ervaringen die u wilt omvatten, dan klikken **[!UICONTROL Include]**.
+1. (Voorwaardelijk) Als u meerdere ervaringen wilt opnemen die zijn uitgesloten, schakelt u de selectievakjes in voor de gewenste ervaringen en klikt u op **[!UICONTROL Include]** .

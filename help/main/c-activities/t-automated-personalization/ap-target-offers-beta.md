@@ -7,9 +7,10 @@ feature: Automated Personalization
 solution: Target,Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: 2eb99fb0c108b600d098fc14036b678c50e689b3
+exl-id: 2897c4d1-116d-483c-8fc0-64857b9cbdaf
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '370'
 ht-degree: 1%
 
 ---
@@ -31,7 +32,7 @@ In dit scenario ziet bezoeker 1 aanbod 1 (omdat deze bezoeker in aanmerking komt
 
 ## Doelstellingen instellen
 
-1. Creeer een [ activiteit van Automated Personalization ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) die de aanbiedingen bevat die u wilt richten.
+1. Creeer of geef een [ activiteit van Automated Personalization ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) uit die de aanbiedingen bevat die u wilt richten.
 1. Na vestiging klikken de aanbiedingen voor de activiteit in [!UICONTROL Visual Experience Composer], het **[!UICONTROL Manage Content]** pictogram ( ![ leidt het pictogram van de Inhoud ](/help/main/assets/icons/Experience.svg)).
 
    Het dialoogvenster [!UICONTROL Manage Content] wordt weergegeven.

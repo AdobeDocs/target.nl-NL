@@ -7,9 +7,9 @@ feature: Automated Personalization
 hide: true
 hidefromtoc: true
 exl-id: fe6e5130-53a0-4254-8299-b52086c20004
-source-git-commit: 48dcf100228beb160179e5bb7cfe7db36419b832
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1844'
 ht-degree: 0%
 
 ---
@@ -76,9 +76,7 @@ De werkstroom [!UICONTROL Automated Personalization] (AP) activiteit in [!DNL Ta
 
 1. Klik het **[!UICONTROL Manage Content]** pictogram ( ![ leidt het pictogram van de Inhoud ](/help/main/assets/icons/Experience.svg)) om de beschikbare combinaties te vormen.
 
-   Er wordt een dialoogvenster weergegeven met drie opties boven aan het scherm: [!UICONTROL Experiences], [!UICONTROL Offers] en [!UICONTROL Exclusion Groups] .
-
-   ![ beheert de dialoogdoos van de Inhoud ](/help/main/c-activities/t-automated-personalization/assets/ap_content-new.png)
+   Er wordt een dialoogvenster weergegeven met twee opties boven aan het scherm: [!UICONTROL Experiences] en [!UICONTROL Offers] .
 
    >[!NOTE]
    >
@@ -86,37 +84,60 @@ De werkstroom [!UICONTROL Automated Personalization] (AP) activiteit in [!DNL Ta
 
    In de lijst [!UICONTROL Experiences] wordt elk stuk inhoud weergegeven dat is geselecteerd voor de activiteit en de locatie waaraan deze is toegewezen.
 
-   U kunt specifieke ervaringen uitsluiten door de muisaanwijzer boven de gewenste ervaring te houden en vervolgens op het pictogram [!UICONTROL Exclude] te klikken.
+   U kunt specifieke ervaringen uitsluiten door het selectievakje naast de gewenste ervaring in te schakelen en vervolgens op het pictogram [!UICONTROL Exclude] te klikken.
 
-   ![ sluit pictogramaanwijzer ](/help/main/c-activities/t-automated-personalization/assets/icon-exclude.png) uit
-
-   U kunt ervaringen in batch uitsluiten of opnemen door het selectievakje voor relevante ervaringen in te schakelen en vervolgens op het pictogram [!UICONTROL Exclude] rechtsboven in het dialoogvenster te klikken.
-
-   ![ Partij sluit opties ](/help/main/c-activities/t-automated-personalization/assets/batch-exclude.png) uit
-
-   U kunt deze lijstweergave filteren om alleen uitgesloten of alleen opgenomen activiteiten weer te geven door op de vervolgkeuzelijst [!UICONTROL Status] te klikken.
+   U kunt ervaringen in batch uitsluiten of opnemen door het selectievakje voor relevante ervaringen in te schakelen en vervolgens op het pictogram [!UICONTROL Exclude] te klikken.
 
 1. (Voorwaardelijk) Klik **[!UICONTROL Offers]** om stukken inhoud te selecteren en deze toe te wijzen aan rapportagegroepen of om alleen bepaalde bezoekers toe te staan bepaalde aanbiedingen te zien waarvoor ze zich richten.
 
    Voor meer informatie over het melden van groepen, zie [ Aanbieding die groepen in Automated Personalization ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) melden.
 
-1. (Voorwaardelijk) Klik **[!UICONTROL Exclusion Groups]** om een willekeurige combinatie van elementen te kiezen die u van de activiteit wilt uitsluiten.
+<!--
+1. (Conditional) Click **[!UICONTROL Exclusion Groups]** to choose any combination of elements that you want to exclude from the activity.
 
-   ![ het lusje van de Groepen van de Uitsluiting van Manage de dialoogdoos van de Inhoud ](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
+   ![Exclusion Groups tab of Manage Content dialog box](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Hoewel u tot 30.000 ervaringen in een AP test kunt tot stand brengen, voert het algoritme zijn beste uit wanneer minder dan 10.000 verschillende ervaringen worden gebruikt. Deze limiet wordt ook toegepast wanneer de activiteit de optie [!UICONTROL Disalow Duplicates] heeft ingeschakeld.
+   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disalow Duplicates] option.
 
-   Als u momenteel geen uitsluitingsgroepen inbegrepen in uw activiteit hebt, klik **creeer de Groep van de Uitsluiting**. U kunt filteren om een lijst te creëren die slechts de combinaties toont u wilt uitsluiten. Noem uw uitsluitingsgroep, dan klik **sparen**.
+   If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group, then click **Save**.
 
-   Als u een bestaande uitsluitingsgroep wilt bewerken, plaatst u de aanwijzer boven de groep die u wilt bewerken en klikt u op het potloodpictogram.
+   To edit an existing exclusion group, hover over the group you want to edit, then click the pencil icon.-->
 
 1. Klik op **[!UICONTROL Done]** als u de inhoud van uw activiteit hebt ingesteld.
 
-1. De **het richten** stap kijkt vertrouwd als u andere [!DNL Target] activiteitstypes hebt gebruikt. Hier kunt u een publiek selecteren en het percentage bezoekers specificeren die de controleervaring zien door de **[!UICONTROL Custom Allocation]** drop-down lijst te klikken, dan **daarna** klikken.
+1. Klik op **[!UICONTROL Targeting]** boven aan [!UICONTROL Visual Experience Composer] om naar de volgende stap in de driestappenworkflow met instructies te gaan.
 
-   In de vervolgkeuzelijst [!UICONTROL Custom Allocation] kunt u uit de volgende opties kiezen:
+   De **het richten** stap kijkt vertrouwd als u andere [!DNL Target] activiteitstypes hebt gebruikt. Hier kunt u een publiek selecteren en het percentage bezoekers opgeven dat elke ervaring ziet.
 
-   ![ drop-down lijst van het Doel van de Toewijzing van het Verkeer ](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
+   Het stroomdiagram wordt geopend.
+
+   ![ AP Test richtend stap ](/help/main/c-activities/t-automated-personalization/assets/ap-traffic-flow.png)
+
+   Het stroomdiagram leidt u door de stappen om een publiek en zijn verkeerspercentage toe te wijzen, die de methode van de verkeerstoewijzing selecteren, en de verkeerstoewijzing voor elke ervaring in de activiteit specificeren.
+
+1. (Voorwaardelijk) klik de **[!UICONTROL All Visitors]** controle om een ander publiek voor de activiteit te selecteren.
+
+   De doelgroep van [!UICONTROL All Visitors] wordt ingesteld als de standaardgroep. Als u een ander publiek selecteert, wordt de naam van het publiek uiterst links weergegeven.
+
+   Het juiste frame wordt weergegeven, waarmee u een publiek kunt toevoegen of verwijderen en het bezoekerspercentage voor de activiteit kunt toewijzen.
+
+   1. Om het publiek te veranderen, klik het **[!UICONTROL Replace]pictogram** ( ![ vervangt pictogram ](/help/main/assets/icons/Retweet.svg)) in het juiste kader.
+   1. In het [!UICONTROL Add Audience] dialoogvakje, [ selecteer het gewenste publiek ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), dan klik **[!UICONTROL Assign Audience]**.
+
+      U kunt **klikken combineert Soorten publiek** om [ een publiek tot stand te brengen dat veelvoudige publiek ](/help/main/c-target/combining-multiple-audiences.md) combineert.
+
+      Als u een nieuw publiek moet tot stand brengen dat niet reeds in [!UICONTROL Audience Library] is, klik **creeer Publiek**. Tijdens het [ creeer-publiek werkschema ](/help/main/c-target/c-audiences/audiences.md) kunt u van de volgende opties kiezen:
+
+      * **[!UICONTROL Audience Library]**: Maak een publiek op aanvraag dat wordt opgeslagen in [!UICONTROL Audience Library] en dat opnieuw kan worden gebruikt in andere activiteiten.
+      * **[!UICONTROL This activity only]**: Creeer een [ activiteit-specifiek publiek ](/help/main/c-target/creating-activity-only-audience.md) dat niet aan [!UICONTROL Audience Library] wordt bewaard en in de huidige activiteit slechts kan worden gebruikt.
+
+   1. Klik op **[!UICONTROL Visitor Percentage]** in het rechterframe en kies het percentage gekwalificeerde bezoekers dat u de activiteit wilt invoeren.
+
+   U kunt bijvoorbeeld items beperken tot 50% van alle bezoekers of 45% van uw &quot;Californische&quot; publiek.
+
+1. Klik op het besturingselement **[!UICONTROL Traffic Allocation]** om een van de volgende opties te kiezen:
+
+   ![ de Opties van het Doel van de Toewijzing van het Verkeer ](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap-new.png)
 
    * **[!UICONTROL Evaluate Personalization Algorithm (50/50)]:** als uw doel het algoritme moet testen, gebruik een 50/50 percenten verdeling van bezoekers tussen de controle en het gerichte algoritme. Deze splitsing geeft de meest nauwkeurige schatting van de lift. Voorgesteld voor gebruik met &quot;willekeurige ervaringen&quot; als controle.
    * **[!UICONTROL Maximizing Personalization Traffic (90/10)]:** Als uw doel &quot;altijd op&quot;activiteit is tot stand te brengen, zet 10% van de bezoekers in de controle. Deze optie zorgt ervoor dat er genoeg gegevens zijn voor de algoritmen om door te gaan met het leren in de tijd. De handel hier is dat in ruil voor het personaliseren van een groter deel van je verkeer, je minder nauwkeurigheid hebt in wat de exacte lift is. Geen kwestie uw doel, is deze optie de geadviseerde verkeerspleet wanneer het gebruiken van een specifieke ervaring als controle.
