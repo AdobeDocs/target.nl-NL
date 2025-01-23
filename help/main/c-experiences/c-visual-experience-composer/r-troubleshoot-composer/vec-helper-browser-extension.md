@@ -4,9 +4,9 @@ description: Ontdek waarom sommige websites niet betrouwbaar kunnen worden geope
 title: Hoe gebruik ik de Helper Extension [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
+source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,6 @@ De VEC Helper-browser is een [!DNL Chrome] -extensie. Deze extensie is niet nodi
 >* De oudere [!DNL Target] VEC Helper-extensie die in dit artikel wordt beschreven, is gemaakt met Manifest V2. [!DNL Google] kondigde aan dat het geen extensies meer toestaat die zijn gemaakt met Manifest V2 vanaf juni 2024. Voor meer informatie, zie de [ Manifest V2 verklaring van de steunchronologie ](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline) {target=_blank} van [!DNL Google] op *Chrome voor de plaats van Ontwikkelaars*.
 >
 >* Vanaf juni 2024 wordt in [!DNL Google] begonnen met het uitschakelen van extensies die zijn gemaakt met Manifest V2, inclusief de extensie die in dit onderwerp wordt beschreven. [!DNL Adobe] adviseert dat de klanten zich aan de nieuwere [ Visuele het Uitgeven uitbreiding van de Helper ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) zo spoedig mogelijk bewegen.
->
->* De klanten die Privé Opslag van het Web van Chrome gebruiken, zouden deze versie van de uitbreiding moeten blijven gebruiken tot de steun voor dit gebruiksgeval in [ nieuwe [!UICONTROL Visual Editing Helper] uitbreiding ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) tegen eind Januari 2025 wordt uitgevoerd.
 
 ## Redenen waarom sommige websites niet betrouwbaar in de VEC kunnen worden geopend
 

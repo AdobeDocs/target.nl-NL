@@ -4,9 +4,9 @@ description: Ontdek waarom sommige websites niet betrouwbaar kunnen worden geope
 title: Hoe gebruik ik de extensie [!UICONTROL Visual Editing Helper] ?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
+source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,6 @@ Met de extensie [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]
 >[!IMPORTANT]
 >
 >* Deze nieuwe uitbreiding vervangt de vorige [ Browser van de Helper van het Doel VEC van het Doel uitbreiding ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Zie de belangrijke opmerking boven aan dat artikel. Vanwege beveiligingsverbeteringen in Manifest v3 vereist [!DNL Adobe] het downloaden van deze nieuwe extensie om door te gaan met het visueel ontwerpen van uw websites in [!DNL Target] .
->
->* Deze nieuwe extensie biedt momenteel geen ondersteuning voor Private Chrome Web Stores. Deze functie wordt eind januari 2025 ondersteund. Voor klanten die Privé Opslag van het Web van Chrome gebruiken om uitbreidingen te uploaden, gebruik in plaats daarvan de [ erfenis [!UICONTROL Visual Experience Composer] helperuitbreiding ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
 ## Redenen waarom sommige websites niet betrouwbaar in de VEC kunnen worden geopend
 
