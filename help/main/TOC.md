@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1436'
 ht-degree: 2%
 
 ---
@@ -166,7 +166,9 @@ ht-degree: 2%
       + [Uitsluitingen beheren](c-activities/t-automated-personalization/managing-exclusions.md)
       + [bètaversie van uitsluitingen beheren](c-activities/t-automated-personalization/managing-exclusions-beta.md)
       + [Rapportagegroepen aanbieden in Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
+      + [Rapportagegroepen aanbieden in Automated Personalization-bèta](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
       + [Selecteer het besturingselement voor uw Automated Personalization- of AutoTarget-activiteit](c-activities/t-automated-personalization/experience-as-control.md)
+      + [Selecteer het besturingselement voor uw Automated Personalization- of AutoTarget-activiteit-bèta](c-activities/t-automated-personalization/experience-as-control-beta.md)
       + [Veelgestelde vragen over Automated Personalization](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Problemen met Automated Personalization oplossen](c-activities/t-automated-personalization/ap-trouble.md)
    + Gericht op ervaring {#experience-targeting}

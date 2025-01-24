@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
+source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,8 @@ Gebruik deze koppelingen om toegang te krijgen tot bijgewerkte documentatie als 
    * [ schat het verkeer dat voor succes ](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-traffic-estimator-beta) wordt vereist
    * [ ervaringen van de Voorproef in de activiteiten van Automated Personalization in de Visuele Composer van de Ervaring (VEC) ](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-preview-experiences-beta)
    * [ de aanbiedingen van Automated Personalization van het Doel ](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-target-offers)
+   * [Rapportagegroepen aanbieden in Automated Personalization-bèta](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
+   * [ selecteer de controle voor uw Automated Personalization of auto-Doel activiteit-bèta ](c-activities/t-automated-personalization/experience-as-control-beta.md)
 +++
 
 <!-- 
