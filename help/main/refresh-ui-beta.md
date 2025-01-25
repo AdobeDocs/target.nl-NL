@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
+source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,12 @@ Gebruik deze koppelingen om toegang te krijgen tot bijgewerkte documentatie als 
    * [ ervaringen van de Voorproef in de activiteiten van Automated Personalization in de Visuele Composer van de Ervaring (VEC) ](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-preview-experiences-beta)
    * [ de aanbiedingen van Automated Personalization van het Doel ](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-target-offers)
    * [Rapportagegroepen aanbieden in Automated Personalization-bèta](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
-   * [ selecteer de controle voor uw Automated Personalization of auto-Doel activiteit-bèta ](c-activities/t-automated-personalization/experience-as-control-beta.md)
+   * [Selecteer het besturingselement voor uw Automated Personalization- of AutoTarget-activiteit-bèta](c-activities/t-automated-personalization/experience-as-control-beta.md)
+* Experience Targeting (XT) {#xt}
+   * [Een activity-beta maken](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
+   * [Activity-URL-bèta](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
+   * [Een Experience-bèta maken](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
+   * [ het Schakelen ervaringen in Ervaring richtend-bèta ](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
 +++
 
 <!-- 

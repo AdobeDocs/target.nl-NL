@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
+source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1449'
 ht-degree: 2%
 
 ---
@@ -175,9 +175,13 @@ ht-degree: 2%
       + [Gericht overzicht van de ervaring](c-activities/t-experience-target/experience-target.md)
       + Een belevenis voor doelactiviteit maken {#create-targeting}
          + [Een activiteit maken](c-activities/t-experience-target/t-xt-create/xt-create.md)
+         + [Een activity-beta maken](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
          + [URL van activiteit](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
+         + [Activity-URL-bèta](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
          + [Een ervaring maken](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
+         + [Een Experience-bèta maken](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
          + [Overschakelen van ervaringen op het gebied van ervaring](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
+         + [Overschakelen ervaringen in ervaring gericht op bèta](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
          + [Doelstellingen en instellingen](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [Metrisch instellen](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
    + Multivariatietest {#multivariate-test}
