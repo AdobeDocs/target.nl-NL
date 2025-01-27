@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
+source-git-commit: 438b65368b81f71d684444352035ce73627e698f
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,15 @@ Gebruik deze koppelingen om toegang te krijgen tot bijgewerkte documentatie als 
    * [Een activity-beta maken](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
    * [Activity-URL-bèta](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
    * [Een Experience-bèta maken](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
-   * [ het Schakelen ervaringen in Ervaring richtend-bèta ](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
+   * [Overschakelen ervaringen in ervaring gericht op bèta](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
+* Multivariate Test (MVT) {#mvt}
+   * [Een testbètaversie maken](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test-beta.md)
+   * [Activiteit-URL-bètaversie](c-activities/c-multivariate-testing/t-create-multivariate-test/url-beta.md)
+   * [Combinatiebèta maken](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers-beta.md)
+   * [Voorvertoning voor een bètaversie van een multivariatietest](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences-beta.md)
+   * [Schatting van het verkeer dat voor een succesvolle test bèta wordt vereist](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator-beta.md)
+   * [Test summary beta](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary-beta.md)
+   * [ vastgestelde metrieke bèta ](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics-beta.md)
 +++
 
 <!-- 

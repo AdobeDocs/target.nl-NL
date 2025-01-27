@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
+source-git-commit: 4805da617962e29794bd3af16138f3887ad250d0
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1481'
 ht-degree: 2%
 
 ---
@@ -190,13 +190,20 @@ ht-degree: 2%
       + [Een multivariatietest plannen](c-activities/c-multivariate-testing/plan-mvt.md)
       + Een multivariatietest maken {#create-mvt}
          + [Een test maken](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
+         + [Een testbètaversie maken](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test-beta.md)
          + [URL van activiteit](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
+         + [Activiteit-URL-bètaversie](c-activities/c-multivariate-testing/t-create-multivariate-test/url-beta.md)
          + [Combinaties maken](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
+         + [Combinatiebèta maken](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers-beta.md)
          + [Voorvertoning van ervaringen voor een multivariatietest](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
+         + [Voorvertoning voor een bètaversie van een multivariatietest](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences-beta.md)
          + [Schatting van het verkeer dat nodig is voor een geslaagde test](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
+         + [Schatting van het verkeer dat voor een succesvolle test bèta wordt vereist](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator-beta.md)
          + [Samenvatting testen](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
+         + [Test summary beta](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary-beta.md)
          + [Doelstellingen en instellingen](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
          + [Metrisch instellen](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
+         + [Metrische bètaversie instellen](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics-beta.md)
          + [Multivariate Tests oplossen](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [Recommendations-activiteit](c-activities/recommendations-activity.md)
    + [Een activiteit bewerken of opslaan als concept](c-activities/edit-activity.md)
