@@ -4,7 +4,7 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke Nieuwe Eigenschappen en de Verbeteringen worden omvat in de aanstaande  [!DNL Target]  Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0c57e47f026e7eb597b92a12fb984596beb4486d
+source-git-commit: e61bc64f70c0624f8f9e241d5f5b82c4c9d6735d
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -43,13 +43,13 @@ Op basis van het nieuwste ontwerpsysteem van [!DNL Adobe Spectrum] worden eerder
 
 ![ Activiteiten verfrissen zich ](/help/main/r-release-notes/assets/activities-refresh.png)
 
-## [!DNL Recommendations] update gebruikersinterface (7 februari 2025)
+## [!DNL Recommendations] update gebruikersinterface (6 februari 2025)
 
 Aangezien de modernisering van de gebruikersinterface van [!DNL Adobe Target] wordt voortgezet, zijn wij verheugd de algemene beschikbaarheid van de bijgewerkte gebruikersinterface van [!DNL Recommendations] aan te kondigen.
 
 >[!NOTE]
 >
->Vanaf donderdag 7 februari hebben klanten geleidelijk toegang tot de nieuwe interface van [!UICONTROL Recommendations] . Om een naadloze uitrol voor alle klanten te verzekeren, zal deze versie in gecontroleerde stadia worden opgesteld. In de eerste fase wordt de eerste groep [!DNL Target] -klanten bijgewerkt naar de nieuwe [!UICONTROL Activities] -gebruikersinterface. De volgende stadia zullen de resterende klanten bevorderen.
+>Vanaf woensdag 6 februari hebben klanten geleidelijk toegang tot de nieuwe interface van [!UICONTROL Recommendations] . Om een naadloze uitrol voor alle klanten te verzekeren, zal deze versie in gecontroleerde stadia worden opgesteld. In de eerste fase wordt de eerste groep [!DNL Target] -klanten bijgewerkt naar de nieuwe [!UICONTROL Activities] -gebruikersinterface. De volgende stadia zullen de resterende klanten bevorderen.
 
 Op basis van het nieuwste ontwerpsysteem van [!DNL Adobe Spectrum] worden eerder inconsistente ontwerppatronen gestandaardiseerd en worden nieuwe verbeteringen toegevoegd, zoals:
 
