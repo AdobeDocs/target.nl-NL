@@ -4,9 +4,9 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke Nieuwe Eigenschappen en de Verbeteringen worden omvat in de aanstaande  [!DNL Target]  Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 0c57e47f026e7eb597b92a12fb984596beb4486d
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,53 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor komende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**laatst bijgewerkt: 7 Januari, 2025**
+**Laatste bijgewerkt: 27 Januari, 2025**
 
 >[!NOTE]
 >
 >Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 >
 >Om informatie over de huidige versie te bekijken, zie {de Nota&#39;s van de Versie van het 0} Doel ](release-notes.md). [ De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik door [!DNL Adobe] .
+
+## [!UICONTROL Activities] update gebruikersinterface (6 februari 2025)
+
+Aangezien de modernisering van de gebruikersinterface van [!DNL Adobe Target] wordt voortgezet, zijn wij verheugd de algemene beschikbaarheid van de bijgewerkte gebruikersinterface van [!UICONTROL Activities] aan te kondigen.
+
+>[!NOTE]
+>
+>Vanaf woensdag 6 februari hebben klanten geleidelijk toegang tot de nieuwe interface van [!UICONTROL Activities] . Om een naadloze uitrol voor alle klanten te verzekeren, zal deze versie in gecontroleerde stadia worden opgesteld. In de eerste fase wordt de eerste groep [!DNL Target] -klanten bijgewerkt naar de nieuwe [!UICONTROL Activities] -gebruikersinterface. De volgende stadia zullen de resterende klanten bevorderen.
+
+Op basis van het nieuwste ontwerpsysteem van [!DNL Adobe Spectrum] worden eerder inconsistente ontwerppatronen gestandaardiseerd en worden nieuwe verbeteringen toegevoegd, zoals:
+
+* Herontworpen rapportage voor betere inzichten in activiteitsresultaten
+* Bijgewerkte pagina [!UICONTROL Audit] , die nu de informatie van [!DNL Audit API] voor real-time inzichten krijgt
+* Aanpasbare lijstweergaven voor meer flexibiliteit in verschillende teambehoeften
+* Verbeterde snelle info- en detailschermen voor eenvoudigere toegang tot informatie
+* Opties voor zoeken en filteren tijdens sessiebestendig gebruik
+* Volledig opnieuw samengesteld [!UICONTROL Visual Editing Composer] met ondersteuning voor de nieuwste beveiligingsupdates van browserproviders en een moderne gebruikersinterface
+* Bijgewerkte [!DNL Chrome] extensie die Manifest V3 ondersteunt voor meer beveiliging en verbeterde ondersteuning voor cookies van andere bedrijven
+
+![ Activiteiten verfrissen zich ](/help/main/r-release-notes/assets/activities-refresh.png)
+
+## [!DNL Recommendations] update gebruikersinterface (7 februari 2025)
+
+Aangezien de modernisering van de gebruikersinterface van [!DNL Adobe Target] wordt voortgezet, zijn wij verheugd de algemene beschikbaarheid van de bijgewerkte gebruikersinterface van [!DNL Recommendations] aan te kondigen.
+
+>[!NOTE]
+>
+>Vanaf donderdag 7 februari hebben klanten geleidelijk toegang tot de nieuwe interface van [!UICONTROL Recommendations] . Om een naadloze uitrol voor alle klanten te verzekeren, zal deze versie in gecontroleerde stadia worden opgesteld. In de eerste fase wordt de eerste groep [!DNL Target] -klanten bijgewerkt naar de nieuwe [!UICONTROL Activities] -gebruikersinterface. De volgende stadia zullen de resterende klanten bevorderen.
+
+Op basis van het nieuwste ontwerpsysteem van [!DNL Adobe Spectrum] worden eerder inconsistente ontwerppatronen gestandaardiseerd en worden nieuwe verbeteringen toegevoegd, zoals:
+
+* De zoekopdracht in de productcatalogus bevat nu een bijgewerkte database die een realtime synchronisatie van producten mogelijk maakt
+* [!UICONTROL Recommendation] -objecten ([!UICONTROL Criteria] , [!UICONTROL Designs] , [!UICONTROL Collections] en [!UICONTROL Exclusions]) die via de API zijn gemaakt, zijn nu beschikbaar in de gebruikersinterface
+* Instellingen zijn geconsolideerd onder de sectie [!UICONTROL Administration]
+* Aanpasbare lijstweergaven voor meer flexibiliteit in verschillende teambehoeften
+* HTML- en JSON-code-editors zijn vernieuwd met syntaxismarkering en regelnummering
+* Verbeterde snelle info- en detailschermen voor eenvoudigere toegang tot informatie
+* Opties voor zoeken en filteren tijdens sessiebestendig gebruik
+
+![ UI van Recommendations verfrist zich ](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
 ## [!UICONTROL Offers Library] update gebruikersinterface (9 januari 2025)
 
