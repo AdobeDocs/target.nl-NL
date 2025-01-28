@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 3809d98ae58e4832cdf4739d2435a222febaef6d
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1493'
 ht-degree: 2%
 
 ---
@@ -363,12 +363,14 @@ ht-degree: 2%
    + Ontwerp {#recommendations-design}
       + [Overzicht van ontwerp](c-recommendations/c-design-overview/design-overview.md)
       + [Een ontwerp maken](c-recommendations/c-design-overview/create-design.md)
-      + [Een ontwerp maken](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
+      + [Een design-bèta maken](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
       + [Veelgestelde vragen over ontwerp](c-recommendations/c-design-overview/template-faq.md)
       + [Een ontwerp aanpassen met Snelheid](c-recommendations/c-design-overview/customizing-a-template.md)
    + Activiteit {#recommendations-activity}
       + [Een Recommendations-activiteit maken](c-recommendations/t-create-recs-activity/create-recs-activity.md)
+      + [Een bètaversie van Recommendations-activiteit maken](c-recommendations/t-create-recs-activity/create-recs-activity-beta.md)
       + [Criteria selecteren](c-recommendations/t-create-recs-activity/algo-select-recs.md)
+      + [bètacriteria selecteren](c-recommendations/t-create-recs-activity/algo-select-rec-beta.md)
       + [Promoties toevoegen](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Instellingen voor Recommendations-activiteiten](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [Recommendations-activiteiten voorvertonen en starten](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)

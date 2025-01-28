@@ -1,29 +1,30 @@
 ---
 keywords: aanbevelingen feed;feed;SAINT;ftp;csv;classificaties;analytische classificaties
-description: Meer informatie over hoe feeds entiteiten importeren in [!DNL Adobe Target] [!DNL Recommendations] CSV-bestanden gebruiken, [!DNL Google Product Search] voederformaat, en [!DNL Analytics] productclassificaties.
-title: Hoe gebruikt u [!UICONTROL Feeds] in [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
+description: Leer hoe het voer invoerentiteiten in  [!DNL Adobe Target] [!DNL Recommendations] gebruikend CSV- dossiers, het  [!DNL Google Product Search]  voederformaat, en  [!DNL Analytics]  productclassificaties invoert.
+title: Hoe gebruik ik [!UICONTROL Feeds] in  [!DNL Target Recommendations]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: f3b1281cfbfb70703ac33776b3ed964360b3db3a
+exl-id: 53adc701-c389-4adf-a9c8-ca778aa0a8f3
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2417'
 ht-degree: 0%
 
 ---
 
 # Feeds
 
-Met feeds kunt u entiteiten importeren in [!DNL Adobe Target] [!DNL Recommendations]. Entiteiten kunnen worden verzonden met gebruik van CSV-bestanden, de [!DNL Google Product Search] voederformaat, en [!DNL Adobe Analytics] productclassificaties.
+Gebruik feeds om entiteiten in te voeren in [!DNL Adobe Target] [!DNL Recommendations] . Entiteiten kunnen worden verzonden met gebruik van CSV-bestanden, de [!DNL Google Product Search] feed-indeling en [!DNL Adobe Analytics] -productclassificaties.
 
 ## Overzicht van feeds {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
-Met feeds kunt u [Entiteiten](/help/main/c-recommendations/c-products/products.md) of vergroot de gegevens van uw box met informatie die niet beschikbaar is op de pagina of die niet veilig is om rechtstreeks vanaf de pagina te verzenden. Bijvoorbeeld marge, kostprijs van verkochte goederen (COGS) enzovoort.
+Het voer laat u [ Entiteiten ](/help/main/c-recommendations/c-products/products.md) overgaan of uw brievenbusgegevens met informatie uitbreiden die of niet beschikbaar op de pagina is of onveilig om rechtstreeks van de pagina te verzenden. Bijvoorbeeld marge, kostprijs van verkochte goederen (COGS) enzovoort.
 
-Met feeds kunt u ook gedetailleerde objectgegevens doorgeven aan [!DNL Recommendations], zoals product-id, categorie, naam, bericht en andere kenmerken.
+Met feeds kunt u ook gedetailleerde itemgegevens doorgeven in [!DNL Recommendations] , zoals product-id, categorie, naam, bericht en andere kenmerken.
 
-U kunt selecteren welke kolommen u uit uw [!DNL Target] productclassificatiebestand of [!DNL Google Product Search] bestand dat u naar de [!DNL Recommendations] server.
+U kunt selecteren welke kolommen u naar de [!DNL Target] product classifications file of [!DNL Google Product Search] bestand wilt verzenden naar de [!DNL Recommendations] server.
 
 Deze gegevens over elk item kunnen vervolgens worden gebruikt om:
 
@@ -32,43 +33,41 @@ Deze gegevens over elk item kunnen vervolgens worden gebruikt om:
 * Items in verschillende verzamelingen sorteren
 * Uitzonderingen op aanbevelingen toepassen
 
-Objectbeschrijvingen kunnen worden doorgegeven aan [!DNL Target] met feeds of vakjes. Indien [!DNL Target] verzamelt gegevens met behulp van zowel een entiteitsfeed als een box, de meest recente gegevens wint. Meestal komen de meest recente gegevens uit een box, omdat deze vaker worden weergegeven. In het zeldzame geval dat de entiteit gegevens invoert en tegelijkertijd de gegevens van de doos raken, worden de mbox gegevens gebruikt.
+U kunt itembeschrijvingen doorgeven aan [!DNL Target] met feeds of selectievakjes. Als [!DNL Target] gegevens verzamelt met zowel een eenheidfeed als een box, worden de meest recente gegevens gewint. Meestal komen de meest recente gegevens uit een box, omdat deze vaker worden weergegeven. In het zeldzame geval dat de entiteit gegevens invoert en tegelijkertijd de gegevens van de doos raken, worden de mbox gegevens gebruikt.
 
-De [!UICONTROL Feeds] list ( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) bevat informatie over alle feeds die u hebt gemaakt.
+De [!UICONTROL Feeds] -lijst ( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** ) bevat informatie over alle feeds die u hebt gemaakt.
 
-![Pagina Feeds](/help/main/c-recommendations/c-products/assets/feeds-page-new.png)
+De pagina [!UICONTROL Feeds] bevat de volgende kolommen:
 
-De [!UICONTROL Feeds] Deze pagina bevat de volgende kolommen:
+* **Naam**: De naam van het voer tijdens verwezenlijking wordt gespecificeerd die. Als u de naam van een feed wilt bewerken, moet u de feed zelf bewerken. Wanneer u de feed onder de nieuwe naam opslaat, wordt de feed vernieuwd.
+* **Status**: De huidige status van de voer [ ](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
+* **Type**: De types omvatten [ CSV ](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF), en [ Classificaties van Analytics ](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
+* **Punten**: Toont het aantal punten in het voer.
+* **Programma**: Toont het updateschema voor het voer: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks], of [!UICONTROL Never].
+* **Laatste Bijgewerkt**: Toont de datum en de tijd toen het voer en de naam van de persoon laatst werd bijgewerkt die het voer bijwerkte.
 
-* **Naam**: De naam van de feed die tijdens het maken is opgegeven. Als u de naam van een feed wilt bewerken, moet u de feed zelf bewerken. Wanneer u de feed onder de nieuwe naam opslaat, wordt de feed vernieuwd.
-* **Status**: Huidige voeders [status](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
-* **Type**: Typen inclusief [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF), en [Analytische classificaties](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
-* **Items**: Geeft het aantal items in de feed weer.
-* **Schema**: Hiermee geeft u het updateschema voor de feed weer: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks], of [!UICONTROL Never].
-* **Laatst bijgewerkt**: Geeft de datum en tijd weer waarop de feed voor het laatst is bijgewerkt en de naam van de persoon die de feed heeft bijgewerkt.
+Klik het [!UICONTROL Customize Table] pictogram ( ![ pas het pictogram van de Lijst ](/help/main/assets/icons/ColumnSetting.svg) aan om kolommen te selecteren of te schrappen die u wilt tonen.
 
-Klik op de knop [!UICONTROL Customize Table] icon ( ![Pictogram Tabel aanpassen](/help/main/c-recommendations/c-products/assets/customize-table-icon.png) ) om kolommen te selecteren of te deselecteren die u wilt weergeven.
+Klik het [!UICONTROL Information] pictogram ( ![ pictogram van Info ](/help/main/assets/icons/InfoOutline.svg)) om een kaart te tonen die de laatste uploaddatum en URL van het voer toont.
 
-Klik op de knop [!UICONTROL Information] pictogram om een kaart weer te geven die de laatste uploaddatum en de URL van de feed weergeeft.
-
-Klik op het pictogram voor de ovaal om de volgende handelingen te openen: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy], en [!UICONTROL Delete].
+Klik het [!UICONTROL More Actions] pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallList.svg)) om tot de volgende acties toegang te hebben: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy], en [!UICONTROL Delete].
 
 >[!IMPORTANT]
 >
 >Geüploade entiteiten en entiteitskenmerken verlopen na 61 dagen. Dit betekent:
 >
 >* Uw feed moet ten minste maandelijks worden uitgevoerd om ervoor te zorgen dat de inhoud van de catalogus niet verloopt.
->* Als u een item uit het voederbestand verwijdert, wordt dat item niet uit de catalogus verwijderd. Als u het item uit de catalogus wilt verwijderen, verwijdert u het item handmatig via het dialoogvenster [!DNL Target] UI of API. Of wijzig de itemkenmerken (zoals voorraad) om ervoor te zorgen dat het item niet in aanmerking wordt genomen.
+>* Als u een item uit het voederbestand verwijdert, wordt dat item niet uit de catalogus verwijderd. Als u het item uit de catalogus wilt verwijderen, verwijdert u het handmatig via de gebruikersinterface of API van [!DNL Target] . Of wijzig de itemkenmerken (zoals voorraad) om ervoor te zorgen dat het item niet in aanmerking wordt genomen.
 
-## Brontypen
+## Source-typen
 
-Entiteiten kunnen worden verzonden met gebruik van CSV-bestanden, de [!DNL Google Product Search] voederformaat, en [!DNL Adobe Analytics] productclassificaties.
+Entiteiten kunnen worden verzonden met gebruik van CSV-bestanden, de [!DNL Google Product Search] feed-indeling en [!DNL Adobe Analytics] -productclassificaties.
 
 ### CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
-U kunt een .csv-bestand maken met de opdracht [!DNL Adobe] CSV-uploadindeling. Het bestand bevat weergaveinformatie over de gereserveerde en aangepaste kenmerken voor uw producten. Als u kenmerken wilt uploaden die specifiek zijn voor uw implementatie, vervangt u `CustomN` in de koptekstrij met de naam van het kenmerk dat u wilt gebruiken. In het onderstaande voorbeeld: `entity.Custom1` wordt vervangen door: `entity.availability`. U kunt het bestand vervolgens bulksgewijs uploaden naar de [!DNL Recommendations] server.
+U kunt een .csv-bestand maken met de gedeponeerde CSV-uploadindeling van [!DNL Adobe] . Het bestand bevat weergaveinformatie over de gereserveerde en aangepaste kenmerken voor uw producten. Als u kenmerken wilt uploaden die specifiek zijn voor uw implementatie, vervangt u `CustomN` in de koptekstrij door de naam van het kenmerk dat u wilt gebruiken. In het onderstaande voorbeeld is `entity.Custom1` vervangen door: `entity.availability` . Vervolgens kunt u het bestand in bulk uploaden naar de [!DNL Recommendations] -server.
 
-Het gebruik van de .csv-indeling heeft de volgende voordelen ten opzichte van [!DNL Google] feed-indeling:
+Het gebruik van de .csv-indeling heeft de volgende voordelen ten opzichte van de [!DNL Google] feed-indeling:
 
 * Voor de .csv-indeling zijn geen veldtoewijzingen vereist.
 * De .csv-indeling ondersteunt kenmerken met meerdere waarden (zie het onderstaande voorbeeld).
@@ -76,7 +75,7 @@ Het gebruik van de .csv-indeling heeft de volgende voordelen ten opzichte van [!
 
 Gebruik de methode voor het bulkuploaden om weergavegegevens te verzenden als u geen vakken op uw pagina hebt of als u uw weergavegegevens wilt aanvullen met items die niet op uw site beschikbaar zijn. Stel bijvoorbeeld dat u inventarisgegevens wilt verzenden die mogelijk niet op uw site worden gepubliceerd.
 
-Alle gegevens die zijn geüpload met het CSV-bestand, de Google Product Feed of [!DNL Analytics] De feed voor de classificatie van producten overschrijft de bestaande waarde van het entiteitskenmerk in de database. Als u prijsinformatie via mbox-aanvragen verzendt en vervolgens andere prijswaarden in het bestand verzendt, overschrijven de waarden in het bestand de waarden die met de mbox-aanvraag zijn ingesteld. Een uitzondering hierop is de `categoryId` entiteitskenmerk waarbij de categoriewaarden worden toegevoegd in plaats van te worden overschreven tot de limiet van 250 tekens.
+Alle gegevens die zijn geüpload met het CSV-bestand, de Google Product Feed of de [!DNL Analytics] Product Classification Feed, overschrijven de bestaande entiteitskenmerkwaarde in de database. Als u prijsinformatie via mbox-aanvragen verzendt en vervolgens andere prijswaarden in het bestand verzendt, overschrijven de waarden in het bestand de waarden die met de mbox-aanvraag zijn ingesteld. Een uitzondering hierop is het kenmerk entiteit van `categoryId` , waarbij de categoriewaarden worden toegevoegd in plaats van te worden overschreven tot de limiet van 250 tekens.
 
 >[!IMPORTANT]
 >
@@ -116,29 +115,29 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 ### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
-De [!DNL Google Product Search] het voedertype gebruikt [!DNL Google] gebruiken. Dit verschilt van het [!DNL Adobe] CSV-uploadindeling.
+Het feed-type [!DNL Google Product Search] gebruikt de [!DNL Google] -indeling. Dit is anders dan de gedeponeerde CSV-uploadindeling van [!DNL Adobe] .
 
-Als u een bestaande [!DNL Google Product Feed], kunt u dat gebruiken als uw importbestand.
-
->[!NOTE]
->
->Het is niet verplicht [!DNL Google] gegevens. [!DNL Recommendations] gebruikt dezelfde indeling als [!DNL Google]. U kunt deze methode gebruiken om alle gegevens te uploaden die u hebt en de beschikbare planningsfuncties te gebruiken. U moet echter de opdracht [!DNL Google] vooraf gedefinieerde kenmerknamen wanneer u het bestand instelt.
-
-De meeste detailhandelaren uploaden producten naar [!DNL Google], dus wanneer een bezoeker de opdracht [!DNL Google] productzoekopdracht, hun producten worden weergegeven. [!DNL Recommendations] volgt [!DNL Google] specificatie exact voor entiteitsfeeds. Entiteitsfeeds kunnen worden verzonden naar [!DNL Recommendations] via .xml, .txt, of .tsv, en kan gebruiken [kenmerken die door Google worden gedefinieerd](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). De resultaten kunnen worden gezocht op de [[!DNL Google] winkelpagina&#39;s](https://www.google.com/prdhp).
+Als u een bestaande [!DNL Google Product Feed] hebt, kunt u die gebruiken als uw importbestand.
 
 >[!NOTE]
 >
->De methode POST moet zijn toegestaan op de server die als host fungeert voor de [!DNL Google] voederinhoud.
+>Het is niet vereist om [!DNL Google] -gegevens te gebruiken. [!DNL Recommendations] gebruikt dezelfde indeling als [!DNL Google] . U kunt deze methode gebruiken om alle gegevens te uploaden die u hebt en de beschikbare planningsfuncties te gebruiken. U moet echter de vooraf gedefinieerde [!DNL Google] kenmerknamen behouden wanneer u het bestand instelt.
 
-Omdat [!DNL Recommendations] gebruikers vormen reeds .xml of .txt voer naar [!DNL Google] Via URL of FTP worden door entiteitsfeeds de productgegevens geaccepteerd en gebruikt om de catalogus met aanbevelingen samen te stellen. Geef op waar die feed bestaat en de aanbevelingen-server de gegevens ophaalt.
+De meeste detailhandelaren uploaden producten naar [!DNL Google], dus wanneer een bezoeker de [!DNL Google] -zoekopdracht gebruikt, worden hun producten weergegeven. [!DNL Recommendations] volgt de [!DNL Google] -specificatie exact voor entiteitsfeeds. De voer van de entiteit kan naar [!DNL Recommendations] via .xml, .txt, of .tsv worden verzonden, en kan de [ attributen gebruiken die door Google ](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US) worden bepaald. De resultaten zijn doorzoekbaar op [[!DNL Google]  het winkelen pagina&#39;s ](https://www.google.com/prdhp).
 
-Als u [!DNL Google Product Search] voor het uploaden van de entiteitvoer, moet u nog een productpaginamarbox op de pagina hebben als u daar aanbevelingen wilt tonen of productmeningen voor algoritmelevering volgen die op meningen wordt gebaseerd.
+>[!NOTE]
+>
+>De methode POST moet zijn toegestaan op de server die de [!DNL Google] feed-inhoud host.
+
+Omdat [!DNL Recommendations] -gebruikers al .xml- of .txt-feeds configureren voor verzending naar [!DNL Google] via URL of FTP, worden deze productgegevens door entiteitsfeeds geaccepteerd en gebruikt om de catalogus met aanbevelingen te maken. Geef op waar die feed bestaat en de aanbevelingen-server de gegevens ophaalt.
+
+Als u [!DNL Google Product Search] gebruikt voor het uploaden van de entiteitvoer, moet u nog een productpaginamarbox op de pagina hebben als u daar aanbevelingen wilt tonen of productmeningen voor algoritmelevering volgen die op meningen wordt gebaseerd.
 
 [!DNL Google] feeds bieden geen ondersteuning voor meerdere waarden voor een aangepast kenmerk.
 
 De feed wordt uitgevoerd op het moment dat u de feed opslaat en activeert. Het wordt uitgevoerd op het moment dat u de feed opslaat, en vervolgens elke dag en uur later.
 
-Hier volgt een voorbeeldcode voor een [!DNL Google Product Search] .xml-bestand feed:
+Hier volgt een voorbeeldcode voor een XML-bestand met [!DNL Google Product Search] feed:
 
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
@@ -205,7 +204,7 @@ Hier volgt een voorbeeldcode voor een [!DNL Google Product Search] .xml-bestand 
 </feed> 
 ```
 
-Hier volgt een voorbeeldcode voor een [!DNL Google Product Search] .tsv-bestand verzenden:
+Hieronder volgt een voorbeeldcode voor een [!DNL Google Product Search] feed.tsv-bestand:
 
 ```
 id    title    description    link    price    condition    availability    image_link    tax    shipping_weight    shipping    google_product_category    product_type    item_group_id    color    size    gender    age_group    pattern    brand    gtin    mpn 
@@ -215,79 +214,73 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] Productclassificaties {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-De [!DNL Adobe Analytics] Productclassificatie is de enige indeling die beschikbaar is voor aanbevelingen. Zie voor meer informatie over dit classificatiebestand [Classificaties](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in de *Componenten Analytics* hulplijn. Het is mogelijk dat niet alle informatie u voor aanbevelingen nodig hebt in uw huidige implementatie beschikbaar is, zo volg deze gebruikershandleiding als u aan uw classificatiedossier wilt toevoegen.
+De [!DNL Adobe Analytics] productclassificatie is de enige classificatie die beschikbaar is voor aanbevelingen. Voor meer informatie over dit classificatiedossier, zie [ Ongeveer classificaties ](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in de *gids van de Componenten van Analytics*. Het is mogelijk dat niet alle informatie u voor aanbevelingen nodig hebt in uw huidige implementatie beschikbaar is, zo volg deze gebruikershandleiding als u aan uw classificatiedossier wilt toevoegen.
 
 >[!IMPORTANT]
 >
->Vóór het importeren van entiteitsgegevens in [!DNL Recommendations] gebruiken [!DNL Analytics] productclassificaties, moet u er rekening mee houden dat dit niet de voorkeursmethode is.
+>Voordat u entiteitsgegevens importeert naar [!DNL Recommendations] met [!DNL Analytics] -productclassificaties, moet u er rekening mee houden dat dit niet de voorkeursmethode is.
 >
 > Let op het volgende:
 >
 >* Updates van entiteitskenmerken hebben een extra vertraging van maximaal 24 uur.
->* [!DNL Target] supports [!UICONTROL Product Classifications] alleen. De [!DNL Analytics] product-SKU moet op hetzelfde niveau worden ingedeeld als [!DNL Recommendations] `entity.id`. Aangepast [!DNL Analytics] Classificaties kunnen worden ontwikkeld met [!UICONTROL Adobe Consulting Services]. Neem contact op met uw accountmanager voor vragen.
+>* [!DNL Target] biedt alleen ondersteuning voor [!UICONTROL Product Classifications] . De SKU van het [!DNL Analytics] product moet aan het zelfde niveau in kaart brengen zoals [!DNL Recommendations] `entity.id`. Aangepaste [!DNL Analytics] classificaties kunnen worden ontwikkeld met [!UICONTROL Adobe Consulting Services] . Neem contact op met uw accountmanager voor vragen.
 
 ## Feed maken {#steps}
 
-Een feed maken om informatie over uw producten of services in te voegen [!DNL Recommendations].
+Maak een feed om informatie over uw producten of services in te voegen in [!DNL Recommendations] .
 
-1. Van binnen [!DNL Target] interface, klik **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**.
-
-   ![Dialoogvenster feed maken](assets/CreateFeed.png)
+1. Klik in de interface van [!DNL Target] op **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]** .
 
 1. Geef een beschrijvende naam op voor uw feed.
-1. Selecteer een **[!UICONTROL Source Type]**.
+1. Selecteer een **[!UICONTROL Source Type]** .
 
    * [!UICONTROL CSV]
    * [!UICONTROL Google Product Feed]
    * [!UICONTROL Analytics Classifications]
 
-   Voor informatie over de [!UICONTROL CSV] en [!UICONTROL Google Product Feed] voedertypen, zie [Overzicht van feeds](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). U kunt [CSV-handleiding voor modellen downloaden](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) om u te helpen de voer correct formatteren.
+   Voor informatie over de [!UICONTROL CSV] en [!UICONTROL Google Product Feed] voedertypes, zie [ Overzicht van het Beeld ](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). U kunt ook [ een modelCSV gids ](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) downloaden om u te helpen de voer correct formatteren.
 
-1. (Voorwaardelijk) Als u **[!UICONTROL CSV]** of **[!UICONTROL Google Product Feed]** geeft u de locatie op waar de feed toegankelijk is.
+1. (Voorwaardelijk) Als u **[!UICONTROL CSV]** of **[!UICONTROL Google Product Feed]** hebt geselecteerd, geeft u de locatie op waar de feed kan worden geopend.
 
-   * **FTP**: Als u FTP hebt geselecteerd, geeft u de FTP-serverinformatie, de aanmeldingsgegevens, de bestandsnaam en de FTP-map op. U kunt FTP met SSL (FTPS) gebruiken voor veiliger uploads.
+   * **FTP**: Als u FTP selecteerde, verstrek de de serverinformatie van FTP, de login geloofsbrieven, filename, en de folder van FTP. U kunt FTP met SSL (FTPS) gebruiken voor veiliger uploads.
 
      Ondersteunde FTP-serverinstellingen:
 
       * FTP en FTPS moeten zijn ingesteld op het gebruik van Passieve FTP.
       * Voor FTPS configureert u de server zodanig dat deze expliciete FTPS-verbindingen accepteert.
       * SFTP wordt niet ondersteund.
-      * U kunt handmatig een poort opgeven waarop de verbinding moet worden gestart (bijvoorbeeld `ftp://ftp.yoursite.com:2121`). Als u geen poort opgeeft, wordt de standaard-FTP- of FTPS-poort gebruikt.
+      * U kunt handmatig een poort opgeven waarop de verbinding moet worden gestart (bijvoorbeeld `ftp://ftp.yoursite.com:2121` ). Als u geen poort opgeeft, wordt de standaard-FTP- of FTPS-poort gebruikt.
 
-   * **URL**: Als u [!UICONTROL URL], geeft u de URL op.
+   * **URL**: Als u [!UICONTROL URL] selecteert, specificeer URL.
 
-1. (Voorwaardelijk) Als u **[!UICONTROL Analytics Classifications]** kiest u de rapportsuite in de vervolgkeuzelijst.
+1. (Voorwaardelijk) Als u **[!UICONTROL Analytics Classifications]** hebt geselecteerd, kiest u de rapportsuite in de vervolgkeuzelijst.
 
-1. Klik op de knop **[!UICONTROL Next]** -pijl om de [!UICONTROL Schedule] opties.
-
-   ![Stapresultaat](assets/CreateFeedSchedule.png)
+1. Klik op de pijl **[!UICONTROL Next]** om de opties van [!UICONTROL Schedule] weer te geven.
 
 1. Selecteer een updateoptie:
 
    * [!UICONTROL Daily]
    * [!UICONTROL Weekly]
    * [!UICONTROL Every 2 Weeks]
-   * [!UICONTROL Never]: Plan geen update. Kies deze optie als u deze feed niet wilt uitvoeren.
+   * [!UICONTROL Never]: plant geen update. Kies deze optie als u deze feed niet wilt uitvoeren.
 
 1. Geef de tijd op waarop de feed moet worden uitgevoerd.
 
    Deze optie is gebaseerd op de tijdzone die in uw browser wordt gebruikt. Als u een tijd in een verschillende tijdzone wilt gebruiken, moet u die tijd volgens uw tijdzone berekenen.
 
-1. Klik op de knop **[!UICONTROL Next]** -pijl om de [!UICONTROL Mapping] en geeft u vervolgens op hoe u de gegevens wilt toewijzen aan [!DNL Target] definities.
-
-   ![Stapresultaat](assets/CreatFeedMapping.png)
+1. Klik op de pijl **[!UICONTROL Next]** om de [!UICONTROL Mapping] -opties weer te geven en geef vervolgens op hoe u de gegevens wilt toewijzen aan [!DNL Target] -definities.
 
 1. (Optioneel) Als u wilt dat de feed tot een omgeving (hostgroep) behoort, selecteert u de hostgroep.
 
-   De feed behoort standaard tot alle hostgroepen. Dit zorgt ervoor dat de punten in dit voer in om het even welke milieu beschikbaar zijn. Zie voor meer informatie [Gastheren](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+   De feed behoort standaard tot alle hostgroepen. Dit zorgt ervoor dat de punten in dit voer in om het even welke milieu beschikbaar zijn. Voor meer informatie, zie [ Gastheren ](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 1. Klik op **[!UICONTROL Save]**.
 
-Nadat u een feed hebt gemaakt of bewerkt, wordt de feed direct uitgevoerd. De feed wordt dan bijgewerkt volgens de parameters die u instelt. Het duurt enige tijd voordat de informatie beschikbaar is. Eerst moet de feed gesynchroniseerd worden, vervolgens moet deze worden verwerkt en geïndexeerd voordat deze kan worden gepubliceerd en beschikbaar gesteld. De huidige status wordt weergegeven onder [Status van feed](/help/main/c-recommendations/c-products/feeds.md#status) in de [!UICONTROL Feeds] lijst. U kunt sluiten [!DNL Target] voordat het proces is voltooid en het proces wordt voortgezet.
+Nadat u een feed hebt gemaakt of bewerkt, wordt de feed direct uitgevoerd. De feed wordt dan bijgewerkt volgens de parameters die u instelt. Het duurt enige tijd voordat de informatie beschikbaar is. Eerst moet de feed gesynchroniseerd worden, vervolgens moet deze worden verwerkt en geïndexeerd voordat deze kan worden gepubliceerd en beschikbaar gesteld. De huidige status verschijnt onder [ Status van het Gegeven ](/help/main/c-recommendations/c-products/feeds.md#status) in de [!UICONTROL Feeds] lijst. U kunt [!DNL Target] sluiten voordat het proces is voltooid en het proces wordt voortgezet.
 
 Terwijl het indexeren lopend is, verschijnen de producten en de voederkopballen alvorens de individuele waarden zijn geïndexeerd. Dit laat u zoeken en producten zien zodat kunt u inzamelingen, uitsluitingen, ontwerpen, en activiteiten tot stand brengen alvorens het indexeren is voltooid.
 
-Wanneer in Status de tekst &#39;&#39;Voltooid&#39;&#39; wordt weergegeven, betekent dit dat het bestand is gevonden en correct is geparseerd. De informatie kan niet worden gebruikt binnen [!DNL Recommendations] totdat het bestand is geïndexeerd. Dit kan enige tijd in beslag nemen, afhankelijk van de grootte van het bestand. Als het proces mislukt, is het bestand niet gevonden. U hebt bijvoorbeeld een onjuiste URL gebruikt of de FTP-gegevens zijn onjuist of er is een parseringsfout opgetreden.
+Wanneer in Status de tekst &#39;&#39;Voltooid&#39;&#39; wordt weergegeven, betekent dit dat het bestand is gevonden en correct is geparseerd. De informatie is niet beschikbaar voor gebruik binnen [!DNL Recommendations] totdat het bestand is geïndexeerd. Dit kan enige tijd in beslag nemen, afhankelijk van de grootte van het bestand. Als het proces mislukt, is het bestand niet gevonden. U hebt bijvoorbeeld een onjuiste URL gebruikt of de FTP-gegevens zijn onjuist of er is een parseringsfout opgetreden.
 
 ## Voederstatussen en indicatoren {#concept_E475986720D1400999868B3DFD14A7A0}
 
@@ -299,26 +292,26 @@ De volgende statussen zijn mogelijk voor een diervoeder:
 
 | Status | Beschrijving |
 |--- |--- |
-| [!UICONTROL Syncing] | Gegevens over instellingen van feed worden opgeslagen naar [!DNL Target]. |
-| [!UICONTROL Sync Failed] | Gegevens voor instellingen van feed kunnen niet worden opgeslagen naar [!DNL Target]. Probeer het opnieuw. |
+| [!UICONTROL Syncing] | Gegevens over de instellingen van feed worden opgeslagen in [!DNL Target] . |
+| [!UICONTROL Sync Failed] | Gegevens over instellingen van feed kunnen niet worden opgeslagen in [!DNL Target] . Probeer het opnieuw. |
 | [!UICONTROL No Feed Run] | U hebt een feed gemaakt, maar deze is niet gepland (de frequentie is ingesteld op Nooit). |
-| Gepland op *datum en tijd* | De feed is niet uitgevoerd, maar moet op de opgegeven datum en tijd worden uitgevoerd. |
-| [!UICONTROL Waiting for Download] | [!DNL Target] is bezig met het downloaden van het feed-bestand. |
+| Gepland bij *datum en tijd* | De feed is niet uitgevoerd, maar moet op de opgegeven datum en tijd worden uitgevoerd. |
+| [!UICONTROL Waiting for Download] | [!DNL Target] bereidt zich voor op het downloaden van het feed-bestand. |
 | [!UICONTROL Downloading Feed File] | [!DNL Target] downloadt het feed-bestand. |
-| [!UICONTROL Importing Items] | [!DNL Target] importeert items uit het voederbestand. |
-| Feed geïmporteerd op *tijd* | [!DNL Target] heeft het feed-bestand geïmporteerd in het systeem voor de levering van inhoud. Wijzigingen in objectkenmerken zijn aangebracht in het systeem voor de levering van inhoud en zullen binnenkort worden weergegeven in de geleverde aanbevelingen. Als u de verwachte wijzigingen niet ziet, probeert u het opnieuw en vernieuwt u de pagina met aanbevelingen.<br>Opmerkingen:<ul><li>Als wijzigingen in de kenmerken van een item ertoe leiden dat een item wordt uitgesloten van aanbevelingen, wordt de uitsluiting onmiddellijk weerspiegeld. Als een item opnieuw wordt toegevoegd of wijzigingen in kenmerken ertoe leiden dat een item wordt *niet langer* niet in aanbevelingen worden opgenomen, wordt het pas weerspiegeld bij de volgende algoritmeupdate, die binnen 24 uur plaatsvindt.</li><li>Wanneer deze status wordt weergegeven, worden updates mogelijk nog niet weerspiegeld in het dialoogvenster [!UICONTROL Catalog Search] UI. Een aparte status wordt vermeld in [!UICONTROL Catalog Search] De laatste keer dat de doorzoekbare catalogus is bijgewerkt.</li></ul> |
+| [!UICONTROL Importing Items] | [!DNL Target] importeert items uit het feed-bestand. |
+| Het voer met succes in *tijd* werd ingevoerd | [!DNL Target] heeft het feed-bestand geïmporteerd in het systeem voor de levering van inhoud. Wijzigingen in objectkenmerken zijn aangebracht in het systeem voor de levering van inhoud en zullen binnenkort worden weergegeven in de geleverde aanbevelingen. Als u de verwachte wijzigingen niet ziet, probeert u het opnieuw en vernieuwt u de pagina met aanbevelingen.<br> Nota&#39;s:<ul><li>Als wijzigingen in de kenmerken van een item ertoe leiden dat een item wordt uitgesloten van aanbevelingen, wordt de uitsluiting onmiddellijk weerspiegeld. Als een punt onlangs wordt toegevoegd, of de veranderingen in attributen in een punt resulteren dat *niet meer* van aanbevelingen wordt uitgesloten, wordt het niet weerspiegeld tot de volgende algoritmeupdate, die binnen 24 uren voorkomt.</li><li>Wanneer deze status wordt weergegeven, worden updates mogelijk nog niet weergegeven in de gebruikersinterface van [!UICONTROL Catalog Search] . In [!UICONTROL Catalog Search] wordt een aparte status weergegeven die de laatste keer aangeeft dat de doorzoekbare catalogus is bijgewerkt.</li></ul> |
 | [!UICONTROL Failed to Index] | De indexbewerking is mislukt. Probeer het opnieuw. |
 | [!UICONTROL Server Not Found] | FTP- of URL-locaties zijn ongeldig of anderszins onbereikbaar. |
 
-Als u een feed wilt bijwerken (bijvoorbeeld om wijzigingen aan te brengen in de configuratie of het feed-bestand), opent u de feed, brengt u de gewenste wijzigingen aan en klikt u op **[!UICONTROL Save]**.
+Als u een feed wilt bijwerken (bijvoorbeeld om wijzigingen aan te brengen in de configuratie of het feed-bestand), opent u de feed, brengt u de gewenste wijzigingen aan en klikt u op **[!UICONTROL Save]** .
 
 >[!IMPORTANT]
 >
->Geüploade entiteiten verlopen na 61 dagen. Dit betekent dat uw voederdossier minstens om de 60 dagen moet worden geupload om een verstoring van uw aanbevelingen activiteiten te vermijden. Als een item niet ten minste om de 60 dagen in een voederbestand (of een andere methode voor het bijwerken van entiteiten) is opgenomen, [!DNL Target] leidt ertoe dat het punt niet meer relevant is en het uit de catalogus verwijdert.
+>Geüploade entiteiten verlopen na 61 dagen. Dit betekent dat uw voederdossier minstens om de 60 dagen moet worden geupload om een verstoring van uw aanbevelingen activiteiten te vermijden. Als een item niet ten minste om de 60 dagen in een feed-bestand (of een andere methode voor het bijwerken van entiteiten) wordt opgenomen, leidt [!DNL Target] tot de conclusie dat het item niet langer relevant is en wordt het uit de catalogus verwijderd.
 
 ### Indicatoren voor de voederstatus {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
-De volgende indicatoren voor de voederstatus worden weergegeven in de [!UICONTROL Status] kolom:
+De volgende statusindicatoren voor de feed worden weergegeven in de kolom [!UICONTROL Status] :
 
 | Status-indicator | Beschrijving |
 |--- |--- |
@@ -347,7 +340,7 @@ De status moet geel zijn omdat de index ongeveer een dag en een uur geleden had 
 
 De volgende video&#39;s bevatten meer informatie over de concepten die in dit artikel worden besproken.
 
-### feeds begrijpen in Recommendations (3:01) ![Overzicht badge](/help/main/assets/overview.png)
+### Het begrip van voer in Recommendations (3:01) ![ badge van het Overzicht ](/help/main/assets/overview.png)
 
 Deze video bevat de volgende informatie:
 
@@ -356,7 +349,7 @@ Deze video bevat de volgende informatie:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Een feed maken (6:44) ![Zelfstudie-badge](/help/main/assets/tutorial.png)
+### Creeer een voer (6:44) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
 
 Deze video bevat de volgende informatie:
 

@@ -1,36 +1,36 @@
 ---
 keywords: cataloguszoekopdracht;catalogus;zoeken;uitsluiten;verzameling;filter;aanbevelingen
-description: Leer hoe u de [!DNL Recommendations] [!UICONTROL Catalog Search] als u producten of inhoud wilt zoeken, verwijdert u onder andere items uit de catalogus.
-title: Hoe gebruik ik de [!DNL Recommendations] [!UICONTROL Catalog Search]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
+description: Leer hoe te om  [!DNL Recommendations] [!UICONTROL Catalog Search] te gebruiken om van producten of inhoud de plaats te bepalen, punten uit uw catalogus te verwijderen, en meer.
+title: Hoe gebruik ik  [!DNL Recommendations] [!UICONTROL Catalog Search]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 6b0175b1-0eee-498d-8a08-513cf6695114
-source-git-commit: 16a7c11e8b9b1a08b1e467519f997d0b05e47529
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Catalog Search]
 
-De [!UICONTROL Catalog Search] pagina in [!DNL Adobe Recommendations] helpt u de producten of inhoud in uw catalogus te vinden. De eenvoudigste taak die u op deze pagina kunt uitvoeren, is het zoeken naar een item. Bovendien kunt u de omgeving wijzigen, facetten filteren, kolommen in de tabel wijzigen, nieuwe zoekfacetten toevoegen en nog veel meer.
+Met de pagina [!UICONTROL Catalog Search] in [!DNL Adobe Recommendations] kunt u de producten of inhoud in uw catalogus vinden. De eenvoudigste taak die u op deze pagina kunt uitvoeren, is het zoeken naar een item. Bovendien kunt u de omgeving wijzigen, facetten filteren, kolommen in de tabel wijzigen, nieuwe zoekfacetten toevoegen en nog veel meer.
 
 De catalogi verwijzen naar uw volledige productreeks (entiteiten). Uw catalogus kan vele inzamelingen bevatten, een manier om uw producten in logische emmers te organiseren.
 
 ## Toegang [!UICONTROL Catalog Search]
 
-Als u toegang wilt krijgen tot [!UICONTROL Catalog Search] pagina, klikt u **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
+1. Klik op **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]** om de pagina [!UICONTROL Catalog Search] te openen.
 
-![Pagina Zoeken in catalogus](/help/main/c-recommendations/c-products/assets/catalog-search-new.png)
+1. (Facultatief) om filters op uw onderzoek toe te passen, klik het **[!UICONTROL Show Filters]** pictogram ( ![ toon het pictogram van Filters ](/help/main/assets/icons/Filter.svg)). U kunt filteren op [!UICONTROL Environment] , [!UICONTROL Collections] , [!UICONTROL Category] , [!UICONTROL Brand] , [!UICONTROL Inventory] en [!UICONTROL Value] .
 
 ## Een eenvoudige zoekopdracht uitvoeren
 
-1. Typ een zoekterm in het dialoogvenster **[!UICONTROL Search In]** veld.
+1. Typ een zoekterm in het veld **[!UICONTROL Search In]** .
 
-1. (Optioneel) U kunt uw zoekopdracht verfijnen door een zoekoptie te selecteren in het optiemenu dat wordt weergegeven wanneer u op de pijl omlaag klikt in het dialoogvenster [!UICONTROL Search In] veld.
+1. (Optioneel) U kunt uw zoekopdracht verfijnen door een zoekoptie te selecteren in het optiemenu dat wordt weergegeven wanneer u op de pijl omlaag klikt in het veld [!UICONTROL Search In] .
 
    Zoekopties zijn onder andere:
 
@@ -44,9 +44,7 @@ Als u toegang wilt krijgen tot [!UICONTROL Catalog Search] pagina, klikt u **[!U
    >
    > Wanneer u een cataloguszoekopdracht uitvoert op een aangepast kenmerk met een numerieke waarde, wordt het aangepaste kenmerk in de resultaten behandeld als een tekenreeks in plaats van een numerieke waarde.
    >
-   >Er is momenteel geen functionaliteit beschikbaar waarmee u het type van een kenmerk kunt wijzigen. Als u een wijziging wilt aanbrengen, [een klantenprobleem openen](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) het verwijzen naar de kenmerken waarvoor het type moet worden gewijzigd van tekenreeks in numeriek.
-
-   U kunt filters ook gebruiken om de gewenste producten te vinden. Als u bijvoorbeeld op de knop **[!UICONTROL Show Filters]** icon ( ![Pictogram Filters tonen](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ), de [!UICONTROL Collections] facet, selecteert u vervolgens een of meer verzamelingen, alle producten die tot de geselecteerde verzamelingen in de catalogusweergave behoren.
+   >Er is momenteel geen functionaliteit beschikbaar waarmee u het type van een kenmerk kunt wijzigen. Om een verandering aan te brengen, [ open een klantenkwestie ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) van verwijzingen voorzien van de attributen die het type vereisen dat van koord in numeriek wordt veranderd.
 
 <!-- ### Perform an advanced search {#advanced-search}
 
@@ -88,7 +86,7 @@ Alle informatie over dat item wordt verwijderd uit de catalogusindex. Het item w
 
 ## De catalogus vernieuwen
 
-De index van de catalogus wordt automatisch gemaakt wanneer u de eerste feed uploadt en wordt vernieuwd op basis van de [gespecificeerd schema](/help/main/c-recommendations/c-products/feeds.md#steps).
+De index van uw catalogus wordt automatisch gecreeerd wanneer u uw eerste voer uploadt, en volgens het [ gespecificeerde programma ](/help/main/c-recommendations/c-products/feeds.md#steps) verfrist.
 
 De catalogus wordt automatisch vernieuwd wanneer updates worden ontvangen via feed-bestanden, API- of mbox-updates. Updates worden meestal binnen een uur voltooid. Als er updates worden uitgevoerd, wordt de tijd weergegeven waarop de meest recente update is gestart. Als er geen updates worden uitgevoerd, wordt de tijd weergegeven waarop de meest recente update is gestart en voltooid.
 
@@ -108,11 +106,11 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 ## De omgeving wijzigen
 
-[Omgevingen](/help/main/administrating-target/environments.md) kunt u uw sites en pre-productieomgevingen ordenen voor eenvoudig beheer en gescheiden rapportering.
+[ Milieu&#39;s ](/help/main/administrating-target/environments.md) laten u uw plaatsen en pre-productiemilieu&#39;s voor gemakkelijk beheer en gescheiden rapportering organiseren.
 
-1. Klik op het pictogram Filters tonen ( ![Pictogram Filters tonen](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ).
+1. Klik het pictogram van Filters van de Show ( ![ toon het pictogram van Filters ](/help/main/assets/icons/Filter.svg)).
 
-1. Selecteer de gewenste omgeving in het menu **[!UICONTROL Environment]** vervolgkeuzelijst.
+1. Selecteer de gewenste omgeving in de vervolgkeuzelijst **[!UICONTROL Environment]** .
 
 <!-- ## Modify the Catalog Search page (filters and columns)
 
@@ -134,10 +132,10 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## Kolommen wijzigen
 
-U kunt de actieve kolommen tijdelijk wijzigen in het dialoogvenster [!UICONTROL Catalog Search] pagina.
+U kunt de actieve kolommen op de [!UICONTROL Catalog Search] pagina wijzigen.
 
-1. Klik op de knop **[!UICONTROL Customize Table]** icon (  ![Pictogram Tabel aanpassen](/help/main/c-recommendations/c-products/assets/icon-customize-table.png) ).
+1. Klik het **[!UICONTROL Customize Table]** pictogram ( ![ pas het pictogram van de Lijst ](/help/main/assets/icons/ColumnSetting.svg) aan).
 
 1. Schakel de kolommen in of uit die u wilt weergeven of verbergen.
 
-Wijzigingen die u aanbrengt, gelden alleen voor de huidige sessie.
+Wijzigingen die u aanbrengt, blijven tijdens de verschillende sessies behouden.

@@ -2,13 +2,13 @@
 keywords: aanbevelingen maken;aanbevelingen, activiteit;nieuwe aanbevelingen;aanbevelingen, overzicht
 description: Leer hoe te om  [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) te gebruiken om a  [!DNL Recommendations]  activiteit tot stand te brengen.
 title: Hoe creeer ik a [!DNL Recommendations]  Activiteit?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 77fc3215f20b0d5f6407fc07889748b5734ca9ea
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,15 @@ Gebruik [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) om een [!DNL
 
 1. Selecteer **[!UICONTROL Visual]**, indien nodig.
 
-   ![ creeer de dialoogdoos van de Activiteit van Recommendations ](/help/main/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
-
-   Selecteer [!UICONTROL Form] als u liever de Form-Based Experience Composer wilt gebruiken. Zie [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) voor meer informatie.
+   Selecteer [!UICONTROL Form] als u de [!UICONTROL Form-Based Experience Composer] -toets liever wilt gebruiken. Zie [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) voor meer informatie.
 
    >[!NOTE]
    >
    >Naast de VEC en [!UICONTROL Form-Based Experience Composer] biedt [!DNL Target] ook de VEC. [!UICONTROL Single Page Application] Voor meer informatie over de diverse composers, zie [ Ervaringen en Aanbiedingen ](/help/main/c-experiences/experiences.md).
    >
    >Voor het oplossen van problemeninformatie over VEC, als u problemen hebt, zie [ het Oplossen van problemen de Visuele Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
-   >
-   >De [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) optie in de voorafgaande illustratie is a [ eigenschap van de Premie van het Doel ](/help/main/c-intro/intro.md). Uw organisatie heeft een [!UICONTROL Target Standard] -licentie als deze optie niet wordt weergegeven.
 
-1. (Voorwaardelijk) als u de klant van de Premium van het a [ Doel ](/help/main/c-intro/intro.md#premium) bent, kies a [ werkruimte ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Voorwaardelijk) kies a [ werkruimte ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. Geef een activiteit-URL op en klik op **[!UICONTROL Create]** .
 

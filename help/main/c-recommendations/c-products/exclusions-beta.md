@@ -1,22 +1,23 @@
 ---
 keywords: uitsluitingen
-description: Leer hoe u uitsluitingen kunt maken in [!DNL Target Recommendations] om te voorkomen dat producten of inhoud aan bezoekers worden aanbevolen.
-title: Hoe gebruik ik uitsluitingen in [!UICONTROL Recommendations] Activiteiten?
+description: Leer hoe te om uitsluitingen in  [!DNL Target Recommendations]  tot stand te brengen om producten of inhoud te verhinderen aan bezoekers worden geadviseerd.
+title: Hoe gebruik ik uitsluitingen in [!UICONTROL Recommendations] -activiteiten?
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 31cf23a52c331eabad0e5f6423eeeca84df87625
+exl-id: fb3c63b4-08be-4dac-b5a1-c6c1ecd4c4b3
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
 
 # Uitsluitingen
 
-Een uitsluiting maken in [!DNL Adobe Target Recommendations] om te voorkomen dat producten of inhoud aan bezoekers worden aanbevolen. Een uitsluiting is een subset van producten of inhoud die niet aan bezoekers mag worden aanbevolen.
+Maak een uitsluiting in [!DNL Adobe Target Recommendations] om te voorkomen dat producten of inhoud aan bezoekers worden aanbevolen. Een uitsluiting is een subset van producten of inhoud die niet aan bezoekers mag worden aanbevolen.
 
-De uitsluitingen zijn beschikbaar over de volledige rekening. In tegenstelling tot verzamelingen, waarin u een specifieke verzameling opgeeft voor elke ervaring terwijl u een [!UICONTROL Recommendations] activiteiten, zijn uitsluitingen van toepassing op alle activiteiten over de gehele rekening. Er is geen optie om een uitsluitingsgroep toe te wijzen tijdens het maken van activiteiten.
+De uitsluitingen zijn beschikbaar over de volledige rekening. In tegenstelling tot verzamelingen waarin u voor elke ervaring een specifieke verzameling opgeeft terwijl u een [!UICONTROL Recommendations] -activiteit maakt, zijn uitsluitingen van toepassing op alle activiteiten in de account. Er is geen optie om een uitsluitingsgroep toe te wijzen tijdens het maken van activiteiten.
 
 Enkele voorbeelden van de tijden u uitsluitingen zou gebruiken omvatten:
 
@@ -28,31 +29,25 @@ Enkele voorbeelden van de tijden u uitsluitingen zou gebruiken omvatten:
 
 >[!IMPORTANT]
 >
->Uitsluitingsregels worden globaal toegepast op alle [omgevingen](/help/main/administrating-target/environments.md).
+>De regels van de uitsluiting worden globaal toegepast op alle [ milieu&#39;s ](/help/main/administrating-target/environments.md).
 >
->Statische en dynamische uitsluitingsregels zijn krachtige functies die u kunnen helpen bij uw marketinginspanningen. Voor gedetailleerde informatie, voorbeelden, en gebruiksscenario&#39;s, zie [Dynamische en statische insluitingsregels gebruiken](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
+>Statische en dynamische uitsluitingsregels zijn krachtige functies die u kunnen helpen bij uw marketinginspanningen. Voor gedetailleerde informatie, voorbeelden, en gebruik-case scenario&#39;s, zie [ Dynamische en Statische Regels van de Opname van het Gebruik ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
 ## Een uitsluiting maken
 
-1. Klikken **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** de lijst van bestaande uitsluitingen weer te geven.
+1. Klik op **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** om de lijst met bestaande uitsluitingen weer te geven.
 
-   ![exclusies_list-afbeelding](assets/exclusions-list.png)
+   Het &quot;Aantal Punten&quot;voor elke uitsluiting op de [!UICONTROL Exclusions] lijstmening wordt gemeld is het aantal producten die de regels voor die uitsluiting aanpassen binnen de gevormde standaardRecommendations [ gastheergroep ](/help/main/administrating-target/hosts.md) (milieu). Zie [ Plan en voer  [!DNL Recommendations] uit ](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations) {target=_blank} in de *Gids van de Ontwikkelaar van Adobe Target* voor informatie over uit hoe te om de standaardgastheergroep te veranderen.
 
-   Het gerapporteerde &quot;Aantal posten&quot; voor elke uitsluiting op de [!UICONTROL Exclusions] lijstmening is het aantal producten die de regels voor die uitsluiting binnen de gevormde standaardRecommendations aanpassen [hostgroep](/help/main/administrating-target/hosts.md) (milieu). Zie [Plan en implementeer [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} in de *Adobe Target Developer Guide* voor informatie over hoe te om de standaardgastheergroep te veranderen.
-
-1. (Voorwaardelijk) Klik op de knop [!UICONTROL Filter] pictogram, kies dan het gewenste [milieu](/help/main/administrating-target/environments.md) van de **[!UICONTROL Environment]** vervolgkeuzelijst tijdens het maken (of bijwerken) van een uitsluiting om de inhoud van de uitsluiting in die omgeving voor te vertonen. Standaard worden de resultaten van de standaardhostgroep weergegeven.
-
-   ![Uitsluiting maken](/help/main/c-recommendations/c-products/assets/choose-environment.png)
+1. (Voorwaardelijk) klik het **[!UICONTROL Show Filters]** pictogram ( ![ toon het pictogram van Filters ](/help/main/assets/icons/Filter.svg)), dan kies het gewenste [ milieu ](/help/main/administrating-target/environments.md) van de **[!UICONTROL Environment]** drop-down lijst terwijl het creëren van (of het bijwerken) een uitsluiting om de inhoud van de uitsluiting in dat milieu voor te vertonen. Standaard worden de resultaten van de standaardhostgroep weergegeven.
 
 1. Klik op **[!UICONTROL Create Exclusion]**.
 
-   ![Dialoogvenster Uitsluiting maken](/help/main/c-recommendations/c-products/assets/create-exclusion.png)
-
-1. Een uitsluiting typen **[!UICONTROL Name]** en voert u een optionele beschrijving in.
+1. Typ een uitsluiting **[!UICONTROL Name]** en voer een optionele beschrijving in.
 
 1. Gebruik de regelbouwer om uw uitsluitingen te maken.
 
-   Selecteer een parameter in de lijst Regels, selecteer een operator en voer een of meer waarden in om de producten te identificeren. Scheid meerdere waarden met komma&#39;s.
+   Selecteer een parameter in de lijst [!UICONTROL Rules] , selecteer een operator en voer een of meer waarden in om de producten te identificeren. Scheid meerdere waarden met komma&#39;s.
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -70,15 +65,13 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## Een uitsluiting bewerken, kopiëren of verwijderen
 
-Klik op de knop **weglatingsteken** klikt u op het betreffende pictogram naast de gewenste uitsluiting in de lijst: bewerken, kopiëren of verwijderen.
-
-![Opties: bewerken, kopiëren en verwijderen](/help/main/c-recommendations/c-products/assets/edit-copy-delete.png)
+Klik het Meer pictogram van Acties ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallList.svg)) naast de gewenste uitsluiting in de lijst, dan klik het aangewezen pictogram: [!UICONTROL Edit], [!UICONTROL Copy], of [!UICONTROL Delete].
 
 U kunt een bestaande uitsluiting kopiëren om een dubbele uitsluiting te maken die u vervolgens kunt wijzigen. Met deze optie kunt u een vergelijkbare uitsluiting maken met minder moeite.
 
 Houd er rekening mee dat uitsluitingen beschikbaar zijn voor de gehele account. Zorg ervoor dat u rekening houdt met dit voorbehoud voordat u een uitsluiting verwijdert. Verwijderde uitsluitingen kunnen niet worden hersteld.
 
-## Trainingsvideo: Verzamelingen en uitsluitingen maken in Recommendations (7:05) ![Zelfstudie-badge](/help/main/assets/tutorial.png)
+## De video van de opleiding: Creeer inzamelingen en uitsluitingen in Recommendations (7:05) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
 
 Deze video bevat de volgende informatie:
 

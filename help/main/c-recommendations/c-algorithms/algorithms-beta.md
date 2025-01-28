@@ -2,13 +2,14 @@
 keywords: aanbevelingen;aanbevelingen activiteit;criteria;algoritme;aanbeveling sleutel;douane sleutel;industrie verticaal;kleinhandel;handel;lood generatie;b2b;financiële diensten;media;het publiceren
 description: Leer hoe te om criteria in Adobe  [!DNL Target] [!DNL Recommendations] te gebruiken.
 title: Hoe gebruik ik Criteria in  [!DNL Target]  Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 9c6ff35269a81aa0c2ea331985c6f5ddd5c8ccb3
+exl-id: 7809984d-259d-4b99-93cd-3073e2fcf8bb
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -34,8 +35,6 @@ Andere criteria worden gewijzigd op basis van de verticale industriestandaard di
 ## Type algoritme {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 Het algoritmetype dat u selecteert, bepaalt de beschikbare algoritmen.
-
-![ pagina van Criteria ](assets/criteria-page-new.png)
 
 In de volgende tabel worden de verschillende algoritmische typen en de bijbehorende algoritmen beschreven.
 
@@ -75,11 +74,9 @@ Stel dat u aanbevolen films wilt weergeven op basis van de film die een gebruike
 
 U kunt de details van de criteria weergeven door op de gewenste criteria in de kolom [!UICONTROL Name] te klikken.
 
-![ Kaart van Criteria hover ](/help/main/c-recommendations/c-algorithms/assets/criteria-hover.png)
+In de secties **[!UICONTROL Attributes]** en Details kunt u algemene informatie weergeven over de geselecteerde criteria, zoals [!UICONTROL Name] , [!UICONTROL Description] , [!UICONTROL Industry Vertical] , [!UICONTROL Page Types] , [!UICONTROL Recommendation Key] , [!UICONTROL Recommendation Logic] , [!UICONTROL Algorithm ID] en Laatst gewijzigd (datum en persoon die het algoritme heeft gewijzigd).
 
-Op het tabblad **[!UICONTROL Algorithm Info]** kunt u algemene informatie weergeven over de geselecteerde criteria, zoals de gegevens [!UICONTROL Name] , [!UICONTROL Description] , [!UICONTROL Industry Vertical] , [!UICONTROL Page Types] , [!UICONTROL Recommendation Key] , [!UICONTROL Recommendation Logic] , [!UICONTROL Algorithm ID] en Laatst gewijzigd (datum en die het algoritme hebben gewijzigd).
-
-In de sectie **[!UICONTROL Algorithm Usage]** kunt u een lijst weergeven met activiteiten die naar de geselecteerde criteria verwijzen.
+In de sectie **[!UICONTROL Usage]** kunt u een lijst weergeven met activiteiten die naar de geselecteerde criteria verwijzen.
 
 >[!NOTE]
 >

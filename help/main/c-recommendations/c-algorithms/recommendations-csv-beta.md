@@ -2,13 +2,14 @@
 keywords: maken, aangepaste criteria;algoritmen;criteria;aanbevelingen, criteria;csv;ftp;upload csv
 description: Leer hoe te om een Csv- dossier te uploaden om uw aanbevelingen in Adobe  [!DNL Target]  Recommendations aan te passen.
 title: Hoe upload ik de Criteria van de Douane in  [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 77bbdd4438aa17f2e8d96e00bd3d37806a474585
+exl-id: ce974152-c83e-46cb-b1cd-c5e2d10c5436
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '606'
 ht-degree: 1%
 
 ---
@@ -45,15 +46,13 @@ In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create New Cr
 
 1. Selecteer in de sectie **[!UICONTROL Upload CSV]** de **[!UICONTROL Location]** van het CSV-bestand.
 
-   <!--The CSV file must be formatted correctly to upload successfully. Click **[!UICONTROL Download the CSV template]** to get a correctly formatted CSV file.-->
+Het CSV-bestand moet correct zijn opgemaakt om te kunnen worden geüpload. Klik op **[!UICONTROL Download the CSV template]** om een CSV-bestand met de juiste indeling te verkrijgen.
 
-   U hebt twee locatieopties:
+U hebt twee locatieopties:
 
-   * **FTP:** om uw Csv- dossier van een server van FTP te uploaden, selecteer **[!UICONTROL FTP]**, dan ga de vereiste informatie in. U kunt SSL gebruiken, dat het protocol van FTPS gebruikt om uw Csv- dossier veilig over te brengen.
-
-     ![ optie van FTP om Csv- dossier ](/help/main/c-recommendations/c-algorithms/assets/ftp.png) te uploaden
-
-   * **URL:** om uw Csv- dossier van een URL te uploaden, selecteer **[!UICONTROL URL]**, dan ga een voer URL in.
+    * **FTP:** Als u uw CSV-bestand vanaf een FTP-server wilt uploaden, selecteert u **[!UICONTROL FTP]** en voert u vervolgens de vereiste gegevens in. U kunt SSL gebruiken, dat het protocol van FTPS gebruikt om uw Csv- dossier veilig over te brengen.
+    
+    * **URL:** Als u uw CSV-bestand via een URL wilt uploaden, selecteert u **[!UICONTROL URL]** en voert u vervolgens een invoer-URL in.
 
 1. Klik op **[!UICONTROL Create]**.
 

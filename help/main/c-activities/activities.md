@@ -4,9 +4,9 @@ description: Personaliseer inhoud en test paginaontwerpen voor specifiek publiek
 title: Hoe kan ik inhoud en de Ontwerpen van de Pagina van de Test aanpassen met  [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2218'
 ht-degree: 0%
 
 ---
@@ -25,15 +25,12 @@ De lijst [!UICONTROL Activities] is de standaardweergave wanneer u [!DNL Target]
 
 U kunt de lijst [!UICONTROL Activities] ook weergeven door op de tab [!UICONTROL Activities] boven aan de gebruikersinterface van [!DNL Target] te klikken.
 
-![ lijst van Activiteiten ](/help/main/c-activities/assets/activities-list-new.png)
-
 De lijst [!UICONTROL Activities] biedt een overzicht van alle activiteiten in uw [!DNL Target] -implementatie en biedt u de mogelijkheid verschillende handelingen uit te voeren.
 
 In de volgende tabel vindt u informatie over verschillende elementen in de lijst [!UICONTROL Activities] in de gebruikersinterface van [!DNL Target] :
 
 | Element | Beschrijving |
 |--- |--- |
-| Linkernavigatieregel | Schakelaar tussen uw bewaarde of levende activiteiten en ontbroken of [ ontwerpactiviteiten ](/help/main/c-activities/edit-activity.md). |
 | [!UICONTROL Show filters] pictogram<P>![ toon Filters pictogram ](/help/main/assets/icons/Filter.svg) | U kunt filters openen door op het pictogram **[!UICONTROL Show Filters]** boven aan de lijst te klikken om activiteiten van [!UICONTROL Type] , [!UICONTROL Status] , [!UICONTROL Reporting Source] , [!UICONTROL Experience Composer] , [!UICONTROL Metrics Type] , [!UICONTROL Decisioning Source] , [!UICONTROL Activity Source] en [!UICONTROL Properties] te filteren.<P>Voor meer informatie, zie [ filters op de [!UICONTROL Activities] lijst ](#filters) hieronder toepassen. |
 | Zoeken in velden | Zoek snel een activiteit of verminder het aantal activiteiten dat in de [!UICONTROL Activity] lijst wordt getoond. U kunt zoeken op [!UICONTROL Activity Name] , [!UICONTROL URL] of [!UICONTROL ID] met behulp van de vervolgkeuzelijst. |
 | [!UICONTROL Create Activity] | Maak een activiteit.<P>Zie voor meer informatie over het maken van de verschillende typen activiteiten: <ul><li>[ creeer een [!UICONTROL A/B Test] activiteit ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)</li><li>[ creeer een [!UICONTROL Auto-Allocate] activiteit ](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)</li><li>[ creeer een [!UICONTROL Auto-Target] activiteit ](/help/main/c-activities/auto-target/create-auto-target.md)</li><li>[ creeer een [!UICONTROL Automated Personalization] activiteit ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)</li><li>[ creeer een [!UICONTROL Experience Targeting] activiteit ](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)</li><li>[ creeer een activiteit ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)</li><li>[ creeer a [!UICONTROL Recommendations] activiteit ](/help/main/c-recommendations/recommendations.md)</li></ul>Voor meer informatie over elk type, zie [ types van Activiteit ](#types) hieronder. |

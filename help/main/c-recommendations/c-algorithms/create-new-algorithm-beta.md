@@ -2,11 +2,12 @@
 keywords: criteria;algoritme;industrie verticaal;paginatype;aanbeveling sleutel;logica;gegevenswaaier;gegevenswaaier;lookback venster;gedraggegevensbron;gedeeltelijk ontwerp;steun aanbevelingen;opnameregels;opnameregels;attribuut weging;huidige categorie;laatst gekocht punt;laatst bekeken punt;het meest bekeken punt;meest bekeken punt;favoriete categorie;populariteit;onlangs bekeken punt;laatst bekeken punt;laatst bekeken punt;laatst bekeken;meest bekeken;favoriet;onlangs bekeken
 description: Leer hoe te om criteria tot stand te brengen die de inhoud van uw  [!DNL Recommendations]  activiteiten controleren om de aanbevelingen te tonen die voor uw activiteit het meest aangewezen zijn.
 title: Hoe maak ik [!UICONTROL Criteria] in  [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: c8b0e0414603761b1c67b13d74ffa96d745c99e3
+exl-id: 7937e54a-7c10-445d-9d9a-9ddbdaa8086e
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 0%
@@ -89,6 +90,43 @@ De resterende opties van de algoritmeconfiguratie variëren afhankelijk van het 
 
 Voor meer informatie over het kiezen van a [!UICONTROL Recommendation Key], zie [ Baseer de aanbeveling op een aanbeveling sleutel ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
+## [!UICONTROL Backup Content] {#content}
+
+[!UICONTROL Backup Content] de regels bepalen wat gebeurt als het aantal geadviseerde punten uw [ aanbevelingen ontwerp ](/help/main/c-recommendations/c-design-overview/design-overview.md) niet vult. Het is mogelijk dat [!DNL Recommendations] -criteria minder aanbevelingen opleveren dan uw ontwerp vraagt. Als uw ontwerp bijvoorbeeld sleuven voor vier items bevat, maar uw criteria slechts twee items aanbevolen laten, kunt u de resterende sleuven leeg laten, back-upaanbevelingen gebruiken om de extra sleuven te vullen, of u kunt ervoor kiezen geen aanbevelingen weer te geven.
+
+1. (Optioneel) Sleep de schakeloptie **[!UICONTROL Partial Design Rendering]** naar de positie &quot;aan&quot;.
+
+   Er worden zoveel mogelijk sleuven ingevuld, maar in de ontwerpsjabloon kan lege ruimte voor de resterende sleuven zijn opgenomen. Als deze optie is uitgeschakeld en er onvoldoende inhoud is om alle beschikbare sleuven te vullen, worden geen aanbevelingen gedaan en wordt in plaats daarvan standaardinhoud weergegeven.
+
+   Schakel deze optie in als u wilt dat aanbevelingen worden gedaan met lege sleuven. Gebruik back-upaanbevelingen als u wilt dat de aanbevolen sleuven worden gevuld met inhoud op basis van uw criteria met lege sleuven die zijn gevuld met vergelijkbare of populaire inhoud van uw site, zoals in de volgende stap wordt uitgelegd.
+
+1. (Optioneel) Sleep de schakeloptie **[!UICONTROL Show Backup Content]** naar de positie &quot;aan&quot;.
+
+   Vul eventueel resterende lege sleuven in het ontwerp met een willekeurige selectie van de meest bekeken producten van de hele site.
+
+   Het gebruik van aanbevelingen voor back-ups zorgt ervoor dat het ontwerp van uw aanbeveling alle beschikbare sleuven vult. Stel dat u een ontwerp van 4 x 1 hebt, zoals hieronder wordt geïllustreerd:
+
+   ![ 4 x 1 ontwerp ](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
+
+   Op basis van uw criteria worden slechts twee objecten aanbevolen. Als u de optie [!UICONTROL Partial Design Rendering] inschakelt, worden de eerste twee sleuven gevuld, maar blijven de resterende twee sleuven leeg. Als u echter de optie [!UICONTROL Show Backup Recommendations] inschakelt, worden de eerste twee sleuven gevuld op basis van de opgegeven criteria en worden de resterende twee sleuven gevuld op basis van uw aanbevelingen voor back-ups.
+
+   De volgende matrix toont het resultaat dat u zult waarnemen wanneer u de opties [!UICONTROL Partial Design Rendering] en [!UICONTROL Backup Content] gebruikt:
+
+   | Gedeeltelijke rendering van ontwerp | Back-upinhoud | Resultaat |
+   |--- |--- |--- |
+   | Uitgeschakeld | Uitgeschakeld | Als er minder aanbevelingen worden geretourneerd dan door het ontwerp wordt gevraagd, wordt het ontwerp van de aanbevelingen vervangen door de standaardinhoud en worden er geen aanbevelingen weergegeven. |
+   | Ingeschakeld | Uitgeschakeld | Het ontwerp wordt teruggegeven, maar kan lege ruimte omvatten als minder aanbevelingen zijn teruggekeerd dan het ontwerp verzoekt. |
+   | Ingeschakeld | Ingeschakeld | Back-upaanbevelingen vullen de beschikbare &quot;sleuven&quot; van het ontwerp volledig in, waardoor het ontwerp volledig wordt gerenderd.<br> als het toepassen van inclusieregels op reserveaanbevelingen het aantal kwalificerende reserveaanbevelingen tot het punt beperkt dat het ontwerp niet kan worden gevuld, wordt het ontwerp gedeeltelijk teruggegeven.<br> als de criteria geen aanbevelingen terugkeren, en de integratieregels reserveaanbevelingen tot nul beperken, wordt het ontwerp vervangen met standaardinhoud. |
+   | Uitgeschakeld | Ingeschakeld | Back-upaanbevelingen vullen de beschikbare &quot;sleuven&quot; van het ontwerp volledig in, waardoor het ontwerp volledig wordt gerenderd.<br> als het toepassen van inclusieregels op reserveaanbevelingen het aantal kwalificerende reserveaanbevelingen tot het punt beperkt dat het ontwerp niet kan worden gevuld, wordt het ontwerp vervangen door standaardinhoud en geen aanbevelingen worden getoond. |
+
+   Voor meer informatie, zie [ Gebruik een reserveaanbeveling ](/help/main/c-recommendations/c-algorithms/backup-recs.md).
+
+1. (Voorwaardelijk) Als u **[!UICONTROL Show Backup Content]** in de vorige stap hebt geselecteerd, kunt u **[!UICONTROL Apply inclusion rules to backup recommendations]** inschakelen.
+
+   In de insluitingsregels wordt bepaald welke items in uw aanbevelingen worden opgenomen. Welke opties beschikbaar zijn, is afhankelijk van de verticale situatie in uw branche.
+
+   Voor meer details, zie [ Specificeer inbegrepen regels ](#inclusion) hieronder.
+
 ## [!UICONTROL Data Source] {#data-source}
 
 1. Selecteer het gewenste **[!UICONTROL Behavioral Data Source]**: [!UICONTROL Adobe Target] of [!UICONTROL Analytics] .
@@ -128,43 +166,6 @@ Voor meer informatie over het kiezen van a [!UICONTROL Recommendation Key], zie 
    | Twee weken | Algorithm wordt elke 24-48 uur uitgevoerd | <ul><li>[!UICONTROL Popularity-Based] algoritmen</li><li>[!UICONTROL Item-Based] algoritmen</li><li>Alle [!UICONTROL User-Based] algoritmen</li><li>[!UICONTROL Cart-Based] algoritmen</li></ul> |
    | Eén maand (30 dagen) | Algorithm wordt elke 24-48 uur uitgevoerd | <ul><li>[!UICONTROL Popularity-Based] algoritmen</li><li>[!UICONTROL Item-Based] algoritmen</li><li>[!UICONTROL User-Based] algoritmen</li><li>[!UICONTROL Cart-Based] algoritmen</li></ul> |
    | Twee maanden (61 dagen) | Algorithm wordt elke 24-48 uur uitgevoerd | <ul><li>[!UICONTROL Popularity-Based] algoritmen</li><li>[!UICONTROL Item-Based] algoritmen</li><li>[!UICONTROL User-Based] algoritmen</li><li>[!UICONTROL Cart-Based] algoritmen</li></ul> |
-
-## [!UICONTROL Backup Content] {#content}
-
-[!UICONTROL Backup Content] de regels bepalen wat gebeurt als het aantal geadviseerde punten uw [ aanbevelingen ontwerp ](/help/main/c-recommendations/c-design-overview/design-overview.md) niet vult. Het is mogelijk dat [!DNL Recommendations] -criteria minder aanbevelingen opleveren dan uw ontwerp vraagt. Als uw ontwerp bijvoorbeeld sleuven voor vier items bevat, maar uw criteria slechts twee items aanbevolen laten, kunt u de resterende sleuven leeg laten, back-upaanbevelingen gebruiken om de extra sleuven te vullen, of u kunt ervoor kiezen geen aanbevelingen weer te geven.
-
-1. (Optioneel) Sleep de schakeloptie **[!UICONTROL Partial Design Rendering]** naar de positie &quot;aan&quot;.
-
-   Er worden zoveel mogelijk sleuven ingevuld, maar in de ontwerpsjabloon kan lege ruimte voor de resterende sleuven zijn opgenomen. Als deze optie is uitgeschakeld en er onvoldoende inhoud is om alle beschikbare sleuven te vullen, worden geen aanbevelingen gedaan en wordt in plaats daarvan standaardinhoud weergegeven.
-
-   Schakel deze optie in als u wilt dat aanbevelingen worden gedaan met lege sleuven. Gebruik back-upaanbevelingen als u wilt dat de aanbevolen sleuven worden gevuld met inhoud op basis van uw criteria met lege sleuven die zijn gevuld met vergelijkbare of populaire inhoud van uw site, zoals in de volgende stap wordt uitgelegd.
-
-1. (Optioneel) Sleep de schakeloptie **[!UICONTROL Show Backup Content]** naar de positie &quot;aan&quot;.
-
-   Vul eventueel resterende lege sleuven in het ontwerp met een willekeurige selectie van de meest bekeken producten van de hele site.
-
-   Het gebruik van aanbevelingen voor back-ups zorgt ervoor dat het ontwerp van uw aanbeveling alle beschikbare sleuven vult. Stel dat u een ontwerp van 4 x 1 hebt, zoals hieronder wordt geïllustreerd:
-
-   ![ 4 x 1 ontwerp ](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
-
-   Op basis van uw criteria worden slechts twee objecten aanbevolen. Als u de optie [!UICONTROL Partial Design Rendering] inschakelt, worden de eerste twee sleuven gevuld, maar blijven de resterende twee sleuven leeg. Als u echter de optie [!UICONTROL Show Backup Recommendations] inschakelt, worden de eerste twee sleuven gevuld op basis van de opgegeven criteria en worden de resterende twee sleuven gevuld op basis van uw aanbevelingen voor back-ups.
-
-   De volgende matrix toont het resultaat dat u zult waarnemen wanneer u de opties [!UICONTROL Partial Design Rendering] en [!UICONTROL Backup Content] gebruikt:
-
-   | Gedeeltelijke rendering van ontwerp | Back-upinhoud | Resultaat |
-   |--- |--- |--- |
-   | Uitgeschakeld | Uitgeschakeld | Als er minder aanbevelingen worden geretourneerd dan door het ontwerp wordt gevraagd, wordt het ontwerp van de aanbevelingen vervangen door de standaardinhoud en worden er geen aanbevelingen weergegeven. |
-   | Ingeschakeld | Uitgeschakeld | Het ontwerp wordt teruggegeven, maar kan lege ruimte omvatten als minder aanbevelingen zijn teruggekeerd dan het ontwerp verzoekt. |
-   | Ingeschakeld | Ingeschakeld | Back-upaanbevelingen vullen de beschikbare &quot;sleuven&quot; van het ontwerp volledig in, waardoor het ontwerp volledig wordt gerenderd.<br> als het toepassen van inclusieregels op reserveaanbevelingen het aantal kwalificerende reserveaanbevelingen tot het punt beperkt dat het ontwerp niet kan worden gevuld, wordt het ontwerp gedeeltelijk teruggegeven.<br> als de criteria geen aanbevelingen terugkeren, en de integratieregels reserveaanbevelingen tot nul beperken, wordt het ontwerp vervangen met standaardinhoud. |
-   | Uitgeschakeld | Ingeschakeld | Back-upaanbevelingen vullen de beschikbare &quot;sleuven&quot; van het ontwerp volledig in, waardoor het ontwerp volledig wordt gerenderd.<br> als het toepassen van inclusieregels op reserveaanbevelingen het aantal kwalificerende reserveaanbevelingen tot het punt beperkt dat het ontwerp niet kan worden gevuld, wordt het ontwerp vervangen door standaardinhoud en geen aanbevelingen worden getoond. |
-
-   Voor meer informatie, zie [ Gebruik een reserveaanbeveling ](/help/main/c-recommendations/c-algorithms/backup-recs.md).
-
-1. (Voorwaardelijk) Als u **[!UICONTROL Show Backup Content]** in de vorige stap hebt geselecteerd, kunt u **[!UICONTROL Apply inclusion rules to backup recommendations]** inschakelen.
-
-   In de insluitingsregels wordt bepaald welke items in uw aanbevelingen worden opgenomen. Welke opties beschikbaar zijn, is afhankelijk van de verticale situatie in uw branche.
-
-   Voor meer details, zie [ Specificeer inbegrepen regels ](#inclusion) hieronder.
 
 ## Vergelijkbare inhoud {#similarity}
 

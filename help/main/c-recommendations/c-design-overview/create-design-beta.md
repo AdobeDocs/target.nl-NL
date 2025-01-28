@@ -2,13 +2,14 @@
 keywords: aanbevelingen ontwerp;ontwerp maken;ontwerp kopiëren
 description: Leer hoe te om een  [!DNL Target Recommendations]  ontwerp tot stand te brengen gebruikend een standaardontwerp of door een douaneontwerp te creëren om de lay-out van uw pagina het best te passen.
 title: Hoe maak ik een ontwerp in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: d33fa5b84ccffc20d8db638aafcc0601c060dbcb
+exl-id: d97db163-62ef-4c6b-b0f7-e7e481073cc7
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -45,13 +46,11 @@ U kunt een ontwerp tot stand brengen dat op een standaardontwerp wordt gebaseerd
 1. Klik op **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** om de [!UICONTROL Designs] -bibliotheek weer te geven.
 
 
-1. Plaats de muis boven de kaart voor het ontwerp dat u wilt maken en klik vervolgens op het pictogram **[!UICONTROL Copy]** .
-
-   ![ beeld Card_CopyDesign ](/help/main/c-recommendations/c-design-overview/assets/card-copy-design.png)
+1. Klik het Meer pictogram van Acties ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallList.svg)) voor het ontwerp u wilt tot stand brengen, dan klik **[!UICONTROL Copy]**.
 
    Het dialoogvenster [!UICONTROL Create Design] wordt weergegeven.
 
-1. Voeg in het deelvenster **[!UICONTROL Information]** een **[!UICONTROL Content Name]** en een optionele voorvertoning toe die u op de ontwerpkaart wilt weergeven.
+1. Typ een **[!UICONTROL  Name]** en een optionele voorvertoningsafbeelding die op de ontwerpkaart moeten worden weergegeven.
 
    Wanneer u een standaardontwerp gebruikt, worden de ontwerpnaam en de optie Kopiëren weergegeven in het veld **[!UICONTROL Content Name]** . U kunt de naam bewerken. U kunt ook een afbeelding selecteren die u op de ontwerpkaart wilt weergeven.
 
@@ -65,7 +64,7 @@ U kunt een ontwerp tot stand brengen dat op een standaardontwerp wordt gebaseerd
    >
    >Het maximumaantal entiteiten waarnaar in een ontwerp kan worden verwezen, hard-gecodeerd of via lussen, is 99.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Create]**.
 
 ### Een aangepast ontwerp maken
 
@@ -73,21 +72,21 @@ U kunt een ontwerp tot stand brengen dat op een standaardontwerp wordt gebaseerd
 
 1. Klik op **[!UICONTROL Create Design]**.
 
-   Als u het nieuwe aangepaste ontwerp wilt baseren op een bestaand ontwerp, plaatst u de muis boven het gewenste ontwerp en klikt u op het pictogram [!UICONTROL Copy] . U kunt de kopie vervolgens bewerken om een nieuw aangepast ontwerp te maken.
+   Als u uw nieuw douaneontwerp op een bestaand ontwerp wilt baseren, klik het [!UICONTROL More Actions] pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallList.svg) ) voor het ontwerp u wilt creëren, dan klik [!UICONTROL Copy]. U kunt de kopie vervolgens bewerken om een nieuw aangepast ontwerp te maken.
 
-1. Voeg een **[!UICONTROL Content Name]** en een optionele voorvertoningsafbeelding toe.
+1. Voeg een **[!UICONTROL Name]** en een optionele voorvertoningsafbeelding toe.
 
 1. (Voorwaardelijk) Bewerk het ontwerp **[!UICONTROL Code]** naar wens.
 
    Raadpleeg de informatie in stap 4 voor meer informatie.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Create]**.
 
 ## Een ontwerp bewerken, kopiëren of verwijderen
 
 U kunt een standaardontwerp niet bewerken of kopiëren. U kunt alleen standaardontwerpen kopiëren.
 
-Houd de muisaanwijzer boven het gewenste ontwerp in de [!UICONTROL Design] -bibliotheek en klik vervolgens op het juiste pictogram: bewerken, kopiëren of verwijderen.
+Klik het [!UICONTROL More Actions] pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallList.svg)) voor het ontwerp u wilt uitgeven of schrappen, dan het aangewezen pictogram klikken: [!UICONTROL Edit], [!UICONTROL Copy], of [!UICONTROL Delete].
 
 U kunt een bestaand ontwerp kopiëren om een dubbel ontwerp tot stand te brengen dat u dan kunt wijzigen. Met dit proces kunt u een vergelijkbaar ontwerp maken met minder moeite.
 
