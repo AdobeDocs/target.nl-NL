@@ -4,9 +4,9 @@ description: Personaliseer inhoud en test paginaontwerpen voor specifiek publiek
 title: Hoe kan ik inhoud en de Ontwerpen van de Pagina van de Test aanpassen met  [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: 1e23c1170475869e2798e23551d63575031502b4
+source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,10 @@ In de volgende tabel vindt u informatie over verschillende elementen in de lijst
 | [!UICONTROL Property] | Toont het [ bezit ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) voor de activiteit.<P>De gebruikerstoestemmingen van de onderneming zijn a [ Target Premium ](/help/main/c-intro/intro.md#premium) eigenschap. |
 | [!UICONTROL Estimated Lift in Revenue] | Toont de voorspelde toename van inkomsten als 100% van het publiek de winnende ervaring ziet.<P>Berekend met de volgende formule:<P>`(<winning experience> - <control experience>)*<total number of visitors>`<P>Dit getal wordt afgerond tot op één decimaal (maximaal) als het versmalde formulier slechts één cijfer voor het decimaalteken heeft. Bijvoorbeeld: $1,6M, $60K, $900, $8,5K, $205K<P>Deze kolom toont &quot;—&quot; voor activiteiten die niet genoeg gegevens hebben om een winnaar te roepen of geen kostenraming hebben.<P>Zie [ Schatting Lift in Inkomsten ](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) voor meer informatie. |
 | [!UICONTROL Source] | Toont waar de activiteit werd gecreeerd: [!DNL Adobe Target], [ Adobe Target API ](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview), [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform.html), [ Adobe Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html), of [ de Mobiele Diensten van de Adobe ](https://developer.adobe.com/client-sdks/documentation/). |
-| [!UICONTROL Location] | De URL voor de activiteit identificeert waar de activiteit wordt getoond. Deze kolom helpt u snel een activiteit identificeren en bepalen of een bepaalde pagina reeds een activiteit heeft die op het loopt.<P>Als een activiteit op veelvoudige URLs loopt, toont een verbinding hoeveel meer URLs worden gebruikt. Klik op de koppeling om de volledige lijst met URL&#39;s voor die activiteit weer te geven.<P>U kunt zoeken op basis van de URL. Gebruik de vervolgkeuzelijst naast het zoekvak en selecteer [!UICONTROL URL] . |
 | [!UICONTROL Author] | De naam van de persoon die de activiteit heeft gemaakt. |
 | [!UICONTROL Decisioning Method] | De besluitvormingsmethode die in elke activiteit wordt gebruikt: [ server-Kant ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html) of [ cliënt-Kant ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html). |
+
+<!--|[!UICONTROL Location]|The URL for the activity identifies where the activity is displayed. This column helps you quickly identify an activity and determine whether a particular page already has an activity running on it.<P>If an activity runs on multiple URLs, a link shows how many more URLs are used. Click the link to view the complete list of URLs for that activity.<P>You can search based on the URL. Use the drop-down list next to the search box and select [!UICONTROL URL].|-->
 
 ## Typen activiteiten {#types}
 
