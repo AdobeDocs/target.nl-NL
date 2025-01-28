@@ -5,9 +5,9 @@ title: Hoe voeg ik Gebruikers toe en beheer Toestemmingen voor a  [!DNL Target S
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: 8560fa828fac91170fd295c9ef9a9b0e6ce1651c
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ Admin-gebruikers worden geïdentificeerd in de lijst [!UICONTROL Users] . Neem c
 U kunt een lijst van uw huidige gebruikers in [!DNL Target] UI, met inbegrip van hun rollen per werkruimte en e-mailadressen bekijken.
 
 Als u de pagina [!UICONTROL Users] wilt weergeven, klikt u op **[!UICONTROL Administration]** > **[!UICONTROL Users]** .
-
-![ lijst van de Gebruiker van binnen Doel ](/help/main/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
 
 >[!NOTE]
 >
@@ -86,19 +84,11 @@ Systeembeheerders moeten gebruikers aan het systeem toevoegen. Gebruikers worden
 
 1. [ in de Admin Console ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), klik **[!UICONTROL Products]**, dan selecteer de naam van het gewenste product.
 
-   ![ Producten tabel ](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
-
 1. Klik op de gewenste werkruimte (bijvoorbeeld Standaard Workspace).
-
-   ![ Standaard Workspace ](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
    Op het tabblad [!UICONTROL Users] worden alle gebruikers in die werkruimte weergegeven.
 
-   ![ configuratiegebruikers ](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
-
 1. Selecteer de gewenste machtigingenrol ([!UICONTROL Approver], [!UICONTROL Editor], [!UICONTROL Observer] of [!UICONTROL Publisher]) door de vervolgkeuzelijst voor elke gebruiker in de kolom [!UICONTROL Product Role] te gebruiken.
-
-   ![ drop-down lijst van de Rol van het Product ](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | Rol | Beschrijving |
    |--- |--- |

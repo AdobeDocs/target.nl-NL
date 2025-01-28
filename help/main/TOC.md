@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 4805da617962e29794bd3af16138f3887ad250d0
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1485'
 ht-degree: 2%
 
 ---
@@ -47,6 +47,7 @@ ht-degree: 2%
    + [Veelgestelde vragen over optimalisatie en personalisatie](c-intro/cmp-target-standard-cheatsheet.md)
 + Doel beheren {#administer}
    + [Overzicht van Doel beheren](administrating-target/administrating-target.md)
+   + [Doel beheren, bètaversie](administrating-target/administrating-target-beta.md)
    + [Eerste stappen van beheerder](administrating-target/start-target.md)
    + [Vorm Composer van de Visuele Ervaring](/help/main/administrating-target/visual-experience-composer-set-up.md)
    + Rapporteren {#reporting}

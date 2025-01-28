@@ -1,52 +1,50 @@
 ---
 keywords: visuele ervaringscomposer;vec;standaard url;verbeterde ervaringscomposer;eec;gemengde inhoud;beleving momentopnamen;mobiele viewport;css;css kiezers
-description: Leer hoe te om Adobe te vormen [!DNL Target] Visual Experience Composer (VEC) door zijn algemene montages, mobiele viewport configuratie, en CSS selecteurs te specificeren.
+description: Leer hoe te om de Adobe  [!DNL Target]  Visuele Composer van de Ervaring (VEC) te vormen door zijn algemene montages, mobiele viewport configuratie, en CSS selecteurs te specificeren.
 title: Hoe vorm ik de Visuele Composer van de Ervaring (VEC)?
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
 
 # Vorm Composer van de Visuele Ervaring
 
-Configureer de [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) door de algemene instellingen, de configuratie van de mobiele viewport en de CSS-kiezers op te geven.
+Configureer [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) door de algemene instellingen, de configuratie van de mobiele viewport en de CSS-kiezers op te geven.
 
-Om toegang te krijgen tot [!UICONTROL Visual Experience Composer] configuratiepagina, klik **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
+Als u de configuratiepagina van [!UICONTROL Visual Experience Composer] wilt openen, klikt u op **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
 
 >[!NOTE]
 >
->Houd er rekening mee dat de instellingen op deze pagina van toepassing zijn op de gehele [!DNL Target] account.
-
-![Configuratiepagina Visual Experience Composer](/help/main/administrating-target/assets/vec.png)
+>Houd er rekening mee dat de instellingen op deze pagina van toepassing zijn op het gehele [!DNL Target] -account.
 
 ## Algemene instellingen
 
-U kunt algemene instellingen opgeven voor Visual Experience Composer.
+U kunt algemene instellingen opgeven voor de [!UICONTROL Visual Experience Composer] .
 
-![Sectie Algemene instellingen](/help/main/administrating-target/assets/general-settings.png)
+![ Algemene sectie van Montages ](/help/main/administrating-target/assets/general-settings.png)
 
 De volgende instellingen zijn beschikbaar:
 
 ### Standaard-URL
 
-Stel de standaard-URL in die door de [!UICONTROL Visual Experience Composer]. Dit is de standaardpagina, zoals uw homepage, die wordt gebruikt wanneer u opstelling een ervaring voor elke nieuwe activiteit. Als u geen standaard-URL instelt, moet u voor elke activiteit een URL invoeren wanneer u deze maakt.
+Stel de standaard-URL in die door de [!UICONTROL Visual Experience Composer] wordt gebruikt. Dit is de standaardpagina, zoals uw homepage, die wordt gebruikt wanneer u opstelling een ervaring voor elke nieuwe activiteit. Als u geen standaard-URL instelt, moet u voor elke activiteit een URL invoeren wanneer u deze maakt.
 
 ### Enhanced Experience Composer inschakelen {#eec}
 
-Hiermee kunt u iFrame-sites en sites met gemengde inhoud bewerken. Sommige sites zijn mogelijk niet compatibel met de verbeterde versie. Schakel deze optie uit als u wilt terugkeren naar het origineel [!UICONTROL Visual Experience Composer]. Deze keuze heeft geen invloed op de levering van activiteiten op sites.
+Hiermee kunt u iFrame-sites en sites met gemengde inhoud bewerken. Sommige sites zijn mogelijk niet compatibel met de verbeterde versie. Schakel deze optie uit als u het origineel wilt herstellen [!UICONTROL Visual Experience Composer] . Deze keuze heeft geen invloed op de levering van activiteiten op sites.
 
-Zie voor meer informatie [Het oplossen van problemen de Visuele Composer van de Ervaring](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+Voor meer informatie, zie [ het Oplossen van problemen de Visuele Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-U kunt ook de opdracht [!UICONTROL Enhanced Experience Composer] op het niveau van de activiteit.
+U kunt [!UICONTROL Enhanced Experience Composer] ook inschakelen op activiteitsniveau.
 
 ### Gemengde inhoud laden
 
-Gemengde inhoud inschakelen bij het openen van een website met de opdracht [!UICONTROL Enhanced Experience Composer] (EEG) Als u deze optie inschakelt, wordt de extra overhead van het laden van statische bronnen via [!DNL Target] proxyservers.
+Schakel gemengde inhoud in terwijl u een website opent met [!UICONTROL Enhanced Experience Composer] (EEC). Als u deze optie inschakelt, voorkomt u de extra overhead van het laden van statische bronnen via [!DNL Target] -proxyservers.
 
 Deze optie is bijvoorbeeld handig als:
 
@@ -57,23 +55,23 @@ Deze optie is bijvoorbeeld handig als:
 
 Als u ervaringsmomentopnamen inschakelt, worden miniaturen voor uw ervaringen in het activiteitenwerkstroomdiagram gegenereerd. Het uitschakelen van momentopnamen kan voor sommige gebruikers tot snellere prestaties leiden.
 
-## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."}
+## [!BADGE  Premium ]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."}
 
 U kunt apparaten toevoegen om te gebruiken wanneer het previewing ervaringen. Elk apparaat heeft een bijbehorend publiek.
 
-![Mobiele Viewportconfiguratie](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
+![ Mobiele sectie van de Configuratie van de Viewport ](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
-Klikken **[!UICONTROL Add]**, geeft u een beschrijvende naam op voor de mobiele viewport, geeft u de breedte en hoogte op, selecteert u het gewenste besturingssysteem en klikt u op [!UICONTROL Save].
+Klik op **[!UICONTROL Add]** , geef een beschrijvende naam op voor de mobiele viewport, geef de breedte en hoogte op, selecteer het gewenste besturingssysteem en klik op [!UICONTROL Save] .
 
-Voor informatie over het toevoegen van een mobiele viewport raadpleegt u [Configuratie mobiele viewport](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md).
+Voor informatie over hoe te om een mobiele viewport toe te voegen, zie [ Mobiele Configuratie van de Viewport ](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md).
 
 ## CSS-kiezers {#css}
 
-Opgeven hoe [!DNL Target] genereert CSS-kiezers.
+Geef op hoe [!DNL Target] CSS-kiezers genereert.
 
-![Sectie CSS-kiezers](/help/main/administrating-target/assets/css-selectors.png)
+![ CSS de sectie van Kiezers ](/help/main/administrating-target/assets/css-selectors.png)
 
-Deze opties helpen [!DNL Target] begrijpen de structuur van uw site om betere CSS-kiezers te genereren voor de levering van inhoud. Standaard, [!DNL Target] Hiermee genereert u kiezers op basis van element-id&#39;s op de pagina. Als uw site weinig id&#39;s gebruikt of ID&#39;s op dezelfde pagina dupliceert, kunt u beter klassen gebruiken.
+Met deze opties krijgt [!DNL Target] inzicht in de structuur van uw site, zodat u betere CSS-kiezers voor de levering van inhoud kunt genereren. Standaard genereert [!DNL Target] kiezers op basis van element-id&#39;s op de pagina. Als uw site weinig id&#39;s gebruikt of ID&#39;s op dezelfde pagina dupliceert, kunt u beter klassen gebruiken.
 
 U kunt een van de volgende opties of beide opties kiezen:
 
@@ -83,19 +81,19 @@ Schakel deze optie uit als dezelfde id wordt gebruikt voor meerdere elementen of
 
 ### Elementklassen gebruiken
 
-Standaard, [!DNL Target] gebruikt alleen element-id&#39;s. Als uw pagina echter is ontworpen om klassen te gebruiken voor het identificeren van elementen, zoals een pagina die is gemaakt met [!DNL Adobe Experience Manager], dient u ook [!UICONTROL Use element classes].
+Standaard gebruikt [!DNL Target] alleen element-id&#39;s. Als uw pagina echter is ontworpen om klassen te gebruiken voor het identificeren van elementen, zoals een pagina die is gemaakt met [!DNL Adobe Experience Manager] , moet u ook [!UICONTROL Use element classes] selecteren.
 
 >[!NOTE]
 >
 >Hoewel alles is gedaan om nauwkeurigheid te verzekeren, houd er rekening mee dat het gebruik van klassen tot fouten kan leiden. Als u geen van beide opties selecteert, heeft dit ook invloed op de nauwkeurigheid. De nauwkeurigheidsvolgorde is ID&#39;s > klassen > geen van beide opties. Zorg altijd dat u de pagina test om te controleren of de kiezers correct zijn.
 
-U kunt deze instelling per activiteit overschrijven (klik op [!UICONTROL Settings] tandwielpictogram, selecteer vervolgens [!UICONTROL CSS Selectors]). Dit is vooral nuttig als u veelvoudige plaatsen hebt die verschillend worden gevormd.
+U kunt deze instelling per activiteit overschrijven (klik op het tandwielpictogram [!UICONTROL Settings] en selecteer vervolgens [!UICONTROL CSS Selectors] ). Dit is vooral nuttig als u veelvoudige plaatsen hebt die verschillend worden gevormd.
 
 >[!NOTE]
 >
->De instelling per activiteit overschrijven is niet beschikbaar in [!UICONTROL Automated Personalization] en [!UICONTROL Multivariate Testing] activiteiten.  Zie [Elementkiezers die worden gebruikt in de composer voor visuele ervaring](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) voor aanvullende informatie over kiezers.
+>Het overschrijven van de instelling per activiteit is niet beschikbaar in [!UICONTROL Automated Personalization] - en [!UICONTROL Multivariate Testing] -activiteiten.  Zie [ de Kiezers van het Element die in de Visuele Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) voor extra informatie over selecteurs worden gebruikt.
 
-## Trainingsvideo: Accountvoorkeuren (7:33) ![Overzicht badge](/help/main/assets/overview.png)
+## De video van de opleiding: De Voorkeur van de rekening (7:33) ![ badge van het Overzicht ](/help/main/assets/overview.png)
 
 Deze video bevat informatie over accountvoorkeuren.
 
@@ -103,6 +101,6 @@ Deze video bevat informatie over accountvoorkeuren.
 
 >[!NOTE]
 >
->De [!DNL Target] [!UICONTROL Administration] menu-interface (voorheen [!UICONTROL Setup]) is opnieuw ontworpen om betere prestaties te bieden, de vereiste onderhoudstijd bij het vrijgeven van nieuwe functies te verminderen en de gebruikerservaring in het hele product te verbeteren. De informatie in de volgende video is over het algemeen correct. de opties kunnen zich echter op iets andere locaties bevinden . Bijgewerkte video&#39;s worden binnenkort gepost.
+>De gebruikersinterface van het [!DNL Target] [!UICONTROL Administration] menu (voorheen [!UICONTROL Setup] ) is opnieuw ontworpen om betere prestaties te bieden, de vereiste onderhoudstijd bij het vrijgeven van nieuwe functies te verminderen en de gebruikerservaring in het hele product te verbeteren. De informatie in de volgende video is over het algemeen correct; nochtans, zouden de opties in lichtjes verschillende plaatsen kunnen zijn. Bijgewerkte video&#39;s worden binnenkort gepost.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

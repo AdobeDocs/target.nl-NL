@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 438b65368b81f71d684444352035ce73627e698f
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,13 @@ Gebruik deze koppelingen om toegang te krijgen tot bijgewerkte documentatie als 
 >Het team van [!DNL Adobe Target] laat vaak nieuwe eigenschappen voor bepaalde klanten voor het testen en terugkoppelen doeleinden toe. Nadat de testperiode is voltooid, worden deze functies in toekomstige versies van [!DNL Target] voor alle klanten ingeschakeld en in releaseopmerkingen aangekondigd.
 >
 >De informatie in deze artikelen wordt vaak zonder voorafgaande kennisgeving bijgewerkt tijdens het Beta-programma.
+
+## Administratie
+
+++ + klikken om uit te breiden
+
+* [ beheert het overzicht bèta van het Doel ](administrating-target/administrating-target-beta.md)
++++
 
 ## Activiteiten
 
