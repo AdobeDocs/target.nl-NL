@@ -1,125 +1,113 @@
 ---
 keywords: Recommendations;aanbieding;voorvertoning;start;status;criteria;algoritme
-description: Leer hoe u een voorvertoning van uw Adobe kunt weergeven [!DNL Target] Recommendations-activiteit om ervoor te zorgen dat resultaten beschikbaar zijn voordat de activiteit wordt gestart.
+description: Leer hoe te om uw Adobe  [!DNL Target]  activiteit van Recommendations te voorproef om resultaten te verzekeren beschikbaar zijn alvorens de activiteit te lanceren.
 title: Hoe kan ik een Recommendations-activiteit voorvertonen en starten?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
+source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1316'
 ht-degree: 0%
 
 ---
 
 # Recommendations-activiteiten voorvertonen en starten
 
-Nadat u uw [!UICONTROL Recommendations], [!UICONTROL A/B Test], of [!UICONTROL Experience Targeting] (XT) activiteit die [Recommendations-aanbiedingen](/help/main/c-recommendations/recommendations-as-an-offer.md), zult u uw aanbevelingen willen vooraf bekijken om ervoor te zorgen dat de resultaten beschikbaar zijn alvorens de activiteit te lanceren. [!DNL Target Recommendations] biedt meerdere manieren om uw aanbevelingen voor te vertonen.
+Nadat u uw [!UICONTROL Recommendations] hebt gecreeerd, [!UICONTROL A/B Test], of [!UICONTROL Experience Targeting] (XT) activiteit die [ aanbiedingen van Recommendations ](/help/main/c-recommendations/recommendations-as-an-offer.md) bevat, zult u voorproef uw aanbevelingen willen ervoor zorgen dat de resultaten beschikbaar zijn alvorens de activiteit te lanceren. [!DNL Target Recommendations] biedt meerdere manieren om een voorbeeld van uw aanbevelingen te bekijken.
 
 ## Recommendations-algoritmestatus controleren
 
-Na het maken van een activiteit, [!DNL Recommendations] stelt een algoritme in werking om aanbevelingen te produceren. Dit algoritme kan een paar uur duren.
+Nadat [!DNL Recommendations] een activiteit heeft gemaakt, wordt een algoritme uitgevoerd om aanbevelingen te genereren. Dit algoritme kan een paar uur duren.
 
-U kunt controleren of het algoritme in het [!UICONTROL Activity] overzichtsdiagram waarin de status van de criteria wordt vermeld. De volgende illustratie toont de status in het activiteitendiagram op een [!DNL Recommendations] activiteiten [!UICONTROL Overview] pagina:
+U kunt controleren of het algoritme in het [!UICONTROL Activity] overzichtsdiagram is gebeëindigd, waar de status van de criteria wordt vermeld. De volgende afbeelding toont de status in het activiteitsdiagram op de pagina [!UICONTROL Overview] van een [!DNL Recommendations] activiteit:
 
-![Pagina Overzicht van Recommendations-activiteiten](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
-
-In de volgende afbeelding wordt de status op een [!UICONTROL A/B Test] of XT-activiteit [!UICONTROL Overview] pagina:
-
-![A/B pagina Overzicht van tests](/help/main/c-recommendations/t-create-recs-activity/assets/ab-overview.png)
+![ de pagina van het activiteitenoverzicht van Recommendations ](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
 De statusresultaten zijn als volgt:
 
-* [!UICONTROL Results Ready]: Geeft aan dat het algoritme resultaten heeft geretourneerd
-* [!UICONTROL Results Not Ready]: Geeft aan dat het algoritme niet is uitgevoerd.
-* [!UICONTROL Feed Failure]: Geeft aan dat het feed-bestand met aangepaste criteria niet kan worden opgehaald.
+* [!UICONTROL Results Ready]: geeft aan dat het algoritme resultaten heeft geretourneerd
+* [!UICONTROL Results Not Ready]: geeft aan dat het algoritme niet is voltooid.
+* [!UICONTROL Feed Failure]: geeft aan dat het feed-bestand met aangepaste criteria niet kan worden opgehaald.
 
-![Het dialoogvenster Resultaten](/help/main/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
+![ de dialoogdoos van Resultaten ](/help/main/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 
 ## Hoe lang duurt het om het algoritme uit te voeren?
 
-Na het opslaan van een activiteit die een criterium bevat, [!DNL Target] compileert aanbevelingen die op de geselecteerde inzameling, de criteria, het ontwerp, en de promoties worden gebaseerd. Deze berekening duurt enige tijd en het tijdsbestek verschilt op basis van de geselecteerde aanbevelingen logica, gegevensbereik, het aantal items in de catalogus, de hoeveelheid gedragsgegevens die uw klanten hebben gegenereerd en de geselecteerde gegevensbron voor gedragsgegevens.
+Nadat u een activiteit met criteria hebt opgeslagen, berekent [!DNL Target] aanbevelingen op basis van de geselecteerde verzameling, criteria, ontwerp en promoties. Deze berekening duurt enige tijd en het tijdsbestek verschilt op basis van de geselecteerde aanbevelingen logica, gegevensbereik, het aantal items in de catalogus, de hoeveelheid gedragsgegevens die uw klanten hebben gegenereerd en de geselecteerde gegevensbron voor gedragsgegevens.
 
 De gedragsgegevensbron heeft het grootste effect op verwerkingstijd, als volgt:
 
 ### mboxes
 
-Als vakjes als gedragsgegevensbron worden geselecteerd, zodra gecreeerd, loopt de criteria onmiddellijk. Afhankelijk van de hoeveelheid gebruikte gedragsgegevens en de grootte van de catalogus kan het uitvoeren van het algoritme maximaal 12 uur duren. Als u wijzigingen aanbrengt in de configuratie criteria, wordt het algoritme doorgaans opnieuw uitgevoerd. Afhankelijk van de aangebrachte wijziging zijn de eerder berekende aanbevelingen mogelijk pas beschikbaar wanneer een nieuwe uitvoering is voltooid, of voor grotere wijzigingen is alleen de back-up- of standaardinhoud beschikbaar totdat een nieuwe uitvoering is voltooid. Als een algoritme niet wordt gewijzigd, wordt het automatisch opnieuw in werking gesteld door [!DNL Target] om de 12-48 uur, afhankelijk van het geselecteerde gegevensbereik.
+Als vakjes als gedragsgegevensbron worden geselecteerd, zodra gecreeerd, loopt de criteria onmiddellijk. Afhankelijk van de hoeveelheid gebruikte gedragsgegevens en de grootte van de catalogus kan het uitvoeren van het algoritme maximaal 12 uur duren. Als u wijzigingen aanbrengt in de configuratie criteria, wordt het algoritme doorgaans opnieuw uitgevoerd. Afhankelijk van de aangebrachte wijziging zijn de eerder berekende aanbevelingen mogelijk pas beschikbaar wanneer een nieuwe uitvoering is voltooid, of voor grotere wijzigingen is alleen de back-up- of standaardinhoud beschikbaar totdat een nieuwe uitvoering is voltooid. Als een algoritme niet wordt gewijzigd, wordt het automatisch opnieuw uitgevoerd door [!DNL Target] om de 12-48 uur, afhankelijk van het geselecteerde gegevensbereik.
 
-### Adobe Analytics
+### [!DNL Adobe Analytics]
 
-Indien de criteria worden gebruikt [!DNL Adobe Analytics] als gedragsgegevensbron, zodra gecreeerd, hangt de tijd voor criteria beschikbaarheid af van of de geselecteerde rapportreeks en het raadplegingsvenster voor een andere criteria is gebruikt.
+Als de criteria [!DNL Adobe Analytics] als gedragsgegevensbron gebruiken, zodra gecreeerd, hangt de tijd voor criteria beschikbaarheid af van of de geselecteerde rapportreeks en het raadplegingsvenster voor een andere criteria is gebruikt.
 
-* **Installatie van een eenmalige rapportsuite**: De eerste keer wordt een rapportreeks gebruikt met een bepaald venster van de gegevenswaaierraadpleging, [!DNL Target Recommendations] kan twee tot zeven dagen duren om de gedragsgegevens voor de geselecteerde rapportsuite volledig te downloaden van [!DNL Analytics]. Dit tijdsbestek is afhankelijk van de [!DNL Analytics] systeembelasting.
-* **Nieuwe of bewerkte criteria met behulp van een reeds beschikbare rapportsuite**: Als de geselecteerde rapportsuite al is gebruikt bij het maken van nieuwe criteria of het bewerken van bestaande criteria [!DNL Target Recommendations]Met een gegevensbereik dat gelijk is aan of kleiner is dan het geselecteerde gegevensbereik, zijn de gegevens direct beschikbaar en is een eenmalige instelling niet vereist. In dit geval, of als de montages van een algoritme terwijl het wijzigen van de geselecteerde rapportreeks of gegevenswaaier worden uitgegeven, loopt het algoritme of herstelt binnen 12 uren.
-* **Doorlopende algoritmeuitvoering**: Gegevensstromen van [!DNL Analytics] tot [!DNL Target Recommendations] dagelijks. Bijvoorbeeld voor [!UICONTROL Viewed Affinity] aanbeveling, wanneer een gebruiker een product bekijkt, wordt een product-mening het volgen vraag overgegaan in [!DNL Analytics] dicht bij real-time. De [!DNL Analytics] gegevens worden doorgegeven aan [!DNL Target] vroeg de volgende dag en [!DNL Target] voert het algoritme in minder dan 12 uren uit.
+* **Eenmalige opstelling van de rapportreeks**: De eerste keer wordt een rapportreeks gebruikt met een bepaald venster van de gegevenswaaierraadpleging, [!DNL Target Recommendations] kan van twee tot zeven dagen nemen om de gedragsgegevens voor de geselecteerde rapportreeks van [!DNL Analytics] volledig te downloaden. Deze tijdlijn is afhankelijk van het laden van het [!DNL Analytics] -systeem.
+* **Nieuwe of uitgegeven criteria die een reeds beschikbare rapportreeks** gebruiken: Wanneer het creëren van nieuwe criteria of het uitgeven van een bestaande criteria, als de geselecteerde rapportreeks reeds met [!DNL Target Recommendations], met een gegevenswaaier gelijk aan of minder dan de geselecteerde gegevenswaaier is gebruikt, zijn de gegevens onmiddellijk beschikbaar en geen eenmalig opstelling wordt vereist. In dit geval, of als de montages van een algoritme terwijl het wijzigen van de geselecteerde rapportreeks of gegevenswaaier worden uitgegeven, loopt het algoritme of herstelt binnen 12 uren.
+* **Doorlopende algoritmelooppas**: De stromen van gegevens van [!DNL Analytics] aan [!DNL Target Recommendations] op een dagelijkse basis. Voor de aanbeveling [!UICONTROL Viewed Affinity] geldt dat wanneer een gebruiker bijvoorbeeld een product bekijkt, een aanroep voor het bijhouden van de productweergave wordt doorgegeven aan [!DNL Analytics] dicht bij real-time. De [!DNL Analytics] -gegevens worden [!DNL Target] vroeg op de volgende dag weergegeven en [!DNL Target] voert het algoritme uit binnen minder dan 12 uur.
 
 >[!NOTE]
 >
->[!UICONTROL Recently Viewed Items] vereist geen off-line algoritme looppas en de resultaten zijn onmiddellijk beschikbaar. [!UICONTROL Top Viewed] en [!UICONTROL Top Sellers] algoritmen die zijn gebaseerd op mbox-gegevens leveren over het algemeen zeer snel resultaten op vanwege de eenvoudigere vereiste berekening. Dit kunnen goede opties zijn als u een voorbeeld van een ontwerpwijziging wilt bekijken of wilt bevestigen dat gedragsgegevens correct worden verzameld.
+>[!UICONTROL Recently Viewed Items] vereist geen offline uitgevoerde algoritme en de resultaten zijn onmiddellijk beschikbaar. [!UICONTROL Top Viewed] en [!UICONTROL Top Sellers] algoritmen die zijn gebaseerd op mbox-gegevens leveren over het algemeen zeer snel resultaten op vanwege de eenvoudigere vereiste berekening. Dit kunnen goede opties zijn als u een voorbeeld van een ontwerpwijziging wilt bekijken of wilt bevestigen dat gedragsgegevens correct worden verzameld.
 
 ## Een voorbeeld van Recommendations bekijken met QA-koppelingen
 
-Nadat de resultaten van het algoritme klaar zijn, kunt u een voorvertoning van die resultaten weergeven met de opdracht [QA-koppeling](/help/main/c-activities/c-activity-qa/activity-qa.md) functionaliteit van [!DNL Adobe Target]. QA-koppelingen zijn beschikbaar in het dialoogvenster [!UICONTROL Activity QA] sectie van de overzichtspagina Activiteit:
-
-![QA-koppeling voor activiteit](/help/main/c-recommendations/t-create-recs-activity/assets/qa-link.png)
+Nadat het algoritme resultaten klaar heeft, kunt u die resultaten voorproef gebruikend de [ verbinding QA ](/help/main/c-activities/c-activity-qa/activity-qa.md) functionaliteit van [!DNL Adobe Target]. QA-koppelingen zijn beschikbaar in de sectie [!UICONTROL Activity Location] van de overzichtspagina van [!UICONTROL Activity] :
 
 >[!NOTE]
 >
->Standaard, [!DNL Target] voegt u automatisch toe aan het vereiste publiek voor de koppeling QA. Als deze het plaatsen wordt uitgezet en uw activiteit het richten regels heeft, moet uw gebruikersprofiel die richten regels ontmoeten om de ervaring te zien die aanbevelingen bevat.
+>Standaard voegt [!DNL Target] u automatisch toe aan het vereiste publiek voor de koppeling voor kwaliteitscontrole. Als deze het plaatsen wordt uitgezet en uw activiteit het richten regels heeft, moet uw gebruikersprofiel die richten regels ontmoeten om de ervaring te zien die aanbevelingen bevat.
 
 Als u een koppeling QA gebruikt, kunt u de aanbevelingen op uw pagina bekijken:
 
-![Aanbevolen producten](/help/main/c-recommendations/t-create-recs-activity/assets/featured-products.png)
+![ Aanbevolen producten ](/help/main/c-recommendations/t-create-recs-activity/assets/featured-products.png)
 
 >[!NOTE]
 >
->* De doel-QA-modus is &quot;plakken&quot; en wordt in een cookie opgeslagen. Als u de QA-modus niet afsluit, blijven de resultaten van de QA op de hele site zichtbaar. Als u de QA-modus wilt afsluiten, gebruikt u de optie [bladwijzer](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
+>* De doel-QA-modus is &quot;plakken&quot; en wordt in een cookie opgeslagen. Als u de QA-modus niet afsluit, blijven de resultaten van de QA op de hele site zichtbaar. Om wijze QA weg te gaan, gebruik [ bookmarklet ](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
 >
->* In de QA-modus heeft het bladeren door de site geen invloed op de [!UICONTROL Recently Viewed Items] of [!UICONTROL Recently Purchased Items]. Dit gedrag gebeurt door het ontwerp om onopzettelijke verontreiniging van gedragsgegevens van de productie te voorkomen. Als u een voorbeeld wilt weergeven van de resultaten van een [!UICONTROL Recently Viewed Items] of [!UICONTROL User-Based Recommendations] criteria, doorblader eerst de plaats buiten de wijze van QA, dan gebruik de zelfde zitting om een verbinding van de wijze van QA te openen.
+>* In de QA-modus heeft het bladeren door de site geen invloed op de profielen [!UICONTROL Recently Viewed Items] en [!UICONTROL Recently Purchased Items] van uw profiel. Dit gedrag gebeurt door het ontwerp om onopzettelijke verontreiniging van gedragsgegevens van de productie te voorkomen. Als u de resultaten wilt voorvertonen op basis van een [!UICONTROL Recently Viewed Items] - of [!UICONTROL User-Based Recommendations] -criterium, bladert u eerst naar de site buiten de QA-modus en opent u vervolgens met dezelfde sessie een koppeling in de QA-modus.
 
 ## De CSV-download gebruiken om aanbevelingen voor te vertonen
 
-In sommige gevallen, zou u de specifieke punten kunnen willen controleren die worden geadviseerd. Dit is vooral handig bij het gebruik van algoritmen als [!UICONTROL People Who Viewed This, Viewed That], waarbij een andere set items wordt aanbevolen afhankelijk van het item dat de gebruiker momenteel bekijkt, en u mogelijk duizenden of miljoenen verschillende items in uw catalogus hebt.
+In sommige gevallen, zou u de specifieke punten kunnen willen controleren die worden geadviseerd. Dit is vooral handig bij het gebruik van algoritmen zoals [!UICONTROL People Who Viewed This, Viewed That] , waarbij een andere set items wordt aanbevolen afhankelijk van het item dat de gebruiker momenteel bekijkt, en u mogelijk duizenden of miljoenen verschillende items in uw catalogus hebt.
 
-Resultaten kunnen pas worden gedownload als een [!UICONTROL Results Ready] status wordt weergegeven voor ten minste één algoritme in de activiteit.
+De resultaten zijn pas beschikbaar voor downloaden als de status [!UICONTROL Results Ready] wordt weergegeven voor ten minste één algoritme in de activiteit.
 
-Als u resultaten wilt downloaden voor een voorvertoning, klikt u op het menupictogram in de rechterbovenhoek van de pagina Activiteiten en klikt u vervolgens op **[!UICONTROL Download data]**.
+Als u de resultaten voor de voorvertoning wilt downloaden, klikt u op het menupictogram in de rechterbovenhoek van de pagina Activiteiten en klikt u vervolgens op **[!UICONTROL Download data]** .
 
-![Gegevensoptie downloaden](/help/main/c-recommendations/t-create-recs-activity/assets/download-data.png)
+![ de gegevensoptie van de Download ](/help/main/c-recommendations/t-create-recs-activity/assets/download-data.png)
 
 Er wordt een CSV-bestand gedownload. Open het venster om de aanbevolen items weer te geven:
 
-![CSV-bestand met aanbevolen items](/help/main/c-recommendations/t-create-recs-activity/assets/recommended-items.png)
+![ Aanbevolen punten CSV dossier ](/help/main/c-recommendations/t-create-recs-activity/assets/recommended-items.png)
 
 Van links naar rechts is een lijst met aanbevolen items, in dit geval de meest bekeken items. De aanbevelingen worden gescheiden door het milieu, in dit geval heeft alleen de productieomgeving aanbevelingen.
 
-Als een sterretje (*) de eerste waarde van een rij is, wordt dit [back-upitems](/help/main/c-recommendations/c-algorithms/backup-recs.md). Back-upitems worden weergegeven als niet alle sleuven in een ontwerp kunnen worden ingevuld door de aanbevolen items van het algoritme (criteria).
+Als een asterisk (*) de eerste waarde van een rij is, wijst het op [ reservepunten ](/help/main/c-recommendations/c-algorithms/backup-recs.md). Back-upitems worden weergegeven als niet alle sleuven in een ontwerp kunnen worden ingevuld door de aanbevolen items van het algoritme (criteria).
 
-Voor andere op een sleutelwaarde gebaseerde algoritmypen, zoals [!UICONTROL People Who Viewed This, Viewed That], zijn de belangrijkste waarden (d.w.z. de &quot;Deze&quot;punten) vermeld in de meest linkse kolom en de geadviseerde punten (d.w.z. de &quot;dat&quot;punten) worden vermeld links-aan-recht in de kolommen Recommendation_X.
+Voor andere algoritmenypen die op een zeer belangrijke waarde, zoals [!UICONTROL People Who Viewed This, Viewed That] worden gebaseerd, zijn de zeer belangrijke waarden (d.w.z. de &quot;Deze&quot;punten) vermeld in de meest linkse kolom en de geadviseerde punten (d.w.z. de &quot;die&quot;punten) worden vermeld van links naar rechts in Recommendation_X kolommen.
 
 >[!NOTE]
 >
->Downloads van resultaten zijn niet beschikbaar voor activiteiten die een [!UICONTROL User-Based Recommendations] algoritme. Downloads van resultaten zijn niet beschikbaar voor criteria die [!UICONTROL Recently-Viewed Items] aanbevelingen.
+>Downloads van resultaten zijn niet beschikbaar voor activiteiten die een [!UICONTROL User-Based Recommendations] algoritme bevatten. Downloads van resultaten zijn niet beschikbaar voor criteria die de [!UICONTROL Recently-Viewed Items] aanbevelingen logica gebruiken.
 
 ## Recommendations-activiteit activeren
 
-Van de [!UICONTROL Activity Overview] klikt u op de vervolgkeuzepijl naast de status en selecteert u vervolgens **[!UICONTROL Activate]**.
+Klik op het tabblad [!UICONTROL Activity Overview] op de vervolgkeuzepijl Status en selecteer vervolgens **[!UICONTROL Activate]** .
 
-![Optie Activeren](/help/main/c-recommendations/t-create-recs-activity/assets/activate.png)
+Als uw [!UICONTROL Recommendations] activiteit momenteel in de [!UICONTROL Inactive] staat is, wordt de drop-down lijst geëtiketteerd [!UICONTROL Inactive].
 
-De status wordt [!UICONTROL Activating]:
+Na een paar seconden tot een paar minuten verandert de status in [!UICONTROL Live] .
 
-![Activeren](/help/main/c-recommendations/t-create-recs-activity/assets/activating.png)
-
-Na een paar seconden tot een paar minuten schakelt de status over naar [!UICONTROL Live]:
-
-![Live](/help/main/c-recommendations/t-create-recs-activity/assets/live.png)
-
-U kunt de activiteit ook deactiveren of archiveren met dezelfde vervolgkeuzelijst.
+U kunt de activiteit ook deactiveren of archiveren gebruikend de zelfde drop-down lijst.
 
 ## Onderbrekingen voorkomen bij het wijzigen van Recommendations-instellingen
 
-Wijzigen [!DNL Recommendations] verzamelingen, criteria, promoties of ontwerpinstellingen in een live activiteit kunnen ertoe leiden dat de resultaten van het algoritme ongeldig worden en dat de status van een algoritme verandert in [!UICONTROL Results Not Ready].
+Als u [!DNL Recommendations] -verzamelingen, -criteria, -promoties of -ontwerpinstellingen wijzigt in een live activiteit, kunnen de resultaten van het algoritme ongeldig worden en wordt de status van een algoritme gewijzigd in [!UICONTROL Results Not Ready] .
 
 Om te voorkomen dat een live activiteit wordt onderbroken, raden we u aan de volgende aanpak te volgen bij het wijzigen van een live activiteit:
 
