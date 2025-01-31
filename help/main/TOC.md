@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 99ea312405e397e97e64e32d2685e8a6966d8928
+source-git-commit: f968ec45f015fa0b195007f5790b9efb743c8b65
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1519'
 ht-degree: 2%
 
 ---
@@ -261,8 +261,11 @@ ht-degree: 2%
    + [Overzicht van ervaringen en aanbiedingen](c-experiences/experiences.md)
    + Visual Experience Composer (VEC) {#vec}
       + [Overzicht van Visual Experience Composer](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
+      + [Overzicht bètaversie van Visual Experience Composer](c-experiences/c-visual-experience-composer/visual-experience-composer-beta.md)
       + [Opties voor Visual Experience Composer](c-experiences/c-visual-experience-composer/viztarget-options.md)
+      + [bètaversie van composers voor visuele ervaring](c-experiences/c-visual-experience-composer/viztarget-options-beta.md)
       + [Dezelfde ervaring opnemen op vergelijkbare pagina&#39;s](c-experiences/c-visual-experience-composer/temtest.md)
+      + [Dezelfde ervaring opnemen op vergelijkbare pagina&#39;s bèta](c-experiences/c-visual-experience-composer/temtest-beta.md)
       + [Meerdere pagina&#39;s](c-experiences/c-visual-experience-composer/multipage-activity.md)
       + [Conflicten bij activiteit](c-experiences/c-visual-experience-composer/activity-collisions.md)
       + Wijzigingen {#modifications}
@@ -281,6 +284,7 @@ ht-degree: 2%
          + [De extensie Visuele bewerkingshulp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [Helpextensie Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [Omleiden naar een URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
+      + [Omleiden naar een URL-beta](c-experiences/c-visual-experience-composer/redirect-offer-beta.md)
       + [Het creëren van carrousels die in de Composer van de Visuele Ervaring werken](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [Formuliergebaseerde Experience Composer](c-experiences/form-experience-composer.md)
    + [Single Page App (SPA) Visual Experience Composer](c-experiences/spa-visual-experience-composer.md)
