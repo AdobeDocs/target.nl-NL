@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: d823e9993ff17f1970dc1deac996928781c7e79d
+source-git-commit: 1b2b513426ea3199e9d78c42b308e4547e486311
 workflow-type: tm+mt
-source-wordcount: '38296'
+source-wordcount: '38918'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,76 @@ Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en
 >
 >Zie [ de versienota&#39;s van het Doel (huidig) ](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) voor informatie over de versies van het Doel van de huidige maand (platform en Target Standard/Premium).
 
+## Opmerkingen bij de release - 2025
+
+### Target Standard/Premium 25.1.1 (9 januari 2025)
+
+Deze release bevat de volgende updates:
+
+#### [!UICONTROL Offers Library] update gebruikersinterface
+
+Deze release werkt de gebruikersinterface van [!UICONTROL Offers Library] bij om de gebruikerservaring voor [!DNL Adobe Target] -gebruikers te verbeteren.
+
+>[!NOTE]
+>
+>Om een naadloze uitrol voor alle klanten te verzekeren, zal deze versie in gecontroleerde stadia worden opgesteld. In de eerste fase werd de eerste groep klanten van Target bijgewerkt naar de gebruikersinterface van de nieuwe aanbiedingen. De volgende stadia zullen de resterende klanten bevorderen.
+
+Met behulp van het nieuwste ontwerpsysteem van [!DNL Adobe Spectrum] worden inconsistente ontwerppatronen gestandaardiseerd en worden nieuwe verbeteringen geïntroduceerd, waaronder:
+
+* **Bulk aanbiedt beheer**: Selecteer en schrap of beweeg veelvoudige aanbiedingen gelijktijdig.
+
+* **[!UICONTROL Code Editor]upgrades** : vernieuwde HTML- en JSON-editors met syntaxismarkering en regelnummering.
+
+* **Verbeterde aanbiedingskaarten**: Verbeterde snelle informatie en detailkaarten voor gemakkelijkere informatietoegang.
+
+* **Persistent onderzoek en filters**: Voegt zitting-blijvend onderzoek en filteropties toe.
+
+Voor meer informatie zie [ Aanbiedingen ](/help/main/c-experiences/c-manage-content/manage-content.md) en subartikelen in deze sectie. Alle artikelen voor aanbiedingen in deze sectie zijn bijgewerkt met deze wijzigingen in de gebruikersinterface.
+
+Hier volgt een korte video waarin de wijzigingen in deze release worden belicht:
+
+![ aanbiedingen UI verfrist video ](/help/main/r-release-notes/assets/offers-video-v2.gif)
+
 ## Opmerkingen bij de release - 2024
+
+### [!DNL Adobe Experience Platform Web SDK] `__view__` bereik optimaliseren (22 oktober 2024)
+
+Tussen 22 juli 2024 en 15 augustus 2024 heeft het team van [!DNL Target] het bereik van `__view__` geoptimaliseerd, wat de nauwkeurigheid van het weergeven van activiteiten, het bezoek en het melden van bezoekers vergroot. Deze optimalisatie is bedoeld om automatisch rapportagegegevens vast te leggen voor automatisch gegenereerde voorstellingen en moet voor de meeste accounts transparant zijn.
+
+Deze optimalisatie is ingeschakeld voor alle nieuwe klanten van [!DNL Adobe Experience Platform Web SDK] . Klanten die van at.js zijn gemigreerd en de onderstaande implementatiestappen niet hebben uitgevoerd, hebben de optimalisatie echter uitgeschakeld. We dringen er bij deze klanten op aan hun implementaties vóór 3 februari 2025 te evalueren. Na deze datum, zullen wij optimalisering voor alle klanten toelaten. Als de implementaties niet tegen die tijd worden geëvalueerd en aangepast, kan dit gevolgen hebben voor rapporten, zoals hieronder wordt vermeld. Neem contact op met [!DNL Adobe Customer Care] als u wilt bevestigen of de implementatie wordt beïnvloed of als u meer tijd nodig hebt om uw implementatie aan te passen.
+
+>[!IMPORTANT]
+>
+>Als u uw implementatieoverzicht niet kunt voltooien en problemen op 3 februari 2025 kunt oplossen, kunt u een eenmalige verlenging van zes maanden aanvragen. Zorg ervoor dat uw verzoek uiterlijk op 31 januari 2025 wordt ingediend. De Adobe zal uw verzoek beoordelen en beslissen.
+
+Om van deze optimalisering in het geval van manueel voorstel terug te winnen, herzie [[!DNL Platform Web SDK implementation] ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk) {target=_blank} om ervoor te zorgen dat u berichten na manueel teruggevende ervaringen verzendt of wanneer het gebruiken van de `applyPropositions` methode (of de overeenkomstige [!DNL Launch] actie als helper) om ervaringen terug te geven.
+
+De gemeenschappelijkste scenario&#39;s wanneer de ervaringen manueel worden teruggegeven omvatten:
+
+* JSON-aanbiedingen gebruiken
+* Een aangepast beslissingsbereik gebruiken in een activiteit die is gemaakt in de [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)
+* `renderDecisions: true` niet gebruiken bij het ophalen van een activiteit die is gemaakt met de [!UICONTROL Form-Based Experience Composer] die het algemene bereik `__view__` gebruikt
+
+Als de berichten niet zoals gedocumenteerd in [ worden uitgevoerd geven gepersonaliseerde inhoud ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/personalization/rendering-personalization-content) {target=_blank} in de *gids van de Inzameling van Gegevens* terug, zou het melden van gegevens in [!DNL Target] en in [ Analytics voor Doel kunnen ontbreken die ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) rapporteert (A4T). In bepaalde scenario&#39;s, zou u een onjuiste verkeerspleet kunnen opmerken omdat de rapporteringsgegevens niet worden gevangen. In andere scenario&#39;s wordt dezelfde gebeurtenis herhaaldelijk gerapporteerd.
+
+Afhankelijk van uw implementatie, controleer [!DNL Analytics] en A4T rapporteringsgevolgen.
+
+[!DNL Platform Web SDK] steunt twee implementatietypen voor het teruggeven ervaringen en verpersoonlijkingen:
+
+* **Enige vraag voor verpersoonlijking en meting.**
+
+  Aanvankelijk geadviseerd, is de enige-vraag benadering voor [!DNL Platform Web SDK] gepland om in plaats van de spleet-vraag benadering te worden vervangen. De Adobe adviseert alle nieuwe implementaties om de nieuwe spleet-vraag benadering te gebruiken en adviseert dat de bestaande klantenovergang aan de spleet-vraagmethode eveneens.
+
+  Als u de methode voor één aanroep blijft gebruiken, kunnen de volgende onverwachte wijzigingen in uw [!DNL Analytics] -rapporten optreden:
+
+   * Een dip in de bellen.
+   * A4T en [!UICONTROL Page View] raken niet samengebonden, die het lastig maken om bepaalde uitsplitsingen en correlaties van uw A4T- rapporten uit te voeren gebruikend [!DNL Analytics] gebeurtenissen en gebeurtenissen.
+
+* **Gesplitste vraag (die ook als bovenkant en bodem van paginagebeurtenissen wordt bekend).**
+
+  Dit implementatietype is de nieuwe [ spleet-vraag implementatiebenadering ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events) {target=_blank} geadviseerd door [!DNL Adobe]. Met deze methode heeft de nieuwe optimalisatie geen invloed op [!DNL Analytics] - of A4T-rapporten.
+
+Als u vragen hebt, contacteer ](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C) de Zorg van de Klant van de Adobe [. (kB-2179)
 
 ### at.js versie 2.11.6 (29 september 2024)
 
@@ -275,7 +344,7 @@ Deze versie bevat de volgende oplossingen:
 
 >[!NOTE]
 >
->Om levering van de veranderingen te verzekeren die in VEC worden geschreven, zorg ervoor dat u a [!DNL Target] SDK ([ at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html) {target=_blank} of [ Adobe Experience Platform Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) {target=_blank} (alloy.js)) met een versie groter dan 2.8 gebruikt.
+>Om levering van de veranderingen te verzekeren die in VEC worden authored, zorg ervoor dat u a [!DNL Target] SDK ([ at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html) {target=_blank} of [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) {target=_blank} (alloy.js)) met een versie groter dan 2.8 gebruikt.
 
 **Bekende kwestie**: Klik-volgen op een element van de schaduwwortel wanneer het gebruiken van [!DNL Adobe Experience Platform Web SDK] werkt niet correct. (TNT-47012)
 
@@ -642,7 +711,7 @@ Deze onderhoudsversie bevat de volgende verbeteringen, correcties en wijzigingen
 
 ### [!DNL Target] node.js SDK 2.2.0 (11 augustus 2021)
 
-* Toegevoegde SDK-telemetriegegevensverzameling
+* SDK-telemetriegegevensverzameling toegevoegd
 * Automated Delivery API client openapi-codegen
 
 Voor meer informatie over dit en vorige versies, zie het [ logboek van de Verandering ](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) in de [ documentatie van SDK van het Doel node.js ](https://github.com/adobe/target-nodejs-sdk) op Github.
@@ -677,9 +746,9 @@ Deze versie bevat de volgende nieuwe functies en verbeteringen. De uitgiftenumme
 
 ### Python SDK 1.0.0 (16 juni 2021)
 
-De nieuwe [!DNL Adobe Target] Python SDK met mogelijkheden voor apparaatbesluitvorming is nu beschikbaar. Deze nieuwste toevoeging biedt ondersteuning voor de [!DNL Target] -suite met SDK&#39;s aan de serverzijde. Met deze SDKS kunt u integreren met [!DNL Target] en tijd besparen op waarde, in de taal van uw keuze. Integraties aan de serverzijde worden een populaire keuze, aangezien de markt verschuift naar een wereld zonder cookie waarin gegevens van de eerste partij waardevol zijn. DoelSDK&#39;s zijn beschikbaar in de populairste programmeertalen op de markt (Python, Java, JavaScript, C# / .Net).
+De nieuwe [!DNL Adobe Target] Python SDK met mogelijkheden voor het bepalen van apparaten is nu beschikbaar. Deze nieuwste toevoeging biedt ondersteuning voor de [!DNL Target] -suite met SDK&#39;s aan de serverzijde. Met deze SDKS kunt u integreren met [!DNL Target] en tijd besparen op waarde, in de taal van uw keuze. Integraties aan de serverzijde worden een populaire keuze, aangezien de markt verschuift naar een wereld zonder cookie waarin gegevens van de eerste partij waardevol zijn. DoelSDK&#39;s zijn beschikbaar in de populairste programmeertalen op de markt (Python, Java, JavaScript, C# / .Net).
 
-Voor meer informatie, zie de [ documentatie van SDK van Python ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/overview.html) {target=_blank} in de [ Gids van de Ontwikkelaar van Adobe Target ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html) {target=_blank}.
+Voor meer informatie, zie de [ documentatie van Python SDK ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/overview.html) {target=_blank} in de [ Gids van de Ontwikkelaar van Adobe Target ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html) {target=_blank}.
 
 ### Target Standard/Premium 21.5.1 (7 juni 2021)
 
@@ -694,13 +763,13 @@ Deze release voor onderhoudsdoeleinden bevat de volgende oplossingen.
 * Probleem opgelost waarbij de standaardwerkruimte werd gewijzigd in een andere werkruimte tijdens het vernieuwen van de pagina [!UICONTROL Audiences] . (TGT-38871)
 * Correctie van een probleem in [!UICONTROL Administration] > [!UICONTROL Implementation] dat soms een foutbericht veroorzaakte met de melding &quot;Uw globale box is mogelijk niet synchroon. Probeer het opnieuw op te slaan.&quot;
 
-### ](/help/main/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] versie 2.5.0 van het Web SDK van 0} Adobe Experience Platform ![ (1 Juni, 2021)
+### ![ Adobe Experience Platform Web SDK badge ](/help/main/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] versie 2.5.0 (1 Juni, 2021)
 
 Deze versie van [!DNL Platform Web SDK] bevat ondersteuning voor het volgende:
 
 | Functie | Details |
 | --- | --- |
-| Ondersteuning omleiden met [!UICONTROL Analytics for Target] (A4T) | De SDK van het Web van het Platform steunt nu [!DNL Target] redirects wanneer het gebruiken van [ A4T ](/help/main/c-integrating-target-with-mac/a4t/a4t.md).<br> voor meer informatie, zie [ Analytics voor  [!DNL Target]  implementatie ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| Ondersteuning omleiden met [!UICONTROL Analytics for Target] (A4T) | Het Web SDK van het Platform steunt nu [!DNL Target] omleidingen wanneer het gebruiken van [ A4T ](/help/main/c-integrating-target-with-mac/a4t/a4t.md).<br> voor meer informatie, zie [ Analytics voor  [!DNL Target]  implementatie ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
 ### at.js versie 2.5.0 (13 mei 2021)
 
@@ -1062,7 +1131,7 @@ Het volgende probleem is opgelost in versie 1.0.1:
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| Java SDK | Met de [!DNL Target] Java SDK kunt u [!DNL Target] server-side implementeren. Met deze Java SDK kunt u [!DNL Target] eenvoudig integreren met andere [!DNL Adobe Experience Cloud] -oplossingen, zoals [!DNL Adobe Experience Cloud Identity Service] , [!DNL Adobe Analytics] en [!DNL Adobe Audience Manager] .<br> SDK van Java introduceert beste praktijken en verwijdert ingewikkeldheid wanneer het integreren met [!DNL Target] via onze levering API zodat uw techniekteams zich op bedrijfslogica kunnen concentreren. Hieronder volgen opmerkelijke elementen die we in de nieuwste versie introduceren:<ul><li>Ondersteuning voor prefetching en meldingen waarmee u de prestaties kunt optimaliseren via caching.</li><li>Ondersteuning voor het optimaliseren van prestaties wanneer u een hybride integratie van [!DNL Target] hebt op zowel uw webpagina&#39;s als op de server. We introduceren een instelling met de naam `serverState` die wordt gevuld met ervaringen die zijn opgehaald via de server-side, zodat at.js 2.2 niet langer een extra serveraanroep uitvoert om de ervaringen op te halen. Deze aanpak optimaliseert de prestaties bij het laden van pagina&#39;s.</li><li>Ondersteuning voor het ophalen van VEC-activiteiten via de Java SDK, wat mogelijk wordt gemaakt door de nieuwe Delivery API.</li><li>Open die zodat kunnen uw ontwikkelaars tot [ bijdragen van Java SDK van het Doel ](https://github.com/adobe/target-java-sdk).</li></ul>Leer meer over het Doel Java SDK op Blog van de Tech van de Adobe - [ Server-kant Optimalisering met het nieuwe Doel Java SDK ](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2). |
+| Java SDK | Met [!DNL Target] Java SDK kunt u [!DNL Target] server-side implementeren. Met deze Java SDK kunt u [!DNL Target] eenvoudig integreren met andere [!DNL Adobe Experience Cloud] -oplossingen, zoals [!DNL Adobe Experience Cloud Identity Service] , [!DNL Adobe Analytics] en [!DNL Adobe Audience Manager] .<br> Java SDK introduceert beste praktijken en verwijdert ingewikkeldheid wanneer het integreren met [!DNL Target] via onze levering API zodat uw techniekteams zich op bedrijfslogica kunnen concentreren. Hieronder volgen opmerkelijke elementen die we in de nieuwste versie introduceren:<ul><li>Ondersteuning voor prefetching en meldingen waarmee u de prestaties kunt optimaliseren via caching.</li><li>Ondersteuning voor het optimaliseren van prestaties wanneer u een hybride integratie van [!DNL Target] hebt op zowel uw webpagina&#39;s als op de server. We introduceren een instelling met de naam `serverState` die wordt gevuld met ervaringen die zijn opgehaald via de server-side, zodat at.js 2.2 niet langer een extra serveraanroep uitvoert om de ervaringen op te halen. Deze aanpak optimaliseert de prestaties bij het laden van pagina&#39;s.</li><li>Ondersteuning voor het ophalen van VEC-activiteiten via de Java SDK, wat mogelijk wordt gemaakt door de nieuwe Delivery API.</li><li>Open die zodat kunnen uw ontwikkelaars tot [ Doel Java SDK ](https://github.com/adobe/target-java-sdk) bijdragen.</li></ul>Leer meer over het Doel Java SDK op het Blog van de Tech van de Adobe - [ Server-kant Optimalisering met het nieuwe Doel Java SDK ](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2). |
 
 ### Target Standard/Premium 19.10.2 (31 oktober 2019)
 
@@ -1097,13 +1166,13 @@ Het volgende probleem is opgelost in versie 1.0.1:
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| versie 2.2 van at.js <br> en <br> at.js versie 1.8 | Deze versies van at.js verstrekken:<ul><li>Betere prestaties bij het gebruik van zowel Experience Cloud ID Service (ECID) v4.4 als at.js 2.2 of at.js 1.8 op uw webpagina&#39;s.</li><li>Eerder, maakte ECID twee blokkerende vraag alvorens at.js ervaringen kon halen. Dit is verminderd tot één enkele vraag, die beduidend prestaties verbetert.</li></ul> Om uit deze prestatiesverbeteringen voordeel te halen, bevorder aan at.js 2.2 of at.js 1.8 samen met ECID Bibliotheek v4.4.<br> at.js 2.2 verstrekt:<ul><li>**serverState**: Een plaatsend beschikbaar in at.js v2.2+ die kan worden gebruikt om paginaprestaties te optimaliseren wanneer een hybride integratie van Doel wordt uitgevoerd. Hybride integratie betekent dat u zowel at.js v2.2+ op de client-kant als de levering-API of een doel-SDK op de server-kant gebruikt om ervaringen te bieden. Met `serverState` kan at.js v2.2+ ervaringen rechtstreeks toepassen vanuit inhoud die aan de serverzijde is opgehaald en aan de client is geretourneerd als onderdeel van de pagina die wordt aangeboden.<br> voor meer informatie, zie &quot;serverState&quot;in [ targetGlobalSettings ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html) {target=_blank}.</li></ul> |
+| versie 2.2 van at.js <br> en <br> at.js versie 1.8 | Deze versies van at.js verstrekken:<ul><li>Betere prestaties bij het gebruik van zowel Experience Cloud ID Service (ECID) v4.4 als at.js 2.2 of at.js 1.8 op uw webpagina&#39;s.</li><li>Eerder, maakte ECID twee blokkerende vraag alvorens at.js ervaringen kon halen. Dit is verminderd tot één enkele vraag, die beduidend prestaties verbetert.</li></ul> Om uit deze prestatiesverbeteringen voordeel te halen, bevorder aan at.js 2.2 of at.js 1.8 samen met ECID Bibliotheek v4.4.<br> at.js 2.2 verstrekt:<ul><li>**serverState**: Een plaatsend beschikbaar in at.js v2.2+ die kan worden gebruikt om paginaprestaties te optimaliseren wanneer een hybride integratie van Doel wordt uitgevoerd. Hybride integratie betekent dat u zowel at.js v2.2+ aan de client-kant als de bezorgings-API of een Target SDK aan de serverzijde gebruikt om ervaringen te bieden. Met `serverState` kan at.js v2.2+ ervaringen rechtstreeks toepassen vanuit inhoud die aan de serverzijde is opgehaald en aan de client is geretourneerd als onderdeel van de pagina die wordt aangeboden.<br> voor meer informatie, zie &quot;serverState&quot;in [ targetGlobalSettings ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html) {target=_blank}.</li></ul> |
 
 ### Doelplatform (9 oktober 2019)
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| Node.js SDK versie 1.0 | Met de SDK van Target Node.js kunt u de doelserver implementeren.<br> Deze Node.js SDK helpt u Doel met andere oplossingen van het Experience Cloud, zoals de Dienst van de Identiteit van Adobe Experience Cloud, Adobe Analytics, en Adobe Audience Manager gemakkelijk integreren.<br> Node.js SDK introduceert beste praktijken en verwijdert ingewikkeldheid wanneer het integreren met Adobe Target via onze levering API zodat uw techniekteams zich op bedrijfslogica kunnen concentreren. Hieronder volgen opmerkelijke elementen die we in de nieuwste versie introduceren:<ul><li>Ondersteuning voor prefetching en meldingen waarmee u de prestaties kunt optimaliseren via caching.</li><li>Ondersteuning voor het optimaliseren van prestaties wanneer u een hybride integratie van Target hebt op zowel uw webpagina&#39;s als op de server. We introduceren een instelling met de naam `serverState` die wordt gevuld met ervaringen die zijn opgehaald via de server-side, zodat at.js 2.2 niet langer een extra serveraanroep uitvoert om de ervaringen op te halen. Deze aanpak optimaliseert de prestaties bij het laden van pagina&#39;s.</li><li> Steun voor het terugwinnen van VEC-gecreeerde activiteiten via Node.js SDK, die door nieuwe Levering API mogelijk wordt gemaakt.</li><li>Open-sourced zodat uw ontwikkelaars een bijdrage kunnen leveren aan de Node.js SDK.</li></ul> |
+| Node.js SDK versie 1.0 | Met de Target Node.js SDK kunt u de doelserver implementeren.<br> Dit Node.js SDK helpt u Doel met andere oplossingen van het Experience Cloud, zoals de Dienst van de Identiteit van Adobe Experience Cloud, Adobe Analytics, en Adobe Audience Manager gemakkelijk integreren.<br> Node.js SDK introduceert beste praktijken en verwijdert ingewikkeldheid wanneer het integreren met Adobe Target via onze levering API zodat uw techniekteams zich op bedrijfslogica kunnen concentreren. Hieronder volgen opmerkelijke elementen die we in de nieuwste versie introduceren:<ul><li>Ondersteuning voor prefetching en meldingen waarmee u de prestaties kunt optimaliseren via caching.</li><li>Ondersteuning voor het optimaliseren van prestaties wanneer u een hybride integratie van Target hebt op zowel uw webpagina&#39;s als op de server. We introduceren een instelling met de naam `serverState` die wordt gevuld met ervaringen die zijn opgehaald via de server-side, zodat at.js 2.2 niet langer een extra serveraanroep uitvoert om de ervaringen op te halen. Deze aanpak optimaliseert de prestaties bij het laden van pagina&#39;s.</li><li> Steun voor het terugwinnen van VEC-gecreeerde activiteiten via Node.js SDK, die door de nieuwe levering API mogelijk wordt gemaakt.</li><li>Open sourced zodat uw ontwikkelaars een bijdrage kunnen leveren aan de Node.js SDK.</li></ul> |
 | Leverings-API | Een geheel nieuw levering API eindpunt (/v1/levering) is beschikbaar in productie. Opmerkelijke functies zijn:<ul><li>Één eindpunt om ervaringen voor één of meerdere dozen terug te winnen.</li><li>Haal VEC-activiteiten op via de API.</li><li>Ondersteuning voor een geheel nieuw object genaamd Weergaven dat wordt gebruikt voor toepassingen voor één pagina (SPA) en mobiele toepassingen.</li></ul> |
 
 ### Target Standard/Premium 19.9.2 (30 september 2019)
@@ -1656,7 +1725,7 @@ Deze release bevat de volgende verbeteringen:
 
 * Bijgewerkt de apparatenlijst om de recentste telefoonmodellen te omvatten. De mogelijkheid om gerichte inhoud te leveren aan specifieke iPhone-modellen is toegevoegd met de marketingnaam of het apparaatmodel van het apparaat.
 
-  Klanten die de SDK voor mobiele apparaten gebruiken, hoeven niets te doen om deze functionaliteit te benutten. Klanten die at.js gebruiken, moeten een upgrade uitvoeren naar at.js versie 1.5.0.
+  Klanten die de Mobile SDK gebruiken, hoeven niets te doen om deze functionaliteit te benutten. Klanten die at.js gebruiken, moeten een upgrade uitvoeren naar at.js versie 1.5.0.
 
   Voor meer informatie, zie [ Mobiel ](/help/main/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89). (TNT-26714 &amp; TNT-28288)
 
@@ -2139,11 +2208,11 @@ Deze release bevat de volgende functies en verbeteringen (nummer van de uitgave 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Voorvertoning van mobiele beleving </p> </td> 
-   <td colname="col2"> <p><b> Bijgewerkt: 12 oktober, 2017 </b> </p> <p> U kunt nu meerdere activiteiten voor mobiele apps selecteren in de gebruikersinterface en deze voorvertonen op uw apparaat. Met deze functie kunt u zich inschrijven voor meerdere ervaringen voor voorvertonen en QA zonder te hoeven vertrouwen op speciale testbuilds en simulators. </p> <p>Deze functie vereist dat u de juiste versie 4.14 (of hoger) van de Adobe Mobile SDK downloadt en installeert. </p> <p>Zie <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html" format="dita" scope="local"> Mobiele voorvertoning doel </a> voor meer informatie. </p> </td> 
+   <td colname="col2"> <p><b> Bijgewerkt: 12 oktober, 2017 </b> </p> <p> U kunt nu meerdere activiteiten voor mobiele apps selecteren in de gebruikersinterface en deze voorvertonen op uw apparaat. Met deze functie kunt u zich inschrijven voor meerdere ervaringen voor voorvertonen en QA zonder te hoeven vertrouwen op speciale testbuilds en simulators. </p> <p>Voor deze functie is het vereist dat u de juiste versie 4.14 (of hoger) van de Adobe Mobile SDK downloadt en installeert. </p> <p>Zie <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html" format="dita" scope="local"> Mobiele voorvertoning doel </a> voor meer informatie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mobiele batchverwerking en levering vooraf </p> </td> 
-   <td colname="col2"> <p><b> Bijgewerkt: 12 oktober, 2017 </b> </p> <p> De inhoud voor veelvoudige dozen kan in één enkele vraag worden pre-opgehaald en plaatselijk in het voorgeheugen ondergebracht op het apparaat zonder zich het ongerust maken hoe, wanneer, en als de eindgebruiker de inhoud zal zien. </p> <p>Deze functie vereist dat u de juiste versie 4.14 (of hoger) van de Adobe Mobile SDK downloadt en installeert. </p> <p>Zie <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local"> Inhoud prefetch-aanbieding </a> voor meer informatie. </p> </td> 
+   <td colname="col2"> <p><b> Bijgewerkt: 12 oktober, 2017 </b> </p> <p> De inhoud voor veelvoudige dozen kan in één enkele vraag worden pre-opgehaald en plaatselijk in het voorgeheugen ondergebracht op het apparaat zonder zich het ongerust maken hoe, wanneer, en als de eindgebruiker de inhoud zal zien. </p> <p>Voor deze functie is het vereist dat u de juiste versie 4.14 (of hoger) van de Adobe Mobile SDK downloadt en installeert. </p> <p>Zie <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local"> Inhoud prefetch-aanbieding </a> voor meer informatie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activiteiten </p> </td> 
@@ -2181,7 +2250,7 @@ Deze release bevat de volgende functies en verbeteringen (nummer van de uitgave 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Node.JS SDK </p> </td> 
-   <td colname="col2"> <p>U kunt de SDK van node.js installeren vanaf <a href="https://www.npmjs.com/package/@adobe/target-node-client" format="https" scope="external"> npm @adobe/target-node-client </a> om servertests op uw node.js-toepassingen eenvoudig te implementeren en uit te voeren. De service VisitorID is ingeschakeld in het knooppunt-SDK om al uw Adobe-gegevens te verbinden en u kunt ervoor kiezen om Adobe Analytics te gebruiken als uw rapportbron (A4T). </p> </td> 
+   <td colname="col2"> <p>U kunt de SDK node.js vanaf <a href="https://www.npmjs.com/package/@adobe/target-node-client" format="https" scope="external"> npm @adobe/target-node-client </a> installeren om servertests op uw node.js-toepassingen eenvoudig te implementeren en uit te voeren. De dienst VisitorID wordt toegelaten in de knoop SDK om al uw Adobe gegevens aan te sluiten en u kunt verkiezen om Adobe Analytics als uw rapporteringsbron (A4T) te gebruiken. </p> </td> 
   </tr> 
  </tbody> 
 </table>
