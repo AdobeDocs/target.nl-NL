@@ -7,9 +7,10 @@ feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
+exl-id: baf939d8-1f6d-4586-8323-69f818a5ef1a
+source-git-commit: 266b854f819d358afa464e65245900cbf7281c3e
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
@@ -31,8 +32,15 @@ Er zijn twee opties beschikbaar voor uw besturing in uw [!UICONTROL Automated Pe
 ## Een specifieke ervaring opgeven als besturingselement
 
 1. Tijdens het creëren van of het uitgeven van een [[!UICONTROL Automated Personalization] activiteit ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) of [[!UICONTROL Auto-Target] activiteit ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), vorm de ervaringen zoals gewenst.
-1. Selecteer op de pagina [!UICONTROL Targeting] (stap 2 van de geleide workflow met drie delen) de gewenste ervaring als besturingselement.
-1. Specificeer de gewenste verkeerstoewijzing voor de controleervaring en de andere ervaringen.
+1. Klik op de pagina [!UICONTROL Targeting] (stap 2 van de geleide workflow met drie delen) op de besturingservaring om [!UICONTROL Control] -opties weer te geven in het rechterdeelvenster.
+
+   ![ ruit van de Controle ](/help/main/c-activities/t-automated-personalization/assets/control.png)
+
+1. Selecteer [!UICONTROL Random Experience] in de vervolgkeuzelijst [!UICONTROL Control] of selecteer de gewenste ervaring die u voor het besturingselement wilt gebruiken.
+
+1. Klik de [!UICONTROL Traffic Allocation] controle, dan specificeer de gewenste verkeerstoewijzing voor de controleervaring en de andere ervaringen.
+
+   ![ spoorstaaf van de Verkeerstoewijzing van het Verkeer ](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation.png)
 
    Voor een specifieke ervaringscontrole wordt 10% tot 30% aanbevolen.
 
