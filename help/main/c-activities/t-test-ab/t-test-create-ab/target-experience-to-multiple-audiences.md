@@ -1,19 +1,19 @@
 ---
 keywords: meerdere soorten publiek;ervaringsversies;doelervaringsversies
-description: Leer hoe u versies van dezelfde ervaring kunt richten op verschillende soorten publiek in [!DNL Adobe Target] A/B-activiteiten.
+description: Ontdek hoe te om verschillende publiekssegmenten met versies van de zelfde ervaring in A/B activiteiten te richten.
 title: Kan ik veelvoudige ervaringsversies in een activiteit A/B gebruiken?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: 3adf1e763e6fabec28aacd63219b8e53e638c1b6
+source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
 
 # Meerdere ervaringsdoelgroepen in een A/B-test
 
-U kunt in [!DNL Adobe Target] A/B-activiteiten. U kunt meerdere soorten publiek instellen voor een ervaring in het dialoogvenster [!UICONTROL Visual Experience Composer] (VEC) of in de Form-Based Experience Composer.
+U kunt versies van dezelfde ervaring richten op verschillende soorten publiek in [!DNL Adobe Target] A/B-activiteiten. U kunt meerdere soorten publiek instellen voor een ervaring in de [!UICONTROL Visual Experience Composer] (VEC) of in de Form-Based Experience Composer.
 
 Bezoekers kunnen schakelen tussen ervaringspersoneel wanneer hun profiel verandert. Bezoekers zitten niet vast in dezelfde ervaring gedurende de levensduur van de activiteit.
 
@@ -29,19 +29,15 @@ U test twee ervaringen, een geo-gerichte banner versus een generische banner. De
 
 In dit geval hebt u geospecifieke versies van de ervaring nodig, zodat u de geo-gerichte ervaring kunt testen tegen een niet-geo-gerichte controle.
 
-1. [Een A/B-activiteit maken](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) zoals u normaal zou doen.
+1. [ creeer een activiteit A/B ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) aangezien u normaal zou.
 
    Wanneer het vormen van de ervaring die veelvoudige versies zal hebben, selecteer het publiek voor elke versie, zoals aangetoond in de volgende stappen.
 
-1. Selecteer de ervaring en klik op **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
+1. Selecteer de ervaring en klik vervolgens op **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]** .
 
-   ![Meerdere soorten publiek, optie](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
+1. Klik het **[!UICONTROL Add Audience]** pictogram ( ![ voeg pictogram ](/help/main/assets/icons/Add.svg) toe) in de [!UICONTROL Experience Audiences] ruit, dan selecteer het eerste publiek u wilt richten. Herhaal dit voor elk publiek.
 
-1. Klikken **[!UICONTROL Add Audience]** Selecteer vervolgens het eerste publiek waarvoor u een doelgroep wilt instellen. Herhaal dit voor elk publiek.
-
-   ![exp-versieafbeelding](assets/exp-versions.png)
-
-   Als het publiek nog niet bestaat, klikt u [Publiek maken](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) en zet het op.
+   Als het publiek nog niet bestaat, klik [ leidt tot Audience ](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) en opstelling het.
 
    Als een bezoeker voor meer dan één publiek in aanmerking komt, wordt de inhoud voor alle soorten publiek geretourneerd, waarbij de laatste in de lijst daadwerkelijk op de pagina wordt weergegeven.
 
@@ -51,4 +47,4 @@ In dit geval hebt u geospecifieke versies van de ervaring nodig, zodat u de geo-
 
 * Kies wederzijds exclusief publiek. Als de activiteit in VEC werd gecreeerd, als een bezoeker meer dan één publiek aanpast, is de inhoud voor elk publiek teruggekeerd, met de inhoud voor het publiek dat voor het laatst op de pagina wordt vermeld.
 * Het in het diagram gedefinieerde publiek voor activiteit en toegang wordt gecombineerd met het ervaringspubliek met behulp van een AND-voorwaarde. Om de activiteit binnen te gaan, moet een bezoeker voor het activiteitenpubliek, en één van de ervaringspubliek in aanmerking komen.
-* Voeg hetzelfde publiek toe als segmenten voor rapporten. Dit helpt u de testresultaten bij het hoge niveau van ervaring A tegenover B bekijken, en op het lagere niveau van ervaring A tegenover B voor enkel &quot;browser lang ja_JP.&quot; Dit werkt alleen voor [!DNL Target]-gebaseerde rapporten, niet [!DNL Analytics]-gebaseerde rapporten.
+* Voeg hetzelfde publiek toe als segmenten voor rapporten. Dit helpt u de testresultaten bij het hoge niveau van ervaring A tegenover B bekijken, en op het lagere niveau van ervaring A tegenover B voor enkel &quot;browser lang ja_JP.&quot; Dit werkt alleen voor [!DNL Target] -rapporten, niet voor [!DNL Analytics] -rapporten.

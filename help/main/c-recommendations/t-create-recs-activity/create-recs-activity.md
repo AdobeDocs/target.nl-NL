@@ -1,48 +1,44 @@
 ---
 keywords: aanbevelingen maken;aanbevelingen, activiteit;nieuwe aanbevelingen;aanbevelingen, overzicht
-description: Leer hoe te om de Adobe  [!DNL Target]  Visuele Composer van de Ervaring (VEC) te gebruiken om een activiteit van Recommendations direct op a  [!DNL Target]-Toegelaten pagina tot stand te brengen.
-title: Hoe maak ik een Recommendations-activiteit?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
+description: Leer hoe te om  [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) te gebruiken om a  [!DNL Recommendations]  activiteit tot stand te brengen.
+title: Hoe creeer ik a [!DNL Recommendations]  Activiteit?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 3c687b2d28f576a60951c8bb10434250104500b4
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
 
-# Een Recommendations-activiteit maken
+# Een [!DNL Recommendations] activiteit maken
 
-Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit van Recommendations direct op een Doel-Toegelaten pagina tot stand te brengen en gedeelten van de pagina binnen Doel te wijzigen.
+Gebruik [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) om een [!DNL Recommendations] -activiteit rechtstreeks op een pagina met [!DNL Target] activering te maken en om delen van de pagina binnen [!DNL Target] te wijzigen.
 
 1. Klik op **[!UICONTROL Activities]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
 
-1. Selecteer **[!UICONTROL Visual (Default)]**, indien nodig.
+1. Selecteer **[!UICONTROL Visual]**, indien nodig.
 
-   ![ creeer de dialoogdoos van de Activiteit van Recommendations ](/help/main/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
-
-   Selecteer [!UICONTROL Form] als u liever de Form-Based Experience Composer wilt gebruiken. Zie [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) voor meer informatie.
+   Selecteer [!UICONTROL Form] als u de [!UICONTROL Form-Based Experience Composer] -toets liever wilt gebruiken. Zie [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) voor meer informatie.
 
    >[!NOTE]
    >
-   >Naast de VEC en Form-Based Experience Composer, biedt Target de Single Page Application VEC en de VEC voor Mobile Apps. Voor meer informatie over de diverse composers, zie [ Ervaringen en Aanbiedingen ](/help/main/c-experiences/experiences.md).
+   >Naast de VEC en [!UICONTROL Form-Based Experience Composer] biedt [!DNL Target] ook de VEC. [!UICONTROL Single Page Application] Voor meer informatie over de diverse composers, zie [ Ervaringen en Aanbiedingen ](/help/main/c-experiences/experiences.md).
    >
    >Voor het oplossen van problemeninformatie over VEC, als u problemen hebt, zie [ het Oplossen van problemen de Visuele Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
-   >
-   >De [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) optie in de voorafgaande illustratie is a [ eigenschap van de Premie van het Doel ](/help/main/c-intro/intro.md). Uw organisatie heeft een Target Standard-licentie als deze optie niet wordt weergegeven.
 
-1. (Voorwaardelijk) als u de klant van de Premium van het a [ Doel ](/help/main/c-intro/intro.md#premium) bent, kies a [ werkruimte ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Voorwaardelijk) kies a [ werkruimte ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. Geef een activiteit-URL op en klik op **[!UICONTROL Next]** .
+1. Geef een activiteit-URL op en klik op **[!UICONTROL Create]** .
 
    >[!NOTE]
    >
    >[!DNL Target] maakt geen onderscheid tussen URL-protocollen ( [!DNL https] en [!DNL http] ). Hierdoor komen [!DNL `http://www.adobe.com`] en [!DNL `https://wwww.adobe.com`] beide overeen.
 
-   De activiteiten-URL is de pagina waarop de aanbevelingen worden weergegeven.
+   De activiteit-URL is de pagina waarop de aanbevelingen worden weergegeven.
 
-   Wanneer u [!UICONTROL Next] klikt, opent VEC en toont uw pagina. U kunt een huidig element met aanbevelingen, of tussenvoegselaanbevelingen vervangen.
+   Wanneer u [!UICONTROL Create] klikt, opent VEC en toont uw pagina. U kunt een huidig element met aanbevelingen, of tussenvoegselaanbevelingen vervangen.
 
 1. Klik op een element op de pagina en klik op **[!UICONTROL Replace w/ Recommendations]** , **[!UICONTROL Insert Recommendations Before]** of **[!UICONTROL Insert Recommendations After]** als er aanbevelingen beschikbaar zijn op de locatie van dat element.
 

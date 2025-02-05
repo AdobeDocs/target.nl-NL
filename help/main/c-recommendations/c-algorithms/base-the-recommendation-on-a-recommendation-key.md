@@ -1,111 +1,111 @@
 ---
 keywords: aanbeveling sleutel;aanbeveling logica;huidige categorie;aangepast kenmerk;laatst gekocht item;laatst bekeken item;meest bekeken item;meest bekeken item;favoriete categorie;populariteit;onlangs bekeken item;laatst gekocht;laatst bekeken item;laatst bekeken;meest bekeken;meest bekeken;favoriet;onlangs bekeken
-description: Leer hoe u aanbevelingen kunt gebruiken op basis van toetsen die de gedragscontext van de bezoeker gebruiken om relevante resultaten in de Adobe weer te geven [!DNL Target] Recommendations-activiteiten
-title: Hoe baseer ik de Aanbeveling op een Sleutel van de Aanbeveling?
+description: Leer hoe u aanbevelingen kunt gebruiken op basis van toetsen die de context van het gedrag van de bezoeker gebruiken om relevante resultaten in [!UICONTROL Recommendations] -activiteiten weer te geven.
+title: Hoe baseer ik de [!UICONTROL Recommendation] op een [!UICONTROL Recommendation Key]?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '3845'
+source-wordcount: '3463'
 ht-degree: 0%
 
 ---
 
 # De aanbeveling baseren op een aanbevelingen
 
-Recommendations op basis van algoritmen gebruikt de gedragscontext van de bezoeker om relevante resultaten weer te geven in [!DNL Adobe Target] [!DNL Recommendations] activiteiten.
+Recommendations op basis van algoritmen gebruikt de context van het bezoekersgedrag om relevante resultaten in [!DNL Adobe Target] [!DNL Recommendations] -activiteiten weer te geven.
 
 Elk type algoritme verstrekt verschillende algoritmen aangewezen voor zijn type, zoals aangetoond in de volgende lijst:
 
-| Het type Algorithm | Wanneer gebruiken | Beschikbare algoritmen |
-| --- | --- | --- |
-| [!UICONTROL Cart-Based] | Aanbevelingen doen op basis van de inhoud van het winkelwagentje. | <ul><li>Personen die ze bekeken, bekeken ze</li><li>Mensen die ze bekeken, kochten hen</li><li>Mensen die deze hebben gekocht, hebben de</li></ul> |
-| [!UICONTROL Popularity-Based] | Aanbevelingen doen op basis van de algemene populariteit van een item op uw site of op basis van de populariteit van items in de favoriete of meest bekeken categorie, het merk, het genre enzovoort van een gebruiker. | <ul><li>Meest bekeken op de site</li><li>Meest bekeken op rubriek</li><li>Meest bekeken door kenmerk Item</li><li>Topverkopers op de hele site</li><li>Topverkopers op rubriek</li><li>Topverkopers op objectkenmerk</li><li>Metrisch, boven op Analytics</li></ul> |
-| [!UICONTROL Item-Based] | Aanbevelingen doen op basis van het zoeken naar objecten die vergelijkbaar zijn met een item dat de gebruiker momenteel bekijkt of onlangs heeft bekeken. | <ul><li>Personen die dit hebben bekeken, zagen het volgende</li><li>Mensen die dit bekeken hebben, hebben het volgende gekocht</li><li>Mensen die dit hebben gekocht, hebben het volgende gekocht</li><li>Objecten met vergelijkbare kenmerken</li></ul> |
-| [!UICONTROL User-Based] | Aanbevelingen doen op basis van het gedrag van de gebruiker. | <ul><li>Onlangs bekeken objecten</li><li>Aanbevolen voor u</li></ul> |
-| [!UICONTROL Custom Criteria] | Aanbevelingen doen op basis van een aangepast bestand dat u uploadt. | <ul><li>Aangepast algoritme</li></ul> |
+| Het type Algorithm | Wanneer/Beschikbare algoritmen gebruiken |
+| --- | --- |
+| [!UICONTROL Cart-Based] | Aanbevelingen doen op basis van de inhoud van het winkelwagentje.<ul><li>[!UICONTROL People Who Viewed These, Also Viewed]</li><li>[!UICONTROL People Who Viewed These, Also Bought]</li><li>[!UICONTROL People Who Bought These, Also Bought]</li></ul> |
+| [!UICONTROL Popularity-Based] | Aanbevelingen doen op basis van de algemene populariteit van een item op uw site of op basis van de populariteit van items in de favoriete of meest bekeken categorie, het merk, het genre enzovoort van een gebruiker. <ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul> |
+| [!UICONTROL Item-Based] | Aanbevelingen doen op basis van het zoeken naar objecten die vergelijkbaar zijn met een item dat de gebruiker momenteel bekijkt of onlangs heeft bekeken. <ul><li>[!UICONTROL People Who Viewed This, Viewed That]</li><li>[!UICONTROL People Who Viewed This, Bought That]</li><li>[!UICONTROL People Who Bought This, Bought That]</li><li>[!UICONTROL Items with Similar Attributes]</li></ul> |
+| [!UICONTROL User-Based] | Aanbevelingen doen op basis van het gedrag van de gebruiker. <ul><li>[!UICONTROL Recently Viewed Items]</li><li>[!UICONTROL Recommended for You]</li></ul> |
+| [!UICONTROL Custom Criteria] | Aanbevelingen doen op basis van een aangepast bestand dat u uploadt. <ul><li>Aangepast algoritme</li></ul> |
 
 Elk criterium wordt gedefinieerd in een eigen tabblad. Het verkeer wordt gelijkmatig verdeeld over uw verschillende criteria testen. Met andere woorden, als je twee criteria hebt, is het verkeer gelijk verdeeld. Als u twee criteria en twee ontwerpen hebt, wordt het verkeer gelijkmatig verdeeld tussen de vier combinaties. U kunt ook een percentage bezoekers van de site opgeven die de standaardinhoud ter vergelijking zien. In dat geval ziet het opgegeven percentage bezoekers de standaardinhoud en worden de rest opgedeeld tussen uw criteria en ontwerpcombinaties.
 
-Voor meer informatie over het creëren van criteria en het bepalen van zijn algoritmenypes en algoritmen, zie [Criteria maken](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
+Voor meer informatie over het creëren van criteria en het bepalen van zijn algoritmenypes en algoritmen, zie [ criteria ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) creëren.
 
 Verschillende aanbevelingen voor algoritmen kunnen op verschillende typen pagina&#39;s worden geplaatst. Raadpleeg de volgende secties voor meer informatie over elk type algoritme en de beschikbare algoritmen.
 
 ## Op basis van winkelwagentje {#cart-based}
 
-De [!UICONTROL Cart-Based] het type van algoritme laat punten adviseren die op de inhoud van de huidige kar van de bezoeker worden gebaseerd. De aanbevelingen sleutels worden geleverd door [mbox, parameter `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} in door komma&#39;s gescheiden waarden. Alleen de eerste tien waarden worden in aanmerking genomen.
+Met het algoritme [!UICONTROL Cart-Based] kunt u items aanbevelen op basis van de inhoud van het huidige winkelwagentje van de bezoeker. De aanbevelingssleutels worden geleverd door [ mbox parameter `cartIds` ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html) {target=_blank} in komma-gescheiden waarden. Alleen de eerste tien waarden worden in aanmerking genomen.
 
-De logica van een op winkelwagentje gebaseerde aanbeveling is vergelijkbaar met &quot;[!UICONTROL Recommended For You]&quot; op gebruiker gebaseerd algoritme en aan &quot;[!UICONTROL People Who Viewed These, Bought Those]&quot; en &quot;[!UICONTROL People Who Bought These, Bought Those]&quot; op items gebaseerde algoritmen.
+De op kunst-gebaseerde aanbeveling logica is gelijkaardig aan &quot;[!UICONTROL Recommended For You]&quot;op gebruiker-gebaseerd algoritme en aan &quot;[!UICONTROL People Who Viewed These, Bought Those]&quot;en &quot;[!UICONTROL People Who Bought These, Bought Those]&quot;op punt-gebaseerde algoritmen.
 
-[!DNL Target] gebruikt samenwerkings het filtreren technieken om gelijkenissen voor elk punt in de kar van de bezoeker te bepalen, dan combineert deze gedragsgelijkenissen over elk punt om een samengevoegde lijst te krijgen.
+[!DNL Target] gebruikt samenwerkende filtertechnieken om gelijkenissen voor elk punt in de kar van de bezoeker te bepalen, dan combineert deze gedragsgelijkenissen over elk punt om een samengevoegde lijst te krijgen.
 
-[!DNL Target] biedt marketers ook de keuze om het gedrag van bezoekers binnen één sessie of over meerdere sessies te bekijken:
+[!DNL Target] biedt marketers ook de keuze om het gedrag van de bezoeker binnen één sessie of over meerdere sessies te bekijken:
 
 * **[!UICONTROL Single Session]**: Gebaseerd op wat andere bezoekers binnen één sessie deden.
 
   Het bekijken van gedrag binnen één enkele zitting zou kunnen zinvol zijn wanneer er een gevoel is dat de producten sterk &quot;met&quot;elkaar op een gebruik, een gelegenheid, of een gebeurtenis &quot;gaan. Een bezoeker koopt bijvoorbeeld een printer en heeft inkt en papier nodig. Of een bezoeker koopt pindakaas en heeft misschien ook brood en gelei nodig.
 
-* **[!UICONTROL Across Sessions]**: Gebaseerd op wat andere bezoekers tijdens meerdere sessies deden.
+* **[!UICONTROL Across Sessions]**: Gebaseerd op wat andere bezoekers tijdens meerdere sessies hebben gedaan.
 
-  Wanneer u gedrag in meerdere sessies bekijkt, kan het logisch zijn dat producten sterk &quot;met elkaar meegaan&quot; op basis van de voorkeur of smaak van de bezoeker. Bijvoorbeeld, houdt een bezoeker van Star Wars en zou ook als Indiana Jones kunnen houden, zelfs als de bezoeker niet noodzakelijk beide films in de zelfde vergadering wil bekijken. Of een bezoeker houdt van het bordspel &quot;Codenames&quot; en zou ook van het bordspel &quot;Avalon&quot; kunnen houden, zelfs als de bezoeker beide games niet gelijktijdig kan spelen. 
+  Wanneer u gedrag in meerdere sessies bekijkt, kan het logisch zijn dat producten sterk &quot;met elkaar meegaan&quot; op basis van de voorkeur of smaak van de bezoeker. Bijvoorbeeld, houdt een bezoeker van Star Wars en zou ook als Indiana Jones kunnen houden, zelfs als de bezoeker niet noodzakelijk beide films in de zelfde vergadering wil bekijken. Of een bezoeker houdt van het bordspel &quot;Codenames&quot; en zou ook van het bordspel &quot;Avalon&quot; kunnen houden, zelfs als de bezoeker beide games niet gelijktijdig kan spelen.
 
-[!DNL Target] doet aanbevelingen voor elke bezoeker op de punten in hun huidige kar wordt gebaseerd die, ongeacht of u bezoekersgedrag binnen één enkele zitting of over veelvoudige zittingen bekijkt.
+[!DNL Target] geeft aanbevelingen voor elke bezoeker op basis van de items in zijn huidige winkelwagentje, ongeacht of u het gedrag van de bezoeker in één sessie of in meerdere sessies bekijkt.
 
-De volgende algoritmen zijn beschikbaar met de [!UICONTROL Cart-Based] type algoritme:
+De volgende algoritmen zijn beschikbaar met het algoritme [!UICONTROL Cart-Based] type:
 
-### [!UICONTROL People Who Viewed This, Viewed Those]
+### [!UICONTROL People Who Viewed This, Also Viewed]
 
 Hiermee worden items aanbevolen die het vaakst worden weergegeven in dezelfde sessie als waarin het opgegeven item wordt weergegeven.
 
-Deze logica retourneert andere producten die worden weergegeven nadat deze is bekeken. Het opgegeven product is niet opgenomen in de resultatenset.
+Deze logica retourneert andere producten die worden weergegeven na het bekijken van deze logica. Het opgegeven product wordt niet opgenomen in de resultatenset.
 
 Met deze logica kunt u aanvullende conversiemogelijkheden creëren door items aan te bevelen die andere bezoekers die een item hebben bekeken, ook hebben weergegeven. Bezoekers die op uw site fietsen bekijken, kunnen bijvoorbeeld ook fietshelmen, fietskits, sloten enzovoort bekijken. U kunt een aanbeveling tot stand brengen gebruikend deze logica die andere producten aanbeveelt u helpen opbrengst verhogen.
 
 Als u dit algoritme selecteert, kunt u de volgende Recommendations-toetsen selecteren:
 
-* Huidig item
-* Laatst gekocht object
-* Laatst weergegeven item
-* Meest bekeken item
+* [!UICONTROL Current Item]
+* [!UICONTROL Last Purchased Item]
+* [!UICONTROL Last Viewed Item]
+* [!UICONTROL Most Viewed Item]
 
-### Mensen die dit bekeken hebben, kochten hen
+### [!UICONTROL People Who Viewed This, Also Bought]
 
-Hiermee raadt u objecten aan die het vaakst worden aangeschaft in dezelfde sessie als waarin het opgegeven item wordt weergegeven. Dit criterium retourneert andere producten die mensen hebben aangeschaft nadat deze is bekeken. Het opgegeven product is niet opgenomen in de resultatenset.
+Hiermee raadt u objecten aan die het vaakst worden aangeschaft in dezelfde sessie als waarin het opgegeven item wordt weergegeven.
 
-Deze logica retourneert andere producten die mensen hebben gekocht na het bekijken van deze software. Het opgegeven product is niet opgenomen in de resultatenset.
+Deze logica retourneert andere producten die mensen hebben gekocht na het bekijken van deze logica. Het opgegeven product wordt niet opgenomen in de resultatenset.
 
 Met deze logica kunt u de mogelijkheden voor cross-selling vergroten door bijvoorbeeld een aanbeveling weer te geven op een productpagina die items weergeeft die andere bezoekers hebben bekeken die het object hebben aangeschaft. Als de bezoeker bijvoorbeeld een vispool bekijkt, kan de aanbeveling extra items weergeven die andere bezoekers hebben aangeschaft, zoals hakbalken, golven en blaasjes. Wanneer bezoekers door uw site bladeren, geeft u hun aanvullende aankoopaanbevelingen.
 
 Als u dit algoritme selecteert, kunt u de volgende Recommendations-toetsen selecteren:
 
-* Huidig item
-* Laatst gekocht object
-* Laatst weergegeven item
-* Meest bekeken item
+* [!UICONTROL Current Item]
+* [!UICONTROL Last Purchased Item]
+* [!UICONTROL Last Viewed Item]
+* [!UICONTROL Most Viewed Item]
 
-### De mensen die dit hebben gekocht, hebben de
+### [!UICONTROL People Who Bought This, Also Bought]
 
 Aanbevolen objecten die het meest door klanten tegelijk met het opgegeven item worden aangeschaft.
 
-Deze logica retourneert andere producten die mensen hebben gekocht na deze aankoop. Het opgegeven product is niet opgenomen in de resultatenset.
+Deze logica retourneert andere producten die mensen hebben gekocht na deze aankoop. Het opgegeven product wordt niet opgenomen in de resultatenset.
 
 Met deze logica kunt u de mogelijkheden voor cross-selling vergroten door bijvoorbeeld een aanbeveling weer te geven op een overzichtspagina van winkelwagentjes waarin objecten worden weergegeven die andere kopers ook hebben gekocht. Als de bezoeker bijvoorbeeld een pak koopt, kan de aanbeveling extra artikelen weergeven die andere bezoekers samen met het pak hebben gekocht, zoals bijvoorbeeld banden, jurkschoenen en knipsels. Wanneer bezoekers hun aankopen bekijken, geeft u aanvullende aanbevelingen aan hen.
 
 Als u dit algoritme selecteert, kunt u de volgende Recommendations-toetsen selecteren:
 
-* Huidig item
-* Laatst gekocht object
-* Laatst weergegeven item
-* Meest bekeken item
+* [!UICONTROL Current Item]
+* [!UICONTROL Last Purchased Item]
+* [!UICONTROL Last Viewed Item]
+* [!UICONTROL Most Viewed Item]
 
 ## [!UICONTROL Popularity-Based]
 
-De [!UICONTROL Popularity-Based] Met het type algoritme kunt u aanbevelingen doen op basis van de algemene populariteit van een item op uw site of op basis van de populariteit van items in de favoriete of meest bekeken categorie, het merk, het genre enzovoort van een gebruiker.
+Met het algoritme [!UICONTROL Popularity-Based] kunt u aanbevelingen doen op basis van de algemene populariteit van een item op uw site of op basis van de populariteit van items in de favoriete of meest bekeken categorie, het merk, het genre enzovoort van een gebruiker.
 
-De volgende algoritmen zijn beschikbaar met de [!UICONTROL Popularity-Based] type algoritme:
+De volgende algoritmen zijn beschikbaar met het algoritme [!UICONTROL Popularity-Based] type:
 
-### Meest bekeken op de site {#most-viewed}
+### [!UICONTROL Most Viewed Across the Site] {#most-viewed}
 
 De aanbeveling wordt bepaald door het punt dat het vaakst is bekeken. Dit wordt bepaald aan de hand van de recenentie-/frequentiecriteria die als volgt werken:
 
@@ -113,11 +113,11 @@ De aanbeveling wordt bepaald door het punt dat het vaakst is bekeken. Dit wordt 
 * 5 punten voor elke volgende weergave
 * Aan het einde van de sessie worden alle waarden door 2 gedeeld
 
-Als u bijvoorbeeld surfboardA en surfboardB in één sessie weergeeft, resulteert dit in A: 10, B: 5. Wanneer de sessie wordt beëindigd, hebt u A: 5, B: 2.5. Als u dezelfde items in de volgende sessie bekijkt, veranderen de waarden in A: 15 B: 7.5.
+Als u bijvoorbeeld surfboard A en daarna surfboard B in één sessie weergeeft, resulteert dit in A: 10, B: 5. Wanneer de sessie wordt beëindigd, hebt u A: 5, B: 2.5. Als u dezelfde items in de volgende sessie bekijkt, veranderen de waarden in A: 15 B: 7.5.
 
 Gebruik dit algoritme op algemene pagina&#39;s, zoals startpagina&#39;s of bestemmingspagina&#39;s en offsite advertenties.
 
-### Meest bekeken op rubriek {#most-viewed-category}
+### [!UICONTROL Most Viewed by Category] {#most-viewed-category}
 
 De aanbeveling wordt bepaald door de categorie die de meeste activiteit heeft ontvangen, gebruikend de zelfde methode die voor &quot;het meest bekeken punt&quot;wordt gebruikt behalve dat de categorieën in plaats van producten worden gescoord.
 
@@ -128,16 +128,16 @@ Dit wordt bepaald aan de hand van de recenentie-/frequentiecriteria die als volg
 
 De categorieën die voor het eerst worden bezocht, krijgen 10 punten. 5 punten voor latere bezoeken aan dezelfde categorie. Bij elk bezoek worden niet-huidige categorieën die eerder zijn bekeken, verlaagd met 1.
 
-Als u bijvoorbeeld CategorieA en daarna CategorieB in één sessie weergeeft, resulteert dit in A: 9, B: 10. Als u dezelfde items in de volgende sessie weergeeft, veranderen de waarden in A: 20 B: 9.
+Als u bijvoorbeeld categorie A en vervolgens categorie B in één sessie weergeeft, resulteert dit in A: 9, B: 10. Als u dezelfde items in de volgende sessie weergeeft, veranderen de waarden in A: 20 B: 9.
 
 Gebruik dit algoritme op algemene pagina&#39;s, zoals startpagina&#39;s of bestemmingspagina&#39;s en offsite advertenties.
 
 Als u het algoritme Meest bekeken door Categorie selecteert, kunt u de volgende Sleutels van Recommendations selecteren:
 
-* Huidige rubriek
-* Favoriete rubriek
+* [!UICONTROL Current Category]
+* [!UICONTROL Favorite Category]
 
-### Meest bekeken door kenmerk Item
+### [!UICONTROL Most Viewed by Item Attribute]
 
 Aanbevolen items of media die vergelijkbaar zijn met de meest bekeken items of media op uw site.
 
@@ -145,24 +145,24 @@ Met dit algoritme kunt u selecteren op welk itemkenmerk u de aanbeveling wilt ba
 
 Vervolgens selecteert u welke profielkenmerken uit het profiel van de bezoeker overeenkomen, bijvoorbeeld Favoriete merk, Laatste object toegevoegd aan winkelwagentje of Meest bekeken presentatie.
 
-### Topverkopers op de hele site {#top-sellers}
+### [!UICONTROL Top Sellers Across the Site] {#top-sellers}
 
 Toont de punten die in de meest voltooide orden van over de plaats inbegrepen zijn. Meerdere eenheden van hetzelfde item in één volgorde worden als één volgorde geteld.
 
 Met dit algoritme kunt u aanbevelingen maken voor de meest verkochte items op uw site om de conversie en de inkomsten te verhogen. Deze logica is vooral geschikt voor nieuwe bezoekers van uw site.
 
-### Topverkopers op rubriek
+### [!UICONTROL Top Sellers by Category]
 
 Hiermee geeft u de items weer die zijn opgenomen in de meest voltooide bestellingen per categorie. Meerdere eenheden van hetzelfde item in één volgorde worden als één volgorde geteld.
 
 Met dit algoritme kunt u aanbevelingen maken voor de meest verkochte items op uw site op basis van categorie om de conversie en de omzet te verhogen. Deze logica is vooral geschikt voor nieuwe bezoekers van uw site.
 
-Als u het algoritme Meest bekeken door Categorie selecteert, kunt u de volgende Sleutels van Recommendations selecteren:
+Als u het algoritme [!UICONTROL Most Viewed by Category] selecteert, kunt u het volgende selecteren [!UICONTROL Recommendations Keys] :
 
-* Huidige rubriek
-* Favoriete rubriek
+* [!UICONTROL Current Category]
+* [!UICONTROL Favorite Category]
 
-### Topverkopers op objectkenmerk
+### [!UICONTROL Top Sellers by Item Attribute]
 
 Aanbevolen objecten of media die vergelijkbaar zijn met de meest aangeschafte items of media op uw site.
 
@@ -170,17 +170,17 @@ Met dit algoritme kunt u selecteren op welk itemkenmerk u de aanbeveling wilt ba
 
 Vervolgens selecteert u welke profielkenmerken uit het profiel van de bezoeker overeenkomen, bijvoorbeeld Favoriete merk, Laatste object toegevoegd aan winkelwagentje of Meest bekeken presentatie.
 
-### Metrisch, boven op Analytics
+### [!UICONTROL Top by Analytics Metric]
 
-Geeft &quot;Top x&quot; weer, waarbij *x* is willekeurig [!DNL Analytics] metrisch. Wanneer u gedragsgegevens uit vakken gebruikt, kunt u de optie Boven verkocht of Boven bekeken gebruiken (x = &quot;Verkocht&quot; of x = &quot;Weergegeven&quot;). Als u gedragsgegevens gebruikt van [!DNL Adobe Analytics], kunt u x = &quot;Kart Adds&quot; of een andere [!DNL Analytics] metrisch.
+Toont &quot;Bovenste x&quot;waar *x* willekeurig [!DNL Analytics] metrisch is. Wanneer u gedragsgegevens uit vakken gebruikt, kunt u [!UICONTROL Top Sold] of [!UICONTROL Top Viewed] (x = &quot;Verkocht&quot; of x = &quot;Weergegeven&quot;) gebruiken. Als u gedragsgegevens van [!DNL Adobe Analytics] gebruikt, zou u x = &quot;Kar Adds&quot;of één of andere andere [!DNL Analytics] metrisch kunnen gebruiken.
 
 ## [!UICONTROL Item-Based]
 
-De [!UICONTROL Item-Based] met het type aanbeveling kunt u aanbevelingen doen op basis van het zoeken naar items die vergelijkbaar zijn met een item dat de gebruiker momenteel bekijkt of onlangs heeft bekeken.
+Het [!UICONTROL Item-Based] aanbevelingen type laat u aanbevelingen doen die op het vinden van gelijkaardige punten aan een punt worden gebaseerd dat de gebruiker momenteel bekijkt of onlangs heeft bekeken.
 
-De volgende algoritmen zijn beschikbaar met de [!UICONTROL Item-Based] type algoritme:
+De volgende algoritmen zijn beschikbaar met het algoritme [!UICONTROL Item-Based] type:
 
-### Personen die dit hebben bekeken, zagen het volgende {#viewed-viewed}
+### [!UICONTROL People Who Viewed This, Viewed That] {#viewed-viewed}
 
 Hiermee worden items aanbevolen die het vaakst worden weergegeven in dezelfde sessie als waarin het opgegeven item wordt weergegeven.
 
@@ -188,14 +188,14 @@ Deze logica retourneert andere producten die worden weergegeven nadat deze is be
 
 Met deze logica kunt u aanvullende conversiemogelijkheden creëren door items aan te bevelen die andere bezoekers die een item hebben bekeken, ook hebben weergegeven. Bezoekers die op uw site fietsen bekijken, kunnen bijvoorbeeld ook fietshelmen, fietskits, sloten enzovoort bekijken. U kunt een aanbeveling tot stand brengen gebruikend deze logica die andere producten aanbeveelt u helpen opbrengst verhogen.
 
-Als u dit algoritme selecteert, kunt u de volgende Recommendations-toetsen selecteren:
+Als u dit algoritme selecteert, kunt u het volgende selecteren [!UICONTROL Recommendations Keys] :
 
-* Huidig item
-* Laatst gekocht object
-* Laatst weergegeven item
-* Meest bekeken item
+* [!UICONTROL Current Item]
+* [!UICONTROL Last Purchased Item]
+* [!UICONTROL Last Viewed Item]
+* [!UICONTROL Most Viewed Item]
 
-### Mensen die dit bekeken hebben, hebben het volgende gekocht {#viewed-bought}
+### [!UICONTROL People Who Viewed This, Bought That] {#viewed-bought}
 
 Hiermee raadt u objecten aan die het vaakst worden aangeschaft in dezelfde sessie als waarin het opgegeven item wordt weergegeven. Dit criterium retourneert andere producten die mensen hebben aangeschaft nadat deze is bekeken. Het opgegeven product is niet opgenomen in de resultatenset.
 
@@ -203,65 +203,65 @@ Deze logica retourneert andere producten die mensen hebben gekocht na het bekijk
 
 Met deze logica kunt u de mogelijkheden voor cross-selling vergroten door bijvoorbeeld een aanbeveling weer te geven op een productpagina die items weergeeft die andere bezoekers hebben bekeken die het object hebben aangeschaft. Als de bezoeker bijvoorbeeld een vispool bekijkt, kan de aanbeveling extra items weergeven die andere bezoekers hebben aangeschaft, zoals hakbalken, golven en blaasjes. Wanneer bezoekers door uw site bladeren, geeft u hun aanvullende aankoopaanbevelingen.
 
-Als u dit algoritme selecteert, kunt u de volgende Recommendations-toetsen selecteren:
+Als u dit algoritme selecteert, kunt u het volgende selecteren [!UICONTROL Recommendations Keys] :
 
-* Huidig item
-* Laatst gekocht object
-* Laatst weergegeven item
-* Meest bekeken item
+* [!UICONTROL Current Item]
+* [!UICONTROL Last Purchased Item]
+* [!UICONTROL Last Viewed Item]
+* [!UICONTROL Most Viewed Item]
 
-### Mensen die dit hebben gekocht, hebben het volgende gekocht {#bought-bought}
+### [!UICONTROL People Who Bought This, Bought That] {#bought-bought}
 
 Aanbevolen objecten die het meest door klanten tegelijk met het opgegeven item worden aangeschaft.
 
-Deze logica retourneert andere producten die mensen hebben gekocht na deze aankoop. Het opgegeven product is niet opgenomen in de resultatenset.
+Deze logica retourneert andere producten die mensen hebben gekocht na deze aankoop. Het opgegeven product wordt niet opgenomen in de resultatenset.
 
 Met deze logica kunt u de mogelijkheden voor cross-selling vergroten door bijvoorbeeld een aanbeveling weer te geven op een overzichtspagina van winkelwagentjes waarin objecten worden weergegeven die andere kopers ook hebben gekocht. Als de bezoeker bijvoorbeeld een pak koopt, kan de aanbeveling extra artikelen weergeven die andere bezoekers samen met het pak hebben gekocht, zoals bijvoorbeeld banden, jurkschoenen en knipsels. Wanneer bezoekers hun aankopen bekijken, geeft u aanvullende aanbevelingen aan hen.
 
-Als u dit algoritme selecteert, kunt u de volgende Recommendations-toetsen selecteren:
+Als u dit algoritme selecteert, kunt u het volgende selecteren [!UICONTROL Recommendations Keys] :
 
-* Huidig item
-* Laatst gekocht object
-* Laatst weergegeven item
-* Meest bekeken item
+* [!UICONTROL Current Item]
+* [!UICONTROL Last Purchased Item]
+* [!UICONTROL Last Viewed Item]
+* [!UICONTROL Most Viewed Item]
 
-### Objecten met vergelijkbare kenmerken {#similar-attributes}
+### [!UICONTROL Items with Similar Attributes] {#similar-attributes}
 
 Aanbevolen items of media die vergelijkbaar zijn met items of media op basis van de huidige paginageactiviteit of het gedrag van een bezoeker.
 
-Als u Items/media met vergelijkbare kenmerken selecteert, kunt u regels voor gelijkenis van inhoud instellen.
+Als u [!UICONTROL Items with Similar Attributes] of [!UICONTROL Media with Similar Attributes] selecteert, kunt u regels voor gelijkenis van inhoud instellen.
 
-Het gebruik van gelijkenis in de inhoud om aanbevelingen te genereren is vooral effectief voor nieuwe items. Deze worden waarschijnlijk niet weergegeven in aanbevelingen met Personen die dit hebben bekeken, Gezien dat en andere logica die is gebaseerd op gedrag in het verleden. U kunt de gelijkenis van de inhoud ook gebruiken om nuttige aanbevelingen voor nieuwe bezoekers te produceren, die geen vroegere aankopen of andere historische gegevens hebben.
+Het gebruik van gelijkenis in de inhoud om aanbevelingen te genereren is vooral effectief voor nieuwe items. Deze worden waarschijnlijk niet weergegeven in aanbevelingen met [!UICONTROL People Who Viewed This] , [!UICONTROL Viewed That] en andere logica op basis van gedrag in het verleden. U kunt de gelijkenis van de inhoud ook gebruiken om nuttige aanbevelingen voor nieuwe bezoekers te produceren, die geen vroegere aankopen of andere historische gegevens hebben.
 
-Als u dit algoritme selecteert, kunt u de volgende Recommendations-toetsen selecteren:
+Als u dit algoritme selecteert, kunt u het volgende selecteren [!UICONTROL Recommendations Keys] :
 
-* Huidig item
-* Laatst gekocht object
-* Laatst weergegeven item
-* Meest bekeken item
+* [!UICONTROL Current Item]
+* [!UICONTROL Last Purchased Item]
+* [!UICONTROL Last Viewed Item]
+* [!UICONTROL Most Viewed Item]
 
-Zie voor meer informatie [Vergelijkbare inhoud](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
+Voor meer informatie, zie [ Vergelijkbaarheid van de Inhoud ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
 ## [!UICONTROL User-Based]
 
-Het op gebruiker-Gebaseerde algoritmetype laat u aanbevelingen doen die op het gedrag van de gebruiker worden gebaseerd.
+Met het type algoritme [!UICONTROL User-Based] kunt u aanbevelingen doen op basis van het gedrag van de gebruiker.
 
-De volgende algoritmen zijn beschikbaar met de [!UICONTROL User-Based] type algoritme:
+De volgende algoritmen zijn beschikbaar met het algoritme [!UICONTROL User-Based] type:
 
-### Onlangs bekeken objecten {#recently-viewed}
+### [!UICONTROL Recently Viewed Items] {#recently-viewed}
 
-Gebruikt de geschiedenis van de bezoeker (overspannende zittingen) om het laatste voor te stellen *x* items die de bezoeker heeft weergegeven, op basis van het aantal sleuven in het ontwerp.
+Gebruikt de geschiedenis van de bezoeker (overspannend zittingen) om de laatste *x* punten voor te stellen de bezoeker heeft bekeken, die op het aantal groeven in het ontwerp worden gebaseerd.
 
-Het recent bekeken algoritme van Punten keert resultaat specifiek voor een bepaalde terug [milieu](/help/main/administrating-target/hosts.md). Als twee sites tot verschillende omgevingen behoren en een bezoeker tussen de twee sites schakelt, worden op elke site alleen recent bekeken items van de desbetreffende site weergegeven. Als twee sites zich in dezelfde omgeving bevinden en een bezoeker schakelt tussen de twee sites, ziet de bezoeker dezelfde onlangs weergegeven items voor beide sites.
+Het [!UICONTROL Recently Viewed Items] algoritme keert resultaat specifiek op a bepaalde [ milieu ](/help/main/administrating-target/hosts.md) terug. Als twee sites tot verschillende omgevingen behoren en een bezoeker tussen de twee sites schakelt, worden op elke site alleen recent bekeken items van de desbetreffende site weergegeven. Als twee sites zich in dezelfde omgeving bevinden en een bezoeker schakelt tussen de twee sites, ziet de bezoeker dezelfde onlangs weergegeven items voor beide sites.
 
 >[!NOTE]
 >
->U kunt de [!UICONTROL Recently Viewed Items] criteria voor back-upaanbevelingen.
+>U kunt de criteria van [!UICONTROL Recently Viewed Items] niet gebruiken voor back-upaanbevelingen.
 
-[!UICONTROL Recently Viewed Items]/Media kan worden gefilterd zodat slechts de punten met een bepaald attribuut worden getoond.
+[!UICONTROL Recently Viewed Items] of [!UICONTROL Recently Viewed Media] kan worden gefilterd, zodat alleen items met een bepaald kenmerk worden weergegeven.
 
-* Onlangs bekeken criteria zijn configureerbaar, net als andere criteria in aanbevelingen.
-* U kunt [verzamelingen](/help/main/c-recommendations/c-products/collections.md), [uitsluitingen](/help/main/c-recommendations/c-products/exclusions.md), en [insluitingen](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (met inbegrip van de bijzondere regels voor prijs en inventaris) op dezelfde wijze als andere criteria.
+* De criteria van [!UICONTROL Recently Viewed] zijn configureerbaar, zoals andere criteria in aanbevelingen.
+* U kunt [ inzamelingen ](/help/main/c-recommendations/c-products/collections.md) gebruiken, [ uitsluitingen ](/help/main/c-recommendations/c-products/exclusions.md), en [ opneming ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (met inbegrip van de speciale regels voor Prijs en Inventaris) op de zelfde manier zoals om het even welke andere criteria.
 
 Mogelijke gebruiksgevallen zijn onder andere: een multinationaal bedrijf met meerdere bedrijven kan bezoekers artikelen laten zien over meerdere digitale eigenschappen. In dit geval kunt u de onlangs weergegeven items beperken tot weergave voor de desbetreffende eigenschap waar deze is weergegeven. Hiermee voorkomt u dat onlangs bekeken items worden weergegeven op de site van een andere digitale eigenschap.
 
@@ -269,15 +269,15 @@ Gebruik dit algoritme op algemene pagina&#39;s, zoals startpagina&#39;s of beste
 
 >[!NOTE]
 >
->[!UICONTROL Recently Viewed Items] Hiermee worden zowel de globale instellingen voor uitsluitingen als de geselecteerde verzamelingsinstelling voor de activiteit in acht genomen. Als een item wordt uitgesloten door een algemene uitsluiting of niet in de geselecteerde verzameling voorkomt, wordt het item niet weergegeven. Daarom bij het gebruik van een [!UICONTROL Recently Viewed Items] De instelling &quot;Alle verzamelingen&quot; moet in het algemeen worden gebruikt.
+>[!UICONTROL Recently Viewed Items] respecteert zowel de globale instellingen voor uitsluitingen als de geselecteerde verzamelingsinstelling voor de activiteit. Als een item wordt uitgesloten door een algemene uitsluiting of niet in de geselecteerde verzameling voorkomt, wordt het item niet weergegeven. Daarom moet bij het gebruik van een [!UICONTROL Recently Viewed Items] -criterium doorgaans de instelling Alle verzamelingen worden gebruikt.
 
-### Aanbevolen voor u {#recommended-for-you}
+### [!UICONTROL Recommended for You] {#recommended-for-you}
 
 Aanbevolen objecten op basis van de browsergeschiedenis, weergavegeschiedenis en aankoopgeschiedenis van elke bezoeker.
 
 Met dit algoritme kunt u persoonlijke inhoud en ervaringen leveren aan zowel nieuwe als geretourneerde bezoekers. De lijst met aanbevelingen is gericht op de meest recente activiteit van de bezoeker en wordt tijdens de sessie bijgewerkt en wordt meer gepersonaliseerd naarmate de gebruiker door uw site bladert.
 
-Zowel weergaven als aankopen worden gebruikt om de aanbevolen items te bepalen. De opgegeven aanbevelingssleutel (bijvoorbeeld Huidig item) wordt gebruikt om filters toe te passen die u voor de regel voor opname selecteert.
+Zowel weergaven als aankopen worden gebruikt om de aanbevolen items te bepalen. De opgegeven aanbevelingssleutel (bijvoorbeeld [!UICONTROL Current Item] ) wordt gebruikt om filters toe te passen die u voor de invoegregel selecteert.
 
 U kunt bijvoorbeeld:
 
@@ -286,29 +286,29 @@ U kunt bijvoorbeeld:
 
 Als u dit algoritme selecteert, kunt u de volgende Filtrerende Sleutels selecteren:
 
-* Huidig item
-* Laatst gekocht object
-* Laatst weergegeven item
-* Meest bekeken item
+* [!UICONTROL Current Item]
+* [!UICONTROL Last Purchased Item]
+* [!UICONTROL Last Viewed Item]
+* [!UICONTROL Most Viewed Item]
 
 ## Aangepaste criteria {#custom}
 
-Met het algoritme Aangepaste criteria kunt u aanbevelingen doen op basis van een aangepast bestand dat u uploadt.
+Met het type algoritme [!UICONTROL Custom Criteria] kunt u aanbevelingen doen op basis van een aangepast bestand dat u uploadt.
 
-De aanbeveling wordt bepaald door een punt dat in het profiel van een bezoeker, gebruikend één van beide gebruiker wordt opgeslagen.*x* of profiel.*x* kenmerken.
+De aanbeveling wordt bepaald door een punt dat in het profiel van een bezoeker, gebruikend één van beide gebruiker wordt opgeslagen.*x* of profiel.*x* attributen.
 
-Als deze optie is geselecteerd, wordt `entity.id` waarde moet aanwezig zijn in het profielattribuut.
+Als deze optie is geselecteerd, moet de waarde `entity.id` aanwezig zijn in het profielkenmerk.
 
 Wanneer u aanbevelingen baseert op douanekenmerken, moet u het douanekenmerk selecteren en dan het aanbevelingstype selecteren.
 
 U kunt filter in real time bovenop uw eigen output van douanecriteria uitvoeren. U kunt bijvoorbeeld de aanbevolen objecten beperken tot objecten van de favoriete rubriek of het favoriete merk van een bezoeker. Dit geeft u de macht om off-line berekeningen met het filtreren in real time te combineren.
 
-Deze functionaliteit betekent dat u kunt gebruiken [!DNL Target] om verpersoonlijking bovenop uw off-line berekende aanbevelingen of douane-gebogen lijsten toe te voegen. Dit combineert de kracht van uw gegevenswetenschappers en onderzoek met de beproefde levering van de Adobe, runtime het filtreren, het testen A/B, het richten, het melden, de integratie, en meer.
+Deze functionaliteit houdt in dat u met [!DNL Target] personalisatie kunt toevoegen boven op uw offline berekende aanbevelingen of lijsten met aangepaste cursisten. Dit combineert de kracht van uw gegevenswetenschappers en onderzoek met de beproefde levering van de Adobe, runtime het filtreren, het testen A/B, het richten, het melden, de integratie, en meer.
 
-Met de toevoeging van inclusieregels op de criteria van de Douane, verandert dit anders statische aanbevelingen in dynamische aanbevelingen gebaseerd op de belangen van een bezoeker.
+Met toevoeging van inclusieregels op [!UICONTROL Custom Criteria], verandert dit anders statische aanbevelingen in dynamische aanbevelingen gebaseerd op de belangen van een bezoeker.
 
 * De criteria van de douane zijn configureerbaar, zoals andere criteria in aanbevelingen.
-* U kunt [verzamelingen](/help/main/c-recommendations/c-products/collections.md), [uitsluitingen](/help/main/c-recommendations/c-products/exclusions.md), en [insluitingen](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (met inbegrip van de bijzondere regels voor prijs en inventaris) op dezelfde wijze als andere criteria.
+* U kunt [ inzamelingen ](/help/main/c-recommendations/c-products/collections.md) gebruiken, [ uitsluitingen ](/help/main/c-recommendations/c-products/exclusions.md), en [ opneming ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (met inbegrip van de speciale regels voor Prijs en Inventaris) op de zelfde manier zoals om het even welke andere criteria.
 
 Mogelijke gebruiksgevallen zijn:
 
@@ -318,15 +318,15 @@ Mogelijke gebruiksgevallen zijn:
 
 ## Aanbevolen toetsen {#keys}
 
-De volgende aanbevelingen zijn beschikbaar via de [!UICONTROL Recommendation Key] vervolgkeuzelijst:
+De volgende aanbevelingen zijn beschikbaar in de vervolgkeuzelijst [!UICONTROL Recommendation Key] :
 
-### Huidig item {#current-item}
+### [!UICONTROL Current Item] {#current-item}
 
 De aanbeveling wordt bepaald door het item dat de bezoeker momenteel bekijkt.
 
 Recommendations geeft andere objecten weer die bezoekers kunnen interesseren voor het opgegeven object.
 
-Als deze optie is geselecteerd, wordt `entity.id` waarde moet als parameter in de vertoningsdoos worden overgegaan.
+Als deze optie is geselecteerd, moet de waarde `entity.id` als parameter in het weergavevak worden doorgegeven.
 
 Kan met de volgende algoritmen worden gebruikt:
 
@@ -335,12 +335,12 @@ Kan met de volgende algoritmen worden gebruikt:
 * [!UICONTROL People Who Viewed This, Bought That]
 * [!UICONTROL People Who Bought This, Bought That]
 
-Gebruik de [!UICONTROL Current Item] op uw site vindt u de sleutel voor aanbevelingen:
+Gebruik de toets [!UICONTROL Current Item] recommendations op uw site op:
 
 * Pagina&#39;s met één item, zoals productpagina&#39;s.
 * Niet gebruiken op pagina&#39;s met zoekresultaten die null zijn.
 
-### Laatst gekocht object {#last-purchased}
+### [!UICONTROL Last Purchased Item] {#last-purchased}
 
 De aanbeveling wordt bepaald door het laatste item dat door elke unieke bezoeker is aangeschaft. Dit wordt automatisch vastgelegd, zodat er geen waarden op de pagina moeten worden doorgegeven.
 
@@ -351,35 +351,31 @@ Kan met de volgende algoritmen worden gebruikt:
 * [!UICONTROL People Who Viewed This, Bought That]
 * [!UICONTROL People Who Bought This, Bought That]
 
-Gebruik de [!UICONTROL Last Purchased Item] op uw site vindt u de sleutel voor aanbevelingen:
+Gebruik de toets [!UICONTROL Last Purchased Item] recommendations op uw site op:
 
 * Homepage, pagina Mijn account, offsite advertenties.
 * Niet gebruiken op productpagina&#39;s of pagina&#39;s die relevant zijn voor aankopen.
 
 #### Aangepaste aanbevelingen
 
-U kunt aanbevelingen op de waarde van een attribuut van het douaneprofiel baseren. Stel dat u aanbevolen films wilt weergeven op basis van de film die een bezoeker het laatst aan zijn of haar wachtrij heeft toegevoegd.
+U kunt aanbevelingen op de waarde van een attribuut van het douaneprofiel baseren. Stel dat u aanbevolen films wilt weergeven op basis van de film die een bezoeker het laatst aan de wachtrij heeft toegevoegd.
 
-1. Selecteer het aangepaste profielkenmerk in het menu **[!UICONTROL Recommendation Key]** vervolgkeuzelijst (bijvoorbeeld &#39;Laatste presentatie toegevoegd aan lijst met gecontroleerde items&#39;).
-1. Selecteer vervolgens uw **[!UICONTROL Recommendation Logic]** (bijvoorbeeld &quot;Personen die dit hebben bekeken, hebben dat bekeken&quot;).
+1. Selecteer uw attribuut van het douaneprofiel van de **[!UICONTROL Recommendation Key]** drop-down lijst (bijvoorbeeld, &quot;[!UICONTROL Last Show Added to Watchlist]&quot;).
+1. Selecteer vervolgens uw **[!UICONTROL Recommendation Logic]** (bijvoorbeeld &quot;[!UICONTROL People Who Viewed This, Viewed That]&quot;).
 
-   ![Nieuwe criteria maken, dialoogvenster](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
+Als uw attribuut van het douaneprofiel niet direct met één enkele entiteitidentiteitskaart aanpast, is het noodzakelijk om aan [!DNL Recommendations] uit te leggen hoe u de gelijke aan een entiteit wilt voorkomen. Stel dat u bijvoorbeeld de meest verkochte objecten van het favoriete merk van een bezoeker wilt weergeven.
 
-Als uw attribuut van het douaneprofiel niet direct met één enkele entiteitidentiteitskaart aanpast, is het noodzakelijk om uit te leggen aan [!DNL Recommendations] hoe u de gelijke aan een entiteit wilt voorkomen. Stel dat u bijvoorbeeld de meest verkochte objecten van het favoriete merk van een bezoeker wilt weergeven.
+1. Selecteer het aangepaste profielkenmerk in de vervolgkeuzelijst **[!UICONTROL Recommendation Key]** (bijvoorbeeld Favoriete merk).
 
-1. Selecteer het aangepaste profielkenmerk in het menu **[!UICONTROL Recommendation Key]** vervolgkeuzelijst (bijvoorbeeld Favoriete merk).
+1. Selecteer vervolgens de **[!UICONTROL Recommendation Logic]** die u met deze toets wilt gebruiken (bijvoorbeeld &quot;[!UICONTROL Top Sellers]&quot;).
 
-1. Selecteer vervolgens de optie **[!UICONTROL Recommendation Logic]** Je wilt deze sleutel gebruiken (bijvoorbeeld Topverkopers).
+   De optie [!UICONTROL Group By Unique Value Of] wordt weergegeven.
 
-   De [!UICONTROL Group By Unique Value Of] weergegeven.
+1. Selecteer het entiteitattribuut dat aan de sleutel aanpast u hebt gekozen. In dit geval komt &quot;[!UICONTROL Favorite Brand]&quot; overeen met `entity.brand` .
 
-1. Selecteer het entiteitattribuut dat aan de sleutel aanpast u hebt gekozen. In dit geval komt &quot;Favoriete merk&quot; overeen met `entity.brand`.
+   [!DNL Recommendations] produceert nu &quot;[!UICONTROL Top Sellers]&quot;lijst voor elk merk en toont de bezoeker aangewezen &quot;[!UICONTROL Top Sellers]&quot;lijst die op de waarde wordt gebaseerd in het [!UICONTROL Favorite Brand] profielattribuut van de bezoeker wordt opgeslagen.
 
-   [!DNL Recommendations] produceert nu een lijst met topverkopers voor elk merk en geeft de bezoeker de juiste lijst met topverkopers weer op basis van de waarde die is opgeslagen in het kenmerk Favoriete merk van de bezoeker.
-
-   ![Nieuwe criteria maken, dialoogvenster 2](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
-
-### Laatst weergegeven item {#last-viewed}
+### [!UICONTROL Last Viewed Item] {#last-viewed}
 
 De aanbeveling wordt bepaald door het laatste item dat door elke unieke bezoeker is bekeken. Dit wordt automatisch vastgelegd, zodat er geen waarden op de pagina moeten worden doorgegeven.
 
@@ -390,12 +386,12 @@ Kan met de volgende algoritmen worden gebruikt:
 * [!UICONTROL People Who Viewed This, Bought That]
 * [!UICONTROL People Who Bought This, Bought That]
 
-Gebruik de [!UICONTROL Last Viewed Item] op uw site vindt u de sleutel voor aanbevelingen:
+Gebruik de toets [!UICONTROL Last Viewed Item] recommendations op uw site op:
 
 * Homepage, pagina Mijn account, offsite advertenties.
 * Niet gebruiken op productpagina&#39;s of pagina&#39;s die relevant zijn voor aankopen.
 
-### Meest bekeken item {#most-viewed-logic}
+### [!UICONTROL Most Viewed Item] {#most-viewed-logic}
 
 Hiermee geeft u de items of media weer die het vaakst op uw site worden weergegeven.
 
@@ -408,45 +404,45 @@ Deze advisesleutel kan met de volgende algoritmen worden gebruikt:
 * [!UICONTROL People Who Viewed This, Bought That]
 * [!UICONTROL People Who Bought This, Bought That]
 
-### Huidige rubriek {#current-category}
+### [!UICONTROL Current Category] {#current-category}
 
 De aanbeveling wordt bepaald door de productcategorie die de bezoeker momenteel bekijkt.
 
 Recommendations geeft objecten weer in de opgegeven productcategorie.
 
-Als deze optie is geselecteerd, wordt `entity.categoryId` De waarde moet als parameter aan de vertoningsdoos worden overgegaan.
+Als deze optie is geselecteerd, moet de waarde `entity.categoryId` als parameter aan de weergavekader worden doorgegeven.
 
 Deze advisesleutel kan met de volgende algoritmen worden gebruikt:
 
-* Topverkopers
-* Meest bekeken
+* [!UICONTROL Top Sellers]
+* [!UICONTROL Most Viewed]
 
-Gebruik de [!UICONTROL Current Category] op uw site vindt u de sleutel voor aanbevelingen:
+Gebruik de toets [!UICONTROL Current Category] recommendations op uw site op:
 
 * Pagina&#39;s van één categorie.
 * Niet gebruiken op pagina&#39;s met zoekresultaten die null zijn.
 
-### Favoriete rubriek {#favorite-category}
+### [!UICONTROL Favorite Category] {#favorite-category}
 
 De aanbeveling wordt bepaald door de favoriete productcategorie van de bezoeker.
 
 Recommendations geeft objecten weer in de opgegeven productcategorie.
 
-Als deze optie is geselecteerd, wordt `entity.categoryId` De waarde moet als parameter aan de vertoningsdoos worden overgegaan.
+Als deze optie is geselecteerd, moet de waarde `entity.categoryId` als parameter aan de weergavekader worden doorgegeven.
 
 Deze advisesleutel kan met de volgende algoritmen worden gebruikt:
 
-* Topverkopers
-* Meest bekeken
+* [!UICONTROL Top Sellers]
+* [!UICONTROL Most Viewed]
 
-Gebruik de [!UICONTROL Current Category] op uw site vindt u de sleutel voor aanbevelingen:
+Gebruik de toets [!UICONTROL Current Category] recommendations op uw site op:
 
 * Pagina&#39;s van één categorie.
 * Niet gebruiken op pagina&#39;s met zoekresultaten die null zijn.
 
-### Affiniteit site {#site-affinity}
+### [!UICONTROL Site Affinity] {#site-affinity}
 
-Aanbevolen items op basis van de zekerheid van een relatie tussen items. U kunt deze criteria vormen om te bepalen hoeveel gegevens worden vereist alvorens een aanbeveling gebruikend de schuif van de Regels van de Opname wordt voorgesteld. Als u bijvoorbeeld erg sterk selecteert, worden de producten met de grootste zekerheid van een overeenkomst aanbevolen.
+Aanbevolen items op basis van de zekerheid van een relatie tussen items. U kunt deze criteria configureren om te bepalen hoeveel gegevens vereist zijn voordat een aanbeveling wordt weergegeven met de schuifregelaar [!UICONTROL Inclusion Rules] . Als u bijvoorbeeld erg sterk selecteert, worden de producten met de grootste zekerheid van een overeenkomst aanbevolen.
 
 Bijvoorbeeld, als u een zeer sterke affiniteit plaatst en uw ontwerp vijf punten omvat, waarvan drie aan de sterkte van verbindingsdrempel voldoen, worden de twee punten die niet aan de minimumsterktevereisten voldoen niet getoond in uw aanbevelingen en door uw bepaalde reservepunten vervangen. De items met de sterkste affiniteit worden eerst weergegeven.
 
@@ -456,7 +452,7 @@ Sommige klanten met diverse productinzamelingen en diverse plaatsgedrag zouden d
 
 Deze logica kan met de volgende advisesleutels worden gebruikt:
 
-* Huidig item
-* Laatst gekocht object
-* Laatst weergegeven item
-* Meest bekeken item
+* [!UICONTROL Current Item]
+* [!UICONTROL Last Purchased Item]
+* [!UICONTROL Last Viewed Item]
+* [!UICONTROL Most Viewed Item]

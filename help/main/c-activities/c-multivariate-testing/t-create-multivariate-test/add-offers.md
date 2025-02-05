@@ -4,9 +4,9 @@ description: Leer hoe te om [!UICONTROL Visual Experience Composer] (VEC) in Ado
 title: Hoe maak ik combinaties in een [!UICONTROL Multivariate Test] (MVT)?
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
-source-git-commit: 4a18dc6c9988e593a65bdcf695113d7179d88290
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -27,33 +27,25 @@ Voor meer informatie over het gebruiken van VEC om aanbiedingen tot stand te bre
 
 Test meerdere afbeeldingen die op een bepaalde locatie beschikbaar zijn om te bepalen welke afbeelding het meest succesvol is.
 
-1. Klik op een afbeelding op de pagina en selecteer vervolgens **[!UICONTROL Change Image]** .
+1. Klik op een afbeelding op de pagina en selecteer vervolgens **[!UICONTROL Change Image Offer]** .
 
-   ![ de optie van het Beeld van de Verandering ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
-
-1. Selecteer alle afbeeldingen die u in de test wilt opnemen en klik op **[!UICONTROL Save]** .
-
-   ![ Uitgezochte de dialoogdoos van de Inhoud die wordt gebruikt om beelden toe te voegen ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
+1. Selecteer in het dialoogvenster [!UICONTROL Image Offer] alle afbeeldingen die u in de test wilt opnemen en klik op **[!UICONTROL Add]** .
 
 Elke afbeelding wordt een aparte ervaring op die locatie.
 
 ## HTML biedt {#section_DF016101AFA9412C9B99862C23DE77B1}
 
-Test meerdere Text/HTML-aanbiedingen binnen een locatie om te bepalen welke aanbieding het meest succesvol is.
+Test meerdere HTML-aanbiedingen binnen een locatie om te bepalen welke aanbieding het meest succesvol is.
 
-1. Klik op een aanbod voor tekst/HTML op de pagina en klik vervolgens op **[!UICONTROL Change Text/HTML]** .
+1. Klik op een HTML-aanbieding op de pagina en klik vervolgens op **[!UICONTROL Change HTML Offer]** .
 
-   ![ de Tekst/HTML van de Verandering ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changehtml.png)
+1. Klik op **[!UICONTROL Create Offer]** , klik op **[!UICONTROL HTML Offer]** , geef een naam op voor de aanbieding, typ of plak de code voor de HTML-aanbieding en klik op **[!UICONTROL Create]** .
 
-1. Klik op **[!UICONTROL Add Text/HTML Offer]**, geef een naam op voor de aanbieding en typ of plak de code voor de aanbieding voor tekst/HTML.
-
-   ![ geef aanbiedingen ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png) uit
-
-   Herhaal dit voor alle andere Text/HTML-aanbiedingen die u wilt opnemen.
+   Herhaal dit voor alle andere HTML-aanbiedingen die u wilt opnemen.
 
 1. Klik op **[!UICONTROL Save]**.
 
-Elke Text/HTML-aanbieding wordt een aparte ervaring op die locatie.
+Elke HTML-aanbieding wordt een aparte ervaring op die locatie.
 
 ## Aanbevolen procedures {#section_2E98C23D2F1A460FA732A31799CE6291}
 
@@ -64,4 +56,3 @@ Elke Text/HTML-aanbieding wordt een aparte ervaring op die locatie.
 * U moet ten minste drie elementen hebben om te testen. Als u minder hebt, stel een reeks tests A/B in werking.
 * De alternatieven van elk element moeten aanzienlijk van elkaar verschillen.
 * Hoewel niet vereist, is het een goede praktijk voor elk element om het zelfde aantal alternatieven te hebben.
-

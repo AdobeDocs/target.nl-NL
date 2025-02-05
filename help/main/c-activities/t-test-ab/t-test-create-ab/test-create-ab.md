@@ -1,59 +1,53 @@
 ---
 keywords: A/B;A/B test;A/B activiteit;nieuwe a/b activiteit;creeer a/b
-description: Leer hoe te om Visual Experience Composer (VEC) in Adobe te gebruiken [!DNL Target] om uw A/B-testactiviteit rechtstreeks op een [!DNL Target]-enabled pagina.
+description: Gebruik [!UICONTROL Visual Experience Composer] (VEC) om de activiteiten van de Test van A/B rechtstreeks op a  [!DNL Target]-Toegelaten pagina tot stand te brengen.
 title: Hoe maak ik een A/B-test?
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
-source-git-commit: ec1041fd1823d1ab7f1af147af5825c3ae8662b5
+source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
 
-# Een A/B-test maken
+# Een A/B-testactiviteit maken
 
-Gebruik de [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] om uw [!UICONTROL A/B Test] rechtstreeks op een [!DNL Target]-enabled pagina en om gedeelten van de pagina binnen te wijzigen [!DNL Target].
+Gebruik [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] om [!UICONTROL A/B Test] -activiteiten rechtstreeks op een pagina met [!DNL Target] activering te maken en paginagedeelten in [!DNL Target] te wijzigen.
 
 >[!NOTE]
 >
->Naast de handleiding (standaard) [!UICONTROL A/B Test] activiteit (in dit artikel besproken), [!DNL Target] verstrekt twee extra types van [!UICONTROL A/B Test] activiteiten: [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target].
+>Naast de [!UICONTROL Manual] (Standaard) [!UICONTROL A/B Test] -activiteit (die in dit artikel wordt besproken), biedt [!DNL Target] twee extra typen [!UICONTROL A/B Test] -activiteiten: [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] .
 >
->Zie [Typen A/B-testactiviteiten](/help/main/c-activities/t-test-ab/test-ab.md#types) in *A/B-testoverzicht*.
+>Zie [ Types van A/B het Testen activiteiten ](/help/main/c-activities/t-test-ab/test-ab.md#types) in *A/B het overzicht van de Test*.
 
-Een handleiding maken [!UICONTROL A/B Test] activiteit:
+Een handmatige [!UICONTROL A/B Test] activiteit maken:
 
-1. Van de **[!UICONTROL Activities]** lijst, klik **[!UICONTROL Create Activity]** > **[!UICONTROL A/B Test]**.
+1. Klik in de lijst **[!UICONTROL Activities]** op **[!UICONTROL Create Activity]** > **[!UICONTROL A/B Test]** .
 
-   ![Vervolgkeuzelijst Activiteit maken](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_select-new.png)
+1. Selecteer, indien nodig, **[!UICONTROL Visual]** in het dialoogvenster [!UICONTROL Create A/B Test Activity] .
 
-   >[!NOTE]
-   >
-   >De beschikbare activiteitstypen zijn afhankelijk van uw [!DNL Target] account. Sommige typen activiteiten worden mogelijk niet in de lijst weergegeven. Bijvoorbeeld: [!UICONTROL Recommendations] is een [Functie Doelpremium](/help/main/c-intro/intro.md#premium).
-   >
-   >Voor informatie over de diverse activiteitstypen raadpleegt u [Activiteiten](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) en de [Doelgids voor activiteiten](/help/main/c-activities/target-activities-guide.md).
-
-1. Selecteer in het dialoogvenster A/B-testactiviteit maken de optie **[!UICONTROL Visual (Default)]**, indien nodig.
-
-   Als u liever het [!UICONTROL Form-Based Experience Composer], selecteert u [!UICONTROL Form]. Zie [Formuliergebaseerde Experience Composer](/help/main/c-experiences/form-experience-composer.md) voor meer informatie .
+   Selecteer [!UICONTROL Form] als u de [!UICONTROL Form-Based Experience Composer] -toets liever wilt gebruiken. Zie [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) voor meer informatie.
 
    >[!NOTE]
    >
-   >Naast de VEC en [!UICONTROL Form-Based Experience Composer], [!DNL Target] biedt de Single Page Application VEC aan. Zie voor meer informatie over de verschillende composers [Ervaringen en aanbiedingen](/help/main/c-experiences/experiences.md).
+   >Naast de VEC en [!UICONTROL Form-Based Experience Composer] biedt [!DNL Target] ook de VEC. [!UICONTROL Single Page Application] Voor meer informatie over de diverse composers, zie [ Ervaringen en Aanbiedingen ](/help/main/c-experiences/experiences.md).
    >
-   >Voor het oplossen van problemeninformatie over VEC, als u problemen hebt, zie [Problemen oplossen met de composer voor visuele ervaring](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+   >Voor het oplossen van problemeninformatie over VEC, zie [ het Oplossen van problemen de Visuele Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-1. (Voorwaardelijk) Als u een [De klant van de Premium van het doel](/help/main/c-intro/intro.md#premium)van de **[!UICONTROL Choose Workspace]** vervolgkeuzelijst, kies een [werkruimte](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Voorwaardelijk) als u a [ klant van Target Premium ](/help/main/c-intro/intro.md#premium) bent, van de **[!UICONTROL Choose Workspace]** drop-down lijst, kies a [ werkruimte ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-   De [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) optie in de voorgaande illustratie is een [Doelpremie](/help/main/c-intro/intro.md) en wordt mogelijk niet weergegeven als uw organisatie een [!UICONTROL Target Standard] licentie.
+   De [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) optie is a [ Target Premium ](/help/main/c-intro/intro.md) eigenschap en zou niet kunnen tonen als uw organisatie een [!UICONTROL Target Standard] vergunning heeft.
 
-1. In de **[!UICONTROL Enter Activity URL]** in, geef uw [activiteit-URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)en klik vervolgens op **[!UICONTROL Create]**.
+1. In het **[!UICONTROL Enter Activity URL]** vakje, specificeer uw [ activiteit URL ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md).
 
-   Als uw account [geconfigureerd met een standaard-URL](/help/main/administrating-target/visual-experience-composer-set-up.md), wordt die URL standaard weergegeven. U kunt desgewenst van de standaard naar een andere URL overschakelen.
+   Als uw rekening [ met een gebrek URL ](/help/main/administrating-target/visual-experience-composer-set-up.md) wordt gevormd, verschijnt die URL door gebrek. U kunt desgewenst van de standaard naar een andere URL overschakelen.
 
-   De [!UICONTROL Visual Experience Composer] wordt geopend en wordt de pagina weergegeven die in de URL is opgegeven.
+1. Klik op **[!UICONTROL Create]**.
 
-1. Klikken **[!UICONTROL Untitled Activity]** boven aan de VEC geeft u een naam op voor de activiteit in de beschikbare ruimte.
+   De [!UICONTROL Visual Experience Composer] wordt geopend en geeft de pagina weer die in de URL is opgegeven.
+
+1. Klik het **[!UICONTROL Rename]** pictogram ( ![ anders noemen pictogram ](/help/main/assets/icons/MoreSmallListVert.svg)), klik **[!UICONTROL Rename]**, specificeer een naam voor de activiteit, dan klik **[!UICONTROL Save]**.
 
    De naam van de activiteit mag niet met een van de volgende tekens beginnen:
 
@@ -81,55 +75,56 @@ Een handleiding maken [!UICONTROL A/B Test] activiteit:
 
 1. Maak nieuwe ervaringen door de elementen op de pagina te wijzigen.
 
-   De [!UICONTROL Visual Experience Composer] Hiermee geeft u twee tabbladen aan de linkerkant weer nadat u een nieuwe activiteit hebt gemaakt: Experience A en Experience B. Experience A is the control experience. De focus ligt op het tabblad Experience B, dat u naar wens kunt wijzigen. Ervaring B is de alternatieve ervaring die u aan uw test kunt toevoegen. U kunt meerdere ervaringen toevoegen aan de test. U kunt ook Experience A verwijderen uit de activiteit als u geen standaard site-ervaring wilt opnemen als optie.
+   In [!UICONTROL Visual Experience Composer] worden twee tabbladen aan de linkerkant weergegeven nadat u een nieuwe activiteit hebt gemaakt: Experience A en Experience B. Experience A is de controleleving. De focus ligt op het tabblad Experience B, dat u naar wens kunt wijzigen. Ervaring B is de alternatieve ervaring die u aan uw test kunt toevoegen. U kunt veelvoudige ervaringen aan de test toevoegen door het [!UICONTROL Add] pictogram ( ![ toe te voegen pictogram ](/help/main/assets/icons/Add.svg)) bij de bovenkant van de [!UICONTROL Experiences] ruit te klikken. U kunt ook Experience A verwijderen uit de activiteit als u geen standaard site-ervaring wilt opnemen als optie.
 
-   Voor meer informatie over het toevoegen van en het wijzigen van ervaringen in [!UICONTROL Visual Experience Composer], zie [Ervaring toevoegen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Om Ervaring B te wijzigen, begin met Stap 2.
+   Voor meer informatie over het toevoegen van en het wijzigen van ervaringen in [!UICONTROL Visual Experience Composer], zie [ Ervaring ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00) toevoegen. Om Ervaring B te wijzigen, begin met Stap 2.
 
-1. Klikken **[!UICONTROL Targeting]** boven aan het dialoogvenster [!UICONTROL Visual Experience Composer] om naar de volgende stap in de driestappenworkflow met instructies te gaan.
+1. Klik op **[!UICONTROL Targeting]** boven aan [!UICONTROL Visual Experience Composer] om naar de volgende stap in de driestappenworkflow met instructies te gaan.
 
    Het stroomdiagram wordt geopend.
 
-   ![Teststap A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new.png)
+   ![ A/B de Test richtend stap ](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
 
-   Het stroomdiagram leidt u door de stappen om het publiek voor de activiteit te kiezen en opstellingservaringen.
+   Het stroomdiagram leidt u door de stappen om een publiek en zijn verkeerspercentage toe te wijzen, die de methode van de verkeerstoewijzing selecteren, en de verkeerstoewijzing voor elke ervaring in de activiteit specificeren.
 
-1. In de **[!UICONTROL Audience]** , klikt u op het pictogram Bewerken (de verticale ellips) en klikt u op **[!UICONTROL Replace Audience]** vervolgens [het publiek selecteren](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) voor je activiteit.
+1. (Voorwaardelijk) klik de **[!UICONTROL All Visitors]** controle om een ander publiek voor de activiteit te selecteren.
 
-   Standaard is de doelgroep ingesteld op [!UICONTROL All Visitors].
+   De doelgroep van [!UICONTROL All Visitors] wordt ingesteld als de standaardgroep. Als u een ander publiek selecteert, wordt de naam van het publiek uiterst links weergegeven.
 
-1. Kies het percentage in aanmerking komende bezoekers dat u de activiteit wilt ingaan.
+   Het juiste frame wordt weergegeven, waarmee u een publiek kunt toevoegen of verwijderen en het bezoekerspercentage voor de activiteit kunt toewijzen.
 
-   ![Publiek percentage](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+   1. Om het publiek te veranderen, klik het **[!UICONTROL Replace]pictogram** ( ![ vervangt pictogram ](/help/main/assets/icons/Retweet.svg)) in het juiste kader.
+   1. In het [!UICONTROL Add Audience] dialoogvakje, [ selecteer het gewenste publiek ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), dan klik **[!UICONTROL Assign Audience]**.
+
+      U kunt **klikken combineert Soorten publiek** om [ een publiek tot stand te brengen dat veelvoudige publiek ](/help/main/c-target/combining-multiple-audiences.md) combineert.
+
+      Als u een nieuw publiek moet tot stand brengen dat niet reeds in [!UICONTROL Audience Library] is, klik **creeer Publiek**. Tijdens het [ creeer-publiek werkschema ](/help/main/c-target/c-audiences/audiences.md) kunt u van de volgende opties kiezen:
+
+      * **[!UICONTROL Audience Library]**: Maak een publiek op aanvraag dat wordt opgeslagen in [!UICONTROL Audience Library] en dat opnieuw kan worden gebruikt in andere activiteiten.
+      * **[!UICONTROL This activity only]**: Creeer een [ activiteit-specifiek publiek ](/help/main/c-target/creating-activity-only-audience.md) dat niet aan [!UICONTROL Audience Library] wordt bewaard en in de huidige activiteit slechts kan worden gebruikt.
+
+   1. Klik op **[!UICONTROL Visitor Percentage]** in het rechterframe en kies het percentage gekwalificeerde bezoekers dat u de activiteit wilt invoeren.
 
    U kunt bijvoorbeeld items beperken tot 50% van alle bezoekers of 45% van uw &quot;Californische&quot; publiek.
 
-1. Opstelling uw verkeerstoewijzing.
+1. Klik de **[!UICONTROL Traffic Allocation]** controle, dan kies de gewenste methode van de verkeerstoewijzing in de juiste ruit, zoals hieronder getoond:
 
-   U kunt meerdere ervaringen aan hetzelfde publiek tonen. Een diagram toont het geselecteerde publiek en de ervaringen die u aan de activiteit hebt toegevoegd.
+   ![ montages van de Methode van de Toewijzing van het Verkeer ](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
    Kies uw gewenste methode voor verkeerstoewijzing:
 
-   * **[!UICONTROL Manual (Default)]**: Geef het percentage van de gegadigden op dat u voor elke ervaring wilt zien. U kunt de percentages gelijkmatig over alle ervaringen verdelen, of hogere of lagere percentages voor elke ervaring specificeren. Het totaal voor alle ervaringen moet 100% bedragen.
+   * **[!UICONTROL Manual (Default)]**: geef het percentage van de gegadigden op dat u elke ervaring wilt zien. U kunt de percentages gelijkmatig over alle ervaringen verdelen, of hogere of lagere percentages voor elke ervaring specificeren. Het totaal voor alle ervaringen moet 100% bedragen.
 
-   * **[!UICONTROL Auto-allocate to best experience]**: De meeste deelnemers aan de activiteit worden automatisch gericht op beter presterende ervaringen. Sommige bezoekers worden toegewezen aan alle ervaringen, om het verkennen van ervaringen te handhaven en veranderingen in prestatietrends te erkennen. Zie voor meer informatie [[!UICONTROL Auto-Allocate] overzicht](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+   * **[!UICONTROL Auto-Allocate to best experience]**: De meeste deelnemers aan de activiteit worden automatisch omgeleid naar beter presterende ervaringen. Sommige bezoekers worden toegewezen aan alle ervaringen, om het verkennen van ervaringen te handhaven en veranderingen in prestatietrends te erkennen. Zie [[!UICONTROL Auto-Allocate] overview ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) voor meer informatie.
 
-   * **[!UICONTROL Auto-target for personalized experiences]**: [!DNL Target] maakt gebruik van geavanceerd computerleren om inhoud en stationsomzettingen aan te passen door het identificeren van meervoudige, door de markt gedefinieerde ervaringen, en vervolgens de meest toegesneden ervaring aan bezoekers te bezorgen op basis van hun individuele klantprofielen en eerdere gedragingen van vergelijkbare bezoekers. Zie voor meer informatie [Overzicht van automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
+   * **[!UICONTROL Auto-Target for personalized experiences]**: [!DNL Target] maakt gebruik van geavanceerd leren van computers om inhoud en stationsomzettingen aan te passen door het identificeren van meerdere hoogwaardige, door markters gedefinieerde ervaringen en vervolgens de meest op maat gemaakte ervaring aan bezoekers te bieden op basis van hun individuele klantprofielen en eerdere gedragingen van vergelijkbare bezoekers. Voor meer informatie, zie [ auto-Doel overzicht ](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 
-   U kunt ook op **[!UICONTROL Add]** om een andere ervaring aan de activiteit toe te voegen.
+1. Klik op **[!UICONTROL Experiences]** in het rechterdeelvenster en geef vervolgens de gewenste verkeerstoewijzing voor elke ervaring op.
 
-1. Wanneer u met uw publiek, ervaringskeuzen, en de keuzen van de verkeerstoewijzing tevreden bent, klik **[!UICONTROL Next]** om naar de derde stap van de driestappenworkflow met instructies te gaan.
+1. Als u tevreden bent met het publiek, de ervaringsopties en de keuzes voor verkeerstoewijzing, klikt u op **[!UICONTROL Next]** om naar de derde stap van de driestappenworkflow met instructies te gaan.
 
-1. Geef de [doelstellingen en instellingen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) voor de activiteit.
+1. Specificeer de [ doelstellingen en de montages ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) voor de activiteit.
 
-1. Klikken **[!UICONTROL Save & Close]** of **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save & Close]** of **[!UICONTROL Save]** .
 
-Nadat u de activiteit creeert, [!UICONTROL Overview] op het tabblad vindt u informatie over de activiteit, inclusief een diagram met uw activiteit.
-
-## Trainingsvideo: A/B-tests maken (8:36) ![Zelfstudie-badge](/help/main/assets/tutorial.png)
-
-In deze video ziet u hoe u een A/B-test maakt met de opdracht [!DNL Target] driestapsgerichte workflow.
-
-* Een [!UICONTROL A/B Test] activiteit in [!DNL Adobe Target]
-* Verkeer toewijzen met een handmatige splitsing of automatische verkeerstoewijzing
-
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+Nadat u de activiteit creeert, toont het [!UICONTROL Overview] lusje informatie over de activiteit, met inbegrip van een diagram van uw activiteit.

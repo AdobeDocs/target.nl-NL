@@ -1,51 +1,45 @@
 ---
 keywords: gericht;ervaring;ervaring toevoegen;ervaring toevoegen
-description: Leer hoe u de [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target].
-title: Hoe voeg ik ervaringen toe in een [!DNL Target] A/B-activiteit?
+description: Gebruik [!UICONTROL Visual Experience Composer] (VEC) om ervaringen aan activiteiten toe te voegen.
+title: Hoe voeg ik ervaringen toe in een A/B-activiteit?
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
-source-git-commit: 6fa1b428e7955bae976649c42d3eb9b2ddc2c79f
+source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
 # Ervaring toevoegen
 
-De [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) biedt een visuele interface voor het toevoegen en bewerken van de ervaringen op uw pagina.
+[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) verstrekt een visuele interface voor het toevoegen van en het uitgeven van de ervaringen op uw pagina.
 
-Zie voor meer informatie over ervaringen [Ervaringen](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+Voor extra detail over ervaringen, zie [ Ervaringen ](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
-1. Van de **[!UICONTROL Experiences]** pagina in VEC, klik **[!UICONTROL Add Experience]**.
+1. Van de **[!UICONTROL Experiences]** pagina in VEC, klik het [!UICONTROL Add] pictogram ( ![ voeg pictogram ](/help/main/assets/icons/Add.svg) toe) bij de bovenkant van de [!UICONTROL Experiences] ruit.
 
-   ![Ervaring toevoegen, optie](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/add-experience.png)
-
-   >[!NOTE]
-   >
-   >Als u een ervaring richt aan een publiek, moet u het publiek selecteren alvorens u een ervaring kunt toevoegen. Er verschijnt een bericht om u eraan te herinneren uw publiek te kiezen.
+   VEC toont twee lusjes op de linkerkant nadat u een nieuwe activiteit creeert: Ervaring A en Ervaring B. De ervaring A is de controleervaring. U kunt meerdere ervaringen toevoegen aan de test.
 
 1. Selecteer de elementen die u wilt wijzigen en breng de gewenste wijzigingen aan.
 
    Terwijl u de muisaanwijzer over de elementen op de pagina beweegt, worden de elementen gemarkeerd. Om het even welk benadrukt element kan worden veranderd gebruikend VEC.
 
-   Als u een [!DNL Target] aanvragen op de pagina met [!DNL Target Classic] (voorheen) [!DNL Test&Target]), [!DNL Target] De aanvraag wordt weergegeven als een element dat de naam van de aanvraag weergeeft en kan net als elk ander element worden gewijzigd.
+   Als u een [!DNL Target] -aanvraag op de pagina hebt gemaakt met [!DNL Target Classic] (voorheen [!DNL Test&Target] ), wordt die [!DNL Target] -aanvraag weergegeven als een element met de naam van de aanvraag. Deze aanvraag kan net als elk ander element worden gewijzigd.
 
-   Voor een lijst met acties die op een element op de getoonde pagina kunnen worden uitgevoerd om de ervaring te veranderen, zie [Opties voor composer visuele ervaring](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
+   Voor een lijst van acties die op een element op de getoonde pagina kunnen worden uitgevoerd om de ervaring te veranderen, zie {de Opties van Composer van de 1} Visuele Ervaring.[](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
 
    >[!NOTE]
    >
-   >Als u een afbeelding levert van een andere bron dan de hoofdpagina (bijvoorbeeld een afbeelding die wordt gehost op `akamai.net` en geleverd op `example.com`), wordt die afbeelding niet weergegeven in de miniatuur van de pagina die wordt weergegeven in het stroomdiagram.
+   >Als u een afbeelding levert van een andere bron dan de hoofdpagina (bijvoorbeeld een afbeelding die wordt gehost op `akamai.net` en wordt geleverd op `example.com` ), wordt die afbeelding niet weergegeven in de miniatuur van de pagina die wordt weergegeven in het stroomdiagram.
 
-1. Klikken **[!UICONTROL Save]** wanneer u klaar bent met het ontwerpen van de ervaring.
+1. Klik op **[!UICONTROL Next]** wanneer u klaar bent met het ontwerpen van de ervaring.
 
 ## Naam wijzigen
 
-1. Klik op de knop **[!UICONTROL Rename Experience]** pictogram op een ervaring in een [!UICONTROL A/B Test] of [!UICONTROL Experience Targeting] (XT) om de ervaring een nieuwe naam te geven.
+1. Klik het **[!UICONTROL Rename Experience]** pictogram ( ![ anders noem pictogram ](/help/main/assets/icons/Rename.svg)) naast een ervaring om de ervaring een nieuwe naam te geven.
 
-   ![Naam wijzigen](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
-
-2. Geef een nieuwe naam op.
+2. Geef een nieuwe naam op en klik op **[!UICONTROL Save]** .
 
    Wanneer u een ervaring een naam geeft of de naam ervan wijzigt, zijn de volgende tekens niet toegestaan:
 
@@ -53,7 +47,7 @@ Zie voor meer informatie over ervaringen [Ervaringen](/help/main/c-experiences/e
    |--- |--- |
    | / | slash |
    | ? | Vraagteken |
-   | # | Nummerteken |
+   | Aantal | Nummerteken |
    | : | Colon |
    | = | Gelijk aan |
    | + | Plus |
@@ -62,46 +56,22 @@ Zie voor meer informatie over ervaringen [Ervaringen](/help/main/c-experiences/e
 
 ## Omleiden naar URL
 
-1. Klik op de knop **[!UICONTROL More]** pictogram (de verticale ellips) op een ervaring in een [!UICONTROL A/B Test] of [!UICONTROL Experience Targeting] (XT) en klik vervolgens op **[!UICONTROL Redirect to URL]**.
+1. In de **[!UICONTROL Experiences]** ruit, klik het **[!UICONTROL More]** pictogram ( ![ Meer pictogram ](/help/main/assets/icons/MoreSmall.svg)) naast een ervaring, dan klik **[!UICONTROL Redirect to URL]**.
 
-   Zie voor meer informatie [Omleiden naar URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md).
-
-   **OPMERKING**: Als u een ervaring een naam geeft of de naam ervan wijzigt, zijn de volgende tekens niet toegestaan:
-
-   | Teken | Beschrijving |
-   |--- |--- |
-   | / | slash |
-   | ? | Vraagteken |
-   | # | Nummerteken |
-   | : | Colon |
-   | = | Gelijk aan |
-   | + | Plus |
-   | - | Min |
-   | @ | Bij ondertekenen |
+   Voor meer informatie, zie [ Redirect aan URL ](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
 1. Geef de URL op waarnaar u de ervaring wilt omleiden.
 
-1. (Voorwaardelijk) Controleer de **[!UICONTROL Include Current Query Parameters]** selectievakje.
+1. (Voorwaardelijk) Schakel het selectievakje **[!UICONTROL Include Current Query Parameters]** in.
+
+1. Klik op **[!UICONTROL Save]**.
 
 ## Een ervaring dupliceren
 
-U kunt een ervaring kopiëren in een [!UICONTROL A/B Test] u kunt er kleine wijzigingen in aanbrengen zonder dat u de ervaring helemaal opnieuw hoeft op te bouwen .
+U kunt een ervaring in een [!UICONTROL A/B Test] kopiëren zodat u kleine veranderingen in het kunt aanbrengen zonder het moeten de ervaring opnieuw creëren.
 
-1. Op de **[!UICONTROL Experiences]** pagina (de eerste stap in de driestappenworkflow met instructies), klikt u op het pictogram voor de verticale ellips > **[!UICONTROL Duplicate]**.
-
-   ![Optie Dubbele ervaring](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
+1. In de **[!UICONTROL Experiences]** ruit, klik het **[!UICONTROL More]** pictogram ( ![ Meer pictogram ](/help/main/assets/icons/MoreSmall.svg)) naast een ervaring, dan klik **[!UICONTROL Duplicate]**.
 
 ## Een ervaring verwijderen
 
-1. Op de **[!UICONTROL Experiences]** pagina (de eerste stap in de driestappenworkflow met instructies), klikt u op het pictogram voor de verticale ellips > **[!UICONTROL Duplicate]**.
-
-   ![Ervaring verwijderen, optie](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
-
-## Trainingsvideo: De [!UICONTROL Visual Experience Composer]
-
-In de onderstaande video vindt u informatie over het gebruik van de [!UICONTROL Visual Experience Composer] opties. (7:17)
-
-* De inhoud van een pagina wijzigen
-* De lay-out van een pagina wijzigen
-
->[!VIDEO](https://video.tv.adobe.com/v/17399)
+1. In de **[!UICONTROL Experiences]** ruit, klik het **[!UICONTROL More]** pictogram ( ![ Meer pictogram ](/help/main/assets/icons/MoreSmall.svg)) naast een ervaring, klik **[!UICONTROL Delete]**, dan klik **[!UICONTROL Delete]** om de actie te bevestigen.

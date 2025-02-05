@@ -1,23 +1,23 @@
 ---
 keywords: geautomatiseerde personalisatie;aanbiedingen;target;publiek;het richten van regels;het richten van gericht
-description: Leer hoe u afzonderlijke aanbiedingen kunt richten op specifieke doelgroepen met behulp van een [!UICONTROL Automated Personalization] (AP) activiteit in [!DNL Adobe Target].
-title: Hoe kan ik het doel bepalen [!UICONTROL Automated Personalization] Aanbiedingen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
+description: Ontdek hoe u afzonderlijke aanbiedingen kunt richten op specifieke doelgroepen met behulp van [!UICONTROL Automated Personalization] (AP)-activiteiten.
+title: Hoe kan ik [!UICONTROL Automated Personalization] aanbiedingen richten?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
-source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '370'
 ht-degree: 1%
 
 ---
 
-# Doel [!UICONTROL Automated Personalization] aanbiedingen
+# Doelaanbiedingen [!UICONTROL Automated Personalization]
 
-In een [!DNL Adobe Target] [!DNL Automated Personalization] (AP) activiteit, kunt u aanbiedingen aan specifiek publiek richten.
+In een [!DNL Adobe Target] [!DNL Automated Personalization] -activiteit (AP) kunt u aanbiedingen richten op specifieke doelgroepen.
 
-Als u deze functie gebruikt, verkleint u het aantal aanbiedingen dat een specifieke bezoeker kan zien. Neem bijvoorbeeld een [!UICONTROL Automated Personalization] activiteit met drie aanbiedingen. Aanbieding 1 heeft een richtingsregel die zijn blootstelling aan Publiek A beperkt. Twee bezoekers zagen deze activiteit.
+Als u deze functie gebruikt, verkleint u het aantal aanbiedingen dat een specifieke bezoeker kan zien. Neem bijvoorbeeld een [!UICONTROL Automated Personalization] -activiteit met drie mogelijkheden. Aanbieding 1 heeft een richtingsregel die zijn blootstelling aan Publiek A beperkt. Twee bezoekers zagen deze activiteit.
 
 | | Bezoeker 1 | Bezoeker 2 |
 |--- |--- |--- |
@@ -26,32 +26,28 @@ Als u deze functie gebruikt, verkleint u het aantal aanbiedingen dat een specifi
 | Aanbieding 2 score voor doel-verpersoonlijkingsmodel | 50 | 70 |
 | Aanbieding 3 Streefverpersoonlijkingsmodelscore | 80 | 60 |
 
-In dit scenario ziet bezoeker 1 aanbod 1 (omdat deze bezoeker in aanmerking komt als onderdeel van Audience A), wat de hoogste score van die bezoeker is. Visitor 2 ziet echter Aanbieding 2, ook al is de hoogste score voor Aanbieding 1, omdat Visitor 2 geen deel uitmaakt van Audience A. Dit voorbeeld toont aan waarom het richten van regels spaarzaam zou moeten worden gebruikt om aan bedrijfsbehoeften te voldoen. Het toevoegen van deze regels kan de doeltreffendheid van [!DNL Target] personalisatiemodellen.
+In dit scenario ziet bezoeker 1 aanbod 1 (omdat deze bezoeker in aanmerking komt als onderdeel van Audience A), wat de hoogste score van die bezoeker is. Visitor 2 ziet echter Aanbieding 2, ook al is de hoogste score voor Aanbieding 1, omdat Visitor 2 geen deel uitmaakt van Audience A. Dit voorbeeld toont aan waarom het richten van regels spaarzaam zou moeten worden gebruikt om aan bedrijfsbehoeften te voldoen. Het toevoegen van deze regels kan de doeltreffendheid van [!DNL Target] verpersoonlijkingsmodellen verminderen.
 
 ## Doelstellingen instellen
 
-1. Een [Automated Personalization-activiteit](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) bevat de aanbiedingen waarop u zich wilt richten.
-1. Nadat u de aanbiedingen voor de activiteit in de [!UICONTROL Visual Experience Composer], klikt u op **[!UICONTROL Manage Content]**.
+1. Creeer of geef een [ activiteit van Automated Personalization ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) uit die de aanbiedingen bevat die u wilt richten.
+1. Na vestiging klikken de aanbiedingen voor de activiteit in [!UICONTROL Visual Experience Composer], het **[!UICONTROL Manage Content]** pictogram ( ![ leidt het pictogram van de Inhoud ](/help/main/assets/icons/Experience.svg)).
 
-   ![Inhoud beheren](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
+   Het dialoogvenster [!UICONTROL Manage Content] wordt weergegeven.
 
-   De [!UICONTROL Manage Content] wordt weergegeven.
-
-1. Klik op de knop **[!UICONTROL Offers]** tab.
-
-   ![Pagina met aanbiedingen](/help/main/c-activities/t-automated-personalization/assets/manage-content-offers.png)
+1. Klik op de tab **[!UICONTROL Offers]** .
 
 1. Selecteer de gewenste aanbiedingen en kies vervolgens het publiek dat u in aanmerking wilt nemen om dat aanbod te zien.
 
-   Als u een abonnement wilt nemen op één aanbieding, houdt u de muisaanwijzer boven het gewenste aanbod en klikt u op de knop **[!UICONTROL Targeting]** pictogram.
+   Aan opstelling richtend voor één enkele aanbieding, klik Meer Info ( ![ Meer pictogram van Info ](/help/main/assets/icons/MoreSmallList.svg)) naast de gewenste aanbieding, dan klik **[!UICONTROL Target Audience]** om de [!UICONTROL Add Audiences] dialoogdoos te tonen.
 
-   Als u een keuze wilt maken voor meerdere aanbiedingen, schakelt u de selectievakjes voor de gewenste aanbiedingen in en klikt u op de knop **[!UICONTROL Targeting]** pictogram dat rechtsboven in de lijst wordt weergegeven.
+   Als u de doelgroep voor meerdere aanbiedingen wilt instellen, schakelt u de selectievakjes voor de gewenste aanbiedingen in en klikt u op de koppeling **[!UICONTROL Target Audience]** die onder aan de lijst wordt weergegeven.
 
-1. In de [!UICONTROL Choose Audience] , selecteert u het gewenste publiek voor de aanbiedingen en klikt u vervolgens op **[!UICONTROL Done]** om terug te keren naar de [!UICONTROL Manage Content] in.
+1. Selecteer in het dialoogvenster [!UICONTROL Add Audiences] het gewenste publiek voor de aanbiedingen en klik vervolgens op **[!UICONTROL Assign Audience]** om terug te keren naar het dialoogvenster [!UICONTROL Manage Content] .
 
    >[!NOTE]
    >
-   >Naast het selecteren van een bestaand publiek kunt u meerdere soorten publiek combineren om een gecombineerd ad-hocpubliek te maken in plaats van een nieuw publiek te maken. Zie voor meer informatie [Meerdere soorten publiek combineren](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   >Naast het selecteren van een bestaand publiek kunt u meerdere soorten publiek combineren om op aanvraag gecombineerde soorten publiek te maken in plaats van een nieuw publiek te maken. Voor meer informatie, zie [ Combinerend Veelvoudige Soorten publiek ](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
 1. Klik op **[!UICONTROL Done]**.
 

@@ -1,84 +1,67 @@
 ---
 keywords: publiek;selecteer publiek;kies publiek;Kiezers
-description: Het publiek bepaalt welke bezoekers van de site worden ingevoerd in uw Adobe [!DNL Target] activiteit.
-title: Hoe selecteer ik een publiek in een [!DNL Target] A/B-activiteit?
+description: Bepaal welke plaatsbezoekers zich bij uw Adobe  [!DNL Target]  activiteit aansluiten die op publiekscriteria wordt gebaseerd.
+title: Hoe selecteer ik een Publiek in de Activiteit van A  [!DNL Target]  A/B?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: 676350453268e4ffc04df83dcda0525842ca8b07
+source-git-commit: f6845756f9d4220214b0d9131cd5f27db2ae94a9
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
 
 # Doelgroep selecteren
 
-Het publiek bepaalt welke bezoekers van de site u wilt invoeren [!DNL Adobe Target] activiteit.
+Het publiek bepaalt welke gekwalificeerde bezoekers worden ingevoerd in uw [!DNL Adobe Target] -activiteit.
+
+De [!UICONTROL Targeting] stap van het driedelige geleide werkschema wanneer [ het creëren van een activiteit ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) toont een stroomdiagram dat u door de stappen leidt om een publiek en zijn verkeerspercentage toe te wijzen, de methode van de verkeerstoewijzing te selecteren, en de verkeerstoewijzing voor elke ervaring in de activiteit te specificeren.
+
+![ A/B de Test richtend stap ](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
+
+Voor meer informatie over alle opties in het stroomdiagram, zie [ een activiteit van de Test van A/B ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) creëren.
+
+## Een publiek voor de activiteit selecteren
+
+1. Klik op het besturingselement **[!UICONTROL All Visitors]** om een ander publiek voor de activiteit te selecteren.
+
+   De doelgroep van [!UICONTROL All Visitors] wordt ingesteld als de standaardgroep. Als u een ander publiek selecteert, wordt de naam van het publiek uiterst links weergegeven.
+
+   Kies de standaardinstelling [!UICONTROL All Visitors] voor een A/B-test zonder specifieke doelgroepen.
+
+   Het juiste frame wordt weergegeven, waarmee u een publiek kunt toevoegen of verwijderen en het bezoekerspercentage voor de activiteit kunt toewijzen.
+
+1. Om het publiek te veranderen, klik het **[!UICONTROL Replace]pictogram** ( ![ vervangt pictogram ](/help/main/assets/icons/Retweet.svg)) in het juiste kader.
+
+1. In het [!UICONTROL Add Audience] dialoogvakje, [ selecteer het gewenste publiek ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), dan klik **[!UICONTROL Assign Audience]**.
+
+   Standaard zijn alle bezoekers uw publiek. U kunt het publiek echter wijzigen. Soorten publiek worden geselecteerd in de [!UICONTROL Audience Library] of u kunt een alleen-activiteit publiek maken. [!UICONTROL Audience Library] bevat publiek dat eerder is gedefinieerd, inclusief enkele gangbare soorten publiek die vooraf zijn gebouwd als onderdeel van [!DNL Target] .
+
+1. (Voorwaardelijk) klik **Soorten publiek** combineren om [ een publiek tot stand te brengen dat veelvoudige publiek ](/help/main/c-target/combining-multiple-audiences.md) combineert.
+
+1. (Voorwaardelijk) om een nieuw publiek tot stand te brengen dat niet reeds in [!UICONTROL Audience Library] is, **creeer Publiek**, bepaal het publiek, dan klik **[!UICONTROL Done]**.
+
+   Tijdens het [ creeer-publiek werkschema ](/help/main/c-target/c-audiences/audiences.md), kunt u van de volgende opties kiezen:
+
+   * **[!UICONTROL Audience Library]**: Maak een publiek op aanvraag dat wordt opgeslagen in [!UICONTROL Audience Library] en dat opnieuw kan worden gebruikt in andere activiteiten.
+   * **[!UICONTROL This activity only]**: Creeer een [ activiteit-specifiek publiek ](/help/main/c-target/creating-activity-only-audience.md) dat niet aan [!UICONTROL Audience Library] wordt bewaard en in de huidige activiteit slechts kan worden gebruikt.
+
+1. Klik op **[!UICONTROL Visitor Percentage]** in het rechterdeelvenster en geef vervolgens het percentage gekwalificeerde bezoekers op dat u in de activiteit wilt opnemen.
+
+1. Als u tevreden bent met het publiek, klikt u op **[!UICONTROL Next]** om naar de derde stap van de driestappenworkflow met instructies te gaan.
 
 >[!NOTE]
 >
->Naast het selecteren van een bestaand publiek kunt u meerdere soorten publiek combineren om een gecombineerd ad-hocpubliek te maken in plaats van een nieuw publiek te maken. Zie voor meer informatie [Meerdere soorten publiek combineren](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+>Soorten publiek worden automatisch op de achtergrond geïmporteerd wanneer u de lijst van [!UICONTROL Audience] opent en het geïmporteerde publiek langer dan 10 minuten oud is.
 
-1. In de [!UICONTROL Audience] klikt u op **[!UICONTROL Edit]** pictogram (de verticale ellips) en klik vervolgens op **[!UICONTROL Replace Audience]**.
+## De informatie van een publiek weergeven
 
-   ![Publiek vervangen, optie](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
+1. In het [!UICONTROL Add Audiences] dialoogvakje, klik het **[!UICONTROL Information]** pictogram ( ![ pictogram van Info ](/help/main/assets/icons/InfoOutline.svg)) naast een publiek om details over dat publiek, met inbegrip van zijn bron en attributen te bekijken.
 
-   Standaard zijn alle bezoekers uw publiek. U kunt het publiek echter wijzigen. Het publiek wordt geselecteerd uit de publieksbibliotheek of u kunt een activiteit-slechts publiek tot stand brengen. De publieksbibliotheek bevat publiek dat eerder is gedefinieerd, inclusief een aantal algemene doelgroepen die vooraf zijn gebouwd als onderdeel van [!DNL Target].
+1. Klik op **[!UICONTROL View Full Details]** om meer informatie over het publiek weer te geven. De details omvatten de attributen van het publiek; de beschrijving van het publiek, de werkruimte, het type, en de bron; en een lijst van activiteiten die naar dit publiek verwijzen. U kunt informatie over elk publiek, met inbegrip van activiteitennaam, status, werkruimte zien, en wanneer het publiek het laatst werd gewijzigd en door wie.
 
-1. Selecteer of maak het gewenste publiek:
+## Een publiek bewerken of kopiëren
 
-   * Een publiek selecteren in de bibliotheek
-   * [Meerdere doelgroepen combineren](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)
-   * [Een nieuw publiek maken](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
-   * [Een alleen-activiteitpubliek maken](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+U kunt een publiek uitgeven of kopiëren door het [!UICONTROL More Actions] pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/More.svg)) naast het gewenste publiek in het [!UICONTROL Add Audience] dialoogvakje te klikken, dan door [!UICONTROL Edit] of [!UICONTROL Copy] te klikken.
 
-   Kies de standaardinstelling voor een A/B-test zonder specifieke doelgroep. [!UICONTROL All Visitors].
-
-   U kunt een publiek ook bewerken of kopiëren door de muisaanwijzer boven het gewenste publiek in het deelvenster [!UICONTROL Add Audience] zoals hieronder weergegeven.
-
-   Het kopiëren van een publiek is handig als u een publiek wilt maken dat vergelijkbaar is met dat van een bestaand publiek. U kunt een kopie van het publiek maken, wijzigingen aanbrengen en deze vervolgens opslaan als een nieuw publiek. Deze aanwijsfunctionaliteit bestaat ook in andere activiteitstypen.
-
-   ![Publiek aanwijzen](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
-
-   Wanneer u een publiek maakt, kunt u een locatie (mbox) selecteren en parameters voor die locatie opgeven. Onder [!UICONTROL Custom Parameters], selecteert u de mbox en geeft u de gewenste parameters op.
-
-   >[!NOTE]
-   >
-   >Soorten publiek worden automatisch op de achtergrond geïmporteerd wanneer u de lijst met doelgroepen opent en het geïmporteerde publiek langer dan 10 minuten oud is.
-
-1. (Voorwaardelijk) Geef het percentage gekwalificeerde bezoekers op dat u in de activiteit wilt opnemen.
-
-   U kunt bijvoorbeeld 50% van alle bezoekers opnemen.
-
-   ![Percentage publiek](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
-
-   U kunt er ook voor kiezen om Doel te laten [automatisch verkeer toewijzen](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
-
-## Trainingsvideo&#39;s
-
-De volgende video&#39;s bevatten meer informatie over de concepten die in dit artikel worden besproken.
-
-### Soorten publiek gebruiken in Adobe Target (6:21) ![Overzicht badge](/help/main/assets/overview.png)
-
-In deze video wordt uitgelegd hoe u het publiek kunt gebruiken in [!DNL Target Standard/Premium].
-
-* Verklaar de term &quot;Publiek&quot;
-* Verklaar de twee manieren waarop het publiek voor optimalisering wordt gebruikt
-* Soorten publiek zoeken in de lijst Soorten publiek
-* Een activiteit toewijzen aan een publiek
-* Gebruik publiek voor passieve rapportage in een activiteit
-
->[!VIDEO](https://video.tv.adobe.com/v/17398)
-
-### Activiteitsworkflow - gericht (2:14) ![Zelfstudie-badge](/help/main/assets/tutorial.png)
-
-Deze video bevat informatie over het instellen van het publiek.
-
-* Een publiek toewijzen aan uw activiteit
-* Verkeer omhoog of omlaag duwen
-* Selecteer uw methode voor verkeerstoewijzing
-* Verkeer toewijzen tussen verschillende ervaringen
-
->[!VIDEO](https://video.tv.adobe.com/v/17385)
-
-Zie voor meer informatie [Soorten publiek](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+Het kopiëren van een publiek is handig als u een publiek wilt maken dat vergelijkbaar is met dat van een bestaand publiek. U kunt een kopie van het publiek maken, wijzigingen aanbrengen en deze vervolgens opslaan als een nieuw publiek.

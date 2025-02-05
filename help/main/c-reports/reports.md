@@ -4,9 +4,9 @@ description: Optimaliseer uw activiteiten door  [!DNL Adobe Target] rapportering
 title: Hoe kan ik rapporten weergeven?
 feature: Reports
 exl-id: c5710eb3-0c72-47f8-870d-df50453ecf08
-source-git-commit: 5c963e97dae11326396a5c1c5e32d19f4d463c74
+source-git-commit: bd65cb9339dbe4b79d26c314cfb81d1fc7226fd2
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '814'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,19 @@ Rapporten bevatten informatie over de voortgang en de resultaten van uw [!DNL Ad
 
 1. Klik op **[!UICONTROL Activities]** en klik vervolgens op de gewenste activiteit in de lijst.
 
-   Als u veel activiteiten hebt, kunt u de lijst filteren door opties te selecteren in de vervolgkeuzelijsten [!UICONTROL Type] , [!UICONTROL Status] , [!UICONTROL Reporting Source] , [!UICONTROL Experience Composer] , [!UICONTROL Metrics Type] , [!UICONTROL Decisioning Method] en [!UICONTROL Activity Source] .
+   Als u vele activiteiten hebt, kunt u het pictogram van de Filter ( ![ pictogram van de Filter ](/help/main/assets/icons/Filter.svg)) klikken om de lijst te filtreren door opties van [!UICONTROL Type] te selecteren, [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], [!UICONTROL Decisioning Method], en [!UICONTROL Activity Source] lijsten.
 
    U kunt bijvoorbeeld [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] selecteren in de vervolgkeuzelijst [!UICONTROL Type] en [!UICONTROL Live] in de vervolgkeuzelijst [!UICONTROL Status] om alleen [!UICONTROL A/B Test] - en [!UICONTROL Experience Targeting] -activiteiten weer te geven die actief zijn.
 
    De volgende afbeelding toont de vervolgkeuzelijst [!UICONTROL Type] met twee geselecteerde typen: [!UICONTROL A/B Test] en [!UICONTROL Experience Targeting] . Merk op dat de drie types van Tests A/B (Hand, [ auto-Wijs ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) toe, en [ auto-Doel ](/help/main/c-activities/auto-target/auto-target-to-optimize.md)) door gebrek worden geselecteerd. U kunt desgewenst een of meer typen deselecteren.
 
-   ![ de rapporten van de Filter door type ](/help/main/c-reports/assets/report_filters-new.png)
+   ![ de rapporten van de Filter door type ](/help/main/c-reports/assets/report-filters-refresh.png)
 
-1. Selecteer de gewenste activiteit in de lijst.
+1. Klik op de gewenste activiteit in de lijst om de bijbehorende [!UICONTROL Overview] pagina weer te geven.
 
 1. Klik op de tab **[!UICONTROL Reports]** in de linkertrack.
+
+   ![ A/B- rapport ](/help/main/c-reports/assets/reports-refresh.png)
 
    Elk rapport bevat een legenda om u te helpen het rapport te begrijpen.
 
@@ -42,25 +44,23 @@ Rapporten bevatten informatie over de voortgang en de resultaten van uw [!DNL Ad
    >
    >Ervaringsresultaten worden weergegeven nadat ten minste één kandidaat de ervaring heeft gezien.
 
-1. (Facultatief) [ vorm het rapport ](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA), zoals gewenst.
-1. (Facultatief) [ Download het rapport in formaat CSV ](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) voor analyse in Excel en andere hulpmiddelen.
+1. (Facultatief) [ vorm het rapport ](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) door het pictogram van de Montages van het Rapport te klikken ( ![ pictogram van de Montages van het Rapport ](/help/main/assets/icons/Setting.svg)).
+1. (Facultatief) klik het pictogram van de Rapporten van de Download ( ![ pictogram van de Rapporten van de Download ](/help/main/assets/icons/Download.svg)) [ het rapport in formaat CSV ](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) voor analyse in Excel en andere hulpmiddelen downloaden.
 
    De volgende opties zijn beschikbaar:
 
    * [!UICONTROL Export Report to CSV]
    * [!UICONTROL Export Order Details to CSV]
 
-1. (Optioneel) Klik op de pictogrammen **[!UICONTROL Table View]** en **[!UICONTROL Graph View]** om te schakelen tussen de rapportopmaak.
-
-   ![ de meningspictogrammen van de Lijst en van de Grafiek ](/help/main/c-reports/assets/table-and-graph-icons.png)
+1. (Facultatief) klik **[!UICONTROL Table View]** ( ![ pictogram van de Mening van de Lijst ](/help/main/assets/icons/Table.svg)) en **[!UICONTROL Graph View]** ( ![ pictogram van de Mening van de Grafiek ](/help/main/assets/icons/GraphTrend.svg) ) pictogrammen om tussen het melden van formaten te schakelen.
 
    Afhankelijk van het type rapport dat u hebt geselecteerd, zijn mogelijk andere weergaven en rapporten beschikbaar:
 
    | Rapporttype | Weergave |
    | --- | --- |
-   | [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Klik op de pictogrammen **[!UICONTROL Automated Segments]** of **[!UICONTROL Important Attributes]** .<ul><li>Het [[!UICONTROL Automated Segments] rapport ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) toont hoe de verschillende bezoekers verschillend op de aanbiedingen en ervaringen in uw [!UICONTROL Automated Personalization] of [!UICONTROL Auto-Target] activiteit antwoorden. Dit rapport laat zien hoe verschillende geautomatiseerde segmenten die door de [!DNL Target] personalisatiemodellen worden gedefinieerd, op de aanbiedingen en ervaringen in de activiteit hebben gereageerd.</li><li>Het [[!UICONTROL Important Attributes] rapport ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) toont hoe, in verschillende activiteiten, verschillende attributen (of minder) belangrijker aan zijn hoe het model besluit om te personaliseren. Dit rapport toont de belangrijkste kenmerken die het model en hun relatieve belang beïnvloedden.</li></ul> |
-   | [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) | Naast de [[!UICONTROL Automated Personalization Summary] rapporten ](/help/main/c-reports/personalization-reports/reports-ap.md), kunt u de **[!UICONTROL Automated Segments]** of **[!UICONTROL Important Attributes]** pictogrammen klikken.<ul><li>Het [[!UICONTROL Automated Segments] rapport ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) toont hoe de verschillende bezoekers verschillend op de aanbiedingen en ervaringen in uw [!UICONTROL Automated Personalization] of [!UICONTROL Auto-Target] activiteit antwoorden. Dit rapport laat zien hoe verschillende geautomatiseerde segmenten die door de [!DNL Target] personalisatiemodellen worden gedefinieerd, op de aanbiedingen en ervaringen in de activiteit hebben gereageerd.</li><li>Het [[!UICONTROL Important Attributes] rapport ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) toont hoe, in verschillende activiteiten, verschillende attributen (of minder) belangrijker aan zijn hoe het model besluit om te personaliseren. Dit rapport toont de belangrijkste kenmerken die het model en hun relatieve belang beïnvloedden.</li></ul> |
-   | [[!UICONTROL Multivariate Test]](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MV) | Naast het [[!UICONTROL Experience Performance] rapport ](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md), kunt u het [[!UICONTROL Location Contribution]](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) pictogram klikken om het rapport te schakelen om bijdrage door plaats te tonen. |
+   | [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Klik **[!UICONTROL Automated Segments]** ( ![ Geautomatiseerde het rapport van Segmenten ](/help/main/assets/icons/AutomatedSegment.svg)) of **[!UICONTROL Important Attributes]** ( ![ Belangrijk pictogram van Attributen ](/help/main/assets/icons/ViewList.svg)) pictogrammen.<ul><li>Het [[!UICONTROL Automated Segments] rapport ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) toont hoe de verschillende bezoekers verschillend op de aanbiedingen en ervaringen in uw [!UICONTROL Automated Personalization] of [!UICONTROL Auto-Target] activiteit antwoorden. Dit rapport laat zien hoe verschillende geautomatiseerde segmenten die door de [!DNL Target] personalisatiemodellen worden gedefinieerd, op de aanbiedingen en ervaringen in de activiteit hebben gereageerd.</li><li>Het [[!UICONTROL Important Attributes] rapport ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) toont hoe, in verschillende activiteiten, verschillende attributen (of minder) belangrijker aan zijn hoe het model besluit om te personaliseren. Dit rapport toont de belangrijkste kenmerken die het model en hun relatieve belang beïnvloedden.</li></ul> |
+   | [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) | Naast [[!UICONTROL Automated Personalization Summary] rapporten ](/help/main/c-reports/personalization-reports/reports-ap.md), kunt u **[!UICONTROL Automated Segments]** klikken ( ![ Geautomatiseerde het rapport van Segmenten ](/help/main/assets/icons/AutomatedSegment.svg)) of **[!UICONTROL Important Attributes]** ( ![ Belangrijke het pictogram van Attributen ](/help/main/assets/icons/ViewList.svg)) pictogrammen.<ul><li>Het [[!UICONTROL Automated Segments] rapport ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) toont hoe de verschillende bezoekers verschillend op de aanbiedingen en ervaringen in uw [!UICONTROL Automated Personalization] of [!UICONTROL Auto-Target] activiteit antwoorden. Dit rapport laat zien hoe verschillende geautomatiseerde segmenten die door de [!DNL Target] personalisatiemodellen worden gedefinieerd, op de aanbiedingen en ervaringen in de activiteit hebben gereageerd.</li><li>Het [[!UICONTROL Important Attributes] rapport ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) toont hoe, in verschillende activiteiten, verschillende attributen (of minder) belangrijker aan zijn hoe het model besluit om te personaliseren. Dit rapport toont de belangrijkste kenmerken die het model en hun relatieve belang beïnvloedden.</li></ul> |
+   | [[!UICONTROL Multivariate Test]](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MV) | Naast het [[!UICONTROL Experience Performance] rapport ](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md), kunt u [[!UICONTROL Location Contribution]](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) ( ![ pictogram van de Bijdrage van de Plaats ](/help/main/assets/icons/LocationContribution.svg)) klikken om het rapport te schakelen om bijdrage door plaats te tonen. |
 
 ## Aanvullende rapportage-informatie voor specifieke soorten activiteiten {#section_DFE037B9E1C345D3B3BDFCB3AC0359CA}
 
@@ -78,6 +78,6 @@ Naast de algemene rapporteringsinformatie in dit onderwerp en zijn subtopics, is
 
 ## Blokrapportgegevens van opgegeven IP-adressen
 
-U kunt bezoekers van gespecificeerde IP adressen van worden geteld in rapporten blokkeren. Dit is bijvoorbeeld handig om rapportgegevens van uw interne bezoekers te blokkeren.
+U kunt bezoekers van gespecificeerde IP adressen van worden geteld in rapporten blokkeren. Deze optie is bijvoorbeeld handig om rapportgegevens van uw interne bezoekers te blokkeren.
 
 [ de Zorg van de Cliënt van het Contact ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) aan opstellingsIP filters. Dit het filtreren is niet van toepassing wanneer het gebruiken van [ Analytics voor Doel ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) als uw rapporteringsbron.

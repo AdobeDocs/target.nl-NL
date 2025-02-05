@@ -5,18 +5,18 @@ title: Hoe dien ik Target toe?
 feature: Administration & Configuration
 role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
-# Beheren [!DNL Target] Overzicht
+# [!DNL Target] Overzicht beheren
 
-Informatie die u helpt bij het beheren [!DNL Adobe Target], met inbegrip van configuratiemontages voor Visual Experience Composer (VEC), het melden, de configuratie van Scene7, implementatie, gastheren, milieu&#39;s, reactietokens, en gebruikers.
+Informatie om u te helpen beheren [!DNL Adobe Target], met inbegrip van configuratiemontages voor Visual Experience Composer (VEC), het melden, de configuratie van Scene7, implementatie, gastheren, milieu&#39;s, reactietokens, gebruikers, en [!DNL Recommendations].
 
-Om toegang te krijgen tot [!UICONTROL Administration] menu-items, klikt u op **[!UICONTROL Administration]** in de bovenste menubalk klikt u op de gewenste tab aan de linkerkant:
+Als u de menu-items [!UICONTROL Administration] wilt openen, klikt u op **[!UICONTROL Administration]** in de bovenste menubalk en klikt u op het gewenste tabblad aan de linkerkant:
 
 * [Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md)
 * [Rapportage](/help/main/administrating-target/reporting.md)
@@ -27,5 +27,4 @@ Om toegang te krijgen tot [!UICONTROL Administration] menu-items, klikt u op **[
 * [Omgevingen](/help/main/administrating-target/environments.md)
 * [Reactiepunten](/help/main/administrating-target/response-tokens.md)
 * [Gebruikers](/help/main/administrating-target/c-user-management/user-management.md)
-
-![Menu Adobe Target-beheer](/help/main/administrating-target/assets/administration.png)
+* [Recommendations](/help/main/administrating-target/recommendations-settings.md)

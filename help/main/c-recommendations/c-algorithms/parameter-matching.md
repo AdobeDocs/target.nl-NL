@@ -1,18 +1,18 @@
 ---
 keywords: inclusieregels;inclusiecriteria;aanbevelingen;bevordering;bevordering;dynamische filtering;dynamische;parameter aanpassing
-description: Leer hoe u dynamisch filtert in Adobe [!DNL Target] Recommendations door items (entiteiten) te vergelijken met een waarde in de aanvraag (API of mbox).
+description: Leer hoe te om dynamisch in Adobe  [!DNL Target]  Recommendations te filtreren door punten (entiteiten) tegen een waarde in het verzoek (API of mbox) te vergelijken.
 title: Hoe filteren ik op parameter-overeenkomsten in Recommendations-activiteiten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
 
-# Overeenkomende parameters
+# [!UICONTROL Parameter Matching]
 
 Filter dynamisch door items (entiteiten) te vergelijken met een waarde in de aanvraag (API of mbox).
 
@@ -24,23 +24,22 @@ U kunt bijvoorbeeld alleen inhoud aanbevelen die overeenkomt met de pagina-param
 
 >[!NOTE]
 >
->Als de activiteit vóór 31 oktober 2016 werd gecreeerd, zal zijn levering ontbreken als het de &quot;Aanpassing van de Parameter&quot;filter gebruikt. U kunt dit probleem als volgt oplossen:
+>Als de activiteit vóór 31 oktober 2016 werd gecreeerd, ontbreekt zijn levering als het de &quot;Aanpassing van de Parameter&quot;filter gebruikt. U kunt dit probleem als volgt oplossen:
 >
 >* Maak een nieuwe activiteit en voeg daar uw criteria aan toe.
 >* Gebruik een criterium dat het filter &quot;Parameter Matching&quot; niet bevat.
 >* Verwijder het filter &quot;Parameter Matching&quot; uit de criteria.
 
-
 ## Voorbeelden van overeenkomsten met parameters
 
-[!UICONTROL Parameter Matching] kunt u inhoud aanbevelen die overeenkomt met de paginaparameters of de parameters van de bezoeker, zoals apparaatafmetingen of geo-locatie, zoals in het volgende voorbeeld:
+Met [!UICONTROL Parameter Matching] kunt u inhoud aanbevelen die overeenkomt met de paginaparameters of de parameters van de bezoeker, zoals apparaatafmetingen of geo-locatie, zoals in het volgende voorbeeld:
 
-[!DNL Recommendations] kan overeenkomen met parameterwaarden die worden verzonden in het dialoogvenster [!DNL Target] vraag. In dit geval: [!DNL Target] detecteert dat een bezoeker een mobiel apparaat gebruikt, op basis van de parameters voor schermhoogte en -breedte die in het dialoogvenster [!DNL Target] en zal slechts punten adviseren die mobiele apparaten zijn.
+[!DNL Recommendations] kan parameterwaarden aanpassen die in de [!DNL Target] -aanroep worden verzonden. In deze instantie detecteert [!DNL Target] dat een bezoeker een mobiel apparaat gebruikt, op basis van de parameters voor schermhoogte en -breedte die in de [!DNL Target] -aanroep zijn verzonden, en worden alleen items aanbevolen die mobiele apparaten zijn.
 
 Overweeg de volgende vraag van het voorbeeldDoel:
 
-![Doeloproep](/help/main/c-recommendations/c-algorithms/assets/example-target-call-2.png)
+![ vraag van het Doel ](/help/main/c-recommendations/c-algorithms/assets/example-target-call-2.png)
 
 Op de pagina die een bezoeker bekijkt, ziet hij of zij producten voor mobiele apparaten.
 
-![Mobiele apparaten](/help/main/c-recommendations/c-algorithms/assets/phones.png)
+![ Mobiele apparatenproducten ](/help/main/c-recommendations/c-algorithms/assets/phones.png)

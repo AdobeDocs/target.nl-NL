@@ -1,12 +1,12 @@
 ---
 keywords: multi-value;attributes;recommendations;multi-value;multivalue;multi-value
-description: Leer hoe u met een veld met meerdere waarden werkt in Adobe [!DNL Target] Recommendations gebruikt speciale operatoren voor meerdere waarden, bijvoorbeeld wanneer u films met meerdere acteurs aanbeveelt.
+description: Leer hoe te met een multi-waardegebied in  [!DNL Target Recommendations]  te werken gebruikend speciale multi-waardeexploitanten.
 title: Kan ik multiwaardekenmerken gebruiken in Recommendations?
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ Soms wilt u wellicht werken met een veld met meerdere waarden. Neem de volgende 
 * Je verkoopt tickets aan concerten. Een bepaalde gebruiker heeft meerdere favoriete banden.
 * Je verkoopt kleding. Een shirt is verkrijgbaar in verschillende formaten.
 
-Om aanbevelingen in deze scenario&#39;s te behandelen, kunt u multi-waardegegevens tot overgaan [!DNL Target Recommendations] en gebruik speciale operatoren voor meerdere waarden.
+Als u aanbevelingen in deze scenario&#39;s wilt afhandelen, kunt u gegevens met meerdere waarden doorgeven aan [!DNL Target Recommendations] en speciale operatoren met meerdere waarden gebruiken.
 
-Om toe te staan [!DNL Recommendations] om gegevens met meerdere waarden te identificeren, moet deze als een JSON-array worden verzonden, zoals in de onderstaande codevoorbeelden.
+Als u [!DNL Recommendations] wilt toestaan gegevens met meerdere waarden te identificeren, moet u deze verzenden als een JSON-array, zoals in de onderstaande codevoorbeelden.
 
 ## Een parameter met meerdere waarden doorgeven in JavaScript
 
@@ -40,7 +40,7 @@ function targetPageParams() {
 }
 ```
 
-Zie voor meer informatie [Meerdere-waardekenmerken implementeren](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) in *Aangepaste entiteitskenmerken*.
+Voor meer informatie, zie [ Uitvoerend multi-waardeattributen ](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) in *de entiteitattributen van de Douane*.
 
 ## Een kenmerk van een entiteit met meerdere waarden doorgeven in een CSV-bestand
 
@@ -59,7 +59,7 @@ Zie voor meer informatie [Meerdere-waardekenmerken implementeren](/help/main/c-r
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-Wanneer een entiteitskenmerk, profielkenmerk of mbox-parameter wordt opgegeven als een meerwaarde volgens de bovenstaande indeling, [!DNL Recommendations] geeft automatisch aan dat het veld meerdere waarden heeft.
+Wanneer een entiteitskenmerk, profielkenmerk of mbox-parameter wordt opgegeven als een meerwaarde volgens de bovenstaande indeling, geeft [!DNL Recommendations] automatisch aan dat het veld een meerwaarde is.
 
 De volgende operatoren zijn beschikbaar voor gebruik met multi-value entiteit-, profiel- en mbox-kenmerken:
 
@@ -72,9 +72,9 @@ De volgende operatoren zijn beschikbaar voor gebruik met multi-value entiteit-, 
 >
 >Ondersteuning voor dynamische overeenkomst met kenmerken van meerdere waarden is momenteel alleen beschikbaar op basis van criteria bij het gebruik van een profielkenmerk dat overeenkomt met of parameterkenmerk dat overeenkomt met de regel bij het vergelijken van één waarde aan de linkerkant naar een meerwaarde aan de rechterkant. Attributen met meerdere waarden worden momenteel niet ondersteund in promoties, overeenkomsten tussen entiteitskenmerken of voor lijsten aan de linkerkant van insluitingsregels.
 
-### Voorbeeld: Onlangs gevolgde objecten uitsluiten
+### Voorbeeld: onlangs gevolgde objecten uitsluiten
 
-Stel dat u wilt voorkomen dat films die zich in de laatste tien gecontroleerde films van de gebruiker bevinden, worden aanbevolen. Schrijf eerst een profielscript met de naam `user.lastWatchedMovies` om de laatste tien weergegeven films als een JSON-array bij te houden. Dan, kunt u de punten uitsluiten door de volgende inclusieregel te gebruiken:
+Stel dat u wilt voorkomen dat films die zich in de laatste tien gecontroleerde films van de gebruiker bevinden, worden aanbevolen. Schrijf eerst een profielscript met de naam `user.lastWatchedMovies` om de laatste tien weergegeven films bij te houden als een JSON-array. Dan, kunt u de punten uitsluiten door de volgende inclusieregel te gebruiken:
 
 ```
 `Profile Attribute Matching`
@@ -94,9 +94,9 @@ JSON API-representatie van de insluitingsregel:
 } 
 ```
 
-### Voorbeeld: Aanbevolen objecten uit de favorieten van de gebruiker
+### Voorbeeld: Aanbevolen items uit de favorieten van de gebruiker
 
-Stel dat u alleen tickets aan concerten wilt aanbevelen als de band die wordt afgespeeld een van de favoriete banden van de gebruiker is. Controleer eerst of u een profielvariabele hebt met de naam `profile.favoriteBands` die de favoriete banden van de gebruiker bevat. Controleer vervolgens of uw catalogus een kenmerk bevat `entity.artistPerforming` dit geldt ook voor de artiest die in het concert optreedt . Vervolgens kunt u de volgende inclusieregel gebruiken:
+Stel dat u alleen tickets aan concerten wilt aanbevelen als de band die wordt afgespeeld een van de favoriete banden van de gebruiker is. Controleer eerst of u een profielvariabele met de naam `profile.favoriteBands` hebt die de favoriete banden van de gebruiker bevat. Zorg er vervolgens voor dat uw catalogus een kenmerk `entity.artistPerforming` bevat dat de artiest bevat die in het concert uitvoert. Vervolgens kunt u de volgende inclusieregel gebruiken:
 
 ```
 `Profile Attribute Matching`
@@ -116,9 +116,9 @@ JSON API-representatie van de insluitingsregel:
 }
 ```
 
-### Voorbeeld: API maken van criteria voor het aanbevelen van items uit de favorieten van een gebruiker
+### Voorbeeld: API maken van criteria die items aanbevelen uit de favorieten van een gebruiker
 
-U kunt criteria maken met filterregels voor meerdere waarden, zoals alle criteria, via Adobe I/O API&#39;s. Een voorbeeld-API-aanroep om criteria te maken waarbij het entiteitskenmerk `id` bevindt zich in de parameterlijst mbox `favorites` wordt hier gegeven:
+Criteria die gebruik maken van filterregels met meerdere waarden, kunnen, net als alle criteria, worden gemaakt via [!DNL Adobe Target] API&#39;s. Hier ziet u een voorbeeld-API-aanroep om een criterium te maken waarbij het entiteitskenmerk `id` zich in de parameterlijst mbox `favorites` bevindt:
 
 ```
 curl -X POST \
@@ -155,10 +155,10 @@ curl -X POST \
 }'
 ```
 
-Dit zou in combinatie met JavaScript op de pagina worden doorgegeven om de favoriete inhoud door te geven:
+Dit zou met JavaScript op de pagina worden in kaart gebracht om de favoriete inhoud door te geven:
 
 ```
-<!-- pass in the value of mbox parameter “favorites” as JSON array -->
+<!-- pass in the value of mbox parameter "favorites" as JSON array -->
 <script type="text/javascript">
    mboxCreate('myMbox','entity.id=<key>','favorites=["a","b","c"]');
 </script>

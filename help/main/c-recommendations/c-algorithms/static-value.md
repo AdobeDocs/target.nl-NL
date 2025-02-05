@@ -1,20 +1,20 @@
 ---
 keywords: inclusieregels;inclusiecriteria;aanbevelingen;bevordering;bevordering;dynamische filtratie;statisch;statische filter
-description: Leer hoe u handmatig een of meer statische waarden invoert om te filteren met behulp van insluitingsregels in Adobe [!DNL Target] Recommendations.
+description: Leer hoe te om één of meerdere statische waarden manueel in te gaan om inclusieregels in Adobe  [!DNL Target]  Recommendations te gebruiken.
 title: Hoe filtert ik op statische waarden in Recommendations-activiteiten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
 
-# Statisch filter
+# [!UICONTROL Static Filter]
 
-Voer handmatig een of meer statische waarden in om te filteren met behulp van insluitingsregels in [!DNL Adobe Target] [!DNL Recommendations].
+Voer handmatig een of meer statische waarden in om te filteren met behulp van insluitingsregels in [!DNL Adobe Target Recommendations] .
 
 U kunt bijvoorbeeld alleen inhoud aanbevelen met de MPA-score (Motion Picture Association) van &quot;G&quot; of &quot;PG&quot;.
 
@@ -26,6 +26,4 @@ U kunt zo veel inclusieregels tot stand brengen zoals nodig. De inclusieregels w
 
 ## Aanbevolen inhoud met G of PG
 
-Om een inclusieregel met statische waarden tot stand te brengen om inhoud met een classificatie MPA van &quot;G&quot;of &quot;PG&quot;slechts (exclusief &quot;R&quot;en &quot;NC17&quot;inhoud) aan te bevelen, kon u de volgende het filtreren regels &quot;film-rating evenaart g-rating&quot;en &quot;film-rating gelijk pg-schatten&quot;, zoals hieronder getoond.
-
-![voorbeeld voor filmbeoordeling](/help/main/c-recommendations/c-algorithms/assets/movies.png)
+Om een inclusieregel met statische waarden tot stand te brengen om inhoud met een classificatie MPA van &quot;G&quot;of &quot;PG&quot;slechts (exclusief &quot;R&quot;en &quot;NC17&quot;inhoud) aan te bevelen, kon u de volgende het filtreren regels &quot;film-rating evenaart om het even welk van g-geschat&quot;en &quot;film-classificatie evenaart om het even welk van pg-geschat&quot;tot stand brengen.

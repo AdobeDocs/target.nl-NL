@@ -3,10 +3,10 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: f968ec45f015fa0b195007f5790b9efb743c8b65
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 2%
+source-wordcount: '1259'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 2%
    + [Systeemstatusupdates en proactieve meldingen](r-release-notes/system-status-updates.md)
    + [Documentatiewijzigingen](r-release-notes/doc-change.md)
    + [Opmerkingen bij de release van vorige releases](r-release-notes/release-notes-for-previous-releases.md)
-   + [Het Beta-programma voor het vernieuwen van de gebruikersinterface van Recommendations](/help/main/refresh-ui-beta.md)
 + Inleiding {#introduction}
    + [Inleiding tot doel](c-intro/intro.md)
    + [Toegangsdoel van de Adobe Experience Cloud](c-intro/target-access-from-mac.md)
@@ -47,7 +46,6 @@ ht-degree: 2%
    + [Veelgestelde vragen over optimalisatie en personalisatie](c-intro/cmp-target-standard-cheatsheet.md)
 + Doel beheren {#administer}
    + [Overzicht van Doel beheren](administrating-target/administrating-target.md)
-   + [Doel beheren, bètaversie](administrating-target/administrating-target-beta.md)
    + [Eerste stappen van beheerder](administrating-target/start-target.md)
    + [Vorm Composer van de Visuele Ervaring](/help/main/administrating-target/visual-experience-composer-set-up.md)
    + Rapporteren {#reporting}
@@ -117,72 +115,49 @@ ht-degree: 2%
    + [Doelactiviteitstypen](c-activities/target-activities-guide.md)
    + A/B-test {#abtest}
       + [Overzicht van de A/B-test](c-activities/t-test-ab/test-ab.md)
-      + [A/B test overzicht bèta](c-activities/t-test-ab/test-ab-beta.md)
       + [Hoelang moet u een A/B test in werking stellen?](c-activities/t-test-ab/sample-size-determination.md)
       + [Tien gemeenschappelijke A/B-testvalkuilen en hoe deze te vermijden](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + [A/A-tests](/help/main/c-activities/t-test-ab/aa-testing.md)
       + Een A/B-test maken {#create}
          + [Een A/B-test maken](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-         + [Een bètatest A/B maken](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md)
          + [URL van activiteit](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
-         + [Activiteit-URL-bètaversie](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md)
          + [Ervaring toevoegen](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
-         + [Ervaring bèta toevoegen](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md)
          + [Doelgroep selecteren](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
-         + [bètaversie van publiek selecteren](c-activities/t-test-ab/t-test-create-ab/ab-audience-beta.md)
          + [Doelstellingen en instellingen](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
-         + [Doelstellingen en instellingen bèta](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md)
          + [Analysegegevens gebruiken](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Metrisch instellen](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [Metrische bètaversie instellen](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md)
          + [Meerdere ervaringsdoelgroepen in een A/B-test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
-         + [Meerdere ervaringsdoelgroepen in een bèta A/B-test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md)
    + Automatisch toewijzen {#auto-allocate}
       + [Overzicht van automatisch toewijzen](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Een activiteit voor automatisch toewijzen maken](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
-      + [Een activiteit voor automatisch toewijzen maken](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md)
       + [Rapporten automatisch toewijzen interpreteren](c-activities/automated-traffic-allocation/determine-winner.md)
-      + [De bètaversie van rapporten automatisch toewijzen interpreteren](c-activities/automated-traffic-allocation/determine-winner-beta.md)
       + [Automatisch toewijzen kan u snellere testresultaten en hogere opbrengsten opleveren dan een handmatige test](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + Automatisch doel {#auto-target}
       + [Overzicht van automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-      + [bètaversie van AutoTarget-overzicht](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md)
       + [Een automatisch doelactiviteit maken](/help/main/c-activities/auto-target/create-auto-target.md)
-      + [Een bètaversie van Auto-Target-activiteit maken](/help/main/c-activities/auto-target/create-auto-target-beta.md)
       + [Veelgestelde vragen en problemen automatisch oplossen](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [Rapportage en automatisch doel](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
       + [Automated Personalization-overzicht](c-activities/t-automated-personalization/automated-personalization.md)
       + [Random Forest Algorithm](c-activities/t-automated-personalization/algo-random-forest.md)
       + [Een Automated Personalization-activiteit maken](c-activities/t-automated-personalization/create-ap-activity.md)
-      + [Een bètaversie van Automated Personalization-activiteit maken](c-activities/t-automated-personalization/create-ap-activity-beta.md)
       + [Gegevens uploaden voor de Target-verpersoonlijkingsalgoritmen](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Gegevensverzameling voor de personalisatiealgoritmen van het Doel](c-activities/t-automated-personalization/ap-data.md)
       + [Schatting van het verkeer dat voor succes wordt vereist](c-activities/t-automated-personalization/ap-traffic-estimator.md)
-      + [Schatting van het verkeer dat voor succesbèta wordt vereist](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md)
       + [Voorvertoning van een Automated Personalization-test](c-activities/t-automated-personalization/ap-preview-experiences.md)
-      + [Voorvertoning van ervaringen met een bètaversie van een Automated Personalization-test](c-activities/t-automated-personalization/ap-preview-experiences-beta.md)
       + [Automated Personalization-doelaanbiedingen](c-activities/t-automated-personalization/ap-target-offers.md)
-      + [Target Automated Personalization biedt bèta](c-activities/t-automated-personalization/ap-target-offers-beta.md)
       + [Uitsluitingen beheren](c-activities/t-automated-personalization/managing-exclusions.md)
-      + [bètaversie van uitsluitingen beheren](c-activities/t-automated-personalization/managing-exclusions-beta.md)
       + [Rapportagegroepen aanbieden in Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
-      + [Rapportagegroepen aanbieden in Automated Personalization-bèta](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
       + [Selecteer het besturingselement voor uw Automated Personalization- of AutoTarget-activiteit](c-activities/t-automated-personalization/experience-as-control.md)
-      + [Selecteer het besturingselement voor uw Automated Personalization- of AutoTarget-activiteit-bèta](c-activities/t-automated-personalization/experience-as-control-beta.md)
       + [Veelgestelde vragen over Automated Personalization](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Problemen met Automated Personalization oplossen](c-activities/t-automated-personalization/ap-trouble.md)
    + Gericht op ervaring {#experience-targeting}
       + [Gericht overzicht van de ervaring](c-activities/t-experience-target/experience-target.md)
       + Een belevenis voor doelactiviteit maken {#create-targeting}
          + [Een activiteit maken](c-activities/t-experience-target/t-xt-create/xt-create.md)
-         + [Een activity-beta maken](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
          + [URL van activiteit](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
-         + [Activity-URL-bèta](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
          + [Een ervaring maken](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
-         + [Een Experience-bèta maken](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
          + [Overschakelen van ervaringen op het gebied van ervaring](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
-         + [Overschakelen ervaringen in ervaring gericht op bèta](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
          + [Doelstellingen en instellingen](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [Metrisch instellen](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
    + Multivariatietest {#multivariate-test}
@@ -191,20 +166,13 @@ ht-degree: 2%
       + [Een multivariatietest plannen](c-activities/c-multivariate-testing/plan-mvt.md)
       + Een multivariatietest maken {#create-mvt}
          + [Een test maken](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
-         + [Een testbètaversie maken](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test-beta.md)
          + [URL van activiteit](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
-         + [Activiteit-URL-bètaversie](c-activities/c-multivariate-testing/t-create-multivariate-test/url-beta.md)
          + [Combinaties maken](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
-         + [Combinatiebèta maken](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers-beta.md)
          + [Voorvertoning van ervaringen voor een multivariatietest](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
-         + [Voorvertoning voor een bètaversie van een multivariatietest](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences-beta.md)
          + [Schatting van het verkeer dat nodig is voor een geslaagde test](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
-         + [Schatting van het verkeer dat voor een succesvolle test bèta wordt vereist](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator-beta.md)
          + [Samenvatting testen](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-         + [Test summary beta](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary-beta.md)
          + [Doelstellingen en instellingen](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
          + [Metrisch instellen](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
-         + [Metrische bètaversie instellen](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics-beta.md)
          + [Multivariate Tests oplossen](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [Recommendations-activiteit](c-activities/recommendations-activity.md)
    + [Een activiteit bewerken of opslaan als concept](c-activities/edit-activity.md)
@@ -212,7 +180,6 @@ ht-degree: 2%
    + [Activiteiteninstellingen](c-activities/activity-settings.md)
    + Geslaagde maatstaven {#success-metrics}
       + [Succeswaarden](c-activities/r-success-metrics/success-metrics.md)
-      + [Betaalgegevens succes](c-activities/r-success-metrics/success-metrics-beta.md)
       + [Klikken bijhouden](c-activities/r-success-metrics/click-tracking.md)
       + [Vastlegscore](c-activities/r-success-metrics/capture-score.md)
    + [Logboek voor wijziging van de activiteit](c-activities/change-log.md)
@@ -261,11 +228,8 @@ ht-degree: 2%
    + [Overzicht van ervaringen en aanbiedingen](c-experiences/experiences.md)
    + Visual Experience Composer (VEC) {#vec}
       + [Overzicht van Visual Experience Composer](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
-      + [Overzicht bètaversie van Visual Experience Composer](c-experiences/c-visual-experience-composer/visual-experience-composer-beta.md)
       + [Opties voor Visual Experience Composer](c-experiences/c-visual-experience-composer/viztarget-options.md)
-      + [bètaversie van composers voor visuele ervaring](c-experiences/c-visual-experience-composer/viztarget-options-beta.md)
       + [Dezelfde ervaring opnemen op vergelijkbare pagina&#39;s](c-experiences/c-visual-experience-composer/temtest.md)
-      + [Dezelfde ervaring opnemen op vergelijkbare pagina&#39;s bèta](c-experiences/c-visual-experience-composer/temtest-beta.md)
       + [Meerdere pagina&#39;s](c-experiences/c-visual-experience-composer/multipage-activity.md)
       + [Conflicten bij activiteit](c-experiences/c-visual-experience-composer/activity-collisions.md)
       + Wijzigingen {#modifications}
@@ -284,7 +248,6 @@ ht-degree: 2%
          + [De extensie Visuele bewerkingshulp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [Helpextensie Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [Omleiden naar een URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
-      + [Omleiden naar een URL-beta](c-experiences/c-visual-experience-composer/redirect-offer-beta.md)
       + [Het creëren van carrousels die in de Composer van de Visuele Ervaring werken](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [Formuliergebaseerde Experience Composer](c-experiences/form-experience-composer.md)
    + [Single Page App (SPA) Visual Experience Composer](c-experiences/spa-visual-experience-composer.md)
@@ -329,53 +292,32 @@ ht-degree: 2%
       + [Entiteitskenmerken](c-recommendations/c-products/entity-attributes.md)
       + [Aangepaste entiteitskenmerken](c-recommendations/c-products/custom-entity-attributes.md)
       + [Feeds](c-recommendations/c-products/feeds.md)
-      + [Feeds bèta](/help/main/c-recommendations/c-products/feeds-beta.md)
       + [Catalogus zoeken](c-recommendations/c-products/catalog-search.md)
-      + [Zoekbètaversie van catalogus](/help/main/c-recommendations/c-products/catalog-search-beta.md)
       + [Verzamelingen](c-recommendations/c-products/collections.md)
-      + [Verzamelingen bèta](/help/main/c-recommendations/c-products/collections-beta.md)
       + [Uitsluitingen](c-recommendations/c-products/exclusions.md)
-      + [Exclusieve bèta](/help/main/c-recommendations/c-products/exclusions-beta.md)
    + Criteria {#criteria}
-      + [Overzicht van criteria](c-recommendations/c-algorithms/algorithms.md)
-      + [ het overzicht van Criteria bèta ](/help/main/c-recommendations/c-algorithms/algorithms-beta.md)
+      + [ Overzicht van Criteria ](c-recommendations/c-algorithms/algorithms.md)
       + [Criteria maken](c-recommendations/c-algorithms/create-new-algorithm.md)
-      + [Criteria-bètaversie maken](/help/main/c-recommendations/c-algorithms/create-new-algorithm-beta.md)
       + [Criteria-reeksen maken](c-recommendations/c-algorithms/create-criteria-sequence.md)
-      + [bètareeksen met criteria maken](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md)
       + [De aanbeveling baseren op een aanbevelingen](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
-      + [De aanbeveling baseren op een bètaversie met een aanbevolen toets](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md)
       + [De wetenschap achter de aanbevelingen van Target algoritmen](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [Aangepaste criteria uploaden](c-recommendations/c-algorithms/recommendations-csv.md)
-      + [Aangepaste criteria bèta uploaden](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
       + Dynamische en statische opnameregels {#dynamic-static}
          + [Regels voor dynamische en statische integratie gebruiken](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
-         + [De bèta van dynamische en statische inclusieregels gebruiken](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
          + [Identiteitskenmerk](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
-         + [Entiteitskenmerk overeenkomende bèta](/help/main/c-recommendations/c-algorithms/entity-attribute-matching-beta.md)
          + [Overeenkomende profielkenmerken](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
-         + [Profielkenmerk overeenkomende bèta](/help/main/c-recommendations/c-algorithms/profile-attribute-matching-beta.md)
          + [Overeenkomende parameter](/help/main/c-recommendations/c-algorithms/parameter-matching.md)
-         + [Parameter die overeenkomt met bèta](/help/main/c-recommendations/c-algorithms/parameter-matching-beta.md)
          + [Statisch filter](/help/main/c-recommendations/c-algorithms/static-value.md)
-         + [Statische filterbèta](/help/main/c-recommendations/c-algorithms/static-value-beta.md)
       + [Een back-upaanbeveling gebruiken](c-recommendations/c-algorithms/backup-recs.md)
-      + [Een back-upaanbeveling gebruiken](/help/main/c-recommendations/c-algorithms/backup-recs-beta.md)
       + [Werken met kenmerken van meerdere waarden](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
-      + [Werken met bètakenmerken voor meerdere waarden](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes-beta.md)
       + [Adobe Analytics gebruiken met Recommendations](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
-      + [Adobe Analytics gebruiken met Recommendations bèta](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations-beta.md)
    + Ontwerp {#recommendations-design}
       + [Overzicht van ontwerp](c-recommendations/c-design-overview/design-overview.md)
       + [Een ontwerp maken](c-recommendations/c-design-overview/create-design.md)
-      + [Een design-bèta maken](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
       + [Veelgestelde vragen over ontwerp](c-recommendations/c-design-overview/template-faq.md)
       + [Een ontwerp aanpassen met Snelheid](c-recommendations/c-design-overview/customizing-a-template.md)
    + Activiteit {#recommendations-activity}
       + [Een Recommendations-activiteit maken](c-recommendations/t-create-recs-activity/create-recs-activity.md)
-      + [Een bètaversie van Recommendations-activiteit maken](c-recommendations/t-create-recs-activity/create-recs-activity-beta.md)
-      + [Criteria selecteren](c-recommendations/t-create-recs-activity/algo-select-recs.md)
-      + [bètacriteria selecteren](c-recommendations/t-create-recs-activity/algo-select-rec-beta.md)
       + [Promoties toevoegen](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Instellingen voor Recommendations-activiteiten](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [Recommendations-activiteiten voorvertonen en starten](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
