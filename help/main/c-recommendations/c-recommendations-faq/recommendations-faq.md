@@ -2,12 +2,12 @@
 keywords: problemen oplossen;veelgestelde vragen;Veelgestelde vragen;Veelgestelde vragen;aanbevelingen;speciale tekens;weging van kenmerken;gelijkenis van inhoud
 description: Bekijk een lijst van vaak gestelde vragen en antwoorden over  [!DNL Target Recommendations]  activiteiten.
 title: Waar kan ik Vragen en Antwoorden over  [!DNL Recommendations] vinden?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
+source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
 workflow-type: tm+mt
-source-wordcount: '3485'
+source-wordcount: '3506'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 # Veelgestelde vragen over Recommendations
 
 Lijst met veelgestelde vragen (FAQ&#39;s) over [!DNL Adobe Target] [!DNL Recommendations] -activiteiten.
+
+## Weergeven [!DNL Recommendations] -objecten die via API zijn gemaakt in de [!DNL Target] -gebruikersinterface?
+
+Ja, [!UICONTROL Recommendations] -objecten ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] en [!UICONTROL Exclusions]) die via de API zijn gemaakt, zijn nu beschikbaar in de gebruikersinterface.
 
 ## Kan ik met de API&#39;s van [!DNL Target] visuele aanbiedingen beheren die door [!DNL Target] in de gebruikersinterface zijn gemaakt?
 

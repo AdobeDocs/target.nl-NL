@@ -4,9 +4,9 @@ description: Personaliseer inhoud en test paginaontwerpen voor specifiek publiek
 title: Hoe kan ik inhoud en de Ontwerpen van de Pagina van de Test aanpassen met  [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
+source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
 workflow-type: tm+mt
-source-wordcount: '2218'
+source-wordcount: '2237'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,8 @@ In de volgende tabel vindt u informatie over verschillende elementen in de lijst
 
 | Element | Beschrijving |
 |--- |--- |
-| [!UICONTROL Show filters] pictogram<P>![ toon Filters pictogram ](/help/main/assets/icons/Filter.svg) | U kunt filters openen door op het pictogram **[!UICONTROL Show Filters]** boven aan de lijst te klikken om activiteiten van [!UICONTROL Type] , [!UICONTROL Status] , [!UICONTROL Reporting Source] , [!UICONTROL Experience Composer] , [!UICONTROL Metrics Type] , [!UICONTROL Decisioning Source] , [!UICONTROL Activity Source] en [!UICONTROL Properties] te filteren.<P>Voor meer informatie, zie [ filters op de [!UICONTROL Activities] lijst ](#filters) hieronder toepassen. |
-| Zoeken in velden | Zoek snel een activiteit of verminder het aantal activiteiten dat in de [!UICONTROL Activity] lijst wordt getoond. U kunt zoeken op [!UICONTROL Activity Name] , [!UICONTROL URL] of [!UICONTROL ID] met behulp van de vervolgkeuzelijst. |
+| [!UICONTROL Show filters] pictogram<P>![ toon Filters pictogram ](/help/main/assets/icons/Filter.svg) | U kunt filters openen door op het pictogram **[!UICONTROL Show Filters]** boven aan de lijst te klikken om activiteiten van [!UICONTROL Type] , [!UICONTROL Status] , [!UICONTROL Reporting Source] , [!UICONTROL Experience Composer] , [!UICONTROL Metrics Type] , [!UICONTROL Decisioning Source] , [!UICONTROL Activity Source] en [!UICONTROL Properties] te filteren.<P>Filters die u configureert, blijven blijvend in de huidige sessie.<P>Voor meer informatie, zie [ filters op de [!UICONTROL Activities] lijst ](#filters) hieronder toepassen. |
+| Zoeken in velden | Zoek snel een activiteit of verminder het aantal activiteiten dat in de [!UICONTROL Activity] lijst wordt getoond. U kunt zoeken op [!UICONTROL Activity Name] , [!UICONTROL URL] of [!UICONTROL ID] met behulp van de vervolgkeuzelijst.<P>De zoekopties die u configureert, blijven geldig in de huidige sessie. |
 | [!UICONTROL Create Activity] | Maak een activiteit.<P>Zie voor meer informatie over het maken van de verschillende typen activiteiten: <ul><li>[ creeer een [!UICONTROL A/B Test] activiteit ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)</li><li>[ creeer een [!UICONTROL Auto-Allocate] activiteit ](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)</li><li>[ creeer een [!UICONTROL Auto-Target] activiteit ](/help/main/c-activities/auto-target/create-auto-target.md)</li><li>[ creeer een [!UICONTROL Automated Personalization] activiteit ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)</li><li>[ creeer een [!UICONTROL Experience Targeting] activiteit ](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)</li><li>[ creeer een activiteit ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)</li><li>[ creeer a [!UICONTROL Recommendations] activiteit ](/help/main/c-recommendations/recommendations.md)</li></ul>Voor meer informatie over elk type, zie [ types van Activiteit ](#types) hieronder. |
 | [!UICONTROL Create mobile preview link]<P>![ Meer actiemenu ](/help/main/assets/icons/MoreVertical.svg) | Het gebruik [ mobiele voorproefverbindingen ](https://experienceleague.adobe.com/en/docs/target-dev/developer/mobile-apps/target-mobile-preview) om gemakkelijke QA van begin tot eind voor mobiele toepassingsactiviteiten uit te voeren.<P>Klik het **Meer optiepictogram**, selecteer **creëren de Mobiele Verbinding van de Voorproef**, dan de activiteiten kiezen u op mobiel wilt testen. |
 | Tabel aanpassen<P>![ pas het pictogram van de Lijst ](/help/main/assets/icons/ColumnSetting.svg) aan | U kunt de kolommen in de lijst van [!UICONTROL Activity] wijzigen door op het pictogram **[!UICONTROL Customize Table]** rechtsboven op de pagina te klikken en vervolgens de gewenste kolommen te selecteren of de selectie ervan op te heffen.<P>De wijzigingen worden toegepast op uw account en blijven actief, zelfs nadat u zich hebt afgemeld bij [!DNL Target] . |

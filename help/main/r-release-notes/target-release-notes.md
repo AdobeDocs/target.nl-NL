@@ -4,9 +4,9 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke Nieuwe Eigenschappen en de Verbeteringen worden omvat in de aanstaande  [!DNL Target]  Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f4562e10183f141fd78eb1e6daa95bd4e17be430
+source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -40,13 +40,13 @@ Aangezien de modernisering van de gebruikersinterface van [!DNL Adobe Target] wo
 
 Op basis van het nieuwste ontwerpsysteem van [!DNL Adobe Spectrum] worden eerder inconsistente ontwerppatronen gestandaardiseerd en worden nieuwe verbeteringen toegevoegd, zoals:
 
-* Herontworpen rapportage voor betere inzichten in activiteitsresultaten
+* [ opnieuw ontworpen rapporterend ](/help/main/administrating-target/reporting.md) voor betere inzichten in activiteitenresultaten
 * Bijgewerkte pagina [!UICONTROL Audit] , die nu de informatie van [!DNL Audit API] voor real-time inzichten krijgt
-* Aanpasbare lijstweergaven voor meer flexibiliteit in verschillende teambehoeften
-* Verbeterde snelle info- en detailschermen voor eenvoudigere toegang tot informatie
-* Opties voor zoeken en filteren tijdens sessiebestendig gebruik
-* Volledig opnieuw samengesteld [!UICONTROL Visual Editing Composer] met ondersteuning voor de nieuwste beveiligingsupdates van browserproviders en een moderne gebruikersinterface
-* Bijgewerkte [!DNL Chrome] extensie die Manifest V3 ondersteunt voor meer beveiliging en verbeterde ondersteuning voor cookies van andere bedrijven
+* [ Aanpasbare lijstmeningen ](/help/main/c-activities/activities.md) aan voor betere flexibiliteit over verschillende teambehoeften
+* [ Verbeterde snelle info en detailschermen ](/help/main/c-activities/activities.md) voor gemakkelijkere toegang tot informatie
+* [Opties voor zoeken en filteren tijdens sessiebestendig gebruik](/help/main/c-activities/activities.md)
+* Volledig [ herbouwd [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) met steun voor recentste veiligheidsupdates van browser leveranciers en een modern gebruikersinterface
+* [ bijgewerkte  [!DNL Chrome]  uitbreiding ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) ondersteunend Manifest V3 voor verhoogde veiligheid en betere steun voor eerstepartijkoekjes
 
 ![ Activiteiten verfrissen zich ](/help/main/r-release-notes/assets/activities-refresh.png)
 
@@ -60,11 +60,11 @@ Aangezien de modernisering van de gebruikersinterface van [!DNL Adobe Target] wo
 
 Op basis van het nieuwste ontwerpsysteem van [!DNL Adobe Spectrum] worden eerder inconsistente ontwerppatronen gestandaardiseerd en worden nieuwe verbeteringen toegevoegd, zoals:
 
-* De zoekopdracht in de productcatalogus bevat nu een bijgewerkte database die een realtime synchronisatie van producten mogelijk maakt
-* [!UICONTROL Recommendation] -objecten ([!UICONTROL Criteria] , [!UICONTROL Designs] , [!UICONTROL Collections] en [!UICONTROL Exclusions]) die via de API zijn gemaakt, zijn nu beschikbaar in de gebruikersinterface
-* Instellingen zijn geconsolideerd onder de sectie [!UICONTROL Administration]
+* Het [ onderzoek van de productcatalogus ](/help/main/c-recommendations/c-products/catalog-search.md) kenmerkt nu een bijgewerkt gegevensbestand dat een synchronisatie in real time van producten toestaat
+* [!UICONTROL Recommendations] voorwerpen ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections], en [!UICONTROL Exclusions]) [ die over API worden gecreeerd zijn nu beschikbaar in UI ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
+* [ de montages van Recommendations ](/help/main/administrating-target/recommendations-settings.md) zijn geconsolideerd onder de [!UICONTROL Administration] sectie
 * Aanpasbare lijstweergaven voor meer flexibiliteit in verschillende teambehoeften
-* HTML- en JSON-code-editors zijn vernieuwd met syntaxismarkering en regelnummering
+* Vernieuwde HTML en JSON coderedacteurs met [ syntaxis het benadrukken en lijn nummering ](/help/main/c-experiences/c-manage-content/create-json-offer.md)
 * Verbeterde snelle info- en detailschermen voor eenvoudigere toegang tot informatie
 * Opties voor zoeken en filteren tijdens sessiebestendig gebruik
 
