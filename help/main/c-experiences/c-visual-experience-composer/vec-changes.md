@@ -4,7 +4,7 @@ description: Begrijp de veranderingen die in Visual Experience Composer (VEC) in
 title: Welke veranderingen worden geïntroduceerd in nieuwe Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 3d6597c869d5959e34c6108d6c8b9bfa750ab6c6
+source-git-commit: 84a73954261c61a48c92b40b879937febaa57f24
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 0%
