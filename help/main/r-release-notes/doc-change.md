@@ -4,9 +4,9 @@ description: Houd bijgewerkt met belangrijke toevoegingen en veranderingen in de
 title: Waar kan ik documentatieupdates voor  [!DNL Target] zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0c57e47f026e7eb597b92a12fb984596beb4486d
+source-git-commit: 3d6597c869d5959e34c6108d6c8b9bfa750ab6c6
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,13 @@ ht-degree: 0%
 Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht in de productdocumentatie van [!DNL Adobe Target] .
 
 ## Updates
+
+### [!DNL Target Standard/Premium] 25.2.1 (11 februari 2025)
+
+| Datum | Onderwerp | Wijzigingen |
+|--- |--- |--- |
+| 11 februari | [ de veranderingen van Composer van de Visuele Ervaring ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | Nieuw artikel om de verschillen tussen de vorige en bijgewerkte versies van VEC te verklaren. |
+|  | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de update van de gebruikersinterface van [!DNL Target Standard/Premium] 25.2.1 (gepland voor 11 februari 2025). Veel artikelen zijn bijgewerkt om de wijzigingen in de gebruikersinterface weer te geven. |
 
 ### [!DNL Target Standard/Premium] 25.1.1 (9 januari 2025)
 

@@ -4,9 +4,9 @@ description: Begrijp de veranderingen die in Visual Experience Composer (VEC) in
 title: Welke veranderingen worden geïntroduceerd in nieuwe Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 75f44b7ea4c3aff0e33cc2ee54bc39a705deaf2a
+source-git-commit: 3d6597c869d5959e34c6108d6c8b9bfa750ab6c6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,15 @@ ht-degree: 0%
 
 In de release [!DNL Adobe Target Standard/Premium] 25.2.1 (11 februari 2015) wordt een bijgewerkte versie van [!UICONTROL Visual Experience Composer] (VEC) geïntroduceerd. Dit artikel verklaart de verschillen tussen de vorige en bijgewerkte versies van VEC.
 
+>[!IMPORTANT]
+>
+>Voor de bijgewerkte [!UICONTROL Visual Editing Composer] is de [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] -extensie ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) beschikbaar in de Chrome Web Store.
+
 De VEC wordt weergegeven wanneer u een bestaande activiteit maakt of bewerkt.
 
 ![ Visuele Composer van de Ervaring (VEC) ](/help/main/c-experiences/c-visual-experience-composer/assets/new-vec.png)
 
-## Belangrijke wijzigingen
+## Belangrijke wijzigingen in de VEC
 
 In de volgende secties worden de belangrijkste wijzigingen in de bijgewerkte VEC vergeleken met de vorige versie.
 
@@ -99,4 +103,6 @@ De bijgewerkte VEC laat u ook inzoomen of uitzoomen door het aangewezen pictogra
 
 De volgende illustratie toont de veranderingen op hoog niveau UI die in bijgewerkte VEC worden aangebracht. Bovenaan de illustratie toont bijgewerkte UI VEC en de bodem toont vorige UI. De pijlen tonen waar verschillende elementen zijn verplaatst.
 
-![ VEC vergelijking-nieuw aan vorige UI ](/help/main/c-experiences/c-visual-experience-composer/assets/vec-comparison.png)
+(Klik op de afbeelding om deze uit te breiden tot de volledige breedte van de browser.)
+
+![ VEC vergelijking-nieuw aan vorige UI ](/help/main/c-experiences/c-visual-experience-composer/assets/vec-comparison.png){width="600" zoomable="yes"}
