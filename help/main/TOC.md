@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1263'
 ht-degree: 3%
 
 ---
@@ -64,11 +64,11 @@ ht-degree: 3%
       + Machtigingen voor zakelijke gebruikers {#enterprise}
          + [Machtigingen voor Enterprise-gebruikers](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Bedrijfsmachtigingen configureren](administrating-target/c-user-management/property-channel/properties-overview.md)
-         + [Toegang tot werkruimten voor Adobe I/O-integratie verlenen en rollen toewijzen](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [Recommendations](/help/main/administrating-target/recommendations-settings.md)
+         + [Adobe I/O-integratie toegang verlenen tot werkruimten en rollen toewijzen](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+   + [Aanbevelingen](/help/main/administrating-target/recommendations-settings.md)
 + Doel implementeren {#implement-target}
    + [ voer het overzicht van het Doel uit ](c-implementing-target/implementing-target.md)
-+ Doel integreren met Experience Cloud {#integrate}
++ Doel integreren met de Experience Cloud {#integrate}
    + Adobe Analytics als rapportagebron voor Doel (A4T) {#a4t}
       + [A4T-overzicht](c-integrating-target-with-mac/a4t/a4t.md)
       + [Voordat u implementeert](c-integrating-target-with-mac/a4t/before-implement.md)
@@ -89,7 +89,7 @@ ht-degree: 3%
          + [Metrische definities - Veelgestelde vragen A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
          + [Classificaties - A4T Veelgestelde vragen](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
          + [Metriek, publiek en rapporten delen - Veelgestelde vragen voor A4T](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
-         + [Legacy SiteCatalyst to Test&amp;Target Integration - A4T Veelgestelde vragen](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
+         + [Legacy SiteCatalyst om integratie te testen en te testen - veelgestelde vragen voor A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Verwachte gegevensvariaties tussen Doel en Analytics bij gebruik en niet bij gebruik van A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + Doel integreren met Adobe Customer Journey Analytics {#cja}
       + [Doelrapportage in Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
@@ -100,15 +100,15 @@ ht-degree: 3%
          + [Gebruiksscenario&#39;s voor optimalisatie bovenaan in Adobe Journey Optimizer - web- en op code gebaseerde kanalen](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + [Inhoud wijzigt via A/B-tests in Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + [Componenten aan uw webpagina toevoegen of verbergen](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
-   + [Soorten publiek Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
+   + [Experience Cloud-publiek](/help/main/c-integrating-target-with-mac/mmp.md)
    + Doel integreren met Adobe Experience Manager (AEM) {#aem}
-      + [Doel integreren met AEM overzicht](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
+      + [Doel integreren met AEM-overzicht](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Ervaar fragmenten en inhoudsfragmenten {#fragments}
          + [Overzicht van AEM Experience Fragments en Content Fragments](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
-         + [Fragmenten AEM](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
-         + [Inhoudsfragmenten AEM](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
+         + [AEM Experience Fragmenten](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
+         + [AEM-inhoudsfragmenten](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
    + [Doel integreren met Adobe Audience Manager (AAM)](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
-   + [Integreren met Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
+   + [Integreren met Real-Time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [Doel integreren met Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
 + Activiteiten {#activities}
    + [Overzicht van activiteiten](c-activities/activities.md)
@@ -174,7 +174,7 @@ ht-degree: 3%
          + [Doelstellingen en instellingen](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
          + [Metrisch instellen](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
          + [Multivariate Tests oplossen](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
-   + [Recommendations-activiteit](c-activities/recommendations-activity.md)
+   + [Activiteit van aanbevelingen](c-activities/recommendations-activity.md)
    + [Een activiteit bewerken of opslaan als concept](c-activities/edit-activity.md)
    + [Prioriteit](c-activities/priority.md)
    + [Activiteiteninstellingen](c-activities/activity-settings.md)
@@ -229,6 +229,7 @@ ht-degree: 3%
    + Visual Experience Composer (VEC) {#vec}
       + [Overzicht van Visual Experience Composer](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [Opties voor Visual Experience Composer](c-experiences/c-visual-experience-composer/viztarget-options.md)
+      + [Wijzigingen in Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
       + [Dezelfde ervaring opnemen op vergelijkbare pagina&#39;s](c-experiences/c-visual-experience-composer/temtest.md)
       + [Meerdere pagina&#39;s](c-experiences/c-visual-experience-composer/multipage-activity.md)
       + [Conflicten bij activiteit](c-experiences/c-visual-experience-composer/activity-collisions.md)
@@ -261,7 +262,7 @@ ht-degree: 3%
       + [Werken met inhoud in de bibliotheek](c-experiences/c-manage-content/assets-working.md)
       + [Inhoud zoeken en filteren](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Dynamische gegevens in aanbiedingen doorgeven](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
-      + [AEM Ervaring en inhoudsfragmenten](c-experiences/c-manage-content/aem-experience-fragments.md)
+      + [AEM Experience en Content Fragments](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Rapporten {#reports}
    + [Overzicht van rapporten](c-reports/reports.md)
    + Rapportinstellingen {#settings}
@@ -283,10 +284,10 @@ ht-degree: 3%
       + [Locatiebijdrage (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Analyses voor doelrapportage (A4T)](c-reports/analytics-for-target-a4t-reporting.md)
    + [Veelgestelde vragen over rapportage](c-reports/reporting-frequently-asked-questions.md)
-+ Recommendations {#recommendations}
-   + [Recommendations-overzicht](c-recommendations/recommendations.md)
-   + [Inleiding tot Recommendations](c-recommendations/introduction-to-recommendations.md)
-   + [Recommendations plannen en implementeren](c-recommendations/plan-implement.md)
++ Aanbevelingen {#recommendations}
+   + [Overzicht van aanbevelingen](c-recommendations/recommendations.md)
+   + [Inleiding tot aanbevelingen](c-recommendations/introduction-to-recommendations.md)
+   + [Aanbevelingen plannen en implementeren](c-recommendations/plan-implement.md)
    + Entiteiten {#entities}
       + [Overzicht van entiteiten](c-recommendations/c-products/products.md)
       + [Entiteitskenmerken](c-recommendations/c-products/entity-attributes.md)
@@ -310,24 +311,24 @@ ht-degree: 3%
          + [Statisch filter](/help/main/c-recommendations/c-algorithms/static-value.md)
       + [Een back-upaanbeveling gebruiken](c-recommendations/c-algorithms/backup-recs.md)
       + [Werken met kenmerken van meerdere waarden](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
-      + [Adobe Analytics gebruiken met Recommendations](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
+      + [Adobe Analytics gebruiken met aanbevelingen](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
    + Ontwerp {#recommendations-design}
       + [Overzicht van ontwerp](c-recommendations/c-design-overview/design-overview.md)
       + [Een ontwerp maken](c-recommendations/c-design-overview/create-design.md)
       + [Veelgestelde vragen over ontwerp](c-recommendations/c-design-overview/template-faq.md)
       + [Een ontwerp aanpassen met Snelheid](c-recommendations/c-design-overview/customizing-a-template.md)
    + Activiteit {#recommendations-activity}
-      + [Een Recommendations-activiteit maken](c-recommendations/t-create-recs-activity/create-recs-activity.md)
+      + [Een handeling Aanbevelingen maken](c-recommendations/t-create-recs-activity/create-recs-activity.md)
       + [Promoties toevoegen](c-recommendations/t-create-recs-activity/adding-promotions.md)
-      + [Instellingen voor Recommendations-activiteiten](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + [Recommendations-activiteiten voorvertonen en starten](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
-   + [Recommendations als voorstel](c-recommendations/recommendations-as-an-offer.md)
+      + [Instellingen voor activiteiten met aanbevelingen](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
+      + [Activiteiten van uw aanbevelingen voorvertonen en starten](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+   + [Aanbevelingen als voorstel](c-recommendations/recommendations-as-an-offer.md)
    + Veelgestelde vragen {#recommendations-faq}
-      + [Veelgestelde vragen over Recommendations](c-recommendations/c-recommendations-faq/recommendations-faq.md)
-      + [Recommendations integreren met e-mail](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
-      + [IP-adressen die worden gebruikt door Recommendations-voederverwerkingsservers](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
-      + [Recommendations Classic versus Recommendations-activiteiten in Target Premium](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
-   + [Recommendations Classic-documentatie](/help/main/c-recommendations/recommendations-classic-documentaton.md)
+      + [Veelgestelde vragen over aanbevelingen](c-recommendations/c-recommendations-faq/recommendations-faq.md)
+      + [Aanbevelingen integreren met e-mail](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
+      + [IP adressen die door de input-verwerkingsservers van Aanbevelingen worden gebruikt](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
+      + [Activiteiten in Target Premium op basis van aanbevelingen versus aanbevelingen](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
+   + [Aanbevelingen Klassieke documentatie](/help/main/c-recommendations/recommendations-classic-documentaton.md)
 + Doel oplossen {#troubleshoot}
    + [Doel oplossen](r-troubleshooting-target/troubleshooting-target.md)
    + [Limieten](r-troubleshooting-target/target-limits.md)

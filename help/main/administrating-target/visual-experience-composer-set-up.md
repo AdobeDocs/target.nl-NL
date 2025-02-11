@@ -1,13 +1,13 @@
 ---
 keywords: visuele ervaringscomposer;vec;standaard url;verbeterde ervaringscomposer;eec;gemengde inhoud;beleving momentopnamen;mobiele viewport;css;css kiezers
-description: Leer hoe te om de Adobe  [!DNL Target]  Visuele Composer van de Ervaring (VEC) te vormen door zijn algemene montages, mobiele viewport configuratie, en CSS selecteurs te specificeren.
+description: Leer hoe te om Adobe  [!DNL Target]  Visuele Composer van de Ervaring (VEC) te vormen door zijn algemene montages, mobiele viewport configuratie, en CSS selecteurs te specificeren.
 title: Hoe vorm ik de Visuele Composer van de Ervaring (VEC)?
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,12 @@ Deze optie is bijvoorbeeld handig als:
 
 Als u ervaringsmomentopnamen inschakelt, worden miniaturen voor uw ervaringen in het activiteitenwerkstroomdiagram gegenereerd. Het uitschakelen van momentopnamen kan voor sommige gebruikers tot snellere prestaties leiden.
 
-## [!BADGE  Premium ]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."}
+## Configuratie mobiele viewport
+
+>[!NOTE]
+>
+>De [!UICONTROL Mobile Viewport Configuration] montages is a [ Target Premium ](/help/main/c-intro/intro.md#premium) eigenschap.
+
 
 U kunt apparaten toevoegen om te gebruiken wanneer het previewing ervaringen. Elk apparaat heeft een bijbehorend publiek.
 

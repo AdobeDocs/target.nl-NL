@@ -1,19 +1,24 @@
 ---
-keywords: visuele ervaring composer-opties;beleving composer-opties;ervaringsopties;geef tekst uit;bewerk tekst/html;bewerk achtergrondkleur;voeg element in;bewerk de koppeling;link;visuele ervaring composer-koppeling;bewerk css-klasse;css-klasse;wisselaanbod;bied;afbeeldingswisseling;verwijder item;item verwijderen;item verbergen;element verplaatsen;element verplaatsen;element vergroten;element wijzigen; element wijzigen;element;selectie uitbreiden;navigeren naar deze koppeling;navigeren naar koppeling;koppeling navigeren;navigeren;koppeling;ongedaan maken;opnieuw uitvoeren;ongedaan maken/opnieuw uitvoeren;aangepaste gebeurtenissen;webcomponenten;aanbieden, beslissing;offer decisioning
+keywords: visuele ervaring composer-opties;beleving composer-opties;ervaringsopties;geef tekst uit;bewerk tekst/html;bewerk achtergrondkleur;voeg element in;bewerk de koppeling;link;visuele ervaring composer-koppeling;bewerk css-klasse;css-klasse;wisselaanbod;bied;afbeeldingswisseling;verwijder item;item verwijderen;item verbergen;element verplaatsen;element verplaatsen;element vergroten;element wijzigen; element wijzigen;element;selectie uitbreiden;navigeren naar deze koppeling;navigeren door koppeling;navigeren;koppelen;navigeren;koppeling ongedaan maken;opnieuw uitvoeren;ongedaan maken/opnieuw uitvoeren;aangepaste gebeurtenissen;webcomponenten;aanbieden, beslissing;aanbieden, beslissing
 description: Onderzoek de opties beschikbaar in  [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
 title: Hoe gebruik ik de opties voor [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
 
 # Opties voor Visual Experience Composer
 
-Wanneer u op een pagina-element in de map [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) klikt, wordt een menu weergegeven met de opties die beschikbaar zijn voor dat elementtype. Bovendien wordt onder aan de pagina een DOM-pad weergegeven waarmee u gemakkelijk door de paginastructuur kunt navigeren.
+Wanneer u op een pagina-element in de map [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) klikt, wordt een menu weergegeven met de opties die beschikbaar zijn voor dat elementtype. Bovendien wordt onder aan de pagina een DOM-pad weergegeven waarmee u gemakkelijk door de paginastructuur kunt navigeren
+
+>[!NOTE]
+>
+>De release [!DNL Target Standard/Premium] 25.2.1 (11 februari 2025) bevat een bijgewerkte versie van de VEC. Voor informatie over hoe bijgewerkte VEC van de vorige versie verschilt, zie {de veranderingen van de Composer van de 1} Visuele Ervaring [.](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+
 
 De verschillende [!UICONTROL Visual Experience Composer] (VEC) acties worden gegroepeerd in de juiste menuopties om uw taak sneller en efficiënter te maken:
 
@@ -31,7 +36,7 @@ Als u in een [!UICONTROL A/B Test] -activiteit op een afbeelding klikt, ziet de 
 
 Selecteer componenten in het frame Componenten aan de linkerkant om de volgende elementen in te voegen:
 
-* Standaard (scheidingslijn, HTML, afbeelding).
+* Eenvoudig (scheidingsteken, HTML, afbeelding).
 * Tekst (kop, alinea, koppeling).
 * Dynamisch ([ Aanbeveling ](/help/main/c-recommendations/recommendations-as-an-offer.md), [ het Fragment van de Ervaring ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), aanbieding van HTML).
 
@@ -46,7 +51,7 @@ Met het frame aan de rechterkant kunt u de eigenschappen van de afbeelding verde
 
 Met de pictogrammen boven aan het frame kunt u het volgende doen:
 
-* Bewerk de HTML ( ![ pictogram van het Tussenvoegsel HTML ](/help/main/assets/icons/Code.svg)). Zie [ HTML ](#html) hieronder voor meer informatie uitgeven.
+* Bewerk HTML ( ![ het pictogram van HTML van het Tussenvoegsel ](/help/main/assets/icons/Code.svg)). Zie [ HTML ](#html) hieronder voor meer informatie uitgeven.
 * Dupliceer het beeld ( ![ Dupliceer pictogram ](/help/main/assets/icons/Code.svg)).
 * Schrap het beeld ( ![ pictogram van de Schrapping ](/help/main/assets/icons/Delete.svg)).
 * Verberg het beeld ( ![ pictogram van de Verbergen ](/help/main/assets/icons/VisibilityOff.svg)).
@@ -70,7 +75,7 @@ Als u op tekst in een [!UICONTROL A/B Test] -activiteit klikt, ziet de VEC er on
 
 Selecteer componenten in het [!UICONTROL Components] -frame aan de linkerkant om de volgende elementen in te voegen:
 
-* Standaard (scheidingslijn, HTML, afbeelding).
+* Eenvoudig (scheidingsteken, HTML, afbeelding).
 * Tekst (kop, alinea, koppeling).
 * Dynamisch ([ Aanbeveling ](/help/main/c-recommendations/recommendations-as-an-offer.md), [ het Fragment van de Ervaring ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), aanbieding van HTML).
 
@@ -83,8 +88,8 @@ Met het menu boven aan het tekstelement kunt u het volgende doen:
 * Vorm de attributen van de tekst (gewaagd, cursief, onderstrepen, of slaan door) ( ![ kies het pictogram van tekstAttributen ](/help/main/assets/icons/Text.svg)).
 * Vorm de groepering van de tekst (links, centrum, recht, rechtvaardigen) ( ![ pictogram van de Groepering van de Tekst ](/help/main/assets/icons/TextAlignCenter.svg)).
 * Neem een verbinding ( ![ het pictogram van de Verbinding van het Tussenvoegsel ](/help/main/assets/icons/Link.svg)) op.
-* Vervang de inhoud met een aanbieding van de HTML, [ Fragment van de Ervaring ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), of [ Aanbeveling ] /help/main/c-recommendations/recommendations-as-an-offer.md).
-* Bewerk de HTML ( ![ pictogram van het Tussenvoegsel HTML ](/help/main/assets/icons/Code.svg)).
+* Vervang de inhoud met een aanbieding van HTML, [ het Fragment van de Ervaring ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), of [ Aanbeveling ] /help/main/c-recommendations/recommendations-as-an-offer.md).
+* Bewerk HTML ( ![ het pictogram van HTML van het Tussenvoegsel ](/help/main/assets/icons/Code.svg)).
 * Voeg verpersoonlijking toe ( ![ voeg het pictogram van Personalization ](/help/main/assets/icons/PersonalizationField.svg) toe).
 * Schrap het beeld ( ![ pictogram van de Schrapping ](/help/main/assets/icons/Delete.svg)).
 
@@ -92,7 +97,7 @@ Met het frame aan de rechterkant kunt u de eigenschappen van de tekst verder con
 
 Met de pictogrammen boven aan het frame kunt u het volgende doen:
 
-* Bewerk de HTML ( ![ pictogram van het Tussenvoegsel HTML ](/help/main/assets/icons/Code.svg)). Zie [ HTML ](#html) hieronder voor meer informatie uitgeven.
+* Bewerk HTML ( ![ het pictogram van HTML van het Tussenvoegsel ](/help/main/assets/icons/Code.svg)). Zie [ HTML ](#html) hieronder voor meer informatie uitgeven.
 * Dupliceer de tekst ( ![ Dupliceer pictogram ](/help/main/assets/icons/Code.svg)).
 * Schrap de tekst ( ![ pictogram van de Schrapping ](/help/main/assets/icons/Delete.svg)).
 * Verberg de tekst ( ![ pictogram van de Verbergen ](/help/main/assets/icons/VisibilityOff.svg)).
@@ -112,9 +117,9 @@ Met de opties in het rechterframe kunt u het volgende doen:
 
 ## HTML bewerken {#html}
 
-Naast HTML code kunt u aangepaste JavaScript bewerken en injecteren.
+Naast de HTML-code kunt u aangepaste JavaScript bewerken en injecteren.
 
-Er zijn verschillende opmaakopties voor RTF-tekst beschikbaar wanneer u tekst en HTML bewerkt voor [!UICONTROL A/B] - en [!UICONTROL Experience Targeting] -activiteiten. U kunt een lettertype kiezen, een lettertypestijl selecteren, de tekstuitlijning wijzigen en andere standaardopties voor tekstopmaak opgeven. Wanneer u HTML wijzigt, kunt u schakelen tussen de codeweergave en de rijke bewerkingsweergave van de HTML.
+Er zijn diverse opmaakopties voor RTF-tekst beschikbaar wanneer u tekst bewerkt en HTML voor [!UICONTROL A/B] - en [!UICONTROL Experience Targeting] -activiteiten. U kunt een lettertype kiezen, een lettertypestijl selecteren, de tekstuitlijning wijzigen en andere standaardopties voor tekstopmaak opgeven. Wanneer u HTML wijzigt, kunt u schakelen tussen de codeweergave en de rijke bewerkingsweergave van de HTML.
 
 De volgende HTML5-tags kunnen worden genest:
 

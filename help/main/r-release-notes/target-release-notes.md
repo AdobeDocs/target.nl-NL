@@ -4,9 +4,9 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke Nieuwe Eigenschappen en de Verbeteringen worden omvat in de aanstaande  [!DNL Target]  Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor komende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**Laatste bijgewerkte: 7 februari, 2025**
+**Laatste bijgewerkte: 10 februari, 2025**
 
 >[!NOTE]
 >
@@ -41,11 +41,14 @@ Aangezien de modernisering van de gebruikersinterface van [!DNL Adobe Target] wo
 Op basis van het nieuwste ontwerpsysteem van [!DNL Adobe Spectrum] worden eerder inconsistente ontwerppatronen gestandaardiseerd en worden nieuwe verbeteringen toegevoegd, zoals:
 
 * [ opnieuw ontworpen rapporterend ](/help/main/administrating-target/reporting.md) voor betere inzichten in activiteitenresultaten
-* Bijgewerkte pagina [!UICONTROL Audit] , die nu de informatie van [!DNL Audit API] voor real-time inzichten krijgt
+* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md) pagina, nu het krijgen van de informatie van [[!DNL Audit Query API] ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview) {target=_blank} voor inzicht in real time
 * [ Aanpasbare lijstmeningen ](/help/main/c-activities/activities.md) aan voor betere flexibiliteit over verschillende teambehoeften
 * [ Verbeterde snelle info en detailschermen ](/help/main/c-activities/activities.md) voor gemakkelijkere toegang tot informatie
 * [Opties voor zoeken en filteren tijdens sessiebestendig gebruik](/help/main/c-activities/activities.md)
 * Volledig [ herbouwd [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) met steun voor recentste veiligheidsupdates van browser leveranciers en een modern gebruikersinterface
+
+  Voor informatie over hoe bijgewerkte VEC van de vorige versie verschilt, zie {de veranderingen van Composer van de 10} Visuele Ervaring ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)[
+
 * [ bijgewerkte  [!DNL Chrome]  uitbreiding ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) ondersteunend Manifest V3 voor verhoogde veiligheid en betere steun voor eerstepartijkoekjes
 
 ![ Activiteiten verfrissen zich ](/help/main/r-release-notes/assets/activities-refresh.png)
@@ -62,13 +65,13 @@ Op basis van het nieuwste ontwerpsysteem van [!DNL Adobe Spectrum] worden eerder
 
 * Het [ onderzoek van de productcatalogus ](/help/main/c-recommendations/c-products/catalog-search.md) kenmerkt nu een bijgewerkt gegevensbestand dat een synchronisatie in real time van producten toestaat
 * [!UICONTROL Recommendations] voorwerpen ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections], en [!UICONTROL Exclusions]) [ die over API worden gecreeerd zijn nu beschikbaar in UI ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
-* [ de montages van Recommendations ](/help/main/administrating-target/recommendations-settings.md) zijn geconsolideerd onder de [!UICONTROL Administration] sectie
+* [ de montages van Aanbevelingen ](/help/main/administrating-target/recommendations-settings.md) zijn geconsolideerd onder de [!UICONTROL Administration] sectie
 * Aanpasbare lijstweergaven voor meer flexibiliteit in verschillende teambehoeften
 * Vernieuwde HTML en JSON coderedacteurs met [ syntaxis het benadrukken en lijn nummering ](/help/main/c-experiences/c-manage-content/create-json-offer.md)
 * Verbeterde snelle info- en detailschermen voor eenvoudigere toegang tot informatie
 * Opties voor zoeken en filteren tijdens sessiebestendig gebruik
 
-![ UI van Recommendations verfrist zich ](/help/main/r-release-notes/assets/recs-ui-refresh.png)
+![ UI van Aanbevelingen verfrist zich ](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
 ## Target Standard/Premium 25.1.1 (9 januari 2025)
 
@@ -86,7 +89,7 @@ Met behulp van het nieuwste ontwerpsysteem van [!DNL Adobe Spectrum] worden inco
 
 * **Bulk aanbiedt beheer**: Selecteer en schrap of beweeg veelvoudige aanbiedingen gelijktijdig.
 
-* **[!UICONTROL Code Editor]upgrades** : vernieuwde HTML- en JSON-editors met syntaxismarkering en regelnummering.
+* **[!UICONTROL Code Editor]upgrades** : Vernieuwde HTML- en JSON-editors met syntaxismarkering en regelnummering.
 
 * **Verbeterde aanbiedingskaarten**: Verbeterde snelle informatie en detailkaarten voor gemakkelijkere informatietoegang.
 
@@ -106,7 +109,7 @@ Deze optimalisatie is ingeschakeld voor alle nieuwe klanten van [!DNL Adobe Expe
 
 >[!IMPORTANT]
 >
->Als u uw implementatieoverzicht niet kunt voltooien en problemen op 3 februari 2025 kunt oplossen, kunt u een eenmalige verlenging van zes maanden aanvragen. Zorg ervoor dat uw verzoek uiterlijk op 31 januari 2025 wordt ingediend. De Adobe zal uw verzoek beoordelen en beslissen.
+>Als u uw implementatieoverzicht niet kunt voltooien en problemen op 3 februari 2025 kunt oplossen, kunt u een eenmalige verlenging van zes maanden aanvragen. Zorg ervoor dat uw verzoek uiterlijk op 31 januari 2025 wordt ingediend. Adobe beoordeelt en beslist over je aanvraag.
 
 Om van deze optimalisering in het geval van manueel voorstel terug te winnen, herzie [[!DNL Platform Web SDK implementation] ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk) {target=_blank} om ervoor te zorgen dat u berichten na manueel teruggevende ervaringen verzendt of wanneer het gebruiken van de `applyPropositions` methode (of de overeenkomstige [!DNL Launch] actie als helper) om ervaringen terug te geven.
 
@@ -124,7 +127,7 @@ Afhankelijk van uw implementatie, controleer [!DNL Analytics] en A4T rapporterin
 
 * **Enige vraag voor verpersoonlijking en meting.**
 
-  Aanvankelijk geadviseerd, is de enige-vraag benadering voor [!DNL Platform Web SDK] gepland om in plaats van de spleet-vraag benadering te worden vervangen. De Adobe adviseert alle nieuwe implementaties om de nieuwe spleet-vraag benadering te gebruiken en adviseert dat de bestaande klantenovergang aan de spleet-vraagmethode eveneens.
+  Aanvankelijk geadviseerd, is de enige-vraag benadering voor [!DNL Platform Web SDK] gepland om in plaats van de spleet-vraag benadering te worden vervangen. Adobe adviseert alle nieuwe implementaties om de nieuwe spleet-vraag benadering te gebruiken en adviseert dat de bestaande klanten overgang aan de spleet-vraagmethode eveneens.
 
   Als u de methode voor één aanroep blijft gebruiken, kunnen de volgende onverwachte wijzigingen in uw [!DNL Analytics] -rapporten optreden:
 
@@ -135,7 +138,7 @@ Afhankelijk van uw implementatie, controleer [!DNL Analytics] en A4T rapporterin
 
   Dit implementatietype is de nieuwe [ spleet-vraag implementatiebenadering ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events) {target=_blank} geadviseerd door [!DNL Adobe]. Met deze methode heeft de nieuwe optimalisatie geen invloed op [!DNL Analytics] - of A4T-rapporten.
 
-Als u vragen hebt, contacteer ](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C) de Zorg van de Klant van de Adobe [. (kB-2179)
+Als u vragen hebt, contacteer ](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C) de Zorg van de Klant van 0} Adobe. [ (kB-2179)
 
 <!-- 
 ## [!DNL Target Standard/Premium] 24.10.2 (October 21, 2024)

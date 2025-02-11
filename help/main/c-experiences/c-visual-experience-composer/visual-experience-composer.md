@@ -4,9 +4,9 @@ description: Leer de grondbeginselen van het gebruiken van Visual Experience Com
 title: Hoe gebruik ik de Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1130'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,13 @@ ht-degree: 0%
 
 Informatie over het gebruik van [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] .
 
+>[!NOTE]
+>
+>De release [!DNL Target Standard/Premium] 25.2.1 (11 februari 2025) bevat een bijgewerkte versie van de VEC. Voor informatie over hoe bijgewerkte VEC van de vorige versie verschilt, zie {de veranderingen van de Composer van de 1} Visuele Ervaring [.](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+
 VEC is een gebruikersinterface van WYSIWYG waarmee u gemakkelijk persoonlijke ervaringen en aanbiedingen in de context van de site kunt maken en testen. U kunt ervaringen en aanbiedingen voor [!DNL Target] -activiteiten maken door de lay-out en inhoud van een webpagina (of aanbieding) of mobiele webpagina te slepen en neer te zetten, te wisselen en te wijzigen.
 
-De VEC is een van de belangrijkste kenmerken van [!DNL Adobe Target] . Met VEC kunnen marketers en ontwerpers inhoud maken en wijzigen via een visuele interface. Veel ontwerpkeuzes kunnen worden gemaakt zonder dat de code rechtstreeks moet worden bewerkt. U kunt HTML en JavaScript ook bewerken met de bewerkingsopties in de composer.
+De VEC is een van de belangrijkste kenmerken van [!DNL Adobe Target] . Met VEC kunnen marketers en ontwerpers inhoud maken en wijzigen via een visuele interface. Veel ontwerpkeuzes kunnen worden gemaakt zonder dat de code rechtstreeks moet worden bewerkt. HTML en JavaScript kunnen ook worden bewerkt met behulp van de bewerkingsopties in de composer.
 
 Op het tabblad Doel **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** kunt u de standaard [!UICONTROL Visual Experience Composer] URL invoeren.
 
