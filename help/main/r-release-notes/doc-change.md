@@ -4,9 +4,9 @@ description: Houd bijgewerkt met belangrijke toevoegingen en veranderingen in de
 title: Waar kan ik documentatieupdates voor  [!DNL Target] zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: be6bc2b1ed05f1e54ac6399a20e1e26dd78b4e2a
+source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,8 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 |--- |--- |--- |
-| 12 februari | [ Ondersteunde browsers ](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers) {target=_blank} | Toegevoegde informatie over welke browsers in een implementatie van het Doel gebruikend [!DNL Adobe Experience Platform Web SDK] steunen. |
+| 12 februari | [ de Visuele opties van Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Bijgewerkt volledig onderwerp om de bijgewerkte VEC uit te leggen die in [!DNL Target Standard/Premium] 25.2.1 release (12 februari 2025) is geïntroduceerd. |
+|  | [ Ondersteunde browsers ](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers) {target=_blank} | Toegevoegde informatie over welke browsers in een implementatie van het Doel gebruikend [!DNL Adobe Experience Platform Web SDK] steunen. |
 |  | [ de veranderingen van Composer van de Visuele Ervaring ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | Nieuw artikel om de verschillen tussen de vorige en bijgewerkte versies van VEC te verklaren. |
 |  | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de update van de gebruikersinterface van [!DNL Target Standard/Premium] 25.2.1 (gepland voor 12 februari 2025). Veel artikelen zijn bijgewerkt om de wijzigingen in de gebruikersinterface weer te geven. |
 

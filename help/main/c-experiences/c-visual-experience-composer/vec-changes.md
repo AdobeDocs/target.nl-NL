@@ -4,16 +4,16 @@ description: Begrijp de veranderingen die in Visual Experience Composer (VEC) in
 title: Welke veranderingen worden geïntroduceerd in nieuwe Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 84a73954261c61a48c92b40b879937febaa57f24
+source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Visual Experience Composer] wijzigingen
 
-In de release [!DNL Adobe Target Standard/Premium] 25.2.1 (11 februari 2015) wordt een bijgewerkte versie van [!UICONTROL Visual Experience Composer] (VEC) geïntroduceerd. Dit artikel verklaart de verschillen tussen de vorige en bijgewerkte versies van VEC.
+In de release [!DNL Adobe Target Standard/Premium] 25.2.1 (12 februari 2015) wordt een bijgewerkte versie van [!UICONTROL Visual Experience Composer] (VEC) geïntroduceerd. Dit artikel verklaart de verschillen tussen de vorige en bijgewerkte versies van VEC.
 
 >[!IMPORTANT]
 >
@@ -37,11 +37,11 @@ U kunt ervaringen maken, hernoemen of verwijderen met het deelvenster [!UICONTRO
 
 ### [!UICONTROL Components] (nieuw)
 
-Met het nieuwe deelvenster [!UICONTROL Components] kunt u een aantal componenten aan uw webpagina toevoegen en deze bewerken.
+U kunt een aantal componenten aan uw webpagina toevoegen en deze naar wens bewerken in het nieuwe deelvenster [!UICONTROL Components] .
 
 ![ het paneel van Componenten ](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-Als u een nieuwe component wilt toevoegen, sleept u de component die u wilt invoegen over een bestaand pagina-element op het bewerkingscanvas. Kies vervolgens of u de component wilt invoegen voor of na het geselecteerde element.
+Als u een nieuwe component wilt toevoegen, sleept u de component uit het deelvenster Componenten dat u over een bestaand pagina-element in het ontwerpcanvas wilt invoegen. Kies vervolgens of u de component wilt invoegen voor of na het geselecteerde element.
 
 In vergelijking met de vorige VEC-versie kunt u een geselecteerd element niet vervangen door een component.
 
