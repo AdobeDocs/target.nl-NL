@@ -4,9 +4,9 @@ description: Houd bijgewerkt met belangrijke toevoegingen en veranderingen in de
 title: Waar kan ik documentatieupdates voor  [!DNL Target] zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
+source-git-commit: be6bc2b1ed05f1e54ac6399a20e1e26dd78b4e2a
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,8 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 |--- |--- |--- |
-| 11 februari | [ de veranderingen van Composer van de Visuele Ervaring ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | Nieuw artikel om de verschillen tussen de vorige en bijgewerkte versies van VEC te verklaren. |
+| 12 februari | [ Ondersteunde browsers ](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers) {target=_blank} | Toegevoegde informatie over welke browsers in een implementatie van het Doel gebruikend [!DNL Adobe Experience Platform Web SDK] steunen. |
+|  | [ de veranderingen van Composer van de Visuele Ervaring ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | Nieuw artikel om de verschillen tussen de vorige en bijgewerkte versies van VEC te verklaren. |
 |  | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de update van de gebruikersinterface van [!DNL Target Standard/Premium] 25.2.1 (gepland voor 12 februari 2025). Veel artikelen zijn bijgewerkt om de wijzigingen in de gebruikersinterface weer te geven. |
 
 ### [!DNL Target Standard/Premium] 25.1.1 (9 januari 2025)
