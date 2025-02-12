@@ -4,7 +4,7 @@ description: Onderzoek de opties beschikbaar in  [!DNL Adobe Target] [!UICONTROL
 title: Hoe gebruik ik de opties voor [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Wanneer u op een pagina-element in de map [!DNL Adobe Target] [!UICONTROL Visual
 
 >[!NOTE]
 >
->De release [!DNL Target Standard/Premium] 25.2.1 (11 februari 2025) bevat een bijgewerkte versie van de VEC. Voor informatie over hoe bijgewerkte VEC van de vorige versie verschilt, zie {de veranderingen van de Composer van de 1} Visuele Ervaring [.](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+>De release [!DNL Target Standard/Premium] 25.2.1 (12 februari 2025) bevat een bijgewerkte versie van de VEC. Voor informatie over hoe bijgewerkte VEC van de vorige versie verschilt, zie {de veranderingen van de Composer van de 1} Visuele Ervaring [.](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
 
 
 De verschillende [!UICONTROL Visual Experience Composer] (VEC) acties worden gegroepeerd in de juiste menuopties om uw taak sneller en efficiënter te maken:

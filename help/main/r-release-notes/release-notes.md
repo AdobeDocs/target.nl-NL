@@ -6,7 +6,7 @@ short-description: Leer over de nieuwe eigenschappen, de verhogingen, en de moei
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7a8d34f3155622bc288fc2b3017edb8fde7e18a3
+source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
 workflow-type: tm+mt
 source-wordcount: '1273'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 (De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik door [!DNL Adobe] .)
 
-## Target Standard/Premium 25.2.1 (11 februari 2025)
+## Target Standard/Premium 25.2.1 (12 februari 2025)
 
 Deze release bevat de volgende updates:
 
@@ -32,7 +32,7 @@ Aangezien de modernisering van de gebruikersinterface van [!DNL Adobe Target] wo
 
 >[!NOTE]
 >
->Vanaf 11 februari hebben klanten geleidelijk toegang tot de nieuwe [!UICONTROL Activities] -interface. Om een naadloze uitrol voor alle klanten te verzekeren, zal deze versie in gecontroleerde stadia worden opgesteld. In de eerste fase wordt de eerste groep [!DNL Target] -klanten bijgewerkt naar de nieuwe [!UICONTROL Activities] -gebruikersinterface. De volgende stadia zullen de resterende klanten bevorderen.
+>Vanaf 12 februari hebben klanten geleidelijk toegang tot de nieuwe [!UICONTROL Activities] -interface. Om een naadloze uitrol voor alle klanten te verzekeren, zal deze versie in gecontroleerde stadia worden opgesteld. In de eerste fase wordt de eerste groep [!DNL Target] -klanten bijgewerkt naar de nieuwe [!UICONTROL Activities] -gebruikersinterface. De volgende stadia zullen de resterende klanten bevorderen.
 
 Op basis van het nieuwste ontwerpsysteem van [!DNL Adobe Spectrum] worden eerder inconsistente ontwerppatronen gestandaardiseerd en worden nieuwe verbeteringen toegevoegd, zoals:
 
@@ -55,7 +55,7 @@ Aangezien de modernisering van de gebruikersinterface van [!DNL Adobe Target] wo
 
 >[!NOTE]
 >
->Vanaf 11 februari hebben klanten geleidelijk toegang tot de nieuwe [!UICONTROL Recommendations] -interface. Om een naadloze uitrol voor alle klanten te verzekeren, zal deze versie in gecontroleerde stadia worden opgesteld. In de eerste fase wordt de eerste groep [!DNL Target] -klanten bijgewerkt naar de nieuwe [!UICONTROL Activities] -gebruikersinterface. De volgende stadia zullen de resterende klanten bevorderen.
+>Vanaf 12 februari hebben klanten geleidelijk toegang tot de nieuwe [!UICONTROL Recommendations] -interface. Om een naadloze uitrol voor alle klanten te verzekeren, zal deze versie in gecontroleerde stadia worden opgesteld. In de eerste fase wordt de eerste groep [!DNL Target] -klanten bijgewerkt naar de nieuwe [!UICONTROL Activities] -gebruikersinterface. De volgende stadia zullen de resterende klanten bevorderen.
 
 Op basis van het nieuwste ontwerpsysteem van [!DNL Adobe Spectrum] worden eerder inconsistente ontwerppatronen gestandaardiseerd en worden nieuwe verbeteringen toegevoegd, zoals:
 
