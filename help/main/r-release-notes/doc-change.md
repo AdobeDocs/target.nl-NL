@@ -4,7 +4,7 @@ description: Houd bijgewerkt met belangrijke toevoegingen en veranderingen in de
 title: Waar kan ik documentatieupdates voor  [!DNL Target] zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
+source-git-commit: e4263593b9279847c565396c7b11d55c503b5507
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 ## Updates
 
-### [!DNL Target Standard/Premium] 25.2.1 (12 februari 2025)
+### [!DNL Target Standard/Premium] 25.2.1 (17 februari 2025)
 
 | Datum | Onderwerp | Wijzigingen |
 |--- |--- |--- |
