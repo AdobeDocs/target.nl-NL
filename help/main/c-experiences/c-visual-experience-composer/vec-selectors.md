@@ -1,13 +1,13 @@
 ---
 keywords: Gericht op ervaring;Bezig met landen van pagina testen
-description: Een elementkiezer is een CSS-expressie waarmee een of meer elementen kunnen worden geïdentificeerd. Leer hoe u elementkiezers in de Adobe kunt gebruiken [!DNL Target] Visual Experience Composer (VEC).
+description: Een elementkiezer is een CSS-expressie waarmee een of meer elementen kunnen worden geïdentificeerd. Leer hoe te om elementenkiezers in Adobe  [!DNL Target]  Visuele Composer van de Ervaring (VEC) te gebruiken.
 title: Kan ik de Kiezers van het Element in Visual Experience Composer (VEC) gebruiken?
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 0%
+source-wordcount: '390'
+ht-degree: 1%
 
 ---
 
@@ -15,23 +15,23 @@ ht-degree: 0%
 
 Een elementkiezer is een CSS-expressie waarmee een of meer elementen kunnen worden geïdentificeerd.
 
-U vindt basisinformatie over CSS-kiezers in het dialoogvenster [Kiezers](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) document over het Mozilla Developer Network (MDN).
+U kunt basisinformatie over CSS selecteurs in het [ document van de Selecteurs ](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) op het Netwerk van de Ontwikkelaar Mozilla (MDN) vinden.
 
-U kunt instellen of u in uw accountvoorkeuren een elementklasse- of element-id wilt gebruiken. Klikken **[!UICONTROL Administration > Visual Experience Composer]** en kiest u de gewenste CSS-kiezers.
+U kunt instellen of u in uw accountvoorkeuren een elementklasse- of element-id wilt gebruiken. Klik op **[!UICONTROL Administration > Visual Experience Composer]** en kies de gewenste CSS-kiezers.
 
-![css_selectors, afbeelding](assets/css_selectors.png)
+![ css_selectors beeld ](assets/css_selectors.png)
 
 >[!NOTE]
 >
 >De Klassen van het element zijn beschikbaar als selecteurs in de Test A/B, Automated Personalization, en Multivariate van de Test activiteiten.
 
-Voor informatie over wanneer CSS-kiezers moeten worden gebruikt en wanneer unieke id&#39;s moeten worden gebruikt, raadpleegt u [Aanbevolen werkwijzen en beperkingen voor composer visuele ervaring](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Voor informatie over wanneer om CSS selecteurs te gebruiken en wanneer om unieke IDs te gebruiken, zie {de Beste Praktijken en Beperkingen van Composer van 0} Visuele Ervaring Composer ](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).[
 
-## Hoe Adobe [!DNL Target] Genereert een kiezer voor een element {#section_D89D954BCBFB486CA081BE183776A475}
+## Hoe Adobe [!DNL Target] een kiezer voor een element genereert {#section_D89D954BCBFB486CA081BE183776A475}
 
 Doel gebruikt een eenvoudig algoritme om een kiezer te maken. Hier volgt een korte uitleg van de generatielogica:
 
-1. Als een element bijvoorbeeld een id heeft `id="container"`De kiezer voor het element is `#container`.
+1. Als een element een id heeft, bijvoorbeeld `id="container"` , is de kiezer voor het element `#container` .
 
    Bijvoorbeeld:
 
@@ -50,7 +50,7 @@ Doel gebruikt een eenvoudig algoritme om een kiezer te maken. Hier volgt een kor
 
 1. Als een element een klassenkenmerk bevat, probeert Target de eerste klasse van alle klassen die zich op het element bevinden, te benutten.
 
-   Het doel probeert het bovenliggende element te parseren totdat het het `<HTML>` -element of een element met een id. Wanneer een element een id bevat en de kiezer op het onderliggende element wordt berekend, levert de id van dit element een bijdrage aan de kiezer.
+   Doel probeert het bovenliggende element te parseren totdat het element `<HTML>` of een element met een id wordt gevonden. Wanneer een element een id bevat en de kiezer op het onderliggende element wordt berekend, levert de id van dit element een bijdrage aan de kiezer.
 
    Bijvoorbeeld:
 
@@ -69,11 +69,11 @@ Doel gebruikt een eenvoudig algoritme om een kiezer te maken. Hier volgt een kor
 
    In dit voorbeeld:
 
-   Kiezer: `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (&quot; > &quot; geeft het directe onderliggende item aan.)
+   Selector: `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (&quot; > &quot; geeft het directe onderliggende item aan.)
 
-   `eq` vertelt de index er een element is dat &quot;tagName=UL&quot;heeft en de eerste klasse is `navigation`. Daarom `index` is 0. Zie de [Kiezers](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) artikel in MDN voor meer informatie.
+   `eq` vertelt de index dat er een element is met &quot;tagName=UL&quot; en de eerste klasse is `navigation` . Daarom is `index` 0. Zie het [ artikel van Kiezers ](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) in MDN voor meer informatie.
 
-1. Als een element geen klasse bevat, gebruikt Target `tagName` voor het element en doorloopt het bovenliggende element totdat een van de `<HTML>` -element of een element met een id is gevonden.
+1. Als een element geen klasse bevat, gebruikt Target `tagName` voor het element en doorloopt het bovenliggende element totdat het element `<HTML>` of een element met een id is gevonden.
 
    Bijvoorbeeld:
 
@@ -91,8 +91,6 @@ Doel gebruikt een eenvoudig algoritme om een kiezer te maken. Hier volgt een kor
    ```
 
    Kiezer: `#container` > `ul.navigation(0)` > `li:nth-of-type(4)`
-
-   Meer informatie over [nth-of-type op de webpagina CSS-trucs](https://css-tricks.com/almanac/selectors/n/nth-of-type/).
 
 In het bovenstaande proces:
 
