@@ -4,7 +4,7 @@ title: Handleiding Adobe Target Business Practitioner
 description: Leer hoe te om Adobe  [!DNL Target]  te gebruiken om de ervaring van uw klanten te personaliseren om opbrengst op uw Web en mobiele plaatsen, apps, en andere digitale kanalen te maximaliseren.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: b68c3d2e7e884e176a61598d1ab4a423aa1c9088
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 [!DNL Adobe Target] is de [!DNL Adobe Experience Cloud] -oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 
-**laatst bijgewerkt: 13 februari, 2025 ( [ zie wat ](r-release-notes/doc-change.md) veranderde)**
+**laatst bijgewerkt: 26 februari, 2025 ( [ zie wat ](r-release-notes/doc-change.md) veranderde)**
 
 >[!NOTE]
 >

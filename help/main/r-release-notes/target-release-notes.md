@@ -4,9 +4,9 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke Nieuwe Eigenschappen en de Verbeteringen worden omvat in de aanstaande  [!DNL Target]  Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
+source-git-commit: b68c3d2e7e884e176a61598d1ab4a423aa1c9088
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1389'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor komende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**Laatste bijgewerkte: 13 februari, 2025**
+**Laatste bijgewerkt: 26 februari, 2025**
 
 >[!NOTE]
 >
@@ -23,7 +23,28 @@ Dit artikel bevat pre-releasegegevens voor komende [!DNL Adobe Target] versies, 
 >
 >Om informatie over de huidige versie te bekijken, zie {de Nota&#39;s van de Versie van het 0} Doel ](release-notes.md). [ De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik door [!DNL Adobe] .
 
-## Target Standard/Premium 25.2.1 (17 februari 2025)
+## [!DNL Target Standard/Premium] 25.2.3 (26 februari 2025)
+
+Deze release bevat de volgende updates:
+
+* Oplossing voor een probleem dat het bijwerken van activiteiten na [!DNL Target] release 25.2.1 voor bepaalde activiteiten verhinderde. (TGT-51781)
+* Oplossing voor een probleem waarbij alle wijzigingen in het publiek in de status werden verwijderd na het annuleren van het proces voor het maken van activiteiten (door [!UICONTROL Cancel] te selecteren in plaats van [!UICONTROL Add Audience] ). (TGT-51769 &amp; TGT-51770)
+* Het volgende probleem is opgelost: [!UICONTROL Visual Experience Composer] (VEC) kan niet worden geladen voor bepaalde activiteiten, met name wanneer aangepaste code is gebruikt.  Deze kwestie leidde ertoe dat VEC een leeg scherm of [!DNL Target] UI terugkerend aan zijn oudere versie toonde. (TGT-51758)
+* Oplossing voor een probleem waarbij wijzigingen werden genegeerd na het bewerken van de paginalevering voor het publiek. (TGT-51756)
+* Het volgende probleem is opgelost: alle niet-metrische doelgroepen (pagina- en ervaringspubliek) zijn uit activiteiten verwijderd wanneer een metrisch type op de pagina [!UICONTROL Goals & Settings] wordt gewijzigd. (TGT-51753)
+* Probleem opgelost waarbij tijdens het bewerken van een activiteit door [!UICONTROL Cancel] werd genavigeerd naar de [!UICONTROL Activities List] -pagina in plaats van naar de [!UICONTROL Activity Details] -pagina. (TGT-51731)
+* Oplossing voor een probleem waardoor klanten geen rapporten konden downloaden via de optie [!UICONTROL Export Reports to CSV] . (TGT-51708)
+* Probleem opgelost in de Form-Based Experience Composer waarbij [!DNL Target Standard] -klanten ten onrechte werden weergegeven als gebruikers van [!UICONTROL Properties] , een [!DNL Target Premium] -functie. (TGT-51678)
+* Oplossing voor een probleem waarbij de weergave van [!DNL Adobe Experience Platform] -kenmerken tijdens het maken van nieuwe aanbiedingen werd geblokkeerd. (TGT-51665)
+* Alle actieve filters voor [!DNL Recommendations] -voorraad zijn verplaatst naar de snelle zoekopdracht, waarbij de interface wordt uitgelijnd met [!UICONTROL Catalog Search] in plaats van met de [!UICONTROL Filter] -rail. (TGT-50723)
+
+## at.js versie 2.11.7 (26 februari 2025)
+
+Deze release bevat de volgende update:
+
+* Logboekregistratie van Telemetrie is opgelost wanneer `localStorage` niet beschikbaar is. Telemetrie zorgde voor een probleem voor sommige klanten die `localStorage` hadden uitgeschakeld in hun browsers.
+
+## [!DNL Target Standard/Premium] 25.2.1 (17 februari 2025)
 
 Deze release bevat de volgende updates:
 
@@ -76,7 +97,7 @@ Op basis van het nieuwste ontwerpsysteem van [!DNL Adobe Spectrum] worden eerder
 
 ![ UI van Aanbevelingen verfrist zich ](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
-## Target Standard/Premium 25.1.1 (9 januari 2025)
+## [!DNL Target Standard/Premium] 25.1.1 (9 januari 2025)
 
 Deze release bevat de volgende updates:
 

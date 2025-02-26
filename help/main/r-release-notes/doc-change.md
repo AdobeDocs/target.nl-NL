@@ -4,9 +4,9 @@ description: Houd bijgewerkt met belangrijke toevoegingen en veranderingen in de
 title: Waar kan ik documentatieupdates voor  [!DNL Target] zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e4263593b9279847c565396c7b11d55c503b5507
+source-git-commit: b68c3d2e7e884e176a61598d1ab4a423aa1c9088
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 |--- |--- |--- |
+| 26 februari | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Toegevoegde informatie voor de volgende releases:<ul><li>[!DNL Target Standard/Premium] 25.2.3 (26 februari 2025)</li><li>at.js versie 2.11.7 (26 februari 2025)</li></ul> |
+|  | [ at.js versiedetails ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions) {target=_blank} | Informatie toegevoegd voor de release van at.js versie 2.11.7 (26 februari 2025). |
 | 13 februari | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Veranderde [!DNL Target Standard/Premium] 25.2.1-update van de gebruikersinterface naar 17 februari 2025. |
 | 12 februari | [ de Visuele opties van Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Bijgewerkt volledig onderwerp om de bijgewerkte VEC uit te leggen die in [!DNL Target Standard/Premium] 25.2.1 release (12 februari 2025) is geïntroduceerd. |
 |  | [ Ondersteunde browsers ](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers) {target=_blank} | Toegevoegde informatie over welke browsers in een implementatie van het Doel gebruikend [!DNL Adobe Experience Platform Web SDK] steunen. |
