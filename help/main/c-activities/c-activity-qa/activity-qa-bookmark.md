@@ -1,19 +1,19 @@
 ---
-keywords: qa;preview;bookmarklet;voorvertoning van koppelingen
-description: Leer hoe u de Adobe gebruikt [!DNL Target] QA-boekmarkering afdwingen [!DNL Target] om u van wijze QA vrij te geven.
+keywords: qa;preview;bookmarklet;voorbeeld koppelingen
+description: Leer hoe te om Adobe  [!DNL Target]  QA bookmarklet te gebruiken om  [!DNL Target]  te dwingen om u van wijze vrij te geven QA.
 title: Hoe gebruik ik de Activity QA Bookmarklet?
 feature: Activities
 exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4b5111c00384fdc73eaadbf0eec22ac6c2784a22
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
 # Activity QA-bladwijzer
 
-Informatie die u helpt bij het gebruik van de [!DNL Target] QA-boekmarkering afdwingen [!DNL Target] om u van wijze QA vrij te geven.
+Informatie die u helpt bij het gebruik van de [!DNL Target] QA-bladwijzer om [!DNL Target] te dwingen de QA-modus te verlaten.
 
 >[!NOTE]
 >
@@ -21,9 +21,9 @@ Informatie die u helpt bij het gebruik van de [!DNL Target] QA-boekmarkering afd
 
 ## Activity QA bookmarklet voor at.js 1.*x*
 
-Omdat [QA-modus](/help/main/c-activities/c-activity-qa/activity-qa.md) blijft behouden, nadat u in de QA-modus door een website bladert, [!DNL Target] de sessie moet verlopen of u moet [!DNL Target] U kunt de QA-modus uitschakelen voordat u uw site als een gangbare bezoeker kunt bekijken. De kwaliteitscontrole gebruiken [!DNL Target] bookmarklet om uzelf uit wijze te dwingen QA.
+Omdat [ wijze QA ](/help/main/c-activities/c-activity-qa/activity-qa.md) kleverig is, nadat u een website op wijze QA doorbladert, moet uw [!DNL Target] zitting verlopen of u moet [!DNL Target] geven u van wijze QA alvorens u uw plaats als een typische bezoeker kunt bekijken. Gebruik de bladwijzer QA [!DNL Target] om uzelf uit de modus QA te forceren.
 
-Als u de opdracht [!DNL Target] Maak een bladwijzerplaat voor QA-bladwijzers die de volgende JavaScript-code bevat en voeg deze toe aan de werkbalk Bladwijzers van uw browser:
+Als u de [!DNL Target] QA-bladwijzer wilt gebruiken, maakt u een bladwijzer met de volgende JavaScript-code en voegt u deze toe aan de werkbalk Bladwijzers van uw browser:
 
 ```javascript
 javascript:(
@@ -42,7 +42,7 @@ javascript:(
 )();
 ```
 
-U kunt uzelf ook handmatig uit de QA-modus afdwingen door een pagina op uw site te laden met de `at_preview_token` parameter met een lege waarde.
+U kunt uzelf ook handmatig afdwingen uit de QA-modus door een pagina op uw site te laden met de parameter `at_preview_token` met een lege waarde.
 
 Bijvoorbeeld:
 
@@ -50,9 +50,9 @@ Bijvoorbeeld:
 
 ## Activity QA bookmarklet voor at.js 2.*x*
 
-In tegenstelling tot at.js 1.*x*, om.js 2.*x* ondersteunt geen cookies van derden en de QA-modus blijft alleen van toepassing op het domein van de eerste partij (door middel van een cookie van de eerste partij ingesteld door at.js). Dus in at.js 2.*x*, wordt de QA wijzesessie beheerd slechts op de cliënt-kant en geen QA wijzecookies worden verzonden naar Doel.
+In tegenstelling tot at.js 1.*x*, at.js 2.*x* steunt derdekoekjes niet, en de wijze QA is slechts kleverig voor het eerste-partijdomein (door middel van een eerstepartijkoekje dat door at.js wordt geplaatst). Dus in at.js 2.*x*, QA wordt wijzesessie beheerd slechts op cliënt-kant en geen QA wijzecookies worden verzonden naar Doel.
 
-Als u de opdracht [!DNL Target] Maak een bladwijzerplaat voor QA-bladwijzers die de volgende JavaScript-code bevat en voeg deze toe aan de werkbalk Bladwijzers van uw browser:
+Als u de [!DNL Target] QA-bladwijzer wilt gebruiken, maakt u een bladwijzer met de volgende JavaScript-code en voegt u deze toe aan de werkbalk Bladwijzers van uw browser:
 
 ```javascript
 javascript:(
@@ -61,12 +61,13 @@ javascript:(
         var isSet = document.cookie.split(';').some(function (cookie) {
             return cookie.trim().startsWith(AT_QA_MODE);
         });
-        if (isSet) {
-            document.cookie = AT_QA_MODE + '; Path=/; Max-Age=-0;';
-            var url = window.location.href.split('at_preview_token',2)[0];
-            window.open(url.substring(0, url.length - 1), '_self', 'noreferrer');
+        if (isSet) {            
+            document.cookie = AT_QA_MODE + ';domain='+window.location.hostname+";Path=/; Max-Age=-0;";
+            var token = window.location.href.indexOf("?at_preview_token")<0? "&at_preview_token" : "?at_preview_token";
+            var url = window.location.href.split(token,2)[0];
+            window.open(url, '_self', 'noreferrer');
         }
-    })();
+    })(); 
 ```
 
 ## De Activity QA-bladwijzer gebruiken
