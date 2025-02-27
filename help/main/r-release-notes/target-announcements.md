@@ -6,9 +6,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2049'
 ht-degree: 0%
 
 ---
@@ -207,16 +207,14 @@ Onderwerpen die we zullen verkennen:
 
 Leer hoe de Kunstmatige Intelligentie consumentenverwachtingen blijft herdefiniëren aangezien machine het leren modellen en gegevensinzichten nieuwe deuren openen voor marketers, ontwikkelaars, en producteigenaars om consumenten met gepersonaliseerde ervaringen te betrekken die belangrijk zijn. Voer een stapsgewijze rondleiding door [!DNL Adobe Analytics] + [!DNL Adobe Target] -workflows uit voor personalisatie, doelgerichtheid en testen.
 
-* [ Opname verbinding ](https://analytics.dxfieldmarketing.adobeevents.com/) {target=_blank}
++++Details
 
-  +++Details
+Lid worden van Jordan Ison (Hoofd Expert Solution Consultant bij [!DNL Adobe] ) om te bespreken:
 
-  Lid worden van Jordan Ison (Hoofd Expert Solution Consultant bij [!DNL Adobe] ) om te bespreken:
-
-   * Hoe marketers, ontwikkelaars en productteams de &#39;zwarte doos&#39; van AI kunnen openen om toekomstige test- en personalisatiestrategieën te drijven
-   * Oplossing voor uitdagingen bij het optimaliseren van web, mobiele app, e-mail, IoT en elk digitaal aanraakpunt voor hogere conversie en betrokkenheid
-   * Stap-voor-stap geleide rondleiding van [!DNL Adobe Analytics] en [!DNL Target] werkschema&#39;s voor verpersoonlijking, het richten, en het testen
-   * De meest gebruikte gevallen om te ontgrendelen welke kenmerken het gedrag van de bezoeker voorspellen en welke kenmerken het belangrijkst zijn voor de belangrijkste visualisaties en segmentatieanalyse
+* Hoe marketers, ontwikkelaars en productteams de &#39;zwarte doos&#39; van AI kunnen openen om toekomstige test- en personalisatiestrategieën te drijven
+* Oplossing voor uitdagingen bij het optimaliseren van web, mobiele app, e-mail, IoT en elk digitaal aanraakpunt voor hogere conversie en betrokkenheid
+* Stap-voor-stap geleide rondleiding van [!DNL Adobe Analytics] en [!DNL Target] werkschema&#39;s voor verpersoonlijking, het richten, en het testen
+* De meest gebruikte gevallen om te ontgrendelen welke kenmerken het gedrag van de bezoeker voorspellen en welke kenmerken het belangrijkst zijn voor de belangrijkste visualisaties en segmentatieanalyse
 
 +++
 
