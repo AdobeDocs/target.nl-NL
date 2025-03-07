@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
+source-git-commit: 7924bf0238eeba92be286441f537bfe84e93060e
 workflow-type: tm+mt
-source-wordcount: '38891'
+source-wordcount: '39655'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,94 @@ Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en
 >Zie [ de versienota&#39;s van het Doel (huidig) ](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) voor informatie over de versies van het Doel van de huidige maand (platform en Target Standard/Premium).
 
 ## Opmerkingen bij de release - 2025
+
+### [!DNL Target Standard/Premium] 25.3.1 (3 maart 2025)
+
+Deze release bevat de volgende correcties en updates:
+
+* Een gecombineerd publiek kan subgroepen bevatten, die elk meerdere soorten publiek bevatten. Deze release verholpen een probleem dat ervoor zorgde dat het publiek van de subgroep niet kon weergeven in het dialoogvenster [!UICONTROL Rules] . (TGT-51813)
+* Het volgende probleem is opgelost: sommige ervaringsgebruikers zijn vervangen door [!UICONTROL All Visitors] bij het openen van oudere activiteiten. (TGT-51812)
+* Het probleem dat bewerkingsactiviteiten niet mogelijk maakte, is opgelost met alleen-activiteit publiek. (TGT-51807)
+* Oplossing voor een probleem waardoor wijzigingen in de paginakoppen in de bijgewerkte gebruikersinterface van [!DNL Target] niet konden worden bewerkt. (TGT-51797)
+* Oplossing voor een null-fout die optrad bij het dupliceren van een ervaring, het verwijderen van een andere ervaring en het vervolgens opslaan van de activiteit. (TGT-51796)
+* Oplossing voor een probleem dat ervoor zorgde dat de uitsluitingsregels van het publiek niet konden worden weergegeven in het deelvenster met publieksinfo tijdens de [!UICONTROL Targeting] -stap van het maken van activiteiten. (TGT-51579)
+* Bijgewerkte foutberichten die in het Koreaans zijn gelokaliseerd. (TGT-51701 &amp; TGT-51699)
+
+### [!DNL Target Standard/Premium] 25.2.3 (26 februari 2025)
+
+Deze release bevat de volgende updates:
+
+* Oplossing voor een probleem dat het bijwerken van activiteiten na [!DNL Target] release 25.2.1 voor bepaalde activiteiten verhinderde. (TGT-51781)
+* Oplossing voor een probleem waarbij alle wijzigingen in het publiek in de status werden verwijderd na het annuleren van het proces voor het maken van activiteiten (door [!UICONTROL Cancel] te selecteren in plaats van [!UICONTROL Add Audience] ). (TGT-51769 &amp; TGT-51770)
+* Het volgende probleem is opgelost: [!UICONTROL Visual Experience Composer] (VEC) kan niet worden geladen voor bepaalde activiteiten, met name wanneer aangepaste code is gebruikt.  Deze kwestie leidde ertoe dat VEC een leeg scherm of [!DNL Target] UI terugkerend aan zijn oudere versie toonde. (TGT-51758)
+* Oplossing voor een probleem waarbij wijzigingen werden genegeerd na het bewerken van de paginalevering voor het publiek. (TGT-51756)
+* Het volgende probleem is opgelost: alle niet-metrische doelgroepen (pagina- en ervaringspubliek) zijn uit activiteiten verwijderd wanneer een metrisch type op de pagina [!UICONTROL Goals & Settings] wordt gewijzigd. (TGT-51753)
+* Probleem opgelost waarbij tijdens het bewerken van een activiteit door [!UICONTROL Cancel] werd genavigeerd naar de [!UICONTROL Activities List] -pagina in plaats van naar de [!UICONTROL Activity Details] -pagina. (TGT-51731)
+* Oplossing voor een probleem waardoor klanten geen rapporten konden downloaden via de optie [!UICONTROL Export Reports to CSV] . (TGT-51708)
+* Probleem opgelost in de Form-Based Experience Composer waarbij [!DNL Target Standard] -klanten ten onrechte werden weergegeven als gebruikers van [!UICONTROL Properties] , een [!DNL Target Premium] -functie. (TGT-51678)
+* Oplossing voor een probleem waarbij de weergave van [!DNL Adobe Experience Platform] -kenmerken tijdens het maken van nieuwe aanbiedingen werd geblokkeerd. (TGT-51665)
+* Alle actieve filters voor [!DNL Recommendations] -voorraad zijn verplaatst naar de snelle zoekopdracht, waarbij de interface wordt uitgelijnd met [!UICONTROL Catalog Search] in plaats van met de [!UICONTROL Filter] -rail. (TGT-50723)
+
+### at.js versie 2.11.7 (26 februari 2025)
+
+Deze release bevat de volgende update:
+
+* Logboekregistratie van Telemetrie is opgelost wanneer `localStorage` niet beschikbaar is. Telemetrie zorgde voor een probleem voor sommige klanten die `localStorage` hadden uitgeschakeld in hun browsers.
+
+Voor informatie over dit en vorige versies at.js, zie [ at.js versiedetails ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions) {target=_blank}.
+
+### Target Standard/Premium 25.2.1 (17 februari 2025)
+
+Deze release bevat de volgende updates:
+
+* [!UICONTROL Activities] update gebruikersinterface
+* [!DNL Recommendations] update gebruikersinterface
+
+#### [!UICONTROL Activities] update gebruikersinterface
+
+Aangezien de modernisering van de gebruikersinterface van [!DNL Adobe Target] wordt voortgezet, zijn wij verheugd de algemene beschikbaarheid van de bijgewerkte gebruikersinterface van [!UICONTROL Activities] aan te kondigen.
+
+>[!NOTE]
+>
+>Vanaf 17 februari hebben klanten geleidelijk toegang tot de nieuwe [!UICONTROL Activities] -interface. Om een naadloze uitrol voor alle klanten te verzekeren, zal deze versie in gecontroleerde stadia worden opgesteld. In de eerste fase wordt de eerste groep [!DNL Target] -klanten bijgewerkt naar de nieuwe [!UICONTROL Activities] -gebruikersinterface. De volgende stadia zullen de resterende klanten bevorderen.
+
+Op basis van het nieuwste ontwerpsysteem van [!DNL Adobe Spectrum] worden eerder inconsistente ontwerppatronen gestandaardiseerd en worden nieuwe verbeteringen toegevoegd, zoals:
+
+* [ opnieuw ontworpen rapporterend ](/help/main/administrating-target/reporting.md) voor betere inzichten in activiteitenresultaten.
+* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md) pagina, nu het krijgen van de informatie van [[!DNL Audit Query API] ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview) {target=_blank} voor inzicht in real time.
+* [ Aanpasbare lijstmeningen ](/help/main/c-activities/activities.md) aan voor betere flexibiliteit over verschillende teambehoeften.
+* [ Verbeterde snelle info en detailschermen ](/help/main/c-activities/activities.md) voor gemakkelijkere toegang tot informatie.
+* [ Zitting-blijvende onderzoek en filteropties ](/help/main/c-activities/activities.md).
+* Volledig [ herbouwd [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) met steun voor recentste veiligheidsupdates van browser leveranciers en een modern gebruikersinterface.
+
+  Voor informatie over hoe de bijgewerkte VEC van de vorige versie verschilt, zie:
+
+   * [ de veranderingen van Composer van de Visuele Ervaring ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+   * [Opties voor Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
+
+* [ bijgewerkte  [!DNL Chrome]  uitbreiding ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) ondersteunend Duidelijke V3 voor verhoogde veiligheid en betere steun voor eerstepartijkoekjes.
+
+![ Activiteiten verfrissen zich ](/help/main/r-release-notes/assets/activities-refresh.png)
+
+#### [!DNL Recommendations] update gebruikersinterface
+
+Aangezien de modernisering van de gebruikersinterface van [!DNL Adobe Target] wordt voortgezet, zijn wij verheugd de algemene beschikbaarheid van de bijgewerkte gebruikersinterface van [!DNL Recommendations] aan te kondigen.
+
+>[!NOTE]
+>
+>Vanaf 17 februari hebben klanten geleidelijk toegang tot de nieuwe [!UICONTROL Recommendations] -interface. Om een naadloze uitrol voor alle klanten te verzekeren, zal deze versie in gecontroleerde stadia worden opgesteld. In de eerste fase wordt de eerste groep [!DNL Target] -klanten bijgewerkt naar de nieuwe [!UICONTROL Activities] -gebruikersinterface. De volgende stadia zullen de resterende klanten bevorderen.
+
+Op basis van het nieuwste ontwerpsysteem van [!DNL Adobe Spectrum] worden eerder inconsistente ontwerppatronen gestandaardiseerd en worden nieuwe verbeteringen toegevoegd, zoals:
+
+* Het [ onderzoek van de productcatalogus ](/help/main/c-recommendations/c-products/catalog-search.md) kenmerkt nu een bijgewerkt gegevensbestand dat een synchronisatie in real time van producten toestaat.
+* [!UICONTROL Recommendations] de voorwerpen ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections], en [!UICONTROL Exclusions]) [ over API worden gecreeerd zijn nu beschikbaar in UI ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md).
+* [ de montages van Aanbevelingen ](/help/main/administrating-target/recommendations-settings.md) zijn geconsolideerd onder de [!UICONTROL Administration] sectie.
+* Aanpasbare lijstweergaven voor meer flexibiliteit in verschillende teambehoeften.
+* Vernieuwde HTML en JSON coderedacteurs met [ syntaxis het benadrukken en lijnnummering ](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+* Verbeterde snelle info- en detailschermen voor eenvoudigere toegang tot informatie.
+* Sessiepermanente zoek- en filteropties.
+
+![ UI van Aanbevelingen verfrist zich ](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
 ### Target Standard/Premium 25.1.1 (9 januari 2025)
 
