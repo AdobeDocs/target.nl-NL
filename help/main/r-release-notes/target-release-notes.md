@@ -4,9 +4,9 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke Nieuwe Eigenschappen en de Verbeteringen worden omvat in de aanstaande  [!DNL Target]  Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7196b966c46043db536313c7841fe8611268d373
+source-git-commit: cee17e318dedffaadccd2f93ae593e5fdd2bd600
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,6 @@ Deze release bevat de volgende correcties en updates:
 * Oplossing voor een probleem waarbij alleen-activiteit publiek niet zichtbaar was in het deelvenster [!UICONTROL Audiences] , zodat het niet kon worden bewerkt of hergebruikt. (TGT-51860)
 * Probleem verholpen waarbij [!DNL Target Standard] klanten ervan weerhield activiteiten te maken met behulp van [!UICONTROL Analytics for Target] (A4T)-rapporten. (TGT-51854)
 * Probleem verholpen waarbij lokale id-tellers tijdens het maken en bewerken van batchbewerkingen werden uitgesloten van de payload. (TGT-51867)
-* Verbeterde toegankelijkheidsrapporten door [!DNL Axe Developer Hub] te integreren, dekking, rapportage, teamsamenwerking, ondersteuning voor handmatige tests, compatibiliteitsnormen en gebruikerservaring te verbeteren.
 
 ## [!DNL Target Standard/Premium] 25.3.2 (6 maart 2025)
 
