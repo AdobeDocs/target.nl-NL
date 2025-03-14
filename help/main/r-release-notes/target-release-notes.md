@@ -4,9 +4,9 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke Nieuwe Eigenschappen en de Verbeteringen worden omvat in de aanstaande  [!DNL Target]  Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: a9c4264672b44da815c721c08c735a2692b2cb33
+source-git-commit: cd335504f5354aa9052ae7e958cf803cd90a9ae9
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,25 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor komende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**Laatste bijgewerkt: 11 Maart, 2025**
+**Laatste bijgewerkt: 14 Maart, 2025**
 
 >[!NOTE]
 >
 >Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 >
 >Om informatie over de huidige versie te bekijken, zie {de Nota&#39;s van de Versie van het 0} Doel ](release-notes.md). [ De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik door [!DNL Adobe] .
+
+## [!DNL Target Standard/Premium] 25.3.6 (14 maart 2025)
+
+Deze release bevat de volgende correcties en updates:
+
+* Oplossing voor de fout &#39;&#39;Ongeldige gebruikersinvoer&#39;&#39; in [!UICONTROL Visual Experience Composer] -activiteiten (VEC) waarbij [!UICONTROL Click Tracking] ingeschakeld is wanneer dezelfde [!UICONTROL ClickTrack] -kiezer meerdere keren wordt gebruikt. (TGT-51921)
+* Correctie van de fout &#39;&#39;Ongeldige gebruikersinvoer&#39;&#39; in VEC-activiteiten met gedeelde locaties (bijvoorbeeld HEAD-kiezer) en identieke aanbiedingen. (TGT-51879)
+* Probleem opgelost waarbij ervaringswijzigingen werden gedeeld door het publiek. (TGT-51815)
+* Validatiefouten zijn opgelost bij het maken van activiteiten vanwege conflict met segment-id. De fouten traden op wanneer [!DNL Target] bestaande activiteiten met anonieme segmenten detecteerde. (TGT-51784)
+* Correctie van het probleem dat [!DNL Target] ervan weerhield activiteiten met uitsluitingsregels in een publiek op te slaan. (TGT-51581)
+* Oplossing van het probleem waardoor klanten geen mappen konden maken, verwijderen of verplaatsen zonder toegang tot de standaardwerkruimte. (TGT-51499)
+* Oplossing van het probleem dat ertoe leidde dat GET-aanvragen mislukten bij het ophalen van de [!DNL Analytics] metrielijst. (TGT-51106)
 
 ## [!DNL Target Standard/Premium] 25.3.5 (11 maart 2025)
 
