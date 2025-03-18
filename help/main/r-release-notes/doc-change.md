@@ -4,9 +4,9 @@ description: Houd bijgewerkt met belangrijke toevoegingen en veranderingen in de
 title: Waar kan ik documentatieupdates voor  [!DNL Target] zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cd335504f5354aa9052ae7e958cf803cd90a9ae9
+source-git-commit: 80e4741f5f501a48b15b718c6c0bf55a86c4d676
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 |--- |--- |--- |
+| 18 maart | [ A4T steun voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Toegevoegde nota aan de *Ondersteunde doelmetriek* sectie. |
 | 14 maart | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release [!DNL Target Standard/Premium] 25.3.6. |
 | 13 maart | [ Ondersteunde browsers ](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers) {target=_blank} | Ondersteunde browsers zijn bijgewerkt en de sectie &quot;Visuele bewerkingsvereisten&quot; is toegevoegd. |
 | 11 maart | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release [!DNL Target Standard/Premium] 25.3.5 toegevoegd. |
