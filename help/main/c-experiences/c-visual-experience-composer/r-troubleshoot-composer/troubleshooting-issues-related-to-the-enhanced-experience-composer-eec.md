@@ -4,9 +4,9 @@ description: Leer hoe te om problemen problemen problemen op te lossen die soms 
 title: Hoe los ik problemen op met betrekking tot de Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 1908c9ebe94931778e792a75e75eff04076ae5c5
+source-git-commit: b14c39bd1de3f8d78aa720f7a064009759916802
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Vraag uw team van IT om de volgende IP adressen te lijsten van gewenste personen
 
 ### Oudere IP-adressen
 
-De volgende erfenisIP adressen zouden tot verdere kennisgeving moeten worden gevoegd op lijst van gewenste personen.
+De volgende erfenisIP adressen zouden tot verdere kennisgeving moeten blijven worden gevoegd op lijst van gewenste personen.
 
 34.254.77.200
 54.73.207.147
