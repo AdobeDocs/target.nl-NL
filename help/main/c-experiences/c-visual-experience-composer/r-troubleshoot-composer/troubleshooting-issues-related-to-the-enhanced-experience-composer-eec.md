@@ -4,7 +4,7 @@ description: Leer hoe te om problemen problemen problemen op te lossen die soms 
 title: Hoe los ik problemen op met betrekking tot de Enhanced Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: b14c39bd1de3f8d78aa720f7a064009759916802
+source-git-commit: 04f8e22361b1e961a88d3e9d28ccfd600fae0218
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Dit kan worden opgelost door de volgende IP adressen te voegend op lijst van gew
 
 Vraag uw team van IT om de volgende IP adressen te lijsten van gewenste personen:
 
-### Prod va7
+### VS (va7)
 
 40.70.154.136/29
 52.254.106.240/28
@@ -47,7 +47,7 @@ Vraag uw team van IT om de volgende IP adressen te lijsten van gewenste personen
 52.254.107.144/28
 52.254.106.144/28
 
-### Prod nld2
+### EMEA (nld2)
 
 51.138.17.16/28
 51.138.17.48/28
@@ -72,7 +72,7 @@ Vraag uw team van IT om de volgende IP adressen te lijsten van gewenste personen
 51.138.17.64/28
 51.138.12.160/28
 
-### Prod aus5
+### APAC (aus)
 
 20.43.104.160/28
 20.227.35.177
