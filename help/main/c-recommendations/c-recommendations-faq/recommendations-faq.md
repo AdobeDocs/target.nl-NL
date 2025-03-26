@@ -5,24 +5,24 @@ title: Waar kan ik Vragen en Antwoorden over  [!DNL Recommendations] vinden?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
+source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
 workflow-type: tm+mt
-source-wordcount: '3506'
+source-wordcount: '3444'
 ht-degree: 0%
 
 ---
 
-# Veelgestelde vragen over Recommendations
+# Veelgestelde vragen over aanbevelingen
 
 Lijst met veelgestelde vragen (FAQ&#39;s) over [!DNL Adobe Target] [!DNL Recommendations] -activiteiten.
 
 ## Weergeven [!DNL Recommendations] -objecten die via API zijn gemaakt in de [!DNL Target] -gebruikersinterface?
 
-Ja, [!UICONTROL Recommendations] -objecten ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] en [!UICONTROL Exclusions]) die via de API zijn gemaakt, zijn nu beschikbaar in de gebruikersinterface.
+Ja, [!UICONTROL Recommendations] -objecten ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] en [!UICONTROL Exclusions]) die via de API zijn gemaakt, zijn beschikbaar in de gebruikersinterface en kunnen worden bewerkt via de API of de [!DNL Target] gebruikersinterface.
 
 ## Kan ik met de API&#39;s van [!DNL Target] visuele aanbiedingen beheren die door [!DNL Target] in de gebruikersinterface zijn gemaakt?
 
-Nee. [!DNL Recommendations] -activiteiten met visuele aanbiedingen die zijn gemaakt in de [!DNL Target] -gebruikersinterface, kunnen niet worden beheerd met de [!DNL Target] -API&#39;s. Hoewel deze activiteiten in de [!UICONTROL Activities] -lijst worden weergegeven, kunt u ze niet lezen of bijwerken (met GET/PUT).
+Nee. [!DNL Recommendations] -activiteiten met visuele aanbiedingen die zijn gemaakt in de [!DNL Target] -gebruikersinterface, kunnen niet worden beheerd met de [!DNL Target] -API&#39;s. Hoewel deze activiteiten worden weergegeven in de lijst van [!UICONTROL Activities] , kunt u ze niet lezen of bijwerken (met GET/PUT).
 
 ## Waarom geeft [!UICONTROL Catalog Search] niet de juiste resultaten weer wanneer ik zoek naar een aangepast kenmerk met een numerieke waarde?
 
@@ -36,11 +36,11 @@ Het tijdkader en de resultaten variëren, afhankelijk van hoe de items worden bi
 
 | Source | Details |
 | --- | --- |
-| Itemkenmerken bijgewerkt via mbox of API | <ul><li>Recommendations wordt binnen 15 minuten bijgewerkt.</li><li>Bestaande aanbevelingen en itemkenmerken worden weergegeven totdat updates beschikbaar zijn.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na catalogusindex (3-8 uur).</li></ul> |
-| Itemkenmerken bijgewerkt via feed | <ul><li>Recommendations wordt bijgewerkt na inname van het voer (2-8 uur).</li><li>Bestaande aanbevelingen en itemkenmerken worden weergegeven totdat updates beschikbaar zijn.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na invoer (2-8 uur) en na volgende catalogusindex (3-8 uur). Zoekopdrachten voor catalogi worden binnen 5-16 uur bijgewerkt.</li></ul> |
-| Item dat via de gebruikersinterface of API van [!DNL Target] uit de catalogus is verwijderd | <ul><li>Recommendations wordt binnen 15 minuten bijgewerkt.</li><li>Bestaande aanbevelingen en itemkenmerken worden weergegeven totdat updates beschikbaar zijn.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na catalogusindex (3-8 uur).</li></ul> |
-| Item dat via mbox of API aan de catalogus is toegevoegd | <ul><li>Recommendations wordt bijgewerkt nadat het algoritme is uitgevoerd. Algorithm-run is elke 12 uur gepland voor algoritmes van 1 tot 2 dagen en elke 24 uur voor algoritmen van 7 of meer dagen.</li><li>Bestaande aanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item geen gevraagde sleutel is.</li><li>Back-upaanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item een gevraagde sleutel is.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na catalogusindex (3-8 uur).</li></ul> |
-| Item dat via feed aan de catalogus is toegevoegd | <ul><li>Recommendations wordt bijgewerkt na inname van het voer (2-8 uur). De volgende algoritmelooppas wordt gepland om de 12 uur voor 1-2 dagalgoritmen en om de 24 uur voor 7+ dagalgoritmen. Recommendations wordt in totaal binnen 2-32 uur bijgewerkt.</li><li>Bestaande aanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item geen gevraagde sleutel is.</li><li>Back-upaanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item een gevraagde sleutel is.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na invoer (2-8 uur) en na catalogusindex (3-8 uur). Zoekopdrachten voor catalogi worden binnen 5-16 uur bijgewerkt.</li></ul> |
+| Itemkenmerken bijgewerkt via mbox of API | <ul><li>Aanbevelingen worden binnen 15 minuten bijgewerkt.</li><li>Bestaande aanbevelingen en itemkenmerken worden weergegeven totdat updates beschikbaar zijn.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na catalogusindex (3-8 uur).</li></ul> |
+| Itemkenmerken bijgewerkt via feed | <ul><li>Aanbevelingen worden bijgewerkt na inname van het voer (2-8 uur).</li><li>Bestaande aanbevelingen en itemkenmerken worden weergegeven totdat updates beschikbaar zijn.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na invoer (2-8 uur) en na volgende catalogusindex (3-8 uur). Zoekopdrachten voor catalogi worden binnen 5-16 uur bijgewerkt.</li></ul> |
+| Item dat via de gebruikersinterface of API van [!DNL Target] uit de catalogus is verwijderd | <ul><li>Aanbevelingen worden binnen 15 minuten bijgewerkt.</li><li>Bestaande aanbevelingen en itemkenmerken worden weergegeven totdat updates beschikbaar zijn.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na catalogusindex (3-8 uur).</li></ul> |
+| Item dat via mbox of API aan de catalogus is toegevoegd | <ul><li>Aanbevelingen worden bijgewerkt nadat het algoritme is uitgevoerd. Algorithm-run is elke 12 uur gepland voor algoritmes van 1 tot 2 dagen en elke 24 uur voor algoritmen van 7 of meer dagen.</li><li>Bestaande aanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item geen gevraagde sleutel is.</li><li>Back-upaanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item een gevraagde sleutel is.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na catalogusindex (3-8 uur).</li></ul> |
+| Item dat via feed aan de catalogus is toegevoegd | <ul><li>Aanbevelingen worden bijgewerkt na inname van het voer (2-8 uur). De volgende algoritmelooppas wordt gepland om de 12 uur voor 1-2 dagalgoritmen en om de 24 uur voor 7+ dagalgoritmen. Aanbevelingen worden binnen 2-32 uur in totaal bijgewerkt.</li><li>Bestaande aanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item geen gevraagde sleutel is.</li><li>Back-upaanbevelingen worden weergegeven totdat updates beschikbaar zijn als het toegevoegde item een gevraagde sleutel is.</li><li>Zoekopdracht in catalogus wordt bijgewerkt na invoer (2-8 uur) en na catalogusindex (3-8 uur). Zoekopdrachten voor catalogi worden binnen 5-16 uur bijgewerkt.</li></ul> |
 
 Nadat u een feed-bestand hebt geïmporteerd of nadat u eenheidupdates hebt ontvangen via API of mbox, worden de volgende wijzigingen in minder dan 60 minuten doorgevoerd:
 
@@ -95,7 +95,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## Waarom zijn niet alle criteria, met inbegrip van douanecriteria, beschikbaar voor selectie wanneer het creëren van een activiteit van Recommendations? {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## Waarom zijn niet alle criteria, met inbegrip van douanecriteria, beschikbaar voor selectie wanneer het creëren van een activiteit van Aanbevelingen? {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
 De beschikbare criteria zijn gebaseerd op de huidige categorie. Wanneer u aanbevelingen aanbiedt, geeft de algoritmekiezer criteria weer op basis van categorie-id.
 
@@ -128,7 +128,7 @@ De volgende lijst bevat speciale gevallen waarin [!DNL Target] het selectievakje
 * Geen mbox vraag wordt in brand gestoken van de pagina (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
 * [!DNL Target] -parameters zijn niet gedefinieerd.
 
-## Wat moet ik doen als een verzameling in Recommendations naar nul gaat (0)? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## Wat moet ik doen als een verzameling in Aanbevelingen naar nul (0) gaat? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 Overweeg de volgende informatie als u een inzameling ziet gaan naar nul die eerder niet bij nul was:
 
@@ -177,11 +177,11 @@ De volgende JavaScript kan aan het begin van het ontwerp worden gebruikt om het 
 
 [!DNL Target] legt een postlimiet van 50 MB op toepassingsniveau op. Dit is echter alleen wanneer u de header van het inhoudstype `application/x-www-form-urlencoded` doorgeeft.
 
-Je zou zeker kunnen proberen om 50.000 producten in één enkele vraag te verzenden. Als het ontbreekt, kunt u het in partijen verdelen. De Adobe beveelt aan dat klanten hun vraag in 5.000 of 10.000 productpartijen breken om de waarschijnlijkheid van een onderbreking wegens systeemlading te verminderen.
+Je zou zeker kunnen proberen om 50.000 producten in één enkele vraag te verzenden. Als het ontbreekt, kunt u het in partijen verdelen. Adobe raadt aan dat klanten hun aanroepen opsplitsen in 5.000 of 10.000 productbatches om de kans op een time-out door systeembelasting te verkleinen.
 
-## Moet ik de naam van het selectievakje opgeven bij het maken van Recommendations-criteria, -promoties of -testregels voor sjablonen? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## Moet ik de naam van de box specificeren wanneer het creëren van de criteria van Aanbevelingen, bevorderingen, of malplaatje testende regels? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
-Wanneer u Recommendations-criteria, -promoties of -sjabloontestregels maakt op basis van een mbox-parameter, vraagt `mboxParameter` u niet langer om `mboxName` . mbox name is nu optioneel. Met deze wijziging kunt u parameters uit meerdere vakken gebruiken of verwijzen naar een parameter die nog niet op de rand is opgenomen.
+Wanneer u criteria, promoties of testregels voor sjablonen maakt op basis van een mbox-parameter, vraagt `mboxParameter` u niet langer om `mboxName` . mbox name is nu optioneel. Met deze wijziging kunt u parameters uit meerdere vakken gebruiken of verwijzen naar een parameter die nog niet op de rand is opgenomen.
 
 De gewenste parameter selecteren:
 
@@ -192,13 +192,13 @@ Bij beide methoden is er geen koppeling tussen de mbox en de parameter. De crite
 
 Als u bestaande criteria, bevordering, of malplaatje het testen regel uitgeeft, tonen de het filtreren criteria met de mbox naam die tijdens verwezenlijking werd verstrekt.
 
-## Waarom kan ik mijn oudere Recommendations-activiteit niet opslaan nadat ik een nieuw publiek heb gedefinieerd? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## Waarom kan ik mijn activiteit van de Aanbevelingen van de erfenis niet bewaren na het bepalen van een nieuw publiek? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
-Zorg ervoor dat het publiek een unieke naam heeft. Als u het publiek dezelfde naam hebt gegeven als een bestaand publiek, kunt u uw oudere Recommendations-activiteit (een Recommendations-activiteit die vóór oktober 2016 is gemaakt) niet opslaan.
+Zorg ervoor dat het publiek een unieke naam heeft. Als u het publiek de zelfde naam zoals een bestaand publiek gaf, kunt u niet uw activiteit van de erfenisAanbevelingen opslaan (een activiteit van Aanbevelingen die vóór Oktober 2016 wordt gecreeerd).
 
 ## Wat is de maximumgrootte van een CSV-bestand voor een feed-upload? {#section_20F1AF4839A447B9889B246D6E873538}
 
-Het aantal rijen of de bestandsgrootte voor het uploaden van een CSV-bestand van een feed is niet hard beperkt. De Adobe raadt echter aan de CSV-bestandsgrootte te beperken tot 1 GB om fouten tijdens het uploaden van het bestand te voorkomen. Als de grootte van het bestand groter is dan 1 GB, kan het bestand idealiter in meerdere feed-bestanden worden gesplitst. Het maximumaantal kolommen voor aangepaste kenmerken is 100 en de aangepaste kenmerken zijn beperkt tot 4096 tekens. Andere grenzen op de lengte van vereiste kolommen zijn beschikbaar op de [[!DNL Target]  pagina van Beperkingen ](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+Het aantal rijen of de bestandsgrootte voor het uploaden van een CSV-bestand van een feed is niet hard beperkt. Adobe raadt echter aan om de CSV-bestandsgrootte te beperken tot 1 GB om fouten tijdens het uploaden van bestanden te voorkomen. Als de grootte van het bestand groter is dan 1 GB, kan het bestand idealiter in meerdere feed-bestanden worden gesplitst. Het maximumaantal kolommen voor aangepaste kenmerken is 100 en de aangepaste kenmerken zijn beperkt tot 4096 tekens. Andere grenzen op de lengte van vereiste kolommen zijn beschikbaar op de [[!DNL Target]  pagina van Beperkingen ](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## Kan ik een entiteit dynamisch uitsluiten? {#exclude}
 
@@ -216,7 +216,7 @@ Als u `entityIds` wilt uitsluiten, voegt u de token `&excludes=${mbox.excludedId
 
 Deze functie is standaard ingeschakeld voor nieuwe aanbevelingen. Bestaande aanbevelingen moeten worden opgeslagen om dynamisch uitgesloten entiteiten te ondersteunen.
 
-## Wat betekent de reactie van NO_CONTENT soms teruggekeerd in de inhoud van Recommendations spoor?
+## Wat betekent de reactie NO_CONTENT soms teruggekeerd in de inhoud van Aanbevelingen spoor?
 
 NO_CONTENT wordt geretourneerd wanneer aanbevelingen niet beschikbaar zijn voor het gevraagde algoritme en de toetsencombinatie. Over het algemeen, komt deze situatie voor wanneer de steunen voor het algoritme en één of meerdere van het volgende ook waar zijn onbruikbaar gemaakt:
 
@@ -242,7 +242,7 @@ Wanneer een bezoeker een sessie start, is de sessie-id gekoppeld aan één Edge-
 
 Wanneer de sessie wordt beëindigd (doorgaans wanneer deze verloopt na 30 minuten zonder activiteit), wordt de sessiestatus, inclusief onlangs weergegeven items, voortgezet naar een meer permanente profielopslag in dezelfde geografische rand.
 
-De volgende zittingen van verschillende apparaten kunnen dan tot deze onlangs bekeken punten toegang hebben zolang de nieuwe zitting met het klantenprofiel via zelfde Marketing Cloud ID (MCID), Experience Cloud ID (ECID), of CustomerID/mbox3rdPartyId wordt verbonden.
+De volgende zittingen van verschillende apparaten kunnen dan tot deze onlangs bekeken punten toegang hebben zolang de nieuwe zitting met het klantenprofiel via zelfde Marketing Cloud identiteitskaart (MCID), identiteitskaart van Experience Cloud (ECID), of CustomerID/mbox3rdPartyId wordt verbonden.
 
 Als een bezoeker twee actieve zittingen tezelfdertijd heeft, onlangs bekeken punten op één apparaat niet de onlangs bekeken punten op het andere apparaat bijwerken, tenzij de apparaten worden gedwongen om zittingsidentiteitskaart te delen. Er is een mogelijke oplossing voor het probleem, maar [!DNL Target] biedt geen directe ondersteuning voor het delen van een sessie-id op meerdere apparaten. De klant moet deze id zelf delen.
 
@@ -288,9 +288,8 @@ Sommige klanten in media en uitgevers willen ervoor zorgen dat de aanbevolen ite
 
 Hier volgen bekende problemen met [!UICONTROL Recommendations] -activiteiten:
 
-* Wanneer [!DNL Target] een JSON-aanbieding met getOffer() retourneert, retourneert deze met het type JSON. Als u echter een JSON Recommendations-ontwerp retourneert, retourneert dit met een type HTML.
+* Wanneer [!DNL Target] een JSON-aanbieding met getOffer() retourneert, retourneert deze met het type JSON. Als u echter een ontwerp met JSON-aanbevelingen retourneert, retourneert dit met een type HTML.
 * Verlopen entiteiten zijn na 60 dagen na ontvangst van geen updates via feed of API correct verlopen. De verlopen entiteiten worden echter na afloop niet uit de zoekindex van catalogus verwijderd. Entiteiten die via feed of API zijn verwijderd, worden momenteel ook niet verwijderd uit de zoekindex van de catalogus. (IRI-857)
-* Recommendations-aanbiedingen in A/B en Experience Targeting-activiteiten tonen geen visuele voorvertoning van de Recommendations-lade (TGT-33426)
-* Verzamelingen, uitsluitingen, criteria en ontwerpen die via de API zijn gemaakt, zijn niet zichtbaar in de doelgebruikersinterface en kunnen alleen via de API worden bewerkt. Op dezelfde manier, als u om het even welk van deze punten in het Doel UI creeert en later hen via API uitgeeft, worden die veranderingen niet weerspiegeld in het Doel UI. Items die via de API worden bewerkt, moeten ook in de toekomst via de API worden bewerkt om te voorkomen dat wijzigingen verloren gaan. (TGT-35777)
-* Recommendations-activiteiten die via API zijn gemaakt, kunnen in de gebruikersinterface worden weergegeven, maar kunnen alleen via API worden bewerkt.
+* Aanbevelingen Aanbiedingen in A/B en Ervaring gerichte activiteiten tonen geen visuele voorvertoning van de bak met aanbevelingen (TGT-33426)
+* Activiteiten van aanbevelingen die via API zijn gemaakt, kunnen in de gebruikersinterface worden weergegeven, maar kunnen alleen via API worden bewerkt.
 * De voedingsstatus van de aangepaste criteria die wordt weergegeven in de weergave Criteria (kaart), wordt elke tien minuten vernieuwd en kan in zeldzame gevallen meer dan tien minuten verouderd zijn. De status die wordt weergegeven in de bewerkingsweergave Aangepaste criteria wordt opgehaald in real-time en is altijd up-to-date. (TGT-35896, TGT-36173)
