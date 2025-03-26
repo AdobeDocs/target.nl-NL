@@ -4,9 +4,9 @@ description: Houd bijgewerkt met belangrijke toevoegingen en veranderingen in de
 title: Waar kan ik documentatieupdates voor  [!DNL Target] zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
+source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 |--- |--- |--- |
 | 26 maart | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release [!DNL Target Standard/Premium] 25.3.7. |
 |  | [ Veelgestelde vragen van Aanbevelingen ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Bijgewerkte veelgestelde vragen geven aan dat [!DNL Recommendations] -objecten die via API zijn gemaakt, beschikbaar zijn in de gebruikersinterface van [!DNL Target] . |
+|  | [ Inzamelingen ](/help/main/c-recommendations/c-products/collections.md) | Toegevoegd na opmerking: regels voor verzamelingen zijn van toepassing op aanbevolen items die worden gegenereerd nadat de criteria zijn uitgevoerd. Zij beïnvloeden slechts de Aanbevelingen van de Entiteit (ERs) in de output, niet de sleutel. |
 | 19 maart | [ de kwesties van het Oplossen van problemen met betrekking tot [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Bijgewerkte IP adressen aan lijst van gewenste personen. |
 | 18 maart | [ A4T steun voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Toegevoegde nota aan de *Ondersteunde doelmetriek* sectie. |
 | 14 maart | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release [!DNL Target Standard/Premium] 25.3.6. |

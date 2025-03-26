@@ -1,13 +1,13 @@
 ---
 keywords: verzameling;gericht
 description: Leer hoe te om inzamelingen van producten of punten in  [!DNL Target Recommendations] te gebruiken.
-title: Hoe gebruik ik verzamelingen in Recommendations-activiteiten?
+title: Hoe gebruik ik verzamelingen in aanbevelingen?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,9 @@ Wanneer u een [!DNL Recommendations] -activiteit maakt of bewerkt, wordt de naam
 
 >[!NOTE]
 >
->Verzamelingen worden niet toegepast wanneer u de [!UICONTROL Recently Viewed Items] aanbeveling-toets gebruikt.
+>* De regels van de inzameling zijn op aanbeveling punten van toepassing die na de criteria in werking worden gesteld. Zij beïnvloeden slechts de Aanbevelingen van de Entiteit (ERs) in de output, niet de sleutel.
+>
+>* Verzamelingen worden niet toegepast wanneer u de [!UICONTROL Recently Viewed Items] aanbeveling-toets gebruikt.
 
 ## Een verzameling maken {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
@@ -42,7 +44,7 @@ Maak een verzameling om de producten of inhoud te ordenen die u wilt weergeven i
 
    Op de pagina [!UICONTROL Collections] wordt een lijst met uw bestaande verzamelingen weergegeven. U maakt nieuwe verzamelingen door op de knop [!UICONTROL Create Collection] te klikken. U kunt, bestaande inzamelingen ook uitgeven kopiëren en schrappen door het Meer pictogram van Acties ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallList.svg)) naast de gewenste inzameling te klikken en dan door de gewenste optie te klikken.
 
-   Het &quot;Aantal Punten&quot;voor elke inzameling op de [!UICONTROL Collections] lijstmening wordt gemeld is het aantal producten die de regels voor die inzameling binnen de gevormde standaardRecommendations [ gastheergroep ](/help/main/administrating-target/hosts.md) (milieu) aanpassen. Zie [ Montages ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html) {target=_blank} om de standaardgastheergroep te veranderen.
+   Het &quot;Aantal Punten&quot;voor elke inzameling op de [!UICONTROL Collections] lijstmening wordt gemeld is het aantal producten die de regels voor die inzameling aanpassen binnen de gevormde standaardgroep van Aanbevelingen [ ](/help/main/administrating-target/hosts.md) (milieu). Zie [ Montages ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html) {target=_blank} om de standaardgastheergroep te veranderen.
 
 1. Klik op **[!UICONTROL Create Collection]**.
 
@@ -84,7 +86,7 @@ Houd er rekening mee dat verzamelingen beschikbaar zijn voor de gehele account. 
 
 1. Maak een verzameling met een van de bovenstaande methoden.
 
-1. Klik **[!UICONTROL Activities]** en [ creeer een nieuwe Recommendations ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) activiteit of geef een bestaande activiteit uit.
+1. Klik **[!UICONTROL Activities]** en [ creeer een nieuwe activiteit van Aanbevelingen ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) of geef een bestaande activiteit uit.
 
 1. Nadat u criteria en een ontwerp hebt geselecteerd, wordt de pagina [!UICONTROL Options] weergegeven op de plaats waar u de gewenste verzameling hebt geselecteerd.
 
