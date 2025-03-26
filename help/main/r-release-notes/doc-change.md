@@ -4,9 +4,9 @@ description: Houd bijgewerkt met belangrijke toevoegingen en veranderingen in de
 title: Waar kan ik documentatieupdates voor  [!DNL Target] zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1908c9ebe94931778e792a75e75eff04076ae5c5
+source-git-commit: bdc2f76af2a1f1554556d56a983748aa2c9caf2c
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 |--- |--- |--- |
+| 26 maart | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release [!DNL Target Standard/Premium] 25.3.7. |
 | 19 maart | [ de kwesties van het Oplossen van problemen met betrekking tot [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Bijgewerkte IP adressen aan lijst van gewenste personen. |
 | 18 maart | [ A4T steun voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Toegevoegde nota aan de *Ondersteunde doelmetriek* sectie. |
 | 14 maart | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release [!DNL Target Standard/Premium] 25.3.6. |

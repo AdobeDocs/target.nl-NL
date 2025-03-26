@@ -4,9 +4,9 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke Nieuwe Eigenschappen en de Verbeteringen worden omvat in de aanstaande  [!DNL Target]  Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: cd335504f5354aa9052ae7e958cf803cd90a9ae9
+source-git-commit: bdc2f76af2a1f1554556d56a983748aa2c9caf2c
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,30 @@ Dit artikel bevat pre-releasegegevens voor komende [!DNL Adobe Target] versies, 
 >Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 >
 >Om informatie over de huidige versie te bekijken, zie {de Nota&#39;s van de Versie van het 0} Doel ](release-notes.md). [ De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik door [!DNL Adobe] .
+
+## [!DNL Target Standard/Premium] 25.3.7 (26 maart 2025)
+
+Deze release bevat de volgende correcties en updates:
+
+* Oplossing voor een probleem dat het opslaan van activiteiten met meerdere pagina&#39;s blokkeerde als een pagina na wijzigingen werd verwijderd. (TGT-51988)
+* Oplossing voor een fout die optrad tijdens het bewerken van een activiteit: `default message [Invalid optionLocalIds: xx]]` . (TGT-51985)
+* Oplossing voor een probleem waarbij het toevoegen van nieuwe wijzigingen aan een activiteit bestaande wijzigingen verwijdert. (TGT-51981)
+* Oplossing voor een probleem waarbij het vervangen van een publiek door &quot;[!UICONTROL All visitors]&quot; tijdens het maken of bewerken van activiteiten ertoe leidde dat een fout &quot;Duplicate audiences are not allowed&quot; werd weergegeven. (TGT-51978)
+* Oplossing van een probleem dat bij het opslaan van een [!UICONTROL A/B Test] -activiteit een fout in de gebruikersinvoer heeft veroorzaakt. (TGT-51976)
+* Oplossing voor een probleem waardoor berekende metriek niet correct kon worden weergegeven op de pagina [!UICONTROL Goals & Settings] . (TGT-51975)
+* Oplossing voor een probleem dat ervoor zorgde dat `companyName` en `reportSuite` niet konden worden vergeleken in de [!DNL Analytics] -configuratie voor de `pageviews` -meting. (TGT-51965)
+* Oplossing van een probleem waarbij de omschakelingservaringen in een activiteit wijzigingen hebben verwijderd. (TGT-51945)
+* Oplossing voor een probleem waarbij door het verwijderen van een paginapubliek ook [!UICONTROL ClickTrack] kiezers werden verwijderd. (TGT-51935)
+* Oplossing voor een probleem waardoor een activiteit na het openen van de [!UICONTROL Overview] -pagina niet meer bewerkbaar werd. (TGT-51931)
+* Oplossing voor een probleem dat een `[Unused optionLocalIds: 0]]` -fout veroorzaakte tijdens het maken van activiteiten. (TGT-51920)
+* Correctie van een probleem waarbij sommige wijzigingen niet correct werden omgezet nadat wijzigingen in de tekststijl waren verwijderd. (TGT-51876)
+* Oplossing voor een probleem dat ervoor zorgde dat doelgroepen niet correct konden worden bijgewerkt in de [!UICONTROL Form-Based Experience Composer] . (TGT-51845)
+* Correctie van een probleem waarbij de URL in de [!UICONTROL Visual Experience Composer] niet correct werd bijgewerkt tijdens de navigatie. (TGT-51832)
+* Oplossing voor een probleem dat ervoor zorgde dat aanbiedingen niet konden worden weergegeven in de gebruikersinterface van [!UICONTROL Offers] , ondanks de correcte weergave bij het maken van een activiteit en het toevoegen van aanbiedingen. (TGT-51805)
+* Oplossing voor een probleem waarbij bij sommige activiteiten geen fallback-scherm beschikbaar was om standaardinhoud weer te geven wanneer gepersonaliseerde of gerichte inhoud niet kon worden geleverd. (TGT-51638)
+* Oplossing voor een probleem dat ervoor zorgde dat liveaanbiedingen en bepaalde mappen niet correct konden worden weergegeven in de gebruikersinterface van [!UICONTROL Offers] . (TGT-51628)
+* Oplossing voor een probleem dat ervoor zorgde dat sommige URL-tekenreeksen en goURL&#39;s niet correct werden gelokaliseerd. (TGT-35741)
+* Probleem verholpen waarbij werd voorkomen dat rollen ( [!UICONTROL Approver] , [!UICONTROL Editor] en [!UICONTROL Observer] ) correct werden gelokaliseerd in de [!DNL Target] gebruikersinterface. (TGT-29925)
 
 ## [!DNL Target Standard/Premium] 25.3.6 (14 maart 2025)
 
