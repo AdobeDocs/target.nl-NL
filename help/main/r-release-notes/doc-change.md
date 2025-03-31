@@ -4,9 +4,9 @@ description: Houd bijgewerkt met belangrijke toevoegingen en veranderingen in de
 title: Waar kan ik documentatieupdates voor  [!DNL Target] zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
+source-git-commit: 36f269331d992f621d71fc085c85f3a7ad5bdfa6
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 |--- |--- |--- |
+| 31 maart | [ at.js versiedetails ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions) {target=_blank} | Toegevoegde informatie over de release at.js 2.11.8. |
 | 26 maart | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release [!DNL Target Standard/Premium] 25.3.7. |
 |  | [ Veelgestelde vragen van Aanbevelingen ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Bijgewerkte veelgestelde vragen geven aan dat [!DNL Recommendations] -objecten die via API zijn gemaakt, beschikbaar zijn in de gebruikersinterface van [!DNL Target] . |
 |  | [ Inzamelingen ](/help/main/c-recommendations/c-products/collections.md) | Toegevoegd na opmerking: regels voor verzamelingen zijn van toepassing op aanbevolen items die worden gegenereerd nadat de criteria zijn uitgevoerd. Zij beïnvloeden slechts de Aanbevelingen van de Entiteit (ERs) in de output, niet de sleutel. |
