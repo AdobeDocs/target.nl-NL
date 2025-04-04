@@ -4,7 +4,7 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke Nieuwe Eigenschappen en de Verbeteringen worden omvat in de aanstaande  [!DNL Target]  Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c6799d43ee2f5ebe568f7199ae4ec1deaa164c06
+source-git-commit: ca14a94365e75704622e76ac13aab324fc836e09
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel bevat pre-releasegegevens voor komende [!DNL Adobe Target] versies, waaronder SDK&#39;s, API&#39;s en JavaScript-bibliotheken.
 
-**Laatste bijgewerkt: 3 April, 2025**
+**Laatste bijgewerkt: 2 April, 2025**
 
 >[!NOTE]
 >
