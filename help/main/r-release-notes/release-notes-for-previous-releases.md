@@ -4,9 +4,9 @@ description: Een lijst weergeven met functies, verbeteringen en oplossingen die 
 title: Welke functies zijn opgenomen in vorige releases?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 7924bf0238eeba92be286441f537bfe84e93060e
+source-git-commit: c6799d43ee2f5ebe568f7199ae4ec1deaa164c06
 workflow-type: tm+mt
-source-wordcount: '39655'
+source-wordcount: '40414'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,78 @@ Opmerkingen bij de release worden in aflopende volgorde weergegeven per maand en
 >Zie [ de versienota&#39;s van het Doel (huidig) ](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) voor informatie over de versies van het Doel van de huidige maand (platform en Target Standard/Premium).
 
 ## Opmerkingen bij de release - 2025
+
+### [!DNL Target Standard/Premium] 25.3.8 (28 maart 2025)
+
+Deze release bevat de volgende correcties en updates:
+
+* Het probleem waarbij de pagina [!UICONTROL Activities] langzaam werd geladen, is opgelost. (TGT-51151)
+
+### [!DNL Target Standard/Premium] 25.3.7 (26 maart 2025)
+
+Deze release bevat de volgende correcties en updates:
+
+* Oplossing voor een probleem dat het opslaan van activiteiten met meerdere pagina&#39;s blokkeerde als een pagina na wijzigingen werd verwijderd. (TGT-51988)
+* Oplossing voor een fout die optrad tijdens het bewerken van een activiteit: `default message [Invalid optionLocalIds: xx]]` . (TGT-51985)
+* Oplossing voor een probleem waarbij het toevoegen van nieuwe wijzigingen aan een activiteit bestaande wijzigingen verwijdert. (TGT-51981)
+* Oplossing voor een probleem waarbij het vervangen van een publiek door &quot;[!UICONTROL All visitors]&quot; tijdens het maken of bewerken van activiteiten ertoe leidde dat een fout &quot;Duplicate audiences are not allowed&quot; werd weergegeven. (TGT-51978)
+* Oplossing van een probleem dat bij het opslaan van een [!UICONTROL A/B Test] -activiteit een fout in de gebruikersinvoer heeft veroorzaakt. (TGT-51976)
+* Oplossing voor een probleem waardoor berekende metriek niet correct kon worden weergegeven op de pagina [!UICONTROL Goals & Settings] . (TGT-51975)
+* Oplossing voor een probleem dat ervoor zorgde dat `companyName` en `reportSuite` niet konden worden vergeleken in de [!DNL Analytics] -configuratie voor de `pageviews` -meting. (TGT-51965)
+* Oplossing van een probleem waarbij de omschakelingservaringen in een activiteit wijzigingen hebben verwijderd. (TGT-51945)
+* Oplossing voor een probleem waarbij door het verwijderen van een paginapubliek ook [!UICONTROL ClickTrack] kiezers werden verwijderd. (TGT-51935)
+* Oplossing voor een probleem waardoor een activiteit na het openen van de [!UICONTROL Overview] -pagina niet meer bewerkbaar werd. (TGT-51931)
+* Oplossing voor een probleem dat een `[Unused optionLocalIds: 0]]` -fout veroorzaakte tijdens het maken van activiteiten. (TGT-51920)
+* Correctie van een probleem waarbij sommige wijzigingen niet correct werden omgezet nadat wijzigingen in de tekststijl waren verwijderd. (TGT-51876)
+* Oplossing voor een probleem dat ervoor zorgde dat doelgroepen niet correct konden worden bijgewerkt in de [!UICONTROL Form-Based Experience Composer] . (TGT-51845)
+* Correctie van een probleem waarbij de URL in de [!UICONTROL Visual Experience Composer] niet correct werd bijgewerkt tijdens de navigatie. (TGT-51832)
+* Oplossing voor een probleem dat ervoor zorgde dat aanbiedingen niet konden worden weergegeven in de gebruikersinterface van [!UICONTROL Offers] , ondanks de correcte weergave bij het maken van een activiteit en het toevoegen van aanbiedingen. (TGT-51805)
+* Oplossing voor een probleem waarbij bij sommige activiteiten geen fallback-scherm beschikbaar was om standaardinhoud weer te geven wanneer gepersonaliseerde of gerichte inhoud niet kon worden geleverd. (TGT-51638)
+* Oplossing voor een probleem dat ervoor zorgde dat liveaanbiedingen en bepaalde mappen niet correct konden worden weergegeven in de gebruikersinterface van [!UICONTROL Offers] . (TGT-51628)
+* Oplossing voor een probleem dat ervoor zorgde dat sommige URL-tekenreeksen en goURL&#39;s niet correct werden gelokaliseerd. (TGT-35741)
+* Probleem verholpen waarbij werd voorkomen dat rollen ( [!UICONTROL Approver] , [!UICONTROL Editor] en [!UICONTROL Observer] ) correct werden gelokaliseerd in de [!DNL Target] gebruikersinterface. (TGT-29925)
+
+### [!DNL Target Standard/Premium] 25.3.6 (14 maart 2025)
+
+Deze release bevat de volgende correcties en updates:
+
+* Oplossing voor de fout &#39;&#39;Ongeldige gebruikersinvoer&#39;&#39; in [!UICONTROL Visual Experience Composer] -activiteiten (VEC) waarbij [!UICONTROL Click Tracking] ingeschakeld is wanneer dezelfde [!UICONTROL ClickTrack] -kiezer meerdere keren wordt gebruikt. (TGT-51921)
+* Correctie van de fout &#39;&#39;Ongeldige gebruikersinvoer&#39;&#39; in VEC-activiteiten met gedeelde locaties (bijvoorbeeld HEAD-kiezer) en identieke aanbiedingen. (TGT-51879)
+* Probleem opgelost waarbij ervaringswijzigingen werden gedeeld door het publiek. (TGT-51815)
+* Validatiefouten zijn opgelost bij het maken van activiteiten vanwege conflict met segment-id. De fouten traden op wanneer [!DNL Target] bestaande activiteiten met anonieme segmenten detecteerde. (TGT-51784)
+* Correctie van het probleem dat [!DNL Target] ervan weerhield activiteiten met uitsluitingsregels in een publiek op te slaan. (TGT-51581)
+* Oplossing van het probleem waardoor klanten geen mappen konden maken, verwijderen of verplaatsen zonder toegang tot de standaardwerkruimte. (TGT-51499)
+* Oplossing van het probleem dat ertoe leidde dat GET-aanvragen mislukten bij het ophalen van de [!DNL Analytics] metrielijst. (TGT-51106)
+
+### [!DNL Target Standard/Premium] 25.3.5 (11 maart 2025)
+
+Deze release bevat de volgende correcties en updates:
+
+* Oplossing voor een probleem dat ervoor zorgde dat gebruikers de aanbiedingen in het deelvenster [!UICONTROL Modifications] niet konden wijzigen. (TGT-51800)
+* Oplossing voor een probleem waarbij handelingen onjuist in het linkerdeelvenster werden weergegeven voor ervaringen en publiek, waaronder in de modus [!UICONTROL ClickTrack] . (TGT-51895)
+* Correctie van een probleem waarbij [!UICONTROL ClickTrack] kiezers niet werden toegepast op de juiste publiekspagina. (TGT-51871)
+
+### [!DNL Target Standard/Premium] 25.3.4 (7 maart 2025)
+
+Deze release bevat de volgende correcties en updates:
+
+* Oplossing voor een probleem waarbij alleen-activiteit publiek niet zichtbaar was in het deelvenster [!UICONTROL Audiences] , zodat het niet kon worden bewerkt of hergebruikt. (TGT-51860)
+* Probleem verholpen waarbij [!DNL Target Standard] klanten ervan weerhield activiteiten te maken met behulp van [!UICONTROL Analytics for Target] (A4T)-rapporten. (TGT-51854)
+* Probleem verholpen waarbij lokale id-tellers tijdens het maken en bewerken van batchbewerkingen werden uitgesloten van de payload. (TGT-51867)
+
+### [!DNL Target Standard/Premium] 25.3.2 (6 maart 2025)
+
+Deze release bevat de volgende correcties en updates:
+
+* Probleem verholpen waarbij het kopiëren van een activiteit met een alleen-activiteit publiek er niet in slaagde een nieuwe activiteit te maken, in plaats daarvan per ongeluk het publiek van de oorspronkelijke activiteit te gebruiken. (TGT-51855)
+* Probleem verholpen waardoor [!UICONTROL Experience Targeting] (XT)-activiteiten niet konden worden bewerkt met alleen-activiteit publiek. (TGT-51846)
+* Probleem verholpen waarbij [!UICONTROL Visual Experience Composer] (VEC) geen wijzigingen toepaste op een ervaring die correct werd verwerkt bij de eerste bewerking. (TGT-51843)
+* Probleem verholpen waarbij een &#39;ID&#39;-fout optrad wanneer werd geklikt op bepaalde elementen in de VEC. (TGT-51814)
+* Bijgewerkte fout behandeling in VEC tijdens activiteitenverwezenlijking. (TGT-51759)
+* Probleem verholpen waarbij een ontbrekende weergave in het deelvenster [!UICONTROL Modifications] een fout met &#39;ongeldige gebruikersinvoer&#39; veroorzaakte bij het opslaan van de activiteit. (TGT-51827)
+* Probleem opgelost waarbij geen aanbevelingen konden worden geformuleerd. (TGT-51834)
+* Er is een bevestigingsbericht toegevoegd voordat naar een andere URL wordt omgeleid. (TGT-51703)
+* Problemen verholpen met GraphQL-integratietests in aanbiedingen en mappen. (TGT-51839)
 
 ### [!DNL Target Standard/Premium] 25.3.1 (3 maart 2025)
 
