@@ -4,9 +4,9 @@ description: Houd bijgewerkt met belangrijke toevoegingen en veranderingen in de
 title: Waar kan ik documentatieupdates voor  [!DNL Target] zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c6799d43ee2f5ebe568f7199ae4ec1deaa164c06
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 |--- |--- |--- |
+| 4 april | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Bijgewerkte releaseopmerkingen voor de aanstaande [!DNL Target] machtigingsupdate die gepland is voor 22 april 2025. |
+|  | [[!DNL Target]  versienota&#39;s (prerelease) ](/help/main/r-release-notes/target-release-notes.md) | Bijgewerkte pre-releaseopmerkingen voor de aanstaande [!DNL Target] machtigingenupdate gepland voor 22 april 2025. |
+|  | [ eerste stappen van de Beheerder ](/help/main/administrating-target/start-target.md#admin-permissions) | Nieuwe sectie toegevoegd: &quot;Machtigingen vereist voor het bewerken van [!UICONTROL Administration] -instellingen.&quot; |
+|  | [ beheert  [!DNL Target]  Overzicht ](/help/main/administrating-target/administrating-target.md) | Belangrijke opmerking toegevoegd over machtigingen die vereist zijn voor het bewerken van [!UICONTROL Administration] -instellingen.<P>Dezelfde opmerking toegevoegd aan alle artikelen in de sectie [!UICONTROL Administration] . |
 | 2 april | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release [!DNL Target Standard/Premium] 25.4.1. |
 
 ### [!DNL Target Standard/Premium] 25.3.1 (3 maart 2025)

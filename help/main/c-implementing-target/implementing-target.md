@@ -1,39 +1,41 @@
 ---
 keywords: implementeren;uitvoeren
-description: Begrijp basisconcepten, ben vertrouwd met hoe [!DNL Target] werkt en integreert met uw infrastructuur, en begrijpt hoe bezoekers worden gevolgd.
+description: Begrijp basisconcepten, ben vertrouwd met hoe  [!DNL Target]  werkt en met uw infrastructuur integreert, en begrijp hoe de bezoekers worden gevolgd.
 landing-page-description: Voordat u Adobe Target gaat gebruiken, moet u deze op uw site implementeren.
 short-description: Voordat u Adobe Target gaat gebruiken, moet u deze op uw site implementeren.
-title: Hoe kan ik implementeren [!DNL Target]?
+title: Hoe voer ik  [!DNL Target] uit?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
 
 # Doel implementeren
 
-Voordat u begint met [!DNL Adobe Target], moet u deze op uw site implementeren.
+Voordat u [!DNL Adobe Target] gaat gebruiken, moet u deze op uw site implementeren.
 
-De [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} bevat informatie die u moet weten voordat u implementeert [!DNL Target].
+{{permissions-update}}
 
-Het ontwikkelaarsportaal bevat informatie over de volgende implementatietypen:
+De [ Gids van de Ontwikkelaar van Adobe Target ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html) {target=_blank} bevat informatie u moet weten alvorens u [!DNL Target] uitvoert.
 
-* **Client-kant**: Informatie over de implementatie van het [!DNL Adobe Experience Platform Web SDK] of de [!DNL Target Web SDK] (te.js).
-* **Server-kant**: Informatie over het uitvoeren over het gebruiken van Node.JS, JAVA, .NET, en Python SDKs.
+Het Developer-portaal bevat informatie over de volgende implementatietypen:
+
+* **cliënt-kant**: Informatie over het uitvoeren van het gebruiken van [!DNL Adobe Experience Platform Web SDK] of [!DNL Target Web SDK] (at.js).
+* **server-kant**: Informatie over het uitvoeren over het gebruiken van Node.JS, JAVA, .NET, en Python SDKs.
 * **Hybride**: Informatie over het uitvoeren als u een combinatie cliënt-kant en server-zijimplementaties gebruikt.
-* **Recommendations**: Informatie die u helpt bij het implementeren [!DNL Recommendations], [Doelpremie](/help/main/c-intro/intro.md#premium) aanbieden.
-* **Mobiele apps**: Informatie die u helpt bij het implementeren met [!DNL Adobe Experience Platform Mobile] SDK&#39;s.
-* **E-mail**: Informatie die u helpt bij het implementeren [!DNL Target] in e-mails.
+* **Aanbevelingen**: Informatie om u te helpen [!DNL Recommendations] uitvoeren, het aanbieden van a [ Target Premium ](/help/main/c-intro/intro.md#premium).
+* **Mobiele apps**: Informatie om u te helpen het gebruiken van [!DNL Adobe Experience Platform Mobile] SDKs uitvoeren.
+* **E-mail**: Informatie om u te helpen [!DNL Target] in e-mails uitvoeren.
 
-Zie voor meer informatie de [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
+Voor meer informatie, zie de [ Gids van de Ontwikkelaar van Adobe Target ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html) {target=_blank}.
 
 >[!NOTE]
 >
->Alle informatie die eerder in het *Doel implementeren* in deze handleiding (de *Handleiding voor Adobe Target Practiter*) is nu opgenomen in de [Handleiding voor ontwikkelaars](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
+>Alle informatie die eerder inbegrepen in de *was voert de sectie van het Doel* in deze gids (de *Gids van de Praktijk van Adobe Target*) uit is nu inbegrepen in de [ Gids van de Ontwikkelaar ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html) {target=_blank}.
 
 
 

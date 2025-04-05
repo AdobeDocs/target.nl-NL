@@ -2,20 +2,22 @@
 keywords: werkruimten;beheren eigenschap;machtigingen;productconfiguratie;productprofiel;rollen;project;waarnemer;editor;fiatteur;uitgever
 description: Leer hoe u afzonderlijke werkruimten (productprofielen) maakt en gebruikers vervolgens verschillende rollen en machtigingen toewijst voor afzonderlijke pagina's, eigenschappen of websites.
 title: Wat zijn de toestemmingen van de Gebruiker van de Onderneming en hoe gebruik ik hen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Bekijk wat er is inbegrepen in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '3165'
 ht-degree: 0%
 
 ---
 
-# Machtigingen voor Enterprise-gebruikers
+# Machtigingen voor zakelijke gebruikers
 
-Machtigingen voor zakelijke gebruikers zijn een manier om de toegang tot [!DNL Adobe Target] voor gebruikers in de hele onderneming formeel te beheren. Voeg gebruikers aan [!DNL Target] toe, wijs toestemmingen toe die op hun rollen worden gebaseerd, en creeer werkruimten voor teams die op verschillende afdelingen, globale plaatsen, kanalen, en andere logische groeperingen worden gebaseerd. U kunt aan gebruikers de rollen [!UICONTROL Observer], [!UICONTROL Editor], [!UICONTROL Approver] of [!UICONTROL Publisher] toewijzen.
+Gebruikersmachtigingen voor ondernemingen zijn een manier om de gebruikerstoegang voor het hele bedrijf formeel te [!DNL Adobe Target]beheren. Voeg gebruikers toe, [!DNL Target]wijs machtigingen toe op basis van hun rol en maak werkruimten voor teams op basis van verschillende afdelingen, wereldwijde locaties, kanalen en andere logische groeperingen. U kunt gebruikers de rol [!UICONTROL Observer], [!UICONTROL Editor], [!UICONTROL Approver], of [!UICONTROL Publisher].
+
+{{permissions-update}}
 
 ## Bepaal of u toegang hebt tot bedrijfsgebruikersmachtigingen
 
@@ -71,7 +73,7 @@ Alle activiteiten die via [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mob
 
 ### Standaardwerkruimte
 
-Alle bestaande werkruimten (productprofielen) in [!DNL Admin Console] worden samengevoegd in één werkruimte die &#39;Standaard-Workspace&#39; wordt genoemd tijdens de migratie van uw organisatie naar het nieuwe model voor bedrijfsmachtigingen.
+Alle bestaande werkruimten (productprofielen) worden [!DNL Admin Console] samengevoegd tot één werkruimte met de naam &#39;Standaardwerkruimte&#39; tijdens de migratie van uw organisatie naar het nieuwe Enterprise Permissions-model.
 
 >[!IMPORTANT]
 >
@@ -81,7 +83,7 @@ Alle gebruikersrollen en toegang tot alle [!DNL Target] functionaliteit blijven 
 
 ### Gebruikersgroepen
 
-U kunt gebruikersgroepen maken, zoals Ontwikkelaars, Analysten, Marketers en Managers. U kunt dan voorrechten over veelvoudige producten en werkruimten van de Adobe toewijzen. Het toewijzen van een nieuw teamlid kan alle aangewezen voorrechten over verschillende producten van de Adobe zo gemakkelijk zijn zoals het toevoegen van hen aan een specifieke gebruikersgroep.
+U kunt gebruikersgroepen maken, zoals Ontwikkelaars, Analysten, Marketers en Managers. Vervolgens kunt u rechten toewijzen aan meerdere Adobe-producten en -werkruimten. Het toewijzen van een nieuw teamlid aan alle juiste rechten voor verschillende Adobe-producten kan net zo eenvoudig zijn als het toevoegen van deze rechten aan een specifieke gebruikersgroep.
 
 ### Rollen en machtigingen {#roles-permissions}
 
@@ -158,7 +160,7 @@ Na een reorganisatie, gebruikend de karakters in de illustraties hierboven, zou 
 
 * **Ernie**: Ernie is een Manager van de Marketing voor de organisatie verantwoordelijk voor marketing in de Verenigde Staten.
 
-  Omdat Ernie vrij nieuw aan de organisatie en onervaren met Doel is, heeft hij de toestemmingen van de Redacteur voor de Homepage van de V.S., Plaats, en de Pagina&#39;s van het Product van de V.S. Met de toestemmingen van de Redacteur, kan Ernie activiteiten tot stand brengen en uitgeven alvorens zij levend zijn. Hij kan niet de lancering van activiteit-iemand met de toestemming van de Goedkeuring, zoals Jan goedkeuren, moet de activiteit goedkeuren alvorens het in productie kan worden gezet.
+  Omdat Ernie vrij nieuw is in de organisatie en onervaren is met Target, heeft hij editorrechten voor de Amerikaanse startpagina, Amerikaanse site en productpagina&#39;s. Met de toestemmingen van de Redacteur, kan Ernie activiteiten tot stand brengen en uitgeven alvorens zij levend zijn. Hij kan de lancering van een activiteit niet goedkeuren: iemand met goedkeuringsmachtiging, zoals Jan, moet de activiteit goedkeuren voordat deze in productie kan worden genomen.
 
   Omdat Ernie geen rol heeft die hem vereist om de Russische Site, de Plaats van Frankrijk, of de Plaats van Careers te zien, kan hij geen activiteiten voor die plaatsen zien.
 
@@ -203,19 +205,19 @@ De nieuwe functies voor machtigingen kunnen op verschillende plaatsen in de gebr
 
 Houd rekening met het volgende wanneer u eigenschappen en machtigingen in [!DNL Target] Premium gebruikt of configureert:
 
-* **Belangrijk**: Schrap geen werkruimten met activiteiten. Als u een werkruimte met activiteiten schrapt, werk met de Zorg van de Cliënt om die activiteiten terug te krijgen.
-* Wanneer het gebruiken van Al Mijn mening van Werkruimten:
+* **Belangrijk**: Verwijder geen werkruimten met activiteiten. Als u een werkruimte met activiteiten verwijdert, werkt u samen met Client Care om deze activiteiten te herstellen.
+* Wanneer u de weergave Al mijn werkruimten gebruikt:
 
-   * U kunt activiteiten, publiek, en aanbiedingen voor alle werkruimten zien die u de juiste rollen en toestemmingen hebt om toegang te hebben.
-   * Wanneer u de weergave [!UICONTROL All My Workspaces] selecteert, wordt een nieuwe kolom toegevoegd aan de pagina Activiteiten, Soorten publiek en Aanbiedingen. Deze kolom maakt een lijst van de werkruimte van het punt en uw gebruikerstoestemming verbonden aan dat punt (Observer, Redacteur, of Approver),
-   * Wanneer u een activiteit, publiek of aanbieding maakt in de weergave Al mijn werkruimten, moet u de werkruimte selecteren waar het item moet worden gemaakt. Alleen die werkruimten kunnen worden geselecteerd waarvoor u de machtiging Editor of fiatteur hebt.
+   * U kunt activiteiten, doelgroepen en aanbiedingen zien voor alle werkruimten waartoe u de juiste rollen en machtigingen hebt.
+   * Wanneer u de [!UICONTROL All My Workspaces] weergave selecteert, wordt er een nieuwe kolom toegevoegd aan de pagina Activiteiten, Doelgroepen en Aanbiedingen. In deze kolom vindt u de werkruimte van het item en uw gebruikersmachtiging die aan dat item is gekoppeld (Waarnemer, Redacteur of Goedkeurder).
+   * Wanneer u een activiteit, doelgroep of aanbieding maakt in de weergave Al mijn werkruimten, moet u de werkruimte selecteren waarin het item moet worden gemaakt. Alleen die werkruimten kunnen worden geselecteerd waarvoor u de machtiging Editor of fiatteur hebt.
    * Wanneer u een activiteit, een publiek of een aanbieding kopieert in de weergave Al mijn werkruimten, moet u de werkruimte selecteren waar het item moet worden gekopieerd. Alleen die werkruimten kunnen worden geselecteerd waarvoor u de machtiging Editor of fiatteur hebt.
 
 * Elke instelling op de volgende [!UICONTROL Administration] -pagina&#39;s kan door elke [!UICONTROL Approver] in elke werkruimte worden beheerd:
 
    * Visual Experience Composer
    * Rapportage
-   * Scene7-configuratie
+   * Configuratie Scene7
    * Implementatie
    * Eigenschappen
    * Gastheren
@@ -235,9 +237,9 @@ Houd rekening met het volgende wanneer u eigenschappen en machtigingen in [!DNL 
 * De volgende middelen zijn *geen* deel van het nieuwe model van de Toestemmingen van de Onderneming:
 
    * Afbeeldingsaanbiedingen
-   * Alle Recommendations-bronnen, inclusief Criteria Library, Design Library, Catalog en Recommendations Setup.
+   * Alle bronnen voor aanbevelingen, zoals Criteria Library, Design Library, Catalog en Recommendations Setup.
    * Bestaande bronnen (zoals activiteiten, codeaanbiedingen en publiek) die in Target Premium zijn gemaakt voordat u Enterprise-machtigingen inschakelt, kunnen worden gekopieerd, maar kunnen niet naar andere werkruimten worden verplaatst.
-   * Activiteiten, publiek, codeaanbiedingen, beeldaanbiedingen, of om het even welke andere die middelen worden gecreeerd gebruikend de volgende oplossingen of de methodes kunnen niet door het model van de Toestemmingen van de Onderneming worden gecontroleerd, maar maken deel uit van StandaardWorkspace: Klassiek van het doel, Adobe Experience Manager (AEM), de Mobiele Diensten van de Adobe, en middelen die via API worden gecreeerd. De middelen die via API worden gecreeerd omvatten activiteiten, publiek, codeaanbiedingen, en beeldaanbiedingen).
+   * Activiteiten, publiek, codeaanbiedingen, beeldaanbiedingen, of om het even welke andere die middelen worden gecreeerd gebruikend de volgende oplossingen of de methodes kunnen niet door het model van de Toestemmingen van de Onderneming worden gecontroleerd, maar maken deel uit van StandaardWorkspace: De Klassiek van het doel, Adobe Experience Manager (AEM), de Mobiele Diensten van Adobe, en middelen die via API worden gecreeerd. De middelen die via API worden gecreeerd omvatten activiteiten, publiek, codeaanbiedingen, en beeldaanbiedingen).
    * Aanbiedingen voor afbeeldingen (middelen die zijn opgeslagen onder `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` kunnen momenteel niet worden beheerd door het machtigingenmodel voor ondernemingen.
    * clickTracking en richt werk opnieuw wanneer de bestemmingsverbinding of bestemmingspagina deel van een bezit uitmaken dat in de activiteit inbegrepen is. Het is ook mogelijk dat clickTracking niet werkt wanneer de functie `targetPageParams()` wordt gebruikt. De `targetPageParamsAll()` is de aanbevolen functie.
 
@@ -283,15 +285,15 @@ Ja, u kunt een publiek tussen werkruimten verplaatsen met de optie [!UICONTROL M
 
 Als u [!DNL Target] met tags hebt geïmplementeerd in [!DNL Adobe Experience Platform] en een foutbericht krijgt dat er geen eigenschap is gekoppeld aan de activiteit, geeft u de parameter `at_property` door aan de functie `targetPageParams` .
 
-### Zijn klikspooromzettingen geregistreerd als een omgeleide pagina en activiteit URL tot verschillende eigenschappen behoren?
+### Worden clicktrack-conversies geregistreerd als een omgeleide pagina en de activiteits-URL tot verschillende property&#39;s behoren?
 
-Klik op Tekstspatiëring wordt niet opgenomen op pagina&#39;s waarvan de pagina en activiteit-URL tot verschillende eigenschappen behoren.
+Kliktracking wordt niet vastgelegd op pagina&#39;s waarvan de pagina en activiteits-URL bij verschillende property&#39;s horen.
 
-Overweeg het volgende scenario:
+Beschouw het volgende scenario:
 
-* Pagina1 behoort tot Eigenschap1.
-* Pagina2 behoort tot Eigenschap2.
-* In de activiteit, richt Pagina1 zich aan Pagina2, die kliksporen bevat.
+* Pagina1 hoort bij Property1.
+* Pagina2 hoort bij Property2.
+* In de activiteit wordt Pagina1 omgeleid naar Pagina2, die clicktracks bevat.
 
 Wanneer een bezoeker Pagina1 in browser opent, wordt de bezoeker opnieuw gericht aan Pagina2. Omdat Page2 niet kwalificeert om de activiteit te leveren, bevat zijn vraag van het Doel geen kliksporen in zijn reactie.
 
@@ -313,7 +315,7 @@ Leerdoelstellingen:
 
 ### Kantooruren: [!DNL Target] Premium-werkruimten
 
-Deze video is een opname van &quot;Office Hours&quot;, een initiatief van het team van de klantenservice van de Adobe.
+Deze video is een opname van &quot;Office Hours&quot;, een initiatief onder leiding van het Adobe Customer Care-team.
 
 * Een werkruimte maken (productprofiel)
 * Eigenschappen maken

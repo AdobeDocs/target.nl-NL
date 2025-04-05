@@ -5,7 +5,7 @@ title: Wat zijn omgevingen en hoe gebruik ik deze?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 0%
@@ -21,6 +21,8 @@ Gastheren worden gebundeld in omgevingen voor eenvoudig beheer. U hebt bijvoorbe
 Eén omgeving, de standaardomgeving, heeft de voornaam [!UICONTROL Production] . Deze standaardomgeving kan niet worden verwijderd, zelfs niet als u de naam ervan wijzigt. [!DNL Target] gaat ervan uit dat u hier de uiteindelijke, goedgekeurde activiteiten en tests kunt uitvoeren.
 
 Wanneer een [!DNL Target] -aanvraag wordt ontvangen van nieuwe websites of domeinen, worden deze nieuwe domeinen altijd weergegeven in de [!UICONTROL Production] -omgeving. De instellingen van de [!UICONTROL Production] -omgeving kunnen niet worden gewijzigd, zodat onbekende of nieuwe sites altijd alleen inhoud kunnen zien die actief en gereed is. Het beheer van de gastheer laat u ook gemakkelijk de kwaliteit van nieuwe activiteiten en inhoud in uw test, het opvoeren, en ontwikkelmilieu&#39;s verzekeren alvorens u de activiteiten activeert.
+
+{{permissions-update}}
 
 Klik op **[!UICONTROL Administration]** > **[!UICONTROL Environments]** om omgevingen te beheren.
 
@@ -69,7 +71,7 @@ U kunt een omgeving verwijderen wanneer deze niet meer nodig is.
 
 ## [!BADGE  Premium ]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."}
 
-U kunt een voorvertoning weergeven van de inhoud van Recommendations-verzamelingen en -uitsluitingen voor een geselecteerde omgeving (hostgroep).
+U kunt de inhoud van de inzamelingen en de uitsluitingen van Aanbevelingen voor een geselecteerde milieu (gastheergroep) voorproef.
 
 {{premium-note}}
 
@@ -80,7 +82,7 @@ U kunt een omgeving gebruiken om de beschikbare items in uw catalogus te scheide
 >De geleverde aanbevelingen hangen van de gastheergroep of milieu-id af die in het verzoek wordt gespecificeerd.
 
 
-Als u uw producten niet ziet, zorg ervoor dat u de correcte gastheergroep gebruikt. Bijvoorbeeld, als u opstelling uw aanbeveling om een het opvoeren milieu te gebruiken en u uw gastheergroep aan het Opvoeren plaatst, zou u uw inzamelingen in het opvoeren milieu voor de te tonen producten kunnen moeten opnieuw creëren. Als u wilt zien welke producten in elke omgeving beschikbaar zijn, gebruikt u Cataloguszoekopdracht voor elke omgeving. U kunt ook een voorvertoning weergeven van de inhoud van Recommendations-verzamelingen en -uitsluitingen voor een geselecteerde omgeving (hostgroep).
+Als u uw producten niet ziet, zorg ervoor dat u de correcte gastheergroep gebruikt. Bijvoorbeeld, als u opstelling uw aanbeveling om een het opvoeren milieu te gebruiken en u uw gastheergroep aan het Opvoeren plaatst, zou u uw inzamelingen in het opvoeren milieu voor de te tonen producten kunnen moeten opnieuw creëren. Als u wilt zien welke producten in elke omgeving beschikbaar zijn, gebruikt u Cataloguszoekopdracht voor elke omgeving. U kunt ook een voorvertoning weergeven van de inhoud van verzamelingen en uitsluitingen met aanbevelingen voor een geselecteerde omgeving (hostgroep).
 
 >[!NOTE]
 >Nadat u de geselecteerde omgeving hebt gewijzigd, moet u op Zoeken klikken om de geretourneerde resultaten bij te werken.

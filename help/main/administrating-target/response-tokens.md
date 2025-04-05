@@ -5,7 +5,7 @@ title: Wat zijn reactietokens en hoe gebruik ik deze?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 0%
@@ -16,13 +16,15 @@ ht-degree: 0%
 
 Met responstokens kunt u automatisch specifieke informatie over [!DNL Adobe Target] naar de webpagina van uw merk uitvoeren. Deze informatie kan details over de activiteit, de aanbieding, de ervaring, het gebruikersprofiel, geo informatie, en meer omvatten. Deze details verstrekken extra reactiegegevens om met interne of derdehulpmiddelen te delen of voor het zuiveren te gebruiken.
 
-Met responstokens kunt u kiezen welke variabelen (in sleutelwaardeparen) u wilt gebruiken en deze vervolgens inschakelen als onderdeel van een [!DNL Target] -reactie. U laat een variabele toe gebruikend de schakelaar en de variabele wordt verzonden met [!DNL Target] reacties, die in netwerkvraag kunnen worden bevestigd. Reactietokens werken ook in de modus [!UICONTROL Preview] .
+Met responstokens kunt u kiezen welke variabelen (in sleutelwaardeparen) u wilt gebruiken en deze vervolgens inschakelen als onderdeel van een [!DNL Target] -reactie. U schakelt een variabele in met behulp van de switch en de variabele wordt verzonden met [!DNL Target] antwoorden, die kunnen worden gevalideerd in netwerkoproepen. Antwoordtokens werken ook in de [!UICONTROL Preview] modus.
 
-Een belangrijk verschil tussen plug-ins en responstokens is dat plug-ins JavaScript leveren aan de pagina die wordt uitgevoerd na levering. Responstkens leveren echter een object op dat vervolgens kan worden gelezen en verwerkt met behulp van gebeurtenislisteners. De responstoken-aanpak is veiliger en maakt de ontwikkeling en het onderhoud van integratie van derden eenvoudiger.
+Een belangrijk verschil tussen plug-ins en responstokens is dat plug-ins JavaScript leveren aan de pagina die bij levering wordt uitgevoerd. Responstokens leveren echter een object dat vervolgens kan worden gelezen en waarop kan worden gereageerd met behulp van gebeurtenislisteners. De response token-benadering is veiliger en maakt de ontwikkeling en het onderhoud van 3rd-party integraties eenvoudiger.
+
+{{permissions-update}}
 
 >[!NOTE]
 >
->Responstokens zijn beschikbaar in versie 1.1 of hoger van at.js.
+>Antwoordtokens zijn beschikbaar met at.js versie 1.1 of hoger.
 
 | Doel SDK | Voorgestelde acties |
 |--- |--- |
@@ -47,12 +49,12 @@ Een belangrijk verschil tussen plug-ins en responstokens is dat plug-ins JavaScr
    | Type | Parameter | Notities |
    |--- |--- |--- |
    | Ingebouwde profielen | `profile.activeActivities` | Retourneert een array van de `activityIds` waarvoor de bezoeker gekwalificeerd is. Dit neemt toe naarmate gebruikers gekwalificeerd zijn. Op een pagina met twee [!DNL Target] -aanvragen die twee verschillende activiteiten uitvoeren, omvat het tweede verzoek bijvoorbeeld beide activiteiten. |
-   |  | `profile.isFirstSession` | Retourneert &quot;true&quot; of &quot;false&quot;. |
-   |  | `profile.isNewSession` | Retourneert &quot;true&quot; of &quot;false&quot;. |
-   |  | `profile.daysSinceLastVisit` | Geeft als resultaat het aantal dagen sinds het laatste bezoek van de bezoeker. |
+   |  | `profile.isFirstSession` | Geeft als resultaat &#39;waar&#39; of &#39;onwaar&#39;. |
+   |  | `profile.isNewSession` | Geeft als resultaat &#39;waar&#39; of &#39;onwaar&#39;. |
+   |  | `profile.daysSinceLastVisit` | Geeft het aantal dagen terug sinds het laatste bezoek van de bezoeker. |
    |  | `profile.tntId` | Retourneert de tntID van de bezoeker |
-   |  | `profile.marketingCloudVisitorId` | Retourneert de bezoeker-id van het Experience Cloud van de bezoeker. |
-   |  | `profile.thirdPartyId` | Retourneert de id van de derde partij van de bezoeker. |
+   |  | `profile.marketingCloudVisitorId` | Retourneert de Experience Cloud-bezoekers-ID van de bezoeker. |
+   |  | `profile.thirdPartyId` | Geeft de ID van de derde partij van de bezoeker terug. |
    |  | `profile.categoryAffinity` | Geeft de favoriete categorie van de bezoeker. |
    |  | `profile.categoryAffinities` | Retourneert een array van de bovenste 5 categorieën van de bezoeker als tekenreeksen. |
    | Activiteit | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | Details van de huidige activiteit.<br> Merk op dat de waarden voor aanbiedingsparameters op het ervaringsniveau worden geëvalueerd. |
@@ -64,15 +66,15 @@ Een belangrijk verschil tussen plug-ins en responstokens is dat plug-ins JavaScr
 
    >[!NOTE]
    >
-   >Parameters met speciale tekens worden niet in de lijst weergegeven. Alleen alfanumerieke tekens en onderstrepingstekens worden ondersteund.
+   >Parameters met speciale tekens worden niet weergegeven in de lijst. Alleen alfanumerieke tekens en onderstrepingstekens worden ondersteund.
 
-1. (Voorwaardelijk) om een profielparameter als reactietoken te gebruiken, maar de parameter is niet overgegaan door een [!DNL Target] verzoek en, zo, geladen niet in [!DNL Target] UI, kunt u de [!UICONTROL Add Response Token] knoop gebruiken om het profiel aan UI toe te voegen.
+1. (Voorwaardelijk) Als u een profielparameter als antwoordtoken wilt gebruiken, maar de parameter niet is doorgegeven via een [!DNL Target] aanvraag en dus niet in de [!DNL Target] gebruikersinterface is geladen, kunt u de [!UICONTROL Add Response Token] knop gebruiken om het profiel aan de gebruikersinterface toe te voegen.
 
-   Klik op **[!UICONTROL Add Response Token]** , geef de naam van het token op en klik op **[!UICONTROL Activate]** .
+   Klik op **[!UICONTROL Add Response Token]**, geef de tokennaam op en klik vervolgens op **[!UICONTROL Activate]**.
 
-1. Maak een activiteit.
+1. Maak een activiteit aan.
 
-## Luisteren naar reacties en reactietokens lezen
+## Luisteren naar reacties en responstokens lezen
 
 Het proces dat u gebruikt om te luisteren naar [!DNL Target] reacties en om responstokens te lezen, hangt af van het feit of u een [!DNL Platform Web SDK] - of at.js-implementatie hebt.
 
@@ -84,10 +86,10 @@ In het volgende reactievoorbeeld wordt een [!DNL Platform Web SDK] aangepaste ge
 
 | Object | Informatie |
 | --- | --- |
-| Type - Personalization.Decision | Of de beslissing is genomen door de [!DNL Target] - of Offer decisioning-provider. |
+| Type - Personalization.Decision | Of de beslissing is genomen door de [!DNL Target] - of Offer Decisioning-provider. |
 | DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] bevat de metagegevens en waarden van het reactietoken voor de pagina. |
-| Meta | Metagegevens die aan de pagina worden doorgegeven. |
-| Gegevens | Waarden van de metagegevens die aan de pagina zijn doorgegeven. |
+| Meta | Metadata die wordt doorgegeven aan de pagina. |
+| Gegevens | Waarden van de metagegevens die aan de pagina worden doorgegeven. |
 
 ```html
 <html>
@@ -143,7 +145,7 @@ In het volgende reactievoorbeeld wordt een [!DNL Platform Web SDK] aangepaste ge
 </html>
 ```
 
-### ![ at.js badge ](/help/main/assets/atjs.png) at.js die douanegebeurtenissen gebruiken
+### ![at.js badge](/help/main/assets/atjs.png) at.js met behulp van aangepaste gebeurtenissen
 
 Het gebruik [ at.js douanegebeurtenissen ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en) {target=_blank} om op de [!DNL Target] reactie te luisteren en de reactietokens te lezen.
 
@@ -212,13 +214,13 @@ Zoals hierboven vermeld, werken responstokens aan de profielgegevens die zijn op
 
 [!DNL Target] vernieuwt kenmerken regelmatig. Om het even welk attribuut dat niet wordt van een knevel voorzien wordt verwijderd tijdens volgende verfrist zich. Als u echter een kenmerk hebt dat is ingeschakeld en verwijderd, wordt dat script pas verwijderd uit de lijst met kenmerken nadat u het hebt uitgeschakeld. U hebt bijvoorbeeld een profielscript verwijderd dat als token is gebruikt. [!DNL Target] verwijdert alleen de in- en uitschakelkenmerken uit de lijst wanneer deze worden verwijderd of hernoemd.
 
-## Gegevens verzenden naar Googles Analytics
+## Gegevens verzenden naar Google Analytics
 
-In de volgende secties wordt beschreven hoe u [!DNL Target] -gegevens naar Googles Analytics 4 kunt verzenden. Gegevens die door responstokens worden verzonden, kunnen ook naar andere integratie van derden worden verzonden.
+In de volgende secties wordt beschreven hoe u [!DNL Target] -gegevens naar Google Analytics 4 kunt verzenden. Gegevens die door responstokens worden verzonden, kunnen ook naar andere integratie van derden worden verzonden.
 
-### ![ AEP badge ](/help/main/assets/platform.png) die gegevens naar Googles Analytics via het Web SDK van het Platform verzendt
+### ![ AEP badge ](/help/main/assets/platform.png) die gegevens naar Google Analytics via het Web SDK van het Platform verzendt
 
-Googles Analytics kunnen via Platform Web SDK versie 2.6.0 (of hoger) gegevens worden verzonden door de volgende code in de HTML-pagina toe te voegen.
+Google Analytics kan via Platform Web SDK versie 2.6.0 (of hoger) gegevens worden verzonden door de volgende code toe te voegen in de HTML-pagina.
 
 >[!NOTE]
 >
@@ -254,9 +256,9 @@ Googles Analytics kunnen via Platform Web SDK versie 2.6.0 (of hoger) gegevens w
 </script>
 ```
 
-### ![ at.js badge ](/help/main/assets/atjs.png) Verzendende gegevens naar Googles Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![ at.js badge ](/help/main/assets/atjs.png) verzendt gegevens naar Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
-Googles Analytics kunnen via at.js gegevens worden verzonden door de volgende code op de pagina HTML toe te voegen:
+Google Analytics kan gegevens verzenden via at.js door de volgende code toe te voegen op de HTML-pagina:
 
 ```javascript
 <script async src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>
@@ -308,11 +310,11 @@ Googles Analytics kunnen via at.js gegevens worden verzonden door de volgende co
 
 ## Foutopsporing
 
-De volgende secties verstrekken informatie over het zuiveren reactietokens:
+In de volgende secties vindt u informatie over het opsporen van antwoordtokens:
 
-### ![ at.js badge ](/help/main/assets/atjs.png) Googles Analytics en het zuiveren
+### ![at.js badge](/help/main/assets/atjs.png) Google Analytics en foutopsporing
 
-Met de volgende code kunt u fouten opsporen met behulp van Googles Analytics:
+Met de volgende code kunt u fouten opsporen met Google Analytics:
 
 ```javascript
 <script async src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>
@@ -364,7 +366,7 @@ Met de volgende code kunt u fouten opsporen met behulp van Googles Analytics:
 
 ### Foutopsporing met het equivalent van de ttMeta-plug-in
 
-Het equivalent van de ttMeta-plug-in voor foutopsporingsdoeleinden kan worden gemaakt door de volgende code toe te voegen aan de HTML-pagina:
+Het equivalent van de ttMeta-insteekmodule voor foutopsporingsdoeleinden kan worden gemaakt door de volgende code toe te voegen aan de HTML-pagina:
 
 ```javascript
 <script type="text/javascript" > 

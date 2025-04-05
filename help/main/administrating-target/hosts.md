@@ -5,7 +5,7 @@ title: Wat zijn gastheren en hoe gebruik ik ze?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%
@@ -21,6 +21,8 @@ Het primaire doel van hostbeheer is ervoor te zorgen dat er niet per ongeluk ina
 Een host is elk domein waaruit een [!DNL Target] -aanvraag wordt gedaan. Op een website is dit doorgaans de eigenschap `location.hostname` van de URL die de [!DNL Target] request uitvoert.
 
 Standaard beperkt [!DNL Target] een host die [!DNL Target] aanvragen kan indienen en reacties kan ontvangen [!DNL Target] , niet. Wanneer nieuwe gastheren verzoeken indienen, werken zij automatisch. Dit proces laat ook het testen op verschillende domeinen toe u niet kent of niet kan voorzien. Als u dit standaardgedrag wilt met voeten treden, kunt u opstelling een lijst van gewenste personen of een lijst van gewezen personen om te beperken welke gastheren met [!DNL Target] werken.
+
+{{permissions-update}}
 
 Klik op **[!UICONTROL Administration]** > **[!UICONTROL Hosts]** om hosts te beheren.
 
