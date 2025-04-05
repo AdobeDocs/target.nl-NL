@@ -4,9 +4,9 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke Nieuwe Eigenschappen en de Verbeteringen worden omvat in de aanstaande  [!DNL Target]  Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ca14a94365e75704622e76ac13aab324fc836e09
+source-git-commit: 0618d39fc5966c64cceea8f5bcccb625fc243ebb
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,14 @@ Dit artikel bevat pre-releasegegevens voor komende [!DNL Adobe Target] versies, 
 >Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 >
 >Om informatie over de huidige versie te bekijken, zie {de Nota&#39;s van de Versie van het 0} Doel ](release-notes.md). [ De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik door [!DNL Adobe] .
+
+## Update voor doelmachtigingen (22 april 2025)
+
+Deze toekomstige update verbetert de organisatorische controle over [!DNL Target] instantieconfiguraties, die toevallige updates verhinderen die activiteitenlevering over diverse test en verpersoonlijkingsteams zouden kunnen beïnvloeden.
+
+Vanaf 22 april 2025 kunnen alleen [!UICONTROL Product] - en [!UICONTROL Solutions] -beheerders instellingen in de [!UICONTROL Administration] -secties bijwerken, ongeacht hun rollen in [!DNL Target] -werkruimten. Gebruikers zonder deze machtiging hebben alleen-lezen toegang tot de secties van [!UICONTROL Administration] .
+
+Voor meer informatie, zie [ Doel beheren ](/help/main/administrating-target/start-target.md).
 
 ## [!DNL Target Standard/Premium] 25.4.1 (2 april 2025)
 
