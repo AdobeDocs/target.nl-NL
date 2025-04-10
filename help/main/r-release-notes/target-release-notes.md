@@ -4,9 +4,9 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke Nieuwe Eigenschappen en de Verbeteringen worden omvat in de aanstaande  [!DNL Target]  Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8af56181ea0ed74eb41d799908ce50f0436d330c
+source-git-commit: 7e23eea48abdebd60f37ad1bf453813a63779d33
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,16 @@ Vanaf 22 april 2025 kunnen alleen [!UICONTROL Product] - en [!UICONTROL Solution
 
 Voor meer informatie, zie [ Doel beheren ](/help/main/administrating-target/start-target.md).
 
+## [!DNL Target Standard/Premium] 25.4.4 (15 april 2025)
+
+Deze release bevat de volgende correcties en updates:
+
+* Er is een foutbericht toegevoegd om gebruikers te begeleiden bij het oplossen van dubbele opties in een activiteit. (TGT-51927)
+* Correctie van een probleem waarbij ClickTrack-kiezers niet werden verwijderd wanneer pagina&#39;s werden verwijderd of ervaringen met omleidingsvoorstellen werden ervaart. (TGT-51952)
+* Correctie van een probleem waarbij [!DNL Target] geen &#39;#&#39;-teken correct detecteerde in de activiteit-URL. (TGT-52093)
+* Probleem verholpen waarbij publieksdefinities niet zichtbaar waren tijdens het bewerken van doelwitten op aanbiedingsniveau in [!UICONTROL Automated Personalization] (AP)-activiteiten. (TGT-52148)
+* Probleem verholpen waarbij de publieksverfijningen en de activiteiten die gericht waren op het publiek werden omgekeerd in de gebruikersinterface. (TGT-52158)
+
 ## [!DNL Target Standard/Premium] 25.4.3 (10 april 2025)
 
 Deze release bevat de volgende correcties en updates:
@@ -51,7 +61,6 @@ Deze release bevat de volgende correcties en updates:
 * Probleem verholpen waarbij de volledige URL voor de beleving niet kon worden weergegeven in [!UICONTROL Browse mode] binnen de [!UICONTROL Visual Experience Composer] (VEC). (TGT-52101)
 * Probleem verholpen waarbij tijdens het bewerken van een activiteit de levering van een pagina ertoe leidde dat &#39;/&#39; aan het einde van de URL werd toegevoegd, waardoor deze ongeldig werd. (TGT-52114)
 * Probleem verholpen waarbij de koppeling [!UICONTROL Activity QA] in de [!UICONTROL Form-Based Experience Composer] -pagina onjuist werd omgeleid naar de [!DNL Adobe Experience Cloud] -startpagina. (TGT-52055)
-* Er is een foutbericht toegevoegd om gebruikers te begeleiden bij het oplossen van dubbele opties in een activiteit. (TGT-51927)
 * Probleem verholpen waarbij extra pagina&#39;s die aan de [!UICONTROL A/B Test] -activiteit zijn toegevoegd, niet werden behouden na het opslaan en opnieuw openen. (TGT-51994)
 * Probleem verholpen waarbij klanten stijlen niet konden verwijderen uit de sectie inline stijl. (TGT-52070)
 * Herstelde toegang tot [ kaarten van de publieksdefinitie ](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) in de [!UICONTROL Activity QA] dialoogdoos, gelijkend op erfenis UI. (TGT-52056)
