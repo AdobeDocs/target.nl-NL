@@ -4,9 +4,9 @@ description: Houd bijgewerkt met belangrijke toevoegingen en veranderingen in de
 title: Waar kan ik documentatieupdates voor  [!DNL Target] zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 626d33f00ff84af367847d53de7806ea62940809
+source-git-commit: 21ee4fc1e0d986e6c1852c1bda647f4cb36ec606
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,9 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 |--- |--- |--- |
-| 8 april | [ NAAM en Doel ](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/implement-cname-support-in-target){target=_blank} | Het volgende is bijgewerkt:<ul><li>Alle certificaten zijn RSA SHA-256 en de sleutels zijn RSA 2048 beetje, door gebrek. Belangrijke grootten groter dan 2048-bits moeten expliciet via de klantenservice worden aangevraagd. (Eerder opgegeven sleutelgrootten groter dan 2048-bits worden niet ondersteund.)</li><li>Basisscript bijgewerkt.</li><li>Codefragment voor validatie-uitvoer is bijgewerkt.</li></ul> |
-| 7 april | [[!DNL Target]  versienota&#39;s (prerelease) ](/help/main/r-release-notes/target-release-notes.md) | Voorafgaande opmerkingen zijn toegevoegd voor de volgende releases:<UL><li>[!DNL Target Standard/Premium] 25.4.2 (8 april 2025)</li><li>[!DNL Target Standard/Premium] 25.4.3 (10 april 2025)</li></ul> |
+| April 9 | [[!DNL Target]  versienota&#39;s (prerelease) ](/help/main/r-release-notes/target-release-notes.md) | Updated the prerelease notes dates for the 25.4.3 release. |
+| 8 april | [CNAME and Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/implement-cname-support-in-target){target=_blank} | Het volgende is bijgewerkt:<ul><li>Alle certificaten zijn RSA SHA-256 en de sleutels zijn RSA 2048 beetje, door gebrek. Belangrijke grootten groter dan 2048-bits moeten expliciet via de klantenservice worden aangevraagd. (Eerder opgegeven sleutelgrootten groter dan 2048-bits worden niet ondersteund.)</li><li>Basisscript bijgewerkt.</li><li>Codefragment voor validatie-uitvoer is bijgewerkt.</li></ul> |
+| 7 april | [[!DNL Target]  versienota&#39;s (prerelease) ](/help/main/r-release-notes/target-release-notes.md) | Opmerkingen bij de pre-releaseversie zijn toegevoegd voor de volgende release:<UL><li>[!DNL Target Standard/Premium] 25.4.3 (10 april 2025)</li></ul> |
 | 4 april | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Bijgewerkte releaseopmerkingen voor de aanstaande [!DNL Target] machtigingsupdate die gepland is voor 22 april 2025. |
 |  | [[!DNL Target]  versienota&#39;s (prerelease) ](/help/main/r-release-notes/target-release-notes.md) | Bijgewerkte pre-releaseopmerkingen voor de aanstaande [!DNL Target] machtigingenupdate gepland voor 22 april 2025. |
 |  | [ eerste stappen van de Beheerder ](/help/main/administrating-target/start-target.md#admin-permissions) | Nieuwe sectie toegevoegd: &quot;Machtigingen vereist voor het bewerken van [!UICONTROL Administration] -instellingen.&quot; |
@@ -33,14 +34,14 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 |--- |--- |--- |
-| 31 maart | [ at.js versiedetails ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Toegevoegde informatie over de release at.js 2.11.8. |
+| 31 maart | [ at.js versiedetails ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions) {target=_blank} | Toegevoegde informatie over de release at.js 2.11.8. |
 | 26 maart | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release [!DNL Target Standard/Premium] 25.3.7. |
 |  | [ Veelgestelde vragen van Aanbevelingen ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Bijgewerkte veelgestelde vragen geven aan dat [!DNL Recommendations] -objecten die via API zijn gemaakt, beschikbaar zijn in de gebruikersinterface van [!DNL Target] . |
 |  | [ Inzamelingen ](/help/main/c-recommendations/c-products/collections.md) | Toegevoegd na opmerking: regels voor verzamelingen zijn van toepassing op aanbevolen items die worden gegenereerd nadat de criteria zijn uitgevoerd. Zij beïnvloeden slechts de Aanbevelingen van de Entiteit (ERs) in de output, niet de sleutel. |
 | 19 maart | [ de kwesties van het Oplossen van problemen met betrekking tot [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Bijgewerkte IP adressen aan lijst van gewenste personen. |
 | 18 maart | [ A4T steun voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Toegevoegde nota aan de *Ondersteunde doelmetriek* sectie. |
 | 14 maart | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release [!DNL Target Standard/Premium] 25.3.6. |
-| 13 maart | [ Ondersteunde browsers ](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | Ondersteunde browsers zijn bijgewerkt en de sectie &quot;Visuele bewerkingsvereisten&quot; is toegevoegd. |
+| 13 maart | [ Ondersteunde browsers ](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers) {target=_blank} | Ondersteunde browsers zijn bijgewerkt en de sectie &quot;Visuele bewerkingsvereisten&quot; is toegevoegd. |
 | 11 maart | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release [!DNL Target Standard/Premium] 25.3.5 toegevoegd. |
 | 7 maart | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release [!DNL Target Standard/Premium] 25.3.4. |
 | 6 maart | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release [!DNL Target Standard/Premium] 25.3.2 toegevoegd. |
@@ -52,11 +53,11 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 | Datum | Onderwerp | Wijzigingen |
 |--- |--- |--- |
 | 26 februari | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Toegevoegde informatie voor de volgende releases:<ul><li>[!DNL Target Standard/Premium] 25.2.3 (26 februari 2025)</li><li>at.js versie 2.11.7 (26 februari 2025)</li></ul> |
-|  | [ at.js versiedetails ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Informatie toegevoegd voor de release van at.js versie 2.11.7 (26 februari 2025). |
+|  | [ at.js versiedetails ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions) {target=_blank} | Informatie toegevoegd voor de release van at.js versie 2.11.7 (26 februari 2025). |
 |  | [ QA bookmarklet van de Activiteit QA ](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md) | De Activity QA-bladwijzer voor at.js 2.x is bijgewerkt. |
 | 13 februari | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Veranderde [!DNL Target Standard/Premium] 25.2.1-update van de gebruikersinterface naar 17 februari 2025. |
 | 12 februari | [ de Visuele opties van Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Bijgewerkt volledig onderwerp om de bijgewerkte VEC uit te leggen die in [!DNL Target Standard/Premium] 25.2.1 release (12 februari 2025) is geïntroduceerd. |
-|  | [ Ondersteunde browsers ](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | Toegevoegde informatie over welke browsers in een implementatie van het Doel gebruikend [!DNL Adobe Experience Platform Web SDK] steunen. |
+|  | [ Ondersteunde browsers ](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers) {target=_blank} | Toegevoegde informatie over welke browsers in een implementatie van het Doel gebruikend [!DNL Adobe Experience Platform Web SDK] steunen. |
 |  | [ de veranderingen van Composer van de Visuele Ervaring ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | Nieuw artikel om de verschillen tussen de vorige en bijgewerkte versies van VEC te verklaren. |
 |  | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release toegevoegd voor de update van de gebruikersinterface van [!DNL Target Standard/Premium] 25.2.1 (gepland voor 17 februari 2025). Veel artikelen zijn bijgewerkt om de wijzigingen in de gebruikersinterface weer te geven. |
 
