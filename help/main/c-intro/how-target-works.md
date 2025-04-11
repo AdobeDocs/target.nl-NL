@@ -4,7 +4,7 @@ description: Leer hoe  [!DNL Adobe Target]  werkt, met inbegrip van informatie o
 title: Hoe werkt  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
+source-git-commit: 673fe3d19ff569d8dd8c659e77a85a7fb74bbae7
 workflow-type: tm+mt
 source-wordcount: '2400'
 ht-degree: 0%
@@ -103,10 +103,10 @@ Zie [ Aanbevelingen ](/help/main/c-recommendations/recommendations.md#concept_75
 
 Aan de hand van de volgende informatie krijgt u inzicht in de telstrategie die wordt gebruikt voor [!DNL Target] serveraanroepen, zoals in de onderstaande tabel wordt getoond:
 
-* **Telling Eenmaal**: Tellingen eens per API vraag
-* **Telling het Aantal dozen**: Telt het aantal dozen onder de serie in de lading van één enkele API vraag
-* **negeren**: wordt niet geteld bij allen
-* **Telling het Aantal Weergaven (Eenmaal)**: Telt het aantal meningen onder de serie in de nuttige lading. In een standaardimplementatie heeft een weergavemelding slechts één weergave onder de meldingsarray. Dit komt overeen met het één keer tellen in de meeste implementaties
+* **Aantal eens**: Tellingen eens per API vraag.
+* **Telling het Aantal dozen**: Telt het aantal dozen onder de serie in de lading van één enkele API vraag.
+* **negeren**: Wordt niet geteld bij allen.
+* **Telling het Aantal Weergaven (Eenmaal)**: Telt het aantal meningen onder de serie in de nuttige lading. In een standaardimplementatie heeft een weergavemelding slechts één weergave onder de meldingsarray. Dit komt overeen met het één keer tellen in de meeste implementaties.
 
 | Endpoint | Type ophalen | Opties | Aftelstrategie |
 |--- |--- |--- |-- |
