@@ -6,46 +6,44 @@ short-description: Personaliseer de ervaring van uw klanten om de omzet te maxim
 title: Wat is het doel?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: 218036d23803643f25e6cf9dd91ea71dd55342ea
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '955'
 ht-degree: 4%
 
 ---
 
-# Inleiding tot doel
+# Inleiding tot [!DNL Target]
 
-[!DNL Adobe Target] is de [!DNL Adobe Experience Cloud] -oplossing die alles biedt wat u nodig hebt om de ervaringen van uw klanten op maat te maken en aan te passen. Met [!DNL Target] kunt u uw omzet maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
+[!DNL Adobe Target] , onderdeel van de [!DNL Adobe Experience Cloud] , biedt uitgebreide tools om de ervaringen van klanten op internet, mobiele sites, apps, sociale media en andere digitale kanalen aan te passen.
 
-De [!DNL Adobe Target] -oplossing kan een licentie krijgen als [!DNL Target Standard] of [!DNL Target Premium] .
+[!DNL Target] helpt uw omzet te maximaliseren en kan een licentie krijgen als [!DNL Target Standard] of [!DNL Target Premium] .
 
-## Target Standard {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
+## [!UICONTROL Target Standard] {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
-[!DNL Target Standard] is het front-end aan [!DNL Adobe Target] dat u helpt A/B tests en op regels gebaseerde het richten van activiteiten visueel tot stand te brengen en te beheren. [!DNL Target Standard] ondersteunt aangepaste code-invoeging in en uit de [!UICONTROL Visual Experience Composer] -workflow (VEC). [!DNL Target Standard] biedt een vereenvoudigde implementatiestrategie met uw digitale eigenschappen. Met één coderegel op elke pagina wordt alle vereiste communicatie tussen uw site en [!DNL Target] beheerd.
+[!DNL Target Standard] is het front end aan [!DNL Adobe Target], toelatend visuele verwezenlijking en beheer van tests A/B en op regels-gebaseerde het richten activiteiten. [!DNL Target] ondersteunt aangepaste code-invoeging binnen en buiten de [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) -workflow (VEC). [!DNL Target Standard] biedt een vereenvoudigde implementatiestrategie voor uw digitale eigenschappen, met één coderegel op elke pagina die alle communicatie tussen uw site en [!DNL Target] beheert.
 
-Best practices voor de branche zijn ingebouwd in [!DNL Target Standard] . [!DNL Target Standard] is ontworpen voor zowel nieuwe als ervaren gebruikers. U kunt gegevens en resultaten delen en eenvoudig samenwerken met andere teamleden die de [!DNL Adobe Experience Cloud] gebruiken.
+De beste praktijken van de industrie worden geïntegreerd in [!DNL Target Standard], die het voor zowel nieuwe als ervaren gebruikers geschikt maken. U kunt gegevens, resultaten gemakkelijk delen, en met teamleden samenwerken gebruikend [!DNL Adobe Experience Cloud].
 
-## Target Premium {#premium}
+## [!DNL Target Premium] {#premium}
 
 [!BADGE  Premium ]{type=Positive}
 
-[!DNL Target Premium] is een geavanceerd [!DNL Target] -aanbod waarvoor een licentie vereist is om premiumfuncties toe te voegen aan [!DNL Target Standard] .
-
-Alle [!DNL Target Premium] -artikelen in [!DNL Target] -hulplijnen bevatten het [!UICONTROL Premium] -symbool boven aan elke pagina of inline bij de desbetreffende tekst. U kunt op de badge [!UICONTROL Premium] klikken en deze bevat een koppeling naar deze sectie.
+[!DNL Target Premium] is een geavanceerd aanbod waarvoor een licentie vereist is om premiumfuncties toe te voegen aan [!DNL Target Standard] . Alle [!DNL Target Premium] -artikelen in [!DNL Target] -hulplijnen bevatten het [!UICONTROL Premium] -symbool boven aan elke pagina of inline bij de desbetreffende tekst. U kunt op het badge [!UICONTROL Premium] klikken en koppelingen naar deze sectie maken.
 
 **[!DNL Target Premium]bevat de volgende functies:**
 
-### Automated Personalization
+### [!UICONTROL Automated Personalization]
 
-[ Automated Personalization ](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) (AP) verstrekt geavanceerde machine het leren algoritmen om gepersonaliseerde ervaringen en betere omzettingspercentages voor digitale ervaringen te drijven.
+[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) (AP) gebruikt geavanceerde computerleeralgoritmen om persoonlijke ervaringen te bieden en conversiesnelheden voor digitale interacties te verbeteren.
 
-[!UICONTROL Automated Personalization] registreert de bezoekersactiviteit op de site en bouwt een profiel van bezoekers, zodat inhoud voor vergelijkbare bezoekers kan worden bestemd. AP volgt reacties op inhoud, zowel voor individuen als voor de bevolking als geheel. AP gebruikt dan verfijnde modelleringsbenaderingen om elk individu automatisch te richten. AP beschouwt alles dat over elke bezoeker bekend is.
+AP registreert bezoekersactiviteit, bouwend profielen om inhoud aan gelijkaardige bezoekers te richten. AP volgt reacties op inhoud voor individuen en de bevolking, gebruikend verfijnde modellering om elke bezoeker automatisch te richten die op alles wordt gebaseerd die over hen wordt gekend.
 
-[!UICONTROL Automated Personalization] leert alleen en vereist een minimale menselijke analyse. Volledig geautomatiseerd leert AP voortdurend. Het systeem bouwt modellen en leert automatisch welke producten een individuele bezoeker het meest waarschijnlijk in geinteresseerd zal zijn. Telkens wanneer een bezoeker met de site communiceert, wordt informatie verzameld en in het profiel van die bezoeker opgeslagen. Er zijn meerdere algoritmen beschikbaar om het beste model voor uw systeem te bieden.
+AP is volledig geautomatiseerd, voortdurend leerend met minimale menselijke analyse. Het bouwt modellen om te bepalen welke producten een bezoeker in, het verzamelen van en het opslaan van informatie in bezoekersprofielen waarschijnlijk geinteresseerd zal zijn. Meerdere algoritmen zorgen voor het beste model voor uw systeem.
 
-### Automatisch doel
+### [!UICONTROL Auto-Target]
 
-[ auto-Doel ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) gebruikt het geavanceerde machine leren om veelvoudige hoog-presterende tellers-bepaalde ervaringen te identificeren. [!UICONTROL Auto-Target] biedt elke bezoeker de meest op maat gemaakte ervaring. De levering is gebaseerd op individuele klantenprofielen en het gedrag van vorige bezoekers met gelijkaardige profielen. Met [!UICONTROL Auto-Target] kunt u inhoud en schijfconversies personaliseren.
+[ auto-Doel ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) gebruikt het geavanceerde machine leren om hoog-presterende telleregerichte ervaringen te identificeren. Vervolgens krijgt elke bezoeker de meest op maat gemaakte ervaring op basis van individuele klantprofielen en het gedrag van eerdere bezoekers met vergelijkbare profielen. Met [!UICONTROL Auto-Target] kunt u inhoud en schijfconversies personaliseren.
 
 ### Aanbevelingen
 
