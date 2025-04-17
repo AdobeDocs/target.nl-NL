@@ -6,9 +6,9 @@ short-description: Leer over de nieuwe eigenschappen, de verhogingen, en de moei
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b9ec7af30fda6e97e3b0372a02a682a177764742
+source-git-commit: 938351d258746031a6e47a935a37e2caccbf6e36
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,21 @@ ht-degree: 0%
 Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplossingen voor elke [!DNL Adobe Target Standard] - en [!DNL Target Premium] -release. Daarnaast worden releaseopmerkingen voor [!DNL Target] API&#39;s, SDK&#39;s, de [!DNL Adobe Experience Platform Web SDK] , at.js en andere platformwijzigingen, indien van toepassing, ook opgenomen.
 
 (De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik door [!DNL Adobe] .)
+
+## [!DNL Target Standard/Premium] 25.4.4 (17 april 2025)
+
+Deze release bevat de volgende correcties en updates:
+
+* Er is een foutbericht toegevoegd om gebruikers te begeleiden bij het oplossen van dubbele opties in een activiteit. (TGT-51927)
+* Correctie van een probleem waarbij `ClickTrack` kiezers niet werden verwijderd wanneer ze pagina&#39;s of ervaringen met omleidingsvoorstellen verwijderden. (TGT-51952)
+* Probleem verholpen dat werd veroorzaakt door het toestaan van lege `ClickTrack` kiezers. [!DNL Target] vereist nu dat het selectieveld niet leeg is. (TGT-52107)
+* Probleem verholpen waarbij metrische gegevens met dubbele namen onjuist werden toegestaan. Metriek vereist nu unieke namen. (TGT-52201)
+* Probleem verholpen waarbij publieksdefinities niet zichtbaar waren tijdens het bewerken van doelwitten op aanbiedingsniveau in [!UICONTROL Automated Personalization] (AP)-activiteiten. (TGT-52148)
+* Probleem verholpen waardoor klanten met [!UICONTROL Editor] -rechten geen activiteiten konden opslaan. (TGT-5227)
+* `OptionLocalIDs` wordt niet meer verkeerd verhoogd wanneer de optie ongewijzigd blijft. (TGT-52139)
+* Probleem verholpen waarbij het bericht &#39;Invalid `optionLocalIds`&#39; werd gegenereerd bij het maken van een activiteit. (TGT-52154)
+* De discrepanties tussen de definitie van `OptionLocalIDs` voor een activiteit en de definitie van ervaringen zijn gecorrigeerd. (TGT-52215)
+* Probleem verholpen dat een validatiefout veroorzaakte die optrad bij het maken van een A/B-activiteit. (TGT-51923)
 
 ## [!DNL Target Standard/Premium] 25.4.3 (11 april 2025)
 
@@ -75,7 +90,7 @@ Deze release bevat de volgende correcties en updates:
 | Bron | Details |
 |--- |--- |
 | [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
-| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html) {target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
+| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
 
 ## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release van Experience Cloud
 
@@ -85,7 +100,7 @@ Naast de notities voor elke release bevatten de volgende bronnen aanvullende inf
 |--- |--- |
 | [ Veranderingen van de Documentatie ](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
 | [ de nota&#39;s van de Versie voor vorige versies ](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
-| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html) {target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
+| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
 
 ## Prerelease-informatie {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
@@ -93,5 +108,5 @@ De volgende middelen laten u zien wat in de volgende versie van het Doel komt.
 
 | Bron | Details |
 |--- |--- |
-| [ de Prioritaire Update van het Product van Adobe ](https://www.adobe.com/subscription/priority-product-update.html) {target=_blank} | Ontvang voorafgaande meldingen over aanstaande productverbeteringen voor [!DNL Target] en andere [!DNL Adobe Experience Cloud] -oplossingen. |
+| [ de Prioritaire Update van het Product van Adobe ](https://www.adobe.com/subscription/priority-product-update.html){target=_blank} | Ontvang voorafgaande meldingen over aanstaande productverbeteringen voor [!DNL Target] en andere [!DNL Adobe Experience Cloud] -oplossingen. |
 | [ de Nota&#39;s van de Versie van het Doel - preRelease ](/help/main/r-release-notes/target-release-notes.md){target=_blank} | Informatie over de versies van het Doel van de huidige maand, met inbegrip van pre-releaseinformatie. |
