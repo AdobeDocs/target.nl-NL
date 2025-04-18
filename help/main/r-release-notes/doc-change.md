@@ -4,9 +4,9 @@ description: Houd bijgewerkt met belangrijke toevoegingen en veranderingen in de
 title: Waar kan ik documentatieupdates voor  [!DNL Target] zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 02447c110372536022df0afb2329c708be675d2a
+source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 | Datum | Onderwerp | Wijzigingen |
 |--- |--- |--- |
 | 17 april | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release [!DNL Target Standard/Premium] 25.4.4 toegevoegd. |
+|  | [[!DNL Target]  versienota&#39;s (prerelease) ](/help/main/r-release-notes/target-release-notes.md) | Datums voor pre-releaseopmerkingen zijn toegevoegd voor de release 25.4.5. |
 | 11 april | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release [!DNL Target Standard/Premium] 25.4.3. |
 |  | [ hoe  [!DNL Target]  werkt ](/help/main/c-intro/how-target-works.md#usage) | Toegevoegde nieuwe sectie: &quot;Hoe [!DNL Target] server-vraaggebruik telt.&quot; |
 | 9 april | [[!DNL Target]  versienota&#39;s (prerelease) ](/help/main/r-release-notes/target-release-notes.md) | De prereleaseopmerkingen zijn bijgewerkt met de datums voor de release 25.4.4. |

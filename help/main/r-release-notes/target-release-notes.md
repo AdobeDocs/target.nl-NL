@@ -4,9 +4,9 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke Nieuwe Eigenschappen en de Verbeteringen worden omvat in de aanstaande  [!DNL Target]  Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 938351d258746031a6e47a935a37e2caccbf6e36
+source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,19 @@ Dit artikel bevat pre-releasegegevens voor komende [!DNL Adobe Target] versies, 
 >Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 >
 >Om informatie over de huidige versie te bekijken, zie {de Nota&#39;s van de Versie van het 0} Doel ](release-notes.md). [ De informatie op deze pagina&#39;s kan gelijk zijn, afhankelijk van de timing van releases. De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik door [!DNL Adobe] .
+
+## [!DNL Target Standard/Premium] 25.4.5 (24 april 2025)
+
+Deze release bevat de volgende correcties en updates:
+
+* Probleem verholpen waarbij meerdere soorten publiek werden weergegeven tijdens het bewerken of opslaan van een activiteit. (TGT-52134)
+* Correctie van een probleem waarbij aanbevelingen niet werden weergegeven op de website van de klant na activering van de [!DNL Recommendations] -activiteit. (TGT-52164)
+* `OptionLocalIDs` wordt niet meer incorrect verhoogd wanneer de optie ongewijzigd blijft. (TGT-52187)
+* Gedownloade rapportbestanden geven nu correct de gegevens weer die aanwezig zijn in de rapportage-UI. (TGT-52068)
+* Probleem verholpen waardoor Target het teken &quot;#&quot; in de URL van een website niet kon herkennen. (TGT-52093)
+* Batchbewerkingen mislukken niet meer na het toevoegen van regels voor het leveren van pagina&#39;s. (TGT-52097)
+* Probleem opgelost waarbij [!DNL Target] alle queryparameters van de URL van de website bijsnijde. (TGT-52100)
+* Probleem verholpen waarbij publieksverfijningen en het activiteitenpubliek werden omgekeerd in de bijgewerkte gebruikersinterface. (TGT-52158)
 
 ## Update voor doelmachtigingen (22 april 2025)
 
