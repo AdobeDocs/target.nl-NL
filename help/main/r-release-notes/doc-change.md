@@ -4,9 +4,9 @@ description: Houd bijgewerkt met belangrijke toevoegingen en veranderingen in de
 title: Waar kan ik documentatieupdates voor  [!DNL Target] zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
+source-git-commit: 4104b6cb67347205c0143c9dea46dd483a8266ce
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 
 | Datum | Onderwerp | Wijzigingen |
 |--- |--- |--- |
+| 23 april | [ integreren met  [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#limitations) | Toegevoegd het volgende aan de *de eigenschapbeperkingen en overwegingen van de Attributen van het Profiel van Real-Time CDP* sectie: <ul><li>[!DNL Target] ondersteunt alleen het gegevenstype &quot;tekenreeks&quot; voor [!DNL Adobe Experience Platform] -profielkenmerken die in aanbiedingen moeten worden gebruikt. Kenmerken van het type &#39;Map&#39; en &#39;Array&#39; worden nog niet ondersteund.</li></ul> |
 | 17 april | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release [!DNL Target Standard/Premium] 25.4.4 toegevoegd. |
 |  | [[!DNL Target]  versienota&#39;s (prerelease) ](/help/main/r-release-notes/target-release-notes.md) | Datums voor pre-releaseopmerkingen zijn toegevoegd voor de release 25.4.5. |
 | 11 april | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release [!DNL Target Standard/Premium] 25.4.3. |
