@@ -4,9 +4,9 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke Nieuwe Eigenschappen en de Verbeteringen worden omvat in de aanstaande  [!DNL Target]  Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b09796cd8464b54dcc1945ae1ec00eb914ba218c
+source-git-commit: 24cbccca7ac76dd77668abf0b4498ab4fd374893
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,14 @@ Deze release bevat de volgende correcties en updates:
 * Probleem verholpen waarbij klanten werden verhinderd werkruimten te selecteren tijdens het maken van aanbiedingen binnen een activiteit. (TGT-52289)
 * Probleem verholpen waarbij wijzigingen van de ene ervaring onjuist werden weergegeven bij het schakelen naar een andere ervaring. (TGT-52184)
 * Probleem verholpen waarbij de standaardaanbieding onjuist werd weergegeven in de gebruikersinterface van [!DNL Target] bij het openen van de activiteit. (TGT-52198)
+
+## [!DNL Target Standard/Premium] 25.4.5 (25 april 2025)
+
+Deze release bevat de volgende correcties en updates:
+
+* Probleem verholpen waarbij [!DNL Target] het teken &quot;#&quot; niet herkende in de URL van een website. (TGT-52093)
+* Probleem verholpen waarbij het wissen van publiek en het bewerken van gecombineerd publiek in de bijgewerkte gebruikersinterface voor [!UICONTROL Automated Personalization] (AP)-activiteiten werd voorkomen. (TGT-52149)
+* Probleem verholpen waarbij publieksverfijningen en het activiteitenpubliek werden omgekeerd in de bijgewerkte gebruikersinterface. (TGT-52158)
 
 ## Update voor doelmachtigingen (22 april 2025)
 
