@@ -4,9 +4,9 @@ description: Leer hoe  [!DNL Adobe Target]  werkt, met inbegrip van informatie o
 title: Hoe werkt  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 673fe3d19ff569d8dd8c659e77a85a7fb74bbae7
+source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2215'
 ht-degree: 0%
 
 ---
@@ -29,18 +29,18 @@ De belangrijkste punten zijn:
 Het doel kan met websites worden geïntegreerd met behulp van [!DNL Experience Platform Web SDK] of at.js:
 
 * **[SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}**: Deze cliënt-kant bibliotheek van JavaScript staat [!DNL Adobe Experience Cloud] klanten toe om met diverse diensten door [!DNL Experience Platform Edge Network] in wisselwerking te staan. [!DNL Adobe] raadt aan dat nieuwe [!DNL Target] -klanten [!DNL Experience Platform Web SDK] implementeren.
-* **[at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}**: Deze implementatiebibliotheek voor [!DNL Target] verbetert pagina-lading tijden voor Webimplementaties en biedt betere opties voor single-page toepassingen aan. Vaak bijgewerkt met nieuwe mogelijkheden, [!DNL Adobe] adviseert alle [ at.js gebruikers aan de recentste versie ](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html) {target=_blank} bijwerken.
+* **[at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}**: Deze implementatiebibliotheek voor [!DNL Target] verbetert pagina-lading tijden voor Webimplementaties en biedt betere opties voor single-page toepassingen aan. Vaak bijgewerkt met nieuwe mogelijkheden, [!DNL Adobe] adviseert alle [ at.js gebruikers aan de recentste versie ](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} bijwerken.
 
 >[!NOTE]
 >
 >De bibliotheek mbox.js is een oudere implementatie voor [!DNL Target] en wordt na 31 maart 2021 niet meer ondersteund. Voer een upgrade uit naar [!UICONTROL Experience Platform Web SDK] (voorkeur) of de meest recente versie van at.js.
 
-Verwijs naar [!UICONTROL Experience Platform Web SDK] of at.js op elke pagina van uw plaats. Voeg bijvoorbeeld een van deze bibliotheken toe aan de algemene koptekst. Alternatief, gebruik [ markeringen in Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) {target=_blank} om [!DNL Target] uit te voeren.
+Verwijs naar [!UICONTROL Experience Platform Web SDK] of at.js op elke pagina van uw plaats. Voeg bijvoorbeeld een van deze bibliotheken toe aan de algemene koptekst. Alternatief, gebruik [ markeringen in Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} om uit te voeren [!DNL Target].
 
 De volgende bronnen bevatten gedetailleerde informatie om u te helpen bij het implementeren van de map [!DNL Experience Platform Web SDK] of at.js:
 
-* [[!DNL Adobe Experience Platform Web SDK]  uitbreiding ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html) {target=_blank}
-* [ voert  [!DNL Target]  uit gebruikend  [!DNL Adobe Experience Platform] ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch) {target=_blank}
+* [[!DNL Adobe Experience Platform Web SDK]  uitbreiding ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
+* [ voert  [!DNL Target]  uit gebruikend  [!DNL Adobe Experience Platform] ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Telkens wanneer een bezoeker een pagina aanvraagt die voor [!DNL Target] is geoptimaliseerd, wordt een verzoek in real time verzonden naar het doelsysteem om de te dienen inhoud te bepalen. Dit verzoek wordt gedaan en voldaan telkens als een pagina wordt geladen, die door de markt-gecontroleerde activiteiten en ervaringen wordt geleid. De inhoud is gericht op individuele sitebezoekers, waarbij de responspercentages, de aanschafpercentages en de inkomsten worden gemaximaliseerd. Met persoonlijke inhoud zorgt u ervoor dat bezoekers reageren, communiceren of aankopen doen.
 
@@ -97,33 +97,36 @@ Zie [ Multivariate Test ](/help/main/c-activities/c-multivariate-testing/multiva
 
 Zie [ Aanbevelingen ](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) voor meer informatie.
 
-## Hoe [!DNL Target] server-vraag gebruik telt {#usage}
+<!--
+## How [!DNL Target] counts server-call usage {#usage}
 
-[!DNL Target] telt alleen serveraanroepen die klanten waarde bieden. In de volgende tabel ziet u hoe eindpunten, aanroepen van batchkaders, uitvoeren, prefetsen en meldingen in [!DNL Target] worden tellen.
+[!DNL Target] counts only server calls that provide value to customers. The following table shows how [!DNL Target] counts endpoints, single mbox, batch mbox calls, execute, prefetch, and notification calls.
 
-Aan de hand van de volgende informatie krijgt u inzicht in de telstrategie die wordt gebruikt voor [!DNL Target] serveraanroepen, zoals in de onderstaande tabel wordt getoond:
+The following information helps you understand the counting strategy used for [!DNL Target] server calls, as shown in the table below:
 
-* **Aantal eens**: Tellingen eens per API vraag.
-* **Telling het Aantal dozen**: Telt het aantal dozen onder de serie in de lading van één enkele API vraag.
-* **negeren**: Wordt niet geteld bij allen.
-* **Telling het Aantal Weergaven (Eenmaal)**: Telt het aantal meningen onder de serie in de nuttige lading. In een standaardimplementatie heeft een weergavemelding slechts één weergave onder de meldingsarray. Dit komt overeen met het één keer tellen in de meeste implementaties.
+* **Count Once**: Counts once per API call.
+* **Count the Number of mboxes**: Counts the number of mboxes under the array in the payload of a single API call.
+* **Ignore**: Is not counted at all.
+* **Count the Number of Views (Once)**: Counts the number of views under the array in the payload. In a typical implementation, a view notification has only one view under the notifications array, making this equivalent to counting once in most implementations.
 
-| Endpoint | Type ophalen | Opties | Aftelstrategie |
+|Endpoint|Fetch type|Options|Counting strategy|
 |--- |--- |--- |-- |
-| `rest//v1/mbox` | Enkel | [!UICONTROL execute] | Eén keer tellen |
-| `rest/v2/batchmbox` | Batch | [!UICONTROL execute] | Aantal vakken tellen |
-|  | Batch | [!UICONTROL prefetch] | Negeren |
-|  | Batch | [!UICONTROL notifications] | Aantal vakken tellen |
-| `/ubox/[raw\|image\|page]` | Enkel | [!UICONTROL execute] | Eén keer tellen |
-| `rest/v1/delivery`<p>`/rest/v1/target-upstream` | Enkel | [!UICONTROL execute] > [!UICONTROL pageLoad] | Eén keer tellen |
-|  | Enkel | [!UICONTROL prefetch] > [!UICONTROL pageLoad] | Negeren |
-|  | Enkel | [!UICONTROL prefetch] > [!UICONTROL views] | Negeren |
-|  | Batch | [!UICONTROL execute] > [!UICONTROL mboxes] | Aantal vakken tellen |
-|  | Batch | [!UICONTROL prefetch] > [!UICONTROL mboxes] | Negeren |
-|  | Batch | [!UICONTROL notifications] > [!UICONTROL views] | Aantal weergaven tellen (één keer) |
-|  | Batch | [!UICONTROL notifications] > [!UICONTROL pageLoad] | Eén keer tellen |
-|  | Batch | [!UICONTROL notifications] > type ([!UICONTROL conversions]) | Eén keer tellen |
-|  | Batch | [!UICONTROL notifications] > [!UICONTROL mboxes] | Aantal vakken tellen |
+|`rest//v1/mbox`|Single|[!UICONTROL execute]|Count once|
+|`rest/v2/batchmbox`|Batch|[!UICONTROL execute]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch]|Ignore|
+||Batch|[!UICONTROL notifications]|Count the number of mboxes|
+|`/ubox/[raw\|image\|page]`|Single|[!UICONTROL execute]|Count once|
+|`rest/v1/delivery`<p>`/rest/v1/target-upstream`|Single|[!UICONTROL execute] > [!UICONTROL pageLoad]|Count once|
+||Single|[!UICONTROL prefetch] > [!UICONTROL pageLoad]|Ignore|
+||Single|[!UICONTROL prefetch] > [!UICONTROL views]|Ignore|
+||Batch|[!UICONTROL execute] > [!UICONTROL mboxes]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch] > [!UICONTROL mboxes]|Ignore|
+||Batch|[!UICONTROL notifications] > [!UICONTROL views]|Count the number of views (once)|
+||Batch|[!UICONTROL notifications] > [!UICONTROL pageLoad]|Count once|
+||Batch|[!UICONTROL notifications] > type ([!UICONTROL conversions])|Count once|
+||Batch|[!UICONTROL notifications] > [!UICONTROL mboxes]|Count the number of mboxes|
+
+-->
 
 ## Het Edge-netwerk {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
@@ -169,7 +172,7 @@ De service [!DNL Target Recommendations] wordt gehost in een [!DNL Adobe] -datac
 >
 >[!DNL Target] heeft momenteel geen Edge Cluster in China, waardoor de prestaties van bezoekers voor [!DNL Target] -klanten in de regio worden beperkt. De firewall en het ontbreken van Edge-clusters kunnen van invloed zijn op de ervaringen van sites, wat leidt tot een trage weergave en een langere laadtijd voor de pagina. Marketers kunnen bovendien latentie ervaren wanneer ze de [!DNL Target] -ontwerpinterface gebruiken.
 
-U kunt desgewenst [!DNL Target] Edge-clusters lijsten van gewenste personen. Voor meer informatie, zie [ de randknopen van het Doel van de lijst van gewenste personen ](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges) {target=_blank}.
+U kunt desgewenst [!DNL Target] Edge-clusters lijsten van gewenste personen. Voor meer informatie, zie [ de randknopen van het Doel van de lijst van gewenste personen ](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
 
 ## Beveiligde gebruikerservaring {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

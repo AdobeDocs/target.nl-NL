@@ -4,9 +4,9 @@ description: Houd bijgewerkt met belangrijke toevoegingen en veranderingen in de
 title: Waar kan ik documentatieupdates voor  [!DNL Target] zien?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 579ebd9bebd3faa724f0d1d542f4d23766adefe3
+source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,6 @@ Deze pagina bevat een overzicht van belangrijke wijzigingen die zijn aangebracht
 | 17 april | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release [!DNL Target Standard/Premium] 25.4.4 toegevoegd. |
 |  | [[!DNL Target]  versienota&#39;s (prerelease) ](/help/main/r-release-notes/target-release-notes.md) | Datums voor pre-releaseopmerkingen zijn toegevoegd voor de release 25.4.5. |
 | 11 april | [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) | Opmerkingen bij de release [!DNL Target Standard/Premium] 25.4.3. |
-|  | [ hoe  [!DNL Target]  werkt ](/help/main/c-intro/how-target-works.md#usage) | Toegevoegde nieuwe sectie: &quot;Hoe [!DNL Target] server-vraaggebruik telt.&quot; |
 | 9 april | [[!DNL Target]  versienota&#39;s (prerelease) ](/help/main/r-release-notes/target-release-notes.md) | De prereleaseopmerkingen zijn bijgewerkt met de datums voor de release 25.4.4. |
 | 8 april | [ NAAM en Doel ](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/implement-cname-support-in-target){target=_blank} | Het volgende is bijgewerkt:<ul><li>Alle certificaten zijn RSA SHA-256 en de sleutels zijn RSA 2048 beetje, door gebrek. Belangrijke grootten groter dan 2048-bits moeten expliciet via de klantenservice worden aangevraagd. (Eerder opgegeven sleutelgrootten groter dan 2048-bits worden niet ondersteund.)</li><li>Basisscript bijgewerkt.</li><li>Codefragment voor validatie-uitvoer is bijgewerkt.</li></ul> |
 | 7 april | [[!DNL Target]  versienota&#39;s (prerelease) ](/help/main/r-release-notes/target-release-notes.md) | Opmerkingen bij de pre-releaseversie zijn toegevoegd voor de volgende release:<UL><li>[!DNL Target Standard/Premium] 25.4.3 (10 april 2025)</li></ul> |
