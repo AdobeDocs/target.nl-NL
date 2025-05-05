@@ -25,11 +25,11 @@ Dankzij deze integratie kunt u meer conversies aansturen en de impact van e-mail
 
 Als u de integratie [!DNL Target Recommendations] en [!DNL Adobe Journey Optimizer] wilt gebruiken, hebt u het volgende nodig:
 
-* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) uitgevoerd gebruikend [ Adobe Experience Platform Web SDK ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk) {target=_blank}.
+* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) uitgevoerd gebruikend [ Adobe Experience Platform Web SDK ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} .
 
   Deze functie is niet beschikbaar met een [!DNL Target Standard] -licentie of bij de implementatie van [!DNL Target] met at.js of andere [!DNL Target] SDK&#39;s.
 
-* [[!DNL Adobe Journey Optimizer] ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home) {target=_blank}.
+* [[!DNL Adobe Journey Optimizer] ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target=_blank} .
 
 ## Gebruiksscenario&#39;s
 
@@ -43,7 +43,7 @@ Deze gebruiksgevallen zijn slechts een paar mogelijke gebruiksgevallen voor het 
 
 * **[!DNL Adobe Journey Optimizer]verzendt een grote e-mail na sitebezoeken om bezoekers eraan te herinneren welke items zijn weergegeven** : Deze kwestie is gebaseerd op bezoekers die een website bezoeken, verschillende items bekijken en vervolgens de site of de app verlaten zonder items in het winkelwagentje te plaatsen.
 
-  Na een gespecificeerde periode, maakt een douaneactie in [!DNL Journey Optimizer] een vraag aan [!DNL Target Recommendations] om te bepalen welke punten elke bezoeker bekeken, gebruikend de 2} van elke bezoeker (EDID), het profiel van de bezoeker [!DNL Target], en a [ gebruiker-gebaseerd ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) algoritme. [!DNL Adobe Experience Cloud Identifier] [!DNL Adobe Journey Optimizer] stuurt vervolgens een gepersonaliseerde e-mail naar elk lid van het gekwalificeerde publiek met afbeeldingen en koppelingen naar de weergegeven items van elke bezoeker om de bezoeker te laten terugkeren en een aankoop te doen.
+  Na een gespecificeerde periode, maakt een douaneactie in [!DNL Journey Optimizer] een vraag aan [!DNL Target Recommendations] om te bepalen welke punten elke bezoeker bekeken, gebruikend de 2&rbrace; van elke bezoeker (EDID), het profiel van de bezoeker [!DNL Target], en a [ gebruiker-gebaseerd ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) algoritme. [!DNL Adobe Experience Cloud Identifier] [!DNL Adobe Journey Optimizer] stuurt vervolgens een gepersonaliseerde e-mail naar elk lid van het gekwalificeerde publiek met afbeeldingen en koppelingen naar de weergegeven items van elke bezoeker om de bezoeker te laten terugkeren en een aankoop te doen.
 
   In dit scenario worden het profiel [!UICONTROL Experience Cloud Visitor ID] (ECID) en de inhoud van het profiel [!DNL Target] van elke bezoeker gebruikt om de aanbeveling te genereren op basis van het onlangs weergegeven algoritme.
 

@@ -41,7 +41,7 @@ De pagina [!UICONTROL Feeds] bevat de volgende kolommen:
 
 * **Naam**: De naam van het voer tijdens verwezenlijking wordt gespecificeerd die. Als u de naam van een feed wilt bewerken, moet u de feed zelf bewerken. Wanneer u de feed onder de nieuwe naam opslaat, wordt de feed vernieuwd.
 * **Type**: De types omvatten [ CSV ](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [ Diervoeders van het Product van Google ](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF), en [ Classificaties van Analytics ](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
-* **Status**: De huidige status van de voer [ ](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
+* **Status**: De huidige status van de voer [&#128279;](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
 * **Programma**: Toont het updateschema voor het voer: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks], of [!UICONTROL Never].
 * **Punten**: Toont het aantal punten in het voer.
 * **Laatste Bijgewerkt**: Toont de datum en de tijd toen het voer en de naam van de persoon laatst werd bijgewerkt die het voer bijwerkte. Als de feed [!UICONTROL Last Updated] &#39;undefined&#39; zegt, komt de feed in vanuit [!DNL Recommendations Classic] en kan deze niet vanuit [!DNL Target Premium Recommendations] worden gewijzigd.

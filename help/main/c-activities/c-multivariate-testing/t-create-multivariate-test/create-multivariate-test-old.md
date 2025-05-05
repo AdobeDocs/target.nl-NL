@@ -43,7 +43,7 @@ Voor [!UICONTROL Multivariate Test] (MVT) wordt eerst een rapport op de pagina w
 
 1. Typ een naam voor de activiteit.
 
-   {het gebied van de Naam van de Activiteit 0} ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)![
+   {het gebied van de Naam van de Activiteit 0} ![&#128279;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
 
    De naam van de activiteit mag niet met een van de volgende tekens beginnen:
 

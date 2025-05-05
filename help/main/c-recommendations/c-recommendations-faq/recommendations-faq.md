@@ -103,7 +103,7 @@ Als de plaats waarop u deze criteria toepast niet de categorie ID bevat, zijn be
 
 Als u een locatie gebruikt waar categorie-id aanwezig is in het vak, bevat de kiezer voor criteria alle toepasselijke criteria.
 
-[!DNL Target] heeft a [ Incompatibele Criteria van de Filter ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html) {target=_blank} het plaatsen om intelligent het filtreren van de algoritmeplukker te controleren.
+[!DNL Target] heeft a [ Incompatibele Criteria van de Filter ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}  het plaatsen om intelligent het filtreren van de algoritmeplukker te controleren.
 
 >[!NOTE]
 >

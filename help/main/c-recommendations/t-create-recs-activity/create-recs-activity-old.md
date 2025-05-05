@@ -30,7 +30,7 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
    >
    >Voor het oplossen van problemeninformatie over VEC, als u problemen hebt, zie [ het Oplossen van problemen de Visuele Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >De [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) optie in de voorafgaande illustratie is a [ Target Premium ](/help/main/c-intro/intro.md) eigenschap. Uw organisatie heeft een Target Standard-licentie als deze optie niet wordt weergegeven.
+   >De [[!UICONTROL [Choose Workplace]]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) optie in de voorafgaande illustratie is a [ Target Premium ](/help/main/c-intro/intro.md) eigenschap. Uw organisatie heeft een Target Standard-licentie als deze optie niet wordt weergegeven.
 
 1. (Voorwaardelijk) als u de klant van a [ Target Premium ](/help/main/c-intro/intro.md#premium) bent, kies a [ werkruimte ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -77,7 +77,7 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 
    >[!NOTE]
    >
-   >Niet alle criteria worden op elke pagina correct uitgevoerd. De pagina of het selectievakje moet `entity.id` of `entity.categoryId` doorgeven om de huidige aanbevelingen voor het item of de huidige categorie compatibel te maken. Over het algemeen is het beter alleen compatibele criteria te laten zien. Als u echter incompatibele criteria voor de activiteit wilt gebruiken, schakelt u het selectievakje **[!UICONTROL Compatible]** uit. Afhankelijk van uw Recommendations-instellingen ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]** ) wordt de optie [!UICONTROL Compatible] mogelijk niet weergegeven. Voor meer informatie, zie [ Montages ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html) {target=_blank}.
+   >Niet alle criteria worden op elke pagina correct uitgevoerd. De pagina of het selectievakje moet `entity.id` of `entity.categoryId` doorgeven om de huidige aanbevelingen voor het item of de huidige categorie compatibel te maken. Over het algemeen is het beter alleen compatibele criteria te laten zien. Als u echter incompatibele criteria voor de activiteit wilt gebruiken, schakelt u het selectievakje **[!UICONTROL Compatible]** uit. Afhankelijk van uw Recommendations-instellingen ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]** ) wordt de optie [!UICONTROL Compatible] mogelijk niet weergegeven. Voor meer informatie, zie [ Montages ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} .
 
    ![ Uitgezochte de dialoogdoos van Criteria ](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 

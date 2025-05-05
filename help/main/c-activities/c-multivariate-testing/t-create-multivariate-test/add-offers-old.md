@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Gebruik [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] om de aanbiedingen te maken die u in uw [!UICONTROL Multivariate Test] (MVT) wilt opnemen.
 
-Voor meer informatie over het gebruiken van VEC om aanbiedingen tot stand te brengen en uit te geven, zie {de opties van Composer van de 1} Visuele Ervaring.[](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
+Voor meer informatie over het gebruiken van VEC om aanbiedingen tot stand te brengen en uit te geven, zie {de opties van Composer van de 1} Visuele Ervaring.[&#128279;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
 
 >[!NOTE]
 >

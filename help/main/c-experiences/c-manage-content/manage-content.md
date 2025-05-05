@@ -96,7 +96,7 @@ Voor gedetailleerde informatie over de taken kunt u op aanbiedingen en omslagen 
 
 >[!NOTE]
 >
->De aanbiedingen van het beeld maken geen deel uit van het ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) model van de Toestemmingen van de Gebruiker van de Onderneming [.
+>De aanbiedingen van het beeld maken geen deel uit van het [&#128279;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) model van de Toestemmingen van de Gebruiker van de Onderneming .
 
 ## Definities van aanbiedingen weergeven {#section_6B059DD121434E6292CAB393507D010E}
 

@@ -83,7 +83,7 @@ De illustratie toont hoe het verkeer dat aan elke ervaring wordt toegewezen zich
 >
 >Als een activiteit slechts twee ervaringen heeft, krijgen beide ervaringen gelijk verkeer tot [!DNL Target] vindt een winnende ervaring met 75 % vertrouwen. Op dat moment wordt tweederde van het verkeer toegewezen aan de winnaar, en eenderde aan de verliezer. Als een ervaring 95% betrouwbaarheid bereikt, wordt 90% van het verkeer aan de winnaar toegewezen en wordt 10% aan de verliezer toegewezen. [!DNL Target] stuurt altijd wat verkeer naar de &quot;verliezende&quot; ervaring om valse positieven te vermijden (d.w.z. om wat exploratie te handhaven).
 
-Na een [!UICONTROL Auto-Allocate] activiteit wordt geactiveerd, de volgende bewerkingen vanaf de Tar[!DNL]interface voor ophalen is niet toegestaan:
+Na een [!UICONTROL Auto-Allocate] activiteit wordt geactiveerd, de volgende bewerkingen vanaf de Tarinterface voor ophalen is niet toegestaan:
 
 * De modus &quot;Verkeerstoewijzing&quot; omzetten in &quot;Handmatig&quot;
 * Het metrische type van het doel wijzigen

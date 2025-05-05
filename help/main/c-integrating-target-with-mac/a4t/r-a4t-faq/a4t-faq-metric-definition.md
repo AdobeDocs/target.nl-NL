@@ -17,13 +17,13 @@ Dit onderwerp bevat antwoorden op vragen die vaak over metrische definities en h
 
 ## Wat is de vervaldatum voor het lidmaatschap van activiteiten? Hoe lang nadat bezoekers de activiteit betreden worden hun acties geteld in de activiteit als zij het niet meer zien? {#section_41B4958F33534E4B96DEE0C981227A79}
 
-++ Antwoord De standaardvervaldatum voor de activiteit is 90 dagen na de laatste interactie van een bezoeker met de activiteit. Deze instelling kan indien nodig door ClientCare worden aangepast. Deze instelling is echter algemeen voor alle activiteiten, zodat ze niet voor één geval hoeft te worden aangepast.
++++ Antwoord De standaardvervaldatum voor de activiteit is 90 dagen na de laatste interactie van een bezoeker met de activiteit. Deze instelling kan indien nodig door ClientCare worden aangepast. Deze instelling is echter algemeen voor alle activiteiten, zodat ze niet voor één geval hoeft te worden aangepast.
 
 +++
 
 ## Waarom heb ik tijdens het configureren van mijn doelmeetgegevens geen toegang tot de opties voor Geavanceerde instellingen? {#adv-settings}
 
-++ beantwoord [!UICONTROL Advanced Settings] opties zijn niet beschikbaar voor activiteiten die [!DNL Analytics] als bron van rapportage (A4T).
++++ beantwoord [!UICONTROL Advanced Settings] opties zijn niet beschikbaar voor activiteiten die [!DNL Analytics] als bron van rapportage (A4T).
 
 Voor activiteiten die A4T gebruiken, het doel metrisch gebruikt altijd &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; en &quot;[!UICONTROL On Every Impression]&quot;. Deze instellingen zijn *niet* configureerbaar.
 
@@ -41,6 +41,6 @@ Voor niet-A4T-activiteiten kunt u de opdracht [Geavanceerde opties voor instelli
 
 ## Worden A4T-kenmerken omgezet in meerdere campagnes? {#section_7F15C727206440CD86B3A8CE77087DF9}
 
-++ Antwoord ja, gebruikend het &quot;Volledige plaatsen van de Toewijzing&quot;.
++++ Antwoord ja, gebruikend het &quot;Volledige plaatsen van de Toewijzing&quot;.
 
 +++

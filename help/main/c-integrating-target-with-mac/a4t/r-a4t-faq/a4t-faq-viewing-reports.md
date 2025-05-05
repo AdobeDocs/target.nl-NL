@@ -163,7 +163,7 @@ Een bron van beelden aan het rapport van een activiteit A4T na deactivatie kan v
 ## Waarom berekenen [!DNL Analytics] en [!UICONTROL Analytics for Adobe Target] (A4T) getallen voor de [!UICONTROL Unique Visitors] metrische waarde verschillend? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 +++Antwoord
-Wanneer u een test A/B in werking stelt, die t-test van het [ Welch ](https://en.wikipedia.org/wiki/Welch%27s_t-test) {target=_blank} (het vertrouwen metrisch) gebruikt om een winnaar van een test te kiezen, is één van de veronderstellingen dat er een vaste tijdhorizon is. De test is niet statistisch geldig tenzij u die vaste steekproefgrootte bekijkt.
+Wanneer u een test A/B in werking stelt, die t-test van het [ Welch ](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}  (het vertrouwen metrisch) gebruikt om een winnaar van een test te kiezen, is één van de veronderstellingen dat er een vaste tijdhorizon is. De test is niet statistisch geldig tenzij u die vaste steekproefgrootte bekijkt.
 
 De [!UICONTROL Unique Visitors] -metrische waarde verschilt alleen in [!DNL Analytics] en [!DNL Target] als u naar een periode kijkt die korter is dan de werkelijke test. Als u uw steekproefgrootte niet hebt bereikt, is de test niet zo betrouwbaar. Zie [ hoe niet om een Test A/B ](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) op [ Evan Miller&#39;s website ](https://www.evanmiller.org/index.html) voor meer informatie in werking te stellen.
 
@@ -221,7 +221,7 @@ Hier volgen enkele punten waarmee u rekening moet houden bij het weergeven van [
 Activiteitenafbeeldingen weergeven in [!DNL Analysis Workspace] :
 
 1. Klik in de gebruikersinterface van [!DNL Target] op **[!UICONTROL View in Analytics]** .
-1. Voeg de **[!UICONTROL Activity Impressions]** kolom aan het [[!DNL Analytics Workspace] ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) {target=_blank} rapport toe.
+1. Voeg de **[!UICONTROL Activity Impressions]** kolom aan het [[!DNL Analytics Workspace] ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank}  rapport toe.
 1. Klik in de kolom **[!UICONTROL Activity Impressions]** op het pictogram [!UICONTROL Gear] .
 1. Klik op **[!UICONTROL Use non-default attribution model]**.
 1. Selecteer **[!UICONTROL Same Touch Model]** > **[!UICONTROL Apply]** .

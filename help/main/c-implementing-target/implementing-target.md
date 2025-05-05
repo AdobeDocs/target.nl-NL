@@ -20,7 +20,7 @@ Voordat u [!DNL Adobe Target] gaat gebruiken, moet u deze op uw site implementer
 
 {{permissions-update}}
 
-De [ Gids van de Ontwikkelaar van Adobe Target ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html) {target=_blank} bevat informatie u moet weten alvorens u [!DNL Target] uitvoert.
+De [ Gids van de Ontwikkelaar van Adobe Target ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}  bevat informatie u moet weten alvorens u [!DNL Target] uitvoert.
 
 Het Developer-portaal bevat informatie over de volgende implementatietypen:
 
@@ -31,11 +31,11 @@ Het Developer-portaal bevat informatie over de volgende implementatietypen:
 * **Mobiele apps**: Informatie om u te helpen het gebruiken van [!DNL Adobe Experience Platform Mobile] SDKs uitvoeren.
 * **E-mail**: Informatie om u te helpen [!DNL Target] in e-mails uitvoeren.
 
-Voor meer informatie, zie de [ Gids van de Ontwikkelaar van Adobe Target ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html) {target=_blank}.
+Voor meer informatie, zie de [ Gids van de Ontwikkelaar van Adobe Target ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} .
 
 >[!NOTE]
 >
->Alle informatie die eerder inbegrepen in de *was voert de sectie van het Doel* in deze gids (de *Gids van de Praktijk van Adobe Target*) uit is nu inbegrepen in de [ Gids van de Ontwikkelaar ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html) {target=_blank}.
+>Alle informatie die eerder inbegrepen in de *was voert de sectie van het Doel* in deze gids (de *Gids van de Praktijk van Adobe Target*) uit is nu inbegrepen in de [ Gids van de Ontwikkelaar ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} .
 
 
 

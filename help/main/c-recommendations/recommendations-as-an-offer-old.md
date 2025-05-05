@@ -55,7 +55,7 @@ Als u aan de slag wilt gaan, maakt u een [!UICONTROL A/B Test] - of [!UICONTROL 
 
 1. Klik **[!UICONTROL Create Criteria]** of selecteer bestaande [ criteria ](/help/main/c-recommendations/c-algorithms/algorithms.md), dan klik **[!UICONTROL Next]** om de [!UICONTROL Select Design] dialoogdoos te tonen.
 
-1. Klik **[!UICONTROL Create Design]** of selecteer een bestaand [ ontwerp ](/help/main/c-recommendations/c-design-overview/design-overview.md), dan klik **[!UICONTROL  Next]**.
+1. Klik **[!UICONTROL Create Design]** of selecteer een bestaand [ ontwerp ](/help/main/c-recommendations/c-design-overview/design-overview.md), dan klik **[!UICONTROL &#x200B; Next]**.
 
 1. Geef in het dialoogvenster [!UICONTROL Options] het volgende op:
 

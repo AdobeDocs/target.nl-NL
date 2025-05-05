@@ -31,7 +31,7 @@ Informatie over toegang [!DNL Adobe Target] van de [!DNL Adobe Experience Cloud]
 
 ## Wijzig de standaardtaal voor de [!DNL Target] UI {#language}
 
-1. Nadat u zich hebt aangemeld bij de [!DNL Adobe Experience Cloud ] of [!DNL Target], klikt u op de profielavatar en klikt u vervolgens op **[!UICONTROL Edit Preferences]**.
+1. Nadat u zich hebt aangemeld bij de [!DNL Adobe Experience Cloud &#x200B;] of [!DNL Target], klikt u op de profielavatar en klikt u vervolgens op **[!UICONTROL Edit Preferences]**.
 
    ![Profiel bewerken](/help/main/c-intro/assets/change-language.png)
 

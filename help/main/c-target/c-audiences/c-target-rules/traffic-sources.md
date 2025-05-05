@@ -20,7 +20,7 @@ U kunt de bestemming bijvoorbeeld instellen op basis van de browser van de bezoe
 U kunt veelvoudige verkeersbronnen combineren om een complexe het richten regel tot stand te brengen.
 
 1. In de [!DNL Target] interface, klik **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
-1. 
+1. &#x200B;
    1. Geef een naam op voor het publiek en voeg een optionele beschrijving toe.
 1. Slepen en neerzetten **[!UICONTROL Traffic Sources]** in het deelvenster voor publieksopbouw.
 

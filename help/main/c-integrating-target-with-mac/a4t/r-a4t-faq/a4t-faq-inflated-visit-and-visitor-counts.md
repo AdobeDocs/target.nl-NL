@@ -17,7 +17,7 @@ Dit onderwerp bevat antwoorden op vragen die vaak over opgeblazen bezoek en bezo
 
 ## Ik zie een piek in bezoeken. Hoe kan ik zeggen of deze bezoeken veroorzaakt worden door gedeeltelijke data-treffers? {#section_28506672C6224ED18AC74F6A02F6F811}
 
-++ + Antwoord U kunt contact opnemen [Adobe Klantenservice](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om een rapport van Gedeeltelijke Gegevens terug te winnen. Deze informatie is niet rechtstreeks beschikbaar in de [!DNL Analytics] UI.
++++ Antwoord U kunt contact opnemen [Adobe Klantenservice](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om een rapport van Gedeeltelijke Gegevens terug te winnen. Deze informatie is niet rechtstreeks beschikbaar in de [!DNL Analytics] UI.
 
 +++
 

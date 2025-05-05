@@ -58,13 +58,13 @@ Waarom zou u moeten bijwonen:
 
   De kern van de rijpheid van de personalisatie is het leren van kunstmatige intelligentie en machines. [!DNL Adobe Target] gebruikt deze technologieën om het gedrag van gebruikers te begrijpen, voorkeuren te voorspellen en inhoud dynamisch op maat te maken. Door de macht van AI en ML te gebruiken, leer hoe de merken zich voorbij statische tests A/B en op regels-gebaseerde verpersoonlijking bewegen om dynamische, contextafhankelijke ervaringen te leveren.
 
-  [ luister aan de opname.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284) {target=_blank}
+  [ luister aan de opname.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank} 
 
 * **Hoge Aanbevelingen van Prestaties**
 
   Leer hoe aanbevelingsalgoritmen een game-wisselaar kunnen zijn voor bedrijven, waardoor betrokkenheid en inkomsten worden bevorderd. Van gepersonaliseerde productsuggesties aan inhoudaanbevelingen, de capaciteit om gebruikers naadloos door hun reis te begeleiden draagt direct aan het ontsluiten van significante bedrijfsgroei bij.
 
-  [ luister aan de opname.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685) {target=_blank}
+  [ luister aan de opname.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank} 
 
 * **ontgrendelend AI-Aangedreven Personalization**
 
@@ -111,7 +111,7 @@ Geef uw organisatie meer mogelijkheden om personalisatie te leveren, voorgesteld
 
 Het rapport van de belangrijkste analist suggereert dat bedrijven die zich uitblinken in personalisatie 40 procent meer inkomsten genereren dan hun tegenhangers. Om aan de vraag naar nieuwe, relevante en zeer gepersonaliseerde ervaringen bij elke klik te voldoen, hebben de marketers het juiste kader en de juiste strategie nodig. In dit webinar, sluit u zich aan bij de experts van Adobe om te leren hoe u gebruik kunt maken van een gegevensgestuurd raamwerk om de personalisatieprogramma&#39;s van uw organisatie op te bouwen en succes te behalen.
 
-* [ Opname verbinding ](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4) {target=_blank}
+* [ Opname verbinding ](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank} 
 
 ### Fine-tuning Personalization met AI-voeding: nieuwe functies in [!DNL Adobe Target] (11 oktober 2022)
 
@@ -132,7 +132,7 @@ We zijn erg enthousiast om wat &#39;zeer groot&#39;, baanbrekend nieuws te delen
    * Hoe merken snellere snelheden en beslissingen kunnen bieden door hun door AI aangedreven algoritmen af te stemmen
    * Unieke gebruiksscenario&#39;s voor het leveren van 1-op-1 personalisatie
 
-+++
+  +++
 
 ### [!DNL Adobe Target] Skill Builder - door AI gestuurde Personalization en aanbevelingen (15 september 2022) {#AI}
 
@@ -156,11 +156,11 @@ Mobiele ervaringen stimuleren innovatie in de manier waarop marketing- en engine
    * De metriek van de levenscyclus voor het testen en het richten over klantenervaringen
    * Mobiele SDK&#39;s = API&#39;s voor flexibele implementaties (iOS- en Android-platforms)
 
-+++
+  +++
 
 ### Chef&#39;s Collection: Recipes for Personalization (30 augustus 2022)
 
-Sluit zich aan bij het [!DNL Adobe Target] [!DNL] team aangezien zij omhoog sommige nieuwe ideeën over hoe u de meeste waarde uit Doel kunt krijgen. Gebaseerd op ons nieuwste eBook, &quot;Chef&#39;s Collection: Ideas for Personalization&quot;.
+Sluit zich aan bij het [!DNL Adobe Target]  team aangezien zij omhoog sommige nieuwe ideeën over hoe u de meeste waarde uit Doel kunt krijgen. Gebaseerd op ons nieuwste eBook, &quot;Chef&#39;s Collection: Ideas for Personalization&quot;.
 
 * [ Opname verbinding ](https://video.tv.adobe.com/v/346970/){target=_blank}
 
@@ -172,7 +172,7 @@ Sluit zich aan bij het [!DNL Adobe Target] [!DNL] team aangezien zij omhoog somm
    * Optimaliseren voor een concurrentievoordeel
    * Hyperpersonaliseerde ervaringen creëren
 
-+++
+  +++
 
 ### Real Time Loyalty Activation (25 augustus 2022)
 
@@ -201,7 +201,7 @@ Onderwerpen die we zullen verkennen:
 
   Sluit u aan bij Michael Klein (Director, Industry Strategy Retail) en Leina Betzer (Target Consultant, Adobe Premier Support) om te bespreken hoe de verkoop van e-mails in de detailhandel sterk groeit naarmate de kooppatronen en het gedrag van consumenten verschuiven, met een hogere vraag naar goederen en diensten op bepaalde markten.
 
-+++
+  +++
 
 ### [!DNL Adobe]: Personalization with Precision - [!DNL Adobe Analytics] en [!DNL Target] (2 juni 2022)
 
@@ -235,7 +235,7 @@ Leer beste praktijken bij het opvoeren van verpersoonlijkingsprogramma&#39;s op 
    * Algemene zakelijke impact door personalisatie- en experimentatieactiviteiten op het web en mobiele apparaten te schalen
    * Detailtips en trucs voor het gebruik van analysegegevens om gemiddelde bezoekers om te zetten in terugkerende atleten
 
-+++
+  +++
 
 ### [!DNL Adobe]: Personalization Industry Insider - Financial Services and Insurance (24 mei 2022)
 
@@ -247,7 +247,7 @@ Leer hoe financiële dienstverleners klanten steunen en informeren gebruikend ve
 
   Join Christopher Young (Director, Industry Strategy Financial Services) en James Capasso (Target Consultant, Adobe Premier Support) voor informatie over hoe merken reageren op directe veranderingen in de vraag en tegelijkertijd personalisatie centraal stellen in hun klantenafspraken. Leer hoe financiële dienstverleners klanten over de hele wereld steunen en informeren die zich zorgen maken over recente inflatiepatronen en -omstandigheden op hun investeringen.
 
-+++
+  +++
 
 ### Nationale Bank van de stad: Hoe bereiken we de top 1% in digitale optimalisatie (26 mei 2022)
 
@@ -266,7 +266,7 @@ De toolkit van de mening en gebruiksgevallen voor het uitvoeren van dwars-functi
    * Versnel de groei van uw bedrijf met meer betrokkenheid en acceptatie van persoonlijke aanbiedingen
    * Optimaliseer multikanaalcampagnes voor tijd-aan-waarde en ROI.
 
-+++
+  +++
 
 ### Webinar: personaliseren en testen met een latentie van nul met apparaatbeslissingen van [!DNL Adobe Target]
 
@@ -278,7 +278,7 @@ De toolkit van de mening en gebruiksgevallen voor het uitvoeren van dwars-functi
 
   In dit geregistreerde webinar bespreken de productdeskundigen van Adobe Target hoe het bewegen van kritieke ervaring optimaliseringsbesluiten op apparaat om plaatselijk met nul latentie uit te voeren deuren aan opwindende nieuwe gebruiksgevallen kan openen terwijl het verbeteren van plaatsprestaties voor uw klanten.
 
-+++
+  +++
 
 ### Webinar: Hoe HSBC Adobe [!DNL Target] en AI gebruikt om personalisatie snel en op schaal te optimaliseren en te leveren
 
@@ -298,7 +298,7 @@ De toolkit van de mening en gebruiksgevallen voor het uitvoeren van dwars-functi
 
    * Het artikel van McKinsey: &quot;[ de herstel COVID-19 zal digitaal ](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#) zijn,&quot;Mei 2020
 
-+++
+  +++
 
 ### [!DNL Adobe Target] Skill Builder: chatten met ontwikkelaars, migreren van [!DNL Adobe Target] mbox.js naar at.js {#skill-builder}
 

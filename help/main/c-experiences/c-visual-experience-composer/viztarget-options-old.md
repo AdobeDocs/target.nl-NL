@@ -111,7 +111,7 @@ Blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillende s
 
   Marge ondersteunt positieve en negatieve waarden.
 
-  Het doel ondersteunt ook andere grootteeenheden, zoals rem, pc en em. Voor meer informatie over deze eenheden, zie {de Bladen CSS van de Stijl van 0} Web Tips en Tricks ](https://www.w3.org/Style/Examples/007/units.en.html).[
+  Het doel ondersteunt ook andere grootteeenheden, zoals rem, pc en em. Voor meer informatie over deze eenheden, zie {de Bladen CSS van de Stijl van 0} Web Tips en Tricks [&#128279;](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **[!UICONTROL Padding]**
 
@@ -178,7 +178,7 @@ Blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillende s
    * [!UICONTROL Blur]
    * [!UICONTROL Opacity]
    * [!UICONTROL Invert]
-*[!UICONTROL  Hue-rotate]
+*[!UICONTROL &#x200B; Hue-rotate]
    * [!UICONTROL Saturate]
 
 * **[!UICONTROL CSS Editor]**
@@ -217,7 +217,7 @@ De volgende opties zijn beschikbaar:
 
 ### [!UICONTROL Offer Decision]
 
-Voeg een [ aanbieding toe die in  [!DNL Adobe Journey Optimizer] wordt gecreeerd ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) {target=_blank} om de beste aanbieding en ervaring aan uw klanten voor te stellen gebruikend offer decisioning.
+Voeg een [ aanbieding toe die in  [!DNL Adobe Journey Optimizer] wordt gecreeerd ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}  om de beste aanbieding en ervaring aan uw klanten voor te stellen gebruikend offer decisioning.
 
 **Nota:** Deze optie is beschikbaar wanneer het uitgeven van of het creëren van [ handboek [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) of [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) slechts activiteiten. Deze optie is niet beschikbaar voor andere typen activiteiten.
 
@@ -249,7 +249,7 @@ De volgende opties zijn beschikbaar:
 
 ### [!UICONTROL Offer Decision]
 
-Voeg een [ aanbieding toe die in  [!DNL Adobe Journey Optimizer] wordt gecreeerd ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) {target=_blank} om de beste aanbieding en ervaring aan uw klanten voor te stellen gebruikend offer decisioning.
+Voeg een [ aanbieding toe die in  [!DNL Adobe Journey Optimizer] wordt gecreeerd ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}  om de beste aanbieding en ervaring aan uw klanten voor te stellen gebruikend offer decisioning.
 
 **Nota:** Deze optie is beschikbaar wanneer het uitgeven van of het creëren van [ handboek [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) of [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) slechts activiteiten. Deze optie is niet beschikbaar voor andere typen activiteiten.
 
@@ -281,7 +281,7 @@ De volgende opties zijn beschikbaar:
 
 ### [!UICONTROL Offer Decision]
 
-Voeg een [ aanbieding toe die in  [!DNL Adobe Journey Optimizer] wordt gecreeerd ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) {target=_blank} om de beste aanbieding en ervaring aan uw klanten voor te stellen gebruikend offer decisioning.
+Voeg een [ aanbieding toe die in  [!DNL Adobe Journey Optimizer] wordt gecreeerd ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}  om de beste aanbieding en ervaring aan uw klanten voor te stellen gebruikend offer decisioning.
 
 **Nota:** Deze optie is beschikbaar wanneer het uitgeven van of het creëren van [ handboek [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) of [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) slechts activiteiten. Deze optie is niet beschikbaar voor andere typen activiteiten.
 
@@ -371,17 +371,17 @@ Wijzigingen die u tijdens een bewerkingssessie in uw activiteiten aanbrengt, ong
 
 ## Overwegingen {#considerations}
 
-* Als een aanbieding inhoud van de HTML bevat, zie &quot;hoe at.js aanbiedingen met inhoud van de HTML&quot;in [ hoe at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html) {target=_blank} voor meer informatie teruggeeft.
+* Als een aanbieding inhoud van de HTML bevat, zie &quot;hoe at.js aanbiedingen met inhoud van de HTML&quot;in [ hoe at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}  voor meer informatie teruggeeft.
 
 ## Ondersteuning voor aangepaste elementen {#custom}
 
-VEC steunt {de Componenten van het Web 0} ](https://developer.mozilla.org/en-US/docs/Web/Web_Components) om u gepersonaliseerde ervaringen en aanbiedingen op douaneelementen en op elementen binnen douaneelementen tot stand te brengen en te testen. [ Deze functionaliteit is beschikbaar in VEC voor alle [!DNL Target] activiteitstypen.
+VEC steunt {de Componenten van het Web 0} [&#128279;](https://developer.mozilla.org/en-US/docs/Web/Web_Components) om u gepersonaliseerde ervaringen en aanbiedingen op douaneelementen en op elementen binnen douaneelementen tot stand te brengen en te testen.  Deze functionaliteit is beschikbaar in VEC voor alle [!DNL Target] activiteitstypen.
 
 >[!NOTE]
 >
->De steun VEC voor douaneelementen wordt gesteund in [ at.js versie ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html) {target=_blank} 2.7.0 (of later) {target=_blank}. Zorg ervoor dat de vereiste versie van uw website is geïmplementeerd. Als u de [ Visuele de helperuitbreiding van Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) gebruikt, moet het ook de vereiste versie van at.js hebben opgesteld. De hierboven beschreven VEC-opties zijn niet zichtbaar en zijn beschikbaar voor gebruik met niet-ondersteunde versies van at.js.
+>De steun VEC voor douaneelementen wordt gesteund in [ at.js versie ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}  2.7.0 (of later) {target=_blank}. Zorg ervoor dat de vereiste versie van uw website is geïmplementeerd. Als u de [ Visuele de helperuitbreiding van Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) gebruikt, moet het ook de vereiste versie van at.js hebben opgesteld. De hierboven beschreven VEC-opties zijn niet zichtbaar en zijn beschikbaar voor gebruik met niet-ondersteunde versies van at.js.
 >
->De steun VEC voor douaneelementen wordt momenteel niet gesteund met het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html) {target=_blank}.
+>De steun VEC voor douaneelementen wordt momenteel niet gesteund met het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} .
 
 De meeste acties VEC worden gesteund op douanegebeurtenissen en binnen douanegebeurtenissen, met de volgende uitzonderingen:
 

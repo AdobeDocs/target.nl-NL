@@ -23,7 +23,7 @@ Maak uitsluitingsgroepen in [!UICONTROL Automated Personalization] (AP)-activite
 
 Uitsluitingsgroepen zijn een goede manier om ervoor te zorgen dat incompatibele aanbiedingen niet op verschillende plaatsen in dezelfde ervaring worden gepresenteerd. Stel dat u twee aanbiedingen hebt: de ene is voor een korting van 20% voor alle producten en de andere voor een korting van 15%. U wilt nooit dat deze twee aanbiedingen aan bezoekers in dezelfde ervaring worden getoond. Als u deze twee aanbiedingen aan een uitsluitingsgroep toevoegt, kunt u ervoor zorgen dat deze situatie nooit het geval is.
 
-U kunt ook beperken welke doelgroepen specifieke aanbiedingen kunnen zien in AP-activiteiten. Voor meer informatie, zie {de aanbiedingen van Automated Personalization van het 0} Doel ](/help/main/c-activities/t-automated-personalization/ap-target-offers.md).[
+U kunt ook beperken welke doelgroepen specifieke aanbiedingen kunnen zien in AP-activiteiten. Voor meer informatie, zie {de aanbiedingen van Automated Personalization van het 0} Doel [&#128279;](/help/main/c-activities/t-automated-personalization/ap-target-offers.md).
 
 **om een uitsluitingsgroep tot stand te brengen:**
 

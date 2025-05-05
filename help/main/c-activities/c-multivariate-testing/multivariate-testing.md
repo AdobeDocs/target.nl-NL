@@ -101,7 +101,7 @@ In deze overzichtsvideo wordt uitgelegd welke soorten activiteiten beschikbaar z
 
 ### Multivariate tests maken (9:25) ![Zelfstudie-badge](/help/main/assets/tutorial.png)
 
-In deze video wordt uitgelegd hoe u een test met meerdere varianten kunt begrijpen, plannen en maken met de opdracht [!DNL]Doelwerkstroom met instructies in drie stappen.
+In deze video wordt uitgelegd hoe u een test met meerdere varianten kunt begrijpen, plannen en maken met de opdracht Doelwerkstroom met instructies in drie stappen.
 
 * Een multivariatietest definiëren en ontwerpen
 * Een multivariatietest maken

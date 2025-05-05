@@ -40,7 +40,7 @@ De [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] browser uitb
 
 ## De browserextensie [!UICONTROL Visual Editing Helper] opvragen en installeren
 
-1. Navigeer aan de [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] browser uitbreiding in de Winkel van het Web van Chrome ](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca) {target=_blank}.
+1. Navigeer aan de [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] browser uitbreiding in de Winkel van het Web van Chrome ](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank} .
 1. Klik op **[!UICONTROL Add to Chrome]** > **[!UICONTROL Add Extension]** .
 1. Open VEC in [!DNL Target].
 1. Om de uitbreiding te gebruiken, klik het [!UICONTROL Visual Editing Helper] pictogram van de browser uitbreiding ( ![ Visuele het Uitgeven pictogram van de Uitbreiding ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png)) in uw browser van Chrome browser terwijl op de Wijze VEC of QA.

@@ -23,7 +23,7 @@ ht-degree: 0%
 
    Alle wijzigingen die u nu aanbrengt, zijn van toepassing op [!UICONTROL Experience A] . In een onderstaande stap klikt u op **[!UICONTROL Add Experience Targeting]** om meer ervaringen te creëren.
 
-   Terwijl u de muisaanwijzer over de elementen op de pagina beweegt, worden de elementen gemarkeerd. Om het even welk benadrukt element kan worden veranderd gebruikend VEC. Voor een lijst van acties die op een element kunnen worden uitgevoerd om de ervaring te veranderen, zie {de Opties van Composer van de 10} Visuele Ervaring ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).[
+   Terwijl u de muisaanwijzer over de elementen op de pagina beweegt, worden de elementen gemarkeerd. Om het even welk benadrukt element kan worden veranderd gebruikend VEC. Voor een lijst van acties die op een element kunnen worden uitgevoerd om de ervaring te veranderen, zie {de Opties van Composer van de 10} Visuele Ervaring [&#128279;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    >[!NOTE]
    >

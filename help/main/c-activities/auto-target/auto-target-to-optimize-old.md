@@ -62,9 +62,9 @@ De volgende termen zijn handig wanneer u [!UICONTROL Auto-Target] bespreekt:
 
 | Term | Definitie |
 |---|---|
-| [ Meervoudig-gewapende bandit ](https://en.wikipedia.org/wiki/Multi-armed_bandit) {target=_blank} | Een veelbewapende bandibenadering voor optimalisering brengt een evenwicht tot stand tussen verkennend leren en het benutten van dat leren. |
+| [ Meervoudig-gewapende bandit ](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank}  | Een veelbewapende bandibenadering voor optimalisering brengt een evenwicht tot stand tussen verkennend leren en het benutten van dat leren. |
 | [ Willekeurig bos ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Random Forest is een toonaangevende aanpak voor machinaal leren. Op het gebied van gegevenswetenschappen is het een ensemble classificatie, of regressiemethode, die werkt door veel beslissingsbomen te bouwen op basis van bezoekers en bezoekkenmerken. Binnen [!DNL Target] wordt Random Forest gebruikt om te bepalen welke ervaring naar verwachting de hoogste kans op conversie (of hoogste inkomsten per bezoek) voor elke specifieke bezoeker zal hebben. |
-| [ Thompson Steekproef ](https://en.wikipedia.org/wiki/Thompson_sampling) {target=_blank} | Het doel van Thompson Sampling is te bepalen welke ervaring de beste algemene (niet-gepersonaliseerde) ervaring is, terwijl de &#39;kosten&#39; van het vinden van die ervaring tot een minimum worden beperkt. Thompson-steekproeven kiezen altijd een winnaar, zelfs als er geen statistisch verschil tussen twee ervaringen is. |
+| [ Thompson Steekproef ](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank}  | Het doel van Thompson Sampling is te bepalen welke ervaring de beste algemene (niet-gepersonaliseerde) ervaring is, terwijl de &#39;kosten&#39; van het vinden van die ervaring tot een minimum worden beperkt. Thompson-steekproeven kiezen altijd een winnaar, zelfs als er geen statistisch verschil tussen twee ervaringen is. |
 
 ## Hoe [!UICONTROL Auto-Target] werkt {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 

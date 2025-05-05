@@ -17,13 +17,13 @@ Dit onderwerp bevat antwoorden op vragen die vaak worden gevraagd over het gebru
 
 ## Biedt Analytics for Adobe Target (A4T) ondersteuning voor omleidingsaanbiedingen? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
-++ + Antwoord ja, als uw implementatie gebruikt [!DNL at.js]. Uw implementatie moet echter voldoen aan de onderstaande minimumvereisten om te kunnen worden gebruikt [omleiding van aanbiedingen](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) in activiteiten die Analytics als rapportbron gebruiken.
++++ Antwoord ja, als uw implementatie gebruikt [!DNL at.js]. Uw implementatie moet echter voldoen aan de onderstaande minimumvereisten om te kunnen worden gebruikt [omleiding van aanbiedingen](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) in activiteiten die Analytics als rapportbron gebruiken.
 
 +++
 
 ## Wat zijn de minimumeisen om aanbiedingen om te leiden met A4T te gebruiken? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
-++ Antwoord Uw implementatie moet aan de volgende minimale vereisten voldoen:
++++ Antwoord Uw implementatie moet aan de volgende minimale vereisten voldoen:
 
 * Experience Cloud Bezoeker-id-service: [!DNL visitorAPI.js] versie 2.3.0 of hoger.
 * Adobe Analytics: [!DNL appMeasurement.js] versie 2.1.
@@ -70,7 +70,7 @@ Eén reden dat u omleidingsaanbiedingen wilt gebruiken voor alle ervaringen in d
 
 ## Wordt zowel Visual Experience Composer (VEC) als Form-Based Experience Composer ondersteund? {#section_FDA26FE7909B48539DA770559E687677}
 
-++ + Antwoord ja, beide composers worden gesteund zolang u de ingebouwde omleidingsaanbiedingen gebruikt.
++++ Antwoord ja, beide composers worden gesteund zolang u de ingebouwde omleidingsaanbiedingen gebruikt.
 
 Als u uw eigen aangepaste code voor omleiding gebruikt, moet u ervoor zorgen dat u de twee nieuwe parameters vult die aan omleiding URLs ( `adobe_mc_sdid` en `adobe_mc_ref`, hieronder toegelicht).
 
@@ -139,13 +139,13 @@ De volgende veelgestelde vragen bieden meer informatie over het gebruik van een 
 
 ### Biedt Analytics for Target (A4T) ondersteuning voor omleidingsaanbiedingen?
 
-++ + Antwoord ja, A4T via de Steun van SDK van het Web van het Platform [omleiding van aanbiedingen](/help/main/c-experiences/c-manage-content/offer-redirect.md).
++++ Antwoord ja, A4T via de Steun van SDK van het Web van het Platform [omleiding van aanbiedingen](/help/main/c-experiences/c-manage-content/offer-redirect.md).
 
 +++
 
 ### zijn [!UICONTROL Visual Experience Composer] (VEC) en [!UICONTROL Form-Based Experience Composer] ondersteund?
 
-++ + Antwoord ja, de [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) en de [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) worden ondersteund als u ingebouwde omleidingsvoorstellen gebruikt.
++++ Antwoord ja, de [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) en de [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) worden ondersteund als u ingebouwde omleidingsvoorstellen gebruikt.
 
 +++
 

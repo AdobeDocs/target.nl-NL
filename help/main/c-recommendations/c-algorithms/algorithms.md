@@ -52,7 +52,7 @@ U kunt aanbevelingen op de waarde van een attribuut van het douaneprofiel ook ba
 
 >[!NOTE]
 >
->Aangepaste profielparameters kunnen worden doorgegeven aan [!DNL Target] via JavaScript, API of integratie. Voor meer informatie over de attributen van het douaneprofiel, zie {profielen van 0} Bezoeker ](/help/main/c-target/c-visitor-profile/visitor-profile.md).[
+>Aangepaste profielparameters kunnen worden doorgegeven aan [!DNL Target] via JavaScript, API of integratie. Voor meer informatie over de attributen van het douaneprofiel, zie {profielen van 0} Bezoeker [&#128279;](/help/main/c-target/c-visitor-profile/visitor-profile.md).
 
 Stel dat u aanbevolen films wilt weergeven op basis van de film die een gebruiker het laatst aan de wachtrij heeft toegevoegd.
 

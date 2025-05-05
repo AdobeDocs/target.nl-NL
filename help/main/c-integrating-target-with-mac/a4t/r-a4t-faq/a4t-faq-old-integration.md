@@ -17,7 +17,7 @@ Dit onderwerp bevat antwoorden op vragen die vaak over erfenis SiteCatalyst aan 
 
 ## Waarom zie ik een Activiteitenrapport en een Campagne>Recipe-rapport in Analytics? {#section_ECF18A7E759A4E7F93553DB187A677E9}
 
-++ Antwoord de SiteCatalyst aan Test&amp;Target integratie (de oude integratie) en Analytics voor Doel (A4T) zijn verschillend.
++++ Antwoord de SiteCatalyst aan Test&amp;Target integratie (de oude integratie) en Analytics voor Doel (A4T) zijn verschillend.
 
 Het activiteitenverslag is bedoeld voor de nieuwere integratie van A4T.
 

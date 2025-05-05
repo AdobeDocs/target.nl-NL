@@ -21,11 +21,11 @@ U kunt ervaringen met [!DNL Target] -gegevens direct uit het vak aanpassen. Maar
 
 U kunt bijvoorbeeld aankoopgegevens van uw verkooppunt koppelen aan een bezoekersprofiel. Hiertoe maakt u gewoon een CSV-bestand met maximaal 200 offlinevariabelen en uploadt u het bestand rechtstreeks naar [!DNL Adobe Experience Cloud] via een bestandsupload. U kunt ook FTP gebruiken om het bestand te hosten en te plannen dat het regelmatig wordt bijgewerkt. Als uw klantkenmerken zich in [!DNL Adobe Experience Cloud] bevinden, kunt u ze toewijzen aan [!DNL Experience Cloud] oplossingen zoals [!DNL Adobe Analytics] en [!DNL Target] , waar ze beschikbaar zijn voor analyse, tests en personalisatie.
 
-Zie {de attributen van de Douane 0} ](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) voor geleidelijke instructies.[
+Zie {de attributen van de Douane 0} [&#128279;](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) voor geleidelijke instructies.
 
 **Goed om te weten**: Omdat [!DNL Target] een open en agnostisch platform is dat goed met verschillende technologieën werkt, kunt u CRM toevoegen of gekochte gegevens op vele verschillende manieren. Dat betekent u een methode kunt kiezen die het beste voor uw organisatie werkt.
 
-Zie [ Methoden om gegevens in Doel ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html) {target=_blank} voor meer informatie te krijgen.
+Zie [ Methoden om gegevens in Doel ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}  voor meer informatie te krijgen.
 
 ## Tip 2: Vergroot uw persoonlijke voorkeur door [!DNL Target] publiek te laten overvloeien met ander publiek in Adobe Experience Cloud.
 

@@ -53,7 +53,7 @@ U kunt ook op **[!UICONTROL Browse]** klikken, naar een pagina navigeren die bes
 >
 >Als een aanwijsstatus afhankelijk is van JavaScript, moet u ervoor zorgen dat **[!UICONTROL Disable JavaScript]** niet is geselecteerd. JavaScript moet zijn ingeschakeld om JavaScript-elementen te bewerken.
 
-Voor informatie over de opties beschikbaar in VEC, zie {de Opties van Composer van 0} Visuele Ervaring ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).[
+Voor informatie over de opties beschikbaar in VEC, zie {de Opties van Composer van 0} Visuele Ervaring [&#128279;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
 
 U kunt enkele wijzigingen op een pagina uitvoeren terwijl de pagina wordt geladen (of nadat de pagina niet is geladen), of u kunt het laden van de pagina in de VEC annuleren. Zie voor meer informatie:
 

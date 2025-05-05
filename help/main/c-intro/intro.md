@@ -27,7 +27,7 @@ De beste praktijken van de industrie worden geïntegreerd in [!DNL Target Standa
 
 ## [!DNL Target Premium] {#premium}
 
-[!BADGE  Premium ]{type=Positive}
+[!BADGE &#x200B; Premium &#x200B;]{type=Positive}
 
 [!DNL Target Premium] is een geavanceerd aanbod waarvoor een licentie vereist is om premiumfuncties toe te voegen aan [!DNL Target Standard] . Alle [!DNL Target Premium] -artikelen in [!DNL Target] -hulplijnen bevatten het [!UICONTROL Premium] -symbool boven aan elke pagina of inline bij de desbetreffende tekst. U kunt op het badge [!UICONTROL Premium] klikken en koppelingen naar deze sectie maken.
 
@@ -47,7 +47,7 @@ AP is volledig geautomatiseerd, voortdurend leerend met minimale menselijke anal
 
 ### Aanbevelingen
 
-](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) de activiteiten van de aanbevelingen [ {tonen automatisch producten of inhoud die uw klanten zouden kunnen interesseren die op vorige gebruikersactiviteit worden gebaseerd. [!UICONTROL Recommendations] helpt klanten bij het doorsturen van relevante items waarvan ze wellicht geen kennis hebben.
+[&#128279;](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) de activiteiten van de aanbevelingen  &lbrace;tonen automatisch producten of inhoud die uw klanten zouden kunnen interesseren die op vorige gebruikersactiviteit worden gebaseerd. [!UICONTROL Recommendations] helpt klanten bij het doorsturen van relevante items waarvan ze wellicht geen kennis hebben.
 
 Een aanbeveling bepaalt hoe een product aan een klant, afhankelijk van de activiteiten van die klant op de plaats wordt voorgesteld. Bijvoorbeeld:
 
@@ -76,11 +76,11 @@ Deze functionaliteit opent volledig nieuwe mogelijkheden, zoals:
 
 ### Machtigingen voor zakelijke gebruikers
 
-](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) de functionaliteit van de Toestemmingen van de Gebruiker van de Onderneming [ laat u verschillende projecten (genoemd &quot;Profielen van het Product&quot;in [!DNL Adobe Admin Console for Enterprise]) tot stand brengen. Met [!UICONTROL Enterprise User Permissions] kunt u verschillende machtigingen toewijzen aan één gebruiker die de toegangsrechten van die gebruiker voor elk project instelt. Deze afzonderlijke projecten kunnen worden vergeleken met de manier waarop de rapportsuites werken in [!DNL Adobe Analytics] . Elk project kan specifieke gebruikers met specifieke rollen hebben die op een reeks eigenschappen van toepassing zijn. Het resultaat is dat klanten de weergave kunnen beperken, de toegang tot hun gebruikers kunnen bewerken, goedkeuren en publiceren. U kunt gebruikers beperken op basis van regio-, omgeving- (dvd/stage/prod), kanaal- of andere aangepaste criteria.
+[&#128279;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) de functionaliteit van de Toestemmingen van de Gebruiker van de Onderneming  laat u verschillende projecten (genoemd &quot;Profielen van het Product&quot;in [!DNL Adobe Admin Console for Enterprise]) tot stand brengen. Met [!UICONTROL Enterprise User Permissions] kunt u verschillende machtigingen toewijzen aan één gebruiker die de toegangsrechten van die gebruiker voor elk project instelt. Deze afzonderlijke projecten kunnen worden vergeleken met de manier waarop de rapportsuites werken in [!DNL Adobe Analytics] . Elk project kan specifieke gebruikers met specifieke rollen hebben die op een reeks eigenschappen van toepassing zijn. Het resultaat is dat klanten de weergave kunnen beperken, de toegang tot hun gebruikers kunnen bewerken, goedkeuren en publiceren. U kunt gebruikers beperken op basis van regio-, omgeving- (dvd/stage/prod), kanaal- of andere aangepaste criteria.
 
 ## Beta-functies {#beta}
 
-[!BADGE  Beta ]{type=Informative}
+[!BADGE &#x200B; Beta &#x200B;]{type=Informative}
 
 Het team van [!DNL Adobe Target] laat vaak nieuwe eigenschappen voor bepaalde klanten voor het testen en terugkoppelen doeleinden toe. Nadat de testperiode is voltooid, worden deze functies in toekomstige versies van [!DNL Target Standard/Premium] voor alle klanten ingeschakeld en in releaseopmerkingen aangekondigd.
 

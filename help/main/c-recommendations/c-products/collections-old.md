@@ -46,7 +46,7 @@ Maak een verzameling om de producten of inhoud te ordenen die u wilt weergeven i
 
    ![ pictogrammen van de Bedekking: geef uit, kopieer, en schrap ](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Het &quot;Aantal Punten&quot;voor elke inzameling op de [!UICONTROL Collections] lijstmening wordt gemeld is het aantal producten die de regels voor die inzameling binnen de gevormde standaardRecommendations [ gastheergroep ](/help/main/administrating-target/hosts.md) (milieu) aanpassen. Zie [ Montages ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html) {target=_blank} om de standaardgastheergroep te veranderen.
+   Het &quot;Aantal Punten&quot;voor elke inzameling op de [!UICONTROL Collections] lijstmening wordt gemeld is het aantal producten die de regels voor die inzameling binnen de gevormde standaardRecommendations [ gastheergroep ](/help/main/administrating-target/hosts.md) (milieu) aanpassen. Zie [ Montages ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}  om de standaardgastheergroep te veranderen.
 
 1. Klik op **[!UICONTROL Create Collection]**.
 
@@ -68,7 +68,7 @@ Maak een verzameling om de producten of inhoud te ordenen die u wilt weergeven i
 
 ## Een verzameling maken met Geavanceerd zoeken
 
-U kunt inzamelingen tot stand brengen gebruikend Geavanceerd Onderzoek op de ](/help/main/c-recommendations/c-products/catalog-search.md#save-as) pagina van het Onderzoek van de Catalogus [ ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+U kunt inzamelingen tot stand brengen gebruikend Geavanceerd Onderzoek op de [&#128279;](/help/main/c-recommendations/c-products/catalog-search.md#save-as) pagina van het Onderzoek van de Catalogus  ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
 ![ sparen als dialoog ](/help/main/c-recommendations/c-products/assets/save-as.png)
 

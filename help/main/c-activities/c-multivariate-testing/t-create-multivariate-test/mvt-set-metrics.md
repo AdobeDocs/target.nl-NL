@@ -56,7 +56,7 @@ Wanneer u metrisch noemt of anders noemt, worden de volgende karakters niet toeg
 | `-` | Min |
 | `@` | Bij ondertekenen |
 
-## De video van de opleiding: Metriek van de activiteit (7:43) {het badge van het 0} Leerprogramma ](/help/main/assets/tutorial.png)![
+## De video van de opleiding: Metriek van de activiteit (7:43) &lbrace;het badge van het 0&rbrace; Leerprogramma ![&#128279;](/help/main/assets/tutorial.png)
 
 Deze video bevat informatie over het werken met succesmetriek.
 

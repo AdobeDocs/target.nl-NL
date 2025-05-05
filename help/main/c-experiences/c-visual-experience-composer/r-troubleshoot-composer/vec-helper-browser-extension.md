@@ -19,7 +19,7 @@ De VEC Helper-browser is een [!DNL Chrome] -extensie. Deze extensie is niet nodi
 
 >[!IMPORTANT]
 >
->* De oudere [!DNL Target] VEC Helper-extensie die in dit artikel wordt beschreven, is gemaakt met Manifest V2. [!DNL Google] kondigde aan dat het geen extensies meer toestaat die zijn gemaakt met Manifest V2 vanaf juni 2024. Voor meer informatie, zie de [ Manifest V2 verklaring van de steunchronologie ](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline) {target=_blank} van [!DNL Google] op *Chrome voor de plaats van Ontwikkelaars*.
+>* De oudere [!DNL Target] VEC Helper-extensie die in dit artikel wordt beschreven, is gemaakt met Manifest V2. [!DNL Google] kondigde aan dat het geen extensies meer toestaat die zijn gemaakt met Manifest V2 vanaf juni 2024. Voor meer informatie, zie de [ Manifest V2 verklaring van de steunchronologie ](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank}  van [!DNL Google] op *Chrome voor de plaats van Ontwikkelaars*.
 >
 >* Vanaf juni 2024 wordt in [!DNL Google] begonnen met het uitschakelen van extensies die zijn gemaakt met Manifest V2, inclusief de extensie die in dit onderwerp wordt beschreven. [!DNL Adobe] adviseert dat de klanten zich aan de nieuwere [ Visuele het Uitgeven uitbreiding van de Helper ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) zo spoedig mogelijk bewegen.
 
@@ -29,7 +29,7 @@ De VEC Helper-browser is een [!DNL Chrome] -extensie. Deze extensie is niet nodi
 * De website bevindt zich in een iframe.
 * De bibliotheek at.js is nog niet geïmplementeerd op de website.
 * De QA- of werkgebiedsite van de klant is niet beschikbaar voor de buitenwereld (de site is intern).
-* Er zijn sommige huidige beperkingen wanneer het proberen om VEC te gebruiken om een website te openen die [ de Werknemers van de Dienst ](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) {target=_blank} (SW) gebruikt.
+* Er zijn sommige huidige beperkingen wanneer het proberen om VEC te gebruiken om een website te openen die [ de Werknemers van de Dienst ](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank}  (SW) gebruikt.
 
 SW is een Webtechnologie die kan worden gebruikt om verzoeken voor het domein te onderscheppen zij op door een Web-pagina worden geïnstalleerd. De SBW heeft het paginabezoek overleefd en activeert zichzelf bij volgende bezoeken. SW beslist welke verzoeken door gaan en welke degenen in plaats daarvan van een geheim voorgeheugen worden onderschept en worden gediend.
 

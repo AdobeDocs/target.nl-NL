@@ -45,7 +45,7 @@ Normale A/B-tests berekenen het vertrouwen op basis van p-waarden. [!UICONTROL A
 
 >[!IMPORTANT]
 >
->In [!DNL Target] wordt een winnaar weergegeven na een vooraf gedefinieerd minimumaantal conversies. De uiteindelijke beslissing om de winnaar te kiezen, moet echter altijd gebaseerd zijn op de resultaten van de [!DNL Adobe Target] samplegroottecalculator. [!DNL Target] houdt geen rekening met de basisconversiekoersen van een site en andere belangrijke aspecten die in de calculator worden gebruikt om de duur van de activiteit te bepalen. Als gevolg hiervan kan [!DNL Target] een winnaar eerder weergeven dan op basis van een minimumaantal conversies gerechtvaardigd is. Voor meer informatie, zie {de calculator van de Grootte van 0} Steekproef ](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).[
+>In [!DNL Target] wordt een winnaar weergegeven na een vooraf gedefinieerd minimumaantal conversies. De uiteindelijke beslissing om de winnaar te kiezen, moet echter altijd gebaseerd zijn op de resultaten van de [!DNL Adobe Target] samplegroottecalculator. [!DNL Target] houdt geen rekening met de basisconversiekoersen van een site en andere belangrijke aspecten die in de calculator worden gebruikt om de duur van de activiteit te bepalen. Als gevolg hiervan kan [!DNL Target] een winnaar eerder weergeven dan op basis van een minimumaantal conversies gerechtvaardigd is. Voor meer informatie, zie {de calculator van de Grootte van 0} Steekproef [&#128279;](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## De rapportage van optillen en vertrouwen in [!UICONTROL Auto-Allocate] -activiteiten begrijpen {#lift-confidence}
 

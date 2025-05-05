@@ -41,7 +41,7 @@ Meer informatie over AEM [!UICONTROL Experience Fragments] en [!UICONTROL Conten
 
 U moet zijn voorzien van [!UICONTROL Experience Fragments] functionaliteit binnen [!DNL Target]. Bovendien moet u [!DNL AEM] as a Cloud Service of [!DNL AEM] 6.4 (of hoger). Uw accountvertegenwoordiger kan ervoor zorgen dat u voldoet aan de vereisten om deze functie te gebruiken:
 
-* [!DNL Adobe Experience Manager ] as a Cloud Service
+* [!DNL Adobe Experience Manager &#x200B;] as a Cloud Service
 * [!DNL Adobe Experience Manager] 6.5
 * [!DNL Adobe Experience Manager] 6.4
 * [!DNL Adobe Target Standard] of [!DNL Adobe Target Premium] account

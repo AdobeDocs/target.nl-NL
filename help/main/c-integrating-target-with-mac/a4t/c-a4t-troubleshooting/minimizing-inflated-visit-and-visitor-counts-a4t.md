@@ -91,7 +91,7 @@ Wanneer het creëren van de virtuele rapportreeks, specificeer de volgende confi
 * en
 * Koppelingsinstanties afsluiten: Is niet bestaand
 
-**Zwevende treffers: ** In minder situaties, blijven de gebruikers niet lang genoeg op de pagina voor een vraag van de Analyse en het Doel kreeg geen juiste MCID. Deze hits worden door Adobe gedefinieerd als &#39;zwevende&#39; hits. Deze treffers vertegenwoordigen klanten die zelden terugkeren en ze verhogen bezoek en bezoekers tellen onterecht.
+**Zwevende treffers: &#x200B;** In minder situaties, blijven de gebruikers niet lang genoeg op de pagina voor een vraag van de Analyse en het Doel kreeg geen juiste MCID. Deze hits worden door Adobe gedefinieerd als &#39;zwevende&#39; hits. Deze treffers vertegenwoordigen klanten die zelden terugkeren en ze verhogen bezoek en bezoekers tellen onterecht.
 
 Als u deze &#39;zwevende&#39; treffers wilt minimaliseren, kunt u een [virtuele rapportsuite](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) dit sluit deze treffers uit , zoals hierboven uiteengezet .
 

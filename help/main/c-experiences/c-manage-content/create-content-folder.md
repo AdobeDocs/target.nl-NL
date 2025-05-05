@@ -51,6 +51,6 @@ Voor informatie over de taken kunt u op aanbiedingen en omslagen uitvoeren, zie 
 
 >[!NOTE]
 >
->De aanbiedingen van het beeld maken geen deel uit van het ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) model van de Toestemmingen van de Gebruiker van de Onderneming [.
+>De aanbiedingen van het beeld maken geen deel uit van het [&#128279;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) model van de Toestemmingen van de Gebruiker van de Onderneming .
 
 Voor informatie over de taken kunt u op aanbiedingen en omslagen uitvoeren, zie [ Werk met inhoud in de bibliotheek van Activa ](/help/main/c-experiences/c-manage-content/assets-working.md).

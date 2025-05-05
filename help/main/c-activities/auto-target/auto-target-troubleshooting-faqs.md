@@ -83,7 +83,7 @@ Als u substantiële wijzigingen wilt aanbrengen in de inhoud van uw [!UICONTROL 
 
 ### Hoe lang moet ik wachten op modellen om te bouwen? {#how-long}
 
-++ + Antwoord De tijd die nodig is om modellen op te bouwen in uw [!UICONTROL Auto-Target] activiteit hangt typisch van het verkeer aan uw geselecteerde activiteitenplaatsen en omzettingen verbonden aan uw metrisch van het activiteitensucces af.
++++ Antwoord De tijd die nodig is om modellen op te bouwen in uw [!UICONTROL Auto-Target] activiteit hangt typisch van het verkeer aan uw geselecteerde activiteitenplaatsen en omzettingen verbonden aan uw metrisch van het activiteitensucces af.
 
 [!UICONTROL Auto-Target] probeert niet om een gepersonaliseerd model voor een bepaalde ervaring te bouwen tot er minstens 50 omzettingen voor die ervaring zijn. Bovendien, als het gebouwde model van ontoereikende kwaliteit is (zoals bepaald door off-line evaluatie van &quot;test&quot;gegevens van de greep, die [een metrisch die als AUC wordt bekend](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), wordt het model niet gebruikt om verkeer op een gepersonaliseerde manier te dienen.
 

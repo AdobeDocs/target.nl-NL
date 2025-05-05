@@ -37,7 +37,7 @@ Voor gedetailleerde informatie over succesmetriek, zie [ Metriek van het Succes 
 
    De correcte configuratie van succesmetriek is kritiek om ervoor te zorgen u de gegevens krijgt die u verwacht.
 
-   Voor meer informatie, zie {de Metriek van het 0} Succes ](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).[
+   Voor meer informatie, zie {de Metriek van het 0} Succes [&#128279;](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. (Optioneel) Voeg aanvullende metriek toe.
 
@@ -54,7 +54,7 @@ Wanneer u metrisch noemt of anders noemt, worden de volgende karakters niet toeg
 | - | Min |
 | @ | Bij ondertekenen |
 
-## De video van de opleiding: Metriek van de activiteit (7:43) {het badge van het 0} Leerprogramma ](/help/main/assets/tutorial.png)![
+## De video van de opleiding: Metriek van de activiteit (7:43) &lbrace;het badge van het 0&rbrace; Leerprogramma ![&#128279;](/help/main/assets/tutorial.png)
 
 Deze video bevat informatie over het werken met succesmetriek.
 
