@@ -6,9 +6,9 @@ short-description: Leer over de nieuwe eigenschappen, de verhogingen, en de moei
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 579ebd9bebd3faa724f0d1d542f4d23766adefe3
+source-git-commit: 0f96fb2a74a0716542308037d183847c91b1dc04
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -19,114 +19,30 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 (De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik door [!DNL Adobe] .)
 
-## [!DNL Target Standard/Premium] 25.4.5 (25 april 2025)
+## [!DNL Target Standard/Premium] 25.5.1 (5 mei 2025)
 
 Deze release bevat de volgende correcties en updates:
 
-* Probleem verholpen waarbij verschillen optraden tussen de pagina met [!UICONTROL Activity] instellingen en de overzichtspagina van [!UICONTROL Reporting] . (TGT-52203)
-* Probleem verholpen waardoor het toevoegen van een nieuwe pagina aan een activiteit niet mogelijk was vanwege een ongeldige fout bij de gebruikersinvoer. (TGT-52263)
-* Probleem verholpen waarbij `OptionLocalIDs` onjuist werd verhoogd wanneer de optie ongewijzigd blijft. (TGT-52187)
-* Probleem verholpen waarbij `location` en `OptionLocalIDs` onjuist werden verhoogd wanneer de optie ongewijzigd blijft. (TGT-52188)
-* Probleem verholpen waarbij de locatie op de pagina [!UICONTROL Overview] van de activiteit onjuist was. (TGT-52182)
-* Probleem verholpen waarbij een ongeldige selectiewaarschuwing niet werd weergegeven voor een ongeldige locatie. (TGT-52110)
-* Probleem verholpen zodat gedownloade rapportbestanden gegevens correct weergeven in de rapportage-UI. (TGT-52068)
-* Probleem verholpen zodat batchbewerkingen niet mislukken na het toevoegen van regels voor het leveren van pagina&#39;s. (TGT-52097)
-* Probleem opgelost waarbij [!DNL Target] alle queryparameters van de URL van de website bijsnijde. (TGT-52100)
-* Oplossing voor een consolefout waardoor klanten geen activiteiten konden maken in zowel de verouderde als bijgewerkte gebruikersinterface van [!DNL Target] . (TGT-52181)
-* Probleem verholpen waarbij klanten werden verhinderd nieuwe pagina&#39;s toe te voegen, wat een ongeldige fout bij gebruikersinvoer tot gevolg had. (TGT-52258)
-* Probleem verholpen waarbij wijzigingen verdwenen nadat extra pagina&#39;s waren toegevoegd en weer naar het tabblad [!UICONTROL Experiences] werd genavigeerd. (TGT-52264)
-* Probleem verholpen waarbij klanten werden verhinderd het publiek te wijzigen in een [!UICONTROL Experience Targeting] (XT) -activiteit. (TGT-52191)
-* Correctie van een fout die het bewerken van een XT-activiteit als gevolg van een niet-ondersteunde UI-regel heeft verhinderd. (TGT-52273)
-* Probleem verholpen in de bijgewerkte versie van [!UICONTROL Visual Experience Composer] (VEC), waarbij broodkruimels niet altijd onder aan de editor werden weergegeven, waardoor er problemen optraden bij het nauwkeurig selecteren van elementen. (TGT-52169)
-* Probleem verholpen waarbij in de vervolgkeuzelijst [!UICONTROL Audience] niet alle soorten publiek werden weergegeven vanwege paginering. (TGT-52204)
-* Probleem verholpen die een ongeldig bericht veroorzaakte dat de gebruiker invoerde bij het toevoegen van nieuwe aanbiedingen in [!UICONTROL Automated Personalization] (AP) activiteiten. (TGT-52210)
-* Probleem verholpen waarbij [!UICONTROL Analytics for Target] (A4T) ten onrechte als bron voor rapportage werd geselecteerd, ook al had de klant geen toegang tot A4T. (TGT-5226)
-* Probleem verholpen waarbij het opslaan van een activiteit met de metrische URL van [!UICONTROL View a Page] werd voorkomen. (TGT-52260)
-* Probleem verholpen waarbij klanten werden verhinderd werkruimten te selecteren tijdens het maken van aanbiedingen binnen een activiteit. (TGT-52289)
-* Probleem verholpen waarbij klanten werden verhinderd activiteiten te maken in alle werkruimten. (Tgt-52218)
-* Probleem verholpen waarbij wijzigingen van de ene ervaring onjuist werden weergegeven bij het schakelen naar een andere ervaring. (TGT-52184)
-* Probleem verholpen waarbij de standaardaanbieding onjuist werd weergegeven in de gebruikersinterface van [!DNL Target] bij het openen van de activiteit. (TGT-52198)
-
-## Update voor doelmachtigingen (22 april 2025)
-
-Deze toekomstige update verbetert de organisatorische controle over [!DNL Target] instantieconfiguraties, die toevallige updates verhinderen die activiteitenlevering over diverse test en verpersoonlijkingsteams zouden kunnen beïnvloeden.
-
-Vanaf 22 april 2025 kunnen alleen [!UICONTROL Product] - en [!UICONTROL Solutions] -beheerders instellingen in de [!UICONTROL Administration] -secties bijwerken, ongeacht hun rollen in [!DNL Target] -werkruimten. Gebruikers zonder deze machtiging hebben alleen-lezen toegang tot de secties van [!UICONTROL Administration] .
-
-Voor meer informatie, zie [ Doel beheren ](/help/main/administrating-target/start-target.md).
-
-## [!DNL Target Standard/Premium] 25.4.4 (17 april 2025)
-
-Deze release bevat de volgende correcties en updates:
-
-* Er is een foutbericht toegevoegd om gebruikers te begeleiden bij het oplossen van dubbele opties in een activiteit. (TGT-51927)
-* Correctie van een probleem waarbij `ClickTrack` kiezers niet werden verwijderd wanneer ze pagina&#39;s of ervaringen met omleidingsvoorstellen verwijderden. (TGT-51952)
-* Probleem verholpen dat werd veroorzaakt door het toestaan van lege `ClickTrack` kiezers. [!DNL Target] vereist nu dat het selectieveld niet leeg is. (TGT-52107)
-* Probleem verholpen waarbij metrische gegevens met dubbele namen onjuist werden toegestaan. Metriek vereist nu unieke namen. (TGT-52201)
-* Probleem verholpen waarbij publieksdefinities niet zichtbaar waren tijdens het bewerken van doelwitten op aanbiedingsniveau in [!UICONTROL Automated Personalization] (AP)-activiteiten. (TGT-52148)
-* Probleem verholpen waardoor klanten met [!UICONTROL Editor] -rechten geen activiteiten konden opslaan. (TGT-5227)
-* `OptionLocalIDs` wordt niet meer verkeerd verhoogd wanneer de optie ongewijzigd blijft. (TGT-52139)
-* Probleem verholpen waarbij het bericht &#39;Invalid `optionLocalIds`&#39; werd gegenereerd bij het maken van een activiteit. (TGT-52154)
-* De discrepanties tussen de definitie van `OptionLocalIDs` voor een activiteit en de definitie van ervaringen zijn gecorrigeerd. (TGT-52215)
-* Probleem verholpen dat een validatiefout veroorzaakte die optrad bij het maken van een A/B-activiteit. (TGT-51923)
-
-## [!DNL Target Standard/Premium] 25.4.3 (11 april 2025)
-
-Deze release bevat de volgende correcties en updates:
-
-* Probleem verholpen waardoor klanten de publieksinformatie-pop-up voor bepaalde [!UICONTROL Experience Targeting] (XT) activiteiten niet konden openen. (TGT-52049)
-* Probleem verholpen waarbij de publieksinstelling terugkeerde naar &quot;[!UICONTROL All Visitors]&quot; na wijzigingen die in [!UICONTROL Visual Experience Composer] (VEC) waren aangebracht. (TGT-52132)
-* Correctie van een probleem waarbij publieksverfijningen niet werden weergegeven voor specifieke activiteiten (TGT-52057)
-* Probleem verholpen waardoor klanten [!UICONTROL Experience Fragment] niet konden invoegen in de standaardwerkruimte. (TGT-52073)
-* Probleem verholpen waarbij een aanbieding liet zien dat &quot;Inhoud niet gevonden&quot; en niet op de pagina [!UICONTROL Offers] werd weergegeven voor een [!UICONTROL Automated Personalization] -activiteit (AP). (TGT-52150)
-* De mogelijkheid toegevoegd om dubbele doelgroepen binnen een activiteit toe te staan. (TGT-51200)
-* Probleem verholpen waarbij de verkeerde naam van het selectievakje op de pagina [!UICONTROL Goals & Settings] werd weergegeven voor een XT-activiteit na bewerking. (TGT-52026)
-* Correctie van een probleem waarbij `defaultContent` werd weergegeven in opties ondanks dat het zich niet in `experiences/optionLocations` bevond. (TGT-52036)
-* Oplossing voor een probleem dat ervoor zorgde dat lege tekenreeksen niet werden omgezet in null-waarden. (TGT-52037)
-* Probleem verholpen waarbij klanten de [!UICONTROL Optimization Goal] in [!UICONTROL Reporting Settings] op de [!UICONTROL Goals & Settings] pagina na bewerkingen opnieuw moesten configureren. (TGT-52071)
-* Probleem verholpen waarbij een activiteit zonder leveringsregels voor pagina&#39;s meerdere regels op de pagina [!UICONTROL Overview] weergaven. (TGT-52084)
-* Er is een foutbericht toegevoegd voor gebruikers die een aanbieding proberen op te slaan met tekens buiten het meertalige basisvlak, zoals emojis. (TGT-52105)
-* Probleem verholpen waarbij het openen van een activiteit het foutbericht veroorzaakte: &quot;Deze activiteit gebruikt een of meer soorten publiek die bij de bron zijn verwijderd.&quot; (TGT-52120)
-* Probleem verholpen waarbij ClickTrack-meetgegevens niet werden weergegeven in de bijgewerkte versie van [!UICONTROL Visual Experience Composer] (VEC) tijdens het bewerken. (TGT-52152)
-* Probleem verholpen waarbij een URL met een queryparameter als de activiteitenlocatie de queryparameter niet op de pagina [!UICONTROL Overview] van de activiteit weergaf. (TGT-51635)
-* Probleem verholpen waarbij de volledige URL voor de beleving niet kon worden weergegeven in [!UICONTROL Browse mode] binnen de [!UICONTROL Visual Experience Composer] (VEC). (TGT-52101)
-* Probleem verholpen waarbij tijdens het bewerken van een activiteit de levering van een pagina ertoe leidde dat &#39;/&#39; aan het einde van de URL werd toegevoegd, waardoor deze ongeldig werd. (TGT-52114)
-* Probleem verholpen waarbij de koppeling [!UICONTROL Activity QA] in de [!UICONTROL Form-Based Experience Composer] -pagina onjuist werd omgeleid naar de [!DNL Adobe Experience Cloud] -startpagina. (TGT-52055)
-* Probleem verholpen waarbij extra pagina&#39;s die aan de [!UICONTROL A/B Test] -activiteit zijn toegevoegd, niet werden behouden na het opslaan en opnieuw openen. (TGT-51994)
-* Probleem verholpen waarbij klanten stijlen niet konden verwijderen uit de sectie inline stijl. (TGT-52070)
-* Herstelde toegang tot [ kaarten van de publieksdefinitie ](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) in de [!UICONTROL Activity QA] dialoogdoos, gelijkend op erfenis UI. (TGT-52056)
-* De bijgewerkte interface heeft pagina&#39;s of publiek niet zonder wijzigingen opgeslagen. Als klanten nieuwe pagina&#39;s of publiek aan een activiteit toevoegden maar geen veranderingen in hen aanbrengen, [!DNL Target] verwierp het ongewijzigde publiek bij het bewaren. Meldingen zijn toegevoegd op relevante plaatsen om gebruikers op de hoogte te stellen van dit gedrag. (TGT-52104)
-
-## [!DNL Target Standard/Premium] 25.4.1 (2 april 2025)
-
-Deze release bevat de volgende correcties en updates:
-
-* Probleem verholpen waarbij het ervaringspubliek uit activiteiten verdween. (TGT-52003)
-* Probleem verholpen dat onverwachte elementen veroorzaakte tijdens levering. (TGT-52011)
-* Vaste een kwestie die klanten van het bekijken van het publiek in de het richten grafiek op de Ove [!UICONTROL r] meningspagina en tijdens activiteit het uitgeven blokkeerde. (TGT-52050)
-* Probleem verholpen waardoor klanten hun ervaringen niet opnieuw konden rangschikken in volgorde van prioriteit in [!UICONTROL Experience Targeting] (XT)-activiteiten. (TGT-52054)
-* Probleem verholpen dat onjuiste rendering veroorzaakte wanneer wijzigingen in tekststijl ongedaan werden gemaakt. (TGT-51876)
-* Probleem verholpen waarbij [!DNL Target] bij het wijzigen van een omleidingsaanbieding ook alle [!UICONTROL ClickTrack] -kiezers verwijdert die aan die aanbieding zijn gekoppeld. (TGT-51936)
-* Correctie van een probleem dat ertoe leidde dat [!DNL Target] de kiezer verkeerd opsloot bij het annuleren van [!UICONTROL ClickTrack] . (TGT-51937)
-* Probleem verholpen waarbij een fout met een ongeldige naam werd gegenereerd na het openen en sluiten van de kiezer op de pagina [!UICONTROL Goals & Settings] zonder wijzigingen aan te brengen. (TGT-51983)
-* Probleem verholpen waarbij het bewerken van ad-hocaanbiedingen die zijn gemaakt in de oudere gebruikersinterface van [!DNL Target] , werd geblokkeerd. (TGT-51984)
-* Probleem verholpen waarbij bewerkingsactiviteiten met ad-hocvoorstellen met aangepaste code werden geblokkeerd. (TGT-51995)
-* Probleem opgelost waarbij uitsluitingsregels werden weergegeven als insluitingsregels tijdens het bewerken van gecombineerde publieksdefinities. (TGT-51999)
-* Probleem verholpen waardoor aangepaste code niet correct kon worden weergegeven tijdens het bewerken. (TGT-52005)
-* Probleem verholpen waarbij de optie [!UICONTROL Insert Before] niet beschikbaar was voor het invoegen van inhoud vóór de navigatiebalk. (TGT-52031)
-* Probleem verholpen waardoor de standaardervaring bij rapportage niet correct kon worden gemarkeerd. (TGT-51716)
-* Probleem verholpen waarbij een `default message [Invalid optionLocalIds: xx]]` -bericht werd geactiveerd tijdens het maken van een activiteit. (TGT-52038)
-
-## at.js versie 2.11.8 (31 maart 2025)
-
-* Opgeloste CodeQL-geïdentificeerde kwetsbaarheid in de bevestiging van het koordachtervoegsel om randgevallen tijdens resize te verhinderen en verrichtingen te bewegen. (TNT-51516)
+* Probleem verholpen waarbij werd voorkomen dat publieksverfijningen worden weergegeven voor bepaalde activiteiten in de bijgewerkte gebruikersinterface. (TGT-52057)
+* Probleem verholpen waarbij het gebruik van gecombineerd publiek in activiteiten werd voorkomen. (TGT-52346)
+* Probleem verholpen waarbij het maken van een nieuwe activiteit in een niet-standaardwerkruimte werd voorkomen met een alleen-activiteit publiek in dezelfde werkruimte. (TGE-52349)
+* Probleem verholpen waarbij alleen-activiteit publiek uit de bijgewerkte gebruikersinterface verdween nadat een nieuw publiek was gemaakt en geselecteerd. (TGT=52091)
+* Probleem verholpen waarbij het gebruik van dubbele doelgroepen in activiteiten werd voorkomen. (TGT-51200 &amp; TGT-52057)
+* Probleem verholpen waarbij publieksverfijningen en het activiteitenpubliek werden omgekeerd in de bijgewerkte gebruikersinterface. (TGT-52158)
+* Probleem verholpen waarbij het maken van een nieuwe activiteit niet mogelijk was als gevolg van een gebruikersinvoerfout: &quot;Niet-standaardwerkruimte niet toegestaan voor deze gebruiker.&quot; (TGT-52267)
+* Probleem verholpen waardoor voorstellen niet konden worden weergegeven in de bijgewerkte gebruikersinterface voor zowel standaardwerkruimten als niet-standaardwerkruimten. [!DNL Target] geeft nu voorstellen van beide werkruimten weer. (TGT-52339)
+* [!DNL Target] heeft een probleem verholpen waarbij klanten niet werden gewaarschuwd wanneer ze een activiteit bewerkten en een gewijzigd website-element veranderden. (TGT-52100)
+* Probleem verholpen waarbij tijdens het bewerken van een voorstel met ad-hocaanbiedingen een nieuwe aanbieding werd gemaakt in plaats van de bestaande aanbieding bij te werken. (TGT-52135)
+* Probleem verholpen dat een ongeldige laadfout veroorzaakte bij het verplaatsen van voorstellen naar mappen. (TGT-52325)
+* Probleem verholpen waarbij een fout met gebruikersinvoer werd veroorzaakt bij het verplaatsen van aanbiedingen naar mappen. (TGT-52296)
+* Er is een veld `audienceMetadata` toegevoegd voor elke activiteit en er is voor gezorgd dat dit wordt gelezen en bijgewerkt tijdens het bewerken van de activiteit. (TGT-51004)
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
 | Bron | Details |
 |--- |--- |
-| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=nl-NL) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
-| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
+| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
+| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
 
 ## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release van Experience Cloud
 
@@ -136,7 +52,7 @@ Naast de notities voor elke release bevatten de volgende bronnen aanvullende inf
 |--- |--- |
 | [ Veranderingen van de Documentatie ](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
 | [ de nota&#39;s van de Versie voor vorige versies ](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
-| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl-NL){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
+| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
 
 ## Prerelease-informatie {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
