@@ -15,7 +15,7 @@ ht-degree: 0%
 
 [!DNL Adobe Experience Cloud Audiences] biedt de mogelijkheid [!DNL Adobe Experience Cloud] oplossingen voor het communiceren en delen van informatie over websitebezoekers zodat elke oplossing dezelfde gegevens kan gebruiken.
 
-Zie voor meer informatie [Soorten publiek](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) in de *Gebruikershandleiding voor Core Services*.
+Zie voor meer informatie [Soorten publiek](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=nl-NL) in de *Gebruikershandleiding voor Core Services*.
 
 ## Video: Integreren [!DNL Target] with [!DNL Experience Cloud Audiences] (10:48)
 

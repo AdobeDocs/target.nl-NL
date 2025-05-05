@@ -48,7 +48,7 @@ In [!DNL Analytics], zijn er verscheidene dimensies en metriek beschikbaar gemaa
 * [!UICONTROL Activity Impressions] - Komt overeen met de [!UICONTROL Entrants] aantal in [!DNL Target] verslag.
 * [!UICONTROL Activity Conversions] - Komt overeen met de [!UICONTROL Custom Conversions] aantal in [!DNL Target] verslag.
 
-In [!DNL Analysis Workspace], gebruikt u de [!UICONTROL Analytics for Target] om uw [!DNL Target] activiteiten en ervaringen met liftmogelijkheden en vertrouwen. Zie voor meer informatie [Analyses voor doelvenster (A4T)](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) in de *Handleiding Analysehulpmiddelen*.
+In [!DNL Analysis Workspace], gebruikt u de [!UICONTROL Analytics for Target] om uw [!DNL Target] activiteiten en ervaringen met liftmogelijkheden en vertrouwen. Zie voor meer informatie [Analyses voor doelvenster (A4T)](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=nl-NL) in de *Handleiding Analysehulpmiddelen*.
 
 >[!IMPORTANT]
 >
@@ -89,7 +89,7 @@ Bijvoorbeeld, als u aan paginameningen per bezoeker optimaliseert, zou u een ste
 1. Klik op **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
 1. Op de **[!UICONTROL Data Warehouse Request]** , vult u de velden in.
 
-   Voor meer informatie over elk gebied, zie &quot;Beschrijvingen van de Data Warehouse&quot;in [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
+   Voor meer informatie over elk gebied, zie &quot;Beschrijvingen van de Data Warehouse&quot;in [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=nl-NL).
 
    | Veld | Instructies |
    |--- |--- |
@@ -109,5 +109,5 @@ Bijvoorbeeld, als u aan paginameningen per bezoeker optimaliseert, zou u een ste
 
 Meer informatie over [!DNL Data Warehouse], zie de volgende koppelingen in de [!DNL Analytics] Help-documentatie:
 
-* [Een Data Warehouse-aanvraag maken](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Aanbevolen werkwijzen voor Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Een Data Warehouse-aanvraag maken](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=nl-NL)
+* [Aanbevolen werkwijzen voor Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=nl-NL)

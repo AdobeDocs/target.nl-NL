@@ -118,11 +118,11 @@ Deze video is een opname van &quot; [Kantooruren](/help/main/cmp-resources-and-c
 * Meer informatie over de ideale rapporten die u kunt gebruiken in Analytics
 * Antwoorden op algemene vragen over A4T
 
-[Kantooruren voor Analytics/Target Integration (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Kantooruren voor Analytics/Target Integration (A4T)](https://helpx.adobe.com/nl/customer-care-office-hours/target/analytics-target-A4T-integration.html)
 
 >[!MORELIKETHIS]
 >
 >* [Analyses voor [!DNL Target] uitvoering](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md): Bevat implementatieinformatie voor at.js en het Web SDK van het Platform.
 >* [Aanbiedingen omleiden - Veelgestelde vragen A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
->* [Wat is Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html): Bevat overzichtsinformatie over het Web SDK van het Platform.
->* [Doeloverzicht](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html): Bevat specifieke informatie voor [!DNL Target] en de [!DNL Platform Web SDK].
+>* [Wat is Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL): Bevat overzichtsinformatie over het Web SDK van het Platform.
+>* [Doeloverzicht](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=nl-NL): Bevat specifieke informatie voor [!DNL Target] en de [!DNL Platform Web SDK].

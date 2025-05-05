@@ -23,7 +23,7 @@ De [!UICONTROL Activity URL] bepaalt de pagina die wordt gebruikt in een [!DNL A
    >
    >Door gebrek, opent VEC of [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) de pagina die in uw [ Visuele montages van Composer van de Ervaring wordt gespecificeerd ](/help/main/administrating-target/visual-experience-composer-set-up.md). U kunt een andere pagina opgeven tijdens het maken van activiteiten.
    >
-   >Als u een URL voor een plaats specificeert die a [[!DNL Target]  at.js de bibliotheek van JavaScript of  [!DNL Adobe Experience Platform Web SDK] niet ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}  omvat, kunt u geen pagina-elementen selecteren.
+   >Als u een URL voor een plaats specificeert die a [[!DNL Target]  at.js de bibliotheek van JavaScript of  [!DNL Adobe Experience Platform Web SDK] niet ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=nl-NL){target=_blank}  omvat, kunt u geen pagina-elementen selecteren.
 
 1. (Voorwaardelijk) Als u een andere pagina wilt weergeven nadat de VEC is geopend, klikt u op **[!UICONTROL Configure]** , selecteert u **[!UICONTROL Page Delivery]** en geeft u vervolgens de URL op in het veld [!UICONTROL URL] .
 

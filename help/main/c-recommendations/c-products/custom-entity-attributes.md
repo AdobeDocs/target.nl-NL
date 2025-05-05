@@ -2,7 +2,7 @@
 keywords: multi-value entiteitsattributen;douane entiteitattributen;geldige JSON;entiteitkenmerkwaarde;JSON serie;multi-getaxeerde;multivalueerde
 description: Leer hoe u aangepaste entiteitskenmerken voor één of meerdere waarden kunt gebruiken om aanvullende informatie over items in uw Adobe te definiëren [!DNL Target] Recommendations-catalogus.
 title: Hoe gebruik ik aangepaste entiteitskenmerken?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
@@ -127,7 +127,7 @@ U kunt kenmerken met meerdere waarden doorgeven met de API voor aflevering in ee
   }
 ```
 
-Zie de [Adobe Recommendations API-documentatie](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} voor informatie over het gebruik van de API&#39;s voor levering en opslaan van entiteiten.
+Zie de [Adobe Recommendations API-documentatie](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} voor informatie over het gebruik van de API&#39;s voor levering en opslaan van entiteiten.
 
 ## Operatoren met kenmerken van meerdere waarden gebruiken {#section_83C2288A805242D9A02EBC4F07DEE945}
 

@@ -3,8 +3,8 @@ keywords: ajo;adobe road optimizer;adobe trip optimizer target integration;aanbe
 description: Integreer  [!DNL Adobe Target Recommendations]  met  [!DNL Adobe Journey Optimizer].
 title: Hoe gebruik ik  [!DNL Target Recommendations]  in klantenreizen gebruikend  [!DNL Adobe Journey Optimizer]?
 feature: Integrations
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
 exl-id: 81bbbd51-47fc-4e23-a1cb-7c18fea1c159
@@ -25,11 +25,11 @@ Dankzij deze integratie kunt u meer conversies aansturen en de impact van e-mail
 
 Als u de integratie [!DNL Target Recommendations] en [!DNL Adobe Journey Optimizer] wilt gebruiken, hebt u het volgende nodig:
 
-* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) uitgevoerd gebruikend [ Adobe Experience Platform Web SDK ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} .
+* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) uitgevoerd gebruikend [ Adobe Experience Platform Web SDK ](https://experienceleague.adobe.com/nl/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} .
 
   Deze functie is niet beschikbaar met een [!DNL Target Standard] -licentie of bij de implementatie van [!DNL Target] met at.js of andere [!DNL Target] SDK&#39;s.
 
-* [[!DNL Adobe Journey Optimizer] ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target=_blank} .
+* [[!DNL Adobe Journey Optimizer] ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target=_blank} .
 
 ## Gebruiksscenario&#39;s
 

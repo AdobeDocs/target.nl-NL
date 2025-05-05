@@ -18,7 +18,7 @@ Dit onderwerp bevat antwoorden op vragen die vaak worden gesteld over het weerge
 ## Kan ik mijn [!DNL Target] activiteitsgegevens weergeven in [!DNL Analysis Workspace] ? {#workspace}
 
 +++Antwoord
-Met [!DNL Analysis Workspace] kunt u uw [!DNL Target] -activiteiten en -ervaringen analyseren. De [ Analytics voor het paneel van het Doel ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) laat u optillen &amp; vertrouwen voor maximaal drie succesmetriek zien. U kunt ook dieper graven met behulp van tabellen en visualisaties.
+Met [!DNL Analysis Workspace] kunt u uw [!DNL Target] -activiteiten en -ervaringen analyseren. De [ Analytics voor het paneel van het Doel ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=nl-NL) laat u optillen &amp; vertrouwen voor maximaal drie succesmetriek zien. U kunt ook dieper graven met behulp van tabellen en visualisaties.
 
 Voor gedetailleerde informatie en voorbeelden, open [ Analytics &amp; Doel: Beste praktijken voor het leerprogramma van de Analyse ](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), dat door [!UICONTROL Adobe Experience League] wordt verstrekt.
 
@@ -74,7 +74,7 @@ Overweeg het volgende:
 * De bovenstaande metrische trigger wanneer een gebruiker in aanmerking komt voor een activiteit en inhoud wordt geretourneerd vanuit [!DNL Target] . Dit betekent niet noodzakelijk dat de gebruiker het aanbod zag. Als een activiteit onder de vouw is en de gebruiker niet onderaan de pagina scrolt, dan werd de aanbieding gediend door [!DNL Target] maar niet door de gebruiker gezien.
 * [!UICONTROL Activity Impressions] (gemeten door [!DNL Target]) en [!UICONTROL Instances] (gemeten door [!DNL Analytics]) zijn gelijk, tenzij er meerdere mbox-aanroepen op dezelfde pagina plaatsvinden in dezelfde activiteit. Hierdoor worden meerdere [!UICONTROL Activity Impressions] geteld, maar slechts één [!UICONTROL Instance] .
 
-Voor meer informatie, zie [ hoe te opstelling A4T rapporten in Analysis Workspace voor activiteiten Auto-Doel ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Tutorials van Adobe Target*.
+Voor meer informatie, zie [ hoe te opstelling A4T rapporten in Analysis Workspace voor activiteiten Auto-Doel ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=nl-NL) in *Tutorials van Adobe Target*.
 
 +++
 
@@ -83,7 +83,7 @@ Voor meer informatie, zie [ hoe te opstelling A4T rapporten in Analysis Workspac
 +++Antwoord
 [!DNL Reports & Analytics] past een attributiemodel met dezelfde aanraakinstelling toe op &#39;activity-impressions&#39; en &#39;activity-conversies&#39;, terwijl [!DNL Analysis Workspace] de onbewerkte metriek weergeeft, die opgeblazen kan lijken vanwege de persistentie van de [!DNL Target] -dimensie.
 
-Als u nauwkeurige [!UICONTROL Activity Impressions] - en [!UICONTROL Activity Conversions] metriek in [!DNL Analysis Workspace] wilt evalueren, moet u ervoor zorgen dat op beide metriek [!UICONTROL Same Touch] -attributiemodellen zijn toegepast. Modellen kunnen worden toegepast door op het tandwieltje voor kolominstellingen te klikken, [!UICONTROL Non-default attribution models] in te schakelen en vervolgens [!UICONTROL Same Touch] te selecteren. Leer meer over attributie in [ overzicht van Attributen IQ ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) in de *Gids van Hulpmiddelen van de Analyse*.
+Als u nauwkeurige [!UICONTROL Activity Impressions] - en [!UICONTROL Activity Conversions] metriek in [!DNL Analysis Workspace] wilt evalueren, moet u ervoor zorgen dat op beide metriek [!UICONTROL Same Touch] -attributiemodellen zijn toegepast. Modellen kunnen worden toegepast door op het tandwieltje voor kolominstellingen te klikken, [!UICONTROL Non-default attribution models] in te schakelen en vervolgens [!UICONTROL Same Touch] te selecteren. Leer meer over attributie in [ overzicht van Attributen IQ ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=nl-NL) in de *Gids van Hulpmiddelen van de Analyse*.
 
 +++
 
@@ -149,7 +149,7 @@ De gebruiker komt dan terug op 1 april, bekijkt nog vijf pagina&#39;s en koopt. 
 
 Omdat beide ervaringen werden gezien vóór de conversie, krijgen ze allebei &#39;krediet&#39; voor de bestelling. Maar er vond slechts één orde plaats in het systeem en het totaal weerspiegelt dat. Voor [!DNL Target] -rapportage, omdat u een [!DNL Target] -activiteit niet tegen een andere activiteit plaatst om te zien welke meer succes heeft, maakt het niet uit dat alle activiteiten die de gebruiker zag, krediet hebben gekregen. U vergelijkt de resultaten van twee items binnen één activiteit. Het is niet mogelijk voor een gebruiker om verschillende ervaringen in de zelfde activiteit te zien zodat moet u zich niet over kruisbesmetting van orderkrediet ongerust maken.
 
-Voor meer informatie, zie [ Variabelen van de Omzetting (eVar ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in de *Gids Admin van Analytics*.
+Voor meer informatie, zie [ Variabelen van de Omzetting (eVar ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=nl-NL)) in de *Gids Admin van Analytics*.
 
 +++
 
@@ -221,7 +221,7 @@ Hier volgen enkele punten waarmee u rekening moet houden bij het weergeven van [
 Activiteitenafbeeldingen weergeven in [!DNL Analysis Workspace] :
 
 1. Klik in de gebruikersinterface van [!DNL Target] op **[!UICONTROL View in Analytics]** .
-1. Voeg de **[!UICONTROL Activity Impressions]** kolom aan het [[!DNL Analytics Workspace] ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank}  rapport toe.
+1. Voeg de **[!UICONTROL Activity Impressions]** kolom aan het [[!DNL Analytics Workspace] ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=nl-NL){target=_blank}  rapport toe.
 1. Klik in de kolom **[!UICONTROL Activity Impressions]** op het pictogram [!UICONTROL Gear] .
 1. Klik op **[!UICONTROL Use non-default attribution model]**.
 1. Selecteer **[!UICONTROL Same Touch Model]** > **[!UICONTROL Apply]** .

@@ -20,8 +20,8 @@ Voor meer informatie, zie de diverse onderwerpen onder [ het Doel van het Uitvoe
 
 >[!NOTE]
 >
->Tags in [!DNL Adobe Experience Platform] hebben de voorkeur voor het implementeren van [!DNL Target] . Tags in [!DNL Adobe Experience Platform] zijn de volgende generatie mogelijkheden voor tagbeheer in [!DNL Adobe] . Met labels kunnen klanten op eenvoudige wijze de analytische, marketing- en advertentietags implementeren en beheren die nodig zijn om relevante klantervaringen mogelijk te maken. Voor meer informatie, zie [  [!DNL Target]  uitvoeren gebruikend  [!DNL Adobe Experience Platform] ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank} .
+>Tags in [!DNL Adobe Experience Platform] hebben de voorkeur voor het implementeren van [!DNL Target] . Tags in [!DNL Adobe Experience Platform] zijn de volgende generatie mogelijkheden voor tagbeheer in [!DNL Adobe] . Met labels kunnen klanten op eenvoudige wijze de analytische, marketing- en advertentietags implementeren en beheren die nodig zijn om relevante klantervaringen mogelijk te maken. Voor meer informatie, zie [  [!DNL Target]  uitvoeren gebruikend  [!DNL Adobe Experience Platform] ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=nl-NL){target=_blank} .
 
 1. Klik op **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** om de pagina [!UICONTROL Implementation] te openen.
 
-1. Voor informatie van toepassing op de montages op deze pagina, zie [ Doel zonder een markeringsmanager ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank} uitvoeren .
+1. Voor informatie van toepassing op de montages op deze pagina, zie [ Doel zonder een markeringsmanager ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=nl-NL){target=_blank} uitvoeren .

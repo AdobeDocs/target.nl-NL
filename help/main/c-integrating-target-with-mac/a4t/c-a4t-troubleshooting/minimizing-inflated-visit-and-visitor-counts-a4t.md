@@ -72,7 +72,7 @@ In de meeste situaties [!DNL Target] raakgebied is verbonden met een  [!DNL Anal
 
 **Partial-data hits:** Gebruikers blijven soms niet lang genoeg op een pagina staan om een [!DNL Analytics] oproepen, maar [!DNL Target] heeft een juiste MCID. Dit scenario resulteert in gedeeltelijk-gegevensklare hits (hits zonder [!DNL Analytics] paginaweergave). Als deze gebruikers terugkeren naar uw site en een pagina weergeven met [!DNL Analytics] code, worden zij behoorlijk geteld als terugkerende bezoekers. Deze treffers zouden verloren zijn gegaan als u alleen [!DNL Analytics] code op de pagina. Sommige cliënten willen geen gegevens voor deze klappen omdat zij bepaalde metriek (bezoeken) opblazen en andere metriek (paginameningen per bezoek, tijd per bezoek, etc.) leegmaken. U ziet ook bezoeken zonder paginaweergaven. Er zijn echter nog geldige redenen om deze gegevens te bewaren.
 
-Als u ongewenste resultaten met gedeeltelijke gegevens wilt minimaliseren, kunt u de pagina sneller laden, bijwerken naar de nieuwste versies van de bibliotheken of een [virtuele rapportsuite](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) dat sluit deze treffers uit. Voor stapsgewijze instructies raadpleegt u [Virtuele rapportsuites maken](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) in de *Handleiding Analytics Components*.
+Als u ongewenste resultaten met gedeeltelijke gegevens wilt minimaliseren, kunt u de pagina sneller laden, bijwerken naar de nieuwste versies van de bibliotheken of een [virtuele rapportsuite](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=nl-NL) dat sluit deze treffers uit. Voor stapsgewijze instructies raadpleegt u [Virtuele rapportsuites maken](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=nl-NL) in de *Handleiding Analytics Components*.
 
 De volgende illustratie toont voor de segmentdefinitie voor de virtuele rapportreeks:
 
@@ -93,7 +93,7 @@ Wanneer het creëren van de virtuele rapportreeks, specificeer de volgende confi
 
 **Zwevende treffers: &#x200B;** In minder situaties, blijven de gebruikers niet lang genoeg op de pagina voor een vraag van de Analyse en het Doel kreeg geen juiste MCID. Deze hits worden door Adobe gedefinieerd als &#39;zwevende&#39; hits. Deze treffers vertegenwoordigen klanten die zelden terugkeren en ze verhogen bezoek en bezoekers tellen onterecht.
 
-Als u deze &#39;zwevende&#39; treffers wilt minimaliseren, kunt u een [virtuele rapportsuite](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) dit sluit deze treffers uit , zoals hierboven uiteengezet .
+Als u deze &#39;zwevende&#39; treffers wilt minimaliseren, kunt u een [virtuele rapportsuite](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=nl-NL) dit sluit deze treffers uit , zoals hierboven uiteengezet .
 
 ## Wat betekent dit voor mijn [!DNL Target] rapporteren? {#section_AAD354C722BE46D4875507F0FCBA5E36}
 

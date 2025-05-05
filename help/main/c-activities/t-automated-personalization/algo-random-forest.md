@@ -2,7 +2,7 @@
 keywords: willekeurig bos;beslissingsboom;ap;Automated Personalization
 description: Meer informatie [!DNL Adobe Target] gebruikt het Random Forest-algoritme in beide [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] activiteiten.
 title: Hoe werkt [!DNL Target] Willekeurig bosalgoritme gebruiken?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd

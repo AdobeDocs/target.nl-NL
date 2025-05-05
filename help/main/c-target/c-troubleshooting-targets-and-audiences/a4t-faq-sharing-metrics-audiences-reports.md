@@ -19,7 +19,7 @@ Dit onderwerp bevat antwoorden op vragen die vaak over het delen van metriek, pu
 
 +++Antwoord vaak, wilt u een mening van een test voor verschillende groepen gebruikers tot stand brengen om het voor hen gemakkelijker te maken om de testresultaten te bekijken. In Analytics, is het mogelijk om een referentie tot stand te brengen die de huidige mening van een rapport, met inbegrip van metriek, datumwaaiers, segmenten, en andere gegevens zal bewaren.
 
-Zie voor meer informatie [Bladwijzermanager](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/bookmarks.html).
+Zie voor meer informatie [Bladwijzermanager](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/bookmarks.html?lang=nl-NL).
 
 +++
 
@@ -27,6 +27,6 @@ Zie voor meer informatie [Bladwijzermanager](https://experienceleague.adobe.com/
 
 +++Antwoord als u speciale metriek en segmenten met een test gebruikt, zou u kunnen overwegen tot stand te brengen een gebruikersgroep voor uw optimalisatieteam. Deel die metriek en segmenten met de groep in plaats van individuele leden om ervoor te zorgen zij allen toegang tot de segmenten en metriek hebben. Alleen beheerders kunnen delen met groepen.
 
-Zie [Segmenten delen](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) en [Berekende waarden delen](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html).
+Zie [Segmenten delen](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html?lang=nl-NL) en [Berekende waarden delen](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html?lang=nl-NL).
 
 +++

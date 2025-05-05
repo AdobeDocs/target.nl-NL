@@ -30,7 +30,7 @@ Bijvoorbeeld, veronderstellen wij u voor een meubelbedrijf werkt en twee klanten
 
 Je zou een publiek kunnen maken dat gedefinieerd wordt als de neiging om eetkamermeubilair te kopen groter is dan de neiging om meubilair van woonkamertjes te kopen. [!DNL Target] Vervolgens worden de scores voor de eetruimte en de neiging tot woonkamer dynamisch met elkaar vergeleken om te bepalen of de bezoeker voor dit publiek in aanmerking komt.
 
-Zie voor meer informatie [Methoden om gegevens op te halen in doel](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
+Zie voor meer informatie [Methoden om gegevens op te halen in doel](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=nl-NL){target=_blank}.
 
 ## Een vergelijkingspubliek voor profielkenmerken maken {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 

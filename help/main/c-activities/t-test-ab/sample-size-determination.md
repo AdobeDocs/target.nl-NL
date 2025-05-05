@@ -41,7 +41,7 @@ Zie voor meer informatie [Overzicht van automatisch toewijzen](/help/main/c-acti
 
 Als u een handleiding wilt gebruiken [!UICONTROL A/B Test] activiteit in plaats van [!UICONTROL Auto-Allocate]de [!DNL Target] Met de calculator voor monstergrootte kunt u bepalen welke monstergrootte nodig is voor een geslaagde test. Een handmatige A/B-test is een test met een vaste horizon, zodat de calculator nuttig is. De rekenmachine gebruiken voor een [!UICONTROL Auto-Allocate] activiteit is optioneel omdat [!UICONTROL Auto-Allocate] Hiermee wordt een winnaar voor je gedeclareerd. De calculator geeft u een ruwe schatting van de steekproefgrootte nodig. Lees verder voor meer informatie over het gebruik van de rekenmachine.
 
-Voordat u de A/B-test instelt, opent u de [!DNL Adobe Target] [Voorbeeldgroottecalculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html).
+Voordat u de A/B-test instelt, opent u de [!DNL Adobe Target] [Voorbeeldgroottecalculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=nl-NL).
 
 ![Adobe Target-voorbeeldgroottecalculator](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 

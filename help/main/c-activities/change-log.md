@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Logboek voor wijziging van de activiteit
 
-In [!DNL Adobe Target] [!UICONTROL Change Log] worden de handelingen voor activiteit vastgelegd, inclusief wat is gewijzigd, wie de wijzigingen heeft aangebracht en wanneer deze hebben plaatsgevonden. De [!UICONTROL Change Log] pagina wordt bevolkt van [[!UICONTROL Audi Query API] ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}  voor inzicht in real time.
+In [!DNL Adobe Target] [!UICONTROL Change Log] worden de handelingen voor activiteit vastgelegd, inclusief wat is gewijzigd, wie de wijzigingen heeft aangebracht en wanneer deze hebben plaatsgevonden. De [!UICONTROL Change Log] pagina wordt bevolkt van [[!UICONTROL Audi Query API] ](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}  voor inzicht in real time.
 
 De pagina [!UICONTROL Change Log] openen:
 

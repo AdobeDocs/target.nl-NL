@@ -19,7 +19,7 @@ De gegevens van de de klantenklant van de onderneming die door veelvoudige bronn
 
 ## Overzicht van klantkenmerken {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[Klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html) in de [!DNL People] de dienst maakt deel uit van [!DNL Adobe Experience Cloud] en biedt bedrijven een hulpmiddel om hun klantgegevens naar de [!DNL Experience Cloud] platform.
+[Klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=nl-NL) in de [!DNL People] de dienst maakt deel uit van [!DNL Adobe Experience Cloud] en biedt bedrijven een hulpmiddel om hun klantgegevens naar de [!DNL Experience Cloud] platform.
 
 Gegevens aan boord van de [!DNL Experience Cloud] is beschikbaar voor iedereen [!DNL Experience Cloud] workflows. [!DNL Target] gebruikt deze gegevens voor het richten van terugkerende klant die op attributen wordt gebaseerd. [!DNL Adobe Analytics] verbruikt deze kenmerken en kunnen worden gebruikt voor analyse en segmentatie.
 
@@ -27,10 +27,10 @@ Gegevens aan boord van de [!DNL Experience Cloud] is beschikbaar voor iedereen [
 
 Overweeg de volgende informatie als uw werk met klantenattributen en [!DNL Target]:
 
-* Er zijn enkele voorwaarden waaraan u moet voldoen voordat u de opdracht [!UICONTROL Customer attributes] in de [!DNL People] service. Zie &quot;Vereisten voor het uploaden van klantkenmerken&quot; in [Klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) in de *Experience Cloud Services- en beheerdocumentatie*.
-* Houd rekening met de beperkingen met betrekking tot het uploaden van bestanden, zoals beschreven in [Gegevensbestand en gegevensbronnen voor klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) in de *Experience Cloud Central Interface Components Guide*. Als beste praktijken:
+* Er zijn enkele voorwaarden waaraan u moet voldoen voordat u de opdracht [!UICONTROL Customer attributes] in de [!DNL People] service. Zie &quot;Vereisten voor het uploaden van klantkenmerken&quot; in [Klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=nl-NL#section_BD38693AFBF34926BA28E964963B4EA0) in de *Experience Cloud Services- en beheerdocumentatie*.
+* Houd rekening met de beperkingen met betrekking tot het uploaden van bestanden, zoals beschreven in [Gegevensbestand en gegevensbronnen voor klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=nl-NL) in de *Experience Cloud Central Interface Components Guide*. Als beste praktijken:
 
-   * Enkelvoudige grote bestanden uploaden (binnen de [gespecificeerde limieten](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en)). Enkelvoudige grote bestanden hebben de voorkeur boven meerdere kleinere bestanden.
+   * Enkelvoudige grote bestanden uploaden (binnen de [gespecificeerde limieten](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=nl-NL)). Enkelvoudige grote bestanden hebben de voorkeur boven meerdere kleinere bestanden.
    * Als u de upload in verscheidene dossiers moet verdelen, zorg ervoor dat de dossiers volledig worden verwerkt alvorens nieuwe dossiers voor te leggen. Zorg ervoor dat elk bestand in een batch volledig is verwerkt voordat u het volgende bestand in de batch verzendt.
 
 * [!DNL Adobe] garandeert niet dat 100% van gegevens van klantkenmerken (bezoekersprofiel) uit CRM-databases aan de [!DNL Experience Cloud] en dus beschikbaar zijn voor gebruik bij [!DNL Target]. In het huidige ontwerp bestaat de mogelijkheid dat een klein percentage gegevens (tot 0,1% van de grote productiepartijen) niet wordt ingecheckt.
@@ -57,7 +57,7 @@ Voer de volgende stappen uit om CRM-gegevens te gebruiken in [!DNL Target], zoal
 
 ![crm-workflow](/help/main/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-Gedetailleerde instructies voor het uitvoeren van elk van de volgende taken vindt u in [Een bron voor klantkenmerken maken en het gegevensbestand uploaden](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html) in de *Experience Cloud Services- en beheerdocumentatie*.
+Gedetailleerde instructies voor het uitvoeren van elk van de volgende taken vindt u in [Een bron voor klantkenmerken maken en het gegevensbestand uploaden](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=nl-NL) in de *Experience Cloud Services- en beheerdocumentatie*.
 
 1. Maak een gegevensbestand.
 
@@ -82,7 +82,7 @@ Gedetailleerde instructies voor het uitvoeren van elk van de volgende taken vind
    Het gegevensbestand moet voldoen aan de vereisten voor het uploaden van het bestand en mag niet groter zijn dan 100 MB. Als uw bestand te groot is of als u gegevens hebt die op terugkerende basis moeten worden geüpload, kunt u in plaats daarvan FTP op uw bestanden toepassen.
 
    * **HTTPS:** U kunt het CSV-gegevensbestand slepen en neerzetten of klikken **[!UICONTROL Browse]** om te uploaden vanaf uw bestandssysteem.
-   * **FTP:** Klik op de FTP-koppeling naar [het bestand uploaden via FTP](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). De eerste stap bestaat uit het opgeven van een wachtwoord voor de door Adobe verschafte FTP-server. Geef het wachtwoord op en klik vervolgens op **[!UICONTROL Done]**.
+   * **FTP:** Klik op de FTP-koppeling naar [het bestand uploaden via FTP](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html?lang=nl-NL). De eerste stap bestaat uit het opgeven van een wachtwoord voor de door Adobe verschafte FTP-server. Geef het wachtwoord op en klik vervolgens op **[!UICONTROL Done]**.
 
    Breng nu uw CSV/ZIP/GZIP-bestand over naar de FTP-server. Nadat deze bestandsoverdracht is gelukt, maakt u een bestand met dezelfde naam en een `.fin` extensie. Breng dit lege bestand over naar de server. Dit wijst op een eind van overdracht en [!DNL Experience Cloud] begint het gegevensbestand te verwerken.
 
@@ -98,7 +98,7 @@ Gedetailleerde instructies voor het uitvoeren van elk van de volgende taken vind
 
 1. Configureer abonnementen en activeer de kenmerkbron.
 
-   Klikken **[!UICONTROL Add Subscription]** Selecteer vervolgens de oplossing om deze kenmerken in te schrijven. [Abonnementen configureren](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html) stelt de gegevensstroom in tussen de [!DNL Experience Cloud] en oplossingen. Door de kenmerkbron te activeren, kunnen de gegevens naar ingetekende oplossingen stromen. De klantrecords die u hebt geüpload, komen overeen met binnenkomende id-signalen van uw website of toepassing.
+   Klikken **[!UICONTROL Add Subscription]** Selecteer vervolgens de oplossing om deze kenmerken in te schrijven. [Abonnementen configureren](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html?lang=nl-NL) stelt de gegevensstroom in tussen de [!DNL Experience Cloud] en oplossingen. Door de kenmerkbron te activeren, kunnen de gegevens naar ingetekende oplossingen stromen. De klantrecords die u hebt geüpload, komen overeen met binnenkomende id-signalen van uw website of toepassing.
 
    ![Oplossing configureren](/help/main/c-target/c-visitor-profile/assets/solution.png)
 
@@ -140,11 +140,11 @@ Voldoende `mbox3rdPartyId` als een parameter voor de algemene mbox in de `target
 
 ### De Experience Cloud ID-service gebruiken
 
-Als u de Experience Cloud-id-service gebruikt, moet u een klant-id en verificatiestatus instellen om klantkenmerken te gebruiken voor het opgeven van doelen. Zie voor meer informatie [Klant-id&#39;s en verificatiestatus](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) in de *Help bij Experience Cloud ID-service*.
+Als u de Experience Cloud-id-service gebruikt, moet u een klant-id en verificatiestatus instellen om klantkenmerken te gebruiken voor het opgeven van doelen. Zie voor meer informatie [Klant-id&#39;s en verificatiestatus](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=nl-NL) in de *Help bij Experience Cloud ID-service*.
 
 Voor meer informatie over het gebruik van klantkenmerken in [!DNL Target], zie de volgende middelen:
 
-* [Een bron voor klantkenmerken maken en het gegevensbestand uploaden](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) in de *Experience Cloud Services- en beheerdocumentatie*
+* [Een bron voor klantkenmerken maken en het gegevensbestand uploaden](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html?lang=nl-NL) in de *Experience Cloud Services- en beheerdocumentatie*
 
 ## Problemen die klanten vaak tegenkomen {#section_BE0F70E563F64294B17087DE2BC1E74C}
 

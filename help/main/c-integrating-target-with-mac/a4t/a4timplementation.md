@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Analyses voor [!DNL Target] uitvoering
 
-Bij de implementatie zijn verschillende stappen vereist [!DNL Adobe Analytics] als bron van rapportage voor [!DNL Adobe Target] (A4T). Het proces varieert afhankelijk van of u A4T met [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) of met at.js.
+Bij de implementatie zijn verschillende stappen vereist [!DNL Adobe Analytics] als bron van rapportage voor [!DNL Adobe Target] (A4T). Het proces varieert afhankelijk van of u A4T met [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) of met at.js.
 
 ## ![Adobe Experience Platform Web SDK-badge](/help/main/assets/platform.png) Implementatiestappen voor een Adobe Experience Platform Web SDK-implementatie {#platform}
 
@@ -29,11 +29,11 @@ Aan de vereisten voor gebruikersaccounts moet worden voldaan voordat u een activ
 
 ### Stap 3: Een Edge-configuratie maken
 
-Een Edge-configuratie maken met [!DNL Adobe Experience Platform] met het gereedschap voor randconfiguratie. Vorm [Gegevensstromen maken en configureren](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
+Een Edge-configuratie maken met [!DNL Adobe Experience Platform] met het gereedschap voor randconfiguratie. Vorm [Gegevensstromen maken en configureren](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=nl-NL).
 
 ### Stap 4: Installeer en vorm de SDK van het Web Platform
 
-Beginnen met leveren [!DNL Target] ervaringen en toepassing [!DNL Analytics] voor tracerings- en analysedoeleinden, [Installeren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) en [vormen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) de SDK van het Web van het Platform op uw plaatspagina&#39;s.
+Beginnen met leveren [!DNL Target] ervaringen en toepassing [!DNL Analytics] voor tracerings- en analysedoeleinden, [Installeren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=nl-NL) en [vormen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=nl-NL) de SDK van het Web van het Platform op uw plaatspagina&#39;s.
 
 ### Stap 5: Schakel de opties voor het gebruik van A4T in
 
@@ -58,15 +58,15 @@ Aan de vereisten voor gebruikersaccounts moet worden voldaan voordat u een [!DNL
 
 Met de bezoekersidentiteitsservice kunt u gebruikers overal herkennen [!DNL Adobe Experience Cloud] oplossingen. Implementeer of migreer naar de vereiste versie van de Experience Cloud Bezoeker-id. Zie &quot;Implementatievereisten&quot; in [Voordat u implementeert](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Zie [Voer de Dienst van identiteitskaart van het Experience Cloud voor Doel uit](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) in de *Experience Cloud Visitor ID Service* documentatie.
+Zie [Voer de Dienst van identiteitskaart van het Experience Cloud voor Doel uit](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=nl-NL) in de *Experience Cloud Visitor ID Service* documentatie.
 
 ### Stap 4: AppMeasurement voor JavaScript of s_code bijwerken
 
 Implementeer of migreer naar de vereiste versie van appMeasurement.js. Zie &quot;Implementatievereisten&quot; in [Voordat u implementeert](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Zie voor nieuwe implementaties [Overzicht van JavaScript-implementatie](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) in de *Handleiding voor analytische implementatie*.
+Zie voor nieuwe implementaties [Overzicht van JavaScript-implementatie](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=nl-NL) in de *Handleiding voor analytische implementatie*.
 
-Voor een migratie raadpleegt u [Migreren naar AppMeasurement voor JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html) in de *Handleiding voor analytische implementatie*.
+Voor een migratie raadpleegt u [Migreren naar AppMeasurement voor JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html?lang=nl-NL) in de *Handleiding voor analytische implementatie*.
 
 ### Stap 5: Download en werk de update om.js bij
 
@@ -116,9 +116,9 @@ Deze opzet heeft een mondiaal effect, wat betekent dat elke oproep van at.js **a
 }
 ```
 
-De lading kan dan aan Analytics via [API voor gegevensinvoer](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Voor auto-Wijs en auto-Doel activiteiten, moet u sessionId ook door:sturen. Zie voor meer informatie [Analyses voor doelrapportage (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} in de *Adobe Target SDK&#39;s* hulplijn.
+De lading kan dan aan Analytics via [API voor gegevensinvoer](https://helpx.adobe.com/nl/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Voor auto-Wijs en auto-Doel activiteiten, moet u sessionId ook door:sturen. Zie voor meer informatie [Analyses voor doelrapportage (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=nl-NL){target=_blank} in de *Adobe Target SDK&#39;s* hulplijn.
 
-Als een globale instelling niet gewenst is en een meer on-demand aanpak de voorkeur verdient, gebruikt u de functie at.js [getOffers()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html){target=_blank} door **analyticsLogging: &quot;client_side&quot;**. De analytische lading is teruggekeerd voor deze vraag slechts en [!DNL Target] backend stuurt niet de lading door aan [!DNL Analytics]. Door deze benadering na te streven, om de [!DNL Target] request retourneert standaard de payload, maar alleen wanneer gewenst en opgegeven.
+Als een globale instelling niet gewenst is en een meer on-demand aanpak de voorkeur verdient, gebruikt u de functie at.js [getOffers()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html?lang=nl-NL){target=_blank} door **analyticsLogging: &quot;client_side&quot;**. De analytische lading is teruggekeerd voor deze vraag slechts en [!DNL Target] backend stuurt niet de lading door aan [!DNL Analytics]. Door deze benadering na te streven, om de [!DNL Target] request retourneert standaard de payload, maar alleen wanneer gewenst en opgegeven.
 
 Bijvoorbeeld:
 
@@ -174,7 +174,7 @@ De reactie ziet er als volgt uit:
 }
 ```
 
-De lading kan dan door:sturen aan [!DNL Analytics] via de [API voor gegevensinvoer](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+De lading kan dan door:sturen aan [!DNL Analytics] via de [API voor gegevensinvoer](https://helpx.adobe.com/nl/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ### Stap 8: De implementatie valideren {#step8}
 

@@ -96,7 +96,7 @@ De volgende secties bevatten het oplossen van problemeninformatie over activitei
 
 ## Globale mbox
 
-* [Globale mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [Globale mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=nl-NL)
 
 ## Gastheren/omgevingen
 
@@ -108,23 +108,23 @@ De volgende secties bevatten het oplossen van problemeninformatie over het uitvo
 
 ### Algemene uitvoering
 
-* [Ondersteunde browsers](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
-* [Op cloud gebaseerde instanties gebruiken met Doel](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
+* [Ondersteunde browsers](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=nl-NL)
+* [Op cloud gebaseerde instanties gebruiken met Doel](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html?lang=nl-NL)
 
 ### Algemene vakken
 
-* [Veelgestelde vragen over Global mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [Veelgestelde vragen over Global mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=nl-NL)
 
 ### at.js
 
-* [at.js Veelgestelde vragen](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html)
-* [Foutopsporing bij .js met Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
-* [details at.js-versie](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
+* [at.js Veelgestelde vragen](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=nl-NL)
+* [Foutopsporing bij .js met Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=nl-NL)
+* [details at.js-versie](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL)
 * &quot;Office Hours&quot;-video, een initiatief onder leiding van het Adobe Customer Care-team.
 
 ## Mobiele apps
 
-* [Veelgestelde vragen over het doel voor mobiele apps](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
+* [Veelgestelde vragen over het doel voor mobiele apps](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=nl-NL)
 
 ## Rapportage
 
@@ -133,11 +133,11 @@ De volgende secties bevatten het oplossen van problemeninformatie over het uitvo
 
 ## SEO (Search Engine Optimization)
 
-* [SEO-tests (Search Engine Optimization, optimalisatie van zoekmachines)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [SEO-tests (Search Engine Optimization, optimalisatie van zoekmachines)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=nl-NL)
 
 ## Beveiliging
 
-* [Inhoudsbeveiligingsbeleid (CSP)-instructies](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
+* [Inhoudsbeveiligingsbeleid (CSP)-instructies](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=nl-NL)
 
 ## Systeemstatus
 

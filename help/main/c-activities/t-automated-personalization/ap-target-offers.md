@@ -2,7 +2,7 @@
 keywords: geautomatiseerde personalisatie;aanbiedingen;target;publiek;het richten van regels;het richten van gericht
 description: Ontdek hoe u afzonderlijke aanbiedingen kunt richten op specifieke doelgroepen met behulp van [!UICONTROL Automated Personalization] (AP)-activiteiten.
 title: Hoe kan ik [!UICONTROL Automated Personalization] aanbiedingen richten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be

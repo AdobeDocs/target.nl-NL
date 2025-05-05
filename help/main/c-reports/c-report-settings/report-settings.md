@@ -135,7 +135,7 @@ Selecteer de omgeving (hostgroep) die u voor het rapport wilt gebruiken. Voor me
 
 >[!NOTE]
 >
->Als uw organisatie [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank}  (AEP) gebruikt om metrieke gegevens naar [!DNL Target] te verzenden, zou het milieu in AEP Datastream het milieu in uw [!DNL Target] rapportmontages moeten aanpassen.
+>Als uw organisatie [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=nl-NL){target=_blank}  (AEP) gebruikt om metrieke gegevens naar [!DNL Target] te verzenden, zou het milieu in AEP Datastream het milieu in uw [!DNL Target] rapportmontages moeten aanpassen.
 
 ### Rapportgegevens opnieuw instellen
 

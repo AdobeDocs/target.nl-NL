@@ -2,7 +2,7 @@
 keywords: geautomatiseerde personalisatie;ap
 description: Leer hoe u een [!UICONTROL Automated Personalization] (AP)-activiteit maakt met behulp van [!UICONTROL Visual Experience Composer] .
 title: Hoe maak ik een [!UICONTROL Automated Personalization] -activiteit?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88

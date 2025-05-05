@@ -34,7 +34,7 @@ Verschillende aanbevelingen voor algoritmen kunnen op verschillende typen pagina
 
 ## Op basis van winkelwagentje {#cart-based}
 
-Met het algoritme [!UICONTROL Cart-Based] kunt u items aanbevelen op basis van de inhoud van het huidige winkelwagentje van de bezoeker. De aanbevelingssleutels worden geleverd door [ mbox parameter `cartIds` ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}  in komma-gescheiden waarden. Alleen de eerste tien waarden worden in aanmerking genomen.
+Met het algoritme [!UICONTROL Cart-Based] kunt u items aanbevelen op basis van de inhoud van het huidige winkelwagentje van de bezoeker. De aanbevelingssleutels worden geleverd door [ mbox parameter `cartIds` ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank}  in komma-gescheiden waarden. Alleen de eerste tien waarden worden in aanmerking genomen.
 
 De op kunst-gebaseerde aanbeveling logica is gelijkaardig aan &quot;[!UICONTROL Recommended For You]&quot;op gebruiker-gebaseerd algoritme en aan &quot;[!UICONTROL People Who Viewed These, Bought Those]&quot;en &quot;[!UICONTROL People Who Bought These, Bought Those]&quot;op punt-gebaseerde algoritmen.
 

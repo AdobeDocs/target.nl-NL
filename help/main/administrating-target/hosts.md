@@ -85,7 +85,7 @@ Als een [!DNL Target] -aanvraag wordt ingediend op een niet-geautoriseerde host,
 
 >[!IMPORTANT]
 >
->**beste praktijken van de Veiligheid**: Als u ubox functionaliteit van [!DNL Target] gebruikt, controleert deze lijst van gewenste personen ook de lijst van domeinen waaraan uw [ redirector ](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank}  kan navigeren. Zorg ervoor dat u alle domeinen toevoegt waarnaar u wilt omleiden wanneer u ubox als onderdeel van uw implementatie gebruikt. Als de lijst van gewenste personen niet is opgegeven, kan [!DNL Adobe] de omleidings-URL&#39;s niet controleren en beschermen tegen mogelijke kwaadwillige omleidingen.
+>**beste praktijken van de Veiligheid**: Als u ubox functionaliteit van [!DNL Target] gebruikt, controleert deze lijst van gewenste personen ook de lijst van domeinen waaraan uw [ redirector ](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=nl-NL){target=_blank}  kan navigeren. Zorg ervoor dat u alle domeinen toevoegt waarnaar u wilt omleiden wanneer u ubox als onderdeel van uw implementatie gebruikt. Als de lijst van gewenste personen niet is opgegeven, kan [!DNL Adobe] de omleidings-URL&#39;s niet controleren en beschermen tegen mogelijke kwaadwillige omleidingen.
 >
 >De lijst van gewenste personen heeft voorrang op omgevingen. Wis uit alle gastheren alvorens de eigenschap van de lijst van gewenste personen te gebruiken, dan slechts verschijnen de gastheren die door de lijst van gewenste personen worden toegestaan in uw gastheerlijst. Vervolgens kunt u de hosts naar de gewenste omgeving verplaatsen.
 

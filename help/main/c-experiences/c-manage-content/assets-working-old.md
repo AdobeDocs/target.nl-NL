@@ -86,7 +86,7 @@ In de volgende afbeelding ziet u de aanwijspictogrammen wanneer u de [!UICONTROL
 
 Deze video bevat informatie over het beheren van inhoud. 4:56
 
-* Verbinding tussen de [ Bibliotheek van de Activa van het Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) en de Bibliotheek van de Inhoud van het Doel
+* Verbinding tussen de [ Bibliotheek van de Activa van het Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=nl-NL) en de Bibliotheek van de Inhoud van het Doel
 * Aangepaste HTML-aanbiedingen
 * Aanbod van de HTML van de douane in de Visuele Composer van de Ervaring
 

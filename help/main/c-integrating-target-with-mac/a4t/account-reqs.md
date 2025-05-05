@@ -28,13 +28,13 @@ Voltooi de volgende taken in de [!DNL Adobe Experience Cloud] [Admin Console](ht
 
 Uw [!DNL Analytics] en [!DNL Target] gebruikersaccounts moeten aan je Adobe ID zijn gekoppeld.
 
-Zie voor meer informatie [Organisaties en accountkoppelingen](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
+Zie voor meer informatie [Organisaties en accountkoppelingen](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl-NL).
 
 ### Experience Cloud-groepslidmaatschap configureren
 
 U moet lid zijn van een of meer [!DNL Experience Cloud] groepen die toegang hebben tot [!DNL Analytics] en [!DNL Target].
 
-Zie voor meer informatie [Gebruikers en producten van Experience Cloud beheren](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Zie voor meer informatie [Gebruikers en producten van Experience Cloud beheren](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=nl-NL).
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 

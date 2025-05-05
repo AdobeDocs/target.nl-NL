@@ -3,7 +3,7 @@ keywords: Automated Personalization;ap;upload gegevens;offline gegevens;personal
 description: Leer hoe u offline gegevens kunt uploaden tijdens het samenstellen van verpersoonlijkingsmodellen in [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] activiteiten.
 title: Hoe kan ik gegevens voor de algoritmen van de Personalisatie uploaden?
 feature: Automated Personalization, Auto-Target
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
 source-git-commit: 3f64da1c9a1146e4d2d9389d6d5ce764764d2d9c
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Offlinegegevens, zoals CRM-informatie of klantchurn-concentratiescores, kunnen ongelooflijk waardevol zijn wanneer u modellen voor personalisatie ontwikkelt in [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] activiteiten.
 
-Er zijn verschillende manieren om gegevens in te voeren in [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] personalisatiealgoritmen. Naast de methoden in [Methoden om gegevens op te halen in doel](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}, [!DNL Experience Cloud] gedeeld publiek ([!UICONTROL Adobe Analytics], [!DNL Audience Manager]), en het publiek dat actief rapporteert, wordt ook gebruikt in [!DNL Target] algoritmen.
+Er zijn verschillende manieren om gegevens in te voeren in [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] personalisatiealgoritmen. Naast de methoden in [Methoden om gegevens op te halen in doel](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=nl-NL){target=_blank}, [!DNL Experience Cloud] gedeeld publiek ([!UICONTROL Adobe Analytics], [!DNL Audience Manager]), en het publiek dat actief rapporteert, wordt ook gebruikt in [!DNL Target] algoritmen.
 
 Voor informatie over automatisch verzamelde en gebruikte gegevens door [!UICONTROL Automated Personalization] en [!UICONTROL Auto-Target] verpersoonlijkingsalgoritmen, zie [Automated Personalization-gegevensverzameling](/help/main/c-activities/t-automated-personalization/ap-data.md).
 

@@ -37,6 +37,6 @@ Een verzameling &#39;Hoe kan ik&#39;-video&#39;s en zelfstudies waarin de mogeli
 
 ## Adobe [!DNL Target] Tutorials {#tutorials}
 
-Video-introducties van [!DNL Target] de concepten en de hulpmiddelen zijn beschikbaar op [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) pagina.
+Video-introducties van [!DNL Target] de concepten en de hulpmiddelen zijn beschikbaar op [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=nl-NL) pagina.
 
 ![Adobe Target-tutorials](/help/main/c-intro/assets/adobe-target-tutorials-new.png)

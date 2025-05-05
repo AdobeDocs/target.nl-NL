@@ -2,7 +2,7 @@
 keywords: aanbeveling;back-up;back-up maken
 description: Leer hoe te om reserveaanbevelingen in Adobe  [!DNL Target]  Recommendations te gebruiken. De aanbeveling die niet genoeg geadviseerde punten heeft toont de resultaten van het reservealgoritme.
 title: Hoe gebruik ik een back-upaanbeveling in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

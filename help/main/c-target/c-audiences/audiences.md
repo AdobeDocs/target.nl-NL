@@ -21,7 +21,7 @@ Het publiek wordt gebruikt overal waar het richten beschikbaar is. Wanneer u een
 * [Een activiteitspecifiek publiek maken](/help/main/c-target/creating-activity-only-audience.md) en als doel instellen
 * [Meerdere doelgroepen combineren](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) om een ad-hocpubliek te maken
 
-U kunt ook publieksgegevens gebruiken die zijn verzameld door [!DNL Adobe Analytics] voor realtime gericht werken en personalisatie in [!DNL Target] en andere [!DNL Adobe Experience Cloud] toepassingen. Zie [Soorten publiek Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) in de *Experience Cloud Central Interface-componenten* hulplijn.
+U kunt ook publieksgegevens gebruiken die zijn verzameld door [!DNL Adobe Analytics] voor realtime gericht werken en personalisatie in [!DNL Target] en andere [!DNL Adobe Experience Cloud] toepassingen. Zie [Soorten publiek Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=nl-NL) in de *Experience Cloud Central Interface-componenten* hulplijn.
 
 Er zijn twee soorten publiek in [!DNL Target]:
 
@@ -45,7 +45,7 @@ De [!UICONTROL Audiences] Deze lijst bevat het publiek dat u in uw activiteiten 
 
   >[!NOTE]
   >
-  >De [!DNL Adobe Experience Platform] bron is beschikbaar voor iedereen [!DNL Target] klanten die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Publiek beschikbaar bij de [!DNL Adobe Experience Platform] kan worden gebruikt zoals is of [gecombineerd met bestaand publiek](/help/main/c-target/combining-multiple-audiences.md).
+  >De [!DNL Adobe Experience Platform] bron is beschikbaar voor iedereen [!DNL Target] klanten die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=nl-NL){target=_blank}. Publiek beschikbaar bij de [!DNL Adobe Experience Platform] kan worden gebruikt zoals is of [gecombineerd met bestaand publiek](/help/main/c-target/combining-multiple-audiences.md).
   >
   >Gebruikers moeten [!UICONTROL Approver] of hoger [!DNL Target] om te vormen [!DNL Target] [!UICONTROL Destinations] kaarten in AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
   >

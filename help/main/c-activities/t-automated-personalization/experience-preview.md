@@ -2,7 +2,7 @@
 keywords: ervaringsvoorvertoning;ervaring URL's;genereren URL's;belevenis weergeven
 description: Leer hoe u URL's met voorvertoningen voor Adobe kunt gebruiken [!DNL Target] Automated Personalization-activiteiten om inhoud direct op uw site te bekijken voordat de activiteit actief is.
 title: Hoe kan ik URL's van het ervaringsvoorbeeld in Automated Personalization-activiteiten gebruiken?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3

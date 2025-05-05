@@ -99,7 +99,7 @@ Soorten publiek kan worden opgeslagen voor hergebruik in meerdere activiteiten, 
 |--- |--- |
 | Herbruikbaar publiek | Herbruikbare doelgroepen kunnen voor elke activiteit worden geselecteerd. Als u een van deze soorten publiek wijzigt, verandert dit voor alle activiteiten die het gebruiken. |
 | Aangepaste segmenten | De segmenten van de douane (die ook als campagne-specifieke segmenten worden bekend) zijn specifiek voor een campagne in Klassiek van het Doel. Ze worden gemaakt als onderdeel van de campagne en kunnen niet opnieuw worden gebruikt in andere campagnes. |
-| Gedeeld publiek | Soorten publiek kan worden gedeeld [!DNL Adobe Experience Cloud] oplossingen. Zie [Soorten publiek](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) voor voorbeelden. |
+| Gedeeld publiek | Soorten publiek kan worden gedeeld [!DNL Adobe Experience Cloud] oplossingen. Zie [Soorten publiek](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=nl-NL) voor voorbeelden. |
 
 Voor informatie over hoe het bezoekersprofiel informatie over bezoekers van uw site bijhoudt, raadpleegt u [Bezoekerprofielen](/help/main/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1).
 
