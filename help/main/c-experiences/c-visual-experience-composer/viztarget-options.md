@@ -4,7 +4,7 @@ description: Onderzoek de opties beschikbaar in  [!DNL Adobe Target] [!UICONTROL
 title: Hoe gebruik ik de opties voor [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
+source-git-commit: 042c060aeb9434fd6bb4f9333093f3a1a8508ac9
 workflow-type: tm+mt
 source-wordcount: '1847'
 ht-degree: 0%
@@ -27,15 +27,15 @@ De VEC wordt weergegeven wanneer u een bestaande activiteit maakt of bewerkt.
 
 In de volgende secties worden de opties beschreven die beschikbaar zijn in de bijgewerkte VEC voor een [!UICONTROL A/B Test] -activiteit. Welke opties beschikbaar zijn, is afhankelijk van het type activiteit.
 
-### [!UICONTROL Experiences] deelvenster
+### [!UICONTROL Experiences] rail
 
-Het deelvenster [!UICONTROL Experiences] wordt weergegeven in de linkerrails van de VEC.
+De [!UICONTROL Experiences] -rail wordt weergegeven in de linkerspoorstaaf van de VEC.
 
-![ het paneel van Ervaring ](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
+![ Ervaringen spoorstaaf ](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
 
-Met het deelvenster [!UICONTROL Experiences] kunt u ervaringen weergeven, maken, hernoemen of verwijderen.
+U kunt ervaringen weergeven, maken, hernoemen of verwijderen met de [!UICONTROL Experiences] -rail.
 
-De volgende opties zijn beschikbaar in het deelvenster [!UICONTROL Experiences] :
+De volgende opties zijn beschikbaar in de [!UICONTROL Experiences] rail:
 
 * **Mening een ervaring**: Om een ervaring te bekijken, klik de gewenste ervaring om het in het [!UICONTROL Design] canvas te tonen.
 * **voeg een ervaring** toe: Klik het **[!UICONTROL Add]** pictogram ( ![ voeg pictogram ](/help/main/assets/icons/Add.svg) toe) om een nieuwe ervaring toe te voegen. Configureer de nieuwe ervaring naar wens.
@@ -73,15 +73,15 @@ U kunt veranderingen ongedaan maken die door het [!UICONTROL Undo] pictogram ( !
 
 Om een actie opnieuw te doen, breid  ongedaan maken/ [!UICONTROL Redo] knoopgroep en kies [!UICONTROL Redo].
 
-### [!UICONTROL Components] deelvenster
+### [!UICONTROL Components] rail
 
-U kunt een aantal componenten aan uw webpagina toevoegen en deze naar wens bewerken in het nieuwe deelvenster [!UICONTROL Components] .
+U kunt een aantal componenten aan uw webpagina toevoegen en deze naar wens bewerken met de nieuwe [!UICONTROL Components] -rail.
 
-![ het paneel van Componenten ](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
+![ spoorstaaf van Componenten ](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
 >[!NOTE]
 >
->Als u het [!UICONTROL Modifications] paneel op dit gebied in plaats van het [!UICONTROL Components] paneel ziet, klik het **[!UICONTROL Show Components]** pictogram ( ![ toon het pictogram van Componenten ](/help/main/assets/icons/Add.svg)). Het [!UICONTROL Show Components] pictogram ( ![ toon het pictogram van Componenten ](/help/main/assets/icons/Add.svg)) en [!UICONTROL Show Modifications] pictogram ( ![ toon het paneel van Veranderingen ](/help/main/assets/icons/History.svg)) dienst als knevels om de aangewezen opties te tonen.
+>Als u [!UICONTROL Modifications] spoor in dit gebied in plaats van [!UICONTROL Components] spoor ziet, klik het **[!UICONTROL Show Components]** pictogram ( ![ toon het pictogram van Componenten ](/help/main/assets/icons/Add.svg)). Het [!UICONTROL Show Components] pictogram ( ![ toon het pictogram van Componenten ](/help/main/assets/icons/Add.svg)) en het [!UICONTROL Show Modifications] pictogram ( ![ toon de spoorstaaf van Wijzigingen ](/help/main/assets/icons/History.svg)) dienst als knevels om de aangewezen opties te tonen.
 
 Een nieuwe component toevoegen aan een ervaring:
 
@@ -107,19 +107,19 @@ Een nieuwe component toevoegen aan een ervaring:
 
    In vergelijking met de vorige VEC-versie kunt u een geselecteerd element niet vervangen door een component.
 
-### [!UICONTROL Modifications] deelvenster
+### [!UICONTROL Modifications] rail
 
-Om het [!UICONTROL Modifications] paneel te openen, klik het [!UICONTROL Show Modifications] pictogram ( ![ toon het paneel van Veranderingen ](/help/main/assets/icons/History.svg)) in het [!UICONTROL Components] paneel.
+Om het [!UICONTROL Modifications] spoor te openen, klik het [!UICONTROL Show Modifications] pictogram ( ![ toon de spoorstaaf van Wijzigingen ](/help/main/assets/icons/History.svg)) in [!UICONTROL Components] spoor.
 
-![ het paneel van Wijzigingen ](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+![ de spoorstaaf van Wijzigingen ](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
 >[!NOTE]
 >
->Het [!UICONTROL Show Components] pictogram ( ![ toon het pictogram van Componenten ](/help/main/assets/icons/Add.svg)) en [!UICONTROL Show Modifications] pictogram ( ![ toon het paneel van Veranderingen ](/help/main/assets/icons/History.svg)) dienst als knevels om de aangewezen opties te tonen.
+>Het [!UICONTROL Show Components] pictogram ( ![ toon het pictogram van Componenten ](/help/main/assets/icons/Add.svg)) en het [!UICONTROL Show Modifications] pictogram ( ![ toon de spoorstaaf van Wijzigingen ](/help/main/assets/icons/History.svg)) dienst als knevels om de aangewezen opties te tonen.
 
-In het deelvenster [!UICONTROL Modifications] worden alle wijzigingen weergegeven die in de pagina zijn aangebracht in [!UICONTROL Visual Experience Composer] (VEC) en kunt u aanvullende wijzigingen aanbrengen (zoals CSS-kiezer, Mbox en Aangepaste code).
+In de track [!UICONTROL Modifications] worden alle wijzigingen weergegeven die in de pagina zijn aangebracht in [!UICONTROL Visual Experience Composer] (VEC) en kunt u aanvullende wijzigingen aanbrengen (zoals CSS-kiezer, Mbox en Aangepaste code).
 
-Klik het **[!UICONTROL More Options]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmall.svg)) in de paneelkopbal om een wijziging toe te voegen, alle wijzigingen te schrappen, of alle ongeldige wijzigingen te schrappen. Klik op [!UICONTROL Select] om bulkbewerkingen uit te voeren: [!UICONTROL Apply to All Pages] of [!UICONTROL Delete] .
+Klik het **[!UICONTROL More Options]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmall.svg)) in de spoorkopbal om een wijziging toe te voegen, alle wijzigingen te schrappen, of alle ongeldige wijzigingen te schrappen. Klik op [!UICONTROL Select] om bulkbewerkingen uit te voeren: [!UICONTROL Apply to All Pages] of [!UICONTROL Delete] .
 
 Klik het **[!UICONTROL More Options]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmall.svg)) naast elke wijziging om zijn informatie te bekijken, de wijziging te schrappen, of de wijziging op meer meningen toe te passen.
 
@@ -141,19 +141,19 @@ De verschillende [!UICONTROL Visual Experience Composer] (VEC) acties worden geg
 >
 >Welke opties beschikbaar zijn, is afhankelijk van het type activiteit en het element dat u maakt of bewerkt. Voor meer informatie over het uitgeven van beelden en aanbiedingen in een [!UICONTROL A/B Test] activiteit, zie [ elementen uitgeven gebruikend het [!UICONTROL Design] canvas ](#design) hieronder.
 
-### [!UICONTROL Properties] deelvenster
+### [!UICONTROL Properties] rail
 
-In het deelvenster [!UICONTROL Properties] kunt u de eigenschappen van geselecteerde elementen op de pagina wijzigen, ongeacht of dit HTML-elementen of -objecten zijn die specifiek zijn voor [!DNL Target] , zoals aanbevelingen of aanbiedingen.
+Met de track [!UICONTROL Properties] kunt u eigenschappen van geselecteerde elementen op de pagina wijzigen, ongeacht of dit HTML-elementen of objecten zijn die specifiek zijn voor [!DNL Target] , zoals aanbevelingen of aanbiedingen.
 
-![ het paneel van Eigenschappen ](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
+![ spoorstaaf van Eigenschappen ](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
-Klik op de pictogrammen boven in het deelvenster om HTML-code te bewerken of om elementen te verwijderen, te dupliceren of te verbergen. Wijzigingen worden weergegeven in het deelvenster [!UICONTROL Modifications] .
+Klik op de pictogrammen boven op de rails om HTML-code te bewerken of om elementen te verwijderen, te dupliceren of te verbergen. Wijzigingen worden weergegeven in de [!UICONTROL Modifications] rail.
 
-Het [!UICONTROL Properties] -deelvenster kan worden samengevouwen in de rechterrail. Klik het [!UICONTROL Show/Hide Properties] pictogram ( ![ pictogram van Eigenschappen ](/help/main/assets/icons/Propertie.svg)) rechts van het paneel om het [!UICONTROL Properties] paneel samen te vouwen of te tonen.
+De [!UICONTROL Properties] -rail kan worden samengevouwen in de rechterrail. Klik het [!UICONTROL Show/Hide Properties] pictogram ( ![ pictogram van Eigenschappen ](/help/main/assets/icons/Propertie.svg)) rechts van de spoorstaaf om [!UICONTROL Properties] spoorstaaf samen te vouwen of te tonen.
 
 ## Elementen bewerken met het canvas [!UICONTROL Design] {#design}
 
-In de volgende secties ziet u hoe u afbeeldingen en tekst op het canvas van [!UICONTROL Design] kunt bewerken. Het ontwerpcanvas biedt u samen met de deelvensters Componenten, Wijzigingen en Eigenschappen krachtige gereedschappen waarmee u eenvoudig ervaringen voor uw activiteiten kunt maken.
+In de volgende secties ziet u hoe u afbeeldingen en tekst op het canvas van [!UICONTROL Design] kunt bewerken. Het ontwerpcanvas biedt u samen met de rails Componenten, Wijzigingen en Eigenschappen krachtige gereedschappen waarmee u eenvoudig ervaringen voor uw activiteiten kunt maken.
 
 ### Afbeeldingsopties
 
@@ -220,7 +220,7 @@ Met het menu boven aan het tekstelement kunt u het volgende doen:
 * Voeg verpersoonlijking toe ( ![ voeg het pictogram van Personalization ](/help/main/assets/icons/PersonalizationField.svg) toe).
 * Schrap het beeld ( ![ pictogram van de Schrapping ](/help/main/assets/icons/Delete.svg)).
 
-In het deelvenster [!UICONTROL Properties] aan de rechterkant kunt u de eigenschappen van de tekst verder configureren.
+Met de [!UICONTROL Properties] -rail aan de rechterkant kunt u de eigenschappen van de tekst verder configureren.
 
 Met de pictogrammen boven aan het frame kunt u het volgende doen:
 
@@ -467,7 +467,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=nl-NL){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -499,7 +499,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=nl-NL){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -531,7 +531,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=nl-NL){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -621,7 +621,7 @@ Undo changes you make to your activities during an editing session. You can also
 
 ## Considerations {#considerations}
 
-* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=nl-NL){target=_blank} for more information.
+* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} for more information.
 
 ## Custom element support {#custom}
 
@@ -629,9 +629,9 @@ The VEC supports [Web Components](https://developer.mozilla.org/en-US/docs/Web/W
 
 >[!NOTE]
 >
->VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
+>VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
 >
->VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=nl-NL){target=_blank}.
+>VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 Most VEC actions are supported on custom events and inside custom events, with the following exceptions: 
 
