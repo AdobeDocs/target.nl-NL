@@ -1,25 +1,25 @@
 ---
 keywords: toevoegen gebruiker;project;gebruikersgroep;eigenschappen;werkruimte;beheren eigenschap;eigenschap;at_eigenschap;rollen;machtigingen
-description: Leer hoe u gebruikers aan Adobe Target kunt toevoegen. creëren werkruimten, gebruikersgroepen, en eigenschappen; de implementatie bij te werken; en geef rollen en machtigingen op.
+description: Leer hoe u gebruikers aan Adobe Target toevoegt, werkruimten, gebruikersgroepen en eigenschappen maakt, uw implementatie bijwerkt en rollen en machtigingen opgeeft.
 title: Hoe kan ik bedrijfsmachtigingen configureren?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
 workflow-type: tm+mt
-source-wordcount: '1415'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
 
 # Bedrijfsmachtigingen configureren
 
-Informatie over de taken die nodig zijn om gebruikers toe te voegen aan uw [!DNL Target] uitvoering; creëren werkruimten, gebruikersgroepen, en eigenschappen; update uw [!DNL Target] de tenuitvoerlegging `at_property` parameter; en geef rollen en machtigingen op.
+Informatie over de taken die nodig zijn om gebruikers toe te voegen aan uw [!DNL Target] -implementatie, werkruimten, gebruikersgroepen en eigenschappen te maken, uw [!DNL Target] -implementatie bij te werken en de `at_property` -parameter op te nemen, en rollen en machtigingen op te geven.
 
 >[!NOTE]
 >
->Eigenschappen en machtigingen zijn beschikbaar als onderdeel van de [Doelpremie](/help/main/c-intro/intro.md#premium) oplossing. Ze zijn niet beschikbaar in [!DNL Target Standard] zonder [!DNL Target Premium] licentie.
+>De eigenschappen en de functionaliteit van Toestemmingen zijn beschikbaar als deel van de [ Target Premium ](/help/main/c-intro/intro.md#premium) oplossing. Ze zijn niet beschikbaar in [!DNL Target Standard] zonder een [!DNL Target Premium] -licentie.
 
 De volgende lijst maakt een lijst van de taken u zou moeten uitvoeren om eigenschappen tot stand te brengen en gebruikersrollen en toestemmingen toe te wijzen. Raadpleeg de onderstaande secties voor meer informatie over elke taak.
 
@@ -29,157 +29,157 @@ De volgende lijst maakt een lijst van de taken u zou moeten uitvoeren om eigensc
 | 2. Een werkruimte maken (productprofiel) | [!DNL Adobe Admin Console for Enterprise] |
 | 3. Gebruikersgroepen maken (optioneel) | [!DNL Adobe Admin Console for Enterprise] |
 | 4. Eigenschappen maken | [!DNL Target] UI |
-| 5: Werk uw implementatie bij om de `at_property` parameter | [!DNL Target] UI, at.js-functies of -tags in [!DNL Adobe Experience Platform] |
+| 5: Werk uw implementatie bij om de parameter `at_property` op te nemen | [!DNL Target] UI, at.js-functies of -tags in [!DNL Adobe Experience Platform] |
 | 6: Rollen en machtigingen opgeven | [!DNL Adobe Admin Console for Enterprise] |
 
-Voor de taken die worden uitgevoerd in de [!DNL Adobe Admin Console for Enterprise], toegang tot de console door deze stappen te volgen:
+Voor die taken die in [!DNL Adobe Admin Console for Enterprise] worden uitgevoerd, heb toegang tot de console door deze stappen te volgen:
 
-1. Klik in Adobe Target op **[!UICONTROL Administration]** > **[!UICONTROL Properties]** > **[!UICONTROL Assign Properties to Workspaces]**.
+1. Klik in Adobe Target op **[!UICONTROL Administration]** > **[!UICONTROL Properties]** > **[!UICONTROL Assign Properties to Workspaces]** .
 
    of
 
-   Ga naar [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) > Meld u aan met uw Adobe ID als u zich nog niet hebt aangemeld.
+   Ga naar [ https://adminconsole.adobe.com/enterprise ](https://adminconsole.adobe.com/enterprise/) > binnen het gebruiken van uw Adobe ID, als u nog niet hebt het programma geopend.
 
 
-1. (Voorwaardelijk) Als u toegang hebt tot de [!DNL Admin Console for Enterprise] voor meer dan één organisatie, klik de gebruikersavatar in de juiste hoek of de hoogste navigatiebar, dan selecteer de gewenste organisatie.
+1. (Voorwaardelijk) Als u toegang hebt tot [!DNL Admin Console for Enterprise] voor meer dan één organisatie, klikt u op de gebruikersavatar in de rechterhoek of op de bovenste navigatiebalk en selecteert u de gewenste organisatie.
 
 ## Stap 1. Gebruikers toevoegen (optioneel) {#section_A92AF0F921B743FEB9E9033433BD816A}
 
-Wanneer u de nieuwe [!UICONTROL Properties] functionaliteit, moet al gebruikersbeheer in [!DNL Adobe Admin Console for Enterprise]. Alle bestaande gebruikers in [!DNL Target] wordt gemigreerd van [!DNL Target] aan de [!DNL Admin Console for Enterprise].
+Wanneer u de nieuwe [!UICONTROL Properties] -functionaliteit gaat gebruiken, moet al het gebruikersbeheer worden uitgevoerd in de [!DNL Adobe Admin Console for Enterprise] . Alle bestaande gebruikers in [!DNL Target] worden echter gemigreerd van [!DNL Target] naar [!DNL Admin Console for Enterprise] .
 
-1. [In de Admin Console](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)klikt u op de knop **[!UICONTROL Users]** tab boven aan de pagina > **[!UICONTROL Add Users]** om nieuwe gebruikers te maken of om bestaande gebruikers te bewerken.
-1. Volg de instructies in [Gebruikers en groepen beheren in de Experience Cloud](https://helpx.adobe.com/nl/enterprise/help/users.html) in de *Handleiding voor bedrijven*.
+1. [ in Admin Console ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), klik het **[!UICONTROL Users]** lusje bij de bovenkant van pagina > **[!UICONTROL Add Users]** om nieuwe gebruikers tot stand te brengen of bestaande gebruikers uit te geven.
+1. Volg de instructies in [ leiden Gebruikers en Groepen in Experience Cloud ](https://helpx.adobe.com/enterprise/help/users.html) in de *Gids van de Gebruiker van de Onderneming*.
 
 ## Stap 2. Een werkruimte maken (productprofiel) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
 
-Met een werkruimte (productprofiel) kan een organisatie een specifieke set gebruikers toewijzen aan een specifieke set eigenschappen. In veel opzichten is een werkruimte vergelijkbaar met een rapportsuite in [!DNL Analytics].
+Met een werkruimte (productprofiel) kan een organisatie een specifieke set gebruikers toewijzen aan een specifieke set eigenschappen. In veel opzichten is een werkruimte vergelijkbaar met een rapportsuite in [!DNL Analytics] .
 
-Organisaties kunnen nu profiteren van de functionaliteit voor Enterprise-machtigingen door nieuwe werkruimten te maken binnen [!DNL Admin Console], toewijzen [!DNL Target] eigenschappen aan deze werkruimten, en het bewegen van gebruikers van de &quot;StandaardWerkruimte&quot;configuratie aan deze nieuwere, beperkte toegangswerkruimten.
+Organisaties kunnen profiteren van de functionaliteit voor Enterprise-machtigingen door nieuwe werkruimten te maken in [!DNL Admin Console] , [!DNL Target] -eigenschappen toe te wijzen aan deze werkruimten en gebruikers van de configuratie &quot;Standaard Workspace&quot; te verplaatsen naar deze nieuwere werkruimten met beperkte toegang.
 
 De klanten kunnen deze werkruimten gebruiken om toegang tot verschillende teams door gebied, door bedrijfseenheid, door plaatsctie, of via een andere methode te scheiden zij kiezen.
 
 Gebruikers kunnen deel uitmaken van meerdere werkruimten en kunnen zelfs verschillende rollen binnen elke werkruimte hebben.
 
-1. In de [!DNL Admin Console], klikt u op **[!UICONTROL Products]** en selecteert u vervolgens de naam van het gewenste product.
+1. Klik in [!DNL Admin Console] op **[!UICONTROL Products]** en selecteer vervolgens de naam van het gewenste product.
 
-   ![werkruimte](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
+   ![ werkruimte ](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
 1. Maak de gewenste werkruimte (productprofiel):
 
-   * **Standaardtoegang:** Alle bestaande activiteiten zullen in één enkel project worden samengevoegd genoemd &quot;StandaardToegang.&quot; Dit heeft geen invloed op klanten. Alle gebruikersrollen en functionaliteit zullen precies het zelfde blijven aangezien zij vóór deze verandering zijn.
+   * **StandaardToegang:** Alle bestaande activiteiten zullen in één enkel project genoemd &quot;StandaardToegang worden samengevoegd.&quot; Dit heeft geen invloed op klanten. Alle gebruikersrollen en functionaliteit zullen precies het zelfde blijven aangezien zij vóór deze verandering zijn.
 
-      Alle activiteiten die via [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services], en [!DNL Target Classic] maakt ook deel uit van de werkruimte Standaardtoegang. U kunt momenteel geen projecten van &quot;Standaardtoegang&quot;aan een ander project bewegen.
+     Alle activiteiten die via [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] en [!DNL Target Classic] worden gemaakt, maken ook deel uit van de werkruimte Standaardtoegang. U kunt momenteel geen projecten van &quot;Standaardtoegang&quot;aan een ander project bewegen.
 
-   * **Nieuwe werkruimten (productprofielen):** U kunt beginnen uit de nieuwe toestemmingenfunctionaliteit voordeel te halen door het volgende te doen:
+   * **Nieuwe werkruimten (Profielen van het Product):** u kunt beginnen uit de nieuwe toestemmingenfunctionaliteit voordeel te halen door het volgende te doen:
 
-      * Nieuwe werkruimten maken in het dialoogvenster [!DNL Admin Console for Enterprise].
+      * Nieuwe werkruimten maken in de [!DNL Admin Console for Enterprise] .
       * Doeleigenschappen toewijzen aan de werkruimten.
 
    U kunt deze werkruimten gebruiken om toegang tot verschillende teams te verdelen door gebied, bedrijfseenheid, plaatssectie, of via een andere methode u kiest. Gebruikers kunnen deel uitmaken van meerdere werkruimten en kunnen verschillende rollen binnen elke werkruimte hebben.
 
-1. Volg de instructies in [Productconfiguraties maken en beheren](https://helpx.adobe.com/nl/enterprise/help/manage-products-and-configurations.html) in de *Handleiding voor bedrijven*.
+1. Volg de instructies in [ creeer en beheer de Configuraties van het Product ](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) in de *Gids van de Gebruiker van de Onderneming*.
 
 >[!NOTE]
 >Zie de trainingsvideo hieronder voor meer informatie over het configureren van werkruimten.
 
 ### Vraag uw werkruimte-id op {#workspace-id}
 
-U moet de werkruimte-id doorgeven aan Enterprise-machtigingen in [Doel-API&#39;s](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=nl-NL){target=_blank}.
+U zult werkruimtetoewijzing aan de Toestemmingen van de hefboomonderneming in [ Doel APIs ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank} moeten overgaan.
 
-1. In de [Adobe Admin Console](https://adminconsole.adobe.com)klikt u op de knop [!UICONTROL Products] klikt u op het product in het linkermenu om de lijst PLC (werkruimte) weer te geven.
+1. In [ Adobe Admin Console ](https://adminconsole.adobe.com), klik het [!UICONTROL Products] lusje, dan klik het product in het linkermenu om PLC (werkruimte) lijst te tonen.
 1. Klik op de gewenste PLC (werkruimte) en zoek de id voor &quot;profielen&quot; in de URL, zoals hieronder wordt weergegeven.
 
-   ![workspaceID](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
+   ![ workspaceID ](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
 
 ## Stap 3. Gebruikersgroepen maken (optioneel) {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
-U kunt gebruikersgroepen maken, zoals Ontwikkelaars, Analysten, Marketers, Executives, enz., en vervolgens rechten toewijzen voor meerdere Adobe-producten en -werkruimten. Het toewijzen van een nieuw teamlid alle aangewezen voorrechten over verschillende producten van de Adobe kan zo gemakkelijk zijn zoals het toevoegen van hen aan een specifieke gebruikersgroep.
+U kunt gebruikersgroepen maken, zoals Ontwikkelaars, Analysten, Marketers, Executives, enz., en vervolgens rechten toewijzen voor meerdere Adobe-producten en -werkruimten. Het toewijzen van een nieuw teamlid aan alle juiste rechten voor verschillende Adobe-producten kan net zo eenvoudig zijn als het toevoegen van deze rechten aan een specifieke gebruikersgroep.
 
-1. Klik in de Admin Console op de knop **[!UICONTROL Users]** tab boven aan de pagina > **[!UICONTROL User Groups]** om nieuwe gebruikersgroepen te maken of om bestaande groepen te bewerken.
-1. Volg de instructies in [Gebruikers en groepen van een productconfiguratie beheren](https://helpx.adobe.com/nl/enterprise/help/manage-products-and-configurations.html) in de *Handleiding voor bedrijven*.
+1. Klik in de Admin Console op de tab **[!UICONTROL Users]** boven aan de pagina > **[!UICONTROL User Groups]** om nieuwe gebruikersgroepen te maken of bestaande groepen te bewerken.
+1. Volg de instructies in [ leiden Gebruikers en Groepen van een Configuratie van het Product ](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) in de *Gids van de Gebruiker van de Onderneming*.
 
 ## Stap 4. Eigenschappen maken {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-Eigenschappen worden toegelaten door een specifiek naam/waardepaar als parameter met om het even welke vraag (de vraag van het Doel, api vraag, enz.) toe te voegen naar doel.
+Eigenschappen worden ingeschakeld door een specifiek naam-/waardepaar als een parameter toe te voegen met een aanroep ([!DNL Target] aanroep, api-aanroep enz.) naar [!DNL Target] .
 
 Eigenschappen behoren tot specifieke kanalen (Web, Mobiel, E-mail, en API/Overige).
 
-**Tip**: Zie de trainingsvideo hieronder voor meer informatie over het maken van eigenschappen.
+**Uiteinde**: Zie de opleidingsvideo hieronder voor meer informatie over hoe te om eigenschappen tot stand te brengen.
 
-1. In [!DNL Target], klikt u op **[!UICONTROL Administration]** > **[!UICONTROL Properties]** om de [!UICONTROL Properties] lijst.
-1. Klikken **Eigenschap maken**.
+1. Klik in [!DNL Target] op **[!UICONTROL Administration]** > **[!UICONTROL Properties]** om de lijst [!UICONTROL Properties] weer te geven.
+1. Klik **creeer Bezit**.
 
    Vul de velden in:
 
-   * **Naam eigenschap (vereist):** Geef een beschrijvende naam voor de eigenschap op.
-   * **Omschrijving:** Geef een optionele beschrijving voor de eigenschap op.
-   * **Kanaal:** Selecteer het gewenste kanaal voor de eigenschap: Web, Mobile App, Email of Other/API (bijvoorbeeld een set-top box of PlayStation-console).
+   * **Naam van het Bezit (Vereist):** specificeer een beschrijvende naam voor het bezit.
+   * **Beschrijving:** specificeer een facultatieve beschrijving voor het bezit.
+   * **Kanaal:** selecteer het gewenste kanaal voor het bezit: Web, Mobiele App, E-mail, of Andere/API (bijvoorbeeld een reeks-hoogste doos of console PlayStation).
 
-1. Klikken **[!UICONTROL Copy]** om de code naar het klembord te kopiëren die u tijdens het uitvoeren van de stappen in [5: Werk Uw Implementatie bij om de parameter at_property op te nemen](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
-1. Klikken **[!UICONTROL Save]** wanneer gereed.
+1. Klik **[!UICONTROL Copy]** om de code aan uw klembord te kopiëren die u terwijl het uitvoeren van de stappen in [ 5 zult gebruiken: Werk Uw Implementatie bij om de parameter te omvatten at_property ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
+1. Klik op **[!UICONTROL Save]** als u klaar bent.
 
 >[!NOTE]
 >Zie de trainingsvideo hieronder voor meer informatie over het maken van eigenschappen.
 
 ## Stap 5: Werk uw implementatie bij om de parameter at_property op te nemen {#section_9B17A59807A94712BE642942442EBBC8}
 
-Als u de opdracht [!DNL Target] gebruiker-toestemmingenfunctionaliteit, moet u toevoegen `at_property` parameter aan om het even welke vraag die aanslaat [!DNL Target] (Aanroep van doel, api-aanroep, enz.).
+Als u de functionaliteit voor [!DNL Target] gebruikersmachtigingen wilt gebruiken, moet u de parameter `at_property` toevoegen aan elke aanroep die [!DNL Target] aanroept (aanroep van doel, api enz.).
 
-**Om de `at_property` parametercode:**
+**om de `at_property` parametercode te verkrijgen:**
 
-1. (Voorwaardelijk) Gebruik de implementatiecode die u hebt gegenereerd en opgeslagen op het klembord tijdens het uitvoeren van de stappen in [4. Eigenschappen maken](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_E8F2C92BE0F4466AB87604059C9CF3FD) en ga verder met stap 2.
+1. (Voorwaardelijk) Gebruik de implementatiecode u aan uw klembord produceerde en bewaarde terwijl het uitvoeren van de stappen in [ . Creeer Eigenschappen ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_E8F2C92BE0F4466AB87604059C9CF3FD) en ga aan Stap 2 te werk.
 
    of
 
-   In [!DNL Target], klikt u op **[!UICONTROL Administration]** > **[!UICONTROL Properties]** om de [!UICONTROL Properties] lijst.
+   Klik in [!DNL Target] op **[!UICONTROL Administration]** > **[!UICONTROL Properties]** om de lijst [!UICONTROL Properties] weer te geven.
 
-   1. Plaats de muisaanwijzer op de knop [!UICONTROL Last Updated] kolom voor de gewenste eigenschap die moet worden weergegeven en klik op de knop [!UICONTROL Code] pictogram.
+   1. Beweeg uw muiswijzer over de [!UICONTROL Last Updated] kolom voor het gewenste bezit aan vertoning en klik het [!UICONTROL Code] pictogram ( ![ pictogram van de Code ](/help/main/assets/icons/Code.svg)).
 
-      ![Code voor aanwijzen van eigenschap](/help/main/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
+      ![ de muiscode van het Bezit ](/help/main/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
 
    1. Klik met de rechtermuisknop op de gemarkeerde implementatiecode om deze naar het klembord te kopiëren.
 
-1. Werk uw [!DNL Target] uitvoering met de in de vorige stap verkregen uitvoeringscode.
+1. Werk uw [!DNL Target] -implementatie bij met de implementatiecode die in de vorige stap is verkregen.
 
-   Er zijn verschillende manieren om uw [!DNL Target] uitvoering. De volgende methoden kunnen bijvoorbeeld worden gebruikt voor webpagina&#39;s:
+   Er zijn verschillende manieren om uw [!DNL Target] -implementatie bij te werken. De volgende methoden kunnen bijvoorbeeld worden gebruikt voor webpagina&#39;s:
 
-   * **Via een &quot;Aangepaste parameter&quot; in tags binnen [!DNL Adobe Experience Platform]:**
+   * **via een &quot;Parameter van de Douane&quot;in markeringen binnen [!DNL Adobe Experience Platform]:**
 
-      Zie voor meer informatie [Mbox-parameters toevoegen](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=nl-NL#add-mbox-params) in de *Overzicht van codes* documentatie.
+     Voor meer informatie, zie [ Mbox Params ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params) in de *het overzicht van Markeringen* documentatie toevoegen.
 
-   * **Via de functie targetPageParamsAll():** Plaats de volgende code in de `<head>` -tags, boven de referentie at.js.
+   * **via targetPageParamsAll () functie:** Plaats de volgende code in de `<head>` markeringen, boven de verwijzing at.js.
 
-      ```javascript
-      <script>
-       function targetPageParamsAll() {
-        return {
-         "at_property": "5f8bd98b-1456-a84c-2a96-11s9b8e2b112"
-        };
-       }
-      </script>
-      ```
+     ```javascript
+     <script>
+      function targetPageParamsAll() {
+       return {
+        "at_property": "5f8bd98b-1456-a84c-2a96-11s9b8e2b112"
+       };
+      }
+     </script>
+     ```
 
-      Ga voor meer informatie over hoe u dit kunt doen met at.js naar [targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=nl-NL){target=_blank}.
+     Voor meer informatie over hoe te om dit met at.js te doen, zie [ targetPageParamsAll ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=en){target=_blank}.
 
-## Stap 6: Rollen en machtigingen opgeven {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
+## Stap 6: Geef rollen en machtigingen op {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
-1. Klik in de Admin Console op **[!UICONTROL Products]** en selecteert u vervolgens de naam van het gewenste product.
+1. Klik in de Admin Console op **[!UICONTROL Products]** en selecteer vervolgens de naam van het gewenste product.
 
-   ![Werkruimte](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
+   ![ Workspace ](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
-1. Klik op de naam van het gewenste profiel (bijvoorbeeld Standaardwerkruimte).
+1. Klik op de naam van het gewenste profiel (bijvoorbeeld Standaard Workspace).
 
-   ![Standaardwerkruimte](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
+   ![ Standaard Workspace ](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
 1. Klik op **[!UICONTROL Users]**.
 
-   De [!UICONTROL Users] worden alle gebruikers in die werkruimte weergegeven.
+   Op het tabblad [!UICONTROL Users] worden alle gebruikers in die werkruimte weergegeven.
 
-   ![configuratiegebruikers](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
+   ![ configuratiegebruikers ](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. Selecteer de gewenste machtigingenrol (fiatteur, Editor, waarnemer of uitgever) door de vervolgkeuzelijst voor elke gebruiker in het dialoogvenster [!UICONTROL Product Role] kolom.
+1. Selecteer de gewenste machtigingenrol (fiatteur, Editor, waarnemer of Uitgever) door de vervolgkeuzelijst voor elke gebruiker in de kolom [!UICONTROL Product Role] te gebruiken.
 
-   ![Vervolgkeuzelijst Productrol](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
+   ![ drop-down lijst van de Rol van het Product ](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | Rol | Beschrijving |
    |--- |--- |
@@ -188,7 +188,7 @@ Als u de opdracht [!DNL Target] gebruiker-toestemmingenfunctionaliteit, moet u t
    | Waarnemer | Kan activiteiten weergeven, maar kan deze niet maken of bewerken. |
    | Uitgever | Lijkt op de rol van waarnemer (kan activiteiten weergeven, maar kan deze niet maken of bewerken). De rol Publisher heeft echter de extra machtiging om activiteiten te activeren. |
 
-   Zie voor meer informatie [Productmachtigingen en -rollen beheren in de Admin Console](https://helpx.adobe.com/nl/enterprise/help/manage-permissions-and-roles.html) in de *Handleiding voor bedrijven*.
+   Voor meer informatie, zie [ de Toestemmingen en Rollen van het Product in Admin Console ](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) in de *Gids van de Gebruiker van de Onderneming* beheren.
 
 ## Trainingsvideo&#39;s
 
@@ -196,9 +196,9 @@ De volgende video&#39;s bevatten meer informatie over de concepten die in dit ar
 
 >[!NOTE]
 >
->De [!DNL Target] [!UICONTROL Administration] menu-interface (voorheen [!UICONTROL Setup]) is opnieuw ontworpen om betere prestaties te bieden, de vereiste onderhoudstijd bij het vrijgeven van nieuwe functies te verminderen en de gebruikerservaring in het hele product te verbeteren. De informatie in de volgende video&#39;s is over het algemeen correct. de opties kunnen zich echter op iets andere locaties bevinden . Bijgewerkte video&#39;s worden binnenkort gepost.
+>De gebruikersinterface van het [!DNL Target] [!UICONTROL Administration] menu (voorheen [!UICONTROL Setup] ) is opnieuw ontworpen om betere prestaties te bieden, de vereiste onderhoudstijd bij het vrijgeven van nieuwe functies te verminderen en de gebruikerservaring in het hele product te verbeteren. De informatie in de volgende video&#39;s is over het algemeen correct, maar de opties kunnen zich op een iets andere locatie bevinden. Bijgewerkte video&#39;s worden binnenkort gepost.
 
-### Adobe Target-werkruimten configureren (6:55) ![Zelfstudie-badge](/help/main/assets/tutorial.png)
+### Hoe te om de Werkruimten van Adobe Target (6:55) te vormen ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
 
 In deze video wordt uitgelegd hoe u werkruimten kunt maken.
 
@@ -212,9 +212,9 @@ In deze video wordt uitgelegd hoe u werkruimten kunt maken.
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
-### Eigenschappen maken in Adobe Target (3:05) ![Zelfstudie-badge](/help/main/assets/tutorial.png)
+### Hoe te om Eigenschappen in Adobe Target (3:05) te creëren ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
 
-* Hoe te om een bezit binnen te creëren [!DNL Adobe Target] interface
+* Hoe te om een bezit binnen de [!DNL Adobe Target] interface te creëren
 * Hoe te om een bezitstoken te produceren om in uw bezitsimplementatie te omvatten
 * Verken uzelf met de drie implementatiemethoden:
 

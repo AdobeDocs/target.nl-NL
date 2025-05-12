@@ -5,9 +5,9 @@ title: Hoe vorm ik Gebruikersbeheer?
 feature: Administration & Configuration
 role: Admin
 exl-id: 3bf0c23c-7382-43d2-af54-734221063872
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -34,10 +34,10 @@ Als u wilt weten of uw organisatie een Standard- of Premium-licentie heeft, klik
 * **Klanten van Target Premium:** als uw organisatie een [!DNL Target] vergunning van de Premie heeft, zult u het volgende in het Doel UI waarnemen:
 
    * U ziet de tab [!UICONTROL Properties] ( [!UICONTROL Administration] > [!UICONTROL Properties] )
-   * U ziet ook de tab [!UICONTROL Users] ( [!UICONTROL Administration] > [!UICONTROL Users] )
+   * U zult *niet* het [!UICONTROL Users] lusje ( [!UICONTROL Administration] > [!UICONTROL Users]) zien
 
      [!DNL Target] de klanten van de Premie zouden de instructies in [ Toestemmingen van de Gebruiker van de Onderneming ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) moeten volgen en [ vormen de Toestemmingen van de Onderneming ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) om gebruikers toe te voegen en toestemmingen in [!DNL Adobe Admin Console] toe te wijzen.
 
-In de volgende afbeelding ziet u de pagina [!UICONTROL Administration] voor een [!DNL Target] Premium-account. De tabbladen [!UICONTROL Properties] en [!UICONTROL Users] zijn beide beschikbaar:
+In de volgende afbeelding ziet u de pagina [!UICONTROL Administration] voor een [!DNL Target Premium] -account:
 
 ![ lusje van het Beleid ](/help/main/administrating-target/assets/premium.png)
