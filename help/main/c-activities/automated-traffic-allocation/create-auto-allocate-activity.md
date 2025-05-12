@@ -4,9 +4,9 @@ description: Leer hoe u [!UICONTROL Visual Experience Composer] (VEC) gebruikt o
 title: Hoe maak ik een [!UICONTROL Auto-Allocate] -activiteit?
 feature: Auto-Allocate
 exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Een [!UICONTROL Auto-Allocate] -activiteit maken:
 
    De [!UICONTROL Visual Experience Composer] wordt geopend en geeft de pagina weer die in de URL is opgegeven.
 
-1. Klik het **[!UICONTROL Rename]** pictogram ( ![ anders noemen pictogram ](/help/main/assets/icons/MoreSmallListVert.svg)), klik **[!UICONTROL Rename]**, specificeer een naam voor de activiteit, dan klik **[!UICONTROL Save]**.
+1. Om de activiteit te noemen, klik het **[!UICONTROL Edit]** pictogram ( ![ geef pictogram ](/help/main/assets/icons/Edit.svg)) naast &quot; [!UICONTROL Untitled Activity] uit,&quot;specificeer een beschrijvende naam voor de activiteit, en klik dan **[!UICONTROL Save]**.
 
    De naam van de activiteit mag niet met een van de volgende tekens beginnen:
 

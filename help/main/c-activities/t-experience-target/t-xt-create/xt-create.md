@@ -4,9 +4,9 @@ description: Leer hoe te om [!UICONTROL Visual Experience Composer] (VEC) in  [!
 title: Hoe maak ik een [!UICONTROL Experience Targeting] -activiteit?
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Voor meer informatie over [!UICONTROL Experience Targeting], een gebruik-geval s
 
    De VEC wordt geopend en geeft de pagina weer die in de URL is opgegeven.
 
-1. Klik het **[!UICONTROL Rename]** pictogram ( ![ anders noemen pictogram ](/help/main/assets/icons/MoreSmallListVert.svg)), klik **[!UICONTROL Rename]**, specificeer een naam voor de activiteit, dan klik **[!UICONTROL Save]**.
+1. Om de activiteit te noemen, klik het **[!UICONTROL Edit]** pictogram ( ![ geef pictogram ](/help/main/assets/icons/Edit.svg)) naast &quot; [!UICONTROL Untitled Activity] uit,&quot;specificeer een beschrijvende naam voor de activiteit, en klik dan **[!UICONTROL Save]**.
 
    De naam van de activiteit mag niet met een van de volgende tekens beginnen:
 

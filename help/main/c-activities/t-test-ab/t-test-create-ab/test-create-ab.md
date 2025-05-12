@@ -4,9 +4,9 @@ description: Gebruik [!UICONTROL Visual Experience Composer] (VEC) om de activit
 title: Hoe maak ik een A/B-test?
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Een handmatige [!UICONTROL A/B Test] activiteit maken:
 
    De [!UICONTROL Visual Experience Composer] wordt geopend en geeft de pagina weer die in de URL is opgegeven.
 
-1. Klik het **[!UICONTROL Rename]** pictogram ( ![ anders noemen pictogram ](/help/main/assets/icons/MoreSmallListVert.svg)), klik **[!UICONTROL Rename]**, specificeer een naam voor de activiteit, dan klik **[!UICONTROL Save]**.
+1. Om de activiteit te noemen, klik het **[!UICONTROL Edit]** pictogram ( ![ geef pictogram ](/help/main/assets/icons/Edit.svg)) naast &quot; [!UICONTROL Untitled Activity] uit,&quot;specificeer een beschrijvende naam voor de activiteit, en klik dan **[!UICONTROL Save]**.
 
    De naam van de activiteit mag niet met een van de volgende tekens beginnen:
 

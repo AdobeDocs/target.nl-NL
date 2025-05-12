@@ -2,12 +2,12 @@
 keywords: geautomatiseerde personalisatie;ap
 description: Leer hoe u een [!UICONTROL Automated Personalization] (AP)-activiteit maakt met behulp van [!UICONTROL Visual Experience Composer] .
 title: Hoe maak ik een [!UICONTROL Automated Personalization] -activiteit?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '1851'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ De werkstroom [!UICONTROL Automated Personalization] (AP) activiteit in [!DNL Ta
 
    De pagina met de opgegeven URL wordt geopend in de VEC.
 
-1. Klik het **[!UICONTROL Rename]** pictogram ( ![ anders noemen pictogram ](/help/main/assets/icons/MoreSmallListVert.svg)), klik **[!UICONTROL Rename]**, specificeer een naam voor de activiteit, dan klik **[!UICONTROL Save]**.
+1. Om de activiteit te noemen, klik het **[!UICONTROL Edit]** pictogram ( ![ geef pictogram ](/help/main/assets/icons/Edit.svg)) naast &quot; [!UICONTROL Untitled Activity] uit,&quot;specificeer een beschrijvende naam voor de activiteit, en klik dan **[!UICONTROL Save]**.
 
    De naam van de activiteit mag niet met een van de volgende tekens beginnen:
 

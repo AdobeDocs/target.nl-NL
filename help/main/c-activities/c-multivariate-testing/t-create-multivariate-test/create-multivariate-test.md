@@ -4,9 +4,9 @@ description: Leer hoe te om [!UICONTROL Visual Experience Composer] (VEC) in  [!
 title: Hoe maak ik een [!UICONTROL Multivariate Test] ?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: be118753eed999ce24d547c90ac9d195cce7e9e9
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,7 @@ Voor [!UICONTROL Multivariate Test] (MVT) wordt eerst een rapport op de pagina w
 
    De lus [!UICONTROL Visual Experience Composer] wordt geopend.
 
-1. &#x200B;
-   1. Klik het **[!UICONTROL Rename]** pictogram ( ![ anders noemen pictogram ](/help/main/assets/icons/MoreSmallListVert.svg)), klik **[!UICONTROL Rename]**, specificeer een naam voor de activiteit, dan klik **[!UICONTROL Save]**.
+1. Om de activiteit te noemen, klik het **[!UICONTROL Edit]** pictogram ( ![ geef pictogram ](/help/main/assets/icons/Edit.svg)) naast &quot; [!UICONTROL Untitled Activity] uit,&quot;specificeer een beschrijvende naam voor de activiteit, en klik dan **[!UICONTROL Save]**.
 
    De naam van de activiteit mag niet met een van de volgende tekens beginnen:
 
