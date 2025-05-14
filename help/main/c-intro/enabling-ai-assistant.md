@@ -1,6 +1,6 @@
 ---
 keywords: ai assistent;kunstmatige inlichtingenassistent
-description: Leer hoe te om  [!DNL AI Assistant]  in [!DNL  Adobe Target] toe te laten.
+description: Leer hoe te om  [!DNL AI Assistant]  in [!DNL &#x200B; Adobe Target] toe te laten.
 title: Hoe laat ik  [!DNL AI Assistant]  binnen  [!DNL Target] toe?
 feature: Overview
 source-git-commit: b30c7e0bed23b87a34dae5d47bcbe80edd957bb3
