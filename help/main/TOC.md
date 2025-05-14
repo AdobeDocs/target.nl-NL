@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: d1afb007d3cd257a2682c5d3a1833bbc33cad1a8
+source-git-commit: 5ae34c65a9c65a9385c6041756a4835af29e61d1
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1277'
 ht-degree: 2%
 
 ---
@@ -27,8 +27,9 @@ ht-degree: 2%
    + [Toegangsdoel van de Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Belangrijkste doelconcepten](c-intro/target-key-concepts.md)
    + [De interface van het doel begrijpen](/help/main/c-intro/understand-the-target-ui.md)
-   + Adobe Target AI Assistant {#ai-assistant}
-      + [AI-assistent inschakelen](/help/main/c-intro/ai-assistant.md)
+   + Adobe Target AI Assistant {#assistant-ai}
+      + [Overzicht van AI-assistent](/help/main/c-intro/ai-assistant.md)
+      + [AI-assistent inschakelen](/help/main/c-intro/enabling-ai-assistant.md)
       + [AI Assistant gebruiken om productkennis te vergaren](/help/main/c-intro/ai-assistant-product-knowledge.md)
    + Adobe Target-welkomstkit {#welcome}
       + [Overzicht van de welkomstkit](/help/main/c-intro/target-welcome-kit.md)
