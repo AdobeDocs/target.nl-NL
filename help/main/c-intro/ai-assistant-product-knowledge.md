@@ -3,7 +3,7 @@ keywords: ai assistent;kunstmatige inlichtingenassistent
 description: Leer hoe te om  [!DNL Target]  productkennis met  [!DNL AI Assistant] te bereiken.
 title: Hoe gebruik ik  [!DNL AI Assistant]  in  [!DNL Target]  om productkennis te bereiken?
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
 source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
 workflow-type: tm+mt
