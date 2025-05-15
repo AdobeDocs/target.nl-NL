@@ -1,6 +1,6 @@
 ---
 keywords: ai assistent;kunstmatige inlichtingenassistent
-description: Leer hoe te om  [!DNL AI Assistant]  in [!DNL  Adobe Target] toe te laten.
+description: Leer hoe te om  [!DNL AI Assistant]  in [!DNL &#x200B; Adobe Target] toe te laten.
 title: Hoe laat ik  [!DNL AI Assistant]  binnen  [!DNL Target] toe?
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
 feature: Overview
