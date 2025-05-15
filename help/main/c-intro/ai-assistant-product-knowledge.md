@@ -3,10 +3,11 @@ keywords: ai assistent;kunstmatige inlichtingenassistent
 description: Leer hoe te om  [!DNL Target]  productkennis met  [!DNL AI Assistant] te bereiken.
 title: Hoe gebruik ik  [!DNL AI Assistant]  in  [!DNL Target]  om productkennis te bereiken?
 feature: Overview
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: b30c7e0bed23b87a34dae5d47bcbe80edd957bb3
+source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -60,10 +61,10 @@ Ga als volgt te werk om [!DNL AI Assistant] te openen:
 
 Meer informatie over [!DNL Adobe Experience Platform] toepassingen van [!DNL AI Assistant] .
 
->[!VIDEO](https://video.tv.adobe.com/v/3441030/?learn=on&#x26;enablevpops&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Reacties valideren vanuit AI Assistant
 
 Leer hoe u de antwoorden die [!DNL AI Assistant] in [!DNL Adobe Experience Platform] biedt, verifieert en valideert.
 
->[!VIDEO](https://video.tv.adobe.com/v/3441745/?learn=on&#x26;enablevpops&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)

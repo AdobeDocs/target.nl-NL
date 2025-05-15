@@ -1,11 +1,12 @@
 ---
 keywords: ai assistent;kunstmatige inlichtingenassistent
-description: Leer hoe te om  [!DNL AI Assistant]  in [!DNL &#x200B; Adobe Target] toe te laten.
+description: Leer hoe te om  [!DNL AI Assistant]  in [!DNL  Adobe Target] toe te laten.
 title: Hoe laat ik  [!DNL AI Assistant]  binnen  [!DNL Target] toe?
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
 feature: Overview
-source-git-commit: b30c7e0bed23b87a34dae5d47bcbe80edd957bb3
+source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Informatie over de vereiste taken die uw organisatie moet uitvoeren voordat u [!
 
 Uw organisatie moet eerst akkoord gaan met aanvullende juridische voorwaarden om toegang te krijgen tot [!DNL AI Assistant] . Neem vervolgens contact op met uw Adobe-accountteam voor hulp bij deze voorwaarden.
 
-Voor meer informatie, zie  [!DNL AI Assistant]  Toegang [ in  [!DNL Experience Platform] ](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/access){target=_blank} in de *[!DNL Experience Platform]* documentatie.
+Voor meer informatie, zie  [!DNL AI Assistant]  Toegang [ in  [!DNL Experience Platform] ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank} in de *[!DNL Experience Platform]* documentatie.
 
 ## Gebruikersmachtigingen inschakelen voor [!UICONTROL AI Assistant]
 

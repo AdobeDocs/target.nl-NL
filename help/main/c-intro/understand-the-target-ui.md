@@ -4,9 +4,9 @@ description: Verken me met het gebruikersinterface en vind verbindingen aan meer
 title: Hoe gebruik ik  [!DNL Target]  UI?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 1ab7bb6aef5982f13191ff4f0573e87aac815938
+source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -39,25 +39,25 @@ Selecteer de gewenste organisatie in de vervolgkeuzelijst [!UICONTROL Organizati
 
 Geef een beschrijving voor uw feedback, neem desgewenst bestanden of schermafbeeldingen op en klik op **[!UICONTROL Submit]** .
 
-### [!DNL AI Assistant] (Wordt op 20 mei 2025 uitgebracht)
+### [!DNL AI Assistant]
 
-(Voorwaardelijk) Als uw organisatie aan u rechten heeft verleend om de AI Medewerker te gebruiken, klik het AI Hulppictogram.
+(Voorwaardelijk) Als aan uw bedrijf rechten zijn verleend om [!DNL AI Assistant] te gebruiken, klikt u op het pictogram [!DNL AI Assistant] .
+
+Voor meer informatie, zie [ de Medewerkingsoverzicht van Adobe Experience Platform AI ](/help/main/c-intro/ai-assistant.md).
 
 ### Help
 
-Met het Help-pictogram hebt u toegang tot informatie, video&#39;s, blogs en meer, zodat u [!DNL Target] effectiever kunt gebruiken. U kunt een ondersteuningsticket maken, telefoonnummers voor ondersteuning zoeken, vragen stellen via Twitter of feedback geven over [!DNL Target] om ons te laten weten hoe het [!DNL Target] -team werkt.
+Het klikken van het [!UICONTROL Help] pictogram ( ![ pictogram van de Hulp ](/help/main/assets/icons/HelpOutline.svg) ) laat u tot informatie, video&#39;s, blogs, en meer toegang hebben om u te helpen [!DNL Target] effectiever gebruiken. U kunt een ondersteuningsticket maken, telefoonnummers voor ondersteuning zoeken, vragen stellen via Twitter of feedback geven over [!DNL Target] om ons te laten weten hoe het [!DNL Target] -team werkt.
 
 ![ Hulp ](/help/main/c-intro/assets/help.png)
 
-### Meldingen en aankondigingen {#notifications-announcements}
+### Verzoeken, meldingen en aankondigingen {#notifications-announcements}
 
-Met de deelvensters [!UICONTROL Notifications] en [!UICONTROL Announcements] kunt u alles op de hoogte houden [!DNL Adobe Target] . Via proactieve meldingen kunt u op de hoogte blijven van de status van [!DNL Adobe Experience Cloud] -oplossingen en [!DNL Target] -gebeurtenissen. Proactieve aankondigingen waarschuwen u aan outage gebeurtenissen en onderhoudsgebeurtenissen.
+Met de deelvensters [!UICONTROL Requests] , [!UICONTROL Notifications] en [!UICONTROL Announcements] kunt u alles op de hoogte houden [!DNL Adobe Target] . Via proactieve meldingen kunt u op de hoogte blijven van de status van [!DNL Adobe Experience Cloud] -oplossingen en [!DNL Target] -gebeurtenissen. Proactieve aankondigingen waarschuwen u aan outage gebeurtenissen en onderhoudsgebeurtenissen.
 
-Klik op het belpictogram in de koptekst om meldingen weer te geven:
+Klik het [!UICONTROL Notifications] pictogram ( ![ pictogram van Meldingen ](/help/main/assets/icons/Bell.svg)) van de kopbal aan meningsberichten:
 
-![ het pictogram van de Bell voor berichten en aankondigingen ](assets/bell-icon.png)
-
-Het deelvenster bevat tabbladen voor [!UICONTROL Notifications] en [!UICONTROL Announcements] .
+Het deelvenster bevat tabbladen voor [!UICONTROL Requests] , [!UICONTROL Notifications] en [!UICONTROL Announcements] .
 
 ![ Meldingen ](assets/notifications.png)
 
