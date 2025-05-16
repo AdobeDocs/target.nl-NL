@@ -1,12 +1,12 @@
 ---
 keywords: ai assistent;kunstmatige inlichtingenassistent
-description: Leer hoe te om  [!DNL AI Assistant]  in [!DNL &#x200B; Adobe Target] toe te laten.
+description: Leer hoe te om  [!DNL AI Assistant]  in [!DNL  Adobe Target] toe te laten.
 title: Hoe laat ik  [!DNL AI Assistant]  binnen  [!DNL Target] toe?
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
 feature: Overview
-source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
+exl-id: 6897059c-65e2-4e21-b4b5-bef0a04fa6b6
+source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Informatie over de vereiste taken die uw organisatie moet uitvoeren voordat u [!
 
 Uw organisatie moet eerst akkoord gaan met aanvullende juridische voorwaarden om toegang te krijgen tot [!DNL AI Assistant] . Neem vervolgens contact op met uw Adobe-accountteam voor hulp bij deze voorwaarden.
 
-Voor meer informatie, zie  [!DNL AI Assistant]  Toegang [ in  [!DNL Experience Platform] ](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/access){target=_blank} in de *[!DNL Experience Platform]* documentatie.
+Voor meer informatie, zie  [!DNL AI Assistant]  Toegang [ in  [!DNL Experience Platform] ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank} in de *[!DNL Experience Platform]* documentatie.
 
 ## Gebruikersmachtigingen inschakelen voor [!UICONTROL AI Assistant]
 
@@ -30,7 +30,7 @@ Als u de functie [!UICONTROL AI Assistant] in [!UICONTROL Target] wilt gebruiken
 1. Navigeer naar de tab **[!UICONTROL Administration]** in [!DNL Target] .
 1. Selecteer **[!UICONTROL Users]** in het linkermenu.
 1. Zoek de gebruiker die u wilt beheren in de lijst of gebruik de zoekbalk om deze te zoeken.
-1. Houd de muisaanwijzer boven de kolom **[!UICONTROL AI Permissions]** voor de persoon tot wie u toegang wilt geven tot de [!UICONTROL Target AI Assistant] .
+1. Houd de aanwijzer boven de kolom **[!UICONTROL AI Permissions]** voor de persoon die u toegang wilt geven tot de [!UICONTROL Target AI Assistant] .
 
    Er wordt een pop-upvenster met machtigingen weergegeven.
 
