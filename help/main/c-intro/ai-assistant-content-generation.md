@@ -29,7 +29,7 @@ Gebruik AI Assistant in Target om de effectiviteit van uw activiteiten te verbet
 
 Tekst genereren met [!DNL AI Assistant] :
 
-1. Van binnen [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) (VEC), klik **[!UICONTROL Show Content Assistant]( ![ toon het Hulppictogram van de Inhoud ](/help/main/assets/icons/MagicWand.svg) ) pictogram** in het juiste spoor van VEC UI.
+1. Van binnen [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) (VEC), klik **[!UICONTROL Show Content Assistant] ( ![ toon het Hulppictogram van de Inhoud ](/help/main/assets/icons/MagicWand.svg) ) pictogram** in het juiste spoor van VEC UI.
 
    ![ toon het Hulppictogram van de Inhoud ](/help/main/c-intro/assets/ai-assistant-conntet-generation-icon.png)
 
