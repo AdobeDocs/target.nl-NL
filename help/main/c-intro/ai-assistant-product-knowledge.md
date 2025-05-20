@@ -4,9 +4,9 @@ description: Leer hoe te om  [!DNL Target]  productkennis met  [!DNL AI Assistan
 title: Hoe gebruik ik  [!DNL AI Assistant]  in  [!DNL Target]  om productkennis te bereiken?
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
+source-git-commit: 04e06151e87df0fea7b4eacbe4993dc7fb3702e2
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,18 @@ Vragen over productkennis omvatten [!DNL Adobe] -concepten die betrekking hebben
 * Ik krijg een fout als ik mijn activiteit opslaat. Wat betekent het?
 * Moet ik mijn at.js-implementatie upgraden naar de AEP Web SDK?
 
-Ga als volgt te werk om [!DNL AI Assistant] te openen:
+## Toegang [!DNL AI Assistant]
+
+Om [!DNL AI Assistant] voor productkennis toegang te hebben:
 
 1. Zorg ervoor dat u de in de eerste plaats vereiste taken in [ toelatend  [!DNL Adobe Experience Platform] [!DNL AI Assistant] in  [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md) hebt voltooid.
 
    * Uw organisatie moet eerst instemmen met juridische voorwaarden. Neem voor meer informatie contact op met uw Adobe-accountteam.
    * Uw beheerders moeten u voldoende toegangsrechten verlenen om [!DNL AI Assistant] te kunnen gebruiken.
+
+## AI Assistant gebruiken om productkennis te verhogen
+
+Om [!DNL AI Assistant] voor productkennis toegang te hebben:
 
 1. Van binnen [!DNL Target], klik het **[!DNL AI Assistant]pictogram** in de hoogste juiste hoek van UI.
 
@@ -60,10 +66,10 @@ Ga als volgt te werk om [!DNL AI Assistant] te openen:
 
 Meer informatie over [!DNL Adobe Experience Platform] toepassingen van [!DNL AI Assistant] .
 
->[!VIDEO](https://video.tv.adobe.com/v/3441030/?learn=on&#x26;enablevpops&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Reacties valideren vanuit AI Assistant
 
 Leer hoe u de antwoorden die [!DNL AI Assistant] in [!DNL Adobe Experience Platform] biedt, verifieert en valideert.
 
->[!VIDEO](https://video.tv.adobe.com/v/3441745/?learn=on&#x26;enablevpops&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
