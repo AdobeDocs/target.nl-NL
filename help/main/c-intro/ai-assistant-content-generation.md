@@ -77,4 +77,4 @@ Tekst genereren met [!DNL AI Assistant] :
 
 ### Inhoud maken met de AI-assistent voor het genereren van inhoud
 
->[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434641/?learn=on&captions=dut">https://video.tv.adobe.com/v/3434641/?learn=on&captions=dut)
