@@ -1,22 +1,24 @@
 ---
-keywords: ai assistent;kunstmatige inlichtingenassistent;content generation;content accelerator
+keywords: ai assistent;kunstmatige intelligentieassistent;content genereren;content accelerator;content genereren;content genereren
 description: Leer hoe te om inhoud met  [!DNL AI Assistant] te produceren.
 title: Hoe gebruik ik  [!DNL AI Assistant]  in  [!DNL Target]  om inhoud te produceren?
 feature: Overview
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
-source-git-commit: 04e06151e87df0fea7b4eacbe4993dc7fb3702e2
+exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
+source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
 
 # [!DNL AI Assistant] gebruiken in [!DNL Adobe Target] voor het genereren van inhoud
 
-Gebruik de kracht van [!DNL AI Assistant] in [!DNL Adobe Target] om uw activiteitsinhoud te verhogen, gevoed door generatieve AI.
+Gebruik [!DNL AI Assistant] in [!DNL Adobe Target] om de effectiviteit van uw activiteiten te verbeteren door tekstfragmenten op te maken en afbeeldingen te kiezen met behulp van AI (artificieel intelligentie) die rechtstreeks met uw publiek spreken, waardoor betrokkenheid en interactie worden bevorderd.
 
-Gebruik AI Assistant in Target om de effectiviteit van uw activiteiten te verbeteren door tekstfragmenten op te maken en afbeeldingen te kiezen die rechtstreeks aan uw publiek worden getoond, waardoor betrokkenheid en interactie worden versterkt.
+Gebruik de kracht van [!DNL AI Assistant] in [!DNL Adobe Target] om uw activiteitsinhoud te verhogen, gevoed door generatieve AI.
 
 ## Vereisten
 
@@ -29,7 +31,7 @@ Gebruik AI Assistant in Target om de effectiviteit van uw activiteiten te verbet
 
 Tekst genereren met [!DNL AI Assistant] :
 
-1. Van binnen [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) (VEC), klik **[!UICONTROL Show Content Assistant] ( ![ toon het Hulppictogram van de Inhoud ](/help/main/assets/icons/MagicWand.svg) ) pictogram** in het juiste spoor van VEC UI.
+1. Van binnen [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) (VEC), klik **[!UICONTROL Show Content Assistant]** ( ![ toon het Hulppictogram van de Inhoud ](/help/main/assets/icons/MagicWand.svg)) pictogram in het juiste spoor van VEC UI.
 
    ![ toon het Hulppictogram van de Inhoud ](/help/main/c-intro/assets/ai-assistant-conntet-generation-icon.png)
 
@@ -39,21 +41,21 @@ Tekst genereren met [!DNL AI Assistant] :
 
    ![ ruit van de Montages van de Tekst ](/help/main/c-intro/assets/ai-text-settings.png)
 
-1. (Facultatief) klik het **Volledige Scherm ( ![ Volledige pictogram van het Scherm ](/help/main/assets/icons/FullScreen.svg) ) pictogram** om [!DNL AI Assistant] uit te breiden.
+1. (Optioneel) Klik op het **pictogram Volledig scherm** ( ![ pictogram Volledig scherm ](/help/main/assets/icons/FullScreen.svg) ) om uit te breiden [!DNL AI Assistant] .
 
 1. Beschrijf in het vak **[!UICONTROL Prompt]** de tekst die u wilt genereren.
 
-   Voor een seizoensgebonden vakantieverkoop kunt u bijvoorbeeld &quot;Schrijf hoofdtekst voor een beperkte zomervakantie&quot; typen.
+   Voor een seizoensgebonden vakantieverkoop kunt u bijvoorbeeld &quot;Schrijf engagerende hoofdtekst die reclame maakt voor een zomervakantie met beperkte tijd&quot; typen.
 
 1. Klik op het pictogram **[!UICONTROL Text Settings]** om de toon- en communicatiestrategie van uw tekst op te geven.
 
    * **Communicatie strategie**: Kies de meest geschikte communicatie stijl voor uw geproduceerde tekst.
    * **Talen**: Kies de gewenste taal voor uw tekst. [!DNL AI Assistant] is momenteel alleen beschikbaar in het Engels.
-   * **Toon**: De toon van uw tekst zou met uw publiek moeten resoneren. Of u nu informatief, afspeelbaar of overtuigend wilt klinken, [!DNL AI Assistant] kan het bericht dienovereenkomstig aanpassen.
+   * **Toon**: De toon van uw tekst zou met uw publiek moeten resoneren. Of u nu informatief, opwindend, speels of overtuigend wilt klinken, [!DNL AI Assistant] kan het bericht dienovereenkomstig aanpassen.
 
 1. Gebruik de schuifregelaar om de tekstlengte te kiezen ([!UICONTROL Shorter Text] tot en met [!UICONTROL Larger Text] ).
 
-1. Klik op **[!UICONTROL Generate]** om een lijst met mogelijke tekstvariaties te maken.
+1. Klik op **[!UICONTROL Generate]** om een lijst met tekstvariaties te maken.
 
    ![ AI Hulpvariaties van de teksttekst ](/help/main/c-intro/assets/ai-variations-text.png)
 
@@ -67,20 +69,12 @@ Tekst genereren met [!DNL AI Assistant] :
 
 1. (Optioneel) Geef feedback aan de AI Assistant.
 
-   * Klik op het pictogram Duimels omhoog ( ![ duimen omhoog pictogram ](/help/main/assets/icons/ThumbUp.svg) ) om [!DNL AI Assistant] te vertellen dat de reactie correct is.
-   * Klik de Duimberen onderaan pictogram ( ![ duimen onderaan pictogram ](/help/main/assets/icons/ThumbDown.svg)) om [!DNL AI Assistant] te vertellen dat de reactie onjuist is.
-   * Klik het pictogram van de Resultaten van het Rapport ( ![ pictogram van de Resultaten van het Rapport ](/help/main/assets/icons/Flag.svg) ) om een kwestie aan [!DNL AI Assistant] te melden.
+   * Klik op het pictogram Duimels omhoog ( ![ duimen omhoog ](/help/main/assets/icons/ThumbUp.svg) ) om [!DNL AI Assistant] te vertellen dat u van de variatie houdt.
+   * Klik onderaan duimen ( ![ duimen onderaan pictogram ](/help/main/assets/icons/ThumbDown.svg)) pictogram om [!DNL AI Assistant] te vertellen dat u niet van de variatie houdt.
+   * Klik het [!UICONTROL Report Results] ( ![ pictogram van de Resultaten van het Rapport ](/help/main/assets/icons/Flag.svg)) pictogram om een kwestie aan [!DNL AI Assistant] te melden.
 
 ## Trainingsvideo&#39;s
 
 ### Inhoud maken met de AI-assistent voor het genereren van inhoud
 
->[!VIDEO](https://video.tv.adobe.com/v/3434641/?learn=on&captions=dut">https://video.tv.adobe.com/v/3434641/?learn=on&captions=dut)
-
-
-
-
-
-
-
-
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)

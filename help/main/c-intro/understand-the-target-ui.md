@@ -4,9 +4,9 @@ description: Verken me met het gebruikersinterface en vind verbindingen aan meer
 title: Hoe gebruik ik  [!DNL Target]  UI?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
+source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1355'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Geef een beschrijving voor uw feedback, neem desgewenst bestanden of schermafbee
 
 ### [!DNL AI Assistant]
 
-(Voorwaardelijk) Als aan uw bedrijf rechten zijn verleend om [!DNL AI Assistant] te gebruiken, klikt u op het pictogram [!DNL AI Assistant] .
+(Voorwaardelijk) Als uw organisatie u de gebruiksrechten voor [!DNL AI Assistant] heeft verleend, klikt u op het pictogram [!DNL AI Assistant] .
 
 Voor meer informatie, zie [ de Medewerkingsoverzicht van Adobe Experience Platform AI ](/help/main/c-intro/ai-assistant.md).
 
@@ -62,6 +62,12 @@ Het deelvenster bevat tabbladen voor [!UICONTROL Requests] , [!UICONTROL Notific
 ![ Meldingen ](assets/notifications.png)
 
 De volgende secties bevatten informatie over elk lusje, en hoe te om berichten en aankondigingen te vormen:
+
+#### [!UICONTROL Requests]
+
+Ontvang belangrijke informatie over [!DNL Adobe] producten en oplossingen, uw samenwerking met collega gebruikers, en andere relevante updates in het [!UICONTROL Requests] paneel.
+
+Wanneer iemand u een verzoek stuurt om een object goed te keuren of toegang te verlenen tot een object, wordt dat verzoek weergegeven in het deelvenster [!UICONTROL Requests] .
 
 #### Meldingen {#notifications}
 
@@ -97,9 +103,9 @@ De volgende secties bevatten informatie over elk lusje, en hoe te om berichten e
    * `Feed {target.feed.name} has failed`
    * `Feed {target.feed.name} has failed to import from source`
 
-U kunt afzonderlijke meldingen markeren als gelezen door de muisaanwijzer op de gewenste melding te plaatsen en vervolgens op het vinkje te klikken. U kunt alle meldingen als gelezen markeren of alle meldingen weergeven door op [!UICONTROL "Mark as Read"] of [!UICONTROL "View All"] onder in het deelvenster te klikken.
+U kunt individuele berichten zoals gelezen merken door over het gewenste bericht te hangen en dan het [!UICONTROL Mark as Read] ( ![ Teken als Gelezen pictogram ](/help/main/assets/icons/CheckmarkCircle.svg)) te klikken pictogram. U kunt alle meldingen als gelezen markeren of alle meldingen weergeven door op [!UICONTROL Mark as Read] of [!UICONTROL View All] onder in het deelvenster te klikken.
 
-U kunt een herinnering ook plaatsen om opnieuw op de hoogte te worden gebracht door over een bericht te hangen, het &quot;[!UICONTROL Remind me]&quot;pictogram te klikken, dan te selecteren wanneer u wilt worden op de hoogte gebracht: 5 minuten, 15 minuten, één uur, of morgen.
+U kunt een herinnering ook plaatsen om opnieuw op de hoogte worden gebracht door over een bericht te hangen, klikkend [!UICONTROL Snooze] ( ![ het pictogram van de Snoze ](/help/main/assets/icons/Clock.svg)). U kunt vervolgens selecteren wanneer u een melding wilt ontvangen: 5 minuten, 15 minuten, 1 uur of morgen.
 
 #### Aankondigingen
 
@@ -111,33 +117,31 @@ Meer diepgaande informatie kan op de [ de Status van Adobe ](https://status.adob
 
 Je berichtgevingsvoorkeuren bewerken:
 
-1. Klik op het tandwielpictogram en klik vervolgens op **[!UICONTROL Notifications]** .
-1. Klik onder **[!UICONTROL Target]** op **[!UICONTROL Customize]** .
-1. Selecteer of deselecteer de categorieën waarvoor u meldingen wilt ontvangen:
+1. Klik [!UICONTROL Edit Preferences] ( ![ geef pictogram van Voorkeur ](/help/main/assets/icons/Setting.svg) uit), dan klik **[!UICONTROL Notifications]** in het linkerspoor.
+1. Selecteer onder **[!UICONTROL Target]** de manier waarop u een melding wilt ontvangen:
 
-   * Verzoeken: wanneer iemand u een verzoek stuurt om een object goed te keuren of om toegang tot een object te verlenen. Je kunt je abonnement op deze rubriek niet opzeggen.
-   * Toegewezen aan mij: wanneer iemand een object aan u toewijst.
-   * Opmerkingen: wanneer iemand u in een opmerking noemt.
-   * Nieuwe releases: wanneer een nieuwe release beschikbaar is voor een product of een service waartoe u toegang hebt.
-   * Gedeeld met mij: Wanneer iemand een object met jou deelt.
-   * Updates over inhoud: wanneer iemand een object bewerkt, verwijdert of opmerkingen maakt die u hebt gemaakt of volgt.
-   * Overige:
+   * [!UICONTROL In-app]
+   * [!UICONTROL Email]
+   * [!DNL Slack]
+
+1. Selecteer de categorieën die u als hoge prioriteit wilt worden beschouwd.
 
    >[!NOTE]
    >
-   >De &quot;Nieuwe versies&quot;en &quot;Updates op inhoud&quot;zijn de enige berichtcategorieën die op [!DNL Target] van toepassing zijn. De andere categorieën gelden voor andere Adobe-oplossingen.
+   >&quot;[!UICONTROL New releases]&quot; en &quot;[!UICONTROL Updates on content]&quot; zijn de enige berichtcategorieën die van toepassing zijn op [!DNL Target] . De andere categorieën zijn van toepassing op andere [!DNL Adobe] oplossingen.
 
-1. Selecteer de categorieën die u als hoge prioriteit wilt worden beschouwd.
 1. Selecteer de meldingen waarvoor u waarschuwingen wilt weergeven in uw browser.
 
    Deze waarschuwingen worden een paar seconden in de rechterbovenhoek van uw browser weergegeven. U kunt kiezen of u categorieën met hoge prioriteit, alle categorieën of alle pop-ups met meldingen wilt verbergen. U kunt ook configureren als u wilt dat de meldingen zichtbaar blijven totdat u ze sluit of u kunt de meldingsduur configureren.
 
 1. Selecteer de frequentie waarop u e-mailberichten wilt ontvangen:
 
-   * Geen e-mails verzenden
-   * Directe meldingen
-   * Dagelijks overzicht
-   * Wekelijks overzicht
+   * [!UICONTROL Don't send emails]
+   * [!UICONTROL Instant notifications]
+   * [!UICONTROL Daily digest]
+   * [!UICONTROL Weekly digest]
+
+1. Configureer Slack-meldingen voor een werkruimte.
 
 ### Apps-schakeloptie
 
@@ -151,21 +155,17 @@ Klik op de profielavatar om uw [!DNL Adobe Experience Cloud] -voorkeuren te bewe
 
 ![ avatar van het Profiel ](/help/main/c-intro/assets/change-language.png)
 
-Nu bespreken de lusjes langs de linkerkant van de [!DNL Target] kopbal.
+Nu, bespreken de lusjes langs de linkerkant van de [!DNL Target] kopbal.
 
 ## Activiteiten
 
 De lijst **[!UICONTROL Activities]** is de standaardweergave wanneer u [!DNL Target] opent. U kunt activiteiten maken op deze pagina en bestaande activiteiten beheren.
-
-![ lijst van Activiteiten ](/help/main/c-intro/assets/activities-list.png)
 
 Zie [ Activiteiten ](/help/main/c-activities/activities.md) voor diepgaande informatie over de activiteitentypes beschikbaar in [!DNL Target] en meer over het [!UICONTROL Activity] gebruikersinterface van de lijst te leren.
 
 ## Soorten publiek
 
 Klik op het tabblad **[!UICONTROL Audiences]** om de lijst met [!UICONTROL Audiences] weer te geven waarin u een publiek kunt maken en bestaande soorten publiek kunt beheren.
-
-![ lijst van het publiek ](/help/main/c-intro/assets/audience-list.png)
 
 Een publiek is een groep van gelijkaardige activiteitendeelnemers die een gerichte activiteit zien. Een publiek is een groep mensen met dezelfde kenmerken, zoals een nieuwe bezoeker, een terugkerende bezoeker of terugkerende bezoekers uit het Midwesten. Met de functie [!UICONTROL Audience] kunt u verschillende inhoud en ervaringen toewijzen aan specifieke doelgroepen om uw digitale marketing te optimaliseren door de juiste berichten aan de juiste mensen op het juiste moment weer te geven. Als een bezoeker wordt geïdentificeerd als onderdeel van een doelpubliek, bepaalt [!DNL Target] welke ervaring moet worden weergegeven op basis van criteria die zijn gedefinieerd tijdens het maken van activiteiten.
 
@@ -174,8 +174,6 @@ Zie [ publiek ](/help/main/c-target/c-audiences/create-audience.md) voor diepgaa
 ## Aanbiedingen
 
 Klik op het tabblad **[!UICONTROL Offers]** om de [!UICONTROL Offers] -lijst weer te geven waarin u ervaringen en aanbiedingen kunt maken en bestaande ervaringen en aanbiedingen kunt beheren.
-
-![ lijst van Aanbiedingen ](/help/main/c-intro/assets/offers.png)
 
 Een ervaring kan een aanbieding, beeld, tekst, knoop, video, combinatie van deze diverse elementen op een pagina, een volledige Web-pagina, of een reeks pagina&#39;s zijn die misschien een aanschaftrechter of een andere logische opeenvolging van pagina&#39;s vormen. Het kan ook de reactie van een stemmedewerker, een manuscript van de klantendienst, of zelfs een gepersonaliseerd aroma van een drankenmachine zijn. U kunt ervaringen in [!DNL Target] -activiteiten testen of personaliseren.
 
@@ -187,9 +185,7 @@ Klik op de tab **[!UICONTROL Recommendations]** om [!DNL Target Recommendations]
 
 >[!NOTE]
 >
->De activiteiten van aanbevelingen zijn beschikbaar als deel van de [!DNL Target Premium] oplossing. Ze zijn niet beschikbaar in [!DNL Target Standard] zonder een [!DNL Target Premium] -licentie. Voor meer informatie, zie [ Target Premium ](/help/main/c-intro/intro.md#premium) in *Inleiding aan Doel*.
-
-![ Aanbevelingen ](/help/main/c-intro/assets/recommendations.png)
+>[!UICONTROL Recommendations] -activiteiten zijn beschikbaar als onderdeel van de [!DNL Target Premium] -oplossing. [!UICONTROL Recommendations] -activiteiten zijn niet beschikbaar in [!DNL Target Standard] zonder een [!DNL Target Premium] -licentie. Voor meer informatie, zie [ Target Premium ](/help/main/c-intro/intro.md#premium) in *Inleiding aan Doel*.
 
 [!UICONTROL Recommendations] -activiteiten geven automatisch producten of inhoud weer die voor uw klanten interessant kan zijn op basis van eerdere gebruikersactiviteiten of andere algoritmen. De aanbevelingen helpen klanten aan relevante punten leiden die zij anders niet zouden kunnen kennen.
 
@@ -199,8 +195,10 @@ Zie [ Aanbevelingen ](/help/main/c-recommendations/recommendations.md) voor diep
 
 Klik op de tab **[!UICONTROL Administration]** om de [!UICONTROL Administration] -pagina&#39;s te openen.
 
-![ de pagina&#39;s van het Beleid ](/help/main/c-intro/assets/administration.png)
-
-Met de [!UICONTROL Administration] -pagina&#39;s kunt u [!DNL Target] beheren, inclusief configuratie-instellingen voor de [!UICONTROL Visual Experience Composer] (VEC), rapportage, [!DNL Scene7] -configuratie, implementatie, hosts, omgevingen, responstokens en gebruikers.
+Met de [!UICONTROL Administration] -pagina&#39;s kunt u [!DNL Target] beheren, inclusief configuratie-instellingen voor de [!UICONTROL Visual Experience Composer] -pagina (VEC), rapportage, [!DNL Scene7] -configuratie, implementatie, hosts, omgevingen, reactietokens, gebruikers en aanbevelingen.
 
 Zie [ het overzicht van het Doel beheren ](/help/main/administrating-target/administrating-target.md) voor diepgaande informatie en meer over het gebruikersinterface te leren.
+
+## Visual Experience Composer (VEC)
+
+Naast [!DNL Target] UI, zou u met VEC UI vertrouwd moeten maken. Voor meer informatie, zie [[!DNL Visual Experience Composer]  opties ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).

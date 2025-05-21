@@ -4,9 +4,9 @@ description: Leer hoe te om  [!DNL Target]  productkennis met  [!DNL AI Assistan
 title: Hoe gebruik ik  [!DNL AI Assistant]  in  [!DNL Target]  om productkennis te bereiken?
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 04e06151e87df0fea7b4eacbe4993dc7fb3702e2
+source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -54,10 +54,10 @@ Om [!DNL AI Assistant] voor productkennis toegang te hebben:
    >
    >Door AI gegenereerde reacties kunnen onjuist of misleidend zijn. Controleer de reacties en bronnen nogmaals.
 
-1. (Optioneel) Geef feedback aan de AI Assistant.
+1. (Optioneel) Geef feedback aan [!DNL AI Assistant].
 
-   * Klik op het pictogram Duimels omhoog ( ![ duimen omhoog pictogram ](/help/main/assets/icons/ThumbUp.svg) ) om [!DNL AI Assistant] te vertellen dat de reactie correct is.
-   * Klik de Duimberen onderaan pictogram ( ![ duimen onderaan pictogram ](/help/main/assets/icons/ThumbDown.svg)) om [!DNL AI Assistant] te vertellen dat de reactie onjuist is.
+   * Klik omhoog de Duimberen ( ![ duimen omhoog pictogram ](/help/main/assets/icons/ThumbUp.svg)) pictogram om [!DNL AI Assistant] te vertellen dat de reactie correct is.
+   * Klik onderaan duimen ( ![ duimen onderaan pictogram ](/help/main/assets/icons/ThumbDown.svg)) pictogram om [!DNL AI Assistant] te vertellen dat de reactie onjuist is.
    * Klik het pictogram van de Resultaten van het Rapport ( ![ pictogram van de Resultaten van het Rapport ](/help/main/assets/icons/Flag.svg) ) om een kwestie aan [!DNL AI Assistant] te melden.
 
 ## Trainingsvideo&#39;s
@@ -66,10 +66,10 @@ Om [!DNL AI Assistant] voor productkennis toegang te hebben:
 
 Meer informatie over [!DNL Adobe Experience Platform] toepassingen van [!DNL AI Assistant] .
 
->[!VIDEO](https://video.tv.adobe.com/v/3441030/?learn=on&#x26;enablevpops&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Reacties valideren vanuit AI Assistant
 
 Leer hoe u de antwoorden die [!DNL AI Assistant] in [!DNL Adobe Experience Platform] biedt, verifieert en valideert.
 
->[!VIDEO](https://video.tv.adobe.com/v/3441745/?learn=on&#x26;enablevpops&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
