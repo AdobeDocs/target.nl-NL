@@ -3,13 +3,13 @@ keywords: ai assistent;kunstmatige intelligentieassistent;content genereren;cont
 description: Leer hoe te om inhoud met  [!DNL AI Assistant] te produceren.
 title: Hoe gebruik ik  [!DNL AI Assistant]  in  [!DNL Target]  om inhoud te produceren?
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
+source-git-commit: 5ad564e43cd6f66e7f31072348f17e52013ed759
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ Tekst genereren met [!DNL AI Assistant] :
 
    Voor een seizoensgebonden vakantieverkoop kunt u bijvoorbeeld &quot;Schrijf engagerende hoofdtekst die reclame maakt voor een zomervakantie met beperkte tijd&quot; typen.
 
+   Zie [ variaties van het Voorbeeld ](#variations) hieronder om te zien hoe [!DNL AI Assistant] een eenvoudige herinnering in het fascineren, langer-vorm en exemplaar voor een opwindend NYC avontuur transformeert.
+
 1. Klik op het pictogram **[!UICONTROL Text Settings]** om de toon- en communicatiestrategie van uw tekst op te geven.
 
    * **Communicatie strategie**: Kies de meest geschikte communicatie stijl voor uw geproduceerde tekst.
@@ -73,8 +75,21 @@ Tekst genereren met [!DNL AI Assistant] :
    * Klik onderaan duimen ( ![ duimen onderaan pictogram ](/help/main/assets/icons/ThumbDown.svg)) pictogram om [!DNL AI Assistant] te vertellen dat u niet van de variatie houdt.
    * Klik het [!UICONTROL Report Results] ( ![ pictogram van de Resultaten van het Rapport ](/help/main/assets/icons/Flag.svg)) pictogram om een kwestie aan [!DNL AI Assistant] te melden.
 
+## Voorbeelden van variaties {#variations}
+
+Het wijzigen van de hoofdtekst is nog maar het begin. Met [!DNL AI Assistant] in [!DNL Target] bent u niet beperkt tot standaardbewerkingen. U kunt inhoud maken, verfijnen en opheffen voor de hele ervaring. Of u nu bezig bent met het brainstormen van variaties, het optimaliseren van berichten of het genereren van nieuwe kopieën op de vlucht, [!DNL AI Assistant] gebruikt de kracht van generatieve AI om u te helpen in seconden aantrekkelijke inhoud met een hoog effect te maken.
+
+De volgende aanwijzingen en variaties tonen de kracht van [!DNL AI Assistant].
+
+**[!UICONTROL Prompt]**: Schrijf een aansprekende advertentie voor een driedaagse reis naar NYC om de hoogste bestemmingen te bezoeken.
+**[!UICONTROL Text Settings]**: FOMO, English, Persuasive, Medium length.
+* **[!UICONTROL Variation 1]**: Ontdek de magie van NYC met onze exclusieve driedaagse reis! Ga in iconische vizieren zoals Times Square, Central Park en het Vrijheidsbeeld. Sluit u aan bij talloze anderen die al de spannende en schoonheid van de stad hebben ervaren die nooit slaapt. Mis niet aan onvergeeflijke herinneringen. Boek vandaag uw avontuur en maak deel uit van de opwinding! Beperkte vlekken beschikbaar!
+* **[!UICONTROL Variation 2]**: Ontdek de magie van NYC met onze exclusieve getaway van drie dagen! Bezoek iconische landmerken zoals Times Square en Central Park en onderdompel jezelf in dineren en entertainment van wereldklasse. Laat dit onvergeeflijke avontuur niet over. Spaties zijn beperkt, en iedereen praat over hun ongelooflijke ervaringen. Boek nu en maak deel uit van de opwinding die reizigers wereldwijd fascineert!
+* **[!UICONTROL Variation 3]**: Sluit een spannende escapade van drie dagen aan op NYC, waar iconische mijlpalen wachten! Ontdek de elektrische vibe van Times Square, de barbaarse culinaire ruzies in Manhattan en leg adembenemende weergaven van het Empire State Building vast. Doe nu mee en sluit me aan bij talloze avonturiers die hun droom leven. Laat u niet vergeten om onvergeeflijke herinneringen te creëren in de stad die nooit slaapt. Beperkte vlekken beschikbaar. Boek vandaag uw avontuur!
+* **[!UICONTROL Variation 4]**: Boek nu uw driedaagse NYC-avontuur en ervaar de magie van de stad als nooit tevoren! Van iconische vizieren tot verborgen gemalen, elke hoek van de Big Apple heeft iets spannends. Mis niet op onvergeeflijke momenten die anderen al leuk vinden. Maak deel uit van de buzz. Beveilig vandaag uw vlek en creeer herinneringen die een leven lang zullen duren. Snel, ruimtes vullen snel!
+
 ## Trainingsvideo&#39;s
 
 ### Inhoud maken met de AI-assistent voor het genereren van inhoud
 
->[!VIDEO](https://video.tv.adobe.com/v/3434641/?learn=on&captions=dut">https://video.tv.adobe.com/v/3434641/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
