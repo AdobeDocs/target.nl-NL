@@ -6,9 +6,9 @@ short-description: Leer over de nieuwe eigenschappen, de verhogingen, en de moei
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
+source-git-commit: dc9797cc0afdb3fed5b4bb95cf134e702cec42d7
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1372'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,32 @@ ht-degree: 0%
 Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplossingen voor elke [!DNL Adobe Target Standard] - en [!DNL Target Premium] -release. Daarnaast worden releaseopmerkingen voor [!DNL Target] API&#39;s, SDK&#39;s, de [!DNL Adobe Experience Platform Web SDK] , at.js en andere platformwijzigingen, indien van toepassing, ook opgenomen.
 
 (De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik door [!DNL Adobe] .)
+
+## [!DNL Target Standard/Premium] 25.5.3 (22 mei 2025)
+
+Deze release bevat de volgende correcties en updates:
+
+* Correctie van een probleem waarbij de functie Zoeken op naam in de lijst van [!UICONTROL Activities] niet correct werkte met query&#39;s voor meerdere woorden. (TGT-52529)
+* Probleem verholpen dat het uitsluiten van ervaringen uit [!UICONTROL Automated Personalization] (AP)-activiteiten heeft voorkomen. (TGT-52383)
+* Probleem verholpen waarbij de optie &quot;[!UICONTROL Contains]&quot; in [!UICONTROL Filter Rules] ontbrak bij het beheren van inhoud in AP-activiteiten. (TGT-52384)
+* Probleem verholpen met een inconsistentie in [!UICONTROL Automated Personalization] (AP)-activiteiten, die specifiek gerelateerd zijn aan de manier waarop standaardaanbiedingen worden bijgehouden en gerapporteerd met behulp van `optionLocalId` waarden van het interne systeem van [!DNL Target] .
+* Probleem verholpen waarbij QA-koppelingen de bedoelde activiteitservaring niet konden bieden. (TGT-52163)
+* Probleem verholpen waarbij gebruikers met [!UICONTROL Approver] -machtigingen ten onrechte werden geblokkeerd tijdens het bewerken van live activiteiten en een foutbericht &quot;Toegang geweigerd&quot; kregen. (TGT-52416)
+* Probleem verholpen waarbij publieksverfijningen niet konden worden weergegeven voor bepaalde activiteiten in de bijgewerkte gebruikersinterface van [!DNL Target] . (TGT-52057)
+* Probleem verholpen waarbij publieksverfijningen en het activiteitenpubliek werden omgekeerd in de bijgewerkte gebruikersinterface. (TGT-52158)
+* Correctie van een probleem waarbij het genereren van ad-hocaanbiedingen leidde tot dubbele aanbiedingen. (TGT-51938)
+* Probleem verholpen waarbij updates van aanbiedingen werden geblokkeerd en een fout &#39;&#39;Ongeldige gebruiker&#39;&#39; onjuist werd weergegeven. (TGT-52361)
+* Probleem verholpen waarbij het opslaan van bestaande activiteiten werd verhinderd, waardoor een fout met betrekking tot de &#39;&#39;Ongeldige gebruikersinvoer&#39;&#39; werd gegenereerd. (TGT-52422)
+* Probleem verholpen waarbij het bewerken van bestaande HTML-aanbiedingen werd geblokkeerd en een fout in &#39;&#39;Ongeldige gebruikersinvoer&#39;&#39; werd gegenereerd tijdens het opslaan, zelfs als er geen wijzigingen in de code werden aangebracht. (TGT-52351)
+* Probleem verholpen waarbij [!DNL Target] het teken &quot;#&quot; niet herkende in de URL van een website. (TGT-52093)
+* Correctie van een probleem dat het bewerken van [!DNL Recommendations] -activiteiten verhinderde om promoties toe te voegen of bij te werken. Dit zorgde voor fouten bij het opslaan en dubbele promoties. (TGT-52343)
+* Probleem verholpen waarbij wijzigingen in criteria of ontwerpen in [!DNL Recommendations] -activiteiten werden voorkomen. Dit resulteerde in een fout &#39;invalid JSON: unrecognized property name&#39;. (TGT-52375)
+* Probleem verholpen waarbij volgordecriteria niet correct werden weergegeven in [!UICONTROL Visual Experience Composer] (VEC) voor [!DNL Recommendations] -activiteiten. (TGT-52435)
+* Probleem verholpen waarbij weergaven niet correct werden geïdentificeerd op SPA-pagina&#39;s bij gebruik van de [!DNL Adobe Experience Platform Web SDK] . (TGT-52106)
+* Probleem verholpen waarbij ODS-gegevens (On-Device Decisioning) niet correct werden opgeslagen, ondanks dat ze waren opgenomen in de lading van de batchbewerking. (TGT-52406)
+* Een `audienceMetadata` -veld toegevoegd aan activiteiten, zodat het tijdens het bewerken kan worden gelezen en bijgewerkt. (TGT-51004)
+* Er is een foutbericht toegevoegd om gebruikers te waarschuwen wanneer een tijdsperiode voor het publiek ongeldig is. (TGT52522)
+* De activiteitsstructuur is bijgewerkt om dubbele soorten publiek te ondersteunen. (TGT-51200)
 
 ## [!DNL Adobe Target] [!DNL AI Assistant] release (16 mei 2025)
 
@@ -71,8 +97,8 @@ Deze release bevat de volgende correcties en updates:
 
 | Bron | Details |
 |--- |--- |
-| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=nl-NL) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
-| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
+| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
+| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
 
 ## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release van Experience Cloud
 
@@ -82,7 +108,7 @@ Naast de notities voor elke release bevatten de volgende bronnen aanvullende inf
 |--- |--- |
 | [ Veranderingen van de Documentatie ](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
 | [ de nota&#39;s van de Versie voor vorige versies ](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
-| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl-NL){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
+| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
 
 ## Prerelease-informatie {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
