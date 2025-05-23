@@ -4,36 +4,36 @@ description: Ontdek een lijst met veelgestelde vragen over het gebruik van de fu
 title: Waar kan ik antwoorden vinden op mijn optimalisatie en Personalization vragen?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 7dc7f6f053fa935c0166edde3e0fe09d161a7a67
+source-git-commit: 21d31fdf145f7c74be717885c15b35c3d1d61ed9
 workflow-type: tm+mt
-source-wordcount: '2678'
+source-wordcount: '2623'
 ht-degree: 0%
 
 ---
 
 # Veelgestelde vragen over optimalisatie en personalisatie
 
-Een lijst met veelgestelde vragen over het gebruik van de functies in Adobe Target, samen met informatie en koppelingen voor meer informatie.
+Een lijst met veelgestelde vragen over het gebruik van de functies in [!DNL Adobe Target] , samen met informatie en koppelingen voor meer informatie.
 
 ## Algemene informatie {#section_CE5713B5AAC341C9A75586C107797FA3}
 
-**Hoe kan ik zien hoe andere klanten Adobe Target voor betere resultaten leveraged hebben?**
+**Hoe kan ik zien hoe andere klanten [!DNL Target] voor betere resultaten leveraged hebben?**
 
 Hier zijn enkel enkele van onze [ verhalen van het klantensucces ](https://www.adobe.com/in/marketing-cloud/target/resources.html#x). Ontdek hoe klanten als u Doel leveraged om optimalisering en verpersoonlijking te verbeteren om bedrijfsdoelstellingen te bereiken.
 
 Houd er rekening mee dat in sommige van deze casestudies mogelijkheden van Adobe Target Premium zijn benut.
 
-**waar kan ik over de recentste eigenschappen van het Doel leren?**
+**waar kan ik over de recentste [!DNL Target] eigenschappen leren?**
 
 Zie onze [ Nota&#39;s van de Versie ](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) om de details op de recentste versie te controleren. De informatie over al onze [ vroegere versies ](/help/main/r-release-notes/release-notes-for-previous-releases.md) is ook online beschikbaar.
 
-**heeft Adobe een Gemeenschap/Forum waar ik antwoorden en meer informatie over Doel kan vinden?**
+**heeft [!DNL Adobe] een Gemeenschap/Forum waar ik antwoorden en meer informatie over [!DNL Target] kan vinden?**
 
 Controle uit het [ Communautaire Forum van het Doel ](/help/main/cmp-resources-and-contact-information.md#concept_9C203A8AED054DFFA9A504811DB6BA42), waar wij klanten helpen, maar belangrijker, wij houden van de beoefenaars van Adobe Target als u om elkaar te helpen. Het succes van een gemeenschap en forum hangt immers af van actieve deelname van haar leden. Word een lid van de gemeenschap en draag bij en zoek antwoorden op uw vragen.
 
-**Welke browsers steunt het Doel?**
+**Welke browsers [!DNL Target] steunen?**
 
-Gelieve te lezen onze [ Ondersteunde browsers ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=nl-NL){target=_blank} matrijs voor meer details. Er zijn twee aspecten: de Target Standard/Premium Experience Cloud-interfaceondersteuning en de ondersteuning van de eindgebruikersbrowser op desktops en apparaten.
+Gelieve te lezen onze [ Ondersteunde browsers ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} matrijs voor meer details. Er zijn twee aspecten: de Target Standard/Premium Experience Cloud-interfaceondersteuning en de ondersteuning van de eindgebruikersbrowser op desktops en apparaten.
 
 ## Activiteiten {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -99,7 +99,7 @@ Gebruik de [ plannende eigenschap in de Doelen en de stap van Montages ](/help/m
 
 Vergeet niet de activiteit te activeren. Alleen live-activiteiten voldoen aan het opgegeven schema. Nadat de einddatum is bereikt, gaat de activiteit in het Eind staat.
 
-**kan ik een verandering in enkel de het richten stap aanbrengen en niet door het volledige drie-stap geleide werkschema voor het uitgeven gaan?**
+**kan ik een verandering in enkel de [!UICONTROL Targeting] stap aanbrengen en niet door het volledige drie-stap geleide werkschema voor het uitgeven gaan?**
 
 U kunt dat gemakkelijk doen door [ direct de gewenste stap van uw keus van de pagina van het Overzicht van de Activiteit in te gaan ](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) en dan uit die stap weg te gaan door sparen en te gebruiken dicht optie.
 
@@ -111,7 +111,7 @@ Dat is ook mogelijk. Eenvoudig [ gebruik sparen optie beschikbaar om stijgende v
 
 Gebruik onze [ krachtige eigenschap van de Wijze QA ](/help/main/c-activities/c-activity-qa/activity-qa.md) om QA uit te voeren. U kunt verbindingen met uw team delen QA en ook de activiteit van begin tot eind, met inbegrip van het melden testen, om volledig zeker te zijn dat nadat de activiteit levend is, het zoals bedoeld en zoals getest werkt.
 
-**hoe ik de beslissingsmacht van het Doel kan gebruiken om een ervaring/aanbod te ontvangen die in Enige Toepassingen van de Pagina (SPAs) of server-zijintegratie kan worden gebruikt?**
+**hoe kan ik [!DNL Target] beslissingsmacht gebruiken om een ervaring/aanbod te ontvangen die in Enige Toepassingen van de Pagina (SPAs) of server-zijintegratie kan worden gebruikt?**
 
 Gebruik de macht van [ vorm-gebaseerde activiteiten ](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) met [ aanbiedingen JSON ](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) om uw doel te ontmoeten.
 
@@ -128,7 +128,7 @@ Er zijn twee opties:
 
 ## Soorten publiek {#section_FA6314777ABC46D8B198D6F388051460}
 
-**Kan ik een publiekssegment in een activiteit tot stand brengen die voor de activiteit specifiek is? Ik ben niet van mening dat zulk een publiek in de Bibliotheek van het Publiek zou moeten worden gecreeerd omdat er geen hergebruikfactor is.**
+**Kan ik een publiekssegment in een activiteit tot stand brengen die voor de activiteit specifiek is? Ik vind niet dat een dergelijk publiek in [!UICONTROL Audience Library] zou moeten worden gecreeerd omdat er geen hergebruikfactor is.**
 
 Begin gebruikend onze [ activiteit-slechts eigenschap van het Publiek ](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) om publiek te bepalen dat aan de activiteit lokaal is.
 
@@ -150,12 +150,12 @@ Probeer de [ eigenschap van de Manuscripten van het Profiel ](/help/main/c-targe
 
 Gebruik de controles van de percentaletoewijzing beschikbaar bij [ Stap 2 van het Begeleide werkschema van het Doel driedelige (het richten van pagina) ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) om te beslissen hoe u over vestiging de activiteit wilt gaan.
 
-**ik heb ook Adobe Analytics en wil het met Doel hefboomwerking. Welke zeer belangrijke mogelijkheden krijg ik door de twee oplossingen te integreren?**
+**ik heb ook [!DNL Adobe Analytics] en wil het met [!DNL Target] hefboomwerking. Welke zeer belangrijke mogelijkheden krijg ik door de twee oplossingen te integreren?**
 
 Bekijk de volgende aspecten van het product:
 
 * [Analyses voor doel (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [ Attributen van de Klant ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=nl-NL)
+* [ Attributen van de Klant ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Soorten publiek](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Ervaringen {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -164,17 +164,17 @@ Bekijk de volgende aspecten van het product:
 
 Controle uit [ Regels van het Malplaatje ](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781) om vele gelijkaardige gestructureerde pagina&#39;s aan de activiteit te omvatten terwijl nog het creëren van de ervaring op enige verstrekte URL.
 
-**ik ben moe van &quot;uw browser toestaan om manuscripten&quot;bericht te laden wanneer ik probeer om mijn pagina in de Visuele Composer van de Ervaring (VEC) te laden. Hoe kan ik dit vermijden?**
+**ik ben moe van het &quot;toestaan uw browser om manuscripten&quot;bericht te laden wanneer ik probeer om mijn pagina in [!UICONTROL Visual Experience Composer] (VEC) te laden. Hoe kan ik dit vermijden?**
 
 Dit komt doordat uw site gemengde inhoud bevat. Het is een site die zowel HTTP- als HTTPS-bronnen ophaalt. Vraag uw team van IT zich volledig naar HTTPS te bewegen.
 
 Tot dit gebeurt, volg de instructies in [ Toelatend Gemengde Inhoud in Uw Browser ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) om uw browser toe te staan om gemengde inhoud te laden. Dit is een beveiligingsfunctie van de meeste moderne browsers.
 
-**kan ik de Visuele Composer van de Ervaring (VEC) op mijn plaats proberen alhoewel het Doel at.js bibliotheek nog niet is opgesteld?**
+**kan ik [!UICONTROL Visual Experience Composer] (VEC) op mijn plaats proberen alhoewel de {[!DNL Target] at.js bibliotheek nog niet is opgesteld?**
 
 Probeer ladend de pagina met [ Verbeterde Composer van de Ervaring ](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D).
 
-**waarom is mijn plaats niet ladend binnen de Visuele Composer van de Ervaring (VEC)?**
+**waarom laadt mijn plaats niet binnen [!UICONTROL Visual Experience Composer] (VEC)?**
 
 Probeer uit de [ het oplossen van problemeninformatie ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4) die in onze hulppagina wordt geschetst. Bereik uit aan [ de Steun van Adobe ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) als geen van deze benaderingen werkt.
 
@@ -186,7 +186,7 @@ Lees ook wanneer en waarom [ Verbeterde Composer van de Ervaring ](/help/main/c-
 
 Probeer uit de [ Mobiele Viewports ](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5) eigenschap. Het werkt alleen als de Enhanced Experience Composer is ingeschakeld.
 
-**ik heb veelvoudige domeinen. Voor een van de domeinen moet de Enhanced Experience Composer ingeschakeld zijn, terwijl voor andere domeinen de functie moet worden uitgeschakeld. Hoe kan ik dit doen?**
+**ik heb veelvoudige domeinen. Voor een van de domeinen moet [!UICONTROL Enhanced Experience Composer] zijn ingeschakeld, terwijl voor andere domeinen de functie moet worden uitgeschakeld. Hoe kan ik dit doen?**
 
 U kunt [ Uitgebreide optie van Composer van de Ervaring op het activiteitenniveau ](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) altijd gebruiken om het gebrek met voeten te treden dat (Beleid > Visuele Composer van de Ervaring) plaatst.
 
@@ -198,7 +198,7 @@ Bereik uit aan Adobe om [ ervoor te zorgen dat uw rekening opstelling voor Scene
 
 U kunt dit met onze [ Veelvoudige eigenschap van de Versies van de Ervaring gemakkelijk bereiken ](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF). Noteer de nuances over de levering in dergelijke tests
 
-**hoe kan ik zien welke wijzigingen ik in Visuele Composer van de Ervaring (VEC) maakte?**
+**Hoe kan ik zien welke wijzigingen ik in [!UICONTROL Visual Experience Composer] (VEC) maakte?**
 
 Wij tonen altijd uw veranderingen in de [ Redacteur van de Code ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). Op het tabblad Wijzigingen ziet u de CSS-kiezer of het selectievakje dat u op uw aanbieding hebt toegepast.
 
@@ -208,13 +208,13 @@ De CSS-kiezer is een formaatkiezer. Met deze sectie kunt u kleine wijzigingen aa
 
 Één van de manieren moet de [ Redacteur van de Code van de Douane gebruiken ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). Ga je gang en zet je JavaScript in de sectie en het wordt geleverd. U hebt de optie om het in het hoofd of boven aan het lichaam te leveren, afhankelijk van uw behoeften.
 
-**waarom kan ik niet voorbij de login pagina binnen de Visuele Composer van de Ervaring (VEC) of aan een pagina gaan diep begraven waarin ik geen specifieke URL heb?**
+**waarom kan ik niet voorbij de login pagina binnen [!UICONTROL Visual Experience Composer] (VEC) of aan een pagina gaan diep binnen wordt begraven waarin ik geen specifieke URL heb?**
 
-Met de functies Samenstellen en Bladeren kunt u naar de gewenste pagina navigeren en uw ervaring maken.
+Met de functies [!UICONTROL Compose] en [!UICONTROL Browse] navigeert u naar de gewenste pagina en maakt u uw ervaring.
 
 ![ Ontwerp en doorblader knevels ](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
-**ik ben een vroegere Klassieke gebruiker van het Doel. Kan ik hefboomwerking mijn dozen voor bepaalde gebruiksgevallen?**
+**ik ben een vroegere [!DNL Target Classic] gebruiker. Kan ik hefboomwerking mijn dozen voor bepaalde gebruiksgevallen?**
 
 Gebruik [ vorm-gebaseerde benadering ](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) om activiteiten tot stand te brengen.
 
@@ -240,19 +240,19 @@ Het is mogelijk dat uw site dynamische id&#39;s, dubbele id&#39;s of dynamische 
 
 Gebruik onze [ debugger ](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) en controleer [ activiteitenbotsingen ](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
-**kan ik de beslissingsmacht van het Doel gebruiken om een ervaring/aanbod te ontvangen die in Enige Toepassingen van de Pagina (SPAs) of server-zijintegratie kan worden gebruikt?**
+**kan ik de beslissingsmacht van [!UICONTROL Target] gebruiken om een ervaring/een aanbieding te ontvangen die in Enige Toepassingen van de Pagina (SPAs) of server-zijintegratie kan worden gebruikt?**
 
 Gebruik de macht van [ vorm-gebaseerde activiteiten ](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) met [ aanbiedingen JSON ](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) om uw doel te ontmoeten.
 
 ## Rapporten (met inbegrip van Analytics voor doel-A4T) {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
-**ik heb ook Adobe Analytics en wil het met Doel hefboomwerking. Welke zeer belangrijke mogelijkheden krijg ik door de twee oplossingen te integreren?**
+**ik heb ook [!DNL Adobe Analytics] en wil het met [!DNL Target] hefboomwerking. Welke zeer belangrijke mogelijkheden krijg ik door de twee oplossingen te integreren?**
 
 Bekijk de volgende aspecten van het product:
 
 * [Analyses voor doel (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [ Attributen van de Klant ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=nl-NL)
+* [ Attributen van de Klant ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [Soorten publiek](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -261,7 +261,7 @@ Bekijk de volgende aspecten van het product:
 
 Dit is waar het [ publiek voor het Melden van eigenschap ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) beschikbaar op de pagina van Doelstellingen en van Montages in Stap 3 van het driedelige geleide activiteitenwerkschema binnen komt.
 
-U hebt de optie om 50 dergelijke segmenten en ook het toepassingspunt (Ingang van de Activiteit of specifiek metrisch) toe te voegen om een krachtige manier te hebben om te segmenteren en te dobbelen.
+U hebt de optie om 50 dergelijke segmenten en ook het toepassingspunt ([!UICONTROL Activity Entry] of specifieke metrisch) toe te voegen om een krachtige manier te hebben om te segmenteren en te dobbelen.
 
 Merk op dat Doel de gegevens in dit verband van de tijd verzamelt u deze publiek toevoegt, zodat als u toevoegend segmenten alvorens de test in werking te stellen mist, bent u uit geluk.
 
@@ -269,13 +269,13 @@ Merk op dat Doel de gegevens in dit verband van de tijd verzamelt u deze publiek
 
 **wat kan ik doen om dit proces gemakkelijker te maken?**
 
-Dit is waar [ Analytics voor Doel (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) handig is. Als u Adobe Analytics hebt, kiest u gewoon de bron als Analytics, waardoor deze beperking wordt opgeheven. Nu kunt u analyse op om het even welk publiek op om het even welk punt uitvoeren en u te hoeven niet om het rapporteringspubliek op voorgrond te bepalen.
+Dit is waar [ Analytics voor Doel (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) handig is. Als u [!DNL Adobe Analytics] hebt, kiest u gewoon de bron als [!DNL Analytics] , waardoor deze beperking wordt opgeheven. Nu kunt u analyse op om het even welk publiek op om het even welk punt uitvoeren en u te hoeven niet om het rapporteringspubliek op voorgrond te bepalen.
 
 **kan ik off-line rapporteringsberekeningen uitvoeren?**
 
-Gebruik de [ Rapporten van de Uitvoer aan CSV en de Details van de Orde van de Download aan opties CSV ](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) op de pagina van Rapporten om de gewenste rapporteringsgegevens te downloaden.
+Gebruik de [ Rapporten van de Uitvoer aan CSV en de Details van de Orde van de Download aan opties CSV ](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) op de Rep  havens pagina om de gewenste rapporteringsgegevens te downloaden.
 
-**kan ik de controleervaring voor het evalueren van rapporten veranderen of de tellende methodologie van Bezoekers veranderen in Bezoekingen?**
+**kan ik de controleervaring voor het evalueren van rapporten veranderen of de tellende methodologie van [!UICONTROL Visitors] in [!UICONTROL Visits] veranderen?**
 
 Maak deze veranderingen gebruikend het [ toestel van Montages op de rapportpagina ](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Lees meer over deze instellingen om te begrijpen hoe de berekeningen variëren.
 
@@ -285,22 +285,22 @@ Wij hebben geprobeerd om rapporten zo intuïtief mogelijk met eigenschappen zoal
 
 ## Reactiepunten {#section_C2A7118B4B62482A9D630C2212112A3D}
 
-**kan ik een integratie met een derdepartijsysteem, zoals Google Analytics of ClickTale uitvoeren, om de activiteiteninformatie over te gaan die aan een eindgebruiker voor analyse wordt geleverd?**
+**kan ik een integratie met een derdepartijsysteem, zoals [!DNL Google Analytics] of [!DNL ClickTal] e uitvoeren, om de activiteiteninformatie over te gaan die aan een eindgebruiker voor analyse wordt geleverd?**
 
 Wij hebben een oplossing voor dat ook met onze [ eigenschap van de Tokens van de Reactie ](/help/main/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4).
 
 ## Problemen oplossen {#section_6B8B4DC62AE34066A8C55915E9EC6C19}
 
-**Hoe kan ik de beschikbaarheidsstatus van Adobe Target kennen?**
+**Hoe kan ik de beschikbaarheidsstatus van [!DNL Target] kennen?**
 
-Gebruik de [ pagina van de Status van het Systeem van Adobe ](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) om het statuut van de producten van Adobe en de oplossingen van Experience Cloud, met inbegrip van Doel te bekijken. Deze pagina helpt u bepalen of de problemen u zouden kunnen ontmoeten toe te schrijven aan systeemupdates of routineonderhoud.
+Gebruik de [ pagina van de Status van het Systeem van Adobe ](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) om het statuut van [!DNL Adobe] producten en [!DNL Experience Cloud] oplossingen, met inbegrip van [!DNL Target] te bekijken. Deze pagina helpt u bepalen of de problemen u zouden kunnen ontmoeten toe te schrijven aan systeemupdates of routineonderhoud.
 
 **hebt u een het oplossen van problemengids?**
 
 Het spijt ons dat u problemen ondervindt. Controle uit [ het Doel van het Oplossen van problemen ](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) voor verbindingen aan vele het oplossen van problemenonderwerpen.
 
-## Doel-API&#39;s {#section_714E85EFF6E3400389EF2E40D538E1DA}
+## [!DNL Target] API&#39;s {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **waar kan ik meer over Doel APIs leren?**
 
-We hebben uitgebreide documentatie over API&#39;s. Zie [ Levering APIs, NodeJS SDK, en de documentatie van Aanbevelingen APIs ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=nl-NL){target=_blank}.
+We hebben uitgebreide documentatie over API&#39;s. Zie [ Levering APIs, NodeJS SDK, en de documentatie van Aanbevelingen APIs ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
