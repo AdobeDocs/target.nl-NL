@@ -6,9 +6,9 @@ short-description: Leer over de nieuwe eigenschappen, de verhogingen, en de moei
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 663fa963e7758558d1342044de989bff3a560bc6
+source-git-commit: 53fc39f66ca954c1c9908a12ece6c0beeebed2eb
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1749'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,13 @@ Zodra de rollout volledig is, zal de knevel worden verwijderd, en alle gebruiker
 Zie de volgende bronnen voor meer informatie over de bijgewerkte interface:
 
 * [Opmerkingen bij de release [!DNL Target Standard/Premium] 25.2.1 (17 februari 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)
+
+  Bevat een overzicht van de belangrijkste wijzigingen in de gebruikersinterface van [!DNL Target] voor [!UICONTROL Activities] , [!UICONTROL Recommendations] en [!UICONTROL Visual Experience Composer] (VEC).
+
 * [Opmerkingen bij de release [!DNL Target Standard/Premium] 25.1.1 (9 januari 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)
+
+  Bevat een overzicht van de belangrijkste wijzigingen in de gebruikersinterface van [!DNL Target] voor de [!UICONTROL Offers Library] .
+
 * [Begrijp  [!DNL Target]  UI](/help/main/c-intro/understand-the-target-ui.md)
 
   Hier vindt u een kort overzicht, zodat u vertrouwd kunt raken met [!DNL Target] en koppelingen naar meer informatie en stapsgewijze instructies.
@@ -53,7 +59,7 @@ Zie de volgende bronnen voor meer informatie over de bijgewerkte interface:
 
 * [[!UICONTROL Visual Experience Composer] opties](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
 
-  In dit artikel worden de bijgewerkte gebruikersinterface en de bijbehorende opties uitgelegd.
+  Dit artikel verklaart bijgewerkte UI VEC en zijn opties.
 
 ## [!DNL Target Standard/Premium] 25.5.3 (22 mei 2025)
 
@@ -133,8 +139,8 @@ Deze release bevat de volgende correcties en updates:
 
 | Bron | Details |
 |--- |--- |
-| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=nl-NL) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
-| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
+| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
+| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
 
 ## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release van Experience Cloud
 
@@ -144,7 +150,7 @@ Naast de notities voor elke release bevatten de volgende bronnen aanvullende inf
 |--- |--- |
 | [ Veranderingen van de Documentatie ](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
 | [ de nota&#39;s van de Versie voor vorige versies ](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
-| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl-NL){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
+| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
 
 ## Prerelease-informatie {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
