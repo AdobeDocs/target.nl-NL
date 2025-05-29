@@ -6,9 +6,9 @@ short-description: Leer over de nieuwe eigenschappen, de verhogingen, en de moei
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 97fd3be049ffb0f9dd27c89288a82695d86d5302
+source-git-commit: bc9a0fe1977629a00eebb2f7aafd30263c8b55af
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '2119'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,24 @@ ht-degree: 0%
 Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplossingen voor elke [!DNL Adobe Target Standard] - en [!DNL Target Premium] -release. Daarnaast worden releaseopmerkingen voor [!DNL Target] API&#39;s, SDK&#39;s, de [!DNL Adobe Experience Platform Web SDK] , at.js en andere platformwijzigingen, indien van toepassing, ook opgenomen.
 
 (De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik door [!DNL Adobe] .)
+
+## [!DNL Target Standard/Premium] 25.5.4 (29 mei 2025)
+
+Deze release bevat de volgende correcties en updates:
+
+* Probleem verholpen waarbij URL&#39;s niet konden worden toegevoegd of bewerkt in de QA-modus. (TGT-51941)
+* Toegevoegd een Verkeer van de Wijze QA onder [!UICONTROL Reports] > [!UICONTROL Report Settings] ( ![ pictogram van de Montages van het Rapport ](/help/main/assets/icons/Setting.svg)) om met functionaliteit van erfenis [!DNL Target] UI te richten. (TGT-5228 &amp; TGT-52329)
+* Probleem verholpen waarbij door de op formulieren gebaseerde activiteit onjuiste QA-koppelingen werden gegenereerd. De activiteit-URL/locatie bevatte aan het einde een onbedoelde &#39;1&#39;, die nu is verwijderd voor een juiste koppeling. (TGT-52355 &amp; TGT-52358)
+* Probleem verholpen waarbij door de op formulieren gebaseerde activiteit onjuiste QA-koppelingen werden gegenereerd. De activiteit-URL bevatte een onbedoelde `http://pid-ppc` aan het begin van de URL, die nu is verwijderd voor een juiste koppeling. (TGT-52557)
+* [!DNL Target] heeft een probleem verholpen waarbij ongeldige QA-koppelingen werden gegenereerd voor op formulieren gebaseerde activiteiten. (TGT-52528 &amp; TGT-52603)
+* Oplossing voor een probleem waarbij het opslaan van een gewijzigde activiteit leek te worden verwerkt, maar nooit werd voltooid. Er werd geen foutbericht weergegeven in [!DNL Target] . (TGT-52461)
+* Probleem verholpen waarbij de bijgewerkte waarde [!UICONTROL Visual Experience Composer] (VEC) de waarde `at_property` niet automatisch detecteerde. (TGT-52347)
+* Probleem verholpen waarbij twee wijzigingen werden opgenomen wanneer er slechts één wordt verwacht na het schakelen tussen de modi [!UICONTROL Browse] en [!UICONTROL Design] in de VEC terwijl er interactie plaatsvindt met een formulierelement. (TGT-52455)
+* Probleem verholpen waarbij het selecteren van de instelling [!UICONTROL Clicked an Element] in de bijgewerkte VEC werd verhinderd vanwege een fout die verklaarde dat de kiezer ongeldig was, al werd gebruikt of niet zichtbaar. (TGT-52467)
+* Probleem verholpen waarbij het toevoegen van een [!UICONTROL Recommendation Offer] -vak in de bijgewerkte VEC dubbele (spook)vakken veroorzaakte voor weergave. Door te schakelen tussen Experience A en B werden herhaaldelijk meer spookboxen toegevoegd. (TGT-52505 &amp; TGT-52519)
+* Probleem verholpen in de bijgewerkte gebruikersinterface van [!DNL Target] waarbij wijzigingen in een HTML-aanbieding via het menu [!UICONTROL Offer] niet werden doorgevoerd in de bijbehorende activiteit, en andersom. Dit gedrag komt nu overeen met de oudere gebruikersinterface, waar updates de synchronisatie correct uitvoeren tussen het menu [!UICONTROL Offer] en de activiteit. (TGT-52540 &amp; TGT-52541)
+* Probleem verholpen waarbij recente updates van [!UICONTROL Experience Fragments] in [!UICONTROL Offers Library] niet werden weerspiegeld wanneer werd geprobeerd ze te gebruiken in een activiteit. (TGT-52659)
+* Probleem met lokalisatie opgelost in de Vereenvoudigde Chinese vertaling van een bevestigingsbericht. In de vorige versie ontbraken aanhalingstekens rond de naam van de locatie en gebruikte informele taal, in tegenstelling tot de stijlhandleiding van de klant. De bijgewerkte vertaling gebruikt nu de juiste interpunctie en een formele toon. (TGT-52364)
 
 ## Afschrijving van versieschakelaar van doel-UI (23 mei 2025) {#toggle}
 
@@ -129,8 +147,8 @@ Deze release bevat de volgende correcties en updates:
 
 | Bron | Details |
 |--- |--- |
-| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=nl-NL) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
-| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
+| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
+| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
 
 ## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release van Experience Cloud
 
@@ -140,7 +158,7 @@ Naast de notities voor elke release bevatten de volgende bronnen aanvullende inf
 |--- |--- |
 | [ Veranderingen van de Documentatie ](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
 | [ de nota&#39;s van de Versie voor vorige versies ](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
-| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl-NL){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
+| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
 
 ## Prerelease-informatie {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
