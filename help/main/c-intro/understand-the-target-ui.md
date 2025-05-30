@@ -4,9 +4,9 @@ description: Verken me met het gebruikersinterface en vind verbindingen aan meer
 title: Hoe gebruik ik  [!DNL Target]  UI?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
+source-git-commit: df0a0aea7348bfde9114399fd6c1131b740f3c24
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: '1463'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,20 @@ ht-degree: 0%
 # De gebruikersinterface van [!DNL Target] begrijpen
 
 De gebruikersinterface is geschikt in een logische en gebruikersvriendelijke indeling, zodat u optimaal kunt profiteren van [!DNL Adobe Target] . Het volgende korte overzicht helpt u vertrouwd te worden gemaakt met [!DNL Target] en biedt koppelingen voor meer uitgebreide informatie en stapsgewijze instructies.
+
+>[!NOTE]
+>
+>[!DNL Target] is in 2025 nieuw en introduceert een bijgewerkte gebruikersinterface en [!UICONTROL Visual Experience Composer] (VEC). Klik op de volgende koppelingen voor meer informatie:
+>
+>* [[!DNL Target Standard/Premium]  25.2.1 (17 februari, 2025) versienota&#39;s ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Verstrekt een samenvatting van de belangrijkste veranderingen UI in [!DNL Target] voor [!UICONTROL Activities], [!UICONTROL Recommendations], en [!UICONTROL Visual Experience Composer] (VEC).
+>
+>* [[!DNL Target Standard/Premium]  25.1.1 (9 Januari, 2025) versienota&#39;s ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Verstrekt een samenvatting van de belangrijkste veranderingen UI in [!DNL Target] voor [!UICONTROL Offers Library].
+>
+>* [ begrijp  [!DNL Target]  UI ](/help/main/c-intro/understand-the-target-ui.md): Verstrekt een kort overzicht om u te helpen vertrouwd worden met [!DNL Target] en verleent verbindingen voor meer diepgaande informatie en geleidelijke instructies.
+>
+>* [[!UICONTROL Visual Experience Composer] changes ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : In de release [!DNL Adobe Target Standard/Premium] 25.2.1 (17 februari 2015) wordt een bijgewerkte versie van [!UICONTROL Visual Experience Composer] (VEC) geïntroduceerd. Dit artikel verklaart de verschillen tussen de erfenis en bijgewerkte versies van VEC.
+>
+>* [[!UICONTROL Visual Experience Composer] opties ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): Dit artikel verklaart bijgewerkte UI VEC en zijn opties.
 
 ## [!DNL Target] UI-koptekst
 
