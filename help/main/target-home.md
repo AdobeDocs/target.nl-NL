@@ -54,7 +54,7 @@ Naast deze handleiding zijn ook de volgende [!DNL Adobe Target] hulplijnen besch
 
 >[!IMPORTANT]
 >
->De uitrol van de nieuwe gebruikersinterface van [!DNL Target] is voltooid op 27 mei 2025. Alle klanten hebben nu toegang tot de recentste versie UI. Vanaf 22 juni 2025 wordt de schakeloptie voor de gebruikersinterface-versie verwijderd. Alle gebruikers gaan permanent over naar de nieuwe interface, zonder optie om naar de vorige versie terug te keren. Voor meer informatie, zie {de versie van het 0} Doel UI van een knevel veroudering ](/help/main/r-release-notes/release-notes.md#toggle).[
+>De uitrol van de nieuwe gebruikersinterface van [!DNL Target] is voltooid op 27 mei 2025. Alle klanten hebben nu toegang tot de recentste versie UI. Vanaf 22 juni 2025 wordt de schakeloptie voor de gebruikersinterface-versie verwijderd. Alle gebruikers gaan permanent over naar de nieuwe interface, zonder optie om naar de vorige versie terug te keren. Voor meer informatie, zie {de versie van het 0} Doel UI van een knevel veroudering [&#128279;](/help/main/r-release-notes/release-notes.md#toggle).
 
 In de volgende secties wordt verwezen naar handige koppelingen in deze handleiding, gerangschikt op doelgroep op basis van standaardfuncties:
 
