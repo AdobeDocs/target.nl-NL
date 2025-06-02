@@ -4,7 +4,7 @@ description: Leer de beste praktijken om uw ervaringen te laten werken zoals ver
 title: Wat zijn [!UICONTROL Visual Experience Composer] aanbevolen procedures en beperkingen?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 197aa3a0ab060481120abd0d12cdb7b581369929
+source-git-commit: 7577a4da162c94b78cceb8618eefa95cde426081
 workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 0%
@@ -225,7 +225,7 @@ De oplossing is het samenvouwen van de ervarings- en paginalijn door op de linke
 
 Houd rekening met de volgende beperkingen wanneer u met de VEC werkt:
 
-### De verenigbaarheid van VEC met de veranderingen van het de uitbreidingsbeleid van Chrome behandelen.
+### De verenigbaarheid van VEC met de veranderingen van het de uitbreidingsbeleid van Chrome behandelen. {#ext}
 
 Wegens bijgewerkt [ V3 Manifest beleid in Google Chrome ](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}, kunnen de uitbreidingen originele DOM niet meer wijzigen alvorens het door browser wordt ontleed. Dientengevolge, zouden bepaalde veiligheidsmanuscripten-zoals iframe-het bouwen implementaties-pagina&#39;s van het laden in VEC kunnen blokkeren.
 
