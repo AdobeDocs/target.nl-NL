@@ -4,9 +4,9 @@ description: Leer de beste praktijken om uw ervaringen te laten werken zoals ver
 title: Wat zijn [!UICONTROL Visual Experience Composer] aanbevolen procedures en beperkingen?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
+source-git-commit: 197aa3a0ab060481120abd0d12cdb7b581369929
 workflow-type: tm+mt
-source-wordcount: '2414'
+source-wordcount: '2512'
 ht-degree: 0%
 
 ---
@@ -31,19 +31,19 @@ Om Verbeterde Composer van de Ervaring op het activiteitenniveau toe te laten te
 
 ### U kunt bepaalde IP adressen lijsten van gewenste personen als Verbeterde Visual Experience Composer niet op veilige pagina&#39;s op uw plaats zal laden.
 
-De problemen die Verbeterde Visuele Composer van de Ervaring laden kunnen worden opgelost door de volgende IP adressen te voegend op lijst van gewenste personen. Deze IP-adressen zijn bestemd voor de server van de Adobe die wordt gebruikt voor de proxy van de Enhanced Experience Composer. Ze zijn alleen vereist voor het bewerken van activiteiten. Bezoekers van uw site hebben deze op de lijst met gewenste personen staan IP-adressen niet nodig.
+De problemen die Verbeterde Visuele Composer van de Ervaring laden kunnen worden opgelost door de volgende IP adressen te voegend op lijst van gewenste personen. Deze IP-adressen zijn bedoeld voor Adobe-server die wordt gebruikt voor de Enhanced Experience Composer-proxy. Ze zijn alleen vereist voor het bewerken van activiteiten. Bezoekers van uw site hebben deze op de lijst met gewenste personen staan IP-adressen niet nodig.
 
-Verenigde Staten: 52.55.99.45, 54.80.158.92, en 54.204.197.253
+Verenigde Staten: 52.55.99.45, 54.80.158.92 en 54.204.197.253
 
-Europa, Midden-Oosten en Afrika (EMEA): 52.51.238.221, 52.210.199.44 en 54.72.56.50
+Europa, Midden-Oosten en Afrika (EMEA): 52.51.238.221 , 52.210.199.44 en 54.72.56.50
 
-Azië-Stille Oceaan (APAC): 52.193.67.35, 54.199.198.109 en 54.199.241.57
+Asia-Pacific (APAC): 52.193.67.35, 54.199.198.109 en 54.199.241.57
 
 ### Gebruik unieke id&#39;s voor elementen op het hoogste niveau en andere elementen die geschikt kunnen zijn voor het testen of aanwijzen van kandidaten.
 
 Om het even welk onmiddellijk binnen het lichaamselement zou een unieke identiteitskaart moeten hebben. Als er nieuwe elementen in het lichaam worden geïnjecteerd en de code zich verplaatst, kunnen de bovenliggende elementen op zijn minst gemakkelijker worden herkend.
 
-Adobe Target heeft geen id&#39;s nodig, maar het gebruik van id&#39;s verhoogt de betrouwbaarheid van ervaringen die zijn gemaakt met de ervaringscomposer. Doel gebruikt CSS-kiezers om uw inhoud te wijzigen wanneer de ervaring wordt opgedaan. Wanneer u een ervaring uitgeeft, verankert de Visuele Composer van de Ervaring de selecteur aan de dichtste voorouder met een niet-krachteloze identiteitskaart attribuut aan het element dat van de HTML wordt gewijzigd. Het is daarom niet aan te raden om een mechanisme te gebruiken, waaronder JavaScript-bibliotheken, waarmee HTML-id-kenmerken worden ingesteld of gewijzigd. Hoewel deze id&#39;s beschikbaar kunnen zijn voor de composer voor het maken van activiteiten, is de id die werd gebruikt toen de ervaring werd gemaakt mogelijk niet beschikbaar wanneer de ervaring wordt uitgevoerd, als JavaScript id&#39;s wijzigt. Als er geen id beschikbaar is, mislukt de kiezer die aan de id is verankerd.
+Adobe Target heeft geen id&#39;s nodig, maar het gebruik van id&#39;s verhoogt de betrouwbaarheid van ervaringen die zijn gemaakt met de ervaringscomposer. Doel gebruikt CSS-kiezers om uw inhoud te wijzigen wanneer de ervaring wordt opgedaan. Wanneer u een ervaring uitgeeft, verankert de Visuele Composer van de Ervaring de selecteur aan de dichtstbijzijnde voorvader met een niet-krachteloze identiteitskaart attribuut aan het element dat van HTML wordt gewijzigd. Het is daarom niet aan te raden een mechanisme te gebruiken, waaronder JavaScript-bibliotheken, waarmee HTML-id-kenmerken worden ingesteld of gewijzigd. Hoewel deze id&#39;s beschikbaar kunnen zijn voor de composer voor het maken van activiteiten, is de id die werd gebruikt toen de ervaring werd gemaakt mogelijk niet beschikbaar wanneer de ervaring wordt uitgevoerd, als JavaScript id&#39;s wijzigt. Als er geen id beschikbaar is, mislukt de kiezer die aan de id is verankerd.
 
 ### Geef CSS-klassen een naam, zodat ze gemakkelijk kunnen worden herkend.
 
@@ -86,7 +86,7 @@ VEC manipuleert de website achter de scènes, gebruikend een volmachtsserver die
 Als u bijvoorbeeld twee handelingen hebt uitgevoerd:
 
 * Een klasse toegevoegd aan Element 1
-* De HTML voor Element 1 is bewerkt
+* HTML for Element 1 bewerkt
 
 Elke verandering leidt tot een nieuw element in de Visuele Composer van de Ervaring. Omdat de tweede actie Element 1 wijzigt, als u Element 1 schrapt, heeft de tweede actie niet meer om het even wat te wijzigen, zodat werkt de verandering niet meer.
 
@@ -111,7 +111,7 @@ Omdat `mboxCreate` `document.write` gebruikt, wordt het niet aanbevolen `mboxCre
 
 ### Werk een HTML-fragment niet bij met gebruik van Target Standard als hiervoor JavaScript-code vereist is.
 
-Wanneer een handeling (HTML bewerken) wordt uitgevoerd op paginacomponenten (zoals Schuifregelaars, Carrousels enzovoort), kan de levering worden verbroken. Visual Experience Composer voert de actie uit nadat de paginacomponent door JavaScript is geconcretiseerd.
+Wanneer een handeling (HTML bewerken) wordt uitgevoerd op pagina-onderdelen (zoals Schuifregelaars, Carrousels, enzovoort), kan de levering verbroken lijken. Visual Experience Composer voert de actie uit nadat de paginacomponent door JavaScript is geconcretiseerd.
 
 Wanneer de inhoud van de pagina echter aan bezoekers wordt afgeleverd, wordt de actie toegepast voordat de component wordt geïnstantieerd. Hierdoor kan de functionaliteit van deze component op het moment van levering al dan niet worden onderbroken. Functionaliteit is afhankelijk van de aard van het script dat op deze pagina wordt gebruikt om de component te definiëren.
 
@@ -197,7 +197,7 @@ Als een mbox een aanbieding bevat, kan het opnemen van een element als insertBef
 
 ### Wanneer u zowel een bovenliggend element als een onderliggend element bewerkt, moet u eerst het bovenliggende element bewerken.
 
-Als u een afbeeldingsactie op een element omwisselt en de tekst of HTML op het bovenliggende element bewerkt, kunnen zich leveringsproblemen voordoen. De beste workflow is om het bovenliggende element te bewerken voordat de afbeelding op het onderliggende element wordt gewisseld.
+Als u een afbeeldingsactie op een element omwisselt en vervolgens de tekst of HTML op het bovenliggende element bewerkt, kunnen zich leveringsproblemen voordoen. De beste workflow is om het bovenliggende element te bewerken voordat de afbeelding op het onderliggende element wordt gewisseld.
 
 ### Kan geen pagina-element selecteren dat een box als onderliggend element bevat.
 
@@ -225,6 +225,18 @@ De oplossing is het samenvouwen van de ervarings- en paginalijn door op de linke
 
 Houd rekening met de volgende beperkingen wanneer u met de VEC werkt:
 
+### De verenigbaarheid van VEC met de veranderingen van het de uitbreidingsbeleid van Chrome behandelen.
+
+Wegens bijgewerkt [ V3 Manifest beleid in Google Chrome ](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}, kunnen de uitbreidingen originele DOM niet meer wijzigen alvorens het door browser wordt ontleed. Dientengevolge, zouden bepaalde veiligheidsmanuscripten-zoals iframe-het bouwen implementaties-pagina&#39;s van het laden in VEC kunnen blokkeren.
+
+Om de compatibiliteit te garanderen, moeten deze scripts voorwaardelijk worden uitgeschakeld wanneer de pagina in het iframe [!DNL Target] wordt geladen. Dit proces kan veilig worden uitgevoerd door te controleren op de aanwezigheid van het `window.adobeVecExtension` -object, dat door [!DNL Target] tijdens het laden met VEC wordt geïnjecteerd.
+
+De volgende codefragmenten zijn voorbeelden van iFrame-bosting code die tot Web-pagina kan leiden die niet in VEC laadt:
+
+`window.top.location = window.self.location;`
+
+`top.location.href = self.location.href;`
+
 ### U kunt een element niet buiten een container plaatsen, gevolgd door een CSS-eigenschap.
 
 Een element kan niet worden verplaatst buiten een container die wordt gevolgd door een CSS-eigenschap.
@@ -245,7 +257,7 @@ Als een element naar een andere plaats is verplaatst, en u de oudercontainer sel
 
 Als uw pagina bijvoorbeeld een carrousel met zes afbeeldingen bevat en u een afbeelding wilt wisselen met de tweede afbeelding van de carrousel, werkt de actie Afbeelding wisselen niet.
 
-Als tussenoplossing kunt u de bovenliggende container selecteren en de actie HTML bewerken gebruiken om de HTML van de carrousel te bewerken en de afbeeldingsbron van de gewenste afbeelding bij te werken.
+Als tussenoplossing kunt u de bovenliggende container selecteren en de handeling HTML bewerken gebruiken om de HTML van de carrousel te bewerken en de afbeeldingsbron van de gewenste afbeelding bij te werken.
 
 ### Afbeeldingen kunnen niet worden vergroot of verkleind in een box.
 
@@ -253,7 +265,7 @@ Als u een afbeelding in een mbox-element omwisselt en u probeert de grootte van 
 
 ### Nadat u een afbeelding hebt gewisseld, kunt u de handeling Bewerken niet meer selecteren.
 
-Nadat u de afbeelding hebt gewisseld, kunt u de Scene7-URL niet meer bewerken.
+Nadat u het beeld ruilt, kunt u niet Scene7 URL uitgeven.
 
 ### HTML-elementen met externe bron kunnen niet worden bewerkt.
 
@@ -293,7 +305,7 @@ Het script wordt uitgevoerd binnen het bereik van target.js nadat de pagina is g
 </script>
 ```
 
-### Als u een afbeelding invoegt uit de inhoudsbibliotheek (Scene7) en de HTML bewerkt, wordt de URL van de afbeelding verbroken.
+### Wanneer u een afbeelding invoegt uit de inhoudsbibliotheek (Scene7) en de HTML bewerkt, wordt de URL van de afbeelding verbroken.
 
 Voeg een ankerelement in het div &#39;customHeaderMessage&#39; met een dummytekst toe:
 
