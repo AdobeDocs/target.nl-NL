@@ -4,9 +4,9 @@ description: Leer de beste praktijken om uw ervaringen te laten werken zoals ver
 title: Wat zijn [!UICONTROL Visual Experience Composer] aanbevolen procedures en beperkingen?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 7577a4da162c94b78cceb8618eefa95cde426081
+source-git-commit: d94dad7795ef024feb19234c2a20423b074ea768
 workflow-type: tm+mt
-source-wordcount: '2512'
+source-wordcount: '2534'
 ht-degree: 0%
 
 ---
@@ -236,6 +236,14 @@ De volgende codefragmenten zijn voorbeelden van iFrame-bosting code die tot Web-
 `window.top.location = window.self.location;`
 
 `top.location.href = self.location.href;`
+
+Met een eenvoudige controle kunt u controleren of een webpagina is ingesloten in [!DNL Target] . Een codefragment zou als volgt moeten houden:
+
+```
+if(!window.adobeVecExtension) {
+    // additional security logic
+}
+```
 
 ### U kunt een element niet buiten een container plaatsen, gevolgd door een CSS-eigenschap.
 
