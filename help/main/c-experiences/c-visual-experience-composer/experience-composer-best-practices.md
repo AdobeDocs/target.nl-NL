@@ -4,9 +4,9 @@ description: Leer de beste praktijken om uw ervaringen te laten werken zoals ver
 title: Wat zijn [!UICONTROL Visual Experience Composer] aanbevolen procedures en beperkingen?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: d7ca0867314808f4d38c0de0b8c1e1f0cbf70cc0
+source-git-commit: 1f2c6bbabf0158672e5f926ffdf9662637cd8416
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2435'
 ht-degree: 0%
 
 ---
@@ -301,6 +301,7 @@ Houd rekening met de volgende beperkingen wanneer u met de VEC werkt:
 
 ### VEC-compatibiliteit met [!DNL Chrome] beleidswijzigingen voor extensies verwerken. {#ext}
 
++++Details
 Wegens bijgewerkt [ V3 Manifest beleid in Google Chrome ](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}, kunnen de uitbreidingen originele DOM niet meer wijzigen alvorens het door browser wordt ontleed. Dientengevolge, zouden bepaalde veiligheidsmanuscripten-zoals iframe-het bouwen implementaties-pagina&#39;s van het laden in VEC kunnen blokkeren.
 
 Om de compatibiliteit te garanderen, moeten deze scripts voorwaardelijk worden uitgeschakeld wanneer de pagina in het iframe [!DNL Target] wordt geladen. Dit proces kan veilig worden uitgevoerd door te controleren op de aanwezigheid van het `window.adobeVecExtension` -object, dat door [!DNL Target] tijdens het laden met VEC wordt geïnjecteerd.
