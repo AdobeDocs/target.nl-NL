@@ -137,7 +137,7 @@ Hieronder ziet u mogelijk een foutbericht en oplossingen voor het verhelpen van 
 
   **Oplossing:** Lijst van gewenste personen de IP hierboven vermelde adressen.
 
-* **Uitgave:** de IP adressen worden gevoegd op lijst van gewenste personen maar uw website steunt geen versie 1.2 van TLS. [!DNL Target] gebruikt momenteel de standaardconfiguratie van 1.2. Vóór [!DNL Target] 18.4.1 (25 april 2018), ondersteunde de standaardconfiguratie TLS 1.0. Voor meer informatie, zie [ de Veranderingen van de Encryptie van TLS (de Veiligheid van de Laag van het Vervoer) ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
+* **Uitgave:** de IP adressen worden gevoegd op lijst van gewenste personen maar uw website steunt geen versie 1.2 van TLS. [!DNL Target] gebruikt momenteel de standaardconfiguratie van 1.2. Vóór [!DNL Target] 18.4.1 (25 april 2018), ondersteunde de standaardconfiguratie TLS 1.0. Voor meer informatie, zie [ de Veranderingen van de Encryptie van TLS (de Veiligheid van de Laag van het Vervoer) ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=nl-NL){target=_blank}.
 
   **Oplossing:** zie de volgende vraag ([!UICONTROL Enhanced Visual Experience Composer] zal niet op veilige pagina&#39;s op mijn plaats laden die TLS 1.2 gebruiken).
 
@@ -146,7 +146,7 @@ Hieronder ziet u mogelijk een foutbericht en oplossingen voor het verhelpen van 
 ## De EEG wordt niet geladen op beveiligde pagina&#39;s op mijn site die TLS 1.0 gebruiken. (alleen EEG) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
 +++Details
-Het bovenstaande foutbericht wordt weergegeven in &quot;De [!UICONTROL Enhanced Visual Experience Composer] wordt niet geladen op beveiligde pagina&#39;s op mijn site.&quot; als de bovenstaande IP-adressen zijn gevoegd op lijst van gewenste personen maar uw website biedt geen ondersteuning voor TLS versie 1.2. [!DNL Target] gebruikt momenteel de standaardconfiguratie 1.2. Vóór [!DNL Target] 18.4.1 (25 april 2018), ondersteunde de standaardconfiguratie TLS 1.0. Voor meer informatie, zie [ de Veranderingen van de Encryptie van TLS (de Veiligheid van de Laag van het Vervoer) ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
+Het bovenstaande foutbericht wordt weergegeven in &quot;De [!UICONTROL Enhanced Visual Experience Composer] wordt niet geladen op beveiligde pagina&#39;s op mijn site.&quot; als de bovenstaande IP-adressen zijn gevoegd op lijst van gewenste personen maar uw website biedt geen ondersteuning voor TLS versie 1.2. [!DNL Target] gebruikt momenteel de standaardconfiguratie 1.2. Vóór [!DNL Target] 18.4.1 (25 april 2018), ondersteunde de standaardconfiguratie TLS 1.0. Voor meer informatie, zie [ de Veranderingen van de Encryptie van TLS (de Veiligheid van de Laag van het Vervoer) ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=nl-NL){target=_blank}.
 
 Als u de TLS-versie op uw website wilt controleren met Firefox (andere browsers hebben vergelijkbare stappen):
 
@@ -163,7 +163,7 @@ Als u de TLS-versie op uw website wilt controleren met Firefox (andere browsers 
 
    ![ firefox_more_info_3 beeld ](assets/firefox_more_info_3.png)
 
-1. Als u vindt dat uw website TLS 1.0 toont, zie [ de Veranderingen van de Encryptie van TLS (de Veiligheid van de Laag van het Vervoer) ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} voor informatie over TLS van het Doel steunbeleid. Om de situatie voor nu (geldig tot 12 september, 2018) te verhelpen {target=_blank}, reik uit aan [ de Zorg van de Klant ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) voor configuratie met uw versie TLS en het domein.
+1. Als u vindt dat uw website TLS 1.0 toont, zie [ de Veranderingen van de Encryptie van TLS (de Veiligheid van de Laag van het Vervoer) ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=nl-NL){target=_blank} voor informatie over TLS van het Doel steunbeleid. Om de situatie voor nu (geldig tot 12 september, 2018) te verhelpen {target=_blank}, reik uit aan [ de Zorg van de Klant ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) voor configuratie met uw versie TLS en het domein.
 
 +++
 
