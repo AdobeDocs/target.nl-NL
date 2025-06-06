@@ -1,12 +1,12 @@
 ---
 keywords: gericht;ec;visuele ervaringscomposer;problemen oplossen verbeterde ervaringscomposer;het oplossen van problemen
-description: Leer hoe te om problemen problemen problemen op te lossen die soms in Adobe  [!DNL Target]  Verbeterde Composer van de Ervaring (EEG) onder bepaalde voorwaarden voorkomen.
-title: Hoe los ik problemen op met betrekking tot de Enhanced Experience Composer?
+description: Leer hoe te om problemen problemen op te lossen die soms in  [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEG) onder bepaalde voorwaarden voorkomen.
+title: Hoe los ik problemen op met betrekking tot [!UICONTROL Enhanced Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 04f8e22361b1e961a88d3e9d28ccfd600fae0218
+source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,9 @@ Weergaveproblemen treden soms op in [!DNL Adobe Target] [!UICONTROL Enhanced Exp
 
 ## De EEC laadt geen interne QA URL die niet toegankelijk is op openbare IP. {#section_D29E96911D5C401889B5EACE267F13CF}
 
-Dit kan worden opgelost door de volgende IP adressen te voegend op lijst van gewenste personen. Deze IP adressen zijn voor Adobe server die voor de EEG volmacht wordt gebruikt. Ze zijn alleen vereist voor het bewerken van activiteiten. Bezoekers van uw site hebben deze op de lijst met gewenste personen staan IP-adressen niet nodig.
+
++++Details
+Dit probleem kan worden opgelost door de volgende IP adressen te voegend op lijst van gewenste personen. Deze IP-adressen zijn bestemd voor de [!DNL Adobe] -server die wordt gebruikt voor de EEG-proxy. Deze IP-adressen zijn alleen vereist voor het bewerken van activiteiten. Bezoekers van uw site hebben deze op de lijst met gewenste personen staan IP-adressen niet nodig.
 
 Vraag uw team van IT om de volgende IP adressen te lijsten van gewenste personen:
 
@@ -135,13 +137,16 @@ Hieronder ziet u mogelijk een foutbericht en oplossingen voor het verhelpen van 
 
   **Oplossing:** Lijst van gewenste personen de IP hierboven vermelde adressen.
 
-* **Uitgave:** de IP adressen worden gevoegd op lijst van gewenste personen maar uw website steunt geen versie 1.2 van TLS. [!DNL Target] gebruikt momenteel de standaardconfiguratie van 1.2. Vóór [!DNL Target] 18.4.1 (25 april 2018), ondersteunde de standaardconfiguratie TLS 1.0. Voor meer informatie, zie [ de Veranderingen van de Encryptie van TLS (de Veiligheid van de Laag van het Vervoer) ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=nl-NL){target=_blank} .
+* **Uitgave:** de IP adressen worden gevoegd op lijst van gewenste personen maar uw website steunt geen versie 1.2 van TLS. [!DNL Target] gebruikt momenteel de standaardconfiguratie van 1.2. Vóór [!DNL Target] 18.4.1 (25 april 2018), ondersteunde de standaardconfiguratie TLS 1.0. Voor meer informatie, zie [ de Veranderingen van de Encryptie van TLS (de Veiligheid van de Laag van het Vervoer) ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
   **Oplossing:** zie de volgende vraag ([!UICONTROL Enhanced Visual Experience Composer] zal niet op veilige pagina&#39;s op mijn plaats laden die TLS 1.2 gebruiken).
 
++++
+
 ## De EEG wordt niet geladen op beveiligde pagina&#39;s op mijn site die TLS 1.0 gebruiken. (alleen EEG) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-Het bovenstaande foutbericht wordt weergegeven in &quot;De [!UICONTROL Enhanced Visual Experience Composer] wordt niet geladen op beveiligde pagina&#39;s op mijn site.&quot; als de bovenstaande IP-adressen zijn gevoegd op lijst van gewenste personen maar uw website biedt geen ondersteuning voor TLS versie 1.2. [!DNL Target] gebruikt momenteel de standaardconfiguratie 1.2. Vóór [!DNL Target] 18.4.1 (25 april 2018), ondersteunde de standaardconfiguratie TLS 1.0. Voor meer informatie, zie [ de Veranderingen van de Encryptie van TLS (de Veiligheid van de Laag van het Vervoer) ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=nl-NL){target=_blank} .
++++Details
+Het bovenstaande foutbericht wordt weergegeven in &quot;De [!UICONTROL Enhanced Visual Experience Composer] wordt niet geladen op beveiligde pagina&#39;s op mijn site.&quot; als de bovenstaande IP-adressen zijn gevoegd op lijst van gewenste personen maar uw website biedt geen ondersteuning voor TLS versie 1.2. [!DNL Target] gebruikt momenteel de standaardconfiguratie 1.2. Vóór [!DNL Target] 18.4.1 (25 april 2018), ondersteunde de standaardconfiguratie TLS 1.0. Voor meer informatie, zie [ de Veranderingen van de Encryptie van TLS (de Veiligheid van de Laag van het Vervoer) ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
 Als u de TLS-versie op uw website wilt controleren met Firefox (andere browsers hebben vergelijkbare stappen):
 
@@ -158,8 +163,13 @@ Als u de TLS-versie op uw website wilt controleren met Firefox (andere browsers 
 
    ![ firefox_more_info_3 beeld ](assets/firefox_more_info_3.png)
 
-1. Als u vindt dat uw website TLS 1.0 toont, zie [ de Veranderingen van de Encryptie van TLS (de Veiligheid van de Laag van het Vervoer) ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=nl-NL){target=_blank}  voor informatie over TLS van het Doel steunbeleid. Om de situatie voor nu (geldig tot 12 september, 2018) te verhelpen {target=_blank}, reik uit aan [ de Zorg van de Klant ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) voor configuratie met uw versie TLS en het domein.
+1. Als u vindt dat uw website TLS 1.0 toont, zie [ de Veranderingen van de Encryptie van TLS (de Veiligheid van de Laag van het Vervoer) ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} voor informatie over TLS van het Doel steunbeleid. Om de situatie voor nu (geldig tot 12 september, 2018) te verhelpen {target=_blank}, reik uit aan [ de Zorg van de Klant ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) voor configuratie met uw versie TLS en het domein.
+
++++
 
 ## Ik zie onderbrekingen of &quot;ontkende toegang&quot;fouten wanneer het laden van plaatsen met toegelaten volmacht. (alleen EEG) {#section_60CBB9022DC449F593606C0E6252302D}
 
++++Details
 Zorg ervoor volmacht IPs niet in uw milieu wordt geblokkeerd.
+
++++
