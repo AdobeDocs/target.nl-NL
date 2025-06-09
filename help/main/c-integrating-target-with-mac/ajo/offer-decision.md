@@ -19,15 +19,15 @@ Voeg via [!DNL Adobe Journey Optimizer] gemaakte aanbiedingsbeslissingen toe aan
 
 Raadpleeg de volgende onderwerpen in de *[!DNL Journey Optimizer]* -documentatie voor meer informatie over [!DNL Adobe Journey Optimizer] en de opties die u kunt kiezen:
 
-* [ krijgen Begonnen met Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
+* [ krijgen Begonnen met Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=nl-NL)
 
-* [ Ongeveer Beslissingsbeheer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)
+* [ Ongeveer Beslissingsbeheer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=nl-NL)
 
 ## Vereisten
 
 Als u de aanbiedingsbeslissingen in [!DNL Target] wilt gebruiken, hebt u het volgende nodig:
 
-* [!DNL Adobe Target Standard] of [!DNL Adobe Target Premium] uitgevoerd gebruikend [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+* [!DNL Adobe Target Standard] of [!DNL Adobe Target Premium] uitgevoerd gebruikend [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=nl-NL){target=_blank}.
 
   De functie is niet beschikbaar wanneer u [!DNL Target] implementeert met at.js of andere [!DNL Target] SDK&#39;s.
 
@@ -72,7 +72,7 @@ In [!DNL Adobe Journey Optimizer] kunt u een gepersonaliseerde homepage-hoofdaan
 
 1. Selecteer in de **[!UICONTROL Add Offer Decision]** -rail rechts van de VEC de gewenste sandbox en klik vervolgens op Offerte Decision.placement selecteren.
 
-   A [ zandbak ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in [!DNL Adobe Experience Platform] laat u uw instantie in virtuele milieu&#39;s verdelen. U hebt bijvoorbeeld een productieomgeving en een testomgeving. A [ plaatsing ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] hulp zorgt ervoor dat de juiste vertoningen van de aanbiedingsinhoud in de juiste plaats.
+   A [ zandbak ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=nl-NL){target=_blank} in [!DNL Adobe Experience Platform] laat u uw instantie in virtuele milieu&#39;s verdelen. U hebt bijvoorbeeld een productieomgeving en een testomgeving. A [ plaatsing ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=nl-NL){target=_blank} in [!DNL Adobe Journey Optimizer] hulp zorgt ervoor dat de juiste vertoningen van de aanbiedingsinhoud in de juiste plaats.
 
    ![ Sandbox en de drop-down lijsten van Plaatsen in de Add de dialoogdoos van het Besluit van de Aanbieding ](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
@@ -96,7 +96,7 @@ In [!DNL Adobe Journey Optimizer] kunt u een gepersonaliseerde homepage-hoofdaan
 
 Neem de volgende informatie in overweging wanneer u met de beslissingen over aanbiedingen werkt:
 
-* De integratie van de aanbiedingsbeslissing werkt voor [!DNL Target] implementaties die op het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} worden gebaseerd. Deze functie is niet beschikbaar wanneer u [!DNL Target] implementeert met at.js of andere [!DNL Target] SDK&#39;s.
+* De integratie van de aanbiedingsbeslissing werkt voor [!DNL Target] implementaties die op het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=nl-NL){target=_blank} worden gebaseerd. Deze functie is niet beschikbaar wanneer u [!DNL Target] implementeert met at.js of andere [!DNL Target] SDK&#39;s.
 
 * De [!DNL Target]/ [!DNL Adobe Journey Optimizer] integratie steunt [ handboek [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) en [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) slechts activiteiten. Deze functie is niet beschikbaar voor andere typen activiteiten.
 
