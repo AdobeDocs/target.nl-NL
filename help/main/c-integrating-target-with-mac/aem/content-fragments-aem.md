@@ -39,15 +39,15 @@ Meer over AEM [!UICONTROL Content Fragments] en [!UICONTROL Experience Fragments
 
 ## Vereisten {#requirements}
 
-U moet [[!DNL AEM]  as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html){target=_blank} gebruiken. Uw accountvertegenwoordiger kan ervoor zorgen dat u voldoet aan de vereisten om deze functie te gebruiken:
+U moet [[!DNL AEM]  as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=nl-NL){target=_blank} gebruiken. Uw accountvertegenwoordiger kan ervoor zorgen dat u voldoet aan de vereisten om deze functie te gebruiken:
 
 De Zorg van de Klant van Adobe Target van het contact [&#128279;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om de integratie toe te laten en u van authentificatiedetails te voorzien.
 
 ## [!UICONTROL Content Fragments] configureren en gebruiken in [!DNL AEM] {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-Als u [!UICONTROL Content Fragments] wilt exporteren voor gebruik in [!DNL Target] -activiteiten, moet u een aantal voorbereidende stappen uitvoeren in AEM. Voor meer informatie, zie [ het Uitvoeren van de Fragmenten van de Inhoud naar Adobe Target ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank} in de *documentatie van as a Cloud Service van Experience Manager*.
+Als u [!UICONTROL Content Fragments] wilt exporteren voor gebruik in [!DNL Target] -activiteiten, moet u een aantal voorbereidende stappen uitvoeren in AEM. Voor meer informatie, zie [ het Uitvoeren van de Fragmenten van de Inhoud naar Adobe Target ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html?lang=nl-NL){target=_blank} in de *documentatie van as a Cloud Service van Experience Manager*.
 
-Voor informatie over het ontwerpen van, het creëren van, het beoefenen van, en het publiceren [!UICONTROL Content Fragments], zie [[!UICONTROL Content Fragments] ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=en){target=_blank} en [ het Werken met de Fragmenten van de Inhoud ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html){target=_blank} in de [ documentatie van as a Cloud Service van Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}.
+Voor informatie over het ontwerpen van, het creëren van, het beoefenen van, en het publiceren [!UICONTROL Content Fragments], zie [[!UICONTROL Content Fragments] ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=nl-NL){target=_blank} en [ het Werken met de Fragmenten van de Inhoud ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html?lang=nl-NL){target=_blank} in de [ documentatie van as a Cloud Service van Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=nl-NL){target=_blank}.
 
 ## [!UICONTROL Content Fragments] gebruiken in [!DNL Target] -activiteiten {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
