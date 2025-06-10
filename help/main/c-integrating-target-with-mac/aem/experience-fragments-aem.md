@@ -48,7 +48,7 @@ U moet de [!UICONTROL Experience Fragments] -functionaliteit binnen [!DNL Target
 
 [!DNL Adobe Experience Manager] 6.3 en 6.4 hebben het einde van de levensduur bereikt en worden niet meer ondersteund (behalve voor klanten die uitgebreide ondersteuning hebben aangeschaft).
 
-De Zorg van de Klant van Adobe Target van het contact ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om de integratie toe te laten en u van authentificatiedetails te voorzien.[
+De Zorg van de Klant van Adobe Target van het contact [&#128279;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om de integratie toe te laten en u van authentificatiedetails te voorzien.
 
 ## [!UICONTROL Experience Fragments] maken en configureren in [!DNL AEM] {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 

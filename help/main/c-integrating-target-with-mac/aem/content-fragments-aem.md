@@ -41,7 +41,7 @@ Meer over AEM [!UICONTROL Content Fragments] en [!UICONTROL Experience Fragments
 
 U moet [[!DNL AEM]  as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html){target=_blank} gebruiken. Uw accountvertegenwoordiger kan ervoor zorgen dat u voldoet aan de vereisten om deze functie te gebruiken:
 
-De Zorg van de Klant van Adobe Target van het contact ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om de integratie toe te laten en u van authentificatiedetails te voorzien.[
+De Zorg van de Klant van Adobe Target van het contact [&#128279;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om de integratie toe te laten en u van authentificatiedetails te voorzien.
 
 ## [!UICONTROL Content Fragments] configureren en gebruiken in [!DNL AEM] {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
