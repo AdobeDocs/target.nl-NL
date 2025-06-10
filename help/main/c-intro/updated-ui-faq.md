@@ -5,21 +5,31 @@ title: Waar kan ik FAQs over bijgewerkte  [!DNL Target]  UI vinden?
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
+source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
-# Bijgewerkte veelgestelde vragen over de gebruikersinterface voor doelen
+# [!DNL Target] Veelgestelde vragen over UI-update
 
-Zoek antwoorden op veelgestelde vragen over de bijgewerkte gebruikersinterface van [!DNL Adobe Target] met nuttige tips en koppelingen voor meer informatie.
+De bijgewerkte gebruikersinterface van [!DNL Adobe Target] is nieuw in 2025 en introduceert een gestroomlijnde, intuïtieve ervaring die is ontworpen om de bruikbaarheid en efficiëntie in alle rollen te verbeteren. In deze veelgestelde vragen worden veelgestelde vragen over de nieuwe [!DNL Target] UI en [!UICONTROL Visual Experience Composer] (VEC) behandeld, zoals navigatiewijzigingen, functielocaties en de afgekeurde versie van de tijdelijke UI. Of u nu een markeerteken, ontwikkelaar of beheerder bent, deze veelgestelde vragen helpen u een vloeiende overgang te maken en de bijgewerkte gebruikersinterface optimaal te benutten.
 
 ## Waar vind ik meer informatie over de bijgewerkte [!DNL Target] interface?
 
 +++Details
-{{updated-ui}}
+De volgende bronnen bieden informatie voor meer informatie over de bijgewerkte gebruikersinterface van [!DNL Target] :
+
+* [[!DNL Target Standard/Premium]  25.2.1 (17 februari, 2025) versienota&#39;s ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Verstrekt een samenvatting van de belangrijkste veranderingen UI in [!DNL Target] voor [!UICONTROL Activities], [!UICONTROL Recommendations], en [!UICONTROL Visual Experience Composer] (VEC).
+
+* [[!DNL Target Standard/Premium]  25.1.1 (9 Januari, 2025) versienota&#39;s ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Verstrekt een samenvatting van de belangrijkste veranderingen UI in [!DNL Target] voor [!UICONTROL Offers Library].
+
+* [ begrijp  [!DNL Target]  UI ](/help/main/c-intro/understand-the-target-ui.md): Verstrekt een kort overzicht om u te helpen vertrouwd worden met [!DNL Target] en verleent verbindingen voor meer diepgaande informatie en geleidelijke instructies.
+
+* [[!UICONTROL Visual Experience Composer] changes ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : In de release [!DNL Adobe Target Standard/Premium] 25.2.1 (17 februari 2015) wordt een bijgewerkte versie van [!UICONTROL Visual Experience Composer] (VEC) geïntroduceerd. Dit artikel verklaart de verschillen tussen de erfenis en bijgewerkte versies van VEC.
+
+* [[!UICONTROL Visual Experience Composer] opties ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): Dit artikel verklaart bijgewerkte UI VEC en zijn opties.
 
 +++
 
@@ -30,7 +40,7 @@ De bijgewerkte gebruikersinterface is beschikbaar voor alle [!DNL Target] klante
 
 De uitrol van de nieuwe gebruikersinterface van [!DNL Target] is voltooid op 27 mei 2025. Op dat punt, hebben alle klanten toegang tot de recentste versie UI.
 
-Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI versiesknevel, zie {de afschrijving van de versie van het 0} Doel UI van de knevel (Mei 23, 2025) [&#128279;](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.
+Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI versiesknevel, zie {de afschrijving van de versie van het 0} Doel UI van de knevel (Mei 23, 2025) ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.[
 
 +++
 
@@ -39,7 +49,7 @@ Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI ver
 +++Details
 Het team van [!DNL Target] behandelt actief kwesties met betrekking tot de nieuwe uitrol UI. Updates en doorlopende verbeteringen worden beschreven in de opmerkingen bij de release.
 
-Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI versiesknevel, zie {de afschrijving van de versie van het 0} Doel UI van de knevel (Mei 23, 2025) [&#128279;](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.
+Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI versiesknevel, zie {de afschrijving van de versie van het 0} Doel UI van de knevel (Mei 23, 2025) ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.[
 
 +++
 
@@ -50,7 +60,7 @@ De UI-versiesschakeloptie is een tijdelijke functie waarmee u met een schakelkno
 
 Er zijn verschillende beperkingen met betrekking tot het gebruik van de gebruikersinterface-versieselectie, zoals de zichtbaarheid van nieuwe activiteiten, het bewerken van bestaande activiteiten en de consistentie van activiteitendetails.
 
-Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI versiesknevel, zie {de afschrijving van de versie van het 0} Doel UI van de knevel (Mei 23, 2025) [&#128279;](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.
+Voor meer informatie, zie {de versie van het 0} Doel UI van een knevel veroudering (23 mei, 2025) ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.[
 
 ++++
 
@@ -61,7 +71,7 @@ Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI ver
 
 Er zijn verschillende beperkingen met betrekking tot het gebruik van de gebruikersinterface-versieselectie, zoals de zichtbaarheid van nieuwe activiteiten, het bewerken van bestaande activiteiten en de consistentie van activiteitendetails.
 
-Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI versiesknevel, zie {de afschrijving van de versie van het 0} Doel UI van de knevel (Mei 23, 2025) [&#128279;](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.
+Voor meer informatie, zie {de versie van het 0} Doel UI van een knevel veroudering (23 mei, 2025) ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.[
 
 +++
 
