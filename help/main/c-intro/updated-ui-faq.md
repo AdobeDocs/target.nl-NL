@@ -5,9 +5,9 @@ title: Waar kan ik FAQs over bijgewerkte  [!DNL Target]  UI vinden?
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: bd39f65366e131fe92061430fd11a47d471851d8
+source-git-commit: 83a649b01adfe503af2bf38c0b47844ee00ecb37
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ De bijgewerkte gebruikersinterface is beschikbaar voor alle [!DNL Target] klante
 
 De uitrol van de nieuwe gebruikersinterface van [!DNL Target] is voltooid op 27 mei 2025. Op dat punt, hebben alle klanten toegang tot de recentste versie UI.
 
-Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI versiesknevel, zie {de afschrijving van de versie van het 0} Doel UI van de knevel (Mei 23, 2025) [&#128279;](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.
+Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI versiesknevel, zie {de afschrijving van de versie van het 0} Doel UI van de knevel (Mei 23, 2025) ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.[
 
 +++
 
@@ -49,7 +49,7 @@ Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI ver
 +++Details
 Het team van [!DNL Target] behandelt actief kwesties met betrekking tot de nieuwe uitrol UI. Updates en doorlopende verbeteringen worden beschreven in de opmerkingen bij de release.
 
-Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI versiesknevel, zie {de afschrijving van de versie van het 0} Doel UI van de knevel (Mei 23, 2025) [&#128279;](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.
+Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI versiesknevel, zie {de afschrijving van de versie van het 0} Doel UI van de knevel (Mei 23, 2025) ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.[
 
 +++
 
@@ -65,7 +65,7 @@ Er zijn verschillende beperkingen met betrekking tot het gebruik van de gebruike
 >Klanten met speciale gevallen die na 22 juni de schakeloptie moeten behouden, kunnen voor hulp contact opnemen met de klantenservice van Adobe.
 
 
-Voor meer informatie, zie {de versie van het 0} Doel UI van een knevel veroudering (23 mei, 2025) [&#128279;](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.
+Voor meer informatie, zie {de versie van het 0} Doel UI van een knevel veroudering (23 mei, 2025) ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.[
 
 ++++
 
@@ -76,7 +76,7 @@ Voor meer informatie, zie {de versie van het 0} Doel UI van een knevel verouderi
 
 Er zijn verschillende beperkingen met betrekking tot het gebruik van de gebruikersinterface-versieselectie, zoals de zichtbaarheid van nieuwe activiteiten, het bewerken van bestaande activiteiten en de consistentie van activiteitendetails.
 
-Voor meer informatie, zie {de versie van het 0} Doel UI van een knevel veroudering (23 mei, 2025) [&#128279;](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.
+Voor meer informatie, zie {de versie van het 0} Doel UI van een knevel veroudering (23 mei, 2025) ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.[
 
 +++
 
@@ -117,13 +117,6 @@ Raadpleeg de volgende artikelen voor meer informatie over IP-adressen die u kunt
 
 * **Verbeterde Composer van de Ervaring (EEG)**: Zie [ EEG zal geen interne QA URL laden die niet toegankelijk op openbare IP ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) in *het Oplossen van problemen met betrekking tot de Verbeterde Composer van de Ervaring* is
 * **[!UICONTROL Recommendations]**: Zie [ IP adressen die door de voer-verwerkende servers van Aanbevelingen ](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) worden gebruikt.
-
-+++
-
-## Er zijn problemen opgetreden met [!UICONTROL Browse] die niet werkte of ons de mogelijkheid gaf te bladeren. Heeft [!DNL Adobe] gelijkaardig gedrag met andere klanten waargenomen?
-
-+++Details
-Muti, hulp nodig.
 
 +++
 
