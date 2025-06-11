@@ -5,9 +5,9 @@ title: Waar kan ik FAQs over bijgewerkte  [!DNL Target]  UI vinden?
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: b43d852a077bad7dfcc6ab39b7865bd20d77d539
+source-git-commit: bd39f65366e131fe92061430fd11a47d471851d8
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ De bijgewerkte gebruikersinterface is beschikbaar voor alle [!DNL Target] klante
 
 De uitrol van de nieuwe gebruikersinterface van [!DNL Target] is voltooid op 27 mei 2025. Op dat punt, hebben alle klanten toegang tot de recentste versie UI.
 
-Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI versiesknevel, zie {de afschrijving van de versie van het 0} Doel UI van de knevel (Mei 23, 2025) [&#128279;](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.
+Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI versiesknevel, zie {de afschrijving van de versie van het 0} Doel UI van de knevel (Mei 23, 2025) ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.[
 
 +++
 
@@ -49,7 +49,7 @@ Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI ver
 +++Details
 Het team van [!DNL Target] behandelt actief kwesties met betrekking tot de nieuwe uitrol UI. Updates en doorlopende verbeteringen worden beschreven in de opmerkingen bij de release.
 
-Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI versiesknevel, zie {de afschrijving van de versie van het 0} Doel UI van de knevel (Mei 23, 2025) [&#128279;](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.
+Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI versiesknevel, zie {de afschrijving van de versie van het 0} Doel UI van de knevel (Mei 23, 2025) ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.[
 
 +++
 
@@ -60,7 +60,12 @@ De UI-versiesschakeloptie is een tijdelijke functie waarmee u met een schakelkno
 
 Er zijn verschillende beperkingen met betrekking tot het gebruik van de gebruikersinterface-versieselectie, zoals de zichtbaarheid van nieuwe activiteiten, het bewerken van bestaande activiteiten en de consistentie van activiteitendetails.
 
-Voor meer informatie, zie {de versie van het 0} Doel UI van een knevel veroudering (23 mei, 2025) [&#128279;](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.
+>[!NOTE]
+>
+>Klanten met speciale gevallen die na 22 juni de schakeloptie moeten behouden, kunnen voor hulp contact opnemen met de klantenservice van Adobe.
+
+
+Voor meer informatie, zie {de versie van het 0} Doel UI van een knevel veroudering (23 mei, 2025) ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.[
 
 ++++
 
@@ -71,7 +76,7 @@ Voor meer informatie, zie {de versie van het 0} Doel UI van een knevel verouderi
 
 Er zijn verschillende beperkingen met betrekking tot het gebruik van de gebruikersinterface-versieselectie, zoals de zichtbaarheid van nieuwe activiteiten, het bewerken van bestaande activiteiten en de consistentie van activiteitendetails.
 
-Voor meer informatie, zie {de versie van het 0} Doel UI van een knevel veroudering (23 mei, 2025) [&#128279;](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.
+Voor meer informatie, zie {de versie van het 0} Doel UI van een knevel veroudering (23 mei, 2025) ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.[
 
 +++
 
@@ -85,21 +90,23 @@ Activiteiten die in de bijgewerkte gebruikersinterface zijn gemaakt of bewerkt, 
 ## Wat zijn de verschillen tussen het creëren van aanbiedingen in erfenis tegenover bijgewerkte UI? Zijn aanvullende kenmerken vereist?
 
 +++Details
-Muti, hulp nodig.
+De gebruikersinterface van [!UICONTROL Offer Library] vereist consistente kenmerkdefinities voor alle aanbiedingen. Wanneer gebruikers een alleen-actief (ad-hoc) aanbod maken, moeten ze ook een aanbiedingsnaam opgeven. Deze informatie wordt weergegeven in de [!UICONTROL Form-based Experience Composer] , waardoor het gemakkelijker wordt om aanbiedingen te identificeren zonder de code of inhoud te bekijken.
 
 +++
 
 ## Wat is er gebeurd met de koppelingen voor voorvertoningen van aanbiedingen in de bijgewerkte gebruikersinterface?
 
 +++Details
-Muti, hulp nodig.
+[!UICONTROL Experience Fragment] de verbindingen van de voorproef zijn beschikbaar in [!UICONTROL Quick Info] popover, getoond wanneer het klikken van het informatiepictogram ( ![ pictogram van Info ](/help/main/assets/icons/InfoOutline.svg)) die aan het geselecteerde fragment beantwoorden.
 
 +++
 
 ## Ik moet [!UICONTROL Enhanced Experience Composer] uitschakelen wanneer ik bestaande activiteiten met de bijgewerkte interface bewerkt. Heeft [!DNL Adobe] gelijkaardig gedrag met andere klanten waargenomen?
 
 +++Details
-Muti, hulp nodig.
+Ja. Wanneer u [!DNL Adobe Experience Cloud] [!DNL Visual Editing Helper extension] gebruikt, moet u mogelijk [!UICONTROL Enhanced Experience Composer] (EEC) uitschakelen.
+
+Voor meer informatie, zie [ Visuele het Uitgeven de uitbreiding van de Helper ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
 
 +++
 
@@ -113,7 +120,7 @@ Raadpleeg de volgende artikelen voor meer informatie over IP-adressen die u kunt
 
 +++
 
-## We hebben problemen gehad met Browse die niet werkte of ons toestaat te bladeren. Heeft [!DNL Adobe] gelijkaardig gedrag met andere klanten waargenomen?
+## Er zijn problemen opgetreden met [!UICONTROL Browse] die niet werkte of ons de mogelijkheid gaf te bladeren. Heeft [!DNL Adobe] gelijkaardig gedrag met andere klanten waargenomen?
 
 +++Details
 Muti, hulp nodig.
@@ -123,7 +130,9 @@ Muti, hulp nodig.
 ## Herstelt het milieu aan het opvoeren door gebrek op de nieuwe UI van Aanbevelingen?
 
 +++Details
-Muti, hulp nodig.
+De omgevingen zijn nu standaard de laatste die de klant gebruikt. Als u wilt schakelen tussen omgevingen, gebruikt u de kiezer [!UICONTROL Environment] rechtsboven in de gebruikersinterface van [!UICONTROL Catalog Search] .
+
+![ schakelaar van het Milieu ](/help/main/c-intro/assets/environmnent.png)
 
 +++
 
