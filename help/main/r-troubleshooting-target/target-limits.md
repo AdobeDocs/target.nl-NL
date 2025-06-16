@@ -5,16 +5,16 @@ title: Wat zijn het diverse karakter, de grootte, en andere grenzen in  [!DNL Ad
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
+source-git-commit: 09874362863144992c69d4b79a935c9d9a769dc1
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1734'
 ht-degree: 0%
 
 ---
 
 # Limieten
 
-Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, waarden, parameters, enz.) die van invloed zijn op activiteiten en andere elementen in [!DNL Adobe Target] .
+Tekenbeperkingen en andere beperkingen (grootte, publiek, profielen, waarden, parameters, enz.) die van invloed zijn op activiteiten en andere elementen in [!DNL Adobe Target] .
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
   De verzoeken van de partijdoos worden opeenvolgend verwerkt, die de algemene reactietijd met elke herhaling verhogen. Hoe meer vakjes in het batchverzoek, des te meer responslatentie kan worden verwacht en daarom is er mogelijk time-outs. Als de ervaring het teruggeven op deze hoge latentiepartijverzoeken wordt geblokkeerd, zou de latentie in een degraded gebruikerservaring kunnen resulteren aangezien de gebruikers op ervaringen wachten om terug te geven.
 
-* **Grens**: 60 MB het lichaamsomvang van de POST van HTTP voor [!DNL Target] verzoeken van de inhoudslevering.
+* **Grens**: 60 MB POST van HTTP lichaamsomvang voor [!DNL Target] verzoeken van de inhoudslevering.
 
   Als de inhoud van een [!DNL Target] -aanvraag voor levering van inhoud groter is dan 60 MB, resulteert dit in een foutcode voor de reactie `HTTP 413 Request Entity Too Large` .
 
@@ -143,9 +143,9 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
 ## excludeIds {#excludedid}
 
-* **Grens**: 5 KB voor de verzoeken van de POST. 2.083 tekens min de lengte van de URL voor aanvragen van GET.
+* **Grens**: 5 KB voor POST- verzoeken. 2.083 tekens min de lengte van de URL voor GET-aanvragen.
 
-  Voor GET-aanvragen geldt dat, hoewel de limiet voor het achterste gedeelte 5 kB is, omdat Microsoft Internet Explorer de URL beperkt tot 2083 tekens, de realistische limiet 2083 tekens min de huidige lengte van de URL is.
+  Voor GET-verzoeken geldt dat, hoewel de limiet voor het achterste gedeelte 5 kB is, omdat Microsoft Internet Explorer de URL beperkt tot 2083 tekens, de realistische limiet 2083 tekens min de huidige lengte van de URL is.
 
 ## Ervaringen
 
@@ -259,7 +259,7 @@ Tekengrenzen en andere beperkingen (grootte van aanbieding, publiek, profielen, 
 
 Voor aanbiedingen gelden de volgende groottegrenzen:
 
-* 1024 kB voor aanbiedingen van HTML.
+* 1024 kB voor HTML-aanbiedingen.
 * 1024 kB (voor elke ervaring) voor visuele aanbiedingen van UI.
 * 1024 kB vanaf de API.
 
@@ -285,7 +285,7 @@ Voor aanbiedingen gelden de volgende groottegrenzen:
 
 * **geadviseerde grens van totale profielmanuscripten per rekening**: 2.000
 
-* **Recommendations voor het beperken van de ingewikkeldheid van het profielmanuscript**: De manuscripten van het profiel kunnen een beperkt aantal instructies uitvoeren. Voor meer informatie, zie [ Beste praktijken ](/help/main/c-target/c-visitor-profile/profile-parameters.md#best) in *attributen van het Profiel*.
+* **Aanbevelingen voor het beperken van de ingewikkeldheid van het profielmanuscript**: De manuscripten van het profiel kunnen een beperkt aantal instructies uitvoeren. Voor meer informatie, zie [ Beste praktijken ](/help/main/c-target/c-visitor-profile/profile-parameters.md#best) in *attributen van het Profiel*.
 
 ## Eigenschappen
 
@@ -294,6 +294,10 @@ Voor aanbiedingen gelden de volgende groottegrenzen:
 ## Publiek/segmenten rapporteren
 
 * **Grens**: 50 rapporterend publiek/segmenten per activiteit.
+
+## sessionID
+
+De sessie-id kan elke afdrukbare tekenreeks zijn, behalve een spatie, vraagteken ( ? ), accolades ( { } ) of een slash ( / ). De waarde moet tussen 1 en 128 tekens lang zijn.
 
 ## Het invoervak voor scriptprofielen in de gebruikersinterface van [!DNL Target]
 
