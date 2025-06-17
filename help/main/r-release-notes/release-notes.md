@@ -32,14 +32,14 @@ Vanwege recente problemen die zijn vastgesteld, voornamelijk in verband met comp
 
   >[!IMPORTANT]
   >
-  > [!DNL Adobe] raadt u ten zeerste aan de bijgewerkte gebruikersinterface van [!DNL Target] te gebruiken. Schakel alleen terug naar de oudere gebruikersinterface als er een probleem met een blokkering optreedt. Zie {de versie van 0} UI van knevel afschrijving (23 mei, 2025) ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in de versienota&#39;s voor vorige versies voor belangrijke informatie over knevel.[[!DNL Target] 
+  > [!DNL Adobe] raadt u ten zeerste aan de bijgewerkte gebruikersinterface van [!DNL Target] te gebruiken. Schakel alleen terug naar de oudere gebruikersinterface als er een probleem met een blokkering optreedt. Zie {de versie van 0} UI van knevel afschrijving (23 mei, 2025) [&#128279;](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in de versienota&#39;s voor vorige versies voor belangrijke informatie over knevel.[!DNL Target] 
 
 * **15 juli tot 30 juli, 2025**: De de versiesknevel van UI zal permanent in fasen onbruikbaar worden gemaakt. Betrokken IMS Orgs kunnen niet meer terugkeren naar de oudere UI.
 
    * Uitzonderingen zullen per geval worden herzien.
    * Vertragingen bij de tijdelijke vervanging van de knevel worden slechts kort (een paar dagen) toegestaan, terwijl problemen met blokkeringen worden opgelost.
 
-Gelieve te contacteren ](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) van de Klant van 0} Adobe met om het even welke zorgen of als u kwesties tijdens deze overgang verwacht.[
+Gelieve te contacteren [&#128279;](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) van de Klant van 0&rbrace; Adobe met om het even welke zorgen of als u kwesties tijdens deze overgang verwacht.
 
 ## [!DNL Target Standard/Premium] 25.6.2 (12 juni 2025)
 
