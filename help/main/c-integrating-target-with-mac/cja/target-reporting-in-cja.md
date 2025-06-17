@@ -84,7 +84,7 @@ Het maken van een [!DNL Target] -activiteit die [!DNL Customer Journey Analytics
 
 1. Selecteer een sandbox.
 
-   In deze vervolgkeuzelijst ziet u alleen de sandboxen waartoe u toegang hebt. Als een of meer sandboxen waartoe u toegang hebt, niet in de lijst voorkomen, controleert u of u toegang hebt tot de sandbox. De Zorg van de Klant van het contact [ ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) als u kwesties blijft zien.
+   In deze vervolgkeuzelijst ziet u alleen de sandboxen waartoe u toegang hebt. Als een of meer sandboxen waartoe u toegang hebt, niet in de lijst voorkomen, controleert u of u toegang hebt tot de sandbox. De Zorg van de Klant van het contact [&#128279;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) als u kwesties blijft zien.
 
    ![ Uitgezochte zandbak optie ](/help/main/c-integrating-target-with-mac/cja/assets/sandbox.png)
 
@@ -168,7 +168,7 @@ Het tabblad Rapporten bevat een koppeling **[!UICONTROL View in Customer Journey
 
 1. Maak in [!DNL Customer Journey Analytics] een deelvenster Experimentatie en selecteer vervolgens de activiteit in het vervolgkeuzemenu **[!UICONTROL Experiment]** .
 
-   Voor meer informatie, zie ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank} het paneel van de Experimentatie van 0} onder *het paneel van de Experimentatie* in de *[!DNL Customer Journey Analytics]* gids.[
+   Voor meer informatie, zie [&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank} het paneel van de Experimentatie van 0&rbrace; onder *het paneel van de Experimentatie* in de *[!DNL Customer Journey Analytics]* gids.
 
    ![ het paneel van de Experimentatie in Customer Journey Analytics ](/help/main/c-integrating-target-with-mac/cja/assets/experimentation-panel.png)
 
