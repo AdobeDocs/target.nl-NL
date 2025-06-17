@@ -1,5 +1,5 @@
 ---
-source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Target] is in 2025 nieuw en introduceert een bijgewerkte gebruikersinterface en [!UICONTROL Visual Experience Composer] (VEC). Klik op de volgende koppelingen voor meer informatie:
+>Nieuw in 2025, introduceerde [!DNL Target] een bijgewerkte gebruikersinterface en [!UICONTROL Visual Experience Composer] (VEC). Klik op de volgende koppelingen voor meer informatie:
 >
 >* [[!DNL Target Standard/Premium]  25.2.1 (17 februari, 2025) versienota&#39;s ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Verstrekt een samenvatting van de belangrijkste veranderingen UI in [!DNL Target] voor [!UICONTROL Activities], [!UICONTROL Recommendations], en [!UICONTROL Visual Experience Composer] (VEC).
 >
