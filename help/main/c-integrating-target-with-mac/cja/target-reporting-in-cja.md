@@ -4,21 +4,21 @@ description: Het gebruik  [!DNL Target]  dat in  [!DNL Adobe Customer Journey An
 title: Wat is  [!DNL Target]  rapporterend in  [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: 2308c84c46b4b281b6b767a1f9fbb8914f45ea1e
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1265'
 ht-degree: 0%
 
 ---
 
 # [!DNL Target] rapporten in [!DNL Adobe Customer Journey Analytics]
 
-De integratie tussen [ Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/nl/docs/customer-journey-analytics){target=_blank}  en [!DNL Target] verstrekt krachtige analyse en tijdbesparende hulpmiddelen voor uw optimaliseringsprogramma.
+De integratie tussen [ Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} en [!DNL Target] verstrekt krachtige analyse en tijdbesparende hulpmiddelen voor uw optimaliseringsprogramma.
 
 De belangrijkste voordelen van het gebruik van [!DNL Customer Journey Analytics] als rapportagebron voor [!DNL Target] zijn:
 
 * Marketers kunnen [!DNL Customer Journey Analytics] succeswaarden op elk gewenst moment dynamisch toepassen op activiteitenrapporten van [!DNL Target] . U hoeft niet alles op te geven voordat u de activiteit uitvoert.
-* De tellers kunnen uit [!DNL Customer Journey Analytics] eigenschappen, zoals het [ Comité van de Experimentatie ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}  voordeel halen, om hun websiteverpersoonlijking verder te analyseren.
+* De tellers kunnen uit [!DNL Customer Journey Analytics] eigenschappen, zoals het [ Comité van de Experimentatie ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank} voordeel halen, om hun websiteverpersoonlijking verder te analyseren.
 * Marketers kunnen één bron voor rapportage voor [!DNL Adobe Journey Optimizer] en [!DNL Target] hebben. Beide verpersoonlijkingsproducten kunnen met [!DNL Customer Journey Analytics] voor een meer holistische mening van uw Webverpersoonlijking worden verbonden.
 
 ## Overwegingen
@@ -34,26 +34,26 @@ Overweeg de volgende informatie voordat u de [!DNL Customer Journey Analytics] -
    * Als u a [ Target Standard ](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) rekening hebt, zie [ rollen en toestemmingen ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Gebruikers* specificeren.
    * Als u a [ Target Premium ](/help/main/c-intro/intro.md#premium) rekening hebt, zie [ Rollen en toestemmingen ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions) in *de gebruikerstoestemmingen van de Onderneming*.
 
-* U moet deel uitmaken van een rol in [!DNL Adobe Experience Platform] om een [!DNL Target] activiteit met [!DNL Customer Journey Analytics] als rapportbron in te stellen. Voor meer informatie, zie [ een Rol in  [!DNL Adobe Experience Platform] toevoegen ](https://experienceleague.adobe.com/nl/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank}  in *toestemmingen* in het *Architect van Gegevens en het Leerprogramma van de Ingenieur.*
+* U moet deel uitmaken van een rol in [!DNL Adobe Experience Platform] om een [!DNL Target] activiteit met [!DNL Customer Journey Analytics] als rapportbron in te stellen. Voor meer informatie, zie [ een Rol in  [!DNL Adobe Experience Platform] ](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank} in *vormen toestemmingen* in het *Architect van Gegevens en het Leerprogramma van de Ingenieur toevoegen.*
 * Afhankelijk van uw instellingen kan de rapportage per activiteit of op organisatieniveau worden gewijzigd. Zie [ het Melden van de Oplossing van de Wolk ](/help/main/administrating-target/reporting.md#solution) in *het melden in Doel* vormen.
 * Gebruik één rapporteringsbron of andere. U kunt geen gegevens voor één activiteit aan veelvoudige rapporteringsbronnen verzamelen.
 * Wanneer u [!DNL Customer Journey Analytics] instelt als rapportbron, wordt u gevraagd de sandbox voor rapportage op te geven. Tijdens de configuratie ziet u alleen de sandboxen waartoe u toegang hebt.
 * Bestaande [!DNL Target] -activiteiten blijven gebruikmaken van [!DNL Target] -gegevensverzameling en worden niet beïnvloed door het inschakelen van deze integratie.
-* Om deze integratie te gebruiken, heeft de aangewezen implementatiemethode [[!DNL Adobe Experience Platform] ](https://experienceleague.adobe.com/nl/docs/experience-platform){target=_blank}  en [!DNL Target] uitgevoerd door [[!DNL Adobe Experience Platform Web SDK] ](https://experienceleague.adobe.com/nl/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} .
+* Om deze integratie te gebruiken, heeft de aangewezen implementatiemethode [[!DNL Adobe Experience Platform] ](https://experienceleague.adobe.com/en/docs/experience-platform){target=_blank} en [!DNL Target] uitgevoerd door [[!DNL Adobe Experience Platform Web SDK] ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
 
-  Als u momenteel niet [!DNL Adobe Experience Platform Web SDK] uitgevoerd hebt, kunt u een [[!DNL Adobe Analytics]  bronverbinding ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics) ook creëren om de gegevens in [!DNL Adobe Experience Platform] te brengen. Als u deze methode wilt gebruiken, moet u een [!DNL Analytics] rapportsuite selecteren naast de [!DNL Adobe Experience Platform] sandbox die u gebruikt met [!DNL Customer Journey Analytics] .
+  Als u momenteel niet [!DNL Adobe Experience Platform Web SDK] uitgevoerd hebt, kunt u een [[!DNL Adobe Analytics]  bronverbinding ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics) ook creëren om de gegevens in [!DNL Adobe Experience Platform] te brengen. Als u deze methode wilt gebruiken, moet u een [!DNL Analytics] rapportsuite selecteren naast de [!DNL Adobe Experience Platform] sandbox die u gebruikt met [!DNL Customer Journey Analytics] .
 
   ![ optie Sandbox in het de dialoogvakje van de Montages van de Rapportering ](/help/main/c-integrating-target-with-mac/cja/assets/aep-sandbox.png)
 
   >[!NOTE]
   >
-  >Als u een [!DNL Adobe Analytics] -bronverbinding gebruikt, worden rapporten weergegeven in zowel [!DNL Adobe Analytics] als [!DNL Customer Journey Analytics] . Vanwege verschillende algoritmen tussen beide oplossingen zullen de resultaten echter waarschijnlijk niet overeenkomen.
+  >Als u een [!DNL Adobe Analytics] -bronverbinding gebruikt, ziet u rapporten in zowel [!DNL Adobe Analytics] als [!DNL Customer Journey Analytics] . Vanwege verschillende algoritmen tussen beide oplossingen zullen de resultaten echter waarschijnlijk niet overeenkomen.
 
-* Voor om het even welke vragen over timing, zie [ Latentie overwegingen ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-faq#latency){target=_blank}  in *Veelgestelde Vragen* in de *[!DNL Adobe Customer Analytics]Gids*.
+* Voor om het even welke vragen over timing, zie [ Latentie overwegingen ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-faq#latency){target=_blank} in *Veelgestelde Vragen* in de *[!DNL Adobe Customer Analytics]Gids*.
 
 ## Ondersteunde activiteitstypen {#supported-activities}
 
-De volgende activiteitentypes worden gesteund wanneer het gebruiken van [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}  of [ at.js ](https://experienceleague.adobe.com/nl/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank}  de bibliotheek van JavaScript:
+De volgende activiteitentypes worden gesteund wanneer het gebruiken van [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} of de [ at.js ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} bibliotheek van JavaScript:
 
 | Typen activiteiten | Ondersteund? |
 |--- |--- |
@@ -84,7 +84,7 @@ Het maken van een [!DNL Target] -activiteit die [!DNL Customer Journey Analytics
 
 1. Selecteer een sandbox.
 
-   In deze vervolgkeuzelijst ziet u alleen de sandboxen waartoe u toegang hebt. Als een of meer sandboxen waartoe u toegang hebt, niet in de lijst voorkomen, controleert u of u toegang hebt tot de sandbox. De Zorg van de Klant van het contact [&#128279;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) als u kwesties blijft zien.
+   In deze vervolgkeuzelijst ziet u alleen de sandboxen waartoe u toegang hebt. Als een of meer sandboxen waartoe u toegang hebt, niet in de lijst voorkomen, controleert u of u toegang hebt tot de sandbox. De Zorg van de Klant van het contact [ ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) als u kwesties blijft zien.
 
    ![ Uitgezochte zandbak optie ](/help/main/c-integrating-target-with-mac/cja/assets/sandbox.png)
 
@@ -104,7 +104,7 @@ Nadat u een [!DNL Target] -activiteit hebt gemaakt, moet u een verbinding maken 
 
    ![ Nieuwe verbindingsverbinding tot stand brengen in [!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/assets/create-connection.png)
 
-1. Vorm uw [ verbinding en gegevensmontages ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/overview){target=_blank}  met de correcte informatie.
+1. Vorm uw [ verbinding en gegevensmontages ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview){target=_blank} met de correcte informatie.
 1. Voeg de gebeurtenisdataset toe die u toen het vormen van uw gegevensstroom gebruikte.
 1. Voeg de **[!UICONTROL Adobe Target Classification Events]** opzoekgegevensset toe en klik vervolgens op **[!UICONTROL Next]** .
 
@@ -112,7 +112,7 @@ Nadat u een [!DNL Target] -activiteit hebt gemaakt, moet u een verbinding maken 
 
 1. Vorm uw gebeurtenissendataset.
 
-   Voor meer informatie, zie [ datasets ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/create-connection#add-dataset){target=_blank} toevoegen en vormen  in *creeer een verbinding* in de *[!DNL Adobe Customer Journey Analytics]Gids*.
+   Voor meer informatie, zie [ datasets ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection#add-dataset){target=_blank} in *toevoegen en vormen een verbinding* in de *[!DNL Adobe Customer Journey Analytics]Gids*.
 
 1. Configureer uw opzoekgegevensset met het veld [!UICONTROL Key] als &quot;sleutel&quot; en het veld [!UICONTROL Matching] key met het volgende pad:
 
@@ -130,7 +130,7 @@ Stel een gegevensweergave in in [!DNL Customer Journey Analytics] . Een gegevens
 
 1. Stel de gegevensweergave in en zorg ervoor dat deze naar de hierboven gemaakte verbinding verwijst.
 
-   Voor meer informatie, zie [ creeer of geef een gegevensmening ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/create-dataview){target=_blank}  in de *[!DNL Adobe Customer Journey Analytics]Gids* uit.
+   Voor meer informatie, zie [ een gegevensmening ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target=_blank} in de *[!DNL Adobe Customer Journey Analytics]Gids* creëren of uitgeven.
 
 1. Als u de [!DNL Target] gegevens correct wilt weergeven in [!DNL Customer Journey Analytics] , moet u de volgende velden uit de gegevensset Opzoeken toevoegen als afmetingen:
 
@@ -149,3 +149,35 @@ Stel een gegevensweergave in in [!DNL Customer Journey Analytics] . Een gegevens
    ![ de etiketten van de Context in het paneel van de Experimentatie ](/help/main/c-integrating-target-with-mac/cja/assets/context-labels.png){width="600" zoomable="yes"}
 
 1. Voltooi het instellen van andere velden en klik vervolgens op **[!UICONTROL Save and continue]** wanneer u klaar bent.
+
+## Activiteitenrapporten maken en weergeven in [!DNL Customer Journey Analytics]
+
+Nadat u de installatie hebt voltooid (een activiteit maken in [!DNL Customer Journey Analytics], de [!DNL Customer Journey Analytics] -verbinding configureren en gegevensweergaven instellen), hebt u toegang tot [!DNL Customer Journey Analytics] via het tabblad [!DNL Adobe Experience Cloud] of [!UICONTROL Reports] van de activiteit in [!DNL Target] .
+
+Het tabblad Rapporten bevat een koppeling **[!UICONTROL View in Customer Journey Analytics]** . Deze koppeling leidt u momenteel om naar de startpagina van [!DNL Customer Journey Analytics] .
+
+![ CJA die verbinding ](/help/main/c-integrating-target-with-mac/cja/assets/report-link.png) meldt
+
+>[!NOTE]
+>
+>Deze integratie is niet hetzelfde als [!UICONTROL Adobe Analytics for Target] (A4T).
+>
+>De [!DNL Target]/ [!DNL Customer Journey Analytics] integratie omvat geen vooraf gebouwd rapport zoals A4T. Alle activiteitenrapporten moeten handmatig worden gemaakt in [!DNL Customer Journey Analytics] .
+>
+>Als u [!UICONTROL Use a CJA Metric] als doel metrisch van de activiteit selecteerde, geeft deze optie u de flexibiliteit om uw succes metrisch later te bepalen. Omdat er pas een [!DNL Customer Journey Analytics] succesmetrische methode is geselecteerd wanneer het deelvenster [!UICONTROL Experimentation] is geconfigureerd, kan een vooraf samengesteld rapport niet vooraf beschikbaar zijn, omdat [!DNL Customer Journey Analytics] dan niet weet uit welke maatstaf de conversiesnelheden moeten worden berekend en opgehaald.
+
+1. Maak in [!DNL Customer Journey Analytics] een deelvenster Experimentatie en selecteer vervolgens de activiteit in het vervolgkeuzemenu **[!UICONTROL Experiment]** .
+
+   Voor meer informatie, zie ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank} het paneel van de Experimentatie van 0} onder *het paneel van de Experimentatie* in de *[!DNL Customer Journey Analytics]* gids.[
+
+   ![ het paneel van de Experimentatie in Customer Journey Analytics ](/help/main/c-integrating-target-with-mac/cja/assets/experimentation-panel.png)
+
+   >[!IMPORTANT]
+   >
+   >Als de activiteit niet in de [!UICONTROL Experiment] drop-down lijst verschijnt, verifieer dat de correcte gegevensmening wordt geselecteerd en dat de [!DNL Target] afmetingen de vereiste contextetiketten omvatten (zie Stap 3 in [ de meningen van opstellingsgegevens ](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja#set-up-data-views){target=_blank}).
+
+1. Klik op **[!UICONTROL Build]**.
+
+   Het deelvenster [!UICONTROL Experimentation] retourneert een uitgebreide set gegevens en visualisaties om u te helpen beter te begrijpen hoe uw experimenten werken. Voor meer informatie, zie [[!UICONTROL Panel output] ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank} onder *het paneel van de Experimentatie* in de *[!DNL Customer Journey Analytics]* gids.
+
+   ![ Experimentatie ](/help/main/c-integrating-target-with-mac/cja/assets/experimentation.png)
