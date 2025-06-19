@@ -3,7 +3,8 @@ keywords: doelgebruikersinterface;gebruikersinterface;ui;vaak gestelde vragen;fa
 description: Vragen en antwoorden over het bijgewerkte  [!DNL Target] niet gebruikersinterface.
 title: Waar kan ik FAQs over bijgewerkte  [!DNL Target]  UI vinden?
 feature: Overview
-source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
+exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
+source-git-commit: 05a4358e0115d7bfd13ec715a0e7eb96f1f2265b
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 De bijgewerkte gebruikersinterface van [!DNL Adobe Target] is nieuw in 2025 en introduceert een gestroomlijnde, intuïtieve ervaring die is ontworpen om de bruikbaarheid en efficiëntie in alle rollen te verbeteren. In deze veelgestelde vragen worden veelgestelde vragen over de nieuwe [!DNL Target] UI en [!UICONTROL Visual Experience Composer] (VEC) behandeld, zoals navigatiewijzigingen, functielocaties en de afgekeurde versie van de tijdelijke UI. Of u nu een markeerteken, ontwikkelaar of beheerder bent, deze veelgestelde vragen helpen u een vloeiende overgang te maken en de bijgewerkte gebruikersinterface optimaal te benutten.
 
-## Is de tijdlijn voor de vervanging van de knevel van de Versie van het Doel UI bijgewerkt.
+## Is de tijdlijn voor de vervanging van de versieknevel van het Doel UI bijgewerkt?
 
 +++Details
 Ja. U kunt de nieuwe chronologie en de belangrijke informatie in [ vinden Bijgewerkt: [!DNL Target]  de versie van UI knevel afschrijving (17 Juni, 2025) ](/help/main/r-release-notes/release-notes.md#revised).
@@ -45,7 +46,7 @@ De bijgewerkte gebruikersinterface is beschikbaar voor alle [!DNL Target] klante
 
 De uitrol van de nieuwe gebruikersinterface van [!DNL Target] is voltooid op 27 mei 2025. Op dat punt, hebben alle klanten toegang tot de recentste versie UI.
 
-Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI versiesknevel, zie {de afschrijving van de versie van het 0} Doel UI van de knevel (Mei 23, 2025) [&#128279;](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.
+Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI versiesknevel, zie {de afschrijving van de versie van het 0} Doel UI van de knevel (Mei 23, 2025) ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.[
 
 +++
 
@@ -54,7 +55,7 @@ Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI ver
 +++Details
 Het team van [!DNL Target] behandelt actief kwesties met betrekking tot de nieuwe uitrol UI. Updates en doorlopende verbeteringen worden beschreven in de opmerkingen bij de release.
 
-Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI versiesknevel, zie {de afschrijving van de versie van het 0} Doel UI van de knevel (Mei 23, 2025) [&#128279;](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.
+Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI versiesknevel, zie {de afschrijving van de versie van het 0} Doel UI van de knevel (Mei 23, 2025) ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.[
 
 +++
 
@@ -69,7 +70,7 @@ Er zijn verschillende beperkingen met betrekking tot het gebruik van de gebruike
 >
 >Klanten met speciale gevallen die na 22 juni de schakeloptie moeten behouden, kunnen voor hulp contact opnemen met de klantenservice van Adobe. Zie [ Bijgewerkt: [!DNL Target]  de versie van UI knevel afschrijving (17 Juni, 2025) ](/help/main/r-release-notes/release-notes.md#revised) voor meer informatie.
 
-Voor meer informatie, zie {de versie van het 0} Doel UI van een knevel veroudering (23 mei, 2025) [&#128279;](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.
+Voor meer informatie, zie {de versie van het 0} Doel UI van een knevel veroudering (23 mei, 2025) ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.[
 
 ++++
 
@@ -80,7 +81,7 @@ Voor meer informatie, zie {de versie van het 0} Doel UI van een knevel verouderi
 
 Er zijn verschillende beperkingen met betrekking tot het gebruik van de gebruikersinterface-versieselectie, zoals de zichtbaarheid van nieuwe activiteiten, het bewerken van bestaande activiteiten en de consistentie van activiteitendetails.
 
-Voor meer informatie, zie {de versie van het 0} Doel UI van een knevel veroudering (23 mei, 2025) [&#128279;](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.
+Voor meer informatie, zie {de versie van het 0} Doel UI van een knevel veroudering (23 mei, 2025) ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *nota&#39;s van de Versie voor vorige versies*.[
 
 +++
 
@@ -145,7 +146,3 @@ Het integreren van [!DNL Adobe Analytics] (AA) of [!DNL Customer Journey Analyti
 * Instellingen voor gegevensverzameling en -toewijzing valideren
 
 +++
-
-
-
-
