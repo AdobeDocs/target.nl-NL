@@ -21,7 +21,7 @@ Dit artikel bevat pre-releasegegevens voor komende [!DNL Adobe Target] versies, 
 >
 >* Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd.
 >
->* Om informatie over de huidige versie te bekijken, zie {de Nota&#39;s van de Versie van het 0} Doel ](release-notes.md).[
+>* Om informatie over de huidige versie te bekijken, zie {de Nota&#39;s van de Versie van het 0} Doel [&#128279;](release-notes.md).
 >
 >* De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik door [!DNL Adobe] .
 
