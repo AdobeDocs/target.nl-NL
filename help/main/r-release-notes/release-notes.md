@@ -6,9 +6,9 @@ short-description: Leer over de nieuwe eigenschappen, de verhogingen, en de moei
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3795350d8466a99c129e7f134533c88c3375b3e3
+source-git-commit: c380a07cb46241e428ad4946643eb2c011638c24
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: '2311'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ Deze releaseopmerkingen bevatten informatie over functies, verbeteringen en oplo
 
 Deze release bevat de volgende correcties en updates:
 
-* De optie [!UICONTROL Rearrange] is toegevoegd aan de bijgewerkte interface van [!UICONTROL Visual Experience Composer] (VEC), zodat deze kan worden uitgelijnd met de functionaliteit die beschikbaar is in de oudere VEC. (TGT-46957)
 * Probleem verholpen waarbij het kopiëren van een activiteit van de ene werkruimte naar een andere werkruimte tot fouten leidde zoals &quot;mag niet null zijn&quot; of &quot;Er is iets fout gegaan&quot;. (TGT-52474)
 * Probleem verholpen waarbij [!UICONTROL Automated Segments] - en [!UICONTROL Important Attributes] -rapporten niet werden gegenereerd voor bepaalde activiteiten. (TGT-52904)
 * Probleem verholpen in de bijgewerkte VEC waarbij de standaardverwerking van inhoud in [!UICONTROL Automated Personalization] (AP)-activiteiten niet overeenkwam met de oudere UI. Het systeem voegt nu automatisch de standaardwaarde `optionGroup` &quot;Standaardinhoud&quot; toe aan `optionGroupLocalId = 0` wanneer er geen groep expliciet wordt toegevoegd. Deze groep bevat de standaardoptie (bijvoorbeeld `optionLocalId: 0` ). Als de standaardinhoud wordt verwijderd, wordt ook de corresponderende optiegroep verwijderd. (TGT-52651)
@@ -52,14 +51,14 @@ Vanwege recente problemen die zijn vastgesteld, voornamelijk in verband met comp
 
   >[!IMPORTANT]
   >
-  > [!DNL Adobe] raadt u ten zeerste aan de bijgewerkte gebruikersinterface van [!DNL Target] te gebruiken. Schakel alleen terug naar de oudere gebruikersinterface als er een probleem met een blokkering optreedt. Zie {de versie van 0} UI van knevel afschrijving (23 mei, 2025) [&#128279;](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in de versienota&#39;s voor vorige versies voor belangrijke informatie over knevel.[!DNL Target] 
+  > [!DNL Adobe] raadt u ten zeerste aan de bijgewerkte gebruikersinterface van [!DNL Target] te gebruiken. Schakel alleen terug naar de oudere gebruikersinterface als er een probleem met een blokkering optreedt. Zie {de versie van 0} UI van knevel afschrijving (23 mei, 2025) ](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in de versienota&#39;s voor vorige versies voor belangrijke informatie over knevel.[[!DNL Target] 
 
 * **15 juli tot 30 juli, 2025**: De de versiesknevel van UI zal permanent in fasen onbruikbaar worden gemaakt. Betrokken IMS Orgs kunnen niet meer terugkeren naar de oudere UI.
 
    * Uitzonderingen zullen per geval worden herzien.
    * Vertragingen bij de tijdelijke vervanging van de knevel worden slechts kort (een paar dagen) toegestaan, terwijl problemen met blokkeringen worden opgelost.
 
-Gelieve te contacteren [&#128279;](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) van de Klant van 0&rbrace; Adobe met om het even welke zorgen of als u kwesties tijdens deze overgang verwacht.
+Gelieve te contacteren ](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) van de Klant van 0} Adobe met om het even welke zorgen of als u kwesties tijdens deze overgang verwacht.[
 
 ## [!DNL Target Standard/Premium] 25.6.2 (12 juni 2025)
 
@@ -162,8 +161,8 @@ Zodra de rollout volledig is, zal de knevel worden verwijderd, en alle gebruiker
 
 | Bron | Details |
 |--- |--- |
-| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=nl-NL) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
-| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
+| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
+| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
 
 ## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release van Experience Cloud
 
@@ -173,7 +172,7 @@ Naast de notities voor elke release bevatten de volgende bronnen aanvullende inf
 |--- |--- |
 | [ Veranderingen van de Documentatie ](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
 | [ de nota&#39;s van de Versie voor vorige versies ](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
-| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl-NL){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
+| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
 
 ## Prerelease-informatie {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
