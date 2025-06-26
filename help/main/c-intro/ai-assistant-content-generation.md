@@ -3,7 +3,7 @@ keywords: ai assistent;kunstmatige intelligentieassistent;content genereren;cont
 description: Leer hoe te om het aanhalen inhoud met  [!DNL AI Assistant] te produceren.
 title: Hoe gebruik ik  [!DNL AI Assistant]  in  [!DNL Target]  om het in dienst nemen van inhoud te produceren?
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
