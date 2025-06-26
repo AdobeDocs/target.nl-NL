@@ -1,22 +1,22 @@
 ---
 keywords: ai assistent;kunstmatige intelligentieassistent;content genereren;content accelerator;content genereren;content genereren
-description: Leer hoe te om inhoud met  [!DNL AI Assistant] te produceren.
-title: Hoe gebruik ik  [!DNL AI Assistant]  in  [!DNL Target]  om inhoud te produceren?
+description: Leer hoe te om het aanhalen inhoud met  [!DNL AI Assistant] te produceren.
+title: Hoe gebruik ik  [!DNL AI Assistant]  in  [!DNL Target]  om het in dienst nemen van inhoud te produceren?
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: 5ad564e43cd6f66e7f31072348f17e52013ed759
+source-git-commit: 37f599913a2b80b4ece1bf69ba3b21f54f44d18a
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
 
 # [!DNL AI Assistant] gebruiken in [!DNL Adobe Target] voor het genereren van inhoud
 
-Gebruik [!DNL AI Assistant] in [!DNL Adobe Target] om de effectiviteit van uw activiteiten te verbeteren door tekstfragmenten op te maken en afbeeldingen te kiezen met behulp van AI (artificieel intelligentie) die rechtstreeks met uw publiek spreken, waardoor betrokkenheid en interactie worden bevorderd.
+Gebruik [!DNL AI Assistant] in [!DNL Adobe Target] om de effectiviteit van uw activiteiten te verbeteren door tekstfragmenten op te maken voor gebruik in ervaringen met kunstmatige intelligentie (AI) die rechtstreeks met uw publiek spreken, waardoor betrokkenheid, interactie en conversie worden bevorderd.
 
 Gebruik de kracht van [!DNL AI Assistant] in [!DNL Adobe Target] om uw activiteitsinhoud te verhogen, gevoed door generatieve AI.
 
@@ -29,7 +29,7 @@ Gebruik de kracht van [!DNL AI Assistant] in [!DNL Adobe Target] om uw activitei
 
 ## Tekst genereren
 
-Tekst genereren met [!DNL AI Assistant] :
+U kunt als volgt aansprekende tekst genereren met [!DNL AI Assistant] :
 
 1. Van binnen [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) (VEC), klik **[!UICONTROL Show Content Assistant]** ( ![ toon het Hulppictogram van de Inhoud ](/help/main/assets/icons/MagicWand.svg)) pictogram in het juiste spoor van VEC UI.
 
@@ -52,8 +52,13 @@ Tekst genereren met [!DNL AI Assistant] :
 1. Klik op het pictogram **[!UICONTROL Text Settings]** om de toon- en communicatiestrategie van uw tekst op te geven.
 
    * **Communicatie strategie**: Kies de meest geschikte communicatie stijl voor uw geproduceerde tekst.
+
+     U kunt onder andere de volgende opties kiezen: [!UICONTROL None] , [!UICONTROL Urgent] , [!UICONTROL FOMO] (angst voor wegvallen), [!UICONTROL Social Proof] , [!UICONTROL Scarcity] , [!UICONTROL Incentive] , [!UICONTROL Exclusivity] , [!UICONTROL Gameification] , [!UICONTROL Informative] en [!UICONTROL Education & Insights] .
+
    * **Talen**: Kies de gewenste taal voor uw tekst. [!DNL AI Assistant] is momenteel alleen beschikbaar in het Engels.
    * **Toon**: De toon van uw tekst zou met uw publiek moeten resoneren. Of u nu informatief, opwindend, speels of overtuigend wilt klinken, [!DNL AI Assistant] kan het bericht dienovereenkomstig aanpassen.
+
+     De volgende opties zijn beschikbaar: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] en [!UICONTROL Conversational] .
 
 1. Gebruik de schuifregelaar om de tekstlengte te kiezen ([!UICONTROL Shorter Text] tot en met [!UICONTROL Larger Text] ).
 
@@ -67,9 +72,9 @@ Tekst genereren met [!DNL AI Assistant] :
 
    ![ AI Medewerker met geproduceerde tekst ](/help/main/c-intro/assets/ai-text-done.png)
 
-1. (Voorwaardelijk) klik het Undo pictogram ( ![ ongedaan maken pictogram ](/help/main/assets/icons/Undo.svg)) om veranderingen om te keren.
+1. (Voorwaardelijk) klik het [!UICONTROL Undo] pictogram ( ![ ongedaan maken pictogram ](/help/main/assets/icons/Undo.svg)) om veranderingen om te keren.
 
-1. (Optioneel) Geef feedback aan de AI Assistant.
+1. (Optioneel) Geef feedback aan de [!DNL AI Assistant] .
 
    * Klik op het pictogram Duimels omhoog ( ![ duimen omhoog ](/help/main/assets/icons/ThumbUp.svg) ) om [!DNL AI Assistant] te vertellen dat u van de variatie houdt.
    * Klik onderaan duimen ( ![ duimen onderaan pictogram ](/help/main/assets/icons/ThumbDown.svg)) pictogram om [!DNL AI Assistant] te vertellen dat u niet van de variatie houdt.
@@ -92,4 +97,4 @@ De volgende aanwijzingen en variaties tonen de kracht van [!DNL AI Assistant].
 
 ### Inhoud maken met de AI-assistent voor het genereren van inhoud
 
->[!VIDEO](https://video.tv.adobe.com/v/3434641/?learn=on&captions=dut">https://video.tv.adobe.com/v/3434641/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
