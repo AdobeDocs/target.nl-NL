@@ -59,7 +59,7 @@ U kunt als volgt aansprekende tekst genereren met [!DNL AI Assistant] :
 
    * **Toon**: De toon van uw tekst zou met uw publiek moeten resoneren. Of u nu informatief, opwindend, speels of overtuigend wilt klinken, [!DNL AI Assistant] kan het bericht dienovereenkomstig aanpassen.
 
-     De volgende opties zijn beschikbaar: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] en [!UICONTROL Conversational] .
+     De volgende opties zijn beschikbaar: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] en [!UICONTROL Conversational] .
 
 1. Gebruik de schuifregelaar om de tekstlengte te kiezen ([!UICONTROL Shorter Text] tot en met [!UICONTROL Larger Text] ).
 
