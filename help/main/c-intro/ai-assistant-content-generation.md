@@ -3,22 +3,20 @@ keywords: ai assistent;kunstmatige intelligentieassistent;content genereren;cont
 description: Leer hoe te om het aanhalen inhoud met  [!DNL AI Assistant] te produceren.
 title: Hoe gebruik ik  [!DNL AI Assistant]  in  [!DNL Target]  om het in dienst nemen van inhoud te produceren?
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: 37f599913a2b80b4ece1bf69ba3b21f54f44d18a
+source-git-commit: a2441f9bb2ffed981e1541c58a16f11f4f3a3f90
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
 
 # [!DNL AI Assistant] gebruiken in [!DNL Adobe Target] voor het genereren van inhoud
 
-Gebruik [!DNL AI Assistant] in [!DNL Adobe Target] om de effectiviteit van uw activiteiten te verbeteren door tekstfragmenten op te maken voor gebruik in ervaringen met kunstmatige intelligentie (AI) die rechtstreeks met uw publiek spreken, waardoor betrokkenheid, interactie en conversie worden bevorderd.
-
-Gebruik de kracht van [!DNL AI Assistant] in [!DNL Adobe Target] om uw activiteitsinhoud te verhogen, gevoed door generatieve AI.
+De betrokkenheid en conversies van de aandrijving in [!DNL Adobe Target] met [!DNL AI Assistant]. Gebruik generatieve AI om gepersonaliseerde tekst met een grote impact te maken die bij uw publiek past en uw inhoud voor activiteit verhoogt.
 
 ## Vereisten
 
@@ -55,10 +53,13 @@ U kunt als volgt aansprekende tekst genereren met [!DNL AI Assistant] :
 
      U kunt onder andere de volgende opties kiezen: [!UICONTROL None] , [!UICONTROL Urgent] , [!UICONTROL FOMO] (angst voor wegvallen), [!UICONTROL Social Proof] , [!UICONTROL Scarcity] , [!UICONTROL Incentive] , [!UICONTROL Exclusivity] , [!UICONTROL Gameification] , [!UICONTROL Informative] en [!UICONTROL Education & Insights] .
 
-   * **Talen**: Kies de gewenste taal voor uw tekst. [!DNL AI Assistant] is momenteel alleen beschikbaar in het Engels.
+   * **Talen**: Kies de gewenste taal voor uw tekst.
+
+     [!DNL AI Assistant] is momenteel alleen beschikbaar in het Engels.
+
    * **Toon**: De toon van uw tekst zou met uw publiek moeten resoneren. Of u nu informatief, opwindend, speels of overtuigend wilt klinken, [!DNL AI Assistant] kan het bericht dienovereenkomstig aanpassen.
 
-     De volgende opties zijn beschikbaar: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] en [!UICONTROL Conversational] .
+     De volgende opties zijn beschikbaar: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] en [!UICONTROL Conversational] .
 
 1. Gebruik de schuifregelaar om de tekstlengte te kiezen ([!UICONTROL Shorter Text] tot en met [!UICONTROL Larger Text] ).
 
@@ -97,4 +98,4 @@ De volgende aanwijzingen en variaties tonen de kracht van [!DNL AI Assistant].
 
 ### Inhoud maken met de AI-assistent voor het genereren van inhoud
 
->[!VIDEO](https://video.tv.adobe.com/v/3434641/?learn=on&captions=dut">https://video.tv.adobe.com/v/3434641/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
