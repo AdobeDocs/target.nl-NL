@@ -3,13 +3,13 @@ keywords: ai assistent;kunstmatige intelligentieassistent;content genereren;cont
 description: Leer hoe te om het aanhalen inhoud met  [!DNL AI Assistant] te produceren.
 title: Hoe gebruik ik  [!DNL AI Assistant]  in  [!DNL Target]  om het in dienst nemen van inhoud te produceren?
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: a2441f9bb2ffed981e1541c58a16f11f4f3a3f90
+source-git-commit: f8e91caa133a1addc12ab1834d7e178df7e7a3ce
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -59,9 +59,11 @@ U kunt als volgt aansprekende tekst genereren met [!DNL AI Assistant] :
 
    * **Toon**: De toon van uw tekst zou met uw publiek moeten resoneren. Of u nu informatief, opwindend, speels of overtuigend wilt klinken, [!DNL AI Assistant] kan het bericht dienovereenkomstig aanpassen.
 
-     De volgende opties zijn beschikbaar: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] en [!UICONTROL Conversational] .
+     De volgende opties zijn beschikbaar: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] en [!UICONTROL Conversational] .
 
 1. Gebruik de schuifregelaar om de tekstlengte te kiezen ([!UICONTROL Shorter Text] tot en met [!UICONTROL Larger Text] ).
+
+1. (Optioneel) Klik op Merk Assets om tijdens het genereren merkmiddelen te uploaden of te schakelen voor extra context van inhoud.
 
 1. Klik op **[!UICONTROL Generate]** om een lijst met tekstvariaties te maken.
 
@@ -98,4 +100,4 @@ De volgende aanwijzingen en variaties tonen de kracht van [!DNL AI Assistant].
 
 ### Inhoud maken met de AI-assistent voor het genereren van inhoud
 
->[!VIDEO](https://video.tv.adobe.com/v/3434641/?learn=on&captions=dut">https://video.tv.adobe.com/v/3434641/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
