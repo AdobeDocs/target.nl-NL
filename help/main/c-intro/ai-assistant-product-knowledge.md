@@ -4,7 +4,7 @@ description: Leer hoe te om  [!DNL Target]  productkennis met  [!DNL AI Assistan
 title: Hoe gebruik ik  [!DNL AI Assistant]  in  [!DNL Target]  om productkennis te bereiken?
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 3e2682acdf8c7be86285c901ddcdae0f43b647f2
+source-git-commit: 1615dcf80643a1391a3b1fbad8e8378ff2785fd3
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Om [!DNL AI Assistant] voor productkennis toegang te hebben:
    * Uw organisatie moet eerst instemmen met juridische voorwaarden. Neem voor meer informatie contact op met uw Adobe-accountteam.
    * Uw beheerders moeten u voldoende toegangsrechten verlenen om [!DNL AI Assistant] te kunnen gebruiken.
 
-## AI Assistant gebruiken om productkennis te verhogen
+## AI Assistant gebruiken om productkennis te vergaren
 
 Om [!DNL AI Assistant] voor productkennis toegang te hebben:
 
@@ -66,10 +66,10 @@ Om [!DNL AI Assistant] voor productkennis toegang te hebben:
 
 Meer informatie over [!DNL Adobe Experience Platform] toepassingen van [!DNL AI Assistant] .
 
->[!VIDEO](https://video.tv.adobe.com/v/3441030/?learn=on&#x26;enablevpops&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Reacties valideren vanuit AI Assistant
 
 Leer hoe u de antwoorden die [!DNL AI Assistant] in [!DNL Adobe Experience Platform] biedt, verifieert en valideert.
 
->[!VIDEO](https://video.tv.adobe.com/v/3441745/?learn=on&#x26;enablevpops&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
