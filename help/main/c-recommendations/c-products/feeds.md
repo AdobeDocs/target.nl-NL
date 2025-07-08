@@ -2,12 +2,12 @@
 keywords: aanbevelingen feed;feed;SAINT;ftp;csv;classificaties;analytische classificaties
 description: Leer hoe het voer invoerentiteiten in  [!DNL Adobe Target] [!DNL Recommendations] gebruikend CSV- dossiers, het  [!DNL Google Product Search]  voederformaat, en  [!DNL Analytics]  productclassificaties invoert.
 title: Hoe gebruik ik [!UICONTROL Feeds] in  [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 5a8b4006a2c43c9cac2d22e7663aa21043f98d9a
 workflow-type: tm+mt
-source-wordcount: '2417'
+source-wordcount: '2613'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ De [!UICONTROL Feeds] -lijst ( **[!UICONTROL Recommendations]** > **[!UICONTROL 
 De pagina [!UICONTROL Feeds] bevat de volgende kolommen:
 
 * **Naam**: De naam van het voer tijdens verwezenlijking wordt gespecificeerd die. Als u de naam van een feed wilt bewerken, moet u de feed zelf bewerken. Wanneer u de feed onder de nieuwe naam opslaat, wordt de feed vernieuwd.
-* **Status**: De huidige status van de voer [&#128279;](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
+* **Status**: De huidige status van de voer [ ](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
 * **Type**: De types omvatten [ CSV ](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF), en [ Classificaties van Analytics ](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
 * **Punten**: Toont het aantal punten in het voer.
 * **Programma**: Toont het updateschema voor het voer: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks], of [!UICONTROL Never].
@@ -121,11 +121,11 @@ Als u een bestaande [!DNL Google Product Feed] hebt, kunt u die gebruiken als uw
 >
 >Het is niet vereist om [!DNL Google] -gegevens te gebruiken. [!DNL Recommendations] gebruikt dezelfde indeling als [!DNL Google] . U kunt deze methode gebruiken om alle gegevens te uploaden die u hebt en de beschikbare planningsfuncties te gebruiken. U moet echter de vooraf gedefinieerde [!DNL Google] kenmerknamen behouden wanneer u het bestand instelt.
 
-De meeste detailhandelaren uploaden producten naar [!DNL Google], dus wanneer een bezoeker de [!DNL Google] -zoekopdracht gebruikt, worden hun producten weergegeven. [!DNL Recommendations] volgt de [!DNL Google] -specificatie exact voor entiteitsfeeds. De voer van de entiteit kan naar [!DNL Recommendations] via .xml, .txt, of .tsv worden verzonden, en kan de [ attributen gebruiken die door Google ](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US) worden bepaald. De resultaten zijn doorzoekbaar op [[!DNL Google]  het winkelen pagina&#39;s ](https://www.google.com/prdhp).
+De meeste detailhandelaren uploaden producten naar [!DNL Google], dus wanneer een bezoeker de [!DNL Google] -zoekopdracht gebruikt, worden hun producten weergegeven. [!DNL Recommendations] volgt de [!DNL Google] -specificatie exact voor entiteitsfeeds. De voer van de entiteit kan naar [!DNL Recommendations] via .xml, .txt, of .tsv worden verzonden, en kan de [ attributen gebruiken die door Google ](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US) worden bepaald. De resultaten zijn doorzoekbaar op [[!DNL Google]  het winkelen pagina&#39;s ](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
->De methode POST moet zijn toegestaan op de server die de [!DNL Google] feed-inhoud host.
+>De POST-methode moet zijn toegestaan op de server die de [!DNL Google] feed-inhoud host.
 
 Omdat [!DNL Recommendations] -gebruikers al .xml- of .txt-feeds configureren voor verzending naar [!DNL Google] via URL of FTP, worden deze productgegevens door entiteitsfeeds geaccepteerd en gebruikt om de catalogus met aanbevelingen te maken. Geef op waar die feed bestaat en de aanbevelingen-server de gegevens ophaalt.
 
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] Productclassificaties {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-De [!DNL Adobe Analytics] productclassificatie is de enige classificatie die beschikbaar is voor aanbevelingen. Voor meer informatie over dit classificatiedossier, zie [ Ongeveer classificaties ](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=nl-NL) in de *gids van de Componenten van Analytics*. Het is mogelijk dat niet alle informatie u voor aanbevelingen nodig hebt in uw huidige implementatie beschikbaar is, zo volg deze gebruikershandleiding als u aan uw classificatiedossier wilt toevoegen.
+De [!DNL Adobe Analytics] productclassificatie is de enige classificatie die beschikbaar is voor aanbevelingen. Voor meer informatie over dit classificatiedossier, zie [ Ongeveer classificaties ](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in de *gids van de Componenten van Analytics*. Het is mogelijk dat niet alle informatie u voor aanbevelingen nodig hebt in uw huidige implementatie beschikbaar is, zo volg deze gebruikershandleiding als u aan uw classificatiedossier wilt toevoegen.
 
 >[!IMPORTANT]
 >
@@ -298,6 +298,7 @@ De volgende statussen zijn mogelijk voor een diervoeder:
 | [!UICONTROL Downloading Feed File] | [!DNL Target] downloadt het feed-bestand. |
 | [!UICONTROL Importing Items] | [!DNL Target] importeert items uit het feed-bestand. |
 | Het voer met succes in *tijd* werd ingevoerd | [!DNL Target] heeft het feed-bestand geïmporteerd in het systeem voor de levering van inhoud. Wijzigingen in objectkenmerken zijn aangebracht in het systeem voor de levering van inhoud en zullen binnenkort worden weergegeven in de geleverde aanbevelingen. Als u de verwachte wijzigingen niet ziet, probeert u het opnieuw en vernieuwt u de pagina met aanbevelingen.<br> Nota&#39;s:<ul><li>Als wijzigingen in de kenmerken van een item ertoe leiden dat een item wordt uitgesloten van aanbevelingen, wordt de uitsluiting onmiddellijk weerspiegeld. Als een punt onlangs wordt toegevoegd, of de veranderingen in attributen in een punt resulteren dat *niet meer* van aanbevelingen wordt uitgesloten, wordt het niet weerspiegeld tot de volgende algoritmeupdate, die binnen 24 uren voorkomt.</li><li>Wanneer deze status wordt weergegeven, worden updates mogelijk nog niet weergegeven in de gebruikersinterface van [!UICONTROL Catalog Search] . In [!UICONTROL Catalog Search] wordt een aparte status weergegeven die de laatste keer aangeeft dat de doorzoekbare catalogus is bijgewerkt.</li></ul> |
+| Gedeeltelijk importeren mislukt | Eerder, toen alle rijen niet werden geupload, werd het voer nog duidelijk als succes. Hierdoor wordt de indruk gewekt dat alle rijen zijn geüpload terwijl de feed succesvol is gebleken.<P>Hier is een scenario van waarom u een gedeeltelijke voederinvoer zou kunnen ontmoeten:<ul><li>U hebt een feed-bestand geüpload voor de productieomgeving, bijvoorbeeld 100 rijen.</li><li>De feed heeft 80 van deze rijen uitgevoerd en geüpload en 20 rijen verwijderd vanwege een onjuiste opmaak, het veld heeft meer tekens bevat, enzovoort.</li><li>De feed is gemarkeerd als geslaagd in de gebruikersinterface, waardoor u de indruk krijgt dat alle 100 rijen zijn geüpload.</li><li>U verwacht een aantal van deze 20 producten bij de levering van een activiteit, maar dat gebeurt niet.</li><li> U bent nu verbaasd omdat u de feed hebt geüpload die de productgegevens voor de producten in kwestie bevat. U ziet het niet in het achterste deel wanneer u een query uitvoert via de Entiteit API, wat aangeeft dat het niet op de achtergrond staat.</li></ul>Om deze verwarring weg te nemen, is de boodschap verbeterd om precies te kunnen zien wat er met het voer is gebeurd. In plaats van het als een succes te markeren, wordt het nu gemarkeerd als gedeeltelijke import mislukt. |
 | [!UICONTROL Failed to Index] | De indexbewerking is mislukt. Probeer het opnieuw. |
 | [!UICONTROL Server Not Found] | FTP- of URL-locaties zijn ongeldig of anderszins onbereikbaar. |
 
@@ -338,7 +339,7 @@ De status moet geel zijn omdat de index ongeveer een dag en een uur geleden had 
 
 De volgende video&#39;s bevatten meer informatie over de concepten die in dit artikel worden besproken.
 
-### Het begrip van voer in Recommendations (3:01) ![ badge van het Overzicht ](/help/main/assets/overview.png)
+### Het begrip van voer in Aanbevelingen (3:01) ![ badge van het Overzicht ](/help/main/assets/overview.png)
 
 Deze video bevat de volgende informatie:
 
