@@ -1,14 +1,14 @@
 ---
-keywords: releaseopmerkingen;nieuwe functies;releases;updates;update;release;verbetering;verbeteringen;correcties;foutoplossingen;updates,huidige updates
+keywords: releaseopmerkingen;nieuwe functies;releases;updates;update;release;verbetering;verbeteringen;correcties;foutoplossingen;updates;huidige updates
 description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke situaties inbegrepen in de huidige versie van  [!DNL Adobe Target], met inbegrip van SDKs, APIs, en de bibliotheken van JavaScript.
 landing-page-description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke situaties inbegrepen in de huidige versie van  [!DNL Adobe Target].
 short-description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke situaties inbegrepen in de huidige versie van  [!DNL Adobe Target].
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 576ec970f572176b28d1b9f050706574e6813b0c
+source-git-commit: e612ec5814c931349699b6b4d2c9fa71b493413c
 workflow-type: tm+mt
-source-wordcount: '2514'
+source-wordcount: '2594'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Ontdek de nieuwste functies, verbeteringen en oplossingen in [!DNL Adobe Target]
 
 ## Tijdgevoelige updates die u moet weten {#time-sensitive}
 
-[!BADGE &#x200B; Belangrijk &#x200B;]{type=Informative}
+[!BADGE  Belangrijk ]{type=Informative}
 
 Voor tijdgevoelige updates met betrekking tot [!DNL Adobe Target] en uw implementatie, [!DNL Adobe] verstrekt gedetailleerde versienota&#39;s en documentatie door [!UICONTROL Experience League]. Hier volgen enkele belangrijke punten die relevant zijn voor uw implementatie:
 
@@ -99,14 +99,14 @@ Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houde
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++Zie details
 * Probleem verholpen waarbij het kopiëren van een bestaande activiteit en het wijzigen van de rapportbron in [!DNL Adobe Analytics] (A4T) zou resulteren in een fout met betrekking tot &quot;Ongeldige gebruikersinvoer&quot;. De fout werd geactiveerd wanneer bepaalde metrische handelingen die niet compatibel zijn met [!DNL Analytics] -rapportage, zoals `restart_same_experience` , `restart_random_experience` en `restart_new_experience` , niet in de oorspronkelijke activiteit zijn opgenomen. (TGT-52900)
 * Probleem verholpen waarbij klanten werden verhinderd een activiteit te maken of op te slaan wanneer ze [!DNL Adobe Analytics] (A4T) als rapportbron in de stap [!UICONTROL Goals & Settings] selecteerden. Het probleem is specifiek opgetreden bij het selecteren van een [!UICONTROL Custom Event] metrische waarde (bijvoorbeeld &#39;Aangepaste gebeurtenis 16&#39;). Dit heeft de volgende fout tot gevolg: &#39;Ongeldige gebruikersinvoer&#39;. (TGT-52910)
 * Probleem verholpen waarbij gebruikers door te klikken op de koppeling &quot;[!UICONTROL View in Analytics]&quot; werden omgeleid naar de startpagina in plaats van naar het bedoelde [!DNL Analytics] -dashboard. (TGT-53092 &amp; TGT-53093)
-<!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)
-* Fixed an issue when viewing a [!DNL Recommendations] activity in the updated [!UICONTROL Overview] UI, the [!UICONTROL Goals & Settings] section fails to load when [!DNL Adobe Analytics] (A4T) is selected as the reporting source. The following error message was displayed: "Something went wrong. We cannot complete your request. Please contact Adobe Client Care if the problem persists." (TGT-52999)-->
+  <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
+* Probleem verholpen waarbij een [!DNL Recommendations] -activiteit in de bijgewerkte [!UICONTROL Overview] UI werd weergegeven. De sectie [!UICONTROL Goals & Settings] wordt niet geladen wanneer [!DNL Adobe Analytics] (A4T) als rapportbron is geselecteerd. Het volgende foutbericht werd weergegeven: &quot;Er is iets misgegaan. Je aanvraag kan niet worden voltooid. Neem contact op met de Adobe Client Care als het probleem zich blijft voordoen.&quot; (TGT-52999)
 
 +++
 
@@ -132,8 +132,7 @@ Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houde
 **Localization**
 
 +++Zie details
-* Probleem met contextuele vertaling in de Koreaanse landinstelling (ko-KR) voor de tekenreeks &quot;Preview Experience&quot; opgelost. (TGT-52928)
-* Correctie van terminologische inconsistenties die zijn geïdentificeerd in de Vereenvoudigde Chinese (zh_CN) vertaling van verschillende tekstreeksen. (TGT-52954 &amp; TGT-52955)
+* Bijgewerkte lokalisatietekenreeksen in nieuwe UI voor Frans (fr_FR), Duits (de_DE), Italiaans (it_IT), Koreaans (ko_KO), en Vereenvoudigd Chinees (zh_CN).
 
 +++
 
@@ -145,6 +144,7 @@ Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houde
 * Probleem verholpen in de gebruikersinterface van [!DNL Recommendations] waarbij een promotie die met één regel is gemaakt, onjuist werd geïnterpreteerd en weergegeven als een promotietype Lijst met objecten, ongeacht de logica van de regel. (TGT-53063)
 * Oplossing een kwestie toen het gebruiken van bijgewerkte [!UICONTROL Overview] UI, de &quot;[!UICONTROL Download Recommendations Data]&quot;knoop mist voor [!UICONTROL Experience Targeting] (XT) activiteiten die [!DNL Recommendations] omvatten. (TGT-52730 &amp; TGT-52756)
 * Eerder werd in de gebruikersinterface van Aanbevelingen alleen het aantal entiteiten weergegeven dat is geïmporteerd uit een feed. De indeling voor achterste berichten bevat echter zowel het aantal geïmporteerde entiteiten als het totale aantal entiteiten in de notatie: `# of entities imported / # of total entities` . Door deze discrepantie zagen gebruikers alleen de eerste waarde (geïmporteerd aantal) in de gebruikersinterface, wat tot verwarring leidde. In de gebruikersinterface worden nu beide getallen weergegeven. (TGT-53073)
+* Oplossing een kwestie waar de klanten een het filtreren regel niet konden bewaren wanneer het vormen van een &quot;[!UICONTROL Promote by attribute]&quot;bevordering in een op vorm-gebaseerde activiteit A/B met aanbevelingen. Na het opslaan en opnieuw openen van de activiteit, ontbrak de het filtreren regel, en de activiteit kon niet met succes worden bewaard. (TGT-53057)
 
 +++
 
@@ -156,7 +156,7 @@ Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houde
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Zie details
 * Oplossing voor een probleem waarbij het toepassen van een wijziging op een weergave ertoe zou leiden dat de weergave wordt gedupliceerd en dat de activiteit een fout met &quot;Ongeldige gebruikersinvoer&quot; retourneert. Met deze correctie zorgt u ervoor dat weergavewijzigingen correct worden toegepast zonder dat er fouten optreden bij het dupliceren of valideren. (TGT-52886)
@@ -189,8 +189,8 @@ Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houde
 
 | Bron | Details |
 |--- |--- |
-| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=nl-NL) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
-| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
+| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
+| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
 
 ## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release van Experience Cloud
 
@@ -200,7 +200,7 @@ Naast de notities voor elke release bevatten de volgende bronnen aanvullende inf
 |--- |--- |
 | [ Veranderingen van de Documentatie ](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
 | [ de nota&#39;s van de Versie voor vorige versies ](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
-| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl-NL){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
+| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
 
 ## Prerelease-informatie {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
