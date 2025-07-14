@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Leer hoe u de ervaring van uw klanten kunt aanpassen en personaliseren om uw omzet te maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen.
 feature-set: Target
-source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
+source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1283'
 ht-degree: 2%
 
 ---
@@ -180,7 +180,7 @@ ht-degree: 2%
          + [Metrisch instellen](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
          + [Multivariate Tests oplossen](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [Activiteit van aanbevelingen](c-activities/recommendations-activity.md)
-   + [Een activiteit bewerken of opslaan als concept](c-activities/edit-activity.md)
+   + [Een activiteit bewerken](c-activities/edit-activity.md)
    + [Prioriteit](c-activities/priority.md)
    + [Activiteiteninstellingen](c-activities/activity-settings.md)
    + Succeswaarden {#success-metrics}

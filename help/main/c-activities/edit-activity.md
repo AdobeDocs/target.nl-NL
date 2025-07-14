@@ -1,19 +1,19 @@
 ---
-keywords: activiteiten;activiteit;typen activiteiten;activiteit bewerken;activiteit bewerken;bewerken;concept
-description: Leer meer over de verschillende manieren waarop u een bestaande activiteit kunt bewerken, zoals het opslaan van een activiteit in een conceptformulier.
-title: Hoe kan ik een activiteit bewerken of Opslaan als concept?
+keywords: activiteiten;activiteit;typen activiteiten;activiteit bewerken;activiteit bewerken
+description: Meer informatie over de verschillende manieren waarop u een bestaande activiteit kunt bewerken.
+title: Hoe kan ik een activiteit bewerken?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: fd368ba4a59c855fe9fc7c4bada4d93fcda006f0
+source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
 
-# Een activiteit bewerken of opslaan als concept
+# Een activiteit bewerken
 
-Leer hoe u bestaande activiteiten in [!DNL Adobe Target] kunt bewerken, zoals het opslaan van wijzigingen als concepten. In dit artikel worden de verschillende methoden beschreven die beschikbaar zijn in de interface van [!DNL Target] voor het wijzigen van activiteiten. Of u ervaringen bijwerkt, het richten van regels aanpast, of doelstellingen vormt, zorgt het Doel ervoor dat uw veranderingen veilig alvorens activering worden bewaard.
+Leer hoe u bestaande activiteiten in [!DNL Adobe Target] kunt bewerken. In dit artikel worden de verschillende methoden beschreven die beschikbaar zijn in de interface van [!DNL Target] voor het wijzigen van activiteiten. Of u nu ervaringen bijwerkt, doelregels aanpast of doelen configureert, [!DNL Target] zorgt ervoor dat uw wijzigingen veilig worden opgeslagen voordat de toepassing wordt geactiveerd.
 
 [!DNL Target] biedt verschillende plaatsen in de gebruikersinterface waar u bestaande activiteiten kunt bewerken. Het proces varieert afhankelijk van de methode die u kiest.
 
@@ -59,18 +59,7 @@ U kunt een [!DNL Recommendations] -activiteit niet rechtstreeks bewerken. Als u 
 
 ## Een activiteit opslaan in een conceptformulier {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
-Wanneer u een nieuwe activiteit creeert die nog niet is bewaard, of u een activiteit uitgeeft die eerder in ontwerp vorm werd opgeslagen, tonen de [!UICONTROL Save Draft] opties in de gespleten knoop.
-
-U kunt een activiteit opslaan in de conceptmodus als de activiteiteninstelling is gestart maar niet klaar is om te worden uitgevoerd.
-
-1. Maak een nieuwe activiteit of bewerk een bestaande activiteit in een conceptvorm.
-1. Selecteer de gewenste optie op de knop Splitsen:
-
-   ![ sparen Ontwerp ](/help/main/c-activities/assets/save_draft.png)
-
-   * **daarna:** om een andere pagina in het drie-stap werkschema uit te geven, klik **[!UICONTROL Next]** om aan de gewenste stap vooruit te gaan.
-   * **sparen Ontwerp &amp; Sluiten:** breng de gewenste veranderingen op de huidige stap aan, klik drop-down op de gespleten knoop, dan selecteer **[!UICONTROL Save Draft and Close]** om uw veranderingen te bewaren en de pagina van de activiteit [!UICONTROL Overview] te tonen.
-   * **sparen Ontwerp:** breng de gewenste veranderingen op een stap aan, klik drop-down op de gespleten knoop, dan uitgezocht **[!UICONTROL Save Draft]** om uw veranderingen te bewaren en op die stap te blijven.
+De functie Opslaan als concept is niet meer beschikbaar. Voor meer informatie, zie *[!UICONTROL Status]* onder [ filters op de lijst van Activiteiten toepassen ](/help/main/c-activities/activities.md#filters).
 
 ## Een activiteit kopiëren/bewerken bij het gebruik van werkruimten {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
