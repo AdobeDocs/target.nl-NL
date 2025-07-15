@@ -1,12 +1,12 @@
 ---
-keywords: activiteiten;activiteit;typen activiteiten;activiteit bewerken;activiteit bewerken
+keywords: activiteiten;activiteit;soorten activiteit;activiteit bewerken;activiteit bewerken;bewerken;kopiëren
 description: Meer informatie over de verschillende manieren waarop u een bestaande activiteit kunt bewerken.
 title: Hoe kan ik een activiteit bewerken?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: caf431736f1e59473d3d5e564ab71088545837b7
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ U kunt een [!DNL Recommendations] -activiteit niet rechtstreeks bewerken. Als u 
 
 De functie Opslaan als concept is niet meer beschikbaar. Voor meer informatie, zie *[!UICONTROL Status]* onder [ filters op de lijst van Activiteiten toepassen ](/help/main/c-activities/activities.md#filters).
 
-## Een activiteit kopiëren/bewerken bij het gebruik van werkruimten {#section_45A92E1DD3934523B07E71EF90C4F8B6}
+## Een activiteit kopiëren/bewerken met werkruimten {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
 Met een werkruimte kan een organisatie een specifieke set gebruikers toewijzen aan een specifieke set eigenschappen. In veel opzichten is een werkruimte vergelijkbaar met een rapportsuite in [!DNL Adobe Analytics] .
 
@@ -77,7 +77,24 @@ Als u de Toestemmingen van de Gebruiker van de Onderneming hebt die in uw milieu
 
 Houd rekening met de volgende informatie wanneer u de functie Kopiëren/Bewerken in werkruimten gebruikt:
 
-* Wanneer u een activiteit binnen dezelfde werkruimte kopieert, wordt de eerste stap van de aanmaakstroom van de nieuw gekopieerde activiteit geopend in de bewerkingsmodus.
-* Wanneer u een activiteit aan een verschillende werkruimte kopieert, wordt de activiteit gekopieerd aan andere werkruimte zonder het in de stroom van de activiteitenverwezenlijking te openen. Nadat de activiteit met succes wordt gekopieerd, toont een berichtvertoningen erop wijzend dat de activiteit met succes werd gekopieerd en omvat een verbinding om de nieuwe activiteit te openen.
+* Als u een activiteit binnen dezelfde werkruimte of van de standaardwerkruimte naar een niet-standaardwerkruimte kopieert, wordt de Tovenaar van de Activiteit automatisch geopend. Bij kopieën in verschillende werkruimten hoeft u mogelijk alleen de eigenschappen van de activiteit bij te werken.
+* Wanneer een activiteit van een niet standaardwerkruimte aan een andere werkruimte (of gebrek of niet) wordt gekopieerd opent de Tovenaar van de Activiteit, en wat handinput wordt vereist om de opstelling te voltooien:
+   * **[!UICONTROL Properties]**: eigenschappen kunnen verschillen tussen werkruimten. Deze situatie zou een waarschuwing kunnen veroorzaken:
 
-Als de functionaliteit voor gebruikersrechten voor Enterprise niet is ingeschakeld in uw omgeving, worden alle activiteiten geopend in de bewerkingsmodus voordat ze worden gekopieerd.
+      * In [!UICONTROL Form-Based Experience Composer], worden de waarschuwingen getoond direct binnen het gebruikersinterface voor directe zicht.
+
+        ![ vorm-Gebaseerde werkruimtewaarschuwing ](/help/main/c-activities/assets/form-based-warning.png)
+
+      * In VEC, zijn de waarschuwingen zichtbaar wanneer u [!UICONTROL Configure] > [!UICONTROL Properties] klikt.
+
+        ![ vec-warning ](/help/main/c-activities/assets/vec-warning.png)
+
+        Klik op [!UICONTROL Add/Remove] om dit probleem op te lossen, zodat alleen de eigenschappen die beschikbaar zijn in de doelwerkruimte worden weergegeven voor selectie.
+
+   * **Soorten publiek en aanbiedingen**: Alle publiek en aanbiedingen van de originele werkruimte moeten worden vervangen. U kunt ze ook kopiëren van de [!UICONTROL Audiences] - of [!UICONTROL Offers] -pagina&#39;s en vervolgens de juiste items selecteren in de corresponderende lijst in de activiteit.
+
+   * **Vereiste handveranderingen**: Alle vereiste handveranderingen worden samengevat in de definitieve stap ([!UICONTROL Save & Close]). Een pop-up toont een lijst van entiteiten die updates vereisen, die helpen ervoor te zorgen dat alle noodzakelijke aanpassingen worden aangebracht alvorens de activiteitenopstelling te voltooien.
+
+     ![ de bevestigingswaarschuwing van Workspace ](/help/main/c-activities/assets/work-space-validation.png)
+
+Als de [!UICONTROL Enterprise User Permissions] -functionaliteit niet is ingeschakeld in uw omgeving, worden alle activiteiten geopend in de bewerkingsmodus voordat ze worden gekopieerd.
