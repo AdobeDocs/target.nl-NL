@@ -4,9 +4,9 @@ description: Meer informatie over de verschillende manieren waarop u een bestaan
 title: Hoe kan ik een activiteit bewerken?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: cf7bc0f9ce72d5a170db76f5a932b196d4e1ddb0
+source-git-commit: 34633032385f848dcc87fe1bc8cd025e42bcc3e9
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -67,13 +67,13 @@ Met een werkruimte kan een organisatie een specifieke set gebruikers toewijzen a
 
 >[!NOTE]
 >
->De werkruimten maken deel uit van de eigenschappen en van Toestemmingen functionaliteit beschikbaar als deel van de [!DNL Target Premium] oplossing. Ze zijn niet beschikbaar in [!DNL Target Standard] zonder een [!DNL Target Premium] -licentie.
+>Werkruimten maken deel uit van de [!UICONTROL Properties and Permissions] -functionaliteit die beschikbaar is als onderdeel van de [!DNL Target Premium] -oplossing. Ze zijn niet beschikbaar in [!DNL Target Standard] zonder een [!DNL Target Premium] -licentie.
 
 Als u deel uitmaakt van een multinationale organisatie, hebt u mogelijk een werkruimte voor uw Europese webpagina&#39;s, eigenschappen of sites en een andere werkruimte voor uw Amerikaanse webpagina&#39;s, eigenschappen of sites. Als u deel uitmaakt van een organisatie met meerdere merken, hebt u mogelijk een aparte werkruimte voor elk van uw merken.
 
 Voor meer informatie over werkruimten en de functionaliteit van de Toestemmingen van de Gebruiker van de Onderneming, zie {de Toestemmingen van de Gebruiker van 0} Onderneming [.](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)
 
-Als u de Toestemmingen van de Gebruiker van de Onderneming hebt die in uw milieu worden toegelaten, kunt u activiteiten aan de zelfde werkruimte of aan een andere werkruimte kopiëren. U kunt een activiteit momenteel niet van één werkruimte naar een andere verplaatsen. Om een activiteit aan een andere werkruimte, van de [!UICONTROL Activities] pagina te kopiëren, klik het **[!UICONTROL More Actions]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmall.svg)) naast de activiteit die u dan [!UICONTROL **Exemplaar**] of **[!UICONTROL Edit]** wilt kopiëren.
+Als u [!UICONTROL Enterprise User Permissions] hebt ingeschakeld in uw omgeving, kunt u activiteiten kopiëren naar dezelfde werkruimte of naar een andere werkruimte. U kunt een activiteit momenteel niet van één werkruimte naar een andere verplaatsen. Om een activiteit aan een andere werkruimte, van de [!UICONTROL Activities] pagina te kopiëren, klik het **[!UICONTROL More Actions]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmall.svg)) naast de activiteit die u dan [!UICONTROL **Exemplaar**] wilt kopiëren.
 
 Houd rekening met de volgende informatie wanneer u de functie Kopiëren/Bewerken in werkruimten gebruikt:
 
