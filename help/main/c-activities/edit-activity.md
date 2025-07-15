@@ -4,9 +4,9 @@ description: Meer informatie over de verschillende manieren waarop u een bestaan
 title: Hoe kan ik een activiteit bewerken?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: caf431736f1e59473d3d5e564ab71088545837b7
+source-git-commit: cf7bc0f9ce72d5a170db76f5a932b196d4e1ddb0
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Als u deel uitmaakt van een multinationale organisatie, hebt u mogelijk een werk
 
 Voor meer informatie over werkruimten en de functionaliteit van de Toestemmingen van de Gebruiker van de Onderneming, zie {de Toestemmingen van de Gebruiker van 0} Onderneming [.](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)
 
-Als u de Toestemmingen van de Gebruiker van de Onderneming hebt die in uw milieu worden toegelaten, kunt u activiteiten aan de zelfde werkruimte of aan een andere werkruimte kopiëren. U kunt een activiteit momenteel niet van één werkruimte naar een andere verplaatsen. Om een activiteit aan een andere werkruimte, van de [!UICONTROL Activities] pagina te kopiëren, klik het **[!UICONTROL More Actions]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmall.svg)) naast de activiteit die u dan [!UICONTROL **Exemplaar**] wilt kopiëren.
+Als u de Toestemmingen van de Gebruiker van de Onderneming hebt die in uw milieu worden toegelaten, kunt u activiteiten aan de zelfde werkruimte of aan een andere werkruimte kopiëren. U kunt een activiteit momenteel niet van één werkruimte naar een andere verplaatsen. Om een activiteit aan een andere werkruimte, van de [!UICONTROL Activities] pagina te kopiëren, klik het **[!UICONTROL More Actions]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmall.svg)) naast de activiteit die u dan [!UICONTROL **Exemplaar**] of **[!UICONTROL Edit]** wilt kopiëren.
 
 Houd rekening met de volgende informatie wanneer u de functie Kopiëren/Bewerken in werkruimten gebruikt:
 
