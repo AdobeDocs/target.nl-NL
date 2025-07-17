@@ -1,45 +1,43 @@
 ---
 keywords: Doelstelling;succes;omzettingsmetrische;paginascore;metrische paginamontages;opbrengstmetriek;tijd op plaats metrisch;geschatte waarde;geavanceerde montages;succesmetriek;gebiedsdeel;Afhankelijkheid;De Telling van de verhoging & houdt Gebruiker in Activiteit;De Telling van de verhoging, de gebruiker van de Versie, & Toestaan de Telling van de verhoging, de Gebruiker van de Versie, & Bar van Ingang
-description: Leer over succesmetriek in Adobe  [!DNL Target]  die u helpen het succes van een activiteit bepalen. Tot de succesmetriek behoren Conversie, Inkomsten, Paginaweergaven, Aangepaste score en Tijd op de site.
+description: Leer meer over succesmetriek die u helpen het succes van een activiteit bepalen. Tot de succesmetriek behoren Conversie, Inkomsten, Paginaweergaven, Aangepaste score en Tijd op de site.
 title: Wat zijn succescijfers?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+source-git-commit: ad26684d40ccb5239a345da73adfa924a04189ef
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1367'
 ht-degree: 0%
 
 ---
 
-# Succeswaarden
+# [!UICONTROL Success metrics]
 
-In [!DNL Adobe Target] zijn succesmetriek parameters die worden gebruikt om het succes van een activiteit te meten. Succesvolle maatstaven omvatten belangrijke bedrijfsmaatregelen waarmee u kunt bepalen of een bepaalde ervaring of aanbieding een [!DNL Target] -activiteit heeft.
+Succeswaarden in [!DNL Adobe Target] zijn belangrijke indicatoren die de prestaties van uw activiteiten helpen meten. Deze metriek vangen belangrijke bedrijfsresultaten zoals omzettingen, opbrengst per bezoeker, en klantenovereenkomst aan, die u toestaan om het effect van specifieke ervaringen of aanbiedingen te evalueren.
 
-U kunt bijvoorbeeld bepalen of een nieuwe aanbieding uw omzet per bezoeker verhoogt of een item aan een winkelwagentje toevoegt. Succeswaarden kunnen nuttig zijn voor het opsporen van problemen met registratie, bestellen of aanschafkanalen, maar ook eenvoudig met betrokkenheid van bezoekers of klanten.
+U kunt bijvoorbeeld bijhouden of een nieuwe aanbieding de omzet per bezoeker verhoogt of ertoe leidt dat er meer objecten aan winkelwagentjes worden toegevoegd. Succeswaarden helpen u ook problemen in gebruikersstromen te identificeren, zoals registratie-, afrekenings- of aankoopprocessen, terwijl ze inzichten bieden in het algemene gedrag van de bezoeker.
 
 ## Overzicht
 
-In [!DNL Target] zijn succesmetriek vooraf geconfigureerd met de optimale opties voor zowel rapportage- als trackingsdoeleinden.
+In [!DNL Target] zijn succesmetriek vooraf geconfigureerd met de aanbevolen instellingen voor nauwkeurige rapportage en effectieve tracering.
 
-Standaard worden conversiegebeurtenissen ingesteld op &quot;[!UICONTROL Increment count & keep user in activity]&quot;. Conversies worden slechts eenmaal geteld, er worden geen terugkerende conversies geteld en de bezoeker ziet altijd de inhoud van de activiteit.
+Conversiegebeurtenissen gebruiken standaard de instelling **[!UICONTROL Increment count & keep user in activity].** Deze instelling houdt in dat elke bezoeker slechts eenmaal wordt geteld als een conversie. Geen herhaalde omzettingen worden geteld. Deze bezoekers blijven de inhoud van de activiteit tijdens hun zitting zien.
 
-De metriek van de opbrengst die aan &quot;[!UICONTROL Increment count & keep user in activity]&quot;de gegevens van de logboekorde slechts voor de eerste orde worden geplaatst door de zelfde bezoeker wordt gemaakt. Alle volgende bestellingen verhogen het aantal conversies, maar voegen geen inkomsten toe aan RPV/AOV/Sales en worden niet opgenomen in het [!UICONTROL Order Details] -rapport.
+Voor inkomstenmetriek die het zelfde plaatsen gebruiken, slechts de eerste orde van een bezoeker registreert orderdetails. Terwijl volgende bestellingen het aantal conversies verhogen, dragen ze niet bij aan op inkomsten gebaseerde meetwaarden zoals [!UICONTROL Revenue per Visitor (RPV)] , [!UICONTROL Average Order Value (AOV)] of [!DNL Total Sales] . Deze extra bestellingen worden ook uitgesloten van het rapport [!UICONTROL Order Details] .
 
 >[!NOTE]
 >
->Voor activiteiten die [ Analytics als rapporterende bron ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) gebruiken (A4T), zal doel metrisch altijd &quot; [!UICONTROL Increment Count & Keep User in Activity]&quot;en &quot;[!UICONTROL On Every Impression]&quot;montages gebruiken. Dit is *niet* configureerbaar.
+>Voor activiteiten die [ Analytics als rapporterende bron ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) gebruiken (A4T), het doel metrisch gebruikt altijd &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; en &quot;[!UICONTROL On Every Impression]&quot;montages. Deze montages zijn *niet* configureerbaar.
 
-De volgende succeswaarden zijn beschikbaar:
+De volgende maatstaven voor succes kunnen worden geconfigureerd in de sectie [!UICONTROL Reporting Settings] op de [!UICONTROL Activity Settings page] , onder de stap [!UICONTROL Goals & Settings] :
 
 | Metrisch met succes | Meetmethode | Definitie |
 |--- |--- |--- |
-| Conversie | Op basis van conversie | Omzetten is wanneer een bezoeker een door u gedefinieerde handeling op uw site uitvoert, zoals <ul><li>Klik op een knop</li><li>Pagina&#39;s weergeven</li><li>Een enquête voltooid</li><li>Een aankoop gedaan</li></ul>Een conversie kan één keer per bezoeker worden meegeteld of telkens wanneer een bezoeker een conversie voltooit. |
-| Ontvangsten | Op basis van conversie | Door het bezoek gegenereerde inkomsten. U kunt uit de volgende opbrengstmetriek kiezen:<ul><li>Opbrengst per bezoeker (RPV)</li><li>Gemiddelde bestelwaarde (AOV)</li><li>Totale verkoop</li><li>Orders</li></ul> |
-| Paginaweergaven | Op betrokkenheid gebaseerd | Elk uniek bezoek wordt geteld als conversie. |
-| Aangepaste scores | Op betrokkenheid gebaseerd | Geaggregeerde score is gebaseerd op de waarde die is toegewezen aan pagina&#39;s die op de site zijn bezocht, vanaf het punt waarop de bezoeker de eerste weergave [!DNL Target] van de activiteit ziet. |
-| Tijd op de site | Op betrokkenheid gebaseerd | De tijd die in het bezoek (in seconden) is doorgebracht vanaf het punt waarop de bezoeker de eerste weergave [!DNL Target] van de activiteit ziet die wordt aangevraagd voor de laatste pagina met een aanvraag in de sessie. |
+| [!UICONTROL Con] versie | Op basis van conversie | Omzetten is wanneer een bezoeker een door u gedefinieerde handeling op uw site uitvoert, zoals <ul><li>Pagina&#39;s weergeven</li><li>Een box weergegeven</li><li>Op een element klikken</li></ul>Een conversie kan één keer per bezoeker worden meegeteld of telkens wanneer een bezoeker een conversie voltooit. |
+| [!UICONTROL Revenue] | Op basis van conversie | Door het bezoek gegenereerde inkomsten. U kunt slechts één metrische omzet kiezen:<ul><li>Een box weergegeven</li></ul>Voor meer informatie over veranderingen in bijgewerkte [!DNL Target] UI aangezien het aan de metriek van het opbrengstsucces heeft, zie [ veranderingen UI met betrekking tot succesmetriek ](#changes) hieronder. |
+| [!UICONTROL Engagement] | Op betrokkenheid gebaseerd | Betrokkenheid bij het bezoek. U kunt uit de volgende betrokkenheidsmetriek kiezen:<UL><li>Paginaweergaven: elk uniek bezoek wordt geteld als een conversie.</li><li>[!UICONTROL Custom Scoring]: geaggregeerde score op basis van de waarde die is toegewezen aan pagina&#39;s die op de site zijn bezocht, vanaf het punt waarop de bezoeker de eerste weergave van de [!DNL Target] -aanvraag van de activiteit ziet.</li>[!DNL Time on Site]: De tijd die in het bezoek (in seconden) is doorgebracht vanaf het punt waarop de bezoeker de eerste weergave [!DNL Target] van de activiteit ziet bij het laden van de laatste pagina met een aanvraag in de sessie.</UL> |
 
-Voor op betrokkenheid gebaseerde metriek (in tegenstelling tot op conversie gebaseerde en op opbrengst-gebaseerde metriek) moeten bezoekers opnieuw in aanmerking komen voor de activiteit op elk bezoek om de telling voor die zitting te verhogen. De bijbehorende metrische waarde begint na herkwalificatie te stijgen en stopt aan het einde van de sessie van elke bezoeker. Een sessie eindigt na 30 minuten inactiviteit. Daarom zult u resultaten niet onmiddellijk tijdens het testen zien; nochtans, zijn alle resultaten van die zitting beschikbaar binnen een paar notulen van de zitting die beëindigt.
+Voor op betrokkenheid gebaseerde metriek (in tegenstelling tot op conversie gebaseerde en op opbrengst-gebaseerde metriek), moeten de bezoekers voor de activiteit op elk bezoek opnieuw kwalificeren om de telling voor die zitting te verhogen. De bijbehorende metrische waarde begint na herkwalificatie te stijgen en stopt aan het einde van de sessie van elke bezoeker. Een sessie eindigt na 30 minuten inactiviteit. Daarom ziet u niet onmiddellijk resultaten tijdens het testen; nochtans, zijn alle resultaten van die zitting beschikbaar binnen een paar notulen van de zitting die beëindigt.
 
 ## Aangepaste succescijfers
 
@@ -49,9 +47,9 @@ Selecteer de maatstaf voor succes en selecteer de actie die een bezoeker heeft u
 
 Als deze optie is ingeschakeld, biedt het veld [!UICONTROL Estimated Value of one conversion] (niet beschikbaar voor de [!UICONTROL Page Score] -meetgegevens) een waarde voor uw doel, maar niet voor andere meetwaarden. Met deze waarde kan [!DNL Target] een geschatte lift in inkomsten berekenen. Dit veld is facultatief, maar incrementele inkomsten voor elke metrische waarde zonder inkomsten kunnen niet worden berekend. Voor alle inkomstenmetriek ([!UICONTROL Revenue per Visitor], [!UICONTROL Average Order Value], [!UICONTROL Total Sales], en [!UICONTROL Orders]), gebruikt de schatting [!UICONTROL Revenue per Visitor]. Het gegevenstype is currency. Zie [ Schatting Lift in Inkomsten ](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) voor meer informatie.
 
-De succesmetriek u voor uw activiteit kiest zijn beschikbaar in de rapportmontages wanneer u een rapport voor de activiteit bekijkt.
+De succesmetriek die u voor uw activiteit kiest zijn beschikbaar in de rapportmontages wanneer u een rapport voor de activiteit bekijkt.
 
-Voor sommige meetgegevens, zoals [!UICONTROL Custom Scoring] en [!UICONTROL Revenue Per Visitor] , is een aangepaste implementatie vereist die gegevens doorgeeft, zoals de totalen van de volgorde en de id&#39;s van de bestelling.
+Voor sommige meetgegevens, zoals [!UICONTROL Custom Scoring] en [!UICONTROL Revenue Per Visitor] , is een aangepaste implementatie vereist die gegevens doorgeeft, zoals ordertotalen en bestellings-id&#39;s.
 
 ## Geavanceerde instellingen {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
@@ -60,6 +58,8 @@ Gebruik de geavanceerde instellingen om te bepalen hoe succesvol u bent. De opti
 Om tot de [!UICONTROL Advanced Settings] opties toegang te hebben, klik het **[!UICONTROL More Actions]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallListVert.svg)), dan klik **[!UICONTROL Advanced Settings]**.
 
 ![ Geavanceerde het menu van Montages ](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
+
+Voor meer informatie over [!UICONTROL Advanced Settings] opties (&quot;[!UICONTROL What will happen after a user encounters this goal]&quot; en &quot;[!UICONTROL How will the count be incremented]&quot;) zie [ wat gebeurt nadat een gebruiker dit doel metrisch ](#what-happens) ontmoet?
 
 >[!NOTE]
 >
@@ -81,23 +81,23 @@ De functionaliteit van de afhankelijkheid wordt *niet* gesteund voor het volgend
 Afhankelijke succeswaarden worden in de volgende gevallen niet omgezet:
 
 * Als u een cirkelgebiedsdeel creeert waarin metrisch1 van metrisch2 afhankelijk is en metrisch2 van metrisch1 afhankelijk is, kan noch metrisch omzetten.
-* Met [!UICONTROL Automated Personalization] -activiteiten kunnen gebruikers de activiteit vrijgeven en opnieuw starten wanneer conversiemetriek wordt bereikt. Metrische gegevens die afhankelijk zijn van de conversiemetrie worden dus niet omgezet.
+* Met [!UICONTROL Automated Personalization] -activiteiten kunnen gebruikers de activiteit vrijgeven en opnieuw starten wanneer conversiemetriek wordt bereikt. Metrische gegevens die afhankelijk zijn van de conversiemetrisch worden dus niet omgezet.
 
-### Wat zal gebeuren nadat een gebruiker dit doel metrisch ontmoet?
+### Wat zal gebeuren nadat een gebruiker dit doel metrisch ontmoet? {#what-happens}
 
 Gebruik de geavanceerde montages om te bepalen wat gebeurt nadat een gebruiker het doel metrisch bereikt. In de volgende tabel staan de beschikbare opties:
 
 | Nadat een gebruiker dit metrische doel heeft aangetroffen | Opties |
 |--- |--- |
 | [!UICONTROL Increment Count & Keep User in Activity] | Geef op hoe het aantal wordt verhoogd:<ul><li>Eenmaal per deelnemer (standaard)</li><li>Bij elke afbeelding, pagina-vernieuwingen uitsluiten</li><li>Op elke indruk</li></ul> |
-| [!UICONTROL Increment Count, Release user, & Allow Reentry] | Selecteer de ervaring die de bezoeker ziet als ze de activiteit opnieuw betreden:<ul><li>Zelfde ervaring (standaard)</li><li>Willekeurige ervaring</li><li>Onzichtbare ervaring</li></ul> |
+| [!UICONTROL Increment Count, Release user, & Allow Reentry] | Selecteer de ervaring die de bezoeker ziet als hij of zij de activiteit opnieuw betreedt:<ul><li>Zelfde ervaring (standaard)</li><li>Willekeurige ervaring</li><li>Onzichtbare ervaring</li></ul> |
 | [!UICONTROL Increment Count, Release User, & Bar from Reentry] | Bepaal wat de gebruiker ziet in plaats van de inhoud van de activiteit:<ul><li>Dezelfde ervaring, zonder reeksspatiëring (standaard)</li><li>Standaardinhoud of andere activiteiteninhoud</li></ul> |
 
 >[!NOTE]
 >
 >Als u metrisch aan één van de [!UICONTROL Increment Count] (bovengenoemde) opties vormt, neemt de metrische telling correct toe één keer per ingang op het bezoekersniveau slechts. De metrische tellingen stijgen eens per bezoek voor elke nieuwe zitting op het bezoekniveau.
 
-### Hoe zal het aantal worden verhoogd:
+### Hoe wordt het aantal verhoogd:
 
 Kies het gewenste gedrag:
 
@@ -109,14 +109,16 @@ Kies het gewenste gedrag:
 
 * De metriek van het succes met de geavanceerde optie &quot;hoe de telling&quot;zal worden verhoogd geplaatst aan &quot;elke indruk&quot;of &quot;elke indruk (exclusief vernieuwingen)&quot;kan niet als succes worden gebruikt metrisch dat een andere metrisch afhangt.
 
-Wanneer een succes metrisch wordt geplaatst om op elke indruk te verhogen, [!DNL Target] telt opnieuw de bezoeker telkens als de bezoeker dit succes metrisch bezoekt. [!DNL Target] herstelt dan het succes metrische &quot;lidmaatschap&quot;aan 0 zodat kan het opnieuw op de volgende indruk tellen. Dus als een andere metrische waarde vereist dat deze metrische waarde als eerste is gezien, herkent [!DNL Target] nooit dat de gebruiker de eerste metrische waarde heeft gezien.
+  Wanneer een succes metrisch wordt geplaatst om op elke indruk te verhogen, [!DNL Target] telt opnieuw de bezoeker telkens als de bezoeker dit succes metrisch bezoekt. [!DNL Target] herstelt dan het succes metrische &quot;lidmaatschap&quot;aan 0 zodat kan het opnieuw op de volgende indruk tellen. Dus als een andere metrische waarde vereist dat deze metrische waarde als eerste is gezien, herkent [!DNL Target] nooit dat de gebruiker de eerste metrische waarde heeft gezien.
 
-## Trainingsvideo: Activiteitenstatistieken
+## Bijgewerkte wijzigingen in de gebruikersinterface van het doel
 
-In deze video&#39;s wordt uitgelegd hoe u de maatstaven voor activiteiten kunt gebruiken.
+De [[!DNL Target Standard/Premium]  versie 25.2.1 ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2), gelanceerd op 17 februari 2015, introduceerde bijgewerkte [!DNL Target] en [!UICONTROL Visual Experience Composer] (VEC) UIs. Deze sectie schetst de belangrijkste verschillen tussen de erfenis en bijgewerkte UI, specifiek aangezien zij op het vormen en het beheren van succesmetriek betrekking hebben.
 
-* Begrijp &quot;doel&quot;metriek
-* Omzetten, Inkomsten en Betrokkenheid begrijpen en bouwen
-* Een metrisch object voor klikken bijhouden maken
+### Wijzigingen in de gebruikersinterface die betrekking hebben op gegevens over succes van [!UICONTROL Revenue] {#changes}
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+In de bijgewerkte interface [!DNL Target] is de vervolgkeuzelijst [!UICONTROL Default View for Reporting] verwijderd. Dit veld is overbodig omdat eerder de standaardrapportweergave onder [!DNL Overview] > [!UICONTROL Reports] is opgeslagen in de oudere gebruikersinterface.
+
+Met de bijgewerkte UI, is standaard rapporteringsmetrisch nu altijd plaatste aan [!UICONTROL Revenue per Visitor (RPV)]. U kunt de weergave in de sectie [!UICONTROL Reports] nog steeds aanpassen om metriek weer te geven die het meest relevant zijn voor uw analyse.
+
+Deze wijziging heeft geen invloed op de maatstaven van de levering. Deze wijziging is alleen van invloed op het standaardfilter dat in de rapportweergave wordt weergegeven. Omdat RPV het meest gebruikte metrisch onder klanten is, werd dit gebrek geselecteerd om rapporteringswerkschema&#39;s te stroomlijnen. U kunt op elk gewenst moment binnen de sectie [!UICONTROL Reports] naar andere metriek overschakelen.
