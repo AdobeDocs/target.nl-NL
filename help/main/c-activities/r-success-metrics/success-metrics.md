@@ -4,9 +4,9 @@ description: Leer meer over succesmetriek die u helpen het succes van een activi
 title: Wat zijn succescijfers?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: ad26684d40ccb5239a345da73adfa924a04189ef
+source-git-commit: a34d40bef584bfa941731df718cb402c658f5d28
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1362'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,8 @@ De volgende maatstaven voor succes kunnen worden geconfigureerd in de sectie [!U
 
 | Metrisch met succes | Meetmethode | Definitie |
 |--- |--- |--- |
-| [!UICONTROL Con] versie | Op basis van conversie | Omzetten is wanneer een bezoeker een door u gedefinieerde handeling op uw site uitvoert, zoals <ul><li>Pagina&#39;s weergeven</li><li>Een box weergegeven</li><li>Op een element klikken</li></ul>Een conversie kan één keer per bezoeker worden meegeteld of telkens wanneer een bezoeker een conversie voltooit. |
-| [!UICONTROL Revenue] | Op basis van conversie | Door het bezoek gegenereerde inkomsten. U kunt slechts één metrische omzet kiezen:<ul><li>Een box weergegeven</li></ul>Voor meer informatie over veranderingen in bijgewerkte [!DNL Target] UI aangezien het aan de metriek van het opbrengstsucces heeft, zie [ veranderingen UI met betrekking tot succesmetriek ](#changes) hieronder. |
+| [!UICONTROL Conversion] | Op basis van conversie | Omzetten is wanneer een bezoeker een door u gedefinieerde handeling op uw site uitvoert, zoals <ul><li>Pagina&#39;s weergeven</li><li>Een box weergegeven</li><li>Op een element klikken</li></ul>Een conversie kan één keer per bezoeker worden meegeteld of telkens wanneer een bezoeker een conversie voltooit. |
+| [!UICONTROL Revenue] | Op basis van conversie | Door het bezoek gegenereerde inkomsten. U kunt slechts één metrische omzet kiezen:<ul><li>Een box weergegeven</li></ul>Voor meer informatie over veranderingen in bijgewerkte [!DNL Target] UI aangezien het aan de metriek van het opbrengstsucces heeft, zie [ Bijgewerkte  [!DNL Target]  veranderingen UI ](#changes) hieronder. |
 | [!UICONTROL Engagement] | Op betrokkenheid gebaseerd | Betrokkenheid bij het bezoek. U kunt uit de volgende betrokkenheidsmetriek kiezen:<UL><li>Paginaweergaven: elk uniek bezoek wordt geteld als een conversie.</li><li>[!UICONTROL Custom Scoring]: geaggregeerde score op basis van de waarde die is toegewezen aan pagina&#39;s die op de site zijn bezocht, vanaf het punt waarop de bezoeker de eerste weergave van de [!DNL Target] -aanvraag van de activiteit ziet.</li>[!DNL Time on Site]: De tijd die in het bezoek (in seconden) is doorgebracht vanaf het punt waarop de bezoeker de eerste weergave [!DNL Target] van de activiteit ziet bij het laden van de laatste pagina met een aanvraag in de sessie.</UL> |
 
 Voor op betrokkenheid gebaseerde metriek (in tegenstelling tot op conversie gebaseerde en op opbrengst-gebaseerde metriek), moeten de bezoekers voor de activiteit op elk bezoek opnieuw kwalificeren om de telling voor die zitting te verhogen. De bijbehorende metrische waarde begint na herkwalificatie te stijgen en stopt aan het einde van de sessie van elke bezoeker. Een sessie eindigt na 30 minuten inactiviteit. Daarom ziet u niet onmiddellijk resultaten tijdens het testen; nochtans, zijn alle resultaten van die zitting beschikbaar binnen een paar notulen van de zitting die beëindigt.
@@ -111,11 +111,11 @@ Kies het gewenste gedrag:
 
   Wanneer een succes metrisch wordt geplaatst om op elke indruk te verhogen, [!DNL Target] telt opnieuw de bezoeker telkens als de bezoeker dit succes metrisch bezoekt. [!DNL Target] herstelt dan het succes metrische &quot;lidmaatschap&quot;aan 0 zodat kan het opnieuw op de volgende indruk tellen. Dus als een andere metrische waarde vereist dat deze metrische waarde als eerste is gezien, herkent [!DNL Target] nooit dat de gebruiker de eerste metrische waarde heeft gezien.
 
-## Bijgewerkte wijzigingen in de gebruikersinterface van het doel
+## Bijgewerkte [!DNL Target] UI-wijzigingen {#changes}
 
 De [[!DNL Target Standard/Premium]  versie 25.2.1 ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2), gelanceerd op 17 februari 2015, introduceerde bijgewerkte [!DNL Target] en [!UICONTROL Visual Experience Composer] (VEC) UIs. Deze sectie schetst de belangrijkste verschillen tussen de erfenis en bijgewerkte UI, specifiek aangezien zij op het vormen en het beheren van succesmetriek betrekking hebben.
 
-### Wijzigingen in de gebruikersinterface die betrekking hebben op gegevens over succes van [!UICONTROL Revenue] {#changes}
+### Wijzigingen in de gebruikersinterface die betrekking hebben op gegevens over succes van [!UICONTROL Revenue]
 
 In de bijgewerkte interface [!DNL Target] is de vervolgkeuzelijst [!UICONTROL Default View for Reporting] verwijderd. Dit veld is overbodig omdat eerder de standaardrapportweergave onder [!DNL Overview] > [!UICONTROL Reports] is opgeslagen in de oudere gebruikersinterface.
 
