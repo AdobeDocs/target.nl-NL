@@ -6,9 +6,9 @@ short-description: Leer over de nieuwe eigenschappen, de verhogingen, en de moei
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e612ec5814c931349699b6b4d2c9fa71b493413c
+source-git-commit: d6d58e94f4d4745b0783321671025d9cdd07f57f
 workflow-type: tm+mt
-source-wordcount: '2594'
+source-wordcount: '3287'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Ontdek de nieuwste functies, verbeteringen en oplossingen in [!DNL Adobe Target]
 
 ## Tijdgevoelige updates die u moet weten {#time-sensitive}
 
-[!BADGE &#x200B; Belangrijk &#x200B;]{type=Informative}
+[!BADGE  Belangrijk ]{type=Informative}
 
 Voor tijdgevoelige updates met betrekking tot [!DNL Adobe Target] en uw implementatie, [!DNL Adobe] verstrekt gedetailleerde versienota&#39;s en documentatie door [!UICONTROL Experience League]. Hier volgen enkele belangrijke punten die relevant zijn voor uw implementatie:
 
@@ -32,7 +32,7 @@ Het team van [!DNL Target] biedt een tijdelijke functie waarmee u met een schake
 
 ![ de versiesknevel van het Doel UI ](/help/main/r-release-notes/assets/toggle.png)
 
-Zodra de rollout volledig is, zal de knevel worden verwijderd, en alle gebruikers zullen permanent naar bijgewerkte UI overgaan. [!DNL Adobe] raadt u aan vooruit te plannen, aangezien deze functie binnenkort wordt uitgeschakeld.
+Zodra de rollout volledig is, zal de knevel worden verwijderd, en alle gebruikers overgang permanent aan bijgewerkte UI. [!DNL Adobe] raadt u aan vooruit te plannen, aangezien deze functie binnenkort wordt uitgeschakeld.
 
 #### Tijdlijn van verdringing
 
@@ -61,8 +61,8 @@ De Zorg van de Klant van Adobe van het contact [ met om het even welke zorgen of
 De volgende informatie beschrijft de beperkingen die u bewust zou moeten zijn wanneer het kiezen om de versiesknevel te gebruiken:
 
 * **Zichtbaarheid van nieuwe activiteiten**: De activiteiten die in bijgewerkte UI worden gecreeerd zullen niet zichtbaar zijn als u terug naar erfenisUI schakelt.
-* **het uitgeven van bestaande activiteiten**: De veranderingen die aan bestaande activiteiten (oorspronkelijk in erfenis UI) worden aangebracht terwijl het gebruiken van bijgewerkte UI zullen worden gepubliceerd aan uw website. Deze updates zijn echter niet zichtbaar in de oudere UI als u terugschakelt. Alleen de laatste updates die zijn uitgevoerd vanuit de oudere UI worden daar weergegeven.
-* **Consistentie van activiteitendetails**: De meest recente veranderingen, ongeacht welke UI u gebruikt, zullen op uw levende website worden weerspiegeld. In de oudere gebruikersinterface worden echter alleen de laatste wijzigingen weergegeven die in die versie zijn aangebracht. Dit zou verwarring kunnen veroorzaken als de activiteiten die in bijgewerkte UI worden uitgegeven verschillend kijken dan wat u in erfenisUI ziet.
+* **het uitgeven van bestaande activiteiten**: De veranderingen die aan bestaande activiteiten (oorspronkelijk in erfenis UI) worden aangebracht terwijl het gebruiken van bijgewerkte UI worden gepubliceerd aan uw website. Nochtans, zijn deze updates niet zichtbaar in erfenis UI als u terug schakelt; slechts de laatste die updates van erfenisUI worden gemaakt verschijnen daar.
+* **Consistentie van activiteitendetails**: De meest recente veranderingen, ongeacht welke UI u gebruikt, worden weerspiegeld op uw levende website. In de oudere gebruikersinterface worden echter alleen de meest recente wijzigingen weergegeven die in die versie zijn aangebracht. Deze situatie zou verwarring kunnen veroorzaken als de activiteiten die in bijgewerkte UI worden uitgegeven verschillend kijken dan wat u in erfenisUI ziet.
 
 #### Meer bronnen voor meer informatie over de bijgewerkte gebruikersinterface
 
@@ -72,6 +72,91 @@ De volgende informatie beschrijft de beperkingen die u bewust zou moeten zijn wa
 * [ begrijp  [!DNL Target]  UI ](/help/main/c-intro/understand-the-target-ui.md): Verstrekt een kort overzicht om u te helpen vertrouwd worden met [!DNL Target] en verleent verbindingen voor meer diepgaande informatie en geleidelijke instructies.
 * [[!UICONTROL Visual Experience Composer] changes ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : In de release [!DNL Adobe Target Standard/Premium] 25.2.1 (17 februari 2015) wordt een bijgewerkte versie van [!UICONTROL Visual Experience Composer] (VEC) geïntroduceerd. Dit artikel verklaart de verschillen tussen de erfenis en bijgewerkte versies van VEC.
 * [[!UICONTROL Visual Experience Composer] opties ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): Dit artikel verklaart bijgewerkte UI VEC en zijn opties.
+
++++
+
+## [!DNL Target Standard/Premium] 25.7.2 (18 juli 2025)
+
+Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houden met complexe klantaanpassingen, bevat deze release de volgende oplossingen en updates:
+
+**Activiteiten**
+
++++Zie details
+* Er is een extra bevestigingswaarschuwing toegevoegd bij het annuleren van bewerkingen met niet-opgeslagen wijzigingen: &quot;Wilt u deze activiteit echt opslaan? Als u niet opslaat, gaan alle wijzigingen verloren.&quot; Met dit bericht voorkomt u dat gegevens per ongeluk verloren gaan. (TGT-52865)
+* De oude functionaliteit is hersteld naar de schuifregelaar [!UICONTROL Priority] in [!UICONTROL Goals & Settings] , zodat klanten direct een numerieke waarde kunnen invoeren. Dit wordt ondersteund in de oudere gebruikersinterface. (TGT-53185 &amp; TGT-53219)
+
++++
+
+**Soorten publiek**
+
++++Zie details
+* Probleem verholpen waarbij het opslaan of bewerken van activiteiten met aangepast publiek werd voorkomen. Klanten hebben het foutbericht &quot;We kunnen uw verzoek niet voltooien. Neem contact op met [!DNL Adobe Client Care] als het probleem zich blijft voordoen.&quot; wanneer u probeert wijzigingen in bepaalde activiteiten op te slaan, of zelfs zonder wijzigingen op te slaan. (TGT-53189)
+
++++
+
+**[!UICONTROL Analytics for Target](A4T)**
+
++++Zie details
+* Probleem verholpen waarbij klanten rapporten voor specifieke activiteiten op de pagina [!UICONTROL Goals & Settings] weergeven, wordt met de koppeling [!UICONTROL View in Analytics] onjuist verwezen naar de QA-omgeving in plaats van naar de productieomgeving. (TGT-53163)
+
++++
+
+**[!UICONTROL Experiences]en[!UICONTROL Offers]**
+
++++Zie details
+* Probleem verholpen waarbij het aanroepen van `triggerView` via aangepaste code een oneindige lus veroorzaakte. (TGT-52885)
+* Probleem verholpen waarbij een probleem optrad dat niet overeenkomt met de verschillen tussen de definities in `LocalIds` die zijn gedefinieerd voor activiteiten en die in `LocalIds` die worden gebruikt in ervaringsdefinities. (TGT-52669)
+* Probleem verholpen waarbij de metrische namen ontbraken op de pagina activity [!UICONTROL Overview] en alleen &#39;Offer&#39; in plaats van de juiste metrische naam werden weergegeven. (TGT-53054)
+
++++
+
+**vorm-Gebaseerde Composer van de Ervaring**
+
++++Zie details
+* Probleem verholpen in de [!UICONTROL Form-Based Experience Composer] die het opslaan van activiteiten verhinderde en het foutbericht activeerde: &quot;Kan eigenschappen van undefined niet lezen (lees &#39;map&#39;)&quot;. (TGT-53145)
+
++++
+
+**Aanbevelingen**
+
++++Zie details
+* Probleem verholpen waarbij door te klikken op een product uit [!UICONTROL Catalog Search] de fout &#39;&#39;Kan de productdetails niet ophalen&#39;&#39; werd weergegeven en een modaal zonder sluitoptie werd geopend. (TGT-53082)
+* Oplossing voor een probleem waarbij [ aanbevelingen als aanbiedingen ](/help/main/c-recommendations/recommendations-as-an-offer.md) in [!UICONTROL A/B Test] activiteiten niet correct bleven wanneer het veranderen van inzamelingen of bevorderingen. (TGT-52884)
+* Probleem verholpen waarbij in de productieomgeving werd geklikt op een entiteit in de bijgewerkte interface en de fout werd weergegeven: &quot;Kan de productdetails niet ophalen. Neem contact op met [!DNL Adobe Client Care] als dit probleem zich blijft voordoen.&quot; (TGT-53071)
+
++++
+
+**Rapporten**
+
++++Zie details
+* Oplossing van een probleem waarbij het opslaan van ordergegevens naar een CSV-bestand resulteerde in een leeg bestand. (TGT-5225)
+
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++Zie details
+* Het probleem op de pagina [!UICONTROL Goals & Settings] waarbij kiezers die in meerdere ervaringen werden gebruikt, niet altijd als geselecteerd werden gemarkeerd, is opgelost. (TGT-53062)
+* Probleem verholpen waarbij het bewerken van activiteiten werd verhinderd en het foutbericht werd geactiveerd: &quot;Kan de eigenschappen van undefined (lezen van &#39;map&#39;) niet lezen.&quot; (TGT-53161)
+
++++
+
+**Werkruimten**
+
++++Zie details
+* Verbeterde afhandeling van ad-hocaanbiedingen bij het schakelen tussen werkruimten.
+   * Wanneer u van de standaardwerkruimte overschakelt op een niet-standaardwerkruimte (of tussen niet-standaardwerkruimten), worden de ad-hocaanbiedingen nu op de juiste wijze gekopieerd. Tijdens initialisatie, wordt de werkruimtecontext bijgewerkt en een nieuwe identiteitskaart wordt toegewezen aan de aanbieding om uniciteit te verzekeren.
+   * Er treden geen wijzigingen op wanneer u binnen dezelfde werkruimte blijft. (TGT-53079)
+* Vaste een kwestie die klanten verhinderde [ het kopiëren activiteiten tussen verschillende werkruimten ](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6). (TGT-52753 &amp; TGT-47094)
+* Probleem verholpen bij het wijzigen van eigenschappen tussen werkruimten.
+   * Als de huidige eigenschap in de doelwerkruimte bestaat, blijft de eigenschap behouden wanneer wordt geschakeld tussen de standaardwerkruimte en een niet-standaardwerkruimte.
+   * Als in de lijst [!UICONTROL Properties] een waarschuwing wordt weergegeven (die sommige eigenschappen mogelijk niet compatibel maakt) en de klant op [!UICONTROL Add] of [!UICONTROL Remove] klikt en vervolgens op [!UICONTROL Save] klikt, worden alle eigenschappen die zich niet in de doelwerkruimte bevinden, verwijderd. Als de klant op [!UICONTROL Cancel] klikt, blijven alle eigenschappen behouden, zelfs als ze niet bestaan in de doelwerkruimte. (TGT-47094)
+   * Als u in dezelfde werkruimte blijft of van een niet-standaardwerkruimte overschakelt op de standaardwerkruimte of op een andere werkruimte, blijft alles ongewijzigd. (TGT-53078)
+* Bijgewerkte logica voor entiteitsvalidatie om de oorspronkelijke werkruimtecontext van de activiteit te respecteren. Entiteiten zoals [!UICONTROL Experience Fragments] (XFs) worden nu gevalideerd op basis van de werkruimte waarin de activiteit oorspronkelijk is gemaakt. Als er bijvoorbeeld een XF-bestand aanwezig is in de standaardwerkruimte en de activiteit wordt gekopieerd van werkruimte X naar werkruimte Y, gaat de validatie nog steeds door zolang de XF-waarde geldig is in de oorspronkelijke (standaard)werkruimte. (TGT-53196)
+* Verbeterde ondersteuning voor het kopiëren van ad-hocdoelgroepen tijdens dubbel werk.
+   * Ad-hocdoelgroepen, zoals metriek, rapportage, pagina en alleen-activiteit, worden nu automatisch gekopieerd in de volgende scenario&#39;s:
+      * Bij het kopiëren van een activiteit van de standaardwerkruimte naar een niet-standaardwerkruimte.
+      * Bij het kopiëren van een activiteit binnen dezelfde werkruimte. (TGT-53197)
 
 +++
 
@@ -99,7 +184,7 @@ Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houde
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++Zie details
 * Probleem verholpen waarbij het kopiëren van een bestaande activiteit en het wijzigen van de rapportbron in [!DNL Adobe Analytics] (A4T) zou resulteren in een fout met betrekking tot &quot;Ongeldige gebruikersinvoer&quot;. De fout werd geactiveerd wanneer bepaalde metrische handelingen die niet compatibel zijn met [!DNL Analytics] -rapportage, zoals `restart_same_experience` , `restart_random_experience` en `restart_new_experience` , niet in de oorspronkelijke activiteit zijn opgenomen. (TGT-52900)
@@ -114,10 +199,10 @@ Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houde
 
 +++Zie details
 <!-- * Fixed an issue where using the [!UICONTROL Manage Content] feature in [!UICONTROL Automated Personalization] (AP) activities caused the page to crash and remain blank. This issue occurred after clicking [!UICONTROL Done] in the content manager, particularly in activities created or edited in the updated UI. (TGT-53047)-->
-* Probleem verholpen waarbij de functie [!UICONTROL Manage Content] de status van een locatie niet correct valideerde nadat alle inhoudsopties waren verwijderd. Dit kan leiden tot inconsistente gedragingen of fouten bij het opslaan of doorgaan met de activiteitenconfiguratie. (TGT-52801)
-* Probleem verholpen waarbij gebruikers een &#39;&#39;Ongeldige invoerfout&#39;&#39; tegenkwamen bij het toevoegen van een nieuwe pagina en het verwijderen van specifieke elementen uit verschillende ervaringen. De fout werd veroorzaakt door dubbel `LocalIds` die tijdens elementmanipulatie wordt geproduceerd, in het bijzonder wanneer het schakelen tussen ervaringen en het wijzigen van gedeelde paginastructuren. (TGT-52720)
+* Probleem verholpen waarbij de functie [!UICONTROL Manage Content] de status van een locatie niet correct valideerde nadat alle inhoudsopties waren verwijderd. Dit probleem kan leiden tot inconsistente gedragingen of fouten bij het opslaan of doorgaan met de activiteitenconfiguratie. (TGT-52801)
+* Probleem verholpen waarbij gebruikers een &#39;&#39;Ongeldige invoerfout&#39;&#39; tegenkwamen bij het toevoegen van een nieuwe pagina en het verwijderen van specifieke elementen uit verschillende ervaringen. De fout wordt veroorzaakt door dubbel `LocalIds` die tijdens elementmanipulatie wordt geproduceerd, vooral wanneer het schakelen tussen ervaringen en het wijzigen van gedeelde paginastructuren. (TGT-52720)
 * Het probleem waarbij het gebruik van de functie [!UICONTROL Generate Adhoc Offer] tot ongedefinieerde locaties in het deelvenster [!UICONTROL Manage Content] leidde, is opgelost. (TGT-53076 &amp; TGT-53070)
-* Verduidelijkt het gedrag voor de klant waar wijzigingen die met een HTML-aanbieding zijn aangebracht, mogelijk ontbreken wanneer u van de stap [!UICONTROL Targeting] terug naar [!UICONTROL Experiences] navigeert. Voor deze klant heeft de desbetreffende website dynamisch meerdere DOM-kiezers gegenereerd die zijn gewijzigd bij het laden van elke pagina. Hierdoor kan de kiezer die oorspronkelijk voor de wijziging is gebruikt, niet worden gevonden wanneer de editor opnieuw wordt geopend, waardoor de wijziging ontbreekt of ongeldig wordt weergegeven. Dit werkt zoals ontworpen. Om ervoor te zorgen dat de wijzigingen in de redacteur visueel blijven, adviseert men dat de cliënten stabiele, verenigbare selecteurs gebruiken die niet over paginaatherladingen veranderen. (TGT-52874)
+* Verduidelijkt het gedrag voor de klant waar wijzigingen die met een HTML-aanbieding zijn aangebracht, mogelijk ontbreken wanneer u van de stap [!UICONTROL Targeting] terug naar [!UICONTROL Experiences] navigeert. Voor deze klant heeft de desbetreffende website dynamisch meerdere DOM-kiezers gegenereerd die zijn gewijzigd bij het laden van elke pagina. Hierdoor kan de kiezer die oorspronkelijk voor de wijziging is gebruikt, niet worden gevonden wanneer de editor opnieuw wordt geopend, waardoor de wijziging ontbreekt of ongeldig wordt weergegeven. Dit scenario werkt zoals ontworpen. Om ervoor te zorgen dat de wijzigingen in de redacteur visueel blijven, adviseert men dat de cliënten stabiele, verenigbare selecteurs gebruiken die niet over paginaatherladingen veranderen. (TGT-52874)
 * Probleem verholpen waarbij het verwijderen of deactiveren van een aanbieding die deel uitmaakte van een uitgesloten ervaring, leidde tot een fout met betrekking tot &quot;Ongeldige gebruikersinvoer&quot;. Dit probleem kwam aan de orde, ook al werd het aanbod niet actief gebruikt in de meegeleverde ervaringen. (TGT-52917)
 
 +++
@@ -156,7 +241,7 @@ Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houde
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Zie details
 * Oplossing voor een probleem waarbij het toepassen van een wijziging op een weergave ertoe zou leiden dat de weergave wordt gedupliceerd en dat de activiteit een fout met &quot;Ongeldige gebruikersinvoer&quot; retourneert. Met deze correctie zorgt u ervoor dat weergavewijzigingen correct worden toegepast zonder dat er fouten optreden bij het dupliceren of valideren. (TGT-52886)
@@ -174,7 +259,7 @@ Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houde
 * Probleem verholpen waarbij wijzigingen in aangepaste code niet correct werden opgeslagen en onbedoeld werden weerspiegeld in meerdere ervaringen binnen dezelfde activiteit. Bovendien stuitten gebruikers op toegangsproblemen bij het openen of vernieuwen van bepaalde activiteiten, wat leidde tot lege schermen. Deze problemen zijn nu opgelost om te zorgen voor een stabiele bewerking van activiteiten en een nauwkeurige isolatie van ervaringen. (TGT-52594)
 * Probleem verholpen waarbij gebruikers in [!UICONTROL Browse Mode] niet naar een andere URL konden bladeren. Hierdoor konden testers en editors geen alternatieve pagina&#39;s valideren of voorvertonen binnen dezelfde activiteitensessie. (TGT-53052)
 * Probleem verholpen waarbij meerdere [!UICONTROL Visual Experience Composer] (VEC) instanties tegelijkertijd werden geopend tijdens het maken van activiteiten. Dit probleem is opgetreden wanneer gebruikers [!UICONTROL Enhanced Experience Composer] (EEC) hadden uitgeschakeld en de slash van de URL van de website in de stap [!UICONTROL Page Delivery] hadden verwijderd. (TGT-52782)
-* Probleem verholpen waarbij de [!UICONTROL Revenue] metrische vervolgkeuzelijst in de stap [!UICONTROL Goals & Settings] onjuist zou worden standaard op [!UICONTROL Revenue per Visit] (RPVISIT), zelfs nadat de gebruiker een andere maatstaf had geselecteerd.  Er is een probleem opgetreden bij het samenvouwen en opnieuw uitvouwen van het configuratievenster voor metrische gegevens, waardoor de eerder geselecteerde waarde opnieuw is ingesteld. (TGT-52811 &amp; TGT-52878)
+* Probleem verholpen waarbij de [!UICONTROL Revenue] metrische vervolgkeuzelijst in de stap [!UICONTROL Goals & Settings] onjuist zou worden standaard op [!UICONTROL Revenue per Visit] (RPVISIT), zelfs nadat de gebruiker een andere maatstaf had geselecteerd.  Het probleem trad op bij het samenvouwen en opnieuw uitvouwen van het configuratievenster voor metrische gegevens, waardoor de eerder geselecteerde waarde opnieuw werd ingesteld. (TGT-52811 &amp; TGT-52878)
 * Oplossing voor verschillende problemen in de workflow voor het maken van activiteiten met betrekking tot het aanbieden van naamgeving en het vertalen van inhoud in [!UICONTROL Automated Personalization] (AP)- en [!UICONTROL Multivariate Testing] (MVT)-activiteiten:
 
   Belangrijkste problemen opgelost:
@@ -189,8 +274,8 @@ Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houde
 
 | Bron | Details |
 |--- |--- |
-| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=nl-NL) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
-| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
+| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
+| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
 
 ## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release van Experience Cloud
 
@@ -200,7 +285,7 @@ Naast de notities voor elke release bevatten de volgende bronnen aanvullende inf
 |--- |--- |
 | [ Veranderingen van de Documentatie ](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
 | [ de nota&#39;s van de Versie voor vorige versies ](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
-| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl-NL){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
+| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
 
 ## Prerelease-informatie {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
