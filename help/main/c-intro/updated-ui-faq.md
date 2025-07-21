@@ -4,9 +4,9 @@ description: Vragen en antwoorden over het bijgewerkte  [!DNL Target] niet gebru
 title: Waar kan ik FAQs over bijgewerkte  [!DNL Target]  UI vinden?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -79,11 +79,29 @@ Voor meer informatie, zie [ tijd-gevoelige updates u ](/help/main/r-release-note
 
 +++
 
-## Zijn de statussen [!UICONTROL Save as Draft] en [!UICONTROL Syncing] nog steeds beschikbaar?
+## Kan ik de [!UICONTROL Components] - en [!UICONTROL Modifications] -rails samenvouwen zodat ik het deelvenster [!UICONTROL Design] kan vergroten? {#collapse}
 
 +++Details
 
+Ja, u kunt beide rails samenvouwen om het canvas van [!UICONTROL Design] uit te vouwen, zodat u deze gemakkelijker kunt bewerken. Hieronder wordt beschreven hoe:
 
+>[!NOTE]
+>
+>Het [!UICONTROL Show Components] pictogram ( ![ toon het pictogram van Componenten ](/help/main/assets/icons/Add.svg)) en het [!UICONTROL Show Modifications] pictogram ( ![ toon de spoorstaaf van Wijzigingen ](/help/main/assets/icons/History.svg)) dienst als knevels om de aangewezen opties te tonen.
+
+**Vouw [!UICONTROL Components] spoor** samen
+
+Om het [!UICONTROL Components] spoor samen te vouwen en het [!UICONTROL Design] canvas te vergroten, terwijl het [!UICONTROL Components] spoor open is, klik het ( ![ toont het pictogram van Componenten ](/help/main/assets/icons/Add.svg)).
+
+**Vouw [!UICONTROL Modifications] spoor** samen
+
+Om [!UICONTROL Modifications] spoorstaaf samen te vouwen en het [!UICONTROL Design] canvas te vergroten, terwijl de [!UICONTROL Modifications] spoorstaaf open is, klik het [!UICONTROL Show Modifications] pictogram ( ![ toon de spoorstaaf van Wijzigingen ](/help/main/assets/icons/History.svg) ).
+
++++
+
+## Zijn de statussen [!UICONTROL Save as Draft] en [!UICONTROL Syncing] nog steeds beschikbaar?
+
++++Details
 Met de meest recente updates van de gebruikersinterface zijn de statussen [!UICONTROL Save as Draft] en [!UICONTROL Syncing] niet meer beschikbaar. Voor meer informatie, zie Statussen onder [ filters toepassen op de lijst van Activiteiten ](/help/main/c-activities/activities.md#filters) in *[!UICONTROL Activities overview]*.
 
 +++

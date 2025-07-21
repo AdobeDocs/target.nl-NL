@@ -4,9 +4,9 @@ description: Begrijp de veranderingen die in Visual Experience Composer (VEC) in
 title: Welke veranderingen worden geïntroduceerd in nieuwe Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: b1bde455f686c34e7a5184868ce63db0b74e2af7
+source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -43,11 +43,23 @@ U kunt een aantal componenten aan uw webpagina toevoegen en deze naar wens bewer
 
 Als u een nieuwe component wilt toevoegen, sleept u de component uit de [!UICONTROL Components] -rail die u over een bestaand pagina-element in het [!UICONTROL Design] -canvas wilt invoegen. Kies vervolgens of u de component wilt invoegen voor of na het geselecteerde element.
 
+>[!NOTE]
+>
+>Als u [!UICONTROL Modifications] spoor in dit gebied in plaats van [!UICONTROL Components] spoor ziet, klik het **[!UICONTROL Show Components]** pictogram ( ![ toon het pictogram van Componenten ](/help/main/assets/icons/Add.svg)). Het [!UICONTROL Show Components] pictogram ( ![ toon het pictogram van Componenten ](/help/main/assets/icons/Add.svg)) en het [!UICONTROL Show Modifications] pictogram ( ![ toon de spoorstaaf van Wijzigingen ](/help/main/assets/icons/History.svg)) dienst als knevels om de aangewezen opties te tonen.
+>
+>Om het [!UICONTROL Components] spoor samen te vouwen en het [!UICONTROL Design] canvas te vergroten, terwijl het [!UICONTROL Components] spoor open is, klik het ( ![ toont het pictogram van Componenten ](/help/main/assets/icons/Add.svg)).
+
 ### [!UICONTROL Modifications] rail
 
 Om het [!UICONTROL Modifications] spoor te openen, klik het [!UICONTROL Show Modifications] pictogram ( ![ toon de spoorstaaf van Wijzigingen ](/help/main/assets/icons/History.svg)) in [!UICONTROL Components] spoor. De [!UICONTROL Modifications] -rail is van de rechterkant veranderd in de linkerkant van het bewerkingscanvas.
 
 ![ de spoorstaaf van Wijzigingen ](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+
+>[!NOTE]
+>
+>Het [!UICONTROL Show Components] pictogram ( ![ toon het pictogram van Componenten ](/help/main/assets/icons/Add.svg)) en het [!UICONTROL Show Modifications] pictogram ( ![ toon de spoorstaaf van Wijzigingen ](/help/main/assets/icons/History.svg)) dienst als knevels om de aangewezen opties te tonen.
+>
+>Om [!UICONTROL Modifications] spoorstaaf samen te vouwen en het [!UICONTROL Design] canvas te vergroten, terwijl de [!UICONTROL Modifications] spoorstaaf open is, klik het [!UICONTROL Show Modifications] pictogram ( ![ toon de spoorstaaf van Wijzigingen ](/help/main/assets/icons/History.svg) ).
 
 In de track van [!UICONTROL Modifications] worden alle wijzigingen weergegeven die in de VEC op de pagina zijn aangebracht en kunt u aanvullende wijzigingen aanbrengen (zoals CSS-kiezer, Mbox en Aangepaste code).
 
