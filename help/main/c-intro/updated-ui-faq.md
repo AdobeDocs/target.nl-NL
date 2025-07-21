@@ -4,9 +4,9 @@ description: Vragen en antwoorden over het bijgewerkte  [!DNL Target] niet gebru
 title: Waar kan ik FAQs over bijgewerkte  [!DNL Target]  UI vinden?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
+source-git-commit: b91abbd3b7418fd4d1444d96f160c3d9017f3bf8
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1112'
 ht-degree: 0%
 
 ---
@@ -79,11 +79,11 @@ Voor meer informatie, zie [ tijd-gevoelige updates u ](/help/main/r-release-note
 
 +++
 
-## Kan ik de [!UICONTROL Components] - en [!UICONTROL Modifications] -rails samenvouwen zodat ik het deelvenster [!UICONTROL Design] kan vergroten? {#collapse}
+## Kan ik de rails [!UICONTROL Components] , [!UICONTROL Modifications] en [!UICONTROL Properties] samenvouwen zodat ik het deelvenster [!UICONTROL Design] kan vergroten? {#collapse}
 
 +++Details
 
-Ja, u kunt beide rails samenvouwen om het canvas van [!UICONTROL Design] uit te vouwen, zodat u deze gemakkelijker kunt bewerken. Hieronder wordt beschreven hoe:
+Ja, u kunt deze rails samenvouwen om het canvas van [!UICONTROL Design] uit te vouwen, zodat u ze gemakkelijker kunt bewerken. Hieronder wordt beschreven hoe:
 
 >[!NOTE]
 >
@@ -96,6 +96,10 @@ Om het [!UICONTROL Components] spoor samen te vouwen en het [!UICONTROL Design] 
 **Vouw [!UICONTROL Modifications] spoor** samen
 
 Om [!UICONTROL Modifications] spoorstaaf samen te vouwen en het [!UICONTROL Design] canvas te vergroten, terwijl de [!UICONTROL Modifications] spoorstaaf open is, klik het [!UICONTROL Show Modifications] pictogram ( ![ toon de spoorstaaf van Wijzigingen ](/help/main/assets/icons/History.svg) ).
+
+**Vouw [!UICONTROL Properties] spoor** samen
+
+Om [!UICONTROL Properties] spoorstaaf samen te vouwen en het [!UICONTROL Design] canvas te vergroten, klik het [!UICONTROL Show/Hide Properties] pictogram ( ![ pictogram van Eigenschappen ](/help/main/assets/icons/Propertie.svg)) rechts van de spoorstaaf om [!UICONTROL Properties] spoorstaaf samen te vouwen of te tonen.
 
 +++
 
