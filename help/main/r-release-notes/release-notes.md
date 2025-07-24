@@ -6,9 +6,9 @@ short-description: Leer over de nieuwe eigenschappen, de verhogingen, en de moei
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d6d58e94f4d4745b0783321671025d9cdd07f57f
+source-git-commit: 265108dbb0a459e1b111fda01a35042170f05562
 workflow-type: tm+mt
-source-wordcount: '3287'
+source-wordcount: '4383'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Ontdek de nieuwste functies, verbeteringen en oplossingen in [!DNL Adobe Target]
 
 ## Tijdgevoelige updates die u moet weten {#time-sensitive}
 
-[!BADGE &#x200B; Belangrijk &#x200B;]{type=Informative}
+[!BADGE  Belangrijk ]{type=Informative}
 
 Voor tijdgevoelige updates met betrekking tot [!DNL Adobe Target] en uw implementatie, [!DNL Adobe] verstrekt gedetailleerde versienota&#39;s en documentatie door [!UICONTROL Experience League]. Hier volgen enkele belangrijke punten die relevant zijn voor uw implementatie:
 
@@ -75,6 +75,103 @@ De volgende informatie beschrijft de beperkingen die u bewust zou moeten zijn wa
 
 +++
 
+## [!DNL Target Standard/Premium] 25.7.3 (24 juli 2025)
+
+Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houden met complexe klantaanpassingen, bevat deze release de volgende oplossingen en updates:
+
+**Activiteiten**
+
++++Zie details
+* Probleem verholpen waarbij de methode `buildViews` in de klasse builder `viewMaxLocalId` onjuist instelde op het totale aantal weergaven in plaats van op het hoogste toegewezen `viewLocalId` . (TGT-53207)
+* Correctie van een probleem in de bijgewerkte gebruikersinterface van [!DNL Target] waarbij verwijderde aanbiedingen in [!UICONTROL Automated Personalization] (AP)-activiteiten werden weergegeven als `Deleted option with ID: X` in plaats van als de oorspronkelijke namen (bijvoorbeeld `Offer Name [Deleted]` zoals weergegeven in de oudere gebruikersinterface). Met deze oplossing herstelt u betekenisvolle etikettering voor verwijderde aanbiedingen, waardoor de duidelijkheid wordt verbeterd en de rapportage nauwkeuriger en gebruiksvriendelijker wordt. (TGT-52921)
+* Probleem verholpen waarbij bepaalde activiteiten die van [!DNL Target] frontend naar [!DNL Target] Central werden gemigreerd inconsistente metrische configuraties hadden als gevolg van een eerder opgeloste synchronisatiefout. Specifiek, behielden de activiteiten die oorspronkelijk een omzettingsmetrisch gebruikten en later aan analytisch-gebaseerde metrisch werden bijgewerkt achterhaalde waarden op `primaryMetricType` en `successCriteria` gebieden. (TGT-52643)
+* Probleem verholpen waarbij de volledige inhoud van een voorvertoningspagina voor kwaliteitscontrole bewerkbaar werd vanwege de onbedoelde opname van het kenmerk `contentEditable` in HTML-wijzigingen. Hierdoor konden gebruikers op tekst op de pagina klikken en deze bewerken, waardoor layoutproblemen en verwarring tijdens kwaliteitscontrole konden ontstaan. (TGT-53247)
+* Probleem verholpen waarbij het verplaatsen van een wijziging van [!DNL Page Load] naar een [!UICONTROL View] ertoe leidde dat de wijziging werd gedupliceerd, en dat deze in [!UICONTROL Page Load] bleef terwijl deze ook in de [!UICONTROL View] werd weergegeven. Bovendien, zou het verwijderen van de wijziging uit [!UICONTROL View] het verkeerd ook verwijderen uit [!UICONTROL Page Load]. (TGT-53270)
+
++++
+
+**APIs**
+
++++Zie details
+* Probleem verholpen in de achtergrondpersistentielaag waarbij verwijderde opties correct waren opgeslagen, maar niet toegankelijk waren via bestaande API-eindpunten. Dientengevolge, konden de frontend toepassingen geen zinvolle namen voor geschrapte opties terugwinnen, die historische rapporteringsmeningen beïnvloeden. Met deze correctie wordt ervoor gezorgd dat behouden verwijderde optiegegevens nu op de juiste wijze kunnen worden weergegeven in de gebruikersinterface. (TGT-52973)
+* Een nieuw migratieeindpunt geïmplementeerd ter ondersteuning van de overdracht van opties voor verwijderde activiteit van op JCR gebaseerde activiteiten naar [!DNL Target] Central. Deze functionaliteit maakt consistente tracering en rapportage mogelijk voor alle systemen. Met deze functie zorgt u ervoor dat verwijderde opties behouden blijven en gesynchroniseerd blijven op de voorzijde en achterzijde van [!DNL Target] , waardoor de historische rapportage en gegevensintegriteit worden verbeterd. (TGT-53217)
+* Introduceerde een nieuw API eindpunt dat gebruikers toestaat om eerder geschrapte activiteitenopties van een secundair gegevensbestand te herstellen. Deze functionaliteit maakt gebruik van de bestaande infrastructuur die door de klassen `RemovedCampaignElements` en `RemovedOptionInfo` wordt geboden, zodat verwijderde opties naadloos kunnen worden geïntegreerd in actieve activiteiten. (TGT-52903)
+* Probleem verholpen waarbij [!DNL Recommendations] -activiteiten met metrische namen van meer dan 25 tekens niet konden worden geopend of bewerkt vanwege API-beperkingen. Deze correctie zorgt voor compatibiliteit met metrische namen die de tekenlimiet overschrijden en herstelt volledige toegang tot de desbetreffende activiteiten. (TGT-52839)
+
++++
+
+**vorm-Gebaseerde Composer van de Ervaring**
+
++++Zie details
+* Oplossing een kwestie in [!UICONTROL Form-Based Experience Composer] die de redacteur aan neerstorting na het klikken van het **[!UICONTROL Manage Content]** pictogram ( ![ leidt het pictogram van de Inhoud ](/help/main/assets/icons/Experience.svg)) toen het creëren van of het uitgeven van een [!UICONTROL Automated Personalization] (AP) activiteit veroorzaakte. (TGT-53047)
+
++++
+
+**Aanbevelingen**
+
++++Zie details
+* Probleem verholpen waarbij [!UICONTROL Catalog Search] geen extra resultaten kon laden wanneer naar de onderkant van de lijst werd geschoven en het gedrag werd hersteld in overeenstemming met de oudere gebruikersinterface. (TGT-53088)
+* Probleem verholpen waarbij het verwijderen van items uit het dialoogvenster [!UICONTROL Criteria Details] werd geblokkeerd. (TGT-53245)
+* Probleem verholpen waardoor het openen van producten zonder naam niet mogelijk was. Dit probleem is opgetreden bij het selecteren van omgevingen die onbenoemde resultaten hebben opgeleverd, waardoor toegang tot productdetails niet mogelijk was. (TGT-53007)
+* Probleem verholpen waarbij de pagina [!UICONTROL Catalog Search] vastliep en een leeg scherm werd weergegeven wanneer bepaalde producten werden geselecteerd. (TGT-53087)
+* Probleem verholpen waarbij gebruikers de site_cart_z1 [!DNL Recommendation] -activiteit niet konden bewerken in de gebruikersinterface van [!DNL Target] . Als u de activiteit probeerde te openen, werd een fout op de pagina [!UICONTROL Overview] gegenereerd, waardoor de toegang tot de editor werd geblokkeerd. (TGT-53221)
+
++++
+
+**Meldend**
+
++++Zie details
+* Probleem verholpen waarbij het sandboxveld in de activiteitsdatabase niet werd gewist toen de rapportbron werd overgeschakeld van [!DNL Customer Journey Analytics] naar [!DNL Analytics] . [!DNL Target] Eerder heeft de gebruikersinterface de sandbox correct verzonden: null, maar de back-end heeft deze waarde genegeerd, waardoor verouderde sandboxgegevens op zijn plaats blijven. De backend ontruimt nu behoorlijk het zandbakgebied wanneer ongeldig wordt ontvangen. (TGT-52798)
+* Implementeer de verwijderde optiepersistentielaag opnieuw in de doelachtergrond om nauwkeurige historische rapportage in [!UICONTROL Automated Personalization] (AP)-activiteiten te ondersteunen. Eerder, toen een optie werd geschrapt, werd zijn naam verloren, die het moeilijk maken om vroegere prestatiesgegevens te interpreteren.
+
+  **Zeer belangrijke Verbeteringen**:
+
+   * Verwijderde opties worden nu bijgehouden met behulp van de bestaande `RemovedCampaignElements` - en `RemovedOptionInfo` -infrastructuur.
+   * Wanneer een optie uit een AP-activiteit wordt verwijderd, blijven de metagegevens (bijvoorbeeld ID en naam) behouden.
+   * De rapportinterface kan nu de oorspronkelijke optienaam (bijvoorbeeld `Option Name [Deleted]` ) naast historische metriek weergeven, waardoor de duidelijkheid en bruikbaarheid worden verbeterd.
+
+  Deze update zorgt voor consistente en betekenisvolle rapportage, zelfs nadat opties uit een activiteit zijn verwijderd. (TGT-52986)
+
++++
+
+**Visuele Composer van de Ervaring (VEC)**
+
++++Zie details
+
+* Probleem verholpen in de VEC waarbij het toepassen van een wijziging op een weergave dubbel werk veroorzaakte en een fout met &#39;Ongeldige gebruikersinvoer&#39; veroorzaakte. (TGT-52886)
+* Probleem verholpen met [!UICONTROL Undo] functionaliteit voor de opties [!UICONTROL Insert Before] en [!UICONTROL Insert After] bij het configureren van afbeeldingsaanbiedingen in de VEC.
+
+  Eerder leidde het ongedaan maken van een [!UICONTROL Insert Before] - of [!UICONTROL Insert After] -actie op afbeeldingsaanbiedingen tot inconsequent gedrag of tot het niet correct herstellen van de wijziging, vooral in activiteiten die zijn gemaakt in de oudere [!DNL Target] -gebruikersinterface. Dit probleem is opgelost om ervoor te zorgen dat acties voor ongedaan maken nu betrouwbaar werken voor deze wijzigingen. (TGT-52809)
+
+* Probleem verholpen waarbij het kenmerk `contentEditable` onbedoeld werd ingesteld op true en bleef bestaan in opgeslagen HTML-inhoud. Deze update zorgt voor schonere, verwachte HTML-uitvoer zonder onbedoeld bewerkingsgedrag. (TGT-52319)
+* Om permanent verlies van geschrapte opties te verhinderen en verenigbaar gedrag over de diensten te verzekeren, is de zachte schrappingsfunctionaliteit uitgevoerd voor opties in UI en verwante microservices.
+
+  **Zeer belangrijke Veranderingen**:
+
+   * De opties worden niet meer permanent verwijderd. In plaats daarvan worden ze gemarkeerd met een nieuwe verwijderde: ware markering in het XML-parameterobject.
+   * Deze markering wordt alleen gebruikt door de bijgewerkte [!DNL Target] UI om verwijderde opties uit te sluiten van rendering en te voorkomen dat deze naar Edge-services worden verzonden.
+   * Verwijderde opties blijven deel uitmaken van de taakbelasting tijdens bewerkingen, waardoor de traceerbaarheid wordt gewaarborgd en niet-bestaande opties aan klanten worden geleverd.
+
+  Deze update verbetert de gegevensintegriteit en past de beste praktijken voor het beheren van schrappingen in verdeelde systemen aan. (TGT-52726)
+
++++
+
+**Werkruimten**
+
++++Zie details
+* Probleem verholpen bij het kopiëren van een activiteit van een niet-standaard naar een standaardwerkruimte of tussen niet-standaardwerkruimten. Aanbiedingen worden nu gedupliceerd met verbeterde tracking en naming om conflicten te voorkomen.
+
+  **Zeer belangrijke Verbeteringen**:
+   * Aanbiedingen worden opnieuw gemaakt in de doelwerkruimte met bijgewerkte id&#39;s en metagegevens.
+   * De naam van gekopieerde voorstellen wordt gewijzigd in de indeling: &quot;Naam van voorstel kopiëren&quot; plus een willekeurig nummer of tijdstempel om ervoor te zorgen dat deze voorstellen uniek zijn.
+   * De systeemupdates bieden de status van de activiteit en weerspiegelen deze met de nieuwe id&#39;s.
+   * Deze functie voorkomt fouten die worden veroorzaakt door meerdere identieke namen voor &quot;Offertes kopiëren&quot; tijdens herhaalde kopieerhandelingen.
+   * Aanbiedingen worden mogelijk niet direct weergegeven in de lijst met aanbiedingen van de doelwerkruimte, maar worden op de juiste wijze verwerkt en weergegeven.
+
+  Deze update verbetert de betrouwbaarheid en traceerbaarheid bij het beheren van aanbiedingen in meerdere werkruimten. (TGT-53080)
+
++++
+
 ## [!DNL Target Standard/Premium] 25.7.2 (18 juli 2025)
 
 Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houden met complexe klantaanpassingen, bevat deze release de volgende oplossingen en updates:
@@ -94,7 +191,7 @@ Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houde
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++Zie details
 * Probleem verholpen waarbij klanten rapporten voor specifieke activiteiten op de pagina [!UICONTROL Goals & Settings] weergeven, wordt met de koppeling [!UICONTROL View in Analytics] onjuist verwezen naar de QA-omgeving in plaats van naar de productieomgeving. (TGT-53163)
@@ -133,7 +230,7 @@ Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houde
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Zie details
 * Het probleem op de pagina [!UICONTROL Goals & Settings] waarbij kiezers die in meerdere ervaringen werden gebruikt, niet altijd als geselecteerd werden gemarkeerd, is opgelost. (TGT-53062)
@@ -184,7 +281,7 @@ Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houde
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++Zie details
 * Probleem verholpen waarbij het kopiëren van een bestaande activiteit en het wijzigen van de rapportbron in [!DNL Adobe Analytics] (A4T) zou resulteren in een fout met betrekking tot &quot;Ongeldige gebruikersinvoer&quot;. De fout werd geactiveerd wanneer bepaalde metrische handelingen die niet compatibel zijn met [!DNL Analytics] -rapportage, zoals `restart_same_experience` , `restart_random_experience` en `restart_new_experience` , niet in de oorspronkelijke activiteit zijn opgenomen. (TGT-52900)
@@ -241,7 +338,7 @@ Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houde
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Zie details
 * Oplossing voor een probleem waarbij het toepassen van een wijziging op een weergave ertoe zou leiden dat de weergave wordt gedupliceerd en dat de activiteit een fout met &quot;Ongeldige gebruikersinvoer&quot; retourneert. Met deze correctie zorgt u ervoor dat weergavewijzigingen correct worden toegepast zonder dat er fouten optreden bij het dupliceren of valideren. (TGT-52886)
@@ -274,8 +371,8 @@ Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houde
 
 | Bron | Details |
 |--- |--- |
-| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=nl-NL) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
-| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
+| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
+| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
 
 ## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release van Experience Cloud
 
@@ -285,7 +382,7 @@ Naast de notities voor elke release bevatten de volgende bronnen aanvullende inf
 |--- |--- |
 | [ Veranderingen van de Documentatie ](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
 | [ de nota&#39;s van de Versie voor vorige versies ](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
-| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl-NL){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
+| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
 
 ## Prerelease-informatie {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
