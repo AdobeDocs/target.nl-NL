@@ -5,9 +5,9 @@ title: Waar wordt ik begonnen Administering  [!DNL Target]?
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-source-git-commit: e2954a6d93041712a141a7029a964e596c80f8be
+source-git-commit: 614fd89c9746ce55f502debd5b689c34de400ae5
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Dit artikel bevat de eerste stappen die [!DNL Adobe Target] -beheerders moeten u
 
 ## Welkom bij [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-Een systeembeheerder in [!DNL Adobe Admin Console] moet u als gebruiker in [!DNL Target] toevoegen door u uit te nodigen om zich aan te sluiten. De systeembeheerder zou u aan één of meerdere rol-specifieke groepen dan moeten toevoegen. Beide taken worden uitgevoerd in [[!DNL Adobe Admin Console] ](https://adminconsole.adobe.com).
+Een systeembeheerder in [!DNL Adobe Admin Console] moet u als gebruiker in [!DNL Target] toevoegen door u uit te nodigen om zich aan te sluiten. De systeembeheerder zou u dan aan één of meerdere rol-specifieke productprofielen (groepen gebruikers) moeten toevoegen. Beide taken worden uitgevoerd in [ Adobe Admin Console ](https://adminconsole.adobe.com).
 
-Voor meer informatie, zie [ de gebruikers en de producten van Experience Cloud beheren ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=nl-NL) in *Experience Cloud en de hulp van de Diensten van de Kern*.
+Voor meer informatie, zie [ gebruikersgroepen ](https://helpx.adobe.com/enterprise/using/users.html) leiden.
 
 U ontvangt een uitnodigingse-mail nadat de systeembeheerder deze stappen heeft uitgevoerd.
 
