@@ -4,9 +4,9 @@ description: Leer over extra middelen om u te helpen over Adobe  [!DNL Target]  
 title: Waar kan ik middelen en contactinformatie voor Doel vinden?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 8c60b4c162850142ef3116db29e70a33f93c8e6a
+source-git-commit: 6304cafb00916491cbeab0299f527df56da30ee6
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -15,40 +15,44 @@ ht-degree: 0%
 
 Informatie over extra bronnen die u helpen bij het vinden van informatie over de functies van Target en hoe u contact kunt opnemen met Adobe als u hulp nodig hebt bij Target.
 
-## Doelforum van de Gemeenschap {#concept_9C203A8AED054DFFA9A504811DB6BA42}
+## [!UICONTROL Target Community Forum] {#concept_9C203A8AED054DFFA9A504811DB6BA42}
 
-De Target Community is je one-stop shop voor alles wat Adobe Target doet.
+Ontdek [!UICONTROL Adobe Target Community]: Uw hub voor inzichten en samenwerking.
 
-Met de community kunt u:
+[!UICONTROL Adobe Target Community Forum] is uw go-aan bestemming voor alles [!DNL Adobe Targe] niet. Of je nu gewoon aan de slag gaat of je een ervaren arts bent, de gemeenschap biedt waardevolle mogelijkheden om:
 
-* Meer informatie over wat Target te bieden heeft
-* Verbinding maken met uw collega&#39;s en Adobe-experts
-* Stem of voorleg een idee voor een toekomstige Versie van het Doel
+* **verken [!DNL Target] eigenschappen**: Leer beste praktijken en ontdek nieuwe manieren om [!DNL Target] te gebruiken.
+* **verbind en werk** samen: Verbind met edelen en [!DNL Adobe] deskundigen om inzichten te delen en uitdagingen samen op te lossen.
+* **Vorm de toekomst**: leg ideeën voor of stem over eigenschapverzoeken om aanstaande [!DNL Target] versies te beïnvloeden.
+
+Doe mee aan het gesprek, draag uw expertise bij en krijg de antwoorden die u nodig hebt, allemaal op één plaats.
 
 Bezoek het [ Communautaire Forum van het Doel ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) om begonnen te worden.
 
++++
+
 ## Doelbasis van de webinarreeks {#concept_11902FAC95C64479AABE020557A7EEE4}
 
-De informatie van de registratie en verbindingen met vorige zittingen van de Reeks van de Grondbeginselen van het Doel Webinar, een Reeks van het Succes van de Klant Webinar die aan u door de Gemeenschap wordt gebracht.
++++Zie details
+Onderzoek [ [de Basisbeginselen van het Doel Webinar Reeks] ](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html){target=_blank}, een initiatief van het Succes van de Klant aan u door [!UICONTROL Adobe Target Community] wordt gebracht. Open registratiedetails voor aanstaande zittingen en doorblader opnamen van vorige webinars om uw inzicht in [!DNL Target] eigenschappen, beste praktijken, en real-world gebruiksgevallen te verdiepen.
 
-[ klik hier om op voorbij zittingen te letten of meer over aanstaande zittingen en registratieinformatie ](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) te leren.
-
++++
 
 ## Adobe Customer Care Office-uren {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
 
 &quot;Office Hours&quot; is een initiatief van het Adobe-team voor klantenservice. Deze sessies zijn ontworpen om deelnemers te informeren en te helpen problemen op te lossen en tips en trucs te bieden om te slagen met de Adobe Experience Cloud-oplossingen, waaronder Target.
 
-Om omhoog voor aanstaande zittingen te ondertekenen en op geregistreerde zittingen te letten, zie [ Uren van het Bureau van de Zorg van de Klant van Adobe ](https://helpx.adobe.com/nl/customer-care-office-hours.html).
+Om omhoog voor aanstaande zittingen te ondertekenen en op geregistreerde zittingen te letten, zie [ Uren van het Bureau van de Zorg van de Klant van Adobe ](https://helpx.adobe.com/customer-care-office-hours.html).
 
 Huidige opgenomen doelsessies zijn:
 
 | Onderwerp / Runtime / Opnamedatum | Wat u gaat leren |
 |--- |--- |
-| [ at.js uiteinden en overzicht ](https://helpx.adobe.com/nl/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html) <br> 59 :12<br> Juni 26, 2019 | U zult leren:<ul><li>Voordelen van het gebruik van at.js</li><li>at.js-instellingen</li><li>Flikkerverwerking</li><li>Foutopsporing bij.js</li><li>Bekende problemen</li><li>Veelgestelde vragen</li></ul>Voor meer informatie, zie [ hoe at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=nl-NL){target=_blank} werkt. |
-| [ de Werkruimten van Target Premium ](https://helpx.adobe.com/nl/customer-care-office-hours/target/premium-workspaces.html) <br> 27 :49<br> September 4, 2018 | U zult leren:<ul><li>Een werkruimte maken (productprofiel)</li><li>Eigenschappen maken</li><li>Gebruikers toevoegen</li><li>Implementatie bijwerken</li></ul>Voor meer informatie, zie [ de gebruikerstoestemmingen van de Onderneming ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md). |
-| [ Visual Experience Composer (VEC) ](https://helpx.adobe.com/nl/customer-care-office-hours/target/visual-experience-composer.html) <br> 50 :23<br> December 2017 | U zult leren:<ul><li>Hoe werkt VEC</li><li>Hoe te vermijden gemeenschappelijke kwesties met VEC</li><li>Werk-rond praktijken u met VEC kunt gebruiken</li></ul>Voor meer informatie in deze gids, zie [ Ervaringen ](/help/main/c-experiences/experiences.md). |
-| [ Adobe Target: De Integratie van Analytics/van het Doel (A4T) ](https://helpx.adobe.com/nl/customer-care-office-hours/target/analytics-target-A4T-integration.html) <br> 40 :33<br> Januari 2018 | U zult leren:<ul><li>Hoe te opstelling en te bevestigen dat de integratie werkt </li><li>Hoe de integratie werkt</li><li>Meer informatie over de ideale rapporten die u kunt gebruiken in Analytics</li><li>Antwoorden op algemene vragen over A4T</li></ul>Voor meer informatie in deze gids, zie [ Adobe Analytics als Rapporterende Source voor Adobe Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md). |
-| [ at.js: Voordelen en de Beste praktijken van de Tenuitvoerlegging ](https://helpx.adobe.com/nl/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html) <br> 26 :43<br> April 2018 | U zult leren: <ul><li>Hoe de bibliotheek at.js werkt</li><li>De voordelen van at.js ten opzichte van de vervangen mbox.js</li><li>Hoe at.js flikkering beheert</li><li>Foutafhandeling in at.js</li><li>Foutopsporingsmethoden</li><li>Bekende problemen en toekomstig stappenplan</li></ul> |
+| [ at.js uiteinden en overzicht ](https://helpx.adobe.com/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html) <br> 59 :12<br> Juni 26, 2019 | U zult leren:<ul><li>Voordelen van het gebruik van at.js</li><li>at.js-instellingen</li><li>Flikkerverwerking</li><li>Foutopsporing bij.js</li><li>Bekende problemen</li><li>Veelgestelde vragen</li></ul>Voor meer informatie, zie [ hoe at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} werkt. |
+| [ de Werkruimten van Target Premium ](https://helpx.adobe.com/customer-care-office-hours/target/premium-workspaces.html) <br> 27 :49<br> September 4, 2018 | U zult leren:<ul><li>Een werkruimte maken (productprofiel)</li><li>Eigenschappen maken</li><li>Gebruikers toevoegen</li><li>Implementatie bijwerken</li></ul>Voor meer informatie, zie [ de gebruikerstoestemmingen van de Onderneming ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md). |
+| [ Visual Experience Composer (VEC) ](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html) <br> 50 :23<br> December 2017 | U zult leren:<ul><li>Hoe werkt VEC</li><li>Hoe te vermijden gemeenschappelijke kwesties met VEC</li><li>Werk-rond praktijken u met VEC kunt gebruiken</li></ul>Voor meer informatie in deze gids, zie [ Ervaringen ](/help/main/c-experiences/experiences.md). |
+| [ Adobe Target: De Integratie van Analytics/van het Doel (A4T) ](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html) <br> 40 :33<br> Januari 2018 | U zult leren:<ul><li>Hoe te opstelling en te bevestigen dat de integratie werkt </li><li>Hoe de integratie werkt</li><li>Meer informatie over de ideale rapporten die u kunt gebruiken in Analytics</li><li>Antwoorden op algemene vragen over A4T</li></ul>Voor meer informatie in deze gids, zie [ Adobe Analytics als Rapporterende Source voor Adobe Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md). |
+| [ at.js: Voordelen en de Beste praktijken van de Tenuitvoerlegging ](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html) <br> 26 :43<br> April 2018 | U zult leren: <ul><li>Hoe de bibliotheek at.js werkt</li><li>De voordelen van at.js ten opzichte van de vervangen mbox.js</li><li>Hoe at.js flikkering beheert</li><li>Foutafhandeling in at.js</li><li>Foutopsporingsmethoden</li><li>Bekende problemen en toekomstig stappenplan</li></ul> |
 
 >[!NOTE]
 >
@@ -66,9 +70,9 @@ Als u problemen ondervindt of vragen hebt bij het gebruik van Target, hebt u een
 
 Voor vragen, kunt u de deskundigen van Adobe Target in de [ Gemeenschap van Adobe Target ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank} vragen.
 
-Voor technische problemen of om een probleem te registreren kunt u contact opnemen met de klantenservice. Bel 1-800-497-0335 om telefonisch contact op te nemen met de klantenservice. De vrije aantallen van de toll buiten de Verenigde Staten kunnen op de [ Adobe Digitale Verkoop de Regionale pagina van de Aantallen van de Telefoon van de Klant van de Zorg van de Plaats ](https://helpx.adobe.com/nl/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) worden gevonden. Wanneer gevraagd om een optie voor uw product te selecteren, druk 3 om het team van het Doel te contacteren.
+Voor technische problemen of om een probleem te registreren kunt u contact opnemen met de klantenservice. Bel 1-800-497-0335 om telefonisch contact op te nemen met de klantenservice. De vrije aantallen van de toll buiten de Verenigde Staten kunnen op de [ Adobe Digitale Verkoop de Regionale pagina van de Aantallen van de Telefoon van de Klant van de Zorg van de Plaats ](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) worden gevonden. Wanneer gevraagd om een optie voor uw product te selecteren, druk 3 om het team van het Doel te contacteren.
 
-De Zorg van de Klant van het contact [ van Adobe ](https://helpx.adobe.com/nl/contact.html){target=_blank}.
+De Zorg van de Klant van het contact [ van Adobe ](https://helpx.adobe.com/contact.html){target=_blank}.
 
 Voor de snelste versie van uw uitgave, gelieve de volgende basisinformatie klaar te hebben wanneer u ons contacteert:
 
@@ -100,9 +104,9 @@ Informatie om contact op te nemen met Adobe en om inzicht te krijgen in de jurid
 
 Het Adobe Experience Cloud Customer Care-team is hier om u te helpen en biedt een aantal mechanismen waarmee zij zich kunnen aansluiten:
 
-* [ controleer de de hulppagina&#39;s van Experience Cloud voor advies, uiteinden, en FAQs ](https://helpx.adobe.com/nl/marketing-cloud.html)
-* [ open een kaartje om hulp van steun te krijgen ](https://experienceleague.adobe.com/nl?support-solution=Target#support)
-* [ contacteer direct het team van de Zorg van de Klant ](https://helpx.adobe.com/nl/marketing-cloud/contact-support.html)
+* [ controleer de de hulppagina&#39;s van Experience Cloud voor advies, uiteinden, en FAQs ](https://helpx.adobe.com/marketing-cloud.html)
+* [ open een kaartje om hulp van steun te krijgen ](https://experienceleague.adobe.com/?support-solution=Target#support)
+* [ contacteer direct het team van de Zorg van de Klant ](https://helpx.adobe.com/marketing-cloud/contact-support.html)
 * [ de beschikbaarheid en status van de Controle van de Oplossingen van Experience Cloud ](https://status.adobe.com/)
 
 Als u geavanceerde meldingen wilt ontvangen over toekomstige productverbeteringen, meldt u zich aan voor de Adobe Priority Product Update:
@@ -126,4 +130,4 @@ We zijn blij met eventuele suggesties of feedback met betrekking tot deze oploss
 
 Adobe en het Adobe-logo zijn gedeponeerde handelsmerken of handelsmerken van Adobe Systems Incorporated in de Verenigde Staten en/of andere landen. Een handelsmerksymbool (®, ™, etc.) geeft een Adobe-handelsmerk aan.
 
-Alle handelsmerken van derden zijn het eigendom van hun respectievelijke eigenaren. Bijgewerkte Informatie/de Extra Informatie van de Code van de Derde beschikbaar in [ https://www.adobe.com/go/thirdparty_nl ](https://www.adobe.com/products/eula/third_party/).
+Alle handelsmerken van derden zijn het eigendom van hun respectievelijke eigenaren. Bijgewerkte Informatie/de Extra Informatie van de Code van de Derde beschikbaar in [ https://www.adobe.com/go/thirdparty ](https://www.adobe.com/products/eula/third_party/).

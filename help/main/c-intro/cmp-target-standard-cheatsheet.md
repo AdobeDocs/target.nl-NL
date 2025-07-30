@@ -1,39 +1,63 @@
 ---
 keywords: Target Standard;faq;veelgestelde vragen;kappblad;kappblad
-description: Ontdek een lijst met veelgestelde vragen over het gebruik van de functies in Adobe Target, samen met informatie en koppelingen voor meer informatie.
+description: Onderzoek een lijst van vaak gestelde vragen over het gebruiken van de eigenschappen in  [!DNL Target], samen met informatie en verbindingen voor meer informatie.
 title: Waar kan ik antwoorden vinden op mijn optimalisatie en Personalization vragen?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 21d31fdf145f7c74be717885c15b35c3d1d61ed9
+source-git-commit: 6304cafb00916491cbeab0299f527df56da30ee6
 workflow-type: tm+mt
-source-wordcount: '2623'
+source-wordcount: '2693'
 ht-degree: 0%
 
 ---
 
 # Veelgestelde vragen over optimalisatie en personalisatie
 
-Een lijst met veelgestelde vragen over het gebruik van de functies in [!DNL Adobe Target] , samen met informatie en koppelingen voor meer informatie.
+Ontdek antwoorden op veelgestelde vragen over het gebruik van [!DNL Adobe Target] -functies. Leer hoe u uw experimenten kunt optimaliseren, ervaringen kunt aanpassen en toegang kunt krijgen tot nuttige bronnen met directe koppelingen voor dieper inzicht.
 
 ## Algemene informatie {#section_CE5713B5AAC341C9A75586C107797FA3}
 
+**waar kan ik informatie over bijgewerkte [!DNL Target] UI en [!UICONTROL Visual Experience Composer] (VEC) vinden?**
+
++++Zie details
+
+De gebruikersinterface is geschikt in een logische en gebruikersvriendelijke indeling, zodat u optimaal kunt profiteren van [!DNL Target] . Het volgende korte overzicht helpt u vertrouwd te worden gemaakt met [!DNL Target] en VEC en verstrekt verbindingen voor meer diepgaande informatie en geleidelijke instructies.
+
+Zie [  [!DNL Target]  UI ](/help/main/c-intro/understand-the-target-ui.md) voor meer informatie begrijpen.
+
++++
+
 **Hoe kan ik zien hoe andere klanten [!DNL Target] voor betere resultaten leveraged hebben?**
 
-Hier zijn enkel enkele van onze [ verhalen van het klantensucces ](https://www.adobe.com/in/marketing-cloud/target/resources.html#x). Ontdek hoe klanten als u Doel leveraged om optimalisering en verpersoonlijking te verbeteren om bedrijfsdoelstellingen te bereiken.
++++Zie details
+Verken real-world [ verhalen van het klantensucces ](https://www.adobe.com/in/marketing-cloud/target/resources.html#x) om te zien hoe de organisaties [!DNL Target] gebruiken om optimalisering op te voeren, ervaringen te personaliseren, en meetbare bedrijfsresultaten te bereiken.
 
-Houd er rekening mee dat in sommige van deze casestudies mogelijkheden van Adobe Target Premium zijn benut.
++++
 
 **waar kan ik over de recentste [!DNL Target] eigenschappen leren?**
 
-Zie onze [ Nota&#39;s van de Versie ](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) om de details op de recentste versie te controleren. De informatie over al onze [ vroegere versies ](/help/main/r-release-notes/release-notes-for-previous-releases.md) is ook online beschikbaar.
++++Zie details
+Blijf up-to-date met [!DNL Target] releases.
+
+* **Latest versie**: Controle uit de [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) voor details op nieuwe eigenschappen, verhogingen, en insectenmoeilijke situaties.
+* **Komende versies**: Bezoek [[!DNL Target]  versienota&#39;s (pre-release) ](/help/main/r-release-notes/target-release-notes.md) aan voorproef wat volgende komt.
+* **Vorige versies**: doorblader [ de nota&#39;s van de Versie voor vorige versies ](/help/main/r-release-notes/release-notes-for-previous-releases.md) voor historische updates en veranderingen.
+
++++
 
 **heeft [!DNL Adobe] een Gemeenschap/Forum waar ik antwoorden en meer informatie over [!DNL Target] kan vinden?**
 
-Controle uit het [ Communautaire Forum van het Doel ](/help/main/cmp-resources-and-contact-information.md#concept_9C203A8AED054DFFA9A504811DB6BA42), waar wij klanten helpen, maar belangrijker, wij houden van de beoefenaars van Adobe Target als u om elkaar te helpen. Het succes van een gemeenschap en forum hangt immers af van actieve deelname van haar leden. Word een lid van de gemeenschap en draag bij en zoek antwoorden op uw vragen.
++++Zie details
+Verbind met medegangers [!DNL Target] in het [ Communautaire Forum van het Doel ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}. Deel uw expertise, stel vragen en werk samen met anderen die [!DNL Target] gebruiken om personalisatie en experimenten te stimuleren. Een bloeiende gemeenschap is afhankelijk van actieve deelname. Uw inzichten en ervaringen kunnen anderen helpen slagen. Kom binnen, draag bij, en vind de antwoorden u nodig hebt.
+
++++
 
 **Welke browsers [!DNL Target] steunen?**
 
-Gelieve te lezen onze [ Ondersteunde browsers ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=nl-NL){target=_blank} matrijs voor meer details. Er zijn twee aspecten: de Target Standard/Premium Experience Cloud-interfaceondersteuning en de ondersteuning van de eindgebruikersbrowser op desktops en apparaten.
++++Zie details
+Gelieve te lezen onze [ Ondersteunde browsers ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} matrijs voor meer details. Er zijn twee aspecten: de ondersteuning van de [!DNL Target Standard/Premium] -interface en de ondersteuning van de eindgebruikersbrowser op desktops en apparaten.
+
++++
 
 ## Activiteiten {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +179,7 @@ Gebruik de controles van de percentaletoewijzing beschikbaar bij [ Stap 2 van he
 Bekijk de volgende aspecten van het product:
 
 * [Analyses voor doel (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [ Attributen van de Klant ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=nl-NL)
+* [ Attributen van de Klant ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Soorten publiek](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Ervaringen {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -170,7 +194,7 @@ Dit komt doordat uw site gemengde inhoud bevat. Het is een site die zowel HTTP- 
 
 Tot dit gebeurt, volg de instructies in [ Toelatend Gemengde Inhoud in Uw Browser ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) om uw browser toe te staan om gemengde inhoud te laden. Dit is een beveiligingsfunctie van de meeste moderne browsers.
 
-**kan ik [!UICONTROL Visual Experience Composer] (VEC) op mijn plaats proberen alhoewel de &lbrace;[!DNL Target] at.js bibliotheek nog niet is opgesteld?**
+**kan ik [!UICONTROL Visual Experience Composer] (VEC) op mijn plaats proberen alhoewel de {[!DNL Target] at.js bibliotheek nog niet is opgesteld?**
 
 Probeer ladend de pagina met [ Verbeterde Composer van de Ervaring ](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D).
 
@@ -252,7 +276,7 @@ Bekijk de volgende aspecten van het product:
 
 * [Analyses voor doel (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [ Attributen van de Klant ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=nl-NL)
+* [ Attributen van de Klant ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [Soorten publiek](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -303,4 +327,4 @@ Het spijt ons dat u problemen ondervindt. Controle uit [ het Doel van het Oploss
 
 **waar kan ik meer over Doel APIs leren?**
 
-We hebben uitgebreide documentatie over API&#39;s. Zie [ Levering APIs, NodeJS SDK, en de documentatie van Aanbevelingen APIs ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=nl-NL){target=_blank}.
+We hebben uitgebreide documentatie over API&#39;s. Zie [ Levering APIs, NodeJS SDK, en de documentatie van Aanbevelingen APIs ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
