@@ -194,7 +194,7 @@ Dit komt doordat uw site gemengde inhoud bevat. Het is een site die zowel HTTP- 
 
 Tot dit gebeurt, volg de instructies in [ Toelatend Gemengde Inhoud in Uw Browser ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) om uw browser toe te staan om gemengde inhoud te laden. Dit is een beveiligingsfunctie van de meeste moderne browsers.
 
-**kan ik [!UICONTROL Visual Experience Composer] (VEC) op mijn plaats proberen alhoewel de {[!DNL Target] at.js bibliotheek nog niet is opgesteld?**
+**kan ik [!UICONTROL Visual Experience Composer] (VEC) op mijn plaats proberen alhoewel de &lbrace;[!DNL Target] at.js bibliotheek nog niet is opgesteld?**
 
 Probeer ladend de pagina met [ Verbeterde Composer van de Ervaring ](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D).
 
