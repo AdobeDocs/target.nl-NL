@@ -55,7 +55,7 @@ Verbind met medegangers [!DNL Target] in het [ Communautaire Forum van het Doel 
 **Welke browsers [!DNL Target] steunen?**
 
 +++Zie details
-Gelieve te lezen onze [ Ondersteunde browsers ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} matrijs voor meer details. Er zijn twee aspecten: de ondersteuning van de [!DNL Target Standard/Premium] -interface en de ondersteuning van de eindgebruikersbrowser op desktops en apparaten.
+Gelieve te lezen onze [ Ondersteunde browsers ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=nl-NL){target=_blank} matrijs voor meer details. Er zijn twee aspecten: de ondersteuning van de [!DNL Target Standard/Premium] -interface en de ondersteuning van de eindgebruikersbrowser op desktops en apparaten.
 
 +++
 
@@ -219,7 +219,7 @@ Gebruik de controles van de percentaletoewijzing beschikbaar bij [ Stap 2 van he
 Bekijk de volgende aspecten van het product:
 
 * [Analyses voor doel (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [ Attributen van de Klant ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [ Attributen van de Klant ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=nl-NL)
 * [Soorten publiek](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Ervaringen {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -316,7 +316,7 @@ Bekijk de volgende aspecten van het product:
 
 * [Analyses voor doel (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [ Attributen van de Klant ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [ Attributen van de Klant ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=nl-NL)
 
 * [Soorten publiek](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -367,4 +367,4 @@ Het spijt ons dat u problemen ondervindt. Controle uit [ het Doel van het Oploss
 
 **waar kan ik meer over Doel APIs leren?**
 
-We hebben uitgebreide documentatie over API&#39;s. Zie [ Levering APIs, NodeJS SDK, en de documentatie van Aanbevelingen APIs ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+We hebben uitgebreide documentatie over API&#39;s. Zie [ Levering APIs, NodeJS SDK, en de documentatie van Aanbevelingen APIs ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=nl-NL){target=_blank}.
