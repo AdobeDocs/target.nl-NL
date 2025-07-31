@@ -256,7 +256,7 @@ Tot dit gebeurt, volg de instructies in [ Toelatend Gemengde Inhoud in Uw Browse
 
 +++
 
-**kan ik [!UICONTROL Visual Experience Composer] (VEC) op mijn plaats proberen alhoewel de {[!DNL Target] at.js bibliotheek nog niet is opgesteld?**
+**kan ik [!UICONTROL Visual Experience Composer] (VEC) op mijn plaats proberen alhoewel de &lbrace;[!DNL Target] at.js bibliotheek nog niet is opgesteld?**
 
 +++Zie details
 Probeer ladend de pagina met [ Verbeterde Composer van de Ervaring ](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D).
