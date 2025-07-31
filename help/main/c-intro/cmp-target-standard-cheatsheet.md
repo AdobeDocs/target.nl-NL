@@ -4,9 +4,9 @@ description: Onderzoek een lijst van vaak gestelde vragen over het gebruiken van
 title: Waar kan ik antwoorden vinden op mijn optimalisatie en Personalization vragen?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 6304cafb00916491cbeab0299f527df56da30ee6
+source-git-commit: 2e993336859f096f5685e2929041f83db216d3b8
 workflow-type: tm+mt
-source-wordcount: '2693'
+source-wordcount: '2678'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Verbind met medegangers [!DNL Target] in het [ Communautaire Forum van het Doel 
 **Welke browsers [!DNL Target] steunen?**
 
 +++Zie details
-Gelieve te lezen onze [ Ondersteunde browsers ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=nl-NL){target=_blank} matrijs voor meer details. Er zijn twee aspecten: de ondersteuning van de [!DNL Target Standard/Premium] -interface en de ondersteuning van de eindgebruikersbrowser op desktops en apparaten.
+Gelieve te lezen onze [ Ondersteunde browsers ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} matrijs voor meer details. Er zijn twee aspecten: de ondersteuning van de [!DNL Target Standard/Premium] -interface en de ondersteuning van de eindgebruikersbrowser op desktops en apparaten.
 
 +++
 
@@ -63,92 +63,132 @@ Gelieve te lezen onze [ Ondersteunde browsers ](https://experienceleague.adobe.c
 
 **kan ik een statistisch rigoureuze activiteit uitvoeren om het winnen en het verliezen ervaring te vinden terwijl het gebruiken van een controleervaring?**
 
++++Zie details
 Het gebruik [ A/B het Testen ](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) (Handmatige het richten optie) samen met de [ calculator van de Grootte van de Steekproef ](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5) voor beste resultaten.
+
++++
 
 **Hoe weet ik wanneer om een activiteit tegen te houden?**
 
-Voortijdig stoppen van activiteiten kan leiden tot verkeerde conclusies. Ben zich bewust van [ gemeenschappelijke valkuilen en verzekert praktijken om hen ](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F) te vermijden. Zie ook, [ hoe lang zou u een Test A/B ](/help/main/c-activities/t-test-ab/sample-size-determination.md) in werking moeten stellen?
++++Zie details
+Voortijdig stoppen van activiteiten kan leiden tot verkeerde conclusies. Ben zich bewust van [ gemeenschappelijke valkuilen en hoe te om hen te vermijden ](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). Zie ook, [ hoe lang zou u een Test A/B ](/help/main/c-activities/t-test-ab/sample-size-determination.md) in werking moeten stellen?
 
-**hoe kan ik een activiteit uitvoeren als het tijd-venster klein is?**
++++
 
-**kan ik voor mijn doel optimaliseren aangezien ik test?**
+**hoe kan ik een activiteit uitvoeren als het tijd-venster klein is en kan ik voor mijn doel optimaliseren aangezien ik test?**
 
-Gebruik onze [ rapporten om de het winnen ervaring ](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9) te bepalen.
++++Zie details
+Zie [ rapporten om de het winnen ervaring ](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9) te bepalen.
+
++++
 
 **kan ik een activiteit met een niveau van verpersoonlijking als integraal deel van de activiteit uitvoeren?**
 
-Controle uit [ auto-Doel ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) optie.
++++Zie details
+Controle uit het [ auto-Doel ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) activiteitstype.
+
++++
 
 **Hoe kan ik weten welk type van activiteit beste mijn behoeften past?**
 
-Lees de [ Gids van de Activiteiten van het Doel ](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) om de scenario&#39;s te begrijpen waar elk van de opties die door Adobe Target worden verstrekt steek houdt.
++++Zie details
+Lees de [ Gids van de Activiteiten van het Doel ](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) om de scenario&#39;s te begrijpen waar elk van de opties die door [!DNL Target] worden verstrekt steek houdt.
 
 Ben zeker ook om [ activiteiten van Aanbevelingen ](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) te overwegen.
 
++++
+
 **Hoe kan ik ontdekken welke combinaties elementen op mijn pagina tot zijn succes bijdragen en in welke mate elk element helpt?**
 
++++Zie details
 Controle uit onze [ Volledige Multivariate (MVT) activiteiten van het Factorial ](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) met de analyse van de de bijdragebijdrage van het Element om te zien of beantwoordt het aan uw behoeften.
 
 Merk op dat de verkeersbehoefte met de activiteiten van MVT toeneemt.
 
-**kan ik een activiteit in werking stellen die veelvoudige pagina&#39;s overspannen waar de paginastructuur verschillend is?**
++++
 
-**kan ik aanbiedingen op verschillende plaatsen (bijvoorbeeld, de controletrechter) toepassen?**
+**Kan ik een activiteit in werking stellen die veelvoudige pagina&#39;s overspannen waar de paginastructuur verschillend is? Kan ik aanbiedingen op verschillende plaatsen (bijvoorbeeld, de controletrechter) toepassen?**
 
-Probeer uit de [ Multipage eigenschap van de Activiteit ](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) die u veelvoudige pagina&#39;s binnen ervaringen laat gebruiken.
++++Zie details
+Probeer uit de [ multi-pagina activiteiteneigenschap ](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) die u veelvoudige pagina&#39;s binnen ervaringen laat gebruiken.
+
++++
 
 **Hoe kan ik ervoor zorgen dat zodra een doel (Primair of Secundair) is bereikt, een gebruiker nooit de activiteit opnieuw ingaat en in plaats daarvan een verschillende activiteit ziet die door:gaan?**
 
++++Zie details
 Dit is gemakkelijk te bereiken door de [ Geavanceerde optie van Montages ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974) beschikbaar met elk doel te gebruiken. U kunt kiezen wat er moet gebeuren als de gebruiker het doel heeft bereikt en hoe u het tellen wilt verhogen.
 
 Zo, in dit geval, zou u &quot;de Telling van de Toename, Gebruiker &amp; Bar van de Versie van Terugkeer&quot;samen met &quot;Standaard/Andere Inhoud van de Activiteit&quot;kunnen kiezen om het doel te bereiken. Bekijk ook andere opties.
 
-**ik heb veelvoudige doelstellingen in mijn activiteit gecreeerd. Kan ik een ketting van doelstellingen als trechter voor rapportering en analysedoeleinden tot stand brengen?**
++++
 
-**bijvoorbeeld, wil ik Goal B overwegen wanneer de gebruiker Doel A heeft bereikt zodat ik aantallen voor een bepaalde trechter kan volgen.**
+**ik heb veelvoudige doelstellingen in mijn activiteit gecreeerd. Kan ik een keten van doelen maken als trechter voor rapportage- en analysedoeleinden? Bijvoorbeeld, wil ik Goal B overwegen wanneer de gebruiker Doel A heeft bereikt zodat ik aantallen voor een bepaalde trechter kan volgen.**
 
-Het doel heeft een robuuste manier om dit te bereiken met onze functie voor afhankelijkheid van meeteenheden. Eenvoudig [ voeg gebiedsdelen op andere succesmetriek ](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) toe. U hebt opties zoals &quot;Gehaald&quot; en &quot;Niet bereikt&quot;, en de mogelijkheid om metriek op meerdere manieren te combineren om elke gewenste combinatie te maken.
++++Zie details
+[!DNL Target] beschikt over een robuuste manier om dit te bereiken met onze functie [!UICONTROL Metrics Dependency] . Eenvoudig [ voeg gebiedsdelen op andere succesmetriek ](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) toe. U hebt opties zoals &quot;Gehaald&quot; en &quot;Niet bereikt&quot;, en de mogelijkheid om metriek op meerdere manieren te combineren om elke gewenste combinatie te maken.
+
++++
 
 **Hoe kan ik duidelijk zijn over hoe te opstelling een activiteit om mijn doelstellingen te bereiken?**
 
++++Zie details
 Dit is waar [ doelstellingen ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) binnen komen.
 
-U moet eerst weten waarop u wilt optimaliseren. Is het opbrengst, Omzetting, of Betrokkenheid? Elk van deze opties is beschikbaar in de doelsectie. En voor elk van deze handelingen kunt u nader bepalen welke actie een gebruiker op uw site zou uitvoeren om te kwalificeren dat het doel is bereikt.
+U moet eerst weten waarop u wilt optimaliseren. Is het [!UICONTROL Revenue] , [!UICONTROL Conversion] of [!UICONTROL Engagement] ? Elk van deze opties is beschikbaar in de doelsectie. En voor elk van deze handelingen kunt u nader bepalen welke actie een gebruiker op uw site zou uitvoeren om te kwalificeren dat het doel is bereikt.
 
-Dit wordt mogelijk gemaakt door de instelling Primair doel in stap 3 van de workflow met instructies voor drie delen. U kunt ook extra doelstellingen toevoegen, die u voor betere rapportering kunnen helpen
+Dit wordt mogelijk gemaakt door de instelling [!UICONTROL Primary Goal] in stap 3 van de geleide workflow voor drie delen. U kunt ook extra doelstellingen toevoegen, die u voor betere rapportering kunnen helpen.
+
++++
 
 **kan ik een activiteit plannen om bij een vaste tijd te beginnen en te beëindigen?**
 
-Gebruik de [ plannende eigenschap in de Doelen en de stap van Montages ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) van het driedelige activiteitenwerkschema door de begin en einddata te specificeren.
++++Zie details
+Gebruik de [ Plannende eigenschap in de [!UICONTROL Goals & Settings]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) stap van het driedelige activiteitenwerkschema door de begin en einddata te specificeren.
 
-Vergeet niet de activiteit te activeren. Alleen live-activiteiten voldoen aan het opgegeven schema. Nadat de einddatum is bereikt, gaat de activiteit in het Eind staat.
+Vergeet niet de activiteit te activeren. Alleen live-activiteiten voldoen aan het opgegeven schema. Nadat de einddatum is bereikt, gaat de activiteit in de [!UICONTROL Ended] staat.
+
++++
 
 **kan ik een verandering in enkel de [!UICONTROL Targeting] stap aanbrengen en niet door het volledige drie-stap geleide werkschema voor het uitgeven gaan?**
 
-U kunt dat gemakkelijk doen door [ direct de gewenste stap van uw keus van de pagina van het Overzicht van de Activiteit in te gaan ](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) en dan uit die stap weg te gaan door sparen en te gebruiken dicht optie.
++++Zie details
+U kunt dat gemakkelijk doen door [ direct de gewenste stap van uw keus van de [!UICONTROL Activity Overview] pagina ](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) in te gaan en dan uit die stap weg te gaan door de [!UICONTROL Save and Close] optie te gebruiken.
+
++++
 
 **kan ik op een bepaalde stap blijven, de activiteit blijven wijzigen (aanbiedingstekst of douanecode, bijvoorbeeld), en dan QA in een ander lusje uitvoeren?**
 
-Dat is ook mogelijk. Eenvoudig [ gebruik sparen optie beschikbaar om stijgende veranderingen aan te brengen zonder de stap ](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) te verlaten.
++++Zie details
+Dat is mogelijk. Eenvoudig [ gebruik de [!UICONTROL Save] beschikbare optie om stijgende veranderingen aan te brengen zonder de stap ](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) te verlaten.
+
++++
 
 **hoe kan ik voorproef en QA een activiteit die ik enkel creeerde?**
 
++++Zie details
 Gebruik onze [ krachtige eigenschap van de Wijze QA ](/help/main/c-activities/c-activity-qa/activity-qa.md) om QA uit te voeren. U kunt verbindingen met uw team delen QA en ook de activiteit van begin tot eind, met inbegrip van het melden testen, om volledig zeker te zijn dat nadat de activiteit levend is, het zoals bedoeld en zoals getest werkt.
+
++++
 
 **hoe kan ik [!DNL Target] beslissingsmacht gebruiken om een ervaring/aanbod te ontvangen die in Enige Toepassingen van de Pagina (SPAs) of server-zijintegratie kan worden gebruikt?**
 
++++Zie details
 Gebruik de macht van [ vorm-gebaseerde activiteiten ](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) met [ aanbiedingen JSON ](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) om uw doel te ontmoeten.
 
-**ik opstelling twee activiteiten. Hoe weet ik welke bezoeker uiteindelijk zal zien?**
++++
 
 **Kan ik de prioritaire orde van een paar activiteiten plaatsen?**
 
-Gebruik Prioriteit het plaatsen beschikbaar op Stap 3 van het Doel driedelige geleide werkschema (Doelstellingen en Pagina van Montages) om [ de prioriteit van de activiteiten ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) te bepalen.
++++Zie details
+Gebruik het [!UICONTROL Priority] plaatsen beschikbaar op Stap 3 van het [!DNL Target] driedelige geleide werkschema ( Doelstellingen &amp; pagina van Montages) [ om de prioriteit van de activiteiten ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) te bepalen.
 
 Er zijn twee opties:
 
 * Standaard, met drie niveaus (Laag / Medium / Hoog)
-* Aangepast, met een bereik van 0 tot 999. Schakel voor Aangepast de functie Prioriteiten met fijnkorrelige korrel in (Beheer > Visual Experience Composer).
+* Aangepast, met een bereik van 0 tot 999. Schakel bij Aangepast de functie [!UICONTROL Fine-Grained Priorities] in ( [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer] ).
+
++++
 
 ## Soorten publiek {#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -179,7 +219,7 @@ Gebruik de controles van de percentaletoewijzing beschikbaar bij [ Stap 2 van he
 Bekijk de volgende aspecten van het product:
 
 * [Analyses voor doel (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [ Attributen van de Klant ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=nl-NL)
+* [ Attributen van de Klant ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Soorten publiek](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Ervaringen {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -194,7 +234,7 @@ Dit komt doordat uw site gemengde inhoud bevat. Het is een site die zowel HTTP- 
 
 Tot dit gebeurt, volg de instructies in [ Toelatend Gemengde Inhoud in Uw Browser ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) om uw browser toe te staan om gemengde inhoud te laden. Dit is een beveiligingsfunctie van de meeste moderne browsers.
 
-**kan ik [!UICONTROL Visual Experience Composer] (VEC) op mijn plaats proberen alhoewel de &lbrace;[!DNL Target] at.js bibliotheek nog niet is opgesteld?**
+**kan ik [!UICONTROL Visual Experience Composer] (VEC) op mijn plaats proberen alhoewel de {[!DNL Target] at.js bibliotheek nog niet is opgesteld?**
 
 Probeer ladend de pagina met [ Verbeterde Composer van de Ervaring ](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D).
 
@@ -276,7 +316,7 @@ Bekijk de volgende aspecten van het product:
 
 * [Analyses voor doel (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [ Attributen van de Klant ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=nl-NL)
+* [ Attributen van de Klant ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [Soorten publiek](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -327,4 +367,4 @@ Het spijt ons dat u problemen ondervindt. Controle uit [ het Doel van het Oploss
 
 **waar kan ik meer over Doel APIs leren?**
 
-We hebben uitgebreide documentatie over API&#39;s. Zie [ Levering APIs, NodeJS SDK, en de documentatie van Aanbevelingen APIs ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=nl-NL){target=_blank}.
+We hebben uitgebreide documentatie over API&#39;s. Zie [ Levering APIs, NodeJS SDK, en de documentatie van Aanbevelingen APIs ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
