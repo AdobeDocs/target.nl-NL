@@ -4,9 +4,9 @@ description: Meer informatie over de verschillende manieren waarop u een bestaan
 title: Hoe kan ik een activiteit bewerken?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 34633032385f848dcc87fe1bc8cd025e42bcc3e9
+source-git-commit: 53bac4b1e778fb760a37e7287e0d8dbbe3a56b47
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Leer hoe u bestaande activiteiten in [!DNL Adobe Target] kunt bewerken. In dit a
 
 1. Van de **[!UICONTROL Activities]** pagina, klik het **[!UICONTROL More Actions]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmall.svg)) naast de activiteit u wilt uitgeven, dan klik [!UICONTROL **uitgeven**].
 
-   Doel opent de activiteit in [!UICONTROL Visual Experience Composer] (VEC) en u ziet de [!UICONTROL Experiences] pagina (de eerste stap in de driestapige geleide workflow).
+   [!DNL Target] opent de activiteit in [!UICONTROL Visual Experience Composer] (VEC) en u ziet de [!UICONTROL Experiences] pagina (de eerste stap in de driestapige geleide workflow).
 
 1. Geef de activiteit uit, zoals gewenst gebruikend de [ opties VEC ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -44,22 +44,6 @@ Leer hoe u bestaande activiteiten in [!DNL Adobe Target] kunt bewerken. In dit a
 
    * **[!UICONTROL Save & Close]:** klik **[!UICONTROL Save and Close]** om uw wijzigingen op te slaan en de pagina [!UICONTROL Overview] van de activiteit weer te geven.
    * **sparen:** klik het **[!UICONTROL More Actions]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallListVert.svg)), dan selecteer **[!UICONTROL Save]** om uw veranderingen te bewaren en in VEC te blijven waar u kunt blijven veranderingen aanbrengen. Wacht tot het opslaan is voltooid voordat u aanvullende wijzigingen aanbrengt. VEC herlaadt met de vernieuwde veranderingen nadat sparen volledig is.
-
-## Werken met verouderde activiteiten die zijn gemaakt in [!DNL Recommendations Classic] {#classic}
-
-De weergaveactiviteiten van [!UICONTROL Activities] die in verschillende bronnen zijn gemaakt, waaronder [!DNL Recommendations Classic] . De volgende acties zijn beschikbaar wanneer u werkt met verouderde activiteiten die zijn gemaakt in [!DNL Recommendations Classic] :
-
-* [!UICONTROL Activate]
-* [!UICONTROL Deactivate]
-* [!UICONTROL Archive]
-* [!UICONTROL Copy]
-* [!UICONTROL Delete]
-
-U kunt een [!DNL Recommendations] -activiteit niet rechtstreeks bewerken. Als u de activiteit wilt bewerken, moet u een kopie van de activiteit maken met [!DNL Target Premium] en vervolgens de nieuwe activiteit opslaan. Deze pas gecreëerde activiteit kan dan zonodig worden uitgegeven.
-
-## Een activiteit opslaan in een conceptformulier {#section_968CD7A63027432EBD8FAE3A0F7404C3}
-
-De functie Opslaan als concept is niet meer beschikbaar. Voor meer informatie, zie *[!UICONTROL Status]* onder [ filters op de lijst van Activiteiten toepassen ](/help/main/c-activities/activities.md#filters).
 
 ## Een activiteit kopiëren/bewerken met werkruimten {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
@@ -91,10 +75,38 @@ Houd rekening met de volgende informatie wanneer u de functie Kopiëren/Bewerken
 
         Klik op [!UICONTROL Add/Remove] om dit probleem op te lossen, zodat alleen de eigenschappen die beschikbaar zijn in de doelwerkruimte worden weergegeven voor selectie.
 
-   * **Soorten publiek en aanbiedingen**: Alle publiek en aanbiedingen van de originele werkruimte moeten worden vervangen. U kunt ze ook kopiëren van de [!UICONTROL Audiences] - of [!UICONTROL Offers] -pagina&#39;s en vervolgens de juiste items selecteren in de corresponderende lijst in de activiteit.
+   * **Soorten publiek en aanbiedingen**: Wanneer het kopiëren van een activiteit aan een nieuwe werkruimte, worden alle bijbehorende publiek en aanbiedingen van de originele werkruimte gedupliceerd gebruikend het formaat: `Entity Name Copy <Date>`.
 
-   * **Vereiste handveranderingen**: Alle vereiste handveranderingen worden samengevat in de definitieve stap ([!UICONTROL Save & Close]). Een pop-up toont een lijst van entiteiten die updates vereisen, die helpen ervoor te zorgen dat alle noodzakelijke aanpassingen worden aangebracht alvorens de activiteitenopstelling te voltooien.
+     Gedragdetails:
 
-     ![ de bevestigingswaarschuwing van Workspace ](/help/main/c-activities/assets/work-space-validation.png)
+      * Kopieerbare soorten publiek en aanbiedingen worden pas weergegeven in de lijsten [!UICONTROL Audiences] en [!UICONTROL Offers] als de activiteit wordt opgeslagen en opnieuw geopend.
+      * Deze entiteiten kunnen niet onmiddellijk na het kopiëren worden bewerkt. Klanten kunnen lege inhoud in VEC voor deze punten tijdens de eerste Edit zitting zien.
+      * Klanten kunnen indien nodig gekopieerde soorten publiek of aanbiedingen vervangen door andere gebruikers uit de doelwerkruimte.
 
-Als de [!UICONTROL Enterprise User Permissions] -functionaliteit niet is ingeschakeld in uw omgeving, worden alle activiteiten geopend in de bewerkingsmodus voordat ze worden gekopieerd.
+     Dit proces zorgt voor vloeiender dubbel werk in de werkruimte, terwijl flexibiliteit voor aanpassing behouden blijft.
+
+     Wanneer u een activiteit kopieert, moeten gecombineerde doelgroepen, niet-doelgroepen en aanbiedingen die niet in de huidige werkruimte of de standaardwerkruimte zijn opgeslagen, handmatig worden vervangen.
+
+     Door deze gecombineerde doelgroepen, niet-doelgroepen en aanbiedingen handmatig te vervangen, zorgt u ervoor dat alleen geldige, toegankelijke entiteiten worden gebruikt in de gekopieerde activiteit en voorkomt u fouten tijdens het bewerken of leveren.
+
+     ![ het bericht van de Waarschuwing ](/help/main/c-activities/assets/copy.png)
+
+>[!NOTE]
+>
+>Als de [!UICONTROL Enterprise User Permissions] -functionaliteit niet is ingeschakeld in uw omgeving, worden alle activiteiten geopend in de bewerkingsmodus voordat ze worden gekopieerd.
+
+## Een activiteit opslaan in een conceptformulier {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+
+De functie [!UICONTROL Save as Draft] is niet meer beschikbaar. Voor meer informatie, zie *[!UICONTROL Status]* onder [ filters op de lijst van Activiteiten toepassen ](/help/main/c-activities/activities.md#filters).
+
+## Werken met verouderde activiteiten die zijn gemaakt in [!DNL Recommendations Classic] {#classic}
+
+De weergaveactiviteiten van [!UICONTROL Activities] die in verschillende bronnen zijn gemaakt, waaronder [!DNL Recommendations Classic] . De volgende acties zijn beschikbaar wanneer u werkt met verouderde activiteiten die zijn gemaakt in [!DNL Recommendations Classic] :
+
+* [!UICONTROL Activate]
+* [!UICONTROL Deactivate]
+* [!UICONTROL Archive]
+* [!UICONTROL Copy]
+* [!UICONTROL Delete]
+
+U kunt een [!DNL Recommendations] -activiteit niet rechtstreeks bewerken. Als u de activiteit wilt bewerken, moet u een kopie van de activiteit maken met [!DNL Target Premium] en vervolgens de nieuwe activiteit opslaan. Deze pas gecreëerde activiteit kan dan zonodig worden uitgegeven.
