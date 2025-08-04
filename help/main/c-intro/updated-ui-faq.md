@@ -4,9 +4,9 @@ description: Vragen en antwoorden over het bijgewerkte  [!DNL Target] niet gebru
 title: Waar kan ik FAQs over bijgewerkte  [!DNL Target]  UI vinden?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: b91abbd3b7418fd4d1444d96f160c3d9017f3bf8
+source-git-commit: 91059ceb8cc0fd4e7aa72f347ffd1584999ed264
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,35 @@ Voor meer informatie, zie [ tijd-gevoelige updates u ](/help/main/r-release-note
 Er zijn verschillende beperkingen met betrekking tot het gebruik van de gebruikersinterface-versieselectie, zoals de zichtbaarheid van nieuwe activiteiten, het bewerken van bestaande activiteiten en de consistentie van activiteitendetails.
 
 Voor meer informatie, zie [ tijd-gevoelige updates u ](/help/main/r-release-notes/release-notes.md#time-sensitive) moet kennen.
+
++++
+
+## Hoe behandelt bijgewerkte VEC het herschikken, resize, beweging, verbergt, en verwijdert opties en hoe verschillen deze opties van erfenis VEC? {#options}
+
++++Details
+** [!UICONTROL Rearrange*]*: In erfenis VEC, gebruikte herschik optie een bekleding om gebruikers te laten een element binnen zijn sibling groep van plaats veranderen. De beweging was beperkt tot het wijzigen van de volgorde tussen elementen op hetzelfde niveau.
+
+In bijgewerkte VEC, wordt deze functionaliteit gestroomlijnd door zich vooruit en beweging achterwaartse acties. Met deze besturingselementen past u de positie van een element in de lay-out aan, zowel horizontaal als verticaal, door het element naar voren of naar achteren in de stapelvolgorde te verplaatsen.
+
+**Resize**: De [!UICONTROL Resize] eigenschap wordt gevestigd in het [!UICONTROL Properties] paneel onder de [!UICONTROL Size] sectie. Gebruikers kunnen de breedte en hoogte van een element rechtstreeks aanpassen. Geavanceerde instellingen zijn:
+
+* Min/max. besturingselementen voor breedte en hoogte
+* Instellingen voor overloopgedrag.
+* Opties voor aanpassen aan object voor media-elementen
+
+Deze gereedschappen bieden nauwkeurige controle over de afmetingen van elementen en het gedrag van de layout.
+
+**Beweging**: De [!UICONTROL Move] optie wordt gevonden in het [!UICONTROL Properties] paneel onder de [!UICONTROL Position] sectie. Met deze optie kunnen gebruikers:
+
+* De positie van het element instellen (bijvoorbeeld absoluut, relatief, vast)
+* De Z-index voor lagen definiëren
+* Een positionatietype kiezen
+
+De bijgewerkte [!UICONTROL Properties] rail ondersteunt ook aangepaste inline stijlen, die flexibiliteit bieden wanneer vooraf ingestelde opties niet aan de behoeften van de lay-out voldoen.
+
+**[!UICONTROL Hide]**: De functie [!UICONTROL Hide] bevindt zich in het deelvenster [!UICONTROL Properties] . Nadat u een element hebt geselecteerd, klikt u op [!UICONTROL Hide Element] om het element uit de weergave te verwijderen zonder het te verwijderen. Dit is handig als u de zichtbaarheid tijdens het ontwerpen of voorvertonen wilt beheren.
+
+**[!UICONTROL Remove]**: De functie [!UICONTROL Remove] is toegankelijk via het deelvenster [!UICONTROL Properties] . Nadat u een element hebt geselecteerd, klikt u op Element verwijderen om het van de pagina te verwijderen. Met deze handeling wordt het element permanent uit de layout verwijderd.
 
 +++
 
