@@ -31,7 +31,7 @@ Deze integratie A4T vereist dat u de volgende (of nieuwere) bibliotheekversies u
 
 >[!NOTE]
 >
->De volgende vereisten maken een lijst van de *minimum* versies van at.js nodig om A4T uit te voeren. Het team van [!DNL Target] onderhoudt slechts twee versies van [!DNL at.js]: de huidige versie en de tweede nieuwste versie. Voer indien nodig een upgrade uit op [!DNL at.js] om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie over wat in elke versie is, zie [ at.js de Details van de Versie ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+>De volgende vereisten maken een lijst van de *minimum* versies van at.js nodig om A4T uit te voeren. Het team van [!DNL Target] onderhoudt slechts twee versies van [!DNL at.js]: de huidige versie en de tweede nieuwste versie. Voer indien nodig een upgrade uit op [!DNL at.js] om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie over wat in elke versie is, zie [ at.js de Details van de Versie ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank}.
 
 ### Vereisten nodig als *niet* het gebruiken van redirect aanbiedingen met A4T
 
@@ -83,7 +83,7 @@ De latentieverhoging begint nadat u de dienst van identiteitskaart van de Bezoek
 
 Alle [!DNL Target] vraag die door een activiteit A4T wordt gebruikt om inhoud te leveren of doel metrisch te registreren moet overeenkomstige [!DNL Analytics] hebben die extra identiteitskaart voor A4T deelt om behoorlijk te werken.
 
-Punten die gegevens van [!DNL Analytics] en [!DNL Target] bevatten bevatten een aanvullende gegevens-id. U kunt deze identiteitskaart in [ Debugger van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) als `sdid` parameter zien. Bijvoorbeeld: `sdid=2F3C18E511F618CC-45F83E994AEE93A0` . Deze id wordt op elk moment gegenereerd wanneer aan de volgende criteria wordt voldaan:
+Punten die gegevens van [!DNL Analytics] en [!DNL Target] bevatten bevatten een aanvullende gegevens-id. U kunt deze identiteitskaart in [ Debugger van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=nl-NL) als `sdid` parameter zien. Bijvoorbeeld: `sdid=2F3C18E511F618CC-45F83E994AEE93A0` . Deze id wordt op elk moment gegenereerd wanneer aan de volgende criteria wordt voldaan:
 
 * De service voor bezoekersidentiteitskaart is geïmplementeerd
 
