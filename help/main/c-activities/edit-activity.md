@@ -4,9 +4,9 @@ description: Meer informatie over de verschillende manieren waarop u een bestaan
 title: Hoe kan ik een activiteit bewerken?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 53bac4b1e778fb760a37e7287e0d8dbbe3a56b47
+source-git-commit: b46ff78a9145e2e837a849d72adc4a7fb8797d00
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Houd rekening met de volgende informatie wanneer u de functie Kopiëren/Bewerken
 
         Klik op [!UICONTROL Add/Remove] om dit probleem op te lossen, zodat alleen de eigenschappen die beschikbaar zijn in de doelwerkruimte worden weergegeven voor selectie.
 
-   * **Soorten publiek en aanbiedingen**: Wanneer het kopiëren van een activiteit aan een nieuwe werkruimte, worden alle bijbehorende publiek en aanbiedingen van de originele werkruimte gedupliceerd gebruikend het formaat: `Entity Name Copy <Date>`.
+   * **Soorten publiek en aanbiedingen**: Wanneer het kopiëren van een activiteit aan een nieuwe werkruimte, alle bijbehorende [!DNL Target] of ad hoc publiek en aanbiedingen van de originele werkruimte worden gedupliceerd gebruikend het formaat: `<Entity Name> Copy <Date>` voor [!DNL Target] publiek en voor ad hoc aanbiedingen `<Entity Name>`.
 
      Gedragdetails:
 
@@ -85,9 +85,9 @@ Houd rekening met de volgende informatie wanneer u de functie Kopiëren/Bewerken
 
      Dit proces zorgt voor vloeiender dubbel werk in de werkruimte, terwijl flexibiliteit voor aanpassing behouden blijft.
 
-     Wanneer u een activiteit kopieert, moeten gecombineerde doelgroepen, niet-doelgroepen en aanbiedingen die niet in de huidige werkruimte of de standaardwerkruimte zijn opgeslagen, handmatig worden vervangen.
+     Wanneer u een activiteit kopieert, moeten niet-doelsoorten en aanbiedingen die niet in de huidige werkruimte of de standaardwerkruimte zijn opgeslagen, handmatig worden vervangen.
 
-     Door deze gecombineerde doelgroepen, niet-doelgroepen en aanbiedingen handmatig te vervangen, zorgt u ervoor dat alleen geldige, toegankelijke entiteiten worden gebruikt in de gekopieerde activiteit en voorkomt u fouten tijdens het bewerken of leveren.
+     Door deze niet-doelsoorten handmatig te vervangen, zorgt u ervoor dat alleen geldige, toegankelijke entiteiten worden gebruikt in de gekopieerde activiteit en voorkomt u fouten tijdens het bewerken of leveren.
 
      ![ het bericht van de Waarschuwing ](/help/main/c-activities/assets/copy.png)
 
