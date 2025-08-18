@@ -1,6 +1,6 @@
 ---
 keywords: browseropties;type;browsertype;browsertaal;taal;versie;browserversie
-description: Leer hoe u een publiek kunt maken in [!DNL Adobe Target] om gebruikers te richten die een specifieke browser of specifieke browser opties gebruiken wanneer zij uw pagina bezoeken.
+description: Leer hoe te om publiek in  [!DNL Adobe Target]  tot stand te brengen om gebruikers te richten die specifieke browser of specifieke browser opties gebruiken wanneer zij uw pagina bezoeken.
 title: Kan ik bezoekers richten die op Browser type worden gebaseerd?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
@@ -28,42 +28,42 @@ U kunt de volgende browsers als doel instellen:
 
 >[!IMPORTANT]
 >
->Beginnen met de [!DNL Target] Standard/Premium 24.3.1 (4-6 maart 2024), ingebouwde doelgroepen, zoals `Browser:iPad` en `Browser:iPhone` zijn bijgewerkt om het juiste richten voor uit te voeren [!DNL iPad] en [!DNL iPhone] gebruiken `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone`, en `profile.mobile.isTablet`.
+>Vanaf [!DNL Target] Standard/Premium 24.3.1 (4-6 maart 2024) zijn ingebouwde doelgroepen, zoals `Browser:iPad` en `Browser:iPhone` , bijgewerkt en worden ze op de juiste manier voor [!DNL iPad] en [!DNL iPhone] using `profile.mobile.deviceVendor` , `profile.mobile.isMobilePhone` en `profile.mobile.isTablet` gebruikt.
 >
->Deze update vereist geen actie aan de kant van de klanten. De labels in het dialoogvenster [!DNL Target] De interface wordt in de toekomst gewijzigd en wordt bekendgemaakt in [[!DNL Target] releaseopmerkingen (huidig)](/help/main/r-release-notes/release-notes.md) wanneer deze wijzigingen worden aangebracht.
+>Deze update vereist geen actie aan de kant van de klanten. De etiketten in [!DNL Target] UI zullen in de toekomst worden veranderd en zullen in [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) worden aangekondigd wanneer deze veranderingen worden aangebracht.
 >
->Zie voor instellingen voor tijdelijke oplossing [Updates voor [!DNL iPad] en [!DNL iPhone] in [!UICONTROL Browser] attributen voor het publiek (30 april 2024)](#updates) hieronder.
+>Voor alternerende montages, zie [ Updates voor  [!DNL iPad]  en  [!DNL iPhone]  in [!UICONTROL Browser] publieksattributen (30 april, 2024) ](#updates) hieronder.
 
 Er zijn twee manieren om browsers als doel in te stellen:
 
-* **Vooraf gebouwd publiek:** Gebruik het vooraf gebouwde publiek als u alleen bezoekers wilt aanspreken die een specifieke browser gebruiken om uw site te bezoeken. Als u bijvoorbeeld een [!DNL Chrome] extensie, alleen als doel instellen [!DNL Chrome] gebruikers.
+* **Vooraf gebouwd publiek:** gebruik het pre-gebouwde publiek als u slechts bezoekers wilt richten die specifieke browser gebruiken om uw plaats te bezoeken. Als u bijvoorbeeld een extensie [!DNL Chrome] aanbiedt, richt u zich alleen op [!DNL Chrome] -gebruikers.
 
    1. Selecteer de browser in de vervolgkeuzelijst wanneer u uw activiteit instelt.
 
       Deze optie is alleen bestemd voor bezoekers die de opgegeven browser gebruiken.
 
-      ![Doelgebruikers van Chrome](/help/main/c-target/c-audiences/c-target-rules/assets/target-chrome.png)
+      ![ de gebruikers van Chrome van het Doel ](/help/main/c-target/c-audiences/c-target-rules/assets/target-chrome.png)
 
-* **Aangepaste regel browserpubliek:** Met een aangepast publiek kunt u zich richten op meerdere browsers of op het instellen van regels of uitsluitingen voor specifieke browsers, browserversies of browsertalen. Deze functionaliteit biedt aanzienlijke flexibiliteit bij het kiezen van een activiteit op basis van browserkenmerken.
+* **Aangepaste Browser de Regel van het Publiek:** Een aangepast publiek laat u veelvoudige browsers, of aan opstellingsregels of uitsluitingen voor specifieke browsers, browser versies, of browser talen richten. Deze functionaliteit biedt aanzienlijke flexibiliteit bij het kiezen van een activiteit op basis van browserkenmerken.
 
-   1. In de [!DNL Target] interface, klik **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+   1. Klik in de interface [!DNL Target] op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]** .
    1. Geef een naam op voor het publiek en voeg een optionele beschrijving toe.
-   1. Slepen en slepen **[!UICONTROL Browser]** in de Audience Builder.
+   1. Sleep **[!UICONTROL Browser]** naar de Audience Builder.
 
-      ![Regels > Browser](assets/target_browser.png)
+      ![ Regels > Browser ](assets/target_browser.png)
 
-   1. Klikken **[!UICONTROL Select]** Selecteer vervolgens een van de volgende opties:
+   1. Klik op **[!UICONTROL Select]** en selecteer een van de volgende opties:
 
-      * **Type:** Een bepaalde browser activeren of uitsluiten. Zie [Type](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
-      * **Taal:** Stel bepaalde browsers die zijn ingesteld op het gebruik van specifieke talen in of uit. Zie [Taal](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
-      * **Versie:** Bepaalde browserversies activeren of uitsluiten. Zie [Versie](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+      * **Type:** Doel of sluit bepaalde browser uit. Zie [ Type ](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
+      * **Taal:** Doel of sluit bepaalde browsers uit die worden geplaatst om specifieke talen te gebruiken. Zie [ Taal ](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
+      * **Versie:** Doel of sluit bepaalde browser versies uit. Zie [ Versie ](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
 
    1. (Optioneel) Stel aanvullende regels voor het publiek in.
    1. Klik op **[!UICONTROL Done]**.
 
-  In het volgende voorbeeld wordt een publiek getoond dat [!DNL Microsoft Edge] gebruikers in versie 91 of 92:
+  In het volgende voorbeeld wordt een publiek getoond dat [!DNL Microsoft Edge] -gebruikers in versies 91 of 92 bevat:
 
-  ![Doelrand 91 of 92](assets/target_edge.png)
+  ![ Doel Edge 91 of 92 ](assets/target_edge.png)
 
 ## Browseropties {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
@@ -73,10 +73,10 @@ Hiermee kunt u deelnemers aan activiteiten op basis van het browsertype, de taal
 
 Een bepaalde browser activeren of uitsluiten.
 
-Selecteren **[!UICONTROL Type]** kiest u een van beide gelijk aan of niet gelijk aan.
+Selecteer **[!UICONTROL Type]** en kies een van beide gelijk aan of niet gelijk aan.
 
-* [!UICONTROL Equals]: Kies voor de geselecteerde browsers.
-* [!UICONTROL Does not equal]: Sluit de geselecteerde browsers uit.
+* [!UICONTROL Equals]: wijs de geselecteerde browsers aan.
+* [!UICONTROL Does not equal]: sluit de geselecteerde browsers uit.
 
 Selecteer een of meer browsers. Meerdere opties zijn verbonden met een OR.
 
@@ -88,10 +88,10 @@ Als een aanbieding bijvoorbeeld alleen in het Engels beschikbaar is, kunt u zich
 
 Het opnemen of uitsluiten van de browsertaal kan een nauwkeurigere keuze voor bezoekers opleveren dan een voorkeur op basis van geografische ligging in gevallen waarin taal belangrijker is dan locatie. Als u bijvoorbeeld een artikel aanbiedt dat in het Engels is geschreven, kunt u zich richten op Engelstalige landen of op browsers die zijn ingesteld op Engels. Als u de browser als doel instelt, wordt het artikel beschikbaar voor Engelse luidsprekers in landen waar Engels niet de primaire taal is.
 
-Selecteren **[!UICONTROL Language]** kiest u een van beide gelijk aan of niet gelijk aan.
+Selecteer **[!UICONTROL Language]** en kies een van beide gelijk aan of niet gelijk aan.
 
-* [!UICONTROL Equals]: Kies de geselecteerde browsertalen.
-* [!UICONTROL Does not equal]: Sluit de geselecteerde browsertalen uit.
+* [!UICONTROL Equals]: wijs de geselecteerde browsertalen aan.
+* [!UICONTROL Does not equal]: sluit de geselecteerde browsertalen uit.
 
 Selecteer een of meer talen. Meerdere opties zijn verbonden met een OR.
 
@@ -111,9 +111,9 @@ De volgende browsertalen kunnen worden aangewezen of uitgesloten:
 
 Bepaalde browserversies activeren of uitsluiten.
 
-Als uw pagina bijvoorbeeld niet correct wordt weergegeven in [!DNL Internet Explorer] In versie 11 of lager kunt u een publiek maken dat deze versies uitsluit. In dat geval zou u een regel instellen waarbij het browsertype gelijk is [!DNL Internet Explorer] en voeg een tweede regel toe waar de versie 11 of lager is.
+Als de pagina bijvoorbeeld niet correct wordt weergegeven in [!DNL Internet Explorer] versie 11 of lager, kunt u een publiek maken dat deze versies uitsluit. In dat geval stelt u een regel in waarbij het browsertype gelijk is aan [!DNL Internet Explorer] en voegt u een tweede regel toe waar de versie kleiner dan of gelijk is aan 11.
 
-Selecteren **[!UICONTROL Version]** kiest u vervolgens een operator:
+Selecteer **[!UICONTROL Version]** en kies vervolgens een operator:
 
 * [!UICONTROL Equals]
 * [!UICONTROL Does not equal]
@@ -126,7 +126,7 @@ Typ het versienummer. Alleen hoofdversies kunnen in het tekstveld worden ingevoe
 
 Meerdere opties zijn verbonden met een OR.
 
-## Trainingsvideo: Soorten publiek maken ![Zelfstudie-badge](/help/main/assets/tutorial.png)
+## De video van de opleiding: Creërend publiek ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
 
 Deze video bevat informatie over het gebruik van publiekscategorieën.
 
@@ -135,51 +135,51 @@ Deze video bevat informatie over het gebruik van publiekscategorieën.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
 
-## Updates voor [!DNL iPad] en [!DNL iPhone] in [!UICONTROL Browser] attributen voor het publiek (30 april 2024) {#updates}
+## Updates voor [!DNL iPad] en [!DNL iPhone] in [!UICONTROL Browser] publiekskenmerken (30 april 2024) {#updates}
 
-[!DNL Adobe Target] laat u [doel op een van de verschillende categoriekenmerken](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), inclusief gebruikers die een specifieke browser of browseropties gebruiken wanneer ze uw pagina bezoeken.
+[!DNL Adobe Target] laat u [ richten op om het even welk van verscheidene categoriekenmerken ](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), met inbegrip van gebruikers die specifieke browser of browser opties gebruiken wanneer zij uw pagina bezoeken.
 
-Beginnen met de [!DNL Target] Standard/Premium 24.3.1 (4-6 maart 2024), ingebouwde doelgroepen, zoals `Browser:iPad` en `Browser:iPhone` zijn bijgewerkt om het juiste richten voor uit te voeren [!DNL iPad] en [!DNL iPhone] gebruiken `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` en `profile.mobile.isTablet`.
+Vanaf [!DNL Target] Standard/Premium 24.3.1 (4-6 maart 2024) zijn ingebouwde doelgroepen, zoals `Browser:iPad` en `Browser:iPhone` , bijgewerkt en worden ze op de juiste manier voor [!DNL iPad] en [!DNL iPhone] using `profile.mobile.deviceVendor` , `profile.mobile.isMobilePhone` en `profile.mobile.isTablet` gebruikt.
 
-Ingebouwde soorten publiek die zijn gemaakt met de [!DNL Target] UI, zoals `Browser:iPad` en `Browser:iPhone`, wordt automatisch naar de nieuwe definitie van het publiek verplaatst en vereist geen actie aan de kant van de klant. In de toekomst moet u echter de instellingen gebruiken [hieronder beschreven](#ui).
+Ingebouwde soorten publiek die zijn gemaakt met de gebruikersinterface van [!DNL Target] , zoals `Browser:iPad` en `Browser:iPhone` , worden automatisch naar de nieuwe definitie van het publiek verplaatst en hoeven aan de zijde van de klanten niet te worden geactiveerd. Nochtans, zou u door:gaan, de hieronder beschreven montages [ moeten gebruiken ](#ui).
 
-Als u `user.browserType` in alle profielscripts om te controleren of het een [!DNL iPhone] of [!DNL iPad] (bijvoorbeeld `user.browserType == 'iphone'` of `user.browserType != 'ipad'`), moeten deze profielscripts worden gewijzigd als [hieronder uitgelegd](#profile-scripts) vóór 30 april 2024 om ervoor te zorgen dat dit publiek naar verwachting blijft functioneren.
+Als u `user.browserType` in om het even welke profielmanuscripten gebruikt om te controleren of is het [!DNL iPhone] of [!DNL iPad] (bijvoorbeeld, `user.browserType == 'iphone'` of `user.browserType != 'ipad'`), zouden die profielmanuscripten moeten worden veranderd zoals [ hieronder ](#profile-scripts) vóór 30 April, 2024 wordt geïnstrueerd om ervoor te zorgen dat deze publiek blijft functioneren zoals verwacht.
 
-JavaScript-publiek is een verouderd publiek dat [!DNL Target] expressies die zijn vervangen door de [!DNL Target Classic] UI. Deze soorten publiek kunnen alleen via de API worden gewijzigd. Klanten moeten deze soorten publiek alleen bijwerken als ze hun verouderde publiek blijven gebruiken voor activiteiten.
+JavaScript-doelgroepen zijn verouderde doelgroepen die [!DNL Target] -expressies gebruiken die zijn vervangen door de [!DNL Target Classic] -gebruikersinterface. Deze soorten publiek kunnen alleen via de API worden gewijzigd. Klanten moeten deze soorten publiek alleen bijwerken als ze hun verouderde publiek blijven gebruiken voor activiteiten.
 
-### Soorten publiek gemaakt met de [!DNL Target] UI {#ui}
+### Soorten publiek gemaakt met de gebruikersinterface van [!DNL Target] {#ui}
 
 De volgende instellingen kunnen in de toekomst worden gebruikt:
 
 * **Voor browserovereenkomsten[!DNL Apple]**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL matches] [!DNL Apple]
 
-  ![Apple](/help/main/r-release-notes/assets/apple.png)
+  ![ Apple ](/help/main/r-release-notes/assets/apple.png)
 
-* **Voor browserovereenkomsten met tablet**: [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
+* **voor browser past tablet** aan: [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
 
-  ![mobile is tablet](/help/main/r-release-notes/assets/is-tablet.png)
+  ![ mobiel is tablet ](/help/main/r-release-notes/assets/is-tablet.png)
 
-* **Voor browsers komt iPad overeen**: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad] met een en-container [!UICONTROL Mobile] > [!UICONTROL Is Tablet] is [!DNL true]
+* **voor browser past iPad** aan: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad] met een en container met [!UICONTROL Mobile] > [!UICONTROL Is Tablet] is [!DNL true]
 
-  ![iPad](/help/main/r-release-notes/assets/ipad.png)
+  ![ iPad ](/help/main/r-release-notes/assets/ipad.png)
 
-* **Voor browsers komt iPhone overeen**: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone] met een en-container [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] is [!DNL true]
+* **voor browser past iPhone** aan: [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone] met een en container met [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] is [!DNL true]
 
-  ![iPhone](/help/main/r-release-notes/assets/iphone.png)
+  ![ iPhone ](/help/main/r-release-notes/assets/iphone.png)
 
 Er zijn vele andere mogelijke montages die zouden kunnen worden gebruikt, bijvoorbeeld wanneer de voorwaarden worden ontkend. Voorbeelden van negatiefactoren kunnen er als volgt uitzien:
 
-* **Voor browser komt niet overeen met iPhone**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] met een of container met [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] is [!UICONTROL false]
+* **voor browser past geen iPhone** aan: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] met een of container met [!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone] is [!UICONTROL false]
 
-  ![Geen mobiele telefoon](/help/main/r-release-notes/assets/mobile-phone-false.png)
+  ![ niet mobiele telefoon ](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* **Voor browser komt niet overeen met iPad**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] met een of container met [!UICONTROL Mobile] > [!UICONTROL Is Tablet] is [!UICONTROL false].
+* **voor browser past geen iPad** aan: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] met een of container met [!UICONTROL Mobile] > [!UICONTROL Is Tablet] is [!UICONTROL false].
 
-  ![Geen tablet](/help/main/r-release-notes/assets/tablet-false.png)
+  ![ niet tablet ](/help/main/r-release-notes/assets/tablet-false.png)
 
 ### Soorten publiek gemaakt met behulp van profielscripts {#profile-scripts}
 
-Als u `user.browserType` in verouderde [!DNL Target Classic] publiek of in profielmanuscripten, zouden de veranderingen het volgende moeten omvatten:
+Als u `user.browserType` gebruikt in verouderde [!DNL Target Classic] soorten publiek of in profielscripts, moeten de volgende wijzigingen worden doorgevoerd:
 
 * **BrowserType is iPhone**:
 

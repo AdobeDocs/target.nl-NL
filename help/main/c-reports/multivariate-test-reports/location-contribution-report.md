@@ -35,6 +35,6 @@ De tweede lijst verstrekt een aanbod-niveau rapport. Het toont de omrekeningskoe
 
 ## Trainingsvideo: Een MVT-test maken
 
-In deze video ziet u hoe u een multivariate test maakt met behulp van de [!DNL Target] driestapige geleide workflow. Het rapport Locatiebijdrage wordt vanaf 8:45 beschreven.
+In deze video ziet u hoe u een multivariate test maakt met behulp van de [!DNL Target] driestapige geleide workflow. Het rapport van de Bijdrage van de Plaats wordt beschreven beginnend bij 8 :45.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17395)

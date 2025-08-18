@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Gebruik [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] om de aanbiedingen te maken die u in uw [!UICONTROL Multivariate Test] (MVT) wilt opnemen.
 
-Voor meer informatie over het gebruiken van VEC om aanbiedingen tot stand te brengen en uit te geven, zie {de opties van Composer van de 1} Visuele Ervaring.[&#128279;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
+Voor meer informatie over het gebruiken van VEC om aanbiedingen tot stand te brengen en uit te geven, zie {de opties van Composer van de 1} Visuele Ervaring.[](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
 
 >[!NOTE]
 >
@@ -33,15 +33,15 @@ Test meerdere afbeeldingen die op een bepaalde locatie beschikbaar zijn om te be
 
 Elke afbeelding wordt een aparte ervaring op die locatie.
 
-## HTML biedt {#section_DF016101AFA9412C9B99862C23DE77B1}
+## HTML-aanbiedingen {#section_DF016101AFA9412C9B99862C23DE77B1}
 
 Test meerdere HTML-aanbiedingen binnen een locatie om te bepalen welke aanbieding het meest succesvol is.
 
-1. Klik op een HTML-aanbieding op de pagina en klik vervolgens op **[!UICONTROL Change HTML Offer]** .
+1. Klik op een HTML-aanbieding op je pagina en klik vervolgens op **[!UICONTROL Change HTML Offer]** .
 
 1. Klik op **[!UICONTROL Create Offer]** , klik op **[!UICONTROL HTML Offer]** , geef een naam op voor de aanbieding, typ of plak de code voor de HTML-aanbieding en klik op **[!UICONTROL Create]** .
 
-   Herhaal dit voor alle andere HTML-aanbiedingen die u wilt opnemen.
+   Herhaal dit voor alle andere HTML-voorstellen die u wilt opnemen.
 
 1. Klik op **[!UICONTROL Save]**.
 

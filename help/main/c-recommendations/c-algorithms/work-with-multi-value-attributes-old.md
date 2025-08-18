@@ -1,7 +1,7 @@
 ---
 keywords: multi-value;attributes;recommendations;multi-value;multivalue;multi-value
-description: Leer hoe te met een multi-waardegebied in Adobe  [!DNL Target]  Recommendations te werken gebruikend speciale multi-waardeexploitanten, bijvoorbeeld, wanneer het adviseren van films met veelvoudige actoren.
-title: Kan ik multiwaardekenmerken gebruiken in Recommendations?
+description: Leer hoe te met een multi-waardegebied in Adobe  [!DNL Target]  Aanbevelingen te werken gebruikend speciale multi-waardeexploitanten, bijvoorbeeld, wanneer het adviseren van films met veelvoudige actoren.
+title: Kan ik multiwaardekenmerken gebruiken in aanbevelingen?
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

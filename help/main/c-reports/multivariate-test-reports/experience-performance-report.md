@@ -35,6 +35,6 @@ Onder de grafiek, toont een lijst hoeveel ingangen elke ervaring zagen, evenals 
 
 ## De video van de opleiding: Creeer een Band van de Test MVT ![ Zelfstudie ](/help/main/assets/tutorial.png)
 
-In deze video ziet u hoe u een multivariate test maakt met behulp van de driestapige workflow met instructies voor het doel. Het rapport Experience Performance wordt vanaf 8:20 beschreven.
+In deze video ziet u hoe u een multivariate test maakt met behulp van de driestapige workflow met instructies voor het doel. Het rapport van de Prestaties van de Ervaring wordt beschreven begin bij 8 :20.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17395)

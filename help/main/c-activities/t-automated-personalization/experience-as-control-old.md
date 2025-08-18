@@ -2,7 +2,7 @@
 keywords: ervaring;controle;geautomatiseerde verpersoonlijking;auto-doel
 description: Leer hoe te om een ervaring te selecteren die als controle moet worden gebruikt terwijl het creëren van een [!UICONTROL Automated Personalization] (AP) of [!UICONTROL Auto-Target] activiteit in  [!DNL Adobe Target].
 title: Hoe kan ik een specifieke ervaring als controle in een [!UICONTROL Automated Personalization] activiteit gebruiken?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453

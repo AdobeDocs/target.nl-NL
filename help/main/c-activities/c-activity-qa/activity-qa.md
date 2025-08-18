@@ -1,6 +1,6 @@
 ---
 keywords: qa;qa, modus; activiteit qa;qa url;qa urls;voorvertoning url;voorvertoning urls
-description: Leer hoe te om Adobe  [!DNL Target]  QA URLs te gebruiken om gemakkelijke activiteit QA van begin tot eind met voorproefverbindingen uit te voeren die nooit veranderen, facultatief publiek richtend, en QA rapporterend die van levende activiteitengegevens gesegmenteerd blijft.
+description: Leer hoe te om Adobe  [!DNL Target]  QA URLs te gebruiken om gemakkelijke activiteit QA van begin tot eind met voorproefverbindingen uit te voeren die nooit veranderen, facultatieve publiek richtend, en QA rapporterend die van levende activiteitengegevens gesegmenteerd blijft.
 title: Hoe kan ik QA-activiteiten uitvoeren?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
@@ -29,7 +29,7 @@ Met [!UICONTROL Activity QA] kunt u uw [!DNL Target] -activiteiten volledig test
 
 ## Een URL voor een kwaliteitscontrole openen en delen {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. Klik op **[!UICONTROL Activity QA]** op de pagina van een activiteit [!UICONTROL Overview] .
+1. Klik op [!UICONTROL Overview] op de pagina van een activiteit **[!UICONTROL Activity QA]** .
 
 1. Configureer de volgende instellingen:
 
@@ -71,7 +71,7 @@ Als uw site is ingesteld op 0,js 1.*x* opgesteld, naast het gebruiken van [ QA b
 
 ### [!DNL Adobe Experience Platform Web SDK]
 
-Als uw plaats [[!UICONTROL Platform Web SDK] ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=nl-NL){target=_blank}  opgesteld heeft, kunt u zich manueel dwingen uit door een pagina op uw plaats met de `at_qa_mode` parameter met een lege waarde te laden. Bijvoorbeeld:
+Als de [[!UICONTROL Platform Web SDK] ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} is geïmplementeerd op uw site, kunt u uzelf handmatig afdwingen door een pagina op uw site te laden met de parameter `at_qa_mode` met een lege waarde. Bijvoorbeeld:
 
 `https://www.mysite.com/?at_qa_mode=`
 
@@ -84,7 +84,7 @@ Als uw plaats [[!UICONTROL Platform Web SDK] ](https://experienceleague.adobe.co
 * Activiteiten die worden geïmporteerd in [!DNL Target Standard/Premium] (bijvoorbeeld vanuit [!DNL Target Classic] ) ondersteunen geen URL&#39;s met kwaliteitscontrole.
 * Bij [!UICONTROL Auto-Allocate] - en [!UICONTROL Recommendations] -activiteiten wordt het model niet beïnvloed door de bezoeken die worden vastgelegd in [!UICONTROL Activity QA] .
 * Als u &quot;URL&quot;specificeert terwijl het creëren van de activiteit [ verfijningen in de op vorm-gebaseerde Composer ](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) of [ de opties van de paginalevering in de Visuele Composer van de Ervaring) ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81) specificeert, werkt QA URL niet omdat [!UICONTROL Activity QA] parameters URL toevoegt. Als u dit probleem wilt verhelpen, klikt u op de URL voor de kwaliteitscontrole om naar uw site te gaan, verwijdert u de toegevoegde parameters uit de URL en laadt u vervolgens de nieuwe URL.
-* Als u at.js 1 hebt.*x*, [!UICONTROL Activity QA] wijze is niet kleverig als u Safari of een andere browser gebruikt die derdekoekjes blokkeert. In deze gevallen moet u de voorvertoningsparameters toevoegen aan elke URL waarnaar u navigeert. Het zelfde is waar als u [ CNAME ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=nl-NL){target=_blank}  hebt uitgevoerd.
+* Als u at.js 1 hebt.*x*, [!UICONTROL Activity QA] wijze is niet kleverig als u Safari of een andere browser gebruikt die derdekoekjes blokkeert. In deze gevallen moet u de voorvertoningsparameters toevoegen aan elke URL waarnaar u navigeert. Het zelfde is waar als u [ CNAME ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank} hebt uitgevoerd.
 * Als een activiteit veelvoudige ervaringspubliek gebruikt (bijvoorbeeld, een plaats van de V.S. en van het VK die in de zelfde activiteit inbegrepen zijn), worden de verbindingen van QA niet geproduceerd voor de vier combinaties (Ervaring A/US Plaats, Ervaring A/UK Plaats, Ervaring B/US Plaats, Ervaring B/UK Plaats). Er worden slechts twee QA-koppelingen (Experience A en Experience B) gemaakt en gebruikers moeten in aanmerking komen voor het juiste publiek om de pagina te kunnen zien. Een Britse QA-persoon kan de Amerikaanse site niet zien.
 * Alle parameters en waarden van `at_preview` zijn al gecodeerd met URL. Meestal werkt alles zoals verwacht. Nochtans, moeten sommige klanten balancers of de servers van het Web laden die proberen om de parameters van het vraagkoord opnieuw te coderen.
 
@@ -111,9 +111,9 @@ Als uw plaats [[!UICONTROL Platform Web SDK] ](https://experienceleague.adobe.co
 
 [!DNL Target] ondersteunt de volgende JavaScript-bibliotheken:
 
-* [ at.js 1.x ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=nl-NL)
-* [ at.js 2.x ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=nl-NL)
-* [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=nl-NL)
+* [ at.js 1.x ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [ at.js 2.x ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html)
 
 In de volgende tabel worden de verschillende typen activiteiten vermeld en wordt aangegeven of de modus [!UICONTROL Activity QA] wordt ondersteund voor elke bibliotheek:
 

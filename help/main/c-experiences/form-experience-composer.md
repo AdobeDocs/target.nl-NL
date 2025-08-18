@@ -1,6 +1,6 @@
 ---
 keywords: op formulieren gebaseerde ervaringscomposer;op formulieren gebaseerde composer;verfijningen
-description: Leer hoe te om de Adobe  [!DNL Target]  vorm-Gebaseerde Composer van de Ervaring voor niet-visuele ervaringsverwezenlijking te gebruiken. Gebruik deze composer wanneer VEC niet beschikbaar of niet praktisch is te gebruiken.
+description: Leer hoe te om Adobe  [!DNL Target]  vorm-Gebaseerde Composer van de Ervaring voor niet-visuele ervaringsverwezenlijking te gebruiken. Gebruik deze composer wanneer VEC niet beschikbaar of niet praktisch is te gebruiken.
 title: Hoe gebruik ik de op formulieren gebaseerde Experience Composer?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
@@ -35,7 +35,7 @@ Er zijn geen ervaringen als u een [!UICONTROL Recommendations] -activiteit maakt
 
    Dit scherm is anders als u een [!UICONTROL Recommendations] activiteit creeert. [!UICONTROL Recommendations] -activiteiten omvatten geen ervaringen.
 
-1. &#x200B;
+1. 
    1. Klik het **[!UICONTROL Rename]** pictogram ( ![ anders noemen pictogram ](/help/main/assets/icons/MoreSmallListVert.svg)), klik **[!UICONTROL Rename]**, specificeer een naam voor de activiteit, dan klik **[!UICONTROL Save]**.
 
    De naam van de activiteit mag niet met een van de volgende tekens beginnen:
@@ -80,7 +80,7 @@ Er zijn geen ervaringen als u een [!UICONTROL Recommendations] -activiteit maakt
 
 1. Geef voor het geselecteerde inhoudstype de inhoud op.
 
-   **Aanbieding van de HTML van de Verandering:** kies een aanbieding van de HTML.
+   **Aanbieding van HTML van de Verandering:** kies een aanbieding van HTML.
 
    **Aanbieding van het Beeld van de Verandering:** kies een beeld in de inhoudsbibliotheek in Doel wordt bewaard dat.
 
@@ -98,7 +98,7 @@ Er zijn geen ervaringen als u een [!UICONTROL Recommendations] -activiteit maakt
 
    **Verre Aanbieding van de Verandering:** kies een verre aanbieding. Voor meer informatie, zie [ verre aanbiedingen ](/help/main/c-experiences/c-manage-content/about-remote-offers.md) creëren.
 
-   **creeer de Aanbieding van de HTML:**
+   **creeer de Aanbieding van HTML:**
 
    1. Klik op [!UICONTROL Offers] en selecteer vervolgens het tabblad [!UICONTROL Code Offers].
    1. Klik op [!UICONTROL Create] > [!UICONTROL HTML Offer] .
@@ -116,15 +116,15 @@ Er zijn geen ervaringen als u een [!UICONTROL Recommendations] -activiteit maakt
 
    **voeg Aanbeveling toe:**
 
-   Voor Recommendations-activiteiten krijgt u de optie [!UICONTROL Add Recommendation] in de vervolgkeuzelijst Inhoud. Klik op **[!UICONTROL Add Recommendation]** en selecteer het paginatype. Dan volg de gebruikelijke stappen zoals die in de interface worden bepaald om [ een activiteit van Recommendations ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) tot stand te brengen.
+   Voor een activiteit van Aanbevelingen, geeft de drop-down Inhoud u de [!UICONTROL Add Recommendation] optie. Klik op **[!UICONTROL Add Recommendation]** en selecteer het paginatype. Dan volg de gebruikelijke stappen zoals die in de interface worden bepaald [ creeer een activiteit van Aanbevelingen ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
-   Bij het selecteren van Recommendations-criteria in de Form-Based Experience Composer is er nu een directe koppeling naar de geselecteerde Criteria Card zodat u de criteria snel en eenvoudig kunt bewerken.
+   Bij het selecteren van criteria voor Aanbevelingen in de Form-Based Experience Composer is er nu een directe koppeling naar de geselecteerde Criteria Card zodat u de criteria snel en eenvoudig kunt bewerken.
 
    Op de pagina [!UICONTROL Targeting] van de [!DNL Target] driestappenworkflow met instructies:
 
    **voeg Besluit van de Aanbieding toe:**
 
-   Voeg een aanbieding die in [!DNL Adobe Journey Optimizer] (AJO) is gemaakt toe aan een [!DNL Adobe Target] -activiteit om de beste dynamische aanbieding en ervaring aan uw bezoekers op uw website of mobiele site met offer decisioning te presenteren. Deze optie is alleen beschikbaar voor handmatige [!UICONTROL A/B Test] - en [!UICONTROL Experience Targeting] -activiteiten (XT).
+   Voeg een aanbieding die in [!DNL Adobe Journey Optimizer] (AJO) is gemaakt toe aan een [!DNL Adobe Target] -activiteit om de beste dynamische aanbieding en ervaring aan uw bezoekers op uw website of mobiele site te presenteren met behulp van de functie voor het bepalen van aanbiedingen. Deze optie is alleen beschikbaar voor handmatige [!UICONTROL A/B Test] - en [!UICONTROL Experience Targeting] -activiteiten (XT).
 
    Voor meer informatie, zie [ Aanbiedingsbesluiten van het Gebruik ](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 
@@ -133,7 +133,7 @@ Er zijn geen ervaringen als u een [!UICONTROL Recommendations] -activiteit maakt
 
 * [ creeer een Test A/B ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [ creeer een Ervaring richtend Activiteit ](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-* [Een Recommendations-activiteit maken](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+* [Een activiteit voor aanbevelingen maken](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 ## De video van de opleiding: Op vorm-Gebaseerde Composer ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
 

@@ -1,31 +1,31 @@
 ---
 keywords: Doel;rapporten;rapport montages;milieu;lift gebonden;variatie;vertrouwen;controle
-description: Leer hoe u Adobe kunt interpreteren [!DNL Target] rapporten, die gegevenspunten en visualisatievertegenwoordiging omvatten om u te helpen de liftgrenzen en het betrouwbaarheidsniveau van uw activiteiten begrijpen.
+description: Leer hoe te om Adobe  [!DNL Target]  rapporten te interpreteren, die gegevenspunten en visualisatievertegenwoordiging omvatten om u te helpen de liftgrenzen en het vertrouwensniveau van uw activiteiten begrijpen.
 title: Hoe bekijk ik Gemiddelde Lift, Lift Bounds, en het Interval van het Vertrouwen?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
 
 # Gemiddelde optillen, Lift Bounds en het Interval van het Vertrouwen
 
-De rapporten omvatten verscheidene gegevenspunten en visualisatievertegenwoordiging die u helpen de liftgrenzen en het betrouwbaarheidsniveau begrijpen verbonden aan uw [!DNL Adobe Target] om je te helpen een winnaar nauwkeuriger te bepalen.
+Rapporten bevatten verschillende gegevenspunten en visualisatieweergaven die u helpen de grenzen van de lift en het betrouwbaarheidsniveau te begrijpen die aan uw [!DNL Adobe Target] -activiteit zijn gekoppeld, zodat u nauwkeuriger kunt bepalen wie de winnaar is.
 
 >[!NOTE]
 >
->Deze functie is alleen beschikbaar als u rapporten bekijkt in [!UICONTROL Table] Weergeven. Deze functie is niet beschikbaar voor activiteiten die [Analyses als bron van rapportage (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+>Deze functie is alleen beschikbaar wanneer u rapporten weergeeft in [!UICONTROL Table] Weergave. Deze eigenschap is niet beschikbaar voor activiteiten die [ Analytics als rapporteringsbron (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) gebruiken.
 
 ## De gegevens interpreteren {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
 
-In de volgende afbeelding ziet u [!UICONTROL Lift Bounds and Confidence Level] informatie:
+In de volgende afbeelding worden [!UICONTROL Lift Bounds and Confidence Level] -gegevens getoond:
 
-![Gemiddeld verslag over de ophef- en betrouwbaarheidsniveaus](/help/main/c-reports/c-report-settings/assets/lift-screenshot-new.png)
+![ Gemiddelde Lift en het rapport van het Niveau van het Vertrouwen ](/help/main/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
-De lift en de vertrouwensinformatie in de [!DNL Target] rapportage-UI omvat:
+De informatie over lift en betrouwbaarheid in de rapportinterface van [!DNL Target] bevat:
 
 ### Optillen
 
@@ -33,23 +33,23 @@ Het grote getal en de pijl geven de verwachte waarde van de lift aan. Dit getal 
 
 ### Grenzen optillen
 
-Dit is het 95% betrouwbaarheidsinterval van de lift. Het wordt weergegeven als een bereik onder de gemiddelde lift. Zie [Voorbeeldberekening](#example) hieronder vindt u een voorbeeld van de wijze waarop deze grenzen van de lift worden berekend.
+Dit is het 95% betrouwbaarheidsinterval van de lift. Het wordt weergegeven als een bereik onder de gemiddelde lift. Zie [ berekening van het Voorbeeld ](#example) hieronder voor een voorbeeld van hoe deze liftgrenzen worden berekend.
 
 ### Boxplot-grafiek
 
-De grafiek van het klokveld in de [!DNL Target] interface vertegenwoordigt de verwachte waarde en 95% betrouwbaarheidsinterval van succesmetrisch in kwestie. Beschouw het als een grafische manier om de informatie over de lift en de lift grenzen te bekijken.
+De grafiek van het klokdiagram in de [!DNL Target] interface vertegenwoordigt de verwachte waarde en 95% betrouwbaarheidsinterval van succesmetrisch in kwestie. Beschouw het als een grafische manier om de informatie over de lift en de lift grenzen te bekijken.
 
-Er zijn enkele manieren waarop u kunt werken [!DNL Target] helpt u bij het interpreteren van de betrouwbaarheidsinformatie, waaronder kleur. De grafiek toont om het even welke overlapping in het betrouwbaarheidsinterval van een specifieke ervaring met het betrouwbaarheidsinterval van de controle in grijs, en om het even welk waaier van het betrouwbaarheidsinterval van een specifieke ervaring die boven of onder dat van het interval van het controlevertrouwen als groen of rood is.
+Er zijn enkele belangrijke manieren waarop u met [!DNL Target] de vertrouwensinformatie kunt interpreteren, waaronder kleur. De grafiek toont om het even welke overlapping in het betrouwbaarheidsinterval van een specifieke ervaring met het betrouwbaarheidsinterval van de controle in grijs, en om het even welk waaier van het betrouwbaarheidsinterval van een specifieke ervaring die boven of onder dat van het interval van het controlevertrouwen als groen of rood is.
 
 De lengte van de balk van het boxplot geeft aan hoe groot het betrouwbaarheidsinterval is op een begrijpelijke manier. Terwijl u meer gegevens verzamelt in uw activiteit, verschuift en verandert de balk. Het betrouwbaarheidsinterval wordt afgeleid van de variantie en de steekproefgrootte (aantal bezoekers). Hoe kleiner de variantie en hoe groter het monster, hoe kleiner het betrouwbaarheidsinterval.
 
 ### Vertrouwen
 
-Het vertrouwen van een getoonde ervaring of aanbieding is een kans (uitgedrukt als percentage) om een resultaat te behalen _minder extreem_ dan degene die daadwerkelijk wordt waargenomen, _als de nulhypothese waar is_, d.w.z. als er geen verschil is in omrekeningskoersen tussen die ervaring of dat aanbod, en de ervaring/het aanbod van de controle. Wat p-waarden betreft, wordt dit vertrouwen weergegeven `1 - p-value`. Eenvoudiger gezegd, geeft een hoger vertrouwen aan dat de gegevens minder consistent zijn met de aanname dat het aanbod/de ervaring van de controle en de niet-controle gelijke omrekeningskoersen hebben.
+Het vertrouwen van een ervaring of een aanbieding die wordt getoond is een waarschijnlijkheid (uitgedrukt als percentage) van het verkrijgen van een resultaat _minder extreem_ dan die eigenlijk wordt waargenomen, _als de ongeldige hypothese waar_ is, d.w.z. als er geen verschil in omzettingspercentages tussen die ervaring of aanbieding, en de controleervaring/aanbieding is. Wat de p-waarden betreft, wordt dit vertrouwen weergegeven als `1 - p-value` . Eenvoudiger gezegd, geeft een hoger vertrouwen aan dat de gegevens minder consistent zijn met de aanname dat het aanbod/de ervaring van de controle en de niet-controle gelijke omrekeningskoersen hebben.
 
 ## Begrijp hoe het betrouwbaarheidsinterval voor lift wordt bepaald {#pdf}
 
-Download de [Vertrouwelijkheidsinterval voor optillen van pdf-bestand](/help/main/assets/confidence_interval_lift.pdf) voor meer informatie .
+Download het [ Interval van het Vertrouwen voor Lift pdf- dossier ](/help/main/assets/confidence_interval_lift.pdf) voor meer informatie.
 
 ## Hoe worden liftgrenzen berekend? {#section_1D360781D972483693680BE0F07AEAD1}
 
@@ -57,63 +57,63 @@ De grenzen van de lift vertegenwoordigen de 95% betrouwbaarheidsintervallen van 
 
 De grenzen van de lift worden berekend met behulp van de volgende formule:
 
-![lift_diagram, afbeelding](assets/lift_diagram.png)
+![ lift_diagram beeld ](assets/lift_diagram.png)
 
 Er is een extra berekening om de invoer aan onze liftgrenzen te bereiken:
 
-* **t-waarde:** De kritische statistiek voor ons 95%-betrouwbaarheidsniveau is 1,96. Meer informatie over [t-waarden hier](https://en.wikipedia.org/wiki/T-statistic).
-* **Variantie optillen:** De standaardfout van het succes van N van de Ervaring en de StandaardFout van het succes van de Ervaring van de Controle metrisch zijn nodig om de hefvariantie te bepalen, die met de volgende formule wordt berekend (geïllustreerd in het geval dat succesmetrisch omzetting is).
+* **t-waarde:** de kritieke statistiek voor ons 95% betrouwbaarheidsniveau is 1.96. U kunt meer over [ t-waarden hier ](https://en.wikipedia.org/wiki/T-statistic) leren.
+* **de Variantie van het Lift:** De StandaardFout van het succes van N van de Ervaring en de StandaardFout van het succes van de Ervaring van de Controle metrische zijn nodig om de hefboomvariantie te bepalen, die gebruikend de volgende formule wordt berekend (die in het geval wordt geïllustreerd metrisch succes is omzetting).
 
-   ![lift_variance, afbeelding](assets/lift_variance.png)
+  ![ lift_variance beeld ](assets/lift_variance.png)
 
-* **Conversiesnelheid/fout metrische standaard met succes:** Standaardfout wordt op dezelfde manier berekend voor Experience N en de Control, met behulp van de volgende formule (geïllustreerd in het geval dat de succesparameter conversie is). Meer informatie over [standaardfout hier](https://en.wikipedia.org/wiki/Standard_error).
+* **het Tarief van de Omzetting/de Metrische Standaard van het Succes Fout:** de Standaardfout wordt berekend op de zelfde manier voor Ervaring N en de Controle, gebruikend de volgende formule (die in het geval wordt geïllustreerd metrisch succes is omzetting). U kunt meer over [ standaardfout hier ](https://en.wikipedia.org/wiki/Standard_error) leren.
 
-   ![standard_error-afbeelding](assets/standard_error.png)
+  ![ standard_error beeld ](assets/standard_error.png)
 
-   >[!NOTE]
-   >
-   >De standaardfout voor de metrische activiteiten van het opbrengstsucces is gebaseerd op de steekproefvariantie van de inkomsten.
+  >[!NOTE]
+  >
+  >De standaardfout voor de metrische activiteiten van het opbrengstsucces is gebaseerd op de steekproefvariantie van de inkomsten.
 
 ## Voorbeeldberekening {#example}
 
 Neem bijvoorbeeld een voorbeeldactiviteit met twee ervaringen en de volgende resultaten:
 
-| Ervaring | Bezoekers | Conversies | Omzetsnelheid |
+| Ervaring | Bezoekers | Conversies | Conversiesnelheid |
 |--- |--- |--- |--- |
-| Ervaring A (controle) | 219, 328 | 2,466 | 1.12% |
-| Ervaring B | 218, 362 | 3,040 | 1.39% |
+| Ervaring A (controle) | 219 328 | 2.466 | 1,12% |
+| Ervaring B | 218 362 | 3.040 | 1,39% |
 
 Op basis van onze formules kunnen we de inputs berekenen die we nodig hebben voor de limieten van de lift.
 
-**Standaardfout voor ervaring A (besturing)**
+**StandaardFout voor Ervaring A (Controle)**
 
-![standard_error_A image](assets/standard_error_A.png)
+![ standard_error_A beeld ](assets/standard_error_A.png)
 
-**Standaardfout voor ervaring B**
+**StandaardFout voor Ervaring B**
 
-![standard_error_B image](assets/standard_error_B.png)
+![ standard_error_B beeld ](assets/standard_error_B.png)
 
-**Liftvariatie voor ervaring B**
+**tilt Variantie voor Ervaring B**
 
-![lift_variance_B afbeelding](assets/lift_variance_B.png)
+![ lift_variance_B beeld ](assets/lift_variance_B.png)
 
-**Grenzen optillen voor ervaring B**
+**Lift Grenzen voor Ervaring B**
 
 Verwacht optillen voor ervaring B:
 
-![lift_bounds_B-afbeelding](assets/lift_bounds_B.png)
+![ lift_bounds_B beeld ](assets/lift_bounds_B.png)
 
 De limieten voor de lift voor ervaring B zouden daarom als volgt zijn:
 
-![lift_bounds_B2-afbeelding](assets/lift_bounds_B2.png)
+![ lift_bounds_B2 beeld ](assets/lift_bounds_B2.png)
 
 >[!NOTE]
 >
->Verwacht kleine verschillen tussen handmatige berekeningen met behulp van de bovenstaande formules en de getallen die in het rapport worden weergegeven. Het verschil kan worden toegeschreven aan het feit dat de getallen die in handmatige berekeningen worden gebruikt, op de pagina worden afgerond. De in de [!DNL Target] het rapport is gebaseerd op de exacte getallen die zijn verkregen uit de totale betrokkenheid en de telling van de betrokkenheid. De betrokkenheidsnummers kunnen worden verkregen via de prestatierapport-API.
+>Verwacht kleine verschillen tussen handmatige berekeningen met behulp van de bovenstaande formules en de getallen die in het rapport worden weergegeven. Het verschil kan worden toegeschreven aan het feit dat de getallen die in handmatige berekeningen worden gebruikt, op de pagina worden afgerond. De lift die in het [!DNL Target] -rapport wordt weergegeven, is gebaseerd op de exacte getallen die zijn verkregen uit de totale betrokkenheid en de telling van de betrokkenheid. De betrokkenheidsnummers kunnen worden verkregen via de prestatierapport-API.
 
 ## Wanneer worden liftgrenzen niet weergegeven? {#section_C5622E1E94684DAD937249B51A9E42CC}
 
-In bepaalde gevallen [!DNL Target] geeft geen liftgrenzen weer:
+In bepaalde gevallen geeft [!DNL Target] geen liftgrenzen weer:
 
 * Voor elke activiteit, wanneer het totale aantal bezoeken of bezoekers minder dan 30 bedraagt.
-* Voor [!UICONTROL Auto-Allocate] geen liftgrenzen worden weergegeven totdat één ervaring een betrouwbaarheid van 60% heeft bereikt.
+* Voor [!UICONTROL Auto-Allocate] -activiteiten worden geen liftgrenzen weergegeven totdat één ervaring een betrouwbaarheid van 60% heeft bereikt.

@@ -2,7 +2,7 @@
 keywords: geautomatiseerde personalisatie;aanbiedingen;target;publiek;het richten van regels;het richten van gericht
 description: Leer hoe te om individuele aanbiedingen aan specifiek publiek te richten door een [!UICONTROL Automated Personalization] (AP) activiteit in  [!DNL Adobe Target] te gebruiken.
 title: Hoe kan ik [!UICONTROL Automated Personalization] aanbiedingen richten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
@@ -31,7 +31,7 @@ In dit scenario ziet bezoeker 1 aanbod 1 (omdat deze bezoeker in aanmerking komt
 ## Doelstellingen instellen
 
 1. Creeer een [ activiteit van Automated Personalization ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) die de aanbiedingen bevat die u wilt richten.
-1. Klik op **[!UICONTROL Manage Content]** nadat u de aanbiedingen voor de activiteit in de [!UICONTROL Visual Experience Composer] hebt ingesteld.
+1. Klik op [!UICONTROL Visual Experience Composer] nadat u de aanbiedingen voor de activiteit in de **[!UICONTROL Manage Content]** hebt ingesteld.
 
    ![ beheert Inhoud ](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
 

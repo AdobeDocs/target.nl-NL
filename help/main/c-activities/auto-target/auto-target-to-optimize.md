@@ -2,7 +2,7 @@
 keywords: autotarget;het richten;verkeerstoewijzing;vaak gestelde vragen;faq;het oplossen van problemen;het oplossen van problemen
 description: Leer hoe een [!UICONTROL Auto-Target] -activiteit de meest op maat gemaakte ervaring voor elke bezoeker biedt op basis van klantprofielen en het gedrag van vergelijkbare bezoekers.
 title: Wat is een [!UICONTROL Auto-Target] activiteit?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## Real-world succesverhaal met Auto-Target {#success}
 
-Een grote detailhandelaar in kleding gebruikte onlangs een [!UICONTROL Auto-Target] activiteit met tien op productcategorie-gebaseerde ervaringen (plus randomiseerde controle) om de juiste inhoud aan elke bezoeker te leveren. &quot;[!UICONTROL Add to Cart]&quot; is gekozen als primaire optimalisatiemetrische waarde. De beoogde ervaringen liepen gemiddeld op met 29,09%. Nadat de [!UICONTROL Auto-Target] -modellen waren gemaakt, werd de activiteit ingesteld op 90% persoonlijke ervaringen.
+Een grote kleding die retailer onlangs gebruikte, gebruikte een [!UICONTROL Auto-Target] activiteit met tien op productcategorieën gebaseerde ervaringen (plus gerandomiseerde controle) om de juiste inhoud aan elke bezoeker te leveren. &quot;[!UICONTROL Add to Cart]&quot; is gekozen als primaire optimalisatiemetrische waarde. De beoogde ervaringen liepen gemiddeld op met 29,09%. Nadat de [!UICONTROL Auto-Target] -modellen waren gemaakt, werd de activiteit ingesteld op 90% persoonlijke ervaringen.
 
 In slechts tien dagen werd meer dan $1.700.000 in lift bereikt.
 
@@ -62,9 +62,9 @@ De volgende termen zijn handig wanneer u [!UICONTROL Auto-Target] bespreekt:
 
 | Term | Definitie |
 |---|---|
-| [ Meervoudig-gewapende bandit ](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank}  | Een veelbewapende bandibenadering voor optimalisering brengt een evenwicht tot stand tussen verkennend leren en het benutten van dat leren. |
+| [ Meervoudig-gewapende bandit ](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} | Een veelbewapende bandibenadering voor optimalisering brengt een evenwicht tot stand tussen verkennend leren en het benutten van dat leren. |
 | [ Willekeurig bos ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Random Forest is een toonaangevende aanpak voor machinaal leren. Op het gebied van gegevenswetenschappen is het een ensemble classificatie, of regressiemethode, die werkt door veel beslissingsbomen te bouwen op basis van bezoekers en bezoekkenmerken. Binnen [!DNL Target] wordt Random Forest gebruikt om te bepalen welke ervaring naar verwachting de hoogste kans op conversie (of hoogste inkomsten per bezoek) voor elke specifieke bezoeker zal hebben. |
-| [ Thompson Steekproef ](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank}  | Het doel van Thompson Sampling is te bepalen welke ervaring de beste algemene (niet-gepersonaliseerde) ervaring is, terwijl de &#39;kosten&#39; van het vinden van die ervaring tot een minimum worden beperkt. Thompson-steekproeven kiezen altijd een winnaar, zelfs als er geen statistisch verschil tussen twee ervaringen is. |
+| [ Thompson Steekproef ](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | Het doel van Thompson Sampling is te bepalen welke ervaring de beste algemene (niet-gepersonaliseerde) ervaring is, terwijl de &#39;kosten&#39; van het vinden van die ervaring tot een minimum worden beperkt. Thompson-steekproeven kiezen altijd een winnaar, zelfs als er geen statistisch verschil tussen twee ervaringen is. |
 
 ## Hoe [!UICONTROL Auto-Target] werkt {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
@@ -132,7 +132,7 @@ Er zijn verschillende scenario&#39;s waarin u [!UICONTROL Auto-Target] over [!UI
 
 ### [!DNL Target] gebruikt automatisch alle [!DNL Adobe Experience Cloud] gedeelde soorten publiek om de aanpassingsmodellen te maken.
 
-* U hoeft niets specifiek te doen om publiek aan het model toe te voegen. Voor informatie over het gebruiken van [!DNL Experience Cloud Audiences] met [!DNL Target], zie [ Soorten publiek van de Experience Cloud ](/help/main/c-integrating-target-with-mac/mmp.md).
+* U hoeft niets specifiek te doen om publiek aan het model toe te voegen. Voor informatie over het gebruiken van [!DNL Experience Cloud Audiences] met [!DNL Target], zie [ publiek van Experience Cloud ](/help/main/c-integrating-target-with-mac/mmp.md).
 
 ### Marketers kunnen offlinegegevens, proxyscores of andere aangepaste gegevens uploaden om personalisatiemodellen samen te stellen.
 

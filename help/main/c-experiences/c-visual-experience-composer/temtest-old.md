@@ -1,6 +1,6 @@
 ---
 keywords: sjabloon testen;sjabloon;zelfde ervaring op vergelijkbare pagina's;sjabloontest
-description: Leer hoe te om de Adobe  [!DNL Target]  Visuele Composer van de Ervaring (VEC) te gebruiken om de zelfde ervaring op veelvoudige pagina's te omvatten die gelijkaardig gestructureerd zijn of de zelfde malplaatjeelementen bevatten.
+description: Leer hoe te om Adobe  [!DNL Target]  Visuele Composer van de Ervaring (VEC) te gebruiken om de zelfde ervaring op veelvoudige pagina's te omvatten die gelijkaardig gestructureerd zijn of de zelfde malplaatjeelementen bevatten.
 title: Kan ik dezelfde ervaring opnemen op vergelijkbare pagina's?
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
@@ -98,7 +98,7 @@ U zou het gebruiken van malplaatjeregels kunnen overwegen om de zelfde activitei
 
    ![ Domein bevat ](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 
-## De video van de opleiding: Visuele Composer van de Ervaring (2 van 2) (7:29) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: De visuele Composer van de Ervaring (2 van 2) (7 :29) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
 
 * Een ervaring hernoemen en dupliceren
 * Omleiden maken

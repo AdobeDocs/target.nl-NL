@@ -1,8 +1,8 @@
 ---
-keywords: Recommendations;Instellingen;naam;doel;prioriteit;duur;rapportage-instellingen;andere metagegevens
-description: Leer hoe u de instellingen configureert die worden gebruikt om een Recommendations-activiteit in Adobe Target te beschrijven en te besturen.
-title: Hoe configureer ik Recommendations Activity Settings?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+keywords: Aanbevelingen;Instellingen;naam;doel;prioriteit;duur;rapportage-instellingen;andere metagegevens
+description: Leer hoe te om de montages te vormen die worden gebruikt om een activiteit van Aanbevelingen in Adobe Target te beschrijven en te controleren.
+title: Hoe vorm ik de montages van de Activiteit van Aanbevelingen?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Instellingen Recommendations-activiteit
+# Instellingen voor activiteiten met aanbevelingen
 
 Informatie over de instellingen die u kunt gebruiken om een [!UICONTROL Recommendations] -activiteit in [!DNL Adobe Target] te beschrijven en te beheren.
 
@@ -49,7 +49,7 @@ De prioriteit wordt gebruikt als de veelvoudige activiteiten aan de zelfde plaat
 
 Stel de duur van de activiteit in.
 
-De activiteit kan beginnen wanneer geactiveerd, of u kunt een specifieke datum en een tijd plaatsen. Op dezelfde manier kan de activiteit eindigen wanneer deze wordt gedeactiveerd of kunt u een datum en tijd instellen. De tijdkiezer gebruikt een 24-uurs klok, waarbij 00:00 middernacht is. De tijdzone wordt geplaatst aan de tijdzone die in uw browser wordt gevormd. Als u een andere tijdzone wilt gebruiken, stelt u de browser in op een andere tijdzone en start u de browser opnieuw.
+De activiteit kan beginnen wanneer geactiveerd, of u kunt een specifieke datum en een tijd plaatsen. Op dezelfde manier kan de activiteit eindigen wanneer deze wordt gedeactiveerd of kunt u een datum en tijd instellen. De tijdplukker gebruikt een klok van 24 uur, met 00 :00 die middernacht zijn. De tijdzone wordt geplaatst aan de tijdzone die in uw browser wordt gevormd. Als u een andere tijdzone wilt gebruiken, stelt u de browser in op een andere tijdzone en start u de browser opnieuw.
 
 ## Rapportinstellingen
 
@@ -79,7 +79,7 @@ De activiteit kan beginnen wanneer geactiveerd, of u kunt een specifieke datum e
 
 Voer opmerkingen in over je activiteiten.
 
-## De video van de opleiding: De Montages van de activiteit (3:02) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: De Montages van de activiteit (3 :02) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
 
 Deze video bevat informatie over instellingen voor activiteit.
 

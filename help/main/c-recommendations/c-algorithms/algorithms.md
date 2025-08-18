@@ -1,8 +1,8 @@
 ---
 keywords: aanbevelingen;aanbevelingen activiteit;criteria;algoritme;aanbeveling sleutel;douane sleutel;industrie verticaal;kleinhandel;handel;lood generatie;b2b;financiële diensten;media;het publiceren
 description: Leer hoe te om criteria in Adobe  [!DNL Target] [!DNL Recommendations] te gebruiken.
-title: Hoe gebruik ik Criteria in  [!DNL Target]  Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+title: Hoe gebruik ik Criteria in  [!DNL Target]  Aanbevelingen?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -52,7 +52,7 @@ U kunt aanbevelingen op de waarde van een attribuut van het douaneprofiel ook ba
 
 >[!NOTE]
 >
->Aangepaste profielparameters kunnen worden doorgegeven aan [!DNL Target] via JavaScript, API of integratie. Voor meer informatie over de attributen van het douaneprofiel, zie {profielen van 0} Bezoeker [&#128279;](/help/main/c-target/c-visitor-profile/visitor-profile.md).
+>Aangepaste profielparameters kunnen worden doorgegeven aan [!DNL Target] via JavaScript, API of integratie. Voor meer informatie over de attributen van het douaneprofiel, zie {profielen van 0} Bezoeker [.](/help/main/c-target/c-visitor-profile/visitor-profile.md)
 
 Stel dat u aanbevolen films wilt weergeven op basis van de film die een gebruiker het laatst aan de wachtrij heeft toegevoegd.
 

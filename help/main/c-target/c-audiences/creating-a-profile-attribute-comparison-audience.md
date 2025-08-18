@@ -13,43 +13,43 @@ ht-degree: 0%
 
 # Een vergelijkingspubliek voor profielkenmerken maken
 
-Een publiek definiëren in [!DNL Adobe Target] twee profielkenmerken voor uw [Auditiebibliotheek](/help/main/c-target/c-audiences/audiences.md) of in een [alleen voor activiteiten](/help/main/c-target/creating-activity-only-audience.md). Met operatoren, zoals groter dan, kleiner dan of gelijk aan, definieert u een publiek om de waarden van twee verschillende profielkenmerken dynamisch te vergelijken.
+Bepaal een publiek in [!DNL Adobe Target] om twee profielattributen voor uw [ bibliotheek van de Publiek ](/help/main/c-target/c-audiences/audiences.md) of in een [ activiteit-slechts publiek ](/help/main/c-target/creating-activity-only-audience.md) te vergelijken. Met operatoren, zoals groter dan, kleiner dan of gelijk aan, definieert u een publiek om de waarden van twee verschillende profielkenmerken dynamisch te vergelijken.
 
 >[!NOTE]
 >
->Deze functionaliteit is beschikbaar voor de [[!UICONTROL Visitor Profile]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E) alleen categorie.
+>Deze functionaliteit is alleen beschikbaar voor de categorie [[!UICONTROL Visitor Profile]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E) .
 
 ## Overzicht {#section_303CBC78194D49A2A004945D425441E1}
 
-Het publiek wordt gedefinieerd door regels die bepalen wie van een [!DNL Target] activiteit. Een publieksdefinitie kan veelvoudige regels omvatten, en elke regel kan veelvoudige parameters omvatten. Als één van de regels u omvat gebruikt [!UICONTROL Visitor Profile] categorie, kunt u een regel definiëren op basis van de specifieke waarde van een kenmerk van een bezoekersprofiel of de waarde van dat kenmerk vergelijken met een ander kenmerk van het bezoekersprofiel.
+Soorten publiek worden gedefinieerd door regels die bepalen wie wordt opgenomen in of uitgesloten van een [!DNL Target] -activiteit. Een publieksdefinitie kan veelvoudige regels omvatten, en elke regel kan veelvoudige parameters omvatten. Als een van de regels die u opneemt, de categorie [!UICONTROL Visitor Profile] gebruikt, kunt u een regel definiëren op basis van de specifieke waarde van een kenmerk van het bezoekersprofiel of de waarde van dat kenmerk vergelijken met een ander kenmerk van het bezoekersprofiel.
 
-Bijvoorbeeld, veronderstellen wij u voor een meubelbedrijf werkt en twee klantennutsscores uploadde in [!DNL Target]:
+Stel bijvoorbeeld dat u voor een meubelbedrijf werkt en twee scores voor klantvriendelijkheid in [!DNL Target] uploadt:
 
 * Mogelijkheid om in de komende 90 dagen dinerruimmeubilair te kopen
 * Mogelijkheid om in de komende 90 dagen huiskamermeubilair te kopen
 
-Je zou een publiek kunnen maken dat gedefinieerd wordt als de neiging om eetkamermeubilair te kopen groter is dan de neiging om meubilair van woonkamertjes te kopen. [!DNL Target] Vervolgens worden de scores voor de eetruimte en de neiging tot woonkamer dynamisch met elkaar vergeleken om te bepalen of de bezoeker voor dit publiek in aanmerking komt.
+Je zou een publiek kunnen maken dat gedefinieerd wordt als de neiging om eetkamermeubilair te kopen groter is dan de neiging om meubilair van woonkamertjes te kopen. [!DNL Target] vergelijkt vervolgens dynamisch de scores voor de eetruimte en de dichtheid van de woonkamer voor een specifieke bezoeker om te bepalen of die bezoeker voor dit publiek in aanmerking komt.
 
-Zie voor meer informatie [Methoden om gegevens op te halen in doel](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=nl-NL){target=_blank}.
+Voor meer informatie, zie [ Methoden om Gegevens in Doel ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} te krijgen.
 
 ## Een vergelijkingspubliek voor profielkenmerken maken {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. Klikken **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Klik op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]** .
 1. Geef een naam op voor het publiek en voeg een optionele beschrijving toe.
-1. Slepen en slepen **[!UICONTROL Visitor Profile]** in het deelvenster voor publieksopbouw.
-1. Van de **[!UICONTROL Visitor Profile]** kiest u een kenmerk in de vervolgkeuzelijst:
+1. Sleep **[!UICONTROL Visitor Profile]** naar het deelvenster van de publieksbuilder.
+1. Kies een kenmerk in de vervolgkeuzelijst **[!UICONTROL Visitor Profile]** :
 
-   ![Propensatiescore 1](assets/propensity_score_1.png)
+   ![ Score van de Volheid 1 ](assets/propensity_score_1.png)
 
 1. Kies uw evaluator:
 
-   ![Propensatiescore 2](assets/propensity_score_2.png)
+   ![ Score van de Volheid 2 ](assets/propensity_score_2.png)
 
-1. Van de **[!UICONTROL Choose Comparison Type]** vervolgkeuzelijst kiest u **[!UICONTROL Attribute]**.
+1. Kies **[!UICONTROL Choose Comparison Type]** in de vervolgkeuzelijst **[!UICONTROL Attribute]** .
 
    Met het vergelijkingstype &quot;statische waarde&quot; kunt u het kenmerk &quot;profiel van de bezoeker&quot; vergelijken met specifieke waarden.
 
-   ![Propensatiescore 3](assets/propensity_score_3.png)
+   ![ Score van de Eigenschap 3 ](assets/propensity_score_3.png)
 
    >[!NOTE]
    >
@@ -57,11 +57,11 @@ Zie voor meer informatie [Methoden om gegevens op te halen in doel](https://expe
 
 1. Kies het extra kenmerk dat u met het oorspronkelijke kenmerk wilt vergelijken.
 
-   ![propensity_score_4 afbeelding](assets/propensity_score_4.png)
+   ![ propensity_score_4 beeld ](assets/propensity_score_4.png)
 
 1. Klik op **[!UICONTROL Done]**.
 
-## Video over training ![Overzicht badge](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## De video van de opleiding ![ badge van het Overzicht ](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 Bekijk de volgende video voor meer informatie en een scenario waarin u deze functie kunt gebruiken:
 

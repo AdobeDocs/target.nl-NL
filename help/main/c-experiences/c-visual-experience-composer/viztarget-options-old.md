@@ -1,5 +1,5 @@
 ---
-keywords: visuele ervaring composer-opties;beleving composer-opties;ervaringsopties;geef tekst uit;bewerk tekst/html;bewerk achtergrondkleur;voeg element in;bewerk de koppeling;link;visuele ervaring composer-koppeling;bewerk css-klasse;css-klasse;wisselaanbod;bied;afbeeldingswisseling;verwijder item;item verwijderen;item verbergen;element verplaatsen;element verplaatsen;element vergroten;element wijzigen; element wijzigen;element;selectie uitbreiden;navigeren naar deze koppeling;navigeren naar koppeling;koppeling navigeren;navigeren;koppeling;ongedaan maken;opnieuw uitvoeren;ongedaan maken/opnieuw uitvoeren;aangepaste gebeurtenissen;webcomponenten;aanbieden, beslissing;offer decisioning
+keywords: visuele ervaring composer-opties;beleving composer-opties;ervaringsopties;geef tekst uit;bewerk tekst/html;bewerk achtergrondkleur;voeg element in;bewerk de koppeling;link;visuele ervaring composer-koppeling;bewerk css-klasse;css-klasse;wisselaanbod;bied;afbeeldingswisseling;verwijder item;item verwijderen;item verbergen;element verplaatsen;element verplaatsen;element vergroten;element wijzigen; element wijzigen;element;selectie uitbreiden;navigeren naar deze koppeling;navigeren door koppeling;navigeren;koppelen;navigeren;koppeling ongedaan maken;opnieuw uitvoeren;ongedaan maken/opnieuw uitvoeren;aangepaste gebeurtenissen;webcomponenten;aanbieden, beslissing;aanbieden, beslissing
 description: Onderzoek de opties beschikbaar in  [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
 title: Hoe gebruik ik de opties voor [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
@@ -31,9 +31,9 @@ De volgende opties zijn beschikbaar:
 
 Wijzig de HTML-code voor het element, zoals de tekst voor een tekstgebied, knop of koppeling.
 
-Naast HTML code kunt u aangepaste JavaScript bewerken en injecteren.
+Naast de HTML-code kunt u aangepaste JavaScript bewerken en injecteren.
 
-Er zijn verschillende opmaakopties voor RTF-tekst beschikbaar wanneer u tekst en HTML bewerkt voor [!UICONTROL A/B] - en [!UICONTROL Experience Targeting] -activiteiten. U kunt een lettertype kiezen, een lettertypestijl selecteren, de tekstuitlijning wijzigen en andere standaardopties voor tekstopmaak opgeven. Wanneer u HTML wijzigt, kunt u schakelen tussen de codeweergave en de rijke bewerkingsweergave van de HTML.
+Er zijn diverse opmaakopties voor RTF-tekst beschikbaar wanneer u tekst bewerkt en HTML voor [!UICONTROL A/B] - en [!UICONTROL Experience Targeting] -activiteiten. U kunt een lettertype kiezen, een lettertypestijl selecteren, de tekstuitlijning wijzigen en andere standaardopties voor tekstopmaak opgeven. Als u HTML wijzigt, kunt u schakelen tussen de codeweergave en de rijke bewerkingsweergave van de HTML.
 
 De volgende HTML5-tags kunnen worden genest:
 
@@ -88,7 +88,7 @@ Blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillende s
 
   De typografie van een element wijzigen. Typografie-bewerkingen zijn snel en eenvoudig.
 
-  Hoewel de rijke tekstredacteur (geef Tekst/HTML uit) voor het verfijnen beschikbaar is, zijn de snelle acties om het volledige element te veranderen beschikbaar via deze optie. Als u typografie veranderingen op slechts een deel van de tekst (niet op de volledige tekst) wilt toepassen, gebruik de [ rijke tekstredacteur ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+  Hoewel de rijke tekstredacteur (geef Tekst/HTML uit) beschikbaar voor het fijnstemmen is, zijn de snelle acties om het volledige element te veranderen beschikbaar via deze optie. Als u typografie veranderingen op slechts een deel van de tekst (niet op de volledige tekst) wilt toepassen, gebruik de [ rijke tekstredacteur ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 
   U kunt de volgende typografiestijlen bewerken:
 
@@ -111,7 +111,7 @@ Blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillende s
 
   Marge ondersteunt positieve en negatieve waarden.
 
-  Het doel ondersteunt ook andere grootteeenheden, zoals rem, pc en em. Voor meer informatie over deze eenheden, zie {de Bladen CSS van de Stijl van 0} Web Tips en Tricks [&#128279;](https://www.w3.org/Style/Examples/007/units.en.html).
+  Het doel ondersteunt ook andere grootteeenheden, zoals rem, pc en em. Voor meer informatie over deze eenheden, zie {de Bladen CSS van de Stijl van 0} Web Tips en Tricks [.](https://www.w3.org/Style/Examples/007/units.en.html)
 
 * **[!UICONTROL Padding]**
 
@@ -178,7 +178,7 @@ Blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillende s
    * [!UICONTROL Blur]
    * [!UICONTROL Opacity]
    * [!UICONTROL Invert]
-*[!UICONTROL &#x200B; Hue-rotate]
+*[!UICONTROL  Hue-rotate]
    * [!UICONTROL Saturate]
 
 * **[!UICONTROL CSS Editor]**
@@ -217,7 +217,7 @@ De volgende opties zijn beschikbaar:
 
 ### [!UICONTROL Offer Decision]
 
-Voeg een [ aanbieding toe die in  [!DNL Adobe Journey Optimizer] wordt gecreeerd ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=nl-NL){target=_blank}  om de beste aanbieding en ervaring aan uw klanten voor te stellen gebruikend offer decisioning.
+Voeg een [ aanbieding toe die in  [!DNL Adobe Journey Optimizer] wordt gecreeerd ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} om de beste aanbieding en ervaring aan uw klanten voor te stellen gebruikend aanbiedingsbesluit.
 
 **Nota:** Deze optie is beschikbaar wanneer het uitgeven van of het creëren van [ handboek [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) of [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) slechts activiteiten. Deze optie is niet beschikbaar voor andere typen activiteiten.
 
@@ -237,11 +237,11 @@ Het gedrag van het ingevoegde element is afhankelijk van de structuur van de pag
 
 ### Aanbeveling
 
-Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Voor meer informatie, zie [ Recommendations als aanbieding ](/help/main/c-recommendations/recommendations-as-an-offer.md).
+Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Voor meer informatie, zie [ Aanbevelingen als aanbieding ](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 ### [!UICONTROL Experience Fragment]
 
-Voeg ervaringsfragmenten in die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] -activiteiten voor optimalisatie of personalisatie. Voor meer informatie, zie [ AEM de Fragmenten van de Ervaring ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
+Voeg ervaringsfragmenten die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM), toe aan [!DNL Target] -activiteiten voor optimalisatie of personalisatie. Voor meer informatie, zie {de Fragmenten van de Ervaring van 0} AEM [.](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)
 
 ## [!UICONTROL Insert After]
 
@@ -249,7 +249,7 @@ De volgende opties zijn beschikbaar:
 
 ### [!UICONTROL Offer Decision]
 
-Voeg een [ aanbieding toe die in  [!DNL Adobe Journey Optimizer] wordt gecreeerd ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=nl-NL){target=_blank}  om de beste aanbieding en ervaring aan uw klanten voor te stellen gebruikend offer decisioning.
+Voeg een [ aanbieding toe die in  [!DNL Adobe Journey Optimizer] wordt gecreeerd ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} om de beste aanbieding en ervaring aan uw klanten voor te stellen gebruikend aanbiedingsbesluit.
 
 **Nota:** Deze optie is beschikbaar wanneer het uitgeven van of het creëren van [ handboek [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) of [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) slechts activiteiten. Deze optie is niet beschikbaar voor andere typen activiteiten.
 
@@ -269,11 +269,11 @@ Het gedrag van het ingevoegde element is afhankelijk van de structuur van de pag
 
 ### Aanbeveling
 
-Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Voor meer informatie, zie [ Recommendations als aanbieding ](/help/main/c-recommendations/recommendations-as-an-offer.md).
+Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Voor meer informatie, zie [ Aanbevelingen als aanbieding ](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 ### [!UICONTROL Experience Fragment]
 
-Voeg ervaringsfragmenten in die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] -activiteiten voor optimalisatie of personalisatie. Voor meer informatie, zie [ AEM de Fragmenten van de Ervaring ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
+Voeg ervaringsfragmenten die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM), toe aan [!DNL Target] -activiteiten voor optimalisatie of personalisatie. Voor meer informatie, zie {de Fragmenten van de Ervaring van 0} AEM [.](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)
 
 ## [!UICONTROL Replace Content]
 
@@ -281,7 +281,7 @@ De volgende opties zijn beschikbaar:
 
 ### [!UICONTROL Offer Decision]
 
-Voeg een [ aanbieding toe die in  [!DNL Adobe Journey Optimizer] wordt gecreeerd ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=nl-NL){target=_blank}  om de beste aanbieding en ervaring aan uw klanten voor te stellen gebruikend offer decisioning.
+Voeg een [ aanbieding toe die in  [!DNL Adobe Journey Optimizer] wordt gecreeerd ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} om de beste aanbieding en ervaring aan uw klanten voor te stellen gebruikend aanbiedingsbesluit.
 
 **Nota:** Deze optie is beschikbaar wanneer het uitgeven van of het creëren van [ handboek [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) of [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) slechts activiteiten. Deze optie is niet beschikbaar voor andere typen activiteiten.
 
@@ -289,9 +289,9 @@ Voor meer informatie, zie [ Aanbiedingsbesluiten van het Gebruik ](/help/main/c-
 
 ### [!UICONTROL Image]
 
-Selecteer een andere afbeelding in de inhoudsbibliotheek. Tot de afbeeldingen die u kunt wisselen, behoren de afbeeldingen die zijn geüpload naar de map met Experiencen Cloud of die zijn geüpload naar de inhoudsbibliotheek in Doel.
+Selecteer een andere afbeelding in de inhoudsbibliotheek. Tot de afbeeldingen die u kunt wisselen, behoren de afbeeldingen die naar de map Experience Cloud Assets zijn geüpload of die in de Content Library in Target zijn geüpload.
 
-Tijdens het maken van de eerste activiteit is de weergegeven URL niet de URL die voor levering wordt gebruikt. Bij het synchroniseren van activiteiten wordt die URL bijgewerkt naar een productie-Scene7-URL.
+Tijdens het maken van de eerste activiteit is de weergegeven URL niet de URL die voor levering wordt gebruikt. Op activiteit die synchroniseert, wordt die URL bijgewerkt aan een productie Scene7 URL.
 
 De eerste URL kan er bijvoorbeeld als volgt uitzien:
 
@@ -301,25 +301,25 @@ Na het synchroniseren van activiteiten, zou de levering URL als het volgende voo
 
 `http://s7d2.scene7.com/is/image/TargetTest/Aug_MBM?tm=1470768352933&fit=constrain&hei=173&wid=300`
 
-Recommendations biedt ondersteuning voor Vervangen door in DIV-, SECTION- en ARTIKEL-tags.
+Aanbevelingen ondersteunen Vervangen door in DIV-, SECTION- en ARTIKEL-tags.
 
-**Nota:** het ruilen beelden vereist een Adobe Scene7 het Publiceren Rekening van het Systeem.
+**Nota:** het ruilen beelden vereist een Rekening van het Systeem van Adobe Scene7 het Publiceren.
 
 ### [!UICONTROL HTML Offer]
 
 Selecteer een andere aanbieding in de [!UICONTROL Content Library] .
 
-**Nota:** de Aanbiedingen van de HTML worden opgeslagen op [!DNL Target] servers.
+**Nota:** Aanbiedingen van HTML worden opgeslagen op [!DNL Target] servers.
 
 Een HTML-aanbieding kan maximaal 256 kB bedragen.
 
 ### Aanbeveling
 
-Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Voor meer informatie, zie [ Recommendations als aanbieding ](/help/main/c-recommendations/recommendations-as-an-offer.md).
+Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Voor meer informatie, zie [ Aanbevelingen als aanbieding ](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 ### [!UICONTROL Experience Fragment]
 
-Voeg ervaringsfragmenten in die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] -activiteiten voor optimalisatie of personalisatie. Voor meer informatie, zie [ AEM de Fragmenten van de Ervaring ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
+Voeg ervaringsfragmenten die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM), toe aan [!DNL Target] -activiteiten voor optimalisatie of personalisatie. Voor meer informatie, zie {de Fragmenten van de Ervaring van 0} AEM [.](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)
 
 ## [!UICONTROL Layout]
 
@@ -371,17 +371,17 @@ Wijzigingen die u tijdens een bewerkingssessie in uw activiteiten aanbrengt, ong
 
 ## Overwegingen {#considerations}
 
-* Als een aanbieding inhoud van de HTML bevat, zie &quot;hoe at.js aanbiedingen met inhoud van de HTML&quot;in [ hoe at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=nl-NL){target=_blank}  voor meer informatie teruggeeft.
+* Als een aanbieding de inhoud van HTML bevat, zie &quot;hoe at.js aanbiedingen met de inhoud van HTML&quot;in [ &quot;hoe at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} voor meer informatie teruggeeft.
 
 ## Ondersteuning voor aangepaste elementen {#custom}
 
-VEC steunt {de Componenten van het Web 0} [&#128279;](https://developer.mozilla.org/en-US/docs/Web/Web_Components) om u gepersonaliseerde ervaringen en aanbiedingen op douaneelementen en op elementen binnen douaneelementen tot stand te brengen en te testen.  Deze functionaliteit is beschikbaar in VEC voor alle [!DNL Target] activiteitstypen.
+VEC steunt {de Componenten van het Web 0} [ om u gepersonaliseerde ervaringen en aanbiedingen op douaneelementen en op elementen binnen douaneelementen tot stand te brengen en te testen. ](https://developer.mozilla.org/en-US/docs/Web/Web_Components) Deze functionaliteit is beschikbaar in VEC voor alle [!DNL Target] activiteitstypen.
 
 >[!NOTE]
 >
->De steun VEC voor douaneelementen wordt gesteund in [ at.js versie ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank}  2.7.0 (of later) {target=_blank}. Zorg ervoor dat de vereiste versie van uw website is geïmplementeerd. Als u de [ Visuele de helperuitbreiding van Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) gebruikt, moet het ook de vereiste versie van at.js hebben opgesteld. De hierboven beschreven VEC-opties zijn niet zichtbaar en zijn beschikbaar voor gebruik met niet-ondersteunde versies van at.js.
+>De steun VEC voor douaneelementen wordt gesteund in [ at.js versie ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (of later) {target=_blank}. Zorg ervoor dat de vereiste versie van uw website is geïmplementeerd. Als u de [ Visuele de helperuitbreiding van Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) gebruikt, moet het ook de vereiste versie van at.js hebben opgesteld. De hierboven beschreven VEC-opties zijn niet zichtbaar en zijn beschikbaar voor gebruik met niet-ondersteunde versies van at.js.
 >
->De steun VEC voor douaneelementen wordt momenteel niet gesteund met het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=nl-NL){target=_blank} .
+>De steun VEC voor douaneelementen wordt momenteel niet gesteund met het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 De meeste acties VEC worden gesteund op douanegebeurtenissen en binnen douanegebeurtenissen, met de volgende uitzonderingen:
 

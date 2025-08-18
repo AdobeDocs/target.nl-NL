@@ -22,7 +22,7 @@ De omleidingsaanbieding voert de code van JavaScript uit om browser om te leiden
 Aanbiedingen voor omleiding hebben een aantal beperkingen:
 
 * Voor omleidingsaanbiedingen in activiteiten die A4T gebruiken, moet uw implementatie aan bepaalde minimumvereisten voldoen. Bovendien is er belangrijke informatie die u moet weten. Voor meer informatie, zie [ Aanbiedingen opnieuw richten - Veelgestelde vragen A4T ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
-* Als u de op formulieren gebaseerde Experience Composer gebruikt, mogen omleidingsvoorstellen niet worden gebruikt in vakken die deel uitmaken van de pagina. Een omleidingsaanbod mag alleen worden gebruikt vanuit een scripttag die deel uitmaakt van de HTML `<head>` . Gebruik altijd Automatisch maken en stel de omleidingsaanbieding voor de globale mbox in.
+* Als u de op formulieren gebaseerde Experience Composer gebruikt, mogen omleidingsvoorstellen niet worden gebruikt in vakken die deel uitmaken van de pagina. Een omleidingsaanbieding mag alleen worden gebruikt vanuit een scripttag die deel uitmaakt van de HTML `<head>` . Gebruik altijd Automatisch maken en stel de omleidingsaanbieding voor de globale mbox in.
 
 >[!NOTE]
 >

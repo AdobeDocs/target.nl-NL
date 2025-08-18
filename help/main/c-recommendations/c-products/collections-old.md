@@ -1,8 +1,8 @@
 ---
 keywords: verzameling;gericht
 description: Leer hoe te om inzamelingen van producten of punten in  [!DNL Target Recommendations] te gebruiken.
-title: Hoe gebruik ik verzamelingen in Recommendations-activiteiten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+title: Hoe gebruik ik verzamelingen in aanbevelingen?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -46,7 +46,7 @@ Maak een verzameling om de producten of inhoud te ordenen die u wilt weergeven i
 
    ![ pictogrammen van de Bedekking: geef uit, kopieer, en schrap ](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Het &quot;Aantal Punten&quot;voor elke inzameling op de [!UICONTROL Collections] lijstmening wordt gemeld is het aantal producten die de regels voor die inzameling binnen de gevormde standaardRecommendations [ gastheergroep ](/help/main/administrating-target/hosts.md) (milieu) aanpassen. Zie [ Montages ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank}  om de standaardgastheergroep te veranderen.
+   Het &quot;Aantal Punten&quot;voor elke inzameling op de [!UICONTROL Collections] lijstmening wordt gemeld is het aantal producten die de regels voor die inzameling aanpassen binnen de gevormde standaardgroep van Aanbevelingen [ ](/help/main/administrating-target/hosts.md) (milieu). Zie [ Montages ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} om de standaardgastheergroep te veranderen.
 
 1. Klik op **[!UICONTROL Create Collection]**.
 
@@ -68,7 +68,7 @@ Maak een verzameling om de producten of inhoud te ordenen die u wilt weergeven i
 
 ## Een verzameling maken met Geavanceerd zoeken
 
-U kunt inzamelingen tot stand brengen gebruikend Geavanceerd Onderzoek op de [&#128279;](/help/main/c-recommendations/c-products/catalog-search.md#save-as) pagina van het Onderzoek van de Catalogus  ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+U kunt inzamelingen tot stand brengen gebruikend Geavanceerd Onderzoek op de [ pagina van het Onderzoek van de Catalogus ](/help/main/c-recommendations/c-products/catalog-search.md#save-as) ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
 ![ sparen als dialoog ](/help/main/c-recommendations/c-products/assets/save-as.png)
 
@@ -88,11 +88,11 @@ U kunt een bestaande verzameling kopiëren om een dubbele verzameling te maken d
 
 Houd er rekening mee dat verzamelingen beschikbaar zijn voor de gehele account. Zorg ervoor dat u hiermee rekening houdt voordat u een verzameling verwijdert. Verwijderde verzamelingen kunnen niet worden hersteld.
 
-## Een verzameling in een Recommendations-activiteit gebruiken
+## Een verzameling gebruiken in een activiteit met aanbevelingen
 
 1. Maak een verzameling met een van de bovenstaande methoden.
 
-1. Klik **[!UICONTROL Activities]** en [ creeer een nieuwe Recommendations ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) activiteit of geef een bestaande activiteit uit.
+1. Klik **[!UICONTROL Activities]** en [ creeer een nieuwe activiteit van Aanbevelingen ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) of geef een bestaande activiteit uit.
 
 1. Nadat u criteria en een ontwerp hebt geselecteerd, wordt de pagina [!UICONTROL Options] weergegeven op de locatie waar u de gewenste verzameling hebt geselecteerd.
 
@@ -102,7 +102,7 @@ Houd er rekening mee dat verzamelingen beschikbaar zijn voor de gehele account. 
 
    ![ de optie van de Inzameling van de Verandering ](/help/main/c-recommendations/c-products/assets/change-collection.png)
 
-## De video van de opleiding: Creeer inzamelingen en uitsluitingen in Recommendations (7:05) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: Creeer inzamelingen en uitsluitingen in Aanbevelingen (7 :05) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
 
 Deze video bevat de volgende informatie:
 

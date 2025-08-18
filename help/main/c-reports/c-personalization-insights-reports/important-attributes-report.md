@@ -2,7 +2,7 @@
 keywords: Doel;AP-rapporten;geautomatiseerde verpersoonlijkingsrapporten;automatisch doel;automatisch doel;automatisch doel-rapport;automatisch doel-rapport;automatisch doelrapport;verpersoonlijking;veelgestelde vragen;belangrijke kenmerken
 description: Leer hoe u het [!UICONTROL Important Attributes] -rapport gebruikt waarin de belangrijkste kenmerken worden weergegeven die van invloed zijn geweest op het verpersoonlijkingsmodel en hun relatieve belang.
 title: Wat is het Belangrijke Rapport van Attributen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
@@ -20,7 +20,7 @@ Informatie over het [!UICONTROL Important Attributes] -rapport, een van de twee 
 >
 >Houd rekening met het volgende wanneer u [!UICONTROL Personalization Insights] -rapporten gebruikt:
 >
->* AP- en AT-activiteiten zijn beschikbaar als onderdeel van de [!DNL Target Premium] -oplossing. Ze worden niet zonder [!DNL Target Premium] -licentie opgenomen in [!DNL Target Standard] .
+>* AP- en AT-activiteiten zijn beschikbaar als onderdeel van de [!DNL Target Premium] -oplossing. Ze worden niet zonder [!DNL Target Standard] -licentie opgenomen in [!DNL Target Premium] .
 >
 >* [!UICONTROL Personalization Insights] -rapporten zijn alleen beschikbaar voor AP- en AT-activiteiten die een doel voor conversie-optimalisatie gebruiken. Activiteiten waarbij de optimalisatiedoelstelling werd gewijzigd in een omrekening van inkomsten nadat de activiteit al actief was, worden ook niet ondersteund.
 >
@@ -85,20 +85,20 @@ Raadpleeg de volgende veelgestelde vragen voor antwoorden op veelgestelde vragen
 Er zijn verschillende redenen waarom de [!UICONTROL Personalization Insights] -rapporten nog niet beschikbaar zijn voor uw activiteiten:
 
 * Er is geen 15 dagen verstreken sinds u de activiteit hebt geactiveerd. De geautomatiseerde Segmenten en de Belangrijke rapporten van Attributen zullen niet tot minstens 15 dagen beschikbaar zijn nadat u uw activiteit hebt begonnen. Tijdens deze eerste periode kunt u deze rapporten niet openen of op de pictogrammen Geautomatiseerde segmenten en Belangrijke kenmerken klikken.
-* Uw activiteit heeft niet voldoende verkeer tijdens het gespecificeerde tijdkader gehad. Na 15 dagen zijn overgegaan, veronderstellend is er voldoende gepersonaliseerd verkeer [&#128279;](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB) in uw activiteit om de verpersoonlijkingsmodellen te bouwen, zullen de Geautomatiseerde Segmenten en de Belangrijke rapporten van Attributen beschikbaar zijn.
+* Uw activiteit heeft niet voldoende verkeer tijdens het gespecificeerde tijdkader gehad. Na 15 dagen zijn overgegaan, veronderstellend is er voldoende gepersonaliseerd verkeer [ in uw activiteit om de verpersoonlijkingsmodellen te bouwen, zullen de Geautomatiseerde Segmenten en de Belangrijke rapporten van Attributen beschikbaar zijn.](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB)
 * Uw activiteit heeft een opbrengstoptimalisatiedoel. Op dit moment is [!UICONTROL Personalization Insights] alleen beschikbaar voor doelactiviteiten voor het optimaliseren van conversies. In een toekomstige release zullen we ondersteuning toevoegen voor activiteiten die gericht zijn op het optimaliseren van de inkomsten.
 
 ### Wat is een kenmerk?
 
 Een attribuut is informatie over een bezoeker of zijn of haar specifiek bezoek dat door de verpersoonlijkingsalgoritmen wordt gebruikt om te leren hoe te om verkeer te personaliseren. Een kenmerk kan bijvoorbeeld het browsertype, de locatie, het tijdstip van het bezoek zijn, enzovoort.
 
-Voor meer informatie over welke attributen [!DNL Target] gebruikt in zijn verpersoonlijkingsmodellen, zie [ Inzameling van Gegevens voor de Algoritmen van Personalization van het Doel ](/help/main/c-activities/t-automated-personalization/ap-data.md). Voor meer informatie over hoe te om nieuwe attributen in Doel te uploaden om in de verpersoonlijkingsmodellen van het Doel te gebruiken, zie [ Methoden om Gegevens in Doel ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=nl-NL){target=_blank}  te krijgen.
+Voor meer informatie over welke attributen [!DNL Target] gebruikt in zijn verpersoonlijkingsmodellen, zie [ Inzameling van Gegevens voor de Algoritmen van Personalization van het Doel ](/help/main/c-activities/t-automated-personalization/ap-data.md). Voor meer informatie over hoe te om nieuwe attributen in Doel te uploaden om in de verpersoonlijkingsmodellen van het Doel te gebruiken, zie [ Methoden om Gegevens in Doel ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} te krijgen.
 
 ### Ik zie een of meer kenmerken die ik niet wil gebruiken voor training. Kan ik deze kenmerken verwijderen uit het trainingsmodel? {#models-api}
 
 Met [!UICONTROL Models API], ook wel de Lijst van gewezen personen-API genoemd, kunnen gebruikers de lijst met kenmerken (ook wel functies genoemd) weergeven en beheren die wordt gebruikt in modellen voor machinaal leren voor [!UICONTROL Automated Personalization] (AP)- en [!UICONTROL Auto-Target] (AT)-activiteiten. Als u een of meer kenmerken wilt uitsluiten van gebruik door de modellen voor AP- of AT-activiteiten, kunt u de Modellen API gebruiken om die kenmerken toe te voegen aan de &quot;lijst van gewezen personen&quot;.
 
-Voor gedetailleerde informatie, zie [ Modellen API overzicht ](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=nl-NL){target=_blank}  in de *Gids van de Ontwikkelaar van Adobe Target*. Om API te gebruiken om attributen te blokkeren, zie [ Modellen API ](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=nl-NL){target=_blank} .
+Voor gedetailleerde informatie, zie [ Modellen API overzicht ](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} in de *Gids van de Ontwikkelaar van Adobe Target*. Om API te gebruiken om attributen te blokkeren, zie [ Modellen API ](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
 
 ### Is de informatie in de rapporten [!UICONTROL Automated Segments] en [!UICONTROL Important Attributes] het zelfde als in de download CSV?
 
@@ -110,7 +110,7 @@ Personalization Insights-rapportage (zowel [!UICONTROL Automated Segments] als [
 
 ### Hoe wordt [!UICONTROL Personalization Insights] gemaakt?
 
-[!UICONTROL Personalization Insights] wordt gemaakt met behulp van een Adobe-octrooi-hangende techniek die MAGIX (Model Agnostic Global Interpretable Explanations) wordt genoemd. U kunt meer over MAGIX in het gepubliceerde document van het onderzoeksteam van de Adobe over de [ arXiv.org ](https://arxiv.org/abs/1706.07160) leren.
+[!UICONTROL Personalization Insights] wordt gemaakt met behulp van een Adobe-techniek waarvoor een patent is aangevraagd, MAGIX (Model Agnostic Global Interpretable Explanations). U kunt meer over MAGIX in het gepubliceerde document van het onderzoeksteam van Adobe op de [ arXiv.org ](https://arxiv.org/abs/1706.07160) leren.
 
 ### Is [!UICONTROL Personalization Insights] beschikbaar voor op opbrengst-gebaseerde modelleringsdoelstellingen/primair doel?
 
@@ -128,7 +128,7 @@ Er zijn verscheidene potentiële redenen waarom u meer bezoeken aan een laag-omz
 * Ondermaatse activiteiten waarbij bepaalde aanbiedingen of ervaringen geen modellen hebben.
 * Minder volume-activiteiten waarin modellen eerder werden gebouwd voor sommige aanbiedingen/ervaringen dan andere. Stel dat op dag 22 een aanvullend model is gemaakt en u kijkt naar gegevens van dag 10-24.
 * Gerichte regels voor een specifieke aanbieding die de bezoekers kunnen zien welke aanbiedingen/ervaringen er zijn.
-* Er zijn geen betrouwbaarheidsintervallen in de rapportage van inzichten. Nochtans, als de omrekeningskoersen dicht genoeg zijn, zou het model verkeer kunnen dienen zodat het in de punthoeveelheid hoger is, maar zij zijn niet &quot;statistisch verschillend&quot;aantallen.
+* Er zijn geen betrouwbaarheidsintervallen in de insight-rapportage. Nochtans, als de omrekeningskoersen dicht genoeg zijn, zou het model verkeer kunnen dienen zodat het in de punthoeveelheid hoger is, maar zij zijn niet &quot;statistisch verschillend&quot;aantallen.
 
 Het kan nuttig zijn te weten hoe het model werkt dat verkeer dient. Elke persoon wordt gediend op basis van zijn of haar totale profiel. In de rapporten van Insights wordt dit gedrag echter veralgemeend, zodat het beter door een mens kan worden geïnterpreteerd. Dientengevolge, sluiten de segmenten elkaar niet uit. Dit kan ertoe leiden dat afzonderlijke segmenten dit type gedrag weergeven omdat dezelfde persoon in meerdere segmenten kan worden weergegeven.
 
@@ -136,7 +136,7 @@ Het kan nuttig zijn te weten hoe het model werkt dat verkeer dient. Elke persoon
 
 * Nieuw publiek ontdekken om te richten: Als u een bepaald geautomatiseerd segment ziet dat bijzonder goed presteert, zou u kunnen overwegen om een publiek tot stand te brengen zodat kunt u dat segment in andere rapporten opnieuw gebruiken.
 * Test uw hypothesen van welk type bezoekers zullen antwoorden op welke van uw ervaringen.
-* Afleiden inzicht in welke inhoud werkte voor wat voor soort bezoekers: welke aanbiedingen waren verantwoordelijk voor het optillen van de bezoekers.
+* Afleiden insight naar de inhoud die werkte voor wat voor soort bezoekers: welke aanbiedingen waren verantwoordelijk voor het optillen van de bezoekers.
 * Ondermaatse inhoud identificeren.
 * Begrijp welke attributen het meest kritiek aan hoe het model leerde.
 * Zie welke eigenschappen in de verpersoonlijkingsmodellen worden gebruikt en hoe belangrijk zij zijn.

@@ -2,7 +2,7 @@
 keywords: geautomatiseerde personalisatie;ap
 description: Leer hoe u een [!UICONTROL Automated Personalization] (AP)-activiteit maakt met behulp van [!UICONTROL Visual Experience Composer] .
 title: Hoe maak ik een [!UICONTROL Automated Personalization] -activiteit?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
@@ -20,9 +20,9 @@ De werkstroom [!UICONTROL Automated Personalization] (AP) activiteit in [!DNL Ta
 
 1. Klik in de lijst [!DNL Target] [!UICONTROL Activities] op **[!UICONTROL Create Activity]** > **[!UICONTROL Automated Personalization]** .
 
-1. Klik op **[!UICONTROL Visual]** als u [!UICONTROL Visual Experience Composer] (VEC) wilt gebruiken.
+1. Klik op [!UICONTROL Visual Experience Composer] als u **[!UICONTROL Visual]** (VEC) wilt gebruiken.
 
-   Selecteer [!UICONTROL Form] als u [!UICONTROL Form-Based Experience Composer] wilt gebruiken. Zie [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) voor meer informatie.
+   Selecteer [!UICONTROL Form-Based Experience Composer] als u [!UICONTROL Form] wilt gebruiken. Zie [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) voor meer informatie.
 
    >[!NOTE]
    >

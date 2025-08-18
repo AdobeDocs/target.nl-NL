@@ -2,7 +2,7 @@
 keywords: dedupe;allow duplicates;exclude duplicate aanbiedingen;automatiseerd personalisatie;disallow duplicate aanbiedingen;exclude;default content;exclusion group;
 description: Uitsluitingen beheren in  [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)-activiteiten. Maak uitsluitingsgroepen en sluit dubbele aanbiedingen, specifieke ervaringen en standaardinhoud uit.
 title: Hoe kan ik uitsluitingen in [!UICONTROL Automated Personalization] -activiteiten beheren?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
@@ -23,7 +23,7 @@ Maak uitsluitingsgroepen in [!UICONTROL Automated Personalization] (AP)-activite
 
 Uitsluitingsgroepen zijn een goede manier om ervoor te zorgen dat incompatibele aanbiedingen niet op verschillende plaatsen in dezelfde ervaring worden gepresenteerd. Stel dat u twee aanbiedingen hebt: de ene is voor een korting van 20% voor alle producten en de andere voor een korting van 15%. U wilt nooit dat deze twee aanbiedingen aan bezoekers in dezelfde ervaring worden getoond. Als u deze twee aanbiedingen aan een uitsluitingsgroep toevoegt, kunt u ervoor zorgen dat deze situatie nooit het geval is.
 
-U kunt ook beperken welke doelgroepen specifieke aanbiedingen kunnen zien in AP-activiteiten. Voor meer informatie, zie {de aanbiedingen van Automated Personalization van het 0} Doel [&#128279;](/help/main/c-activities/t-automated-personalization/ap-target-offers.md).
+U kunt ook beperken welke doelgroepen specifieke aanbiedingen kunnen zien in AP-activiteiten. Voor meer informatie, zie {de aanbiedingen van Automated Personalization van het 0} Doel [.](/help/main/c-activities/t-automated-personalization/ap-target-offers.md)
 
 **om een uitsluitingsgroep tot stand te brengen:**
 
@@ -104,9 +104,9 @@ Het uitsluiten van standaardinhoud is een goede manier om de vormgeving van de r
 
    Afhankelijk van het type inhoud of aanbieding bevindt het selectievakje [!UICONTROL Include] zich op een iets andere plaats.
 
-   Voor tekst/HTML-inhoud:
+   Voor Text/HTML-inhoud:
 
-   ![ omvatten checkbox in Edit de dialoogdoos van de Tekst/van de HTML ](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_1a.png)
+   ![ omvatten checkbox in Edit Text/HTML dialoogdoos ](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_1a.png)
 
    Voor inhoud van afbeelding/video:
 
@@ -129,7 +129,7 @@ Het uitsluiten van standaardinhoud is een goede manier om de vormgeving van de r
 
    Afhankelijk van het type inhoud of aanbieding bevindt het selectievakje [!UICONTROL Include] zich op een iets andere plaats.
 
-   Voor tekst/HTML-inhoud:
+   Voor Text/HTML-inhoud:
 
    ![ exclude_content_form_1 beeld ](assets/exclude_content_form_1.png)
 

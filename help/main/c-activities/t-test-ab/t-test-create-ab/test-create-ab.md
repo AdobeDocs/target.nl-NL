@@ -25,9 +25,9 @@ Een handmatige [!UICONTROL A/B Test] activiteit maken:
 
 1. Klik in de lijst **[!UICONTROL Activities]** op **[!UICONTROL Create Activity]** > **[!UICONTROL A/B Test]** .
 
-1. Selecteer, indien nodig, **[!UICONTROL Visual]** in het dialoogvenster [!UICONTROL Create A/B Test Activity] .
+1. Selecteer, indien nodig, [!UICONTROL Create A/B Test Activity] in het dialoogvenster **[!UICONTROL Visual]** .
 
-   Selecteer [!UICONTROL Form] als u de [!UICONTROL Form-Based Experience Composer] -toets liever wilt gebruiken. Zie [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) voor meer informatie.
+   Selecteer [!UICONTROL Form-Based Experience Composer] als u de [!UICONTROL Form] -toets liever wilt gebruiken. Zie [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) voor meer informatie.
 
    >[!NOTE]
    >

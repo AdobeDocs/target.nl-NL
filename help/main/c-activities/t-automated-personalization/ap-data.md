@@ -2,7 +2,7 @@
 keywords: omgevingsgegevens;sessiegegevens;geo-gegevens;geografische gegevens;apparaatgegevens;mobiele gegevens;kenmerken;profielkenmerken;verpersoonlijkingsalgoritmen;machinaal leeralgoritmen;machinaal leeralgoritmen
 description: Leer welke gegevens  [!DNL Adobe Target]  verzamelt en gebruikt om zijn machine-leert algoritmen te bouwen.
 title: Welke Gegevens worden verzameld om machine-Lerende Algoritmen te bouwen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 source-git-commit: fe6a7addd3854c430798fc339741c9ae6a4efc7d
@@ -24,10 +24,10 @@ In de volgende tabel worden de gegevens weergegeven die standaard door [!UICONTR
 
 | Gegevenscategorie | Systeemprefix | Beschrijving | Naam weergeven in [!UICONTROL Insights] -rapporten |
 | --- | --- | --- | --- |
-| Omgevingsparameters | ENV | Informatie over de omgeving van een gebruiker, zoals het besturingssysteem, de browser en het tijdstip van de dag/dag van de week. | Browser - &rbrack;<br> Werkend Systeem van de Naam van 0&rbrace; Attributen - [ Waarde ]&lbrack; |
+| Omgevingsparameters | ENV | Informatie over de omgeving van een gebruiker, zoals het besturingssysteem, de browser en het tijdstip van de dag/dag van de week. | Browser - [ Werkend Systeem van de Naam van 0} Attributen - ]<br> Waarde [] |
 | Geografie | GEO | Informatie over de geografie van een gebruiker, die via IP raadpleging wordt verkregen. | Geo - [ geo attributen ] |
 | Mobiel apparaat | MOB | Informatie over het mobiele apparaat van een gebruiker. | Apparaat - [ apparatenattributen ]<br> Mobiel - [ mobiele attributen ] |
-| [!DNL Target] segmenten rapporteren | SEG | In [!DNL Target] geconfigureerde rapportsegmenten. | Het melden Segment - {de Naam van 0} Segment &rbrack;&lbrack; |
+| [!DNL Target] segmenten rapporteren | SEG | In [!DNL Target] geconfigureerde rapportsegmenten. | Het melden Segment - {de Naam van 0} Segment [] |
 | Sessiegedrag | SES | Informatie over gebruikersgedrag, zoals het aantal weergegeven pagina&#39;s. | Het Profiel van de bezoeker - [ Naam van Attributen ] |
 
 ## Aangepaste [!DNL Target] kenmerkcategorieën
@@ -38,10 +38,10 @@ In de volgende tabel worden de door de klant opgegeven gegevens weergegeven die 
 | --- | --- | --- | --- |
 | Paginaparameters | VAK | Aangepaste paginaparameters (&quot;mbox parameters&quot;) die in de aanroep aan [!DNL Target] worden doorgegeven. | Aangepast - Mbox Parameter - [ parameternaam ] |
 | [!DNL Target] -profiel | PRO | Aangepaste profielkenmerken worden rechtstreeks geüpload naar het [!DNL Target] -profiel via API- of paginaparameter en [!DNL Target] -profielscripts. | Aangepast - het Profiel van de Bezoeker - [ attributennaam ] |
-| Klantkenmerken | CRS | Klantkenmerken die via [[!DNL Adobe Experience Cloud Customer Attributes Service] ](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=nl-NL){target=_blank} naar het [!DNL Target] profiel zijn geüpload. | Aangepast - het Profiel van de Bezoeker - [ attributennaam ] |
+| Klantkenmerken | CRS | Klantkenmerken die via [!DNL Target] [[!DNL Adobe Experience Cloud Customer Attributes Service] naar het ](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank} profiel zijn geüpload. | Aangepast - het Profiel van de Bezoeker - [ attributennaam ] |
 | URL-parameters | URL | URL en eventuele URL-parameters voor de momenteel weergegeven pagina. | Douane - Parameter URL - [ Parameter URL ] |
 | URL verwijzen | REF | Verwijzen naar URL- en URL-parameters voor de verwijzende URL. | Douane - [ Verwijzend Parameter URL ] - [ waarde van de Parameter ] |
-| [!DNL Adobe Experience Cloud] gedeeld publiek | AAM | Alle soorten publiek die met [!DNL Target] worden gedeeld vanuit andere [!DNL Adobe Experience Cloud] -oplossingen (bijvoorbeeld [!DNL Adobe Audience Manager] en [!DNL Adobe Analytics] via [[!DNL Experience Cloud Audience Library] ](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=nl-NL){target=_blank} ). | Aangepast - het Publiek van Experience Cloud - [ Naam van het Publiek ] |
+| [!DNL Adobe Experience Cloud] gedeeld publiek | AAM | Alle soorten publiek die met [!DNL Target] worden gedeeld vanuit andere [!DNL Adobe Experience Cloud] -oplossingen (bijvoorbeeld [!DNL Adobe Audience Manager] en [!DNL Adobe Analytics] via [[!DNL Experience Cloud Audience Library] ](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank} ). | Aangepast - het Publiek van Experience Cloud - [ Naam van het Publiek ] |
 | [!DNL Adobe Experience Platform Real-time CDP] publiek | UPS | Platform CDP-publiek in realtime gedeeld met [!DNL Target] via [!UICONTROL Destinations] . |  |
 
 
@@ -49,7 +49,7 @@ In de volgende tabel worden de door de klant opgegeven gegevens weergegeven die 
 
 Functies kunnen worden geblokkeerd door [!DNL Target] machinaal Lerende algoritmen, zodat ze niet kunnen worden gebruikt in een [!UICONTROL Automated Personalization] - of [!UICONTROL Auto-Target] -model of -activiteit.
 
-Voor meer informatie, zie [ Modellen API (Voegend op lijst van gewenste personen) Overzicht ](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=nl-NL){target=_blank} in de *[!DNL Adobe Target]Gids van de Ontwikkelaar*.
+Voor meer informatie, zie [ Modellen API (Voegend op lijst van gewenste personen) Overzicht ](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} in de *[!DNL Adobe Target]Gids van de Ontwikkelaar*.
 
 ## Apparaat- en mobiele gegevens {#device-mobile}
 
@@ -84,7 +84,7 @@ Voor meer informatie, zie [ Modellen API (Voegend op lijst van gewenste personen
 | Browser - Vensterbreedte (px) | De breedte van het browservenster (in pixels) die de bezoeker heeft gebruikt om toegang te krijgen tot de activiteit. | 1, 2, 3 enzovoort, | ENV_BrowserWidth |
 | Apparaat - Schermhoogte (px) | De schermhoogte van het apparaat die de bezoeker heeft gebruikt om toegang te krijgen tot de activiteit. | 1, 2, 3 enzovoort, | ENV_ScreenHeight |
 | Apparaat - Schermbreedte (px) | De schermbreedte van het apparaat die de bezoeker heeft gebruikt om toegang te krijgen tot de activiteit. | 1, 2, 3 enzovoort, | ENV_ScreenWidth |
-| Besturingssysteem | Het besturingssysteem op het apparaat van de bezoeker dat wordt gebruikt om toegang te krijgen tot de activiteit. | <br> Onbekend OS van 0&rbrace; Onderzoek Bot &lbrace;[!DNL Mac OS]<br>[!DNL Windows]<br>[!DNL Linux]<br> | ENV_Besturingssysteem |
+| Besturingssysteem | Het besturingssysteem op het apparaat van de bezoeker dat wordt gebruikt om toegang te krijgen tot de activiteit. | [!DNL Mac OS]<br>[!DNL Windows]<br>[!DNL Linux]<br> Onbekend OS van 0} Onderzoek Bot {<br> | ENV_Besturingssysteem |
 | Besturingssysteem - versie | De versie van het besturingssysteem die de bezoeker heeft gebruikt om toegang te krijgen tot de activiteit. | [!DNL Windows] 10 <br>[!DNL Mac OS] 10 | ENV_OperatingSystemVersion |
 | Verkeersbronnen - Verwijzen naar URL van bestemmingspagina | De eerste pagina die de bezoeker heeft gezien bij het openen van uw site. | `https://www.adobe.com/ecloud.html` | ENV_Referrer |
 

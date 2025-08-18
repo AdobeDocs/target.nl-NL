@@ -1,6 +1,6 @@
 ---
 keywords: inhoudsbibliotheek;elementen;notitie;kopiëren;middelen verwijderen;element downloaden;inhoud bewerken;kaart delen;eigenschappen van inhoud weergeven
-description: Leer hoe te om code en beeldaanbiedingen in de Adobe  [!DNL Target]  bibliotheek van Aanbiedingen te beheren. Leer hoe u de details van een aanbieding kunt weergeven en hoe u aanbiedingen kunt bewerken, kopiëren, verplaatsen of verwijderen.
+description: Leer hoe te om code en beeldaanbiedingen in de bibliotheek van Aanbiedingen van Adobe te beheren  [!DNL Target] . Leer hoe u de details van een aanbieding kunt weergeven en hoe u aanbiedingen kunt bewerken, kopiëren, verplaatsen of verwijderen.
 title: Hoe werk ik met inhoud in de bibliotheek van Aanbiedingen?
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
@@ -84,10 +84,10 @@ In de volgende afbeelding ziet u de aanwijspictogrammen wanneer u de [!UICONTROL
 
 ## De video van de opleiding: De inhouds Bewaarplaats ![ badge van het Overzicht ](/help/main/assets/overview.png)
 
-Deze video bevat informatie over het beheren van inhoud. 4:56
+Deze video bevat informatie over het beheren van inhoud. (4:56)
 
-* Verbinding tussen de [ Bibliotheek van de Activa van het Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=nl-NL) en de Bibliotheek van de Inhoud van het Doel
+* Verbinding tussen de [ Bibliotheek van Activa van Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) en de Bibliotheek van de Inhoud van het Doel
 * Aangepaste HTML-aanbiedingen
-* Aanbod van de HTML van de douane in de Visuele Composer van de Ervaring
+* Aangepaste HTML-aanbieding in Visual Experience Composer
 
 >[!VIDEO](https://video.tv.adobe.com/v/17387)

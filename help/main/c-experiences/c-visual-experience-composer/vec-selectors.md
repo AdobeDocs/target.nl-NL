@@ -25,7 +25,7 @@ U kunt instellen of u in uw accountvoorkeuren een elementklasse- of element-id w
 >
 >De Klassen van het element zijn beschikbaar als selecteurs in de Test A/B, Automated Personalization, en Multivariate van de Test activiteiten.
 
-Voor informatie over wanneer om CSS selecteurs te gebruiken en wanneer om unieke IDs te gebruiken, zie {de Beste Praktijken en Beperkingen van Composer van 0} Visuele Ervaring Composer [&#128279;](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Voor informatie over wanneer om CSS selecteurs te gebruiken en wanneer om unieke IDs te gebruiken, zie {de Beste Praktijken en Beperkingen van Composer van 0} Visuele Ervaring Composer [.](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)
 
 ## Hoe Adobe [!DNL Target] een kiezer voor een element genereert {#section_D89D954BCBFB486CA081BE183776A475}
 

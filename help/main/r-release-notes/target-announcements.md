@@ -58,13 +58,13 @@ Waarom zou u moeten bijwonen:
 
   De kern van de rijpheid van de personalisatie is het leren van kunstmatige intelligentie en machines. [!DNL Adobe Target] gebruikt deze technologieën om het gedrag van gebruikers te begrijpen, voorkeuren te voorspellen en inhoud dynamisch op maat te maken. Door de macht van AI en ML te gebruiken, leer hoe de merken zich voorbij statische tests A/B en op regels-gebaseerde verpersoonlijking bewegen om dynamische, contextafhankelijke ervaringen te leveren.
 
-  [ luister aan de opname.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank} 
+  [ luister aan de opname.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **Hoge Aanbevelingen van Prestaties**
 
   Leer hoe aanbevelingsalgoritmen een game-wisselaar kunnen zijn voor bedrijven, waardoor betrokkenheid en inkomsten worden bevorderd. Van gepersonaliseerde productsuggesties aan inhoudaanbevelingen, de capaciteit om gebruikers naadloos door hun reis te begeleiden draagt direct aan het ontsluiten van significante bedrijfsgroei bij.
 
-  [ luister aan de opname.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank} 
+  [ luister aan de opname.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **ontgrendelend AI-Aangedreven Personalization**
 
@@ -111,7 +111,7 @@ Geef uw organisatie meer mogelijkheden om personalisatie te leveren, voorgesteld
 
 Het rapport van de belangrijkste analist suggereert dat bedrijven die zich uitblinken in personalisatie 40 procent meer inkomsten genereren dan hun tegenhangers. Om aan de vraag naar nieuwe, relevante en zeer gepersonaliseerde ervaringen bij elke klik te voldoen, hebben de marketers het juiste kader en de juiste strategie nodig. In dit webinar, sluit u zich aan bij de experts van Adobe om te leren hoe u gebruik kunt maken van een gegevensgestuurd raamwerk om de personalisatieprogramma&#39;s van uw organisatie op te bouwen en succes te behalen.
 
-* [ Opname verbinding ](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank} 
+* [ Opname verbinding ](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank}
 
 ### Fine-tuning Personalization met AI-voeding: nieuwe functies in [!DNL Adobe Target] (11 oktober 2022)
 
@@ -160,7 +160,7 @@ Mobiele ervaringen stimuleren innovatie in de manier waarop marketing- en engine
 
 ### Chef&#39;s Collection: Recipes for Personalization (30 augustus 2022)
 
-Sluit zich aan bij het [!DNL Adobe Target]  team aangezien zij omhoog sommige nieuwe ideeën over hoe u de meeste waarde uit Doel kunt krijgen. Gebaseerd op ons nieuwste eBook, &quot;Chef&#39;s Collection: Ideas for Personalization&quot;.
+Sluit zich aan bij het [!DNL Adobe Target] [!DNL] team aangezien zij omhoog sommige nieuwe ideeën over hoe u de meeste waarde uit Doel kunt krijgen. Gebaseerd op ons nieuwste eBook, &quot;Chef&#39;s Collection: Ideas for Personalization&quot;.
 
 * [ Opname verbinding ](https://video.tv.adobe.com/v/346970/){target=_blank}
 

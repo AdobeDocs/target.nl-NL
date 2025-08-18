@@ -1,8 +1,8 @@
 ---
 keywords: aanbevelingen ontwerp;ontwerp maken;ontwerp kopiëren
-description: Leer hoe te om een Adobe  [!DNL Target]  ontwerp van Recommendations tot stand te brengen gebruikend een standaardontwerp of door een douaneontwerp te creëren om de lay-out van uw pagina het best te passen.
-title: Hoe maak ik een ontwerp in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+description: Leer hoe te om een ontwerp van de Aanbevelingen van Adobe te creëren  [!DNL Target]  gebruikend een standaardontwerp of door een douaneontwerp te creëren om de lay-out van uw pagina het best te passen.
+title: Hoe maak ik een ontwerp in aanbevelingen?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -61,7 +61,7 @@ U kunt een ontwerp tot stand brengen dat op een standaardontwerp wordt gebaseerd
 
    Bij het ontwerpen van aanbevelingen wordt de ontwerptaal open-source [!DNL Velocity] gebruikt. De informatie over [!DNL Velocity] kan in [ https://velocity.apache.org ](https://velocity.apache.org) worden gevonden en in [ past een ontwerp aan gebruikend  [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Een ontwerp kan HTML of niet-HTML zijn. Standaard worden HTML-ontwerpen voorzien van een tag `<div>` , zodat muisklik kan worden gevolgd in een webomgeving. Niet-HTML-ontwerpen zijn bedoeld voor omgevingen die geen webomgeving zijn en waar het bijhouden van klikken niet mogelijk is. Sleep de schakeloptie [!UICONTROL HTML Design] naar de uitstand om niet-HTML code te gebruiken.
+   Een ontwerp kan HTML of niet-HTML zijn. HTML-ontwerpen worden standaard voorzien van een tag `<div>` , zodat muisklik kan worden gevolgd in een webomgeving. Niet-HTML-ontwerpen zijn bedoeld voor omgevingen die geen webomgeving zijn waar klik-tracking niet mogelijk is. Sleep de schakeloptie [!UICONTROL HTML Design] naar de uitstand om niet-HTML-code te gebruiken.
 
    >[!NOTE]
    >
@@ -101,9 +101,9 @@ Houd er rekening mee dat ontwerpen beschikbaar zijn voor de gehele account. Over
 
 In het volgende voorbeeld ziet u hoe JSON-reacties kunnen worden geretourneerd wanneer een activiteit wordt geconfigureerd via de formuliereditor.
 
-1. Maak een ontwerp vanuit de ontwerpbibliotheek of vanuit de formuliergebaseerde workflow. Als u een ontwerp probeert te maken in de [!UICONTROL Visual Experience Composer] (VEC)-workflow, kunt u alleen een HTML-ontwerp maken dat in een `<div>` is opgenomen om te klikken op bijhouden.
+1. Maak een ontwerp vanuit de ontwerpbibliotheek of vanuit de formuliergebaseerde workflow. Als u een ontwerp probeert te maken in de [!UICONTROL Visual Experience Composer] (VEC)-workflow, kunt u alleen een HTML-ontwerp maken dat in een `<div>` is opgenomen voor het bijhouden van klikken.
 
-1. Zorg ervoor dat de optie &quot;HTML-ontwerp&quot; is uitgeschakeld:
+1. Zorg ervoor dat de optie &quot;HTML Design&quot; is uitgeschakeld:
 
    ![ html_design_toggle beeld ](assets/html_design_toggle.png)
 
@@ -163,8 +163,8 @@ In het volgende voorbeeld ziet u hoe JSON-reacties kunnen worden geretourneerd w
 
    | Parameter | Waarde |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | Doelclientcode (beschikbaar op /help/target/products.html#recsSettings > Recommendations API Token > Clientcode). |
-   | `[YOUR_MBOX_NAME]` | De naam die u hebt geselecteerd in de sectie &quot;locations&quot; van de op formulieren gebaseerde Recommendations, in dit geval Sample_Recs_Response. |
+   | `[YOUR_CLIENT_CODE]` | Doelclientcode (beschikbaar op /help/target/products.html#recsSettings > Recommendations API Token > Client Code). |
+   | `[YOUR_MBOX_NAME]` | De naam die u hebt geselecteerd in de sectie &quot;locaties&quot; van de op formulieren gebaseerde aanbevelingen, in dit geval Sample_Recs_Response. |
    | `[ENTITY_ID` | De `entity.id` van een item in uw catalogus. |
    | `[AT_PROPERTY_TOKEN]` | (Optioneel) Voeg toe als u een eigenschap (onderdeel van Enterprise-machtigingen) hebt geselecteerd tijdens het instellen van de activiteit. |
 
@@ -320,7 +320,7 @@ U kunt ook aanvullende informatie in de reactie verzenden. Het volgende codedoss
     }  
 ```
 
-## De video van de opleiding: Creeer douaneontwerpen in Recommendations (3:20) ![ badge van het Overzicht ](/help/main/assets/overview.png)
+## De video van de opleiding: Creeer douaneontwerpen in Aanbevelingen (3 :20) ![ de badge van het Overzicht ](/help/main/assets/overview.png)
 
 Deze video bevat de volgende informatie:
 

@@ -1,35 +1,35 @@
 ---
 keywords: gericht;doelbibliotheek;bibliotheek
-description: Leer hoe u bezoekers kunt aanwijzen met behulp van vooraf opgebouwd verouderde publiek.
+description: Leer hoe u bezoekers kunt aanwijzen met behulp van vooraf opgebouwde verouderde doelgroepen.
 title: Kan ik bezoekers richten op basis van vooraf gebouwde richtingsregels?
 feature: Audiences
 exl-id: 7d7b7768-8da4-4c0d-9362-7c1bd6602b61
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
 
 # Doelbibliotheek
 
-Gebruiken [!DNL Adobe Target] om gebruikers te richten die op pre-gebouwde het richten regels worden gebaseerd.
+Gebruik [!DNL Adobe Target] om gebruikers als doel in te stellen op basis van vooraf gebouwde doelregels.
 
-Het vooraf opgebouwde publiek in de [!UICONTROL Target Library] de categorie bestaat uit verouderde doelgroepen en bestaat in andere categorieën . Voor meer informatie en beste praktijken, zie [Doelstellingen en doelgroepen die vaak worden gesteld](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
+Het vooraf gebouwde publiek in de categorie [!UICONTROL Target Library] is verouderd publiek en bestaat in andere categorieën. Voor meer informatie en beste praktijken, zie [ Doelstellingen en publiek vaak gestelde vragen ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
-1. In de [!DNL Target] interface, klik **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Klik in de interface [!DNL Target] op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]** .
 1. Geef een naam op voor het publiek en voeg een optionele beschrijving toe.
-1. Slepen en neerzetten **[!UICONTROL Target Library]** in het deelvenster voor publieksopbouw.
+1. Sleep **[!UICONTROL Target Library]** naar het deelvenster van de publieksbuilder.
 
-   ![Doelbibliotheek](assets/target_library.png)
+   ![ Bibliotheek van het Doel ](assets/target_library.png)
 
-1. Klikken **[!UICONTROL Select]** Selecteer vervolgens een vooraf gebouwde doelregel.
+1. Klik op **[!UICONTROL Select]** en selecteer vervolgens een vooraf gebouwde doelregel.
 
-   Vooraf gebouwde richtingsregels omvatten: [!UICONTROL Windows Operating System], [!UICONTROL Tablet Device], [!UICONTROL Safari Browser], [!UICONTROL Returning Visitors], [!UICONTROL Referred from Google]en meer.
+   Vooraf gebouwde doelregels zijn onder andere [!UICONTROL Windows Operating System] , [!UICONTROL Tablet Device] , [!UICONTROL Safari Browser] , [!UICONTROL Returning Visitors] , [!UICONTROL Referred from Google] en meer.
 
-   Het vooraf gedefinieerde publiek &quot;[!UICONTROL Tablet Device]&quot; komt al in aanmerking wanneer de gebruikersagent een van de volgende tekenreeksen bevat (waarvan sommige modelnummers van apparaten zijn). U hoeft geen aangepaste doelregels voor deze apparaten te maken.
+   Het vooraf bepaalde publiek &quot;[!UICONTROL Tablet Device]&quot;reeds kwalificeert wanneer de gebruikersagent één van de volgende koorden bevat (wat waarvan modelaantallen apparaten zijn). U hoeft geen aangepaste doelregels voor deze apparaten te maken.
 
-   Kindle, Silk, iPad, Sony Tablet, TF101, GT-P1000, GT-P1000R, GT-P1000M, SGH-T849, SHW-M180S, GT-I9000T, BNTV250 en Tablet PC.
+   Kindle, Silk, iPad, Sony Tablet, TF101, GT-P1000, GT-P1000R, GT-P1000M, SGH-T849, SHW-M180S, GT-I900T, BNTV250 en Tablet PC.
 
 1. (Optioneel) Stel aanvullende regels voor het publiek in.
 1. Klik op **[!UICONTROL Done]**.
@@ -39,6 +39,6 @@ Het vooraf opgebouwde publiek in de [!UICONTROL Target Library] de categorie bes
 Deze video bevat informatie over het gebruik van publiekscategorieën.
 
 * Soorten publiek maken
-* Doelcategorieën definiëren
+* Categorieën publiek definiëren
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)

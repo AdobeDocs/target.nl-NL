@@ -21,7 +21,7 @@ U hebt misschien twee volledig verschillende pagina&#39;s om te testen in plaats
 >
 > * Omleiden aanbiedingen kunnen op [!UICONTROL Offers] > [!UICONTROL Code Offers] pagina of in [ op Forms-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) worden gecreeerd. U kunt geen omleidingsvoorstellen maken of toepassen in [!UICONTROL Visual Experience Composer] (VEC). Inhoud wordt ingespoten op de aanvraaglocaties van [!DNL Target] , zodat deze locaties meestal niet geschikt zijn voor een algemene [!DNL Target] -aanvraag.
 >
->* Je kunt geen omleidingsvoorstellen gebruiken in AJAX (`mboxUpdate`).
+>* Je kunt geen omleidingsvoorstellen gebruiken in AJAX-vakken (`mboxUpdate`).
 >
 >* Voor omleidingsaanbiedingen in activiteiten die [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) gebruiken, moet uw implementatie aan bepaalde minimumvereisten voldoen. Bovendien is er belangrijke informatie die u moet weten. Zie [ Vergelijkende Aanbiedingen - Veelgestelde vragen A4T ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 >

@@ -1,27 +1,27 @@
 ---
 keywords: aanbevelingen ontwerp;malplaatje;creeer ontwerp;levering;output
-description: Leer hoe u ontwerpen kunt gebruiken in Adobe [!DNL Target] Recommendations om te bepalen hoe aanbevelingen op een pagina worden weergegeven (1X4, 1X6, 2X2 enzovoort).
-title: Hoe gebruik ik ontwerpen in Recommendations?
+description: Leer hoe te om ontwerpen in Adobe  [!DNL Target]  Aanbevelingen te gebruiken om te bepalen hoe de aanbevelingen op een pagina (1X4, 1X6, 2X2, etc.) verschijnen.
+title: Hoe gebruik ik Ontwerpen in Aanbevelingen?
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
 # Overzicht van ontwerp
 
-Ontwerpen in [!DNL Adobe Target Recommendations] Hiermee bepaalt u hoe aanbevelingen op een pagina worden weergegeven. De ontwerpen bepalen de lay-out en het formaat van uw aanbevelingen om de betrokkenheid, de omzetting, en de opbrengst van bezoekers te verbeteren.
+In ontwerpen in [!DNL Adobe Target Recommendations] wordt gedefinieerd hoe aanbevelingen op een pagina worden weergegeven. De ontwerpen bepalen de lay-out en het formaat van uw aanbevelingen om de betrokkenheid, de omzetting, en de opbrengst van bezoekers te verbeteren.
 
 [!DNL Recommendations] wordt geleverd met verschillende standaardontwerpen (pre-build) of u kunt uw eigen ontwerpen maken.
 
-[!DNL Target] U kunt uw aanbevelingen volledig vormgeven zoals in de volgende afbeelding wordt getoond. Het ontwerp kan HTML, JavaScript en CSS bevatten. Dit ontwerp heet een ontwerp van 4 x 1: vier spaties in één rij.
+[!DNL Target] kan uw aanbevelingen volledig vormgeven, zoals in de volgende afbeelding wordt getoond. Het ontwerp kan HTML, JavaScript en CSS bevatten. Dit ontwerp heet een ontwerp van 4 x 1: vier spaties in één rij.
 
-![snelheid_voorbeeldafbeelding](assets/velocity_example.png)
+![ snelheid_example beeld ](assets/velocity_example.png)
 
-Het doel kan uw aanbevelingen als voorwerpen ook verzenden JSON die in e-mailberichten, apparaten IoT (Internet van Dingen), console, of kwesties van het stemgebruik (Amazon Alexa of Google Home) kunnen worden gebruikt.
+Het doel kan uw aanbevelingen als voorwerpen ook verzenden JSON die in e-mailberichten, apparaten IoT (Internet van Dingen), console, of kwesties van het stemgebruik (Amazon Alexa of Google Huis) kunnen worden gebruikt.
 
 Met ontwerpen kunt u bepalen:
 

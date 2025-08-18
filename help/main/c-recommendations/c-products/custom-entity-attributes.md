@@ -1,8 +1,8 @@
 ---
 keywords: multi-value entiteitsattributen;douane entiteitattributen;geldige JSON;entiteitkenmerkwaarde;JSON serie;multi-getaxeerde;multivalueerde
-description: Leer hoe u aangepaste entiteitskenmerken voor één of meerdere waarden kunt gebruiken om aanvullende informatie over items in uw Adobe te definiëren [!DNL Target] Recommendations-catalogus.
+description: Leer hoe te om enig-en multi-waardeattributen van de douaneentiteit te gebruiken om extra informatie over punten in uw catalogus van de Aanbevelingen van Adobe te bepalen  [!DNL Target] .
 title: Hoe gebruik ik aangepaste entiteitskenmerken?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 # Aangepaste entiteitskenmerken
 
-Aangepaste entiteitskenmerken voor één en meerdere waarden gebruiken in [!DNL Adobe Target Recommendations] om aanvullende informatie over items in uw catalogus te definiëren.
+Gebruik de kenmerken van een aangepaste entiteit met enkele en meerdere waarden in [!DNL Adobe Target Recommendations] om aanvullende informatie over items in uw catalogus te definiëren.
 
 ## Limieten {#limits}
 
-U kunt maximaal 100 aangepaste entiteitskenmerken opnemen om aanvullende informatie over items in uw catalogus te definiëren. U kunt bijvoorbeeld een aangepast kenmerk maken met de naam `entity.genre` om een boek of een film te definiëren. Of een verkoper van tickets kan kenmerken maken voor een plaats van de gebeurtenis, zodat een tweede uitvoerder, zoals een bezoekend team, kan deelnemen aan een sportevenement of een openingsactie bij een concert.
+U kunt maximaal 100 aangepaste entiteitskenmerken opnemen om aanvullende informatie over items in uw catalogus te definiëren. U kunt bijvoorbeeld een aangepast kenmerk met de naam `entity.genre` maken om een boek of film te definiëren. Of een verkoper van tickets kan kenmerken maken voor een plaats van de gebeurtenis, zodat een tweede uitvoerder, zoals een bezoekend team, kan deelnemen aan een sportevenement of een openingsactie bij een concert.
 
 De maximale lengte van aangepaste kenmerken van entiteiten met een enkele waarde is 15.000 tekens (voor UTF-8-gecodeerde talen van één en twee bytes, zoals Engels en andere Latijnse alfabeten) of 10.000 tekens (voor UTF-8-gecodeerde talen van drie bytes, zoals Chinees, Japans en Koreaans).
 
@@ -29,7 +29,7 @@ Aangepaste kenmerken van entiteiten met meerdere waarden mogen niet meer dan 500
 
 Aangepaste entiteitskenmerken kunnen één waarde of meerdere waarden bevatten. Kenmerkwaarden voor entiteit worden weergegeven in de productweergave.
 
-![multi-value_product image](assets/multi-value_product.png)
+![ multi-value_product beeld ](assets/multi-value_product.png)
 
 Een attribuut van de douaneentiteit met één enkele waarde wordt gevormd de zelfde manier zoals een enig-waarde vooraf bepaald entiteitsattribuut:
 
@@ -39,39 +39,39 @@ Een attribuut van een aangepaste entiteit met meerdere waarden moet worden verzo
 
 `entity.genre=["genre1", "genre2"]`
 
-Voorbeelden van geldige JSON-arrays die door [!DNL Recommendations]:
+Voorbeelden van geldige JSON-arrays die worden ondersteund door [!DNL Recommendations] :
 
 * `["AB","BC"]` alle waarden zijn tekenreeksen
 * `[1,2]` alle waarden zijn numeriek
 
 >[!NOTE]
 >
->[!DNL Recommendations] ondersteunt geen typen gemengde waarden in attributen van entiteiten met meerdere waarden. Bijvoorbeeld: `["AB",1,true, [1,2,3]]` is een geldige JSON-array, maar wordt niet ondersteund in [!DNL Recommendations] omdat deze typen gemengde waarden bevat (tekenreeks, numeriek, boolean, object).
+>[!DNL Recommendations] ondersteunt geen typen gemengde waarden in attributen van entiteiten met meerdere waarden. `["AB",1,true, [1,2,3]]` is bijvoorbeeld een geldige JSON-array, maar wordt niet ondersteund in [!DNL Recommendations] omdat deze typen gemengde waarden bevat (tekenreeks, numeriek, Boolean, object).
 
 Nadat een aangepast kenmerk is verzonden als een geldige JSON-array, wordt het kenmerk behandeld als een kenmerk met meerdere waarden voor alle producten in de catalogus.
 
 >[!NOTE]
 >
->Als u een kenmerk wilt wijzigen van een meervoudige waarde in een enkele waarde, verwijdert u de catalogus en uploadt u de gecorrigeerde productgegevens. Als u uw catalogus verwijdert, worden de historische gegevens die aan uw product-id&#39;s zijn gekoppeld, niet verwijderd. Zie [Alle items van het systeem verwijderen](/help/main/assets/adobe-recommendations-classic.pdf) in de *Adobe Recommendations Classic* documentatie voor meer informatie.
+>Als u een kenmerk wilt wijzigen van een meervoudige waarde in een enkele waarde, verwijdert u de catalogus en uploadt u de gecorrigeerde productgegevens. Als u uw catalogus verwijdert, worden de historische gegevens die aan uw product-id&#39;s zijn gekoppeld, niet verwijderd. Zie [ het Schrappen van Alle Punten van het Systeem ](/help/main/assets/adobe-recommendations-classic.pdf) in de *Klassieke* documentatie van Adobe Recommendations voor meer informatie.
 
 **Beperkingen**:
 
-* U kunt vooraf gedefinieerde namen van entiteitskenmerken niet gebruiken voor aangepaste entiteitskenmerken. (Zie [Entiteitskenmerken](/help/main/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).)
-* Het kenmerk `entity.environment` is gereserveerd door het systeem en kan niet worden gebruikt voor de attributen van de douaneentiteit. Pogingen om te slagen `entity.environment` gebruiken `targetPageParams`, feeds of API&#39;s worden genegeerd.
-* Arrays moeten één waardetype bevatten. Arrays met gemengde waarde ( `["AB",1,true]`) worden niet ondersteund.
-* Een kenmerk met meerdere waarden dat een geneste JSON-array bevat ( `[10,12,[1,2,3]]`) wordt behandeld als een attribuut van één waarde.
+* U kunt vooraf gedefinieerde namen van entiteitskenmerken niet gebruiken voor aangepaste entiteitskenmerken. (Zie [ Attributen van de Entiteit ](/help/main/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).)
+* Het kenmerk `entity.environment` is gereserveerd door het systeem en kan niet worden gebruikt voor aangepaste entiteitskenmerken. Pogingen om `entity.environment` via `targetPageParams` , feeds of API&#39;s door te geven, worden genegeerd.
+* Arrays moeten één waardetype bevatten. Arrays met gemengde waarden ( `["AB",1,true]` ) worden niet ondersteund.
+* Een kenmerk met meerdere waarden dat een geneste JSON-array ( `[10,12,[1,2,3]]` ) bevat, wordt behandeld als een kenmerk met één waarde.
 
 ## Meerdere-waardekenmerken implementeren {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Aangepaste entiteitskenmerken met meerdere waarden worden ondersteund bij gebruik van feeds (CSV). `targetPageParams`en de leverings-API om producten te uploaden. Nieuwe waarden vervangen huidige waarden; ze worden niet toegevoegd. Lege arrays ( [] ) worden beschouwd als zijnde zonder waarden.
+Aangepaste entiteitskenmerken met meerdere waarden worden ondersteund wanneer de feeds (CSV), `targetPageParams` en de Delivery-API worden gebruikt om producten te uploaden. Nieuwe waarden vervangen huidige waarden; ze worden niet toegevoegd. Lege arrays ( [] ) worden beschouwd als arrays zonder waarden.
 
-Dubbele aanhalingstekens moeten worden vermeden. Bijvoorbeeld: `"[""test"", ""value""]"` is een geldige JSON-array die kan worden gebruikt in CSV.
+Dubbele aanhalingstekens moeten worden vermeden. `"[""test"", ""value""]"` is bijvoorbeeld een geldige JSON-array die in CSV kan worden gebruikt.
 
 U kunt maximaal 500 waarden opnemen in een kenmerk met meerdere waarden.
 
 ### targetPageParams gebruiken
 
-In het volgende voorbeeld wordt getoond hoe u `targetPageParams`
+In het volgende voorbeeld wordt getoond hoe u `targetPageParams` kunt gebruiken
 
 ```javascript
 function targetPageParams() { 
@@ -94,11 +94,11 @@ U kunt uw CSV-bestanden in onbewerkte vorm beheren met een teksteditor of u kunt
 
 De onbewerkte CSV ziet er als volgt uit:
 
-![multi-value_example_raw image](assets/multi-value_example_raw.png)
+![ multi-value_example_raw beeld ](assets/multi-value_example_raw.png)
 
 Dezelfde catalogus ziet er zo uit in een spreadsheet:
 
-![multi-value_example_excel, afbeelding](assets/multi-value_example_excel.png)
+![ multi-value_example_excel beeld ](assets/multi-value_example_excel.png)
 
 Bij de conversie naar de CSV-indeling worden dubbele aanhalingstekens toegevoegd rondom de celinhoud om te voorkomen dat komma&#39;s binnen de cel fungeren als kolomscheidingstekens. Er worden ook dubbele aanhalingstekens toegevoegd rondom JSON-tekenreekswaarden die u opneemt in aangepaste multiwaardekenmerken. Hierdoor kan het werken met het Raw-bestand lastig zijn. Bijvoorbeeld:
 
@@ -127,18 +127,18 @@ U kunt kenmerken met meerdere waarden doorgeven met de API voor aflevering in ee
   }
 ```
 
-Zie de [Adobe Recommendations API-documentatie](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} voor informatie over het gebruik van de API&#39;s voor levering en opslaan van entiteiten.
+Zie [ Adobe Recommendations API documentatie ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} voor informatie over het gebruiken van de Levering en sparen entiteiten APIs.
 
 ## Operatoren met kenmerken van meerdere waarden gebruiken {#section_83C2288A805242D9A02EBC4F07DEE945}
 
-Wanneer u operatoren toepast op aangepaste attributen met meerdere waarden in regels voor het opnemen van algoritmen, catalogusregels en uitsluitingsregels, wordt het resultaat *true* als ten minste één waarde in de lijst de bewerking doorgeeft (boolean) *of*).
+Wanneer u exploitanten op multi-getaxeerde douaneattributen in de regels van de algoritmerichting, catalogusregels, en uitsluitingsregels toepast, zal het resultaat *waar* zijn als minstens één waarde in de lijst de verrichting (boolean *of*) overgaat.
 
-In het volgende voorbeeld is de regel `message contains abc`.
+In het volgende voorbeeld is de regel `message contains abc` .
 
-* Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is onwaar omdat geen waarde bevat `abc`.
-* Zaak 2: `entity.genre = ["abcde","de","ef"]`. Het resultaat is waar omdat één waarde bevat `abc`.
+* Hoofdlettergebruik 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is false omdat geen waarde `abc` bevat.
+* Hoofdlettergebruik 2: `entity.genre = ["abcde","de","ef"]`. Het resultaat is waar omdat één waarde `abc` bevat.
 
-Voor negatieve operatoren moeten alle kenmerkwaarden worden doorgegeven (boolean) *en*). Als de operator bijvoorbeeld `notEquals`, zal het resultaat *false* als een waarde overeenkomt.
+Voor negatieve exploitanten, moeten alle attributenwaarden overgaan (boolean *en*). Bijvoorbeeld, als de exploitant `notEquals` is, zal het resultaat *vals* zijn als om het even welke waarde aanpast.
 
 Raadpleeg de volgende secties voor het gedrag van de operator in regels voor het opnemen van algoritmen, catalogusregels en uitsluitingsregels.
 
@@ -148,9 +148,9 @@ Als een kenmerkwaarde gelijk is aan de invoerwaarde, resulteert dit in true.
 
 Voorbeeld: `genre equals abc`
 
-* Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is onwaar omdat geen waarde gelijk is aan `abc`.
-* Zaak 2: `entity.genre = ["abc", "de", "ef"]`. Het resultaat is waar omdat één waarde gelijk is aan `abc`.
-* Zaak 3: `entity.genre = ["abcde", "de", "ef"]`. Het resultaat is onwaar omdat `abc` is niet gelijk aan een element in de lijst.
+* Hoofdlettergebruik 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is false omdat geen waarde gelijk is aan `abc` .
+* Hoofdlettergebruik 2: `entity.genre = ["abc", "de", "ef"]`. Het resultaat is waar omdat één waarde gelijk is aan `abc` .
+* Zaak 3: `entity.genre = ["abcde", "de", "ef"]` . Het resultaat is onwaar omdat `abc` niet gelijk is aan een element in de lijst.
 
 ### Is niet gelijk aan
 
@@ -158,9 +158,9 @@ Als geen kenmerkwaarde gelijk is aan de invoerwaarde, resulteert dit in true.
 
 Voorbeeld: `genre not equals abc`
 
-* Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is waar omdat geen waarde gelijk is aan `abc`.
-* Zaak 2: `entity.genre = ["abc", "de", "ef"]`. Het resultaat is onwaar omdat één waarde gelijk is aan `abc`.
-* Zaak 3: `entity.genre = ["abcde", "de", "ef"]`. Het resultaat is waar omdat `abc`is niet gelijk aan een element in de lijst.
+* Hoofdlettergebruik 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is waar omdat geen waarde gelijk is aan `abc` .
+* Hoofdlettergebruik 2: `entity.genre = ["abc", "de", "ef"]`. Het resultaat is false omdat één waarde gelijk is aan `abc` .
+* Zaak 3: `entity.genre = ["abcde", "de", "ef"]` . Het resultaat is waar omdat `abc` niet gelijk aan om het even welk element in de lijst is.
 
 ### Bevat
 
@@ -168,8 +168,8 @@ Als een waarde van een kenmerk de invoerwaarde bevat, resulteert dit in true.
 
 Voorbeeld: `genre contains abc`
 
-* Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is onwaar omdat geen waarde bevat `abc`.
-* Zaak 2: `entity.genre = ["abcde", "de", "ef"]`. Het resultaat is waar omdat één waarde bevat `abc`.
+* Hoofdlettergebruik 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is false omdat geen waarde `abc` bevat.
+* Hoofdlettergebruik 2: `entity.genre = ["abcde", "de", "ef"]`. Het resultaat is waar omdat één waarde `abc` bevat.
 
 ### Bevat niet
 
@@ -177,8 +177,8 @@ Als geen waarde van kenmerk de invoerwaarde bevat, resulteert dit in true.
 
 Voorbeeld: `genre does not contain abc`
 
-* Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is waar omdat geen waarde bevat `abc`.
-* Zaak 2: `entity.genre = ["abcde", "de", "ef"]`. De regel resulteert in false omdat één waarde bevat`abc`.
+* Hoofdlettergebruik 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is waar omdat geen waarde `abc` bevat.
+* Hoofdlettergebruik 2: `entity.genre = ["abcde", "de", "ef"]`. De regel zal in vals resulteren aangezien één waarde `abc` bevat.
 
 ### Begint met
 
@@ -186,9 +186,9 @@ Als een waarde van een kenmerk begint met de invoerwaarde, resulteert dit in tru
 
 Voorbeeld: `genre starts with abc`
 
-* Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is onwaar omdat geen waarde begint met `abc`.
-* Zaak 2: `entity.genre = ["abcde", "de", "ef"]`. Het resultaat is waar omdat één waarde begint met `abc`.
-* Zaak 3: `entity.genre = ["ab", "de", "abc"]`. Het resultaat is waar omdat één waarde begint met `abc` (niet noodzakelijkerwijs het eerste element in de lijst).
+* Hoofdlettergebruik 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is false omdat geen waarde begint met `abc` .
+* Hoofdlettergebruik 2: `entity.genre = ["abcde", "de", "ef"]`. Het resultaat is waar omdat één waarde begint met `abc` .
+* Zaak 3: `entity.genre = ["ab", "de", "abc"]` . Het resultaat is waar omdat één waarde begint met `abc` (niet noodzakelijkerwijs het eerste element in de lijst).
 
 ### Eindigt met
 
@@ -196,8 +196,8 @@ Als een waarde van een kenmerk eindigt met de invoerwaarde, resulteert dit in tr
 
 Voorbeeld: `genre ends with abc`
 
-* Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is onwaar omdat geen waarde eindigt met `abc`.
-* Zaak 2: `entity.genre = ["deabc", "de", "ef"]`. Het resultaat is waar omdat een waarde eindigt met `abc`.
+* Hoofdlettergebruik 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is false omdat geen waarde eindigt met `abc`.
+* Hoofdlettergebruik 2: `entity.genre = ["deabc", "de", "ef"]`. Het resultaat is waar omdat één waarde eindigt met `abc` .
 
 ### Groter dan of gelijk aan (alleen numerieke waarden)
 
@@ -207,8 +207,8 @@ Na verwerking resulteert een kenmerkwaarde die groter is dan of gelijk is aan de
 
 Voorbeeld: `price greater than or equal to 100`
 
-* Zaak 1: `entity.price = ["10", "20", "45"]`. Het resultaat is false omdat geen waarde groter dan of gelijk is aan 100. De waarde `de` wordt overgeslagen omdat het niet in dubbel kan worden omgezet.
-* Zaak 2: `entity.price = ["100", "101", "90", "80"]`. Het resultaat is waar omdat twee waarden groter of gelijk zijn aan 100.
+* Hoofdlettergebruik 1: `entity.price = ["10", "20", "45"]`. Het resultaat is false omdat geen waarde groter dan of gelijk is aan 100. De waarde `de` wordt overgeslagen omdat deze niet kan worden omgezet in dubbel.
+* Hoofdlettergebruik 2: `entity.price = ["100", "101", "90", "80"]`. Het resultaat is waar omdat twee waarden groter of gelijk zijn aan 100.
 
 ### Kleiner dan of gelijk aan (alleen numerieke waarden)
 
@@ -218,8 +218,8 @@ Na verwerking resulteert een kenmerkwaarde die kleiner is dan of gelijk is aan d
 
 Voorbeeld: `price less than or equal to 100`
 
-* Zaak 1: `entity.price = ["101", "200", "141"]`. Het resultaat is false omdat geen waarde kleiner dan of gelijk is aan 100. De waarde `de` wordt overgeslagen omdat het niet in dubbel kan worden omgezet.
-* Zaak 2: `entity.price = ["100", "101", "90", "80"]`. Het resultaat is waar omdat twee waarden kleiner dan of gelijk aan 100 zijn.
+* Hoofdlettergebruik 1: `entity.price = ["101", "200", "141"]`. Het resultaat is false omdat geen waarde kleiner dan of gelijk is aan 100. De waarde `de` wordt overgeslagen omdat deze niet kan worden omgezet in dubbel.
+* Hoofdlettergebruik 2: `entity.price = ["100", "101", "90", "80"]`. Het resultaat is waar omdat twee waarden kleiner dan of gelijk aan 100 zijn.
 
 ### Dynamisch overeenkomt (alleen beschikbaar in op items gebaseerde algoritmen)
 
@@ -227,8 +227,8 @@ Als een kenmerkwaarde overeenkomt met de invoerwaarde, resulteert dit in true.
 
 Voorbeeld: `genre matches abc`
 
-* Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is onwaar omdat geen waarde overeenkomt `abc`.
-* Zaak 2: `entity.genre = ["abc", "de", "ef"]`. Het resultaat is waar omdat één waarde overeenkomt `abc`.
+* Hoofdlettergebruik 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is false omdat geen waarde overeenkomt met `abc` .
+* Hoofdlettergebruik 2: `entity.genre = ["abc", "de", "ef"]`. Het resultaat is waar omdat één waarde overeenkomt met `abc` .
 
 ### Komt dynamisch niet overeen (alleen beschikbaar in op items gebaseerde algoritmen)
 
@@ -236,8 +236,8 @@ Als een kenmerkwaarde overeenkomt met de invoerwaarde, resulteert dit in false.
 
 Voorbeeld: `genre does not match abc`
 
-* Zaak 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is waar omdat geen waarde overeenkomt `abc`.
-* Zaak 2: `entity.genre = ["abc", "de", "ef"]`. De regel resulteert in false omdat één waarde overeenkomt `abc`.
+* Hoofdlettergebruik 1: `entity.genre = ["ab", "bc", "de"]`. Het resultaat is waar omdat geen waarde overeenkomt met `abc` .
+* Hoofdlettergebruik 2: `entity.genre = ["abc", "de", "ef"]`. De regel resulteert in false aangezien één waarde overeenkomt met `abc` .
 
 ### Dynamisch bereik (alleen beschikbaar in op items gebaseerde algoritmen, alleen numerieke waarden)
 
@@ -245,12 +245,12 @@ Als een numerieke kenmerkwaarde binnen het opgegeven bereik ligt, resulteert dit
 
 Voorbeeld: `price dynamically ranges in 80% to 120% of 100`
 
-* Zaak 1: `entity.price = ["101", "200", "125"]`. Het resultaat is waar omdat `101` ligt tussen 80 en 120 % van 100. De waarde `de` wordt overgeslagen omdat het niet in dubbel kan worden omgezet.
-* Zaak 2: `entity.price = ["130", "191", "60", "75"]`. Het resultaat is onwaar omdat geen waarde tussen 80% en 120% van 100 ligt.
+* Hoofdlettergebruik 1: `entity.price = ["101", "200", "125"]`. Het resultaat is waar omdat `101` zich in het bereik van 80% tot 120% van 100 bevindt. De waarde `de` wordt overgeslagen omdat deze niet kan worden omgezet in dubbel.
+* Hoofdlettergebruik 2: `entity.price = ["130", "191", "60", "75"]`. Het resultaat is onwaar omdat geen waarde tussen 80% en 120% van 100 ligt.
 
 >[!NOTE]
 >
->*Dubbel* is een Java-gegevenstype. Voor operatoren die numerieke waarden nodig hebben, worden bij het omzetten in dubbele waarden geen niet-numerieke waarden in aanmerking genomen in de resultaten.
+>*dubbel* is een gegevenstype van Java. Voor operatoren die numerieke waarden nodig hebben, worden bij het omzetten in dubbele waarden geen niet-numerieke waarden in aanmerking genomen in de resultaten.
 
 ## Kenmerken met meerdere waarden in ontwerpen {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
@@ -258,7 +258,7 @@ Kenmerken met meerdere waarden worden weergegeven als een lijst met door komma&#
 
 Voorbeeld:
 
-Wanneer `entity.genre=["genre1","genre2"]` in een ontwerp wordt ernaar verwezen als `$entity<N>.genre`, het resultaat `genre1, genre2`.
+Wanneer in een ontwerp naar `entity.genre=["genre1","genre2"]` wordt verwezen als `$entity<N>.genre` , is het resultaat `genre1, genre2` .
 
 ## Verwante onderwerpen:
 

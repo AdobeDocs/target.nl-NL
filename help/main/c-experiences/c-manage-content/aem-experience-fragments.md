@@ -1,7 +1,7 @@
 ---
 keywords: ervaring;json;aem;adobe Experience Manager;exporteren naar adobe target;beleving, fragmenten;fragmenten;XF
-description: Leren gebruiken [!DNL Adobe Experience Manager] ervaren fragmenten in [!DNL Adobe Target] activiteiten.
-title: Hoe gebruikt u [!DNL Adobe Experience Manager] (AEM) Werken met fragmenten?
+description: Leer hoe te om  [!DNL Adobe Experience Manager]  ervaringsfragmenten in  [!DNL Adobe Target]  activiteiten te gebruiken.
+title: Hoe gebruik ik  [!DNL Adobe Experience Manager]  (AEM) Ervaar Fragmenten?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
 source-git-commit: 15947d6d3e2329e0c2878c6670e83143069a873e
@@ -11,8 +11,8 @@ ht-degree: 0%
 
 ---
 
-# AEM Ervaring en inhoudsfragmenten
+# AEM Experience en Content Fragments
 
-Met XF&#39;s (Experience Fragments) en Content Fragments (CF&#39;s) die zijn gemaakt in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten ter bevordering van optimalisatie of personalisatie.
+Gebruik Experience Fragments (XFs) en Content Fragments (CFs) die in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten worden gecreeerd om optimalisering of verpersoonlijking te helpen.
 
-Zie voor meer informatie [Overzicht van AEM Experience Fragments en Content Fragments](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
+Voor meer informatie, zie [ het overzicht van de Fragmenten van de Ervaring van AEM en van de Fragmenten van de Inhoud ](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).

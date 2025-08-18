@@ -1,61 +1,61 @@
 ---
 keywords: welkomstkit;doel welkomstkit;intro;introductie;aan de slag
-description: Laten we beginnen met je eerste activiteit in Adobe [!DNL Target] zodat u ROI op uw investering kunt verkrijgen.
+description: Laten we met uw eerste activiteit in Adobe  [!DNL Target]  beginnen zodat kunt u ROI op uw investering verkrijgen.
 title: Ik moet mijn eerste activiteit in Doel creëren. Waar begin ik?
 feature: Overview
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1724'
 ht-degree: 0%
 
 ---
 
-# Hoofdstuk 7: Uw eerste maken en uitvoeren [!DNL Target] activiteit
+# Hoofdstuk 7: Uw eerste [!DNL Target] activiteit maken en uitvoeren
 
-U bent klaar om aan de slag te gaan met uw eerste activiteit in [!DNL Target]? Uitstekend. Laten we een activiteit voor uw website, mobiele site of mobiele app uitzoeken die niet al te complex is, maar een snel rendement kan bieden en u enthousiast kunt maken over de mogelijkheden van het gebruik [!DNL Target] om te testen en te personaliseren. Afhankelijk van uw organisatie en zijn nadruk, zou u het gaan van één van drie verschillende routes met die eerste activiteit kunnen overwegen.
+Dus u bent klaar om aan de slag te gaan met uw eerste activiteit in [!DNL Target]? Uitstekend. Laten we een activiteit voor uw website, mobiele site of mobiele app uitzoeken die niet al te complex is, maar een snel investeringsrendement kan bieden en u enthousiast kunt maken over de mogelijkheden om [!DNL Target] te gebruiken voor het testen en personaliseren. Afhankelijk van uw organisatie en zijn nadruk, zou u het gaan van één van drie verschillende routes met die eerste activiteit kunnen overwegen.
 
 De sleutel tot uw eerste activiteit niettemin, vestigt een basislijn van zaken metrisch u probeert te verbeteren-opbrengst, klikt doorheen, vormverzendingen, voltooide registraties, etc. In een A/B-test kunt u vaak de huidige ervaring gebruiken of aanbieden als een ‘controle’ en de impact van een variant van die ervaring of aanbieding ervan meten. Met de meeste verpersoonlijkingsactiviteiten echter, zou u ideaal de prestaties van de huidige ervaring bepalen alvorens een gepersonaliseerde versie van het te lanceren. Hierdoor kunt u de impact van personalisatie meten.
 
-## Route 1: A/B-tests op alle bezoekersverkeer
+## Route 1: A/B het testen aan al bezoekersverkeer
 
-U kunt een standaard instellen [A/B Testactiviteit](/help/main/c-activities/t-test-ab/test-ab.md) waarin u een variatie van een aanbieding of ervaring test op een of meer andere variaties om te zien welke varianten uw bezoekers verkiezen. Als u alleen op zoek bent naar de winnende variant, kunt u ervoor kiezen om AI te gebruiken om sneller resultaten te behalen door [Automatisch toewijzen](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) in de tweede stap van de testinstellingsworkflow voor A/B.
+U kon opstelling een basis [ activiteit van de Test A/B ](/help/main/c-activities/t-test-ab/test-ab.md) waarin u één variatie van een aanbieding of ervaring tegen één of meerdere andere variaties test om te zien welke degenen uw bezoekers verkiezen. Als u slechts de winnende variant zoekt, kunt u aan hefboomwerking AI kiezen om snellere resultaten te krijgen door [ auto-Wijs ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) in de tweede stap van het werkschema van de A/B testopstelling te selecteren.
 
-Voorbeeld: Een mediabedrijf test zijn huidige exemplaar op een geschenuwingsaanbieding op zijn website of mobiele site homepage om te zien welke variatie ertoe leidt dat meer bezoekers een geschenkabonnement kopen. Als zij Auto-Toewijzing selecteren, zal de activiteit meer verkeer naar de winnende variant verschuiven aangezien de test loopt. Als dat niet het geval is, wordt gewacht totdat u de winnende ervaring handmatig live kunt duwen nadat de test is voltooid.
+Voorbeeld: een mediabedrijf test zijn huidige kopie op een geschenuwabonnement op de homepage van zijn website of mobiele site om te zien welke variatie ertoe leidt dat meer bezoekers een geschenk kopen. Als zij Auto-Toewijzing selecteren, zal de activiteit meer verkeer naar de winnende variant verschuiven aangezien de test loopt. Als dat niet het geval is, wordt gewacht totdat u de winnende ervaring handmatig live kunt duwen nadat de test is voltooid.
 
-## Route 2: Personaliseren voor een specifiek publiek
+## Route 2: Personaliseren aan een specifiek publiek
 
-U kunt een [Gericht op ervaring](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activiteit die op een specifiek publiek richt u weet is waardevol met een aanbieding of een ervaring u weet met hen zou resoneren.
+U kon opstelling een [ Ervaring richtend ](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activiteit die een specifiek publiek richt u weet waardevol met een aanbieding of een ervaring bent u weet met hen zou resoneren.
 
-Voorbeeld: Een luchtvaartmaatschappij richt haar leden op platina-niveau aan met een speciaal aanbod dat hun punten op hun volgende vliegaankoop verdubbelt om hen te belonen en klantenloyaliteit verder op te bouwen.
+Voorbeeld: een luchtvaartmaatschappij richt zich op haar leden op platina-niveau met een speciale aanbieding die hun punten op hun volgende vliegaankoop verdubbelt om hen te belonen en klantenloyaliteit verder op te bouwen.
 
 ## Route 3: Toepassing van AI en automatisering om individuele bezoekers op schaal te personaliseren
 
-U kunt een door AI aangedreven activiteit opzetten om de beste ervaring van verscheidene voor elke bezoeker te leveren door eenvoudig te selecteren [Automatisch doel](/help/main/c-activities/auto-target/auto-target-to-optimize.md) in de tweede stap van de testinstellingsworkflow voor A/B. Het gebruik van Auto-Target met uw eerste activiteit kan bijzonder nuttig zijn wanneer u niet weet welke ervaring voor verschillende bezoekers zal remonteren. Met Auto-Doel kunt u automatisch leren voorspellende kenmerken in real-time evalueren en scoren en bepalen welke kenmerken van uw bezoekers het belangrijkst zijn bij het bepalen van welke ervaring ze moeten leveren.
+U kunt opstelling een AI-Gedreven activiteit om de beste ervaring uit verscheidene voor elke bezoeker te leveren door [ auto-Doel ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) in de tweede stap van het werkschema van de A/B testopstelling eenvoudig te selecteren. Het gebruik van Auto-Target met uw eerste activiteit kan bijzonder nuttig zijn wanneer u niet weet welke ervaring voor verschillende bezoekers zal remonteren. Met Auto-Doel kunt u automatisch leren voorspellende kenmerken in real-time evalueren en scoren en bepalen welke kenmerken van uw bezoekers het belangrijkst zijn bij het bepalen van welke ervaring ze moeten leveren.
 
-Voorbeeld: Een telco die meerdere telefoonmerken en -modellen verkoopt, schakelt Auto-Target in om automatisch te leren en machinaal leren te gebruiken om te bepalen welke van vier verschillende ervaringen of aanbiedingen op zijn homepage of mobiele app het openingsscherm het best met zijn grote verscheidenheid van bezoekers zal resoneren.
+Voorbeeld: een telco die meerdere telefoonmerken en -modellen verkoopt, schakelt Auto-Target in om automatisch te leren en computerleren te gebruiken om te bepalen welke van vier verschillende ervaringen of aanbiedingen op zijn homepage of mobiele app het openingsscherm het best met zijn grote verscheidenheid van bezoekers zal resoneren.
 
-## Een activiteitenidee genereren
+## Een activiteitsidee genereren
 
-U zou die basisknoopkleur of de test van de exemplaarverandering kunnen doen maar hoe te over het testen van of het personaliseren van iets dat het potentieel heeft om aan te tonen hoe krachtig [!DNL Target] kan het zijn om de naald van de bedrijfsmetriek te bewegen die belangrijk is? Iets dat wenkbrauwen oproept met leidinggevenden in de C-suite en leiders in de business units.
+Je zou die standaardknopkleur kunnen doen of een kopieerwijzigingstest kunnen doen, maar hoe zit het met het testen of personaliseren van iets dat het potentieel heeft om aan te tonen hoe krachtig [!DNL Target] kan zijn voor het verplaatsen van de naald van de bedrijfsmetingen die belangrijk zijn? Iets dat wenkbrauwen oproept met leidinggevenden in de C-suite en leiders in de business units.
 
 Hier zijn enkel een paar manieren om met die activiteitenideeën te komen die gemakkelijk zijn uit te voeren maar een grote bedrijfsimpact kunnen maken:
 
-* **Gebruik wat u weet.** Misschien kent u uw klanten al goed, en hebt u een goed idee wat met hen zal resoneren. Gebruik dat om persoonlijke ervaringen te ontwikkelen.
-* **Gebruik uw analyseoplossing.** Zoek naar plaatsen op uw plaats waar de klanten uit een koopstroom of van een pagina terugtrokken uitkwamen. Bekijk de pagina&#39;s en hypotheek wat hen zou kunnen veroorzaken om weg te gaan alvorens de actie te nemen u wilde.
-* **Gebruik uw observatiebevoegdheden.** Bekijk een paar belangrijke pagina&#39;s op uw website en gebruik uw darmgevoel om dingen te identificeren die verbetering vereisen. Misschien is een pagina met productdetails te vol en te verwoord, dus vereenvoudig het. Misschien is een aankoopknop moeilijk te vinden, dus verplaats deze naar een merkbaardere locatie.
-* **Kijk naar je concurrenten.** Een snelle controle van de websites van uw concurrenten zou ontwerpen, aanbiedingen, exemplaar, en andere elementen kunnen openbaren die u zeer efficiënt in het drijven bedrijfsresultaten geloven. Overweeg manieren om die benaderingen op uw plaats te proberen.
-* **Tik op feedback van klanten.** Uw klanten zouden u ideeën kunnen hebben gegeven om hun ervaring door een online onderzoek of op de vraag van de klantendienst te verbeteren. Identificeer een pijnpunt dat verscheidene hebben vermeld, en kom met een ervaring op die het zou kunnen elimineren.
+* **Gebruik wat u weet.** Misschien kent u uw klanten al goed en hebt u een goed idee wat er met hen zal overkomen. Gebruik dat om persoonlijke ervaringen te ontwikkelen.
+* **gebruik uw analyseoplossing.** Zoek naar plaatsen op uw plaats waar de klanten uit een koopstroom uitkwamen of van een pagina werden afgevuurd. Bekijk de pagina&#39;s en hypotheek wat hen zou kunnen veroorzaken om weg te gaan alvorens de actie te nemen u wilde.
+* **gebruik uw bevoegdheden van observatie.** Bekijk een paar belangrijke pagina&#39;s op uw website en gebruik uw darmgevoel om dingen te identificeren die verbetering vereisen. Misschien is een pagina met productdetails te vol en te verwoord, dus vereenvoudig het. Misschien is een aankoopknop moeilijk te vinden, dus verplaats deze naar een merkbaardere locatie.
+* **bekijk uw concurrenten.** Een snelle revisie van de websites van uw concurrenten kan ontwerpen, aanbiedingen, kopieën en andere elementen onthullen die volgens u zeer effectief zijn in het aansturen van bedrijfsresultaten. Overweeg manieren om die benaderingen op uw plaats te proberen.
+* **Tik in klant terugkoppelt.** Uw klanten hebben u wellicht ideeën gegeven om hun ervaring te verbeteren via een online enquête of aanroepen van de klantenservice. Identificeer een pijnpunt dat verscheidene hebben vermeld, en kom met een ervaring op die het zou kunnen elimineren.
 
 Aangezien u met uw het testen idee komt, houd in mening dat u, idealiter met gegevens zou moeten kunnen verklaren, waarom u uw voorgestelde testidee de klantenervaring en metriek kunt verbeteren die aan de zaken van belang zijn.
 
 ## Uw activiteiten plannen met Activiteitenplanner
 
-We hebben de [Adobe Target Activity Planner](/help/main/assets/activity-planner.pdf) als een zelfstandige PDF die u steeds opnieuw kunt opslaan en gebruiken. Klik op de koppeling om het PDF-bestand weer te geven. Klik met de rechtermuisknop om het PDF-bestand te downloaden.
+Wij hebben het [ Plan van de Activiteit van Adobe Target ](/help/main/assets/activity-planner.pdf) als standalone PDF omvat die u kunt bewaren en opnieuw gebruiken. Klik op de koppeling om het PDF-bestand weer te geven. Klik met de rechtermuisknop om het PDF-bestand te downloaden.
 
 Als u een effectieve activiteit wilt uitvoeren, moet u elk gebied van de planner invullen. U kunt dit gereedschap gebruiken terwijl u en anderen ideeën uitwisselen voor het testen en personaliseren van activiteiten.
 
-![Adobe Target Activity Planner](/help/main/c-intro/assets/activity-planner.png)
+![ de Planner van de Activiteit van Adobe Target ](/help/main/c-intro/assets/activity-planner.png)
 
 Hier is het soort gedachte dat in elk gebied van de planner gaat:
 
@@ -69,11 +69,11 @@ Leg duidelijk uit wat het probleem is met de huidige ervaring op de webpagina, i
 
 ### Welk type activiteit is nodig?
 
-Schakel het vakje in van het type activiteit dat u wilt uitvoeren. U kunt revisie [Doelactiviteitstypen](/help/main/c-activities/target-activities-guide.md) of de [Adobe Target in één oogopslag](/help/main/c-intro/target-welcome-kit-2.md) hoofdstuk om de verschillende beschikbare soorten activiteit te begrijpen.
+Schakel het vakje in van het type activiteit dat u wilt uitvoeren. U kunt [ de activiteitentypes van het Doel ](/help/main/c-activities/target-activities-guide.md) onderwerp of [ Adobe Target bij een hoofdstuk van de Blik ](/help/main/c-intro/target-welcome-kit-2.md) herzien om de verschillende soorten beschikbare activiteiten te begrijpen.
 
 ### Wie is het doelpubliek?
 
-In een A/B test met een controleervaring en een variant, bijvoorbeeld, zou u uw volledige bezoekersbevolking kunnen omvatten. Standaard, [!DNL Target] levert 50 percenten aan de controle en 50 percenten aan de variant. Maar als je je personaliseert, zou je het publiek of publiek kunnen beschrijven waaraan je je personaliseert. Als u AI gebruikt, zult u zien dat u AI gebruikt om de persoon aan te passen. In uw hypothese moet u aangeven waarom u een specifiek publiek voor een activiteit kiest als u een activiteit kiest.
+In een A/B test met een controleervaring en een variant, bijvoorbeeld, zou u uw volledige bezoekersbevolking kunnen omvatten. Standaard levert [!DNL Target] 50 procent aan het besturingselement en 50 procent aan de variant. Maar als je je personaliseert, zou je het publiek of publiek kunnen beschrijven waaraan je je personaliseert. Als u AI gebruikt, zult u zien dat u AI gebruikt om de persoon aan te passen. In uw hypothese moet u aangeven waarom u een specifiek publiek voor een activiteit kiest als u een activiteit kiest.
 
 ### Wat zijn de primaire meetgegevens voor het meten van de impact van de activiteit?
 
@@ -91,7 +91,7 @@ Als uw activiteit de medewerker van een ontwerper, een Webontwikkelaar, of een g
 
 U moet een bepaald aantal bezoekers in de testpopulatie opnemen om een statistisch significante conclusie uit de test te trekken. Denk er eens over na, als er maar twee mensen deelnemen aan je test, ben je dan zeker van de resultaten?
 
-[!DNL Target] baseert zich op statistische beginselen om de resultaten van een test statistisch geldig te bepalen. De [!DNL Adobe Target] [Voorbeeldgroottecalculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) helpt u de tijdsduur bepalen om een test in werking te stellen die op het vertrouwen wordt gebaseerd u in uw resultaten wenst. Klik op de knop [!UICONTROL Learn More] in dit vak om de rekenmachine te openen en te gebruiken.
+[!DNL Target] baseert zich op statistische principes om de resultaten van een test statistisch geldig te bepalen. De [!DNL Adobe Target] [ calculator van de Grootte van de Steekproef ](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) helpt u de lengte van tijd bepalen om een test in werking te stellen die op het vertrouwen wordt gebaseerd u in uw resultaten wenst. Klik op de koppeling [!UICONTROL Learn More] in dit vak om de rekenmachine te openen en te gebruiken.
 
 ### Hoe belangrijk is deze activiteit?
 
@@ -105,6 +105,6 @@ Nadat de activiteit heeft voltooid, documenteer de resultaten, die zeker zijn om
 
 De resultaten van uw activiteiten geven vaak inzicht in acties die u daarna moet ondernemen. Als een variatie in de ervaring echt succesvol was, kunt u dat in uw website hard-code willen. Misschien ziet u mogelijkheden om dat succes toe te passen op vergelijkbare pagina&#39;s. De resultaten zouden aan meer werk kunnen wijzen om de klantenervaring op deze pagina te verbeteren. Gebruik dit gebied om belangrijke lessen uit de activiteit te documenteren en om te documenteren wat u op basis van die lessen gaat doen.
 
-## Openen [!DNL Target] en maak en start uw activiteiten
+## Open [!DNL Target] en maak en start uw activiteiten
 
-Je hebt je activiteitenplan ingevuld. Nu is het tijd om de oplossing in te pakken en je activiteit op te bouwen. [!DNL Target] maakt het supergemakkelijk om uw webpagina in de [!UICONTROL Visual Experience Composer].
+Je hebt je activiteitenplan ingevuld. Nu is het tijd om de oplossing in te pakken en je activiteit op te bouwen. Met [!DNL Target] kunt u heel gemakkelijk uw webpagina wijzigen in de [!UICONTROL Visual Experience Composer] .

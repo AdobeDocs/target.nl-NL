@@ -1,8 +1,8 @@
 ---
 keywords: inclusieregels;inclusiecriteria;aanbevelingen;bevordering;bevordering;dynamische filtering;dynamic;entiteitattributen die aanpassen
-description: Leer hoe te om dynamisch in Adobe  [!DNL Target]  Recommendations te filtreren door een pool van potentiële punten met een specifiek punt te vergelijken dat de gebruiker met heeft gecommuniceerd.
-title: Hoe filtert ik op kenmerk Entiteit die overeenkomt met Recommendations-activiteiten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+description: Leer hoe te om dynamisch in de Aanbevelingen van Adobe  [!DNL Target]  te filtreren door een pool van potentiële punten aan een specifiek punt te vergelijken dat de gebruiker met in wisselwerking heeft gestaan.
+title: Hoe filtert ik op kenmerk Entiteit dat overeenkomt met activiteiten in Aanbevelingen?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -52,11 +52,11 @@ In de aanbevelingen op de pagina ziet u alleen Merk A-producten.
 
 Als u vervolgens een productpagina van merk B weergeeft, wordt de waarde van `entity.brand` opnieuw ingesteld op &quot;MerkB&quot; en worden de producten van merk B aanbevolen op de productpagina&#39;s van merk B.
 
-![&#128279;](/help/main/c-recommendations/c-algorithms/assets/brandB.png) aanbevelingen van 0&rbrace; Merk B
+![ aanbevelingen van 0} Merk B](/help/main/c-recommendations/c-algorithms/assets/brandB.png)
 
 ### Upsellen naar een duurder product
 
-Stel dat u een kledinghandelaar bent en gebruikers wilt aanmoedigen om duurdere en daarom rendabelere voorwerpen te overwegen. U kunt de operatoren ‘gelijk aan’ en ‘gelijk aan’ gebruiken om duurdere objecten van dezelfde categorie en hetzelfde merk te promoten. Een schoenenhandelaar kan bijvoorbeeld duurdere loopschoenen promoten in een poging om een bezoeker die op zoek is naar loopschoenen te upverkopen, zoals in het volgende voorbeeld:
+Stel dat je een apparel retailer bent en gebruikers wil aanmoedigen om duurdere en dus winstgevender objecten te overwegen. U kunt de operatoren ‘gelijk aan’ en ‘gelijk aan’ gebruiken om duurdere objecten van dezelfde categorie en hetzelfde merk te promoten. Een schoenen retailer kan bijvoorbeeld duurdere loopschoenen promoten in een poging om een bezoeker die op zoek is naar loopschoenen te uploaden, zoals in het volgende voorbeeld:
 
 ![ Upselling ](/help/main/c-recommendations/c-algorithms/assets/upsell.png)
 

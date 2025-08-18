@@ -1,8 +1,8 @@
 ---
 keywords: gericht;AP rapporten;geautomatiseerde verpersoonlijkingsrapporten;auto-doel;auto doel;auto doelrapport;auto-doel rapport;verpersoonlijking;inzichten;geautomatiseerde segmenten;vk;vaak gestelde vragen;belangrijke attributen
 description: Leer hoe te om de gespecialiseerde rapporten voor Automated Personalization (AP) en auto-Doel (AT) activiteiten - Geautomatiseerde Segmenten en Belangrijke Attributen te gebruiken.
-title: Hoe gebruik ik de rapporten over persoonlijke voorkeuren?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
+title: Hoe gebruik ik de Personalization Insights-rapporten?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
 source-git-commit: 6c8f042acb257fc908349c679bf745e477f94af4
@@ -14,92 +14,92 @@ ht-degree: 0%
 
 # [!UICONTROL Personalization Insights] rapporten
 
-Gebruikers van [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] (AT) activiteiten: de [!UICONTROL Automated Segments] en [!UICONTROL Important Attributes] rapporten.
+Er zijn twee gespecialiseerde rapporten beschikbaar voor gebruikers van [!UICONTROL Automated Personalization] (AP)- en [!UICONTROL Auto-Target] (AT)-activiteiten: de [!UICONTROL Automated Segments] - en [!UICONTROL Important Attributes] -rapporten.
 
 ## Overwegingen
 
-Houd rekening met het volgende wanneer u [!UICONTROL Personalization Insights] rapporten:
+Houd rekening met het volgende wanneer u [!UICONTROL Personalization Insights] -rapporten gebruikt:
 
-* AP- en AT-activiteiten zijn beschikbaar als onderdeel van de [[!DNL Target Premium] oplossing](/help/main/c-intro/intro.md#premium). Ze zijn niet inbegrepen bij [!DNL Target Standard] zonder [!DNL Target Premium] licentie.
+* AP en de activiteiten van AT zijn beschikbaar als deel van de [[!DNL Target Premium]  oplossing ](/help/main/c-intro/intro.md#premium). Ze worden niet zonder [!DNL Target Standard] -licentie opgenomen in [!DNL Target Premium] .
 
-* [!UICONTROL Personalization Insights] De rapporten zijn beschikbaar slechts voor AP en bij activiteiten die als volgt worden gevormd:
+* [!UICONTROL Personalization Insights] -rapporten zijn alleen beschikbaar voor AP- en AT-activiteiten die als volgt zijn geconfigureerd:
 
-   * [!DNL Target] melden > [!UICONTROL Conversion]
-
-     Bijvoorbeeld:
-
-     ![Doelrapportage > Conversie](/help/main/c-reports/assets/conversion.png)
-
-   * [!DNL Analytics] melden > [!DNL Conversion]
+   * [!DNL Target] reporting > [!UICONTROL Conversion]
 
      Bijvoorbeeld:
 
-     ![Analytische rapportage > Conversie](/help/main/c-reports/assets/analytics-reporting-conversion.png)
+     ![ het Rapport van het Doel > Omzetting ](/help/main/c-reports/assets/conversion.png)
 
-   * [!DNL Analytics] melden > [!UICONTROL Use an Analytics metric] > [!UICONTROL Maximize Visit Conversion Rate]
+   * [!DNL Analytics] reporting > [!DNL Conversion]
 
      Bijvoorbeeld:
 
-     ![Analyse gebruiken > Bezoek conversiesnelheid maximaliseren](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
+     ![ Analytische Rapportering > Omzetting ](/help/main/c-reports/assets/analytics-reporting-conversion.png)
+
+   * [!DNL Analytics] reporting > [!UICONTROL Use an Analytics metric] > [!UICONTROL Maximize Visit Conversion Rate]
+
+     Bijvoorbeeld:
+
+     ![ gebruik metrische Analytics > Maximize het Tarief van de Omzetting van het Bezoek ](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
 
 * Activiteiten waarbij de optimalisatiedoelstelling werd gewijzigd in een omrekening van inkomsten nadat de activiteit al actief was, worden ook niet ondersteund.
 
-* [!UICONTROL Personalization Insights] rapporten zijn alleen beschikbaar als de [!UICONTROL Primary Goal] is geselecteerd in het dialoogvenster [!UICONTROL Report Metric] vervolgkeuzelijst.
+* [!UICONTROL Personalization Insights] -rapporten zijn alleen beschikbaar als [!UICONTROL Primary Goal] is geselecteerd in de vervolgkeuzelijst [!UICONTROL Report Metric] .
 
-* [!UICONTROL Personalization Insights] de rapporten worden gesteund in [standaardomgeving](/help/main/administrating-target/hosts.md) alleen.
+* [!UICONTROL Personalization Insights] de rapporten worden gesteund in het [ standaardmilieu ](/help/main/administrating-target/hosts.md) slechts.
 
-* [!UICONTROL Personalization Insights] rapporten worden alleen gegenereerd voor activiteiten in het [!UICONTROL Live] en ten minste 15 dagen in werking zijn gesteld en verkeer ontvangen.
+* [!UICONTROL Personalization Insights] -rapporten worden alleen gegenereerd voor activiteiten die de status [!UICONTROL Live] hebben en die gedurende ten minste 15 dagen zijn geactiveerd en verzonden.
 
-## Overzicht van de rapportage van persoonlijke inzichten {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
+## Overzicht Personalization Insights Reporting {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
-Het doel van het [!UICONTROL Personalization Insights] de verslagen moeten meer informatie verstrekken over de wijze waarop [!UICONTROL Target] personalisatiemodellen achter uw AP en de activiteiten van AT personaliseren bezoekersverkeer. De [Random Forest-algoritme](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) is de basis voor de [!DNL Target] personalisatiemodellen.
+Het doel van de [!UICONTROL Personalization Insights] rapporten is meer informatie te verstrekken over hoe de [!UICONTROL Target] verpersoonlijkingsmodellen achter uw AP en de activiteiten van AT bezoekersverkeer verpersoonlijken. Het [ Willekeurige Bosalgoritme ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) is de basis voor de [!DNL Target] verpersoonlijkingsmodellen.
 
-Omdat het doel van het [!UICONTROL Personalization Insights] de verslagen moeten begrijpen hoe [!DNL Target] personalisatiemodellen hebben besloten om de bezoeker naar welk(e) stuk(ken) inhoud te sturen, de [!UICONTROL Personalization Insights] de rapporten wijzen slechts op een subsegment van al verkeer dat door uw AP of activiteit wordt gediend. Specifiek, zijn de twee rapporten weerspiegelend van al verkeer dat het verpersoonlijkingsmodel gebruikte. Met andere woorden: [!UICONTROL Personalization Insights] de rapporten overwegen geen controleverkeer of verkeer dat door het algemene winnersmodel wordt gediend.
+Omdat het doel van de [!UICONTROL Personalization Insights] -rapporten is te begrijpen hoe de [!DNL Target] personalisatiemodellen hebben besloten om de bezoeker naar welk(e) stuk(ken) inhoud te sturen, weerspiegelen de [!UICONTROL Personalization Insights] -rapporten slechts een subsegment van alle verkeer dat door uw AP of AT-activiteit wordt bediend. Specifiek, zijn de twee rapporten weerspiegelend van al verkeer dat het verpersoonlijkingsmodel gebruikte. Met andere woorden, in [!UICONTROL Personalization Insights] -rapporten wordt geen rekening gehouden met het beheer van het verkeer of het verkeer dat wordt bediend door het algemene winnersmodel.
 
-Twee [!UICONTROL Personalization Insights] er zijn rapporten beschikbaar :
+Er zijn twee [!UICONTROL Personalization Insights] -rapporten beschikbaar:
 
 | Rapport | Details |
 |--- |--- |
-| [!UICONTROL Automated Segments] | Verschillende bezoekers reageren anders op de aanbiedingen/ervaringen in uw AP/AT-activiteit. Dit rapport toont hoe de verschillende geautomatiseerde segmenten die door de [!DNL Target] personalisatiemodellen reageerden op de aanbiedingen/ervaringen in de activiteit. |
+| [!UICONTROL Automated Segments] | Verschillende bezoekers reageren anders op de aanbiedingen/ervaringen in uw AP/AT-activiteit. Dit rapport laat zien hoe verschillende geautomatiseerde segmenten die door de [!DNL Target] personalisatiemodellen worden gedefinieerd, op de aanbiedingen/ervaringen in de activiteit hebben gereageerd. |
 | [!UICONTROL Important Attributes] | In verschillende activiteiten zijn verschillende kenmerken meer of minder belangrijk voor de manier waarop het model beslist om zich aan te passen. Dit rapport toont de belangrijkste kenmerken die het model en hun relatieve belang beïnvloedden. |
 
-## Kenmerken interpreteren in de functie Persoonlijke inzichten {#section_B5C45E723EC941BDA2A7A642EEB30E4D}
+## Kenmerken interpreteren in Personalization Insights {#section_B5C45E723EC941BDA2A7A642EEB30E4D}
 
-Er zijn twee typen kenmerken die worden vertegenwoordigd in [!UICONTROL Personalization Insights] rapporten die in uw AP of AutoDoelmodellen worden gebruikt:
+Er zijn twee typen kenmerken in [!UICONTROL Personalization Insights] -rapporten die worden gebruikt in uw AP- of Auto Target-modellen:
 
-* **Kenmerken die automatisch door Target worden verzameld:** [!DNL Target] gebruikt een reeks basisgegevens om zijn verpersoonlijkingsalgoritmen in AP en bij activiteiten te bouwen die in de Inzichten van de Personalisatie worden weerspiegeld. Zie [Gegevensverzameling voor persoonlijke algoritmen van het doel](/help/main/c-activities/t-automated-personalization/ap-data.md) voor gegevenstypen, voorbeeldkenmerken en hun [!UICONTROL Personalization Insights] naamgevingsconventie. Hoewel deze kenmerken in overweging worden genomen, gebruiken de modellen van een individuele activiteit mogelijk niet al deze kenmerken in het uiteindelijke model.
-* **Attributen doorgegeven aan Doel:** Zie [Gegevens uploaden voor de algoritmen van de Personalisatie van het Doel](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+* **Attributen die automatisch door Doel worden verzameld:** [!DNL Target] gebruikt een reeks van basisgegevens om zijn verpersoonlijkingsalgoritmen in AP en bij activiteiten te bouwen die in de Inzichten van Personalization worden weerspiegeld. Zie [ Inzameling van Gegevens voor de Algoritmen van Personalization van het Doel ](/help/main/c-activities/t-automated-personalization/ap-data.md) voor gegevenstypes, voorbeeldattributen, en hun [!UICONTROL Personalization Insights] noemende overeenkomst. Hoewel deze kenmerken in overweging worden genomen, gebruiken de modellen van een individuele activiteit mogelijk niet al deze kenmerken in het uiteindelijke model.
+* **Attributen die tot Doel worden overgegaan:** zie [ Uploadend Gegevens voor de Algoritmen van Personalization van het Doel ](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
-[!DNL Target] biedt u veel manieren om aanvullende gegevens door te geven aan [!DNL Target] om de reeks basisgegevens te verrijken die wordt gebruikt om zijn verpersoonlijkingsalgoritmen in AP en bij activiteiten te bouwen:
+[!DNL Target] biedt verschillende manieren waarop u aanvullende gegevens aan [!DNL Target] kunt doorgeven om de set met basisgegevens die wordt gebruikt voor het maken van de aanpassingsalgoritmen van de gegevensset in AP- en AT-activiteiten te verrijken:
 
 | Gegevenstype | Beschrijving | Naamgevingsconventie voor gegevenstypen |
 |--- |--- |--- |
-| Profielkenmerken, waaronder profielscripts, API voor profielupdate en kenmerken van paginabereik | Alle informatie die u hebt besloten op te nemen in het gebruikersprofiel van Target.<br>Deze informatie kan afkomstig zijn van profielscripts, informatie die is geüpload met de API voor profielupdate of in-mbox-profielparameters die vooraf zijn ingesteld op &quot;profile&quot;. | `Custom - Profile - [parameter name]` |
+| Profielkenmerken, waaronder profielscripts, API voor profielupdate en kenmerken van paginabereik | Alle informatie die u hebt besloten op te nemen in het gebruikersprofiel van Target.<br> deze informatie kon uit profielmanuscripten, informatie komen die gebruikend de Update API van het Profiel, of in-mbox profielparameters vooraf bepaald met &quot;profiel wordt geupload.&quot; | `Custom - Profile - [parameter name]` |
 | Paginaparameters (ook wel &quot;parameters mbox&quot; genoemd) | Naam-/waardeparen die rechtstreeks via paginacode worden doorgegeven en die niet in het profiel van de bezoeker zijn opgeslagen voor toekomstig gebruik. | `Custom - Mbox Parameter - [parameter name]` |
-| Klantkenmerken | Met klantkenmerken kunt u gegevens van bezoekersprofielen uploaden via FTP naar het Experience Cloud. Gebruik na het uploaden de gegevens in Adobe Analytics en Adobe Target. | `Custom - Customer Attributes - [parameter name]` |
+| Klantkenmerken | Met klantkenmerken kunt u gegevens van bezoekersprofielen uploaden via FTP naar de Experience Cloud. Gebruik na het uploaden de gegevens in Adobe Analytics en Adobe Target. | `Custom - Customer Attributes - [parameter name]` |
 | Gedeeld publiek (Adobe Audience Manager of Adobe Analytics) | Soorten publiek gemaakt via Adobe Audience Manager of Adobe Analytics en gedeeld met Target. | `Custom - Experience Cloud Segment - [segment name]` |
 | Gedeeld publiek (Adobe Experience Platform/Real-Time CDP) | Publiek dat door Adobe Experience Platform/Real-time CDP wordt gecreeerd en met Doel via Doelen wordt gedeeld. | `Custom - Adobe Experience Platform Segment - [segment name]` |
-| Gedeelde kenmerken (Adobe Experience Platform/Real-Time CDP) | Attributen die door Adobe Experience Platform/Real-Time CDP worden gecreeerd en met Doel via Doelen worden gedeeld. Deze functie staat momenteel in bètaversie. | `Custom - Adobe Experience Platform Attribute - [attribute name]]` |
+| Gedeelde kenmerken (Adobe Experience Platform/Real-Time CDP) | Attributen die door Adobe Experience Platform/Real-Time CDP worden gecreeerd en met Doel via Doelen worden gedeeld. Deze functie is momenteel in Beta. | `Custom - Adobe Experience Platform Attribute - [attribute name]]` |
 | Activiteitenrapportage publiek/segmenten | Soorten publiek gedefinieerd in uw AP- of Auto Target-activiteit tijdens installatie in &quot;Doelen &amp; Metriek.&quot; | `Custom - Reporting Segment - [segment name]` |
 
 ## Veelgestelde vragen
 
-Lijst met veelgestelde vragen over [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] [!UICONTROL Insights] rapporten.
+Lijst met veelgestelde vragen over [!UICONTROL Automated Personalization] (AP)- en [!UICONTROL Auto-Target] [!UICONTROL Insights] -rapporten.
 
-### Hoelang gegevens [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] modellen blijven bestaan?
+### Hoe lang blijven de gegevens voor [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] modellen behouden?
 
-[!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] de modellen worden getraind op de laatste 45 dagen van gebruikersgedrag (gebruikersprofielen, impotentiegebeurtenissen, en omzettingsgebeurtenissen) voor de activiteit.
+[!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] -modellen worden getraind op de laatste 45 dagen van het gebruikersgedrag (gebruikersprofielen, impliciete gebeurtenissen en conversiegebeurtenissen) voor de activiteit.
 
-[!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] de modellen bewaren gebruikersgedrag, trainingsverslagen, en modelbeslissingsgegevens voor 90 dagen om te produceren [!UICONTROL Insights] rapporten. Na 90 dagen worden trainingsgegevens en modelbeslissingen genegeerd. [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] de modellen bewaren voor rapportagedoeleinden ook gedurende twee jaar de geaggregeerde gegevens over ervaring/aanbod en de conversie. Deze gegevens zijn alleen gegevens op geaggregeerd niveau en bevatten geen profielgegevens op individueel niveau.
+[!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] -modellen behouden het gebruikersgedrag, de trainingsrecords en de modelbeslissingsgegevens gedurende 90 dagen om [!UICONTROL Insights] -rapporten te produceren. Na 90 dagen worden trainingsgegevens en modelbeslissingen genegeerd. [!UICONTROL Automated Personalization] (AP)- en [!UICONTROL Auto-Target] -modellen behouden voor rapportagedoeleinden ook gedurende twee jaar samengevoegde gegevens over ervaring/aanbod en conversie. Deze gegevens zijn alleen gegevens op geaggregeerd niveau en bevatten geen profielgegevens op individueel niveau.
 
-## Trainingsvideo: De rapporten met persoonlijke informatie gebruiken ![Zelfstudie-badge](/help/main/assets/tutorial.png)
+## De video van de opleiding: Het gebruiken van de rapporten van de Inzichten van Personalization ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
-Zie voor meer informatie [De rapporten met persoonlijke informatie in Adobe Target gebruiken](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+Voor meer informatie, zie [ Gebruikend de Rapporten van de Inzichten van Personalization in Adobe Target ](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
 
-## Blogs Adoben
+## Adobe-blogs
 
-* Deel 1: [De Mystery uit de Magic of AI-Driven Personalization halen](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
-* Deel 2: [Een blik achter het gordijn van AI voor Personalisatie in Adobe Target](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
-* Deel 3: [MAGIX — The Solution to the Black Box Issue of AI-Driven Personalization](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)
+* Deel 1: [ Gebruikend het Mysterie uit Magisch van AI-Gedreven Personalization ](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
+* Deel 2: [ Een blik achter het Gordijn van AI voor Personalization in Adobe Target ](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
+* Deel 3: [ MAGIX — de Oplossing aan de Zwarte Doos Uitgave van AI-Gedreven Personalization ](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)

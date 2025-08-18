@@ -6,20 +6,20 @@ feature: Visual Experience Composer (VEC)
 exl-id: a971627c-662e-487b-bf0c-f73d196e3e71
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
 
-# Het oplossen van problemen de Composer van de Visuele Ervaring en Verbeterde Composer van de Ervaring
+# Problemen oplossen met de composer voor visuele ervaring en de Enhanced Experience Composer
 
-Er kunnen weergaveproblemen optreden in het dialoogvenster [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) en de [!UICONTROL Enhanced Experience Composer] (EEG) onder bepaalde voorwaarden.
+Er kunnen weergaveproblemen optreden in [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) en [!UICONTROL Enhanced Experience Composer] (EEC) onder bepaalde omstandigheden.
 
-De VEC is een van de belangrijkste kenmerken van [!DNL Adobe Target]. VEC is een redacteur die marketers en ontwerpers toelaat om inhoud tot stand te brengen en te veranderen gebruikend een visuele interface. Veel ontwerpkeuzes kunnen worden gemaakt zonder dat de code rechtstreeks moet worden bewerkt. U kunt HTML en JavaScript ook bewerken met de bewerkingsopties in de composer.
+De VEC is een van de belangrijkste kenmerken van [!DNL Adobe Target] . VEC is een redacteur die marketers en ontwerpers toelaat om inhoud tot stand te brengen en te veranderen gebruikend een visuele interface. Veel ontwerpkeuzes kunnen worden gemaakt zonder dat de code rechtstreeks moet worden bewerkt. HTML en JavaScript kunnen ook worden bewerkt met behulp van de bewerkingsopties in de composer.
 
 De EEG is een uitbreiding van VEC die u helpt een ervaring voor een iframe-bouwend plaats of pagina&#39;s uitgeven die nog niet de implementatie van het Doel omvatten. Als u problemen hebt met het openen van uw pagina in de VEC, probeert u de EEG.
 
-Voor informatie over de VEC en de EEG raadpleegt u [Ervaringen](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+Voor informatie over VEC en EEG, zie [ Ervaringen ](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 Sommige kwesties betreffen zowel de VEC als de EEG en sommige kwesties betreffen slechts één van de twee composers. Controleer de juiste pagina voor meer informatie.
 

@@ -1,8 +1,8 @@
 ---
 keywords: aanbevelingen maken;aanbevelingen, activiteit;nieuwe aanbevelingen;aanbevelingen, overzicht
-description: Leer hoe te om de Adobe  [!DNL Target]  Visuele Composer van de Ervaring (VEC) te gebruiken om een activiteit van Recommendations direct op a  [!DNL Target]-Toegelaten pagina tot stand te brengen.
-title: Hoe maak ik een Recommendations-activiteit?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+description: Leer hoe te om Adobe  [!DNL Target]  Visuele Composer van de Ervaring (VEC) te gebruiken om een activiteit van Aanbevelingen direct op a  [!DNL Target]-Toegelaten pagina tot stand te brengen.
+title: Hoe maak ik een activiteit met aanbevelingen?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# Een Recommendations-activiteit maken
+# Een handeling Aanbevelingen maken
 
-Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit van Recommendations direct op een Doel-Toegelaten pagina tot stand te brengen en gedeelten van de pagina binnen Doel te wijzigen.
+Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit van Aanbevelingen direct op een doel-Toegelaten pagina tot stand te brengen en delen van de pagina binnen Doel te wijzigen.
 
 1. Klik op **[!UICONTROL Activities]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
 
 1. Selecteer **[!UICONTROL Visual (Default)]**, indien nodig.
 
-   ![ creeer de dialoogdoos van de Activiteit van Recommendations ](/help/main/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
+   ![ creeer de dialoogdoos van de Activiteit van Aanbevelingen ](/help/main/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
 
    Selecteer [!UICONTROL Form] als u liever de Form-Based Experience Composer wilt gebruiken. Zie [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) voor meer informatie.
 
@@ -30,7 +30,7 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
    >
    >Voor het oplossen van problemeninformatie over VEC, als u problemen hebt, zie [ het Oplossen van problemen de Visuele Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >De [[!UICONTROL [Choose Workplace]]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) optie in de voorafgaande illustratie is a [ Target Premium ](/help/main/c-intro/intro.md) eigenschap. Uw organisatie heeft een Target Standard-licentie als deze optie niet wordt weergegeven.
+   >De [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) optie in de voorafgaande illustratie is a [ Target Premium ](/help/main/c-intro/intro.md) eigenschap. Uw organisatie heeft een Target Standard-licentie als deze optie niet wordt weergegeven.
 
 1. (Voorwaardelijk) als u de klant van a [ Target Premium ](/help/main/c-intro/intro.md#premium) bent, kies a [ werkruimte ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -48,7 +48,7 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 
    Bezoekers van uw site zien de aanbevolen inhoud alleen als ze in aanmerking komen voor de aanbeveling. Bezoekers die niet in aanmerking komen voor de aanbeveling, zien de standaardinhoud.
 
-   ![ de opties van Recommendations ](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
+   ![ de opties van Aanbevelingen ](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
    * **[!UICONTROL Replace w/ Recommendations]**: als u een element vervangt door aanbevelingen, wordt de huidige inhoud verwijderd en vervangen door uw aanbevelingen. Wanneer bezoekers uw site bezoeken en in aanmerking komen voor de aanbeveling, zien ze de aanbevolen items in het opgegeven gebied in plaats van de bestaande inhoud.
    * **[!UICONTROL Insert Recommendations Before]**: wanneer u aanbevelingen invoegt voordat het geselecteerde element de aanbevolen inhoud vóór dat element plaatst. Afhankelijk van de constructie van uw pagina wordt de aanbeveling boven of links van het geselecteerde element weergegeven.
@@ -77,7 +77,7 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 
    >[!NOTE]
    >
-   >Niet alle criteria worden op elke pagina correct uitgevoerd. De pagina of het selectievakje moet `entity.id` of `entity.categoryId` doorgeven om de huidige aanbevelingen voor het item of de huidige categorie compatibel te maken. Over het algemeen is het beter alleen compatibele criteria te laten zien. Als u echter incompatibele criteria voor de activiteit wilt gebruiken, schakelt u het selectievakje **[!UICONTROL Compatible]** uit. Afhankelijk van uw Recommendations-instellingen ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]** ) wordt de optie [!UICONTROL Compatible] mogelijk niet weergegeven. Voor meer informatie, zie [ Montages ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} .
+   >Niet alle criteria worden op elke pagina correct uitgevoerd. De pagina of het selectievakje moet `entity.id` of `entity.categoryId` doorgeven om de huidige aanbevelingen voor het item of de huidige categorie compatibel te maken. Over het algemeen is het beter alleen compatibele criteria te laten zien. Als u echter incompatibele criteria voor de activiteit wilt gebruiken, schakelt u het selectievakje **[!UICONTROL Compatible]** uit. De optie [!UICONTROL Compatible] wordt mogelijk niet weergegeven, afhankelijk van de instellingen voor Aanbevelingen ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]** ). Voor meer informatie, zie [ Montages ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
    ![ Uitgezochte de dialoogdoos van Criteria ](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -123,7 +123,7 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 
 1. Controleer uw [!DNL Recommendations] activiteit in het stroomdiagram en breng de noodzakelijke veranderingen aan.
 
-   ![ Recommendations stroomdiagram ](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
+   ![ de stroomdiagram van de Aanbevelingen ](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
 
    Het stroomdiagram leidt u door de stappen om het publiek voor de activiteit te kiezen, opstellingservaringen, en succesmetriek te specificeren.
 
@@ -148,7 +148,7 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 1. Klik op **[!UICONTROL Next]** als u klaar bent.
 1. Geef de activiteitinstellingen op.
 
-   Typ bijvoorbeeld een naam (vereist) en een doelstelling (optioneel) voor de activiteit. Voor informatie over de montages, zie [ de Montages van de Activiteit van Recommendations ](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
+   Typ bijvoorbeeld een naam (vereist) en een doelstelling (optioneel) voor de activiteit. Voor informatie over de montages, zie {de Montages van de Activiteit van 0} Aanbevelingen [.](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
    >[!NOTE]
    >
@@ -162,7 +162,7 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 
    * De activiteit activeren
    * De activiteit bewerken
-   * De activiteit delen met de feed van het Experience Cloud
+   * De activiteit delen met uw Experience Cloud-feed
    * QA de activiteit
    * Ervings-URL&#39;s weergeven
    * Gegevens downloaden
@@ -176,6 +176,6 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 
    Er treden conflicten op wanneer meerdere activiteiten zijn ingesteld om inhoud te leveren aan dezelfde pagina. Hierdoor kan onverwachte inhoud worden weergegeven.
 
-## De Video van de opleiding: Creeer een activiteit van Recommendations (7:15) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De Video van de opleiding: Creeer een activiteit van Aanbevelingen (7 :15) {het badge van 1} Zelfstudie ![](/help/main/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)

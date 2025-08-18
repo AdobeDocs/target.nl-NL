@@ -2,7 +2,7 @@
 keywords: Doel;AP-rapporten;geautomatiseerde verpersoonlijkingsrapporten;automatisch doel;automatisch doel;automatisch doel;automatisch doelrapport;automatisch doelrapport;verpersoonlijking;inzichten;geautomatiseerde segmenten;vk;vaak gestelde vragen
 description: Leer hoe de verschillende segmenten die door Adobe  [!DNL Target]  worden bepaald verpersoonlijkingsmodellen aan aanbiedingen/ervaringen in de activiteit antwoorden door het Geautomatiseerde rapport van Segmenten te bekijken.
 title: Wat is het Geautomatiseerde Rapport van Segmenten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
@@ -20,7 +20,7 @@ Informatie over het [!UICONTROL Automated Segments] -rapport, een van de twee ge
 >
 >Houd rekening met het volgende wanneer u [!UICONTROL Personalization Insights] -rapporten gebruikt:
 >
->* AP- en AT-activiteiten zijn beschikbaar als onderdeel van de [!DNL Target Premium] -oplossing. Ze worden niet zonder [!DNL Target Premium] -licentie opgenomen in [!DNL Target Standard] .
+>* AP- en AT-activiteiten zijn beschikbaar als onderdeel van de [!DNL Target Premium] -oplossing. Ze worden niet zonder [!DNL Target Standard] -licentie opgenomen in [!DNL Target Premium] .
 >
 >* [!UICONTROL Personalization Insights] -rapporten zijn alleen beschikbaar voor AP- en AT-activiteiten die een doel voor conversie-optimalisatie gebruiken. Activiteiten waarbij de optimalisatiedoelstelling werd gewijzigd in een omrekening van inkomsten nadat de activiteit al actief was, worden ook niet ondersteund.
 >
@@ -68,7 +68,7 @@ De volgende lijst verklaart hoe te om het rapport te interpreteren en beschrijft
 
 | Element | Details |
 |--- |--- |
-| Linkerzijpaneel | Het linkerpaneel maakt een lijst van de 20 grootste &quot;geautomatiseerde segmenten&quot;die door de verpersoonlijkingsmodellen van Target voor deze activiteit worden geïdentificeerd. Een &quot;geautomatiseerd segment&quot;is als een publiek, maar het wordt bepaald door de verpersoonlijkingsmodellen van Target in plaats van door de telleraar. Elk geautomatiseerd segment bestaat uit specifieke waarden (of waardebereiken) van specifieke kenmerken.<br> de geautomatiseerde segmenten kunnen overlappen. Geautomatiseerde segmenten kunnen worden gedefinieerd door één, twee, drie of vier kenmerken. Zie de voorbeelden hieronder voor meer informatie.<br> om meer over de verpersoonlijkingsmodellen van het Doel te leren, zie [ Willekeurig Bosalgoritme ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md). Meer over de verpersoonlijkingsmodellen van het attribuutDoel gebruiken om de geautomatiseerde segmenten tot stand te brengen, zie {de Inzameling van 0} Gegevens voor de Algoritmen van Personalization van het Doel [&#128279;](/help/main/c-activities/t-automated-personalization/ap-data.md). |
+| Linkerzijpaneel | Het linkerpaneel maakt een lijst van de 20 grootste &quot;geautomatiseerde segmenten&quot;die door de verpersoonlijkingsmodellen van Target voor deze activiteit worden geïdentificeerd. Een &quot;geautomatiseerd segment&quot;is als een publiek, maar het wordt bepaald door de verpersoonlijkingsmodellen van Target in plaats van door de telleraar. Elk geautomatiseerd segment bestaat uit specifieke waarden (of waardebereiken) van specifieke kenmerken.<br> de geautomatiseerde segmenten kunnen overlappen. Geautomatiseerde segmenten kunnen worden gedefinieerd door één, twee, drie of vier kenmerken. Zie de voorbeelden hieronder voor meer informatie.<br> om meer over de verpersoonlijkingsmodellen van het Doel te leren, zie [ Willekeurig Bosalgoritme ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md). Meer over de verpersoonlijkingsmodellen van het attribuutDoel gebruiken om de geautomatiseerde segmenten tot stand te brengen, zie {de Inzameling van 0} Gegevens voor de Algoritmen van Personalization van het Doel [.](/help/main/c-activities/t-automated-personalization/ap-data.md) |
 | Grafiek midden | De middelste grafieken tonen hoe de inhoud van uw activiteit voor het benadrukte geautomatiseerde segment wordt uitgevoerd. Als u op verschillende segmenten in het linkerdeelvenster klikt, worden de middelste grafieken bijgewerkt. |
 | Cirkeldiagrammen | De schijfgrafieken bij de bovenkant van het centrumpaneel tonen de grootte van het geautomatiseerde segment, evenals het totale aantal gepersonaliseerde bezoeken in de activiteit (bijvoorbeeld, verkeer aan deze activiteit die door het verpersoonlijkingsmodel werd gediend. Het omvat geen controleverkeer of verkeer dat door het algemene windenermodel wordt gediend). De omvang van het segment is uitsluitend gebaseerd op individuele bezoeken.<br>![ Schijfgrafiek ](/help/main/c-reports/assets/pie.png) |
 | Streepjesgrafiek met twee assen | Het staafdiagram met twee assen bevat informatie over bezoeken en conversie door de aanbieding of ervaring voor dat specifieke geautomatiseerde segment. |
@@ -96,13 +96,13 @@ Er zijn verschillende redenen waarom de [!UICONTROL Personalization Insights] -r
 
 * Er zijn geen 15 dagen verstreken sinds u de activiteit hebt geactiveerd. De geautomatiseerde Segmenten en de Belangrijke rapporten van Attributen zullen niet tot minstens 15 dagen beschikbaar zijn nadat u uw activiteit hebt begonnen. Tijdens deze eerste periode kunt u deze rapporten niet openen of op de pictogrammen Geautomatiseerde segmenten en Belangrijke kenmerken klikken.
 * Uw activiteit heeft niet voldoende verkeer tijdens het gespecificeerde tijdkader gehad. Na 15 dagen zijn overgegaan, veronderstellend is er voldoende gepersonaliseerd verkeer in uw activiteit om de verpersoonlijkingsmodellen te bouwen, zullen de Geautomatiseerde Segmenten en de Belangrijke rapporten van Attributen beschikbaar zijn.
-* Uw activiteit heeft een opbrengstoptimalisatiedoel. [!UICONTROL Personalization Insights] is momenteel alleen beschikbaar voor doelactiviteiten voor conversie. Adobe voegt in een toekomstige release steun toe voor activiteiten die gericht zijn op het optimaliseren van de inkomsten.
+* Uw activiteit heeft een opbrengstoptimalisatiedoel. [!UICONTROL Personalization Insights] is momenteel alleen beschikbaar voor doelactiviteiten voor conversie. Adobe voegt in een toekomstige release ondersteuning toe voor activiteiten die gericht zijn op het optimaliseren van inkomsten.
 
 **wat is een attribuut?**
 
 Een attribuut is informatie over een bezoeker of zijn of haar specifiek bezoek dat door de verpersoonlijkingsalgoritmen wordt gebruikt om te leren hoe te om verkeer te personaliseren. Een kenmerk kan bijvoorbeeld het browsertype, de locatie, het tijdstip van het bezoek zijn, enzovoort.
 
-Voor meer informatie over welke attributen [!DNL Target] gebruikt in zijn verpersoonlijkingsmodellen, zie [ Inzameling van Gegevens voor de Algoritmen van Personalization van het Doel ](/help/main/c-activities/t-automated-personalization/ap-data.md). Voor meer informatie over hoe te om nieuwe attributen in Doel te uploaden om in de verpersoonlijkingsmodellen van het Doel te gebruiken, zie [ Methoden om Gegevens in Doel ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=nl-NL){target=_blank}  te krijgen.
+Voor meer informatie over welke attributen [!DNL Target] gebruikt in zijn verpersoonlijkingsmodellen, zie [ Inzameling van Gegevens voor de Algoritmen van Personalization van het Doel ](/help/main/c-activities/t-automated-personalization/ap-data.md). Voor meer informatie over hoe te om nieuwe attributen in Doel te uploaden om in de verpersoonlijkingsmodellen van het Doel te gebruiken, zie [ Methoden om Gegevens in Doel ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} te krijgen.
 
 **wat is een geautomatiseerd segment?**
 
@@ -138,7 +138,7 @@ Personalization Insights-rapportage (zowel [!UICONTROL Automated Segments] als [
 
 **hoe wordt [!UICONTROL Personalization Insights] gecreeerd?**
 
-[!UICONTROL Personalization Insights] wordt gemaakt met behulp van een Adobe-octrooi-hangende techniek die MAGIX (Model Agnostic Global Interpretable Explanations) wordt genoemd. U kunt meer over MAGIX in het gepubliceerde document van het onderzoeksteam van de Adobe over de [ arXiv.org ](https://arxiv.org/abs/1706.07160) leren.
+[!UICONTROL Personalization Insights] wordt gemaakt met behulp van een Adobe-techniek waarvoor een patent is aangevraagd, MAGIX (Model Agnostic Global Interpretable Explanations). U kunt meer over MAGIX in het gepubliceerde document van het onderzoeksteam van Adobe op de [ arXiv.org ](https://arxiv.org/abs/1706.07160) leren.
 
 **waarom past de totale gegevens van het bezoekersverkeer in het [!UICONTROL Automated Segments] rapport niet mijn AP of bij Samenvatting/Prestaties rapport aan?**
 
@@ -150,13 +150,13 @@ Nee, er is overlapping tussen de geautomatiseerde segmenten.
 
 **is [!UICONTROL Personalization Insights] beschikbaar voor op opbrengst-gebaseerde modelleringsdoelstellingen/primair doel?**
 
-Op dit moment is [!UICONTROL Personalization Insights] alleen beschikbaar voor doelactiviteiten voor het optimaliseren van conversies. Adobe voegt in een toekomstige release steun toe voor activiteiten die gericht zijn op het optimaliseren van de inkomsten.
+Op dit moment is [!UICONTROL Personalization Insights] alleen beschikbaar voor doelactiviteiten voor het optimaliseren van conversies. Adobe voegt in een toekomstige release ondersteuning toe voor activiteiten die gericht zijn op het optimaliseren van inkomsten.
 
 **wat zijn verschillende manieren ik hefboomwerking de informatie in de Inzichten van Personalization kan?**
 
 * Nieuw publiek ontdekken om te richten: Als u een bepaald geautomatiseerd segment ziet dat goed presteert, zou u kunnen overwegen om een publiek tot stand te brengen zodat kunt u dat segment in andere rapporten opnieuw gebruiken.
 * Test uw hypothesen van welk type bezoekers reageren op welke van uw ervaringen.
-* Afleiden inzicht in welke inhoud werkte voor wat voor soort bezoekers: welke aanbiedingen waren verantwoordelijk voor het optillen van de bezoekers.
+* Afleiden insight naar de inhoud die werkte voor wat voor soort bezoekers: welke aanbiedingen waren verantwoordelijk voor het optillen van de bezoekers.
 * Ondermaatse inhoud identificeren.
 * Begrijp welke attributen het meest kritiek aan hoe het model leerde.
 * Zie welke eigenschappen in de verpersoonlijkingsmodellen worden gebruikt en hoe belangrijk zij zijn.

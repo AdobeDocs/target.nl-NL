@@ -2,7 +2,7 @@
 keywords: problemen oplossen;veelgestelde vragen;Veelgestelde vragen;Veelgestelde vragen;aanbevelingen;speciale tekens;weging van kenmerken;gelijkenis van inhoud
 description: Bekijk een lijst van vaak gestelde vragen en antwoorden over  [!DNL Target Recommendations]  activiteiten.
 title: Waar kan ik Vragen en Antwoorden over  [!DNL Recommendations] vinden?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
@@ -103,13 +103,13 @@ Als de plaats waarop u deze criteria toepast niet de categorie ID bevat, zijn be
 
 Als u een locatie gebruikt waar categorie-id aanwezig is in het vak, bevat de kiezer voor criteria alle toepasselijke criteria.
 
-[!DNL Target] heeft a [ Incompatibele Criteria van de Filter ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank}  het plaatsen om intelligent het filtreren van de algoritmeplukker te controleren.
+[!DNL Target] heeft a [ Incompatibele Criteria van de Filter ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} plaatsen om intelligent filtreren van de algoritmekiezer te controleren.
 
 >[!NOTE]
 >
 >Deze instelling is alleen van toepassing op activiteiten die zijn gemaakt in de map [!UICONTROL Visual Experience Composer] (VEC). Deze instelling is niet van toepassing op activiteiten die zijn gemaakt in de Form-Based Experience Composer ([!DNL Target] heeft geen locatiecontext).
 
-Klik op [!UICONTROL Recommendations] > [!UICONTROL Settings] om de instelling [!UICONTROL Filter Incompatible Criteria] te openen:
+Klik op [!UICONTROL Filter Incompatible Criteria] > [!UICONTROL Recommendations] om de instelling [!UICONTROL Settings] te openen:
 
 ![ recs_settings_filter beeld ](assets/recs_settings_filter.png)
 

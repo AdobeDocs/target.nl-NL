@@ -1,6 +1,6 @@
 ---
 keywords: omleidingsaanbod;maak omleidingsaanbod;voeg html-aanbieding toe;geef alle URL-parameters door in omleiding;geef mboxSessionId door in omleiding (alleen nodig wanneer de omleiding naar een ander domein gaat)
-description: Leer hoe te om tot omleidingsaanbiedingen in Adobe  [!DNL Target]  te leiden om browser te veroorzaken om aan een nieuwe pagina om te leiden.
+description: Leer hoe te om omleidingsaanbiedingen in Adobe  [!DNL Target]  tot stand te brengen om browser te veroorzaken om aan een nieuwe pagina om te leiden.
 title: Hoe maak ik omleidingsvoorstellen?
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04

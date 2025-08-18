@@ -1,34 +1,34 @@
 ---
 keywords: welkomstkit;doel welkomstkit;intro;introductie;aan de slag
 description: Leer zes stappen die een bewezen proces schetsen om uw test en verpersoonlijkingsideeën te verbeteren alvorens activiteiten in Adobe Target te creëren.
-title: Hoe kan ik mijn test- en personalisatieideeën ontwikkelen?
+title: Hoe kan ik mijn tests en Personalization-ideeën ontwikkelen?
 feature: Overview
 exl-id: 1f1af086-70bf-43ab-80aa-36d98d8d8d8f
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
 # Hoofdstuk 3: Ontwikkel uw test en verpersoonlijkingsideeën
 
-Voor uw eerste activiteit, zou u iets super eenvoudig zoals het veranderen van de kleur of het exemplaar op een vraag aan actieknoop kunnen testen. Gewoon om je voeten nat te maken. Op langere termijn zult u echter een formeel, herhaalbaar proces willen opzetten om ideeën te ontwikkelen voor test- en personalisatieactiviteiten die u helpen uw optimalisatie- en personalisatieprogramma te ontwikkelen. De volgende zes stappen schetsen een bewezen proces om enkel dat te doen, samen met details over wat te doen bij elke stap.
+Voor uw eerste activiteit kunt u iets super eenvoudig testen, zoals het wijzigen van de kleur of het kopiëren op een call to action-knop. Gewoon om je voeten nat te maken. Op langere termijn wilt u echter een formeel, herhaalbaar proces opzetten om ideeën voor test- en personalisatieactiviteiten te ontwikkelen waarmee u uw optimalisatie- en personalisatieprogramma kunt verrijken. De volgende zes stappen schetsen een bewezen proces om enkel dat te doen, samen met details over wat te doen bij elke stap.
 
-![Iteratieve uitvoering van het strategiediagram voor optimalisatie en personalisatie](/help/main/c-intro/assets/six-steps.png)
+![ Interactieve Uitvoering van Optimalisering en het diagram van de Strategie van Personalization ](/help/main/c-intro/assets/six-steps.png)
 
-## Stap 1: Strategiseren
+## Stap 1: straliseren
 
 Identificeer kansen voor activiteiten die zich aan bedrijfsdoelstellingen richten.
 
 Doe dit door:
 
-* Brainstormmogelijkheden [!DNL Target] activiteiten die gebaseerd zijn op de gegevens over de prestaties van de locatie, de analyse van de concurrent en de resultaten van eerdere tests.
+* Brainstorming potentiaalactiviteiten [!DNL Target] op basis van de prestatiegegevens van de site, de analyse van concurrenten en eerdere testresultaten.
 * Ontwikkelen van ideeën voor activiteiten voor revisie, feedback en aftekening.
 
 Zoek bijvoorbeeld naar een pagina op uw site met een hoge stuitsnelheid, overweeg wat de oorzaak van de uitgave kan zijn en brainstormmethoden om de stuitsnelheid te verlagen.
 
-## Stap 2: Prioriteit
+## Stap 2: Prioriteit geven
 
 Rank- en planningsactiviteiten op basis van de uitlijning van het bedrijf, het inspanningsniveau en de potentiële impact.
 
@@ -48,18 +48,18 @@ Doe dit door:
 
 * Bezig met voltooien van de criteria en maatstaven voor het invoeren van activiteiten die nodig zijn om de prestaties van de activiteit te bepalen.
 * Voltooiing en goedkeuring van definitieve ontwerpen voor activiteitenervaringen.
-* Documentatievereisten voor de [!DNL Target] activiteit, met inbegrip van de criteria van de testingang, rapporteringsmetriek, en ervaringsveranderingen.
+* Documentatievereisten voor de [!DNL Target] -activiteit, inclusief criteria voor testinvoer, meetgegevens voor rapporten en ervaringswijzigingen.
 
-Gebruik Activiteitenplanner, die later in de welkomstkit wordt verstrekt, om de details van de activiteit te documenteren, met inbegrip van de metriek u zult gebruiken om activiteitenprestaties te meten, zoals kliks op een vraag aan actieknoop, videolanceringen, of geproduceerde opbrengst. Zorg ervoor dat u schermafbeeldingen of afbeeldingen opneemt van de ervaringsontwerpen die u wilt testen of personaliseren.
+Gebruik de Activiteitenplanner, die verderop in de welkomstkit wordt weergegeven, om de details van de activiteit te documenteren, inclusief de meetgegevens die u gebruikt om de prestaties van de activiteit te meten, zoals klikken op een call to action-knop, het starten van video of gegenereerde inkomsten. Zorg ervoor dat u schermafbeeldingen of afbeeldingen opneemt van de ervaringsontwerpen die u wilt testen of personaliseren.
 
-## Stap 4: Samenstellen en uitvoeren
+## Stap 4: bouwen en uitvoeren
 
-Bouw en stel de activiteit binnen in werking [!DNL Target], ontwikkelt u indien nodig code, voert u QA-tests uit en start u de activiteit.
+Ontwikkel en voer de activiteit binnen [!DNL Target] uit, ontwikkel om het even welke code indien nodig, voer QA het testen uit, en lanceer de activiteit.
 
 Doe dit door:
 
 * Een activiteit bouwen, een publiek toepassen, code ontwikkelen indien nodig, en metriek toepassen op uw activiteit.
-* Aftekening beveiligen van alle vereiste belanghebbenden.
+* Aftekening door alle vereiste belanghebbenden beveiligen.
 * De activiteit starten en metriek evalueren op een uur, 24 uur en periodiek voor de duur van de activiteit.
 
 Als u bijvoorbeeld nieuwe bezoekers met een lichtbakaanbieding voor 10% korting op de eerste bestelling wilt aanwijzen, laat u uw ontwerpers het lichtbakontwerp en de kopie ervan ontwikkelen, kunt u een abonnement van belanghebbenden op het ontwerp krijgen, de ontwikkelaars de code ervoor laten schrijven, QA gebruiken in een testomgeving en vervolgens uw activiteit starten. Vervolgens controleert u de activiteit om er zeker van te zijn dat deze geen grote negatieve gevolgen heeft.
@@ -76,7 +76,7 @@ Doe dit door:
 
 U zou bijvoorbeeld kunnen ontdekken dat uw terugkerende bezoekers een andere ervaring verkiezen dan uw nieuwe bezoekers.
 
-## Stap 6: Handelen en herhalen
+## Stap 6: Actie en herhaling
 
 Operationaliseer het winnen van ervaringen om bedrijfswaarde te realiseren, en herhaling op inzichten.
 
@@ -86,4 +86,4 @@ Doe dit door:
 * Toelating van belanghebbenden om uit te voeren aan de hand van activiteitenaanbevelingen.
 * Het bepalen van en het uitvoeren van het plan om de het winnen ervaring uit te voeren.
 
-Als uw lichtbakactiviteit er bijvoorbeeld in geslaagd is de aankopen van bezoekers voor het eerst te verhogen, kunt u deze activiteit beter op gang houden. Ben zeker om de waarde mee te delen die de test aan belanghebbenden en managers leidde gebruikend het uitvoerende samenvattingsmalplaatje inbegrepen in de welkomstkit. En overweeg hoe u dit leren opnieuw kunt toepassen; Misschien kun je kopers voor het eerst een tweede aanbieding doen om meer waarde van elke klant te krijgen.
+Als uw lichtbakactiviteit er bijvoorbeeld in geslaagd is de aankopen van bezoekers voor het eerst te verhogen, kunt u deze activiteit beter op gang houden. Ben zeker om de waarde mee te delen die de test aan belanghebbenden en managers leidde gebruikend het uitvoerende samenvattingsmalplaatje inbegrepen in de welkomstkit. En overweeg hoe u dit leren opnieuw kunt toepassen; misschien kunt u die eerste kopers met een tweede aanbieding richten om meer waarde van elke klant te krijgen.

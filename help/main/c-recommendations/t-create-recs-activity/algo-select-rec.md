@@ -1,8 +1,8 @@
 ---
 keywords: aanbevelingen;aanbevelingen activiteit;criteria;algoritme
-description: Leer hoe te om de criteria (regels te selecteren die welke producten of inhoud bepalen om) in uw Adobe  [!DNL Target]  activiteit van Recommendations te gebruiken.
-title: Hoe selecteer ik criteria voor een Recommendations-activiteit?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+description: Leer hoe te om de criteria (regels te selecteren die welke producten of inhoud om) bepalen te gebruiken in uw Adobe  [!DNL Target]  activiteit van Aanbevelingen.
+title: Hoe selecteer ik Criteria voor een activiteit van Aanbevelingen?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

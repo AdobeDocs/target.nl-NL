@@ -29,7 +29,7 @@ Wanneer u opstelling uw test A/B, kunt u het percentage bezoekers bepalen die el
 >
 >Voor gedetailleerde informatie over het bepalen van de optimale steekproefgrootte voor een test A/B, zie [ Plan Uw Test A/B ](/help/main/c-activities/t-test-ab/sample-size-determination.md).
 
-Wanneer het aantal verschillende ervaringen vijf overschrijdt en twee of meer plaatsen overspant, is het een goed idee om een [ test MVT ](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) te overwegen alvorens uw tests A/B in werking te stellen. De multivariate test toont welke gebieden op de pagina het meest waarschijnlijk om omzetting zullen verbeteren. Dit zijn de locaties waarop een markeerteken zich moet concentreren. Bijvoorbeeld, zou de test MVT kunnen tonen dat de vraag aan actie de belangrijkste plaats voor het ontmoeten van uw doelstellingen is. Nadat u hebt bepaald welke locaties en inhoud het nuttigst zijn om u te helpen uw doelstellingen te bereiken, kunt u een test A/B uitvoeren om de resultaten verder te verfijnen. Bijvoorbeeld, om twee specifieke beelden tegen elkaar te testen, of de formulering of de kleuren van een vraag aan actie te vergelijken. Door een MVT-test met een of meer A/B-tests uit te voeren, kunt u de best mogelijke inhoud voor de gewenste resultaten bepalen.
+Wanneer het aantal verschillende ervaringen vijf overschrijdt en twee of meer plaatsen overspant, is het een goed idee om een [ test MVT ](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) te overwegen alvorens uw tests A/B in werking te stellen. De multivariate test toont welke gebieden op de pagina het meest waarschijnlijk om omzetting zullen verbeteren. Dit zijn de locaties waarop een markeerteken zich moet concentreren. De MVT-test kan bijvoorbeeld laten zien dat de call to action de belangrijkste locatie is voor het bereiken van uw doelen. Nadat u hebt bepaald welke locaties en inhoud het nuttigst zijn om u te helpen uw doelstellingen te bereiken, kunt u een test A/B uitvoeren om de resultaten verder te verfijnen. Bijvoorbeeld, om twee specifieke beelden tegen elkaar te testen, of de formulering of de kleuren van een call to action te vergelijken. Door een MVT-test met een of meer A/B-tests uit te voeren, kunt u de best mogelijke inhoud voor de gewenste resultaten bepalen.
 
 ## Typen A/B-testactiviteiten {#types}
 
@@ -41,7 +41,7 @@ Naast de handmatige [!UICONTROL A/B Test] activiteit, biedt [!DNL Target] twee e
 | [!UICONTROL Auto-Allocate] | Identificeert een winnaar onder twee of meer ervaringen, en richt dan verkeer aan de winnaar opnieuw, die omzetting verhoogt aangezien de test loopt en leert.<P>Om over de voordelen te leren om een [!UICONTROL Auto-Allocate] activiteit te gebruiken, zie [ auto-toewijs ](/help/main/c-activities/t-test-ab/sample-size-determination.md#auto-allocate) in *hoe lang u een Test A/B* in werking zou moeten stellen en [ auto-toewijs overzicht ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) toe. |
 | ![ het badge van de Premium ](/help/main/assets/premium.png) [!UICONTROL Auto-Target] | Gebruikt geavanceerd computerleren om inhoud en aandrijvingsomzettingen aan te passen door veelvoudige hoog-presterende, markeer-bepaalde ervaringen te identificeren. De meest toegesneden ervaring wordt vervolgens aan bezoekers aangeboden op basis van hun individuele klantprofielen en gedrag van vergelijkbare bezoekers in het verleden.<P>Voor meer informatie, zie [ auto-Doel ](/help/main/c-activities/auto-target/auto-target-to-optimize.md). |
 
-Voor meer informatie over welke van deze [!UICONTROL A/B Test] activiteiten juist voor u is, zie de interactieve [ PDF van de Gids van de Activiteiten van Adobe Target ](/help/main/c-activities/target-activities-guide.md).
+Voor meer informatie over welke van deze [!UICONTROL A/B Test] activiteiten juist voor u is, zie de interactieve [ Gids PDF van de Activiteiten van Adobe Target ](/help/main/c-activities/target-activities-guide.md).
 
 De stappen voor het maken van de drie typen [!UICONTROL A/B Test] -activiteiten zijn vergelijkbaar. Een [!UICONTROL Auto-Allocate] - of [!UICONTROL Auto-Target] -activiteit maken:
 
@@ -55,6 +55,6 @@ De stappen voor het maken van de drie typen [!UICONTROL A/B Test] -activiteiten 
 
 ## Aanbevelingen opnemen in A/B-activiteiten
 
-U kunt aanbevelingen opnemen in [!UICONTROL A/B Test] -, [!UICONTROL Auto-Allocate] - en [!UICONTROL Auto-Target] -activiteiten (en [!UICONTROL Experience Targeting] -activiteiten (XT)). Voor meer informatie, zie [ Recommendations als aanbieding ](/help/main/c-recommendations/recommendations-as-an-offer.md).
+U kunt aanbevelingen opnemen in [!UICONTROL A/B Test] -, [!UICONTROL Auto-Allocate] - en [!UICONTROL Auto-Target] -activiteiten (en [!UICONTROL Experience Targeting] -activiteiten (XT)). Voor meer informatie, zie [ Aanbevelingen als aanbieding ](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 Deze functionaliteit vereist dat u de vergunning van a [ Target Premium ](/help/main/c-intro/intro.md#premium) hebt.

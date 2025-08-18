@@ -2,7 +2,7 @@
 keywords: optimalisatie;personalisatie;adobe-reis optimizer;ajo;use cases;scenario's;content change/ab test;profile, kenmerk;image wijzigen;image wisselen
 description: Ontgrendel de geheimen voor effectieve wijzigingen in A/B-testinhoud in Adobe Journey Optimizer
 title: De inhoud verandert door het testen A/B in  [!DNL Adobe Journey Optimizer]
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
 feature: Integrations
 hide: true
 hidefromtoc: true
@@ -28,7 +28,7 @@ Dit gebruiksgeval toont aan hoe te om vertrouwde taken uit te voeren, zoals het 
 
 ## Mogelijke scenario&#39;s
 
-* Een apparel bedrijf verhoogde omzettingen door diverse beelden te testen en campagne landende pagina&#39;s met de voornamen van gebruikers in de vraag-aan-actie tekst te personaliseren.
+* Een merkwaardig bedrijf verhoogde omzettingen door diverse beelden te testen en campagne landende pagina&#39;s met de voornamen van gebruikers in de tekst van call-to-action te personaliseren.
 
 * Een e-commercebedrijf stelde vast dat zijn leden van de Gold-loyaliteit hogere omrekeningskoersen hadden door verschillende productbeschrijvingen en afbeeldingen op een campagnelandingspagina te testen, wat leidde tot meer verkoop.
 
@@ -36,7 +36,7 @@ Dit gebruiksgeval toont aan hoe te om vertrouwde taken uit te voeren, zoals het 
 
 >[!NOTE]
 >
->In de instructies in deze sectie wordt de nadruk gelegd op de stappen die nodig zijn om een afbeelding te wijzigen en om profielkenmerken te gebruiken om tekstberichten aan te passen. Voor meer informatie over beschikbare opties in de [!DNL Journey Optimizer] Webontwerper, zie [ Werk met de Webontwerper ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}  in de *documentatie van Journey Optimizer*.
+>In de instructies in deze sectie wordt de nadruk gelegd op de stappen die nodig zijn om een afbeelding te wijzigen en om profielkenmerken te gebruiken om tekstberichten aan te passen. Voor meer informatie over beschikbare opties in de [!DNL Journey Optimizer] Webontwerper, zie [ Werk met de Webontwerper ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} in de *documentatie van Journey Optimizer*.
 >
 >De video onder aan de pagina is vooral handig.
 
@@ -58,7 +58,7 @@ Een webpagina optimaliseren door verschillende afbeeldingen te testen en bericht
 
    Een Webconfiguratie, of kanaaloppervlakte, is een configuratie die door een systeembeheerder wordt bepaald. De webconfiguratie bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameter, subdomein, mobiele apps enzovoort.
 
-   Voor meer informatie, zie [ de oppervlakken van het het kanaalkanaal van de Opstelling ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}  in de *documentatie van Journey Optimizer*.
+   Voor meer informatie, zie [ de oppervlakken van het het kanaalkanaal van de Opstelling ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} in de *documentatie van Journey Optimizer*.
 
 1. Klik in de sectie **[!UICONTROL Action]** op **[!UICONTROL Edit Content]** om uw website te openen in de webontwerper van [!DNL Journey Optimizer] .
 
@@ -68,7 +68,7 @@ Een webpagina optimaliseren door verschillende afbeeldingen te testen en bericht
 
 1. Klik op **[!UICONTROL Create Experiment]** als u een experiment wilt maken om te bepalen welke inhoud beter presteert.
 
-   Met contentexperimenten kunt u de inhoud, het onderwerp of de afzender van berichten variëren om meerdere behandelingen te definiëren en de beste combinatie voor uw publiek te bepalen. Voor meer informatie, zie [ een inhoudexperiment ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank}  in de *documentatie van Journey Optimizer* creëren.
+   Met contentexperimenten kunt u de inhoud, het onderwerp of de afzender van berichten variëren om meerdere behandelingen te definiëren en de beste combinatie voor uw publiek te bepalen. Voor meer informatie, zie [ een inhoudexperiment ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank} in de *documentatie van Journey Optimizer* creëren.
 
 1. Selecteer metrisch succes en klik actie.
 
@@ -78,7 +78,7 @@ Een webpagina optimaliseren door verschillende afbeeldingen te testen en bericht
 
    In dit geval kunt u de verdeling voor elk experiment op 50% laten staan.
 
-1. Klik onder **[!UICONTROL Action]** onder **[!UICONTROL Edit Content]** op de pagina met [!UICONTROL Campaign] details.
+1. Klik onder [!UICONTROL Campaign] onder **[!UICONTROL Action]** op de pagina met **[!UICONTROL Edit Content]** details.
 
 1. Klik op Web onder Behandeling B.
 
@@ -100,13 +100,13 @@ Een webpagina optimaliseren door verschillende afbeeldingen te testen en bericht
 
    ![ voeg de knoop van Personalization toe.](/help/main/c-integrating-target-with-mac/ajo/assets/add-personalization-button.png)
 
-   Voor meer informatie over profielattributen, zie [ begonnen worden met de verpersoonlijkingsredacteur ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}  in de *documentatie van Journey Optimizer*.
+   Voor meer informatie over profielattributen, zie [ begonnen worden met de verpersoonlijkingsredacteur ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} in de *documentatie van Journey Optimizer*.
 
 1. Zoek en klik op het plusteken om het profielkenmerk &quot;voornaam&quot; toe te voegen, pas de tekst naar wens aan en klik op **[!UICONTROL Save]** .
 
    ![ voeg profielattributen voor naam ](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png) toe
 
-   Voor meer informatie, zie [ begonnen worden met de verpersoonlijkingsredacteur ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}  in de *documentatie van Journey Optimizer*.
+   Voor meer informatie, zie [ begonnen worden met de verpersoonlijkingsredacteur ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} in de *documentatie van Journey Optimizer*.
 
 1. Klik op de pijl Vorige in de linkerbovenhoek om terug te keren naar de webontwerper.
 
@@ -121,9 +121,9 @@ Klik op de knop [!UICONTROL Reports] en klik vervolgens op de gewenste rapportag
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-Voor meer informatie, zie [ begonnen worden met nieuwe Rapporterende interface ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}  in de *documentatie van Journey Optimizer*.
+Voor meer informatie, zie [ begonnen worden met nieuwe Rapporterende interface ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} in de *documentatie van Journey Optimizer*.
 
 >[!MORELIKETHIS]
 >
->[ Werk met de Webontwerper ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}  in de *documentatie van Journey Optimizer*
->[Creeer een campagne ](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}  in *Zelfstudies van Journey Optimizer*
+>[ Werk met de Webontwerper ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} in de *documentatie van Journey Optimizer*
+>>[Creeer een campagne ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} in *Zelfstudies van Journey Optimizer*

@@ -2,7 +2,7 @@
 keywords: cataloguszoekopdracht;catalogus;zoeken;uitsluiten;verzameling;filter;aanbevelingen
 description: Leer hoe te om  [!DNL Recommendations] [!UICONTROL Catalog Search] te gebruiken om van producten of inhoud de plaats te bepalen, punten uit uw catalogus te verwijderen, en meer.
 title: Hoe gebruik ik  [!DNL Recommendations] [!UICONTROL Catalog Search]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -20,7 +20,7 @@ De catalogi verwijzen naar uw volledige productreeks (entiteiten). Uw catalogus 
 
 ## Toegang [!UICONTROL Catalog Search]
 
-1. Klik op **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]** om de pagina [!UICONTROL Catalog Search] te openen.
+1. Klik op [!UICONTROL Catalog Search] > **[!UICONTROL Recommendations]** om de pagina **[!UICONTROL Catalog Search]** te openen.
 
 1. (Facultatief) om filters op uw onderzoek toe te passen, klik het **[!UICONTROL Show Filters]** pictogram ( ![ toon het pictogram van Filters ](/help/main/assets/icons/Filter.svg)). U kunt filteren op [!UICONTROL Environment] , [!UICONTROL Collections] , [!UICONTROL Category] , [!UICONTROL Brand] , [!UICONTROL Inventory] en [!UICONTROL Value] .
 

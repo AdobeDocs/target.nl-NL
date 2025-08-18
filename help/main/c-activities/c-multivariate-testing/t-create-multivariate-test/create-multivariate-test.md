@@ -121,7 +121,7 @@ Voor [!UICONTROL Multivariate Test] (MVT) wordt eerst een rapport op de pagina w
 
 1. Klik op **[!UICONTROL Save and Close]** om de activiteit te maken.
 
-## De video van de opleiding: Het creëren van Multivariate Tests (9:25) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: Creërend Multivariate Tests (9 :25) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
 
 In deze video ziet u hoe u een multivariate test plant en maakt met behulp van de [!DNL Target] driestapige geleide workflow.
 

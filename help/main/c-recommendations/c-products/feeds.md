@@ -2,7 +2,7 @@
 keywords: aanbevelingen feed;feed;SAINT;ftp;csv;classificaties;analytische classificaties
 description: Leer hoe het voer invoerentiteiten in  [!DNL Adobe Target] [!DNL Recommendations] gebruikend CSV- dossiers, het  [!DNL Google Product Search]  voederformaat, en  [!DNL Analytics]  productclassificaties invoert.
 title: Hoe gebruik ik [!UICONTROL Feeds] in  [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: 5a8b4006a2c43c9cac2d22e7663aa21043f98d9a
@@ -38,7 +38,7 @@ De [!UICONTROL Feeds] -lijst ( **[!UICONTROL Recommendations]** > **[!UICONTROL 
 De pagina [!UICONTROL Feeds] bevat de volgende kolommen:
 
 * **Naam**: De naam van het voer tijdens verwezenlijking wordt gespecificeerd die. Als u de naam van een feed wilt bewerken, moet u de feed zelf bewerken. Wanneer u de feed onder de nieuwe naam opslaat, wordt de feed vernieuwd.
-* **Status**: De huidige status van de voer [&#128279;](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
+* **Status**: De huidige status van de voer [ ](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
 * **Type**: De types omvatten [ CSV ](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF), en [ Classificaties van Analytics ](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
 * **Punten**: Toont het aantal punten in het voer.
 * **Programma**: Toont het updateschema voor het voer: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks], of [!UICONTROL Never].
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] Productclassificaties {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-De [!DNL Adobe Analytics] productclassificatie is de enige classificatie die beschikbaar is voor aanbevelingen. Voor meer informatie over dit classificatiedossier, zie [ Ongeveer classificaties ](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=nl-NL) in de *gids van de Componenten van Analytics*. Het is mogelijk dat niet alle informatie u voor aanbevelingen nodig hebt in uw huidige implementatie beschikbaar is, zo volg deze gebruikershandleiding als u aan uw classificatiedossier wilt toevoegen.
+De [!DNL Adobe Analytics] productclassificatie is de enige classificatie die beschikbaar is voor aanbevelingen. Voor meer informatie over dit classificatiedossier, zie [ Ongeveer classificaties ](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in de *gids van de Componenten van Analytics*. Het is mogelijk dat niet alle informatie u voor aanbevelingen nodig hebt in uw huidige implementatie beschikbaar is, zo volg deze gebruikershandleiding als u aan uw classificatiedossier wilt toevoegen.
 
 >[!IMPORTANT]
 >
@@ -323,15 +323,15 @@ Neem de volgende voorbeelden:
 
 **Voorbeeld 1:**
 
-* Dag één: dagelijkse voederprocessen om 9.00 uur PST.
-* Dag twee: het is 15:30 en het voer is sinds gisteren om 9:00 uur niet meer.
+* Dag één: dagelijkse voederprocessen om 9.00 uur PST.:00
+* Dag twee: het is 3 :30 p.m. en het voer is niet sinds gisteren om 9 :00 a.m. gelopen
 
 De status moet geel zijn omdat de index ongeveer 6,5 uur geleden had moeten worden uitgevoerd. 6,5 uur +24 is 127% van het voedervenster.
 
 **Voorbeeld 2:**
 
-* 1 januari: maandelijkse voederprocessen om 9.00 uur PST.
-* 3 februari: om 10.00 uur en de feed is een maand, een dag en een uur geleden niet gestart.
+* 1 januari: maandelijkse voederprocessen om 9.00 uur PST.:00
+* 3 februari: het is 10 :00 a.m. en het voer is niet één maand, één dag, en één uur geleden gelopen.
 
 De status moet geel zijn omdat de index ongeveer een dag en een uur geleden had moeten lopen. Hoewel dit slechts is (31+(1/25))/30 = 1,03% van de frequentie-instelling, overschrijdt het het maximum van één dag vertraging.
 
@@ -339,7 +339,7 @@ De status moet geel zijn omdat de index ongeveer een dag en een uur geleden had 
 
 De volgende video&#39;s bevatten meer informatie over de concepten die in dit artikel worden besproken.
 
-### Het begrip van voer in Aanbevelingen (3:01) ![ badge van het Overzicht ](/help/main/assets/overview.png)
+### Het begrip van voer in Aanbevelingen (3 :01) ![ badge van het Overzicht ](/help/main/assets/overview.png)
 
 Deze video bevat de volgende informatie:
 
@@ -348,7 +348,7 @@ Deze video bevat de volgende informatie:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Creeer een voer (6:44) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+### Creeer een voer (6 :44) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
 
 Deze video bevat de volgende informatie:
 

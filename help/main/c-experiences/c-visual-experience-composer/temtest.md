@@ -1,6 +1,6 @@
 ---
 keywords: sjabloon testen;sjabloon;zelfde ervaring op vergelijkbare pagina's;sjabloontest
-description: Leer hoe te om de Adobe  [!DNL Target]  Visuele Composer van de Ervaring (VEC) te gebruiken om de zelfde ervaring op veelvoudige pagina's te omvatten die gelijkaardig gestructureerd zijn of de zelfde malplaatjeelementen bevatten.
+description: Leer hoe te om Adobe  [!DNL Target]  Visuele Composer van de Ervaring (VEC) te gebruiken om de zelfde ervaring op veelvoudige pagina's te omvatten die gelijkaardig gestructureerd zijn of de zelfde malplaatjeelementen bevatten.
 title: Kan ik dezelfde ervaring opnemen op vergelijkbare pagina's?
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
@@ -92,4 +92,4 @@ U zou het gebruiken van malplaatjeregels kunnen overwegen om de zelfde activitei
 
 1. Klik op **[!UICONTROL Add Rule]** > **[!UICONTROL Domain]** .
 
-1. Selecteer **[!UICONTROL Contains]** in de vervolgkeuzelijst **[!UICONTROL Choose evaluator]** en geef vervolgens het domein op.
+1. Selecteer **[!UICONTROL Choose evaluator]** in de vervolgkeuzelijst **[!UICONTROL Contains]** en geef vervolgens het domein op.

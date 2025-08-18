@@ -1,8 +1,8 @@
 ---
 keywords: criteria opeenvolging;veelvoudige criteria;algoritmen;criteria;aanbevelingen criteria;opeenvolging;grens aantal teruggekeerde punten;groefniveaucontrole;groef
-description: Leer hoe te om opeenvolgingen van maximaal vijf criteria te plaatsen om grotere controle van de punten uit te oefenen die in uw Adobe  [!DNL Target]  activiteiten van Recommendations verschijnen.
-title: Hoe kan ik in Recommendations reeksen criteria maken?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+description: Leer hoe te om opeenvolgingen van maximaal vijf criteria te plaatsen om grotere controle van de punten uit te oefenen die in uw activiteiten van de Aanbevelingen van Adobe  [!DNL Target]  verschijnen.
+title: Hoe maak ik reeksen criteria in aanbevelingen?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -87,7 +87,7 @@ In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create Criter
 
    Voor meer informatie over de opties van de aanbeveling logica, zie [ Criteria ](/help/main/c-recommendations/c-algorithms/algorithms.md).
 
-## De video van de opleiding: Creeer criteria in Recommendations (12:33) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: Creeer criteria in Aanbevelingen (12 :33) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
 
 Deze video bevat de volgende informatie:
 

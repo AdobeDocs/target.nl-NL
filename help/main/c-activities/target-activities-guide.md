@@ -17,9 +17,9 @@ Download een interactieve PDF die de verschillende activiteitstypen in [!DNL Ado
 
 >[!NOTE]
 >
->Voor de beste ervaring en met anderen te delen, download de interactieve [ PDF van de Gids van de Activiteiten van Adobe Target ](/help/main/assets/activities_guide_82817.pdf).
+>Voor de beste ervaring en met anderen te delen, download de interactieve [ Gids PDF van de Activiteiten van Adobe Target ](/help/main/assets/activities_guide_82817.pdf).
 >
->Dit artikel bevat geen informatie over [[!UICONTROL Recommendations] activiteiten ](/help/main/c-recommendations/recommendations.md). U kunt echter wel aanbevelingen opnemen in de activiteiten [!UICONTROL A/B Test] , [!UICONTROL Auto-Allocate] , [!UICONTROL Auto-Target] en [!UICONTROL Experience Targeting] (XT). Voor meer informatie, zie [ Recommendations als aanbieding ](/help/main/c-recommendations/recommendations-as-an-offer.md). Deze functionaliteit vereist dat u de vergunning van a [ Target Premium ](/help/main/c-intro/intro.md#premium) hebt.
+>Dit artikel bevat geen informatie over [[!UICONTROL Recommendations] activiteiten ](/help/main/c-recommendations/recommendations.md). U kunt echter wel aanbevelingen opnemen in de activiteiten [!UICONTROL A/B Test] , [!UICONTROL Auto-Allocate] , [!UICONTROL Auto-Target] en [!UICONTROL Experience Targeting] (XT). Voor meer informatie, zie [ Aanbevelingen als aanbieding ](/help/main/c-recommendations/recommendations-as-an-offer.md). Deze functionaliteit vereist dat u de vergunning van a [ Target Premium ](/help/main/c-intro/intro.md#premium) hebt.
 
 ## Wat doet het? {#section_4ECAACC68723402EB3649033190E1BBC}
 

@@ -2,7 +2,7 @@
 keywords: Aanbevelingen;aanbieding
 description: Leer hoe u Adobe Recommendations kunt gebruiken als een aanbieding voor A/B-tests (inclusief automatisch toewijzen en automatisch richten) en Experience Targeting (XT)-activiteiten.
 title: Hoe gebruik ik Aanbevelingen als Voorstel in Andere Types van Activiteit?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 hide: true
 hidefromtoc: true
@@ -55,7 +55,7 @@ Als u aan de slag wilt gaan, maakt u een [!UICONTROL A/B Test] - of [!UICONTROL 
 
 1. Klik **[!UICONTROL Create Criteria]** of selecteer bestaande [ criteria ](/help/main/c-recommendations/c-algorithms/algorithms.md), dan klik **[!UICONTROL Next]** om de [!UICONTROL Select Design] dialoogdoos te tonen.
 
-1. Klik **[!UICONTROL Create Design]** of selecteer een bestaand [ ontwerp ](/help/main/c-recommendations/c-design-overview/design-overview.md), dan klik **[!UICONTROL &#x200B; Next]**.
+1. Klik **[!UICONTROL Create Design]** of selecteer een bestaand [ ontwerp ](/help/main/c-recommendations/c-design-overview/design-overview.md), dan klik **[!UICONTROL  Next]**.
 
 1. Geef in het dialoogvenster [!UICONTROL Options] het volgende op:
 

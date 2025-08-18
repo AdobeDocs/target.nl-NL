@@ -1,43 +1,43 @@
 ---
 keywords: analytische gegevens voor doel;a4t;analytische gegevens als bron van de rapportage;analytische gegevens
-description: Meer informatie over het gebruik van Analytics voor [!DNL Target] (A4T). A4T biedt toegang tot analyserapporten voor [!DNL Target] activiteiten die de metriek van de Analyse en publiekssegmenten gebruiken.
+description: Leer hoe te om Analytics voor  [!DNL Target]  (A4T) te gebruiken. A4T verleent toegang tot de rapporten van Analytics voor  [!DNL Target]  activiteiten die de metriek van de Analyse en publiekssegmenten gebruiken.
 title: Hoe gebruik ik Rapportering in A4T?
 feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
 source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
 
 # A4T-rapportage
 
-Gebruiken [!DNL Adobe Analytics] als rapportagebron voor [!DNL Adobe Target] (A4T) geeft u toegang tot [!DNL Analytics] rapporten voor uw [!DNL Target] activiteiten.
+Als u [!DNL Adobe Analytics] gebruikt als rapportagebron voor [!DNL Adobe Target] (A4T), hebt u toegang tot [!DNL Analytics] -rapporten voor uw [!DNL Target] -activiteiten.
 
-U kunt rapporten voor uw activiteiten weergeven in beide [!DNL Analytics] en [!DNL Target].
+U kunt rapporten voor uw activiteiten weergeven in zowel [!DNL Analytics] als [!DNL Target] .
 
-Voor het rapporteren van beste praktijken die [!DNL Analytics] for [!DNL Target], [bezoek een Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+Voor het melden van beste praktijken die [!DNL Analytics] voor [!DNL Target] gebruiken, [ bezoek deze Pagina van de Vonk van Adobe ](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
 
 ## Overzicht {#section_035A62D65608423285D8A5A54731E2C5}
 
-Beide [!DNL Analytics] en [!DNL Target] in rapporten worden nieuwkomers ( de personen die de tests uitvoeren ) gemeten in plaats van bezoekers van de site .
+Zowel in [!DNL Analytics] als in [!DNL Target] worden personen (de personen die de tests invoeren) gemeten in plaats van bezoekers van de site.
 
-Telkens wanneer een bezoeker de inhoud van de activiteit op de pagina ziet, [!DNL Target] maakt een directe server-aan-server vraag aan [!DNL Analytics], met inbegrip van de activiteiten en ervaring die de bezoeker heeft gezien. [!DNL Target] ook oproepen [!DNL Analytics] wanneer de conversie plaatsvindt. [!DNL Analytics] voegt de conversie toe als een specifieke nieuwe [!DNL Analytics] gebeurtenis genaamd &quot;Activiteitenconversie&quot;, die wordt bijgehouden samen met andere gegevens die worden verzameld door [!DNL Analytics].
+Telkens wanneer een bezoeker de inhoud van de activiteit op de pagina ziet, roept [!DNL Target] direct server-aan-server [!DNL Analytics] aan, met inbegrip van welke activiteit en ervaring de bezoeker zag. [!DNL Target] roept ook [!DNL Analytics] aan wanneer de conversie wordt uitgevoerd. [!DNL Analytics] voegt de conversie toe als een specifieke nieuwe [!DNL Analytics] -gebeurtenis met de naam &quot;Activity Conversion&quot;, die samen met andere gegevens die door [!DNL Analytics] worden verzameld, wordt bijgehouden.
 
-Wanneer de [!UICONTROL Select] bewerking wordt gebruikt en u sorteert op *Entranten* In dat geval worden in de rapporten alleen ervaringen weergegeven die tijdens de geselecteerde periode binnengekomen zijn.
+Wanneer de [!UICONTROL Select] verrichting wordt gebruikt en u op *invoert* sorteert, dan slechts ervaringen die ingangen tijdens de geselecteerde tijdspanne ontvangen worden getoond in de rapporten.
 
 >[!NOTE]
 >
->Rapporten aangedreven door [!DNL Target] hebben een vertraging van vier minuten. Voor activiteiten die door A4T worden aangedreven, zowel in de [!DNL Target] en [!DNL Analytics] rapporten, kan het tot 24 uren vergen nadat de activiteit aanvankelijk wordt bewaard alvorens de rapportgegevens door ervaringen kunnen worden verdeeld. De gegevens die in die eerste 24 uur zijn verzameld, zijn nog steeds correct en worden toegewezen aan de juiste ervaring.
+>Rapporten die door [!DNL Target] worden aangedreven, hebben een vertraging van vier minuten. Voor activiteiten die door A4T worden aangedreven, kan het in zowel de [!DNL Target] als [!DNL Analytics] rapporten tot 24 uur duren nadat de activiteit aanvankelijk wordt opgeslagen voordat de rapportgegevens kunnen worden uitgesplitst naar ervaringen. De gegevens die in die eerste 24 uur zijn verzameld, zijn nog steeds correct en worden toegewezen aan de juiste ervaring.
 
 ## Rapporten in Analytics {#analytics}
 
-In [!DNL Analytics], zijn er verscheidene dimensies en metriek beschikbaar gemaakt nadat de integratie A4T wordt toegelaten.
+In [!DNL Analytics] zijn er verschillende dimensies en metriek die beschikbaar worden gemaakt nadat de integratie A4T is ingeschakeld.
 
-### Dimension
+### Afmetingen
 
-* [!UICONTROL Analytics for Target] - De bovenliggende id die door de integratie wordt doorgegeven. De indeling van deze dimensie is `Activity ID:Experience ID:3rd ID`. Onderstaande dimensies zijn classificaties van deze dimensie.
+* [!UICONTROL Analytics for Target] - De bovenliggende id die door de integratie wordt doorgegeven. De indeling van deze dimensie is `Activity ID:Experience ID:3rd ID` . Onderstaande dimensies zijn classificaties van deze dimensie.
 * [!UICONTROL Target Activities]
 * [!UICONTROL Target Experiences]
 * [!UICONTROL Target Activity] > [!UICONTROL Experience]
@@ -45,69 +45,69 @@ In [!DNL Analytics], zijn er verscheidene dimensies en metriek beschikbaar gemaa
 
 ### Metrisch
 
-* [!UICONTROL Activity Impressions] - Komt overeen met de [!UICONTROL Entrants] aantal in [!DNL Target] verslag.
-* [!UICONTROL Activity Conversions] - Komt overeen met de [!UICONTROL Custom Conversions] aantal in [!DNL Target] verslag.
+* [!UICONTROL Activity Impressions] - Komt overeen met het [!UICONTROL Entrants] -getal in het [!DNL Target] -rapport.
+* [!UICONTROL Activity Conversions] - Komt overeen met het [!UICONTROL Custom Conversions] -getal in het [!DNL Target] -rapport.
 
-In [!DNL Analysis Workspace], gebruikt u de [!UICONTROL Analytics for Target] om uw [!DNL Target] activiteiten en ervaringen met liftmogelijkheden en vertrouwen. Zie voor meer informatie [Analyses voor doelvenster (A4T)](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=nl-NL) in de *Handleiding Analysehulpmiddelen*.
+In [!DNL Analysis Workspace] gebruikt u het deelvenster [!UICONTROL Analytics for Target] om uw [!DNL Target] -activiteiten en -ervaringen met optillen en vertrouwen te analyseren. Voor meer informatie, zie [ Analytics voor het Comité van het Doel (A4T) ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) in de *Gids van Hulpmiddelen van de Analyse*.
 
 >[!IMPORTANT]
 >
->Als uw [!UICONTROL Target Activities] rapporteren in [!DNL Analytics] bevat de lijst &quot;niet opgegeven&quot; in plaats van je activiteiten aan te bieden. Er is een update vereist voor je provisioned account. Neem contact op met de klantenservice om dit probleem op te lossen.
+>Als uw [!UICONTROL Target Activities] -rapport in [!DNL Analytics] &#39;unspecified&#39; vermeldt in plaats van uw activiteiten aan te bieden, is een update vereist voor uw provisioned account. Neem contact op met de klantenservice om dit probleem op te lossen.
 
-Voor gedetailleerde informatie en voorbeelden opent u het dialoogvenster [Analyse en doel: Beste praktijken voor Analyse](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) zelfstudie van Adobe Experience League.
+Voor gedetailleerde informatie en voorbeelden, open [ Analytics &amp; Doel: Beste praktijken voor Analyse ](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) leerprogramma, dat door de Liga van de Ervaring van Adobe wordt verstrekt.
 
 ## Rapporten in [!DNL Target] {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
-Wanneer [!DNL Analytics] wordt gebruikt als bron van rapportage, rapporten in [!DNL Target] tonen de gegevens die van worden verzameld [!DNL Analytics]. Het verslag wijkt enigszins af van het andere [!DNL Target] rapporten:
+Wanneer [!DNL Analytics] wordt gebruikt als de rapportbron, worden in rapporten in [!DNL Target] de gegevens weergegeven die zijn verzameld van [!DNL Analytics] . Het rapport wijkt enigszins af van andere [!DNL Target] -rapporten:
 
-* De [!UICONTROL Audiences] de lijst toont de soorten publiek beschikbaar aan uw [!DNL Analytics] rapportsuite.
-* De [!UICONTROL Metric] lijst toont elke metrische waarde beschikbaar door [!DNL Analytics].
+* In de lijst [!UICONTROL Audiences] staan de soorten publiek die beschikbaar zijn voor uw [!DNL Analytics] -rapportenpakket.
+* In de lijst [!UICONTROL Metric] worden alle metrische gegevens weergegeven die beschikbaar zijn via [!DNL Analytics] .
 
-   Elke metrisch is beschikbaar, met inbegrip van om het even welke douane of berekende metriek die ingebouwde zijn [!DNL Analytics].
+  Elke metrische waarde is beschikbaar, inclusief aangepaste of berekende meetwaarden die zijn ingebouwd in [!DNL Analytics] .
 
-   Om het even welke aantallen die stijgen worden getoond als positieven in het rapport, zelfs wanneer een verhoging ongewenste is. Hoewel u bijvoorbeeld een lagere stuitsnelheid wilt, wordt de hogere stuitsnelheid weergegeven als de winnaar met de hoogste lift. Houd rekening met deze en vergelijkbare cijfers en geef aan of u het aantal wilt verlagen of verhogen wanneer u beslissingen neemt op basis van uw rapporten.
+  Om het even welke aantallen die stijgen worden getoond als positieven in het rapport, zelfs wanneer een verhoging ongewenste is. Hoewel u bijvoorbeeld een lagere stuitsnelheid wilt, wordt de hogere stuitsnelheid weergegeven als de winnaar met de hoogste lift. Houd rekening met deze en vergelijkbare cijfers en geef aan of u het aantal wilt verlagen of verhogen wanneer u beslissingen neemt op basis van uw rapporten.
 
-U kunt metrisch of publiek op het rapport in toepassen [!DNL Target] nadat de activiteit is gestart of zelfs nadat de test is voltooid. Je hoeft niet precies te weten wat je vooraf wilt meten.
+U kunt de metrische waarde of het publiek toepassen op het rapport in [!DNL Target] nadat de activiteit is gestart of zelfs nadat de test is voltooid. Je hoeft niet precies te weten wat je vooraf wilt meten.
 
-Klik om de volledige [!DNL Analytics] rechtstreeks vanuit de pagina activiteitenrapport rapporteren.
+Klik om het volledige [!DNL Analytics] rapport rechtstreeks vanaf de pagina van het activiteitenrapport weer te geven.
 
 ## Activiteitenschepping {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
-Tijdens het creëren van activiteit, moet u een doel voor de activiteit op specificeren [!UICONTROL Settings] pagina. Dit doel wordt standaard metrisch voor het rapport en is altijd vermeld als eerste optie in de metriekselecteur. U kunt geen segmenten voor rapportering selecteren zoals u voor een regelmatige activiteit van het Doel zou doen. Een test met [!DNL Analytics] gebruik [!DNL Adobe Analytics] segmenten in plaats van [!DNL Target] publiek.
+Tijdens het creëren van activiteit, moet u een doel voor de activiteit op de [!UICONTROL Settings] pagina specificeren. Dit doel wordt standaard metrisch voor het rapport en is altijd vermeld als eerste optie in de metriekselecteur. U kunt geen segmenten voor rapportering selecteren zoals u voor een regelmatige activiteit van het Doel zou doen. Een test met [!DNL Analytics] gebruikt [!DNL Adobe Analytics] segmenten in plaats van [!DNL Target] soorten publiek.
 
-## Offlineberekeningen uitvoeren voor analyses voor Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
+## Offlineberekeningen uitvoeren voor Analytics voor Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
-U kunt offlineberekeningen voor betrouwbaarheid en betrouwbaarheidsintervallen voor A4T uitvoeren gebruikend [!DNL Target] [Complete betrouwbaarheidscalculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel-bestand, maar vereist een stap met gegevens die worden geëxporteerd naar [!DNL Analytics].
+U kunt off-line berekeningen voor vertrouwen en betrouwbaarheidsintervallen voor A4T uitvoeren gebruikend het [!DNL Target] [ Volledige dossier van de Rekenmachine van het Vertrouwen ](/help/main/assets/complete_confidence_calculator.xlsx) Excel, maar het vereist een stap met gegevens die in [!DNL Analytics] uitvoeren.
 
-Voor A4T gebruiken wij [T-test van Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} berekening voor doorlopende variabelen (in plaats van binaire metriek). In Analytics wordt een bezoeker altijd bijgehouden en wordt elke actie geteld. Daarom als de bezoeker veelvoudige tijden koopt of een succes metrisch veelvoudige tijden bezoekt, worden die extra treffers geteld. Dit maakt metrisch een ononderbroken variabele. Om de t-test-berekening van het Welch uit te voeren, is de &quot;som van de vierkanten&quot; vereist om de variantie te berekenen, die wordt gebruikt in de noemer van de t-statistiek. [Statistische berekeningen voor A/Bn-tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md) licht de details van de gebruikte wiskundige formules toe. De som van de vierkanten kan worden opgehaald [!DNL Analytics]. Om de som gegevens van vierkanten te krijgen, moet u een bezoekersvlakke uitvoer voor metrisch uitvoeren u aan optimaliseert, voor een steekproeftijdspanne.
+Voor A4T, gebruiken wij t-test van a [ Welch ](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} berekening voor ononderbroken variabelen (eerder dan binaire metriek). In Analytics wordt een bezoeker altijd bijgehouden en wordt elke actie geteld. Daarom als de bezoeker veelvoudige tijden koopt of een succes metrisch veelvoudige tijden bezoekt, worden die extra treffers geteld. Dit maakt metrisch een ononderbroken variabele. Om de t-test-berekening van het Welch uit te voeren, is de &quot;som van de vierkanten&quot; vereist om de variantie te berekenen, die wordt gebruikt in de noemer van de t-statistiek. [ Statistische berekeningen in tests A/Bn ](/help/main/c-reports/statistical-methodology/statistical-calculations.md) verklaart de details van de gebruikte wiskundige formules. De som van de vierkanten kan worden opgehaald uit [!DNL Analytics] . Om de som gegevens van vierkanten te krijgen, moet u een bezoekersvlakke uitvoer voor metrisch uitvoeren u aan optimaliseert, voor een steekproeftijdspanne.
 
 Bijvoorbeeld, als u aan paginameningen per bezoeker optimaliseert, zou u een steekproef van het totale aantal paginameningen op een per bezoekersbasis voor een gespecificeerd tijdkader uitvoeren, misschien een paar dagen (een paar duizend gegevenspunten is allen u nodig). Vervolgens vigeert u elke waarde en somt u de totalen op (de volgorde van de bewerkingen is hier van essentieel belang). Deze &quot;som van vierkanten&quot;waarde wordt dan gebruikt in de Volledige Berekening van het Vertrouwen. Gebruik de sectie &quot;opbrengst&quot; van dat spreadsheet voor deze waarden.
 
-**Als u de opdracht [!DNL Analytics] functie voor het exporteren van gegevens om dit te doen:**
+**om de [!DNL Analytics] eigenschap van de gegevensuitvoer te gebruiken om dit te doen:**
 
-1. Aanmelden bij [!DNL Adobe Analytics].
-1. Klik op **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
-1. Op de **[!UICONTROL Data Warehouse Request]** , vult u de velden in.
+1. Meld u aan bij [!DNL Adobe Analytics] .
+1. Klik op **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** .
+1. Vul op het tabblad **[!UICONTROL Data Warehouse Request]** de velden in.
 
-   Voor meer informatie over elk gebied, zie &quot;Beschrijvingen van de Data Warehouse&quot;in [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=nl-NL).
+   Voor meer informatie over elk gebied, zie &quot;beschrijvingen van Data Warehouse&quot;in [ Data Warehouse ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
 
    | Veld | Instructies |
    |--- |--- |
    | Naam aanvraag | Geef een naam op voor uw aanvraag. |
-   | Datum van rapportage | Geef een tijdsperiode en granulariteit op.<br>Als beste praktijken, kies niet meer dan een uur of één dag van gegevens voor uw eerste verzoek.  De dossiers van de Data Warehouse nemen langer om de langere gevraagde tijdspanne te verwerken, zodat is het altijd beste om een kleine tijdspanne eerst om gegevens te verzoeken om ervoor te zorgen uw dossier het verwachte resultaat terugkeert. Ga vervolgens naar de Request Manager, dupliceer uw verzoek en vraag de tweede keer om meer gegevens. Ook, als u granularity aan om het even wat buiten &quot;niets&quot;schakelt, zal de dossiergrootte drastisch stijgen.<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png) |
+   | Datum van rapportage | Geef een tijdsperiode en granulariteit op.<br> als beste praktijken, kies niet meer dan een uur of één dag van gegevens voor uw eerste verzoek.  Het duurt langer om Data Warehouse-bestanden te verwerken met een langere periode. Het is daarom altijd aan te raden om eerst gegevens over een kleine periode aan te vragen om ervoor te zorgen dat het bestand het gewenste resultaat oplevert. Ga vervolgens naar de Request Manager, dupliceer uw verzoek en vraag de tweede keer om meer gegevens. Ook, als u granularity aan om het even wat buiten &quot;niets&quot;schakelt, zal de dossiergrootte drastisch stijgen.<br>![ Data Warehouse ](/help/main/c-reports/assets/datawarehouse.png) |
    | Beschikbare segmenten | Pas indien nodig een segment toe. |
-   | Uitsplitsingen | Selecteer de gewenste afmetingen: Standaard is OOTB (out-of-the-box) en Aangepast bevat Vars en props. U kunt het beste &quot;Bezoeker-id&quot; gebruiken als er gegevens op bezoekersidentiteitsniveau nodig zijn in plaats van &quot;Bezoeker-id Experience Cloud&quot;.<ul><li>Bezoeker-id is de laatste id die wordt gebruikt door Analytics. Het zal of HULP (als de klant erfenis is) of MID (als de klant nieuwe of ontruimde koekjes is sinds de dienst van bezoekersidentiteitskaart van MC werd gelanceerd) zijn.</li><li>De Experience Cloud Bezoeker-id wordt alleen ingesteld voor klanten die nieuwe of verwijderde cookies zijn sinds de service MC bezoeker-id is gestart.</li></ul> |
+   | Uitsplitsingen | Selecteer de gewenste afmetingen: Standaard is uit-van-de-doos (OOTB), terwijl de Douane eVars &amp; steunen omvat. Je kunt het beste &#39;Bezoeker-id&#39; gebruiken als je informatie op bezoekersidentiteitsniveau nodig hebt in plaats van &#39;Experience Cloud Bezoeker-id&#39;.<ul><li>Bezoeker-id is de laatste id die wordt gebruikt door Analytics. Het zal of identiteitskaart (als de klant erfenis is) of MID (als de klant nieuwe of ontruimde koekjes is sinds de dienst van bezoekersidentiteitskaart van MC werd gelanceerd) zijn.</li><li>De Experience Cloud Bezoeker-id wordt alleen ingesteld voor klanten die nieuwe of verwijderde cookies zijn sinds de service MC bezoeker-id is gestart.</li></ul> |
    | Metrisch | Selecteer de gewenste meetgegevens. Standaard is OOTB, terwijl Aangepast aangepaste gebeurtenissen bevat. |
-   | Voorvertoning van rapport | Controleer uw instellingen voordat u het rapport plant.<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
-   | Levering plannen | Voer een e-mailadres in waarnaar u het bestand wilt verzenden, geef het bestand een naam en selecteer vervolgens [!UICONTROL Send Immediately].<br>Opmerking: Het bestand kan via FTP worden geleverd onder [!UICONTROL Advanced Delivery Options]<br>![Levering plannen](/help/main/c-reports/assets/datawarehouse3.png). |
+   | Voorvertoning van rapport | Controleer uw instellingen voordat u het rapport plant.<br>![ Data Warehouse 2 ](/help/main/c-reports/assets/datawarehouse2.png) |
+   | Levering plannen | Voer een e-mailadres in waarnaar het bestand moet worden verzonden, geef het bestand een naam en selecteer vervolgens [!UICONTROL Send Immediately] .<br> Nota: Het dossier kan via FTP onder [!UICONTROL Advanced Delivery Options]<br>![ Levering van het Programma worden geleverd ](/help/main/c-reports/assets/datawarehouse3.png). |
 
 1. Klik op **[!UICONTROL Request this Report]**.
 
-   De levering van het dossier kan tot 72 uren, afhankelijk van de gevraagde hoeveelheid gegevens vergen. U kunt de voortgang van uw verzoek op elk gewenst moment controleren door op [!UICONTROL Tools] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager].
+   De levering van het dossier kan tot 72 uren, afhankelijk van de gevraagde hoeveelheid gegevens vergen. U kunt de voortgang van uw verzoek op elk gewenst moment controleren door te klikken op [!UICONTROL Tools] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager] .
 
-   Als u gegevens opnieuw wilt aanvragen die u in het verleden hebt aangevraagd, kunt u een oude aanvraag van de [!UICONTROL Request Manager] indien nodig.
+   Als u gegevens die u in het verleden hebt aangevraagd opnieuw wilt aanvragen, kunt u zo nodig een oude aanvraag van [!UICONTROL Request Manager] dupliceren.
 
-Meer informatie over [!DNL Data Warehouse], zie de volgende koppelingen in de [!DNL Analytics] Help-documentatie:
+Raadpleeg de volgende koppelingen in de Help van [!DNL Data Warehouse] voor meer informatie over [!DNL Analytics] :
 
-* [Een Data Warehouse-aanvraag maken](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=nl-NL)
-* [Aanbevolen werkwijzen voor Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=nl-NL)
+* [ creeer een verzoek van Data Warehouse ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [ de beste praktijken van Data Warehouse ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)

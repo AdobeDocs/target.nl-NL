@@ -19,7 +19,7 @@ De VEC Helper-browser is een [!DNL Chrome] -extensie. Deze extensie is niet nodi
 
 >[!IMPORTANT]
 >
->* De oudere [!DNL Target] VEC Helper-extensie die in dit artikel wordt beschreven, is gemaakt met Manifest V2. [!DNL Google] kondigde aan dat het geen extensies meer toestaat die zijn gemaakt met Manifest V2 vanaf juni 2024. Voor meer informatie, zie de [ Manifest V2 verklaring van de steunchronologie ](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank}  van [!DNL Google] op *Chrome voor de plaats van Ontwikkelaars*.
+>* De oudere [!DNL Target] VEC Helper-extensie die in dit artikel wordt beschreven, is gemaakt met Manifest V2. [!DNL Google] kondigde aan dat het geen extensies meer toestaat die zijn gemaakt met Manifest V2 vanaf juni 2024. Voor meer informatie, zie de [ Manifest V2 verklaring van de steunchronologie ](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} van [!DNL Google] op *Chrome voor de plaats van Ontwikkelaars*.
 >
 >* Vanaf juni 2024 wordt in [!DNL Google] begonnen met het uitschakelen van extensies die zijn gemaakt met Manifest V2, inclusief de extensie die in dit onderwerp wordt beschreven. [!DNL Adobe] adviseert dat de klanten zich aan de nieuwere [ Visuele het Uitgeven uitbreiding van de Helper ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) zo spoedig mogelijk bewegen.
 
@@ -29,7 +29,7 @@ De VEC Helper-browser is een [!DNL Chrome] -extensie. Deze extensie is niet nodi
 * De website bevindt zich in een iframe.
 * De bibliotheek at.js is nog niet geïmplementeerd op de website.
 * De QA- of werkgebiedsite van de klant is niet beschikbaar voor de buitenwereld (de site is intern).
-* Er zijn sommige huidige beperkingen wanneer het proberen om VEC te gebruiken om een website te openen die [ de Werknemers van de Dienst ](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank}  (SW) gebruikt.
+* Er zijn sommige huidige beperkingen wanneer het proberen om VEC te gebruiken om een website te openen die [ de Werknemers van de Dienst ](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW) gebruikt.
 
 SW is een Webtechnologie die kan worden gebruikt om verzoeken voor het domein te onderscheppen zij op door een Web-pagina worden geïnstalleerd. De SBW heeft het paginabezoek overleefd en activeert zichzelf bij volgende bezoeken. SW beslist welke verzoeken door gaan en welke degenen in plaats daarvan van een geheim voorgeheugen worden onderschept en worden gediend.
 
@@ -80,7 +80,7 @@ De browser van de Helper VEC uitbreiding voor Chrome lost plaats-ladende kwestie
 
 * De markering [!UICONTROL Inject Target libraries] in de extensie is standaard UIT. U kunt deze markering inschakelen als u de VEC wilt gebruiken voor een site die nog niet is geïmplementeerd voor [!DNL Target] .
 
-  Deze markering is een globale instelling. De vlag wordt toegelaten of gehandicapt voor alle websites die in VEC worden geopend. Als u deze markering bijvoorbeeld instelt op &quot;on&quot; en een website opent die al is geïmplementeerd met at.js, ontvangt u een bericht met de melding dat at.js al is geladen. Adobe verwacht dat de meeste klanten at.js al hebben geïmplementeerd op hun pagina&#39;s en de standaardinstelling van &quot;off.&quot; gebruiken.
+  Deze markering is een globale instelling. De vlag wordt toegelaten of gehandicapt voor alle websites die in VEC worden geopend. Als u deze markering bijvoorbeeld instelt op &quot;on&quot; en een website opent die al is geïmplementeerd met at.js, ontvangt u een bericht met de melding dat at.js al is geladen. Adobe verwacht dat de meeste klanten at.js al hebben geïmplementeerd op hun pagina&#39;s en de standaardinstelling van &quot;off&quot; gebruiken.
 
 * De extensie laadt de nieuwste versie van at.js die beschikbaar is in de map [!DNL Target UI] in [!UICONTROL Administration > Implementation] .
 * Wanneer het gebruiken van de uitbreiding aan inspringing at.js terwijl in [ Wijze QA ](/help/main/c-activities/c-activity-qa/activity-qa.md), moet u een ander open lusje van Chrome hebben. Dit Chrome-tabblad moet worden geverifieerd bij dezelfde [!DNL Adobe Experience Cloud] -organisatie waarin u de activiteit hebt gemaakt.

@@ -26,9 +26,9 @@ Voeg gebruikers toe en beheer hun machtigingen in de [!DNL Adobe Admin Console] 
 >
 >* **[!DNL Target]Premium-klanten** : als u de tab [!UICONTROL Users] en de tab [!UICONTROL Properties] ([!UICONTROL Administration > Properties] ) ziet, heeft uw organisatie een [!DNL Target] Premium-licentie. [!DNL Target] de klanten van de Premie zouden de instructies in [ de gebruikerstoestemmingen van de Onderneming ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) moeten volgen en [ ondernemingstoestemmingen ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md) vormen om gebruikers toe te voegen en toestemmingen in [!DNL Adobe Admin Console] toe te wijzen.
 >
->Voor gedetailleerde informatie over hoe te om gebruikers en toestemmingen te beheren, zie [ producten en profielen ](https://helpx.adobe.com/nl/enterprise/using/manage-products-and-profiles.html) in de *Gids van de Gebruiker van de Onderneming &amp; van Teams* leiden.
+>Voor gedetailleerde informatie over hoe te om gebruikers en toestemmingen te beheren, zie [ producten en profielen ](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) in de *Gids van de Gebruiker van de Onderneming &amp; van Teams* leiden.
 
-Wanneer u aan de slag gaat met [!DNL Adobe Target] , worden id&#39;s (eindigend op Adobe.com) al ingevuld in uw [!DNL Adobe Experience Cloud] -account. Deze id&#39;s zijn bestemd voor leden van [!DNL Adobe] -teams, zodat zij u kunnen helpen met uw nieuwe account en met uw gebruik van [!DNL Adobe Target] , als u hulp nodig hebt. Neem op de gebruikelijke manier contact op met uw Adobe teams om hulp te krijgen.
+Wanneer u aan de slag gaat met [!DNL Adobe Target] , worden id&#39;s (eindigend op Adobe.com) al ingevuld in uw [!DNL Adobe Experience Cloud] -account. Deze id&#39;s zijn bestemd voor leden van [!DNL Adobe] -teams, zodat zij u kunnen helpen met uw nieuwe account en met uw gebruik van [!DNL Adobe Target] , als u hulp nodig hebt. Neem op de gebruikelijke manier contact op met uw Adobe-teams om hulp te krijgen.
 
 Nieuwe gebruikers worden pas op de [!UICONTROL Users] -pagina weergegeven wanneer ze zich met hun [!DNL Adobe Experience Cloud] -account hebben aangemeld en zich vervolgens aanmelden bij [!DNL Target] .
 
@@ -62,15 +62,15 @@ Voor taken uitgevoerd in [!DNL Adobe Admin Console], heb toegang tot de console 
 
 Al gebruikersbeheer moet in [!DNL Adobe Admin Console for Enterprise] worden uitgevoerd. Alle bestaande gebruikers in [!DNL Target] worden echter gemigreerd van [!DNL Target] naar [!DNL Admin Console for Enterprise] .
 
-1. [ in de Admin Console ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), klik **[!UICONTROL Users]** > **[!UICONTROL Users]** om nieuwe gebruikers tot stand te brengen of bestaande gebruikers uit te geven.
-1. Volg de instructies in [ leiden Gebruikers en Groepen in het Experience Cloud ](https://helpx.adobe.com/nl/enterprise/help/users.html) in de *Gids van de Gebruiker van de Onderneming*.
+1. [ in Admin Console ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), klik **[!UICONTROL Users]** > **[!UICONTROL Users]** om nieuwe gebruikers tot stand te brengen of bestaande gebruikers uit te geven.
+1. Volg de instructies in [ leiden Gebruikers en Groepen in Experience Cloud ](https://helpx.adobe.com/enterprise/help/users.html) in de *Gids van de Gebruiker van de Onderneming*.
 
 ## Gebruikersgroepen maken {#user-groups}
 
 U kunt gebruikersgroepen maken, zoals Ontwikkelaars, Analysten, Marketers, Executives enzovoort, en vervolgens rechten toewijzen voor meerdere [!DNL Adobe] -producten en -werkruimten. Het toewijzen van een nieuw teamlid aan alle juiste rechten voor verschillende [!DNL Adobe] -producten kan net zo eenvoudig zijn als het toevoegen van deze rechten aan een specifieke gebruikersgroep.
 
-1. [ in de Admin Console ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), klik **[!UICONTROL Users]** > **[!UICONTROL User Groups]** om nieuwe gebruikersgroepen tot stand te brengen of bestaande groepen uit te geven.
-1. Volg de instructies in [ leiden Gebruikers en Groepen in het Experience Cloud ](https://helpx.adobe.com/nl/enterprise/help/users.html) in de *Gids van de Gebruiker van de Onderneming*.
+1. [ in Admin Console ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), klik **[!UICONTROL Users]** > **[!UICONTROL User Groups]** om nieuwe gebruikersgroepen tot stand te brengen of bestaande groepen uit te geven.
+1. Volg de instructies in [ leiden Gebruikers en Groepen in Experience Cloud ](https://helpx.adobe.com/enterprise/help/users.html) in de *Gids van de Gebruiker van de Onderneming*.
 
 ## Rollen en machtigingen opgeven {#roles-permissions}
 
@@ -82,7 +82,7 @@ Systeembeheerders moeten gebruikers aan het systeem toevoegen. Gebruikers worden
 >
 >Als u activiteiten wilt weergeven in [!DNL Target] , moeten gebruikers rechtstreeks worden toegewezen aan een werkruimte met ten minste de rol [!UICONTROL Observer] . Toewijzing via alleen gebruikersgroepen is onvoldoende. Het wordt over het algemeen aanbevolen gebruikers toegang te verlenen tot de standaardwerkruimte.
 
-1. [ in de Admin Console ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), klik **[!UICONTROL Products]**, dan selecteer de naam van het gewenste product.
+1. [ in Admin Console ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), klik **[!UICONTROL Products]**, dan selecteer de naam van het gewenste product.
 
 1. Klik op de gewenste werkruimte (bijvoorbeeld Standaard Workspace).
 
@@ -97,7 +97,7 @@ Systeembeheerders moeten gebruikers aan het systeem toevoegen. Gebruikers worden
    | [!UICONTROL Observer] | Kan activiteiten weergeven, maar kan deze niet maken of bewerken. |
    | [!UICONTROL Publisher] | Lijkt op de rol [!UICONTROL Observer] (kan activiteiten weergeven, maar kan deze niet maken of bewerken). De [!UICONTROL Publisher] -rol heeft echter de extra machtiging om activiteiten te activeren. |
 
-Voor meer informatie, zie [ de Toestemmingen en Rollen van het Product in de Admin Console ](https://helpx.adobe.com/nl/enterprise/help/manage-permissions-and-roles.html) in de *Gids van de Gebruiker van de Onderneming* leiden.
+Voor meer informatie, zie [ de Toestemmingen en Rollen van het Product in Admin Console ](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) in de *Gids van de Gebruiker van de Onderneming* beheren.
 
 ## De video van de opleiding: Hoe te om de Werkruimten van Adobe Target ![ badge van de Leerprogramma te vormen ](/help/main/assets/tutorial.png)
 

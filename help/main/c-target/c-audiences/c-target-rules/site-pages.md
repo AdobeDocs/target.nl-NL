@@ -1,6 +1,6 @@
 ---
 keywords: sitepagina's;doelsitepagina's;doel;huidige pagina;doel huidige pagina;vorige pagina;doel vorige pagina;landingspagina;doel landingspagina;http header
-description: Leer hoe u bezoekers kunt aanwijzen met [!DNL Adobe Target] die zich op een specifieke pagina op uw site bevinden.
+description: Leer hoe te om bezoekers te richten gebruikend  [!DNL Adobe Target]  die op een specifieke pagina op uw plaats zijn.
 title: Kan ik bezoekers richten op basis van sitepagina's?
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
@@ -13,27 +13,27 @@ ht-degree: 0%
 
 # Sitepagina&#39;s
 
-U kunt bezoekers aanspreken met [!DNL Adobe Target] die toegang hebben tot een specifieke pagina op uw site.
+U kunt bezoekers aanwijzen met [!DNL Adobe Target] die toegang hebben tot een specifieke pagina op uw site.
 
-1. In de [!DNL Target] interface, klik **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Klik in de interface [!DNL Target] op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]** .
 1. Geef een naam op voor het publiek en voeg een optionele beschrijving toe.
-1. Slepen en slepen **[!UICONTROL Site Pages]** in het deelvenster voor publieksopbouw.
+1. Sleep **[!UICONTROL Site Pages]** naar het deelvenster van de publieksbuilder.
 
-   ![Sitepagina&#39;s, publiek](assets/target_site_pages.png)
+   ![ het publiek van de Pagina&#39;s van de Plaats ](assets/target_site_pages.png)
 
-1. Klik op de knop **[!UICONTROL Select]** vervolgkeuzelijst, selecteert u een van de volgende opties en configureert u vervolgens de regel naar wens.
+1. Klik op de vervolgkeuzelijst **[!UICONTROL Select]** , selecteer een van de volgende opties en configureer de regel naar wens.
 
-   Welke opties en beoordelaars beschikbaar zijn in vervolgkeuzelijsten in de regel, is afhankelijk van de optie die u kiest. In de volgende afbeelding worden de beschikbare opties weergegeven als u [!UICONTROL Current Page]:
+   Welke opties en beoordelaars beschikbaar zijn in vervolgkeuzelijsten in de regel, is afhankelijk van de optie die u kiest. In de volgende afbeelding ziet u de beschikbare opties als u [!UICONTROL Current Page] kiest:
 
-   ![Huidige pagina](assets/current-page.png)
+   ![ Huidige Pagina ](assets/current-page.png)
 
-   Als u de optie [!UICONTROL Select].
+   De volgende opties zijn beschikbaar in de eerste vervolgkeuzelijst wanneer u [!UICONTROL Select] kiest.
 
    * **[!UICONTROL Current Page]:** De pagina die de gebruiker bekijkt.
 
      Als u deze optie kiest, zijn de volgende opties beschikbaar in de tweede vervolgkeuzelijst:
 
-      * [!UICONTROL URL] (Voor meer informatie over hoe [!DNL Target] evalueert URLs, zie [Veelgestelde vragen over doelen en doelgroepen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * [!UICONTROL URL] (Voor meer informatie over hoe [!DNL Target] URLs evalueert, zie [ Doelen en veelgestelde vragen van publiek ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * [!UICONTROL Domain]
       * [!UICONTROL Query]
       * [!UICONTROL Subdomain]
@@ -45,7 +45,7 @@ U kunt bezoekers aanspreken met [!DNL Adobe Target] die toegang hebben tot een s
 
      Als u deze optie kiest, zijn de volgende opties beschikbaar in de tweede vervolgkeuzelijst:
 
-      * [!UICONTROL URL] (Voor meer informatie over hoe het Doel URLs evalueert, zie [Veelgestelde vragen over doelen en doelgroepen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * [!UICONTROL URL] (Voor meer informatie over hoe het Doel URLs evalueert, zie [ Doelen en veelgestelde vragen van publiek ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * [!UICONTROL Domain]
       * [!UICONTROL Query]
       * [!UICONTROL Subdomain]
@@ -56,7 +56,7 @@ U kunt bezoekers aanspreken met [!DNL Adobe Target] die toegang hebben tot een s
 
      Als u deze optie kiest, zijn de volgende opties beschikbaar in de tweede vervolgkeuzelijst:
 
-      * [!UICONTROL URL] (Voor meer informatie over hoe het Doel URLs evalueert, zie [Veelgestelde vragen over doelen en doelgroepen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * [!UICONTROL URL] (Voor meer informatie over hoe het Doel URLs evalueert, zie [ Doelen en veelgestelde vragen van publiek ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * [!UICONTROL Domain]
       * [!UICONTROL Query]
       * [!UICONTROL Subdomain]
@@ -66,9 +66,9 @@ U kunt bezoekers aanspreken met [!DNL Adobe Target] die toegang hebben tot een s
 
      >[!NOTE]
      >
-     >De `landing.url` object wordt opnieuw ingesteld op een subdomeinwijziging of directe URL-vervanging.
+     >Het `landing.url` -object wordt opnieuw ingesteld op een subdomeinwijziging of directe URL-vervanging.
 
-   * **[!UICONTROL HTTP Header]:** Met deze optie wordt de informatie in de HTTP-header van het dialoogvenster [!DNL Target] verzoek. Als de HTTP-header bijvoorbeeld taalinformatie bevat, kunt u een regel maken die de `Accept-Language: es` voorwaarde voor doelbezoekers die de pagina in het Spaans openen.
+   * **[!UICONTROL HTTP Header]:** Deze optie evalueert de informatie in de HTTP-header van de [!DNL Target] aanvraag. Als de HTTP-header bijvoorbeeld taalinformatie bevat, kunt u een regel maken die de voorwaarde `Accept-Language: es` bevat om bezoekers die de pagina in het Spaans openen, te bereiken.
 
      Als u deze optie kiest, zijn de volgende opties beschikbaar in de tweede vervolgkeuzelijst:
 
@@ -102,10 +102,10 @@ U kunt bezoekers aanspreken met [!DNL Adobe Target] die toegang hebben tot een s
       * [!UICONTROL Via]
       * [!UICONTROL Warning]
 
-   Als u [!UICONTROL Current Page], [!UICONTROL Previous Page], of [!UICONTROL Landing Page]de [!UICONTROL Domain] en [!UICONTROL Query] zijn beschikbaar. Houd rekening met het volgende wanneer u deze opties kiest:
+   Als u [!UICONTROL Current Page] , [!UICONTROL Previous Page] of [!UICONTROL Landing Page] kiest, zijn de opties [!UICONTROL Domain] en [!UICONTROL Query] beschikbaar. Houd rekening met het volgende wanneer u deze opties kiest:
 
-   * **Domein:** Het volledige domein van de pagina. Als u een domein opgeeft, kunt u het beste &#39;contains&#39; gebruiken. &quot;Domein is bijvoorbeeld gelijk aan facebook.com&quot; accepteert niet `m.facebook.com` of `www.facebook.com`. &quot;Domein bevat facebook.com&quot; accepteert elke variant van facebook.com.
-   * **Query:** De inhoud van de URL na het eerste vraagteken (?).
+   * **Domein:** het volledige domein van de pagina. Als u een domein opgeeft, kunt u het beste &#39;contains&#39; gebruiken. &quot;Domain equals facebook.com&quot; accepteert bijvoorbeeld niet `m.facebook.com` of `www.facebook.com` . &quot;Het domein bevat facebook.com&quot;keurt om het even welke variant van facebook.com goed.
+   * **Vraag:** de inhoud van URL na het eerste vraagteken (?).
 
      `foo.html?e0a72cb2a2c7`
 
@@ -116,20 +116,20 @@ U kunt ook doelgroepen voor sitepagina&#39;s maken met behulp van uw eigen query
 
 Gebruik een:
 
-* De parameter van de vraag als de regel door de gebruiker wordt geselecteerd is [!UICONTROL Current Page], [!UICONTROL Landing Page], of [!UICONTROL Previous Page]
+* De parameter van de vraag als de regel door de gebruiker wordt geselecteerd [!UICONTROL Current Page], [!UICONTROL Landing Page], of [!UICONTROL Previous Page] is
 * Koptekst als de regel die de gebruiker heeft geselecteerd, een HTTP-koptekst is
 
 ## Problemen oplossen {#ts}
 
-* Om ervoor te zorgen dat het publiek op de bestemmingspagina correct kan functioneren, moeten de aanvragen `mboxReferrer` parameterset (voor de bezorgings-API wordt de `context.address.referringUrl` parameter) die de JavaScript-bibliotheek at.js van de pagina neemt met behulp van de `document.referrer` kenmerk. Dit `HTMLDocument` dit kenmerk retourneert de URI van de pagina waarvandaan de gebruiker is genavigeerd. De waarde van dit kenmerk is een lege tekenreeks wanneer de gebruiker rechtstreeks naar de pagina navigeert (niet via een koppeling, maar bijvoorbeeld via een bladwijzer).
+* Om ervoor te zorgen dat het publiek van de landingspagina correct kan functioneren, moeten aanvragen de parameter `mboxReferrer` hebben ingesteld (voor de bezorgings-API de parameter `context.address.referringUrl` ) die de JavaScript-bibliotheek at.js van de pagina neemt met behulp van het attribuut `document.referrer` . Dit `HTMLDocument` -kenmerk retourneert de URI van de pagina waarvandaan de gebruiker is genavigeerd. De waarde van dit kenmerk is een lege tekenreeks wanneer de gebruiker rechtstreeks naar de pagina navigeert (niet via een koppeling, maar bijvoorbeeld via een bladwijzer).
 
   Als dit gedrag niet aan uw vereisten voldoet, kunt u een van de volgende handelingen uitvoeren:
 
-   * Voldoende [mbox-parameters](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=nl-NL){target=_blank} tot [!DNL Target] voor doeldoeleinden te gebruiken.
-   * Een [A/B Testactiviteit](/help/main/c-activities/t-test-ab/test-ab.md) in plaats van een activiteit op een bestemmingspagina. Bij de A/B-testactiviteiten wordt niet van ervaring gewisseld voor dezelfde bezoeker.
-   * Een [bezoekersprofiel](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) in plaats daarvan.
+   * Geef [ mbox parameters ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} aan [!DNL Target] door voor het richten van doeleinden worden gebruikt.
+   * Gebruik een [ activiteit van de Test A/B ](/help/main/c-activities/t-test-ab/test-ab.md) in plaats van een het landen paginageactiviteit. Bij de A/B-testactiviteiten wordt niet van ervaring gewisseld voor dezelfde bezoeker.
+   * Gebruik in plaats hiervan het profiel van de a [ bezoeker ](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md).
 
-* Wanneer evaluatoren &quot;start/end with&quot; gebruiken voor tekenreeksen die komma&#39;s bevatten, worden deze tekenreeksen geëvalueerd als een array van waarden, waarin elke waarde die door komma&#39;s wordt gescheiden, wordt geëvalueerd. Als u bijvoorbeeld de waarde voor een koptekst hebt: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` het komt in aanmerking voor voorwaarden zoals :
+* Wanneer evaluatoren &quot;start/end with&quot; gebruiken voor tekenreeksen die komma&#39;s bevatten, worden deze tekenreeksen geëvalueerd als een array van waarden, waarin elke waarde die door komma&#39;s wordt gescheiden, wordt geëvalueerd. Als u bijvoorbeeld de waarde voor een header hebt: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` komt deze in aanmerking voor voorwaarden zoals:
    * begint met zh,
    * begint met en,
    * eindigt met 0,7,

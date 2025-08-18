@@ -13,17 +13,17 @@ ht-degree: 0%
 
 # Bezoekerprofielen
 
-Bezoekerprofielen in [!DNL Adobe Target] bevatten informatie over hoe uw bezoekers uw pagina&#39;s en andere geoptimaliseerde inhoudslocaties gebruiken.
+Bezoekersprofielen in [!DNL Adobe Target] bevatten informatie over hoe bezoekers uw pagina&#39;s en andere geoptimaliseerde inhoudslocaties gebruiken.
 
-Indien [!DNL Target] wordt gebruikt met andere [!DNL Adobe Experience Cloud] oplossingen, zoals [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] deelt bezoekersinformatie over oplossingen.
+Als [!DNL Target] wordt gebruikt met andere [!DNL Adobe Experience Cloud] -oplossingen, zoals [!DNL Adobe Analytics] , deelt [!DNL Experience Cloud Audiences] bezoekersinformatie over verschillende oplossingen.
 
-Standaard, [!DNL Target] profielgegevens worden opgeslagen in één cookie van de eerste fabrikant. De configuratie kan gemakkelijk worden veranderd om derdekoekjes eveneens te dienen.
+Standaard worden [!DNL Target] -profielgegevens opgeslagen in één cookie van de eerste fabrikant. De configuratie kan gemakkelijk worden veranderd om derdekoekjes eveneens te dienen.
 
 De volgende secties bevatten meer informatie:
 
 - [Levensduur van bezoekersprofiel](visitor-profile-lifetime.md)
 - [Profielkenmerken](profile-parameters.md)
 - [Categorie-affiniteit](category-affinity.md)
-- [Klantkenmerken](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=nl-NL)
+- [ de attributen van de Klant ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 - [Profielsynchronisatie in realtime voor mbox3rdPartyID](3rd-party-id.md)
 - [Profiel en verklarende woordenlijst voor variabelen](variables-profiles-parameters-methods.md)

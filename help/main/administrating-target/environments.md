@@ -7,7 +7,7 @@ role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
 source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ De standaardomgeving voor rapportage instellen:
 >
 >[!DNL Recommendations] -gebruikers moeten hun gedragsdatabase en productdatabase opnieuw opbouwen als hosts van hostgroepen veranderen.
 >
->Als u a [ standaardmilieu in a  [!DNL Adobe Experience Platform]  datastream ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=nl-NL#target){target=_blank}  specificeert, treedt dit het plaatsen in [!DNL Target] met voeten.
+>Als u a [ standaardmilieu in a  [!DNL Adobe Experience Platform]  datastream ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank} specificeert, treedt dit het plaatsen in [!DNL Target] met voeten.
 
 ## De naam van een omgeving wijzigen {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
@@ -69,7 +69,7 @@ U kunt een omgeving verwijderen wanneer deze niet meer nodig is.
 >
 >U kunt de [!UICONTROL Production] -omgeving niet verwijderen, maar u kunt de naam ervan wel wijzigen.
 
-## [!BADGE &#x200B; Premium &#x200B;]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."}
+## [!BADGE  Premium ]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."} Aanbevelingen: de inzamelingen en de uitsluitingen van de filter door milieu (gastheergroep)
 
 U kunt de inhoud van de inzamelingen en de uitsluitingen van Aanbevelingen voor een geselecteerde milieu (gastheergroep) voorproef.
 

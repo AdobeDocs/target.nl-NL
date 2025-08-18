@@ -1,6 +1,6 @@
 ---
 keywords: faq;veelgestelde vragen;analyses voor doel;a4T;activity setup
-description: Zoek antwoorden op vragen over activity setup wanneer u Analyses gebruikt voor [!DNL Target] (A4T). Met A4T kunt u analytische rapporten gebruiken voor [!DNL Target] activiteiten.
+description: Vind antwoorden op vragen over activiteitenopstelling wanneer het gebruiken van Analytics voor  [!DNL Target]  (A4T). A4T laat u Analytics gebruiken die voor  [!DNL Target]  activiteiten rapporteert.
 title: Waar kan ik Veelgestelde vragen over activiteitenmontages met A4T vinden?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
@@ -13,11 +13,12 @@ ht-degree: 0%
 
 # Activiteitsinstellingen - Veelgestelde vragen voor A4T
 
-Dit onderwerp bevat antwoorden op vragen die vaak over activiteitenopstelling en het gebruiken worden gevraagd [!DNL Analytics] als bron van rapportage voor [!DNL Target] (A4T).
+Dit onderwerp bevat antwoorden op vragen die vaak worden gesteld over het instellen van activiteiten en het gebruik van [!DNL Analytics] als rapportagebron voor [!DNL Target] (A4T).
 
-## Welke activiteitstypen worden ondersteund [!DNL Analytics] als bron van rapportage (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
+## Welke activiteitstypen worden ondersteund [!DNL Analytics] als de rapportagebron (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
-+++Antwoord voor een volledige lijst, zie &quot;Ondersteunde Types van Activiteit&quot;in [Adobe Analytics als rapportagebron voor Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
++++Antwoord
+Voor een volledige lijst, zie &quot;Ondersteunde Types van Activiteit&quot;in [ Adobe Analytics als Rapporterende Source voor Adobe Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
 +++
 
@@ -25,45 +26,49 @@ Dit onderwerp bevat antwoorden op vragen die vaak over activiteitenopstelling en
 
 +++Antwoord
 
-Gebruik niet dezelfde activiteitsnaam voor twee afzonderlijke activiteiten [werkruimten](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) die gebruikmaken van A4T-rapportage.
+Gebruik niet de zelfde activiteitennaam voor twee activiteiten van afzonderlijke [ werkruimten ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) die A4T het melden gebruiken.
 
-Hoewel dit wordt ondersteund bij gebruik [!DNL Target] als rapportagebron wordt het gebruik van dezelfde activiteitsnaam voor twee activiteiten niet ondersteund bij het gebruik van [!UICONTROL Analytics for Target] als de bron van de rapportage.
+Hoewel dit wordt ondersteund wanneer [!DNL Target] als rapportagebron wordt gebruikt, wordt het gebruik van dezelfde naam voor twee activiteiten niet ondersteund wanneer [!UICONTROL Analytics for Target] als rapportagebron wordt gebruikt.
 
 +++
 
 ## Waarom heb ik tijdens het configureren van mijn Goal Metrics geen toegang tot Geavanceerde instellingen?
 
-+++Antwoord voor activiteiten die [!DNL Analytics] als rapporteringsbron (A4T), het doel metrisch gebruikt &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; en &quot;[!UICONTROL On Every Impression]&quot;. Deze instellingen zijn *niet* configureerbaar.
++++Antwoord
+Voor activiteiten die [!DNL Analytics] als rapporteringsbron (A4T) gebruiken, metrische doel gebruikt &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot;en &quot;[!UICONTROL On Every Impression]&quot;montages. Deze montages zijn *niet* configureerbaar.
 
-Voor meer informatie, zie &quot;terwijl het vormen van mijn doelmetriek, waarom kan ik niet tot de Geavanceerde opties van Montages toegang hebben?&quot; in [Metrische definities - Veelgestelde vragen A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
+Voor meer informatie, zie &quot;terwijl het vormen van mijn doelmetriek, waarom kan ik niet tot de Geavanceerde opties van Montages toegang hebben?&quot; in [ Metrische definities - Veelgestelde vragen A4T ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 +++
 
 ## Ik heb net een activiteit gecreëerd. Waarom zie ik geen gegevens binnenkomen? {#section_9F8092BE4225442896F926540292F221}
 
 
-+++Antwoord wanneer een activiteit wordt gecreeerd, [!DNL Target] een classificatiebestand verzenden naar [!DNL Analytics]. Hoewel [!DNL Analytics] die de gegevens vastlegt en verwerkt, toont dit niet aan dat dit in de rapporten voorkomt totdat het classificatiebestand is bijgewerkt. Dit proces kan 24 tot 72 uur duren. Indien u na 72 uur uw gegevens niet ziet, [Contact opnemen met de klantenservice](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Als u weet dat u een activiteit start, kunt u deze activiteit een paar dagen eerder maken en de classificaties worden verzonden wanneer de activiteit wordt opgeslagen. Op die manier worden gegevens weergegeven in de rapporten wanneer deze worden gestart. Houd er rekening mee dat het 45-90 minuten duurt voordat gegevens worden verwerkt in [!DNL Analytics].
++++Antwoord
+Wanneer een activiteit wordt gecreeerd, verzendt [!DNL Target] een classificatiedossier naar [!DNL Analytics]. Hoewel [!DNL Analytics] de gegevens vastlegt en verwerkt, toont dit niet in de rapporten tot het classificatiebestand is bijgewerkt. Dit proces kan 24 tot 72 uur duren. Als na 72 uren u uw gegevens niet ziet, {de Zorg van de Cliënt van 0} contact [. ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Als u weet dat u een activiteit start, kunt u deze activiteit een paar dagen eerder maken en de classificaties worden verzonden wanneer de activiteit wordt opgeslagen. Op die manier worden gegevens weergegeven in de rapporten wanneer deze worden gestart. Houd er rekening mee dat het 45-90 minuten duurt voordat gegevens worden verwerkt in [!DNL Analytics] .
 
 +++
 
 ## Waarom kan ik Analytics niet als mijn rapporteringsbron selecteren wanneer ik een activiteit creeer? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
-+++Antwoord U kunt uw [!UICONTROL Reporting Settings] opties in [!UICONTROL Administration].
++++Antwoord
+U kunt de [!UICONTROL Reporting Settings] -opties wijzigen in [!UICONTROL Administration] .
 
-1. In [!DNL Target], klikt u op **[!UICONTROL Administration]**.
-1. In de **[!UICONTROL Experience Cloud solution used for reporting]** vervolgkeuzelijst, klikken **[!UICONTROL Select per Activity]**.
+1. Klik in [!DNL Target] op **[!UICONTROL Administration]** .
+1. Klik in de vervolgkeuzelijst **[!UICONTROL Experience Cloud solution used for reporting]** op **[!UICONTROL Select per Activity]** .
 
-![afbeelding per activiteit selecteren](assets/select-per-activity.png)
+![ uitgezocht-per-activiteit beeld ](assets/select-per-activity.png)
 
-De **[!UICONTROL Reporting Source]** vervolgkeuzelijst is ingeschakeld in het dialoogvenster **[!UICONTROL Goal & Settings]** scherm voor het maken en bewerken van activiteiten.
+De vervolgkeuzelijst **[!UICONTROL Reporting Source]** wordt in het **[!UICONTROL Goal & Settings]** -scherm ingeschakeld voor het maken en bewerken van activiteiten.
 
-Altijd gebruiken [!DNL Analytics] als de bron van de rapportage selecteert u **[!UICONTROL Adobe Analytics]** in de vervolgkeuzelijst in [!UICONTROL Administration].
+Selecteer [!DNL Analytics] in de vervolgkeuzelijst in **[!UICONTROL Adobe Analytics]** als u [!UICONTROL Administration] altijd als rapportagebron wilt gebruiken.
 
 +++
 
 ## Kan een bezoeker schakelen tussen gerichte en gecontroleerde ervaringen in verschillende bezoeken in een auto-Doelactiviteit die A4T gebruikt?
 
-+++Antwoord Het volgende is waar veronderstellend bezoekerId niet voor een bezoeker tussen bezoeken verandert.
++++Antwoord
+Het volgende is waar veronderstellend bezoekerId verandert niet voor een bezoeker tussen bezoeken.
 
 Als het verkeerstoewijzingspercentage wordt aangepast halverwege de activiteit, is het mogelijk dat een bezoeker tussen gerichte en controleervaringen kan bewegen.
 
@@ -74,8 +79,9 @@ Als de percentages niet worden aangepast halverwege de activiteit, wordt een bez
 
 +++
 
-## Mag ik een binomiale [!DNL Analytics] metrisch met een segment dat als optimaliserend doel in wordt toegepast [!UICONTROL Auto-Allocate] activiteit? {#binomial}
+## Kan ik een binomiale [!DNL Analytics] metrisch gebruiken met een segment dat als optimaliserend doel in een [!UICONTROL Auto-Allocate] activiteit wordt toegepast? {#binomial}
 
-+++Antwoord U kunt geen [!DNL Analytics] metrisch met een segment dat als optimaliserend doel in wordt toegepast [!UICONTROL Auto-Allocate] activiteit. Als tussenoplossing kunt u een gebeurtenis van de Douane bepalen die het zelfde doel bereikt en gebruikt dat zoals optimaliserend doel metrisch.
++++Antwoord
+U kunt geen [!DNL Analytics] metrisch met een segment gebruiken dat als optimaliserend doel in een [!UICONTROL Auto-Allocate] activiteit wordt toegepast. Als tussenoplossing kunt u een gebeurtenis van de Douane bepalen die het zelfde doel bereikt en gebruikt dat zoals optimaliserend doel metrisch.
 
 +++

@@ -17,7 +17,7 @@ Informatie over het gebruik van [!UICONTROL Visual Experience Composer] (VEC) in
 
 VEC is een gebruikersinterface van WYSIWYG waarmee u gemakkelijk persoonlijke ervaringen en aanbiedingen in de context van de site kunt maken en testen. U kunt ervaringen en aanbiedingen voor doelactiviteiten maken door te slepen en neer te zetten, te wisselen en de lay-out en inhoud van een webpagina (of aanbieding) of mobiele webpagina te wijzigen.
 
-De VEC is een van de belangrijkste kenmerken van [!DNL Adobe Target] . Met VEC kunnen marketers en ontwerpers inhoud maken en wijzigen via een visuele interface. Veel ontwerpkeuzes kunnen worden gemaakt zonder dat de code rechtstreeks moet worden bewerkt. U kunt HTML en JavaScript ook bewerken met de bewerkingsopties in de composer.
+De VEC is een van de belangrijkste kenmerken van [!DNL Adobe Target] . Met VEC kunnen marketers en ontwerpers inhoud maken en wijzigen via een visuele interface. Veel ontwerpkeuzes kunnen worden gemaakt zonder dat de code rechtstreeks moet worden bewerkt. HTML en JavaScript kunnen ook worden bewerkt met behulp van de bewerkingsopties in de composer.
 
 Op het tabblad Doel **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** kunt u de URL van de standaardcomposer voor visuele ervaring invoeren.
 
@@ -53,7 +53,7 @@ U kunt ook op **[!UICONTROL Browse]** klikken, naar een pagina navigeren die bes
 >
 >Als een aanwijsstatus afhankelijk is van JavaScript, moet u ervoor zorgen dat **[!UICONTROL Disable JavaScript]** niet is geselecteerd. JavaScript moet zijn ingeschakeld om JavaScript-elementen te bewerken.
 
-Voor informatie over de opties beschikbaar in VEC, zie {de Opties van Composer van 0} Visuele Ervaring [&#128279;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
+Voor informatie over de opties beschikbaar in VEC, zie {de Opties van Composer van 0} Visuele Ervaring [.](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)
 
 U kunt enkele wijzigingen op een pagina uitvoeren terwijl de pagina wordt geladen (of nadat de pagina niet is geladen), of u kunt het laden van de pagina in de VEC annuleren. Zie voor meer informatie:
 
@@ -108,14 +108,14 @@ Als u ervaringen met de huidige activiteit wilt blijven beheren of nieuwe wijzig
 
 De volgende video&#39;s bevatten meer informatie over de concepten die in dit artikel worden besproken.
 
-### De visuele Composer van de Ervaring (1 van 2) (7:17) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+### De visuele Composer van de Ervaring (1 van 2) (7 :17) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
 
 * De inhoud van een pagina wijzigen
 * De lay-out van een pagina wijzigen
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### De visuele Composer van de Ervaring (2 van 2) (7:29) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+### De visuele Composer van de Ervaring (2 van 2) (7 :29) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
 
 * Een ervaring hernoemen en dupliceren
 * Omleiden maken
@@ -128,7 +128,7 @@ De volgende video&#39;s bevatten meer informatie over de concepten die in dit ar
 
 ### De uren van het bureau: De visuele Laag van de Ervaring Composer ![ van de Leerprogramma ](/help/main/assets/tutorial.png)
 
-Deze video is een opname van &quot; [ Uren van het Bureau ](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7),&quot;een initiatief dat door het team van de Zorg van de Klant van de Adobe wordt geleid.
+Deze video is een opname van &quot; [ Uren van het Bureau ](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7),&quot;een initiatief dat door het team van de Zorg van de Klant van Adobe wordt geleid.
 
 * Hoe werkt VEC
 * Hoe te vermijden gemeenschappelijke kwesties met VEC

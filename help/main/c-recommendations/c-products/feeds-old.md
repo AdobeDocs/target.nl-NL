@@ -2,7 +2,7 @@
 keywords: aanbevelingen feed;feed;SAINT;ftp;csv;classificaties;analytische classificaties
 description: Leer hoe het voer de invoerentiteiten in  [!DNL Adobe Target] [!DNL Recommendations] gebruikend Csv- dossiers, het de voederformaat van het Onderzoek van het Product van Google, en  [!DNL Analytics]  productclassificaties invoert.
 title: Hoe gebruik ik [!UICONTROL Feeds] in  [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -22,7 +22,7 @@ Het voer laat u [ Entiteiten ](/help/main/c-recommendations/c-products/products.
 
 Met feeds kunt u gedetailleerde itemgegevens doorgeven in [!DNL Recommendations] , zoals product-id, categorie, naam, bericht en andere kenmerken.
 
-U kunt selecteren welke kolommen u naar de [!DNL Recommendations] -server wilt verzenden in het [!DNL Target] -bestand voor productclassificaties of in het zoekbestand voor Google-producten.
+U kunt selecteren welke kolommen u naar de [!DNL Target] -server wilt verzenden in het [!DNL Recommendations] -bestand voor productclassificaties of in het zoekbestand voor Google-producten.
 
 Deze gegevens over elk item kunnen vervolgens worden gebruikt om:
 
@@ -41,7 +41,7 @@ De pagina [!UICONTROL Feeds] bevat de volgende kolommen:
 
 * **Naam**: De naam van het voer tijdens verwezenlijking wordt gespecificeerd die. Als u de naam van een feed wilt bewerken, moet u de feed zelf bewerken. Wanneer u de feed onder de nieuwe naam opslaat, wordt de feed vernieuwd.
 * **Type**: De types omvatten [ CSV ](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [ Diervoeders van het Product van Google ](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF), en [ Classificaties van Analytics ](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
-* **Status**: De huidige status van de voer [&#128279;](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
+* **Status**: De huidige status van de voer [ ](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
 * **Programma**: Toont het updateschema voor het voer: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks], of [!UICONTROL Never].
 * **Punten**: Toont het aantal punten in het voer.
 * **Laatste Bijgewerkt**: Toont de datum en de tijd toen het voer en de naam van de persoon laatst werd bijgewerkt die het voer bijwerkte. Als de feed [!UICONTROL Last Updated] &#39;undefined&#39; zegt, komt de feed in vanuit [!DNL Recommendations Classic] en kan deze niet vanuit [!DNL Target Premium Recommendations] worden gewijzigd.
@@ -121,11 +121,11 @@ Als u een bestaande Google-productfeed hebt, kunt u die gebruiken als importbest
 >
 >Google-gegevens hoeven niet te worden gebruikt. [!DNL Recommendations] gebruikt dezelfde indeling als Google. U kunt deze methode gebruiken om alle gegevens te uploaden die u hebt en de beschikbare planningsfuncties te gebruiken. U moet echter wel de vooraf gedefinieerde Google-kenmerknamen behouden wanneer u het bestand instelt.
 
-De meeste detailhandelaren uploaden producten naar Google, dus wanneer een bezoeker de Google-productzoekopdracht gebruikt, worden hun producten weergegeven. [!DNL Recommendations] volgt de Google-specificatie exact voor entiteitsfeeds. De voer van de entiteit kan naar [!DNL Recommendations] via .xml, .txt, of .tsv worden verzonden, en kan de [ attributen gebruiken die door Google ](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US) worden bepaald. De resultaten zijn doorzoekbaar op [ Google die pagina&#39;s ](https://www.google.com/prdhp) winkelen.
+De meeste detailhandelaren uploaden producten naar Google, dus wanneer een bezoeker de Google-productzoekopdracht gebruikt, worden hun producten weergegeven. [!DNL Recommendations] volgt de Google-specificatie exact voor entiteitsfeeds. De voer van de entiteit kan naar [!DNL Recommendations] via .xml, .txt, of .tsv worden verzonden, en kan de [ attributen gebruiken die door Google ](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US) worden bepaald. De resultaten zijn doorzoekbaar op [ Google die pagina&#39;s ](https://www.google.com/prdhp) winkelen.
 
 >[!NOTE]
 >
->De POST-methode moet zijn toegestaan op de server die de Google-feed-inhoud host.
+>De POST-methode moet zijn toegestaan op de server die de Google-feedinhoud host.
 
 Omdat [!DNL Recommendations] -gebruikers al .xml- of .txt-feeds configureren om deze via URL of FTP naar Google te verzenden, worden deze productgegevens door entiteitsfeeds geaccepteerd en worden deze gebruikt om de catalogus met aanbevelingen te maken. Geef op waar die feed bestaat en de aanbevelingen-server de gegevens ophaalt.
 
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] Productclassificaties {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-De [!DNL Analytics] productclassificatie is de enige classificatie die beschikbaar is voor aanbevelingen. Voor meer informatie over dit classificatiedossier, zie [ Ongeveer classificaties ](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=nl-NL) in de *gids van de Componenten van Analytics*. Het is mogelijk dat niet alle informatie u voor aanbevelingen nodig hebt in uw huidige implementatie beschikbaar is, zo volg deze gebruikershandleiding als u aan uw classificatiedossier wilt toevoegen.
+De [!DNL Analytics] productclassificatie is de enige classificatie die beschikbaar is voor aanbevelingen. Voor meer informatie over dit classificatiedossier, zie [ Ongeveer classificaties ](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in de *gids van de Componenten van Analytics*. Het is mogelijk dat niet alle informatie u voor aanbevelingen nodig hebt in uw huidige implementatie beschikbaar is, zo volg deze gebruikershandleiding als u aan uw classificatiedossier wilt toevoegen.
 
 >[!IMPORTANT]
 >
@@ -328,15 +328,15 @@ Neem de volgende voorbeelden:
 
 **Voorbeeld 1:**
 
-* Dag één: dagelijkse voederprocessen om 9.00 uur PST.
-* Dag twee: het is 15:30 en het voer is sinds gisteren om 9:00 uur niet meer.
+* Dag één: dagelijkse voederprocessen om 9.00 uur PST.:00
+* Dag twee: het is 3 :30 p.m. en het voer is niet sinds gisteren om 9 :00 a.m. gelopen
 
 De status moet geel zijn omdat de index ongeveer 6,5 uur geleden had moeten worden uitgevoerd. 6,5 uur +24 is 127% van het voedervenster.
 
 **Voorbeeld 2:**
 
-* 1 januari: maandelijkse voederprocessen om 9.00 uur PST.
-* 3 februari: om 10.00 uur en de feed is een maand, een dag en een uur geleden niet gestart.
+* 1 januari: maandelijkse voederprocessen om 9.00 uur PST.:00
+* 3 februari: het is 10 :00 a.m. en het voer is niet één maand, één dag, en één uur geleden gelopen.
 
 De status moet geel zijn omdat de index ongeveer een dag en een uur geleden had moeten lopen. Hoewel dit slechts is (31+(1/25))/30 = 1,03% van de frequentie-instelling, overschrijdt het het maximum van één dag vertraging.
 
@@ -344,7 +344,7 @@ De status moet geel zijn omdat de index ongeveer een dag en een uur geleden had 
 
 De volgende video&#39;s bevatten meer informatie over de concepten die in dit artikel worden besproken.
 
-### Het begrip van voer in Recommendations (3:01) ![ badge van het Overzicht ](/help/main/assets/overview.png)
+### Het begrip van voer in Aanbevelingen (3 :01) ![ badge van het Overzicht ](/help/main/assets/overview.png)
 
 Deze video bevat de volgende informatie:
 
@@ -353,7 +353,7 @@ Deze video bevat de volgende informatie:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Creeer een voer (6:44) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+### Creeer een voer (6 :44) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
 
 Deze video bevat de volgende informatie:
 

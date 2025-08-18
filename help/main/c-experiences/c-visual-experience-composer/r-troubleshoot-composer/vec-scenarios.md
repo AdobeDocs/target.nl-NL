@@ -1,5 +1,5 @@
 ---
-keywords: Recommendations
+keywords: Aanbevelingen
 description: Onderzoek gemeenschappelijke scenario's die tonen hoe de veranderingen die aan uw pagina in Visual Experience Composer (VEC) worden aangebracht de capaciteit van Adobe Target beïnvloeden om een ervaring te tonen.
 title: Wat zijn algemene scenario's voor paginawijziging?
 feature: Visual Experience Composer (VEC)
@@ -23,11 +23,11 @@ Wanneer u de kiezer gebruikt, komt de unieke klasse niet overeen met de id. De k
 >
 >Hoewel deze scenario&#39;s lijstpunten als voorbeelden gebruiken, zijn de concepten op om het even welk element van toepassing.
 
-## Scenario: Een element invoegen met een andere klassenaam voor het geselecteerde element {#section_298F661F72384F6AB957D5885A99D822}
+## Scenario: een element invoegen met een andere klassenaam voor het geselecteerde element {#section_298F661F72384F6AB957D5885A99D822}
 
 In dit voorbeeld wordt een nieuw element ingevoegd als een element op hetzelfde niveau als het element in de doelkiezer.
 
-Het is mogelijk dat de eerste klasse die aanwezig is op het element, wordt toegevoegd door JavaScript. In dat geval mislukt de levering en wordt de actie niet toegepast.
+Er is een mogelijkheid dat de eerste klasse die op het element aanwezig is, door JavaScript wordt toegevoegd. In dat geval mislukt de levering en wordt de actie niet toegepast.
 
 **Ingevoegd element:**
 
@@ -43,7 +43,7 @@ Kiezer: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 **Resultaat:**
 
-De kiezer werkt zoals u had verwacht, omdat `li.women-section:eq(0)` niet beïnvloed.
+De kiezer werkt zoals u had verwacht, omdat `li.women-section:eq(0)` niet wordt gewijzigd.
 
 Voor:
 
@@ -66,7 +66,7 @@ Na:
 </div>
 ```
 
-## Scenario: Een element invoegen met dezelfde klassenaam als het geselecteerde element {#section_0969B88C2F154E648D9969C8C85EF55A}
+## Scenario: een element invoegen met dezelfde klassenaam als het geselecteerde element {#section_0969B88C2F154E648D9969C8C85EF55A}
 
 In dit scenario wordt geprobeerd een lijst in te voegen wanneer een item in een lijst is geselecteerd.
 
@@ -87,7 +87,7 @@ Kiezer: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 **Resultaat:**
 
-De kiezer werkt niet, omdat `ul.nav:eq(0)` biedt een dynamisch toegevoegd element. Het element is niet beschikbaar en de handeling wordt niet toegepast. Wanneer een vergelijkbaar lijstitem met dezelfde klasse dynamisch of handmatig wordt toegevoegd nadat een activiteit is gemaakt, wordt een nieuw element op de eerste positie gemaakt. Hierdoor wordt de kiezer verbroken.
+De kiezer werkt niet, omdat `ul.nav:eq(0)` een dynamisch toegevoegd element biedt. Het element is niet beschikbaar en de handeling wordt niet toegepast. Wanneer een vergelijkbaar lijstitem met dezelfde klasse dynamisch of handmatig wordt toegevoegd nadat een activiteit is gemaakt, wordt een nieuw element op de eerste positie gemaakt. Hierdoor wordt de kiezer verbroken.
 
 Voor:
 
@@ -114,7 +114,7 @@ Na (geprobeerd):
 </div>
 ```
 
-## Scenario: Een element invoegen na het geselecteerde element {#section_15B07B84BEE94ED39D85BBBE0733E170}
+## Scenario: een element invoegen na het geselecteerde element {#section_15B07B84BEE94ED39D85BBBE0733E170}
 
 In dit scenario wordt een lijstitem ingevoegd na het geselecteerde element.
 
@@ -162,7 +162,7 @@ Na:
 </div>
 ```
 
-## Scenario: Het element verwijderen dat direct voorafgaat aan een ander element {#section_F193674F04F84AA593EAA1137C880EBA}
+## Scenario: het element verwijderen dat direct voorafgaat aan een ander element {#section_F193674F04F84AA593EAA1137C880EBA}
 
 In dit scenario wordt het lijstitem verwijderd voordat het geselecteerde element wordt verwijderd.
 
@@ -203,7 +203,7 @@ Na:
 </div>
 ```
 
-## Scenario: Het element direct na een ander element verwijderen {#section_F83B51BE54924FB58679D512DAF1EBB2}
+## Scenario: het element direct na een ander element verwijderen {#section_F83B51BE54924FB58679D512DAF1EBB2}
 
 In dit scenario wordt het lijstitem nadat het geselecteerde element is verwijderd.
 
@@ -246,7 +246,7 @@ Na:
 </div>
 ```
 
-## Scenario: Het geselecteerde element verwijderen {#section_1989CF1E2C344CC5963084ED83C18F9C}
+## Scenario: het geselecteerde element verwijderen {#section_1989CF1E2C344CC5963084ED83C18F9C}
 
 In dit scenario wordt het geselecteerde lijstitem verwijderd.
 
@@ -287,7 +287,7 @@ Na
 </div>
 ```
 
-## Scenario: De naam van de klasse van het geselecteerde element wijzigen {#section_79D244C588BA452DB8E433D82B7F63EA}
+## Scenario: de naam van de klasse van het geselecteerde element wijzigen {#section_79D244C588BA452DB8E433D82B7F63EA}
 
 In dit scenario wordt de klasse van het geselecteerde lijstitem gewijzigd.
 
@@ -305,7 +305,7 @@ Kiezer: `#wrap > ul.nav:eq(0) > li.women-section:eq(0)`
 
 **Resultaat:**
 
-De naam van de elementklasse kan niet worden gewijzigd omdat `class` is niet gevonden.
+De naam van de elementklasse kan niet worden gewijzigd omdat `class` niet is gevonden.
 
 Voor:
 

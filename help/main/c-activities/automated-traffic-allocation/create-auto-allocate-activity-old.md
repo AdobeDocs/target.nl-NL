@@ -25,9 +25,9 @@ Een [!UICONTROL Auto-Allocate] -activiteit maken:
 
    De beschikbare activiteitstypen zijn afhankelijk van uw [!DNL Target] -account. Sommige typen activiteiten worden mogelijk niet in de lijst weergegeven. Bijvoorbeeld, [!UICONTROL Recommendations] is de eigenschap van a [ Target Premium ](/help/main/c-intro/intro.md#premium). Voor informatie over de diverse activiteitentypes, zie [ Activiteiten ](/help/main/c-activities/activities.md) en de [ gids van de Activiteiten van het Doel ](/help/main/c-activities/target-activities-guide.md).
 
-1. Selecteer indien nodig **[!UICONTROL Visual]** in het dialoogvenster **[!UICONTROL Create A/B Test Activity]** .
+1. Selecteer indien nodig **[!UICONTROL Create A/B Test Activity]** in het dialoogvenster **[!UICONTROL Visual]** .
 
-   Selecteer [!UICONTROL Form] als u de [!UICONTROL Form-Based Experience Composer] -toets liever wilt gebruiken. Zie [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) voor meer informatie.
+   Selecteer [!UICONTROL Form-Based Experience Composer] als u de [!UICONTROL Form] -toets liever wilt gebruiken. Zie [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) voor meer informatie.
 
    >[!NOTE]
    >
@@ -86,7 +86,7 @@ Een [!UICONTROL Auto-Allocate] -activiteit maken:
 
    U kunt meerdere ervaringen aan hetzelfde publiek tonen. Een diagram toont het geselecteerde publiek en de ervaringen die u aan de activiteit hebt toegevoegd.
 
-   Kies de gewenste methode voor verkeerstoewijzing. Selecteer **[!UICONTROL Auto-Allocate to best experience]** om een [!UICONTROL Auto-Allocate] -activiteit te maken.
+   Kies de gewenste methode voor verkeerstoewijzing. Selecteer [!UICONTROL Auto-Allocate] om een **[!UICONTROL Auto-Allocate to best experience]** -activiteit te maken.
 
    De drie soorten verkeerstoewijzing worden hieronder beschreven:
 
@@ -110,7 +110,7 @@ Een [!UICONTROL Auto-Allocate] -activiteit maken:
 
 Nadat u de activiteit creeert, toont het [!UICONTROL Overview] lusje informatie over de activiteit, met inbegrip van een diagram van uw activiteit.
 
-## Trainingsvideo: A/B-tests maken (8:36)
+## Trainingsvideo: A/B-tests maken (8 :36)
 
 In deze video ziet u hoe u een A/B-test maakt met behulp van de [!DNL Target] driestapige geleide workflow.
 

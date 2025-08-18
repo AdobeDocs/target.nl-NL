@@ -1,8 +1,8 @@
 ---
-keywords: Recommendations;aanbieding
+keywords: Aanbevelingen;aanbieding
 description: Leer hoe u Adobe Recommendations kunt gebruiken als een aanbieding voor A/B-tests (inclusief automatisch toewijzen en automatisch richten) en Experience Targeting (XT)-activiteiten.
-title: Hoe gebruik ik Recommendations als een voorstel in andere soorten activiteiten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+title: Hoe gebruik ik Aanbevelingen als Voorstel in Andere Types van Activiteit?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
 source-git-commit: f848c79cb95009b5810a1707d04e548a57220e12
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Recommendations als voorstel
+# Aanbevelingen als voorstel
 
 U kunt nu aanbevelingen opnemen in [!UICONTROL A/B Test] (inclusief [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]) en [!UICONTROL Experience Targeting] (XT) activiteiten.
 
@@ -111,14 +111,14 @@ U kunt een aanbevolen versie op twee manieren verwijderen:
 
 ### De status van de aanbevolen aanbieding bekijken {#status}
 
-De status (algoritme) van de aanbevolen aanbieding wordt onder aan de pagina [!UICONTROL Overview] weergegeven voor A/B Test- en XT-activiteiten die Recommendations-aanbiedingen bevatten:
+De status (algoritme) van de aanbevolen aanbieding wordt onder aan de pagina [!UICONTROL Overview] weergegeven voor A/B Test- en XT-activiteiten die de aanbevolen opties bevatten:
 
 * Resultaten gereed
 * Resultaten niet gereed
 * Feed-fout
 
-![ de aanbiedingsstatus van Recommendations ](/help/main/c-recommendations/assets/recs-offer-status.png)
+![ de aanbiedingsstatus van Aanbevelingen ](/help/main/c-recommendations/assets/recs-offer-status.png)
 
-## De video van de opleiding: Recommendations als de badge van het aanbieden ![ Overzicht ](/help/main/assets/overview.png)
+## De video van de opleiding: Aanbevelingen als de badge van het Overzicht van de aanbieding ![ ](/help/main/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)

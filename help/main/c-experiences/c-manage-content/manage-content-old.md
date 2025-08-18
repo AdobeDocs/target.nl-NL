@@ -23,7 +23,7 @@ Gebruik de [!UICONTROL Offers] bibliotheek in [!DNL Adobe Target] om uw codeaanb
 
    ![ pagina die van Aanbiedingen de Aanbiedingen van de Code en de lusjes van de Aanbiedingen van het Beeld tonen ](/help/main/c-experiences/c-manage-content/assets/offers-page.png)
 
-1. (Facultatief) klik de **[!UICONTROL Type]** drop-down lijst aan filteraanbiedingen door type (de Aanbieding van de HTML, [ Fragmenten van de Ervaring ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [ Redirect Aanbieding ](/help/main/c-experiences/c-manage-content/offer-redirect.md), [ Verre Aanbieding ](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [ JSON Aanbiedingen ](/help/main/c-experiences/c-manage-content/create-json-offer.md), en [ Omslagen ](/help/main/c-experiences/c-manage-content/create-content-folder.md)).
+1. (Facultatief) klik de **[!UICONTROL Type]** drop-down lijst aan filteraanbiedingen door type (Aanbieding van HTML, [ Fragmenten van de Ervaring ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [ Redirect Aanbieding ](/help/main/c-experiences/c-manage-content/offer-redirect.md), [ Verre Aanbieding ](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [ JSON Aanbiedingen ](/help/main/c-experiences/c-manage-content/create-json-offer.md), en [ Omslagen ](/help/main/c-experiences/c-manage-content/create-content-folder.md)).
 
    ![ aanbiedingen_filter beeld ](assets/offers_filter.png)
 
@@ -62,14 +62,14 @@ Gebruik de [!UICONTROL Offers] bibliotheek in [!DNL Adobe Target] om uw codeaanb
 
    >[!NOTE]
    >
-   >De aanbiedingen van het beeld maken geen deel uit van het [&#128279;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) model van de Toestemmingen van de Gebruiker van de Onderneming .
+   >De aanbiedingen van het beeld maken geen deel uit van het [ model van de Toestemmingen van de Gebruiker van de Onderneming ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
 
 ## Definities van aanbiedingen weergeven {#section_6B059DD121434E6292CAB393507D010E}
 
 U kunt definitiedetails van aanbiedingen op een pop-up kaart in de [!UICONTROL Offers] bibliotheek bekijken zonder de aanbieding te openen.
 
-De volgende aanbiedingsdefinitiekaart voor een HTML-aanbieding wordt bijvoorbeeld geopend door op het informatiepictogram te klikken:
+De volgende aanbiedingsdefinitiekaart voor een HTML-aanbieding is bijvoorbeeld toegankelijk door op het informatiepictogram te klikken:
 
 ![ aanbieding-kaart-html beeld ](assets/offer-card-html-new.png)
 
@@ -82,7 +82,7 @@ De volgende informatie is beschikbaar:
 
 Klik op de koppeling [!UICONTROL View Full Details] om de inhoud van de aanbieding en de activiteiten te bekijken die verwijzen naar een codeaanbieding. Op deze manier voorkomt u dat andere activiteiten worden beïnvloed tijdens het bewerken van aanbiedingen. Deze informatie omvat [!UICONTROL Live Activities] en [!UICONTROL Inactive Activities] .
 
-De beschikbare informatie op elke kaart varieert afhankelijk van het aanbiedingstype: HTML- Aanbieding, [ Fragmenten van de Ervaring ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [ Redirect Aanbieding ](/help/main/c-experiences/c-manage-content/offer-redirect.md), [ Verre Aanbieding ](/help/main/c-experiences/c-manage-content/about-remote-offers.md), of [ JSON Aanbiedingen ](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+De beschikbare informatie op elke kaart varieert afhankelijk van het aanbiedingstype: HTML-aanbod, [ Fragmenten van de Ervaring ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [ Redirect Aanbieding ](/help/main/c-experiences/c-manage-content/offer-redirect.md), [ Verre Aanbieding ](/help/main/c-experiences/c-manage-content/about-remote-offers.md), of [ JSON Aanbiedingen ](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 De functionaliteit voor details van de aanbieding is niet van toepassing op afbeeldingsaanbiedingen.
 
@@ -92,7 +92,7 @@ De functionaliteit voor details van de aanbieding is niet van toepassing op afbe
 
 This video includes information about managing offers.
 
-* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=nl-NL) and the Target Content Library 
+* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
 * Custom HTML Offers 
 * Custom HTML Offer in the [!UICONTROL Visual Experience Composer]
 

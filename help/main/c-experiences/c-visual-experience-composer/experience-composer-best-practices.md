@@ -376,7 +376,7 @@ Nadat u het beeld ruilt, kunt u niet Scene7 URL uitgeven.
 ### HTML-elementen met een externe bron kunnen niet worden bewerkt.
 
 +++Details
-Bijvoorbeeld: video, audiotags, insluiten, iFrames, frames.
+Bijvoorbeeld: video, audiotags, embed, iFrames, frames.
 
 +++
 

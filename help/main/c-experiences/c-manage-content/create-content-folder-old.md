@@ -1,7 +1,7 @@
 ---
 keywords: inhoud;map maken;middelen;map verplaatsen;map kopiëren;map verwijderen;map downloaden;map downloaden;map
 description: Hoe maak ik mappen in de bibliotheek met aanbiedingen?
-title: Leer hoe te om omslagen in de Adobe  [!DNL Target]  bibliotheek van Aanbiedingen tot stand te brengen om code en beeldaanbiedingen, evenals andere omslagen te houden.
+title: Leer hoe te om omslagen in de bibliotheek van Aanbiedingen van Adobe  [!DNL Target]  tot stand te brengen om code en beeldaanbiedingen, evenals andere omslagen te houden.
 feature: Experiences and Offers
 exl-id: 64d1a24a-5ce1-4f64-9ff2-1c2f13a112bb
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
@@ -42,7 +42,7 @@ Voor informatie over de taken kunt u op aanbiedingen en omslagen uitvoeren, zie 
 
    U kunt bijvoorbeeld het type inhoud opnemen dat wordt opgeslagen.
 
-   De naam mag niet de volgende tekens bevatten: Percent-teken `%`, Forward-slash `/`, Backslash `\`, Colon `:`, Asterisk `*`, Question-mark `?`, Double-quotes `"`, Square bracket `[`, Square bracket `]`, Plus-teken: `+`, Pipe: `|`, Period-teken: Number: `#`, accolade: `{`, accolade `}`, Caret `^` of puntkomma `;` . `.` In plaats van deze tekens kunt u een afbreekstreepje ( `- ` ) gebruiken.
+   De naam mag niet de volgende tekens bevatten: Percent-teken `%`, Forward-slash `/`, Backslash `\`, Colon `:`, Asterisk `*`, Question-mark `?`, Double-quotes `"`, Square bracket `[`, Square bracket `]`, Plus-teken: `+`, Pipe: `|`, Period-teken: Number: `.`, accolade: `#`, accolade `{`, Caret `}` of puntkomma `^` . `;` In plaats van deze tekens kunt u een afbreekstreepje ( `- ` ) gebruiken.
 
 1. (Optioneel) Bewerk de **[!UICONTROL Name]** .
 1. (Optioneel) Schakel het selectievakje **[!UICONTROL Private]** in.

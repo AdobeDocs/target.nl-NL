@@ -58,7 +58,7 @@ Het publiek bepaalt welke sitebezoekers worden ingevoerd in uw [!DNL Adobe Targe
 
 De volgende video&#39;s bevatten meer informatie over de concepten die in dit artikel worden besproken.
 
-### Het gebruiken van Soorten Soorten publiek in Adobe Target (6:21) ![ badge van het Overzicht ](/help/main/assets/overview.png)
+### Het gebruiken van Soorten publiek in Adobe Target (6 :21) ![ de badge van het Overzicht ](/help/main/assets/overview.png)
 
 In deze video wordt uitgelegd hoe u het publiek in [!DNL Target Standard/Premium] kunt gebruiken.
 
@@ -70,7 +70,7 @@ In deze video wordt uitgelegd hoe u het publiek in [!DNL Target Standard/Premium
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### Het Werkschema van de activiteit - het richten (2:14) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+### Het Werkschema van de activiteit - het richten (2 :14) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
 
 Deze video bevat informatie over het instellen van het publiek.
 

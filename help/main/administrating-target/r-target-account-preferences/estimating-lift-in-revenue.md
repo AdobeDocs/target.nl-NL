@@ -7,18 +7,18 @@ role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
 
 # Schatting van de inkomsten
 
-Gebruiken [!DNL Adobe Target] om de inkomstenverhoging te schatten u zou bereiken als alle gebruikers de winnende ervaring bekijken.
+Gebruik [!DNL Adobe Target] om een schatting te maken van de inkomstenverhoging die u zou bereiken als alle gebruikers de winnende ervaring bekijken.
 
 >[!NOTE]
 >
->Geschatte lift is niet beschikbaar voor [!UICONTROL Experience Targeting] (XT) activiteiten op dit moment.
+>Geschatte lift is momenteel niet beschikbaar voor [!UICONTROL Experience Targeting] (XT)-activiteiten.
 
 De functie voor het schatten van de lift is standaard uitgeschakeld. U kunt deze functie inschakelen in uw accountvoorkeuren. Alleen gebruikers van Experience Cloud Admin kunnen deze functie in- of uitschakelen. Als geschatte lift is uitgeschakeld, worden de bijbehorende velden niet weergegeven in de interface. Als u de functie uitschakelt, gaan er geen gegevens verloren, inclusief de gegevens die voor uw ramingen worden gebruikt. De schattingen zijn gebaseerd op gegevens die worden verzameld, ongeacht of de functie is ingeschakeld.
 
@@ -30,9 +30,9 @@ In deze schatting wordt de hoeveelheid lift berekend die door de winnende ervari
 
 De geraamde toename van de inkomsten wordt berekend op basis van de inkomsten per bezoek (RPV) die zijn verkregen uit de primaire doelstelling.
 
-De geschatte lift wordt berekend met behulp van de volgende formule: (&lt;winning experience=&quot;&quot; rpv=&quot;&quot;> - &lt;control experience=&quot;&quot; rpv=&quot;&quot; span=&quot;&quot; id=&quot;0&quot; translate=&quot;no&quot; />&lt;total number=&quot;&quot; of=&quot;&quot; visitors=&quot;&quot; in=&quot;&quot; the=&quot;&quot; activity=&quot;&quot;>&#42;
+De geschatte lift wordt berekend met behulp van de volgende formule: (&lt;winnende ervaring RPV> - &lt;controleervaring RPV&lt;) &#42;&lt;totaal aantal bezoekers in de activiteit>
 
-Het resulterende getal wordt afgerond tot op één decimaal (maximaal) als het versmalde formulier slechts één cijfer voor het decimaalteken heeft. Bijvoorbeeld: $ 1,6 MB, $ 60.000, $ 8,5.000, $ 205.000
+Het resulterende getal wordt afgerond tot op één decimaal (maximaal) als het versmalde formulier slechts één cijfer voor het decimaalteken heeft. Bijvoorbeeld: $1,6M, $60K, $900, $8,5K, $205K
 
 Als uw winnende ervaring bijvoorbeeld een lift van $0,59 weergeeft en uw ervaring met besturing een lift van $0,15 weergeeft, berekent de schatting een lift van $0,44 per bezoeker. Als je 75.000 bezoekers had, zou de resulterende lift in inkomsten $33.000 bedragen als alle bezoekers de winnende ervaring en de huidige trends zien voortduren.
 
@@ -44,6 +44,6 @@ De geraamde lift in het inkomstenveld wordt als &quot;—&quot; weergegeven onde
 * Als de geschatte waarde van metrisch niet op de metrische opstellingspagina is verstrekt
 * Als de best presterende ervaring de controle is
 
-Bij het instellen van de doelen van een activiteit, biedt het veld Geraamde waarde een waarde voor uw doel. Met deze waarde kan Target de geschatte lift in de inkomsten berekenen. Dit veld is facultatief; de incrementele inkomsten voor elke metrische waarde die geen inkomsten oplevert, kunnen echter niet zonder deze methode worden berekend. Het gegevenstype is currency. Dit veld wordt progressief weergegeven nadat de gebruiker de actie aangeeft die is ondernomen om het doel te bereiken.
+Bij het instellen van de doelen van een activiteit, biedt het veld Geraamde waarde een waarde voor uw doel. Met deze waarde kan Target de geschatte lift in de inkomsten berekenen. Dit veld is facultatief, maar incrementele inkomsten voor elke metrische waarde zonder inkomsten kunnen niet worden berekend. Het gegevenstype is currency. Dit veld wordt progressief weergegeven nadat de gebruiker de actie aangeeft die is ondernomen om het doel te bereiken.
 
 De geschatte inkomsten als 100% van de bezoekers de winnende ervaring zien verschijnen bij de bovenkant van uw rapporten van het Doel.

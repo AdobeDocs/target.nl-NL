@@ -29,7 +29,7 @@ De activiteit-URL bepaalt de pagina die in [!UICONTROL Multivariate Test] (MVT) 
 
    De extra regels kunnen op om het even welk van het volgende worden gebaseerd:
 
-   * [!UICONTROL &#x200B; URL]
+   * [!UICONTROL  URL]
    * [!UICONTROL Domain]
    * [!UICONTROL Path]
    * [!UICONTROL Hash (#) Fragment]

@@ -1,27 +1,27 @@
 ---
 keywords: AB;A/B;AB...n;fouten;fouten;fout;valkuil;significantie;winnaar;statistisch verschil;statistische macht;verkeersverdeling;toewijzing; toewijzing;
-description: Leer hoe u de meest voorkomende valkuilen en fouten die bedrijven maken bij het uitvoeren van A/B-tests in [!DNL Adobe Target] en andere testoplossingen.
+description: Leer hoe te om de gemeenschappelijkste valkuilen en fouten te vermijden die de bedrijven maken wanneer het uitvoeren van het testen A/B in  [!DNL Adobe Target]  en andere het testen oplossingen.
 title: Hoe vermijd ik vaak voorkomende fouten in A/B-tests?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
 source-git-commit: 271d5bd8730830dd58be33f88793f2bef2b8d211
 workflow-type: tm+mt
-source-wordcount: '3853'
+source-wordcount: '3933'
 ht-degree: 0%
 
 ---
 
 # Tien gemeenschappelijke A/B-testvalkuilen en hoe deze te vermijden
 
-A/B-tests [!DNL Adobe Target] vormt de ruggengraat van de meeste optimalisatieprogramma&#39;s voor digitale marketing en helpt marketers hun bezoekers en klanten geoptimaliseerde en gerichte ervaringen te bieden. In dit artikel worden tien van de belangrijkste valkuilen beschreven waar bedrijven bij het uitvoeren van A/B-tests op stuiten. Het omvat ook manieren om hen te vermijden, zodat kan uw bedrijf grotere ROI door zijn testende inspanningen bereiken en grotere vertrouwen in zijn gemelde resultaten van de A/B test hebben.
+A/B-tests in [!DNL Adobe Target] vormen de ruggengraat van de meeste optimalisatieprogramma&#39;s voor digitale marketing en helpen marketers hun bezoekers en klanten geoptimaliseerde en gerichte ervaringen te bieden. In dit artikel worden tien van de belangrijkste valkuilen beschreven waar bedrijven bij het uitvoeren van A/B-tests op stuiten. Het omvat ook manieren om hen te vermijden, zodat kan uw bedrijf grotere ROI door zijn testende inspanningen bereiken en grotere vertrouwen in zijn gemelde resultaten van de A/B test hebben.
 
 ## Pitfall 1: De effecten van het significantieniveau negeren {#section_55F5577A13C6470BA1417C2B735C6B1D}
 
-Hoe waarschijnlijk is het dat uw test een significant verschil in omrekeningskoers tussen twee aanbiedingen meldt, terwijl er in feite geen is? Dat is wat de *significantieniveau* van een test helpt bepalen. Dergelijke misleidende bevindingen worden vaak een vals positief genoemd, en in de wereld van statistieken, worden genoemd een fout van Type I (als u verkeerd de ongeldige hypothese verwerpt die waar is).
+Hoe waarschijnlijk is het dat uw test een significant verschil in omrekeningskoers tussen twee aanbiedingen meldt, terwijl er in feite geen is? Dat is wat het *significantieniveau* van een testhulp bepaalt. Dergelijke misleidende bevindingen worden vaak een vals positief genoemd, en in de wereld van statistieken, worden genoemd een fout van Type I (als u verkeerd de ongeldige hypothese verwerpt die waar is).
 
-Wanneer u het significantieniveau van een A/B test specificeert, maakt u een compromis tussen uw tolerantie voor het goedkeuren van dat één ervaring beter is dan andere wanneer het echt niet (fout Type I of &quot;vals positief&quot;) versus het zien van geen statistisch verschil tussen de ervaringen wanneer er werkelijk een ware verschil (fout Type II of &quot;vals negatief&quot;is) is. De *betrouwbaarheidsniveau* wordt bepaald voordat een test wordt uitgevoerd.
+Wanneer u het significantieniveau van een A/B test specificeert, maakt u een compromis tussen uw tolerantie voor het goedkeuren van dat één ervaring beter is dan andere wanneer het echt niet (fout Type I of &quot;vals positief&quot;) versus het zien van geen statistisch verschil tussen de ervaringen wanneer er werkelijk een ware verschil (fout Type II of &quot;vals negatief&quot;is) is. Het *vertrouwensniveau* wordt bepaald alvorens een test in werking wordt gesteld.
 
-De *betrouwbaarheidsinterval*, die wordt bepaald nadat een test is voltooid, wordt beïnvloed door drie sleutelfactoren:
+Het *betrouwbaarheidsinterval*, dat wordt bepaald nadat een test volledig is, wordt beïnvloed door drie zeer belangrijke factoren:
 
 * Monstergrootte van de test
 * Significantieniveau
@@ -29,7 +29,7 @@ De *betrouwbaarheidsinterval*, die wordt bepaald nadat een test is voltooid, wor
 
 Omdat de markeerstift het significantieniveau selecteerde voordat de test werd ontworpen en de standaardafwijking van de populatie niet kan worden beïnvloed, is de enige &quot;controleerbare&quot; factor de steekproefgrootte. De monstergrootte die nodig is voor een betrouwbaarheidsinterval waarmee u vertrouwd bent en de tijd die nodig is om die monstergrootte te bereiken, is een belangrijke beslissing die een markeerteken tijdens het testontwerp moet bepalen.
 
-Een andere rechtstreeks verwante term, de *betrouwbaarheidsniveau*, neemt meer een glazen halfvolledige benadering. In plaats van te verklaren hoe waarschijnlijk het is dat u een fout-positief krijgt, zoals het significantieniveau, geeft het betrouwbaarheidsniveau aan hoe waarschijnlijk het is dat uw test die fout niet maakt.
+Een andere direct verwante termijn, het *betrouwbaarheidsniveau*, neemt meer van een glas half-volledige benadering. In plaats van te verklaren hoe waarschijnlijk het is dat u een fout-positief krijgt, zoals het significantieniveau, geeft het betrouwbaarheidsniveau aan hoe waarschijnlijk het is dat uw test die fout niet maakt.
 
 Vertrouwensniveau en significantieniveau houden rechtstreeks verband met:
 
@@ -39,13 +39,13 @@ Bij A/B-tests gebruiken marketers vaak 95% betrouwbaarheidsniveaus. Op basis van
 
 Hoe meer tests u uitvoert, des te waarschijnlijker is dat ten minste een van deze tests resulteert in een fout-positief. Als u bijvoorbeeld 10 tests uitvoert met een betrouwbaarheidsniveau van 95%, is er ongeveer 40% kans dat u een of meer valse positieven detecteert (aangezien er geen echte lift is: Pr(ten minste één vals positief) = 1 - Pr(geen fout positieven) = 1 - 0,95^10 = 40%).
 
-![valkuilen1, afbeelding](assets/pitfalls1.png)
+![ valkuilen1 beeld ](assets/pitfalls1.png)
 
 In een marketingorganisatie is 95% doorgaans een redelijke verhouding tussen het risico van vals-positief en fout-negatief.
 
 Twee situaties verdienen echter de nodige aandacht voor het significantieniveau en de gevolgen ervan voor de testresultaten: segmentatie na de test en het testen van meerdere aanbiedingen.
 
-* **Segmentatie na test:** Marktdeelnemers segmenteren en dokken vaak de resultaten van een test op basis van bezoekerssegmenten nadat de A/B-test is beëindigd. Veelvoorkomende segmenten zijn browsertype, apparaattype, geografische gebieden, tijd van de dag en nieuwe bezoekers of bezoekers die het systeem retourneren. Deze praktijk, die als post-test segmentatie wordt bekend, verstrekt uitstekend inzicht in bezoekerssegmenten. Marktdeelnemers kunnen deze inzichten dan ook gebruiken om doelgerichtere, relevantere en gedifferentieerde inhoud te maken.
+* **de Segmentatie van de post-Test:** de Marketers segmenteren vaak en verduisteren de resultaten van een test die op bezoekerssegmenten wordt gebaseerd nadat de test A/B eindigt. Veelvoorkomende segmenten zijn browsertype, apparaattype, geografische gebieden, tijd van de dag en nieuwe bezoekers of bezoekers die het systeem retourneren. Deze praktijk, die als post-test segmentatie wordt bekend, verstrekt uitstekende insight in bezoekerssegmenten. Marktdeelnemers kunnen deze inzichten dan ook gebruiken om doelgerichtere, relevantere en gedifferentieerde inhoud te maken.
 
   Als er geen echt verschil is in de omrekeningskoers, telkens als u een segment test, is de waarschijnlijkheid van een vals positief gelijk aan het significantieniveau. En, zoals vermeld, hoe meer tests je uitvoert, hoe groter de kans dat je ten minste één fout-positief ervaart bij die tests. In wezen vertegenwoordigt elk segment na de test een afzonderlijke test. Met een significantieniveau van 5% valt u gemiddeld ten prooi aan één vals-positief telkens als u naar 20 posttestsegmenten kijkt. De bovenstaande grafiek laat zien hoe deze kans groter wordt.
 
@@ -53,9 +53,9 @@ Twee situaties verdienen echter de nodige aandacht voor het significantieniveau 
 
   Moet je segmentatie na de test niet uitvoeren? Neen, na de test zijn de segmenten waardevol. In plaats daarvan, om deze cumulatieve vals positieve kwestie met post-test segmentatie te vermijden, nadat u een post-test segment hebt geïdentificeerd, overweeg het testen in een nieuwe test. U kunt ook de Bonferroni-correctie toepassen, die hieronder wordt besproken.
 
-* **Meerdere aanbiedingen testen:** Marktdeelnemers testen vaak meer dan twee aanbiedingen (of ervaringen) tegen elkaar. Daarom zie je soms A/B testoplossingen genaamd A/B/n testen, waarbij n het aantal aanbiedingen is dat je tegelijkertijd test.
+* **het Testen Veelvoudige Aanbiedingen:** de Marktdeelnemers testen vaak meer dan twee aanbiedingen (of ervaringen) tegen elkaar. Daarom zie je soms A/B testoplossingen genaamd A/B/n testen, waarbij n het aantal aanbiedingen is dat je tegelijkertijd test.
 
-  Het is belangrijk om op te merken dat *elk* het onderzochte aanbod heeft een vals positief percentage dat gelijk is aan het significantieniveau, zoals hierboven beschreven. Opnieuw, stelt u effectief veelvoudige tests in werking wanneer verscheidene aanbiedingen tegen elkaar binnen één enkele testmilieu worden goedgekeurd. Bijvoorbeeld, als u vijf aanbiedingen in een test A/B/C/D/E vergelijkt, in feite vormt u vier vergelijkingen: controle aan B, controle aan C, controle aan D, controle aan E. Met een betrouwbaarheidsniveau van 95%, in plaats van de 5% waarschijnlijkheid van een vals positief, hebt u eigenlijk 18,5%.
+  Het is belangrijk om op te merken dat *elke* geteste aanbieding een vals positief tarief gelijk aan het significantieniveau heeft, zoals hierboven beschreven. Opnieuw, stelt u effectief veelvoudige tests in werking wanneer verscheidene aanbiedingen tegen elkaar binnen één enkele testmilieu worden goedgekeurd. Bijvoorbeeld, als u vijf aanbiedingen in een test A/B/C/D/E vergelijkt, in feite vormt u vier vergelijkingen: controle aan B, controle aan C, controle aan D, controle aan E. Met een betrouwbaarheidsniveau van 95%, in plaats van de 5% waarschijnlijkheid van een vals positief, hebt u eigenlijk 18,5%.
 
   Als u uw totale betrouwbaarheid op 95% wilt houden en dit probleem wilt vermijden, past u de zogenaamde Bonferroni-correctie toe. Met deze correctie verdeelt u eenvoudig het significantieniveau door het aantal vergelijkingen om het significantieniveau te bereiken dat u een betrouwbaarheidsniveau van 95% moet bereiken.
 
@@ -65,7 +65,7 @@ Twee situaties verdienen echter de nodige aandacht voor het significantieniveau 
 
 Bij het testen van meerdere aanbiedingen verklaren marketeers vaak het aanbod met de hoogste lift als testwinnaar, hoewel er geen statistisch significant verschil is tussen de winnaar en de runner-up. Deze situatie doet zich voor wanneer het verschil tussen de alternatieven kleiner is dan het verschil tussen de alternatieven en de controle. In de onderstaande afbeelding ziet u dit concept, waarbij de zwarte foutenbalken een betrouwbaarheidsinterval van 95% vertegenwoordigen. De ware lift voor elke aanbieding met betrekking tot de controleaanbieding is 95% waarschijnlijk inbegrepen binnen het betrouwbaarheidsinterval-de waaier die door de foutenbars wordt getoond.
 
-![valkuilen2, afbeelding](assets/pitfalls2.png)
+![ pitfall2 beeld ](assets/pitfalls2.png)
 
 Aanbiedingen A en B hebben de hoogste waargenomen lift tijdens de test, en het zou onwaarschijnlijk zijn dat aanbieding C die aanbiedingen in een toekomstige test zou overtreffen, omdat het betrouwbaarheidsinterval van C niet overlapt met de betrouwbaarheidsintervallen van A of B. Hoewel aanbod A tijdens de test de hoogst waargenomen lift heeft, is het mogelijk dat aanbod B in een toekomstige test beter zou kunnen presteren omdat de betrouwbaarheidsintervallen elkaar overlappen.
 
@@ -73,7 +73,7 @@ De afstoting hier is dat zowel A als B als winnaars van de test moeten worden be
 
 Doorgaans is het niet haalbaar om de test lang genoeg uit te voeren om de werkelijke relatieve prestaties van de alternatieven te identificeren. Vaak is het verschil in prestaties tussen de alternatieven te klein om de conversiesnelheid aanzienlijk te beïnvloeden. In dergelijke gevallen, kunt u het resultaat als tijd interpreteren en andere overwegingen, zoals strategie of groepering met andere elementen van de pagina gebruiken, om te bepalen welke aanbieding om uit te voeren. Met meerdere tests moet u openstaan voor meerdere winnaars, waardoor soms aanzienlijk de mogelijkheden worden geopend voor het ontwikkelen van uw website.
 
-Als je het voorstel wilt identificeren met de hoogste conversiekoers, vergelijkt je alle aanbiedingen met elk ander voorstel. In het bovenstaande voorbeeld hebt u n = 5 aanbiedingen—u moet n(n-1)/2 vergelijkingen maken, of 5&#42;(5-1)/2 = 10 vergelijkingen. In dit geval vereist de Bonferroni-correctie dat het significantieniveau van de test 5%/10 = 0,5% is, wat overeenkomt met een betrouwbaarheidsniveau van 99,5%. Een dergelijk hoog betrouwbaarheidsniveau kan echter vereisen dat u de test gedurende een onredelijk lange periode uitvoert.
+Als je het voorstel wilt identificeren met de hoogste conversiekoers, vergelijkt je alle aanbiedingen met elk ander voorstel. In het voorbeeld hierboven, hebt u n = 5 aanbiedingen-u n(n-1)/2 vergelijkingen moet maken, of 5 &#42; (5-1)/2 = 10 vergelijkingen. In dit geval vereist de Bonferroni-correctie dat het significantieniveau van de test 5%/10 = 0,5% is, wat overeenkomt met een betrouwbaarheidsniveau van 99,5%. Een dergelijk hoog betrouwbaarheidsniveau kan echter vereisen dat u de test gedurende een onredelijk lange periode uitvoert.
 
 ## Pitfall 3: De effecten van statistische kracht negeren {#section_0D517079B7D547CCAA75F80981CBE12A}
 
@@ -83,7 +83,7 @@ Er zijn twee sleutelfactoren die de macht van een test bepalen. Ten eerste is de
 
 De huidige marketeers hebben een opmerkelijk aantal tests onder de macht. Met andere woorden, ze gebruiken een te kleine voorbeeldgrootte. Dat betekent dat ze een kleine kans hebben om echte positieve effecten op te sporen, zelfs als er daadwerkelijk een aanzienlijk verschil in omrekeningskoers bestaat. In feite, als je voortdurend ondergedreven tests uitvoert, kan het aantal valse positieven vergelijkbaar zijn met, of zelfs domineren, het aantal echte positieven. Dit leidt vaak tot het doorvoeren van neutrale veranderingen in een locatie (tijdverspilling) of tot veranderingen die de omrekeningskoersen feitelijk verlagen.
 
-![valkuilen3, afbeelding](assets/pitfalls3.png)
+![ pitfall3 beeld ](assets/pitfalls3.png)
 
 Houd er rekening mee dat een standaardstandaard voor een goed gemotoriseerde test een betrouwbaarheidsniveau van 95% en een statistisch vermogen van 80% bevat om te voorkomen dat de test ondergeschikt wordt gemaakt. Een dergelijke test biedt een waarschijnlijkheid van 95% dat u vals positief en een waarschijnlijkheid van 80% vermijdt dat u vals negatief voorkomt.
 
@@ -91,9 +91,9 @@ Houd er rekening mee dat een standaardstandaard voor een goed gemotoriseerde tes
 
 Eenzijdige tests vereisen een kleiner waargenomen verschil in omrekeningskoersen tussen de aanbiedingen om een winnaar op een bepaald significant niveau te bellen. Dit type test lijkt aantrekkelijk omdat winnaars eerder en vaker kunnen worden opgeroepen dan wanneer twee-tailed tests worden uitgevoerd. Maar in overeenstemming met het gezegde &quot;Er is geen vrije lunch,&quot; komen eenzijdige tests ten koste van elkaar.
 
-Bij een eenzijdige test test test je of aanbod B beter is dan aanbod A. De richting van de test moet worden bepaald voordat de test begint, of a priori in de vorm van statistieken. Met andere woorden, u moet besluiten of B beter is dan A of A dan B *voor* het starten van de test. Als u echter naar de resultaten van de A/B-test kijkt en ziet dat B het beter doet dan A en *dan* U besluit om een eenzijdige test uit te voeren om te zien of dat verschil statistisch significant is, u schendt de veronderstellingen achter de statistische test. Als u de aannames van de test overtreedt, zijn de betrouwbaarheidsintervallen onbetrouwbaar en heeft de test een hogere fout-positieve snelheid dan u zou verwachten.
+Bij een eenzijdige test test test je of aanbod B beter is dan aanbod A. De richting van de test moet worden bepaald voordat de test begint, of a priori in de vorm van statistieken. Met andere woorden, moet u besluiten of om voor B te testen die beter is dan A of A dan B *zijn alvorens* de test in werking te stellen. Nochtans, als u de resultaten van de test A/B bekijkt en ziet dat B beter doet dan A en *dan* besluit om een eenzijdige test te doen om te zien of dat verschil statistisch significant is, overtreedt u de veronderstellingen achter de statistische test. Als u de aannames van de test overtreedt, zijn de betrouwbaarheidsintervallen onbetrouwbaar en heeft de test een hogere fout-positieve snelheid dan u zou verwachten.
 
-U zou een eenzijdige test kunnen zien als een voorstel voor een proces bij een rechter die zijn of haar mening al heeft bepaald. In een eenzijdige test heb je al besloten wat het winnende aanbod is en wil je het bewijzen, in plaats van elke ervaring een gelijke kans te geven om zichzelf als winnaar te bewijzen. Eenzijdige tests mogen alleen worden gebruikt in de zeldzame situaties waarin u alleen maar geïnteresseerd bent in de vraag of een aanbod beter is dan het andere en niet andersom. Om het probleem van de eenzijdige test te vermijden, gebruikt u een A/B-testoplossing waarbij altijd twee-staarttests worden gebruikt, zoals [!DNL Adobe Target].
+U zou een eenzijdige test kunnen zien als een voorstel voor een proces bij een rechter die zijn of haar mening al heeft bepaald. In een eenzijdige test heb je al besloten wat het winnende aanbod is en wil je het bewijzen, in plaats van elke ervaring een gelijke kans te geven om zichzelf als winnaar te bewijzen. Eenzijdige tests mogen alleen worden gebruikt in de zeldzame situaties waarin u alleen maar geïnteresseerd bent in de vraag of een aanbod beter is dan het andere en niet andersom. Om het probleem van de eenzijdige test te vermijden, gebruikt u een A/B-testoplossing die altijd tweetalige tests gebruikt, zoals [!DNL Adobe Target] .
 
 ## Pitfall 5: Bewakingstests {#section_EA42F8D5967B439284D863C46706A1BA}
 
@@ -115,7 +115,7 @@ Het is verleidelijk om een test stop te zetten als een van de aanbiedingen in de
 
 In de onderstaande afbeelding worden vijf aanbiedingen met dezelfde lange conversiekoers weergegeven. Aanbieding B had een slechte conversiekoers voor de eerste 2.000 bezoekers, en het duurt lang voordat de geschatte conversiekoers terugkeert naar de ware langetermijnrente.
 
-![valkuilen4-afbeelding](assets/pitfalls4.png)
+![ valken4 beeld ](assets/pitfalls4.png)
 
 Dit fenomeen staat bekend als &quot;regressie tot het gemiddelde&quot; en kan tot teleurstelling leiden wanneer een aanbod dat goed heeft gepresteerd tijdens de eerste dagen van een test, dit prestatieniveau uiteindelijk niet op peil houdt. Het kan ook tot inkomstenderving leiden wanneer een goed aanbod niet wordt uitgevoerd omdat het toevallig in de vroege dagen van een test onderpresteerde.
 
@@ -153,7 +153,7 @@ Dergelijke aanbiedingen zetten bezoekers ertoe aan zich sneller om te zetten en 
 
 In de onderstaande afbeelding ziet u twee aanbiedingen die twee verschillende bezoekers tegelijkertijd op een zondagmiddag zien. De bezwaarperiode voor aanbieding A is kort, en de bezoeker zet later die dag om. Aanbod B heeft echter een langere bezwaartermijn, en de bezoeker die aanbod B zag, denkt over het aanbod voor een tijdje en eindigt op maandagochtend omschakelt. Als u de test Zondagavond tegenhoudt, wordt de omzetting verbonden aan aanbieding A geteld in aanbod A&#39;s omzettings metrische meting, terwijl de omzetting verbonden aan aanbieding B niet in aanbod B wordt geteld omzettingsmetrisch. Dit brengt een aanzienlijk nadeel met zich mee voor aanbod B.
 
-![valkuilen5-afbeelding](assets/pitfalls5.png)
+![ pitfall5 beeld ](assets/pitfalls5.png)
 
 Om deze valhoogte te voorkomen, moet bezoekers die aan de testaanbiedingen zijn blootgesteld enige tijd de tijd krijgen om zich om te zetten nadat een nieuwe testvermelding is gestopt. Deze stap geeft u een eerlijke vergelijking van de aanbiedingen.
 
@@ -161,11 +161,11 @@ Om deze valhoogte te voorkomen, moet bezoekers die aan de testaanbiedingen zijn 
 
 Marketers zouden geneigd kunnen zijn om hoge en lage veranderingsmetriek in de hogere trechter, zoals klik-door tarief (CTR) te gebruiken, om een adequaat aantal testomzettingen sneller te bereiken. Nochtans, denk zorgvuldig na of CTR een adequate volmacht voor het bedrijfsdoel is dat u wilt bereiken. Aanbiedingen met hogere CTR&#39;s kunnen gemakkelijk tot lagere inkomsten leiden. Dit kan gebeuren wanneer aanbiedingen bezoekers aantrekken met een lagere koopneiging, of wanneer het aanbod zelf, bijvoorbeeld, een kortingsaanbod-eenvoudig leidt tot lagere inkomsten.
 
-![valkuilen6-afbeelding](assets/pitfalls6.png)
+![ valkena6 beeld ](assets/pitfalls6.png)
 
 Bekijk de onderstaande aanbieding voor skiën. Het genereert een hogere CTR dan het fietsaanbod, maar omdat bezoekers gemiddeld meer geld uitgeven wanneer ze het fietsaanbod volgen, zijn de verwachte inkomsten van het plaatsen van het fietsaanbod voor een bepaalde bezoeker hoger. Daarom zou een A/B test met CTR als metrisch een aanbod kiezen dat geen opbrengst maximaliseert, wat de fundamentele bedrijfsdoelstelling zou kunnen zijn.
 
-![valkuilen7, afbeelding](assets/pitfalls7.png)
+![ beeld 0} pitfall7.](assets/pitfalls7.png)
 
 Om deze kwestie te vermijden, controleer uw bedrijfsmetriek zorgvuldig om het bedrijfseffect van de aanbiedingen te identificeren, of beter nog, gebruik metrisch die dichter aan uw bedrijfsdoel is, indien mogelijk.
 

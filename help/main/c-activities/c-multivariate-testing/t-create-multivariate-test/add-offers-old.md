@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Gebruik [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] om de aanbiedingen te maken die u in uw [!UICONTROL Multivariate Test] (MVT) wilt opnemen.
 
-Voor meer informatie over het gebruiken van VEC om aanbiedingen tot stand te brengen en uit te geven, zie {de opties van Composer van de 1} Visuele Ervaring.[&#128279;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
+Voor meer informatie over het gebruiken van VEC om aanbiedingen tot stand te brengen en uit te geven, zie {de opties van Composer van de 1} Visuele Ervaring.[](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
 
 >[!NOTE]
 >
@@ -37,15 +37,15 @@ Test meerdere afbeeldingen die op een bepaalde locatie beschikbaar zijn om te be
 
 Elke afbeelding wordt een aparte ervaring op die locatie.
 
-## HTML biedt {#section_DF016101AFA9412C9B99862C23DE77B1}
+## HTML-aanbiedingen {#section_DF016101AFA9412C9B99862C23DE77B1}
 
 Test meerdere Text/HTML-aanbiedingen binnen een locatie om te bepalen welke aanbieding het meest succesvol is.
 
-1. Klik op een aanbod voor tekst/HTML op de pagina en klik vervolgens op **[!UICONTROL Change Text/HTML]** .
+1. Klik op een Text/HTML-aanbieding op uw pagina en klik vervolgens op **[!UICONTROL Change Text/HTML]** .
 
-   ![ de Tekst/HTML van de Verandering ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changehtml.png)
+   ![ de Tekst van de Verandering/HTML ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changehtml.png)
 
-1. Klik op **[!UICONTROL Add Text/HTML Offer]**, geef een naam op voor de aanbieding en typ of plak de code voor de aanbieding voor tekst/HTML.
+1. Klik op **[!UICONTROL Add Text/HTML Offer]**, geef een naam op voor de aanbieding en typ of plak de code voor de aanbieding voor Text/HTML.
 
    ![ geef aanbiedingen ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png) uit
 

@@ -27,7 +27,7 @@ Voor extra detail over ervaringen, zie [ Ervaringen ](/help/main/c-experiences/e
 
    Als u een [!DNL Target] -aanvraag op de pagina hebt gemaakt met [!DNL Target Classic] (voorheen [!DNL Test&Target] ), wordt die [!DNL Target] -aanvraag weergegeven als een element met de naam van de aanvraag. Deze aanvraag kan net als elk ander element worden gewijzigd.
 
-   Voor een lijst van acties die op een element op de getoonde pagina kunnen worden uitgevoerd om de ervaring te veranderen, zie {de Opties van Composer van de 1} Visuele Ervaring.[&#128279;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
+   Voor een lijst van acties die op een element op de getoonde pagina kunnen worden uitgevoerd om de ervaring te veranderen, zie {de Opties van Composer van de 1} Visuele Ervaring.[](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
 
    >[!NOTE]
    >

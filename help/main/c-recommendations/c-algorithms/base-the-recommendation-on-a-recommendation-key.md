@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # De aanbeveling baseren op een aanbevelingen
 
-Recommendations op basis van algoritmen gebruikt de context van het bezoekersgedrag om relevante resultaten in [!DNL Adobe Target] [!DNL Recommendations] -activiteiten weer te geven.
+Aanbevelingen op basis van algoritmen gebruiken de context van het gedrag van de bezoeker om relevante resultaten in [!DNL Adobe Target] [!DNL Recommendations] -activiteiten weer te geven.
 
 Elk type algoritme verstrekt verschillende algoritmen aangewezen voor zijn type, zoals aangetoond in de volgende lijst:
 
@@ -34,7 +34,7 @@ Verschillende aanbevelingen voor algoritmen kunnen op verschillende typen pagina
 
 ## Op basis van winkelwagentje {#cart-based}
 
-Met het algoritme [!UICONTROL Cart-Based] kunt u items aanbevelen op basis van de inhoud van het huidige winkelwagentje van de bezoeker. De aanbevelingssleutels worden geleverd door [ mbox parameter `cartIds` ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank}  in komma-gescheiden waarden. Alleen de eerste tien waarden worden in aanmerking genomen.
+Met het algoritme [!UICONTROL Cart-Based] kunt u items aanbevelen op basis van de inhoud van het huidige winkelwagentje van de bezoeker. De aanbevelingssleutels worden geleverd door [ mbox parameter `cartIds` ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} in komma-gescheiden waarden. Alleen de eerste tien waarden worden in aanmerking genomen.
 
 De op kunst-gebaseerde aanbeveling logica is gelijkaardig aan &quot;[!UICONTROL Recommended For You]&quot;op gebruiker-gebaseerd algoritme en aan &quot;[!UICONTROL People Who Viewed These, Bought Those]&quot;en &quot;[!UICONTROL People Who Bought These, Bought Those]&quot;op punt-gebaseerde algoritmen.
 
@@ -62,7 +62,7 @@ Deze logica retourneert andere producten die worden weergegeven na het bekijken 
 
 Met deze logica kunt u aanvullende conversiemogelijkheden creëren door items aan te bevelen die andere bezoekers die een item hebben bekeken, ook hebben weergegeven. Bezoekers die op uw site fietsen bekijken, kunnen bijvoorbeeld ook fietshelmen, fietskits, sloten enzovoort bekijken. U kunt een aanbeveling tot stand brengen gebruikend deze logica die andere producten aanbeveelt u helpen opbrengst verhogen.
 
-Als u dit algoritme selecteert, kunt u de volgende Recommendations-toetsen selecteren:
+Als u dit algoritme selecteert, kunt u de volgende toetsen voor Aanbevelingen selecteren:
 
 * [!UICONTROL Current Item]
 * [!UICONTROL Last Purchased Item]
@@ -77,7 +77,7 @@ Deze logica retourneert andere producten die mensen hebben gekocht na het bekijk
 
 Met deze logica kunt u de mogelijkheden voor cross-selling vergroten door bijvoorbeeld een aanbeveling weer te geven op een productpagina die items weergeeft die andere bezoekers hebben bekeken die het object hebben aangeschaft. Als de bezoeker bijvoorbeeld een vispool bekijkt, kan de aanbeveling extra items weergeven die andere bezoekers hebben aangeschaft, zoals hakbalken, golven en blaasjes. Wanneer bezoekers door uw site bladeren, geeft u hun aanvullende aankoopaanbevelingen.
 
-Als u dit algoritme selecteert, kunt u de volgende Recommendations-toetsen selecteren:
+Als u dit algoritme selecteert, kunt u de volgende toetsen voor Aanbevelingen selecteren:
 
 * [!UICONTROL Current Item]
 * [!UICONTROL Last Purchased Item]
@@ -92,7 +92,7 @@ Deze logica retourneert andere producten die mensen hebben gekocht na deze aanko
 
 Met deze logica kunt u de mogelijkheden voor cross-selling vergroten door bijvoorbeeld een aanbeveling weer te geven op een overzichtspagina van winkelwagentjes waarin objecten worden weergegeven die andere kopers ook hebben gekocht. Als de bezoeker bijvoorbeeld een pak koopt, kan de aanbeveling extra artikelen weergeven die andere bezoekers samen met het pak hebben gekocht, zoals bijvoorbeeld banden, jurkschoenen en knipsels. Wanneer bezoekers hun aankopen bekijken, geeft u aanvullende aanbevelingen aan hen.
 
-Als u dit algoritme selecteert, kunt u de volgende Recommendations-toetsen selecteren:
+Als u dit algoritme selecteert, kunt u de volgende toetsen voor Aanbevelingen selecteren:
 
 * [!UICONTROL Current Item]
 * [!UICONTROL Last Purchased Item]
@@ -132,7 +132,7 @@ Als u bijvoorbeeld categorie A en vervolgens categorie B in één sessie weergee
 
 Gebruik dit algoritme op algemene pagina&#39;s, zoals startpagina&#39;s of bestemmingspagina&#39;s en offsite advertenties.
 
-Als u het algoritme Meest bekeken door Categorie selecteert, kunt u de volgende Sleutels van Recommendations selecteren:
+Als u het algoritme Meest bekeken door Categorie selecteert, kunt u de volgende Sleutels van Aanbevelingen selecteren:
 
 * [!UICONTROL Current Category]
 * [!UICONTROL Favorite Category]
@@ -303,7 +303,7 @@ Wanneer u aanbevelingen baseert op douanekenmerken, moet u het douanekenmerk sel
 
 U kunt filter in real time bovenop uw eigen output van douanecriteria uitvoeren. U kunt bijvoorbeeld de aanbevolen objecten beperken tot objecten van de favoriete rubriek of het favoriete merk van een bezoeker. Dit geeft u de macht om off-line berekeningen met het filtreren in real time te combineren.
 
-Deze functionaliteit houdt in dat u met [!DNL Target] personalisatie kunt toevoegen boven op uw offline berekende aanbevelingen of lijsten met aangepaste cursisten. Dit combineert de kracht van uw gegevenswetenschappers en onderzoek met de beproefde levering van de Adobe, runtime het filtreren, het testen A/B, het richten, het melden, de integratie, en meer.
+Deze functionaliteit houdt in dat u met [!DNL Target] personalisatie kunt toevoegen boven op uw offline berekende aanbevelingen of lijsten met aangepaste cursisten. Dit combineert de kracht van uw gegevenswetenschappers en onderzoek met de beproefde levering van Adobe, runtime het filtreren, A/B het testen, het richten, het melden, de integratie, en meer.
 
 Met toevoeging van inclusieregels op [!UICONTROL Custom Criteria], verandert dit anders statische aanbevelingen in dynamische aanbevelingen gebaseerd op de belangen van een bezoeker.
 
@@ -324,7 +324,7 @@ De volgende aanbevelingen zijn beschikbaar in de vervolgkeuzelijst [!UICONTROL R
 
 De aanbeveling wordt bepaald door het item dat de bezoeker momenteel bekijkt.
 
-Recommendations geeft andere objecten weer die bezoekers kunnen interesseren voor het opgegeven object.
+De aanbevelingen tonen andere punten die bezoekers zouden kunnen interesseren die in het gespecificeerde punt geïnteresseerd zijn.
 
 Als deze optie is geselecteerd, moet de waarde `entity.id` als parameter in het weergavevak worden doorgegeven.
 
@@ -408,7 +408,7 @@ Deze advisesleutel kan met de volgende algoritmen worden gebruikt:
 
 De aanbeveling wordt bepaald door de productcategorie die de bezoeker momenteel bekijkt.
 
-Recommendations geeft objecten weer in de opgegeven productcategorie.
+Aanbevelingen geven items weer in de opgegeven productcategorie.
 
 Als deze optie is geselecteerd, moet de waarde `entity.categoryId` als parameter aan de weergavekader worden doorgegeven.
 
@@ -426,7 +426,7 @@ Gebruik de toets [!UICONTROL Current Category] recommendations op uw site op:
 
 De aanbeveling wordt bepaald door de favoriete productcategorie van de bezoeker.
 
-Recommendations geeft objecten weer in de opgegeven productcategorie.
+Aanbevelingen geven items weer in de opgegeven productcategorie.
 
 Als deze optie is geselecteerd, moet de waarde `entity.categoryId` als parameter aan de weergavekader worden doorgegeven.
 
@@ -446,7 +446,7 @@ Aanbevolen items op basis van de zekerheid van een relatie tussen items. U kunt 
 
 Bijvoorbeeld, als u een zeer sterke affiniteit plaatst en uw ontwerp vijf punten omvat, waarvan drie aan de sterkte van verbindingsdrempel voldoen, worden de twee punten die niet aan de minimumsterktevereisten voldoen niet getoond in uw aanbevelingen en door uw bepaalde reservepunten vervangen. De items met de sterkste affiniteit worden eerst weergegeven.
 
-Een online detailhandelaar kan bijvoorbeeld items in volgende bezoeken aanbevelen die een bezoeker in de afgelopen sessies interesseert. De activiteit voor elke sessie van de bezoeker wordt vastgelegd om een affiniteit te berekenen op basis van een recentiemodel en een frequentiemodel. Wanneer deze bezoeker terugkeert naar uw site, wordt de affiniteit van de site gebruikt om aanbevelingen weer te geven op basis van eerdere acties op uw site.
+Een online retailer kan bijvoorbeeld items in volgende bezoeken aanbevelen die een bezoeker in de afgelopen sessies heeft willen zien. De activiteit voor elke sessie van de bezoeker wordt vastgelegd om een affiniteit te berekenen op basis van een recentiemodel en een frequentiemodel. Wanneer deze bezoeker terugkeert naar uw site, wordt de affiniteit van de site gebruikt om aanbevelingen weer te geven op basis van eerdere acties op uw site.
 
 Sommige klanten met diverse productinzamelingen en diverse plaatsgedrag zouden de beste resultaten kunnen krijgen als zij een zwakke plaatsaffiniteit plaatsen.
 

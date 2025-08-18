@@ -2,7 +2,7 @@
 keywords: geautomatiseerde personalisatie;aanbieding;rapportering;groep;rapporteringsgroep;ap
 description: Leer hoe te om aanbiedingsrapportgroepen in  [!DNL Adobe Target] [!UICONTROL Automated Personalization] activiteiten te gebruiken.
 title: Kan ik rapportagegroepen voorstellen gebruiken bij [!UICONTROL Automated Personalization] -activiteiten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
@@ -33,7 +33,7 @@ Deze aanpak werkt goed als bezoekers op dezelfde manier reageren op alle aanbied
 
 ## Rapportgroepen instellen
 
-1. Klik op het pictogram **[!UICONTROL Manage Content]** op de pagina **[!UICONTROL Experiences]** van een AP-activiteit.
+1. Klik op het pictogram **[!UICONTROL Experiences]** op de pagina **[!UICONTROL Manage Content]** van een AP-activiteit.
 
    ![ beheer het pictogram van de Inhoud ](/help/main/c-reports/assets/ap_manage_content.png)
 

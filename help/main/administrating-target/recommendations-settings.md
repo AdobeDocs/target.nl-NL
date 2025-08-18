@@ -2,7 +2,7 @@
 keywords: aanbevelingen;voer aanbevelingen uit;cliëntcode;authentificatietoken;industrie verticaal;filter onverenigbaar wijze;standaard gastheergroep;duimnagelbasis;produceer authentificatietoken;authentificatietoken;
 description: Leer hoe vorm montages voor  [!DNL Adobe Target Recommendations].
 title: Hoe vorm ik de montages voor Aanbevelingen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Administration & Configuration
 role: Admin
 exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
@@ -31,4 +31,4 @@ U kunt de volgende instellingen configureren:
 * De basis-URL van de miniatuur opgeven
 * Aangepaste kenmerksleutels configureren
 
-Voor gedetailleerde informatie, zie [ Plan en voer Aanbevelingen ](https://experienceleague.adobe.com/nl/docs/target-dev/developer/recommendations){target=_blank}  in de **[!DNL Adobe Target]Gids van de Ontwikkelaar** uit.
+Voor gedetailleerde informatie, zie [ Plan en voer Aanbevelingen ](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} in de **[!DNL Adobe Target]Gids van de Ontwikkelaar** uit.

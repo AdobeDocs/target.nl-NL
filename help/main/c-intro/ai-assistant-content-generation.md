@@ -3,7 +3,7 @@ keywords: ai assistent;kunstmatige intelligentieassistent;content genereren;cont
 description: Leer hoe te om het aanhalen inhoud met  [!DNL AI Assistant] te produceren.
 title: Hoe gebruik ik  [!DNL AI Assistant]  in  [!DNL Target]  om het in dienst nemen van inhoud te produceren?
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
@@ -59,7 +59,7 @@ U kunt als volgt aansprekende tekst genereren met [!DNL AI Assistant] :
 
    * **Toon**: De toon van uw tekst zou met uw publiek moeten resoneren. Of u nu informatief, opwindend, speels of overtuigend wilt klinken, [!DNL AI Assistant] kan het bericht dienovereenkomstig aanpassen.
 
-     De volgende opties zijn beschikbaar: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] en [!UICONTROL Conversational] .
+     De volgende opties zijn beschikbaar: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] en [!UICONTROL Conversational] .
 
 1. Gebruik de schuifregelaar om te bepalen hoe lang de tekst moet duren, van korter tot langer.
 
@@ -100,4 +100,4 @@ De volgende aanwijzingen en variaties tonen de kracht van [!DNL AI Assistant].
 
 ### Inhoud maken met de AI-assistent voor het genereren van inhoud
 
->[!VIDEO](https://video.tv.adobe.com/v/3434641/?learn=on&captions=dut">https://video.tv.adobe.com/v/3434641/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)

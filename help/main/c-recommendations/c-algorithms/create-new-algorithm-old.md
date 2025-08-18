@@ -1,8 +1,8 @@
 ---
 keywords: criteria;algoritme;industrie verticaal;paginatype;aanbeveling sleutel;logica;gegevenswaaier;gegevenswaaier;lookback venster;gedraggegevensbron;gedeeltelijk ontwerp;steun aanbevelingen;opnameregels;opnameregels;attribuut weging;huidige categorie;laatst gekocht punt;laatst bekeken punt;het meest bekeken punt;meest bekeken punt;favoriete categorie;populariteit;onlangs bekeken punt;laatst bekeken punt;laatst bekeken punt;laatst bekeken;meest bekeken;favoriet;onlangs bekeken
 description: Leer hoe u criteria maakt die de inhoud van uw Adobe Recommendations-activiteiten bepalen om de aanbevelingen weer te geven die het meest geschikt zijn voor uw activiteiten.
-title: Hoe kan ik criteria maken in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+title: Hoe maak ik criteria in aanbevelingen?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -23,8 +23,8 @@ In de volgende secties wordt uitgelegd hoe u nieuwe criteria kunt maken.
 Er zijn meerdere manieren om het [!UICONTROL Create New Criteria] -scherm te bereiken. Sommige schermopties variëren afhankelijk van de manier waarop u het scherm bereikt.
 
 * Klik in het scherm **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** Bibliotheek op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** . De criteria die u hier maakt, worden automatisch beschikbaar gesteld voor alle [!DNL Recommendations] -activiteiten.
-* Wanneer u een [!DNL Recommendations] -activiteit maakt met behulp van [!UICONTROL Visual Experience Composer] (VEC), wordt u direct naar het [!UICONTROL Select Criteria] -scherm geleid nadat u een element op de pagina hebt geselecteerd en op [!UICONTROL Replace w/ Recommendations] , [!UICONTROL Insert Recommendations Before] of [!UICONTROL Insert Recommendations After] hebt geklikt. U kunt vervolgens een beschikbare criteria selecteren of op **[!UICONTROL Create Criteria]** klikken. Als u nieuwe criteria maakt, kunt u uw criteria opslaan voor gebruik met andere [!DNL Recommendations] -activiteiten. Voor meer informatie, zie [ een activiteit van Recommendations ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) creëren.
-* Wanneer u een [!DNL Recommendations] -activiteit bewerkt, klikt u in een [!UICONTROL Recommendations Location] -vak op de pagina en selecteert u **[!UICONTROL Change Criteria]** . Klik op **[!UICONTROL Create Criteria]** in het [!UICONTROL Select Criteria] -scherm. U kunt de nieuwe criteria opslaan voor gebruik met andere [!DNL Recommendations] -activiteiten.
+* Wanneer u een [!DNL Recommendations] -activiteit maakt met behulp van [!UICONTROL Visual Experience Composer] (VEC), wordt u direct naar het [!UICONTROL Select Criteria] -scherm geleid nadat u een element op de pagina hebt geselecteerd en op [!UICONTROL Replace w/ Recommendations] , [!UICONTROL Insert Recommendations Before] of [!UICONTROL Insert Recommendations After] hebt geklikt. U kunt vervolgens een beschikbare criteria selecteren of op **[!UICONTROL Create Criteria]** klikken. Als u nieuwe criteria maakt, kunt u uw criteria opslaan voor gebruik met andere [!DNL Recommendations] -activiteiten. Voor meer informatie, zie [ een activiteit van Aanbevelingen ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) creëren.
+* Wanneer u een [!DNL Recommendations] -activiteit bewerkt, klikt u in een [!UICONTROL Recommendations Location] -vak op de pagina en selecteert u **[!UICONTROL Change Criteria]** . Klik op [!UICONTROL Select Criteria] in het **[!UICONTROL Create Criteria]** -scherm. U kunt de nieuwe criteria opslaan voor gebruik met andere [!DNL Recommendations] -activiteiten.
 
 In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create New Criteria] -scherm opent via de eerste methode: het **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** -bibliotheekscherm.
 
@@ -110,7 +110,7 @@ Voor meer informatie over het kiezen van a [!UICONTROL Recommendation Key], zie 
    * **Nieuwe of uitgegeven criteria die een reeds beschikbare rapportreeks** gebruiken: Wanneer het creëren van nieuwe criteria of het uitgeven van een bestaande criteria, als de geselecteerde rapportreeks reeds met [!DNL Target Recommendations], met een gegevenswaaier gelijk aan of minder dan de geselecteerde gegevenswaaier is gebruikt, dan zijn de gegevens onmiddellijk beschikbaar en geen eenmalig opstelling wordt vereist. In dit geval, of als de montages van een algoritme terwijl het wijzigen van de geselecteerde rapportreeks of gegevenswaaier worden uitgegeven, loopt het algoritme of herstelt binnen 12 uren.
    * **Doorlopende algoritmelooppas**: De stromen van gegevens van [!DNL Analytics] aan [!DNL Target Recommendations] op een dagelijkse basis. Voor de aanbeveling [!UICONTROL Viewed Affinity] geldt dat wanneer een gebruiker bijvoorbeeld een product bekijkt, een aanroep voor het bijhouden van de productweergave wordt doorgegeven aan [!DNL Analytics] dicht bij real-time. De [!DNL Analytics] -gegevens worden [!DNL Target] vroeg op de volgende dag weergegeven en [!DNL Target] voert het algoritme uit binnen 12 uur.
 
-   Voor meer informatie, zie [ Gebruik Adobe Analytics met Doel Recommendations ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+   Voor meer informatie, zie [ Gebruik Adobe Analytics met de Aanbevelingen van het Doel ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 1. Stel de **[!UICONTROL Lookback Window]** in om het tijdbereik te bepalen van de beschikbare gegevens over historisch gebruikersgedrag die moeten worden gebruikt om te bepalen welke aanbevelingen moeten worden weergegeven. Deze optie is beschikbaar voor alle algoritmes, met uitzondering van Items met vergelijkbare kenmerken en aangepaste algoritmen.
 
@@ -179,7 +179,7 @@ Gebruik [!UICONTROL Content Similarity] -regels om aanbevelingen te doen op basi
 >
 >Als u **[!UICONTROL Item-Based]**/ **[!UICONTROL Media with Similar Attributes]** hebt geselecteerd als type algoritme en algoritme, kunt u regels voor gelijkenis van inhoud instellen.
 
-De gelijkenis van de inhoud vergelijkt de sleutelwoorden van puntattributen en doet aanbevelingen die op hoeveel sleutelwoorden verschillende punten in gemeenschappelijk hebben worden gebaseerd. Recommendations op basis van gelijkenis met inhoud vereist geen gegevens uit het verleden om sterke resultaten te bereiken.
+De gelijkenis van de inhoud vergelijkt de sleutelwoorden van puntattributen en doet aanbevelingen die op hoeveel sleutelwoorden verschillende punten in gemeenschappelijk hebben worden gebaseerd. Aanbevelingen op basis van gelijkenis van inhoud vereisen geen gegevens uit het verleden om sterke resultaten te bereiken.
 
 Het gebruiken van inhoudsgelijkenis om aanbevelingen te produceren is vooral efficiënt voor nieuwe punten, die niet waarschijnlijk in aanbevelingen zullen tonen gebruikend *Mensen die dit bekeken, Bekeken dat* en andere logica die op verleden gedrag wordt gebaseerd. U kunt de gelijkenis van de inhoud ook gebruiken om nuttige aanbevelingen voor nieuwe bezoekers te produceren, die geen vroegere aankopen of andere historische gegevens hebben.
 
@@ -267,7 +267,7 @@ Klik op **[!UICONTROL Save]** als u klaar bent.
 
 Als u een nieuwe [!UICONTROL Recommendations] -activiteit maakt of een bestaande activiteit bewerkt, is het selectievakje **[!UICONTROL Save criteria for later]** standaard ingeschakeld. Als u de criteria niet wilt gebruiken in andere activiteiten, schakelt u het selectievakje uit voordat u het bestand opslaat.
 
-## De video van de opleiding: Creeer criteria in Recommendations (12:33) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: Creeer criteria in Aanbevelingen (12 :33) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
 
 Deze video bevat de volgende informatie:
 

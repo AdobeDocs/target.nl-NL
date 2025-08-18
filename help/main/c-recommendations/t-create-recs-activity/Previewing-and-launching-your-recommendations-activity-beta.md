@@ -1,7 +1,7 @@
 ---
-keywords: Recommendations;aanbieding;voorvertoning;start;status;criteria;algoritme
-description: Leer hoe te om uw Adobe  [!DNL Target]  activiteit van Recommendations te voorproef om resultaten te verzekeren beschikbaar zijn alvorens de activiteit te lanceren.
-title: Hoe kan ik een Recommendations-activiteit voorvertonen en starten?
+keywords: Aanbevelingen;aanbieding;voorvertoning;start;status;criteria;algoritme
+description: Leer hoe te om uw activiteit van de Aanbevelingen van Adobe  [!DNL Target]  te voorproef om resultaten te verzekeren beschikbaar zijn alvorens de activiteit te lanceren.
+title: Hoe kan ik een activiteit met aanbevelingen voorvertonen en starten?
 feature: Recommendations
 hide: true
 hidefromtoc: true
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 ---
 
-# Recommendations-activiteiten voorvertonen en starten
+# Activiteiten van uw aanbevelingen voorvertonen en starten
 
-Nadat u uw [!UICONTROL Recommendations] hebt gecreeerd, [!UICONTROL A/B Test], of [!UICONTROL Experience Targeting] (XT) activiteit die [ aanbiedingen van Recommendations ](/help/main/c-recommendations/recommendations-as-an-offer.md) bevat, zult u voorproef uw aanbevelingen willen ervoor zorgen dat de resultaten beschikbaar zijn alvorens de activiteit te lanceren. [!DNL Target Recommendations] biedt meerdere manieren om een voorbeeld van uw aanbevelingen te bekijken.
+Nadat u uw [!UICONTROL Recommendations] hebt gecreeerd, [!UICONTROL A/B Test], of [!UICONTROL Experience Targeting] (XT) activiteit die [ aanbiedingen van Aanbevelingen ](/help/main/c-recommendations/recommendations-as-an-offer.md) bevat, zult u voorproef uw aanbevelingen willen ervoor zorgen dat de resultaten beschikbaar zijn alvorens de activiteit te lanceren. [!DNL Target Recommendations] biedt meerdere manieren om een voorbeeld van uw aanbevelingen te bekijken.
 
-## Recommendations-algoritmestatus controleren
+## Status van algoritme voor aanbevelingen controleren
 
 Nadat [!DNL Recommendations] een activiteit heeft gemaakt, wordt een algoritme uitgevoerd om aanbevelingen te genereren. Dit algoritme kan een paar uur duren.
 
-U kunt controleren of het algoritme in het [!UICONTROL Activity] overzichtsdiagram is gebeëindigd, waar de status van de criteria wordt vermeld. De volgende afbeelding toont de status in het activiteitsdiagram op de pagina [!UICONTROL Overview] van een [!DNL Recommendations] activiteit:
+U kunt controleren of het algoritme in het [!UICONTROL Activity] overzichtsdiagram is gebeëindigd, waar de status van de criteria wordt vermeld. De volgende afbeelding toont de status in het activiteitsdiagram op de pagina [!DNL Recommendations] van een [!UICONTROL Overview] activiteit:
 
-![ de pagina van het activiteitenoverzicht van Recommendations ](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
+![ pagina van het Overzicht van de activiteit van Aanbevelingen ](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
 De statusresultaten zijn als volgt:
 
@@ -54,7 +54,7 @@ Als de criteria [!DNL Adobe Analytics] als gedragsgegevensbron gebruiken, zodra 
 >
 >[!UICONTROL Recently Viewed Items] vereist geen offline uitgevoerde algoritme en de resultaten zijn onmiddellijk beschikbaar. [!UICONTROL Top Viewed] en [!UICONTROL Top Sellers] algoritmen die zijn gebaseerd op mbox-gegevens leveren over het algemeen zeer snel resultaten op vanwege de eenvoudigere vereiste berekening. Dit kunnen goede opties zijn als u een voorbeeld van een ontwerpwijziging wilt bekijken of wilt bevestigen dat gedragsgegevens correct worden verzameld.
 
-## Een voorbeeld van Recommendations bekijken met QA-koppelingen
+## QA-koppelingen gebruiken om aanbevelingen voor te vertonen
 
 Nadat het algoritme resultaten klaar heeft, kunt u die resultaten voorproef gebruikend de [ verbinding QA ](/help/main/c-activities/c-activity-qa/activity-qa.md) functionaliteit van [!DNL Adobe Target]. QA-koppelingen zijn beschikbaar in de sectie [!UICONTROL Activity Location] van de overzichtspagina van [!UICONTROL Activity] :
 
@@ -96,7 +96,7 @@ Voor andere algoritmenypen die op een zeer belangrijke waarde, zoals [!UICONTROL
 >
 >Downloads van resultaten zijn niet beschikbaar voor activiteiten die een [!UICONTROL User-Based Recommendations] algoritme bevatten. Downloads van resultaten zijn niet beschikbaar voor criteria die de [!UICONTROL Recently-Viewed Items] aanbevelingen logica gebruiken.
 
-## Recommendations-activiteit activeren
+## Activiteit voor aanbevelingen activeren
 
 Klik op het tabblad [!UICONTROL Activity Overview] op de vervolgkeuzepijl Status en selecteer vervolgens **[!UICONTROL Activate]** .
 
@@ -106,7 +106,7 @@ Na een paar seconden tot een paar minuten verandert de status in [!UICONTROL Liv
 
 U kunt de activiteit ook deactiveren of archiveren gebruikend de zelfde drop-down lijst.
 
-## Onderbrekingen voorkomen bij het wijzigen van Recommendations-instellingen
+## Onderbrekingen voorkomen bij het wijzigen van aanbevelingen
 
 Als u [!DNL Recommendations] -verzamelingen, -criteria, -promoties of -ontwerpinstellingen wijzigt in een live activiteit, kunnen de resultaten van het algoritme ongeldig worden en wordt de status van een algoritme gewijzigd in [!UICONTROL Results Not Ready] .
 

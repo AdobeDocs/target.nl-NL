@@ -41,7 +41,7 @@ Voor informatie over de taken kunt u op aanbiedingen en omslagen uitvoeren, zie 
 
    U kunt bijvoorbeeld het type inhoud opnemen dat in het bestand staat.
 
-   De naam mag niet de volgende tekens bevatten: Percent-teken `%`, Forward-slash `/`, Backslash `\`, Colon `:`, Asterisk `*`, Question-mark `?`, Double-quotes `"`, Square bracket `[`, Square bracket `]`, Plus-teken: `+`, Pipe: `|`, Period-teken: Number: `#`, accolade: `{`, accolade `}`, Caret `^` of puntkomma `;` . `.` In plaats van deze tekens kunt u een afbreekstreepje ( `- ` ) gebruiken.
+   De naam mag niet de volgende tekens bevatten: Percent-teken `%`, Forward-slash `/`, Backslash `\`, Colon `:`, Asterisk `*`, Question-mark `?`, Double-quotes `"`, Square bracket `[`, Square bracket `]`, Plus-teken: `+`, Pipe: `|`, Period-teken: Number: `.`, accolade: `#`, accolade `{`, Caret `}` of puntkomma `^` . `;` In plaats van deze tekens kunt u een afbreekstreepje ( `- ` ) gebruiken.
 
 1. (Optioneel) Geef een beschrijvende waarde op **[!UICONTROL Name]** .
 1. (Optioneel) Selecteer **[!UICONTROL Private]** om op te geven dat de map een privémap is, zodat alleen u deze en de inhoud ervan kunt zien.
@@ -51,6 +51,6 @@ Voor informatie over de taken kunt u op aanbiedingen en omslagen uitvoeren, zie 
 
 >[!NOTE]
 >
->De aanbiedingen van het beeld maken geen deel uit van het [&#128279;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) model van de Toestemmingen van de Gebruiker van de Onderneming .
+>De aanbiedingen van het beeld maken geen deel uit van het [ model van de Toestemmingen van de Gebruiker van de Onderneming ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
 Voor informatie over de taken kunt u op aanbiedingen en omslagen uitvoeren, zie [ Werk met inhoud in de bibliotheek van Activa ](/help/main/c-experiences/c-manage-content/assets-working.md).

@@ -100,7 +100,7 @@ U kunt deze instelling per activiteit overschrijven (klik op het tandwielpictogr
 >
 >Het overschrijven van de instelling per activiteit is niet beschikbaar in [!UICONTROL Automated Personalization] - en [!UICONTROL Multivariate Testing] -activiteiten.  Zie [ de Kiezers van het Element die in de Visuele Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) voor extra informatie over selecteurs worden gebruikt.
 
-## De video van de opleiding: De Voorkeur van de rekening (7:33) ![ badge van het Overzicht ](/help/main/assets/overview.png)
+## De video van de opleiding: De Voorkeur van de Rekening (7 :33) ![ badge van het Overzicht ](/help/main/assets/overview.png)
 
 Deze video bevat informatie over accountvoorkeuren.
 

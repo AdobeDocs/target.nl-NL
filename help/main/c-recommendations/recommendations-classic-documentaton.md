@@ -11,16 +11,16 @@ ht-degree: 0%
 
 ---
 
-# Recommendations Classic-documentatie
+# Aanbevelingen Klassieke documentatie
 
-[!DNL Recommendations Classic] geeft op uw website automatisch producten of inhoud weer die mogelijk van belang is voor uw klanten op basis van eerdere gebruikersactiviteiten.
+[!DNL Recommendations Classic] geeft automatisch producten of inhoud weer die uw klanten interessant kan maken op basis van eerdere gebruikersactiviteiten op uw website.
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] is een verouderd product en heeft geen licentie meer voor nieuwe klanten. Voor het beste [!DNL Recommendations] ervaring, upgrade naar [!DNL Recommendations] activiteiten beschikbaar in [Adobe Target Premium](/help/main/c-intro/intro.md).
+>[!DNL Recommendations Classic] is een verouderd product en heeft geen licentie meer voor nieuwe klanten. Voor de beste [!DNL Recommendations] ervaring, bevorder aan [!DNL Recommendations] activiteiten beschikbaar in [ de Premium van Adobe Target ](/help/main/c-intro/intro.md).
 
-Recommendations helpt klanten om objecten die ze anders wellicht niet kennen, door te verwijzen naar betere verkoop op uw website.
+Aanbevelingen helpen klanten te leiden naar objecten die ze anders wellicht niet kennen, waardoor de verkoop op uw website wordt verbeterd.
 
-Ter informatie kunt u kiezen tussen [!DNL Recommendations Classic] en Recommendations-activiteiten [!DNL Target Premium], zie [Recommendations Classic versus Recommendations-activiteiten in Target Premium](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+Voor informatie om u te helpen tussen [!DNL Recommendations Classic] en de activiteiten van Aanbevelingen in [!DNL Target Premium] kiezen, zie [ Klassieke van Aanbevelingen tegenover de activiteiten van Aanbevelingen in Target Premium ](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
-Download de documentatie voor [Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf) in PDF-indeling.
+Download de documentatie voor [ Klassieke Adobe Recommendations ](/help/main/assets/adobe-recommendations-classic.pdf) in formaat van PDF.

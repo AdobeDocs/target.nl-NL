@@ -43,7 +43,7 @@ Voor [!UICONTROL Multivariate Test] (MVT) wordt eerst een rapport op de pagina w
 
 1. Typ een naam voor de activiteit.
 
-   {het gebied van de Naam van de Activiteit 0} ![&#128279;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
+   {het gebied van de Naam van de Activiteit 0} ![](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
 
    De naam van de activiteit mag niet met een van de volgende tekens beginnen:
 
@@ -71,7 +71,7 @@ Voor [!UICONTROL Multivariate Test] (MVT) wordt eerst een rapport op de pagina w
 
 1. [ creeer de aanbiedingen in elke plaats ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
 
-   ![ geef de dialoogdoos van de Tekst/van de HTML uit ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
+   ![ geef de dialoogdoos van de Tekst/van HTML uit ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
 
    U kunt de volgende soorten voorstellen toevoegen:
 
@@ -117,7 +117,7 @@ Voor [!UICONTROL Multivariate Test] (MVT) wordt eerst een rapport op de pagina w
 
 1. Klik op **[!UICONTROL Save and Close]** om de activiteit te maken.
 
-## De video van de opleiding: Het creëren van Multivariate Tests (9:25) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: Creërend Multivariate Tests (9 :25) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
 
 In deze video ziet u hoe u een multivariate test plant en maakt met behulp van de [!DNL Target] driestapige geleide workflow.
 

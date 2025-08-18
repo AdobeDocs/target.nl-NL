@@ -1,6 +1,6 @@
 ---
 keywords: inhoudsbibliotheek;elementen;zoeken;filter
-description: Leer hoe te om naar code en beeldaanbiedingen in de Adobe  [!DNL Target]  bibliotheek van Aanbiedingen te zoeken.
+description: Leer hoe te om naar code en beeldaanbiedingen in de bibliotheek van Aanbiedingen van Adobe te zoeken  [!DNL Target] .
 title: Hoe zoek ik naar inhoud in de bibliotheek met aanbiedingen?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57

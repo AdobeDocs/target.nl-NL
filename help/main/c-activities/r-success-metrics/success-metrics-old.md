@@ -57,7 +57,7 @@ Voor sommige meetgegevens, zoals [!UICONTROL Custom Scoring] en [!UICONTROL Reve
 
 Gebruik de geavanceerde instellingen om te bepalen hoe succesvol u bent. De opties omvatten het toevoegen van gebiedsdelen, het kiezen of om de gebruiker in de activiteit te houden of hen te verwijderen, en of om metrisch één keer per ingang of op elke indruk te tellen.
 
-Klik op **[!UICONTROL vertical ellipses]** > **[!UICONTROL Advanced Settings]** om de [!UICONTROL Advanced Settings] -opties te openen.
+Klik op [!UICONTROL Advanced Settings] > **[!UICONTROL vertical ellipses]** om de **[!UICONTROL Advanced Settings]** -opties te openen.
 
 ![ Geavanceerde het menu van Montages ](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
 

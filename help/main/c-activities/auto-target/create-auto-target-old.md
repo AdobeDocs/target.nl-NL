@@ -2,7 +2,7 @@
 keywords: Automatisch doel maken;A/B-test;automatisch doelactiviteit;nieuwe a/b-activiteit;automatisch doel;automatisch doel voor persoonlijke ervaringen;gepersonaliseerd;optimalisatie
 description: Leer hoe te om [!UICONTROL Visual Experience Composer] (VEC) in  [!DNL Adobe Target]  te gebruiken om een [!UICONTROL Auto-Target] activiteit van de Test van A/B tot stand te brengen.
 title: Hoe maak ik een [!UICONTROL Auto-Target] -activiteit?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
@@ -30,7 +30,7 @@ Een [!UICONTROL Auto-Target] -activiteit maken:
 
 1. Selecteer **[!UICONTROL Visual]**, indien nodig.
 
-   Selecteer [!UICONTROL Form] als u de [!UICONTROL Form-Based Experience Composer] -toets liever wilt gebruiken. Zie [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) voor meer informatie.
+   Selecteer [!UICONTROL Form-Based Experience Composer] als u de [!UICONTROL Form] -toets liever wilt gebruiken. Zie [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) voor meer informatie.
 
    >[!NOTE]
    >
@@ -89,7 +89,7 @@ Een [!UICONTROL Auto-Target] -activiteit maken:
 
    U kunt meerdere ervaringen aan hetzelfde publiek tonen. Een diagram toont het geselecteerde publiek en de ervaringen die u aan de activiteit hebt toegevoegd.
 
-   Kies de gewenste methode voor verkeerstoewijzing. Selecteer **[!UICONTROL Auto-Target for personalized experiences]** om een [!UICONTROL Auto-Target] -activiteit te maken.
+   Kies de gewenste methode voor verkeerstoewijzing. Selecteer [!UICONTROL Auto-Target] om een **[!UICONTROL Auto-Target for personalized experiences]** -activiteit te maken.
 
    De drie soorten verkeerstoewijzing worden hieronder beschreven:
 
@@ -113,7 +113,7 @@ Een [!UICONTROL Auto-Target] -activiteit maken:
 
 Nadat u de activiteit creeert, toont het [!UICONTROL Overview] lusje informatie over de activiteit, met inbegrip van een diagram van uw activiteit.
 
-## Trainingsvideo: A/B-tests maken (8:36)
+## Trainingsvideo: A/B-tests maken (8 :36)
 
 In deze video ziet u hoe u een A/B-test maakt met behulp van de [!DNL Target] driestapige geleide workflow.
 

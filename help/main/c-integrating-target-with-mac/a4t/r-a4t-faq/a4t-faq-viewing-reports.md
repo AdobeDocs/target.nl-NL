@@ -18,7 +18,7 @@ Dit onderwerp bevat antwoorden op vragen die vaak worden gesteld over het weerge
 ## Kan ik mijn [!DNL Target] activiteitsgegevens weergeven in [!DNL Analysis Workspace] ? {#workspace}
 
 +++Antwoord
-Met [!DNL Analysis Workspace] kunt u uw [!DNL Target] -activiteiten en -ervaringen analyseren. De [ Analytics voor het paneel van het Doel ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=nl-NL) laat u optillen &amp; vertrouwen voor maximaal drie succesmetriek zien. U kunt ook dieper graven met behulp van tabellen en visualisaties.
+Met [!DNL Analysis Workspace] kunt u uw [!DNL Target] -activiteiten en -ervaringen analyseren. De [ Analytics voor het paneel van het Doel ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) laat u optillen &amp; vertrouwen voor maximaal drie succesmetriek zien. U kunt ook dieper graven met behulp van tabellen en visualisaties.
 
 Voor gedetailleerde informatie en voorbeelden, open [ Analytics &amp; Doel: Beste praktijken voor het leerprogramma van de Analyse ](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), dat door [!UICONTROL Adobe Experience League] wordt verstrekt.
 
@@ -33,10 +33,10 @@ Een segment kan ook rechtstreeks in de vrije-vormlijst worden gelaagd, maar merk
 
 +++
 
-## Welk model van Attribution IQ wordt gebruikt in [!DNL Analysis Workspace]?
+## Welk Attribution IQ-model wordt gebruikt in [!DNL Analysis Workspace]?
 
 +++Antwoord
-Bij het gebruik van [!DNL Target] activity-impressions en conversies in [!DNL Analysis Workspace] is het model &quot;Same Touch&quot; het standaardmodel dat op de meetgegevens wordt toegepast om een nauwkeurige telling te garanderen. Dit model werkt in 99% van de gevallen goed. U kunt deze standaardtoewijzing echter overschrijven in Attribution IQ.
+Als u [!DNL Target] activity-impressies en conversies gebruikt in [!DNL Analysis Workspace] , is het Attribution IQ-model &quot;Same Touch&quot; het standaardmodel dat op de meetgegevens wordt toegepast om een nauwkeurige telling te garanderen. Dit model werkt in 99% van de gevallen goed. U kunt deze standaardtoewijzing echter overschrijven in Attribution IQ.
 
 +++
 
@@ -74,7 +74,7 @@ Overweeg het volgende:
 * De bovenstaande metrische trigger wanneer een gebruiker in aanmerking komt voor een activiteit en inhoud wordt geretourneerd vanuit [!DNL Target] . Dit betekent niet noodzakelijk dat de gebruiker het aanbod zag. Als een activiteit onder de vouw is en de gebruiker niet onderaan de pagina scrolt, dan werd de aanbieding gediend door [!DNL Target] maar niet door de gebruiker gezien.
 * [!UICONTROL Activity Impressions] (gemeten door [!DNL Target]) en [!UICONTROL Instances] (gemeten door [!DNL Analytics]) zijn gelijk, tenzij er meerdere mbox-aanroepen op dezelfde pagina plaatsvinden in dezelfde activiteit. Hierdoor worden meerdere [!UICONTROL Activity Impressions] geteld, maar slechts één [!UICONTROL Instance] .
 
-Voor meer informatie, zie [ hoe te opstelling A4T rapporten in Analysis Workspace voor activiteiten Auto-Doel ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=nl-NL) in *Tutorials van Adobe Target*.
+Voor meer informatie, zie [ hoe te opstelling A4T rapporten in Analysis Workspace voor activiteiten Auto-Doel ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Zelfstudies van Adobe Target*.
 
 +++
 
@@ -83,7 +83,7 @@ Voor meer informatie, zie [ hoe te opstelling A4T rapporten in Analysis Workspac
 +++Antwoord
 [!DNL Reports & Analytics] past een attributiemodel met dezelfde aanraakinstelling toe op &#39;activity-impressions&#39; en &#39;activity-conversies&#39;, terwijl [!DNL Analysis Workspace] de onbewerkte metriek weergeeft, die opgeblazen kan lijken vanwege de persistentie van de [!DNL Target] -dimensie.
 
-Als u nauwkeurige [!UICONTROL Activity Impressions] - en [!UICONTROL Activity Conversions] metriek in [!DNL Analysis Workspace] wilt evalueren, moet u ervoor zorgen dat op beide metriek [!UICONTROL Same Touch] -attributiemodellen zijn toegepast. Modellen kunnen worden toegepast door op het tandwieltje voor kolominstellingen te klikken, [!UICONTROL Non-default attribution models] in te schakelen en vervolgens [!UICONTROL Same Touch] te selecteren. Leer meer over attributie in [ overzicht van Attributen IQ ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=nl-NL) in de *Gids van Hulpmiddelen van de Analyse*.
+Als u nauwkeurige [!UICONTROL Activity Impressions] - en [!UICONTROL Activity Conversions] metriek in [!DNL Analysis Workspace] wilt evalueren, moet u ervoor zorgen dat op beide metriek [!UICONTROL Same Touch] -attributiemodellen zijn toegepast. Modellen kunnen worden toegepast door op het tandwieltje voor kolominstellingen te klikken, [!UICONTROL Non-default attribution models] in te schakelen en vervolgens [!UICONTROL Same Touch] te selecteren. Leer meer over attributie in [ overzicht van Attributen IQ ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) in de *Gids van Hulpmiddelen van de Analyse*.
 
 +++
 
@@ -110,7 +110,7 @@ In het geval dat de classificatie voor die activiteit werd gedaan, en u nog een 
 +++Antwoord
 De variabele [!DNL Target] die naar [!DNL Analytics] wordt verzonden, heeft een standaardvervalperiode van 90 dagen. Deze vervalperiode kan indien nodig door de klantenservice worden aangepast. Deze instelling is algemeen voor alle activiteiten, maar moet daarom niet voor één geval worden aangepast.
 
-U ziet mogelijk [!DNL Target] variabelen die naar [!DNL Analytics] worden verzonden na de vervalperiode omdat de vervaldatum 90 dagen is, maar alleen als die gebruiker geen andere A4T-ingeschakelde [!DNL Target] activiteit ziet. Als een gebruiker op dag 45 terugkomt naar de site en een andere activiteit ziet, wordt de gehele waarde van A4T eVar opnieuw ingesteld op 90 dagen. Dat betekent dat de eerste campagne vanaf dag 1 nu tot 45 + 90 = 135 dagen zou kunnen duren. Als de gebruiker blijft terugkomen, zou u aan het punt kunnen komen waar u metriek die naar [!DNL Analytics] in uw rapportering van veel oudere activiteiten wordt verzonden. Wanneer gebruikers cookies verwijderen en niet terugkeren naar de site, nemen de nummers in die activiteit af, maar kunt u ze wel zien.
+U ziet mogelijk [!DNL Target] variabelen die naar [!DNL Analytics] worden verzonden na de vervalperiode omdat de vervaldatum 90 dagen is, maar alleen als die gebruiker geen andere A4T-ingeschakelde [!DNL Target] activiteit ziet. Als een gebruiker op dag 45 terugkomt naar de site en een andere activiteit ziet, wordt de hele eVar-waarde van A4T opnieuw ingesteld op 90 dagen. Dat betekent dat de eerste campagne vanaf dag 1 nu tot 45 + 90 = 135 dagen zou kunnen duren. Als de gebruiker blijft terugkomen, zou u aan het punt kunnen komen waar u metriek die naar [!DNL Analytics] in uw rapportering van veel oudere activiteiten wordt verzonden. Wanneer gebruikers cookies verwijderen en niet terugkeren naar de site, nemen de nummers in die activiteit af, maar kunt u ze wel zien.
 
 Dit betekent dat de activiteiten paginaweergaven, bezoeken, enzovoort blijven krijgen, tot 90 dagen nadat de activiteit eindigt voor bezoekers die deel uitmaakten van de activiteit terwijl deze actief was. Als u echter naar de metrische waarde van [!UICONTROL Activity Impressions] kijkt, ziet u geen indrukken meer nadat de activiteit is beëindigd.
 
@@ -126,7 +126,7 @@ Op 1 januari komt de gebruiker naar de site en ziet activiteit XYZ eenmaal en he
 |--- |--- |--- |--- |--- |
 | XYZ | 1 | 5 | 1 | 1 |
 
-De gebruiker keert op 1 Februari terug, bekijkt vijf meer pagina&#39;s, en ontmoet geen meer activiteiten van het Doel en de originele activiteit is niet meer actief. Hoewel de activiteit niet meer actief is, volgt het nog steeds de gebruiker via eVar persistentie. De gegevens zien er nu als volgt uit:
+De gebruiker keert op 1 Februari terug, bekijkt vijf meer pagina&#39;s, en ontmoet geen meer activiteiten van het Doel en de originele activiteit is niet meer actief. Hoewel de activiteit niet meer actief is, volgt deze nog steeds de gebruiker via eVar persistentie. De gegevens zien er nu als volgt uit:
 
 | Naam activiteit | Instanties (impressies) | Paginaweergaven | Bezoeken | Unieke bezoekers |
 |--- |--- |--- |--- |--- |
@@ -139,7 +139,7 @@ De gebruiker komt terug op 1 maart en ziet een nieuwe activiteit, ABC. De gebrui
 | XYZ | 1 | 15 | 3 | 1 |
 | ABC | 1 | 5 | 1 | 1 |
 
-De gebruiker komt dan terug op 1 april, bekijkt nog vijf pagina&#39;s en koopt. De vervaldatum van 90 dagen van die eerste eVar wordt opnieuw ingesteld op 1 april, zodat u dat ziet in de rapportage. En alle activiteiten van het Doel de gebruiker ziet ontvangen het krediet voor de omzetting, maar het totale aantal omzettingen wordt gededupliceerd:
+De gebruiker komt dan terug op 1 april, bekijkt nog vijf pagina&#39;s en koopt. De vervaldatum van 90 dagen van die eerste eVar-waarde wordt opnieuw ingesteld op 1 april. Dat zie je in de rapportage. En alle activiteiten van het Doel de gebruiker ziet ontvangen het krediet voor de omzetting, maar het totale aantal omzettingen wordt gededupliceerd:
 
 | Naam activiteit | Instanties (impressies) | Paginaweergaven | Bezoeken | Unieke bezoekers | Orders |
 |--- |--- |--- |--- |--- |--- |
@@ -149,7 +149,7 @@ De gebruiker komt dan terug op 1 april, bekijkt nog vijf pagina&#39;s en koopt. 
 
 Omdat beide ervaringen werden gezien vóór de conversie, krijgen ze allebei &#39;krediet&#39; voor de bestelling. Maar er vond slechts één orde plaats in het systeem en het totaal weerspiegelt dat. Voor [!DNL Target] -rapportage, omdat u een [!DNL Target] -activiteit niet tegen een andere activiteit plaatst om te zien welke meer succes heeft, maakt het niet uit dat alle activiteiten die de gebruiker zag, krediet hebben gekregen. U vergelijkt de resultaten van twee items binnen één activiteit. Het is niet mogelijk voor een gebruiker om verschillende ervaringen in de zelfde activiteit te zien zodat moet u zich niet over kruisbesmetting van orderkrediet ongerust maken.
 
-Voor meer informatie, zie [ Variabelen van de Omzetting (eVar ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=nl-NL)) in de *Gids Admin van Analytics*.
+Voor meer informatie, zie [ Variabelen van de Omzetting (eVar ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in de *Gids Admin van Analytics*.
 
 +++
 
@@ -163,7 +163,7 @@ Een bron van beelden aan het rapport van een activiteit A4T na deactivatie kan v
 ## Waarom berekenen [!DNL Analytics] en [!UICONTROL Analytics for Adobe Target] (A4T) getallen voor de [!UICONTROL Unique Visitors] metrische waarde verschillend? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 +++Antwoord
-Wanneer u een test A/B in werking stelt, die t-test van het [ Welch ](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}  (het vertrouwen metrisch) gebruikt om een winnaar van een test te kiezen, is één van de veronderstellingen dat er een vaste tijdhorizon is. De test is niet statistisch geldig tenzij u die vaste steekproefgrootte bekijkt.
+Wanneer u een test A/B in werking stelt, die t-test van het [ Welch ](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (het vertrouwen metrisch) gebruikt om een winnaar van een test te kiezen, is één van de veronderstellingen dat er een vaste tijdhorizon is. De test is niet statistisch geldig tenzij u die vaste steekproefgrootte bekijkt.
 
 De [!UICONTROL Unique Visitors] -metrische waarde verschilt alleen in [!DNL Analytics] en [!DNL Target] als u naar een periode kijkt die korter is dan de werkelijke test. Als u uw steekproefgrootte niet hebt bereikt, is de test niet zo betrouwbaar. Zie [ hoe niet om een Test A/B ](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) op [ Evan Miller&#39;s website ](https://www.evanmiller.org/index.html) voor meer informatie in werking te stellen.
 
@@ -214,14 +214,14 @@ Hier volgen enkele punten waarmee u rekening moet houden bij het weergeven van [
 
 +++
 
-## Hoe kan ik bij gebruik van [!UICONTROL Analytics for Target] (A4T) activiteitsindrukkingen in [!DNL Analysis Workspace] bijhouden? {#activity-impressions}
+## Hoe kan ik bij gebruik van [!DNL Analysis Workspace] (A4T) activiteitsindrukkingen in [!UICONTROL Analytics for Target] bijhouden? {#activity-impressions}
 
 +++Antwoord
 
 Activiteitenafbeeldingen weergeven in [!DNL Analysis Workspace] :
 
 1. Klik in de gebruikersinterface van [!DNL Target] op **[!UICONTROL View in Analytics]** .
-1. Voeg de **[!UICONTROL Activity Impressions]** kolom aan het [[!DNL Analytics Workspace] ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=nl-NL){target=_blank}  rapport toe.
+1. Voeg de **[!UICONTROL Activity Impressions]** kolom aan het [[!DNL Analytics Workspace] ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank} rapport toe.
 1. Klik in de kolom **[!UICONTROL Activity Impressions]** op het pictogram [!UICONTROL Gear] .
 1. Klik op **[!UICONTROL Use non-default attribution model]**.
 1. Selecteer **[!UICONTROL Same Touch Model]** > **[!UICONTROL Apply]** .

@@ -1,8 +1,8 @@
 ---
 keywords: cataloguszoekopdracht;catalogus;zoeken;uitsluiten;verzameling;filter
-description: Leer hoe u met de zoekfunctie voor Recommendations-catalogi producten of inhoud kunt zoeken, verzamelingen of uitsluitingen kunt maken, items uit uw catalogus kunt verwijderen en nog veel meer.
-title: Hoe gebruik ik de zoekfunctie van de Recommendations-catalogus?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+description: Leer hoe u met de zoekfunctie in de catalogus met aanbevelingen producten of inhoud kunt zoeken, verzamelingen of uitsluitingen kunt maken, items uit de catalogus kunt verwijderen en nog veel meer.
+title: Hoe gebruik ik de zoekopdracht in de catalogus met aanbevelingen?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -20,7 +20,7 @@ De catalogi verwijzen naar uw volledige productreeks (entiteiten). Uw catalogus 
 
 ## Zoeken naar catalogus openen
 
-Klik op **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]** om de pagina [!UICONTROL Catalog Search] te openen.
+Klik op [!UICONTROL Catalog Search] > **[!UICONTROL Recommendations]** om de pagina **[!UICONTROL Catalog Search]** te openen.
 
 ![ pagina van het Onderzoek van de Catalogus ](/help/main/c-recommendations/c-products/assets/catalog-search.png)
 

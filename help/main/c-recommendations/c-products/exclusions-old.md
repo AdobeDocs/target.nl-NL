@@ -1,7 +1,7 @@
 ---
 keywords: uitsluitingen
-description: Leer hoe te om uitsluitingen in Adobe  [!DNL Target]  Recommendations tot stand te brengen om producten of inhoud te verhinderen aan bezoekers worden geadviseerd.
-title: Hoe gebruik ik uitsluitingen in Recommendations-activiteiten?
+description: Leer hoe te om tot uitsluitingen in Adobe  [!DNL Target]  Aanbevelingen te leiden om producten of inhoud te verhinderen aan bezoekers worden geadviseerd.
+title: Hoe gebruik ik uitsluitingen in activiteiten met aanbevelingen?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -37,7 +37,7 @@ Enkele voorbeelden van de tijden u uitsluitingen zou gebruiken omvatten:
 
    ![ exclusion_list beeld ](assets/exclusions_list.png)
 
-   Het &quot;Aantal Punten&quot;voor elke uitsluiting op de [!UICONTROL Exclusions] lijstmening wordt gemeld is het aantal producten die de regels voor die uitsluiting aanpassen binnen de gevormde standaardRecommendations [ gastheergroep ](/help/main/administrating-target/hosts.md) (milieu). Zie [ Montages ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank}  om de standaardgastheergroep te veranderen.
+   Het &quot;Aantal Punten&quot;voor elke uitsluiting op de [!UICONTROL Exclusions] lijstmening wordt gemeld is het aantal producten die de regels voor die uitsluiting aanpassen binnen de gevormde standaardgroep van Aanbevelingen [ ](/help/main/administrating-target/hosts.md) (milieu). Zie [ Montages ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} om de standaardgastheergroep te veranderen.
 
 1. Klik op **[!UICONTROL Create Exclusion]**.
 
@@ -75,7 +75,7 @@ U kunt een bestaande uitsluiting kopiëren om een dubbele uitsluiting te maken d
 
 Houd er rekening mee dat uitsluitingen beschikbaar zijn voor de gehele account. Zorg ervoor dat u hiermee rekening houdt voordat u een uitsluiting verwijdert. Verwijderde uitsluitingen kunnen niet worden hersteld.
 
-## De video van de opleiding: Creeer inzamelingen en uitsluitingen in Recommendations (7:05) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: Creeer inzamelingen en uitsluitingen in Aanbevelingen (7 :05) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
 
 Deze video bevat de volgende informatie:
 

@@ -1,63 +1,63 @@
 ---
 keywords: klantenrelatiebeheer;de dienst van het klantenverslag;crs;crm;mbox3rdpartyid;klantenattributen;het richten;csv;crm;adobe ervaren wolken
-description: Leer hoe te om de gegevens van ondernemingsklanten van een gegevensbestand van het de relatiebeheer van de klant (CRM) voor inhoud te gebruiken richtend in [!DNL Adobe Target].
+description: Leer hoe te om de gegevens van de ondernemingsklant van een gegevensbestand van de klantenverhouding (CRM) voor inhoud te gebruiken richtend in  [!DNL Adobe Target].
 title: Wat zijn klantkenmerken en hoe gebruik ik deze?
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
 
 # Klantkenmerken
 
-Informatie over het gebruik van bedrijfsklantgegevens uit CRM-databases (Customer Relationship Management) voor inhoud die zich richt op [!DNL Adobe Target] door klantkenmerken te gebruiken in de [!DNL Adobe Enterprise Cloud People] service.
+Informatie over het gebruik van bedrijfsklantgegevens uit CRM-databases (Customer Relationship Management) voor het aanwijzen van inhoud in [!DNL Adobe Target] door gebruik te maken van klantkenmerken in de [!DNL Adobe Enterprise Cloud People] -service.
 
-De gegevens van de de klantenklant van de onderneming die door veelvoudige bronnen worden verzameld en binnen de gegevensbestanden van CRM worden opgeslagen kunnen in worden gebruikt [!DNL Target] om strategisch de meest relevante inhoud aan klanten te leveren, met name gericht op het terugsturen van klanten. Soorten publiek en klantkenmerken in de [!DNL People] de dienst (vroeger Profielen en Publiek) brengt gegevensinzameling en analyse met het testen en optimaliseren samen, die gegevens en inzichten actionable maken.
+Gegevens van bedrijfsklanten die via meerdere bronnen zijn verzameld en in CRM-databases zijn opgeslagen, kunnen in [!DNL Target] worden gebruikt om strategisch de meest relevante inhoud aan klanten te leveren, waarbij de nadruk met name ligt op terugkerende klanten. Soorten publiek en klantkenmerken in de [!DNL People] -service (voorheen Profielen en Soorten publiek) brengen gegevensverzameling en -analyse samen met testen en optimaliseren, waardoor gegevens en inzichten actioneel worden.
 
 ## Overzicht van klantkenmerken {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[Klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=nl-NL) in de [!DNL People] de dienst maakt deel uit van [!DNL Adobe Experience Cloud] en biedt bedrijven een hulpmiddel om hun klantgegevens naar de [!DNL Experience Cloud] platform.
+[ de Attributen van de Klant ](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html) in de [!DNL People] dienst maakt deel uit van [!DNL Adobe Experience Cloud] en verstrekt ondernemingen een hulpmiddel om hun klantengegevens aan het [!DNL Experience Cloud] platform te duwen.
 
-Gegevens aan boord van de [!DNL Experience Cloud] is beschikbaar voor iedereen [!DNL Experience Cloud] workflows. [!DNL Target] gebruikt deze gegevens voor het richten van terugkerende klant die op attributen wordt gebaseerd. [!DNL Adobe Analytics] verbruikt deze kenmerken en kunnen worden gebruikt voor analyse en segmentatie.
+Gegevens die aan de [!DNL Experience Cloud] zijn toegevoegd, zijn beschikbaar voor alle [!DNL Experience Cloud] -workflows. [!DNL Target] gebruikt deze gegevens voor het activeren van geretourneerde klanten op basis van kenmerken. [!DNL Adobe Analytics] verbruikt deze kenmerken en ze kunnen worden gebruikt voor analyse en segmentatie.
 
-![crs-voorbeeld](/help/main/c-target/c-visitor-profile/assets/crs.png)
+![ crs voorbeeld ](/help/main/c-target/c-visitor-profile/assets/crs.png)
 
-Overweeg de volgende informatie als uw werk met klantenattributen en [!DNL Target]:
+Houd rekening met de volgende informatie als uw werk met klantkenmerken en [!DNL Target] :
 
-* Er zijn enkele voorwaarden waaraan u moet voldoen voordat u de opdracht [!UICONTROL Customer attributes] in de [!DNL People] service. Zie &quot;Vereisten voor het uploaden van klantkenmerken&quot; in [Klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=nl-NL#section_BD38693AFBF34926BA28E964963B4EA0) in de *Experience Cloud Services- en beheerdocumentatie*.
-* Houd rekening met de beperkingen met betrekking tot het uploaden van bestanden, zoals beschreven in [Gegevensbestand en gegevensbronnen voor klantkenmerken](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=nl-NL) in de *Experience Cloud Central Interface Components Guide*. Als beste praktijken:
+* Er zijn enkele voorwaarden waaraan u moet voldoen voordat u de functie [!UICONTROL Customer attributes] in de service [!DNL People] kunt gebruiken. Voor meer informatie, zie &quot;Eerste vereisten voor het uploaden van de Attributen van de Klant&quot;in [ attributen van de Klant ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) in de *Diensten van Experience Cloud en de documentatie van het Beleid*.
+* Ben zich bewust van de beperkingen betreffende dossieruploads, zoals die in [ over gegevensdossier en gegevensbronnen voor de Attributen van de Klant ](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) in de *Centrale Gids van de Componenten van de Interface van Experience Cloud* worden gedocumenteerd. Als beste praktijken:
 
-   * Enkelvoudige grote bestanden uploaden (binnen de [gespecificeerde limieten](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=nl-NL)). Enkelvoudige grote bestanden hebben de voorkeur boven meerdere kleinere bestanden.
+   * Upload enige grote dossiers (binnen de [ gespecificeerde grenzen ](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en)). Enkelvoudige grote bestanden hebben de voorkeur boven meerdere kleinere bestanden.
    * Als u de upload in verscheidene dossiers moet verdelen, zorg ervoor dat de dossiers volledig worden verwerkt alvorens nieuwe dossiers voor te leggen. Zorg ervoor dat elk bestand in een batch volledig is verwerkt voordat u het volgende bestand in de batch verzendt.
 
-* [!DNL Adobe] garandeert niet dat 100% van gegevens van klantkenmerken (bezoekersprofiel) uit CRM-databases aan de [!DNL Experience Cloud] en dus beschikbaar zijn voor gebruik bij [!DNL Target]. In het huidige ontwerp bestaat de mogelijkheid dat een klein percentage gegevens (tot 0,1% van de grote productiepartijen) niet wordt ingecheckt.
-* De levensduur van klantkenmerkgegevens die zijn geïmporteerd uit de [!DNL Experience Cloud] tot [!DNL Target] is afhankelijk van de levensduur van het bezoekersprofiel, dat standaard 14 dagen is. Zie voor meer informatie [Levensduur bezoekersprofiel](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
-* Als de `vst.*` parameters zijn het enige dat de bezoeker identificeert; het bestaande &quot;geverifieerde&quot; profiel wordt niet opgehaald zolang `authState` is NIET VERIFIEERD (0). Het profiel wordt alleen in werking gesteld als `authState` wordt gewijzigd in AUTHENTICATED (1).
+* [!DNL Adobe] garandeert niet dat 100% van klantkenmerkgegevens (bezoekersprofiel) uit CRM-databases wordt opgenomen in de [!DNL Experience Cloud] en dus beschikbaar is voor gebruik in [!DNL Target] . In het huidige ontwerp bestaat de mogelijkheid dat een klein percentage gegevens (tot 0,1% van de grote productiepartijen) niet wordt ingecheckt.
+* De levensduur van klantspecifieke gegevens die worden geïmporteerd van [!DNL Experience Cloud] naar [!DNL Target] , is afhankelijk van de levensduur van het bezoekersprofiel, standaard 14 dagen. Voor meer informatie, zie {het Leven van het Profiel van 0} Bezoeker [.](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)
+* Als de parameters `vst.*` het enige identificatiemiddel van de bezoeker zijn, wordt het bestaande &quot;geverifieerde&quot; profiel niet opgehaald zolang `authState` ONGEAUTHENTIFICEERD is (0). Het profiel wordt alleen afgespeeld als `authState` is gewijzigd in AUTHENTICATED (1).
 
-   Als de `vst.myDataSource.id` parameter wordt gebruikt om de bezoeker te identificeren (waarbij `myDataSource` is de alias van de gegevensbron) en er is geen MCID of derde identiteitskaart, gebruikend de parameter `vst.myDataSource.authState=0` haalt niet het profiel dat door de invoer van Attributen van de Klant zou kunnen zijn gecreeerd. Als u het geverifieerde profiel wilt ophalen, wordt het `vst.myDataSource.authState` moet de waarde 1 (GEAUTHENTIFICEERD) hebben.
+  Als de parameter `vst.myDataSource.id` bijvoorbeeld wordt gebruikt om de bezoeker te identificeren (waarbij `myDataSource` de gegevensbronalias is) en er geen MCID of een id van een derde is, haalt het gebruik van de parameter `vst.myDataSource.authState=0` niet het profiel op dat mogelijk is gemaakt via het importeren van klantkenmerken. Als het gewenste gedrag het geverifieerde profiel moet ophalen, moet `vst.myDataSource.authState` de waarde 1 (GEAUTHENTIFICEERD) hebben.
 
-* U kunt de volgende tekens niet verzenden in `mbox3rdPartyID`: plus-teken (+) en slash (/).
+* U kunt de volgende tekens niet verzenden in `mbox3rdPartyID`: plusteken (+) en slash (/).
 
 ## De Attributen van de Klant van de toegang in de dienst van Mensen
 
-1. In de [!DNL Adobe Experience Cloud], klikt u op het menupictogram ( ![menupictogram](/help/main/c-target/c-visitor-profile/assets/menu-icon.png) ) en klik vervolgens op **[!UICONTROL People]**.
+1. In [!DNL Adobe Experience Cloud], klik het menupictogram ( ![ menupictogram ](/help/main/c-target/c-visitor-profile/assets/menu-icon.png) ) dan klik **[!UICONTROL People]**.
 
-   ![Mensen](/help/main/c-target/c-visitor-profile/assets/people.png)
+   ![ Mensen ](/help/main/c-target/c-visitor-profile/assets/people.png)
 
-1. Klik op de knop **[!UICONTROL Customer Attributes]** tab.
+1. Klik op de tab **[!UICONTROL Customer Attributes]** .
 
-   ![Klantkenmerken, tabblad](/help/main/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
+   ![ de Attributen tabel van de Klant ](/help/main/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
 ## Workflow voor klantkenmerken voor [!DNL Target] {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
 
 Voer de volgende stappen uit om CRM-gegevens te gebruiken in [!DNL Target], zoals hieronder wordt geïllustreerd:
 
-![crm-workflow](/help/main/c-target/c-visitor-profile/assets/crm_workflow.png)
+![ crm werkschema ](/help/main/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-Gedetailleerde instructies voor het uitvoeren van elk van de volgende taken vindt u in [Een bron voor klantkenmerken maken en het gegevensbestand uploaden](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=nl-NL) in de *Experience Cloud Services- en beheerdocumentatie*.
+De gedetailleerde instructies voor de voltooiing van elk van de volgende taken kunnen in [ worden gevonden creeer een bron van de klantenattributen en upload het gegevensbestand ](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html) in *de Diensten en documentatie van het Beleid van Experience Cloud*.
 
 1. Maak een gegevensbestand.
 
@@ -65,15 +65,15 @@ Gedetailleerde instructies voor het uitvoeren van elk van de volgende taken vind
 
    In de volgende afbeelding ziet u een voorbeeld van een bestand met klantgegevens voor de onderneming:
 
-   ![crs-monster](/help/main/c-target/c-visitor-profile/assets/CRS_sample.png)
+   ![ crs steekproef ](/help/main/c-target/c-visitor-profile/assets/CRS_sample.png)
 
    In de volgende afbeelding ziet u een voorbeeld van een klant-CSV-bestand voor bedrijven:
 
-   ![csv-monster](/help/main/c-target/c-visitor-profile/assets/CRS_CSV_sample.png)
+   ![ csv steekproef ](/help/main/c-target/c-visitor-profile/assets/CRS_CSV_sample.png)
 
 1. Maak de kenmerkbron en upload het gegevensbestand.
 
-   Geef een naam en beschrijving op van de gegevensbron en de alias-id. De alias-id is een unieke id die moet worden gebruikt in de kenmerkcode van uw klant in `VisitorAPI.js`.
+   Geef een naam en beschrijving op van de gegevensbron en de alias-id. De alias-id is een unieke id die in de kenmerkcode van de klant in `VisitorAPI.js` moet worden gebruikt.
 
    >[!IMPORTANT]
    >
@@ -81,54 +81,54 @@ Gedetailleerde instructies voor het uitvoeren van elk van de volgende taken vind
 
    Het gegevensbestand moet voldoen aan de vereisten voor het uploaden van het bestand en mag niet groter zijn dan 100 MB. Als uw bestand te groot is of als u gegevens hebt die op terugkerende basis moeten worden geüpload, kunt u in plaats daarvan FTP op uw bestanden toepassen.
 
-   * **HTTPS:** U kunt het CSV-gegevensbestand slepen en neerzetten of klikken **[!UICONTROL Browse]** om te uploaden vanaf uw bestandssysteem.
-   * **FTP:** Klik op de FTP-koppeling naar [het bestand uploaden via FTP](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html?lang=nl-NL). De eerste stap bestaat uit het opgeven van een wachtwoord voor de door Adobe verschafte FTP-server. Geef het wachtwoord op en klik vervolgens op **[!UICONTROL Done]**.
+   * **HTTPS:** u kunt het .csv- gegevensdossier slepen-en-daling of klikken **[!UICONTROL Browse]** om van uw dossiersysteem te uploaden.
+   * **FTP:** klik de verbinding van FTP aan [ uploadt het dossier door FTP ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). De eerste stap bestaat uit het opgeven van een wachtwoord voor de door Adobe verschafte FTP-server. Geef het wachtwoord op en klik op **[!UICONTROL Done]** .
 
-   Breng nu uw CSV/ZIP/GZIP-bestand over naar de FTP-server. Nadat deze bestandsoverdracht is gelukt, maakt u een bestand met dezelfde naam en een `.fin` extensie. Breng dit lege bestand over naar de server. Dit wijst op een eind van overdracht en [!DNL Experience Cloud] begint het gegevensbestand te verwerken.
+   Breng nu uw CSV/ZIP/GZIP-bestand over naar de FTP-server. Nadat deze bestandsoverdracht is gelukt, maakt u een bestand met dezelfde naam en met een extensie `.fin` . Breng dit lege bestand over naar de server. Dit geeft een einde aan de gegevensoverdracht aan en de [!DNL Experience Cloud] begint het gegevensbestand te verwerken.
 
 1. Valideer het schema.
 
    Met het validatieproces kunt u weergavenamen en beschrijvingen toewijzen aan geüploade kenmerken (tekenreeksen, gehele getallen, getallen, enzovoort). Wijs elk attribuut aan zijn correct gegevenstype, vertoningsnaam, en beschrijving toe.
 
-   Klikken **[!UICONTROL Save]** nadat de schemavalidatie volledig is. De uploadtijd van het bestand is afhankelijk van de grootte.
+   Klik op **[!UICONTROL Save]** nadat de schemavalidatie is voltooid. De uploadtijd van het bestand is afhankelijk van de grootte.
 
-   ![Schema valideren](/help/main/c-target/c-visitor-profile/assets/SchemaValidate.png)
+   ![ bevestigt schema ](/help/main/c-target/c-visitor-profile/assets/SchemaValidate.png)
 
-   ![Schema uploaden](/help/main/c-target/c-visitor-profile/assets/upload1.png)
+   ![ uploadschema ](/help/main/c-target/c-visitor-profile/assets/upload1.png)
 
 1. Configureer abonnementen en activeer de kenmerkbron.
 
-   Klikken **[!UICONTROL Add Subscription]** Selecteer vervolgens de oplossing om deze kenmerken in te schrijven. [Abonnementen configureren](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html?lang=nl-NL) stelt de gegevensstroom in tussen de [!DNL Experience Cloud] en oplossingen. Door de kenmerkbron te activeren, kunnen de gegevens naar ingetekende oplossingen stromen. De klantrecords die u hebt geüpload, komen overeen met binnenkomende id-signalen van uw website of toepassing.
+   Klik op **[!UICONTROL Add Subscription]** en selecteer vervolgens de oplossing om deze kenmerken in te schrijven. [ vorm abonnementen ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html) plaatsen omhoog de gegevensstroom tussen [!DNL Experience Cloud] en oplossingen. Door de kenmerkbron te activeren, kunnen de gegevens naar ingetekende oplossingen stromen. De klantrecords die u hebt geüpload, komen overeen met binnenkomende id-signalen van uw website of toepassing.
 
-   ![Oplossing configureren](/help/main/c-target/c-visitor-profile/assets/solution.png)
+   ![ vorm oplossing ](/help/main/c-target/c-visitor-profile/assets/solution.png)
 
-   ![Activeren](/help/main/c-target/c-visitor-profile/assets/activate.png)
+   ![ activeer ](/help/main/c-target/c-visitor-profile/assets/activate.png)
 
    Houd bij het uitvoeren van deze stap rekening met de volgende beperkingen:
 
    * De maximale bestandsgrootte voor elke upload met de HTTP-methode is 100 MB.
    * De maximale bestandsgrootte voor elke upload met de FTP-methode is 4 GB.
-   * Het aantal kenmerken dat mag worden geabonneerd: 5 voor [!DNL Target Standard] en 200 voor [!DNL Target Premium].
+   * Het aantal kenmerken dat mag worden geabonneerd: 5 voor [!DNL Target Standard] en 200 voor [!DNL Target Premium] .
 
-## Klantkenmerken gebruiken in [!DNL Target] {#section_107E3A0F0EC7478E82E6DBD17B30B756}
+## Kenmerken van klant gebruiken in [!DNL Target] {#section_107E3A0F0EC7478E82E6DBD17B30B756}
 
-U kunt klantkenmerken gebruiken in [!DNL Target] op de volgende manieren:
+U kunt klantkenmerken in [!DNL Target] op de volgende manieren gebruiken:
 
 ### Doelgroepen maken
 
-In [!DNL Target], kunt u een klantkenmerk selecteren in het menu [!UICONTROL Visitor Profile] bij het maken van een publiek. Alle klantkenmerken hebben het voorvoegsel &lt; data_source_name > in de lijst. U kunt deze kenmerken desgewenst combineren met andere gegevenskenmerken om een publiek te maken.
+In [!DNL Target], kunt u een klantenattribuut van de [!UICONTROL Visitor Profile] sectie selecteren wanneer het creëren van een publiek. Alle klantkenmerken hebben het voorvoegsel &lt; data_source_name > in de lijst. U kunt deze kenmerken desgewenst combineren met andere gegevenskenmerken om een publiek te maken.
 
-![Doelpubliek](/help/main/c-target/c-visitor-profile/assets/TargetAudience.png)
+![ Doelpubliek van het Doel ](/help/main/c-target/c-visitor-profile/assets/TargetAudience.png)
 
 ### Profielscripts maken met behulp van tokens
 
-In profielscripts kan met de indeling naar de kenmerken van de klant worden verwezen `crs.get('<Datasource Name>.<Attribute name>')`.
+In profielscripts kan met de indeling `crs.get('<Datasource Name>.<Attribute name>')` naar de kenmerken van de klant worden verwezen.
 
 Dit profielscript kan rechtstreeks worden gebruikt in aanbiedingen voor het leveren van kenmerken die bij de huidige bezoeker horen.
 
 ### Mbox3rdPartyID in uw website gebruiken voor een geslaagde implementatie en gebruik
 
-Voldoende `mbox3rdPartyId` als een parameter voor de algemene mbox in de `targetPageParams()` methode. De waarde van `mbox3rdPartyId` moet worden ingesteld op de klant-id die aanwezig was in het CSV-gegevensbestand.
+Geef `mbox3rdPartyId` als een parameter door aan de algemene box binnen de methode `targetPageParams()` . De waarde van `mbox3rdPartyId` moet worden ingesteld op de klant-id die aanwezig was in het CSV-gegevensbestand.
 
 ```javascript
 <script type="text/javascript">
@@ -138,52 +138,52 @@ Voldoende `mbox3rdPartyId` als een parameter voor de algemene mbox in de `target
 </script>
 ```
 
-### De Experience Cloud ID-service gebruiken
+### De Experience Cloud-id-service gebruiken
 
-Als u de Experience Cloud-id-service gebruikt, moet u een klant-id en verificatiestatus instellen om klantkenmerken te gebruiken voor het opgeven van doelen. Zie voor meer informatie [Klant-id&#39;s en verificatiestatus](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=nl-NL) in de *Help bij Experience Cloud ID-service*.
+Als u de Experience Cloud-id-service gebruikt, moet u een klant-id en verificatiestatus instellen om klantkenmerken te gebruiken voor het opgeven van doelen. Voor meer informatie, zie [ identiteitskaarts van de Klant en de Staat van de Authentificatie ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) in de *Hulp van de Dienst van identiteitskaart van Experience Cloud*.
 
-Voor meer informatie over het gebruik van klantkenmerken in [!DNL Target], zie de volgende middelen:
+Zie de volgende bronnen voor meer informatie over het gebruik van klantkenmerken in [!DNL Target] :
 
-* [Een bron voor klantkenmerken maken en het gegevensbestand uploaden](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html?lang=nl-NL) in de *Experience Cloud Services- en beheerdocumentatie*
+* [ creeer een bron van het klantenattribuut en upload het gegevensbestand ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) in de *Diensten van Experience Cloud en de documentatie van het Beleid*
 
 ## Problemen die klanten vaak tegenkomen {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
-U zou de volgende kwesties kunnen ontmoeten wanneer het werken met klantenattributen en [!DNL Target].
+Als u met klantkenmerken en [!DNL Target] werkt, kunnen de volgende problemen optreden.
 
 >[!NOTE]
 >
 >Kwesties 1 en 2 veroorzaken ongeveer 60% van de problemen op dit gebied. Probleem 3 veroorzaakt ongeveer 30% van de problemen. Probleem 4 veroorzaakt ongeveer 5% van de problemen. De resterende 5% is te wijten aan diverse problemen.
 
-### Uitgave 1: Klantkenmerken worden verwijderd omdat het profiel te groot is
+### Probleem 1: Klantkenmerken worden verwijderd omdat het profiel te groot is
 
 Er is geen tekenlimiet voor een bepaald veld in het gebruikersprofiel, maar als het profiel groter is dan 64 kB, wordt het afgebroken door de oudste kenmerken te verwijderen totdat het profiel weer lager is dan 64 kB.
 
-### Uitgave 2: Kenmerken die niet worden vermeld in de Audience Library in [!DNL Target], zelfs na enkele dagen
+### Uitgave 2: Attributen die niet worden vermeld in de Audience Library in [!DNL Target], zelfs na enkele dagen
 
 Dit is meestal een verbindingsprobleem met de pijplijn. Vraag uw Customer Attributes-team dan om de feed opnieuw te publiceren.
 
-### Versie 3: Aflevering werkt niet op basis van het kenmerk
+### Versie 3: levering werkt niet op basis van het kenmerk
 
 Het profiel is nog niet bijgewerkt op de rand. Vraag uw Customer Attributes-team dan om de feed opnieuw te publiceren.
 
-### Versie 4: Implementatievraagstukken
+### Probleem 4: Implementatieproblemen
 
 Houd rekening met de volgende implementatiekwesties:
 
-* De bezoeker-id is niet correct doorgegeven. De id is doorgegeven `mboxMCGVID` in plaats van `setCustomerId`.
+* De bezoeker-id is niet correct doorgegeven. De id is doorgegeven in `mboxMCGVID` in plaats van `setCustomerId` .
 * De bezoekersidentiteitskaart werd correct overgegaan, maar de staat van de VERIFICATIE werd niet geplaatst aan voor authentiek verklaard.
 * `mbox3rdPartyId` is niet correct doorgegeven.
 
-### Uitgave 5: `mboxUpdate` niet correct uitgevoerd
+### Uitgave 5: `mboxUpdate` wordt niet correct uitgevoerd
 
-`mboxUpdate`  is niet correct uitgevoerd met `mbox3rdPartyId`.
+`mboxUpdate` is niet correct uitgevoerd met `mbox3rdPartyId` .
 
-### Uitgave 6: Klantkenmerken worden niet geïmporteerd in [!DNL Target]
+### Versie 6: kenmerken van klanten worden niet geïmporteerd in [!DNL Target]
 
-Als u de klantkenmerkgegevens niet kunt vinden in Target, dient u ervoor te zorgen dat de import heeft plaatsgevonden binnen de laatste *x* dagen *x* is het doel [Levensduur bezoekersprofiel](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) waarde (standaard 14 dagen).
+Als u de gegevens van de Attributen van de Klant in Doel niet kunt vinden, zorg ervoor dat de invoer binnen de laatste *x* dagen voorkwam waar *x* de waarde van het Levensduur van het Profiel van de Bezoeker [ ](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) (14 dagen door gebrek) is.
 
-## Trainingsvideo: Offlinegegevens uploaden met behulp van klantkenmerken ![Zelfstudie-badge](/help/main/assets/tutorial.png) {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
+## De video van de opleiding: Upload Off-line Gegevens gebruikend de badge van de Attributen van de Klant ![ Zelfstudie ](/help/main/assets/tutorial.png) {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
 
-In deze video ziet u hoe u offline CRM, helpdesk, verkooppunt en andere marketinggegevens kunt importeren in de [!DNL Experience Cloud People] en deze koppelen aan bezoekers met behulp van hun bekende id&#39;s.
+In deze video ziet u hoe u offline CRM, helpdesk, verkooppunt en andere marketinggegevens kunt importeren in de [!DNL Experience Cloud People] -service en deze kunt koppelen aan bezoekers die hun bekende id&#39;s gebruiken.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17802t1/)
