@@ -2,7 +2,7 @@
 keywords: optimalisatie;personalisatie;adobe reis optimizer;ajo;use cases;scenario's;web;code-based
 description: Leer hoe u de beste voorbeelden voor optimalisatiegebruik in Adobe Journey Optimizer kunt implementeren voor een maximale impact.
 title: De hoogste Gevallen van het Gebruik van de Optimalisering in  [!DNL Adobe Journey Optimizer]  - Web en code-gebaseerde kanalen
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
 feature: Integrations
 hide: true
 hidefromtoc: true
@@ -22,7 +22,7 @@ Leer hoe u de meest gebruikte voorbeelden voor optimalisatie in [!DNL Adobe Jour
 
 Om de volgende gebruiksgevallen uit te voeren, hebt u het volgende nodig:
 
-* [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
+* [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
 * Voor deze gebruiksgevallen is geen [!DNL Adobe Target] -licentie vereist. Deze gebruiksgevallen tonen aan hoe u bekende taken kunt uitvoeren in [!DNL Target] met [!DNL Journey Optimizer] , zodat u dezelfde resultaten kunt verkennen en bereiken met [!DNL Journey Optimizer] .
 
 ## Gebruik hoofdletters

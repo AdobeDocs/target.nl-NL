@@ -2,7 +2,7 @@
 keywords: maken, aangepaste criteria;algoritmen;criteria;aanbevelingen, criteria;csv;ftp;upload csv
 description: Leer hoe te om een Csv- dossier te uploaden om uw aanbevelingen in Adobe  [!DNL Target]  Aanbevelingen aan te passen.
 title: Hoe upload ik de Criteria van de Douane in  [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

@@ -2,7 +2,7 @@
 keywords: gedragsgegevensbron;analyse;aanbevelingen;criteria;productvariabelen
 description: Leer hoe te om  [!DNL Adobe Analytics]  als gedragsgegevensbron in  [!DNL Target Recommendations] te gebruiken.
 title: Hoe gebruik ik  [!DNL Adobe Analytics]  met  [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -47,7 +47,7 @@ Een [!DNL Target Recommendations] -voorbeeldvoederindeling fungeert als leidraad
 >
 >Als het een inhoudssite is, moeten de respectievelijke inhoudsonderdelen worden behandeld als &quot;producten&quot; en de bijbehorende kenmerken over die inhoud worden doorgegeven als kenmerken. Dergelijke kenmerken kunnen de auteursnaam, publicatiedatum, inhoudstitel, maand van versie, enzovoort omvatten. Het bedrijf moet op basis van de gebruiksaanwijzing beslissen over de mate waarin een categorie of categorie in aanmerking komt.
 
-Voor meer details op hoe te opstellings productvariabelen, zie [ producten ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) in *Adobe Analytics* gids uitvoeren. Sommige nota&#39;s in die documentatie hebben behoefte aan discretie van het team dat het opstelt (voorbeeld: Categorie). Het wordt altijd aangeraden [!DNL Adobe] te raadplegen voordat u deze activiteit uitvoert.
+Voor meer details op hoe te opstellings productvariabelen, zie [ producten ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=nl-NL) in *Adobe Analytics* gids uitvoeren. Sommige nota&#39;s in die documentatie hebben behoefte aan discretie van het team dat het opstelt (voorbeeld: Categorie). Het wordt altijd aangeraden [!DNL Adobe] te raadplegen voordat u deze activiteit uitvoert.
 
 ### Overwegingen
 

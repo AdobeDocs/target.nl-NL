@@ -20,7 +20,7 @@ Dit artikel bevat de eerste stappen die [!DNL Adobe Target] -beheerders moeten u
 
 Een systeembeheerder in [!DNL Adobe Admin Console] moet u als gebruiker in [!DNL Target] toevoegen door u uit te nodigen om zich aan te sluiten. De systeembeheerder zou u dan aan één of meerdere rol-specifieke productprofielen (groepen gebruikers) moeten toevoegen. Beide taken worden uitgevoerd in [ Adobe Admin Console ](https://adminconsole.adobe.com).
 
-Voor meer informatie, zie [ gebruikersgroepen ](https://helpx.adobe.com/enterprise/using/users.html) leiden.
+Voor meer informatie, zie [ gebruikersgroepen ](https://helpx.adobe.com/nl/enterprise/using/users.html) leiden.
 
 U ontvangt een uitnodigingse-mail nadat de systeembeheerder deze stappen heeft uitgevoerd.
 

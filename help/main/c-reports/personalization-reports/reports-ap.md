@@ -2,7 +2,7 @@
 keywords: Doel;AP-rapporten;geautomatiseerde verpersoonlijkingsrapporten;activiteitenniveau-rapport;bied niveaurapport aan;bied detailrapport aan;faq
 description: Leer hoe u het Automated Personalization Summary-rapport in Adobe Target interpreteert. U kunt op de Geautomatiseerde Segmenten en de Belangrijke rapporten van Attributen van dit rapport schakelen.
 title: Hoe gebruik ik de samenvattingsrapporten van Automated Personalization?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1

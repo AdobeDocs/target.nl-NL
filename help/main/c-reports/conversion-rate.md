@@ -108,7 +108,7 @@ Bijvoorbeeld, als u aan paginameningen per bezoeker optimaliseert, zou u een ste
 1. Klik op **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** .
 1. Vul op het tabblad **[!UICONTROL Data Warehouse Request]** de velden in.
 
-   Voor meer informatie over elk gebied, zie &quot;beschrijvingen van Data Warehouse&quot;in [ Data Warehouse ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
+   Voor meer informatie over elk gebied, zie &quot;beschrijvingen van Data Warehouse&quot;in [ Data Warehouse ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=nl-NL).
 
    | Veld | Instructies |
    |--- |--- |
@@ -128,8 +128,8 @@ Bijvoorbeeld, als u aan paginameningen per bezoeker optimaliseert, zou u een ste
 
 Raadpleeg de volgende koppelingen in de Help van [!DNL Data Warehouse] voor meer informatie over [!DNL Analytics] :
 
-* [ creeer een verzoek van Data Warehouse ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
-* [ de beste praktijken van Data Warehouse ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [ creeer een verzoek van Data Warehouse ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=nl-NL)
+* [ de beste praktijken van Data Warehouse ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=nl-NL)
 
 ## Telmethode {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 

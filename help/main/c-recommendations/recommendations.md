@@ -2,7 +2,7 @@
 keywords: Aanbevelingen;Aanbevelingscriteria;aanbevelingen algoritmen;aanbevelingen activiteit;criteria;aanbevelingen gericht;recs
 description: Leer over de activiteiten van Aanbevelingen in Adobe  [!DNL Target]  die automatisch inhoud tonen die uw klanten zou kunnen interesseren die op vorige gebruikersactiviteit of andere algoritmen wordt gebaseerd.
 title: Wat is  [!DNL Target]  Aanbevelingen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42

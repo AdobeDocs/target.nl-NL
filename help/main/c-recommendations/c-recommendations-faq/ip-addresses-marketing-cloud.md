@@ -2,7 +2,7 @@
 keywords: IP-adres;IP-adressen;whitelist;lijst van gewenste personen;firewall;recs;feed;servers;adobe-marketingcloud;aanbevelingen
 description: Bekijk een lijst van IP adressen die in  [!DNL Target]  worden gebruikt de input-verwerkende servers van Aanbevelingen om u te helpen uw firewall vormen om IP adressen uit de servers van Adobe toe te staan.
 title: Welke IP Adressen gebruiken de aanbevelingen van servers van de diervoeder-Verwerking?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
 source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740

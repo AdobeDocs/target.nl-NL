@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Aangepaste parameters zijn de parameters mbox in [!DNL Adobe Target] . Wanneer u parameters van het selectiekader doorgeeft aan selectievakjes of de functie `targetPageParams` gebruikt, worden deze parameters hier weergegeven voor gebruik bij het publiek.
 
-Voor meer informatie, zie [ parameters van de pas aan globale mbox ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.
+Voor meer informatie, zie [ parameters van de pas aan globale mbox ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=nl-NL){target=_blank}.
 
 Wanneer u een aangepast publiek maakt op basis van een mbox-parameter, vraagt `mboxParameter` niet langer om `mboxName` . De naam van het selectievakje is nu optioneel. Met deze wijziging kunt u parameters uit meerdere vakken gebruiken of verwijzen naar een parameter die nog niet op de rand is opgenomen.
 

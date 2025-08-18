@@ -2,7 +2,7 @@
 keywords: aanbevelingen, algoritmen;modeltraining;model serving;content delivery;item-based;user-based;popularity-based;cart-based;custom criteria
 description: Leer over de algoritmen die in  [!DNL Target Recommendations] worden gebruikt, met inbegrip van modelopleiding en modeldienend.
 title: Waar kan ik over de wetenschap achter de aanbevelingen van het doel algoritmen leren?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
@@ -65,7 +65,7 @@ De logische stroom van de daadwerkelijke algoritmeimplementatie wordt getoond in
 
 Deze stappen zijn als volgt:
 
-* **gegevens van de Input**: De gegevens van het gedrag, in de vorm van meningen en aankopen van bezoekers die worden verzameld wanneer u [ Doel ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} of van [ Adobe Analytics ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank} uitvoert.
+* **gegevens van de Input**: De gegevens van het gedrag, in de vorm van meningen en aankopen van bezoekers die worden verzameld wanneer u [ Doel ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} of van [ Adobe Analytics ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank} uitvoert.
 
 * **Model opleiding**:
 
@@ -89,7 +89,7 @@ Hoewel het model dat dienst doet en de tevreden leveringsaspecten van de de inho
 
 Deze stappen zijn als volgt:
 
-* **gegevens van de Input**: Zoals eerder beschreven, is dit algoritme puur gebaseerd op catalogusgegevens (die aan [!DNL Target] via het Diervoeder van de Catalogus van de a [ worden opgenomen, de Entiteiten API, of van op pagina updates ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+* **gegevens van de Input**: Zoals eerder beschreven, is dit algoritme puur gebaseerd op catalogusgegevens (die aan [!DNL Target] via het Diervoeder van de Catalogus van de a [ worden opgenomen, de Entiteiten API, of van op pagina updates ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank}.
 
 * **Model opleiding**:
 
@@ -127,7 +127,7 @@ De logica van modelopleiding en het scoren stappen worden getoond in het volgend
 
 Deze stappen zijn als volgt:
 
-* **gegevens van de Input**: Dit is identiek aan punt-punt samenwerkings het filtreren (CF) methodes. [!UICONTROL Both Recommended For You] en op kunst-Gebaseerde algoritmen gebruiken gedragsgegevens, in de vorm van meningen en aankopen van verzamelde gebruikers wanneer u [ Doel ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} of van [ Adobe Analytics ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank} uitvoert.
+* **gegevens van de Input**: Dit is identiek aan punt-punt samenwerkings het filtreren (CF) methodes. [!UICONTROL Both Recommended For You] en op kunst-Gebaseerde algoritmen gebruiken gedragsgegevens, in de vorm van meningen en aankopen van verzamelde gebruikers wanneer u [ Doel ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} of van [ Adobe Analytics ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank} uitvoert.
 
 * **Model opleiding**:
 

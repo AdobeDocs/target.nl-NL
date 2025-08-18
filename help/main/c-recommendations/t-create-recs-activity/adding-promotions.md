@@ -2,7 +2,7 @@
 keywords: promoties;promoties vooraf;promoties;promotietype;lijst met items;promoten op kenmerk;een verzameling promoten
 description: Leer hoe te om bevorderde punten toe te voegen en hun plaatsing in uw ontwerpen van de Aanbevelingen van Adobe te controleren  [!DNL Target] . U kunt statische en dynamische promoties toevoegen.
 title: Hoe voeg ik promoties toe in ontwerpen met aanbevelingen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42

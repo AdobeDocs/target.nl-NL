@@ -2,7 +2,7 @@
 keywords: cataloguszoekopdracht;catalogus;zoeken;uitsluiten;verzameling;filter
 description: Leer hoe u met de zoekfunctie in de catalogus met aanbevelingen producten of inhoud kunt zoeken, verzamelingen of uitsluitingen kunt maken, items uit de catalogus kunt verwijderen en nog veel meer.
 title: Hoe gebruik ik de zoekopdracht in de catalogus met aanbevelingen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

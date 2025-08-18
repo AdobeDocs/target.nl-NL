@@ -2,7 +2,7 @@
 keywords: Automated Personalization;ap;voorvertoning;uitsluiten, ervaring
 description: Leer hoe te om elke ervaring in een [!UICONTROL Automated Personalization] (AP) activiteit in  [!DNL Adobe Target]  voor te vertonen gebruikend [!UICONTROL Visual Experience Composer] (VEC).
 title: Hoe kan ik [!UICONTROL Automated Personalization] ervaringen in VEC voorvertonen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88

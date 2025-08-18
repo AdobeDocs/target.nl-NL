@@ -2,7 +2,7 @@
 keywords: omgevingsgegevens;sessiegegevens;geo-gegevens;geografische gegevens;apparaatgegevens;mobiele gegevens;kenmerken;profielkenmerken;verpersoonlijkingsalgoritmen;machinaal leeralgoritmen;machinaal leeralgoritmen
 description: Leer welke gegevens  [!DNL Adobe Target]  verzamelt en gebruikt om zijn machine-leert algoritmen te bouwen.
 title: Welke Gegevens worden verzameld om machine-Lerende Algoritmen te bouwen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 source-git-commit: fe6a7addd3854c430798fc339741c9ae6a4efc7d
@@ -38,10 +38,10 @@ In de volgende tabel worden de door de klant opgegeven gegevens weergegeven die 
 | --- | --- | --- | --- |
 | Paginaparameters | VAK | Aangepaste paginaparameters (&quot;mbox parameters&quot;) die in de aanroep aan [!DNL Target] worden doorgegeven. | Aangepast - Mbox Parameter - [ parameternaam ] |
 | [!DNL Target] -profiel | PRO | Aangepaste profielkenmerken worden rechtstreeks geüpload naar het [!DNL Target] -profiel via API- of paginaparameter en [!DNL Target] -profielscripts. | Aangepast - het Profiel van de Bezoeker - [ attributennaam ] |
-| Klantkenmerken | CRS | Klantkenmerken die via [!DNL Target] [[!DNL Adobe Experience Cloud Customer Attributes Service] naar het ](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank} profiel zijn geüpload. | Aangepast - het Profiel van de Bezoeker - [ attributennaam ] |
+| Klantkenmerken | CRS | Klantkenmerken die via [!DNL Target] [[!DNL Adobe Experience Cloud Customer Attributes Service] naar het ](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=nl-NL){target=_blank} profiel zijn geüpload. | Aangepast - het Profiel van de Bezoeker - [ attributennaam ] |
 | URL-parameters | URL | URL en eventuele URL-parameters voor de momenteel weergegeven pagina. | Douane - Parameter URL - [ Parameter URL ] |
 | URL verwijzen | REF | Verwijzen naar URL- en URL-parameters voor de verwijzende URL. | Douane - [ Verwijzend Parameter URL ] - [ waarde van de Parameter ] |
-| [!DNL Adobe Experience Cloud] gedeeld publiek | AAM | Alle soorten publiek die met [!DNL Target] worden gedeeld vanuit andere [!DNL Adobe Experience Cloud] -oplossingen (bijvoorbeeld [!DNL Adobe Audience Manager] en [!DNL Adobe Analytics] via [[!DNL Experience Cloud Audience Library] ](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank} ). | Aangepast - het Publiek van Experience Cloud - [ Naam van het Publiek ] |
+| [!DNL Adobe Experience Cloud] gedeeld publiek | AAM | Alle soorten publiek die met [!DNL Target] worden gedeeld vanuit andere [!DNL Adobe Experience Cloud] -oplossingen (bijvoorbeeld [!DNL Adobe Audience Manager] en [!DNL Adobe Analytics] via [[!DNL Experience Cloud Audience Library] ](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=nl-NL){target=_blank} ). | Aangepast - het Publiek van Experience Cloud - [ Naam van het Publiek ] |
 | [!DNL Adobe Experience Platform Real-time CDP] publiek | UPS | Platform CDP-publiek in realtime gedeeld met [!DNL Target] via [!UICONTROL Destinations] . |  |
 
 
@@ -49,7 +49,7 @@ In de volgende tabel worden de door de klant opgegeven gegevens weergegeven die 
 
 Functies kunnen worden geblokkeerd door [!DNL Target] machinaal Lerende algoritmen, zodat ze niet kunnen worden gebruikt in een [!UICONTROL Automated Personalization] - of [!UICONTROL Auto-Target] -model of -activiteit.
 
-Voor meer informatie, zie [ Modellen API (Voegend op lijst van gewenste personen) Overzicht ](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} in de *[!DNL Adobe Target]Gids van de Ontwikkelaar*.
+Voor meer informatie, zie [ Modellen API (Voegend op lijst van gewenste personen) Overzicht ](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=nl-NL){target=_blank} in de *[!DNL Adobe Target]Gids van de Ontwikkelaar*.
 
 ## Apparaat- en mobiele gegevens {#device-mobile}
 

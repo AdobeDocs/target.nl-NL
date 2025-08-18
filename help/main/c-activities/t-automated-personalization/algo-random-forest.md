@@ -2,7 +2,7 @@
 keywords: willekeurig bos;beslissingsboom;ap;Automated Personalization
 description: Leer hoe  [!DNL Adobe Target]  het Random Bos algoritme in zowel [!UICONTROL Automated Personalization] (AP) als [!UICONTROL Auto-Target] activiteiten gebruikt.
 title: Hoe gebruikt  [!DNL Target]  het Willekeurige Bosalgoritme?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd

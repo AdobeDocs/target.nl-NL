@@ -125,7 +125,7 @@ Gebruik een:
 
   Als dit gedrag niet aan uw vereisten voldoet, kunt u een van de volgende handelingen uitvoeren:
 
-   * Geef [ mbox parameters ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} aan [!DNL Target] door voor het richten van doeleinden worden gebruikt.
+   * Geef [ mbox parameters ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=nl-NL){target=_blank} aan [!DNL Target] door voor het richten van doeleinden worden gebruikt.
    * Gebruik een [ activiteit van de Test A/B ](/help/main/c-activities/t-test-ab/test-ab.md) in plaats van een het landen paginageactiviteit. Bij de A/B-testactiviteiten wordt niet van ervaring gewisseld voor dezelfde bezoeker.
    * Gebruik in plaats hiervan het profiel van de a [ bezoeker ](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md).
 

@@ -118,11 +118,11 @@ Deze video is een opname van &quot; [ Uren van het Bureau ](/help/main/cmp-resou
 * Meer informatie over de ideale rapporten die u kunt gebruiken in Analytics
 * Antwoorden op algemene vragen over A4T
 
-[ de Uren van het Bureau van de Integratie van Analytics/van het Doel (A4T) ](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[ de Uren van het Bureau van de Integratie van Analytics/van het Doel (A4T) ](https://helpx.adobe.com/nl/customer-care-office-hours/target/analytics-target-A4T-integration.html)
 
 >[!MORELIKETHIS]
 >
 >* [ Analytics voor  [!DNL Target]  implementatie ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md): Bevat implementatieinformatie voor at.js en het Web SDK van het Platform.
 >* [ Redirect aanbiedingen - Veelgestelde vragen A4T ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
->* [ wat SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) is: Bevat overzichtsinformatie over het Web SDK van het Platform.
->* [ overzicht van het Doel ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html): Bevat informatie specifiek voor [!DNL Target] en [!DNL Platform Web SDK].
+>* [ wat SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) is: Bevat overzichtsinformatie over het Web SDK van het Platform.
+>* [ overzicht van het Doel ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=nl-NL): Bevat informatie specifiek voor [!DNL Target] en [!DNL Platform Web SDK].

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Voordat u [!DNL Adobe Target] gaat gebruiken, moet u deze op uw site implementeren.
 
-De [ Gids van de Ontwikkelaar van Adobe Target ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} bevat informatie u moet weten alvorens u [!DNL Target] uitvoert.
+De [ Gids van de Ontwikkelaar van Adobe Target ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=nl-NL){target=_blank} bevat informatie u moet weten alvorens u [!DNL Target] uitvoert.
 
 Het Developer-portaal bevat informatie over de volgende implementatietypen:
 
@@ -33,4 +33,4 @@ Het Developer-portaal bevat informatie over de volgende implementatietypen:
 * API&#39;s rapporteren.
 * Aanbeveling-API&#39;s.
 
-Voor meer informatie, zie [ Doel API Overzicht ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html){target=_blank} in de [ Gids van de Ontwikkelaar van Adobe Target ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
+Voor meer informatie, zie [ Doel API Overzicht ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html?lang=nl-NL){target=_blank} in de [ Gids van de Ontwikkelaar van Adobe Target ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=nl-NL){target=_blank}.

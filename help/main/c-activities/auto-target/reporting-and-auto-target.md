@@ -2,7 +2,7 @@
 keywords: autotarget;het richten;verkeerstoewijzing;vaak gestelde vragen;faq;het oplossen van problemen;het oplossen van problemen;het melden;rapporten;auto-doel samenvattingsrapport;samenvattingsrapport;geautomatiseerde segmenten;belangrijke attributen
 description: Leer hoe u [!UICONTROL Auto-Target] activiteitenrapporten in  [!DNL Target] interpreteert.
 title: Hoe interpreteer ik een [!UICONTROL Auto-Target] -rapport?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Auto-Target
 exl-id: df3f2d91-13f8-4acb-ba31-68f91500610b
 source-git-commit: 79fcfe80d8c77d59965e6565a36cf15eb63f8323

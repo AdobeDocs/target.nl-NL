@@ -41,7 +41,7 @@ Voor meer informatie, zie [ auto-Wijs overzicht ](/help/main/c-activities/automa
 
 Als u ervoor kiest om een handmatige [!UICONTROL A/B Test] activiteit in plaats van [!UICONTROL Auto-Allocate] te gebruiken, helpt de [!DNL Target] calculator van de Grootte van de Steekproef u de steekproefgrootte te bepalen nodig voor een succesvolle test. Een handmatige A/B-test is een test met een vaste horizon, zodat de calculator nuttig is. Het gebruik van de rekenmachine voor een [!UICONTROL Auto-Allocate] -activiteit is optioneel omdat [!UICONTROL Auto-Allocate] een winnaar voor u declareert. De calculator geeft u een ruwe schatting van de steekproefgrootte nodig. Lees verder voor meer informatie over het gebruik van de rekenmachine.
 
-Alvorens vestiging uw test A/B, toegang tot de [!DNL Adobe Target] [ calculator van de Grootte van de Steekproef ](https://experienceleague.adobe.com/tools/calculator/testcalculator.html).
+Alvorens vestiging uw test A/B, toegang tot de [!DNL Adobe Target] [ calculator van de Grootte van de Steekproef ](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=nl-NL).
 
 ![ de calculator van de Grootte van de Steekproef van Adobe Target ](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 

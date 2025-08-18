@@ -2,7 +2,7 @@
 keywords: geautomatiseerde personalisatie;ap;publiek;ensemble;random forest;multi-gewapende bandit;thompson sampling;ml;machine leren
 description: Leer hoe te om [!UICONTROL Automated Personalization] (AP) activiteiten in  [!DNL Adobe Target]  te gebruiken die geavanceerde machine het leren gebruiken om verschillende aanbiedingsvariaties aan elke bezoeker aan te passen.
 title: Wat is een [!UICONTROL Automated Personalization] (AP) Activiteit?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd
@@ -68,9 +68,9 @@ Random Forest is een toonaangevende machineleesmethode. In gegevenswetenschappel
 
 Offlinegegevens, zoals CRM-informatie of klantchurn-concentratiescore, kunnen ongelooflijk waardevol zijn bij het samenstellen van personalisatiemodellen. Er zijn verschillende manieren om gegevens in te voeren in [!UICONTROL Automated Personalization] (AP)- en [!UICONTROL Auto-Target] personalisatiealgoritmen.
 
-* [ mbox parameters ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
-* [ de parameters van het Profiel ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
-* [ server-kant APIs voor profielupdate ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
+* [ mbox parameters ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=nl-NL){target=_blank}
+* [ de parameters van het Profiel ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=nl-NL){target=_blank}
+* [ server-kant APIs voor profielupdate ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=nl-NL){target=_blank}
 
 Voor informatie over de gegevens die automatisch door [!UICONTROL Automated Personalization] worden verzameld en worden gebruikt en [!UICONTROL Auto-Target] verpersoonlijkingsalgoritmen, zie [ de Inzameling van Gegevens van Automated Personalization ](/help/main/c-activities/t-automated-personalization/ap-data.md).
 

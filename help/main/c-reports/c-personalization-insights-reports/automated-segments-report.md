@@ -2,7 +2,7 @@
 keywords: Doel;AP-rapporten;geautomatiseerde verpersoonlijkingsrapporten;automatisch doel;automatisch doel;automatisch doel;automatisch doelrapport;automatisch doelrapport;verpersoonlijking;inzichten;geautomatiseerde segmenten;vk;vaak gestelde vragen
 description: Leer hoe de verschillende segmenten die door Adobe  [!DNL Target]  worden bepaald verpersoonlijkingsmodellen aan aanbiedingen/ervaringen in de activiteit antwoorden door het Geautomatiseerde rapport van Segmenten te bekijken.
 title: Wat is het Geautomatiseerde Rapport van Segmenten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
@@ -102,7 +102,7 @@ Er zijn verschillende redenen waarom de [!UICONTROL Personalization Insights] -r
 
 Een attribuut is informatie over een bezoeker of zijn of haar specifiek bezoek dat door de verpersoonlijkingsalgoritmen wordt gebruikt om te leren hoe te om verkeer te personaliseren. Een kenmerk kan bijvoorbeeld het browsertype, de locatie, het tijdstip van het bezoek zijn, enzovoort.
 
-Voor meer informatie over welke attributen [!DNL Target] gebruikt in zijn verpersoonlijkingsmodellen, zie [ Inzameling van Gegevens voor de Algoritmen van Personalization van het Doel ](/help/main/c-activities/t-automated-personalization/ap-data.md). Voor meer informatie over hoe te om nieuwe attributen in Doel te uploaden om in de verpersoonlijkingsmodellen van het Doel te gebruiken, zie [ Methoden om Gegevens in Doel ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} te krijgen.
+Voor meer informatie over welke attributen [!DNL Target] gebruikt in zijn verpersoonlijkingsmodellen, zie [ Inzameling van Gegevens voor de Algoritmen van Personalization van het Doel ](/help/main/c-activities/t-automated-personalization/ap-data.md). Voor meer informatie over hoe te om nieuwe attributen in Doel te uploaden om in de verpersoonlijkingsmodellen van het Doel te gebruiken, zie [ Methoden om Gegevens in Doel ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=nl-NL){target=_blank} te krijgen.
 
 **wat is een geautomatiseerd segment?**
 

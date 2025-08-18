@@ -20,7 +20,7 @@ Met de integratie A4T kunt u:
 * Gebruik het [ auto-Wijs ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) multi-gewapende bandit vermogen toe om verkeer aan het winnen van ervaringen te drijven.
 * Gebruik het [ auto-Doel ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) ensemble machine-leert algoritme om de beste ervaring voor elke bezoeker te kiezen. [!UICONTROL Auto-Target] kiest de beste ervaring op basis van het profiel, het gedrag en de context van elke gebruiker, en gebruikt daarbij tegelijkertijd een [!DNL Adobe Analytics] doel-meting en de rijke rapportage- en analysemogelijkheden van [!DNL Adobe Analytics] .
 
-Zorg ervoor dat u [ A4T voor gebruik met de Test van A/B en Ervaring die activiteiten richten ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) hebt uitgevoerd. Wanneer u `analyticsLogging = client_side` gebruikt, moet u ook de `sessionId` waarde aan [!DNL Analytics] doorgeven. Voor meer informatie, zie [ Analyses voor Doel (A4T) die ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} in de *Gids van de Ontwikkelaar van Adobe Target* melden.
+Zorg ervoor dat u [ A4T voor gebruik met de Test van A/B en Ervaring die activiteiten richten ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) hebt uitgevoerd. Wanneer u `analyticsLogging = client_side` gebruikt, moet u ook de `sessionId` waarde aan [!DNL Analytics] doorgeven. Voor meer informatie, zie [ Analyses voor Doel (A4T) die ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=nl-NL){target=_blank} in de *Gids van de Ontwikkelaar van Adobe Target* melden.
 
 Aan de slag:
 
@@ -132,7 +132,7 @@ Sommige beperkingen en opmerkingen gelden voor zowel [!UICONTROL Auto-Allocate] 
 
 * Wanneer u [!DNL Analytics] als gegevensbron voor een [!UICONTROL Auto-Target] -activiteit gebruikt, worden sessies beëindigd nadat zes uur zijn verstreken. Conversies die na zes uur plaatsvinden, worden niet geteld.
 
-Voor meer informatie, zie [ modellen van de Attributie en raadplegingsvensters ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) in de *Gids van de Hulpmiddelen van de Analyse*.
+Voor meer informatie, zie [ modellen van de Attributie en raadplegingsvensters ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=nl-NL) in de *Gids van de Hulpmiddelen van de Analyse*.
 
 ## Tutorials
 
@@ -142,12 +142,12 @@ Hoewel uitgebreide analysemogelijkheden beschikbaar zijn in [!DNL Adobe Analytic
 
 In deze zelfstudie worden de aanbevolen wijzigingen voor het analyseren van [!UICONTROL Auto-Allocate] -activiteiten in [!DNL Analysis Workspace] besproken.
 
-Voor meer informatie, zie [ hoe te opstelling A4T rapporten in Analysis Workspace voor auto-Wijs activiteiten ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} in *Zelfstudies van Adobe Target* toe.
+Voor meer informatie, zie [ hoe te opstelling A4T rapporten in Analysis Workspace voor auto-Wijs activiteiten ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=nl-NL){target=_blank} in *Zelfstudies van Adobe Target* toe.
 
 ### A4T-rapporten instellen in [!DNL Analysis Workspace] voor [!UICONTROL Auto-Target] -activiteiten
 
 In deze zelfstudie worden de aanbevolen wijzigingen voor het analyseren van [!UICONTROL Auto-Target] -activiteiten in [!DNL Analysis Workspace] besproken.
 
-Voor meer informatie, zie [ hoe te opstelling A4T rapporten in Analysis Workspace voor activiteiten Auto-Doel ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank} in *Zelfstudies van Adobe Target*.
+Voor meer informatie, zie [ hoe te opstelling A4T rapporten in Analysis Workspace voor activiteiten Auto-Doel ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=nl-NL){target=_blank} in *Zelfstudies van Adobe Target*.
 
 

@@ -19,7 +19,7 @@ Informatie over de vereiste taken die uw organisatie moet uitvoeren voordat u [!
 
 Uw organisatie moet eerst akkoord gaan met aanvullende juridische voorwaarden om toegang te krijgen tot [!DNL AI Assistant] . Neem vervolgens contact op met uw Adobe-accountteam voor hulp bij deze voorwaarden.
 
-Voor meer informatie, zie [ Toegang  [!DNL AI Assistant]  in  [!DNL Experience Platform] ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank} in de *[!DNL Experience Platform]* documentatie.
+Voor meer informatie, zie [ Toegang  [!DNL AI Assistant]  in  [!DNL Experience Platform] ](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/access){target=_blank} in de *[!DNL Experience Platform]* documentatie.
 
 ## Gebruikersmachtigingen inschakelen voor [!UICONTROL AI Assistant]
 

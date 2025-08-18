@@ -39,7 +39,7 @@ Klik in [!UICONTROL List View] op de miniatuurafbeelding aan de linkerkant van d
 
 Deze video bevat informatie over het beheren van inhoud.
 
-* Verbinding tussen de [ Bibliotheek van Activa van Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) en de Bibliotheek van de Inhoud van het Doel
+* Verbinding tussen de [ Bibliotheek van Activa van Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=nl-NL) en de Bibliotheek van de Inhoud van het Doel
 * Aangepaste HTML-aanbiedingen
 * Aangepaste HTML-aanbieding in Visual Experience Composer
 

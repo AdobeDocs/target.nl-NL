@@ -2,7 +2,7 @@
 keywords: product;collecties
 description: Leer over entiteiten in Adobe  [!DNL Target]  Aanbevelingen. De entiteiten verwijzen naar de punten u wilt adviseren gebruikend  [!DNL Target], zoals artikelen, films, of producten.
 title: Hoe gebruik ik Entiteiten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: ffe23eea-b914-4c86-ad54-c63c1cc1c0d7
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3

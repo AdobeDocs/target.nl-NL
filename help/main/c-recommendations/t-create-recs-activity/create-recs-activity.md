@@ -2,7 +2,7 @@
 keywords: aanbevelingen maken;aanbevelingen, activiteit;nieuwe aanbevelingen;aanbevelingen, overzicht
 description: Leer hoe te om  [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) te gebruiken om a  [!DNL Recommendations]  activiteit tot stand te brengen.
 title: Hoe creeer ik a [!DNL Recommendations]  Activiteit?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -73,7 +73,7 @@ Gebruik [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) om een [!DNL
 
    >[!NOTE]
    >
-   >Niet alle criteria worden op elke pagina correct uitgevoerd. De pagina of het selectievakje moet `entity.id` of `entity.categoryId` doorgeven om de huidige aanbevelingen voor het item of de huidige categorie compatibel te maken. Over het algemeen is het beter alleen compatibele criteria te laten zien. Als u echter incompatibele criteria voor de activiteit wilt gebruiken, schakelt u het selectievakje **[!UICONTROL Compatible]** uit. De optie [!UICONTROL Compatible] wordt mogelijk niet weergegeven, afhankelijk van de instellingen voor Aanbevelingen ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]** ). Voor meer informatie, zie [ Montages ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+   >Niet alle criteria worden op elke pagina correct uitgevoerd. De pagina of het selectievakje moet `entity.id` of `entity.categoryId` doorgeven om de huidige aanbevelingen voor het item of de huidige categorie compatibel te maken. Over het algemeen is het beter alleen compatibele criteria te laten zien. Als u echter incompatibele criteria voor de activiteit wilt gebruiken, schakelt u het selectievakje **[!UICONTROL Compatible]** uit. De optie [!UICONTROL Compatible] wordt mogelijk niet weergegeven, afhankelijk van de instellingen voor Aanbevelingen ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]** ). Voor meer informatie, zie [ Montages ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank}.
 
    ![ Uitgezochte de dialoogdoos van Criteria ](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 

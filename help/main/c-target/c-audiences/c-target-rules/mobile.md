@@ -33,7 +33,7 @@ Om dit probleem op te lossen, verzamelt [!DNL Target] aanvullende gegevens om iP
 
 >[!NOTE]
 >
->Klanten die de Mobile SDK gebruiken, hoeven niets te doen om deze functionaliteit toe te passen. De klanten die at.js gebruiken moeten [ bevorderen aan versie 1.5.0 van at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} (of recenter).
+>Klanten die de Mobile SDK gebruiken, hoeven niets te doen om deze functionaliteit toe te passen. De klanten die at.js gebruiken moeten [ bevorderen aan versie 1.5.0 van at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} (of recenter).
 
 U kunt meerdere eigenschappen voor mobiele apparaten kiezen. Meerdere selecties worden verbonden met een operator OR.
 

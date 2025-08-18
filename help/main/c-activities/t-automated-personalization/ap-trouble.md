@@ -2,7 +2,7 @@
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
 description: Ontdek mogelijke uitdagingen waarmee u kunt worden geconfronteerd wanneer u [!UICONTROL Automated Personalization] (AP)-activiteiten in Adobe Target gebruikt, samen met voorgestelde oplossingen.
 title: Hoe los ik [!UICONTROL Automated Personalization] -activiteiten op?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Automated Personalization
 exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
 source-git-commit: 2cb2c2b68f6487d1af41ecc7e73750afa1ad85f9

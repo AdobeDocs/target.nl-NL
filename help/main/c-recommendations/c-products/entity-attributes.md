@@ -1,7 +1,7 @@
 ---
 keywords: entiteit;entiteitskenmerken;geef informatie door aan Aanbevelingen;gedragsgegevens;gegevensteller;definieer relatieve URL;geef voorraadniveau weer;definieer prijs;definieer winstmarge;eigen kenmerken
 description: Leer hoe te om entiteitattributen te gebruiken om product of inhoudsinformatie tot  [!DNL Target]  Aanbevelingen over te gaan.
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 title: Hoe gebruik ik entiteitskenmerken?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
@@ -31,7 +31,7 @@ In het algemeen ziet het informatievenster voor de weergave er als in het volgen
 
 >[!NOTE]
 >
->Als u at.js 2 gebruikt.*x*, `mboxCreate` (zoals die in het volgende voorbeeld wordt gebruikt) wordt niet meer gesteund. Product- of inhoudsgegevens doorgeven aan [!DNL Recommendations] met behulp van at.js 2.*x*, gebruik [ targetPageParams ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. Voor een voorbeeld, zie [ Plan en voer Aanbevelingen ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} uit.
+>Als u at.js 2 gebruikt.*x*, `mboxCreate` (zoals die in het volgende voorbeeld wordt gebruikt) wordt niet meer gesteund. Product- of inhoudsgegevens doorgeven aan [!DNL Recommendations] met behulp van at.js 2.*x*, gebruik [ targetPageParams ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html?lang=nl-NL){target=_blank}. Voor een voorbeeld, zie [ Plan en voer Aanbevelingen ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} uit.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 

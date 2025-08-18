@@ -2,7 +2,7 @@
 keywords: criteria opeenvolging;veelvoudige criteria;algoritmen;criteria;aanbevelingen criteria;opeenvolging;grens aantal teruggekeerde punten;groefniveaucontrole;groef
 description: Leer hoe u reeksen van maximaal vijf criteria instelt om meer controle uit te oefenen over de items die in uw activiteiten met aanbevelingen worden weergegeven.
 title: Hoe maak ik reeksen criteria in aanbevelingen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

@@ -45,7 +45,7 @@ Er zou een &quot;[!UICONTROL Unspecified]&quot;gebeurtenisrij kunnen zijn in uw 
 
 Doorgaans wordt deze rij weergegeven als u een algemene metrische waarde kiest in het rapport die niet [!DNL Target] specifiek is (bijvoorbeeld [!UICONTROL Page Views] , [!UICONTROL Visits] , [!UICONTROL Unique Visitors] enzovoort). In dit geval bevat de [!UICONTROL "Unspecified"] -rij alle [!UICONTROL Page Views] , [!UICONTROL Visits] en [!UICONTROL Unique Visitors] die niet aan [!DNL Target] -activiteiten zijn gekoppeld.
 
-Die rij bevat geen aan [!DNL Target] gekoppelde informatie (bijvoorbeeld geen bezoekers, bezoekers of impressies). Voor meer informatie, zie [ &quot;Niet gespecificeerd,&quot;&quot;niets,&quot;&quot;Andere,&quot;en &quot;Onbekend&quot;in het melden van ](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) in de *technische nota&#39;s van de Analyse*.
+Die rij bevat geen aan [!DNL Target] gekoppelde informatie (bijvoorbeeld geen bezoekers, bezoekers of impressies). Voor meer informatie, zie [ &quot;Niet gespecificeerd,&quot;&quot;niets,&quot;&quot;Andere,&quot;en &quot;Onbekend&quot;in het melden van ](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=nl-NL) in de *technische nota&#39;s van de Analyse*.
 
 Als u een [!DNL Target] -specifieke metrische waarde kiest in het rapport, wordt die [!UICONTROL "Unspecified"] -rij niet weergegeven. De enige manier om te voorkomen dat dit in het rapport wordt opgenomen, is het instellen van een [!DNL Target] -aanroep op elk verzoek dat van die pagina wordt verzonden, wat niet gebruikelijk of noodzakelijk is.
 
@@ -92,7 +92,7 @@ Controleer uw implementatie, vooral op pagina&#39;s waar uw bezoekers voor ervar
 
 De eenvoudigste manier om de aanvullende id te controleren is met de Adobe Experience Platform Debugger.
 
-Als u debugger niet hebt geïnstalleerd, zie [ Inleiding aan Adobe Experience Platform Debugger ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
+Als u debugger niet hebt geïnstalleerd, zie [ Inleiding aan Adobe Experience Platform Debugger ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html?lang=nl-NL).
 
 ![ Debugger ](/help/main/c-integrating-target-with-mac/a4t/assets/debugger.png)
 

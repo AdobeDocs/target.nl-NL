@@ -2,7 +2,7 @@
 keywords: aangepast ontwerp;snelheid;decimaal;komma;ontwerp aanpassen
 description: Leer hoe te om de open-bron  [!DNL Velocity]  ontwerptaal te gebruiken om aanbevelingsontwerpen in  [!DNL Target]  Aanbevelingen aan te passen.
 title: Hoe pas ik een ontwerp aan gebruikend snelheid?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76

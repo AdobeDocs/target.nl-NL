@@ -19,9 +19,9 @@ Voeg via [!DNL Adobe Journey Optimizer] gemaakte aanbiedingsbeslissingen toe aan
 
 Raadpleeg de volgende onderwerpen in de [!DNL Adobe Journey Optimizer] -documentatie voor meer informatie over *[!DNL Journey Optimizer]* en de opties die u kunt kiezen:
 
-* [ krijgen Begonnen met Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
+* [ krijgen Begonnen met Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=nl-NL)
 
-* [ Ongeveer Beslissingsbeheer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)
+* [ Ongeveer Beslissingsbeheer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=nl-NL)
 
 ## Vereisten
 
@@ -72,7 +72,7 @@ In [!DNL Adobe Journey Optimizer] kunt u een gepersonaliseerde homepage-hoofdaan
 
 1. Selecteer in de **[!UICONTROL Add Offer Decision]** -rail rechts van de VEC de gewenste sandbox en klik vervolgens op Offerte Decision.placement selecteren.
 
-   A [ zandbak ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in [!DNL Adobe Experience Platform] laat u uw instantie in virtuele milieu&#39;s verdelen. U hebt bijvoorbeeld een productieomgeving en een testomgeving. A [ plaatsing ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] hulp zorgt ervoor dat de juiste vertoningen van de aanbiedingsinhoud in de juiste plaats.
+   A [ zandbak ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=nl-NL){target=_blank} in [!DNL Adobe Experience Platform] laat u uw instantie in virtuele milieu&#39;s verdelen. U hebt bijvoorbeeld een productieomgeving en een testomgeving. A [ plaatsing ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=nl-NL){target=_blank} in [!DNL Adobe Journey Optimizer] hulp zorgt ervoor dat de juiste vertoningen van de aanbiedingsinhoud in de juiste plaats.
 
    ![ Sandbox en de drop-down lijsten van Plaatsen in de Add de dialoogdoos van het Besluit van de Aanbieding ](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 

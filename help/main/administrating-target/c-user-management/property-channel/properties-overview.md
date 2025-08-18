@@ -2,7 +2,7 @@
 keywords: toevoegen gebruiker;project;gebruikersgroep;eigenschappen;werkruimte;beheren eigenschap;eigenschap;at_eigenschap;rollen;machtigingen
 description: Leer hoe u gebruikers aan Adobe Target toevoegt, werkruimten, gebruikersgroepen en eigenschappen maakt, uw implementatie bijwerkt en rollen en machtigingen opgeeft.
 title: Hoe kan ik bedrijfsmachtigingen configureren?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
@@ -48,7 +48,7 @@ Voor die taken die in [!DNL Adobe Admin Console for Enterprise] worden uitgevoer
 Wanneer u de nieuwe [!UICONTROL Properties] -functionaliteit gaat gebruiken, moet al het gebruikersbeheer worden uitgevoerd in de [!DNL Adobe Admin Console for Enterprise] . Alle bestaande gebruikers in [!DNL Target] worden echter gemigreerd van [!DNL Target] naar [!DNL Admin Console for Enterprise] .
 
 1. [ in Admin Console ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), klik het **[!UICONTROL Users]** lusje bij de bovenkant van pagina > **[!UICONTROL Add Users]** om nieuwe gebruikers tot stand te brengen of bestaande gebruikers uit te geven.
-1. Volg de instructies in [ leiden Gebruikers en Groepen in Experience Cloud ](https://helpx.adobe.com/enterprise/help/users.html) in de *Gids van de Gebruiker van de Onderneming*.
+1. Volg de instructies in [ leiden Gebruikers en Groepen in Experience Cloud ](https://helpx.adobe.com/nl/enterprise/help/users.html) in de *Gids van de Gebruiker van de Onderneming*.
 
 ## Stap 2. Een werkruimte maken (productprofiel) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
 
@@ -77,14 +77,14 @@ Gebruikers kunnen deel uitmaken van meerdere werkruimten en kunnen zelfs verschi
 
    U kunt deze werkruimten gebruiken om toegang tot verschillende teams te verdelen door gebied, bedrijfseenheid, plaatssectie, of via een andere methode u kiest. Gebruikers kunnen deel uitmaken van meerdere werkruimten en kunnen verschillende rollen binnen elke werkruimte hebben.
 
-1. Volg de instructies in [ creeer en beheer de Configuraties van het Product ](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) in de *Gids van de Gebruiker van de Onderneming*.
+1. Volg de instructies in [ creeer en beheer de Configuraties van het Product ](https://helpx.adobe.com/nl/enterprise/help/manage-products-and-configurations.html) in de *Gids van de Gebruiker van de Onderneming*.
 
 >[!NOTE]
 >Zie de trainingsvideo hieronder voor meer informatie over het configureren van werkruimten.
 
 ### Vraag uw werkruimte-id op {#workspace-id}
 
-U zult werkruimtetoewijzing aan de Toestemmingen van de hefboomonderneming in [ Doel APIs ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank} moeten overgaan.
+U zult werkruimtetoewijzing aan de Toestemmingen van de hefboomonderneming in [ Doel APIs ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=nl-NL){target=_blank} moeten overgaan.
 
 1. In [ Adobe Admin Console ](https://adminconsole.adobe.com), klik het [!UICONTROL Products] lusje, dan klik het product in het linkermenu om PLC (werkruimte) lijst te tonen.
 1. Klik op de gewenste PLC (werkruimte) en zoek de id voor &quot;profielen&quot; in de URL, zoals hieronder wordt weergegeven.
@@ -96,7 +96,7 @@ U zult werkruimtetoewijzing aan de Toestemmingen van de hefboomonderneming in [ 
 U kunt gebruikersgroepen maken, zoals Ontwikkelaars, Analysten, Marketers, Executives, enz., en vervolgens rechten toewijzen voor meerdere Adobe-producten en -werkruimten. Het toewijzen van een nieuw teamlid aan alle juiste rechten voor verschillende Adobe-producten kan net zo eenvoudig zijn als het toevoegen van deze rechten aan een specifieke gebruikersgroep.
 
 1. Klik in de Admin Console op de tab **[!UICONTROL Users]** boven aan de pagina > **[!UICONTROL User Groups]** om nieuwe gebruikersgroepen te maken of bestaande groepen te bewerken.
-1. Volg de instructies in [ leiden Gebruikers en Groepen van een Configuratie van het Product ](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) in de *Gids van de Gebruiker van de Onderneming*.
+1. Volg de instructies in [ leiden Gebruikers en Groepen van een Configuratie van het Product ](https://helpx.adobe.com/nl/enterprise/help/manage-products-and-configurations.html) in de *Gids van de Gebruiker van de Onderneming*.
 
 ## Stap 4. Eigenschappen maken {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
@@ -145,7 +145,7 @@ Als u de functionaliteit voor [!DNL Target] gebruikersmachtigingen wilt gebruike
 
    * **via een &quot;Parameter van de Douane&quot;in markeringen binnen [!DNL Adobe Experience Platform]:**
 
-     Voor meer informatie, zie [ Mbox Params ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params) in de *het overzicht van Markeringen* documentatie toevoegen.
+     Voor meer informatie, zie [ Mbox Params ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=nl-NL#add-mbox-params) in de *het overzicht van Markeringen* documentatie toevoegen.
 
    * **via targetPageParamsAll () functie:** Plaats de volgende code in de `<head>` markeringen, boven de verwijzing at.js.
 
@@ -159,7 +159,7 @@ Als u de functionaliteit voor [!DNL Target] gebruikersmachtigingen wilt gebruike
      </script>
      ```
 
-     Voor meer informatie over hoe te om dit met at.js te doen, zie [ targetPageParamsAll ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=en){target=_blank}.
+     Voor meer informatie over hoe te om dit met at.js te doen, zie [ targetPageParamsAll ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=nl-NL){target=_blank}.
 
 ## Stap 6: Geef rollen en machtigingen op {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
@@ -188,7 +188,7 @@ Als u de functionaliteit voor [!DNL Target] gebruikersmachtigingen wilt gebruike
    | Waarnemer | Kan activiteiten weergeven, maar kan deze niet maken of bewerken. |
    | Uitgever | Lijkt op de rol van waarnemer (kan activiteiten weergeven, maar kan deze niet maken of bewerken). De rol Publisher heeft echter de extra machtiging om activiteiten te activeren. |
 
-   Voor meer informatie, zie [ de Toestemmingen en Rollen van het Product in Admin Console ](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) in de *Gids van de Gebruiker van de Onderneming* beheren.
+   Voor meer informatie, zie [ de Toestemmingen en Rollen van het Product in Admin Console ](https://helpx.adobe.com/nl/enterprise/help/manage-permissions-and-roles.html) in de *Gids van de Gebruiker van de Onderneming* beheren.
 
 ## Trainingsvideo&#39;s
 

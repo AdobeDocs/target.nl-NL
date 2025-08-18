@@ -2,7 +2,7 @@
 keywords: integratie;rollen;gebruikersmachtigingen;beheerconsole
 description: Leer hoe u bestaande Adobe I/O-integraties toegang geeft tot alle werkruimten met de gewenste rol in Adobe Target.
 title: Hoe kan ik Adobe I/O toegang verlenen tot werkruimten en Rollen toewijzen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112

@@ -2,7 +2,7 @@
 keywords: verkeersraming;geautomatiseerde personalisatie;ap;schatting van verkeer
 description: Gebruik [!UICONTROL Traffic Estimator] om te beoordelen of u voldoende verkeer hebt om een [!UICONTROL Automated Personalization] -activiteit te laten slagen.
 title: Hoeveel verkeer is nodig voor een succesvolle [!UICONTROL Automated Personalization] activiteit?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88

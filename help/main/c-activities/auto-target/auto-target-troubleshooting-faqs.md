@@ -2,7 +2,7 @@
 keywords: autotarget;het richten;verkeerstoewijzing;vaak gestelde vragen;faq;het oplossen van problemen;het oplossen van problemen;verkeer
 description: Verken onderwerpen voor het oplossen van problemen en Veelgestelde vragen over [!UICONTROL Auto-Target] activiteiten.
 title: Hoe kan ik [!UICONTROL Auto-Target] activiteiten oplossen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 source-git-commit: 3e8c2d77f300bf0e2ca83a53d30e7b9eee48894e

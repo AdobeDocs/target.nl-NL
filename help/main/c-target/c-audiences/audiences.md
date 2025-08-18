@@ -21,7 +21,7 @@ Het publiek wordt gebruikt overal waar het richten beschikbaar is. Wanneer u een
 * [ creeer een activiteit-specifiek publiek ](/help/main/c-target/creating-activity-only-audience.md) en richt het
 * [ combineer veelvoudige publiek ](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) om een ad hoc publiek tot stand te brengen
 
-U kunt ook publieksgegevens gebruiken die door [!DNL Adobe Analytics] zijn verzameld voor realtime doelen en personalisatie in [!DNL Target] en andere [!DNL Adobe Experience Cloud] -toepassingen. Zie [ het Soorten publiek van Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) in de *3&rbrace; gids van de Componenten van de Interface van Experience Cloud Centrale.*
+U kunt ook publieksgegevens gebruiken die door [!DNL Adobe Analytics] zijn verzameld voor realtime doelen en personalisatie in [!DNL Target] en andere [!DNL Adobe Experience Cloud] -toepassingen. Zie [ het Soorten publiek van Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=nl-NL) in de *3&rbrace; gids van de Componenten van de Interface van Experience Cloud Centrale.*
 
 Er zijn twee soorten publiek in [!DNL Target]:
 

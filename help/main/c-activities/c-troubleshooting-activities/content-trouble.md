@@ -111,7 +111,7 @@ Met de Adobe Experience Cloud Debugger kunt u snel en gemakkelijk uw doelimpleme
 
 Zie de volgende trainingsvideo&#39;s voor meer informatie:
 
-Voor meer gedetailleerde informatie, zie [ zuiveren at.js gebruikend debugger van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
+Voor meer gedetailleerde informatie, zie [ zuiveren at.js gebruikend debugger van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=nl-NL){target=_blank}.
 
 ## Topverkopers worden niet weergegeven in Aanbevelingen {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -127,7 +127,7 @@ Doel ondersteunt IE 8 niet meer.
 
 ## Doelcookie wordt niet ingesteld {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-Als uw site een subdomein heeft, zoals [!DNL us.domain.com] , maar u hebt de doelcookie ingesteld op [!DNL domain.com] (in plaats van [!DNL us.domain.com] ), moet u de instelling `cookieDomain` overschrijven. Voor meer informatie, zie [ targetGlobalSettings () ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}.
+Als uw site een subdomein heeft, zoals [!DNL us.domain.com] , maar u hebt de doelcookie ingesteld op [!DNL domain.com] (in plaats van [!DNL us.domain.com] ), moet u de instelling `cookieDomain` overschrijven. Voor meer informatie, zie [ targetGlobalSettings () ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=nl-NL){target=_blank}.
 
 ## De doelinhoud flikkert of wordt niet weergegeven als een element ook deel uitmaakt van Adobe Experience Manager-personalisatie. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 

@@ -2,7 +2,7 @@
 keywords: email;ESP;email service provider;rawbox;delivery API;download-only template;email template;batch processing;build-time e-mail
 description: Leer hoe te om e-mail met Adobe  [!DNL Target Recommendations], including using the [!DNL Target]  Levering API, kadermalplaatjes, en neer-lading slechts malplaatjes te integreren.
 title: Hoe kan ik aanbevelingen integreren met e-mail?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
@@ -78,7 +78,7 @@ Waar `clientcode` uw [!DNL Target] -clientcode is.
 >
 >Zorg ervoor dat u een unieke waarde opgeeft voor zowel `sessionId` als een van `tntId` of `thirdPartyId` voor elke e-mailontvanger (bijvoorbeeld voor elke API-aanroep). Als u geen unieke waarden voor deze velden opgeeft, kan de API-respons vertragen of mislukken vanwege de vele gebeurtenissen die binnen één profiel zijn gegenereerd.
 
-Zie [ Levering API documentatie ](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} voor meer informatie.
+Zie [ Levering API documentatie ](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=nl-NL){target=_blank} voor meer informatie.
 
 ## Methode 2: Een e-mailsjabloon voor een rawbox gebruiken {#rawbox}
 

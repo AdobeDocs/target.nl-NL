@@ -2,7 +2,7 @@
 keywords: aanbevelingen;veelgestelde vragen;faq
 description: Veelgestelde vragen (FAQs) en hun antwoorden over  [!DNL Target Recommendations]  ontwerpen.
 title: Waar kan ik Antwoorden aan de Vragen van het Ontwerp voor  [!DNL Target Recommendations] krijgen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
