@@ -128,25 +128,25 @@ Voor meer informatie, zie [ Volgend-raakpersonalisatie met Real-Time CDP en Adob
 
 Leer hoe u de [!DNL Adobe Target] bestemming in [!DNL Real-Time Customer Data Platform] configureert voor het verzenden van segmenten en profielkenmerken van [!DNL Real-Time CDP] naar [!DNL Target] .
 
->[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3449799/?learn=on&captions=dut)
 
 ### Video: segmenten en profielkenmerken activeren
 
 Leer hoe u segmenten en profielkenmerken van [!DNL Adobe Real-Time Customer Data Platform] tot [!DNL Adobe Target] activeert om realtime gepersonaliseerde inhoud weer te geven in uw websites, mobiele apps en andere digitale eigenschappen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447361/?learn=on&captions=dut)
 
 ### Video: [!DNL Real-Time CDP] segmenten gebruiken in [!DNL Target]
 
 Leer hoe u met [!DNL Real-Time Customer Data Platform] -segmenten in [!DNL Adobe Target] persoonlijke ervaringen kunt opdoen op uw website en mobiele apps.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3446833/?learn=on&captions=dut)
 
 ### Video: gebruik [!DNL Real-Time CDP] -profielkenmerken in [!DNL Adobe Target]
 
 Leer hoe u met [!DNL Adobe Real-Time Customer Data Platform] profielkenmerken in [!DNL Adobe Target] persoonlijke ervaringen kunt opdoen op uw website en mobiele apps.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3451899/?learn=on&captions=dut)
 
 ### [!DNL Adobe Target] blog en video: uitgebreide personalisatie op dezelfde pagina
 
