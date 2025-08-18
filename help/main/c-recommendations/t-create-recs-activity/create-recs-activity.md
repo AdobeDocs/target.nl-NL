@@ -172,6 +172,6 @@ Gebruik [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) om een [!DNL
 
    Er treden conflicten op wanneer meerdere activiteiten zijn ingesteld om inhoud te leveren aan dezelfde pagina. Hierdoor kan onverwachte inhoud worden weergegeven.
 
-## De Video van de opleiding: Creeer een activiteit van Aanbevelingen (7 :15) {het badge van 1} Zelfstudie ![](/help/main/assets/tutorial.png)
+## De Video van de opleiding: Creeer een activiteit van Aanbevelingen (7 :15) &lbrace;het badge van 1&rbrace; Zelfstudie ![](/help/main/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)

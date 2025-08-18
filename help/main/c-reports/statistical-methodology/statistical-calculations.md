@@ -117,7 +117,7 @@ Waar *μ <sub> v</sub>* en *μ <sub> v0</sub>* de middelen van *ν* en *ν <sub>
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-Waar *σ <sup> 2 </sup><sub> v</sub>* en *σ <sup> 2 </sup><sub> v <sub> 0</sub></sub>* zijn de varianties van twee ervaringen *ν* en *ν <sub> 0</sub>* respectievelijk, en *N <sub> v</sub>* en *N <sub> 8} v <sub> 0</sub></sub>* is steekproefgrootte voor *ν* en *ν <sub> 0</sub>* respectievelijk.
+Waar *σ <sup> 2 </sup><sub> v</sub>* en *σ <sup> 2 </sup><sub> v <sub> 0</sub></sub>* zijn de varianties van twee ervaringen *ν* en *ν <sub> 0</sub>* respectievelijk, en *N <sub> v</sub>* en *N <sub> 8&rbrace; v <sub> 0</sub></sub>* is steekproefgrootte voor *ν* en *ν <sub> 0</sub>* respectievelijk.
 
 Voor de T-test van Welch wordt de vrijheidsgraad als volgt berekend:
 

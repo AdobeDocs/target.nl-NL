@@ -24,7 +24,7 @@ In de volgende tabel worden de gegevens weergegeven die standaard door [!UICONTR
 
 | Gegevenscategorie | Systeemprefix | Beschrijving | Naam weergeven in [!UICONTROL Insights] -rapporten |
 | --- | --- | --- | --- |
-| Omgevingsparameters | ENV | Informatie over de omgeving van een gebruiker, zoals het besturingssysteem, de browser en het tijdstip van de dag/dag van de week. | Browser - [ Werkend Systeem van de Naam van 0} Attributen - ]<br> Waarde [] |
+| Omgevingsparameters | ENV | Informatie over de omgeving van een gebruiker, zoals het besturingssysteem, de browser en het tijdstip van de dag/dag van de week. | Browser - [ Werkend Systeem van de Naam van 0&rbrace; Attributen - ]<br> Waarde [] |
 | Geografie | GEO | Informatie over de geografie van een gebruiker, die via IP raadpleging wordt verkregen. | Geo - [ geo attributen ] |
 | Mobiel apparaat | MOB | Informatie over het mobiele apparaat van een gebruiker. | Apparaat - [ apparatenattributen ]<br> Mobiel - [ mobiele attributen ] |
 | [!DNL Target] segmenten rapporteren | SEG | In [!DNL Target] geconfigureerde rapportsegmenten. | Het melden Segment - {de Naam van 0} Segment [] |
@@ -84,7 +84,7 @@ Voor meer informatie, zie [ Modellen API (Voegend op lijst van gewenste personen
 | Browser - Vensterbreedte (px) | De breedte van het browservenster (in pixels) die de bezoeker heeft gebruikt om toegang te krijgen tot de activiteit. | 1, 2, 3 enzovoort, | ENV_BrowserWidth |
 | Apparaat - Schermhoogte (px) | De schermhoogte van het apparaat die de bezoeker heeft gebruikt om toegang te krijgen tot de activiteit. | 1, 2, 3 enzovoort, | ENV_ScreenHeight |
 | Apparaat - Schermbreedte (px) | De schermbreedte van het apparaat die de bezoeker heeft gebruikt om toegang te krijgen tot de activiteit. | 1, 2, 3 enzovoort, | ENV_ScreenWidth |
-| Besturingssysteem | Het besturingssysteem op het apparaat van de bezoeker dat wordt gebruikt om toegang te krijgen tot de activiteit. | [!DNL Mac OS]<br>[!DNL Windows]<br>[!DNL Linux]<br> Onbekend OS van 0} Onderzoek Bot {<br> | ENV_Besturingssysteem |
+| Besturingssysteem | Het besturingssysteem op het apparaat van de bezoeker dat wordt gebruikt om toegang te krijgen tot de activiteit. | [!DNL Mac OS]<br>[!DNL Windows]<br>[!DNL Linux]<br> Onbekend OS van 0&rbrace; Onderzoek Bot &lbrace;<br> | ENV_Besturingssysteem |
 | Besturingssysteem - versie | De versie van het besturingssysteem die de bezoeker heeft gebruikt om toegang te krijgen tot de activiteit. | [!DNL Windows] 10 <br>[!DNL Mac OS] 10 | ENV_OperatingSystemVersion |
 | Verkeersbronnen - Verwijzen naar URL van bestemmingspagina | De eerste pagina die de bezoeker heeft gezien bij het openen van uw site. | `https://www.adobe.com/ecloud.html` | ENV_Referrer |
 

@@ -165,7 +165,7 @@ Marketers zouden geneigd kunnen zijn om hoge en lage veranderingsmetriek in de h
 
 Bekijk de onderstaande aanbieding voor skiën. Het genereert een hogere CTR dan het fietsaanbod, maar omdat bezoekers gemiddeld meer geld uitgeven wanneer ze het fietsaanbod volgen, zijn de verwachte inkomsten van het plaatsen van het fietsaanbod voor een bepaalde bezoeker hoger. Daarom zou een A/B test met CTR als metrisch een aanbod kiezen dat geen opbrengst maximaliseert, wat de fundamentele bedrijfsdoelstelling zou kunnen zijn.
 
-![ beeld 0} pitfall7.](assets/pitfalls7.png)
+![ beeld 0&rbrace; pitfall7.](assets/pitfalls7.png)
 
 Om deze kwestie te vermijden, controleer uw bedrijfsmetriek zorgvuldig om het bedrijfseffect van de aanbiedingen te identificeren, of beter nog, gebruik metrisch die dichter aan uw bedrijfsdoel is, indien mogelijk.
 

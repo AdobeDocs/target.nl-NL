@@ -138,7 +138,7 @@ Databanken met activiteiten en inhoud, [!DNL Analytics] -gegevens, API&#39;s en 
 
 Elke Edge-cluster bevat alle benodigde informatie om te reageren op verzoeken om inhoud van bezoekers en analysegegevens bij te houden. Bezoekersverzoeken worden naar de dichtstbijzijnde Edge-cluster gerouteerd.
 
-Voor meer informatie, zie het [ Witboek van het Overzicht van de Veiligheid van 0} Adobe Target.](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf)
+Voor meer informatie, zie het [ Witboek van het Overzicht van de Veiligheid van 0&rbrace; Adobe Target.](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf)
 
 [!DNL Target] wordt wereldwijd gehost op datacenters in Adobe en Adobe.
 

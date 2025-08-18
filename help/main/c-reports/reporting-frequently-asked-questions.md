@@ -53,7 +53,7 @@ Neem bijvoorbeeld het volgende voorbeeld, waarbij u de hierboven vermelde voorwa
 
 Deze bezoeker wordt geteld als één enkele bezoeker in het totale aantal bezoekers van de activiteit, ook al wordt het geteld in zowel de segmenten Nieuwe Bezoekers als Terugkerende Bezoekers.
 
-**Voorbeeld 2**: De discrepanties tussen de tellingen voor Nieuwe Bezoekers en Terugkerende Bezoekers hangen ook van af hoe u de 2} succesmetriek van de activiteit [ vormt.](/help/main/c-activities/r-success-metrics/success-metrics.md)
+**Voorbeeld 2**: De discrepanties tussen de tellingen voor Nieuwe Bezoekers en Terugkerende Bezoekers hangen ook van af hoe u de 2&rbrace; succesmetriek van de activiteit [ vormt.](/help/main/c-activities/r-success-metrics/success-metrics.md)
 
 Bijvoorbeeld:
 

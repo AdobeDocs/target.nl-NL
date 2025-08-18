@@ -42,6 +42,6 @@ activityId:experienceId:targettype:algorithmId|event
 * Gebeurtenis = 32767 vertegenwoordigt een activiteitconversie.
 * Gebeurtenis -1 of 65535 vertegenwoordigt dat de gebruiker uit de activiteit of de ervaring wordt verwijderd. Dit gebeurt vaak wanneer de bezoeker de site omslaat. De bezoeker wordt losgelaten uit de ervaring en is nu beschikbaar om in aanmerking te komen voor een andere ervaring.
 
-U kunt het classificatiedossier op een regelmatige basis van UI invoeren gebruikend de invoer van de browser van a [ ](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) of de invoer van FTP van a [ ](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/import-file.html?lang=en). U kunt met de Diensten van de Techniek ook in dienst nemen om het dossier als raadplegingslijst samen met een klikstroomgegevens te verkrijgen.
+U kunt het classificatiedossier op een regelmatige basis van UI invoeren gebruikend de invoer van de browser van a [&#128279;](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) of de invoer van FTP van a [&#128279;](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/import-file.html?lang=en). U kunt met de Diensten van de Techniek ook in dienst nemen om het dossier als raadplegingslijst samen met een klikstroomgegevens te verkrijgen.
 
 +++

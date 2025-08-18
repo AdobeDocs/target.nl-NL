@@ -69,7 +69,7 @@ U kunt een omgeving verwijderen wanneer deze niet meer nodig is.
 >
 >U kunt de [!UICONTROL Production] -omgeving niet verwijderen, maar u kunt de naam ervan wel wijzigen.
 
-## [!BADGE  Premium ]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."} Aanbevelingen: de inzamelingen en de uitsluitingen van de filter door milieu (gastheergroep)
+## [!BADGE &#x200B; Premium &#x200B;]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."} Aanbevelingen: de inzamelingen en de uitsluitingen van de filter door milieu (gastheergroep)
 
 U kunt de inhoud van de inzamelingen en de uitsluitingen van Aanbevelingen voor een geselecteerde milieu (gastheergroep) voorproef.
 

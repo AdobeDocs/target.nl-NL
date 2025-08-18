@@ -37,6 +37,6 @@ Een inzameling van hoe te video&#39;s en leerprogramma&#39;s die de mogelijkhede
 
 ## Adobe [!DNL Target] Tutorials {#tutorials}
 
-De video introducties aan [!DNL Target] concepten en hulpmiddelen zijn beschikbaar op de [ 2} pagina van Zelfstudies van Adobe Target {.](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html)
+De video introducties aan [!DNL Target] concepten en hulpmiddelen zijn beschikbaar op de [ 2&rbrace; pagina van Zelfstudies van Adobe Target &lbrace;.](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html)
 
 ![ Zelfstudies van Adobe Target ](/help/main/c-intro/assets/adobe-target-tutorials-new.png)

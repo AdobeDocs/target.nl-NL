@@ -180,7 +180,7 @@ Houd rekening met de volgende implementatiekwesties:
 
 ### Versie 6: kenmerken van klanten worden niet geïmporteerd in [!DNL Target]
 
-Als u de gegevens van de Attributen van de Klant in Doel niet kunt vinden, zorg ervoor dat de invoer binnen de laatste *x* dagen voorkwam waar *x* de waarde van het Levensduur van het Profiel van de Bezoeker [ ](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) (14 dagen door gebrek) is.
+Als u de gegevens van de Attributen van de Klant in Doel niet kunt vinden, zorg ervoor dat de invoer binnen de laatste *x* dagen voorkwam waar *x* de waarde van het Levensduur van het Profiel van de Bezoeker [&#128279;](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) (14 dagen door gebrek) is.
 
 ## De video van de opleiding: Upload Off-line Gegevens gebruikend de badge van de Attributen van de Klant ![ Zelfstudie ](/help/main/assets/tutorial.png) {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
 

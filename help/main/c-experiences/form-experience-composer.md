@@ -35,7 +35,7 @@ Er zijn geen ervaringen als u een [!UICONTROL Recommendations] -activiteit maakt
 
    Dit scherm is anders als u een [!UICONTROL Recommendations] activiteit creeert. [!UICONTROL Recommendations] -activiteiten omvatten geen ervaringen.
 
-1. 
+1. &#x200B;
    1. Klik het **[!UICONTROL Rename]** pictogram ( ![ anders noemen pictogram ](/help/main/assets/icons/MoreSmallListVert.svg)), klik **[!UICONTROL Rename]**, specificeer een naam voor de activiteit, dan klik **[!UICONTROL Save]**.
 
    De naam van de activiteit mag niet met een van de volgende tekens beginnen:

@@ -88,7 +88,7 @@ Het *betrouwbaarheidsinterval* is een waaier van ramingen waarbinnen de ware waa
 
 Het [ gedownloade rapport CSV ](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) omvat slechts ruwe gegevens en omvat geen berekende metriek, zoals opbrengst per bezoeker, lift, of vertrouwen dat voor tests A/B wordt gebruikt.
 
-Om deze berekende metriek te berekenen, download het Volledige dossier van het Vertrouwen van het Doel [ ](/help/main/assets/complete_confidence_calculator.xlsx) Excel om de waarde van de activiteit in te voeren, of herzie [ Statistische berekeningen in tests A/Bn ](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+Om deze berekende metriek te berekenen, download het Volledige dossier van het Vertrouwen van het Doel [&#128279;](/help/main/assets/complete_confidence_calculator.xlsx) Excel om de waarde van de activiteit in te voeren, of herzie [ Statistische berekeningen in tests A/Bn ](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 >[!NOTE]
 >

@@ -30,7 +30,7 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
    >
    >Voor het oplossen van problemeninformatie over VEC, als u problemen hebt, zie [ het Oplossen van problemen de Visuele Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >De [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) optie in de voorafgaande illustratie is a [ Target Premium ](/help/main/c-intro/intro.md) eigenschap. Uw organisatie heeft een Target Standard-licentie als deze optie niet wordt weergegeven.
+   >De [[!UICONTROL [Choose Workplace]]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) optie in de voorafgaande illustratie is a [ Target Premium ](/help/main/c-intro/intro.md) eigenschap. Uw organisatie heeft een Target Standard-licentie als deze optie niet wordt weergegeven.
 
 1. (Voorwaardelijk) als u de klant van a [ Target Premium ](/help/main/c-intro/intro.md#premium) bent, kies a [ werkruimte ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -176,6 +176,6 @@ Gebruik de Composer van de Ervaring van het Doel Visuele (VEC) om een activiteit
 
    Er treden conflicten op wanneer meerdere activiteiten zijn ingesteld om inhoud te leveren aan dezelfde pagina. Hierdoor kan onverwachte inhoud worden weergegeven.
 
-## De Video van de opleiding: Creeer een activiteit van Aanbevelingen (7 :15) {het badge van 1} Zelfstudie ![](/help/main/assets/tutorial.png)
+## De Video van de opleiding: Creeer een activiteit van Aanbevelingen (7 :15) &lbrace;het badge van 1&rbrace; Zelfstudie ![](/help/main/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)

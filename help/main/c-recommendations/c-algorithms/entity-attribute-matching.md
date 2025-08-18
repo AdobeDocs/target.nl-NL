@@ -52,7 +52,7 @@ In de aanbevelingen op de pagina ziet u alleen Merk A-producten.
 
 Als u vervolgens een productpagina van merk B weergeeft, wordt de waarde van `entity.brand` opnieuw ingesteld op &quot;MerkB&quot; en worden de producten van merk B aanbevolen op de productpagina&#39;s van merk B.
 
-![ aanbevelingen van 0} Merk B](/help/main/c-recommendations/c-algorithms/assets/brandB.png)
+![ aanbevelingen van 0&rbrace; Merk B](/help/main/c-recommendations/c-algorithms/assets/brandB.png)
 
 ### Upsellen naar een duurder product
 

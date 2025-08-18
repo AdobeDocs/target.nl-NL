@@ -160,7 +160,7 @@ Mobiele ervaringen stimuleren innovatie in de manier waarop marketing- en engine
 
 ### Chef&#39;s Collection: Recipes for Personalization (30 augustus 2022)
 
-Sluit zich aan bij het [!DNL Adobe Target] [!DNL] team aangezien zij omhoog sommige nieuwe ideeën over hoe u de meeste waarde uit Doel kunt krijgen. Gebaseerd op ons nieuwste eBook, &quot;Chef&#39;s Collection: Ideas for Personalization&quot;.
+Sluit zich aan bij het [!DNL Adobe Target]  team aangezien zij omhoog sommige nieuwe ideeën over hoe u de meeste waarde uit Doel kunt krijgen. Gebaseerd op ons nieuwste eBook, &quot;Chef&#39;s Collection: Ideas for Personalization&quot;.
 
 * [ Opname verbinding ](https://video.tv.adobe.com/v/346970/){target=_blank}
 

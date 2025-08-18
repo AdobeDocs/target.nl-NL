@@ -81,7 +81,7 @@ De lijst met rapportsuites die in [!DNL Target Standard/Premium] wordt weergegev
 
 Als u meerdere rapporteringsbronnen gebruikt, moeten de rapportsuites ook aanwezig zijn in de standaard rapporteringsbron die is ingesteld in [!DNL Target] . Als de rapportsuites niet in de standaard rapporteringsbron zijn, tonen de rapportseries niet.
 
-Als u nog niet de rapportreeks ziet die u zoekt, contacteer [ de Zorg van de Cliënt 0} om het toegelaten te krijgen.](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
+Als u nog niet de rapportreeks ziet die u zoekt, contacteer [ de Zorg van de Cliënt 0&rbrace; om het toegelaten te krijgen.](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
 
 ## Ik zie niet zoveel gegevens in rapporten als verwacht. {#section_75002584FA63456D8D9086172925DD8D}
 

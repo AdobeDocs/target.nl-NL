@@ -96,4 +96,4 @@ Voor meer informatie, zie [ begonnen worden met nieuwe Rapporterende interface ]
 >[!MORELIKETHIS]
 >
 >[ Werk met de Webontwerper ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} in de *documentatie van Journey Optimizer*
->>[Creeer een campagne ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} in *Zelfstudies van Journey Optimizer*
+>&#x200B;>[Creeer een campagne ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} in *Zelfstudies van Journey Optimizer*

@@ -29,7 +29,7 @@ In [!DNL Target] is elke combinatie één ervaring. In [!UICONTROL Multivariate 
 
 Vanwege het aantal combinaties dat kan worden gegenereerd, vereist een [!UICONTROL Multivariate Test] meer tijd en verkeer dan een A/B-test. De pagina moet voldoende verkeer krijgen om statistisch significante resultaten voor elke ervaring te produceren. Om nuttige resultaten te verkrijgen, moet u begrijpen hoeveel verkeer uw pagina ontvangt en het optimale aantal combinaties voor de juiste hoeveelheid tijd testen om de vereiste resultaten te krijgen.
 
-De schatter van het Verkeer van het doel [ ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) kan u helpen een test ontwerpen die met uw verkeer werkt. Voordat u de Verkeersschatting gebruikt, moet u over goede statistieken beschikken die het aantal afbeeldingen en conversies weergeven dat uw site normaal ontvangt. Overweeg uw verkeersniveaus per dag. Hoe meer ervaringen in een activiteit, hoe meer verkeer de activiteit moet omvatten of hoe langer uw activiteit moet worden uitgevoerd. Als uw hoeveelheid verkeer niet hoog is, zou u een paar combinaties moeten testen; anders, zou de hoeveelheid tijd die wordt vereist om betekenisvolle testresultaten te veroorzaken te lang kunnen zijn nuttig.
+De schatter van het Verkeer van het doel [&#128279;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) kan u helpen een test ontwerpen die met uw verkeer werkt. Voordat u de Verkeersschatting gebruikt, moet u over goede statistieken beschikken die het aantal afbeeldingen en conversies weergeven dat uw site normaal ontvangt. Overweeg uw verkeersniveaus per dag. Hoe meer ervaringen in een activiteit, hoe meer verkeer de activiteit moet omvatten of hoe langer uw activiteit moet worden uitgevoerd. Als uw hoeveelheid verkeer niet hoog is, zou u een paar combinaties moeten testen; anders, zou de hoeveelheid tijd die wordt vereist om betekenisvolle testresultaten te veroorzaken te lang kunnen zijn nuttig.
 
 ## MVT-terminologie {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 
@@ -102,7 +102,7 @@ In deze overzichtsvideo worden de activiteitstypen uitgelegd die beschikbaar zij
 
 ### Creërend Multivariate Tests (9 :25) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
 
-Deze video verklaart hoe te, een multivariate test te begrijpen te plannen en tot stand te brengen gebruikend het [!DNL] driestapel geleide werkschema van het Doel.
+Deze video verklaart hoe te, een multivariate test te begrijpen te plannen en tot stand te brengen gebruikend het  driestapel geleide werkschema van het Doel.
 
 * Een multivariatietest definiëren en ontwerpen
 * Een multivariatietest maken

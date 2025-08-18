@@ -27,7 +27,7 @@ De beste praktijken van de industrie worden geïntegreerd in [!DNL Target Standa
 
 ## [!DNL Target Premium] {#premium}
 
-[!BADGE  Premium ]{type=Positive}
+[!BADGE &#x200B; Premium &#x200B;]{type=Positive}
 
 [!DNL Target Premium] is een geavanceerd aanbod waarvoor een licentie vereist is om premiumfuncties toe te voegen aan [!DNL Target Standard] . Alle [!DNL Target Premium] -artikelen in [!DNL Target] -hulplijnen bevatten het [!UICONTROL Premium] -symbool boven aan elke pagina of inline bij de desbetreffende tekst. U kunt op het badge [!UICONTROL Premium] klikken en koppelingen naar deze sectie maken.
 
@@ -47,7 +47,7 @@ AP is volledig geautomatiseerd, voortdurend leerend met minimale menselijke anal
 
 ### Aanbevelingen
 
-[ de activiteiten van de aanbevelingen ](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) {tonen automatisch producten of inhoud die uw klanten zouden kunnen interesseren die op vorige gebruikersactiviteit worden gebaseerd. [!UICONTROL Recommendations] helpt klanten bij het doorsturen van relevante items waarvan ze wellicht geen kennis hebben.
+[ de activiteiten van de aanbevelingen ](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) &lbrace;tonen automatisch producten of inhoud die uw klanten zouden kunnen interesseren die op vorige gebruikersactiviteit worden gebaseerd. [!UICONTROL Recommendations] helpt klanten bij het doorsturen van relevante items waarvan ze wellicht geen kennis hebben.
 
 Een aanbeveling bepaalt hoe een product aan een klant, afhankelijk van de activiteiten van die klant op de plaats wordt voorgesteld. Bijvoorbeeld:
 
@@ -80,7 +80,7 @@ Deze functionaliteit opent volledig nieuwe mogelijkheden, zoals:
 
 ## Beta-functies {#beta}
 
-[!BADGE  Beta ]{type=Informative}
+[!BADGE &#x200B; Beta &#x200B;]{type=Informative}
 
 Het team van [!DNL Adobe Target] laat vaak nieuwe eigenschappen voor bepaalde klanten voor het testen en terugkoppelen doeleinden toe. Nadat de testperiode is voltooid, worden deze functies in toekomstige versies van [!DNL Target Standard/Premium] voor alle klanten ingeschakeld en in releaseopmerkingen aangekondigd.
 

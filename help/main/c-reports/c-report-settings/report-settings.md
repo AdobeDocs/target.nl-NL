@@ -230,9 +230,9 @@ Er zijn vier modi voor [!UICONTROL Auto-Target] -activiteiten: [!UICONTROL Daily
 
 De standaardvolgorde waarin de grafiek wordt uitgezet is als volgt:
 
-* **[!UICONTROL A/B Test](met inbegrip van [!UICONTROL Auto-Allocate] en [!UICONTROL Automated Personalization])**: Orde van ervarings verwezenlijking, in dalende orde.
-* **[!UICONTROL Experience Targeting](XT)**: Orde van ervaringen in de activiteit.
-* **[!UICONTROL Multivariate Test](MVT)**: Alfabetisch door ervaringsnaam.
+* **[!UICONTROL A/B Test] (met inbegrip van [!UICONTROL Auto-Allocate] en [!UICONTROL Automated Personalization])**: Orde van ervarings verwezenlijking, in dalende orde.
+* **[!UICONTROL Experience Targeting] (XT)**: Orde van ervaringen in de activiteit.
+* **[!UICONTROL Multivariate Test] (MVT)**: Alfabetisch door ervaringsnaam.
 * **[!UICONTROL Recommendations]**: volgorde waarin u ervaringen hebt gemaakt, in aflopende volgorde.
 
 Houd rekening met het volgende terwijl u met de opties voor [!UICONTROL Counting Methodology] werkt:

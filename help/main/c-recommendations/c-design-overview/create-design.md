@@ -48,7 +48,7 @@ U kunt een ontwerp tot stand brengen dat op een standaardontwerp wordt gebaseerd
 
    Het dialoogvenster [!UICONTROL Create Design] wordt weergegeven.
 
-1. Typ een **[!UICONTROL  Name]** en een optionele voorvertoningsafbeelding die op de ontwerpkaart moeten worden weergegeven.
+1. Typ een **[!UICONTROL &#x200B; Name]** en een optionele voorvertoningsafbeelding die op de ontwerpkaart moeten worden weergegeven.
 
    Wanneer u een standaardontwerp gebruikt, worden de ontwerpnaam en de optie Kopiëren weergegeven in het veld **[!UICONTROL Content Name]** . U kunt de naam bewerken. U kunt ook een afbeelding selecteren die u op de ontwerpkaart wilt weergeven.
 
