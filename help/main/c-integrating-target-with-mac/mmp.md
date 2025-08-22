@@ -1,21 +1,21 @@
 ---
 keywords: Experience Cloud-publiek;publiek
-description: Leer hoe Experience Cloud-oplossingen via Adobe Experience Cloud Soorten publiek informatie over websitebezoekers kunnen communiceren en delen met andere Adobe-oplossingen.
+description: Leer hoe Experience Cloud-toepassingen met Adobe Experience Cloud-toepassingen kunnen communiceren en informatie over websitebezoekers kunnen delen met andere Adobe-toepassingen.
 title: Hoe gebruik ik het Adobe Experience Cloud-publiek als doel?
 feature: Integrations
 exl-id: 4502e77d-1310-41f3-8d14-ba69692df1af
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7f5f6d7b3804749fce8819697f17cbad74409741
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
 
 # Experience Cloud-publiek
 
-[!DNL Adobe Experience Cloud Audiences] biedt [!DNL Adobe Experience Cloud] -oplossingen de mogelijkheid om informatie over websitebezoekers te communiceren en te delen, zodat elke oplossing dezelfde gegevens kan gebruiken.
+[!DNL Adobe Experience Cloud audiences] laat [!DNL Experience Cloud] -toepassingen toe om informatie over websitebezoekers te communiceren en te delen, zodat elke toepassing dezelfde gegevens kan gebruiken.
 
-Voor gedetailleerde informatie, zie [ Soorten publiek ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=nl-NL) in de *Gids van de Gebruiker van de Diensten van de Kern*.
+Leer over [ het publiek van Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) (de Bibliotheek van het Publiek) in de *Interface en Gids van het Beleid van Experience Cloud*.
 
 ## Video: [!DNL Target] integreren met [!DNL Experience Cloud Audiences] (10 :48)
 
