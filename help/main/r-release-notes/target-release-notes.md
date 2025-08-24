@@ -4,9 +4,9 @@ description: Leer over de nieuwe eigenschappen, de verhogingen, en de moeilijke 
 title: Welke Nieuwe Eigenschappen en de Verbeteringen worden omvat in de aanstaande  [!DNL Target]  Versie?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b178785b1936cff2b55c85e41fc44f230243f849
+source-git-commit: 45ccd33be239b95d19fc611caea9482f89b02066
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -25,16 +25,23 @@ Dit artikel bevat pre-releasegegevens voor komende [!DNL Adobe Target] versies, 
 >
 >* De uitgiftenummers tussen haakjes zijn bedoeld voor intern gebruik door [!DNL Adobe] .
 
-## [!DNL Target Standard/Premium] 25.8.3 (21 augustus 2025)
+## [!DNL Target Standard/Premium] 25.8.4 (28 augustus 2025)
 
-Deze release is nu live. Zie [[!DNL Target]  versienota&#39;s (huidig) ](/help/main/r-release-notes/release-notes.md) voor meer details.
+Deze release bevat de volgende updates en oplossingen:
+
+**Visuele Composer van de Ervaring (VEC)**
+
++++Zie details
+* **verholpen een kwestie waar het anders noemen van een plaats in een [!UICONTROL Automated Personalization] (AP) of [!UICONTROL Multivariate Test] (MVT) activiteit niet na het navigeren aan de [!UICONTROL Targeting] stap en het terugkeren bleef.** Klanten kunnen nu namen van locaties bewerken en opslaan, en de wijzigingen blijven zichtbaar tijdens het maken van activiteiten. (TGT-52367)
+
++++
 
 ## Aanvullende opmerkingen bij de release en versiedetails
 
 | Bron | Details |
 |--- |--- |
 | [ de nota&#39;s van de Versie: Het Web SDK van de Ervaring van het Platform van Adobe Target ] (https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
-| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
+| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
 
 ## Prerelease-informatie {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
