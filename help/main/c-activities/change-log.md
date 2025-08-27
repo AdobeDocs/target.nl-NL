@@ -4,16 +4,16 @@ description: Heb toegang tot het veranderingslogboek van een activiteit in Adobe
 title: Hoe kan ik een activiteitenveranderingslogboek zien?
 feature: Activities
 exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
-source-git-commit: 15435b15d2da8412f0174f87d15d3c983098c223
+source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
 
 # Logboek voor wijziging van de activiteit
 
-In [!DNL Adobe Target] [!UICONTROL Change Log] worden de handelingen voor activiteit vastgelegd, inclusief wat is gewijzigd, wie de wijzigingen heeft aangebracht en wanneer deze hebben plaatsgevonden. De [!UICONTROL Change Log] pagina wordt bevolkt van [[!UICONTROL Audi Query API] ](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} voor inzicht in real time.
+In [!DNL Adobe Target] [!UICONTROL Change Log] worden de handelingen voor activiteit vastgelegd, inclusief wat is gewijzigd, wie de wijzigingen heeft aangebracht en wanneer deze hebben plaatsgevonden. De [!UICONTROL Change Log] pagina wordt bevolkt van [[!UICONTROL Audi Query API] ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} voor inzicht in real time.
 
 De pagina [!UICONTROL Change Log] openen:
 
@@ -23,3 +23,10 @@ De pagina [!UICONTROL Change Log] openen:
 De uitgevoerde actie, de datum waarop de actie werd uitgevoerd, en de gebruiker die de actie uitvoerde worden vermeld op elk ogenblik dat een activiteit wordt gecreeerd, bijgewerkt, geactiveerd of gedeactiveerd. Wijzigingen in aangepaste doelen en aanbiedingen die in de activiteit worden gebruikt, worden ook weergegeven.
 
 Vernieuw de pagina om statuswijzigingen te zien. U kunt ook een lijst weergeven van de handelingen die in oplopende of aflopende volgorde worden uitgevoerd door op de kolomkop [!UICONTROL Date] te klikken.
+
+>[!MORELIKETHIS]
+>
+>* [ krijgt het controlelogboek door de naam van de laatste auteur en gewijzigd-na timestamp ](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
+>
+>* [ de activiteitverandering van de Lijst ](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
+
