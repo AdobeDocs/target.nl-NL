@@ -25,7 +25,7 @@ U kunt instellen of u in uw accountvoorkeuren een elementklasse- of element-id w
 
 >[!NOTE]
 >
->Elementklassen zijn beschikbaar als kiezers in [!UICONTROL A/B Test] -, [!UICONTROL Automated Personalization] - en [!UICONTROL  Multivariate Test] -activiteiten.
+>Elementklassen zijn beschikbaar als kiezers in [!UICONTROL A/B Test] -, [!UICONTROL Automated Personalization] - en [!UICONTROL &#x200B; Multivariate Test] -activiteiten.
 
 Voor informatie over wanneer om CSS selecteurs te gebruiken en wanneer om unieke IDs te gebruiken, zie {de Beste Praktijken en Beperkingen van Composer van 0} Visuele Ervaring Composer [.](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)
 
