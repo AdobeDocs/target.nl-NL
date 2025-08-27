@@ -4,9 +4,9 @@ description: Vind antwoorden op vragen over het gebruiken van redirect aanbiedin
 title: Waar kan ik veelgestelde vragen vinden over omleidingsaanbiedingen met A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: bb41de751246a77e71e65c11f020bc39f3105da6
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1431'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,27 @@ Dit onderwerp bevat antwoorden op vragen die vaak worden gesteld over het gebrui
 
 +++Antwoord
 Ja, als uw implementatie gebruikmaakt van [!DNL at.js] . Nochtans, moet uw implementatie aan de hieronder vermelde minimumvereisten voldoen om [ te gebruiken herleidt aanbiedingen ](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) in activiteiten die Analytics als rapporteringsbron gebruiken.
+
++++
+
+## ![ SDK van het Web van Adobe Experience Platform badge ](/help/main/assets/platform.png) Omleidt de [!DNL Adobe Experience Platform Web SDK] steun aanbiedingen voor A4T opnieuw? {#platform}
+
++++Antwoord
+De volgende veelgestelde vragen bieden meer informatie over het gebruik van een A4T en het omleiden van aanbiedingen met de [!DNL Platform Web SDK] .
+
++++
+
+### Biedt Analytics for Target (A4T) ondersteuning voor omleidingsaanbiedingen?
+
++++Antwoord
+Ja, A4T via het Web SDK van het Platform steunt [ opnieuw gerichte aanbiedingen ](/help/main/c-experiences/c-manage-content/offer-redirect.md).
+
++++
+
+### Worden [!UICONTROL Visual Experience Composer] (VEC) en [!UICONTROL Form-Based Experience Composer] ondersteund?
+
++++Antwoord
+Ja, [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) en [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) worden ondersteund als u ingebouwde omleidingsaanbiedingen gebruikt.
 
 +++
 
@@ -63,7 +84,7 @@ Overweeg het volgende:
 ## Waarom worden paginaweergaven op de oorspronkelijke pagina en op de omleidingspagina soms geteld? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 +++Antwoord
-Wanneer u at.js versie 1.6.3 of hoger gebruikt, is het niet van belang om paginaweergaven op beide pagina&#39;s te tellen. Deze rasvoorwaarde beïnvloedt slechts klanten die vroegere versies gebruiken. Het team van het Doel handhaaft twee versies van at.js: de huidige versie en de tweede recentste versie. De verbetering at.js zonodig om ervoor te zorgen dat u a [ gesteunde versie ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} in werking stelt.
+Wanneer u at.js versie 1.6.3 of hoger gebruikt, is het niet van belang om paginaweergaven op beide pagina&#39;s te tellen. Deze rasvoorwaarde beïnvloedt slechts klanten die vroegere versies gebruiken. Het team van het Doel handhaaft twee versies van at.js: de huidige versie en de tweede recentste versie. De verbetering at.js zonodig om ervoor te zorgen dat u a [ gesteunde versie ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in werking stelt.
 
 Als u een vroegere, niet-gesteunde versie van at.js gebruikt, is er een mogelijkheid dat een rassenvoorwaarde kan voorkomen die de Analytische vraag zou kunnen veroorzaken om te vuren alvorens redirect op de eerste pagina uitvoert. Hierdoor kunnen paginaweergaven op de oorspronkelijke pagina en op de omleidingspagina worden geteld. Deze situatie leidt tot een extra paginaweergave op de eerste pagina, wanneer de bezoeker deze eerste pagina nooit echt &#39;zag&#39;.
 
@@ -142,24 +163,6 @@ Bij [!DNL at.js] versie 0.9.6 (of hoger) en [!DNL AppMeasurement.js] 2.1 (of hog
 
 +++Antwoord
 Nee, u moet een ingebouwde omleidingsaanbieding gebruiken voor activiteiten die [!DNL Analytics] als rapportbron (A4T) gebruiken. Vanuit het perspectief van [!DNL Target] zijn HTML-aanbiedingen ondoorzichtig: [!DNL Target] kan niet weten dat een bepaald deel van HTML JavaScript bevat dat een omleiding instantieert.
-
-+++
-
-## ![ SDK van het Web van Adobe Experience Platform badge ](/help/main/assets/platform.png) Omleidt de [!DNL Adobe Experience Platform Web SDK] steun aanbiedingen voor A4T opnieuw? {#platform}
-
-De volgende veelgestelde vragen bieden meer informatie over het gebruik van een A4T en het omleiden van aanbiedingen met de [!DNL Platform Web SDK] .
-
-### Biedt Analytics for Target (A4T) ondersteuning voor omleidingsaanbiedingen?
-
-+++Antwoord
-Ja, A4T via het Web SDK van het Platform steunt [ opnieuw gerichte aanbiedingen ](/help/main/c-experiences/c-manage-content/offer-redirect.md).
-
-+++
-
-### Worden [!UICONTROL Visual Experience Composer] (VEC) en [!UICONTROL Form-Based Experience Composer] ondersteund?
-
-+++Antwoord
-Ja, [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) en [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) worden ondersteund als u ingebouwde omleidingsaanbiedingen gebruikt.
 
 +++
 
