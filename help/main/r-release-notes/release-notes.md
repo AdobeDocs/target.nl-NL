@@ -21,7 +21,7 @@ Ontdek de nieuwste functies, verbeteringen en oplossingen in [!DNL Adobe Target]
 
 ## Tijdgevoelige updates die u moet weten {#time-sensitive}
 
-[!BADGE  Belangrijk ]{type=Informative}
+[!BADGE &#x200B; Belangrijk &#x200B;]{type=Informative}
 
 Voor tijdgevoelige updates met betrekking tot [!DNL Adobe Target] en uw implementatie, [!DNL Adobe] verstrekt gedetailleerde versienota&#39;s en documentatie door [!UICONTROL Experience League]. Hier volgen enkele belangrijke punten die relevant zijn voor uw implementatie:
 
@@ -107,7 +107,7 @@ Deze release bevat de volgende updates en oplossingen:
 * **[!UICONTROL Graph view]in de [!UICONTROL Reports] sectie toonde geen waarden van[!DNL Analytics]**: Klanten die tot [!UICONTROL Graph view] in de Re  havensectie toegang hebben ontleenden gegevens, met alle waarden die als nul verschijnen. Dit probleem is veroorzaakt door onjuiste gegevens die zijn opgehaald uit [!UICONTROL Analytics] . In [!UICONTROL Graph view] worden nu de juiste waarden weergegeven. (TGT-52792)
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Zie details
 * **klikkend &quot;Accept Cookies&quot;gebruikend [!UICONTROL Enhanced Experience Composer] (EEG) ontbroken toe te schrijven aan een ontbrekende functie**: De klanten rapporteerden dat het proberen om koekjes via EEG goed te keuren in een consolefout resulteerde: `handleclickAcceptAllButton is not defined`. De functionaliteit voor het accepteren van cookies werkt nu zoals u had verwacht en zorgt voor een vloeiender ervaring tijdens het maken van activiteiten in de bijgewerkte gebruikersinterface. (TGT-52794)
@@ -139,7 +139,7 @@ Deze release bevat de volgende updates en oplossingen:
 
 +++
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 +++Zie details
 * **Vaste een kwestie waar de klanten geen namen van de rapportreeks tijdens activiteit-creeer proces** konden typen: De klanten die [!DNL Adobe Analytics] als rapporteringsbron tijdens het activiteit-creeer proces gebruiken konden niet in de [!UICONTROL Report Suite] drop-down lijst typen om naar specifieke rapportsuites te zoeken. Dit beïnvloedde werkstromen voor organisaties met grote aantallen rapportreeksen, waar het handscrollen beduidend opstelling vertraagde. De vervolgkeuzelijst is niet alfabetisch geordend en reageerde niet consistent op getypte invoer, waardoor het moeilijk werd om rapportsuites zoals &quot;Office + Store - Web - Prod.&quot; op te zoeken. Dit probleem is opgelost en klanten kunnen nu efficiënt zoeken door namen van rapportsuite te typen. (TGT-53345)
@@ -173,7 +173,7 @@ Deze release bevat de volgende updates en oplossingen:
 
 +++Zie details
 * **Vaste kwestie in [!DNL Recommendations] UI waar de download van douanecriteria CSV 404 fout** terugkeerde: Vaste een kwestie waar de klanten de douanecriteria CSV in activiteit-creeer proces niet konden downloaden. De downloadkoppeling werkt nu correct, zodat klanten aangepaste criteria kunnen exporteren zoals verwacht. (TGT-51966)
-* **Vaste inconsistente beeld die in[!UICONTROL Catalog Search]** laadt: Vaste een kwestie waar de duimnagels en de beelden in [!UICONTROL  Catalog Search] niet constant in activiteit-creeer proces laadden. Afbeeldingen kunnen alleen worden weergegeven als de kolom &quot;URL miniatuur&quot; zichtbaar is en sommige productafbeeldingen geheel of gedeeltelijk zijn geladen na navigatie- of zoekacties. Het gedrag voor het laden van afbeeldingen is gestabiliseerd en de miniaturen worden nu betrouwbaar weergegeven, ongeacht de zichtbaarheid van de kolom of de navigatiehandelingen. (TGT-52778)
+* **Vaste inconsistente beeld die in[!UICONTROL Catalog Search]** laadt: Vaste een kwestie waar de duimnagels en de beelden in [!UICONTROL &#x200B; Catalog Search] niet constant in activiteit-creeer proces laadden. Afbeeldingen kunnen alleen worden weergegeven als de kolom &quot;URL miniatuur&quot; zichtbaar is en sommige productafbeeldingen geheel of gedeeltelijk zijn geladen na navigatie- of zoekacties. Het gedrag voor het laden van afbeeldingen is gestabiliseerd en de miniaturen worden nu betrouwbaar weergegeven, ongeacht de zichtbaarheid van de kolom of de navigatiehandelingen. (TGT-52778)
 * **Vaste een kwestie waar het uitgeven van een aanbeveling in een gedupliceerde ervaring beïnvloedde de originele ervaring**: De klanten rapporteerden dat het wijzigen van een aanbeveling in een gedupliceerde ervaring onbedoeld de originele ervaring veranderde. Na het dupliceren van Experience B in het activity-create proces en het bewerken van het ontwerp of de criteria, werden dezelfde wijzigingen weerspiegeld in de oorspronkelijke Experience B, hoewel ze afzonderlijke entiteiten waren. Bij gedupliceerde ervaringen blijven er nu afzonderlijke configuraties behouden, zodat bewerkingen op één ervaring geen invloed hebben op het origineel. (TGT-53369)
 * **Vaste een kwestie waar de veranderingen in een gedupliceerde ervaring onbedoeld de originele ervaring in een activiteit** beïnvloedden: De klanten rapporteerden dat wanneer het dupliceren van een ervaring binnen een activiteit en het toewijzen van een nieuw publiek, om het even welke veranderingen die in het gedupliceerde ontwerp of de criteria van de ervaring werden aangebracht ook in de originele ervaring werden weerspiegeld. Dit probleem is opgetreden, ook al zijn er geen bewerkingen rechtstreeks aangebracht in de oorspronkelijke versie, wat van invloed is op de mogelijkheid om onafhankelijke variaties binnen dezelfde activiteit te maken. Het activity-create proces isoleert nu correct gedupliceerde ervaringen, die ervoor zorgen dat uitgeeft aan één ervaring niet origineel beïnvloedt. (TGT-53361)
 * **Vaste een kwestie waar [!UICONTROL Recommendation Catalog] met tussenpozen er niet in slaagde om volledige gegevens van productattributen** te tonen: In bijgewerkte [!DNL Recommendations] UI, ervoeren de klanten een kwestie waar bepaalde productattributen, zoals bericht, niet constant in de [!UICONTROL Catalog Search] resultaten werden getoond, alhoewel de gegevens in het voer bestonden. In dit geval moesten klanten de zichtbaarheid van de kolommen handmatig opnieuw configureren om de ontbrekende waarden op te halen. [!UICONTROL Catalog Search] geeft nu betrouwbaar alle geconfigureerde kenmerken weer, zodat de kolom niet handmatig hoeft opnieuw te worden ingesteld. (TGT-52769)
@@ -204,7 +204,7 @@ Deze release bevat de volgende updates en oplossingen:
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Zie details
 * **Vaste kwestie in activiteit-creeer proces dat vooruitgang aan de [!UICONTROL Targeting] stap in AP activiteiten** blokkeerde: Vaste een kwestie in activiteit-creeert proces waar de klanten niet aan de [!UICONTROL Targeting] stap in [!UICONTROL Automated Personalization] (AP) activiteiten konden te werk gaan tenzij twee plaatsen werden toegevoegd. Dit gedrag verschilde van de vorige ervaring, waar één enkele plaats met veelvoudige aanbiedingen voldoende was. Deze vereiste is gecorrigeerd, zodat klanten de Single-location-instellingen kunnen blijven gebruiken in hun AP-workflows. (TGT-53426)
