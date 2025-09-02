@@ -6,9 +6,9 @@ short-description: Leer over de nieuwe eigenschappen, de verhogingen, en de moei
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b178785b1936cff2b55c85e41fc44f230243f849
+source-git-commit: 223a0f62bcd9a52bd9181e0a439e02164abbfec4
 workflow-type: tm+mt
-source-wordcount: '5850'
+source-wordcount: '7159'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Ontdek de nieuwste functies, verbeteringen en oplossingen in [!DNL Adobe Target]
 
 ## Tijdgevoelige updates die u moet weten {#time-sensitive}
 
-[!BADGE &#x200B; Belangrijk &#x200B;]{type=Informative}
+[!BADGE  Belangrijk ]{type=Informative}
 
 Voor tijdgevoelige updates met betrekking tot [!DNL Adobe Target] en uw implementatie, [!DNL Adobe] verstrekt gedetailleerde versienota&#39;s en documentatie door [!UICONTROL Experience League]. Hier volgen enkele belangrijke punten die relevant zijn voor uw implementatie:
 
@@ -75,6 +75,57 @@ De volgende informatie beschrijft de beperkingen die u bewust zou moeten zijn wa
 
 +++
 
+## [!DNL Target Standard/Premium] 25.8.4 (1 september 2025)
+
+Deze release bevat de volgende updates en oplossingen:
+
+**[!UICONTROL Activities]**
+
++++Zie details
+* **Klanten konden activiteit of documentnamen van[!UICONTROL Activity Overview]** niet kopiëren: Eerder, konden de klanten niet de naam van een activiteit of de bijbehorende aanbieding/document direct van [!UICONTROL Activity overview] in het bijgewerkte activiteit-creeer proces kopiëren. Deze beperking beïnvloedde de bruikbaarheid, vooral op kleinere schermen. Klanten kunnen nu gemakkelijk zowel activiteit- als documentnamen kopiëren zonder tijdelijke oplossingen. (TGT-51850)
+* **Proactieve opname van gebogen [!DNL Target] klantengegevens tijdens activiteitenverwezenlijking**: Verbeter de activiteit-creeer proces door de pro-actieve inzameling van rapporten, inhoud, en screenshots van [!DNL Target] klanten toe te laten. Deze verbetering verhelpt gegevenshiaten die in bestaande gebruiksgevallen worden geïdentificeerd en helpt nauwkeurigere inzichten tijdens activiteit en experimenteeropstelling te verzekeren. (TGT-52415)
+* **AP de activiteiten haalden model-klaar geen gegevens in de [!UICONTROL Reports] sectie**: De klanten die de activiteiten van Automated Personalization (AP) in de [!UICONTROL Reports] sectie bekijken konden model-klaar indicatoren op de rapportgroep en aanbiedingsniveau niet zien. Dit probleem is opgetreden omdat modelgegevens niet correct vanaf de achtergrond werden opgehaald. De functionaliteit is hersteld en modelgegevens worden nu op de verwachte manier weergegeven. (TGT-53600 &amp; TGT-53601)
+* **Activiteiten die voor de toekomst worden gepland vertoonde verkeerd een &quot;[!UICONTROL Live]&quot;status in het [!UICONTROL Activity] overzicht**: De klanten merkten op dat de activiteiten die in de toekomst zouden beginnen verkeerd werden gemerkt als &quot;[!UICONTROL Live]&quot;in het [!UICONTROL Activity] overzicht. Deze statuswanverhouding werd opgelost, en de geplande activiteiten tonen nu correct als &quot;[!UICONTROL Scheduled]&quot;zonder te vereisen pagina verfrist zich. (TGT-52835)
+
++++
+
+**[!UICONTROL Recommendations]**
+
++++Zie details
+* **lijst van het Product was niet zichtbaar in de [!UICONTROL View Collection] dialoog:** Eerder, konden de klanten niet de productlijst zien wanneer het bekijken van een inzameling in [!UICONTROL Recommendations] tabel. In het dialoogvenster [!UICONTROL View Collection] worden nu correct de bijbehorende producten weergegeven, waardoor de transparantie en bruikbaarheid in de bijgewerkte gebruikersinterface van [!UICONTROL Recommendations] worden verbeterd. (TGT-50531)
+* **Vaste een kwestie die case-sensitive het filtreren in [!UICONTROL Product Catalog Search] geavanceerde onderzoek** veroorzaakte: Het geavanceerde onderzoek het filtreren in de [!UICONTROL Product Catalog Search] pagina negeert nu correct casegevoeligheid, die op het gedrag van zowel de backend als de diensten van GraphQL richt. Deze update zorgt voor consistente en nauwkeurige resultaten voor suggesties voor klanten, ongeacht de tekstbehuizing. (TGT-53585)
+* **het Geavanceerde onderzoek in bijgewerkte [!UICONTROL Product Catalog Search] UI verstrekte geen suggesties**: De klanten die de geavanceerde onderzoekseigenschap in bijgewerkte [!UICONTROL Product Catalog Search] UI gebruiken werden vereist om nauwkeurige waarden met correcte spelling in te gaan, aangezien geen suggesties werden getoond. Door deze kwestie werd het moeilijk om producten efficiënt te vinden. Suggesties worden nu op de verwachte manier weergegeven tijdens geavanceerde zoekinvoer. (TGT-52008)
+* **Sommige fiatteurs konden geen producten in[!UICONTROL Product Catalog Search]** bekijken: Klanten met [!UICONTROL Approver] toestemmingen konden geen producten in [!UICONTROL Product Catalog Search] zien, ondanks andere gebruikers met identieke rollen die toegang hebben. Dit probleem is veroorzaakt door een inconsistentie in machtigingen die invloed heeft op de zichtbaarheid van de catalogus. Alle fiatteurs kunnen nu naar behoren producten in de sectie [!UICONTROL Recommendations] bekijken. (TGT-53617)
+
++++
+
+**[!UICONTROL Reports]**
+
++++Zie details
+* **de Rapporten slaagden er niet in om voor het publiek van de Desktop wegens een ongeldige fout van de publieksnaam** te laden: De klanten ontmoetten een fout van GraphQL toen het proberen om rapporten voor één publiek in activiteit-creeer proces te bekijken. Het systeem heeft een bericht &quot;Invalid publieksnaam: XXXXX&quot; geretourneerd, waardoor toegang tot rapportgegevens wordt voorkomen. Rapporten worden nu correct geladen voor het desktoppubliek. (TGT-53371)
+* **de Omschakeling publiek op de pagina van Rapporten veroorzaakte fouten in het Doel UI**: De klanten ontmoetten fouten wanneer het selecteren van bepaalde soorten publiek in de [!UICONTROL Reports] sectie. Dit probleem werd veroorzaakt door een ongeldige verwerking van het publiek in GraphQL-aanroepen met een achtergrond, met onverwachte fouten en ontbrekende gegevens als gevolg. Het probleem is opgelost en het bureaubladpubliek wordt nu zonder fouten geladen, zelfs als er geen gegevens beschikbaar zijn. (TGT-53370)
+* **[!UICONTROL Graph view]in de [!UICONTROL Reports] sectie toonde geen waarden van[!DNL Analytics]**: Klanten die tot [!UICONTROL Graph view] in de Re  havensectie toegang hebben ontleenden gegevens, met alle waarden die als nul verschijnen. Dit probleem is veroorzaakt door onjuiste gegevens die zijn opgehaald uit [!UICONTROL Analytics] . In [!UICONTROL Graph view] worden nu de juiste waarden weergegeven. (TGT-52792)
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++Zie details
+* **klikkend &quot;Accept Cookies&quot;gebruikend [!UICONTROL Enhanced Experience Composer] (EEG) ontbroken toe te schrijven aan een ontbrekende functie**: De klanten rapporteerden dat het proberen om koekjes via EEG goed te keuren in een consolefout resulteerde: `handleclickAcceptAllButton is not defined`. De functionaliteit voor het accepteren van cookies werkt nu zoals u had verwacht en zorgt voor een vloeiender ervaring tijdens het maken van activiteiten in de bijgewerkte gebruikersinterface. (TGT-52794)
+* **Nieuwe E.E.G. UI slaagde er niet in om bepaalde pagina&#39;s te laden die eerder in erfenis UI** werden gesteund: De klanten rapporteerden dat nieuwe EEG sommige pagina&#39;s niet kon laden, die in erfenis UI ondanks iframe-het bouwen code aanwezig op de plaats toegankelijk waren. Het bijgewerkte activity-create proces ondersteunt nu het laden van deze pagina&#39;s en het herstellen van compatibiliteit voor workflows voor het maken van activiteiten. (TGT-53061)
+* **VEC toonde een leeg wit scherm wanneer het uitgeven van ervaringen**: De klanten van een bepaalde huurder rapporteerden dat het scherm VEC leeg ging wanneer het proberen om ervaringen in bijgewerkte VEC uit te geven. Deze kwestie beïnvloedde zowel nieuw gecreëerde als oudere activiteiten, die werkschemacontinuïteit verhinderen. VEC laadt nu correct, toestaand klanten om ervaringen zonder onderbreking uit te geven. (TGT-53547)
+* **VEC crashte en toonde een leeg scherm wanneer het laden van bepaalde activiteiten**: De klanten van een bepaalde huurder rapporteerden dat VEC er niet in slaagde om specifieke activiteiten te laden. De ervaringseditor bleef vastzitten op &quot;Aanvankelijke wijzigingen toepassen&quot; voordat deze vastliep en een leeg scherm weergaf. Consolefouten duiden op een fout bij het lezen van niet-gedefinieerde eigenschappen. De redacteur laadt nu betrokken activiteiten zonder fouten in bijgewerkte VEC. (TGT-53548)
+* **het ontruimen van alle datumwaarden die Backspace gebruiken veroorzaakte de pagina om te crashen**: Klanten die activiteiten in de [!UICONTROL Goals & Settings] sectie plannen ervoeren een neerstorting wanneer het gebruiken van Backspace om alle waarden van &quot;[!UICONTROL Specified Date & Time]&quot;gebieden te ontruimen. Deze kwestie werd veroorzaakt door een ongeldige verwijzingsfout in de datum-behandelende logica. De pagina verwerkt lege datuminvoer probleemloos zonder vast te lopen. (TGT-53624)
+* **Geen producten verschenen in [!UICONTROL Product Catalog Search] toe te schrijven aan een ongeldige lading**: De klanten die tot de [!UICONTROL Recommendations] sectie in [!UICONTROL Product Catalog Search] toegang hebben ondervonden lege resultaten die door een ongeldige lading van GraphQL worden veroorzaakt. Door deze backendfout konden de productgegevens niet correct worden geladen. Producten worden nu weergegeven zoals u had verwacht in de bijgewerkte gebruikersinterface. (TGT-53630)
+* **[!DNL Scene7]-afbeeldingen zijn met een lagere resolutie opgeslagen in de bijgewerkte VEC** : klanten die ervaringen in de bijgewerkte VEC hebben bewerkt, hebben gemerkt dat [!UICONTROL Scene7] -afbeeldings-URL&#39;s zijn opgeslagen zonder resolutieparameters, waardoor afbeeldingen van lagere kwaliteit worden geleverd (400×400 in plaats van de beoogde 800×800). URL&#39;s van afbeeldingen behouden nu de juiste parameters voor een juiste resolutie. (TGT-52631)
+* **de levende activiteiten konden nog in VEC** worden uitgegeven: De klanten konden tot bewerkingsopties voor levende activiteiten in bijgewerkte VEC toegang hebben, die tot onbedoelde veranderingen kon leiden. Dit probleem is opgelost door de bewerkingsfunctionaliteit voor live activiteiten uit te schakelen. De bewerkingsknoppen zijn nu verborgen in de activiteitenlijst en het overzicht voor editors, terwijl fiatteurs en andere rollen ongewijzigd blijven. (TGT-53055)
+* **werd buiten bedrijf gesteld [!UICONTROL Failed] en [!UICONTROL Draft] activiteitensectie in bijgewerkte VEC**: [!UICONTROL Failed] en [!UICONTROL Draft] activiteitenopties zijn verwijderd uit bijgewerkte VEC. De nieuwe interface ondersteunt geen conceptframes meer en mislukte campagnes worden niet opgeslagen op de achtergrond. Deze opties zijn niet langer relevant. Verwante filters en achterste velden (bijvoorbeeld `uiSyncFailed` , `errorMessage` ) zijn ook verwijderd om activiteitsbeheer te stroomlijnen. (TGT-53150)
+* **Onbekwaam aan login aan VEC voor een activiteit**: De klanten die aan login aan hun plaats door VEC probeerden opnieuw gericht aan de login pagina, verhinderend toegang tot activiteit het uitgeven. Dit probleem kon intern niet worden gereproduceerd en had mogelijk betrekking op de verwerking van sessies aan de site. De aanmeldstroom is gestabiliseerd en klanten hebben nu toegang tot de VEC zonder omleidingsfouten. (TGT-53524)
+* **die tweemaal op de achterknoop op [!UICONTROL Browse] wijze drukken veroorzaakte VEC om te crashen**: Klanten die door [!UICONTROL Browse] wijze in VEC navigeren ervaren crashes wanneer tweemaal het drukken van de achterknoop van browser. Dit probleem heeft ertoe geleid dat de editor vastloopt en dat een pagina moet worden vernieuwd. De redacteur behandelt nu navigatie betrouwbaar terug zonder het crashen. (GT-53568)
+* **de Activiteiten konden niet worden uitgegeven toe te schrijven aan niet bepaalde plaatstoewijzingen**: De klanten ontmoetten een fout toen het proberen om activiteiten uit te geven, die door ongedefinieerde plaats IDs in de `LocationMapping.behaviorTargetedActivity` logica wordt veroorzaakt. Deze kwestie resulteerde in een 400 fout en geblokkeerde activiteitenupdates. Activiteiten kunnen nu worden bewerkt zonder validatiefouten die betrekking hebben op de locatie. (TGT-53607)
+* **het Opslaan activiteiten teweegbrachten een ongeldige fout van de gebruikersinput**: De klanten ontmoetten een ongeldige fout van de gebruikersinput wanneer het proberen om activiteiten na het maken van minder belangrijke wijzigingen in bijgewerkte VEC te bewaren. De fout is veroorzaakt door onjuiste locatietoewijzingen in de achtergrondvalidatielogica. Activiteiten kunnen nu met succes worden opgeslagen zonder locatiefouten te veroorzaken. (TGT-53603)
+
++++
+
 ## [!DNL Target Standard/Premium] 25.8.3 (21 augustus 2025)
 
 Deze release bevat de volgende updates en oplossingen:
@@ -88,7 +139,7 @@ Deze release bevat de volgende updates en oplossingen:
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++Zie details
 * **Vaste een kwestie waar de klanten geen namen van de rapportreeks tijdens activiteit-creeer proces** konden typen: De klanten die [!DNL Adobe Analytics] als rapporteringsbron tijdens het activiteit-creeer proces gebruiken konden niet in de [!UICONTROL Report Suite] drop-down lijst typen om naar specifieke rapportsuites te zoeken. Dit beïnvloedde werkstromen voor organisaties met grote aantallen rapportreeksen, waar het handscrollen beduidend opstelling vertraagde. De vervolgkeuzelijst is niet alfabetisch geordend en reageerde niet consistent op getypte invoer, waardoor het moeilijk werd om rapportsuites zoals &quot;Office + Store - Web - Prod.&quot; op te zoeken. Dit probleem is opgelost en klanten kunnen nu efficiënt zoeken door namen van rapportsuite te typen. (TGT-53345)
@@ -122,7 +173,7 @@ Deze release bevat de volgende updates en oplossingen:
 
 +++Zie details
 * **Vaste kwestie in [!DNL Recommendations] UI waar de download van douanecriteria CSV 404 fout** terugkeerde: Vaste een kwestie waar de klanten de douanecriteria CSV in activiteit-creeer proces niet konden downloaden. De downloadkoppeling werkt nu correct, zodat klanten aangepaste criteria kunnen exporteren zoals verwacht. (TGT-51966)
-* **Vaste inconsistente beeld die in[!UICONTROL Catalog Search]** laadt: Vaste een kwestie waar de duimnagels en de beelden in [!UICONTROL &#x200B; Catalog Search] niet constant in activiteit-creeer proces laadden. Afbeeldingen kunnen alleen worden weergegeven als de kolom &quot;URL miniatuur&quot; zichtbaar is en sommige productafbeeldingen geheel of gedeeltelijk zijn geladen na navigatie- of zoekacties. Het gedrag voor het laden van afbeeldingen is gestabiliseerd en de miniaturen worden nu betrouwbaar weergegeven, ongeacht de zichtbaarheid van de kolom of de navigatiehandelingen. (TGT-52778)
+* **Vaste inconsistente beeld die in[!UICONTROL Catalog Search]** laadt: Vaste een kwestie waar de duimnagels en de beelden in [!UICONTROL  Catalog Search] niet constant in activiteit-creeer proces laadden. Afbeeldingen kunnen alleen worden weergegeven als de kolom &quot;URL miniatuur&quot; zichtbaar is en sommige productafbeeldingen geheel of gedeeltelijk zijn geladen na navigatie- of zoekacties. Het gedrag voor het laden van afbeeldingen is gestabiliseerd en de miniaturen worden nu betrouwbaar weergegeven, ongeacht de zichtbaarheid van de kolom of de navigatiehandelingen. (TGT-52778)
 * **Vaste een kwestie waar het uitgeven van een aanbeveling in een gedupliceerde ervaring beïnvloedde de originele ervaring**: De klanten rapporteerden dat het wijzigen van een aanbeveling in een gedupliceerde ervaring onbedoeld de originele ervaring veranderde. Na het dupliceren van Experience B in het activity-create proces en het bewerken van het ontwerp of de criteria, werden dezelfde wijzigingen weerspiegeld in de oorspronkelijke Experience B, hoewel ze afzonderlijke entiteiten waren. Bij gedupliceerde ervaringen blijven er nu afzonderlijke configuraties behouden, zodat bewerkingen op één ervaring geen invloed hebben op het origineel. (TGT-53369)
 * **Vaste een kwestie waar de veranderingen in een gedupliceerde ervaring onbedoeld de originele ervaring in een activiteit** beïnvloedden: De klanten rapporteerden dat wanneer het dupliceren van een ervaring binnen een activiteit en het toewijzen van een nieuw publiek, om het even welke veranderingen die in het gedupliceerde ontwerp of de criteria van de ervaring werden aangebracht ook in de originele ervaring werden weerspiegeld. Dit probleem is opgetreden, ook al zijn er geen bewerkingen rechtstreeks aangebracht in de oorspronkelijke versie, wat van invloed is op de mogelijkheid om onafhankelijke variaties binnen dezelfde activiteit te maken. Het activity-create proces isoleert nu correct gedupliceerde ervaringen, die ervoor zorgen dat uitgeeft aan één ervaring niet origineel beïnvloedt. (TGT-53361)
 * **Vaste een kwestie waar [!UICONTROL Recommendation Catalog] met tussenpozen er niet in slaagde om volledige gegevens van productattributen** te tonen: In bijgewerkte [!DNL Recommendations] UI, ervoeren de klanten een kwestie waar bepaalde productattributen, zoals bericht, niet constant in de [!UICONTROL Catalog Search] resultaten werden getoond, alhoewel de gegevens in het voer bestonden. In dit geval moesten klanten de zichtbaarheid van de kolommen handmatig opnieuw configureren om de ontbrekende waarden op te halen. [!UICONTROL Catalog Search] geeft nu betrouwbaar alle geconfigureerde kenmerken weer, zodat de kolom niet handmatig hoeft opnieuw te worden ingesteld. (TGT-52769)
@@ -153,7 +204,7 @@ Deze release bevat de volgende updates en oplossingen:
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Zie details
 * **Vaste kwestie in activiteit-creeer proces dat vooruitgang aan de [!UICONTROL Targeting] stap in AP activiteiten** blokkeerde: Vaste een kwestie in activiteit-creeert proces waar de klanten niet aan de [!UICONTROL Targeting] stap in [!UICONTROL Automated Personalization] (AP) activiteiten konden te werk gaan tenzij twee plaatsen werden toegevoegd. Dit gedrag verschilde van de vorige ervaring, waar één enkele plaats met veelvoudige aanbiedingen voldoende was. Deze vereiste is gecorrigeerd, zodat klanten de Single-location-instellingen kunnen blijven gebruiken in hun AP-workflows. (TGT-53426)
@@ -305,8 +356,8 @@ Deze release bevat de volgende verbeteringen en oplossingen:
 
 | Bron | Details |
 |--- |--- |
-| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=nl-NL) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
-| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
+| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
+| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
 
 ## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release van Experience Cloud
 
@@ -316,7 +367,7 @@ Naast de notities voor elke release bevatten de volgende bronnen aanvullende inf
 |--- |--- |
 | [ Veranderingen van de Documentatie ](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
 | [ de nota&#39;s van de Versie voor vorige versies ](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
-| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl-NL){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
+| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
 
 ## Prerelease-informatie {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
