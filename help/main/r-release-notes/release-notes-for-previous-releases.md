@@ -55,7 +55,7 @@ Deze release bevat de volgende updates en oplossingen:
 * **[!UICONTROL Graph view]in de [!UICONTROL Reports] sectie toonde geen waarden van[!DNL Analytics]**: Klanten die tot [!UICONTROL Graph view] in de Re  havensectie toegang hebben ontleenden gegevens, met alle waarden die als nul verschijnen. Dit probleem is veroorzaakt door onjuiste gegevens die zijn opgehaald uit [!UICONTROL Analytics] . In [!UICONTROL Graph view] worden nu de juiste waarden weergegeven. (TGT-52792)
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Zie details
 * **klikkend &quot;Accept Cookies&quot;gebruikend [!UICONTROL Enhanced Experience Composer] (EEG) ontbroken toe te schrijven aan een ontbrekende functie**: De klanten rapporteerden dat het proberen om koekjes via EEG goed te keuren in een consolefout resulteerde: `handleclickAcceptAllButton is not defined`. De functionaliteit voor het accepteren van cookies werkt nu zoals u had verwacht en zorgt voor een vloeiender ervaring tijdens het maken van activiteiten in de bijgewerkte gebruikersinterface. (TGT-52794)
@@ -87,7 +87,7 @@ Deze release bevat de volgende updates en oplossingen:
 
 +++
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 +++Zie details
 * **Vaste een kwestie waar de klanten geen namen van de rapportreeks tijdens activiteit-creeer proces** konden typen: De klanten die [!DNL Adobe Analytics] als rapporteringsbron tijdens het activiteit-creeer proces gebruiken konden niet in de [!UICONTROL Report Suite] drop-down lijst typen om naar specifieke rapportsuites te zoeken. Dit beïnvloedde werkstromen voor organisaties met grote aantallen rapportreeksen, waar het handscrollen beduidend opstelling vertraagde. De vervolgkeuzelijst is niet alfabetisch geordend en reageerde niet consistent op getypte invoer, waardoor het moeilijk werd om rapportsuites zoals &quot;Office + Store - Web - Prod.&quot; op te zoeken. Dit probleem is opgelost en klanten kunnen nu efficiënt zoeken door namen van rapportsuite te typen. (TGT-53345)
@@ -121,7 +121,7 @@ Deze release bevat de volgende updates en oplossingen:
 
 +++Zie details
 * **Vaste kwestie in [!DNL Recommendations] UI waar de download van douanecriteria CSV 404 fout** terugkeerde: Vaste een kwestie waar de klanten de douanecriteria CSV in activiteit-creeer proces niet konden downloaden. De downloadkoppeling werkt nu correct, zodat klanten aangepaste criteria kunnen exporteren zoals verwacht. (TGT-51966)
-* **Vaste inconsistente beeld die in[!UICONTROL Catalog Search]** laadt: Vaste een kwestie waar de duimnagels en de beelden in [!UICONTROL  Catalog Search] niet constant in activiteit-creeer proces laadden. Afbeeldingen kunnen alleen worden weergegeven als de kolom &quot;URL miniatuur&quot; zichtbaar is en sommige productafbeeldingen geheel of gedeeltelijk zijn geladen na navigatie- of zoekacties. Het gedrag voor het laden van afbeeldingen is gestabiliseerd en de miniaturen worden nu betrouwbaar weergegeven, ongeacht de zichtbaarheid van de kolom of de navigatiehandelingen. (TGT-52778)
+* **Vaste inconsistente beeld die in[!UICONTROL Catalog Search]** laadt: Vaste een kwestie waar de duimnagels en de beelden in [!UICONTROL &#x200B; Catalog Search] niet constant in activiteit-creeer proces laadden. Afbeeldingen kunnen alleen worden weergegeven als de kolom &quot;URL miniatuur&quot; zichtbaar is en sommige productafbeeldingen geheel of gedeeltelijk zijn geladen na navigatie- of zoekacties. Het gedrag voor het laden van afbeeldingen is gestabiliseerd en de miniaturen worden nu betrouwbaar weergegeven, ongeacht de zichtbaarheid van de kolom of de navigatiehandelingen. (TGT-52778)
 * **Vaste een kwestie waar het uitgeven van een aanbeveling in een gedupliceerde ervaring beïnvloedde de originele ervaring**: De klanten rapporteerden dat het wijzigen van een aanbeveling in een gedupliceerde ervaring onbedoeld de originele ervaring veranderde. Na het dupliceren van Experience B in het activity-create proces en het bewerken van het ontwerp of de criteria, werden dezelfde wijzigingen weerspiegeld in de oorspronkelijke Experience B, hoewel ze afzonderlijke entiteiten waren. Bij gedupliceerde ervaringen blijven er nu afzonderlijke configuraties behouden, zodat bewerkingen op één ervaring geen invloed hebben op het origineel. (TGT-53369)
 * **Vaste een kwestie waar de veranderingen in een gedupliceerde ervaring onbedoeld de originele ervaring in een activiteit** beïnvloedden: De klanten rapporteerden dat wanneer het dupliceren van een ervaring binnen een activiteit en het toewijzen van een nieuw publiek, om het even welke veranderingen die in het gedupliceerde ontwerp of de criteria van de ervaring werden aangebracht ook in de originele ervaring werden weerspiegeld. Dit probleem is opgetreden, ook al zijn er geen bewerkingen rechtstreeks aangebracht in de oorspronkelijke versie, wat van invloed is op de mogelijkheid om onafhankelijke variaties binnen dezelfde activiteit te maken. Het activity-create proces isoleert nu correct gedupliceerde ervaringen, die ervoor zorgen dat uitgeeft aan één ervaring niet origineel beïnvloedt. (TGT-53361)
 * **Vaste een kwestie waar [!UICONTROL Recommendation Catalog] met tussenpozen er niet in slaagde om volledige gegevens van productattributen** te tonen: In bijgewerkte [!DNL Recommendations] UI, ervoeren de klanten een kwestie waar bepaalde productattributen, zoals bericht, niet constant in de [!UICONTROL Catalog Search] resultaten werden getoond, alhoewel de gegevens in het voer bestonden. In dit geval moesten klanten de zichtbaarheid van de kolommen handmatig opnieuw configureren om de ontbrekende waarden op te halen. [!UICONTROL Catalog Search] geeft nu betrouwbaar alle geconfigureerde kenmerken weer, zodat de kolom niet handmatig hoeft opnieuw te worden ingesteld. (TGT-52769)
@@ -152,7 +152,7 @@ Deze release bevat de volgende updates en oplossingen:
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Zie details
 * **Vaste kwestie in activiteit-creeer proces dat vooruitgang aan de [!UICONTROL Targeting] stap in AP activiteiten** blokkeerde: Vaste een kwestie in activiteit-creeert proces waar de klanten niet aan de [!UICONTROL Targeting] stap in [!UICONTROL Automated Personalization] (AP) activiteiten konden te werk gaan tenzij twee plaatsen werden toegevoegd. Dit gedrag verschilde van de vorige ervaring, waar één enkele plaats met veelvoudige aanbiedingen voldoende was. Deze vereiste is gecorrigeerd, zodat klanten de Single-location-instellingen kunnen blijven gebruiken in hun AP-workflows. (TGT-53426)
@@ -475,7 +475,7 @@ Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houde
 
 +++
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 +++Zie details
 * Probleem verholpen waarbij klanten rapporten voor specifieke activiteiten op de pagina [!UICONTROL Goals & Settings] weergeven, wordt met de koppeling [!UICONTROL View in Analytics] onjuist verwezen naar de QA-omgeving in plaats van naar de productieomgeving. (TGT-53163)
@@ -514,7 +514,7 @@ Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houde
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Zie details
 * Het probleem op de pagina [!UICONTROL Goals & Settings] waarbij kiezers die in meerdere ervaringen werden gebruikt, niet altijd als geselecteerd werden gemarkeerd, is opgelost. (TGT-53062)
@@ -565,7 +565,7 @@ Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houde
 
 +++
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 +++Zie details
 * Probleem verholpen waarbij het kopiëren van een bestaande activiteit en het wijzigen van de rapportbron in [!DNL Adobe Analytics] (A4T) zou resulteren in een fout met betrekking tot &quot;Ongeldige gebruikersinvoer&quot;. De fout werd geactiveerd wanneer bepaalde metrische handelingen die niet compatibel zijn met [!DNL Analytics] -rapportage, zoals `restart_same_experience` , `restart_random_experience` en `restart_new_experience` , niet in de oorspronkelijke activiteit zijn opgenomen. (TGT-52900)
@@ -612,7 +612,7 @@ Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houde
 * Eerder werd in de gebruikersinterface van Aanbevelingen alleen het aantal entiteiten weergegeven dat is geïmporteerd uit een feed. De indeling voor achterste berichten bevat echter zowel het aantal geïmporteerde entiteiten als het totale aantal entiteiten in de notatie: `# of entities imported / # of total entities` . Door deze discrepantie zagen gebruikers alleen de eerste waarde (geïmporteerd aantal) in de gebruikersinterface, wat tot verwarring leidde. In de gebruikersinterface worden nu beide getallen weergegeven. (TGT-53073)
 * Oplossing een kwestie waar de klanten een het filtreren regel niet konden bewaren wanneer het vormen van een &quot;[!UICONTROL Promote by attribute]&quot;bevordering in een op vorm-gebaseerde activiteit A/B met aanbevelingen. Na het opslaan en opnieuw openen van de activiteit, ontbrak de het filtreren regel, en de activiteit kon niet met succes worden bewaard. (TGT-53057)
 
-  +++
++++
 
 **Rapporten**
 
@@ -622,7 +622,7 @@ Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houde
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Zie details
 * Oplossing voor een probleem waarbij het toepassen van een wijziging op een weergave ertoe zou leiden dat de weergave wordt gedupliceerd en dat de activiteit een fout met &quot;Ongeldige gebruikersinvoer&quot; retourneert. Met deze correctie zorgt u ervoor dat weergavewijzigingen correct worden toegepast zonder dat er fouten optreden bij het dupliceren of valideren. (TGT-52886)
@@ -649,7 +649,7 @@ Vanwege recente problemen die zijn vastgesteld en die voornamelijk verband houde
    * Als de naam van aanbiedingen wordt gewijzigd via het rechterdeelvenster, wordt de naam bijgewerkt in de gebruikersinterface, maar de wijziging wordt niet doorgevoerd op het tabblad [!UICONTROL Manage Content] of [!UICONTROL Offers] , waardoor er permanente validatiefouten optreden.
    * In MVT-activiteiten bleef de fout met de dubbele naam weliswaar niet bestaan na het wijzigen van de naam, maar de interface gaf nog steeds geen consistente weerspiegeling van bijgewerkte aanbiedingsnamen op de verschillende tabbladen. (TGT-52933)
 
-  +++
++++
 
 ### [!DNL Target Standard/Premium] 25.6.4 (27 juni 2025)
 
@@ -1174,7 +1174,7 @@ Afhankelijk van uw implementatie, controleer [!DNL Analytics] en A4T rapporterin
 
   Dit implementatietype is de nieuwe [ spleet-vraag implementatiebenadering ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank} die door [!DNL Adobe] wordt geadviseerd. Met deze methode heeft de nieuwe optimalisatie geen invloed op [!DNL Analytics] - of A4T-rapporten.
 
-Als u vragen hebt, contacteer [ de Zorg van de Klant van 0} Adobe. ](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C) (kB-2179)
+Als u vragen hebt, contacteer [ de Zorg van de Klant van 0&rbrace; Adobe. ](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C) (kB-2179)
 
 ### at.js versie 2.11.6 (29 september 2024)
 
@@ -1238,7 +1238,7 @@ Deze versie bevat de volgende verbeteringen en oplossingen:
 
 Deze release is gepland voor de volgende dagen:
 
-* **13 van 10} November: Azië-Stille (APAC) gebied**
+* **13 van 10&rbrace; November: Azië-Stille (APAC) gebied**
 * **November 14**: Het gebied van Amerika
 * **14 November**: Europa, Midden-Oosten, en het gebied van Afrika (EMEA)
 
@@ -1586,12 +1586,12 @@ Deze versie bevat de volgende verbeteringen en oplossingen:
 
 Deze versie bevat de volgende verbeteringen en oplossingen:
 
-* Toegevoegde [ steun van de Hints van de Cliënt van de Agent van 0} Gebruiker.](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html){target=_blank}
+* Toegevoegde [ steun van de Hints van de Cliënt van de Agent van 0&rbrace; Gebruiker.](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html){target=_blank}
 * Probleem verholpen waarbij periodiek time-outs werden veroorzaakt bij het renderen van [!UICONTROL Offer Decisions] in [!UICONTROL Experience Targeting] (XT)-activiteiten. (TNT-44611)
 
 ### at.js versie 2.9.0 (27 mei 2022)
 
-* Toegevoegde [ steun van de Hints van de Cliënt van de Agent van 0} Gebruiker.](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html){target=_blank}
+* Toegevoegde [ steun van de Hints van de Cliënt van de Agent van 0&rbrace; Gebruiker.](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html){target=_blank}
 * Probleem verholpen waarbij meerdere mbox-aanvragen op dezelfde pagina verschillende beeld-id&#39;s hebben.
 
 ### [!DNL Target Standard/Premium] 22.5.1 (gefaseerde release; 11-13 mei 2022)
@@ -1768,7 +1768,7 @@ Deze release bevat de volgende nieuwe functies:
 | --- | --- |
 | [!UICONTROL Audiences] UI refresh | Als onderdeel van de voortdurende inspanningen van het team van [!DNL Adobe Target] om de gebruikerservaring voor [!DNL Target] -gebruikers te verbeteren, vernieuwt deze release de [!UICONTROL Audiences] - en [!UICONTROL Profile Scripts] -pagina&#39;s in de gebruikersinterface van [!DNL Target] . Deze update verenigt en normaliseert ontwerppatronen die eerder inconsistent waren, terwijl het toevoegen van nieuwe verhogingen, zoals:<ul><li>De mogelijkheid om meerdere soorten publiek tegelijk te selecteren en te verwijderen</li><li>Een verfrist [ ontwerp van de publieksbouwer ](/help/main/c-target/c-audiences/create-audience.md)</li><li>Ondersteuning voor uitsluitingsregels in de [!UICONTROL Audience] bibliotheekregelbuilder</li><li>Een nieuw filter &quot;Audience Source&quot;, waarmee gebruikers sneller kunnen worden opgespoord</li><li>Opties voor permanent zoeken en filteren tijdens sessies</li></ul>Voor meer informatie, zie [ Soorten publiek ](/help/main/c-target/target.md). |
 | [!UICONTROL Profile Scripts] UI refresh | De [!UICONTROL Profile Scripts] -bibliotheek is ook bijgewerkt en bevat een vernieuwde interface en diverse productiviteitsupdates:<ul><li>Meerdere profielscripts tegelijk selecteren en verwijderen</li><li>Een nieuwe code-editor voor profielscripts</li><li>Syntaxis markeren en fout controleren in de code-editor</li><li>Automatisch aanvullen van tokens (mbox of profiel) via sneltoetsen</li></ul>Voor meer informatie, zie [ Profielen van de Bezoeker ](/help/main/c-target/c-visitor-profile/visitor-profile.md). |
-| [!BADGE  de Criteria van de Aanbevelingen van de Premium ]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."} creëren en uitgeven | De workflow voor het maken en bewerken van [!UICONTROL Recommendations Criteria] is gestroomlijnd. U kunt nu eenvoudiger het juiste algoritme en de juiste instellingen voor aanbevelingen kiezen om uw doelen te bereiken.<br> voor meer informatie, zie [ criteria ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) creëren. |
+| [!BADGE &#x200B; de Criteria van de Aanbevelingen van de Premium &#x200B;]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."} creëren en uitgeven | De workflow voor het maken en bewerken van [!UICONTROL Recommendations Criteria] is gestroomlijnd. U kunt nu eenvoudiger het juiste algoritme en de juiste instellingen voor aanbevelingen kiezen om uw doelen te bereiken.<br> voor meer informatie, zie [ criteria ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) creëren. |
 | ![ het venster van de het badge van de Premium ](/help/main/assets/premium.png) Raadpleging terugblik en algoritme verfrist tariefverbeteringen | U kunt de algoritmen &quot;Meest bekeken&quot; en &quot;Hoogste verkopers&quot; nu uitvoeren met een terugkijkvenster van zes uur om de inhoud vast te leggen die het laatst wordt doorzocht. Wanneer het terugkijkvenster van zes uur wordt geselecteerd, worden uw aanbevelingen resultaten bijgewerkt om de 3-6 uur door de dag.<br> voor meer informatie, zie [ Gegevens Source ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *criteria* creëren. |
 
 ### [!DNL Target Standard/Premium] 21.9.1 (14 september 2021)
@@ -1870,7 +1870,7 @@ Deze versie bevat de volgende nieuwe functies en verbeteringen. De uitgiftenumme
 | Functie | Details |
 | --- | --- |
 | De beslissingssteun van het apparaat voor at.js <br> (Datum die moet worden aangekondigd) | Met apparaatbeslissingen kunnen marketers en ontwikkelaars experimenten en personalisatie uitvoeren in de browser van een gebruiker bij bijna-nullatentie.<br> voor meer informatie, zie [ Op-apparatenbesluit voor at.js.](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} |
-| ![ Op lijst-gebaseerde exploitanten van de Premium ](/help/main/assets/premium.png) {voor entiteit het filtreren regels | [!DNL Target Recommendations] ondersteunt nieuwe op lijst gebaseerde operatoren voor eenheidfiltreerregels. (TGT-39234) <br> Nieuw toegevoegde exploitanten omvatten:<br><ul><li>Is opgenomen in lijst</li><li>Is niet opgenomen in lijst</li><li>Lijst bevat een item in</li><li>Lijst bevat geen item in</li><li>Lijst bevat alle items in</li><li>Lijst bevat niet alle items in</li></ul>Voor meer informatie, zie &quot;Beschikbare exploitanten&quot;in [ Dynamische en statische integratieregels van het Gebruik ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
+| ![ Op lijst-gebaseerde exploitanten van de Premium ](/help/main/assets/premium.png) &lbrace;voor entiteit het filtreren regels | [!DNL Target Recommendations] ondersteunt nieuwe op lijst gebaseerde operatoren voor eenheidfiltreerregels. (TGT-39234) <br> Nieuw toegevoegde exploitanten omvatten:<br><ul><li>Is opgenomen in lijst</li><li>Is niet opgenomen in lijst</li><li>Lijst bevat een item in</li><li>Lijst bevat geen item in</li><li>Lijst bevat alle items in</li><li>Lijst bevat niet alle items in</li></ul>Voor meer informatie, zie &quot;Beschikbare exploitanten&quot;in [ Dynamische en statische integratieregels van het Gebruik ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
 
 Deze versie bevat de volgende oplossingen.
 
@@ -1970,13 +1970,13 @@ Deze onderhoudrelease bevat de volgende verbeteringen, correcties en wijzigingen
 
 | Functie | Details |
 | --- | --- |
-| ![ Analytics van het Bandje van de Premie van 0} {voor de steun van het Doel (A4T) voor activiteiten Auto-Doel](/help/main/assets/premium.png) | [!UICONTROL Auto-Target] de activiteiten steunen nu [ Analytics voor Doel ](/help/main/c-integrating-target-with-mac/a4t/a4t.md).<br> Deze integratie staat u toe om [!UICONTROL Auto-Target] te gebruiken ensemble machine het leren algoritme om een beste ervaring voor elke bezoeker te kiezen die op hun profiel, gedrag, en context wordt gebaseerd.<br> Als u reeds [ A4T ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) voor gebruik met de Test A/B en Ervaring die activiteiten richt, bent u allen geplaatst!<br> voor meer informatie, zie [ steun A4T voor auto-Wijs en auto-Doel activiteiten ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) toe. |
+| ![ Analytics van het Bandje van de Premie van 0&rbrace; &lbrace;voor de steun van het Doel (A4T) voor activiteiten Auto-Doel](/help/main/assets/premium.png) | [!UICONTROL Auto-Target] de activiteiten steunen nu [ Analytics voor Doel ](/help/main/c-integrating-target-with-mac/a4t/a4t.md).<br> Deze integratie staat u toe om [!UICONTROL Auto-Target] te gebruiken ensemble machine het leren algoritme om een beste ervaring voor elke bezoeker te kiezen die op hun profiel, gedrag, en context wordt gebaseerd.<br> Als u reeds [ A4T ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) voor gebruik met de Test A/B en Ervaring die activiteiten richt, bent u allen geplaatst!<br> voor meer informatie, zie [ steun A4T voor auto-Wijs en auto-Doel activiteiten ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) toe. |
 
 ### Target Standard/Premium 20.8.2 (10 september 2020)
 
 | Functie | Details |
 | --- | --- |
-| ![ de aanbevelingen van de controle van de 10} Premium badge binnen criteria opeenvolgingen](/help/main/assets/premium.png) | Met Criteria Sequences kunt u nu het aantal sleuven bepalen dat wordt opgenomen door de criteria van elke aanbeveling, zodat u verschillende typen items of een andere algoritme kunt combineren en afstemmen.<br> zie [ criteria creëren opeenvolgingen ](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) om meer te leren. |
+| ![ de aanbevelingen van de controle van de 10&rbrace; Premium badge binnen criteria opeenvolgingen](/help/main/assets/premium.png) | Met Criteria Sequences kunt u nu het aantal sleuven bepalen dat wordt opgenomen door de criteria van elke aanbeveling, zodat u verschillende typen items of een andere algoritme kunt combineren en afstemmen.<br> zie [ criteria creëren opeenvolgingen ](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) om meer te leren. |
 
 ### Target Standard/Premium 20.8.1 (2 september 2020)
 
@@ -2280,7 +2280,7 @@ Deze release bevat de volgende nieuwe functies en verbeteringen:
 
 | Functie/verbetering | Beschrijving |
 | --- | --- |
-| ![ Aanbevelingen van de het badge van de 1} Premium in de Test van A/B en Ervaring die (XT) activiteiten richten](/help/main/assets/premium.png)<br> | De de statusvertoningen van de Aanbiedingen van Aanbevelingen (algoritme) op de pagina van het Overzicht voor A/B Test en XT activiteiten die de aanbiedingen van Aanbevelingen bevatten. De statussen omvatten: Resultaten Klaar, Resultaten niet Klaar, en de Mislukking van het voer. (TGT-33649) <br> zie [ Aanbevelingen als aanbieding ](/help/main/c-recommendations/recommendations-as-an-offer.md#status). |
+| ![ Aanbevelingen van de het badge van de 1&rbrace; Premium in de Test van A/B en Ervaring die (XT) activiteiten richten](/help/main/assets/premium.png)<br> | De de statusvertoningen van de Aanbiedingen van Aanbevelingen (algoritme) op de pagina van het Overzicht voor A/B Test en XT activiteiten die de aanbiedingen van Aanbevelingen bevatten. De statussen omvatten: Resultaten Klaar, Resultaten niet Klaar, en de Mislukking van het voer. (TGT-33649) <br> zie [ Aanbevelingen als aanbieding ](/help/main/c-recommendations/recommendations-as-an-offer.md#status). |
 | Ondersteuning voor interdomeintracering voor at.js 2.0+ via de Experience Cloud ID-bibliotheek (ECID) | Eerder werd interdomeintracering niet ondersteund in at.js 2.*x*. Met deze release kunnen klanten die at.js 2.0 of hoger gebruiken nu interdomeintracering gebruiken via de ECID-bibliotheek. De ECID-bibliotheek moet op de pagina worden geïnstalleerd in combinatie met at.js 2.0 of hoger om interdomeintracering mogelijk te maken. [ de bibliotheek van identiteitskaart van Experience Cloud 4.3.0+ ](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) moet worden gebruikt.<br> zie [ dwars-domein volgende steun in at.js 2.x ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}. |
 | Doelondersteuning voor Apple ITP 2.1 en ITP 2.2 via de Experience Cloud ID-bibliotheek 4.3 | Vandaag, kunnen de klanten van het Doel Apple ITP 2.1 en ITP 2.2 verlichten door Adobe CNAME certificatieprogramma leveraging.<br> met deze versie, introduceert het Doel een naadloze integratie met de ECID bibliotheek 4.3, die hefboomwerkingen een server-zijkoekje om ITP 2.1 en ITP 2.2 te verlichten. Het wordt hoogst geadviseerd dat de klanten van het Doel [ ECID bibliotheek 4.3+ ](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) samen met de bibliotheek van JavaScript van het Doel opstellen om het even welke toekomstige versies van ITP te verlichten. De ECID-bibliotheek blijft verbeterde functies implementeren die een robuuste oplossing bieden voor het voortdurend veranderende beleid van cookies dat door browsers wordt geïntroduceerd.<br> zie [ Intelligente het Volgen Preventie van Apple (ITP) 2.x ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/apple-itp-2x.html){target=_blank}. |
 
@@ -2321,7 +2321,7 @@ Deze release bevat de volgende nieuwe functies en verbeteringen:
 | Visual Experience Composer (VEC) | **Nieuwe VEC menuopties**: Wanneer u een paginaelement in VEC klikt, toont een menu de opties die voor dat elementtype beschikbaar zijn.<ul><li>U kunt nu de optie [!UICONTROL Styles > Background] gebruiken om de achtergrondafbeelding en -kleur voor het geselecteerde element te wijzigen. (TGT-15001)</li></ul>Zie *Stijlen* in [ Visuele Opties van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**klik-volgende verbeteringen**: Wij hebben het proces verbeterd om het klikken te vormen die binnen VEC en de Enige Toepassing van de Pagina (SPA) VEC volgen.<ul><li>Als u elementen selecteert die u wilt gebruiken bij het bijhouden van klikken, worden de namen van alle beschikbare elementen aan de rechterkant weergegeven in het deelvenster Wijzigingen, zodat u snel en gemakkelijk de gewenste elementen kunt selecteren.</li><li>Op de pagina [!UICONTROL Goals & Settings] van de workflow met driedelige instructies wordt een nummer weergegeven dat het aantal elementen vertegenwoordigt dat is geselecteerd voor het bijhouden van klikken. U kunt de muisaanwijzer op dit nummer plaatsen om de namen van alle geselecteerde elementen weer te geven. (TGT-33878)</li></ul>Zie [ het volgen van klikken ](/help/main/c-activities/r-success-metrics/click-tracking.md). |
 | Single Page App Visual Experience Composer (SPA VEC) | **Geleide werkschema**: Een nieuwe geleide werkschema helpt u begrijpen hoe pagina-levering-regel montages zouden moeten worden gevormd om een activiteit voor uw Enige Pagina met succes uit te voeren App. (TGT-33718) <br> zie [ Enige Composer van de Ervaring van de Pagina App (SPA) Visuele ](/help/main/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**de wijzigingen van de Kloon**: U kunt een wijziging nu bepalen gebruikend het KUUROORD VEC en dan klonen die wijziging voor gebruik in andere meningen in uw Enige Pagina App. (TGT-33882) <br> zie [ Enige Composer van de Ervaring van de Pagina App (SPA) Visuele ](/help/main/c-experiences/spa-visual-experience-composer.md). |
 | ![ het badge van de Premie ](/help/main/assets/premium.png) Automated Personalization (AP) &amp; auto-Doel | **Specifieke ervaring als controle**: U kunt een ervaring selecteren die als controle wordt gebruikt terwijl het creëren van AP of een activiteit van het Auto-Doel. Deze eigenschap laat u het volledige controleverkeer aan een specifieke ervaring leiden, die op het percentage van de verkeerstoewijzing wordt gebaseerd dat in de activiteit wordt gevormd. U kunt de prestatiesrapporten van het gepersonaliseerde verkeer tegen controleverkeer aan die één ervaring dan evalueren. De huidige controleoptie (willekeurig bediende ervaringen) zal beschikbaar blijven. (TGT-32801, TGT-26572, &amp; TGT-26571) <br> zie [ de controle voor uw Activiteit van Automated Personalization of Auto-Doel ](/help/main/c-activities/t-automated-personalization/experience-as-control.md) selecteren.<br>**de Inzichten van Personalization rapporten**: De tellers-vriendschappelijke noemende voor attributen wanneer een bezoeker een specifiek stuk van inhoud in een specifieke plaats ziet verstrekt zinvollere informatie. (TGT-33421 &amp; TGT-34957) <br> zie [ de inzameling van Gegevens voor de de verpersoonlijkingsalgoritmen van het Doel ](/help/main/c-activities/t-automated-personalization/ap-data.md). |
-| ![ Aanbevelingen van de het badge van de 10} Premium](/help/main/assets/premium.png) | U kunt de optie Aanbevolen eerder aangeschafte items gebruiken tijdens het maken van de logica Onlangs bekeken items. (TGT-34030) <br> voor meer informatie, zie [ Onlangs Bekeken Punten ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) in &quot;creëren criteria.&quot; |
+| ![ Aanbevelingen van de het badge van de 10&rbrace; Premium](/help/main/assets/premium.png) | U kunt de optie Aanbevolen eerder aangeschafte items gebruiken tijdens het maken van de logica Onlangs bekeken items. (TGT-34030) <br> voor meer informatie, zie [ Onlangs Bekeken Punten ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) in &quot;creëren criteria.&quot; |
 | Google Chrome SameSite cookie beleidsregels | Google heeft onlangs aangekondigd dat ontwikkelaars vanaf Chrome 76, die is gepland voor een release van 30 juli 2019, expliciet moeten opgeven welke cookies op verschillende websites kunnen werken en welke cookies gebruikers kunnen volgen.<br> aangezien de industrie vooruitgang maakt om een veiliger Web voor consumenten tot stand te brengen, is Target absoluut geëngageerd aan het leveren van gepersonaliseerde ervaringen terwijl het voldoen aan en het overschrijden van de privacyverwachtingen van bezoekers.<br> zie [ Google Chrome SameSite koekjesbeleid ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/google-chrome-samesite-cookie-policies.html){target=_blank}. |
 
 ### at.js versie 2.1.0 (3 juni 2019) {#atjs-210}
@@ -2439,7 +2439,7 @@ Deze release bevat de volgende functies, wijzigingen en verbeteringen:
 | --- | --- |
 | Single Page App Visual Experience Composer | De visuele Composer van de Ervaring (VEC) voor Enige Pagina Apps (SPAs) laat marketers tests tot stand brengen en inhoud op SPAs op een doe-het-zelf wijze zonder ononderbroken ontwikkelingsgebiedsdelen personaliseren. De VEC kan worden gebruikt om activiteiten te creëren op de populairste kaders, zoals React en Angular. (TGT-27916) <br> voor meer informatie, zie [ Enige Composer van de Ervaring van de Pagina van de Toepassing (SPA) Visuele ](/help/main/c-experiences/spa-visual-experience-composer.md) en [ Enige integratie van de Toepassing van de Pagina ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank}.<br> naast het bovengenoemde artikel, zijn er vele onderwerpen met betrekking tot SPAs en at.js die deze eigenschap richten en hoe te om het uit te voeren. Voor meer informatie zie [ de veranderingen van de Documentatie ](/help/main/r-release-notes/doc-change.md). |
 | Visual Experience Composer | Visual Experience Composer (VEC) omvat de volgende verhogingen om uw werk sneller en efficiënter te maken:<ul><li>U kunt Tussenvoegsel gebruiken vóór en Tussenvoegsel na opties in VEC terwijl het opnemen van [ de ervaringsfragmenten van AEM ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). Zie {de opties van de Composer van 0} Visuele Ervaring [. ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) (TGT-32385)</li><li>Met de extensie [!DNL Adobe Target] VEC Helper-browser voor Google Chrome kunt u websites betrouwbaar laden binnen de VEC zodat u snel een product kunt ontwerpen en een kwaliteitscontrole kunt gebruiken. Zie [ de helperuitbreiding van Composer van de Visuele Ervaring ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). (TGT-32746)</li></ul> |
-| ![ Aanbevelingen van de Bas van de 1} Premium in ](/help/main/assets/premium.png)<br> en [!UICONTROL A/B Test] activiteiten[!UICONTROL Experience Targeting] | U kunt nu aanbevelingen opnemen in [!UICONTROL A/B Test] (inclusief [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]) en [!UICONTROL Experience Targeting] (XT) activiteiten. Dit opent volledig nieuwe mogelijkheden, zoals:<ul><li>Test- en doelaanbevelingen en niet-aanbevolen inhoud binnen dezelfde activiteit.</li><li>Experimenteer eenvoudig met het plaatsen van aanbevelingen op de pagina, inclusief de volgorde van meerdere aanbevelingen.</li><li>Met [!UICONTROL Auto-Allocate] wordt het verkeer automatisch naar de best presterende aanbevelingen verschoven.</li><li>Wijs bezoekers met [!UICONTROL Auto-Target] dynamisch toe aan op maat gemaakte aanbevelingen op basis van hun individuele profielen.</li></ul>Maak om aan de slag te gaan een [!UICONTROL A/B Test] - of [!UICONTROL Experience Targeting] -activiteit met behulp van de VEC en gebruik de handeling [!UICONTROL Insert Before] , [!UICONTROL Insert After] of [!UICONTROL Replace With] om aanbevelingen aan een ervaring toe te voegen. (RECS-6166) <br> voor meer informatie, zie [ Aanbevelingen als aanbieding ](/help/main/c-recommendations/recommendations-as-an-offer.md). |
+| ![ Aanbevelingen van de Bas van de 1&rbrace; Premium in ](/help/main/assets/premium.png)<br> en [!UICONTROL A/B Test] activiteiten[!UICONTROL Experience Targeting] | U kunt nu aanbevelingen opnemen in [!UICONTROL A/B Test] (inclusief [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]) en [!UICONTROL Experience Targeting] (XT) activiteiten. Dit opent volledig nieuwe mogelijkheden, zoals:<ul><li>Test- en doelaanbevelingen en niet-aanbevolen inhoud binnen dezelfde activiteit.</li><li>Experimenteer eenvoudig met het plaatsen van aanbevelingen op de pagina, inclusief de volgorde van meerdere aanbevelingen.</li><li>Met [!UICONTROL Auto-Allocate] wordt het verkeer automatisch naar de best presterende aanbevelingen verschoven.</li><li>Wijs bezoekers met [!UICONTROL Auto-Target] dynamisch toe aan op maat gemaakte aanbevelingen op basis van hun individuele profielen.</li></ul>Maak om aan de slag te gaan een [!UICONTROL A/B Test] - of [!UICONTROL Experience Targeting] -activiteit met behulp van de VEC en gebruik de handeling [!UICONTROL Insert Before] , [!UICONTROL Insert After] of [!UICONTROL Replace With] om aanbevelingen aan een ervaring toe te voegen. (RECS-6166) <br> voor meer informatie, zie [ Aanbevelingen als aanbieding ](/help/main/c-recommendations/recommendations-as-an-offer.md). |
 | ![ de badge van de Premie ](/help/main/assets/premium.png)<br> Steun van de Toestemmingen van de Onderneming in Doel APIs | [ Admin APIs van Adobe Target Admin ](https://developers.adobetarget.com/api/#admin-apis) zal volledig voordeel van de zelfde mogelijkheden van de Toestemmingen van de Onderneming nu halen die in het Doel UI worden gevonden. Beginnend **Feb 21, 2019**, kunnen de systeembeheerders tot rapportgegevens programmatically toegang hebben evenals activiteiten, aanbiedingen, en publiek binnen om het even welke werkruimte creëren en beheren. Deze acties waren voorheen beperkt tot de standaardwerkruimte. De ondersteuning van Automated Personalization-activiteiten (AP) zal in een toekomstige release plaatsvinden. |
 
 **Verbetering, moeilijke situaties, en veranderingen**
@@ -2451,7 +2451,7 @@ Deze release bevat de volgende functies, wijzigingen en verbeteringen:
 | Functie/verbetering | Beschrijving |
 | --- | --- |
 | Het richten <br> Januari 25, 2019 | Wijzigingen aangebracht in de manier waarop &#39;target&#39; overeenkomt met functie voor &#39;equals&#39;-vergelijkingen met niet-decimale en decimale waarden die worden geretourneerd door profielscripts of een andere invoerbron, zoals mbox-parameters, profielparameters, enz.<br> voor meer informatie, zie [ Doelstellingen en publiek ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) Veelgestelde vragen. |
-| De manuscripten van het profiel {17 januari 2019<br> | Om prestatieredenen raden we een geretourneerde waarde aan die niet langer is dan 256 tekens.<br> voor een de terugkeerwaarde van het Koord, als de grootte van de terugkeerwaarde 2048 karakters overschrijdt, wordt het manuscript onbruikbaar gemaakt door het systeem.<br> voor een waarde van de serieterugkeer, als de grootte van de samengevoegde waarden van de serie 2048 karakters overschrijdt, wordt het manuscript onbruikbaar gemaakt door het systeem.<br> voor meer informatie over de karaktergrenzen en andere grenzen (aanbiedingsgrootte, publiek, profielen, waarden, parameters, enz.) die activiteiten en andere elementen in Doel beïnvloeden, zie [ Beperkingen ](/help/main/r-troubleshooting-target/target-limits.md). |
+| De manuscripten van het profiel &lbrace;17 januari 2019<br> | Om prestatieredenen raden we een geretourneerde waarde aan die niet langer is dan 256 tekens.<br> voor een de terugkeerwaarde van het Koord, als de grootte van de terugkeerwaarde 2048 karakters overschrijdt, wordt het manuscript onbruikbaar gemaakt door het systeem.<br> voor een waarde van de serieterugkeer, als de grootte van de samengevoegde waarden van de serie 2048 karakters overschrijdt, wordt het manuscript onbruikbaar gemaakt door het systeem.<br> voor meer informatie over de karaktergrenzen en andere grenzen (aanbiedingsgrootte, publiek, profielen, waarden, parameters, enz.) die activiteiten en andere elementen in Doel beïnvloeden, zie [ Beperkingen ](/help/main/r-troubleshooting-target/target-limits.md). |
 | bij.js <br> Januari 16, 2019 | at.js 1.6.4 is een onderhoudsrelease en behandelt de volgende problemen:<ul><li>Probleem verholpen waarbij zich in Microsoft Internet Explorer 11 een zeldzame omstandigheid manifesteerde die dubbele aanbiedingen tot gevolg had. (TNT-31374)</li><li>Probleem verholpen dat invloed had op het bijhouden van klikken als er een standaardaanbieding is met een click-token en HTML-aanbiedingen. (TNT-31493)</li><li>Het mboxEdgeCluster-cookie is uitgebreid met elke doelaanvraag. Dit wordt alleen gebruikt wanneer mboxEdgeOverride is ingeschakeld. (TNT-31485)</li></ul> |
 
 ### [!DNL Target] Standard/Premium 19.1.1 (22 januari 2019) {#release-19-1-1-previous}
@@ -2891,7 +2891,7 @@ Deze release bevat de volgende functies en verbeteringen:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Manager (AEM) Experience Fragments </p> </td> 
-   <td colname="col2"> <p>Door ervaringsfragmenten te gebruiken die in AEM zijn gemaakt in Target-activiteiten kunt u het gebruiksgemak en de kracht van AEM combineren met krachtige mogelijkheden voor Automated Intelligence (AI) en Machine Learning (ML) in Target om ervaringen op schaal te testen en te personaliseren.&amp;nbsp;&amp;nbsp; </p> <p>AEM brengt al uw inhoud en middelen op een centrale locatie samen om uw persoonlijke personaliseringsstrategie te voeden. Met AEM kunt u eenvoudig inhoud voor desktops, tablets en mobiele apparaten op één locatie maken zonder dat u code hoeft te schrijven. Het is niet nodig om pagina's te maken voor elk apparaat—AEM past automatisch elke ervaring aan met behulp van uw inhoud. </p> <p> Met Doel kunt u gepersonaliseerde ervaringen op schaal bieden op basis van een combinatie van op regels gebaseerde en op AI gebaseerde methoden voor het leren van machines die gedrags-, context- en offlinevariabelen bevatten.&amp;nbsp; Met Doel kunt u eenvoudig A/B- en Multivariate-activiteiten instellen en uitvoeren om de beste aanbiedingen, inhoud en ervaringen te bepalen. </p> <p>De fragmenten van de ervaring vertegenwoordigen een enorme stap voorwaarts om de tevreden/ervaringsscheppers en managers aan de optimalisering en verpersoonlijkingsberoeps te verbinden die bedrijfsresultaten gebruikend Doel drijven. </p> <p>Zie <a href="/help/main/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local"> Fragmenten voor AEM-ervaring </a> voor meer informatie. </p> </td> 
+   <td colname="col2"> <p>Door ervaringsfragmenten te gebruiken die in AEM zijn gemaakt in Target-activiteiten kunt u het gebruiksgemak en de kracht van AEM combineren met krachtige mogelijkheden voor Automated Intelligence (AI) en Machine Learning (ML) in Target om ervaringen op schaal te testen en te personaliseren.&nbsp;&nbsp; </p> <p>AEM brengt al uw inhoud en middelen op een centrale locatie samen om uw persoonlijke personaliseringsstrategie te voeden. Met AEM kunt u eenvoudig inhoud voor desktops, tablets en mobiele apparaten op één locatie maken zonder dat u code hoeft te schrijven. Het is niet nodig om pagina's te maken voor elk apparaat—AEM past automatisch elke ervaring aan met behulp van uw inhoud. </p> <p> Met Doel kunt u gepersonaliseerde ervaringen op schaal bieden op basis van een combinatie van op regels gebaseerde en op AI gebaseerde methoden voor het leren van machines die gedrags-, context- en offlinevariabelen bevatten.&nbsp; Met Doel kunt u eenvoudig A/B- en Multivariate-activiteiten instellen en uitvoeren om de beste aanbiedingen, inhoud en ervaringen te bepalen. </p> <p>De fragmenten van de ervaring vertegenwoordigen een enorme stap voorwaarts om de tevreden/ervaringsscheppers en managers aan de optimalisering en verpersoonlijkingsberoeps te verbinden die bedrijfsresultaten gebruikend Doel drijven. </p> <p>Zie <a href="/help/main/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local"> Fragmenten voor AEM-ervaring </a> voor meer informatie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rapporten </p> </td> 
@@ -3412,7 +3412,7 @@ Deze release van [!DNL Target] bevat de volgende klantgerichte verbeteringen, op
 
 * We hebben meer plaatsen toegevoegd waar u de details van de publieksdefinitie op een pop-up kaart in het Doel UI kunt bekijken zonder het publiek te openen. Deze functionaliteit is alleen van toepassing op publiek dat is gemaakt in [!DNL Target Standard/Premium. (TGT-25772)]
 * U kunt nu definities van ad-hocpubliek weergeven in het maken/overzicht van activiteiten. (TGT-25570)
-* De volgende variabelen zijn nu beschikbaar als [ series van 0} Snelheid {: ](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59) en `entiites`.`entityN.categoriesList`
+* De volgende variabelen zijn nu beschikbaar als [ series van 0&rbrace; Snelheid &lbrace;: ](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59) en `entiites`.`entityN.categoriesList`
 
 ### Wijzigingen in doelplatform (3 augustus 2017) {#section_FA5BF6808EA74F3A9E8E941530879208}
 
@@ -4253,7 +4253,7 @@ De Adobe Target Standard/Premium 16.5.1-release (19 mei 2016) bevat de volgende 
    <td colname="col1" class="premium"> CSV-download met aanbevelingen </td> 
    <td colname="col2"> <p>CSV-downloads hebben nu een regel voor alle omgevingen, inclusief omgevingen die geen aanbevelingen voor entiteiten hebben (bijvoorbeeld: 
      <code>
-       # environment: 1724 
+       &#x200B;# environment: 1724 
      </code>). </p> </td> 
   </tr> 
  </tbody> 
