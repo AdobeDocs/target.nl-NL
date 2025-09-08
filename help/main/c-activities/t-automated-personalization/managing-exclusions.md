@@ -2,13 +2,13 @@
 keywords: dedupe;allow duplicates;exclude duplicate aanbiedingen;automatiseerd personalisatie;disallow duplicate aanbiedingen;exclude;default content;
 description: Uitsluitingen beheren in [!UICONTROL Automated Personalization] (AP)-activiteiten.
 title: Hoe kan ik uitsluitingen in [!UICONTROL Automated Personalization] -activiteiten beheren?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: c5016d212edafa908b8755044e73d28167e20e8a
+source-git-commit: e620cd189e2783ba3abbe93bb9c5000866c41b99
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,13 @@ ht-degree: 0%
 
 Uitsluitingen beheren door dubbele aanbiedingen uit te sluiten, specifieke ervaringen uit te sluiten en standaardinhoud in [!UICONTROL Automated Personalization] (AP)-activiteiten in [!DNL Adobe Target] uit te sluiten.
 
-## Dubbele aanbiedingen uitsluiten {#concept_4EF78013F80E48EFA024AE0274C9F037}
+## Dubbele voorstellen toestaan of weigeren {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
 Voorkomen dat aanbiedingen uit de aanbiedingsbibliotheek worden gedupliceerd wanneer deze op verschillende locaties in [!UICONTROL Automated Personalization] -activiteiten worden gebruikt.
 
-U hebt bijvoorbeeld een activiteit met zes locaties op een pagina met 12 aanbiedingen. Er bestaat een kans dat hetzelfde aanbod op een of meer locaties in de activiteit kan worden geplaatst. Met deze functie voorkomt u dat dubbele aanbiedingen tegelijkertijd worden weergegeven op verschillende locaties binnen dezelfde activiteit.
+U hebt bijvoorbeeld een activiteit met zes locaties op een pagina met 12 aanbiedingen. Er bestaat een kans dat hetzelfde aanbod op een of meer locaties in de activiteit kan worden geplaatst. Met deze functie kunt u voorkomen dat dubbele aanbiedingen tegelijkertijd worden weergegeven op verschillende locaties binnen dezelfde activiteit.
 
-Klik op het pictogram **[!UICONTROL Configure]** > **[!UICONTROL Duplicate Offers]** en klik vervolgens op **[!UICONTROL Allow Duplicates]** of **[!UICONTROL Disallow Duplicates]** .
-
-![ de dubbel aanbiedingsopties van aanbiedingen ](/help/main/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
+1. Terwijl [ creërend of het uitgeven van een AP activiteit ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), klik het **[!UICONTROL Configure]** pictogram ( ![ vormt pictogram ](/help/main/assets/icons/Setting.svg)) > klik **[!UICONTROL Allow Duplicate Offers]** om deze eigenschap aan en weg, afhankelijk van uw behoeften van een knevel te voorzien.
 
 ## Specifieke ervaringen uitsluiten {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
@@ -33,76 +31,71 @@ Sluit specifieke ervaringen uit als u bepaalde aanbiedingscombinaties wilt uitsl
 
 Er zouden bepaalde combinaties kunnen zijn die niet samenwerken, of u zou het aantal geteste ervaringen kunnen beperken om verkeersvereisten voor uw activiteit te verminderen.
 
-1. Terwijl [ creërend of het uitgeven van een AP activiteit ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), klik **leidt Inhoud** in de kopbalbar.
-
-   ![ beheer de verbinding van de Inhoud ](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
+1. Terwijl [ creërend of het uitgeven van een AP activiteit ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), klik het **beheren Inhoud** pictogram ( ![ beheert het pictogram van de Inhoud ](/help/main/assets/icons/Experience.svg)).
 
    In de lijst [!UICONTROL Experiences] wordt elke ervaring weergegeven die is gegenereerd op basis van de permutaties van alle opties voor inhoud en locatie.
 
 1. Ervaringen desgewenst uitsluiten.
 
-   U kunt specifieke ervaringen uitsluiten door de muisaanwijzer boven de gewenste ervaring te houden en vervolgens op het pictogram voor uitsluiten te klikken.
+   U kunt specifieke ervaringen uitsluiten door het [!UICONTROL **Meer pictogram van Acties**] ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmall.svg)) te klikken, dan klikkend [!UICONTROL **uitsluiten**].
 
-   ![ sluit ervaring uit door te bedekken ](/help/main/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
+   Of u kunt ervaringen in batch uitsluiten door het selectievakje voor de relevante ervaringen in te schakelen en vervolgens op **[!UICONTROL Exclude]** te klikken. Het pictogram [!UICONTROL Exclude] wordt weergegeven wanneer een of meer ervaringen worden gecontroleerd.
 
-   U kunt ervaringen ook in batch uitsluiten door het selectievakje voor relevante ervaringen in te schakelen en vervolgens op het pictogram **[!UICONTROL Exclude]** in de rechterbovenhoek van het dialoogvenster te klikken. Het pictogram [!UICONTROL Exclude] wordt weergegeven wanneer een of meer ervaringen worden gecontroleerd.
-
-   ![ Partij sluit ervaringen ](/help/main/c-activities/t-automated-personalization/assets/exclude_exp_2a.png) uit
-
-   U kunt deze lijstweergave filteren om alleen uitgesloten of alleen opgenomen activiteiten weer te geven door op de vervolgkeuzelijst [!UICONTROL Status] te klikken.
+   ![ Partij sluit ervaringen ](/help/main/c-activities/t-automated-personalization/assets/exclude1.png) uit
 
    De ervaringen zijn nu uitgesloten van de activiteit en de [!UICONTROL Status] show as [!UICONTROL Excluded] .
 
-   ![ Uitgesloten ervaringen ](/help/main/c-activities/t-automated-personalization/assets/exclude_exp_3a.png)
-
 ## Standaardinhoud uitsluiten {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
-Soms wilt u de standaardinhoud niet opnemen in uw [!UICONTROL Automated Personalization] -activiteit. De manier waarop u deze instelling opent, verschilt van het maken van uitsluitingsgroepen. U kunt deze methode gebruiken om slechts één aanbieding (verschillend van uw standaardinhoud) in een plaats als deel van uw AP activiteit te hebben.
+Soms wilt u de standaardinhoud niet opnemen in uw [!UICONTROL Automated Personalization] -activiteit. U kunt deze methode gebruiken om slechts één aanbieding (verschillend van uw standaardinhoud) in een plaats als deel van uw AP activiteit te hebben.
 
 Het uitsluiten van standaardinhoud is een goede manier om de vormgeving van de rest van de pagina aan te passen aan de aanbiedingen die u test met uw AP-activiteit. Stel dat u bijvoorbeeld het kleurenpalet wilt aanpassen van de aanbiedingen die u test, u de achtergrondkleur van de pagina kunt wijzigen en de standaardachtergrondkleur wilt uitsluiten.
 
 **om standaardinhoud uit te sluiten gebruikend [!UICONTROL Visual Experience Composer] (VEC):**
 
-1. Terwijl [ creërend of het uitgeven van een AP activiteit ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), selecteer de inhoud u wilt vervangen en klikken om tot **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, of **[!UICONTROL Change Background Color]** toegang te hebben.
-1. In de dialoogdoos, creeer uw nieuwe inhoud en uncheck **omvatten** rechts van de standaardinhoud (of uncheck het StandaardBeeld/Video in het [!UICONTROL Select Content] scherm).
+1. Terwijl [ creërend of het uitgeven van een AP activiteit ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), selecteer de inhoud u wilt vervangen en klikken om tot **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image Offer]**, of **[!UICONTROL Change Background Color]** toegang te hebben. Welke opties beschikbaar zijn, is afhankelijk van het type inhoud.
 
-   Afhankelijk van het type inhoud of aanbieding bevindt het selectievakje [!UICONTROL Include] zich op een iets andere plaats.
+   ![ de opties van de Verandering ](/help/main/c-activities/t-automated-personalization/assets/options.png)
 
-   Voor Text/HTML-inhoud:
+1. Creeer uw nieuwe inhoud en uncheck **omvatten** rechts van de standaardinhoud (of uncheck het StandaardBeeld/Video in het [!UICONTROL Select Content] scherm).
 
-   ![ omvatten checkbox in Edit Text/HTML dialoogdoos ](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_1a.png)
+   <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
-   Voor inhoud van afbeelding/video:
+   For Text/HTML content: 
 
-   ![ omvatten checkbox in Uitgezochte de dialoogdoos van de Inhoud ](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_2a.png)
+   ![Include checkbox in Edit Text/HTML dialog box](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_1a.png)
 
-   Voor achtergrondkleur:
+   For Image/Video content: 
 
-   ![ omvat checkbox in Edit de dialoogdoos van de Kleur van de Achtergrond ](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
+   ![Include checkbox in Select Content dialog box](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_2a.png)
 
-1. Klik op **[!UICONTROL Save]**.
+   For background color: 
 
-   U kunt de ervaringen zien die zijn gemaakt met de aanbiedingen die u onder [!UICONTROL Manage Content] hebt opgegeven. U ziet dat er in [!UICONTROL Manage Content] geen ervaringen zijn gemaakt met de standaardaanbieding die u hebt uitgesloten.
+   ![Include checkbox in Edit Background Color dialog box](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)-->
 
-   ![ exclude_content_vec_4 beeld ](assets/exclude_content_vec_4.png)
+<!-- 1. Click **[!UICONTROL Save]**.
 
-**om standaardinhoud uit te sluiten gebruikend [!UICONTROL Form-Based Experience Composer]:**
+   You can see the experiences created from the offers you specified under [!UICONTROL Manage Content]. You notice that no experiences are created in [!UICONTROL Manage Content] using the default offer you excluded. 
 
-1. Klik tijdens het maken of bewerken van een AP-activiteit op **[!UICONTROL Change Text/HTML]** of **[!UICONTROL Change Image Offer]** onder **[!UICONTROL Content]** .
-1. Maak in het dialoogvenster uw nieuwe inhoud en schakel **[!UICONTROL Include]** rechts van de standaardinhoud uit (of schakel de optie Standaardafbeelding/video in het [!UICONTROL Select Content] -scherm uit).
+   ![exclude_content_vec_4 image](assets/exclude_content_vec_4.png)
 
-   Afhankelijk van het type inhoud of aanbieding bevindt het selectievakje [!UICONTROL Include] zich op een iets andere plaats.
+**To exclude default content using the [!UICONTROL Form-Based Experience Composer]:** 
 
-   Voor Text/HTML-inhoud:
+1. While creating or editing an AP activity, click **[!UICONTROL Change Text/HTML]** or **[!UICONTROL Change Image Offer]** under **[!UICONTROL Content]**. 
+1. In the dialog box, create your new content and uncheck **[!UICONTROL Include]** to the right of the default content (or uncheck the Default Image/Video in the [!UICONTROL Select Content] screen). 
 
-   ![ exclude_content_form_1 beeld ](assets/exclude_content_form_1.png)
+   Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
-   Voor inhoud van afbeelding/video:
+   For Text/HTML content: 
 
-   ![ exclude_content_form_2 beeld ](assets/exclude_content_form_2.png)
+   ![exclude_content_form_1 image](assets/exclude_content_form_1.png)
 
-1. Klik op **[!UICONTROL Save]**.
+   For Image/Video content: 
 
-   U kunt de ervaringen zien die zijn gemaakt met de aanbiedingen die u onder [!UICONTROL Manage Content] hebt opgegeven. U ziet dat er in [!UICONTROL Manage Content] geen ervaringen zijn gemaakt met de standaardaanbieding die u hebt uitgesloten.
+   ![exclude_content_form_2 image](assets/exclude_content_form_2.png)
 
-   ![ exclude_content_form_3 beeld ](assets/exclude_content_form_3.png)
+1. Click **[!UICONTROL Save]**. 
+
+   You can see the experiences created from the offers you specified under [!UICONTROL Manage Content]. You notice that no experiences are created in [!UICONTROL Manage Content] using the default offer you excluded. 
+
+   ![exclude_content_form_3 image](assets/exclude_content_form_3.png)-->
