@@ -4,7 +4,7 @@ description: Leer hoe te om gegevens van Adobe  [!DNL Target]  activiteiten in e
 title: Hoe kan ik rapportgegevens in een CSV-bestand downloaden?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: e42398b8774fff57c00658636a52bd0038ad94b4
+source-git-commit: c0342f51d998d27eef9af189c7ebb364095699ed
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 0%
@@ -26,20 +26,6 @@ Gegevens downloaden in een CSV-bestand:
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
-
-## CSV-downloadindeling voor populariteit en op sleutels gebaseerde algoritmen {#format}
-
-Het CSV-downloadbestand geeft consistent de resultaten weer die zijn gegenereerd na uitvoering van de back-endcriteria.
-
-**voor populariteit algoritmen (niet op sleutel-gebaseerd), omvat het dossier:**
-
-* Een rij back-upaanbevelingen met *
-* Aanbevelingen voor een aparte rij op basis van algoritme-instellingen
-
-**voor op sleutel-gebaseerde algoritmen, omvat het dossier:**
-
-* Een back-uprij die lijkt op populariteitsalgoritmen
-* Meerdere rijen in sleutelwaardeformaat, waarbij de eerste vermelding de product-id van de sleutel is, gevolgd door door door komma&#39;s gescheiden product-id&#39;s die de kandidaten van de aanbeveling vertegenwoordigen
 
 ## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
@@ -83,6 +69,20 @@ Het [!UICONTROL Order Details] -rapport geeft u informatie over uw bestellingen,
 >
 >* De gegevens van het orderrapport bevatten vier weken gegevens voor de standaardomgeving (hostgroep) en twee weken voor alle niet-standaardomgevingen.
 >* De metriek van de opbrengst die aan &quot;[!UICONTROL Increment count and keep the user in the activity]&quot;de gegevens van de logboekorde slechts voor de eerste orde worden geplaatst door de zelfde bezoeker wordt gemaakt. Alle volgende bestellingen verhogen het aantal conversies, maar voegen geen inkomsten toe aan RPV/AOV/Sales en worden niet opgenomen in het [!UICONTROL Order Details] -rapport.
+
+## CSV-downloadindeling voor populariteit en op sleutels gebaseerde algoritmen {#format}
+
+Het CSV-downloadbestand geeft consistent de resultaten weer die zijn gegenereerd na uitvoering van de back-endcriteria.
+
+**voor populariteit algoritmen (niet op sleutel-gebaseerd), omvat het dossier:**
+
+* Een rij back-upaanbevelingen met *
+* Aanbevelingen voor een aparte rij op basis van algoritme-instellingen
+
+**voor op sleutel-gebaseerde algoritmen, omvat het dossier:**
+
+* Een back-uprij die lijkt op populariteitsalgoritmen
+* Meerdere rijen in sleutelwaardeformaat, waarbij de eerste vermelding de product-id van de sleutel is, gevolgd door door door komma&#39;s gescheiden product-id&#39;s die de kandidaten van de aanbeveling vertegenwoordigen
 
 ## Aanbevolen procedures
 
