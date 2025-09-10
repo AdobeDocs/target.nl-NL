@@ -4,9 +4,9 @@ description: Leer hoe te om uw activiteit van de Aanbevelingen van Adobe  [!DNL 
 title: Hoe kan ik een activiteit met aanbevelingen voorvertonen en starten?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
+source-git-commit: 26b0c5455e82014dab92c925ecc88bddb3947d2f
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1398'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,20 @@ Voor andere algoritmenypen die op een zeer belangrijke waarde, zoals [!UICONTROL
 >[!NOTE]
 >
 >Downloads van resultaten zijn niet beschikbaar voor activiteiten die een [!UICONTROL User-Based Recommendations] algoritme bevatten. Downloads van resultaten zijn niet beschikbaar voor criteria die de [!UICONTROL Recently-Viewed Items] aanbevelingen logica gebruiken.
+
+### CSV-downloadindeling voor op populariteit gebaseerde en op sleutels gebaseerde algoritmen {#format}
+
+Het CSV-downloadbestand geeft consistent de resultaten weer die zijn gegenereerd na uitvoering van de back-endcriteria.
+
+* **voor populariteit-gebaseerde (niet op sleutel-gebaseerde) algoritmen, omvat het dossier:**
+
+   * Een rij back-upaanbevelingen met * (een sterretje)
+   * Aanbevelingen voor een aparte rij op basis van algoritme-instellingen
+
+* **voor op sleutel-gebaseerde algoritmen, omvat het dossier:**
+
+   * Een back-uprij vergelijkbaar met op populariteit gebaseerde algoritmen
+   * Meerdere rijen in sleutelwaardeformaat, waarbij de eerste vermelding de product-id van de sleutel is, gevolgd door door door komma&#39;s gescheiden product-id&#39;s die de kandidaten van de aanbeveling vertegenwoordigen
 
 ## Activiteit voor aanbevelingen activeren
 
