@@ -4,9 +4,9 @@ description: Begrijp de veranderingen die in Visual Experience Composer (VEC) in
 title: Welke veranderingen worden geïntroduceerd in nieuwe Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
+source-git-commit: 2dabda04aabe720b28e31033052e2076e78d1376
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ U kunt een aantal componenten aan uw webpagina toevoegen en deze naar wens bewer
 
 ![ spoorstaaf van Componenten ](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-Als u een nieuwe component wilt toevoegen, sleept u de component uit de [!UICONTROL Components] -rail die u over een bestaand pagina-element in het [!UICONTROL Design] -canvas wilt invoegen. Kies vervolgens of u de component wilt invoegen voor of na het geselecteerde element.
+Als u een nieuwe component wilt toevoegen, selecteert u de gewenste component in de [!UICONTROL Components] -rail, plaatst u de muisaanwijzer boven een bestaand element op de pagina en plaatst u de component voor of na het geselecteerde element.
 
 >[!NOTE]
 >
