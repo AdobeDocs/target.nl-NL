@@ -21,7 +21,7 @@ Ontdek de nieuwste functies, verbeteringen en oplossingen in [!DNL Adobe Target]
 
 ## Tijdgevoelige updates die u moet weten {#time-sensitive}
 
-[!BADGE  Belangrijk ]{type=Informative}
+[!BADGE &#x200B; Belangrijk &#x200B;]{type=Informative}
 
 Voor tijdgevoelige updates met betrekking tot [!DNL Adobe Target] en uw implementatie, [!DNL Adobe] verstrekt gedetailleerde versienota&#39;s en documentatie door [!UICONTROL Experience League]. Hier volgen enkele belangrijke punten die relevant zijn voor uw implementatie:
 
@@ -83,7 +83,7 @@ Deze release bevat de volgende correcties en verbeteringen:
 
 +++Zie details
 * **Vaste een kwestie waar de activiteiten niet wegens ongeldige publiek IDs konden worden gekopieerd.** Klanten die activiteiten in het bijgewerkte activity-create proces proberen te kopiëren, hebben een fout aangetroffen die wordt veroorzaakt door ongeldige gebruikers-id&#39;s (bijvoorbeeld -1752722444307). Door dit probleem van backend-validatie zijn dubbele activiteiten binnen dezelfde werkruimte voorkomen. Dit probleem is opgelost en activiteiten kunnen nu met succes worden gekopieerd zonder publieksfouten. (TGT-53717)
-* **verholpen een kwestie waar de ongeldige fouten van de gebruikersinput voor activiteit-slechts publiek in [!UICONTROL Automated Personalization] activiteiten [!UICONTROL Manage Content] modaal verschenen.** Klanten ondervonden ongeldige fouten bij gebruikersinvoer tijdens het configureren van alleen-activiteit publiek in het modaal [!UICONTROL  Manage Content] voor AP-activiteiten. Dit probleem is opgetreden ondanks het feit dat het publiek voorheen correct werd gebruikt. Gecombineerde publieksconfiguraties besparen nu correct zonder validatiefouten te veroorzaken. (TGT-53749)
+* **verholpen een kwestie waar de ongeldige fouten van de gebruikersinput voor activiteit-slechts publiek in [!UICONTROL Automated Personalization] activiteiten [!UICONTROL Manage Content] modaal verschenen.** Klanten ondervonden ongeldige fouten bij gebruikersinvoer tijdens het configureren van alleen-activiteit publiek in het modaal [!UICONTROL &#x200B; Manage Content] voor AP-activiteiten. Dit probleem is opgetreden ondanks het feit dat het publiek voorheen correct werd gebruikt. Gecombineerde publieksconfiguraties besparen nu correct zonder validatiefouten te veroorzaken. (TGT-53749)
 
 +++
 
@@ -166,7 +166,7 @@ Bijgewerkte validatielogica voor [!DNL Target] -doelverbindingen om te zorgen da
 * Dezelfde gegevensstroom-id kan alleen voor verschillende verbindingen worden gebruikt als deze in verschillende sandboxen zijn geconfigureerd.
 * Deze regel is van toepassing op alle gegevensstroomselecties, ook wanneer Geen is geselecteerd.
 
-Deze update zorgt voor een consistente configuratie en voorkomt conflicten in omgevingen met meerdere sandboxen. Voor meer informatie, zie [ verbinding van Adobe Target ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} in de *3} gids van de Doelen van Experience Platform {.*
+Deze update zorgt voor een consistente configuratie en voorkomt conflicten in omgevingen met meerdere sandboxen. Voor meer informatie, zie [ verbinding van Adobe Target ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} in de *3&rbrace; gids van de Doelen van Experience Platform &lbrace;.*
 
 ## [!DNL Target Standard/Premium] 25.9.1 (5 september 2025)
 
