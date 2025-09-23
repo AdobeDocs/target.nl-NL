@@ -28,19 +28,19 @@ De belangrijkste punten zijn:
 
 Het doel kan met websites worden geïntegreerd met behulp van [!DNL Experience Platform Web SDK] of at.js:
 
-* **[SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: Deze cliënt-kant bibliotheek van JavaScript staat [!DNL Adobe Experience Cloud] klanten toe om met diverse diensten door [!DNL Experience Platform Edge Network] in wisselwerking te staan. [!DNL Adobe] raadt aan dat nieuwe [!DNL Target] -klanten [!DNL Experience Platform Web SDK] implementeren.
-* **[at.js ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: Deze implementatiebibliotheek voor [!DNL Target] verbetert pagina-lading tijden voor Webimplementaties en biedt betere opties voor single-page toepassingen aan. Vaak bijgewerkt met nieuwe mogelijkheden, [!DNL Adobe] adviseert alle [ at.js gebruikers aan de recentste versie ](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} bijwerken.
+* **[SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: Deze cliënt-kant bibliotheek van JavaScript staat [!DNL Adobe Experience Cloud] klanten toe om met diverse diensten door [!DNL Experience Platform Edge Network] in wisselwerking te staan. [!DNL Adobe] raadt aan dat nieuwe [!DNL Target] -klanten [!DNL Experience Platform Web SDK] implementeren.
+* **[at.js ](https://experienceleague.adobe.com/nl/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: Deze implementatiebibliotheek voor [!DNL Target] verbetert pagina-lading tijden voor Webimplementaties en biedt betere opties voor single-page toepassingen aan. Vaak bijgewerkt met nieuwe mogelijkheden, [!DNL Adobe] adviseert alle [ at.js gebruikers aan de recentste versie ](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} bijwerken.
 
 >[!NOTE]
 >
 >De bibliotheek mbox.js is een oudere implementatie voor [!DNL Target] en wordt na 31 maart 2021 niet meer ondersteund. Voer een upgrade uit naar [!UICONTROL Experience Platform Web SDK] (voorkeur) of de meest recente versie van at.js.
 
-Verwijs naar [!UICONTROL Experience Platform Web SDK] of at.js op elke pagina van uw plaats. Voeg bijvoorbeeld een van deze bibliotheken toe aan de algemene koptekst. Alternatief, gebruik [ markeringen in Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} om uit te voeren [!DNL Target].
+Verwijs naar [!UICONTROL Experience Platform Web SDK] of at.js op elke pagina van uw plaats. Voeg bijvoorbeeld een van deze bibliotheken toe aan de algemene koptekst. Alternatief, gebruik [ markeringen in Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/home){target=_blank} om uit te voeren [!DNL Target].
 
 De volgende bronnen bevatten gedetailleerde informatie om u te helpen bij het implementeren van de map [!DNL Experience Platform Web SDK] of at.js:
 
-* [[!DNL Adobe Experience Platform Web SDK]  uitbreiding ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
-* [ voert  [!DNL Target]  uit gebruikend  [!DNL Adobe Experience Platform] ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [[!DNL Adobe Experience Platform Web SDK]  uitbreiding ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=nl-NL){target=_blank}
+* [ voert  [!DNL Target]  uit gebruikend  [!DNL Adobe Experience Platform] ](https://experienceleague.adobe.com/nl/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Telkens wanneer een bezoeker een pagina aanvraagt die voor [!DNL Target] is geoptimaliseerd, wordt een verzoek in real time verzonden naar het doelsysteem om de te dienen inhoud te bepalen. Dit verzoek wordt gedaan en voldaan telkens als een pagina wordt geladen, die door de markt-gecontroleerde activiteiten en ervaringen wordt geleid. De inhoud is gericht op individuele sitebezoekers, waarbij de responspercentages, de aanschafpercentages en de inkomsten worden gemaximaliseerd. Met persoonlijke inhoud zorgt u ervoor dat bezoekers reageren, communiceren of aankopen doen.
 
@@ -172,7 +172,7 @@ De service [!DNL Target Recommendations] wordt gehost in een [!DNL Adobe] -datac
 >
 >[!DNL Target] heeft momenteel geen Edge Cluster in China, waardoor de prestaties van bezoekers voor [!DNL Target] -klanten in de regio worden beperkt. De firewall en het ontbreken van Edge-clusters kunnen van invloed zijn op de ervaringen van sites, wat leidt tot een trage weergave en een langere laadtijd voor de pagina. Marketers kunnen bovendien latentie ervaren wanneer ze de [!DNL Target] -ontwerpinterface gebruiken.
 
-U kunt desgewenst [!DNL Target] Edge-clusters lijsten van gewenste personen. Voor meer informatie, zie [ de randknopen van het Doel van de lijst van gewenste personen ](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
+U kunt desgewenst [!DNL Target] Edge-clusters lijsten van gewenste personen. Voor meer informatie, zie [ de randknopen van het Doel van de lijst van gewenste personen ](https://experienceleague.adobe.com/nl/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
 
 ## Beveiligde gebruikerservaring {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
