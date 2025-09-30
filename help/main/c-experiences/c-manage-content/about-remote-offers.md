@@ -4,9 +4,9 @@ description: Ontdek hoe te hefboomwerking verre aanbiedingen in  [!DNL Target]  
 title: Hoe maak ik externe aanbiedingen?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+source-git-commit: 856396264c4a7b7e3370cd268e7f010092e2eae2
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,17 @@ Voorbeelden van externe aanbiedingen zijn:
 ## Aanbevolen procedures voor het gebruik van externe aanbiedingen {#section_7718512D08E14121B6F6B8C38134F4BC}
 
 Aanbevolen procedures voor het gebruik van externe aanbiedingen in uw activiteiten:
+
+* Externe aanbiedingen worden ondersteund in:
+
+   * A/B-activiteiten
+   * Experience Targeting (XT)-activiteiten
+   * Op formulieren gebaseerde workflows
+
+* Externe aanbiedingen worden niet ondersteund in:
+
+   * [ de eigenschappen van de Premie ](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP), auto-Doel, en Aanbevelingen)
+   * Multivariate Testing (MVT), vanwege de afhankelijkheid van de VEC, die externe aanbiedingen niet ondersteunt.
 
 * Als uw aanbieding zich in hetzelfde domein bevindt als de [!DNL Target] -aanvragen, kunt u met de optie [!UICONTROL Cached] relatieve URL&#39;s gebruiken om de locatie van uw aanbieding te beschrijven.
 

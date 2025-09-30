@@ -6,9 +6,9 @@ short-description: Leer over de nieuwe eigenschappen, de verhogingen, en de moei
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 186bfa96c0849d9cd838b3d493c10cccfd4ff068
+source-git-commit: 405faeac7fc633a64c441edeb2a95d90d896b21d
 workflow-type: tm+mt
-source-wordcount: '4104'
+source-wordcount: '5412'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Ontdek de nieuwste functies, verbeteringen en oplossingen in [!DNL Adobe Target]
 
 ## Tijdgevoelige updates die u moet weten {#time-sensitive}
 
-[!BADGE &#x200B; Belangrijk &#x200B;]{type=Informative}
+[!BADGE  Belangrijk ]{type=Informative}
 
 Voor tijdgevoelige updates met betrekking tot [!DNL Adobe Target] en uw implementatie, [!DNL Adobe] verstrekt gedetailleerde versienota&#39;s en documentatie door [!UICONTROL Experience League]. Hier volgen enkele belangrijke punten die relevant zijn voor uw implementatie:
 
@@ -75,6 +75,64 @@ De volgende informatie beschrijft de beperkingen die u bewust zou moeten zijn wa
 
 +++
 
+## [!DNL Target Standard/Premium] 25.9.3 (30 september 2025)
+
+Deze versie bevat de volgende verbeteringen en oplossingen.
+
++++[!UICONTROL Audiences]
+
+* **de uitsluitingsregels van het publiek werden verkeerd getoond als opneming in [!DNL Target] UI.** Met uitsluitingsregels geconfigureerde soorten publiek werden als onderdeel van de bewerking voor het maken van doelen in een activiteit weergegeven. Hoewel de uitsluitingslogica correct werd toegepast tijdens uitvoering, slaagde UI er niet in de regel correct te weerspiegelen, die het &quot;exclusief&quot;etiket weglaat. In de gebruikersinterface van [!DNL Target] worden nu correct uitsluitingsregels weergegeven in zowel publieksconfiguratie als doelworkflows, zodat duidelijke en consistente instellingen voor de campagne mogelijk zijn. (TGT-53808)
+* **de [!UICONTROL Targeting] sectie gaf niet aan dat een publieksregel werd geplaatst om uit te sluiten.** Met uitsluitingslogica geconfigureerde soorten publiek werden onjuist weergegeven als onderdeel van de sectie [!UICONTROL Targeting] van de interface voor het maken van activiteiten. Hoewel de backend correct de uitsluitingsregel toepaste, slaagde UI er niet in om het visueel te vertegenwoordigen, die het etiket &quot;uitsluiten&quot;weglaten en verwarring tijdens campagneopstelling veroorzaken. In de sectie [!UICONTROL Targeting] worden nu duidelijk uitsluitingsregels weergegeven, zodat de configuratie van de doelgroep consistent is en de visualisatie wordt afgestemd. (TGT-53809)
+
++++
+
++++Lokalisatie
+
+* **Vaste een terminologische inconsistentie in de Vereenvoudigde Chinese vertaling van &quot;Volledige detailmening.&quot;**
+Eerder werd de term &quot;Details&quot; onjuist vertaald als &quot;详 情&quot; in de landinstelling Vereenvoudigd Chinees (zh_CN), wat in strijd is met de gevestigde terminologierichtlijnen. Dit is gecorrigeerd naar &quot;详 细 信 息&quot; om consistentie met de termbase te waarborgen. (TGT-53741)
+
++++
+
++++[!UICONTROL Recommendations]
+
+* **de dozen van de Aanbeveling waren moeilijk om van en in VEC de plaats te bepalen.** Na het toevoegen van een adviesaanbieding in (VEC), klikte het klikken van de wijziging in het linkerpaneel niet of scrolde aan het overeenkomstige aanbevelingsvakje op de pagina. Hierdoor was het moeilijk om het aanbod te vinden en te bewerken, vooral als het onder kiezers is verborgen of minimaal is vormgegeven. Als u op een aanbevolen wijziging klikt, wordt het bijbehorende element gemarkeerd en naar het bijbehorende element geschoven. Hierdoor wordt de bruikbaarheid verbeterd en wordt de efficiëntie van het bijgewerkte proces voor het maken van activiteiten verbeterd. (TGT-52571)
+* **de selecteurs van de Aanbeveling werden verkeerd herschreven na het bewaren van een activiteit.** Wanneer het toevoegen van een aanbeveling aan een element in VEC, was selecteur aanvankelijk correct, maar na het bewaren van en het heropenen van de activiteit, veranderde het in een generische selecteur. Pogingen om de oorspronkelijke kiezer handmatig te herstellen, resulteerden in validatiefouten. De selecteurs van de aanbeveling blijven nu nauwkeurig na sparen, die betrouwbare het richten en editability in het bijgewerkte activiteit-creeert proces verzekeren. (TGT-53709)
+* **de inhoud van Criteria kon niet worden uitgegeven wanneer het wijzigen van een bestaande activiteit.** Tijdens het bewerken van een activiteit werd de sectie [!UICONTROL Criteria] -inhoud uitgeschakeld. De knoppen werden grijs weergegeven en reageren niet. Dit probleem is opgelost door ervoor te zorgen dat configuraties van [!UICONTROL Criteria] volledig bewerkbaar zijn tijdens het bijwerken van activiteiten. Klanten kunnen nu [!UICONTROL Criteria] -inhoud wijzigen zonder dat ze hoeven over te schakelen op andere selecties of tijdelijke oplossingen te gebruiken, waardoor ze flexibeler en bruikbaarder worden in het bijgewerkte activity-create proces. (TGT-53812)
+* **de Criteria konden niet binnen een activiteit worden uitgegeven.** De opties [!UICONTROL Edit Criteria] en [!UICONTROL Remove Criteria] zijn uitgeschakeld wanneer u criteria benadert vanuit een activiteit. Dezelfde criteria kunnen echter wel met succes worden bewerkt via het tabblad [!UICONTROL Recommendations] . De criteria kunnen nu volledig worden bewerkt, zowel vanuit de workflow voor bewerken van activiteiten als vanuit het tabblad [!UICONTROL Recommendations] . Hierdoor wordt een consistente en efficiënte bewerkingservaring gegarandeerd. (TGT-53814)
+
++++
+
++++[!UICONTROL Reports]
+
+* **producerend ad-hoc aanbiedingen in A [!UICONTROL utomated Personalization] activiteiten veroorzaakte rapporteringsinconsistenties.** Het gebruik van de functie Ad-hocaanbiedingen genereren in [!UICONTROL Automated Personalization] -activiteiten (AP) leidde tot onjuiste rapportage. De aanbod-id&#39;s zijn hergebruikt op verschillende locaties, waardoor rapportgegevens onjuist zijn toegewezen of worden overschreven. Ad-hoc aanbiedingen produceren nu met verschillende herkenningstekens per plaats, die nauwkeurige het volgen en het melden over alle gevormde ervaringen verzekeren. (TGT-53757)
+* **de rapporten van de Activiteit slaagden er niet in toe te schrijven aan een fout van JavaScript.** Klanten kregen een melding &quot;Er is iets fout gegaan&quot; tijdens het openen van het tabblad [!UICONTROL Reports] voor bepaalde activiteiten. De fout is veroorzaakt door een JavaScript-uitzondering: kan geen eigenschappen lezen van undefined (lezen &#39;indexOf&#39;), die worden geactiveerd tijdens de `getAnalyticsReportSummary` GraphQL-aanroep. Rapporten worden nu correct geladen en foutafhandeling is verbeterd om vergelijkbare fouten in de bijgewerkte workflow voor het maken van activiteiten te voorkomen. (TGT-53797)
+* **de Rapporten crashten na het in wisselwerking staan met scrollbar.** Wanneer u op de schuifbalk op het tabblad [!UICONTROL Reports] klikt, loopt de pagina vast, samen met een JavaScript-fout:
+  `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.` Rapporten worden nu correct geladen en geschoven zonder fouten of vastlopen te veroorzaken. (TGT-53828)
+* **de rapporten gaven niet primaire metrisch.** Primaire metrische waarde, die als omzettingsmetrisch gebruikend mbox wordt gevormd ontbrak in de activiteitenrapporten. Als u naar de naam van de metrische waarde of de box zoekt, heeft dit geen resultaat opgeleverd, zodat belangrijke prestatiegegevens niet zichtbaar zijn. De primaire meetgegevens worden nu correct weergegeven op het tabblad [!UICONTROL Reports] , zodat u de prestaties van de campagne nauwkeurig kunt bijhouden en analyseren. (TGT-53773)
+* **het [!UICONTROL Reports] lusje in bijgewerkte UI crashte wanneer het in wisselwerking staan met de horizontale rolbar.** De weergave van [!UICONTROL Reports] is periodiek vastgelopen met de fout &quot;Er is iets misgegaan&quot; wanneer de horizontale schuifbalk wordt gebruikt om metrische gegevens weer te geven als deze niet zichtbaar zijn. De schuifbalk werkt nu betrouwbaar, zodat klanten alle metriek kunnen bekijken en analyseren zonder dat er werkgrenzen nodig zijn, zoals uitzoomen of Shift-scroll. (TGT-53824)
+
++++
+
++++[!UICONTROL Visual Experience Composer] (VEC)
+
+* **klikkende broodkruimels in VEC niet constant tonen uitgeeft menu.**
+Als u HTML-elementen selecteert via de breadcrumbs in VEC (breadcrumbs), wordt het bewerkingsmenu soms niet weergegeven of verdwijnt het snel, waardoor de selectie van elementen onbetrouwbaar wordt. Het bewerkingsmenu wordt nu consistent weergegeven wanneer u navigeert via broodkruimels, waardoor de workflow voor het selecteren van elementen in het bijgewerkte activity-create proces wordt verbeterd. (TGT-52873)
+* **het contextmenu is periodiek er niet in geslaagd om in VEC te verschijnen.** Het contextmenu in de bijgewerkte VEC-gebruikersinterface werd niet altijd weergegeven wanneer u op elementen klikte, waardoor het moeilijk was om bewerkingsopties te openen. Het contextmenu wordt nu betrouwbaar weergegeven op basis van de selectie van elementen, waardoor de bewerkingsworkflow en de algemene bruikbaarheid in het bijgewerkte activity-create proces worden verbeterd. (TGT-53015)
+* **het contextmenu slaagde er niet in om voor bepaalde elementen in VEC te verschijnen.** Het contextmenu werd niet weergegeven wanneer u specifieke elementen in de bijgewerkte VEC selecteerde, waardoor het moeilijk was om wijzigingen toe te passen. Het contextmenu wordt nu consistent weergegeven voor alle ondersteunde elementen, waardoor de betrouwbaarheid en bruikbaarheid van de bewerkervaring in de bijgewerkte workflow voor het maken van activiteiten worden verbeterd. (TGT-53248)
+* **het menu van de Context verdween op de eerste klik wanneer het gebruiken van broodkruimels in VEC.** Door een bovenliggend element via de broodkruimels in VEC te selecteren, werd het contextmenu kort weergegeven en verdwenen het, waardoor het moeilijk werd om bewerkingsopties te openen. Het contextmenu blijft nu zichtbaar en functioneel wanneer u door elementen door broodkruimels navigeert, wat de betrouwbaarheid van de workflow voor elementselectie in het bijgewerkte activity-create proces verbetert. (TGT-53424)
+* **het contextmenu verscheen niet voor top-level elementen in VEC.** Het selecteren van elementen op hoofdniveau, zoals `<div>` - of `<main>` -tags, via de breadcrumbs in de VEC heeft het contextmenu niet geactiveerd, waardoor verdere bewerkhandelingen niet mogelijk zijn. Het contextmenu wordt nu consistent weergegeven voor alle ondersteunde elementen, inclusief containers op hoofdniveau, waardoor de workflow voor het maken van activiteiten flexibeler en gebruiksvriendelijker wordt. (TGT-53770)
+* **Elementen op een specifieke pagina waren niet editable in VEC.** Bepaalde elementen op de pagina kunnen niet worden geselecteerd of bewerkt in de bijgewerkte VEC. Deze uitgave is geïsoleerd voor die pagina en heeft geen invloed op andere pagina&#39;s binnen dezelfde account. Alle elementen op de pagina zijn nu selecteerbaar en bewerkbaar zoals u had verwacht, zodat de volledige functionaliteit van de workflow voor het maken van activiteiten wordt hersteld. (TGT-53353)
+* **verbeterde het werkschema wanneer het bekijken van kindelementen tijdens elementenselectie in VEC.** Om de bruikbaarheid en nauwkeurigheid tijdens het maken van activiteiten te verbeteren, geeft de VEC nu onderliggende elementen weer wanneer u de muisaanwijzer op een bovenliggend HTML-element plaatst of dit selecteert. Dankzij deze verbetering kunnen klanten de structuur van de pagina beter begrijpen en nauwkeurigere wijzigingen aanbrengen, waardoor de bewerkingsworkflow in de bijgewerkte gebruikersinterface wordt gestroomlijnd. (TGT-53416)
+* **Elementen in bestaande activiteiten konden niet worden uitgegeven gebruikend de wijzigingsbar.** Tijdens het bewerken van eerder gemaakte activiteiten kon de wijzigingsbalk niet worden geactiveerd voor bepaalde elementen op de pagina, waardoor updates werden voorkomen. Dit probleem werd voornamelijk in gewijzigde activiteiten waargenomen en was moeilijk te reproduceren in nieuw opgerichte activiteiten. De wijzigingsbalk geeft nu consistent alle ondersteunde elementen weer en staat het bewerken toe, waardoor de betrouwbaarheid en bruikbaarheid in de bijgewerkte workflow voor het maken van activiteiten worden verbeterd. (TGT-53013)
+
++++
+
++++[!UICONTROL Workspaces]
+
+* **het Klonen van een activiteit aan een verschillende werkruimte teweegbracht een &quot;Ongeldige fout van de Input van de Gebruiker&quot;teweeg.** Als u een activiteit probeert te klonen van de ene werkruimte naar de andere, is er een fout opgetreden: &quot;InvalidProperty.Json - Unrecognized property name &#39;content&#39;. Dit probleem is veroorzaakt door een onjuiste verwerking van metagegevens over activiteiten tijdens het klonen. De activiteiten kunnen nu met succes over werkruimten worden gekloond zonder bevestigingsfouten teweeg te brengen, die vlottere werkschema&#39;s van de activiteitenplaatsing verzekeren. (TGT-53731 &amp; TGT-53736)
+
++++
+
 ## [!DNL Target Standard/Premium] 25.9.2 (22 september 2025)
 
 Deze release bevat de volgende correcties en verbeteringen:
@@ -83,14 +141,14 @@ Deze release bevat de volgende correcties en verbeteringen:
 
 +++Zie details
 * **Vaste een kwestie waar de activiteiten niet wegens ongeldige publiek IDs konden worden gekopieerd.** Klanten die activiteiten in het bijgewerkte activity-create proces proberen te kopiëren, hebben een fout aangetroffen die wordt veroorzaakt door ongeldige gebruikers-id&#39;s (bijvoorbeeld -1752722444307). Door dit probleem van backend-validatie zijn dubbele activiteiten binnen dezelfde werkruimte voorkomen. Dit probleem is opgelost en activiteiten kunnen nu met succes worden gekopieerd zonder publieksfouten. (TGT-53717)
-* **verholpen een kwestie waar de ongeldige fouten van de gebruikersinput voor activiteit-slechts publiek in [!UICONTROL Automated Personalization] activiteiten [!UICONTROL Manage Content] modaal verschenen.** Klanten ondervonden ongeldige fouten bij gebruikersinvoer tijdens het configureren van alleen-activiteit publiek in het modaal [!UICONTROL &#x200B; Manage Content] voor AP-activiteiten. Dit probleem is opgetreden ondanks het feit dat het publiek voorheen correct werd gebruikt. Gecombineerde publieksconfiguraties besparen nu correct zonder validatiefouten te veroorzaken. (TGT-53749)
+* **verholpen een kwestie waar de ongeldige fouten van de gebruikersinput voor activiteit-slechts publiek in [!UICONTROL Automated Personalization] activiteiten [!UICONTROL Manage Content] modaal verschenen.** Klanten ondervonden ongeldige fouten bij gebruikersinvoer tijdens het configureren van alleen-activiteit publiek in het modaal [!UICONTROL  Manage Content] voor AP-activiteiten. Dit probleem is opgetreden ondanks het feit dat het publiek voorheen correct werd gebruikt. Gecombineerde publieksconfiguraties besparen nu correct zonder validatiefouten te veroorzaken. (TGT-53749)
 
 +++
 
 **Documentatie**
 
 +++Zie details
-* **Verplaatste doel-specifieke de documentatiepagina&#39;s van SDK van het Web naar de bewaarplaats van Adobe Target.** Als deel van de de documentatieherstructurering van SDK van het Web, [!DNL Target] - specifieke inhoud is gemigreerd van de algemene documenten van SDK van het Web aan de [!DNL Adobe Target] [ gids van de Ontwikkelaar ](https://experienceleague.adobe.com/nl/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Deze verandering verbetert inhoudsontdekkingsbaarheid en zorgt ervoor dat oplossing-specifieke begeleiding door het aangewezen productteam wordt gehandhaafd. (TGT-53374)
+* **Verplaatste doel-specifieke de documentatiepagina&#39;s van SDK van het Web naar de bewaarplaats van Adobe Target.** Als deel van de de documentatieherstructurering van SDK van het Web, [!DNL Target] - specifieke inhoud is gemigreerd van de algemene documenten van SDK van het Web aan de [!DNL Adobe Target] [ gids van de Ontwikkelaar ](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Deze verandering verbetert inhoudsontdekkingsbaarheid en zorgt ervoor dat oplossing-specifieke begeleiding door het aangewezen productteam wordt gehandhaafd. (TGT-53374)
 
 +++
 
@@ -166,7 +224,7 @@ Bijgewerkte validatielogica voor [!DNL Target] -doelverbindingen om te zorgen da
 * Dezelfde gegevensstroom-id kan alleen voor verschillende verbindingen worden gebruikt als deze in verschillende sandboxen zijn geconfigureerd.
 * Deze regel is van toepassing op alle gegevensstroomselecties, ook wanneer Geen is geselecteerd.
 
-Deze update zorgt voor een consistente configuratie en voorkomt conflicten in omgevingen met meerdere sandboxen. Voor meer informatie, zie [ verbinding van Adobe Target ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} in de *3&rbrace; gids van de Doelen van Experience Platform &lbrace;.*
+Deze update zorgt voor een consistente configuratie en voorkomt conflicten in omgevingen met meerdere sandboxen. Voor meer informatie, zie [ verbinding van Adobe Target ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} in de *3} gids van de Doelen van Experience Platform {.*
 
 ## [!DNL Target Standard/Premium] 25.9.1 (5 september 2025)
 
@@ -227,8 +285,8 @@ Deze release bevat de volgende updates en oplossingen:
 
 | Bron | Details |
 |--- |--- |
-| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=nl-NL) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
-| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
+| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
+| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
 
 ## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release van Experience Cloud
 
@@ -238,7 +296,7 @@ Naast de notities voor elke release bevatten de volgende bronnen aanvullende inf
 |--- |--- |
 | [ Veranderingen van de Documentatie ](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
 | [ de nota&#39;s van de Versie voor vorige versies ](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
-| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl-NL){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
+| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
 
 ## Prerelease-informatie {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
