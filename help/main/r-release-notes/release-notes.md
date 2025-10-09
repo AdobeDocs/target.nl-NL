@@ -6,7 +6,7 @@ short-description: Leer over de nieuwe eigenschappen, de verhogingen, en de moei
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6cba2e93d61d3044d1bf7ce2f5bb6cc1f2d71e4a
+source-git-commit: f0536e466d59fc4e3cccd61c25b7fe7f48f03954
 workflow-type: tm+mt
 source-wordcount: '4858'
 ht-degree: 0%
@@ -21,13 +21,13 @@ Ontdek de nieuwste functies, verbeteringen en oplossingen in [!DNL Adobe Target]
 
 ## Tijdgevoelige updates die u moet weten {#time-sensitive}
 
-[!BADGE &#x200B; Belangrijk &#x200B;]{type=Informative}
+[!BADGE  Belangrijk ]{type=Informative}
 
 Voor tijdgevoelige updates die betrekking hebben op [!DNL Adobe Target] en uw implementatie, verschaft [!DNL Adobe] gedetailleerde opmerkingen en documentatie bij de release via [!UICONTROL Experience League] . Hier volgen enkele belangrijke punten die relevant zijn voor uw implementatie:
 
 ### Veroudering van interfaceversie [!DNL Target] in-/uitschakelen
 
-Voor meer informatie, zie [[!DNL Target]  UI update FAQs &#x200B;](/help/main/c-intro/updated-ui-faq.md).
+Voor meer informatie, zie [[!DNL Target]  UI update FAQs ](/help/main/c-intro/updated-ui-faq.md).
 
 ## [!DNL Target Standard/Premium] 25.9.3 (30 september 2025)
 
@@ -95,14 +95,14 @@ Deze release bevat de volgende correcties en verbeteringen:
 
 +++Zie details
 * **Vaste een kwestie waar de activiteiten niet wegens ongeldige publiek IDs konden worden gekopieerd.** Klanten die activiteiten in het bijgewerkte activity-create proces proberen te kopiëren, hebben een fout aangetroffen die wordt veroorzaakt door ongeldige gebruikers-id&#39;s (bijvoorbeeld -1752722444307). Door dit probleem van backend-validatie zijn dubbele activiteiten binnen dezelfde werkruimte voorkomen. Dit probleem is opgelost en activiteiten kunnen nu met succes worden gekopieerd zonder publieksfouten. (TGT-53717)
-* **verholpen een kwestie waar de ongeldige fouten van de gebruikersinput voor activiteit-slechts publiek in [!UICONTROL Automated Personalization] activiteiten [!UICONTROL Manage Content] modaal verschenen.** Klanten ondervonden ongeldige fouten bij gebruikersinvoer tijdens het configureren van alleen-activiteit publiek in het modaal [!UICONTROL &#x200B; Manage Content] voor AP-activiteiten. Dit probleem is opgetreden ondanks het feit dat het publiek voorheen correct werd gebruikt. Gecombineerde publieksconfiguraties besparen nu correct zonder validatiefouten te veroorzaken. (TGT-53749)
+* **verholpen een kwestie waar de ongeldige fouten van de gebruikersinput voor activiteit-slechts publiek in [!UICONTROL Automated Personalization] activiteiten [!UICONTROL Manage Content] modaal verschenen.** Klanten ondervonden ongeldige fouten bij gebruikersinvoer tijdens het configureren van alleen-activiteit publiek in het modaal [!UICONTROL  Manage Content] voor AP-activiteiten. Dit probleem is opgetreden ondanks het feit dat het publiek voorheen correct werd gebruikt. Gecombineerde publieksconfiguraties besparen nu correct zonder validatiefouten te veroorzaken. (TGT-53749)
 
 +++
 
 **Documentatie**
 
 +++Zie details
-* **Verplaatste doel-specifieke de documentatiepagina&#39;s van SDK van het Web naar de bewaarplaats van Adobe Target.** Als deel van de de documentatieherstructurering van SDK van het Web, [!DNL Target] - specifieke inhoud is gemigreerd van de algemene documenten van SDK van het Web aan de [!DNL Adobe Target] [&#x200B; gids van de Ontwikkelaar &#x200B;](https://experienceleague.adobe.com/nl/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Deze verandering verbetert inhoudsontdekkingsbaarheid en zorgt ervoor dat oplossing-specifieke begeleiding door het aangewezen productteam wordt gehandhaafd. (TGT-53374)
+* **Verplaatste doel-specifieke de documentatiepagina&#39;s van SDK van het Web naar de bewaarplaats van Adobe Target.** Als deel van de de documentatieherstructurering van SDK van het Web, [!DNL Target] - specifieke inhoud is gemigreerd van de algemene documenten van SDK van het Web aan de [!DNL Adobe Target] [ gids van de Ontwikkelaar ](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Deze verandering verbetert inhoudsontdekkingsbaarheid en zorgt ervoor dat oplossing-specifieke begeleiding door het aangewezen productteam wordt gehandhaafd. (TGT-53374)
 
 +++
 
@@ -178,7 +178,7 @@ Bijgewerkte validatielogica voor [!DNL Target] -doelverbindingen om te zorgen da
 * Dezelfde gegevensstroom-id kan alleen voor verschillende verbindingen worden gebruikt als deze in verschillende sandboxen zijn geconfigureerd.
 * Deze regel is van toepassing op alle gegevensstroomselecties, ook wanneer Geen is geselecteerd.
 
-Deze update zorgt voor een consistente configuratie en voorkomt conflicten in omgevingen met meerdere sandboxen. Voor meer informatie, zie [&#x200B; verbinding van Adobe Target &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} in de *3&rbrace; gids van de Doelen van Experience Platform &lbrace;.*
+Deze update zorgt voor een consistente configuratie en voorkomt conflicten in omgevingen met meerdere sandboxen. Voor meer informatie, zie [ verbinding van Adobe Target ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} in de *3} gids van de Doelen van Experience Platform {.*
 
 ## [!DNL Target Standard/Premium] 25.9.1 (5 september 2025)
 
@@ -239,8 +239,8 @@ Deze release bevat de volgende updates en oplossingen:
 
 | Bron | Details |
 |--- |--- |
-| [&#x200B; de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=nl-NL) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
-| [&#x200B; at.js versiedetails &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
+| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
+| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
 
 ## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release van Experience Cloud
 
@@ -248,9 +248,9 @@ Naast de notities voor elke release bevatten de volgende bronnen aanvullende inf
 
 | Bron | Details |
 |--- |--- |
-| [&#x200B; Veranderingen van de Documentatie &#x200B;](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
-| [&#x200B; de nota&#39;s van de Versie voor vorige versies &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
-| [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl-NL){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
+| [ Veranderingen van de Documentatie ](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
+| [ de nota&#39;s van de Versie voor vorige versies ](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
+| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
 
 ## Prerelease-informatie {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
@@ -258,5 +258,5 @@ De volgende middelen laten u zien wat in de volgende versie van het Doel komt.
 
 | Bron | Details |
 |--- |--- |
-| [&#x200B; de Prioritaire Update van het Product van Adobe &#x200B;](https://www.adobe.com/subscription/priority-product-update.html){target=_blank} | Ontvang voorafgaande meldingen over aanstaande productverbeteringen voor [!DNL Target] en andere [!DNL Adobe Experience Cloud] -oplossingen. |
-| [&#x200B; de Nota&#39;s van de Versie van het Doel - preRelease &#x200B;](/help/main/r-release-notes/target-release-notes.md){target=_blank} | Informatie over de versies van het Doel van de huidige maand, met inbegrip van pre-releaseinformatie. |
+| [ de Prioritaire Update van het Product van Adobe ](https://www.adobe.com/subscription/priority-product-update.html){target=_blank} | Ontvang voorafgaande meldingen over aanstaande productverbeteringen voor [!DNL Target] en andere [!DNL Adobe Experience Cloud] -oplossingen. |
+| [ de Nota&#39;s van de Versie van het Doel - preRelease ](/help/main/r-release-notes/target-release-notes.md){target=_blank} | Informatie over de versies van het Doel van de huidige maand, met inbegrip van pre-releaseinformatie. |
