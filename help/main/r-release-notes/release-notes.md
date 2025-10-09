@@ -102,7 +102,7 @@ Deze release bevat de volgende correcties en verbeteringen:
 **Documentatie**
 
 +++Zie details
-* **Verplaatste doel-specifieke de documentatiepagina&#39;s van SDK van het Web naar de bewaarplaats van Adobe Target.** Als deel van de de documentatieherstructurering van SDK van het Web, [!DNL Target] - specifieke inhoud is gemigreerd van de algemene documenten van SDK van het Web aan de [!DNL Adobe Target] [&#x200B; gids van de Ontwikkelaar &#x200B;](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Deze verandering verbetert inhoudsontdekkingsbaarheid en zorgt ervoor dat oplossing-specifieke begeleiding door het aangewezen productteam wordt gehandhaafd. (TGT-53374)
+* **Verplaatste doel-specifieke de documentatiepagina&#39;s van SDK van het Web naar de bewaarplaats van Adobe Target.** Als deel van de de documentatieherstructurering van SDK van het Web, [!DNL Target] - specifieke inhoud is gemigreerd van de algemene documenten van SDK van het Web aan de [!DNL Adobe Target] [&#x200B; gids van de Ontwikkelaar &#x200B;](https://experienceleague.adobe.com/nl/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Deze verandering verbetert inhoudsontdekkingsbaarheid en zorgt ervoor dat oplossing-specifieke begeleiding door het aangewezen productteam wordt gehandhaafd. (TGT-53374)
 
 +++
 
@@ -178,7 +178,7 @@ Bijgewerkte validatielogica voor [!DNL Target] -doelverbindingen om te zorgen da
 * Dezelfde gegevensstroom-id kan alleen voor verschillende verbindingen worden gebruikt als deze in verschillende sandboxen zijn geconfigureerd.
 * Deze regel is van toepassing op alle gegevensstroomselecties, ook wanneer Geen is geselecteerd.
 
-Deze update zorgt voor een consistente configuratie en voorkomt conflicten in omgevingen met meerdere sandboxen. Voor meer informatie, zie [&#x200B; verbinding van Adobe Target &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} in de *3&rbrace; gids van de Doelen van Experience Platform &lbrace;.*
+Deze update zorgt voor een consistente configuratie en voorkomt conflicten in omgevingen met meerdere sandboxen. Voor meer informatie, zie [&#x200B; verbinding van Adobe Target &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} in de *3&rbrace; gids van de Doelen van Experience Platform &lbrace;.*
 
 ## [!DNL Target Standard/Premium] 25.9.1 (5 september 2025)
 
@@ -239,8 +239,8 @@ Deze release bevat de volgende updates en oplossingen:
 
 | Bron | Details |
 |--- |--- |
-| [&#x200B; de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
-| [&#x200B; at.js versiedetails &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
+| [&#x200B; de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=nl-NL) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
+| [&#x200B; at.js versiedetails &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
 
 ## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release van Experience Cloud
 
@@ -250,7 +250,7 @@ Naast de notities voor elke release bevatten de volgende bronnen aanvullende inf
 |--- |--- |
 | [&#x200B; Veranderingen van de Documentatie &#x200B;](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
 | [&#x200B; de nota&#39;s van de Versie voor vorige versies &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
-| [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
+| [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl-NL){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
 
 ## Prerelease-informatie {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
