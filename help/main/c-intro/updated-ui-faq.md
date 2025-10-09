@@ -20,7 +20,7 @@ De [!DNL Adobe Target] vernieuwde gebruikersinterface is in 2025 nieuw en biedt 
 +++Zie details
 Het team van [!DNL Target] biedt een tijdelijke functie waarmee u met een schakelknop kunt schakelen tussen de bijgewerkte [!DNL Target] -gebruikersinterface en de oudere versie. Deze optie is beschikbaar slechts tijdens de definitieve fase van de rollout UI.
 
-![ de versiesknevel van het Doel UI ](/help/main/r-release-notes/assets/toggle.png)
+![&#x200B; de versiesknevel van het Doel UI &#x200B;](/help/main/r-release-notes/assets/toggle.png)
 
 Zodra de rollout volledig is, zal de knevel worden verwijderd, en alle gebruikers overgang permanent aan bijgewerkte UI. [!DNL Adobe] raadt u aan vooruit te plannen, aangezien deze functie binnenkort wordt uitgeschakeld.
 
@@ -30,21 +30,21 @@ Vanwege recente problemen die zijn vastgesteld, voornamelijk in verband met comp
 
 * **17 Juni, 2025**: Alle organisaties IMS zijn toegelaten voor bijgewerkte [!DNL Target] UI, of voor specifieke gebruikers of organisatie-breed, beginnen het testen van de nieuwe ervaring.
 
-* **Juni 30, 2025**: [ bijgewerkte  [!DNL Target]  UI ](/help/main/c-intro/understand-the-target-ui.md) werd de standaardervaring voor alle IMS Orgs die de UI versieknevel hebben toegelaten.
+* **Juni 30, 2025**: [&#x200B; bijgewerkte  [!DNL Target]  UI &#x200B;](/help/main/c-intro/understand-the-target-ui.md) werd de standaardervaring voor alle IMS Orgs die de UI versieknevel hebben toegelaten.
 
    * Klanten die momenteel de oudere UI zien, door gebrek, zien nu bijgewerkte UI bij login.
    * De UI versiesknevel blijft beschikbaar door eind Juli, die gebruikers toestaat om terug te schakelen indien nodig.
 
   >[!IMPORTANT]
   >
-  > [!DNL Adobe] raadt u ten zeerste aan de bijgewerkte gebruikersinterface van [!DNL Target] te gebruiken. De schakelaar terug naar erfenis UI slechts als een blokkeerkwestie voorkomt, toe te schrijven aan [ beperkingen van het knevel schakelaargedrag ](#limitations).
+  > [!DNL Adobe] raadt u ten zeerste aan de bijgewerkte gebruikersinterface van [!DNL Target] te gebruiken. De schakelaar terug naar erfenis UI slechts als een blokkeerkwestie voorkomt, toe te schrijven aan [&#x200B; beperkingen van het knevel schakelaargedrag &#x200B;](#limitations).
 
 * **15 juli tot 30 juli, 2025**: De de versiesknevel van UI zal permanent in fasen onbruikbaar worden gemaakt. Betrokken IMS-instellingen kunnen niet meer terugkeren naar de oudere gebruikersinterface.
 
    * Uitzonderingen worden per geval beoordeeld.
    * Vertragingen bij de tijdelijke verwijdering van de knevel worden slechts kort toegestaan (een paar dagen), terwijl problemen met blokkeringen worden opgelost.
 
-De Zorg van de Klant van Adobe van het contact [ met om het even welke zorgen of als u kwesties tijdens deze overgang verwacht.](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md)
+De Zorg van de Klant van Adobe van het contact [&#x200B; met om het even welke zorgen of als u kwesties tijdens deze overgang verwacht.](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md)
 
 ### Beperkingen van het gedrag van de UI-schakelfunctie {#limitations}
 
@@ -56,12 +56,12 @@ De volgende informatie beschrijft de beperkingen die u bewust zou moeten zijn wa
 
 ### Meer bronnen voor meer informatie over de bijgewerkte gebruikersinterface
 
-* [[!DNL Target]  UI update FAQs ](/help/main/c-intro/updated-ui-faq.md): Deze veelgestelde vragen behandelt gemeenschappelijke vragen over nieuwe [!DNL Target] UI en [!UICONTROL Visual Experience Composer] (VEC), met inbegrip van navigatieveranderingen, eigenschapplaatsen, en de veroudering van de tijdelijke UI versiesknevel. Of u nu een markeerteken, ontwikkelaar of beheerder bent, deze veelgestelde vragen helpen u een vloeiende overgang te maken en de bijgewerkte gebruikersinterface optimaal te benutten.
-* [[!DNL Target Standard/Premium]  25.2.1 (17 februari, 2025) versienota&#39;s ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Verstrekt een samenvatting van de belangrijkste veranderingen UI in [!DNL Target] voor [!UICONTROL Activities], [!UICONTROL Recommendations], en [!UICONTROL Visual Experience Composer] (VEC).
-* [[!DNL Target Standard/Premium]  25.1.1 (9 Januari, 2025) versienota&#39;s ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Verstrekt een samenvatting van de belangrijkste veranderingen UI in [!DNL Target] voor [!UICONTROL Offers Library].
-* [ begrijp  [!DNL Target]  UI ](/help/main/c-intro/understand-the-target-ui.md): Verstrekt een kort overzicht om u te helpen vertrouwd worden met [!DNL Target] en verleent verbindingen voor meer diepgaande informatie en geleidelijke instructies.
-* [[!UICONTROL Visual Experience Composer] changes ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : In de release [!DNL Adobe Target Standard/Premium] 25.2.1 (17 februari 2015) wordt een bijgewerkte versie van [!UICONTROL Visual Experience Composer] (VEC) geïntroduceerd. Dit artikel verklaart de verschillen tussen de erfenis en bijgewerkte versies van VEC.
-* [[!UICONTROL Visual Experience Composer] opties ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): Dit artikel verklaart bijgewerkte UI VEC en zijn opties.
+* [[!DNL Target]  UI update FAQs &#x200B;](/help/main/c-intro/updated-ui-faq.md): Deze veelgestelde vragen behandelt gemeenschappelijke vragen over nieuwe [!DNL Target] UI en [!UICONTROL Visual Experience Composer] (VEC), met inbegrip van navigatieveranderingen, eigenschapplaatsen, en de veroudering van de tijdelijke UI versiesknevel. Of u nu een markeerteken, ontwikkelaar of beheerder bent, deze veelgestelde vragen helpen u een vloeiende overgang te maken en de bijgewerkte gebruikersinterface optimaal te benutten.
+* [[!DNL Target Standard/Premium]  25.2.1 (17 februari, 2025) versienota&#39;s &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Verstrekt een samenvatting van de belangrijkste veranderingen UI in [!DNL Target] voor [!UICONTROL Activities], [!UICONTROL Recommendations], en [!UICONTROL Visual Experience Composer] (VEC).
+* [[!DNL Target Standard/Premium]  25.1.1 (9 Januari, 2025) versienota&#39;s &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Verstrekt een samenvatting van de belangrijkste veranderingen UI in [!DNL Target] voor [!UICONTROL Offers Library].
+* [&#x200B; begrijp  [!DNL Target]  UI &#x200B;](/help/main/c-intro/understand-the-target-ui.md): Verstrekt een kort overzicht om u te helpen vertrouwd worden met [!DNL Target] en verleent verbindingen voor meer diepgaande informatie en geleidelijke instructies.
+* [[!UICONTROL Visual Experience Composer] changes &#x200B;](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : In de release [!DNL Adobe Target Standard/Premium] 25.2.1 (17 februari 2015) wordt een bijgewerkte versie van [!UICONTROL Visual Experience Composer] (VEC) geïntroduceerd. Dit artikel verklaart de verschillen tussen de erfenis en bijgewerkte versies van VEC.
+* [[!UICONTROL Visual Experience Composer] opties &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): Dit artikel verklaart bijgewerkte UI VEC en zijn opties.
 
 +++
 
@@ -70,13 +70,13 @@ De volgende informatie beschrijft de beperkingen die u bewust zou moeten zijn wa
 +++Details
 De volgende bronnen bieden informatie voor meer informatie over de bijgewerkte gebruikersinterface van [!DNL Target] :
 
-* [[!DNL Target Standard/Premium]  25.1.1 (9 Januari, 2025) versienota&#39;s ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Verstrekt een samenvatting van de belangrijkste veranderingen UI in [!DNL Target] voor [!UICONTROL Offers Library].
+* [[!DNL Target Standard/Premium]  25.1.1 (9 Januari, 2025) versienota&#39;s &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Verstrekt een samenvatting van de belangrijkste veranderingen UI in [!DNL Target] voor [!UICONTROL Offers Library].
 
-* [ begrijp  [!DNL Target]  UI ](/help/main/c-intro/understand-the-target-ui.md): Verstrekt een kort overzicht om u te helpen vertrouwd worden met [!DNL Target] en verleent verbindingen voor meer diepgaande informatie en geleidelijke instructies.
+* [&#x200B; begrijp  [!DNL Target]  UI &#x200B;](/help/main/c-intro/understand-the-target-ui.md): Verstrekt een kort overzicht om u te helpen vertrouwd worden met [!DNL Target] en verleent verbindingen voor meer diepgaande informatie en geleidelijke instructies.
 
-* [[!UICONTROL Visual Experience Composer] changes ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : In de release [!DNL Adobe Target Standard/Premium] 25.2.1 (17 februari 2015) wordt een bijgewerkte versie van [!UICONTROL Visual Experience Composer] (VEC) geïntroduceerd. Dit artikel verklaart de verschillen tussen de erfenis en bijgewerkte versies van VEC.
+* [[!UICONTROL Visual Experience Composer] changes &#x200B;](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : In de release [!DNL Adobe Target Standard/Premium] 25.2.1 (17 februari 2015) wordt een bijgewerkte versie van [!UICONTROL Visual Experience Composer] (VEC) geïntroduceerd. Dit artikel verklaart de verschillen tussen de erfenis en bijgewerkte versies van VEC.
 
-* [[!UICONTROL Visual Experience Composer] opties ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): Dit artikel verklaart bijgewerkte UI VEC en zijn opties.
+* [[!UICONTROL Visual Experience Composer] opties &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): Dit artikel verklaart bijgewerkte UI VEC en zijn opties.
 
 +++
 
@@ -85,7 +85,7 @@ De volgende bronnen bieden informatie voor meer informatie over de bijgewerkte g
 +++Details
 De bijgewerkte gebruikersinterface is beschikbaar voor alle [!DNL Target] klanten [!UICONTROL Standard] en [!UICONTROL Premium] . Geen geüpgraded vergunning of SKU wordt vereist.
 
-Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI versiesknevel, zie [ tijd-gevoelige updates u ](/help/main/r-release-notes/release-notes.md#time-sensitive) moet kennen.
+Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI versiesknevel, zie [&#x200B; tijd-gevoelige updates u &#x200B;](/help/main/r-release-notes/release-notes.md#time-sensitive) moet kennen.
 
 +++
 
@@ -94,7 +94,7 @@ Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI ver
 +++Details
 Het team van [!DNL Target] behandelt actief kwesties met betrekking tot de nieuwe uitrol UI. Updates en doorlopende verbeteringen worden beschreven in de opmerkingen bij de release.
 
-Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI versiesknevel, zie [ tijd-gevoelige updates u ](/help/main/r-release-notes/release-notes.md#time-sensitive) moet kennen.
+Voor meer informatie over de rollout en de afschrijving van de tijdelijke UI versiesknevel, zie [&#x200B; tijd-gevoelige updates u &#x200B;](/help/main/r-release-notes/release-notes.md#time-sensitive) moet kennen.
 
 +++
 
@@ -105,7 +105,7 @@ De UI-versiesschakeloptie is een tijdelijke functie waarmee u met een schakelkno
 
 Er zijn verschillende beperkingen met betrekking tot het gebruik van de gebruikersinterface-versieselectie, zoals de zichtbaarheid van nieuwe activiteiten, het bewerken van bestaande activiteiten en de consistentie van activiteitendetails.
 
-Voor meer informatie, zie [ tijd-gevoelige updates u ](/help/main/r-release-notes/release-notes.md#time-sensitive) moet kennen.
+Voor meer informatie, zie [&#x200B; tijd-gevoelige updates u &#x200B;](/help/main/r-release-notes/release-notes.md#time-sensitive) moet kennen.
 
 ++++
 
@@ -116,7 +116,7 @@ Voor meer informatie, zie [ tijd-gevoelige updates u ](/help/main/r-release-note
 
 Er zijn verschillende beperkingen met betrekking tot het gebruik van de gebruikersinterface-versieselectie, zoals de zichtbaarheid van nieuwe activiteiten, het bewerken van bestaande activiteiten en de consistentie van activiteitendetails.
 
-Voor meer informatie, zie [ tijd-gevoelige updates u ](/help/main/r-release-notes/release-notes.md#time-sensitive) moet kennen.
+Voor meer informatie, zie [&#x200B; tijd-gevoelige updates u &#x200B;](/help/main/r-release-notes/release-notes.md#time-sensitive) moet kennen.
 
 +++
 
@@ -157,26 +157,26 @@ Ja, u kunt deze rails samenvouwen om het canvas van [!UICONTROL Design] uit te v
 
 >[!NOTE]
 >
->Het [!UICONTROL Show Components] pictogram ( ![ toon het pictogram van Componenten ](/help/main/assets/icons/Add.svg)) en het [!UICONTROL Show Modifications] pictogram ( ![ toon de spoorstaaf van Wijzigingen ](/help/main/assets/icons/History.svg)) dienst als knevels om de aangewezen opties te tonen.
+>Het [!UICONTROL Show Components] pictogram ( ![&#x200B; toon het pictogram van Componenten &#x200B;](/help/main/assets/icons/Add.svg)) en het [!UICONTROL Show Modifications] pictogram ( ![&#x200B; toon de spoorstaaf van Wijzigingen &#x200B;](/help/main/assets/icons/History.svg)) dienst als knevels om de aangewezen opties te tonen.
 
 **Vouw [!UICONTROL Components] spoor** samen
 
-Om het [!UICONTROL Components] spoor samen te vouwen en het [!UICONTROL Design] canvas te vergroten, terwijl het [!UICONTROL Components] spoor open is, klik het ( ![ toont het pictogram van Componenten ](/help/main/assets/icons/Add.svg)).
+Om het [!UICONTROL Components] spoor samen te vouwen en het [!UICONTROL Design] canvas te vergroten, terwijl het [!UICONTROL Components] spoor open is, klik het ( ![&#x200B; toont het pictogram van Componenten &#x200B;](/help/main/assets/icons/Add.svg)).
 
 **Vouw [!UICONTROL Modifications] spoor** samen
 
-Om [!UICONTROL Modifications] spoorstaaf samen te vouwen en het [!UICONTROL Design] canvas te vergroten, terwijl de [!UICONTROL Modifications] spoorstaaf open is, klik het [!UICONTROL Show Modifications] pictogram ( ![ toon de spoorstaaf van Wijzigingen ](/help/main/assets/icons/History.svg) ).
+Om [!UICONTROL Modifications] spoorstaaf samen te vouwen en het [!UICONTROL Design] canvas te vergroten, terwijl de [!UICONTROL Modifications] spoorstaaf open is, klik het [!UICONTROL Show Modifications] pictogram ( ![&#x200B; toon de spoorstaaf van Wijzigingen &#x200B;](/help/main/assets/icons/History.svg) ).
 
 **Vouw [!UICONTROL Properties] spoor** samen
 
-Om [!UICONTROL Properties] spoorstaaf samen te vouwen en het [!UICONTROL Design] canvas te vergroten, klik het [!UICONTROL Show/Hide Properties] pictogram ( ![ pictogram van Eigenschappen ](/help/main/assets/icons/Propertie.svg)) rechts van de spoorstaaf om [!UICONTROL Properties] spoorstaaf samen te vouwen of te tonen.
+Om [!UICONTROL Properties] spoorstaaf samen te vouwen en het [!UICONTROL Design] canvas te vergroten, klik het [!UICONTROL Show/Hide Properties] pictogram ( ![&#x200B; pictogram van Eigenschappen &#x200B;](/help/main/assets/icons/Propertie.svg)) rechts van de spoorstaaf om [!UICONTROL Properties] spoorstaaf samen te vouwen of te tonen.
 
 +++
 
 ## Zijn de statussen [!UICONTROL Save as Draft] en [!UICONTROL Syncing] nog steeds beschikbaar?
 
 +++Details
-Met de meest recente updates van de gebruikersinterface zijn de statussen [!UICONTROL Save as Draft] en [!UICONTROL Syncing] niet meer beschikbaar. Voor meer informatie, zie Statussen onder [ filters toepassen op de lijst van Activiteiten ](/help/main/c-activities/activities.md#filters) in *[!UICONTROL Activities overview]*.
+Met de meest recente updates van de gebruikersinterface zijn de statussen [!UICONTROL Save as Draft] en [!UICONTROL Syncing] niet meer beschikbaar. Voor meer informatie, zie Statussen onder [&#x200B; filters toepassen op de lijst van Activiteiten &#x200B;](/help/main/c-activities/activities.md#filters) in *[!UICONTROL Activities overview]*.
 
 +++
 
@@ -197,7 +197,7 @@ De gebruikersinterface van [!UICONTROL Offer Library] vereist consistente kenmer
 ## Wat is er gebeurd met de koppelingen voor voorvertoningen van aanbiedingen in de bijgewerkte gebruikersinterface?
 
 +++Details
-[!UICONTROL Experience Fragment] de verbindingen van de voorproef zijn beschikbaar in [!UICONTROL Quick Info] popover, getoond wanneer het klikken van het informatiepictogram ( ![ pictogram van Info ](/help/main/assets/icons/InfoOutline.svg)) die aan het geselecteerde fragment beantwoorden.
+[!UICONTROL Experience Fragment] de verbindingen van de voorproef zijn beschikbaar in [!UICONTROL Quick Info] popover, getoond wanneer het klikken van het informatiepictogram ( ![&#x200B; pictogram van Info &#x200B;](/help/main/assets/icons/InfoOutline.svg)) die aan het geselecteerde fragment beantwoorden.
 
 +++
 
@@ -206,7 +206,7 @@ De gebruikersinterface van [!UICONTROL Offer Library] vereist consistente kenmer
 +++Details
 Ja. Wanneer u [!DNL Adobe Experience Cloud] [!DNL Visual Editing Helper extension] gebruikt, moet u mogelijk [!UICONTROL Enhanced Experience Composer] (EEC) uitschakelen.
 
-Voor meer informatie, zie [ Visuele het Uitgeven de uitbreiding van de Helper ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
+Voor meer informatie, zie [&#x200B; Visuele het Uitgeven de uitbreiding van de Helper &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
 
 +++
 
@@ -215,8 +215,8 @@ Voor meer informatie, zie [ Visuele het Uitgeven de uitbreiding van de Helper ](
 +++Details
 Raadpleeg de volgende artikelen voor meer informatie over IP-adressen die u kunt lijsten van gewenste personen:
 
-* **Verbeterde Composer van de Ervaring (EEG)**: Zie [ EEG zal geen interne QA URL laden die niet toegankelijk op openbare IP ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) in *het Oplossen van problemen met betrekking tot de Verbeterde Composer van de Ervaring* is
-* **[!UICONTROL Recommendations]**: Zie [ IP adressen die door de voer-verwerkende servers van Aanbevelingen ](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) worden gebruikt.
+* **Verbeterde Composer van de Ervaring (EEG)**: Zie [&#x200B; EEG zal geen interne QA URL laden die niet toegankelijk op openbare IP &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) in *het Oplossen van problemen met betrekking tot de Verbeterde Composer van de Ervaring* is
+* **[!UICONTROL Recommendations]**: Zie [&#x200B; IP adressen die door de voer-verwerkende servers van Aanbevelingen &#x200B;](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) worden gebruikt.
 
 +++
 
@@ -225,7 +225,7 @@ Raadpleeg de volgende artikelen voor meer informatie over IP-adressen die u kunt
 +++Details
 De omgevingen zijn nu standaard de laatste die de klant gebruikt. Als u wilt schakelen tussen omgevingen, gebruikt u de kiezer [!UICONTROL Environment] rechtsboven in de gebruikersinterface van [!UICONTROL Catalog Search] .
 
-![ schakelaar van het Milieu ](/help/main/c-intro/assets/environmnent.png)
+![&#x200B; schakelaar van het Milieu &#x200B;](/help/main/c-intro/assets/environmnent.png)
 
 +++
 
@@ -234,7 +234,7 @@ De omgevingen zijn nu standaard de laatste die de klant gebruikt. Als u wilt sch
 +++Details
 Het integreren van [!DNL Adobe Analytics] (AA) of [!DNL Customer Journey Analytics] (CJA) met [!DNL Target] kan variëren van matige tot geavanceerde inspanning, afhankelijk van uw huidige opstelling. Als u [!DNL Adobe Experience Platform] gebruikt en [!DNL Platform Web SDK] hebt geïmplementeerd, wordt de integratie gestroomlijnder. Verouderde implementaties die gebruikmaken van at.js of AppMeasurement, vereisen echter mogelijk extra configuratie, zoals:
 
-* Laat [ Analytics voor de integratie van het Doel (A4T) toe ](/help/main/c-integrating-target-with-mac/a4t/a4t.md)
+* Laat [&#x200B; Analytics voor de integratie van het Doel (A4T) toe &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md)
 * Integreer [[!DNL Target]  rapporterend in  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
 * Kaartrapportsuites en gegevensweergaven
 * Zorg voor consistente identiteitsresolutie (ECID)
