@@ -4,7 +4,7 @@ description: Ontdek waarom sommige websites niet betrouwbaar kunnen worden geope
 title: Hoe gebruik ik de Helper Extension [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 6f4fd14a46f06c1366c02cfaf5a0cee5edbb00c4
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 0%
@@ -56,7 +56,7 @@ De browser van de Helper VEC uitbreiding voor Chrome lost plaats-ladende kwestie
 
 ## VEC Helper-browserextensie opvragen en installeren
 
-1. Navigeer aan de [ browser van de Helper van Adobe Target VEC uitbreiding in de Opslag van het Web van Chrome ](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
+1. Navigeer aan de [ browser van de Helper van Adobe Target VEC uitbreiding in de Opslag van het Web van Chrome ](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca).
 1. Klik op **[!UICONTROL Add to Chrome > Add Extension]**.
 1. Open VEC in [!DNL Target].
 1. Om de uitbreiding te gebruiken, klik het VEC Helper browser uitbreidingspictogram ( ![ pictogram van de Helper VEC ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)) in uw browser van Chrome terwijl op de Wijze van VEC of [ QA ](/help/main/c-activities/c-activity-qa/activity-qa.md).
