@@ -2,24 +2,24 @@
 keywords: dedupe;allow duplicates;exclude duplicate aanbiedingen;automatiseerd personalisatie;disallow duplicate aanbiedingen;exclude;default content;
 description: Uitsluitingen beheren in [!UICONTROL Automated Personalization] (AP)-activiteiten.
 title: Hoe kan ik uitsluitingen in [!UICONTROL Automated Personalization] -activiteiten beheren?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: e620cd189e2783ba3abbe93bb9c5000866c41b99
+source-git-commit: a68e7501fbb157a1ac5b0c0cbb3d574abdb747dd
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
 
 # Uitsluitingen beheren
 
-Uitsluitingen beheren door dubbele aanbiedingen uit te sluiten, specifieke ervaringen uit te sluiten en standaardinhoud in [!UICONTROL Automated Personalization] (AP)-activiteiten in [!DNL Adobe Target] uit te sluiten.
+U kunt uw [!UICONTROL Automated Personalization] (AP)-strategie besturen door uitsluitingen te beheersen. Of u dubbele aanbiedingen, het verfijnen van ervaringscombinaties, of het verwijderen van standaardinhoud verhindert, de uitsluitingen staan u toe om schonere, relevantere ervaringen te leveren die zich aan uw doelstellingen en publieksverwachtingen richten.
 
 ## Dubbele voorstellen toestaan of weigeren {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
-Voorkomen dat aanbiedingen uit de aanbiedingsbibliotheek worden gedupliceerd wanneer deze op verschillende locaties in [!UICONTROL Automated Personalization] -activiteiten worden gebruikt.
+Voorkomen dat aanbiedingen uit de aanbiedingsbibliotheek worden gedupliceerd wanneer deze op verschillende locaties in AP-activiteiten worden gebruikt.
 
 U hebt bijvoorbeeld een activiteit met zes locaties op een pagina met 12 aanbiedingen. Er bestaat een kans dat hetzelfde aanbod op een of meer locaties in de activiteit kan worden geplaatst. Met deze functie kunt u voorkomen dat dubbele aanbiedingen tegelijkertijd worden weergegeven op verschillende locaties binnen dezelfde activiteit.
 
@@ -27,7 +27,7 @@ U hebt bijvoorbeeld een activiteit met zes locaties op een pagina met 12 aanbied
 
 ## Specifieke ervaringen uitsluiten {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
-Sluit specifieke ervaringen uit als u bepaalde aanbiedingscombinaties wilt uitsluiten van uw [!UICONTROL Automated Personalization] -activiteit.
+Sluit specifieke ervaringen uit als u bepaalde aanbiedingscombinaties van uw AP-activiteit wilt uitsluiten.
 
 Er zouden bepaalde combinaties kunnen zijn die niet samenwerken, of u zou het aantal geteste ervaringen kunnen beperken om verkeersvereisten voor uw activiteit te verminderen.
 
@@ -47,7 +47,7 @@ Er zouden bepaalde combinaties kunnen zijn die niet samenwerken, of u zou het aa
 
 ## Standaardinhoud uitsluiten {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
-Soms wilt u de standaardinhoud niet opnemen in uw [!UICONTROL Automated Personalization] -activiteit. U kunt deze methode gebruiken om slechts één aanbieding (verschillend van uw standaardinhoud) in een plaats als deel van uw AP activiteit te hebben.
+Soms wilt u uw standaardinhoud mogelijk niet opnemen in uw AP-activiteit. Met deze methode kunt u slechts één aanbieding (anders dan de standaardinhoud) op een locatie plaatsen als onderdeel van uw activiteit.
 
 Het uitsluiten van standaardinhoud is een goede manier om de vormgeving van de rest van de pagina aan te passen aan de aanbiedingen die u test met uw AP-activiteit. Stel dat u bijvoorbeeld het kleurenpalet wilt aanpassen van de aanbiedingen die u test, u de achtergrondkleur van de pagina kunt wijzigen en de standaardachtergrondkleur wilt uitsluiten.
 
@@ -56,8 +56,9 @@ Het uitsluiten van standaardinhoud is een goede manier om de vormgeving van de r
 1. Terwijl [ creërend of het uitgeven van een AP activiteit ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), selecteer de inhoud u wilt vervangen en klikken om tot **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image Offer]**, of **[!UICONTROL Change Background Color]** toegang te hebben. Welke opties beschikbaar zijn, is afhankelijk van het type inhoud.
 
    ![ de opties van de Verandering ](/help/main/c-activities/t-automated-personalization/assets/options.png)
+1. Maak uw nieuwe inhoud.
 
-1. Creeer uw nieuwe inhoud en uncheck **omvatten** rechts van de standaardinhoud (of uncheck het StandaardBeeld/Video in het [!UICONTROL Select Content] scherm).
+1. Klik **[!UICONTROL More Actions]** ( ![ Meer pictogram van Acties ](/help/main/assets/icons/Setting.svg)), dan klik de **Uitsluiten StandaardAanbieding/omvat Gebrek**/ knevel om de standaardaanbieding uit te sluiten of te omvatten.
 
    <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
