@@ -2,12 +2,12 @@
 keywords: Aanbevelingen;intro;introductie;webinar;demo
 description: Leer over de activiteiten van Aanbevelingen in Adobe  [!DNL Target]  die automatisch inhoud tonen die uw klanten zou kunnen interesseren die op vorige gebruikersactiviteit of andere algoritmen wordt gebaseerd.
 title: Wat zijn activiteiten met aanbevelingen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: fd0ae95b63b924471247ab7155363bf0ba1e617c
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2049'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,11 @@ Marketers gebruiken [!DNL Adobe Target] om persoonlijke ervaringen op te doen in
 * **het Publiceren**: De uitgevers van het Web gebruiken [!DNL Target Recommendations] om artikelen aan plaatsbezoekers aan te bevelen en verhoogde betrokkenheid te drijven.
 * **VideoLeerprogramma&#39;s**: [!DNL Adobe Creative Cloud] gebruikt [!DNL Target] om videoleerprogramma&#39;s aan Photoshop gebruikers in de toepassing van Photoshop aan te bevelen.
 * **Gaming**: Het gebruik van de Bedrijven van het Gamen [!DNL Target] om spellen en inhoud aan gebruikers op hun consoles aan te bevelen.
-* **B2B Verkoop**: [ zaken-aan-zaken bedrijven gebruiken Doel om video&#39;s, whitepapers, en blogposten aan B2B vooruitzichten aan te bevelen; leverde downloads; en verstrek hulp aan bestaande klanten ](https://theblog.adobe.com/testing-shifts-high-gear-intel).
+* **B2B Verkoop**: De zaken-aan-zaken bedrijven gebruiken Doel om video&#39;s, whitepapers, en blogposten aan B2B vooruitzichten aan te bevelen; leverde downloads; en verlenen hulp aan bestaande klanten.
 
 * **Reizen**: [ het gebruik van een Duitse reisbooker Doel om hotels en meer aan reizigers ](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608) aan te bevelen.
 
-* **Kleinhandel**: [ het gebruik van B2B van het Lezingretailer Doel om hoogste categorieën en producten aan te bevelen om bezoekers in browser en in zijn mobiele app ](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/) terug te keren.
+* **Kleinhandel**: Het gebruik van A leidende B2B retailer [!DNL Target] om hoogste categorieën en producten aan te bevelen om bezoekers in browser en in zijn mobiele app terug te keren.
 
 Dit zijn enkel een paar manieren de klanten Doel gebruiken om gepersonaliseerde aanbevelingen te leveren.
 
@@ -105,7 +105,7 @@ Vervolgens moet u tags toevoegen of de bestaande [!DNL Analytics] -implementatie
 
 U moet ervoor zorgen dat [!DNL Target] weet welke items uw gebruikers bekijken en aanschaffen. Als aankopen niet relevant zijn voor uw context, wilt u wellicht een ander type conversiegebeurtenis volgen, bijvoorbeeld het downloaden van een PDF, het voltooien van een enquête, het abonneren op een nieuwsbrief, het bekijken van een video enzovoort.
 
-Als u [!DNL Target] al gebruikt voor het uitvoeren van A/B-testactiviteiten op uw site, hebt u deze stap mogelijk al uitgevoerd. Of als u [!DNL Adobe Analytics] al gebruikt om bezoeken ter plaatse en omzettingsgedrag te melden, kunt u [!DNL Analytics] gebruiken als uw gedragsgegevensbron. Als niet, is het het gemakkelijkst om dit te plaatsen gebruikend een markeringsmanager zoals markeringen in [[!DNL Adobe Experience Platform] ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=nl-NL){target=_blank}. Het is ook mogelijk om offline of in-app interacties naar [!DNL Target] te verzenden via real-time API.
+Als u [!DNL Target] al gebruikt voor het uitvoeren van A/B-testactiviteiten op uw site, hebt u deze stap mogelijk al uitgevoerd. Of als u [!DNL Adobe Analytics] al gebruikt om bezoeken ter plaatse en omzettingsgedrag te melden, kunt u [!DNL Analytics] gebruiken als uw gedragsgegevensbron. Als niet, is het het gemakkelijkst om dit te plaatsen gebruikend een markeringsmanager zoals markeringen in [[!DNL Adobe Experience Platform] ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. Het is ook mogelijk om offline of in-app interacties naar [!DNL Target] te verzenden via real-time API.
 
 ### Aanbevelingen ophalen met de juiste context
 
@@ -129,17 +129,17 @@ Een [!DNL Recommendations] -activiteit bestaat uit de volgende componenten:
 
 ![ Illustratie die toont wat omhoog een aanbevelingen activiteit maakt: Soorten publiek, Criteria, en Ontwerpen ](/help/main/c-recommendations/assets/intro-12.png)
 
-[!DNL Target] beschikt over 14 geïntegreerde doelgroepen, 42 ingebouwde criteria en 10 ingebouwde ontwerpsjablonen. U kunt elk van deze items aanpassen of uw eigen items toevoegen. Wij hebben vorige [ webinars over de bouw van publiek ](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target] gehad. In dit gedeelte wordt de nadruk gelegd op het definiëren van criteria, die bepalen welke items worden aanbevolen.
+[!DNL Target] beschikt over 14 geïntegreerde doelgroepen, 42 ingebouwde criteria en 10 ingebouwde ontwerpsjablonen. U kunt elk van deze items aanpassen of uw eigen items toevoegen.
 
-Doel gebruikt het concept van de kaart met criteria. Een kaart met criteria is als een recept voor personalisatie.
+[!DNL Target] gebruikt het concept van de criteria kaart. Een kaart met criteria is als een recept voor personalisatie.
 
 ![ de kaartillustratie van Criteria ](/help/main/c-recommendations/assets/intro-13.png)
 
-Het is belangrijk om de juiste criteria te kiezen of te creëren om de personalisatieresultaten te bereiken u wenst. Een criterium is als een trechter die u van uw volledige catalogus aan uw definitieve reeks aanbevelingen neemt.
+Het is belangrijk om de juiste criteria te kiezen of te creëren om de personalisatieresultaten te bereiken u wenst. Een criterium is als een funnel die je van de hele catalogus naar de laatste reeks aanbevelingen brengt.
 
-![ de illustratie van het Trechter ](/help/main/c-recommendations/assets/intro-14.png)
+![ de illustratie van Funnel ](/help/main/c-recommendations/assets/intro-14.png)
 
-In de volgende secties worden de verschillende delen van deze trechter beschreven en wordt beschreven hoe deze werken in [!DNL Target] :
+In de volgende secties worden de verschillende onderdelen van deze funnel beschreven en wordt beschreven hoe deze werken in [!DNL Target] :
 
 ### Statische filters (verzamelingen en uitsluitingen)
 
@@ -193,8 +193,4 @@ In de context van de inhoud kunt u bijvoorbeeld films uitsluiten die de bezoeker
 
 ## Demo
 
-Nadat u de taken voltooit die in de hierboven beschreven aanbevelingen trechter worden geïllustreerd, wordt u verlaten met uw definitieve aanbeveling. Om op een in-productdemonstratie binnen [!DNL Target] te letten, begint de demo bij 21 :00 in *de Basisbeginselen van Adobe Target Webinar*, verbonden aan hieronder.
-
-## Adobe [!DNL Target] Basics Webinar: Inleiding tot aanbevelingen {#intro-to-recs}
-
-[ Inleiding aan Aanbevelingen ](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+Nadat u de taken hebt voltooid die in de aanbeveling die funnel hierboven beschrijft, blijft u bij uw definitieve aanbeveling. Om op een in-productdemonstratie binnen [!DNL Target] te letten, begint de demo bij 21 :00 in *de Basisbeginselen van Adobe Target Webinar*, verbonden aan hieronder.
