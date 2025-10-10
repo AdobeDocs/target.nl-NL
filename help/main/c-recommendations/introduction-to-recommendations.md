@@ -24,24 +24,24 @@ We weten allemaal wat voor soort aanbevelingen we in de detailhandel zien. Klant
 
 In de volgende afbeelding ziet u een aanbeveling voor accessoires die veel worden aangeschaft met een nieuwe telefoon, zoals oplaadstations, draagtassen en hoofdtelefoons.
 
-![ Aanbeveling die toebehoren toont anderen met een nieuwe telefoon hebben gekocht.](/help/main/c-recommendations/assets/intro-1.png)
+![&#x200B; Aanbeveling die toebehoren toont anderen met een nieuwe telefoon hebben gekocht.](/help/main/c-recommendations/assets/intro-1.png)
 
 Maar waar we niet altijd aan denken is hoe digitale-eerste merken de bar van klantenverwachtingen verhogen. Steeds meer wordt de manier waarop we media en inhoud consumeren gedreven door gepersonaliseerde aanbevelingen. Denk aan het eerste ding dat je ziet wanneer je Netflix, Spotify of YouTube opent. Deze merken beginnen de klantenervaring met aanbevelingen. In een wereld waar meer alternatieven dan ooit beschikbaar zijn, is het kritiek dat u de meest relevante inhoud voor uw klant op het punt van interactie kunt identificeren.
 
-![ Aanbeveling die digitale-eerste merken tonen ](/help/main/c-recommendations/assets/intro-2.png)
+![&#x200B; Aanbeveling die digitale-eerste merken tonen &#x200B;](/help/main/c-recommendations/assets/intro-2.png)
 
 Marketers gebruiken [!DNL Adobe Target] om persoonlijke ervaringen op te doen in een groot aantal verschillende bedrijfstakken, klanttypen en kanalen.
 
 [!DNL Adobe Target] levert overal gepersonaliseerde inhoud.
 
-![ Illustratie die toont hoe het Doel aanbevelingen in diverse plaatsen ](/help/main/c-recommendations/assets/intro-3.png) levert
+![&#x200B; Illustratie die toont hoe het Doel aanbevelingen in diverse plaatsen &#x200B;](/help/main/c-recommendations/assets/intro-3.png) levert
 
 * **het Publiceren**: De uitgevers van het Web gebruiken [!DNL Target Recommendations] om artikelen aan plaatsbezoekers aan te bevelen en verhoogde betrokkenheid te drijven.
 * **VideoLeerprogramma&#39;s**: [!DNL Adobe Creative Cloud] gebruikt [!DNL Target] om videoleerprogramma&#39;s aan Photoshop gebruikers in de toepassing van Photoshop aan te bevelen.
 * **Gaming**: Het gebruik van de Bedrijven van het Gamen [!DNL Target] om spellen en inhoud aan gebruikers op hun consoles aan te bevelen.
 * **B2B Verkoop**: De zaken-aan-zaken bedrijven gebruiken Doel om video&#39;s, whitepapers, en blogposten aan B2B vooruitzichten aan te bevelen; leverde downloads; en verlenen hulp aan bestaande klanten.
 
-* **Reizen**: [ het gebruik van een Duitse reisbooker Doel om hotels en meer aan reizigers ](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608) aan te bevelen.
+* **Reizen**: [&#x200B; het gebruik van een Duitse reisbooker Doel om hotels en meer aan reizigers &#x200B;](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608) aan te bevelen.
 
 * **Kleinhandel**: Het gebruik van A leidende B2B retailer [!DNL Target] om hoogste categorieën en producten aan te bevelen om bezoekers in browser en in zijn mobiele app terug te keren.
 
@@ -49,7 +49,7 @@ Dit zijn enkel een paar manieren de klanten Doel gebruiken om gepersonaliseerde 
 
 Wat is de reden voor grote aanbevelingen?
 
-![ Illustratie die de drie elementen toont die grote aanbevelingen maken ](/help/main/c-recommendations/assets/intro-4.png)
+![&#x200B; Illustratie die de drie elementen toont die grote aanbevelingen maken &#x200B;](/help/main/c-recommendations/assets/intro-4.png)
 
 Grote aanbevelingen moeten relevant en gepersonaliseerd zijn. Dit betekent dat u drie dingen nodig hebt om relevantie en personalisatie te stimuleren:
 
@@ -61,7 +61,7 @@ Grote aanbevelingen moeten relevant en gepersonaliseerd zijn. Dit betekent dat u
 
 Begin met een strategie.
 
-![ Illustratie die aanbevelingen strategie ](/help/main/c-recommendations/assets/intro-5.png) toont
+![&#x200B; Illustratie die aanbevelingen strategie &#x200B;](/help/main/c-recommendations/assets/intro-5.png) toont
 
 * **Welke punten wilt u adviseren?** Denk eerst na over de items die u wilt aanbevelen. Dit kunnen producten, video&#39;s of inhoud zijn.
 * **waar wilt u aanbevelingen tonen?** Ga vervolgens na waar u aanbevelingen wilt doen. In grote lijnen welke kanalen (web, mobiel, in-store, kiosk, enzovoort). Welke delen van de klantenreis zullen aanbevelingen bevatten? Welke pagina&#39;s op uw site bevatten aanbevelingen?
@@ -71,7 +71,7 @@ Nadat u uw strategie hebt bedacht, bent u klaar om de implementatie van [!DNL Ta
 
 Er zijn drie brede stappen betrokken bij het creëren van uw aanbevelingen implementatie:
 
-![ Illustratie die de stappen toont om uw aanbevelingen implementatie tot stand te brengen ](/help/main/c-recommendations/assets/intro-6.png)
+![&#x200B; Illustratie die de stappen toont om uw aanbevelingen implementatie tot stand te brengen &#x200B;](/help/main/c-recommendations/assets/intro-6.png)
 
 1. Teken [!DNL Target] over uw context of producten.
 1. Leg gebruikersgedrag vast.
@@ -81,7 +81,7 @@ Er zijn drie brede stappen betrokken bij het creëren van uw aanbevelingen imple
 
 Wanneer u begint met [!DNL Recommendations] , geeft u informatie door over elk item dat u wilt aanbevelen. [!DNL Target] biedt verschillende integratieopties om uw catalogus te maken.
 
-![ Illustratie die hoe te om Doel over uw context of producten te leren ](/help/main/c-recommendations/assets/intro-7.png)
+![&#x200B; Illustratie die hoe te om Doel over uw context of producten te leren &#x200B;](/help/main/c-recommendations/assets/intro-7.png)
 
 De eenvoudigste en meest gebruikte methode is het dagelijks of wekelijks verzenden van een CSV-bestand via uw systeem voor productinformatiebeheer of uw contentbeheersysteem. Maar u kunt ook informatie op de gegevenslaag van uw pagina doorgeven met behulp van de [!DNL Adobe Target] JavaScript-bibliotheek, onze API&#39;s gebruiken om informatie rechtstreeks door te geven van uw bronsysteem, of onze [!DNL Adobe Analytics] -integratie gebruiken als u al catalogusgegevens doorgeeft aan [!DNL Analytics] .
 
@@ -91,7 +91,7 @@ Uw IT-afdeling zal meestal betrokken zijn bij het instellen van deze stap.
 
 Welke methode u ook kiest, u zou meta-gegevens over elk punt in drie categorieën moeten omvatten:
 
-![ Illustratie die meta-gegevensinformatie voor uw catalogus toont ](/help/main/c-recommendations/assets/intro-8.png)
+![&#x200B; Illustratie die meta-gegevensinformatie voor uw catalogus toont &#x200B;](/help/main/c-recommendations/assets/intro-8.png)
 
 * Gegevens die u aan de gebruiker wilt tonen die de aanbeveling ontvangt. Bijvoorbeeld de naam van de film en een URL van een miniatuurafbeelding.
 * Gegevens die nuttig zijn voor het toepassen van marketing- en verkoopbesturingselementen. Bijvoorbeeld, de classificatie van de film zodat u geen films NC-17 adviseert.
@@ -101,17 +101,17 @@ Welke methode u ook kiest, u zou meta-gegevens over elk punt in drie categorieë
 
 Vervolgens moet u tags toevoegen of de bestaande [!DNL Analytics] -implementatie gebruiken om de conversiegebeurtenissen (zoals weergaven en aankopen) te volgen die de drijvende kracht zijn achter [!DNL Target] -algoritmen.
 
-![ Illustratie die hoe te om gebruikersgedrag ](/help/main/c-recommendations/assets/intro-9.png) te vangen tonen
+![&#x200B; Illustratie die hoe te om gebruikersgedrag &#x200B;](/help/main/c-recommendations/assets/intro-9.png) te vangen tonen
 
 U moet ervoor zorgen dat [!DNL Target] weet welke items uw gebruikers bekijken en aanschaffen. Als aankopen niet relevant zijn voor uw context, wilt u wellicht een ander type conversiegebeurtenis volgen, bijvoorbeeld het downloaden van een PDF, het voltooien van een enquête, het abonneren op een nieuwsbrief, het bekijken van een video enzovoort.
 
-Als u [!DNL Target] al gebruikt voor het uitvoeren van A/B-testactiviteiten op uw site, hebt u deze stap mogelijk al uitgevoerd. Of als u [!DNL Adobe Analytics] al gebruikt om bezoeken ter plaatse en omzettingsgedrag te melden, kunt u [!DNL Analytics] gebruiken als uw gedragsgegevensbron. Als niet, is het het gemakkelijkst om dit te plaatsen gebruikend een markeringsmanager zoals markeringen in [[!DNL Adobe Experience Platform] ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. Het is ook mogelijk om offline of in-app interacties naar [!DNL Target] te verzenden via real-time API.
+Als u [!DNL Target] al gebruikt voor het uitvoeren van A/B-testactiviteiten op uw site, hebt u deze stap mogelijk al uitgevoerd. Of als u [!DNL Adobe Analytics] al gebruikt om bezoeken ter plaatse en omzettingsgedrag te melden, kunt u [!DNL Analytics] gebruiken als uw gedragsgegevensbron. Als niet, is het het gemakkelijkst om dit te plaatsen gebruikend een markeringsmanager zoals markeringen in [[!DNL Adobe Experience Platform] &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. Het is ook mogelijk om offline of in-app interacties naar [!DNL Target] te verzenden via real-time API.
 
 ### Aanbevelingen ophalen met de juiste context
 
 Geef informatie over de gebruiker en de context op het punt van interactie door aan [!DNL Target] om relevante en gepersonaliseerde aanbevelingen terug te keren.
 
-![ Illustratie die hoe te om aanbevelingen met de juiste context te krijgen ](/help/main/c-recommendations/assets/intro-10.png) toont
+![&#x200B; Illustratie die hoe te om aanbevelingen met de juiste context te krijgen &#x200B;](/help/main/c-recommendations/assets/intro-10.png) toont
 
 Naast het gedrag van de gebruiker als geheel, moet u [!DNL Target] de specifieke context overgaan waar de aanbevelingen worden getoond. Dit omvat informatie over de pagina en informatie van het gebruikersprofiel. [!DNL Target] gebruikt deze informatie om gepersonaliseerde aanbevelingen te doen. Op een website in de detailhandel wilt u bijvoorbeeld weten welk product en welke productcategorie de bezoeker momenteel bekijkt. U wilt ook informatie over die gebruiker (favoriet merk, favoriete productcategorie, loyaliteitsrij, etc.) kennen. Deze informatie is belangrijk, zodat [!DNL Target] items kan filteren en de aanpassing van aanbevelingen kan verbeteren.
 
@@ -119,7 +119,7 @@ Naast het gedrag van de gebruiker als geheel, moet u [!DNL Target] de specifieke
 
 Wat is een [!DNL Recommendations] activiteit?
 
-![ Illustratie die de delen tonen die een goede raadsactiviteit ](/help/main/c-recommendations/assets/intro-11.png) maken
+![&#x200B; Illustratie die de delen tonen die een goede raadsactiviteit &#x200B;](/help/main/c-recommendations/assets/intro-11.png) maken
 
 Een [!DNL Recommendations] -activiteit bestaat uit de volgende componenten:
 
@@ -127,17 +127,17 @@ Een [!DNL Recommendations] -activiteit bestaat uit de volgende componenten:
 * **Criteria**: Welke punten zouden moeten worden geadviseerd?
 * **Ontwerp**: Hoe zouden de geadviseerde punten moeten worden getoond?
 
-![ Illustratie die toont wat omhoog een aanbevelingen activiteit maakt: Soorten publiek, Criteria, en Ontwerpen ](/help/main/c-recommendations/assets/intro-12.png)
+![&#x200B; Illustratie die toont wat omhoog een aanbevelingen activiteit maakt: Soorten publiek, Criteria, en Ontwerpen &#x200B;](/help/main/c-recommendations/assets/intro-12.png)
 
 [!DNL Target] beschikt over 14 geïntegreerde doelgroepen, 42 ingebouwde criteria en 10 ingebouwde ontwerpsjablonen. U kunt elk van deze items aanpassen of uw eigen items toevoegen.
 
 [!DNL Target] gebruikt het concept van de criteria kaart. Een kaart met criteria is als een recept voor personalisatie.
 
-![ de kaartillustratie van Criteria ](/help/main/c-recommendations/assets/intro-13.png)
+![&#x200B; de kaartillustratie van Criteria &#x200B;](/help/main/c-recommendations/assets/intro-13.png)
 
 Het is belangrijk om de juiste criteria te kiezen of te creëren om de personalisatieresultaten te bereiken u wenst. Een criterium is als een funnel die je van de hele catalogus naar de laatste reeks aanbevelingen brengt.
 
-![ de illustratie van Funnel ](/help/main/c-recommendations/assets/intro-14.png)
+![&#x200B; de illustratie van Funnel &#x200B;](/help/main/c-recommendations/assets/intro-14.png)
 
 In de volgende secties worden de verschillende onderdelen van deze funnel beschreven en wordt beschreven hoe deze werken in [!DNL Target] :
 
@@ -145,7 +145,7 @@ In de volgende secties worden de verschillende onderdelen van deze funnel beschr
 
 Statische filters zijn globaal toepasbare regels met betrekking tot cataloguskenmerken die u niet verwacht vaak te wijzigen.
 
-![ Inzamelingen en uitsluitingen illustratie ](/help/main/c-recommendations/assets/intro-16.png)
+![&#x200B; Inzamelingen en uitsluitingen illustratie &#x200B;](/help/main/c-recommendations/assets/intro-16.png)
 
 Bijvoorbeeld, in een inhoudscontext, zou u alle films in aanbevelingen kunnen willen omvatten, maar films die NC-17 worden beoordeeld uitsluiten. In een handelscontext, zou u veelvoudige merken in verschillende delen van de wereld kunnen hebben, maar u wilt slechts producten adviseren beschikbaar in de Verenigde Staten. U kunt ook producten van een regionaal privé-label uitsluiten.
 
@@ -155,7 +155,7 @@ Dit zijn alle catalogusattributen die globaal van toepassing zijn die u in veelv
 
 De volgende stap bestaat uit het kiezen van een advisesleutel en logica. Hier bepaalt u wat de basis voor uw aanbeveling is.
 
-![ de illustratie van het Algoritme ](/help/main/c-recommendations/assets/intro-17.png)
+![&#x200B; de illustratie van het Algoritme &#x200B;](/help/main/c-recommendations/assets/intro-17.png)
 
 Het eerste wat u moet kiezen is de raadssleutel. De sleutel van de aanbeveling is wat u &quot;omhoog&quot;kijkt om de aanbeveling te kiezen. Daar baseert u uw aanbeveling op.
 
@@ -175,7 +175,7 @@ Op basis van deze toetsen kiest u vervolgens de gewenste logica voor de aanbevel
 
 Uit het vak bevat [!DNL Target] een portfolio met algoritmen.
 
-![ Portfolio van algoritmen illustratie ](/help/main/c-recommendations/assets/intro-15.png)
+![&#x200B; Portfolio van algoritmen illustratie &#x200B;](/help/main/c-recommendations/assets/intro-15.png)
 
 * **op populariteit-gebaseerde algoritmen** omvatten Meest bekeken en Hoogste Verkopers.
 * **op inhoud-gebaseerde algoritmen** omvatten de Gelijkwaardigheid van de Inhoud.
@@ -187,7 +187,7 @@ Uit het vak bevat [!DNL Target] een portfolio met algoritmen.
 
 De laatste stap is het toepassen van online bedrijfsregels. Op deze manier kunt u algoritmen in staat stellen om domeinkennis en de huidige context te gebruiken op basis van wat de bezoeker doet voor uw digitale eigenschap.
 
-![ Online-zaken de illustratie van regels ](/help/main/c-recommendations/assets/intro-18.png)
+![&#x200B; Online-zaken de illustratie van regels &#x200B;](/help/main/c-recommendations/assets/intro-18.png)
 
 In de context van de inhoud kunt u bijvoorbeeld films uitsluiten die de bezoeker eerder heeft bekeken, films van dezelfde regisseur aanbevelen of films in hetzelfde genre stimuleren. In de detailhandel, zou u uit-van-voorraad producten kunnen willen uitsluiten, punten in een prijswaaier van $5 tot $500 tonen, of voorwerpen van het zelfde merk verhogen.
 
