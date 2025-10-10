@@ -2,7 +2,7 @@
 keywords: Aanbevelingen;intro;introductie;webinar;demo
 description: Leer over de activiteiten van Aanbevelingen in Adobe  [!DNL Target]  die automatisch inhoud tonen die uw klanten zou kunnen interesseren die op vorige gebruikersactiviteit of andere algoritmen wordt gebaseerd.
 title: Wat zijn activiteiten met aanbevelingen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Kijk wat er in Target Premium is opgenomen."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 source-git-commit: fd0ae95b63b924471247ab7155363bf0ba1e617c
@@ -105,7 +105,7 @@ Vervolgens moet u tags toevoegen of de bestaande [!DNL Analytics] -implementatie
 
 U moet ervoor zorgen dat [!DNL Target] weet welke items uw gebruikers bekijken en aanschaffen. Als aankopen niet relevant zijn voor uw context, wilt u wellicht een ander type conversiegebeurtenis volgen, bijvoorbeeld het downloaden van een PDF, het voltooien van een enquête, het abonneren op een nieuwsbrief, het bekijken van een video enzovoort.
 
-Als u [!DNL Target] al gebruikt voor het uitvoeren van A/B-testactiviteiten op uw site, hebt u deze stap mogelijk al uitgevoerd. Of als u [!DNL Adobe Analytics] al gebruikt om bezoeken ter plaatse en omzettingsgedrag te melden, kunt u [!DNL Analytics] gebruiken als uw gedragsgegevensbron. Als niet, is het het gemakkelijkst om dit te plaatsen gebruikend een markeringsmanager zoals markeringen in [[!DNL Adobe Experience Platform] &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. Het is ook mogelijk om offline of in-app interacties naar [!DNL Target] te verzenden via real-time API.
+Als u [!DNL Target] al gebruikt voor het uitvoeren van A/B-testactiviteiten op uw site, hebt u deze stap mogelijk al uitgevoerd. Of als u [!DNL Adobe Analytics] al gebruikt om bezoeken ter plaatse en omzettingsgedrag te melden, kunt u [!DNL Analytics] gebruiken als uw gedragsgegevensbron. Als niet, is het het gemakkelijkst om dit te plaatsen gebruikend een markeringsmanager zoals markeringen in [[!DNL Adobe Experience Platform] &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=nl-NL){target=_blank}. Het is ook mogelijk om offline of in-app interacties naar [!DNL Target] te verzenden via real-time API.
 
 ### Aanbevelingen ophalen met de juiste context
 
