@@ -25,7 +25,7 @@ Met [!UICONTROL Multivariate Test] -activiteiten kunt u ook samengestelde effect
 
 In [!DNL Target] is elke combinatie één ervaring. In [!UICONTROL Multivariate Test] wordt elke ervaring vergeleken, zodat u kunt zien welke combinaties het meest succesvol zijn. Tegelijkertijd worden gegevens verzameld en geanalyseerd om te begrijpen hoe elke locatie en de aanbiedingen invloed hebben op de succesmaatstaf.
 
-![ multivariate beeld ](assets/multivariate.png)
+![&#x200B; multivariate beeld &#x200B;](assets/multivariate.png)
 
 Vanwege het aantal combinaties dat kan worden gegenereerd, vereist een [!UICONTROL Multivariate Test] meer tijd en verkeer dan een A/B-test. De pagina moet voldoende verkeer krijgen om statistisch significante resultaten voor elke ervaring te produceren. Om nuttige resultaten te verkrijgen, moet u begrijpen hoeveel verkeer uw pagina ontvangt en het optimale aantal combinaties voor de juiste hoeveelheid tijd testen om de vereiste resultaten te krijgen.
 
@@ -72,7 +72,7 @@ U kunt meerdere tests gebruiken in combinatie met A/B-tests om de pagina te opti
 ## Partiële factoriële tests
 
 [!DNL Target] biedt multivariate testen in volledige fabrieken als ingebouwde optie voor activiteit. In de statistiek
-Het &quot;ontwerp van Experimenten&quot;biedt vele benaderingen, of ontwerpen, om te bepalen welke factoren de resultaten beïnvloeden. Één dergelijke benadering is de [ Methode Taguchi ](https://en.wikipedia.org/wiki/Taguchi_methods) voor gedeeltelijk-factoriële het testen. Met Taguchi kunnen marketers een set veronderstellingen maken die het aantal permutaties van ervaringen die getest moeten worden verminderen, en op hun beurt de verkeersvereisten voor een multivariate test verminderen. Deze functionaliteit en het testen benadering kunnen in [!DNL Target] worden toegepast gebruikend dit [ off-line spreadsheet ](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
+Het &quot;ontwerp van Experimenten&quot;biedt vele benaderingen, of ontwerpen, om te bepalen welke factoren de resultaten beïnvloeden. Één dergelijke benadering is de [&#x200B; Methode Taguchi &#x200B;](https://en.wikipedia.org/wiki/Taguchi_methods) voor gedeeltelijk-factoriële het testen. Met Taguchi kunnen marketers een set veronderstellingen maken die het aantal permutaties van ervaringen die getest moeten worden verminderen, en op hun beurt de verkeersvereisten voor een multivariate test verminderen. Deze functionaliteit en het testen benadering kunnen in [!DNL Target] worden toegepast gebruikend dit [&#x200B; off-line spreadsheet &#x200B;](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
 Als uw team andere benaderingen van het Ontwerp van Experimenten gebruikt, kunt u deze berekeningsspreadsheet als verwijzingsimplementatie voor douaneexperimentontwerpen gebruiken.
 
@@ -81,16 +81,16 @@ Houd rekening met de volgende tips wanneer u het werkblad voor offlineberekening
 * Kies de elementen die u wilt wijzigen en het aantal versies van elk element (3x2, 4x3, enzovoort).
 * Houd de nummering consistent. Als de knop bijvoorbeeld Element 1 is en de opties Blauw, Groen en Geel zijn, is de blauwe knop 1-1, de groene knop 1-2 en de gele knop 1-3.
 * Het offline werkblad biedt het juiste aantal benodigde ervaringen (vier voor een 3x2, negen voor een 4x3 enzovoort).
-* Bouw de ervaringen in het A/B- werkschema met [ Visuele Composer van de Ervaring (VEC) ](/help/main/c-experiences/experiences.md). U kunt aangepaste code gebruiken, HTML, WYSIWYG of een willekeurige combinatie bewerken.
+* Bouw de ervaringen in het A/B- werkschema met [&#x200B; Visuele Composer van de Ervaring (VEC) &#x200B;](/help/main/c-experiences/experiences.md). U kunt aangepaste code gebruiken, HTML, WYSIWYG of een willekeurige combinatie bewerken.
 * Nadat de activiteit (die op de calculator van de steekproefgrootte wordt gebaseerd) voorbij is, stel de resultaten door spreadsheet in werking om de andere details te krijgen.
 
-Voor meer overwegingen en beste praktijken, zie [ Multivariate Beste praktijken van de Test ](/help/main/c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
+Voor meer overwegingen en beste praktijken, zie [&#x200B; Multivariate Beste praktijken van de Test &#x200B;](/help/main/c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
 
 ## Trainingsvideo&#39;s
 
 De volgende video&#39;s bevatten meer informatie over de concepten die in dit artikel worden besproken.
 
-### De Types van activiteit (9 :03) ![ badge van het Overzicht ](/help/main/assets/overview.png)
+### De Types van activiteit (9 :03) ![&#x200B; badge van het Overzicht &#x200B;](/help/main/assets/overview.png)
 
 In deze overzichtsvideo worden de activiteitstypen uitgelegd die beschikbaar zijn in [!DNL Target] . Het multivariate testen wordt besproken begin bij 4 :20.
 
@@ -100,7 +100,7 @@ In deze overzichtsvideo worden de activiteitstypen uitgelegd die beschikbaar zij
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Creërend Multivariate Tests (9 :25) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+### Creërend Multivariate Tests (9 :25) ![&#x200B; badge van het Leerprogramma &#x200B;](/help/main/assets/tutorial.png)
 
 Deze video verklaart hoe te, een multivariate test te begrijpen te plannen en tot stand te brengen gebruikend het  driestapel geleide werkschema van het Doel.
 

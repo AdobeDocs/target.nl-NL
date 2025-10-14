@@ -20,7 +20,7 @@ De betrokkenheid en conversies van de aandrijving in [!DNL Adobe Target] met [!D
 
 ## Vereisten
 
-1. Zorg ervoor dat u de in de eerste plaats vereiste taken in [ toelatend  [!DNL Adobe Experience Platform] [!DNL AI Assistant] in  [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md) hebt voltooid.
+1. Zorg ervoor dat u de in de eerste plaats vereiste taken in [&#x200B; toelatend  [!DNL Adobe Experience Platform] [!DNL AI Assistant] in  [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md) hebt voltooid.
 
    * Uw organisatie moet eerst instemmen met juridische voorwaarden. Neem voor meer informatie contact op met uw Adobe-accountteam.
    * Uw beheerders moeten u voldoende toegangsrechten verlenen om [!DNL AI Assistant] te kunnen gebruiken.
@@ -29,23 +29,23 @@ De betrokkenheid en conversies van de aandrijving in [!DNL Adobe Target] met [!D
 
 U kunt als volgt aansprekende tekst genereren met [!DNL AI Assistant] :
 
-1. Van binnen [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) (VEC), klik **[!UICONTROL Show Content Assistant]** ( ![ toon het Hulppictogram van de Inhoud ](/help/main/assets/icons/MagicWand.svg)) pictogram in het juiste spoor van VEC UI.
+1. Van binnen [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) (VEC), klik **[!UICONTROL Show Content Assistant]** ( ![&#x200B; toon het Hulppictogram van de Inhoud &#x200B;](/help/main/assets/icons/MagicWand.svg)) pictogram in het juiste spoor van VEC UI.
 
-   ![ toon het Hulppictogram van de Inhoud ](/help/main/c-intro/assets/ai-assistant-conntet-generation-icon.png)
+   ![&#x200B; toon het Hulppictogram van de Inhoud &#x200B;](/help/main/c-intro/assets/ai-assistant-conntet-generation-icon.png)
 
 1. Klik op het tekstelement dat u wilt verhogen met [!DNL AI Assistant] .
 
    Als u bijvoorbeeld de hoofdtekst wilt wijzigen, klikt u op &quot;Volgende ophalen plannen&quot; om de tekstopties weer te geven.
 
-   ![ ruit van de Montages van de Tekst ](/help/main/c-intro/assets/ai-text-settings.png)
+   ![&#x200B; ruit van de Montages van de Tekst &#x200B;](/help/main/c-intro/assets/ai-text-settings.png)
 
-1. (Optioneel) Klik op het **pictogram Volledig scherm** ( ![ pictogram Volledig scherm ](/help/main/assets/icons/FullScreen.svg) ) om uit te breiden [!DNL AI Assistant] .
+1. (Optioneel) Klik op het **pictogram Volledig scherm** ( ![&#x200B; pictogram Volledig scherm &#x200B;](/help/main/assets/icons/FullScreen.svg) ) om uit te breiden [!DNL AI Assistant] .
 
 1. Beschrijf in het vak **[!UICONTROL Prompt]** de tekst die u wilt genereren.
 
    Voor een seizoensgebonden vakantieverkoop kunt u bijvoorbeeld &quot;Schrijf engagerende hoofdtekst die reclame maakt voor een zomervakantie met beperkte tijd&quot; typen.
 
-   Zie [ variaties van het Voorbeeld ](#variations) hieronder om te zien hoe [!DNL AI Assistant] een eenvoudige herinnering in het fascineren, langer-vorm en exemplaar voor een opwindend NYC avontuur transformeert.
+   Zie [&#x200B; variaties van het Voorbeeld &#x200B;](#variations) hieronder om te zien hoe [!DNL AI Assistant] een eenvoudige herinnering in het fascineren, langer-vorm en exemplaar voor een opwindend NYC avontuur transformeert.
 
 1. Klik op het pictogram **[!UICONTROL Text Settings]** om de toon- en communicatiestrategie van uw tekst op te geven.
 
@@ -67,21 +67,21 @@ U kunt als volgt aansprekende tekst genereren met [!DNL AI Assistant] :
 
 1. Klik op **[!UICONTROL Generate]** om een lijst met tekstvariaties te maken.
 
-   ![ AI Hulpvariaties van de teksttekst ](/help/main/c-intro/assets/ai-variations-text.png)
+   ![&#x200B; AI Hulpvariaties van de teksttekst &#x200B;](/help/main/c-intro/assets/ai-variations-text.png)
 
 1. Klik op **[!UICONTROL Apply]** om de gewenste tekstvariatie te selecteren.
 
    U kunt ook op **[!UICONTROL Preview]** klikken om verschillende variaties weer te geven. Klik op de gewenste variant en klik vervolgens op **[!UICONTROL Select]** .
 
-   ![ AI Medewerker met geproduceerde tekst ](/help/main/c-intro/assets/ai-text-done.png)
+   ![&#x200B; AI Medewerker met geproduceerde tekst &#x200B;](/help/main/c-intro/assets/ai-text-done.png)
 
-1. (Voorwaardelijk) klik het [!UICONTROL Undo] pictogram ( ![ ongedaan maken pictogram ](/help/main/assets/icons/Undo.svg)) om veranderingen om te keren.
+1. (Voorwaardelijk) klik het [!UICONTROL Undo] pictogram ( ![&#x200B; ongedaan maken pictogram &#x200B;](/help/main/assets/icons/Undo.svg)) om veranderingen om te keren.
 
 1. (Optioneel) Geef feedback aan de [!DNL AI Assistant] .
 
-   * Klik op het pictogram Duimels omhoog ( ![ duimen omhoog ](/help/main/assets/icons/ThumbUp.svg) ) om [!DNL AI Assistant] te vertellen dat u van de variatie houdt.
-   * Klik onderaan duimen ( ![ duimen onderaan pictogram ](/help/main/assets/icons/ThumbDown.svg)) pictogram om [!DNL AI Assistant] te vertellen dat u niet van de variatie houdt.
-   * Klik het [!UICONTROL Report Results] ( ![ pictogram van de Resultaten van het Rapport ](/help/main/assets/icons/Flag.svg)) pictogram om een kwestie aan [!DNL AI Assistant] te melden.
+   * Klik op het pictogram Duimels omhoog ( ![&#x200B; duimen omhoog &#x200B;](/help/main/assets/icons/ThumbUp.svg) ) om [!DNL AI Assistant] te vertellen dat u van de variatie houdt.
+   * Klik onderaan duimen ( ![&#x200B; duimen onderaan pictogram &#x200B;](/help/main/assets/icons/ThumbDown.svg)) pictogram om [!DNL AI Assistant] te vertellen dat u niet van de variatie houdt.
+   * Klik het [!UICONTROL Report Results] ( ![&#x200B; pictogram van de Resultaten van het Rapport &#x200B;](/help/main/assets/icons/Flag.svg)) pictogram om een kwestie aan [!DNL AI Assistant] te melden.
 
 ## Voorbeelden van variaties {#variations}
 

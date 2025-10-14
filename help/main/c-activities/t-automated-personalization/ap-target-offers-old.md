@@ -30,16 +30,16 @@ In dit scenario ziet bezoeker 1 aanbod 1 (omdat deze bezoeker in aanmerking komt
 
 ## Doelstellingen instellen
 
-1. Creeer een [ activiteit van Automated Personalization ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) die de aanbiedingen bevat die u wilt richten.
+1. Creeer een [&#x200B; activiteit van Automated Personalization &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) die de aanbiedingen bevat die u wilt richten.
 1. Klik op [!UICONTROL Visual Experience Composer] nadat u de aanbiedingen voor de activiteit in de **[!UICONTROL Manage Content]** hebt ingesteld.
 
-   ![ beheert Inhoud ](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
+   ![&#x200B; beheert Inhoud &#x200B;](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
 
    Het dialoogvenster [!UICONTROL Manage Content] wordt weergegeven.
 
 1. Klik op de tab **[!UICONTROL Offers]** .
 
-   ![ pagina van Aanbiedingen ](/help/main/c-activities/t-automated-personalization/assets/manage-content-offers.png)
+   ![&#x200B; pagina van Aanbiedingen &#x200B;](/help/main/c-activities/t-automated-personalization/assets/manage-content-offers.png)
 
 1. Selecteer de gewenste aanbiedingen en kies vervolgens het publiek dat u in aanmerking wilt nemen om dat aanbod te zien.
 
@@ -51,7 +51,7 @@ In dit scenario ziet bezoeker 1 aanbod 1 (omdat deze bezoeker in aanmerking komt
 
    >[!NOTE]
    >
-   >Naast het selecteren van een bestaand publiek kunt u meerdere soorten publiek combineren om een gecombineerd ad-hocpubliek te maken in plaats van een nieuw publiek te maken. Voor meer informatie, zie [ Combinerend Veelvoudige Soorten publiek ](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   >Naast het selecteren van een bestaand publiek kunt u meerdere soorten publiek combineren om een gecombineerd ad-hocpubliek te maken in plaats van een nieuw publiek te maken. Voor meer informatie, zie [&#x200B; Combinerend Veelvoudige Soorten publiek &#x200B;](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
 1. Klik op **[!UICONTROL Done]**.
 

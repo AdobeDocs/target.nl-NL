@@ -33,8 +33,8 @@ In [!DNL Target] hebt u momenteel toegang tot de volgende gebruiksgevallen:
 
 ## Volgende stappen
 
-1. Voltooi de eerste vereiste taken in [ laat de Medewerker van Adobe Experience Platform AI in Adobe Target ](/help/main/c-intro/enabling-ai-assistant.md) toe.
-1. Begin gebruikend AI Medewerker door vragen te stellen, zoals die in [ Medewerker van het Gebruik AI in Adobe Target worden verklaard om productkennis ](/help/main/c-intro/ai-assistant-product-knowledge.md) te leren.
+1. Voltooi de eerste vereiste taken in [&#x200B; laat de Medewerker van Adobe Experience Platform AI in Adobe Target &#x200B;](/help/main/c-intro/enabling-ai-assistant.md) toe.
+1. Begin gebruikend AI Medewerker door vragen te stellen, zoals die in [&#x200B; Medewerker van het Gebruik AI in Adobe Target worden verklaard om productkennis &#x200B;](/help/main/c-intro/ai-assistant-product-knowledge.md) te leren.
 
 ## [!DNL AI Assistant] documentatie
 
@@ -42,10 +42,10 @@ Zie de volgende artikelen voor meer informatie over [!DNL AI Assistant] die is o
 
 | Onderwerp | Beschrijving |
 | --- | --- |
-| [[!DNL AI Assistant]  in  [!DNL Adobe Experience Platform] ](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home){target=_blank} | Meer informatie over [!DNL AI Assistant] functionaliteit. Er wordt een &#39;Hoe kan ik&#39;-video opgenomen. |
-| [ Toegang  [!DNL AI Assistant]  in  [!DNL Experience Platform] ](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/access){target=_blank} | Leer hoe u [!DNL AI Assistant] kunt openen voor uw organisatie en haar gebruikers. |
-| [ gids van de Vraag voor  [!DNL AI Assistant] ](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/questions){target=_blank} | Bekijk voorbeeldvragen die u kunt gebruiken bij het opvragen van [!DNL AI Assistant] . |
-| [[!DNL AI Assistant]  Gids UI ](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/ui-guide){target=_blank} | Leer hoe u [!DNL AI Assistant] kunt gebruiken in de gebruikersinterface van [!DNL Adobe Experience Platform] . |
-| [ Privacy, Veiligheid, en Bestuur in  [!DNL AI Assistant] ](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/privacy){target=_blank} | Leer hoe [!DNL AI Assistant] in [!DNL Adobe Experience Platform] met privacy, veiligheid, en bestuur bij de voorgrond wordt gebouwd. Meer informatie over de vertrouwensgerichte mogelijkheden van de klant die u van [!DNL AI Assistant] kunt verwachten. |
-| [ Veelgestelde vragen ](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/faq){target=_blank} | Lees antwoorden op veelgestelde vragen over [!DNL AI Assistant] . |
-| [[!DNL Adobe Experience Platform]  versienota&#39;s ](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/latest){target=_blank} | Lees meer over updates van bestaande functies en documentatie in [!DNL Adobe Experience Platform] , inclusief [!DNL AI Assistant] . |
+| [[!DNL AI Assistant]  in  [!DNL Adobe Experience Platform] &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home){target=_blank} | Meer informatie over [!DNL AI Assistant] functionaliteit. Er wordt een &#39;Hoe kan ik&#39;-video opgenomen. |
+| [&#x200B; Toegang  [!DNL AI Assistant]  in  [!DNL Experience Platform] &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/access){target=_blank} | Leer hoe u [!DNL AI Assistant] kunt openen voor uw organisatie en haar gebruikers. |
+| [&#x200B; gids van de Vraag voor  [!DNL AI Assistant] &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/questions){target=_blank} | Bekijk voorbeeldvragen die u kunt gebruiken bij het opvragen van [!DNL AI Assistant] . |
+| [[!DNL AI Assistant]  Gids UI &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/ui-guide){target=_blank} | Leer hoe u [!DNL AI Assistant] kunt gebruiken in de gebruikersinterface van [!DNL Adobe Experience Platform] . |
+| [&#x200B; Privacy, Veiligheid, en Bestuur in  [!DNL AI Assistant] &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/privacy){target=_blank} | Leer hoe [!DNL AI Assistant] in [!DNL Adobe Experience Platform] met privacy, veiligheid, en bestuur bij de voorgrond wordt gebouwd. Meer informatie over de vertrouwensgerichte mogelijkheden van de klant die u van [!DNL AI Assistant] kunt verwachten. |
+| [&#x200B; Veelgestelde vragen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/faq){target=_blank} | Lees antwoorden op veelgestelde vragen over [!DNL AI Assistant] . |
+| [[!DNL Adobe Experience Platform]  versienota&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/latest){target=_blank} | Lees meer over updates van bestaande functies en documentatie in [!DNL Adobe Experience Platform] , inclusief [!DNL AI Assistant] . |

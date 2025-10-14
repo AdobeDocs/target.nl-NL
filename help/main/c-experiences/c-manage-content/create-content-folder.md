@@ -25,11 +25,11 @@ Het proces voor het maken van mappen voor codeaanbiedingen en afbeeldingsaanbied
 
 1. Geef een beschrijvende naam op voor de map.
 
-1. (Voorwaardelijk) als u a [ Target Premium ](/help/main/c-intro/intro.md#premium) rekening en gebruiks [ werkruimten ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC) hebt, selecteer een werkruimte.
+1. (Voorwaardelijk) als u a [&#x200B; Target Premium &#x200B;](/help/main/c-intro/intro.md#premium) rekening en gebruiks [&#x200B; werkruimten &#x200B;](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC) hebt, selecteer een werkruimte.
 
 1. Klik op **[!UICONTROL Create]**.
 
-Voor informatie over de taken kunt u op aanbiedingen en omslagen uitvoeren, zie [ Werk met inhoud in de bibliotheek van Activa ](/help/main/c-experiences/c-manage-content/assets-working.md).
+Voor informatie over de taken kunt u op aanbiedingen en omslagen uitvoeren, zie [&#x200B; Werk met inhoud in de bibliotheek van Activa &#x200B;](/help/main/c-experiences/c-manage-content/assets-working.md).
 
 ## [!UICONTROL Image Offer] mappen
 
@@ -51,6 +51,6 @@ Voor informatie over de taken kunt u op aanbiedingen en omslagen uitvoeren, zie 
 
 >[!NOTE]
 >
->De aanbiedingen van het beeld maken geen deel uit van het [ model van de Toestemmingen van de Gebruiker van de Onderneming ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+>De aanbiedingen van het beeld maken geen deel uit van het [&#x200B; model van de Toestemmingen van de Gebruiker van de Onderneming &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-Voor informatie over de taken kunt u op aanbiedingen en omslagen uitvoeren, zie [ Werk met inhoud in de bibliotheek van Activa ](/help/main/c-experiences/c-manage-content/assets-working.md).
+Voor informatie over de taken kunt u op aanbiedingen en omslagen uitvoeren, zie [&#x200B; Werk met inhoud in de bibliotheek van Activa &#x200B;](/help/main/c-experiences/c-manage-content/assets-working.md).

@@ -17,7 +17,7 @@ Als uw [!DNL Adobe Target] activiteit niet op uw plaats verschijnt, zouden deze 
 
 >[!NOTE]
 >
->Naast de volgende het oplossen van problemeninformatie, zie [ Doel van het Oplossen van problemen ](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) voor verbindingen aan extra het oplossen van problemenonderwerpen, FAQs, en andere nuttige informatie over het oplossen van problemenactiviteiten en andere eigenschappen in [!DNL Adobe Target].
+>Naast de volgende het oplossen van problemeninformatie, zie [&#x200B; Doel van het Oplossen van problemen &#x200B;](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) voor verbindingen aan extra het oplossen van problemenonderwerpen, FAQs, en andere nuttige informatie over het oplossen van problemenactiviteiten en andere eigenschappen in [!DNL Adobe Target].
 
 De volgende secties bevatten problemen die u met voorgestelde oplossingen zou kunnen ontmoeten.
 
@@ -78,7 +78,7 @@ Nadat u als gebruiker in [!DNL Target] bent toegevoegd, moet u de [!UICONTROL Ap
 * Vraag de beheerder van uw account om van u een fiatteur te maken.
 * Geef uzelf de [!UICONTROL Approver] rol van **[!UICONTROL Administration]** > **[!UICONTROL Users]** in [!DNL Target] als u de beheerder bent.
 
-  Zie [ u toewijzen de Approver Rol ](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
+  Zie [&#x200B; u toewijzen de Approver Rol &#x200B;](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
 ## De structuur van de pagina is gewijzigd sinds het instellen van de activiteit.
 
@@ -88,7 +88,7 @@ Nadat u als gebruiker in [!DNL Target] bent toegevoegd, moet u de [!UICONTROL Ap
 
 * Maak de activiteit opnieuw.
 
-Voor meer informatie over hoe de paginawijzigingen [!DNL Target] capaciteit beïnvloeden om te tonen, zie [ Scenario&#39;s van de Wijziging van de Pagina ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Voor meer informatie over hoe de paginawijzigingen [!DNL Target] capaciteit beïnvloeden om te tonen, zie [&#x200B; Scenario&#39;s van de Wijziging van de Pagina &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## De structuur van de pagina wordt gewijzigd tijdens het laden van de pagina (bij uitvoering).
 
@@ -101,7 +101,7 @@ Voor meer informatie over hoe de paginawijzigingen [!DNL Target] capaciteit beï
 * Werk paginacode bij om elk element uniek te identificeren dat wordt getest (gebruikend identiteitskaart).
 * Hiermee wordt gestopt met het dynamisch wijzigen van de klasse of op hetzelfde niveau als hierboven is beschreven.
 
-Voor meer informatie over hoe de paginawijzigingen [!DNL Target] capaciteit beïnvloeden om te tonen, zie [ Scenario&#39;s van de Wijziging van de Pagina ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Voor meer informatie over hoe de paginawijzigingen [!DNL Target] capaciteit beïnvloeden om te tonen, zie [&#x200B; Scenario&#39;s van de Wijziging van de Pagina &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Andere activiteiten worden uitgevoerd op dezelfde pagina.
 

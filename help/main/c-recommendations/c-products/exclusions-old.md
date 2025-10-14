@@ -29,21 +29,21 @@ Enkele voorbeelden van de tijden u uitsluitingen zou gebruiken omvatten:
 >
 >Uitsluitingsregels worden globaal toegepast op alle omgevingen.
 >
->Statische en dynamische uitsluitingsregels zijn krachtige functies die u kunnen helpen bij uw marketinginspanningen. Voor gedetailleerde informatie, voorbeelden, en gebruik-case scenario&#39;s, zie [ Dynamische en Statische Regels van de Opname van het Gebruik ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
+>Statische en dynamische uitsluitingsregels zijn krachtige functies die u kunnen helpen bij uw marketinginspanningen. Voor gedetailleerde informatie, voorbeelden, en gebruik-case scenario&#39;s, zie [&#x200B; Dynamische en Statische Regels van de Opname van het Gebruik &#x200B;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
 ## Een uitsluiting maken
 
 1. Klik op **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** om de lijst met bestaande uitsluitingen weer te geven.
 
-   ![ exclusion_list beeld ](assets/exclusions_list.png)
+   ![&#x200B; exclusion_list beeld &#x200B;](assets/exclusions_list.png)
 
-   Het &quot;Aantal Punten&quot;voor elke uitsluiting op de [!UICONTROL Exclusions] lijstmening wordt gemeld is het aantal producten die de regels voor die uitsluiting aanpassen binnen de gevormde standaardgroep van Aanbevelingen [&#128279;](/help/main/administrating-target/hosts.md) (milieu). Zie [ Montages ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} om de standaardgastheergroep te veranderen.
+   Het &quot;Aantal Punten&quot;voor elke uitsluiting op de [!UICONTROL Exclusions] lijstmening wordt gemeld is het aantal producten die de regels voor die uitsluiting aanpassen binnen de gevormde standaardgroep van Aanbevelingen [&#128279;](/help/main/administrating-target/hosts.md) (milieu). Zie [&#x200B; Montages &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} om de standaardgastheergroep te veranderen.
 
 1. Klik op **[!UICONTROL Create Exclusion]**.
 
 1. (Voorwaardelijk) Kies een omgeving van het filter **[!UICONTROL Environment]** wanneer u een uitsluiting maakt (of bijwerkt) om een voorvertoning van de inhoud van de uitsluiting in die omgeving weer te geven. Standaard worden de resultaten van de standaardhostgroep weergegeven.
 
-   ![ creeer Uitsluiting ](/help/main/c-recommendations/c-products/assets/CreateExclusion.png)
+   ![&#x200B; creeer Uitsluiting &#x200B;](/help/main/c-recommendations/c-products/assets/CreateExclusion.png)
 
 1. Typ een uitsluiting **[!UICONTROL Name]** en voer een optionele beschrijving in.
 
@@ -55,9 +55,9 @@ Enkele voorbeelden van de tijden u uitsluitingen zou gebruiken omvatten:
 
 ## Een uitsluiting maken met Geavanceerd zoeken
 
-U kunt uitsluitingen ook tot stand brengen gebruikend [!UICONTROL Advanced Search] op de [ pagina van het Onderzoek van de Catalogus ](/help/main/c-recommendations/c-products/catalog-search.md#save-as) ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+U kunt uitsluitingen ook tot stand brengen gebruikend [!UICONTROL Advanced Search] op de [&#x200B; pagina van het Onderzoek van de Catalogus &#x200B;](/help/main/c-recommendations/c-products/catalog-search.md#save-as) ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
-![ sparen als dialoog ](/help/main/c-recommendations/c-products/assets/save-as.png)
+![&#x200B; sparen als dialoog &#x200B;](/help/main/c-recommendations/c-products/assets/save-as.png)
 
 Nadat u een zoekopdracht hebt gemaakt met &#39;id > contains&#39;, kunt u bijvoorbeeld op [!UICONTROL Save As] > [!UICONTROL Exclusion] klikken.
 
@@ -69,13 +69,13 @@ Nadat u een zoekopdracht hebt gemaakt met &#39;id > contains&#39;, kunt u bijvoo
 
 Houd de muisaanwijzer boven de gewenste uitsluiting in de lijst en klik op het juiste pictogram: bewerken, kopiëren of verwijderen.
 
-![ pictogrammen van de Bedekking voor een uitsluiting ](/help/main/c-recommendations/c-products/assets/hover-exclusions.png)
+![&#x200B; pictogrammen van de Bedekking voor een uitsluiting &#x200B;](/help/main/c-recommendations/c-products/assets/hover-exclusions.png)
 
 U kunt een bestaande uitsluiting kopiëren om een dubbele uitsluiting te maken die u vervolgens kunt wijzigen. Hierdoor kunt u een vergelijkbare uitsluiting maken met minder moeite.
 
 Houd er rekening mee dat uitsluitingen beschikbaar zijn voor de gehele account. Zorg ervoor dat u hiermee rekening houdt voordat u een uitsluiting verwijdert. Verwijderde uitsluitingen kunnen niet worden hersteld.
 
-## De video van de opleiding: Creeer inzamelingen en uitsluitingen in Aanbevelingen (7 :05) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: Creeer inzamelingen en uitsluitingen in Aanbevelingen (7 :05) ![&#x200B; badge van het Leerprogramma &#x200B;](/help/main/assets/tutorial.png)
 
 Deze video bevat de volgende informatie:
 

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Aangepaste parameters zijn de parameters mbox in [!DNL Adobe Target] . Wanneer u parameters van het selectiekader doorgeeft aan selectievakjes of de functie `targetPageParams` gebruikt, worden deze parameters hier weergegeven voor gebruik bij het publiek.
 
-Voor meer informatie, zie [ parameters van de pas aan globale mbox ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=nl-NL){target=_blank}.
+Voor meer informatie, zie [&#x200B; parameters van de pas aan globale mbox &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=nl-NL){target=_blank}.
 
 Wanneer u een aangepast publiek maakt op basis van een mbox-parameter, vraagt `mboxParameter` niet langer om `mboxName` . De naam van het selectievakje is nu optioneel. Met deze wijziging kunt u parameters uit meerdere vakken gebruiken of verwijzen naar een parameter die nog niet op de rand is opgenomen.
 
@@ -54,13 +54,13 @@ Wanneer u een aangepast publiek maakt op basis van een mbox-parameter, vraagt `m
    * Beginnen met
    * Eindigt met
 
-   ![ de parameterpubliek van de Douane ](assets/custom.png)
+   ![&#x200B; de parameterpubliek van de Douane &#x200B;](assets/custom.png)
 
 1. Voer elke waarde op een nieuwe regel in.
 1. (Optioneel) Stel aanvullende regels voor het publiek in.
 1. Klik op **[!UICONTROL Done]**.
 
-De de definitiedetails van het publiek [ pop-up kaart ](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) toont de parameternaam in de **[!UICONTROL Rules]** sectie. Er is geen verwijzing naar de box die voor het filtreren wordt gebruikt.
+De de definitiedetails van het publiek [&#x200B; pop-up kaart &#x200B;](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) toont de parameternaam in de **[!UICONTROL Rules]** sectie. Er is geen verwijzing naar de box die voor het filtreren wordt gebruikt.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ De de definitiedetails van het publiek [ pop-up kaart ](/help/main/c-target/c-au
 * Soorten publiek en activiteiten worden voor een specifieke box geëvalueerd. Als de globale box bijvoorbeeld een bepaalde parameter doorgeeft, maar de regionale box niet, is de activiteit/het publiek die die parameter aanwijst niet gekwalificeerd voor de regionale box.
 * Het richten wordt niet geëvalueerd op interne mbox parameters, zoals mboxPC, mboxSession, mbox3rdPartyId, mboxMCSDID, mboxMCAVID, mboxMCGVID, mboxCount, mboxId, en mboxVersion.
 
-## De video van de opleiding: Creërend publiek ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: Creërend publiek ![&#x200B; badge van het Leerprogramma &#x200B;](/help/main/assets/tutorial.png)
 
 Deze video bevat informatie over het gebruik van publiekscategorieën.
 

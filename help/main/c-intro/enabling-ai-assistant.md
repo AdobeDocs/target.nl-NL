@@ -19,7 +19,7 @@ Informatie over de vereiste taken die uw organisatie moet uitvoeren voordat u [!
 
 Uw organisatie moet eerst akkoord gaan met aanvullende juridische voorwaarden om toegang te krijgen tot [!DNL AI Assistant] . Neem vervolgens contact op met uw Adobe-accountteam voor hulp bij deze voorwaarden.
 
-Voor meer informatie, zie [ Toegang  [!DNL AI Assistant]  in  [!DNL Experience Platform] ](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/access){target=_blank} in de *[!DNL Experience Platform]* documentatie.
+Voor meer informatie, zie [&#x200B; Toegang  [!DNL AI Assistant]  in  [!DNL Experience Platform] &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/access){target=_blank} in de *[!DNL Experience Platform]* documentatie.
 
 ## Gebruikersmachtigingen inschakelen voor [!UICONTROL AI Assistant]
 
@@ -34,11 +34,11 @@ Als u de functie [!UICONTROL AI Assistant] in [!UICONTROL Target] wilt gebruiken
 
    Er wordt een pop-upvenster met machtigingen weergegeven.
 
-   ![ AI Hulp montages ](/help/main/c-intro/assets/ai-pop-up2.png)
+   ![&#x200B; AI Hulp montages &#x200B;](/help/main/c-intro/assets/ai-pop-up2.png)
 
 1. Gebruik de schakeloptie om de machtiging **[!UICONTROL Target AI Assistant]** voor die gebruiker in of uit te schakelen.
 
-   ![ AI Hulp toestemmingen pop-up ](/help/main/c-intro/assets/ai-pop-up.png)
+   ![&#x200B; AI Hulp toestemmingen pop-up &#x200B;](/help/main/c-intro/assets/ai-pop-up.png)
 
    Zodra deze optie is ingeschakeld, heeft de gebruiker toegang tot de gebeurtenis [!UICONTROL AI Assistant] within [!DNL Target] . Alleen gebruikers met deze machtiging kunnen functies van [!UICONTROL AI Assistant] zien in hun [!DNL Target] -interface. Deze toestemming zorgt ervoor dat de toegang tot op AI-Gebaseerde hulpmiddelen wordt gecontroleerd en op het beleid van uw organisatie gericht.
 

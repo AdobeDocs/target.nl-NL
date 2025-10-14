@@ -20,7 +20,7 @@ Een rapport weergeven:
 1. Klik op **[!UICONTROL Activities]** en klik vervolgens op de gewenste activiteit in de lijst.
 1. Klik op de tab **[!UICONTROL Reports]** .
 
-   ![ UI van het Rapport ](/help/main/c-reports/c-report-settings/assets/report-ui-refresh.png)
+   ![&#x200B; UI van het Rapport &#x200B;](/help/main/c-reports/c-report-settings/assets/report-ui-refresh.png)
 
 ## Doelvoorinstelling {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
@@ -34,11 +34,11 @@ U kunt het rapport van een individuele activiteit ook vormen zoals gewenst en da
 
    De beschikbare instellingen, zoals metriek, datumbereiken, publiek, geavanceerde instellingen, enzovoort, worden hieronder uitgelegd.
 
-1. Naast **[!UICONTROL Target Preset]**, klik het **[!UICONTROL More Options]** ( ![ Meer pictogram van Opties ](/help/main/assets/icons/MoreSmallListVert.svg)) pictogram > **[!UICONTROL Save as New]**.
+1. Naast **[!UICONTROL Target Preset]**, klik het **[!UICONTROL More Options]** ( ![&#x200B; Meer pictogram van Opties &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)) pictogram > **[!UICONTROL Save as New]**.
 
    Het dialoogvenster [!UICONTROL Create Preset] wordt weergegeven.
 
-   ![ Nieuwe Vooraf ingestelde dialoogdoos ](/help/main/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
+   ![&#x200B; Nieuwe Vooraf ingestelde dialoogdoos &#x200B;](/help/main/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
 1. Controleer de informatie in de secties **[!UICONTROL Filters]** om ervoor te zorgen dat het rapport wordt gevormd zoals gewenst, dan specificeer **[!UICONTROL Preset Name]** (tot 50 karakters).
 1. (Voorwaardelijk) Als u dit uw standaard/favoriete rapportmening wilt zijn, glijd **[!UICONTROL Set as default preset]** knevel aan On positie.
@@ -55,12 +55,12 @@ Selecteer de gewenste voorinstelling in de vervolgkeuzelijst **[!UICONTROL Targe
 
    Nadat u op [!UICONTROL Save] hebt geklikt nadat u de configuratie van het rapport hebt bewerkt, wordt een sterretje ( &#42; ) weergegeven achter de naam van de voorinstelling om aan te geven dat de voorinstelling is gewijzigd.
 
-1. Klik **[!UICONTROL More Options]** ( ![ Meer pictogram van Opties ](/help/main/assets/icons/MoreSmallListVert.svg)) pictogram > **[!UICONTROL Save as New]** om een nieuwe vooraf ingesteld tot stand te brengen.
+1. Klik **[!UICONTROL More Options]** ( ![&#x200B; Meer pictogram van Opties &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)) pictogram > **[!UICONTROL Save as New]** om een nieuwe vooraf ingesteld tot stand te brengen.
 
 ### Een voorinstelling verwijderen
 
 1. Selecteer de voorinstelling die u wilt verwijderen.
-1. Klik **[!UICONTROL More Options]** ( ![ Meer pictogram van Opties ](/help/main/assets/icons/MoreSmallListVert.svg)) pictogram > **[!UICONTROL Delete]**.
+1. Klik **[!UICONTROL More Options]** ( ![&#x200B; Meer pictogram van Opties &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)) pictogram > **[!UICONTROL Delete]**.
 
 1. Klik nogmaals op **[!UICONTROL Delete]** om uw verwijdering te bevestigen (verwijderde voorinstellingen kunnen niet worden hersteld).
 
@@ -78,17 +78,17 @@ In de volgende lijst worden enkele situaties beschreven die ertoe kunnen leiden 
 
 ## [!UICONTROL Report Metric] {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-Klik de **[!UICONTROL Report Metric]** drop-down lijst om een verschillend [ metrisch succes ](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) of veelvoudige metriek te selecteren om in de grafiek en de grafiek te tonen.
+Klik de **[!UICONTROL Report Metric]** drop-down lijst om een verschillend [&#x200B; metrisch succes &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) of veelvoudige metriek te selecteren om in de grafiek en de grafiek te tonen.
 
 Door gebrek, wordt primaire metrisch bepaald in de opstelling van succesmetriek wanneer u de activiteit creeert. Als u de opstelling verandert en de activiteit opnieuw opslaat, wordt primaire metrisch voor het melden bijgewerkt.
 
-Voor meer informatie over het selecteren van veelvoudige metriek aan mening in rapporten, zie [ Veelvoudige Metriek van de Mening in een Rapport ](/help/main/c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
+Voor meer informatie over het selecteren van veelvoudige metriek aan mening in rapporten, zie [&#x200B; Veelvoudige Metriek van de Mening in een Rapport &#x200B;](/help/main/c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
 
 ## [!UICONTROL Audience] {#section_70926EB4618945D9AFF2B0564FF3717B}
 
 Klik op de vervolgkeuzelijst **[!UICONTROL Audience]** om het weergegeven publiek voor het rapport te wijzigen.
 
-Voor meer informatie, zie [ Soorten publiek ](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522).
+Voor meer informatie, zie [&#x200B; Soorten publiek &#x200B;](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522).
 
 ## [!UICONTROL Preset Date Range]
 
@@ -106,13 +106,13 @@ Rapporten hebben de volgende datumbeperkingen:
 
 ## Datumbereik {#section_A410A768403C4E01891F95CB357E63ED}
 
-In het vak [!UICONTROL Date Range] wordt het huidige datumbereik van het rapport weergegeven. Klik het **[!UICONTROL Calendar]** ( ![ pictogram van de Kalender ](/help/main/assets/icons/Calendar.svg)) pictogram om een kalender te tonen die u de de datumwaaier van het rapport laat veranderen.
+In het vak [!UICONTROL Date Range] wordt het huidige datumbereik van het rapport weergegeven. Klik het **[!UICONTROL Calendar]** ( ![&#x200B; pictogram van de Kalender &#x200B;](/help/main/assets/icons/Calendar.svg)) pictogram om een kalender te tonen die u de de datumwaaier van het rapport laat veranderen.
 
 ## Instellingen {#section_D99CE462107D45CABE0960F820E1E972}
 
 Om rapportmontages te vormen:
 
-1. Klik het **[!UICONTROL Report Settings]** ( ![ pictogram van de Montages van het Rapport ](/help/main/assets/icons/Setting.svg)), breng gewenste veranderingen (zoals hieronder verklaard) aan.
+1. Klik het **[!UICONTROL Report Settings]** ( ![&#x200B; pictogram van de Montages van het Rapport &#x200B;](/help/main/assets/icons/Setting.svg)), breng gewenste veranderingen (zoals hieronder verklaard) aan.
 1. Klik op **[!UICONTROL Save]** als u klaar bent.
 
 Afhankelijk van het geselecteerde type activiteit, variëren de opties:
@@ -131,11 +131,11 @@ Selecteer de besturingservaring die u wilt gebruiken bij het berekenen en vergel
 
 ### Omgeving {#environment}
 
-Selecteer de omgeving (hostgroep) die u voor het rapport wilt gebruiken. Voor meer informatie, zie [ Gastheren ](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+Selecteer de omgeving (hostgroep) die u voor het rapport wilt gebruiken. Voor meer informatie, zie [&#x200B; Gastheren &#x200B;](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 >[!NOTE]
 >
->Als uw organisatie [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=nl-NL){target=_blank} (AEP) gebruikt om metrieke gegevens naar [!DNL Target] te verzenden, zou het milieu in AEP DataStream het milieu in uw [!DNL Target] rapportmontages moeten aanpassen.
+>Als uw organisatie [&#x200B; Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=nl-NL){target=_blank} (AEP) gebruikt om metrieke gegevens naar [!DNL Target] te verzenden, zou het milieu in AEP DataStream het milieu in uw [!DNL Target] rapportmontages moeten aanpassen.
 
 ### Rapportgegevens opnieuw instellen
 
@@ -147,45 +147,45 @@ Klik op [!UICONTROL Reset Report Data]. Rapportgegevens opnieuw instellen om oud
 
 Extreme waarden uitsluiten
 
-De schakeloptie [!UICONTROL Exclude Extreme Values] is alleen van toepassing op activiteiten met metrische typen Inkomsten en Betrokkenheid. Voor meer informatie, zie [ Excluding Extreme Orders ](/help/main/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+De schakeloptie [!UICONTROL Exclude Extreme Values] is alleen van toepassing op activiteiten met metrische typen Inkomsten en Betrokkenheid. Voor meer informatie, zie [&#x200B; Excluding Extreme Orders &#x200B;](/help/main/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 ## Downloaden {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
-Klik het **[!UICONTROL Download]** ( ![ pictogram van de Download ](/help/main/assets/icons/Download.svg) ) pictogram om rapportgegevens in een [!DNL .csv] formaat voor het snel invoeren in Excel, Toegang, of andere programma&#39;s van de gegevensanalyse te downloaden.
+Klik het **[!UICONTROL Download]** ( ![&#x200B; pictogram van de Download &#x200B;](/help/main/assets/icons/Download.svg) ) pictogram om rapportgegevens in een [!DNL .csv] formaat voor het snel invoeren in Excel, Toegang, of andere programma&#39;s van de gegevensanalyse te downloaden.
 
-Voor meer informatie, zie [ het Downloaden Gegevens in een Csv- Dossier ](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md).
+Voor meer informatie, zie [&#x200B; het Downloaden Gegevens in een Csv- Dossier &#x200B;](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md).
 
 ## Vernieuwen {#section_E203729F2F314DF3856D2EE67C60B370}
 
-Klik **[!UICONTROL Refresh]** ( ![ verfrissen pictogram ](/help/main/assets/icons/Refresh.svg)) pictogram om de lijst en de grafiekmening van een rapport te verfrissen zonder de volledige pagina, zijn configuratie, of zijn datumwaaier te verfrissen.
+Klik **[!UICONTROL Refresh]** ( ![&#x200B; verfrissen pictogram &#x200B;](/help/main/assets/icons/Refresh.svg)) pictogram om de lijst en de grafiekmening van een rapport te verfrissen zonder de volledige pagina, zijn configuratie, of zijn datumwaaier te verfrissen.
 
 ## Meer opties {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
-Klik het **[!UICONTROL More Options]** pictogram ( ![ Meer pictogram van Opties ](/help/main/assets/icons/MoreSmallListVert.svg)) om tot de [!UICONTROL Save as New] en [!UICONTROL Delete] opties toegang te hebben.
+Klik het **[!UICONTROL More Options]** pictogram ( ![&#x200B; Meer pictogram van Opties &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)) om tot de [!UICONTROL Save as New] en [!UICONTROL Delete] opties toegang te hebben.
 
 ## Weergaveopties
 
 U kunt het rapport in diverse formaten, afhankelijk van het activiteitstype bekijken. Selecteer de gewenste optie.
 
-* **Mening van de Lijst**: Klik het **[!UICONTROL Table View]** ( ![ pictogram van de Mening van de Lijst ](/help/main/assets/icons/Table.svg)) pictogram om het rapport als lijst te bekijken.
-* **de Mening van de Grafiek**: Klik **[!UICONTROL Graph View]** ( ![ pictogram van de Mening van de Grafiek ](/help/main/assets/icons/GraphTrend.svg)) om het rapport als grafiek te bekijken.
-* **Geautomatiseerde Segmenten**: (Beschikbaar slechts voor [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] (AT) activiteiten.) Klik ** [!UICONTROL Automated Segments] ( ![ Geautomatiseerde het pictogram van Segmenten ](/help/main/assets/icons/AutomatedSegment.svg)) pictogram om het [ Geautomatiseerde segmentrapport ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) te bekijken.
-* **Belangrijke Attributen**: (Beschikbaar slechts voor [!DNL Automated Personalization] (AP) en [!UICONTROL Auto-Target] (AT) activiteiten.) Klik het **[!UICONTROL Important Attributes]** ( ![ Belangrijke pictogram van Attributen ](/help/main/assets/icons/ViewList.svg)) pictogram om het [ Belangrijke rapport van Attributen ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) te bekijken.
+* **Mening van de Lijst**: Klik het **[!UICONTROL Table View]** ( ![&#x200B; pictogram van de Mening van de Lijst &#x200B;](/help/main/assets/icons/Table.svg)) pictogram om het rapport als lijst te bekijken.
+* **de Mening van de Grafiek**: Klik **[!UICONTROL Graph View]** ( ![&#x200B; pictogram van de Mening van de Grafiek &#x200B;](/help/main/assets/icons/GraphTrend.svg)) om het rapport als grafiek te bekijken.
+* **Geautomatiseerde Segmenten**: (Beschikbaar slechts voor [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] (AT) activiteiten.) Klik ** [!UICONTROL Automated Segments] ( ![&#x200B; Geautomatiseerde het pictogram van Segmenten &#x200B;](/help/main/assets/icons/AutomatedSegment.svg)) pictogram om het [&#x200B; Geautomatiseerde segmentrapport &#x200B;](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) te bekijken.
+* **Belangrijke Attributen**: (Beschikbaar slechts voor [!DNL Automated Personalization] (AP) en [!UICONTROL Auto-Target] (AT) activiteiten.) Klik het **[!UICONTROL Important Attributes]** ( ![&#x200B; Belangrijke pictogram van Attributen &#x200B;](/help/main/assets/icons/ViewList.svg)) pictogram om het [&#x200B; Belangrijke rapport van Attributen &#x200B;](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) te bekijken.
 
 ## Gemiddelde optillen, Lift Bounds en het Interval van het Vertrouwen {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
 De rapporten omvatten verscheidene gegevenspunten en visualisatievertegenwoordiging die de liftgrenzen en het betrouwbaarheidsniveau verbonden aan uw activiteit begrijpen. Hierdoor kunt u nauwkeuriger bepalen wie de winnaar is.
 
-Voor meer informatie, zie [ Statistische berekeningen in tests A/Bn ](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+Voor meer informatie, zie [&#x200B; Statistische berekeningen in tests A/Bn &#x200B;](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 Overweeg het volgende:
 
 * Deze optie is alleen beschikbaar wanneer u rapporten bekijkt in [!UICONTROL Table View] .
-* Deze eigenschap is niet beschikbaar voor activiteiten die [ Analytics als rapporteringsbron (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) gebruiken.
+* Deze eigenschap is niet beschikbaar voor activiteiten die [&#x200B; Analytics als rapporteringsbron (A4T) &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) gebruiken.
 
 ## Locatiebijdrage {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
-Klik het [[!UICONTROL Location Contribution]](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) ( ![ pictogram van de Bijdrage van de Plaats ](/help/main/assets/icons/LocationContribution.svg) ) om het rapport te schakelen om bijdrage door plaats voor Multivariate de activiteiten van de Test (MVT) te tonen.
+Klik het [[!UICONTROL Location Contribution]](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) ( ![&#x200B; pictogram van de Bijdrage van de Plaats &#x200B;](/help/main/assets/icons/LocationContribution.svg) ) om het rapport te schakelen om bijdrage door plaats voor Multivariate de activiteiten van de Test (MVT) te tonen.
 
 ## Ervaringen {#section_3A450DE1FA7E43F0AAB73165EC3D1C34}
 
@@ -237,8 +237,8 @@ De standaardvolgorde waarin de grafiek wordt uitgezet is als volgt:
 
 Houd rekening met het volgende terwijl u met de opties voor [!UICONTROL Counting Methodology] werkt:
 
-* Voor [[!UICONTROL Auto-Target] activiteiten ](/help/main/c-activities/auto-target/auto-target-to-optimize.md), is er geen optie om &quot;Bezoekers&quot;als tellingsmethodologie te selecteren. [!UICONTROL Auto-Target] is het enige type activiteit dat u niet kunt tekenen door bezoekers.
-* Voor activiteiten die [ Analytics als rapporteringsbron (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) gebruiken, kunt u Bezoeker, Bezoek, of Indrukking niet cumulatief plotten.
+* Voor [[!UICONTROL Auto-Target] activiteiten &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md), is er geen optie om &quot;Bezoekers&quot;als tellingsmethodologie te selecteren. [!UICONTROL Auto-Target] is het enige type activiteit dat u niet kunt tekenen door bezoekers.
+* Voor activiteiten die [&#x200B; Analytics als rapporteringsbron (A4T) &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) gebruiken, kunt u Bezoeker, Bezoek, of Indrukking niet cumulatief plotten.
 
 ## Werken met grafieken met meer dan 16 ervaringen in de activiteit
 

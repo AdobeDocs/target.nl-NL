@@ -20,9 +20,9 @@ Er zijn drie methoden beschikbaar voor de integratie van [!DNL Target Recommenda
 
 | Methode | Details |
 | --- | --- |
-| [ Methode 1: [!DNL Adobe Target Delivery API]](#delivery-api) (Voorkeur) | Gebruik [!DNL Adobe Target Delivery API] om per-klant/per-e-mail verzoeken om aanbevelingen te doen. |
-| [ Methode 2: [!DNL Adobe Rawbox API]](#rawbox) | Gebruik [!DNL Adobe Target Rawbox API] om per-klant/per-e-mail verzoeken om aanbevelingen te doen. |
-| [ Methode 3: [!DNL Recommendations Download API]](#download-api) | Met de API Aanbevelingen downloaden kunt u bulkaanbevelingen aanvragen voor een lijst met producten of categorieën in CSV-indeling. |
+| [&#x200B; Methode 1: [!DNL Adobe Target Delivery API]](#delivery-api) (Voorkeur) | Gebruik [!DNL Adobe Target Delivery API] om per-klant/per-e-mail verzoeken om aanbevelingen te doen. |
+| [&#x200B; Methode 2: [!DNL Adobe Rawbox API]](#rawbox) | Gebruik [!DNL Adobe Target Rawbox API] om per-klant/per-e-mail verzoeken om aanbevelingen te doen. |
+| [&#x200B; Methode 3: [!DNL Recommendations Download API]](#download-api) | Met de API Aanbevelingen downloaden kunt u bulkaanbevelingen aanvragen voor een lijst met producten of categorieën in CSV-indeling. |
 
 Het gebruiken van methode 1 of methode 2 vereist uw ESP om vraag aan een externe API per-klant/per-e-mailbasis te maken en op te wachten tot de inhoud is teruggekeerd. Deze methoden worden niet door alle ESP&#39;s ondersteund. Neem contact op met uw ESP om te bepalen of deze compatibel is met dit integratiepatroon.
 
@@ -78,7 +78,7 @@ Waar `clientcode` uw [!DNL Target] -clientcode is.
 >
 >Zorg ervoor dat u een unieke waarde opgeeft voor zowel `sessionId` als een van `tntId` of `thirdPartyId` voor elke e-mailontvanger (bijvoorbeeld voor elke API-aanroep). Als u geen unieke waarden voor deze velden opgeeft, kan de API-respons vertragen of mislukken vanwege de vele gebeurtenissen die binnen één profiel zijn gegenereerd.
 
-Zie [ Levering API documentatie ](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=nl-NL){target=_blank} voor meer informatie.
+Zie [&#x200B; Levering API documentatie &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=nl-NL){target=_blank} voor meer informatie.
 
 ## Methode 2: Een e-mailsjabloon voor een rawbox gebruiken {#rawbox}
 
@@ -86,11 +86,11 @@ Een box is gelijkaardig aan een mbox verzoek, maar voor milieu&#39;s buiten het 
 
 >[!NOTE]
 >
->Wanneer het gebruiken van een rawbox en [!DNL Target], zie de belangrijke veiligheidskennisgeving onder [ lijsten van gewenste personen creëren die gastheren specificeren die worden gemachtigd om mbox vraag naar  [!DNL Target]](/help/main/administrating-target/hosts.md#allowlist) te verzenden.
+>Wanneer het gebruiken van een rawbox en [!DNL Target], zie de belangrijke veiligheidskennisgeving onder [&#x200B; lijsten van gewenste personen creëren die gastheren specificeren die worden gemachtigd om mbox vraag naar  [!DNL Target]](/help/main/administrating-target/hosts.md#allowlist) te verzenden.
 
 Op deze manier kunt u de prestaties van aanbevelingen in e-mails volgen, deze op de normale manier testen met een aanbeveling en doorgaan met bijhouden op de site.
 
-Opstelling a [!DNL Recommendations] activiteit in [!DNL Target], gebruikend de [ op vorm-Gebaseerde optie van de Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E). Voor de plaats, selecteer de naam van mbox u om in de radibox verzoek hebt gekozen te gebruiken die uit ESP komt. Selecteer een ontwerp met de vormgeving die u voor uw e-mail wilt gebruiken. Tijdens het maken van e-mails roept het ESP de [!DNL Target] -servers aan voor elke e-mail die wordt gegenereerd. Je ESP moet een manier hebben om de geretourneerde HTML op te nemen in het e-mailbericht wanneer het wordt verzonden.
+Opstelling a [!DNL Recommendations] activiteit in [!DNL Target], gebruikend de [&#x200B; op vorm-Gebaseerde optie van de Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E). Voor de plaats, selecteer de naam van mbox u om in de radibox verzoek hebt gekozen te gebruiken die uit ESP komt. Selecteer een ontwerp met de vormgeving die u voor uw e-mail wilt gebruiken. Tijdens het maken van e-mails roept het ESP de [!DNL Target] -servers aan voor elke e-mail die wordt gegenereerd. Je ESP moet een manier hebben om de geretourneerde HTML op te nemen in het e-mailbericht wanneer het wordt verzonden.
 
 Het e-mailsysteem dat u gebruikt, moet de volgende scenario&#39;s kunnen afhandelen:
 
@@ -131,7 +131,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br> (Vereist voor bepaalde soorten criteria: weergave/weergave, weergave/aangekocht, aangekocht/aangekocht) | *entity_id* | De productID de aanbeveling is gebaseerd op, zoals een verlaten product in het karretje, of een vorige aankoop.<br> Indien vereist door de criteria, moet de radibox vraag `entity.id` omvatten. |  |
 | `entity.event.detailsOnly` | true | Als `entity.id` wordt overgegaan, wordt het hoogst geadviseerd om deze parameter ook over te gaan om het verzoek te verhinderen het aantal van de sprekende paginameningen voor een punt te verhogen, zodat niet op productmening-gebaseerde algoritmen schuin te trekken. |  |
 | `entity.categoryId`<br> (Vereist voor bepaalde soorten criteria: de meeste bekeken op basis van rubriek en topverkopers op basis van rubriek) | *category_id* | De rubriek waarop de aanbeveling is gebaseerd, zoals topverkopers in een rubriek.<br> Indien vereist door de criteria, moet de radibox vraag `entity.categoryId` omvatten. |  |
-| `mboxDefault` | *`https://www.default.com`* | Als de parameter `mboxNoRedirect` niet aanwezig is, moet `mboxDefault` een absolute URL zijn die standaardinhoud retourneert als er geen aanbeveling beschikbaar is. Deze URL kan een afbeelding of andere statische inhoud zijn.<br> Als de `mboxNoRedirect` parameter aanwezig is, `mboxDefault` kan om het even welke tekst zijn die erop wijst dat er geen aanbevelingen, bijvoorbeeld `no_content` zijn.<br> de e-mailleverancier moet het geval behandelen waar deze waarde is teruggekeerd en standaard HTML in e-mail opnemen. <br> **beste praktijken van de Veiligheid**: Als het domein in `mboxDefault` URL wordt gebruikt niet wordt gevoegd op lijst van gewenste personen, kunt u aan een risico van Open worden blootgesteld Redirect Vulnerability. Om te voorkomen dat Redirector-koppelingen of `mboxDefault` door derden zonder toestemming worden gebruikt, raadt Adobe u aan &quot;geautoriseerde hosts&quot; te gebruiken om de standaard omleidings-URL-domeinen te lijsten van gewenste personen. Het gebruik van het doel gastheren aan lijst van gewenste personen domeinen waaraan u redirects wilt toestaan. Voor meer informatie, zie [ Lijsten van gewenste personen creëren die gastheren specificeren die worden gemachtigd om mbox vraag naar  [!DNL Target]](/help/main/administrating-target/hosts.md#allowlist) in *Gastheren* te verzenden. |  |
+| `mboxDefault` | *`https://www.default.com`* | Als de parameter `mboxNoRedirect` niet aanwezig is, moet `mboxDefault` een absolute URL zijn die standaardinhoud retourneert als er geen aanbeveling beschikbaar is. Deze URL kan een afbeelding of andere statische inhoud zijn.<br> Als de `mboxNoRedirect` parameter aanwezig is, `mboxDefault` kan om het even welke tekst zijn die erop wijst dat er geen aanbevelingen, bijvoorbeeld `no_content` zijn.<br> de e-mailleverancier moet het geval behandelen waar deze waarde is teruggekeerd en standaard HTML in e-mail opnemen. <br> **beste praktijken van de Veiligheid**: Als het domein in `mboxDefault` URL wordt gebruikt niet wordt gevoegd op lijst van gewenste personen, kunt u aan een risico van Open worden blootgesteld Redirect Vulnerability. Om te voorkomen dat Redirector-koppelingen of `mboxDefault` door derden zonder toestemming worden gebruikt, raadt Adobe u aan &quot;geautoriseerde hosts&quot; te gebruiken om de standaard omleidings-URL-domeinen te lijsten van gewenste personen. Het gebruik van het doel gastheren aan lijst van gewenste personen domeinen waaraan u redirects wilt toestaan. Voor meer informatie, zie [&#x200B; Lijsten van gewenste personen creëren die gastheren specificeren die worden gemachtigd om mbox vraag naar  [!DNL Target]](/help/main/administrating-target/hosts.md#allowlist) in *Gastheren* te verzenden. |  |
 | `mboxHost` | *mbox_host* | Het domein dat aan het standaardmilieu (gastheergroep) wordt toegevoegd wanneer de vraag brandt. |  |
 | `mboxPC` | Leeg | (Vereist voor aanbevelingen die het profiel van een bezoeker gebruiken.)<br> als geen &quot;thirdPartyId&quot;werd verstrekt, wordt een nieuwe tntId geproduceerd en als deel van de reactie teruggekeerd. Anders blijft het leeg.<br>**Nota**: Ben zeker om een unieke waarde van `mboxSession` en `mboxPC` voor elke e-mailontvanger (d.w.z., voor elke API vraag) te verstrekken. Als u geen unieke waarden voor deze velden opgeeft, kan de API-respons vertragen of mislukken vanwege het grote aantal gebeurtenissen dat binnen één profiel wordt gegenereerd. | 1 &lt; Lengte &lt; 128 <br> kan meer dan één enkel bevatten &quot;.&quot; (punt).<br> het enige toegestane punt is voor het achtervoegsel van de profielplaats. |
 
@@ -160,4 +160,4 @@ Opstelling een aanbeveling zoals gebruikelijk, maar kies **download slechts** in
 
 Met deze optie, kan de aanbevelingen server niet direct de prestaties van een aanbeveling volgen of verkeer over veelvoudige algoritme/malplaatjecombinaties verdelen. De aanbevelingen zijn ook niet gekoppeld aan een bezoekersprofiel.
 
-Voor meer informatie over de download API, zie [ Verouderde APIs > Download ](/help/main/assets/adobe-recommendations-classic.pdf).
+Voor meer informatie over de download API, zie [&#x200B; Verouderde APIs > Download &#x200B;](/help/main/assets/adobe-recommendations-classic.pdf).

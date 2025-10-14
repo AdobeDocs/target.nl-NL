@@ -18,7 +18,7 @@ Dit onderwerp bevat antwoorden op vragen die vaak worden gesteld over het instel
 ## Welke activiteitstypen worden ondersteund [!DNL Analytics] als de rapportagebron (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 +++Antwoord
-Voor een volledige lijst, zie &quot;Ondersteunde Types van Activiteit&quot;in [ Adobe Analytics als Rapporterende Source voor Adobe Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+Voor een volledige lijst, zie &quot;Ondersteunde Types van Activiteit&quot;in [&#x200B; Adobe Analytics als Rapporterende Source voor Adobe Target (A4T) &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
 +++
 
@@ -26,7 +26,7 @@ Voor een volledige lijst, zie &quot;Ondersteunde Types van Activiteit&quot;in [ 
 
 +++Antwoord
 
-Gebruik niet de zelfde activiteitennaam voor twee activiteiten van afzonderlijke [ werkruimten ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) die A4T het melden gebruiken.
+Gebruik niet de zelfde activiteitennaam voor twee activiteiten van afzonderlijke [&#x200B; werkruimten &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) die A4T het melden gebruiken.
 
 Hoewel dit wordt ondersteund wanneer [!DNL Target] als rapportagebron wordt gebruikt, wordt het gebruik van dezelfde naam voor twee activiteiten niet ondersteund wanneer [!UICONTROL Analytics for Target] als rapportagebron wordt gebruikt.
 
@@ -37,7 +37,7 @@ Hoewel dit wordt ondersteund wanneer [!DNL Target] als rapportagebron wordt gebr
 +++Antwoord
 Voor activiteiten die [!DNL Analytics] als rapporteringsbron (A4T) gebruiken, metrische doel gebruikt &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot;en &quot;[!UICONTROL On Every Impression]&quot;montages. Deze montages zijn *niet* configureerbaar.
 
-Voor meer informatie, zie &quot;terwijl het vormen van mijn doelmetriek, waarom kan ik niet tot de Geavanceerde opties van Montages toegang hebben?&quot; in [ Metrische definities - Veelgestelde vragen A4T ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
+Voor meer informatie, zie &quot;terwijl het vormen van mijn doelmetriek, waarom kan ik niet tot de Geavanceerde opties van Montages toegang hebben?&quot; in [&#x200B; Metrische definities - Veelgestelde vragen A4T &#x200B;](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 +++
 
@@ -45,7 +45,7 @@ Voor meer informatie, zie &quot;terwijl het vormen van mijn doelmetriek, waarom 
 
 
 +++Antwoord
-Wanneer een activiteit wordt gecreeerd, verzendt [!DNL Target] een classificatiedossier naar [!DNL Analytics]. Hoewel [!DNL Analytics] de gegevens vastlegt en verwerkt, toont dit niet in de rapporten tot het classificatiebestand is bijgewerkt. Dit proces kan 24 tot 72 uur duren. Als na 72 uren u uw gegevens niet ziet, {de Zorg van de Cliënt van 0} contact [. ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Als u weet dat u een activiteit start, kunt u deze activiteit een paar dagen eerder maken en de classificaties worden verzonden wanneer de activiteit wordt opgeslagen. Op die manier worden gegevens weergegeven in de rapporten wanneer deze worden gestart. Houd er rekening mee dat het 45-90 minuten duurt voordat gegevens worden verwerkt in [!DNL Analytics] .
+Wanneer een activiteit wordt gecreeerd, verzendt [!DNL Target] een classificatiedossier naar [!DNL Analytics]. Hoewel [!DNL Analytics] de gegevens vastlegt en verwerkt, toont dit niet in de rapporten tot het classificatiebestand is bijgewerkt. Dit proces kan 24 tot 72 uur duren. Als na 72 uren u uw gegevens niet ziet, {de Zorg van de Cliënt van 0} contact [. &#x200B;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Als u weet dat u een activiteit start, kunt u deze activiteit een paar dagen eerder maken en de classificaties worden verzonden wanneer de activiteit wordt opgeslagen. Op die manier worden gegevens weergegeven in de rapporten wanneer deze worden gestart. Houd er rekening mee dat het 45-90 minuten duurt voordat gegevens worden verwerkt in [!DNL Analytics] .
 
 +++
 
@@ -57,7 +57,7 @@ U kunt de [!UICONTROL Reporting Settings] -opties wijzigen in [!UICONTROL Admini
 1. Klik in [!DNL Target] op **[!UICONTROL Administration]** .
 1. Klik in de vervolgkeuzelijst **[!UICONTROL Experience Cloud solution used for reporting]** op **[!UICONTROL Select per Activity]** .
 
-![ uitgezocht-per-activiteit beeld ](assets/select-per-activity.png)
+![&#x200B; uitgezocht-per-activiteit beeld &#x200B;](assets/select-per-activity.png)
 
 De vervolgkeuzelijst **[!UICONTROL Reporting Source]** wordt in het **[!UICONTROL Goal & Settings]** -scherm ingeschakeld voor het maken en bewerken van activiteiten.
 

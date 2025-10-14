@@ -17,17 +17,17 @@ Interpreteer de resultaten van een [!UICONTROL Auto-Allocate] A/B-activiteit in 
 
 Veel marketeers maken de fout om voortijdig een winnende ervaring te declareren voordat de resultaten de duidelijke winnaar aangeven. Met [!DNL Target] kunt u gemakkelijker bepalen wie de winnaar is.
 
-Voor algemene informatie over het verklaren van een winnaar, zie [ gemeenschappelijke A/B testende valkuilen en hoe te om hen te vermijden ](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
+Voor algemene informatie over het verklaren van een winnaar, zie [&#x200B; gemeenschappelijke A/B testende valkuilen en hoe te om hen te vermijden &#x200B;](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
 
 ## De winnende ervaring identificeren {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
 Wanneer u de functie [!UICONTROL Auto-Allocate] gebruikt, geeft [!DNL Target] boven aan de pagina van de activiteit een symbool weer dat &#39;Geen winnaar nog&#39; aangeeft, totdat de activiteit het minimale aantal conversies met voldoende vertrouwen bereikt.
 
-![ Geen badge van de Winner ](/help/main/c-activities/automated-traffic-allocation/assets/no-winner.png)
+![&#x200B; Geen badge van de Winner &#x200B;](/help/main/c-activities/automated-traffic-allocation/assets/no-winner.png)
 
 Wanneer een duidelijke winnaar wordt verklaard, [!DNL Target] vertoningen &quot;Winner: Ervaring *X*.&quot;
 
-![ winnaar beeld ](assets/winner.png)
+![&#x200B; winnaar beeld &#x200B;](assets/winner.png)
 
 >[!NOTE]
 >
@@ -35,11 +35,11 @@ Wanneer een duidelijke winnaar wordt verklaard, [!DNL Target] vertoningen &quot;
 
 ## Statistische garanties voor automatische toewijzing {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
 
-Aan het einde van een A/B-activiteit garandeert [!UICONTROL Auto-Allocate] dat de bepaalde winnaar een effectief fout-positief percentage van 5% heeft. Dit betekent dat slechts 5% van de tijd de gekozen winnaar niet de beste ervaring is van alle ervaringen in de activiteit. Voor een [ test A/A ](/help/main/c-activities/t-test-ab/aa-testing.md) (met identieke ervaringen), [!DNL Target] concludeert een test minder dan 5% van de tijd. Het verwachte gedrag voor een A/A test (met identieke ervaringen) is dat het voor onbepaalde tijd loopt en zodat zou de winnaar badge nooit moeten verschijnen.
+Aan het einde van een A/B-activiteit garandeert [!UICONTROL Auto-Allocate] dat de bepaalde winnaar een effectief fout-positief percentage van 5% heeft. Dit betekent dat slechts 5% van de tijd de gekozen winnaar niet de beste ervaring is van alle ervaringen in de activiteit. Voor een [&#x200B; test A/A &#x200B;](/help/main/c-activities/t-test-ab/aa-testing.md) (met identieke ervaringen), [!DNL Target] concludeert een test minder dan 5% van de tijd. Het verwachte gedrag voor een A/A test (met identieke ervaringen) is dat het voor onbepaalde tijd loopt en zodat zou de winnaar badge nooit moeten verschijnen.
 
 [!DNL Target] gebruikt geen op p-waarde gebaseerde betrouwbaarheid voor [!UICONTROL Auto-Allocate] .
 
-De kolom [!UICONTROL Confidence] in een [!UICONTROL Auto-Allocate] -activiteit (zie hieronder) geeft de kans weer dat een ervaring de winnaar wordt binnen de foutmarge van 1%. Het algoritme gebruikt een minimum waarneembaar effect van 1% tussen de beste en de op één na beste omzettingspercentages. Het algoritme gebruikt [ ongelijkheid van Bernstein ](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) om deze waarschijnlijkheid gegevens te verwerken.
+De kolom [!UICONTROL Confidence] in een [!UICONTROL Auto-Allocate] -activiteit (zie hieronder) geeft de kans weer dat een ervaring de winnaar wordt binnen de foutmarge van 1%. Het algoritme gebruikt een minimum waarneembaar effect van 1% tussen de beste en de op één na beste omzettingspercentages. Het algoritme gebruikt [&#x200B; ongelijkheid van Bernstein &#x200B;](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) om deze waarschijnlijkheid gegevens te verwerken.
 
 Normale A/B-tests berekenen het vertrouwen op basis van p-waarden. [!UICONTROL Auto-Allocate] gebruikt geen p-waarden. P-waarden berekenen de waarschijnlijkheid dat een bepaalde ervaring verschilt van het besturingselement. Deze p-waarden kunnen slechts worden gebruikt om te bepalen of een ervaring van de controle zou kunnen verschillend zijn. Deze waarden kunnen niet worden gebruikt om te bepalen als een ervaring van een andere ervaring (niet controle) verschillend is.
 
@@ -69,11 +69,11 @@ Om een van de volgende redenen wordt beschreven waarom 0% wordt weergegeven in d
 
 * Handmatige A/B-tests en [!UICONTROL Auto-Allocate] gebruiken verschillende statistieken om [!UICONTROL Confidence] -waarden weer te geven.
 
-  De handmatige A/B tests gebruiken p-waarden die op [ worden gebaseerd t-test van het Welch ](https://en.wikipedia.org/wiki/Welch%27s_t-test). Een P-waarde is de waarschijnlijkheid om het waargenomen (of een meer extreme) verschil tussen een ervaring en de controle te vinden, aangezien er in werkelijkheid geen dergelijk verschil is. Deze P-waarden kunnen alleen worden gebruikt om te bepalen of waargenomen gegevens consistent zijn met een bepaalde ervaring en dat de controle hetzelfde is. Deze waarden kunnen niet worden gebruikt om te bepalen als een ervaring van een andere ervaring (niet controle) verschillend is.
+  De handmatige A/B tests gebruiken p-waarden die op [&#x200B; worden gebaseerd t-test van het Welch &#x200B;](https://en.wikipedia.org/wiki/Welch%27s_t-test). Een P-waarde is de waarschijnlijkheid om het waargenomen (of een meer extreme) verschil tussen een ervaring en de controle te vinden, aangezien er in werkelijkheid geen dergelijk verschil is. Deze P-waarden kunnen alleen worden gebruikt om te bepalen of waargenomen gegevens consistent zijn met een bepaalde ervaring en dat de controle hetzelfde is. Deze waarden kunnen niet worden gebruikt om te bepalen als een ervaring van een andere ervaring (niet controle) verschillend is.
 
   [!UICONTROL Auto-Allocate] toont de waarschijnlijkheid dat een bepaalde ervaring een ware winnaar is over alle ervaringen in de activiteit. Alleen een winnende ervaring (die waarschijnlijk de winnaar zal zijn) heeft een betrouwbaarheidswaarde die niet gelijk is aan nul. Alle andere zijn hoogstwaarschijnlijk verliezers en tonen 0%.
 
-* [!UICONTROL Auto-Allocate] begint pas vertrouwen te tonen nadat de winnende ervaring een betrouwbaarheid van 60% heeft verzameld. Deze betrouwbaarheidsniveaus worden doorgaans weergegeven in ongeveer de helft van de tijd die een normale A/B-test nodig heeft om te voltooien (hoewel dit tijdsbestek niet is gegarandeerd). Om te bepalen hoe lang een normale A/B test zou lopen, gebruik de [!DNL Adobe Target] [ calculator van de Grootte van de Steekproef ](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6): de conversie-tarief van de stop controle in &quot;de omzettingssnelheid van de Basislijn,&quot;5%&quot;voor &quot;Lift,&quot;en 95% voor &quot;Vertrouwen.&quot; Doorgaans begint de betrouwbaarheid te worden aangetoond nadat elke ervaring ten minste 50% van de vereiste monsters per ervaring heeft genomen. Dit geeft je een idee van wanneer vertrouwen begint te verschijnen.
+* [!UICONTROL Auto-Allocate] begint pas vertrouwen te tonen nadat de winnende ervaring een betrouwbaarheid van 60% heeft verzameld. Deze betrouwbaarheidsniveaus worden doorgaans weergegeven in ongeveer de helft van de tijd die een normale A/B-test nodig heeft om te voltooien (hoewel dit tijdsbestek niet is gegarandeerd). Om te bepalen hoe lang een normale A/B test zou lopen, gebruik de [!DNL Adobe Target] [&#x200B; calculator van de Grootte van de Steekproef &#x200B;](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6): de conversie-tarief van de stop controle in &quot;de omzettingssnelheid van de Basislijn,&quot;5%&quot;voor &quot;Lift,&quot;en 95% voor &quot;Vertrouwen.&quot; Doorgaans begint de betrouwbaarheid te worden aangetoond nadat elke ervaring ten minste 50% van de vereiste monsters per ervaring heeft genomen. Dit geeft je een idee van wanneer vertrouwen begint te verschijnen.
 
 * Als het verslag over de hele linie 0% toont, is het waarschijnlijk te vroeg in de activiteit.
 
@@ -81,6 +81,6 @@ Om een van de volgende redenen wordt beschreven waarom 0% wordt weergegeven in d
 
 De badges &quot;Geen winnaar nog&quot; en &quot;Winner&quot; zijn momenteel niet beschikbaar in het deelvenster [!UICONTROL A4T] in [!DNL Analysis Workspace] . Deze badges zijn ook niet beschikbaar als hetzelfde rapport wordt weergegeven in [!DNL Target] . Een winnares-&quot;star&quot;-badge in een [!DNL Target] -rapport voor een [!UICONTROL Auto-Allocate] -activiteit met A4T moet worden genegeerd.
 
-Voor meer informatie over dit en andere beperkingen en nota&#39;s, zie [ auto-Wijs ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) in *steun A4T voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten* toe.
+Voor meer informatie over dit en andere beperkingen en nota&#39;s, zie [&#x200B; auto-Wijs &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) in *steun A4T voor [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target] activiteiten* toe.
 
 

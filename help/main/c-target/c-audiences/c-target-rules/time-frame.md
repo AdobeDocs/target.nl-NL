@@ -15,13 +15,13 @@ ht-degree: 0%
 
 U kunt begin- en einddatums en -tijden in [!DNL Adobe Target] toevoegen aan doelgebruikers die uw site gedurende een bepaald tijdsbestek bezoeken. U kunt ook de opties voor Week- en Dagscheiding instellen om herhalende patronen te maken voor doelgroepen.
 
-Bijvoorbeeld, gebruikend de [ gecombineerde, ad hoc eigenschap van toehoorders ](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), kunt u laag-financiers met specifieke inhoud tijdens de drie dagen die tot Zwarte Vrijdag en andere inhoud na Zwarte Vrijdag leiden richten.
+Bijvoorbeeld, gebruikend de [&#x200B; gecombineerde, ad hoc eigenschap van toehoorders &#x200B;](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), kunt u laag-financiers met specifieke inhoud tijdens de drie dagen die tot Zwarte Vrijdag en andere inhoud na Zwarte Vrijdag leiden richten.
 
 1. Klik in de interface [!DNL Target] op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]** .
 1. Geef een naam op voor het publiek en voeg een optionele beschrijving toe.
 1. Sleep **[!UICONTROL Time Frame]** naar het deelvenster van de publieksbuilder.
 
-   ![ target_timeframe_dialog beeld ](assets/target_timeframe_dialog.png)
+   ![&#x200B; target_timeframe_dialog beeld &#x200B;](assets/target_timeframe_dialog.png)
 
 1. Geef de [!UICONTROL Start] - en [!UICONTROL End] -datums en -tijden op voor het publiek.
 
@@ -39,7 +39,7 @@ Bijvoorbeeld, gebruikend de [ gecombineerde, ad hoc eigenschap van toehoorders ]
 
 1. (Voorwaardelijk) Klik **[!UICONTROL Set frequency]** om terugkerende patronen in te stellen, inclusief de dagen van de weken en tijden.
 
-   ![ Week en Dag die ](assets/week_and_day_parting.png) ontleden
+   ![&#x200B; Week en Dag die &#x200B;](assets/week_and_day_parting.png) ontleden
 
    U kunt de opties van [!UICONTROL Frequency] bijvoorbeeld gebruiken om een optie &quot;Nu chatten&quot; alleen aan bezoekers weer te geven tijdens de dagen en uren dat uw callcenter bemand is.
 
@@ -55,7 +55,7 @@ Bijvoorbeeld, gebruikend de [ gecombineerde, ad hoc eigenschap van toehoorders ]
 
 1. Klik op **[!UICONTROL Done]**.
 
-## De video van de opleiding: Creërend publiek ![ badge van het Overzicht ](/help/main/assets/overview.png)
+## De video van de opleiding: Creërend publiek ![&#x200B; badge van het Overzicht &#x200B;](/help/main/assets/overview.png)
 
 Deze video bevat informatie over het gebruik van publiekscategorieën.
 

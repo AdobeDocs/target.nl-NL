@@ -18,13 +18,13 @@ Als u [!DNL Adobe Analytics] gebruikt als gegevensbron voor gedragingen, kunnen 
 
 Het gebruik van [!DNL Analytics] als de gegevensbron voor gedragingen kan fungeren als een rijke bron van informatie over het gedrag van gebruikers. Deze informatie kan gegevens bevatten van een bron of feed van een derde die alleen met [!DNL Analytics] wordt gedeeld.
 
-Terwijl [ creërend criteria ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) in [!DNL Recommendations], zijn er twee radioknopen die u laten kiezen welke gegevensbron moet worden gebruikt: [!UICONTROL mboxes] of [!UICONTROL Analytics]. Klik op [!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria] om criteria te maken. Voor meer informatie, zie [ criteria ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) creëren.
+Terwijl [&#x200B; creërend criteria &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) in [!DNL Recommendations], zijn er twee radioknopen die u laten kiezen welke gegevensbron moet worden gebruikt: [!UICONTROL mboxes] of [!UICONTROL Analytics]. Klik op [!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria] om criteria te maken. Voor meer informatie, zie [&#x200B; criteria &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) creëren.
 
-![ Van het Gedrag gegevensbronknopen ](assets/behavioral-data-source.png)
+![&#x200B; Van het Gedrag gegevensbronknopen &#x200B;](assets/behavioral-data-source.png)
 
 >[!NOTE]
 >
->Als deze twee knopen niet in uw rekening tonen, reik uit aan [ de Zorg van de Klant ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+>Als deze twee knopen niet in uw rekening tonen, reik uit aan [&#x200B; de Zorg van de Klant &#x200B;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
 ## Gevallen gebruiken voor analysegegevens in Doel
 
@@ -49,7 +49,7 @@ Een [!DNL Target Recommendations] -voorbeeldvoederindeling fungeert als leidraad
 >
 >Als het een inhoudssite is, moeten de respectievelijke inhoudsonderdelen worden behandeld als &quot;producten&quot; en de bijbehorende kenmerken over die inhoud worden doorgegeven als kenmerken. Dergelijke kenmerken kunnen de auteursnaam, publicatiedatum, inhoudstitel, maand van versie, enzovoort omvatten. Het bedrijf moet op basis van de gebruiksaanwijzing beslissen over de mate waarin een categorie of categorie in aanmerking komt.
 
-Voor meer details op hoe te opstellings productvariabelen, zie [ producten ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=nl-NL) in *Adobe Analytics* gids uitvoeren. Sommige nota&#39;s in die documentatie hebben behoefte aan discretie van het team dat het opstelt (voorbeeld: Categorie). Het wordt altijd aangeraden [!DNL Adobe] te raadplegen voordat u deze activiteit uitvoert.
+Voor meer details op hoe te opstellings productvariabelen, zie [&#x200B; producten &#x200B;](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=nl-NL) in *Adobe Analytics* gids uitvoeren. Sommige nota&#39;s in die documentatie hebben behoefte aan discretie van het team dat het opstelt (voorbeeld: Categorie). Het wordt altijd aangeraden [!DNL Adobe] te raadplegen voordat u deze activiteit uitvoert.
 
 ### Overwegingen
 
@@ -63,13 +63,13 @@ Nu is het tijd om deze variabelen aan de [!DNL Target] kant in kaart te brengen 
 
 1. Klik in [!DNL Target] op **[!UICONTROL Recommendations]** en klik vervolgens op de tab **[!UICONTROL Feeds]** .
 
-   ![ Doopfeeds ](/help/main/c-recommendations/c-algorithms/assets/feeds-tab.png)
+   ![&#x200B; Doopfeeds &#x200B;](/help/main/c-recommendations/c-algorithms/assets/feeds-tab.png)
 
 1. Klik op **[!UICONTROL Create Feed]**.
 
 1. Selecteer **[!UICONTROL Analytics Classifications]** en geef vervolgens de rapportsuite op.
 
-   ![ de optie van de Classificaties van Analytics ](/help/main/c-recommendations/c-algorithms/assets/analytics-classifications.png)
+   ![&#x200B; de optie van de Classificaties van Analytics &#x200B;](/help/main/c-recommendations/c-algorithms/assets/analytics-classifications.png)
 
 1. Klik op **[!UICONTROL Next]** om naar de instellingen van **[!UICONTROL Schedule]** te gaan en selecteer een frequentieperiode voor de feed:
 
@@ -82,7 +82,7 @@ Nu is het tijd om deze variabelen aan de [!DNL Target] kant in kaart te brengen 
 
 1. Klik op **[!UICONTROL Next]** om naar de **[!UICONTROL Mapping]** -instellingen te gaan en wijs vervolgens de kolomkoppen van het veld toe aan de desbetreffende [!UICONTROL Recommendations] -veldnamen.
 
-   ![ de sectie van de Toewijzing ](/help/main/c-recommendations/c-algorithms/assets/mapping.png)
+   ![&#x200B; de sectie van de Toewijzing &#x200B;](/help/main/c-recommendations/c-algorithms/assets/mapping.png)
 
 1. Klik op **[!UICONTROL Save]**.
 

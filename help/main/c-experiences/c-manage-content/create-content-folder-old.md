@@ -21,7 +21,7 @@ Het proces voor het maken van mappen voor codeaanbiedingen en afbeeldingsaanbied
 
 1. Klik op **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]** .
 
-   ![ de Aanbiedingen van de Code tabel ](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
+   ![&#x200B; de Aanbiedingen van de Code tabel &#x200B;](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
 
 1. Klik op **[!UICONTROL Create]** > **[!UICONTROL Folder]** .
 
@@ -29,13 +29,13 @@ Het proces voor het maken van mappen voor codeaanbiedingen en afbeeldingsaanbied
 
 1. Klik op **[!UICONTROL Create]**.
 
-Voor informatie over de taken kunt u op aanbiedingen en omslagen uitvoeren, zie [ Werk met inhoud in de bibliotheek van Activa ](/help/main/c-experiences/c-manage-content/assets-working.md).
+Voor informatie over de taken kunt u op aanbiedingen en omslagen uitvoeren, zie [&#x200B; Werk met inhoud in de bibliotheek van Activa &#x200B;](/help/main/c-experiences/c-manage-content/assets-working.md).
 
 ## Afbeeldingsaanbiedingsmappen
 
 1. Klik op **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]** .
 
-   ![ de Aanbiedingen van het Beeld lusje ](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
+   ![&#x200B; de Aanbiedingen van het Beeld lusje &#x200B;](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
 
 1. Klik op **[!UICONTROL Create]** > **[!UICONTROL Folder]** .
 1. Geef een beschrijving **[!UICONTROL Title]** voor de map op.
@@ -55,4 +55,4 @@ Voor informatie over de taken kunt u op aanbiedingen en omslagen uitvoeren, zie 
 
 1. Klik op **[!UICONTROL Create]**.
 
-Voor informatie over de taken kunt u op aanbiedingen en omslagen uitvoeren, zie [ Werk met inhoud in de bibliotheek van Activa ](/help/main/c-experiences/c-manage-content/assets-working.md).
+Voor informatie over de taken kunt u op aanbiedingen en omslagen uitvoeren, zie [&#x200B; Werk met inhoud in de bibliotheek van Activa &#x200B;](/help/main/c-experiences/c-manage-content/assets-working.md).

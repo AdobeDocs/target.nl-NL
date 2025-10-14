@@ -18,7 +18,7 @@ Gebruik feeds om entiteiten in te voeren in [!DNL Adobe Target] [!DNL Recommenda
 
 ## Overzicht van feeds {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
-Het voer laat u [ Entiteiten ](/help/main/c-recommendations/c-products/products.md) overgaan of uw brievenbusgegevens met informatie uitbreiden die of niet beschikbaar op de pagina is of onveilig om rechtstreeks van de pagina te verzenden. Bijvoorbeeld marge, kostprijs van verkochte goederen (COGS) enzovoort.
+Het voer laat u [&#x200B; Entiteiten &#x200B;](/help/main/c-recommendations/c-products/products.md) overgaan of uw brievenbusgegevens met informatie uitbreiden die of niet beschikbaar op de pagina is of onveilig om rechtstreeks van de pagina te verzenden. Bijvoorbeeld marge, kostprijs van verkochte goederen (COGS) enzovoort.
 
 Met feeds kunt u ook gedetailleerde itemgegevens doorgeven in [!DNL Recommendations] , zoals product-id, categorie, naam, bericht en andere kenmerken.
 
@@ -39,16 +39,16 @@ De pagina [!UICONTROL Feeds] bevat de volgende kolommen:
 
 * **Naam**: De naam van het voer tijdens verwezenlijking wordt gespecificeerd die. Als u de naam van een feed wilt bewerken, moet u de feed zelf bewerken. Wanneer u de feed onder de nieuwe naam opslaat, wordt de feed vernieuwd.
 * **Status**: De huidige status van de voer [&#128279;](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
-* **Type**: De types omvatten [ CSV ](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF), en [ Classificaties van Analytics ](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
+* **Type**: De types omvatten [&#x200B; CSV &#x200B;](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF), en [&#x200B; Classificaties van Analytics &#x200B;](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
 * **Punten**: Toont het aantal punten in het voer.
 * **Programma**: Toont het updateschema voor het voer: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks], of [!UICONTROL Never].
 * **Laatste Bijgewerkt**: Toont de datum en de tijd toen het voer en de naam van de persoon laatst werd bijgewerkt die het voer bijwerkte.
 
-Klik het [!UICONTROL Customize Table] pictogram ( ![ pas het pictogram van de Lijst ](/help/main/assets/icons/ColumnSetting.svg) aan om kolommen te selecteren of te schrappen die u wilt tonen.
+Klik het [!UICONTROL Customize Table] pictogram ( ![&#x200B; pas het pictogram van de Lijst &#x200B;](/help/main/assets/icons/ColumnSetting.svg) aan om kolommen te selecteren of te schrappen die u wilt tonen.
 
-Klik het [!UICONTROL Information] pictogram ( ![ pictogram van Info ](/help/main/assets/icons/InfoOutline.svg)) om een kaart te tonen die de laatste uploaddatum en URL van het voer toont.
+Klik het [!UICONTROL Information] pictogram ( ![&#x200B; pictogram van Info &#x200B;](/help/main/assets/icons/InfoOutline.svg)) om een kaart te tonen die de laatste uploaddatum en URL van het voer toont.
 
-Klik het [!UICONTROL More Actions] pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallList.svg)) om tot de volgende acties toegang te hebben: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy], en [!UICONTROL Delete].
+Klik het [!UICONTROL More Actions] pictogram ( ![&#x200B; Meer pictogram van Acties &#x200B;](/help/main/assets/icons/MoreSmallList.svg)) om tot de volgende acties toegang te hebben: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy], en [!UICONTROL Delete].
 
 >[!IMPORTANT]
 >
@@ -121,7 +121,7 @@ Als u een bestaande [!DNL Google Product Feed] hebt, kunt u die gebruiken als uw
 >
 >Het is niet vereist om [!DNL Google] -gegevens te gebruiken. [!DNL Recommendations] gebruikt dezelfde indeling als [!DNL Google] . U kunt deze methode gebruiken om alle gegevens te uploaden die u hebt en de beschikbare planningsfuncties te gebruiken. U moet echter de vooraf gedefinieerde [!DNL Google] kenmerknamen behouden wanneer u het bestand instelt.
 
-De meeste detailhandelaren uploaden producten naar [!DNL Google], dus wanneer een bezoeker de [!DNL Google] -zoekopdracht gebruikt, worden hun producten weergegeven. [!DNL Recommendations] volgt de [!DNL Google] -specificatie exact voor entiteitsfeeds. De voer van de entiteit kan naar [!DNL Recommendations] via .xml, .txt, of .tsv worden verzonden, en kan de [ attributen gebruiken die door Google ](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US) worden bepaald. De resultaten zijn doorzoekbaar op [[!DNL Google]  het winkelen pagina&#39;s ](https://www.google.com/prdhp).
+De meeste detailhandelaren uploaden producten naar [!DNL Google], dus wanneer een bezoeker de [!DNL Google] -zoekopdracht gebruikt, worden hun producten weergegeven. [!DNL Recommendations] volgt de [!DNL Google] -specificatie exact voor entiteitsfeeds. De voer van de entiteit kan naar [!DNL Recommendations] via .xml, .txt, of .tsv worden verzonden, en kan de [&#x200B; attributen gebruiken die door Google &#x200B;](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US) worden bepaald. De resultaten zijn doorzoekbaar op [[!DNL Google]  het winkelen pagina&#39;s &#x200B;](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] Productclassificaties {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-De [!DNL Adobe Analytics] productclassificatie is de enige classificatie die beschikbaar is voor aanbevelingen. Voor meer informatie over dit classificatiedossier, zie [ Ongeveer classificaties ](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=nl-NL) in de *gids van de Componenten van Analytics*. Het is mogelijk dat niet alle informatie u voor aanbevelingen nodig hebt in uw huidige implementatie beschikbaar is, zo volg deze gebruikershandleiding als u aan uw classificatiedossier wilt toevoegen.
+De [!DNL Adobe Analytics] productclassificatie is de enige classificatie die beschikbaar is voor aanbevelingen. Voor meer informatie over dit classificatiedossier, zie [&#x200B; Ongeveer classificaties &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=nl-NL) in de *gids van de Componenten van Analytics*. Het is mogelijk dat niet alle informatie u voor aanbevelingen nodig hebt in uw huidige implementatie beschikbaar is, zo volg deze gebruikershandleiding als u aan uw classificatiedossier wilt toevoegen.
 
 >[!IMPORTANT]
 >
@@ -236,7 +236,7 @@ Maak een feed om informatie over uw producten of services in te voegen in [!DNL 
    * [!UICONTROL Google Product Feed]
    * [!UICONTROL Analytics Classifications]
 
-   Voor informatie over de [!UICONTROL CSV] en [!UICONTROL Google Product Feed] voedertypes, zie [ Overzicht van het Beeld ](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). U kunt ook [ een modelCSV gids ](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) downloaden om u te helpen de voer correct formatteren.
+   Voor informatie over de [!UICONTROL CSV] en [!UICONTROL Google Product Feed] voedertypes, zie [&#x200B; Overzicht van het Beeld &#x200B;](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). U kunt ook [&#x200B; een modelCSV gids &#x200B;](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) downloaden om u te helpen de voer correct formatteren.
 
 1. (Voorwaardelijk) Als u **[!UICONTROL CSV]** of **[!UICONTROL Google Product Feed]** hebt geselecteerd, geeft u de locatie op waar de feed kan worden geopend.
 
@@ -270,11 +270,11 @@ Maak een feed om informatie over uw producten of services in te voegen in [!DNL 
 
 1. (Optioneel) Als u wilt dat de feed tot een omgeving (hostgroep) behoort, selecteert u de hostgroep.
 
-   De feed behoort standaard tot alle hostgroepen. Dit zorgt ervoor dat de punten in dit voer in om het even welke milieu beschikbaar zijn. Voor meer informatie, zie [ Gastheren ](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+   De feed behoort standaard tot alle hostgroepen. Dit zorgt ervoor dat de punten in dit voer in om het even welke milieu beschikbaar zijn. Voor meer informatie, zie [&#x200B; Gastheren &#x200B;](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 1. Klik op **[!UICONTROL Save]**.
 
-Nadat u een feed hebt gemaakt of bewerkt, wordt de feed direct uitgevoerd. De feed wordt dan bijgewerkt volgens de parameters die u instelt. Het duurt enige tijd voordat de informatie beschikbaar is. Eerst moet de feed gesynchroniseerd worden, vervolgens moet deze worden verwerkt en geïndexeerd voordat deze kan worden gepubliceerd en beschikbaar gesteld. De huidige status verschijnt onder [ Status van het Gegeven ](/help/main/c-recommendations/c-products/feeds.md#status) in de [!UICONTROL Feeds] lijst. U kunt [!DNL Target] sluiten voordat het proces is voltooid en het proces wordt voortgezet.
+Nadat u een feed hebt gemaakt of bewerkt, wordt de feed direct uitgevoerd. De feed wordt dan bijgewerkt volgens de parameters die u instelt. Het duurt enige tijd voordat de informatie beschikbaar is. Eerst moet de feed gesynchroniseerd worden, vervolgens moet deze worden verwerkt en geïndexeerd voordat deze kan worden gepubliceerd en beschikbaar gesteld. De huidige status verschijnt onder [&#x200B; Status van het Gegeven &#x200B;](/help/main/c-recommendations/c-products/feeds.md#status) in de [!UICONTROL Feeds] lijst. U kunt [!DNL Target] sluiten voordat het proces is voltooid en het proces wordt voortgezet.
 
 Terwijl het indexeren lopend is, verschijnen de producten en de voederkopballen alvorens de individuele waarden zijn geïndexeerd. Dit laat u zoeken en producten zien zodat kunt u inzamelingen, uitsluitingen, ontwerpen, en activiteiten tot stand brengen alvorens het indexeren is voltooid.
 
@@ -339,7 +339,7 @@ De status moet geel zijn omdat de index ongeveer een dag en een uur geleden had 
 
 De volgende video&#39;s bevatten meer informatie over de concepten die in dit artikel worden besproken.
 
-### Het begrip van voer in Aanbevelingen (3 :01) ![ badge van het Overzicht ](/help/main/assets/overview.png)
+### Het begrip van voer in Aanbevelingen (3 :01) ![&#x200B; badge van het Overzicht &#x200B;](/help/main/assets/overview.png)
 
 Deze video bevat de volgende informatie:
 
@@ -348,7 +348,7 @@ Deze video bevat de volgende informatie:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Creeer een voer (6 :44) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+### Creeer een voer (6 :44) ![&#x200B; badge van het Leerprogramma &#x200B;](/help/main/assets/tutorial.png)
 
 Deze video bevat de volgende informatie:
 

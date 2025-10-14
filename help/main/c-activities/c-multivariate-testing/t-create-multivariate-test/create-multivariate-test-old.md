@@ -21,17 +21,17 @@ Voor [!UICONTROL Multivariate Test] (MVT) wordt eerst een rapport op de pagina w
 
 1. Klik op **[!UICONTROL Create Activity]** > **[!UICONTROL Multivariate Test]** .
 
-   ![ creeer Multivariate Test ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
+   ![&#x200B; creeer Multivariate Test &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
 
    >[!NOTE]
    >
-   >Voor meer informatie over de diverse activiteitentypes beschikbaar in [!DNL Target] en hun verschillen, zie [ Activiteiten ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Zie [ de types van Activiteit van het Doel ](/help/main/c-activities/target-activities-guide.md) om u te helpen beslissen welk type van activiteit beste reeksen uw behoeften.
+   >Voor meer informatie over de diverse activiteitentypes beschikbaar in [!DNL Target] en hun verschillen, zie [&#x200B; Activiteiten &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Zie [&#x200B; de types van Activiteit van het Doel &#x200B;](/help/main/c-activities/target-activities-guide.md) om u te helpen beslissen welk type van activiteit beste reeksen uw behoeften.
 
 1. (Voorwaardelijk) Kies het leveringstype: [!UICONTROL Web] , [!UICONTROL Mobile] , [!UICONTROL Email] of [!UICONTROL Other/API] .
 
-1. (Voorwaardelijk) als u a [ Target Premium ](/help/main/c-intro/intro.md#premium) klant bent, [ kies een werkruimte ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Voorwaardelijk) als u a [&#x200B; Target Premium &#x200B;](/help/main/c-intro/intro.md#premium) klant bent, [&#x200B; kies een werkruimte &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. [ specificeer URL ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) voor de pagina die u wilt testen, dan klikken **[!UICONTROL Next]**.
+1. [&#x200B; specificeer URL &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) voor de pagina die u wilt testen, dan klikken **[!UICONTROL Next]**.
 
    >[!NOTE]
    >
@@ -69,9 +69,9 @@ Voor [!UICONTROL Multivariate Test] (MVT) wordt eerst een rapport op de pagina w
    | `[`&quot; | Vierkante haak openen, dubbele aanhalingstekens |
    | &quot;`]` | Dubbele aanhalingstekens, vierkant haakje sluiten |
 
-1. [ creeer de aanbiedingen in elke plaats ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
+1. [&#x200B; creeer de aanbiedingen in elke plaats &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
 
-   ![ geef de dialoogdoos van de Tekst/van HTML uit ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
+   ![&#x200B; geef de dialoogdoos van de Tekst/van HTML uit &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
 
    U kunt de volgende soorten voorstellen toevoegen:
 
@@ -79,45 +79,45 @@ Voor [!UICONTROL Multivariate Test] (MVT) wordt eerst een rapport op de pagina w
    * Afbeelding
    * Tekst
 
-1. Klik **[!UICONTROL Preview]** aan [ voorproef uw ervaringen ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
+1. Klik **[!UICONTROL Preview]** aan [&#x200B; voorproef uw ervaringen &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
 
-   ![ Ervaringen van de Voorproef ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt.png)
+   ![&#x200B; Ervaringen van de Voorproef &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt.png)
 
    U kunt elke ervaring bekijken en alle ervaringen uitsluiten die u niet in de test wilt opnemen. Als u een of meer ervaringen wilt uitsluiten, selecteert u de gewenste selectievakjes en klikt u op **[!UICONTROL Exclude]** .
 
-   ![ sluit ervaringen ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png) uit
+   ![&#x200B; sluit ervaringen &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png) uit
 
-1. [ gebruik de Schatter van het Verkeer ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) om de haalbaarheid van uw testplan te testen.
+1. [&#x200B; gebruik de Schatter van het Verkeer &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) om de haalbaarheid van uw testplan te testen.
 
-   ![ indicator van het Verkeer ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-traffic-indicator.png)
-
-   De volgende illustratie geeft aan dat de activiteit onvoldoende verkeer heeft.
-
-   ![ schatter beeld ](assets/estimator.png)
+   ![&#x200B; indicator van het Verkeer &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-traffic-indicator.png)
 
    De volgende illustratie geeft aan dat de activiteit onvoldoende verkeer heeft.
 
-   ![ estimator2 beeld ](assets/estimator2.png)
+   ![&#x200B; schatter beeld &#x200B;](assets/estimator.png)
+
+   De volgende illustratie geeft aan dat de activiteit onvoldoende verkeer heeft.
+
+   ![&#x200B; estimator2 beeld &#x200B;](assets/estimator2.png)
 
 1. Klik op **[!UICONTROL Next]** om naar de [!UICONTROL Targeting] -pagina te gaan.
 
 1. Kies het publiek en het percentage in aanmerking komende bezoekers dat u de activiteit wilt betreden.
 
-   ![ het richten pagina in activiteit MVT ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_audperc.png)
+   ![&#x200B; het richten pagina in activiteit MVT &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_audperc.png)
 
    U kunt bijvoorbeeld items beperken tot 50% van alle bezoekers of 45% van uw &quot;Californische&quot; publiek.
 
    >[!NOTE]
    >
-   >Naast het selecteren van een bestaand publiek kunt u meerdere soorten publiek combineren om een gecombineerd ad-hocpubliek te maken in plaats van een nieuw publiek te maken. Voor meer informatie, zie [ Combinerend Veelvoudige Soorten publiek ](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   >Naast het selecteren van een bestaand publiek kunt u meerdere soorten publiek combineren om een gecombineerd ad-hocpubliek te maken in plaats van een nieuw publiek te maken. Voor meer informatie, zie [&#x200B; Combinerend Veelvoudige Soorten publiek &#x200B;](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-1. [ herzie de testsamenvatting ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) en breng om het even welke gewenste veranderingen aan, dan klik **[!UICONTROL Next]**.
+1. [&#x200B; herzie de testsamenvatting &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) en breng om het even welke gewenste veranderingen aan, dan klik **[!UICONTROL Next]**.
 
-1. [ specificeer de doelstellingen en de montages ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) voor de test.
+1. [&#x200B; specificeer de doelstellingen en de montages &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) voor de test.
 
 1. Klik op **[!UICONTROL Save and Close]** om de activiteit te maken.
 
-## De video van de opleiding: Creërend Multivariate Tests (9 :25) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: Creërend Multivariate Tests (9 :25) ![&#x200B; badge van het Leerprogramma &#x200B;](/help/main/assets/tutorial.png)
 
 In deze video ziet u hoe u een multivariate test plant en maakt met behulp van de [!DNL Target] driestapige geleide workflow.
 

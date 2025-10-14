@@ -29,11 +29,11 @@ U moet een van de volgende gebruikersmachtigingen hebben om een verificatietoken
 
 * Minstens [!UICONTROL Editor] machtiging (of [!UICONTROL Approver])
 
-  Voor meer informatie voor [!DNL Target Standard] klanten, zie [ rollen en Toestemmingen ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Gebruikers* specificeren. Voor meer informatie voor [!DNL Target Premium] klanten, zie [ ondernemingstoestemmingen ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md) vormen.
+  Voor meer informatie voor [!DNL Target Standard] klanten, zie [&#x200B; rollen en Toestemmingen &#x200B;](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Gebruikers* specificeren. Voor meer informatie voor [!DNL Target Premium] klanten, zie [&#x200B; ondernemingstoestemmingen &#x200B;](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md) vormen.
 
 * Beheerdersrol op het niveau van de werkruimte/het productprofiel
 
-  De werkruimten zijn alleen beschikbaar voor [!DNL Target Premium] klanten. Voor meer informatie, zie [ ondernemingstoestemmingen ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md) vormen.
+  De werkruimten zijn alleen beschikbaar voor [!DNL Target Premium] klanten. Voor meer informatie, zie [&#x200B; ondernemingstoestemmingen &#x200B;](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md) vormen.
 
 * Beheerdersrechten (machtiging Sysadmin) op productniveau van [!DNL Adobe Target]
 
@@ -42,11 +42,11 @@ Om het toestemmingstoken terug te winnen:
 1. Klik op **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** .
 1. Klik in de sectie Foutopsporingsgereedschappen op **[!UICONTROL Generate New Authentication Token]** .
 
-   ![ produceer Nieuwe Token van de Authentificatie ](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
+   ![&#x200B; produceer Nieuwe Token van de Authentificatie &#x200B;](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
 1. Voeg het gegenereerde token als parameter toe aan uw URL om een van de geavanceerde foutopsporingsprogramma&#39;s in te schakelen.
 
-   ![ teken van de Token van de Toestemming ](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/auth-token.png)
+   ![&#x200B; teken van de Token van de Toestemming &#x200B;](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/auth-token.png)
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
@@ -97,7 +97,7 @@ Als u mboxDebug wilt gebruiken, voegt u een parameter mboxDebug toe aan het eind
 
 | URL-parameters | Doel |
 |--- |--- |
-| `mboxDebug=1` | Debugger <br> die deze parameter aan om het even welke URL met bepaalde verzoeken van het Doel toevoegt opent een pop-up venster met waardevolle het zuiveren details. De informatie van het cookie, de waarden van PCid en van identiteitskaart van de Zitting worden weggeschreven, en alle URLs zijn zichtbaar. Klik op een aanvraag-URL van het doel om het antwoord voor die [!DNL Target] -aanvraag weer te geven. Meer details zijn beschikbaar in [ mbox_debug.pdf ](/help/main/assets/mbox_debug.pdf). |
+| `mboxDebug=1` | Debugger <br> die deze parameter aan om het even welke URL met bepaalde verzoeken van het Doel toevoegt opent een pop-up venster met waardevolle het zuiveren details. De informatie van het cookie, de waarden van PCid en van identiteitskaart van de Zitting worden weggeschreven, en alle URLs zijn zichtbaar. Klik op een aanvraag-URL van het doel om het antwoord voor die [!DNL Target] -aanvraag weer te geven. Meer details zijn beschikbaar in [&#x200B; mbox_debug.pdf &#x200B;](/help/main/assets/mbox_debug.pdf). |
 | `mboxDisable=1` | Vakken op de pagina uitschakelen |
 | `mboxOverride.browserIp=<Insert IP address>` | Het in werking stellen van de test <br> het in werking stellen van de Test die met deze parameter URL werkt. Typ een IP adres als waarde voor dit attribuut, en het groeperen van Test&amp;Target evalueert dat IP adres tegen om het even welke geotargeting of segmentatie die in een campagne wordt geplaatst. |
 
@@ -111,7 +111,7 @@ Met de Adobe Experience Cloud Debugger kunt u snel en gemakkelijk uw doelimpleme
 
 Zie de volgende trainingsvideo&#39;s voor meer informatie:
 
-Voor meer gedetailleerde informatie, zie [ zuiveren at.js gebruikend debugger van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=nl-NL){target=_blank}.
+Voor meer gedetailleerde informatie, zie [&#x200B; zuiveren at.js gebruikend debugger van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=nl-NL){target=_blank}.
 
 ## Topverkopers worden niet weergegeven in Aanbevelingen {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -127,7 +127,7 @@ Doel ondersteunt IE 8 niet meer.
 
 ## Doelcookie wordt niet ingesteld {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-Als uw site een subdomein heeft, zoals [!DNL us.domain.com] , maar u hebt de doelcookie ingesteld op [!DNL domain.com] (in plaats van [!DNL us.domain.com] ), moet u de instelling `cookieDomain` overschrijven. Voor meer informatie, zie [ targetGlobalSettings () ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=nl-NL){target=_blank}.
+Als uw site een subdomein heeft, zoals [!DNL us.domain.com] , maar u hebt de doelcookie ingesteld op [!DNL domain.com] (in plaats van [!DNL us.domain.com] ), moet u de instelling `cookieDomain` overschrijven. Voor meer informatie, zie [&#x200B; targetGlobalSettings () &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=nl-NL){target=_blank}.
 
 ## De doelinhoud flikkert of wordt niet weergegeven als een element ook deel uitmaakt van Adobe Experience Manager-personalisatie. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
@@ -145,7 +145,7 @@ of
 
 Voor externe aanbiedingen kan de reactie [!DNL Target] `/* invalid remote offer URL */` bevatten
 
-U kunt de [!DNL Target] reactie controleren in browser of mboxTrace gebruiken. Zie [ https://tools.ietf.org/html/std66 ](https://tools.ietf.org/html/std66) voor meer informatie over geldige URLs.
+U kunt de [!DNL Target] reactie controleren in browser of mboxTrace gebruiken. Zie [&#x200B; https://tools.ietf.org/html/std66 &#x200B;](https://tools.ietf.org/html/std66) voor meer informatie over geldige URLs.
 
 ## [!DNL Target] -aanvragen worden niet op mijn site geactiveerd.
 
@@ -155,11 +155,11 @@ at.js leidt geen verzoeken van het Doel in brand als u een ongeldig documenttype
 
 [!UICONTROL Activity URL] bepaalt de pagina die bezoekers voor de activiteit kwalificeert en geeft de activiteitenervaringen aan gebruikers terug. Wanneer u hierom wordt gevraagd tijdens het maken van activiteiten, zorgt het typen van de volledige URL niet altijd ervoor dat de inhoud op die sitepagina wordt geleverd, vooral niet met URL&#39;s die querytekenreeksparameters bevatten.
 
-Door gebrek, opent [!UICONTROL Visual Experience Composer] (VEC) de pagina die in uw [ Visuele montages van Composer van de Ervaring wordt gespecificeerd ](/help/main/administrating-target/visual-experience-composer-set-up.md). U kunt ook een andere pagina opgeven tijdens het maken van activiteiten.
+Door gebrek, opent [!UICONTROL Visual Experience Composer] (VEC) de pagina die in uw [&#x200B; Visuele montages van Composer van de Ervaring wordt gespecificeerd &#x200B;](/help/main/administrating-target/visual-experience-composer-set-up.md). U kunt ook een andere pagina opgeven tijdens het maken van activiteiten.
 
 Als u een andere pagina wilt weergeven nadat de VEC is geopend, klikt u op **[!UICONTROL Configure gear icon]** > Selecteren **[!UICONTROL Page Delivery]** > en geeft u vervolgens de gewenste URL op in het veld [!UICONTROL Activity URL] .
 
-![ vorm de montages UI van de Levering van de Pagina ](assets/configure-page-delivery.png)
+![&#x200B; vorm de montages UI van de Levering van de Pagina &#x200B;](assets/configure-page-delivery.png)
 
 Maar wat als URL vraagkoordparameters bevat? Werkt het en toont het gepersonaliseerde inhoud? In dit scenario, ongeacht uw doelpubliek, kunt u malplaatjeregels naast basis URL omvatten om uw vraagparameters te bepalen.
 
@@ -171,7 +171,7 @@ Deze optie zorgt ervoor dat deze URL in aanmerking komt voor de activiteit, maar
 
 In dit scenario is de URL `https://shopping.mycart.com?type=Summers%20Offers` en bevatten aanvullende sjabloonregels dezelfde URL, gescheiden door een OR-operator:
 
-![ Herhaal URL in malplaatjeregels ](assets/option1.png)
+![&#x200B; Herhaal URL in malplaatjeregels &#x200B;](assets/option1.png)
 
 ### Optie 2: Beperk de voorwaarde &quot;bevat&quot; van de URL met alleen de queryreeks.
 
@@ -179,13 +179,13 @@ Het geval in hoeken dat in de vorige optie wordt besproken wordt toegepast in de
 
 In dit scenario is de URL `https://shopping.mycart.com?type=Summers%20Offers` en bevat de aanvullende sjabloonregels alleen de querytekenreeks, gescheiden door een OR-operator:
 
-![ de regel van het Malplaatje bevat slechts het vraagkoord ](assets/option2.png)
+![&#x200B; de regel van het Malplaatje bevat slechts het vraagkoord &#x200B;](assets/option2.png)
 
 ### Optie 3: Gebruik in plaats van de volledige URL een specifiek gedeelte van de URL.
 
 In dit scenario is de URL `https://shopping.mycart.com?type=Summers%20Offers` en geven de aanvullende sjabloonregels een [!UICONTROL Query] met [!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offers op, gescheiden door een OR-operator:
 
-![ regel die van het Malplaatje een specifiek deel van URL leveraging ](assets/option3.png)
+![&#x200B; regel die van het Malplaatje een specifiek deel van URL leveraging &#x200B;](assets/option3.png)
 
 ## Het verwijderen van dubbele aanhalingstekens in de kenmerkwaarde van het profiel [!DNL Target] werkt niet zoals verwacht. {#escape}
 
@@ -204,14 +204,14 @@ adobe.target.trackEvent({
 
 De volgende video&#39;s bevatten meer informatie over de concepten die in dit artikel worden besproken.
 
-### Voeg de badge van de Uitbreiding ![ Zelfstudie ](/help/main/assets/tutorial.png) toe
+### Voeg de badge van de Uitbreiding ![&#x200B; Zelfstudie &#x200B;](/help/main/assets/tutorial.png) toe
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### Basis Adobe Target het Zuiveren ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+### Basis Adobe Target het Zuiveren ![&#x200B; badge van het Leerprogramma &#x200B;](/help/main/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
-### De badge van het Spoor van het Mbox ![ Zelfstudie ](/help/main/assets/tutorial.png)
+### De badge van het Spoor van het Mbox ![&#x200B; Zelfstudie &#x200B;](/help/main/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23113t2/)

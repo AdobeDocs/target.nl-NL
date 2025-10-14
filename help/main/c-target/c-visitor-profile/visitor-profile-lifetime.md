@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Een bezoekersprofiel in [!DNL Adobe Target] verloopt standaard na 14 dagen inactiviteit voor die bezoeker. Deze profiellevensduur kan worden verlengd.
 
-[ de Zorg van de Cliënt van het Contact of uw consultant van Adobe ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om het profielleven zonder extra kosten uit te breiden. De levensduur kan worden ingesteld op maar liefst 90 dagen.
+[&#x200B; de Zorg van de Cliënt van het Contact of uw consultant van Adobe &#x200B;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) om het profielleven zonder extra kosten uit te breiden. De levensduur kan worden ingesteld op maar liefst 90 dagen.
 
 U hoeft geen nieuw bestand van het type [!DNL Platform Web SDK] of at.js te downloaden als uw profiel de standaardwaarden overschrijdt.
 

@@ -20,11 +20,11 @@ Raadpleeg de volgende veelgestelde vragen en antwoorden terwijl u werkt met [!UI
 
 +++Zie details
 
-U kunt een ervaring selecteren die als controle moet worden gebruikt terwijl het creëren van een [ Automated Personalization ](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) of [ auto-Doel ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) activiteit.
+U kunt een ervaring selecteren die als controle moet worden gebruikt terwijl het creëren van een [&#x200B; Automated Personalization &#x200B;](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) of [&#x200B; auto-Doel &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) activiteit.
 
 Deze eigenschap laat u het volledige controleverkeer aan een specifieke ervaring leiden, die op het percentage van de verkeerstoewijzing wordt gebaseerd dat in de activiteit wordt gevormd. U kunt de prestatiesrapporten van het gepersonaliseerde verkeer tegen controleverkeer aan die één ervaring dan evalueren.
 
-Voor meer informatie, zie [ Gebruik een specifieke ervaring als controle ](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
+Voor meer informatie, zie [&#x200B; Gebruik een specifieke ervaring als controle &#x200B;](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
 
 +++
 
@@ -40,7 +40,7 @@ Er is geen optie om [!UICONTROL Automated Personalization] te vergelijken met ee
 
 +++Zie details
 
-* Als u een pagina met minder verkeer wilt aanpassen, of u wilt structurele veranderingen in de ervaring aanbrengen u zich personaliseert, denk na gebruikend een [!UICONTROL Auto-Target] activiteit in plaats van [!UICONTROL Automated Personalization]. Zie [ auto-Doel ](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
+* Als u een pagina met minder verkeer wilt aanpassen, of u wilt structurele veranderingen in de ervaring aanbrengen u zich personaliseert, denk na gebruikend een [!UICONTROL Auto-Target] activiteit in plaats van [!UICONTROL Automated Personalization]. Zie [&#x200B; auto-Doel &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 * U kunt overwegen een [!UICONTROL A/B Test] -activiteit uit te voeren tussen de aanbiedingen en locaties die u wilt gebruiken in uw [!UICONTROL Automated Personalization] -activiteit om ervoor te zorgen dat de locatie en aanbiedingen een invloed hebben op de optimalisatiedoelstelling. Als een [!UICONTROL A/B Test] -activiteit geen significant verschil aantoont, genereert [!UICONTROL Automated Personalization] waarschijnlijk ook geen lift.
 
    * Als een A/B...N test geen statistisch significante verschillen tussen ervaringen toont, is één of meer van de volgende situaties waarschijnlijk verantwoordelijk:
@@ -49,7 +49,7 @@ Er is geen optie om [!UICONTROL Automated Personalization] te vergelijken met ee
       * De locaties die u hebt geselecteerd, hebben geen invloed op de succesmetrische gegevens.
       * Het optimalisatiedoel is te ver in de conversietrechter om door uw gekozen aanbiedingen te worden beïnvloed.
 
-* Zorg ervoor om de [ schatter van het Verkeer ](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) te gebruiken zodat kunt u een gevoel van hebben hoe lang het voor verpersoonlijkingsmodellen duurt om in uw [!UICONTROL Automated Personalization] activiteit te bouwen.
+* Zorg ervoor om de [&#x200B; schatter van het Verkeer &#x200B;](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) te gebruiken zodat kunt u een gevoel van hebben hoe lang het voor verpersoonlijkingsmodellen duurt om in uw [!UICONTROL Automated Personalization] activiteit te bouwen.
 * Beslis over de toewijzing tussen de controle en gericht alvorens de activiteit te beginnen, die op uw doelstellingen wordt gebaseerd.
 
   Er zijn drie scenario&#39;s om te overwegen gebaseerd op het doel van uw activiteit en het type van controle u hebt geselecteerd:
@@ -80,7 +80,7 @@ Er is geen optie om [!UICONTROL Automated Personalization] te vergelijken met ee
 
 Deze limiet wordt ook toegepast wanneer de activiteit de optie [!UICONTROL Disalow Duplicates] heeft ingeschakeld.
 
-Voor meer informatie over karaktergrenzen en andere grenzen (aanbiedingsgrootte, publiek, profielen, waarden, parameters, enzovoort) die activiteiten en andere elementen in [!DNL Target] beïnvloeden, zie [ Grenzen ](/help/main/r-troubleshooting-target/target-limits.md).
+Voor meer informatie over karaktergrenzen en andere grenzen (aanbiedingsgrootte, publiek, profielen, waarden, parameters, enzovoort) die activiteiten en andere elementen in [!DNL Target] beïnvloeden, zie [&#x200B; Grenzen &#x200B;](/help/main/r-troubleshooting-target/target-limits.md).
 
 +++
 
@@ -105,7 +105,7 @@ Er zijn vier factoren vereist voor een [!UICONTROL Automated Personalization] -a
 
 De beste manier om actie te ondernemen is om er eerst voor te zorgen dat de inhoud en de locaties waaruit de ervaringen met activiteiten bestaan daadwerkelijk een verschil maken met de totale responspercentages met behulp van een eenvoudige, niet-gepersonaliseerde [!UICONTROL A/B Test] activiteit. Zorg ervoor dat u de monstergrootten vooraf berekent om ervoor te zorgen dat er voldoende kracht is om een redelijke lift te zien en de A/B-test voor een vaste duur uit te voeren zonder deze te stoppen of wijzigingen aan te brengen. Als uit de resultaten van de A/B-test statistisch significante lift op een of meer ervaringen blijkt, is het waarschijnlijk dat een gepersonaliseerde activiteit succesvol is. Personalization kan ook werken als er geen verschillen zijn in de totale responspercentages van de ervaringen. Doorgaans is het probleem het gevolg van aanbiedingen of locaties die onvoldoende effect hebben op het optimalisatiedoel en die statistisch significant moeten worden opgespoord.
 
-Voor meer informatie, [ het Oplossen van problemen Automated Personalization ](/help/main/c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
+Voor meer informatie, [&#x200B; het Oplossen van problemen Automated Personalization &#x200B;](/help/main/c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
 
 +++
 
@@ -113,7 +113,7 @@ Voor meer informatie, [ het Oplossen van problemen Automated Personalization ](/
 
 +++Zie details
 
-[!UICONTROL Automated Personalization] routes bezoekers aan de ervaring die hoogste voorspelde succes metrisch heeft die op de meest recente [ wordt gebaseerd Willekeurig bos ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) modellen die voor elk model worden gebouwd. Deze prognose is gebaseerd op de specifieke informatie en de context van het bezoek van de bezoeker.
+[!UICONTROL Automated Personalization] routes bezoekers aan de ervaring die hoogste voorspelde succes metrisch heeft die op de meest recente [&#x200B; wordt gebaseerd Willekeurig bos &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) modellen die voor elk model worden gebouwd. Deze prognose is gebaseerd op de specifieke informatie en de context van het bezoek van de bezoeker.
 
 Stel dat een [!UICONTROL Automated Personalization] -activiteit twee locaties had met elk twee aanbiedingen. Op de eerste locatie wordt voor Offer A een omrekeningskoers van 3% voor een specifieke bezoeker voorspeld en voor Aanbieding B een omrekeningskoers van 1%. Op de tweede locatie wordt voor Offer C een omrekeningskoers van 2% voor dezelfde bezoeker voorspeld, terwijl Offer D een omrekeningskoers van 5% heeft. Daarom biedt [!UICONTROL Automated Personalization] deze bezoeker een ervaring met aanbod A en aanbod D.
 
@@ -131,7 +131,7 @@ Stel dat een [!UICONTROL Automated Personalization] -activiteit twee locaties ha
 
 +++Zie details
 
-De tijd het voor modellen neemt om in uw activiteit te bouwen hangt typisch van het verkeer aan uw geselecteerde activiteitenplaatsen en uw metrisch van het activiteitensucces af. Gebruik de [ schatter van het Verkeer ](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) om de verwachte lengte van tijd te bepalen het voor modellen neemt om in uw activiteit te bouwen.
+De tijd het voor modellen neemt om in uw activiteit te bouwen hangt typisch van het verkeer aan uw geselecteerde activiteitenplaatsen en uw metrisch van het activiteitensucces af. Gebruik de [&#x200B; schatter van het Verkeer &#x200B;](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) om de verwachte lengte van tijd te bepalen het voor modellen neemt om in uw activiteit te bouwen.
 
 +++
 

@@ -19,13 +19,13 @@ Omdat een [!UICONTROL Multivariate Test] in [!DNL Adobe Target] meerdere ervarin
 
    Er wordt een lijst met alle ervaringen weergegeven.
 
-   ![ voorproefbeeld ](assets/preview.png)
+   ![&#x200B; voorproefbeeld &#x200B;](assets/preview.png)
 
 1. Klik op een ervaring in de lijst om die ervaring weer te geven.
 
 1. Als u een of meer ervaringen wilt uitsluiten van de multivariate test, selecteert u de gewenste ervaringen en klikt u op **[!UICONTROL Exclude]** .
 
-   ![ sluit ervaringen ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png) uit
+   ![&#x200B; sluit ervaringen &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png) uit
 
    U kunt een ervaring uitsluiten die conflicterende variaties vertoont of een ervaring die niet esthetisch in evenwicht is.
 

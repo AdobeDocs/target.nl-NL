@@ -15,4 +15,4 @@ ht-degree: 0%
 
 Gebruik Experience Fragments (XFs) en Content Fragments (CFs) die in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activiteiten worden gecreeerd om optimalisering of verpersoonlijking te helpen.
 
-Voor meer informatie, zie [ het overzicht van de Fragmenten van de Ervaring van AEM en van de Fragmenten van de Inhoud ](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
+Voor meer informatie, zie [&#x200B; het overzicht van de Fragmenten van de Ervaring van AEM en van de Fragmenten van de Inhoud &#x200B;](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).

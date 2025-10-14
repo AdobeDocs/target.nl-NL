@@ -17,7 +17,7 @@ De betrokkenheidsmetrische waarde voor de vastlegging van de score in [!DNL Adob
 
 In het volgende voorbeeld wordt getoond hoe de betrokkenheid van de score wordt berekend in een campagne die twee ervaringen test, één met een kattenbeeld en één met een hondenbeeld.
 
-![ example_score beeld ](assets/example_score.png)
+![&#x200B; example_score beeld &#x200B;](assets/example_score.png)
 
 In dit voorbeeld ervaart de eerste bezoeker de kattenervaring. Stel dat een algemene [!DNL Target] aanvraag wordt doorgestuurd in een paginascore op basis van de waarde van de pagina. Als de markering de betrokkenheid van het aantal pagina&#39;s heeft vastgelegd op een succesmetrische methode die is gekoppeld aan `**any Target request**` , wordt de bezoekscore verzameld voor elke aanvraag die wordt weergegeven na de weergaveaanvraag rond de katafbeelding.
 
@@ -25,7 +25,7 @@ De eerste pagina voegt 1 aan de score toe, de tweede pagina 0.25, de derde 0.10 
 
 U kunt aanschafkosten en partnerverbindingsopbrengsten in aanmerking nemen door adboxes en redirecteuren door te geven, zoals in de volgende paginastroom wordt getoond. In dit voorbeeld geven beide [!DNL Target] -aanvragen op de artikelpagina een score door, die mogelijk een bekende CPM vertegenwoordigt.
 
-![ example_score2 beeld ](assets/example_score2.png)
+![&#x200B; example_score2 beeld &#x200B;](assets/example_score2.png)
 
 ## Een paginascore toewijzen
 

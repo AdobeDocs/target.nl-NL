@@ -25,7 +25,7 @@ Als u een optie wilt om de winnende ervaring in de activiteit vaker en vroeger t
 
 Bekijk de volgende illustratie van een twee weken durende A/B activiteit. Met [!UICONTROL Auto-Allocate] leidt [!UICONTROL Target], naarmate er een winnende ervaring optreedt, meer van het verkeer naar die winnaar in een vroeg stadium van de test.
 
-![ auto-Wijs illustratie ](/help/main/c-activities/automated-traffic-allocation/assets/Auto-Allocate-test.png) toe
+![&#x200B; auto-Wijs illustratie &#x200B;](/help/main/c-activities/automated-traffic-allocation/assets/Auto-Allocate-test.png) toe
 
 ## Hoe levert [!UICONTROL Auto-Allocate] snellere resultaten op?
 
@@ -37,7 +37,7 @@ De keerzijde is duidelijk: meer bezoekers zien de variaties die het beste preste
 
 In het volgende voorbeeld heeft [!UICONTROL Auto-Allocate] tijdens de test meer inkomsten opgeleverd door meer verkeer (40%) naar Experience D te duwen, die de hoogste conversiesnelheid had.
 
-![ auto-wijs verstrekt hogere opbrengstillustratie ](/help/main/c-activities/automated-traffic-allocation/assets/five-experiences.png) toe
+![&#x200B; auto-wijs verstrekt hogere opbrengstillustratie &#x200B;](/help/main/c-activities/automated-traffic-allocation/assets/five-experiences.png) toe
 
 ## In welke gevallen moet ik mij houden aan de handmatige verkeerstoewijzing?
 
@@ -45,4 +45,4 @@ Wanneer u moet rangschikken hoe elke ervaring ten opzichte van de andere ervarin
 
 ## Aan de slag
 
-Klaar om uw eerste [!UICONTROL Auto-Allocate] -activiteit te starten? [ leer hoe hier ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+Klaar om uw eerste [!UICONTROL Auto-Allocate] -activiteit te starten? [&#x200B; leer hoe hier &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).

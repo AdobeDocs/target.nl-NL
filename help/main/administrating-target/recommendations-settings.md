@@ -31,4 +31,4 @@ U kunt de volgende instellingen configureren:
 * De basis-URL van de miniatuur opgeven
 * Aangepaste kenmerksleutels configureren
 
-Voor gedetailleerde informatie, zie [ Plan en voer Aanbevelingen ](https://experienceleague.adobe.com/nl/docs/target-dev/developer/recommendations){target=_blank} in de **[!DNL Adobe Target]Gids van de Ontwikkelaar** uit.
+Voor gedetailleerde informatie, zie [&#x200B; Plan en voer Aanbevelingen &#x200B;](https://experienceleague.adobe.com/nl/docs/target-dev/developer/recommendations){target=_blank} in de **[!DNL Adobe Target]Gids van de Ontwikkelaar** uit.

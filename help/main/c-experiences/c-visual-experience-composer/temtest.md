@@ -30,15 +30,15 @@ U kunt deze functie bijvoorbeeld gebruiken om een van de volgende handelingen ui
 
 U kunt pagina&#39;s specificeren die de veranderingselementen omvatten, of de verandering over uw plaats of domein toepassen.
 
-1. Creeer of geef een activiteit uit zoals die in [ Activiteiten ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) wordt beschreven.
+1. Creeer of geef een activiteit uit zoals die in [&#x200B; Activiteiten &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) wordt beschreven.
 
-1. Om de pagina&#39;s te specificeren waar de ervaring verschijnt, in [!UICONTROL Visual Experience Composer] (VEC) klik het [!UICONTROL Configure] pictogram ( ![ vormt pictogram ](/help/main/assets/icons/Setting.svg)), dan uitgezochte **[!UICONTROL Page Delivery]**.
+1. Om de pagina&#39;s te specificeren waar de ervaring verschijnt, in [!UICONTROL Visual Experience Composer] (VEC) klik het [!UICONTROL Configure] pictogram ( ![&#x200B; vormt pictogram &#x200B;](/help/main/assets/icons/Setting.svg)), dan uitgezochte **[!UICONTROL Page Delivery]**.
 
 1. Klik op **[!UICONTROL Add Rule]** en geef vervolgens de criteria op voor de pagina&#39;s waaraan u de ervaring wilt toevoegen.
 
 1. Geef het paginabereik op. Het paginabereik kan een van de volgende zijn:
 
-   * [!UICONTROL URL] (Voor meer informatie over hoe [!DNL Target] URLs evalueert, zie [ Doelen en veelgestelde vragen van publiek ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+   * [!UICONTROL URL] (Voor meer informatie over hoe [!DNL Target] URLs evalueert, zie [&#x200B; Doelen en veelgestelde vragen van publiek &#x200B;](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
    * [!UICONTROL Domain]
    * [!UICONTROL Path]
    * [!UICONTROL Hash (#) Fragment] (doel het deel van een URL dat volgt op het #-symbool.)
@@ -86,9 +86,9 @@ U zou het gebruiken van malplaatjeregels kunnen overwegen om de zelfde activitei
 * Een globale banner opnemen (bijvoorbeeld COVID-19-aankondigingen)
 * Een wereldwijde gratis verzendaanbieding opnemen
 
-1. Creeer of geef een activiteit uit zoals die in [ Activiteiten ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) wordt beschreven.
+1. Creeer of geef een activiteit uit zoals die in [&#x200B; Activiteiten &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) wordt beschreven.
 
-1. Om het domein te specificeren waar de ervaring verschijnt, in [!UICONTROL Visual Experience Composer] klik het [!UICONTROL Configure] pictogram ( ![ vormt pictogram ](/help/main/assets/icons/Setting.svg)), dan selecteren **[!UICONTROL Page Delivery]**.
+1. Om het domein te specificeren waar de ervaring verschijnt, in [!UICONTROL Visual Experience Composer] klik het [!UICONTROL Configure] pictogram ( ![&#x200B; vormt pictogram &#x200B;](/help/main/assets/icons/Setting.svg)), dan selecteren **[!UICONTROL Page Delivery]**.
 
 1. Klik op **[!UICONTROL Add Rule]** > **[!UICONTROL Domain]** .
 

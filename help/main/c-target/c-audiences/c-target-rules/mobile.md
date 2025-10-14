@@ -17,7 +17,7 @@ Maak een publiek in [!DNL Adobe Target] voor mobiele apparaten op basis van para
 
 U kunt bijvoorbeeld andere inhoud weergeven aan gebruikers die uw pagina via een telefoon bezoeken dan u zou laten zien als zij de pagina met een computer bezoeken. In dat geval kunt u het publiek van [!UICONTROL Mobile] selecteren en vervolgens de optie **[!UICONTROL Is Mobile Phone]** selecteren. Vervolgens kunt u specifieke details toevoegen die voor u van belang zijn, zoals het type telefoon, de grootte van het scherm (in pixels), enzovoort.
 
-Het mobiele richten wordt geleverd door [ DeviceAtlas ](https://deviceatlas.com/device-data/user-agent-tester), de dienst van DotMobi. DeviceAtlas is een uitgebreide database van mobiele apparaten die is gebaseerd op gegevens die zijn gecompileerd uit verschillende bronnen, waaronder fabrikanten en netwerkoperatoren. Deze gegevens worden vervolgens geverifieerd, waarnaar wordt verwezen en gevalideerd om een grote en nauwkeurige database voor mobiele apparaten samen te stellen.
+Het mobiele richten wordt geleverd door [&#x200B; DeviceAtlas &#x200B;](https://deviceatlas.com/device-data/user-agent-tester), de dienst van DotMobi. DeviceAtlas is een uitgebreide database van mobiele apparaten die is gebaseerd op gegevens die zijn gecompileerd uit verschillende bronnen, waaronder fabrikanten en netwerkoperatoren. Deze gegevens worden vervolgens geverifieerd, waarnaar wordt verwezen en gevalideerd om een grote en nauwkeurige database voor mobiele apparaten samen te stellen.
 
 De opsporing van het apparaat wordt verwezenlijkt door user-Agent koorden te analyseren. Sommige apparaatfabrikanten, zoals Apple, schakelen deze functionaliteit uit door onvoldoende informatie in de UA op te geven.
 
@@ -33,7 +33,7 @@ Om dit probleem op te lossen, verzamelt [!DNL Target] aanvullende gegevens om iP
 
 >[!NOTE]
 >
->Klanten die de Mobile SDK gebruiken, hoeven niets te doen om deze functionaliteit toe te passen. De klanten die at.js gebruiken moeten [ bevorderen aan versie 1.5.0 van at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} (of recenter).
+>Klanten die de Mobile SDK gebruiken, hoeven niets te doen om deze functionaliteit toe te passen. De klanten die at.js gebruiken moeten [&#x200B; bevorderen aan versie 1.5.0 van at.js &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} (of recenter).
 
 U kunt meerdere eigenschappen voor mobiele apparaten kiezen. Meerdere selecties worden verbonden met een operator OR.
 
@@ -56,14 +56,14 @@ Klanten die een aangepaste integratie gebruiken (geen gebruik maken van at.js of
 
    >[!NOTE]
    >
-   >U kunt door mobiele apparatendrager richten gebruikend de [ montages van Geo ](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670).
+   >U kunt door mobiele apparatendrager richten gebruikend de [&#x200B; montages van Geo &#x200B;](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670).
 
 1. (Optioneel) Stel aanvullende regels voor het publiek in.
 1. Klik op **[!UICONTROL Done]**.
 
 In de volgende afbeelding ziet u een publiek dat gericht is op bezoekers die apparaten gebruiken die door Google zijn gemaakt en die mobiele apparaten zijn.
 
-![ mobiele apparaten van het Doel ](assets/target_mobile.png)
+![&#x200B; mobiele apparaten van het Doel &#x200B;](assets/target_mobile.png)
 
 ## Overwegingen
 

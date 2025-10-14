@@ -18,7 +18,7 @@ Voeg gepromoveerde items toe en controleer de plaatsing ervan in uw [!DNL Adobe 
 
 >[!IMPORTANT]
 >
->Statische en dynamische uitsluitingsregels zijn krachtige functies die u kunnen helpen bij uw marketinginspanningen. Voor gedetailleerde informatie, voorbeelden, en gebruik-case scenario&#39;s, zie [ Dynamische en statische opnemingsregels van het Gebruik ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
+>Statische en dynamische uitsluitingsregels zijn krachtige functies die u kunnen helpen bij uw marketinginspanningen. Voor gedetailleerde informatie, voorbeelden, en gebruik-case scenario&#39;s, zie [&#x200B; Dynamische en statische opnemingsregels van het Gebruik &#x200B;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
 Wanneer u een [!DNL Recommendations] -activiteit maakt, kunt u gepromoveerde items opnemen in uw [!DNL Recommendations] -ontwerp. De bevorderingen gebruiken beschikbare groeven in een ontwerp en nemen belangrijkheid over criteria resultaten en reserveaanbevelingen. Als uw ontwerp bijvoorbeeld zes sleuven heeft en u er twee gebruikt voor speciale acties, zijn er vier sleuven beschikbaar voor aanbevolen items op basis van criteria.
 
@@ -26,7 +26,7 @@ Aanbiedingen worden gededupliceerd ten opzichte van objecten die worden aanbevol
 
 U kunt specifieke objecten promoten, objecten dynamisch promoten, objecten promoten op basis van kenmerken of verzamelingen promoten.
 
-![[!UICONTROL Front Promotion] en [!UICONTROL Back Promotion] opties in [!DNL Target] UI ](assets/add_promotion_toggles.png)
+![[!UICONTROL Front Promotion] en [!UICONTROL Back Promotion] opties in [!DNL Target] UI &#x200B;](assets/add_promotion_toggles.png)
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ U kunt specifieke objecten promoten, objecten dynamisch promoten, objecten promo
 
    In de volgende afbeelding ziet u de [!UICONTROL Front Promotion] -schakeloptie op de positie &quot;Aan&quot;.
 
-   ![ voeg de Voorste opties van de Bevordering ](/help/main/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png) toe
+   ![&#x200B; voeg de Voorste opties van de Bevordering &#x200B;](/help/main/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png) toe
 
    U kunt bevorderingen zowel vóór *als* na uw criteria opnemen resultaten.
 
@@ -54,11 +54,11 @@ U kunt specifieke objecten promoten, objecten dynamisch promoten, objecten promo
 
    * Selecteer **[!UICONTROL Promote by attribute]** en voeg regels toe om de kenmerken te definiëren van de items die u wilt promoten.
 
-     Als u [!UICONTROL Promote by Attribute] selecteert, kunt u dynamische overeenkomsten maken. Voor meer informatie, zie [ Dynamische en statische opnemingsregels van het Gebruik ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
+     Als u [!UICONTROL Promote by Attribute] selecteert, kunt u dynamische overeenkomsten maken. Voor meer informatie, zie [&#x200B; Dynamische en statische opnemingsregels van het Gebruik &#x200B;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
    * Selecteer **[!UICONTROL Promote a collection]** en kies de verzameling items die u wilt promoten.
 
-     U kunt nieuwe verzamelingen maken die u voor promoties wilt gebruiken. Zie [ een inzameling ](/help/main/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) voor meer informatie creëren.
+     U kunt nieuwe verzamelingen maken die u voor promoties wilt gebruiken. Zie [&#x200B; een inzameling &#x200B;](/help/main/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) voor meer informatie creëren.
 
    Als u **[!UICONTROL List of Items]** als **[!UICONTROL Promotion Type]** kiest, kunt u desgewenst het selectievakje **[!UICONTROL Randomize Item Order]** inschakelen.
 

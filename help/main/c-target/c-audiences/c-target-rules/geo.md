@@ -37,7 +37,7 @@ De parameters van de plaats van de geoplaats laten u activiteiten en ervaringen 
 
    De geo-informatie van een bezoeker wordt bepaald op basis van het oorspronkelijke IP-adres van een [!DNL Target] locatieverzoek (mbox-verzoek). De IP-aan-geo resolutie wordt gedaan voor de eerste vraag van een nieuwe zitting. Dit betekent, als het IP adres van een bezoeker middenzitting van een bezoek verandert, is de geo informatie nog gebaseerd op het IP adres van de eerste vraag.
 
-   Voor [!UICONTROL Mobile Carrier], [!DNL Target] gebruikt de IP gegevens van de adresregistratie (die het blok van IP adressen) bezit om de aangewezen mobiele drager te bepalen gebruikend [ Mobiele Codes van het Land (MCC) en Mobiele Codes MNC van het Netwerk) ](https://www.mcc-mnc.com).
+   Voor [!UICONTROL Mobile Carrier], [!DNL Target] gebruikt de IP gegevens van de adresregistratie (die het blok van IP adressen) bezit om de aangewezen mobiele drager te bepalen gebruikend [&#x200B; Mobiele Codes van het Land (MCC) en Mobiele Codes MNC van het Netwerk) &#x200B;](https://www.mcc-mnc.com).
 
 1. Geef een operator en de juiste waarde op.
 1. (Optioneel) Stel aanvullende regels voor het publiek in.
@@ -45,13 +45,13 @@ De parameters van de plaats van de geoplaats laten u activiteiten en ervaringen 
 
 In de volgende afbeelding ziet u een publiek dat gericht is op gebruikers die de activiteit betreden vanaf een breedte van meer dan 44° en een lengte van minder dan 22°.
 
-![ target_geo beeld ](assets/target_geo.png)
+![&#x200B; target_geo beeld &#x200B;](assets/target_geo.png)
 
 ## Nauwkeurigheid {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-De nauwkeurigheid van geo-gerichtheid hangt af van verschillende factoren. WiFi-verbindingen zijn nauwkeuriger dan mobiele netwerken. Wanneer een bezoeker een cellulaire gegevensverbinding gebruikt, kan de nauwkeurigheid van de geo-raadpleging door plaats worden beïnvloed, de gegevensverhouding van de leverancier met [ DeviceAtlas ](https://deviceatlas.com/device-data/user-agent-tester), en andere factoren. Netwerkverbindingen die zijn gebaseerd op mobiele tower, zijn mogelijk minder nauwkeurig dan bekabelde of WiFi-verbindingen. Ook, zou het IP van een bezoeker adres aan de ISP plaats van de bezoeker kunnen worden in kaart gebracht, die niet het zelfde als de daadwerkelijke plaats van de bezoeker zou kunnen zijn. Sommige mobiele geo-plaats kwesties kunnen worden opgelost gebruikend [ Geolocation API ](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+De nauwkeurigheid van geo-gerichtheid hangt af van verschillende factoren. WiFi-verbindingen zijn nauwkeuriger dan mobiele netwerken. Wanneer een bezoeker een cellulaire gegevensverbinding gebruikt, kan de nauwkeurigheid van de geo-raadpleging door plaats worden beïnvloed, de gegevensverhouding van de leverancier met [&#x200B; DeviceAtlas &#x200B;](https://deviceatlas.com/device-data/user-agent-tester), en andere factoren. Netwerkverbindingen die zijn gebaseerd op mobiele tower, zijn mogelijk minder nauwkeurig dan bekabelde of WiFi-verbindingen. Ook, zou het IP van een bezoeker adres aan de ISP plaats van de bezoeker kunnen worden in kaart gebracht, die niet het zelfde als de daadwerkelijke plaats van de bezoeker zou kunnen zijn. Sommige mobiele geo-plaats kwesties kunnen worden opgelost gebruikend [&#x200B; Geolocation API &#x200B;](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
-De volgende lijst toont de nauwkeurigheid van op IP-Gebaseerde geografische informatie van [ DigitalEnvoy ](https://www.digitalelement.com/solutions/) voor getelegrafeerde of verbindingen van WiFi Internet. DigitalEnvoy biedt de meest nauwkeurige gegevens in de branche. De wereldwijde nauwkeurigheid is meer dan 99,9 procent op landniveau en is tot 97 procent nauwkeurig op stadsniveau. Nauwkeurigheidsinformatie is niet van toepassing op netwerken op basis van mobiele towers.
+De volgende lijst toont de nauwkeurigheid van op IP-Gebaseerde geografische informatie van [&#x200B; DigitalEnvoy &#x200B;](https://www.digitalelement.com/solutions/) voor getelegrafeerde of verbindingen van WiFi Internet. DigitalEnvoy biedt de meest nauwkeurige gegevens in de branche. De wereldwijde nauwkeurigheid is meer dan 99,9 procent op landniveau en is tot 97 procent nauwkeurig op stadsniveau. Nauwkeurigheidsinformatie is niet van toepassing op netwerken op basis van mobiele towers.
 
 | Land | Staat | Plaats | Regio |
 |--- |--- |--- |--- |
@@ -121,7 +121,7 @@ De volgende vragen worden vaak gesteld over geo-targeting:
 ### Hoe werkt geo-targeting voor mobiele apparaten?
 
 +++Zie details
-De meeste gebruikers van mobiele apparaten krijgen via WiFi toegang tot inhoud. Dit betekent dat de op IP gebaseerde geo-functionaliteit van [!DNL Target] net zo nauwkeurig is als op een desktopcomputer. De op toren-gebaseerde verbindingen van de cel kunnen minder nauwkeurig zijn omdat het IP van de bezoeker adres op de toren gebaseerd is waar het signaal wordt opgepikt. Sommige mobiele geo-plaats kwesties kunnen worden opgelost gebruikend [ Geolocation API ](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+De meeste gebruikers van mobiele apparaten krijgen via WiFi toegang tot inhoud. Dit betekent dat de op IP gebaseerde geo-functionaliteit van [!DNL Target] net zo nauwkeurig is als op een desktopcomputer. De op toren-gebaseerde verbindingen van de cel kunnen minder nauwkeurig zijn omdat het IP van de bezoeker adres op de toren gebaseerd is waar het signaal wordt opgepikt. Sommige mobiele geo-plaats kwesties kunnen worden opgelost gebruikend [&#x200B; Geolocation API &#x200B;](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 +++
 
@@ -175,7 +175,7 @@ Nee, [!DNL Target] gebruikt alleen geo-gegevens tijdens de sessie, waarna de geg
 
 +++
 
-## De video van de opleiding: Creërend publiek ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: Creërend publiek ![&#x200B; badge van het Leerprogramma &#x200B;](/help/main/assets/tutorial.png)
 
 Deze video bevat informatie over het gebruik van publiekscategorieën.
 

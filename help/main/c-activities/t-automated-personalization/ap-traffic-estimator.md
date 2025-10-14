@@ -24,11 +24,11 @@ Vergeet niet dat [!DNL Target] op willekeurige wijze ervaringen oplevert totdat 
 
 ## De schatter van het Verkeer gebruiken
 
-1. Van de [!UICONTROL Experiences] pagina van [!UICONTROL Visual Experience Composer] in een [!UICONTROL Automated Personalization] activiteit, klik het **[!UICONTROL Traffic]** pictogram ( ![ pictogram van de Schatter van het Verkeer ](/help/main/assets/icons/Gauge2.svg)) in de hoogste linkerhoek van de [!UICONTROL Experiences] pagina.
+1. Van de [!UICONTROL Experiences] pagina van [!UICONTROL Visual Experience Composer] in een [!UICONTROL Automated Personalization] activiteit, klik het **[!UICONTROL Traffic]** pictogram ( ![&#x200B; pictogram van de Schatter van het Verkeer &#x200B;](/help/main/assets/icons/Gauge2.svg)) in de hoogste linkerhoek van de [!UICONTROL Experiences] pagina.
 
    De lus [!UICONTROL Traffic Estimator] wordt geopend.
 
-   ![ het gebruikersinterface van de schatter van het Verkeer ](assets/ap-est.png)
+   ![&#x200B; het gebruikersinterface van de schatter van het Verkeer &#x200B;](assets/ap-est.png)
 
    U kunt opnieuw op het pictogram klikken om de [!UICONTROL Traffic Estimator] te verbergen.
 
@@ -45,7 +45,7 @@ Vergeet niet dat [!DNL Target] op willekeurige wijze ervaringen oplevert totdat 
 
    Boven aan de [!UICONTROL Traffic Estimator] worden de ingevoerde waarden berekend en worden de resultaten weergegeven.
 
-   ![ Schatting van het Verkeer met getoonde waarden en resultaten ](assets/ap-est-no.png)
+   ![&#x200B; Schatting van het Verkeer met getoonde waarden en resultaten &#x200B;](assets/ap-est-no.png)
 
    Terwijl u de getallen wijzigt, verandert de schatting. Als u bijvoorbeeld een groot aantal combinaties test en de conversiesnelheid en -indrukkingen te laag zijn, geeft de [!UICONTROL Traffic Estimator] aan hoe lang de test moet duren om te slagen. Als uw verkeer laag is, kan [!UICONTROL Traffic Estimator] een lager aantal aanbiedingscombinaties voorstellen zodat u de test het gewenste aantal dagen kunt uitvoeren.
 
@@ -57,7 +57,7 @@ Vergeet niet dat [!DNL Target] op willekeurige wijze ervaringen oplevert totdat 
 
    Pas de getallen aan totdat [!UICONTROL Traffic Estimator] aangeeft dat u voldoende verkeer hebt en stel vervolgens de test dienovereenkomstig in.
 
-   ![ die de schatter van het Verkeer voldoende verkeersbericht ](assets/ap-est-yes.png) toont
+   ![&#x200B; die de schatter van het Verkeer voldoende verkeersbericht &#x200B;](assets/ap-est-yes.png) toont
 
    Als het verkeer voldoende is, wordt op het pictogram [!UICONTROL Traffic] een groene controle weergegeven. Als dit niet voldoende is, wordt een rood waarschuwingslabel weergegeven.
 

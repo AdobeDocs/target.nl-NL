@@ -22,7 +22,7 @@ De catalogi verwijzen naar uw volledige productreeks (entiteiten). Uw catalogus 
 
 Klik op [!UICONTROL Catalog Search] > **[!UICONTROL Recommendations]** om de pagina **[!UICONTROL Catalog Search]** te openen.
 
-![ pagina van het Onderzoek van de Catalogus ](/help/main/c-recommendations/c-products/assets/catalog-search.png)
+![&#x200B; pagina van het Onderzoek van de Catalogus &#x200B;](/help/main/c-recommendations/c-products/assets/catalog-search.png)
 
 ## Zoeken naar een object
 
@@ -34,7 +34,7 @@ U kunt een eenvoudige zoekopdracht of een geavanceerde zoekopdracht gebruiken om
 
 1. (Optioneel) U kunt uw zoekopdracht verfijnen door een zoekoptie te selecteren in het optiemenu dat wordt weergegeven wanneer u op de pijl omlaag klikt in het zoekveld.
 
-   ![ het menubeeld van onderzoeksproducten ](assets/searchproductsmenu.png)
+   ![&#x200B; het menubeeld van onderzoeksproducten &#x200B;](assets/searchproductsmenu.png)
 
    Zoekopties zijn onder andere:
 
@@ -49,35 +49,35 @@ U kunt een eenvoudige zoekopdracht of een geavanceerde zoekopdracht gebruiken om
 
    In de volgende afbeelding ziet u de resultaten van de optie Alles voor &quot;fiets&quot;.
 
-   ![ het Onderzoek van de Catalogus naar fiets ](/help/main/c-recommendations/c-products/assets/bike-results.png)
+   ![&#x200B; het Onderzoek van de Catalogus naar fiets &#x200B;](/help/main/c-recommendations/c-products/assets/bike-results.png)
 
    Het aantal dat naast &quot;Producten&quot;toont is het aantal producten die de onderzoekstermijn aanpassen, van het totaal beschikbaar in het gespecificeerde milieu.
 
    U kunt de functie voor automatisch aanvullen zoeken gebruiken. In de volgende afbeelding retourneert het typen van &quot;bik&quot; alle producten die het woord &quot;cycle&quot; bevatten.
 
-   ![ Onderzoek autocomplete ](/help/main/c-recommendations/c-products/assets/bike-results-2.png)
+   ![&#x200B; Onderzoek autocomplete &#x200B;](/help/main/c-recommendations/c-products/assets/bike-results-2.png)
 
    >[!NOTE]
    >
    >Wanneer u een cataloguszoekopdracht uitvoert op een aangepast kenmerk met een numerieke waarde, wordt het aangepaste kenmerk in de resultaten behandeld als een tekenreeks in plaats van een numerieke waarde.
    >
-   >Er is momenteel geen functionaliteit beschikbaar waarmee u het type van een kenmerk kunt wijzigen. Om een verandering aan te brengen, [ open een klantenkwestie ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) van verwijzingen voorzien van de attributen die het type vereisen dat van koord in numeriek wordt veranderd.
+   >Er is momenteel geen functionaliteit beschikbaar waarmee u het type van een kenmerk kunt wijzigen. Om een verandering aan te brengen, [&#x200B; open een klantenkwestie &#x200B;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) van verwijzingen voorzien van de attributen die het type vereisen dat van koord in numeriek wordt veranderd.
 
 1. U kunt filters ook gebruiken om het gewenste product te vinden. In het volgende voorbeeld worden alle fietsgereedschappen in het catalogusscherm weergegeven door het facet [!UICONTROL Collections] uit te vouwen en &quot;Extra&#39;s maken&quot; te selecteren.
 
-   ![ de hulpmiddelen van de Scheerbeurt ](/help/main/c-recommendations/c-products/assets/bike-results-3.png)
+   ![&#x200B; de hulpmiddelen van de Scheerbeurt &#x200B;](/help/main/c-recommendations/c-products/assets/bike-results-3.png)
 
 1. U kunt verder zoeken in de resultatenlijst door een zoekterm in te voeren, bijvoorbeeld &#39;keten&#39;.
 
-   ![ Onderzoek naar ketting ](/help/main/c-recommendations/c-products/assets/bike-results-4.png)
+   ![&#x200B; Onderzoek naar ketting &#x200B;](/help/main/c-recommendations/c-products/assets/bike-results-4.png)
 
 ### Een geavanceerde zoekopdracht uitvoeren {#advanced-search}
 
-U kunt [!UICONTROL Advanced Search] gebruiken om uw onderzoeksresultaten verder te verfijnen of uw onderzoeksresultaten als a [ inzameling ](/help/main/c-recommendations/c-products/collections.md) of [ uitsluiting ](/help/main/c-recommendations/c-products/exclusions.md) te bewaren.
+U kunt [!UICONTROL Advanced Search] gebruiken om uw onderzoeksresultaten verder te verfijnen of uw onderzoeksresultaten als a [&#x200B; inzameling &#x200B;](/help/main/c-recommendations/c-products/collections.md) of [&#x200B; uitsluiting &#x200B;](/help/main/c-recommendations/c-products/exclusions.md) te bewaren.
 
 1. Klik op de koppeling **[!UICONTROL Advanced Search]** .
 
-   ![ Geavanceerde pagina van het Onderzoek ](/help/main/c-recommendations/c-products/assets/advances-search.png)
+   ![&#x200B; Geavanceerde pagina van het Onderzoek &#x200B;](/help/main/c-recommendations/c-products/assets/advances-search.png)
 
 1. Gebruik de vervolgkeuzelijsten om de parameter, de operator en de waarden voor uw zoekopdracht op te geven.
 
@@ -89,9 +89,9 @@ U kunt [!UICONTROL Advanced Search] gebruiken om uw onderzoeksresultaten verder 
 
 1. (Optioneel) Klik op **[!UICONTROL Save As]** en vervolgens op **[!UICONTROL Collection]** of **[!UICONTROL Exclusion]** .
 
-   ![ sparen als opties ](/help/main/c-recommendations/c-products/assets/save-as.png)
+   ![&#x200B; sparen als opties &#x200B;](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-   Voor meer informatie, zie [ een inzameling of een uitsluiting creëren die op Geavanceerd Onderzoek ](#save-as) hieronder wordt gebaseerd.
+   Voor meer informatie, zie [&#x200B; een inzameling of een uitsluiting creëren die op Geavanceerd Onderzoek &#x200B;](#save-as) hieronder wordt gebaseerd.
 
 ## Details van een object bekijken
 
@@ -99,7 +99,7 @@ U kunt de details van een afzonderlijk item, zoals de id, de naam, het bericht, 
 
 1. Klik op een item in de zoekresultaten om de details weer te geven.
 
-   ![ de details van het Product ](/help/main/c-recommendations/c-products/assets/bike-results-5.png)
+   ![&#x200B; de details van het Product &#x200B;](/help/main/c-recommendations/c-products/assets/bike-results-5.png)
 
 ## Een item uit de catalogus verwijderen
 
@@ -113,19 +113,19 @@ Alle informatie over dat item wordt verwijderd uit de catalogusindex. Het item w
 
 ## De catalogus vernieuwen
 
-De index van uw catalogus wordt automatisch gecreeerd wanneer u uw eerste voer uploadt, en volgens het [ gespecificeerde programma ](/help/main/c-recommendations/c-products/feeds.md#steps) verfrist.
+De index van uw catalogus wordt automatisch gecreeerd wanneer u uw eerste voer uploadt, en volgens het [&#x200B; gespecificeerde programma &#x200B;](/help/main/c-recommendations/c-products/feeds.md#steps) verfrist.
 
 De catalogus wordt automatisch vernieuwd wanneer updates worden ontvangen via feed-bestanden, API- of mbox-updates. Updates worden meestal binnen een uur voltooid. Als er updates worden uitgevoerd, wordt de tijd weergegeven waarop de meest recente update is gestart. Als er geen updates worden uitgevoerd, wordt de tijd weergegeven waarop de meest recente update is gestart en voltooid.
 
 ## Een verzameling of uitsluiting maken op basis van Geavanceerd zoeken {#save-as}
 
-U kunt [ inzamelingen ](/help/main/c-recommendations/c-products/collections.md) of [ uitsluitingen ](/help/main/c-recommendations/c-products/exclusions.md) tot stand brengen gebruikend [!UICONTROL Advanced Search] op de [!UICONTROL Catalog Search] pagina ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+U kunt [&#x200B; inzamelingen &#x200B;](/help/main/c-recommendations/c-products/collections.md) of [&#x200B; uitsluitingen &#x200B;](/help/main/c-recommendations/c-products/exclusions.md) tot stand brengen gebruikend [!UICONTROL Advanced Search] op de [!UICONTROL Catalog Search] pagina ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
-1. Voer een [ geavanceerd onderzoek ](#advanced-search) uit.
+1. Voer een [&#x200B; geavanceerd onderzoek &#x200B;](#advanced-search) uit.
 
 1. Klik op **[!UICONTROL Save As]** en vervolgens op **[!UICONTROL Collection]** of **[!UICONTROL Exclusion]** .
 
-   ![ sparen als opties ](/help/main/c-recommendations/c-products/assets/save-as.png)
+   ![&#x200B; sparen als opties &#x200B;](/help/main/c-recommendations/c-products/assets/save-as.png)
 
    >[!IMPORTANT]
    >
@@ -133,11 +133,11 @@ U kunt [ inzamelingen ](/help/main/c-recommendations/c-products/collections.md) 
 
 ## De omgeving wijzigen
 
-[ Milieu&#39;s ](/help/main/administrating-target/environments.md) laten u uw plaatsen en pre-productiemilieu&#39;s voor gemakkelijk beheer en gescheiden rapportering organiseren.
+[&#x200B; Milieu&#39;s &#x200B;](/help/main/administrating-target/environments.md) laten u uw plaatsen en pre-productiemilieu&#39;s voor gemakkelijk beheer en gescheiden rapportering organiseren.
 
 1. Klik op de koppeling Omgeving.
 
-   ![ verbinding van het Milieu ](/help/main/c-recommendations/c-products/assets/environment.png)
+   ![&#x200B; verbinding van het Milieu &#x200B;](/help/main/c-recommendations/c-products/assets/environment.png)
 
 1. Selecteer de gewenste omgeving.
 
@@ -151,11 +151,11 @@ U kunt extra filterfacetten aan de [!UICONTROL Catalog Search] pagina toevoegen.
 
 1. Klik in het deelvenster **[!UICONTROL Filters]** op **[!UICONTROL Modify]** .
 
-   ![ wijzigt filters verbinding ](/help/main/c-recommendations/c-products/assets/modify-filters.png)
+   ![&#x200B; wijzigt filters verbinding &#x200B;](/help/main/c-recommendations/c-products/assets/modify-filters.png)
 
 1. Selecteer de gewenste zoekfacetten (ID, naam, bericht, enz.) en klik op **[!UICONTROL Save]** .
 
-   ![ voegt filters ](/help/main/c-recommendations/c-products/assets/add-filters.png) toe
+   ![&#x200B; voegt filters &#x200B;](/help/main/c-recommendations/c-products/assets/add-filters.png) toe
 
 Houd er rekening mee dat de extra filterfacetten alleen beschikbaar zijn in de huidige sessie.
 
@@ -165,7 +165,7 @@ U kunt de actieve kolommen op de pagina [!UICONTROL Catalog Search] tijdelijk wi
 
 1. Klik op de koppeling **[!UICONTROL Columns]** .
 
-   ![ de opties van Kolommen ](/help/main/c-recommendations/c-products/assets/columns.png)
+   ![&#x200B; de opties van Kolommen &#x200B;](/help/main/c-recommendations/c-products/assets/columns.png)
 
 1. (Voorwaardelijk) Als u de volgorde van actieve kolommen wilt wijzigen, sleept u de kolommen in de sectie **[!UICONTROL Active Columns]** naar de gewenste volgorde.
 

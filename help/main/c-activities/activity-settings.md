@@ -49,13 +49,13 @@ Gebruik [!UICONTROL Activity Settings] in [!DNL Adobe Target] om het doel, de pr
 
 De pagina [!UICONTROL Goal & Settings] bevat aanvullende instellingen die variëren op basis van het type activiteit dat u maakt. Raadpleeg het type activiteit voor meer informatie over deze instellingen:
 
-* [ Test A/B ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
-* [ Automated Personalization ](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-* [ Ervaring richtend ](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
-* [ Multivariate Test ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [&#x200B; Test A/B &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [&#x200B; Automated Personalization &#x200B;](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+* [&#x200B; Ervaring richtend &#x200B;](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [&#x200B; Multivariate Test &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Aanbevelingen](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## De video van de opleiding: De Montages van de activiteit ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: De Montages van de activiteit ![&#x200B; badge van het Leerprogramma &#x200B;](/help/main/assets/tutorial.png)
 
 Deze video bevat informatie over instellingen voor activiteit.
 

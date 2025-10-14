@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Voor uw eerste activiteit kunt u iets super eenvoudig testen, zoals het wijzigen van de kleur of het kopiëren op een call to action-knop. Gewoon om je voeten nat te maken. Op langere termijn wilt u echter een formeel, herhaalbaar proces opzetten om ideeën voor test- en personalisatieactiviteiten te ontwikkelen waarmee u uw optimalisatie- en personalisatieprogramma kunt verrijken. De volgende zes stappen schetsen een bewezen proces om enkel dat te doen, samen met details over wat te doen bij elke stap.
 
-![ Interactieve Uitvoering van Optimalisering en het diagram van de Strategie van Personalization ](/help/main/c-intro/assets/six-steps.png)
+![&#x200B; Interactieve Uitvoering van Optimalisering en het diagram van de Strategie van Personalization &#x200B;](/help/main/c-intro/assets/six-steps.png)
 
 ## Stap 1: straliseren
 

@@ -31,7 +31,7 @@ In het algemeen ziet het informatievenster voor de weergave er als in het volgen
 
 >[!NOTE]
 >
->Als u at.js 2 gebruikt.*x*, `mboxCreate` (zoals die in het volgende voorbeeld wordt gebruikt) wordt niet meer gesteund. Product- of inhoudsgegevens doorgeven aan [!DNL Recommendations] met behulp van at.js 2.*x*, gebruik [ targetPageParams ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html?lang=nl-NL){target=_blank}. Voor een voorbeeld, zie [ Plan en voer Aanbevelingen ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} uit.
+>Als u at.js 2 gebruikt.*x*, `mboxCreate` (zoals die in het volgende voorbeeld wordt gebruikt) wordt niet meer gesteund. Product- of inhoudsgegevens doorgeven aan [!DNL Recommendations] met behulp van at.js 2.*x*, gebruik [&#x200B; targetPageParams &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html?lang=nl-NL){target=_blank}. Voor een voorbeeld, zie [&#x200B; Plan en voer Aanbevelingen &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} uit.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -200,7 +200,7 @@ Voorbeelden:
 
 `'entity.secondary=Rockies'`
 
-Aangepaste entiteitskenmerken ondersteunen meerdere waarden. Zie [ de entiteitattributen van de Douane ](/help/main/c-recommendations/c-products/custom-entity-attributes.md#limits) voor karakter en waardegrenzen.
+Aangepaste entiteitskenmerken ondersteunen meerdere waarden. Zie [&#x200B; de entiteitattributen van de Douane &#x200B;](/help/main/c-recommendations/c-products/custom-entity-attributes.md#limits) voor karakter en waardegrenzen.
 
 Voorbeeld: `'entity.secondary=["band1",&nbsp;"band2"]'`
 
@@ -223,4 +223,4 @@ mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new yo
 
 >[!MORELIKETHIS]
 >
->* [ de Attributen van de Entiteit van de Douane ](/help/main/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
+>* [&#x200B; de Attributen van de Entiteit van de Douane &#x200B;](/help/main/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)

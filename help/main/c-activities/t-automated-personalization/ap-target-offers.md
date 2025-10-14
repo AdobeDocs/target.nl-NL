@@ -30,8 +30,8 @@ In dit scenario ziet bezoeker 1 aanbod 1 (omdat deze bezoeker in aanmerking komt
 
 ## Doelstellingen instellen
 
-1. Creeer of geef een [ activiteit van Automated Personalization ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) uit die de aanbiedingen bevat die u wilt richten.
-1. Na vestiging klikken de aanbiedingen voor de activiteit in [!UICONTROL Visual Experience Composer], het **[!UICONTROL Manage Content]** pictogram ( ![ leidt het pictogram van de Inhoud ](/help/main/assets/icons/Experience.svg)).
+1. Creeer of geef een [&#x200B; activiteit van Automated Personalization &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) uit die de aanbiedingen bevat die u wilt richten.
+1. Na vestiging klikken de aanbiedingen voor de activiteit in [!UICONTROL Visual Experience Composer], het **[!UICONTROL Manage Content]** pictogram ( ![&#x200B; leidt het pictogram van de Inhoud &#x200B;](/help/main/assets/icons/Experience.svg)).
 
    Het dialoogvenster [!UICONTROL Manage Content] wordt weergegeven.
 
@@ -39,7 +39,7 @@ In dit scenario ziet bezoeker 1 aanbod 1 (omdat deze bezoeker in aanmerking komt
 
 1. Selecteer de gewenste aanbiedingen en kies vervolgens het publiek dat u in aanmerking wilt nemen om dat aanbod te zien.
 
-   Aan opstelling richtend voor één enkele aanbieding, klik Meer Info ( ![ Meer pictogram van Info ](/help/main/assets/icons/MoreSmallList.svg)) naast de gewenste aanbieding, dan klik **[!UICONTROL Target Audience]** om de [!UICONTROL Add Audiences] dialoogdoos te tonen.
+   Aan opstelling richtend voor één enkele aanbieding, klik Meer Info ( ![&#x200B; Meer pictogram van Info &#x200B;](/help/main/assets/icons/MoreSmallList.svg)) naast de gewenste aanbieding, dan klik **[!UICONTROL Target Audience]** om de [!UICONTROL Add Audiences] dialoogdoos te tonen.
 
    Als u de doelgroep voor meerdere aanbiedingen wilt instellen, schakelt u de selectievakjes voor de gewenste aanbiedingen in en klikt u op de koppeling **[!UICONTROL Target Audience]** die onder aan de lijst wordt weergegeven.
 
@@ -47,7 +47,7 @@ In dit scenario ziet bezoeker 1 aanbod 1 (omdat deze bezoeker in aanmerking komt
 
    >[!NOTE]
    >
-   >Naast het selecteren van een bestaand publiek kunt u meerdere soorten publiek combineren om op aanvraag gecombineerde soorten publiek te maken in plaats van een nieuw publiek te maken. Voor meer informatie, zie [ Combinerend Veelvoudige Soorten publiek ](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   >Naast het selecteren van een bestaand publiek kunt u meerdere soorten publiek combineren om op aanvraag gecombineerde soorten publiek te maken in plaats van een nieuw publiek te maken. Voor meer informatie, zie [&#x200B; Combinerend Veelvoudige Soorten publiek &#x200B;](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
 1. Klik op **[!UICONTROL Done]**.
 

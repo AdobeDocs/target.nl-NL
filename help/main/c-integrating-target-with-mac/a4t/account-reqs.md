@@ -22,19 +22,19 @@ Uw gebruikersaccounts moeten zijn geconfigureerd zoals wordt beschreven in de vo
 
 ## Adobe Experience Cloud {#section_3931A2FAD38F4A4FA92CC77B92AF3F0D}
 
-Voltooi de volgende taken in [!DNL Adobe Experience Cloud] [ Admin Console ](https://adminconsole.adobe.com):
+Voltooi de volgende taken in [!DNL Adobe Experience Cloud] [&#x200B; Admin Console &#x200B;](https://adminconsole.adobe.com):
 
 ### Accounts voor oplossingen koppelen aan uw Adobe ID
 
 Uw [!DNL Analytics] - en [!DNL Target] -gebruikersaccounts moeten aan uw Adobe ID zijn gekoppeld.
 
-Voor meer informatie, zie [ Organisaties en rekening het verbinden ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl-NL).
+Voor meer informatie, zie [&#x200B; Organisaties en rekening het verbinden &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl-NL).
 
 ### Experience Cloud-groepslidmaatschap configureren
 
 U moet lid zijn van een of meer [!DNL Experience Cloud] -groepen die toegang hebben tot [!DNL Analytics] en [!DNL Target] .
 
-Voor meer informatie, zie [ de gebruikers en de producten van Experience Cloud beheren ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=nl-NL).
+Voor meer informatie, zie [&#x200B; de gebruikers en de producten van Experience Cloud beheren &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=nl-NL).
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
@@ -48,7 +48,7 @@ Als u A4T voor een bepaalde rapportsuite wilt gebruiken, moet u toegang hebben t
 
    De volgende illustratie is een voorbeeld van een productprofiel dat toegang tot alle rapportsuites heeft:
 
-   ![ het lusje van de Toestemming van Admin Console ](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+   ![&#x200B; het lusje van de Toestemming van Admin Console &#x200B;](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 1. Configureer toegang tot de groep [!UICONTROL Web Services Access] .
 

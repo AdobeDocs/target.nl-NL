@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Prioriteit
 
-[!DNL Adobe Target] bepaalt welke activiteit (of activiteiten) om aan een pagina te leveren verschillend afhankelijk van welke [!DNL Target] interface en welke functie van de activiteitenverwezenlijking ([[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) of [ Form-Based Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md)) u gebruikt.
+[!DNL Adobe Target] bepaalt welke activiteit (of activiteiten) om aan een pagina te leveren verschillend afhankelijk van welke [!DNL Target] interface en welke functie van de activiteitenverwezenlijking ([[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) of [&#x200B; Form-Based Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md)) u gebruikt.
 
 ## [!UICONTROL Visual Experience Composer] alleen of [!UICONTROL Form-Based Experience Composer] alleen een algemene [!DNL Target] aanvraag gebruiken {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
@@ -26,7 +26,7 @@ Als uw bedrijf VEC exclusief gebruikt, kan de inhoud van veelvoudige activiteite
    Als de bezoeker al een [!UICONTROL A/B Test] - of [!UICONTROL Multivariate Test] -activiteit heeft, komen ze overeen met die activiteit totdat ze worden omgezet. Als ze zich eerder in een [!UICONTROL Experience Targeting] -activiteit bevonden, moeten ze er opnieuw bij aansluiten. Als ze aan de publieksregels voldoen, valt de bezoeker in die activiteiten en in specifieke ervaringen.
 
 1. Inhoud voor alle activiteiten en ervaringen die de bezoekersovereenkomsten opleveren, wordt teruggestuurd naar de pagina.
-1. Als de inhoud voor elke activiteitenverwijzingen verschillende [ CSS selecteurs ](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), dan wordt al inhoud getoond.
+1. Als de inhoud voor elke activiteitenverwijzingen verschillende [&#x200B; CSS selecteurs &#x200B;](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), dan wordt al inhoud getoond.
 
    Als er sprake is van een overlapping of een gedupliceerde CSS-kiezer, wordt de activiteiteninhoud met de hoogste prioriteit weergegeven. De resultaten van alle activiteiten die op de pagina worden uitgevoerd, worden geteld en weerspiegeld in de rapporten.
 
@@ -81,7 +81,7 @@ Als uw bedrijf [!DNL Target] andere verzoeken dan het algemene [!DNL Target] -ve
 
 >[!NOTE]
 >
->Afhankelijk van uw instellingen variëren de prioriteitswaarden. U kunt de oudere instellingen van [!UICONTROL Low] , [!UICONTROL Medium] of [!UICONTROL High] gebruiken of u kunt fijngeoriënteerde prioriteiten van 0 tot en met 999 inschakelen. Voor meer informatie, zie [ montages van de Activiteit ](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
+>Afhankelijk van uw instellingen variëren de prioriteitswaarden. U kunt de oudere instellingen van [!UICONTROL Low] , [!UICONTROL Medium] of [!UICONTROL High] gebruiken of u kunt fijngeoriënteerde prioriteiten van 0 tot en met 999 inschakelen. Voor meer informatie, zie [&#x200B; montages van de Activiteit &#x200B;](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
 Reactie: aanbieding1
 

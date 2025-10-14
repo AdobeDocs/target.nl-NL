@@ -19,13 +19,13 @@ U kunt bezoekers aanwijzen met [!DNL Adobe Target] die toegang hebben tot een sp
 1. Geef een naam op voor het publiek en voeg een optionele beschrijving toe.
 1. Sleep **[!UICONTROL Site Pages]** naar het deelvenster van de publieksbuilder.
 
-   ![ het publiek van de Pagina&#39;s van de Plaats ](assets/target_site_pages.png)
+   ![&#x200B; het publiek van de Pagina&#39;s van de Plaats &#x200B;](assets/target_site_pages.png)
 
 1. Klik op de vervolgkeuzelijst **[!UICONTROL Select]** , selecteer een van de volgende opties en configureer de regel naar wens.
 
    Welke opties en beoordelaars beschikbaar zijn in vervolgkeuzelijsten in de regel, is afhankelijk van de optie die u kiest. In de volgende afbeelding ziet u de beschikbare opties als u [!UICONTROL Current Page] kiest:
 
-   ![ Huidige Pagina ](assets/current-page.png)
+   ![&#x200B; Huidige Pagina &#x200B;](assets/current-page.png)
 
    De volgende opties zijn beschikbaar in de eerste vervolgkeuzelijst wanneer u [!UICONTROL Select] kiest.
 
@@ -33,7 +33,7 @@ U kunt bezoekers aanwijzen met [!DNL Adobe Target] die toegang hebben tot een sp
 
      Als u deze optie kiest, zijn de volgende opties beschikbaar in de tweede vervolgkeuzelijst:
 
-      * [!UICONTROL URL] (Voor meer informatie over hoe [!DNL Target] URLs evalueert, zie [ Doelen en veelgestelde vragen van publiek ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * [!UICONTROL URL] (Voor meer informatie over hoe [!DNL Target] URLs evalueert, zie [&#x200B; Doelen en veelgestelde vragen van publiek &#x200B;](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * [!UICONTROL Domain]
       * [!UICONTROL Query]
       * [!UICONTROL Subdomain]
@@ -45,7 +45,7 @@ U kunt bezoekers aanwijzen met [!DNL Adobe Target] die toegang hebben tot een sp
 
      Als u deze optie kiest, zijn de volgende opties beschikbaar in de tweede vervolgkeuzelijst:
 
-      * [!UICONTROL URL] (Voor meer informatie over hoe het Doel URLs evalueert, zie [ Doelen en veelgestelde vragen van publiek ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * [!UICONTROL URL] (Voor meer informatie over hoe het Doel URLs evalueert, zie [&#x200B; Doelen en veelgestelde vragen van publiek &#x200B;](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * [!UICONTROL Domain]
       * [!UICONTROL Query]
       * [!UICONTROL Subdomain]
@@ -56,7 +56,7 @@ U kunt bezoekers aanwijzen met [!DNL Adobe Target] die toegang hebben tot een sp
 
      Als u deze optie kiest, zijn de volgende opties beschikbaar in de tweede vervolgkeuzelijst:
 
-      * [!UICONTROL URL] (Voor meer informatie over hoe het Doel URLs evalueert, zie [ Doelen en veelgestelde vragen van publiek ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * [!UICONTROL URL] (Voor meer informatie over hoe het Doel URLs evalueert, zie [&#x200B; Doelen en veelgestelde vragen van publiek &#x200B;](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * [!UICONTROL Domain]
       * [!UICONTROL Query]
       * [!UICONTROL Subdomain]
@@ -125,9 +125,9 @@ Gebruik een:
 
   Als dit gedrag niet aan uw vereisten voldoet, kunt u een van de volgende handelingen uitvoeren:
 
-   * Geef [ mbox parameters ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=nl-NL){target=_blank} aan [!DNL Target] door voor het richten van doeleinden worden gebruikt.
-   * Gebruik een [ activiteit van de Test A/B ](/help/main/c-activities/t-test-ab/test-ab.md) in plaats van een het landen paginageactiviteit. Bij de A/B-testactiviteiten wordt niet van ervaring gewisseld voor dezelfde bezoeker.
-   * Gebruik in plaats hiervan het profiel van de a [ bezoeker ](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md).
+   * Geef [&#x200B; mbox parameters &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=nl-NL){target=_blank} aan [!DNL Target] door voor het richten van doeleinden worden gebruikt.
+   * Gebruik een [&#x200B; activiteit van de Test A/B &#x200B;](/help/main/c-activities/t-test-ab/test-ab.md) in plaats van een het landen paginageactiviteit. Bij de A/B-testactiviteiten wordt niet van ervaring gewisseld voor dezelfde bezoeker.
+   * Gebruik in plaats hiervan het profiel van de a [&#x200B; bezoeker &#x200B;](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md).
 
 * Wanneer evaluatoren &quot;start/end with&quot; gebruiken voor tekenreeksen die komma&#39;s bevatten, worden deze tekenreeksen geëvalueerd als een array van waarden, waarin elke waarde die door komma&#39;s wordt gescheiden, wordt geëvalueerd. Als u bijvoorbeeld de waarde voor een header hebt: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` komt deze in aanmerking voor voorwaarden zoals:
    * begint met zh,

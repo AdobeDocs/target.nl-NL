@@ -29,7 +29,7 @@ Aangepaste kenmerken van entiteiten met meerdere waarden mogen niet meer dan 500
 
 Aangepaste entiteitskenmerken kunnen één waarde of meerdere waarden bevatten. Kenmerkwaarden voor entiteit worden weergegeven in de productweergave.
 
-![ multi-value_product beeld ](assets/multi-value_product.png)
+![&#x200B; multi-value_product beeld &#x200B;](assets/multi-value_product.png)
 
 Een attribuut van de douaneentiteit met één enkele waarde wordt gevormd de zelfde manier zoals een enig-waarde vooraf bepaald entiteitsattribuut:
 
@@ -52,11 +52,11 @@ Nadat een aangepast kenmerk is verzonden als een geldige JSON-array, wordt het k
 
 >[!NOTE]
 >
->Als u een kenmerk wilt wijzigen van een meervoudige waarde in een enkele waarde, verwijdert u de catalogus en uploadt u de gecorrigeerde productgegevens. Als u uw catalogus verwijdert, worden de historische gegevens die aan uw product-id&#39;s zijn gekoppeld, niet verwijderd. Zie [ het Schrappen van Alle Punten van het Systeem ](/help/main/assets/adobe-recommendations-classic.pdf) in de *Klassieke* documentatie van Adobe Recommendations voor meer informatie.
+>Als u een kenmerk wilt wijzigen van een meervoudige waarde in een enkele waarde, verwijdert u de catalogus en uploadt u de gecorrigeerde productgegevens. Als u uw catalogus verwijdert, worden de historische gegevens die aan uw product-id&#39;s zijn gekoppeld, niet verwijderd. Zie [&#x200B; het Schrappen van Alle Punten van het Systeem &#x200B;](/help/main/assets/adobe-recommendations-classic.pdf) in de *Klassieke* documentatie van Adobe Recommendations voor meer informatie.
 
 **Beperkingen**:
 
-* U kunt vooraf gedefinieerde namen van entiteitskenmerken niet gebruiken voor aangepaste entiteitskenmerken. (Zie [ Attributen van de Entiteit ](/help/main/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).)
+* U kunt vooraf gedefinieerde namen van entiteitskenmerken niet gebruiken voor aangepaste entiteitskenmerken. (Zie [&#x200B; Attributen van de Entiteit &#x200B;](/help/main/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).)
 * Het kenmerk `entity.environment` is gereserveerd door het systeem en kan niet worden gebruikt voor aangepaste entiteitskenmerken. Pogingen om `entity.environment` via `targetPageParams` , feeds of API&#39;s door te geven, worden genegeerd.
 * Arrays moeten één waardetype bevatten. Arrays met gemengde waarden ( `["AB",1,true]` ) worden niet ondersteund.
 * Een kenmerk met meerdere waarden dat een geneste JSON-array ( `[10,12,[1,2,3]]` ) bevat, wordt behandeld als een kenmerk met één waarde.
@@ -94,11 +94,11 @@ U kunt uw CSV-bestanden in onbewerkte vorm beheren met een teksteditor of u kunt
 
 De onbewerkte CSV ziet er als volgt uit:
 
-![ multi-value_example_raw beeld ](assets/multi-value_example_raw.png)
+![&#x200B; multi-value_example_raw beeld &#x200B;](assets/multi-value_example_raw.png)
 
 Dezelfde catalogus ziet er zo uit in een spreadsheet:
 
-![ multi-value_example_excel beeld ](assets/multi-value_example_excel.png)
+![&#x200B; multi-value_example_excel beeld &#x200B;](assets/multi-value_example_excel.png)
 
 Bij de conversie naar de CSV-indeling worden dubbele aanhalingstekens toegevoegd rondom de celinhoud om te voorkomen dat komma&#39;s binnen de cel fungeren als kolomscheidingstekens. Er worden ook dubbele aanhalingstekens toegevoegd rondom JSON-tekenreekswaarden die u opneemt in aangepaste multiwaardekenmerken. Hierdoor kan het werken met het Raw-bestand lastig zijn. Bijvoorbeeld:
 
@@ -127,7 +127,7 @@ U kunt kenmerken met meerdere waarden doorgeven met de API voor aflevering in ee
   }
 ```
 
-Zie [ Adobe Recommendations API documentatie ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} voor informatie over het gebruiken van de Levering en sparen entiteiten APIs.
+Zie [&#x200B; Adobe Recommendations API documentatie &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} voor informatie over het gebruiken van de Levering en sparen entiteiten APIs.
 
 ## Operatoren met kenmerken van meerdere waarden gebruiken {#section_83C2288A805242D9A02EBC4F07DEE945}
 

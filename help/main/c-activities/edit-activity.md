@@ -19,18 +19,18 @@ Leer hoe u bestaande activiteiten in [!DNL Adobe Target] kunt bewerken. In dit a
 
 ## Een activiteit bewerken met het pictogram [!UICONTROL More Actions] Aanwijzen op de pagina Activiteiten {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
-1. Van de **[!UICONTROL Activities]** pagina, klik het **[!UICONTROL More Actions]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmall.svg)) naast de activiteit u wilt uitgeven, dan klik [!UICONTROL **uitgeven**].
+1. Van de **[!UICONTROL Activities]** pagina, klik het **[!UICONTROL More Actions]** pictogram ( ![&#x200B; Meer pictogram van Acties &#x200B;](/help/main/assets/icons/MoreSmall.svg)) naast de activiteit u wilt uitgeven, dan klik [!UICONTROL **uitgeven**].
 
    [!DNL Target] opent de activiteit in [!UICONTROL Visual Experience Composer] (VEC) en u ziet de [!UICONTROL Experiences] pagina (de eerste stap in de driestapige geleide workflow).
 
-1. Geef de activiteit uit, zoals gewenst gebruikend de [ opties VEC ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. Geef de activiteit uit, zoals gewenst gebruikend de [&#x200B; opties VEC &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 1. Klik op **[!UICONTROL Next]** om naar de volgende stap te gaan en breng de benodigde wijzigingen aan.
 
 1. Wanneer u aan de **Doelstellingen &amp; de pagina van Montages** krijgt, hebt u de volgende opties:
 
    * **[!UICONTROL Save & Close]:** klik **[!UICONTROL Save and Close]** om uw wijzigingen op te slaan en de pagina [!UICONTROL Overview] van de activiteit weer te geven.
-   * **sparen:** klik het **[!UICONTROL More Actions]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallListVert.svg)), dan selecteer **[!UICONTROL Save]** om uw veranderingen te bewaren en in VEC te blijven waar u kunt blijven veranderingen aanbrengen. Wacht tot het opslaan is voltooid voordat u aanvullende wijzigingen aanbrengt. VEC herlaadt met de vernieuwde veranderingen nadat sparen volledig is.
+   * **sparen:** klik het **[!UICONTROL More Actions]** pictogram ( ![&#x200B; Meer pictogram van Acties &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)), dan selecteer **[!UICONTROL Save]** om uw veranderingen te bewaren en in VEC te blijven waar u kunt blijven veranderingen aanbrengen. Wacht tot het opslaan is voltooid voordat u aanvullende wijzigingen aanbrengt. VEC herlaadt met de vernieuwde veranderingen nadat sparen volledig is.
 
 ## Een activiteit bewerken door op de naam ervan op de pagina [!UICONTROL Activities] te klikken {#section_176180DAD17E40CEA441903F39E0AA1C}
 
@@ -43,7 +43,7 @@ Leer hoe u bestaande activiteiten in [!DNL Adobe Target] kunt bewerken. In dit a
 1. Breng de gewenste wijzigingen aan en sla de activiteit op.
 
    * **[!UICONTROL Save & Close]:** klik **[!UICONTROL Save and Close]** om uw wijzigingen op te slaan en de pagina [!UICONTROL Overview] van de activiteit weer te geven.
-   * **sparen:** klik het **[!UICONTROL More Actions]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallListVert.svg)), dan selecteer **[!UICONTROL Save]** om uw veranderingen te bewaren en in VEC te blijven waar u kunt blijven veranderingen aanbrengen. Wacht tot het opslaan is voltooid voordat u aanvullende wijzigingen aanbrengt. VEC herlaadt met de vernieuwde veranderingen nadat sparen volledig is.
+   * **sparen:** klik het **[!UICONTROL More Actions]** pictogram ( ![&#x200B; Meer pictogram van Acties &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)), dan selecteer **[!UICONTROL Save]** om uw veranderingen te bewaren en in VEC te blijven waar u kunt blijven veranderingen aanbrengen. Wacht tot het opslaan is voltooid voordat u aanvullende wijzigingen aanbrengt. VEC herlaadt met de vernieuwde veranderingen nadat sparen volledig is.
 
 ## Een activiteit kopiëren/bewerken met werkruimten {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
@@ -57,7 +57,7 @@ Als u deel uitmaakt van een multinationale organisatie, hebt u mogelijk een werk
 
 Voor meer informatie over werkruimten en de functionaliteit van de Toestemmingen van de Gebruiker van de Onderneming, zie {de Toestemmingen van de Gebruiker van 0} Onderneming [.](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)
 
-Als u [!UICONTROL Enterprise User Permissions] hebt ingeschakeld in uw omgeving, kunt u activiteiten kopiëren naar dezelfde werkruimte of naar een andere werkruimte. U kunt een activiteit momenteel niet van één werkruimte naar een andere verplaatsen. Om een activiteit aan een andere werkruimte, van de [!UICONTROL Activities] pagina te kopiëren, klik het **[!UICONTROL More Actions]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmall.svg)) naast de activiteit die u dan [!UICONTROL **Exemplaar**] wilt kopiëren.
+Als u [!UICONTROL Enterprise User Permissions] hebt ingeschakeld in uw omgeving, kunt u activiteiten kopiëren naar dezelfde werkruimte of naar een andere werkruimte. U kunt een activiteit momenteel niet van één werkruimte naar een andere verplaatsen. Om een activiteit aan een andere werkruimte, van de [!UICONTROL Activities] pagina te kopiëren, klik het **[!UICONTROL More Actions]** pictogram ( ![&#x200B; Meer pictogram van Acties &#x200B;](/help/main/assets/icons/MoreSmall.svg)) naast de activiteit die u dan [!UICONTROL **Exemplaar**] wilt kopiëren.
 
 Houd rekening met de volgende informatie wanneer u de functie Kopiëren/Bewerken in werkruimten gebruikt:
 
@@ -67,11 +67,11 @@ Houd rekening met de volgende informatie wanneer u de functie Kopiëren/Bewerken
 
       * In [!UICONTROL Form-Based Experience Composer], worden de waarschuwingen getoond direct binnen het gebruikersinterface voor directe zicht.
 
-        ![ vorm-Gebaseerde werkruimtewaarschuwing ](/help/main/c-activities/assets/form-based-warning.png)
+        ![&#x200B; vorm-Gebaseerde werkruimtewaarschuwing &#x200B;](/help/main/c-activities/assets/form-based-warning.png)
 
       * In VEC, zijn de waarschuwingen zichtbaar wanneer u [!UICONTROL Configure] > [!UICONTROL Properties] klikt.
 
-        ![ vec-warning ](/help/main/c-activities/assets/vec-warning.png)
+        ![&#x200B; vec-warning &#x200B;](/help/main/c-activities/assets/vec-warning.png)
 
         Klik op [!UICONTROL Add/Remove] om dit probleem op te lossen, zodat alleen de eigenschappen die beschikbaar zijn in de doelwerkruimte worden weergegeven voor selectie.
 
@@ -89,7 +89,7 @@ Houd rekening met de volgende informatie wanneer u de functie Kopiëren/Bewerken
 
      Door deze niet-doelsoorten handmatig te vervangen, zorgt u ervoor dat alleen geldige, toegankelijke entiteiten worden gebruikt in de gekopieerde activiteit en voorkomt u fouten tijdens het bewerken of leveren.
 
-     ![ het bericht van de Waarschuwing ](/help/main/c-activities/assets/copy.png)
+     ![&#x200B; het bericht van de Waarschuwing &#x200B;](/help/main/c-activities/assets/copy.png)
 
 >[!NOTE]
 >
@@ -97,7 +97,7 @@ Houd rekening met de volgende informatie wanneer u de functie Kopiëren/Bewerken
 
 ## Een activiteit opslaan in een conceptformulier {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
-De functie [!UICONTROL Save as Draft] is niet meer beschikbaar. Voor meer informatie, zie *[!UICONTROL Status]* onder [ filters op de lijst van Activiteiten toepassen ](/help/main/c-activities/activities.md#filters).
+De functie [!UICONTROL Save as Draft] is niet meer beschikbaar. Voor meer informatie, zie *[!UICONTROL Status]* onder [&#x200B; filters op de lijst van Activiteiten toepassen &#x200B;](/help/main/c-activities/activities.md#filters).
 
 ## Werken met verouderde activiteiten die zijn gemaakt in [!DNL Recommendations Classic] {#classic}
 

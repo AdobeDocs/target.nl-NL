@@ -35,17 +35,17 @@ ZIP-code is het meest voorspellend. Deze variabele zou dan de eerste &quot;tak&q
 
 Deze actie resulteert in de eerste laag van de beslissingsboom:
 
-![ decsion_tree_1 beeld ](assets/decsion_tree_1.png)
+![&#x200B; decsion_tree_1 beeld &#x200B;](assets/decsion_tree_1.png)
 
 De beslissingsboom stelt de vraag: &quot;Wat is de meest voorspellende variabele?&quot; In dit voorbeeld zijn er slechts twee variabelen, dus het antwoord hier is duidelijk gender. De boom kijkt nu om een gelijkaardige oefening te voltooien om de gegevens *binnen elke tak* te verdelen. Laten we eerst eens kijken naar de vertakking 1111, 2222 en 33333. In deze postcodes, als er een verschil is in conversie tussen mannen en vrouwen, dan zouden er twee bladeren (mannen en vrouwen) zijn, en deze tak zou compleet zijn. In de andere takken, 44444 en 55555, gaan we ervan uit dat er geen statistisch verschil is tussen de manier waarop vrouwen en mannen zich omzetten. In dit geval wordt de eerste vertakking de laatste splitsing.
 
 Het voorbeeld resulteert in de volgende boomstructuur:
 
-![ decsion_tree_2 beeld ](assets/decsion_tree_2.png)
+![&#x200B; decsion_tree_2 beeld &#x200B;](assets/decsion_tree_2.png)
 
 ## Hoe worden beslissingsbomen gebruikt door Random Forest? {#section_536C105EF9F540C096D60450CAC6F627}
 
-Beslissingsbomen kunnen een krachtig statistisch instrument zijn. Ze hebben echter enkele nadelen. Het meest kritiek, kunnen zij de gegevens &quot;overdreven-passen&quot;zodat een individuele boom slecht toekomstige gegevens voorspelt die niet werden gebruikt om de aanvankelijke boom te bouwen. Deze uitdaging is gekend als [ bias-variantie handel ](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) in het statistische leren. Willekeurige bossen helpen deze overdreven passende uitdaging het hoofd te bieden. Op het hoogste niveau is een willekeurig bos een verzameling beslissingsbomen die iets anders worden gebouwd op dezelfde gegevensset die samen &quot;stemmen&quot; om een beter model te krijgen dan een individuele boom. De bomen worden gebouwd door willekeurig een subset van bezoeken te selecteren met vervangingen (bekend als bagging) en willekeurig een subset van de kenmerken te selecteren, zodat het bos uit iets verschillende beslissingsbomen bestaat. Deze methode introduceert kleine variaties in de bomen die in het Willekeurige Bos worden gecreeerd. Door deze gecontroleerde hoeveelheid variantie toe te voegen, verbetert u de voorspellende nauwkeurigheid van het algoritme.
+Beslissingsbomen kunnen een krachtig statistisch instrument zijn. Ze hebben echter enkele nadelen. Het meest kritiek, kunnen zij de gegevens &quot;overdreven-passen&quot;zodat een individuele boom slecht toekomstige gegevens voorspelt die niet werden gebruikt om de aanvankelijke boom te bouwen. Deze uitdaging is gekend als [&#x200B; bias-variantie handel &#x200B;](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) in het statistische leren. Willekeurige bossen helpen deze overdreven passende uitdaging het hoofd te bieden. Op het hoogste niveau is een willekeurig bos een verzameling beslissingsbomen die iets anders worden gebouwd op dezelfde gegevensset die samen &quot;stemmen&quot; om een beter model te krijgen dan een individuele boom. De bomen worden gebouwd door willekeurig een subset van bezoeken te selecteren met vervangingen (bekend als bagging) en willekeurig een subset van de kenmerken te selecteren, zodat het bos uit iets verschillende beslissingsbomen bestaat. Deze methode introduceert kleine variaties in de bomen die in het Willekeurige Bos worden gecreeerd. Door deze gecontroleerde hoeveelheid variantie toe te voegen, verbetert u de voorspellende nauwkeurigheid van het algoritme.
 
 ## Hoe gebruiken de [!DNL Target] verpersoonlijkingsalgoritmen Random Forest? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
@@ -53,7 +53,7 @@ Beslissingsbomen kunnen een krachtig statistisch instrument zijn. Ze hebben echt
 
 In het volgende diagram wordt een overzicht gegeven van de manier waarop modellen voor [!UICONTROL Auto-Target] - en [!UICONTROL Automated Personalization] -activiteiten zijn gemaakt:
 
-![ random_forest_flow beeld ](assets/random_forest_flow.png){width="650" zoomable="yes"}
+![&#x200B; random_forest_flow beeld &#x200B;](assets/random_forest_flow.png){width="650" zoomable="yes"}
 
 1. Het doel verzamelt gegevens over bezoekers terwijl willekeurig het dienen ervaringen of aanbiedingen
 1. Nadat [!DNL Target] een kritische massa aan gegevens heeft bereikt, voert [!DNL Target] functietechniek uit

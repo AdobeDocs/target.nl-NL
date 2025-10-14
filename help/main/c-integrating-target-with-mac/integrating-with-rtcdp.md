@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dankzij [!DNL Adobe Experience Platform] [!DNL Real-Time Customer Data Platform] (RTCDP) kunnen bedrijven bekende en anonieme gegevens uit meerdere bedrijfsbronnen samenbrengen. Met RTCDP kunt u klantprofielen maken die kunnen worden gebruikt om in real-time persoonlijke klantenervaringen op te doen op alle kanalen en apparaten.
 
-Voor meer informatie over RTCDP, zie [ overzicht van Real-Time Customer Data Platform ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=nl-NL){target=_blank}.
+Voor meer informatie over RTCDP, zie [&#x200B; overzicht van Real-Time Customer Data Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=nl-NL){target=_blank}.
 
 ## Belangrijkste kenmerken
 
@@ -63,7 +63,7 @@ De volgende lijst toont de tijd van de segmentevaluatie voor gebeurtenissen die 
 
 ## Gebruik soorten publiek van [!DNL Adobe Experience Platform] {#aep}
 
-Het gebruiken van [ publiek ](/help/main/c-target/c-audiences/audiences.md) gecreeerd in [!DNL Adobe Experience Platform] verstrekt rijkere klantengegevens die tot uitvoerigere verpersoonlijking leiden. [ Real-Time Customer Data Platform ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=nl-NL){target=_blank} (RTCDP), die op [!DNL Adobe Experience Platform] wordt voortgebouwd, helpt bedrijven bekende en anonieme gegevens van veelvoudige ondernemingsbronnen samenbrengen. Dit proces laat u klantenprofielen tot stand brengen die kunnen worden gebruikt om gepersonaliseerde klantenervaringen over alle kanalen en apparaten in real time te verstrekken.
+Het gebruiken van [&#x200B; publiek &#x200B;](/help/main/c-target/c-audiences/audiences.md) gecreeerd in [!DNL Adobe Experience Platform] verstrekt rijkere klantengegevens die tot uitvoerigere verpersoonlijking leiden. [&#x200B; Real-Time Customer Data Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=nl-NL){target=_blank} (RTCDP), die op [!DNL Adobe Experience Platform] wordt voortgebouwd, helpt bedrijven bekende en anonieme gegevens van veelvoudige ondernemingsbronnen samenbrengen. Dit proces laat u klantenprofielen tot stand brengen die kunnen worden gebruikt om gepersonaliseerde klantenervaringen over alle kanalen en apparaten in real time te verstrekken.
 
 Door [!DNL Target] aan [!DNL Real-Time Customer Data Platform] te verbinden, kunnen klanten hun Webverpersoonlijking verrijken. Dankzij deze integratie kunt u nieuwe segmenten ontgrendelen die voorheen mogelijk niet toegankelijk waren voor [!DNL Target] , zodat u in real-time milliseconde kunt aanpassen op de eerste pagina van het webbezoek van een klant. Door het gebruik van publiek- en profielkenmerken die in [!DNL Adobe Experience Platform] zijn gemaakt, kunt u de beschikbare gegevenspunten uitbreiden voor een rijkere personalisatie.
 
@@ -74,7 +74,7 @@ Deze integratie ontgrendelt belangrijke gebruiksgevallen met Real-Time CDP:
 
 ## Real-Time CDP-profielkenmerken delen met [!DNL Target] {#rtcdp-profile-attributes}
 
-De Attributen van het Profiel van Real-Time CDP kunnen met [!DNL Target] voor gebruik in de aanbiedingen van HTML worden gedeeld en [ aanbiedingen JSON ](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+De Attributen van het Profiel van Real-Time CDP kunnen met [!DNL Target] voor gebruik in de aanbiedingen van HTML worden gedeeld en [&#x200B; aanbiedingen JSON &#x200B;](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ### Beperkingen en overwegingen met betrekking tot de Real-Time CDP-profielkenmerken {#limitations}
 
@@ -91,7 +91,7 @@ Als onlinemarkering wilt u dat het AEP/Unified Profile-profiel kenmerkwaarden de
 
 Een JSON-aanbieding maken om AEP/Unified Profile-kenmerken te delen met [!DNL Target] :
 
-1. Terwijl [ creërend een aanbieding JSON ](/help/main/c-experiences/c-manage-content/create-json-offer.md), van de **[!UICONTROL Select a source]** lijst, uitgezochte **[!UICONTROL Adobe Experience Platform]**.
+1. Terwijl [&#x200B; creërend een aanbieding JSON &#x200B;](/help/main/c-experiences/c-manage-content/create-json-offer.md), van de **[!UICONTROL Select a source]** lijst, uitgezochte **[!UICONTROL Adobe Experience Platform]**.
 1. Selecteer in de lijst **[!UICONTROL Select a profile sandbox name]** de gewenste sandbox.
 1. Selecteer in de lijst **[!UICONTROL Select a profile attribute]** de gewenste kenmerken.
 1. (Optioneel) Selecteer in de lijst **[!UICONTROL Insert a default value]** de gewenste waarden.
@@ -99,18 +99,18 @@ Een JSON-aanbieding maken om AEP/Unified Profile-kenmerken te delen met [!DNL Ta
 
 In de volgende afbeelding ziet u dat twee profielkenmerken: `loyalty.tier` en `loyalty.points` zijn toegevoegd aan de JSON-aanbieding.
 
-![ aanbieding-json-aap-gedeeld-attributenbeeld ](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
+![&#x200B; aanbieding-json-aap-gedeeld-attributenbeeld &#x200B;](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
 ## Koppelingen naar meer informatie
 
 Raadpleeg de volgende onderwerpen voor meer informatie:
 
-* [ de versienota&#39;s van Doelen ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL#destinations){target=_blank} in de *de versienota&#39;s van Adobe Experience Platform*
-* [ vorm verpersoonlijkingsbestemmingen voor zelfde-pagina en volgende-pagina verpersoonlijking ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=nl-NL){target=_blank} in de *gids van het overzicht van Doelen*.
-* [ verbinding van Adobe Target ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=nl-NL){target=_blank} in de *overzichtsgids van Doelen*
-* [ de attributen van de Kaart ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=nl-NL#map-attributes){target=_blank} in de *overzichtsgids van Doelen*.
-* [ activeer publiek aan de bestemmingen van de randverpersoonlijking ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=nl-NL){target=_blank} in de *gids van het overzicht van Doelen*.
-* [ Zelfpagina en volgende-pagina verpersoonlijking door de  [!DNL Adobe Target]  en bestemmingen van Personalization van de Douane ](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=nl-NL#same-next-page-personalization){target=_blank} onder &quot;Veelgestelde vragen&quot;in de *gids van het Overzicht van Doelen*.
+* [&#x200B; de versienota&#39;s van Doelen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL#destinations){target=_blank} in de *de versienota&#39;s van Adobe Experience Platform*
+* [&#x200B; vorm verpersoonlijkingsbestemmingen voor zelfde-pagina en volgende-pagina verpersoonlijking &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=nl-NL){target=_blank} in de *gids van het overzicht van Doelen*.
+* [&#x200B; verbinding van Adobe Target &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=nl-NL){target=_blank} in de *overzichtsgids van Doelen*
+* [&#x200B; de attributen van de Kaart &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=nl-NL#map-attributes){target=_blank} in de *overzichtsgids van Doelen*.
+* [&#x200B; activeer publiek aan de bestemmingen van de randverpersoonlijking &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=nl-NL){target=_blank} in de *gids van het overzicht van Doelen*.
+* [&#x200B; Zelfpagina en volgende-pagina verpersoonlijking door de  [!DNL Adobe Target]  en bestemmingen van Personalization van de Douane &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=nl-NL#same-next-page-personalization){target=_blank} onder &quot;Veelgestelde vragen&quot;in de *gids van het Overzicht van Doelen*.
 
 ## Video&#39;s en blogberichten {#videos-blogs}
 
@@ -120,7 +120,7 @@ In de volgende video&#39;s en blogberichten vindt u meer informatie over verbete
 
 Leer hoe u bij de volgende druk [!DNL Real-Time Customer Data Platform] en [!DNL Adobe Target] personaliseert. Met de [!DNL Adobe Target] -bestemming in [!DNL Real-Time CDP] kunt u [!DNL Experience Platform] -segmenten in [!DNL Adobe Target] gebruiken voor dezelfde paginagrootte en paginagrootte aanpassen met ondersteuning voor beheer en privacy.
 
-Voor meer informatie, zie [ Volgend-raakpersonalisatie met Real-Time CDP en Adobe Target ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=nl-NL){target=_blank} in de *gids van de Leerprogramma&#39;s van het Platform*.
+Voor meer informatie, zie [&#x200B; Volgend-raakpersonalisatie met Real-Time CDP en Adobe Target &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=nl-NL){target=_blank} in de *gids van de Leerprogramma&#39;s van het Platform*.
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
@@ -150,4 +150,4 @@ Leer hoe u met [!DNL Adobe Real-Time Customer Data Platform] profielkenmerken in
 
 ### [!DNL Adobe Target] blog en video: uitgebreide personalisatie op dezelfde pagina
 
-[[!DNL Adobe]  aankondigt Gelijke-Pagina Verbeterde Personalization met  [!DNL Adobe Target]  en  [!DNL Real-time Customer Data Platform] ](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
+[[!DNL Adobe]  aankondigt Gelijke-Pagina Verbeterde Personalization met  [!DNL Adobe Target]  en  [!DNL Real-time Customer Data Platform] &#x200B;](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}

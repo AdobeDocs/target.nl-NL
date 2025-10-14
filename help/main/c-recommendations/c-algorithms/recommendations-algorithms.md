@@ -33,9 +33,9 @@ Modeltraining is het proces waarbij aanbevelingen worden gegenereerd door de lee
 
 >[!NOTE]
 >
->Voor meer algemene informatie over elk algoritmetype en de individuele algoritmen, zie [ Baseer de aanbeveling op een aanbeveling sleutel ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+>Voor meer algemene informatie over elk algoritmetype en de individuele algoritmen, zie [&#x200B; Baseer de aanbeveling op een aanbeveling sleutel &#x200B;](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
-Veel van de bovenstaande algoritmen zijn gebaseerd op de aanwezigheid van een of meerdere toetsen. Deze sleutels worden gebruikt om gelijkaardige punten bij de tijd van de inhoudslevering terug te winnen (wanneer aanbevelingen worden gedaan). Door de klant opgegeven sleutels kunnen het huidige object bevatten dat iemand bekijkt, het laatst bekeken of aangekochte object, het meest bekeken object, de huidige categorie of de favoriete categorie voor die bezoeker. Andere algoritmen, zoals op kar-gebaseerde of op gebruiker-gebaseerde aanbevelingen, gebruiken impliciete sleutels (die niet door de klant kunnen worden gevormd). Voor meer informatie, zie *sleutels van de Aanbeveling*, in [ Baseer de aanbeveling op een aanbeveling sleutel ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys). Deze toetsen zijn echter alleen relevant op het moment dat het model wordt gebruikt (levering van inhoud). Deze toetsen zijn niet van invloed op de logica van de ‘offline’ of de modeltrainingstijd.
+Veel van de bovenstaande algoritmen zijn gebaseerd op de aanwezigheid van een of meerdere toetsen. Deze sleutels worden gebruikt om gelijkaardige punten bij de tijd van de inhoudslevering terug te winnen (wanneer aanbevelingen worden gedaan). Door de klant opgegeven sleutels kunnen het huidige object bevatten dat iemand bekijkt, het laatst bekeken of aangekochte object, het meest bekeken object, de huidige categorie of de favoriete categorie voor die bezoeker. Andere algoritmen, zoals op kar-gebaseerde of op gebruiker-gebaseerde aanbevelingen, gebruiken impliciete sleutels (die niet door de klant kunnen worden gevormd). Voor meer informatie, zie *sleutels van de Aanbeveling*, in [&#x200B; Baseer de aanbeveling op een aanbeveling sleutel &#x200B;](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys). Deze toetsen zijn echter alleen relevant op het moment dat het model wordt gebruikt (levering van inhoud). Deze toetsen zijn niet van invloed op de logica van de ‘offline’ of de modeltrainingstijd.
 
 De volgende secties groeperen algoritmen op een iets andere manier dan de hierboven beschreven algoritmenypes. De volgende groepering is gebaseerd op de gelijkenis van model opleidingslogica.
 
@@ -47,7 +47,7 @@ Algoritmen zijn onder meer:
 * [!UICONTROL People Who Viewed This, Bought That]
 * [!UICONTROL People Who Bought This, Bought That]
 
-De punt-punt samenwerkings het filtreren aanbevelingen algoritmen zijn gebaseerd op het idee dat u de gedragspatronen van vele gebruikers (vandaar samenwerkingsverband) zou moeten gebruiken om nuttige aanbevelingen voor een bepaald punt (bijvoorbeeld, filter de catalogus van mogelijke punten om aan te bevelen) te verstrekken. Hoewel er vele verschillende algoritmen zijn die onder de algemene paraplu van [ samenwerkings het filtreren ](https://en.wikipedia.org/wiki/Collaborative_filtering) vallen, gebruiken deze algoritmen universeel gedragsgegevensbronnen als input. In [!DNL Target Recommendations] zijn deze invoer de unieke weergaven en aankopen van objecten door gebruikers.
+De punt-punt samenwerkings het filtreren aanbevelingen algoritmen zijn gebaseerd op het idee dat u de gedragspatronen van vele gebruikers (vandaar samenwerkingsverband) zou moeten gebruiken om nuttige aanbevelingen voor een bepaald punt (bijvoorbeeld, filter de catalogus van mogelijke punten om aan te bevelen) te verstrekken. Hoewel er vele verschillende algoritmen zijn die onder de algemene paraplu van [&#x200B; samenwerkings het filtreren &#x200B;](https://en.wikipedia.org/wiki/Collaborative_filtering) vallen, gebruiken deze algoritmen universeel gedragsgegevensbronnen als input. In [!DNL Target Recommendations] zijn deze invoer de unieke weergaven en aankopen van objecten door gebruikers.
 
 Voor het algoritme &quot;Personen die dit item hebben bekeken/aangeschaft, hebben deze items ook bekeken/aangeschaft&quot;, is het doel een overeenkomst (A,B) tussen alle paren items te berekenen. Voor een bepaald punt A worden de hoogste aanbevelingen vervolgens geordend op basis van hun gelijkenis s(A,B).
 
@@ -55,17 +55,17 @@ Een voorbeeld van zo&#39;n gelijkenis is het samenvallen tussen items: een eenvo
 
 Als
 
-![ Formule voor het bekeken/gekochte algoritme ](assets/formula.png)
+![&#x200B; Formule voor het bekeken/gekochte algoritme &#x200B;](assets/formula.png)
 
-dan zou het punt B niet met punt A moeten worden geadviseerd. De volledige details van deze berekening van de logboekwaarschijnlijkheidsverhouding worden verstrekt [ in dit PDF ](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
+dan zou het punt B niet met punt A moeten worden geadviseerd. De volledige details van deze berekening van de logboekwaarschijnlijkheidsverhouding worden verstrekt [&#x200B; in dit PDF &#x200B;](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
 
 De logische stroom van de daadwerkelijke algoritmeimplementatie wordt getoond in het volgende schematische diagram:
 
-![ Schematisch diagram van een bekeken/gekocht algoritme ](assets/diagram1.png)
+![&#x200B; Schematisch diagram van een bekeken/gekocht algoritme &#x200B;](assets/diagram1.png)
 
 Deze stappen zijn als volgt:
 
-* **gegevens van de Input**: De gegevens van het gedrag, in de vorm van meningen en aankopen van bezoekers die worden verzameld wanneer u [ Doel ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} of van [ Adobe Analytics ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank} uitvoert.
+* **gegevens van de Input**: De gegevens van het gedrag, in de vorm van meningen en aankopen van bezoekers die worden verzameld wanneer u [&#x200B; Doel &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} of van [&#x200B; Adobe Analytics &#x200B;](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank} uitvoert.
 
 * **Model opleiding**:
 
@@ -73,7 +73,7 @@ Deze stappen zijn als volgt:
    * **de vergelijkingsberekening van het Punt**: Dit is de kern computerstap: het berekenen van de de verhoudingsgelijkenis van de logboekwaarschijnlijkheid tussen alle kandidaat puntparen, en het rangschikken paren punten door deze gelijkenisscore.
    * **Off-line filtreren**: Tot slot worden om het even welke verdere toepasselijke dynamische filters toegepast (bijvoorbeeld, dynamische categorieconclusies). Na deze stap worden vooraf berekende aanbevelingen globaal in cache geplaatst om beschikbaar te zijn voor het dienen.
 
-* **Model het dienen**: De inhoud van aanbevelingen wordt geleverd van [!DNL Target] [ het globale &quot;Edge&quot;netwerk ](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934). Wanneer mbox de verzoeken aan [!DNL Target] worden gemaakt en het wordt bepaald dat de aanbevelingen inhoud aan de pagina zouden moeten worden geleverd, wordt het verzoek om de aangewezen [ puntsleutel ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) voor het aanbevelingen algoritme of ontleed van het verzoek of opgezocht van het gebruikersprofiel, en dan gebruikt om de aanbevelingen terug te winnen die in de vorige stappen worden gegevens verwerkt. Verdere dynamische filters worden toegepast op dit ogenblik, alvorens het aangewezen [ ontwerp ](/help/main/c-recommendations/c-design-overview/create-design.md) wordt teruggegeven.
+* **Model het dienen**: De inhoud van aanbevelingen wordt geleverd van [!DNL Target] [&#x200B; het globale &quot;Edge&quot;netwerk &#x200B;](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934). Wanneer mbox de verzoeken aan [!DNL Target] worden gemaakt en het wordt bepaald dat de aanbevelingen inhoud aan de pagina zouden moeten worden geleverd, wordt het verzoek om de aangewezen [&#x200B; puntsleutel &#x200B;](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) voor het aanbevelingen algoritme of ontleed van het verzoek of opgezocht van het gebruikersprofiel, en dan gebruikt om de aanbevelingen terug te winnen die in de vorige stappen worden gegevens verwerkt. Verdere dynamische filters worden toegepast op dit ogenblik, alvorens het aangewezen [&#x200B; ontwerp &#x200B;](/help/main/c-recommendations/c-design-overview/create-design.md) wordt teruggegeven.
 
 ## Overeenkomende inhoud
 
@@ -85,26 +85,26 @@ In dit type algoritme worden twee items beschouwd als gerelateerd als de naam en
 
 Hoewel het model dat dienst doet en de tevreden leveringsaspecten van de de inhoudgelijkenisalgoritmen van [!DNL Target] aan andere op punt-gebaseerde algoritmen identiek zijn, zijn de modeltrainingsstappen drastisch verschillend en impliceren een reeks natuurlijke taalverwerking en voorverwerkingsstappen zoals die in het volgende diagram worden getoond. De kern van de gelijkheidsberekening is het gebruik van de cosinusgelijkenis van gewijzigde tf-idf vectoren die elk punt in de catalogus vertegenwoordigen.
 
-![ Diagram die de stroom van het proces van de inhoudsgelijkenis tonen ](assets/diagram2.png)
+![&#x200B; Diagram die de stroom van het proces van de inhoudsgelijkenis tonen &#x200B;](assets/diagram2.png)
 
 Deze stappen zijn als volgt:
 
-* **gegevens van de Input**: Zoals eerder beschreven, is dit algoritme puur gebaseerd op catalogusgegevens (die aan [!DNL Target] via het Diervoeder van de Catalogus van de a [ worden opgenomen, de Entiteiten API, of van op pagina updates ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank}.
+* **gegevens van de Input**: Zoals eerder beschreven, is dit algoritme puur gebaseerd op catalogusgegevens (die aan [!DNL Target] via het Diervoeder van de Catalogus van de a [&#x200B; worden opgenomen, de Entiteiten API, of van op pagina updates &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank}.
 
 * **Model opleiding**:
 
-   * **de extractie van Attributen**: Na de toepassing van regelmatige statische filters, catalogusregels en globale uitsluitingen, haalt dit algoritme relevante tekstuele gebieden uit het entiteitschema. [!DNL Target] gebruikt automatisch de naam, het bericht, en de categorievelden van de entiteitattributen en pogingen om het even welke koordgebieden uit douane [ entiteitattributen ](/help/main/c-recommendations/c-products/entity-attributes.md) te halen. Dit proces wordt gedaan door ervoor te zorgen dat de meerderheid van waarden voor dat gebied niet parseerbaar als aantal, datum, of booleaanse waarde is.
+   * **de extractie van Attributen**: Na de toepassing van regelmatige statische filters, catalogusregels en globale uitsluitingen, haalt dit algoritme relevante tekstuele gebieden uit het entiteitschema. [!DNL Target] gebruikt automatisch de naam, het bericht, en de categorievelden van de entiteitattributen en pogingen om het even welke koordgebieden uit douane [&#x200B; entiteitattributen &#x200B;](/help/main/c-recommendations/c-products/entity-attributes.md) te halen. Dit proces wordt gedaan door ervoor te zorgen dat de meerderheid van waarden voor dat gebied niet parseerbaar als aantal, datum, of booleaanse waarde is.
    * **het Afstammen en het einde-woord verwijdering**: Voor nauwkeurigere overeenkomende tekstgelijkenis, is het bedachtzaam om zeer gemeenschappelijke &quot;stop&quot;woorden te verwijderen die niet beduidend de betekenis van een punt (bijvoorbeeld, &quot;was,&quot;is &quot;en,&quot;en, etc.) veranderen. Op dezelfde manier verwijst stammen naar het proces om woorden met verschillende achtervoegsels aan hun wortelwoord te verminderen, dat een identieke betekenis heeft (bijvoorbeeld &quot;verbinden,&quot;verbinden,&quot;en &quot;verbinding&quot;allen hebben het zelfde wortelwoord: &quot;verbinden&quot;). [!DNL Target] gebruikt de Snowball-stemmer. [!DNL Target] voert eerst automatische taaldetectie uit en kan de verwijdering van woorden voor maximaal 50 talen en stammen voor 18 talen wel stoppen.
    * **n-gram verwezenlijking**: Na de vorige stappen, wordt elk woord behandeld als teken. Het proces waarbij opeenvolgende reeksen tokens worden gecombineerd tot één token, wordt n-gram maken genoemd. De algoritmen van [!DNL Target] hebben een waarde van maximaal 2 gram.
    * **tf-idf berekening**: De volgende stap impliceert de verwezenlijking van tf-idf vectoren om op het relatieve belang van tokens in de puntbeschrijving te wijzen. Voor elke token/term t in een item i, in een catalogus D met |D| De term frequentie TF(t, i) wordt als eerste berekend (het aantal keren dat de term voorkomt in item i), en de documentfrequentie DF(t, D). In wezen het aantal items waar het token bestaat. De tf-idf-maatregel is dan
 
-     ![ Formule die tf-idf maatregel toont ](assets/formula2.png)
+     ![&#x200B; Formule die tf-idf maatregel toont &#x200B;](assets/formula2.png)
 
-     [!DNL Target] gebruikt *tf-idf* van de Vonk van Apache featurization implementatie, die onder de kap elk teken aan een ruimte van 218 tokens hashes. In deze stap, wordt het klant-gespecificeerde attribuut het opvoeren en het begraven ook toegepast door de termijnfrequenties in elke vector aan te passen die op montages wordt gebaseerd die in de [ criteria ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity) worden gespecificeerd.
+     [!DNL Target] gebruikt *tf-idf* van de Vonk van Apache featurization implementatie, die onder de kap elk teken aan een ruimte van 218 tokens hashes. In deze stap, wordt het klant-gespecificeerde attribuut het opvoeren en het begraven ook toegepast door de termijnfrequenties in elke vector aan te passen die op montages wordt gebaseerd die in de [&#x200B; criteria &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity) worden gespecificeerd.
 
    * **de gelijksoortigheidsberekening van het Punt**: De definitieve berekening van de puntgelijkenis wordt gedaan gebruikend een benaderende cosingelijkenis. Voor twee punten, *A* en *B*, met vectoren tA en tB, wordt de cosinegelijkenis bepaald als:
 
-     ![ Formule die de berekening van de puntgelijkenis tonen ](assets/formula3.png)
+     ![&#x200B; Formule die de berekening van de puntgelijkenis tonen &#x200B;](assets/formula3.png)
 
      Om significante ingewikkeldheid in gegevensverwerkingsgelijkenissen tussen alle n x N punten te vermijden, wordt de *tf-idf* vector beknot om slechts zijn grootste 500 ingangen te bevatten, en dan cosinegelijkenissen tussen punten te berekenen die deze afgekapte vectorvertegenwoordiging gebruiken. Deze aanpak blijkt robuuster te zijn voor dunne berekeningen van de vectorgelijkenis, in vergelijking met andere benaderende dichtstbijzijnde (ANN) technieken, zoals localiteitsgevoelige hashing.
 
@@ -123,11 +123,11 @@ Deze algoritmen bouwen op de fundamentele samenwerkings het filtreren technieken
 
 De logica van modelopleiding en het scoren stappen worden getoond in het volgende diagram:
 
-![ Diagram die de logica van modelopleiding en het scoren stappen ](assets/diagram3.png) tonen
+![&#x200B; Diagram die de logica van modelopleiding en het scoren stappen &#x200B;](assets/diagram3.png) tonen
 
 Deze stappen zijn als volgt:
 
-* **gegevens van de Input**: Dit is identiek aan punt-punt samenwerkings het filtreren (CF) methodes. [!UICONTROL Both Recommended For You] en op kunst-Gebaseerde algoritmen gebruiken gedragsgegevens, in de vorm van meningen en aankopen van verzamelde gebruikers wanneer u [ Doel ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} of van [ Adobe Analytics ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank} uitvoert.
+* **gegevens van de Input**: Dit is identiek aan punt-punt samenwerkings het filtreren (CF) methodes. [!UICONTROL Both Recommended For You] en op kunst-Gebaseerde algoritmen gebruiken gedragsgegevens, in de vorm van meningen en aankopen van verzamelde gebruikers wanneer u [&#x200B; Doel &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} of van [&#x200B; Adobe Analytics &#x200B;](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank} uitvoert.
 
 * **Model opleiding**:
 
@@ -135,9 +135,9 @@ Deze stappen zijn als volgt:
    * **de testspleet van de Trein**: Voer een chronologische splitsing van de toepassingen voor elke gebruiker uit, die de eerste 80% van hun gebruik aan opleidingsgegevens toewijst, met de resterende 20% die aan de testgegevens wordt toegewezen.
    * **de modelopleiding van de gelijkenis van het Punt**: De vergelijkingsberekening van het kernpunt verschilt voor [!UICONTROL Recommended For You] en op kunst-Gebaseerde algoritmen in de manier dat de vector van het kandidaatpunt wordt geconstrueerd. Voor [!UICONTROL Recommended For You] hebben de itemvectoren dimensie-NUsers, waarbij elke vermelding de som van impliciete beoordelingen voor die gebruiker van het item vertegenwoordigt. Aankopen van een item krijgen een gewicht van 2x dat van weergaven van het item. Voor op kunst-Gebaseerde aanbevelingen, hebben de puntvectoren binaire ingangen; als het binnen-zittingsgedrag slechts moet worden overwogen, is er een nieuwe ingang voor elke zitting. Anders is er een item in dit item-vector voor elke bezoeker.
 
-  De trainingsstap berekent verscheidene types van vectorgelijkenissen: gelijkenis LLR ([ hier besproken ](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), cosinegelijkenis (eerder bepaald), en een genormaliseerde L2 gelijkenis, die als wordt bepaald:
+  De trainingsstap berekent verscheidene types van vectorgelijkenissen: gelijkenis LLR ([&#x200B; hier besproken &#x200B;](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), cosinegelijkenis (eerder bepaald), en een genormaliseerde L2 gelijkenis, die als wordt bepaald:
 
-  ![ Formule die trainingsberekening tonen ](assets/formula4.png)
+  ![&#x200B; Formule die trainingsberekening tonen &#x200B;](assets/formula4.png)
 
    * **de modelevaluatie van de gelijkenis van het Punt**: De modelevaluatie wordt gedaan door de aanbevelingen te nemen die in de vorige stap worden geproduceerd en voorspellingen te maken over de reeks van testgegevens. De online het scoren fase wordt nagebootst door chronologisch het puntengebruik van elke gebruiker in de testdataset te bepalen, dan het doen van 100 aanbevelingen voor geordende ondergroepen van punten in een poging om verdere meningen en aankopen te voorspellen. Een metrische informatie terugwinning, [ Gemiddelde Precisie ] (https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval), wordt gebruikt om de kwaliteit van deze aanbevelingen te evalueren. Deze maatstaf houdt rekening met de volgorde van aanbevelingen, en geeft de voorkeur aan relevante punten hoger in de lijst van aanbevelingen, die een belangrijk bezit voor rangschikkingssystemen is.
    * **modelselectie**: Na off-line evaluatie, wordt het model dat de hoogste Gemiddelde Precisie heeft geselecteerd, en alle individuele punt-punt aanbevelingen die voor het worden verwerkt.
@@ -150,7 +150,7 @@ Deze stappen zijn als volgt:
 
 Deze processen worden geïllustreerd in de volgende afbeelding, waarbij een bezoeker item A heeft bekeken en item B heeft aangeschaft. Individuele aanbevelingen worden opgehaald met de offline vergelijkbare scores onder elk itemlabel. Na terugwinning, worden de aanbevelingen samengevoegd met gewogen gelijkenisscores samengevat. Tot slot in een scenario waarin de klant heeft gespecificeerd dat eerder bekeken en gekochte punten uit moeten worden gefiltreerd, verwijdert de het filtreren stap punten A en B uit de lijst van aanbevelingen.
 
-![ Diagram die de verwerking van multi-keyalgoritmen tonen ](assets/diagram4.png)
+![&#x200B; Diagram die de verwerking van multi-keyalgoritmen tonen &#x200B;](assets/diagram4.png)
 
 ## Gebaseerd op populariteit
 
@@ -174,8 +174,8 @@ Afzonderlijke algoritme-nuances zijn als volgt:
 
 ## Onlangs bekeken
 
-Het algoritme van de &quot;onlangs bekeken&quot;aanbevelingen staat voor in-zittingspersonalisering van aanbevelingen toe. Voor dit algoritme is geen offline &#39;modeltraining&#39; vereist. In plaats daarvan, [!DNL Target] gebruikt het unieke [ Profiel van de Bezoeker ](/help/main/c-target/c-visitor-profile/visitor-profile.md) om een lopende lijst van punten te handhaven die in een bepaalde zitting zijn bekeken en deze punten in aanbevelingen activiteiten kunnen behandelen. Dit staat voor updates in real time aan aanbevelingen en volgende-pagina verpersoonlijking toe.
+Het algoritme van de &quot;onlangs bekeken&quot;aanbevelingen staat voor in-zittingspersonalisering van aanbevelingen toe. Voor dit algoritme is geen offline &#39;modeltraining&#39; vereist. In plaats daarvan, [!DNL Target] gebruikt het unieke [&#x200B; Profiel van de Bezoeker &#x200B;](/help/main/c-target/c-visitor-profile/visitor-profile.md) om een lopende lijst van punten te handhaven die in een bepaalde zitting zijn bekeken en deze punten in aanbevelingen activiteiten kunnen behandelen. Dit staat voor updates in real time aan aanbevelingen en volgende-pagina verpersoonlijking toe.
 
 ## Aangepaste criteria
 
-De criteria van de douane staan klanten toe om [ hun eigen aanbevelingen aan  [!DNL Target]](/help/main/c-recommendations/c-algorithms/recommendations-csv.md) te uploaden, die belangrijke flexibiliteit geven en &quot;uw eigen model&quot;mogelijkheden toestaan. De criteria van de douane vervangen het &quot;off-line opleidings&quot;gedeelte van [!UICONTROL Item-Based] aanbevelingen, maar gedraagt zich zoals op punt-Gebaseerde aanbevelingen algoritmen tijdens de online fase van de inhoudslevering, in die zin dat één enkele sleutel voor terugwinning van aanbevelingen wordt gebruikt en bedrijfsregels/filters dan worden toegepast.
+De criteria van de douane staan klanten toe om [&#x200B; hun eigen aanbevelingen aan  [!DNL Target]](/help/main/c-recommendations/c-algorithms/recommendations-csv.md) te uploaden, die belangrijke flexibiliteit geven en &quot;uw eigen model&quot;mogelijkheden toestaan. De criteria van de douane vervangen het &quot;off-line opleidings&quot;gedeelte van [!UICONTROL Item-Based] aanbevelingen, maar gedraagt zich zoals op punt-Gebaseerde aanbevelingen algoritmen tijdens de online fase van de inhoudslevering, in die zin dat één enkele sleutel voor terugwinning van aanbevelingen wordt gebruikt en bedrijfsregels/filters dan worden toegepast.

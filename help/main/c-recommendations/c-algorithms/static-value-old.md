@@ -28,4 +28,4 @@ U kunt zo veel inclusieregels tot stand brengen zoals nodig. De inclusieregels w
 
 Om een inclusieregel met statische waarden tot stand te brengen om inhoud met een classificatie MPA van &quot;G&quot;of &quot;PG&quot;slechts (exclusief &quot;R&quot;en &quot;NC17&quot;inhoud) aan te bevelen, kon u de volgende het filtreren regels &quot;film-rating evenaart g-rating&quot;en &quot;film-rating gelijk pg-schatten&quot;, zoals hieronder getoond.
 
-![ film-classificatie voorbeeld ](/help/main/c-recommendations/c-algorithms/assets/movies.png)
+![&#x200B; film-classificatie voorbeeld &#x200B;](/help/main/c-recommendations/c-algorithms/assets/movies.png)

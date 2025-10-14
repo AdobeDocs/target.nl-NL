@@ -27,7 +27,7 @@ De metriek van de opbrengst die aan &quot;[!UICONTROL Increment count & keep use
 
 >[!NOTE]
 >
->Voor activiteiten die [ Analytics als rapporterende bron ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) gebruiken (A4T), zal doel metrisch altijd &quot; [!UICONTROL Increment Count & Keep User in Activity]&quot;en &quot;[!UICONTROL On Every Impression]&quot;montages gebruiken. Dit is *niet* configureerbaar.
+>Voor activiteiten die [&#x200B; Analytics als rapporterende bron &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) gebruiken (A4T), zal doel metrisch altijd &quot; [!UICONTROL Increment Count & Keep User in Activity]&quot;en &quot;[!UICONTROL On Every Impression]&quot;montages gebruiken. Dit is *niet* configureerbaar.
 
 De volgende succeswaarden zijn beschikbaar:
 
@@ -47,7 +47,7 @@ U kunt ook aangepaste succesmaatstaven maken.
 
 Selecteer de maatstaf voor succes en selecteer de actie die een bezoeker heeft uitgevoerd om het doel te bereiken. Kies bijvoorbeeld een [!UICONTROL Conversion] -metrische waarde, stel deze in op één keer per bezoeker en stel vervolgens in of succes wordt geboekt wanneer een bezoeker een bepaalde pagina (of set pagina&#39;s) bekijkt, een specifieke [!DNL Target] -aanvraag weergeeft of op een specifieke koppeling klikt.
 
-Als deze optie is ingeschakeld, biedt het veld [!UICONTROL Estimated Value of one conversion] (niet beschikbaar voor de [!UICONTROL Page Score] -meetgegevens) een waarde voor uw doel, maar niet voor andere meetwaarden. Met deze waarde kan [!DNL Target] een geschatte lift in inkomsten berekenen. Dit veld is facultatief, maar incrementele inkomsten voor elke metrische waarde zonder inkomsten kunnen niet worden berekend. Voor alle inkomstenmetriek ([!UICONTROL Revenue per Visitor], [!UICONTROL Average Order Value], [!UICONTROL Total Sales], en [!UICONTROL Orders]), gebruikt de schatting [!UICONTROL Revenue per Visitor]. Het gegevenstype is currency. Zie [ Schatting Lift in Inkomsten ](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) voor meer informatie.
+Als deze optie is ingeschakeld, biedt het veld [!UICONTROL Estimated Value of one conversion] (niet beschikbaar voor de [!UICONTROL Page Score] -meetgegevens) een waarde voor uw doel, maar niet voor andere meetwaarden. Met deze waarde kan [!DNL Target] een geschatte lift in inkomsten berekenen. Dit veld is facultatief, maar incrementele inkomsten voor elke metrische waarde zonder inkomsten kunnen niet worden berekend. Voor alle inkomstenmetriek ([!UICONTROL Revenue per Visitor], [!UICONTROL Average Order Value], [!UICONTROL Total Sales], en [!UICONTROL Orders]), gebruikt de schatting [!UICONTROL Revenue per Visitor]. Het gegevenstype is currency. Zie [&#x200B; Schatting Lift in Inkomsten &#x200B;](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) voor meer informatie.
 
 De succesmetriek u voor uw activiteit kiest zijn beschikbaar in de rapportmontages wanneer u een rapport voor de activiteit bekijkt.
 
@@ -59,24 +59,24 @@ Gebruik de geavanceerde instellingen om te bepalen hoe succesvol u bent. De opti
 
 Klik op [!UICONTROL Advanced Settings] > **[!UICONTROL vertical ellipses]** om de **[!UICONTROL Advanced Settings]** -opties te openen.
 
-![ Geavanceerde het menu van Montages ](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
+![&#x200B; Geavanceerde het menu van Montages &#x200B;](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
 
 >[!NOTE]
 >
->Als u [!DNL Adobe Analytics] als rapportbron gebruikt, worden de instellingen beheerd door de [!DNL Analytics] -server. De optie [!UICONTROL Advanced Settings] is niet beschikbaar. Voor meer informatie, zie [ Adobe Analytics als rapporteringsbron voor Adobe Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+>Als u [!DNL Adobe Analytics] als rapportbron gebruikt, worden de instellingen beheerd door de [!DNL Analytics] -server. De optie [!UICONTROL Advanced Settings] is niet beschikbaar. Voor meer informatie, zie [&#x200B; Adobe Analytics als rapporteringsbron voor Adobe Target (A4T) &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
 ### Afhankelijkheid toevoegen
 
 U kunt de geavanceerde montages gebruiken om afhankelijke succesmetriek tot stand te brengen, die één metrisch slechts verhogen als een bezoeker een andere metrische eerste bereikt.
 
-![ voeg Afhankelijkheid ](/help/main/c-activities/r-success-metrics/assets/UI_dep_success_metric.png) toe
+![&#x200B; voeg Afhankelijkheid &#x200B;](/help/main/c-activities/r-success-metrics/assets/UI_dep_success_metric.png) toe
 
 Een testconversie is bijvoorbeeld alleen geldig als een bezoeker op de aanbieding klikt of een bepaalde pagina bereikt voordat deze wordt omgezet.
 
 De functionaliteit van de afhankelijkheid wordt *niet* gesteund voor het volgende:
 
 * [!UICONTROL Recommendations] -activiteiten. Deze functionaliteit wordt ondersteund voor alle andere typen activiteiten.
-* Als u [ Analytics als uw rapporteringsbron ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) gebruikt.
+* Als u [&#x200B; Analytics als uw rapporteringsbron &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) gebruikt.
 * Het metrische type &quot;Viewed a Page&quot;.
 * Het metrische type &quot;Clicked an Element&quot; voor VEC-activiteiten (Visual Experience Composer).
 

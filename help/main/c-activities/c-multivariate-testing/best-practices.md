@@ -38,7 +38,7 @@ Tips om u te helpen de prestaties te verbeteren, problemen te voorkomen en beken
 
   Bekijk alle ervaringen die door de test zijn gegenereerd voordat u live gaat. Zorg ervoor dat er geen combinaties zijn met tegenstrijdige claims (bijvoorbeeld 20% korting en $19 korting in dezelfde ervaring) of incompatibele ontwerpen, zoals achtergrond en lettertype met dezelfde kleur.
 
-* Gebruik de [ schatter van het Verkeer ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) om ervoor te zorgen dat uw test voor de hoeveelheid verkeer wordt ontworpen uw pagina ontvangt.
+* Gebruik de [&#x200B; schatter van het Verkeer &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) om ervoor te zorgen dat uw test voor de hoeveelheid verkeer wordt ontworpen uw pagina ontvangt.
 
   Zorg ervoor dat de schatter van het Verkeer uw testconfiguratie het groene licht geeft zodat kunt u de resultaten krijgen u wenst.
 
@@ -46,8 +46,8 @@ Tips om u te helpen de prestaties te verbeteren, problemen te voorkomen en beken
 
 ## Analyseren {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* Maak frequent gebruik van het [ rapport van de Bijdrage van de Plaats ](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) om de prestaties van elke plaats en aanbieding te controleren.
-* In het [ rapport van de Prestaties van de Ervaring ](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md), baseer uw besluiten op de getoonde gegevens gebruikend de [!UICONTROL Best 5] en [!UICONTROL Worst 5] filters.
+* Maak frequent gebruik van het [&#x200B; rapport van de Bijdrage van de Plaats &#x200B;](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) om de prestaties van elke plaats en aanbieding te controleren.
+* In het [&#x200B; rapport van de Prestaties van de Ervaring &#x200B;](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md), baseer uw besluiten op de getoonde gegevens gebruikend de [!UICONTROL Best 5] en [!UICONTROL Worst 5] filters.
 
   Met het filter [!UICONTROL All] is het moeilijk om de gewenste informatie op te halen en niet alle ervaringen kunnen in de grafiek worden weergegeven. Gebruik het filter [!UICONTROL All] als u een specifieke ervaring wilt bekijken die niet in de beste of slechtste vijf is.
 

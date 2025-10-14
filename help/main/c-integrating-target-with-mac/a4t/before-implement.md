@@ -19,19 +19,19 @@ Voordat u besluit om deze integratie te gebruiken, moet u de volgende secties do
 
 >[!NOTE]
 >
->Dit artikel is alleen van toepassing op at.js-implementaties. Voor informatie over het uitvoeren van [!UICONTROL Analytics for Target] (A4T) met [!DNL Adobe Experience Platform Web SDK], zie [ Adobe Analytics voor Doel (A4T) het registreren in het Web SDK van Experience Platform ](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html?lang=nl-NL){target=_blank}.
+>Dit artikel is alleen van toepassing op at.js-implementaties. Voor informatie over het uitvoeren van [!UICONTROL Analytics for Target] (A4T) met [!DNL Adobe Experience Platform Web SDK], zie [&#x200B; Adobe Analytics voor Doel (A4T) het registreren in het Web SDK van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html?lang=nl-NL){target=_blank}.
 
 ## Implementatievereisten {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
 >[!IMPORTANT]
 >
->Voordat u kunt beginnen met het gebruik van A4T, moet u vragen of uw account is ingericht voor de integratie. Gebruik de [ Vorm van de Levering van de Integratie van Marketing Cloud ](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} om te verzoeken om te worden provisioned.
+>Voordat u kunt beginnen met het gebruik van A4T, moet u vragen of uw account is ingericht voor de integratie. Gebruik de [&#x200B; Vorm van de Levering van de Integratie van Marketing Cloud &#x200B;](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} om te verzoeken om te worden provisioned.
 
 Deze integratie A4T vereist dat u de volgende (of nieuwere) bibliotheekversies uitvoert, afhankelijk van of u redirect aanbiedingen met A4T of niet wilt gebruiken.
 
 >[!NOTE]
 >
->De volgende vereisten maken een lijst van de *minimum* versies van at.js nodig om A4T uit te voeren. Het team van [!DNL Target] onderhoudt slechts twee versies van [!DNL at.js]: de huidige versie en de tweede nieuwste versie. Voer indien nodig een upgrade uit op [!DNL at.js] om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie over wat in elke versie is, zie [ at.js de Details van de Versie ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank}.
+>De volgende vereisten maken een lijst van de *minimum* versies van at.js nodig om A4T uit te voeren. Het team van [!DNL Target] onderhoudt slechts twee versies van [!DNL at.js]: de huidige versie en de tweede nieuwste versie. Voer indien nodig een upgrade uit op [!DNL at.js] om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie over wat in elke versie is, zie [&#x200B; at.js de Details van de Versie &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank}.
 
 ### Vereisten nodig als *niet* het gebruiken van redirect aanbiedingen met A4T
 
@@ -41,7 +41,7 @@ Deze integratie vereist dat u de volgende (of nieuwere) bibliotheekversies imple
 * [!DNL Adobe Target]: at.js versie 0.9.1
 * Adobe Analytics: appMeasurement.js versie 1.7.0
 
-Voor informatie over het uitvoeren van A4T met [!DNL Platform Web SDK], zie [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+Voor informatie over het uitvoeren van A4T met [!DNL Platform Web SDK], zie [&#x200B; SDK van het Web van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 ### Vereisten die nodig zijn bij het gebruik van omleidingsaanbiedingen met A4T
 
@@ -57,9 +57,9 @@ Als u omleidingsaanbiedingen met A4T wilt gebruiken, moet u de volgende (of nieu
 
 * Adobe Analytics: appMeasurement.js versie 2.1
 
-De download en plaatsingsinstructies zijn vermeld in [ Analytics voor de Implementatie van het Doel ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
+De download en plaatsingsinstructies zijn vermeld in [&#x200B; Analytics voor de Implementatie van het Doel &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
-Voor informatie over het uitvoeren van A4T met [!DNL Platform Web SDK], zie [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+Voor informatie over het uitvoeren van A4T met [!DNL Platform Web SDK], zie [&#x200B; SDK van het Web van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 ## Wat u moet weten voordat u gaat implementeren {#section_50D49CC52E11414089C89FB67F9B88F5}
 
@@ -83,23 +83,23 @@ De latentieverhoging begint nadat u de dienst van identiteitskaart van de Bezoek
 
 Alle [!DNL Target] vraag die door een activiteit A4T wordt gebruikt om inhoud te leveren of doel metrisch te registreren moet overeenkomstige [!DNL Analytics] hebben die extra identiteitskaart voor A4T deelt om behoorlijk te werken.
 
-Punten die gegevens van [!DNL Analytics] en [!DNL Target] bevatten bevatten een aanvullende gegevens-id. U kunt deze identiteitskaart in [ Debugger van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=nl-NL) als `sdid` parameter zien. Bijvoorbeeld: `sdid=2F3C18E511F618CC-45F83E994AEE93A0` . Deze id wordt op elk moment gegenereerd wanneer aan de volgende criteria wordt voldaan:
+Punten die gegevens van [!DNL Analytics] en [!DNL Target] bevatten bevatten een aanvullende gegevens-id. U kunt deze identiteitskaart in [&#x200B; Debugger van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=nl-NL) als `sdid` parameter zien. Bijvoorbeeld: `sdid=2F3C18E511F618CC-45F83E994AEE93A0` . Deze id wordt op elk moment gegenereerd wanneer aan de volgende criteria wordt voldaan:
 
 * De service voor bezoekersidentiteitskaart is geïmplementeerd
 
-Wanneer [ het oplossen van problemen ](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md), ben zeker om te bevestigen dat supplementaire identiteitskaart op [!DNL Analytics] hits aanwezig is.
+Wanneer [&#x200B; het oplossen van problemen &#x200B;](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md), ben zeker om te bevestigen dat supplementaire identiteitskaart op [!DNL Analytics] hits aanwezig is.
 
 ## Logboekregistratie voor clientanalyse {#client-side}
 
 Als at.js, [!DNL Experience Cloud Visitor ID Service], en appMeturement.js op de pagina, [!DNL Analytics], en [!DNL Target] correct gebeurtenissen voor rapportering en analysedoeleinden in het achtereind vastmaakt zolang correcte supplementaire identiteitskaart van de pagina wordt omvat. U te hoeven om geen extra verrichtingen voor A4T te beheren en uit te voeren om correct te functioneren.
 
-Er zijn gevallen waarin u meer controle wilt hebben over wanneer en hoe u analysegegevens met betrekking tot [!DNL Target] naar [!DNL Analytics] verzendt voor rapportagedoeleinden. Mogelijk hebt u een intern analyseprogramma dat u gebruikt voor interne doeleinden. U wilt de analysegegevens echter ook naar [!DNL Analytics] verzenden via uw interne analyseproduct, zodat andere leden van uw organisatie [!DNL Analytics] kunnen blijven gebruiken als visuele rapportbron. Zie [ Stap 7: Verwijzing at.js op alle plaatspagina&#39;s ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) in *Analytics voor de Implementatie van het Doel* voor meer informatie.
+Er zijn gevallen waarin u meer controle wilt hebben over wanneer en hoe u analysegegevens met betrekking tot [!DNL Target] naar [!DNL Analytics] verzendt voor rapportagedoeleinden. Mogelijk hebt u een intern analyseprogramma dat u gebruikt voor interne doeleinden. U wilt de analysegegevens echter ook naar [!DNL Analytics] verzenden via uw interne analyseproduct, zodat andere leden van uw organisatie [!DNL Analytics] kunnen blijven gebruiken als visuele rapportbron. Zie [&#x200B; Stap 7: Verwijzing at.js op alle plaatspagina&#39;s &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) in *Analytics voor de Implementatie van het Doel* voor meer informatie.
 
 ## Gedeeld publiek
 
-Terwijl het invullen van de [ Vorm van de Levering van de Integratie van Marketing Cloud ](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, me bewust ben van de volgende belangrijke informatie betreffende de [!UICONTROL Shared Audiences] optie die onder &quot; [!UICONTROL For which capabilities are you requesting provisioning] wordt vermeld?&quot;
+Terwijl het invullen van de [&#x200B; Vorm van de Levering van de Integratie van Marketing Cloud &#x200B;](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, me bewust ben van de volgende belangrijke informatie betreffende de [!UICONTROL Shared Audiences] optie die onder &quot; [!UICONTROL For which capabilities are you requesting provisioning] wordt vermeld?&quot;
 
-![ vorm van het Verzoek ](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
+![&#x200B; vorm van het Verzoek &#x200B;](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
 Wanneer u [!UICONTROL Shared Audiences] aanvraagt, schakelt u [!UICONTROL Target] en [!UICONTROL Adobe Audience Manager] (AAM) in om informatie te delen, in dit geval voor het publiek.
 

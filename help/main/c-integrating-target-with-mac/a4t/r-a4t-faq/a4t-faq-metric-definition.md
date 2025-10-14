@@ -29,9 +29,9 @@ De [!UICONTROL Advanced Settings] -opties zijn niet beschikbaar voor activiteite
 
 Voor activiteiten die A4T gebruiken, het doel metrisch gebruikt altijd &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot;en &quot;[!UICONTROL On Every Impression]&quot;montages. Deze montages zijn *niet* configureerbaar.
 
-Voor activiteiten niet-A4T, kunt u de [ Geavanceerde opties van Montages ](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) gebruiken om te beheren hoe u succes meet. De opties omvatten het toevoegen van gebiedsdelen, het kiezen of om de gebruiker in de activiteit te houden of hen te verwijderen, en of om metrisch één keer per ingang of op elke indruk te tellen. U opent de opties voor [!UICONTROL Advanced Settings] in een niet-A4T-activiteit door op de verticale ellipsen > [!UICONTROL Advanced Settings] te klikken, zoals hieronder wordt weergegeven:
+Voor activiteiten niet-A4T, kunt u de [&#x200B; Geavanceerde opties van Montages &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) gebruiken om te beheren hoe u succes meet. De opties omvatten het toevoegen van gebiedsdelen, het kiezen of om de gebruiker in de activiteit te houden of hen te verwijderen, en of om metrisch één keer per ingang of op elke indruk te tellen. U opent de opties voor [!UICONTROL Advanced Settings] in een niet-A4T-activiteit door op de verticale ellipsen > [!UICONTROL Advanced Settings] te klikken, zoals hieronder wordt weergegeven:
 
-![ Geavanceerde Montages ](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
+![&#x200B; Geavanceerde Montages &#x200B;](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
 
 +++
 

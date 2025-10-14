@@ -18,7 +18,7 @@ Gebruik de ontwerptaal open-source [!DNL Velocity] om aanbevelingsontwerpen aan 
 
 ## [!DNL Velocity] overzicht {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
-De informatie over [!DNL Velocity] kan in [ https://velocity.apache.org ](https://velocity.apache.org) worden gevonden.
+De informatie over [!DNL Velocity] kan in [&#x200B; https://velocity.apache.org &#x200B;](https://velocity.apache.org) worden gevonden.
 
 Alle [!DNL Velocity] -logica, -syntaxis, enzovoort kunnen worden gebruikt voor een aanbevolen ontwerp. Dit betekent dat u *voor* lijnen, *kunt tot stand brengen als* verklaringen, en andere code gebruikend [!DNL Velocity] eerder dan JavaScript.
 
@@ -60,7 +60,7 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-Voor meer informatie over [!DNL Velocity] variabelen (attributen), zie [ https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables ](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
+Voor meer informatie over [!DNL Velocity] variabelen (attributen), zie [&#x200B; https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables &#x200B;](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
 Als u een profielscript in uw ontwerp gebruikt, moet $ voorafgaand aan de scriptnaam met een `\` (backslash) worden beschermd. Bijvoorbeeld:
 
@@ -72,7 +72,7 @@ Als u een profielscript in uw ontwerp gebruikt, moet $ voorafgaand aan de script
 
 Als u bijvoorbeeld een ontwerp wilt dat iets dergelijks weergeeft:
 
-![ snelheid_example beeld ](assets/velocity_example.png)
+![&#x200B; snelheid_example beeld &#x200B;](assets/velocity_example.png)
 
 u kunt de volgende code gebruiken:
 
@@ -208,7 +208,7 @@ Hiertoe maakt u in uw ontwerp een kolom waarin het kenmerk `$key` wordt gebruikt
 
 Het resultaat is een ontwerp als het volgende, waarbij in één kolom het sleutelitem wordt weergegeven.
 
-![ rec_key beeld ](assets/rec_key.png)
+![&#x200B; rec_key beeld &#x200B;](assets/rec_key.png)
 
 Wanneer u uw [!DNL Recommendations] activiteit creeert, als het belangrijkste punt uit het profiel van de bezoeker, zoals &quot;laatst gekocht voorwerp wordt genomen,&quot;[!DNL Target] toont een willekeurig product in [!UICONTROL Visual Experience Composer] (VEC). Dit komt omdat er geen profiel beschikbaar is terwijl u de activiteit ontwerpt. Wanneer bezoekers de pagina bekijken, zullen zij het verwachte belangrijkste punt zien.
 

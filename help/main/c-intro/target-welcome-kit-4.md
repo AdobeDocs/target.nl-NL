@@ -21,17 +21,17 @@ U kunt ervaringen met [!DNL Target] -gegevens direct uit het vak aanpassen. Maar
 
 U kunt bijvoorbeeld aankoopgegevens van uw verkooppunt koppelen aan een bezoekersprofiel. Hiertoe maakt u gewoon een CSV-bestand met maximaal 200 offlinevariabelen en uploadt u het bestand rechtstreeks naar [!DNL Adobe Experience Cloud] via een bestandsupload. U kunt ook FTP gebruiken om het bestand te hosten en te plannen dat het regelmatig wordt bijgewerkt. Als uw klantkenmerken zich in [!DNL Adobe Experience Cloud] bevinden, kunt u ze toewijzen aan [!DNL Experience Cloud] oplossingen zoals [!DNL Adobe Analytics] en [!DNL Target] , waar ze beschikbaar zijn voor analyse, tests en personalisatie.
 
-Zie {de attributen van de Douane 0} [ voor geleidelijke instructies.](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=nl-NL)
+Zie {de attributen van de Douane 0} [&#x200B; voor geleidelijke instructies.](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=nl-NL)
 
 **Goed om te weten**: Omdat [!DNL Target] een open en agnostisch platform is dat goed met verschillende technologieën werkt, kunt u CRM toevoegen of gekochte gegevens op vele verschillende manieren. Dat betekent u een methode kunt kiezen die het beste voor uw organisatie werkt.
 
-Zie [ Methoden om gegevens in Doel ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=nl-NL){target=_blank} voor meer informatie te krijgen.
+Zie [&#x200B; Methoden om gegevens in Doel &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=nl-NL){target=_blank} voor meer informatie te krijgen.
 
 ## Tip 2: Vergroot uw persoonlijke voorkeur door [!DNL Target] publiek te laten overvloeien met ander publiek in Adobe Experience Cloud.
 
 Het mengen van publiek dat in verschillende [!DNL Adobe Experience Cloud] oplossingen leeft kan u een veel breder begrip van uw klanten, evenals de capaciteit geven om zich aan te passen dieper. Hoewel [!DNL Target] bijvoorbeeld realtime publieksgegevens biedt, verschaft [!DNL Adobe Analytics] historische publieksgegevens. Het combineren van twee kan u helpen identificeren wanneer het gedrag van een klant verenigbaar is, en wanneer er een kans zou kunnen zijn om op een nieuw gedrag te handelen. Klik op het vervolgkeuzemenu naast &quot;Alle bezoekers&quot; wanneer u een activiteit maakt. Schakel vervolgens de selectievakjes van maximaal twintig soorten publiek in, klik op Meerdere soorten publiek combineren en klik op Opslaan.
 
-Zie [ Combinerend veelvoudige publiek ](/help/main/c-target/combining-multiple-audiences.md) voor geleidelijke instructies.
+Zie [&#x200B; Combinerend veelvoudige publiek &#x200B;](/help/main/c-target/combining-multiple-audiences.md) voor geleidelijke instructies.
 
 **Goed om te weten**: [!DNL Adobe Audience Manager] het publiek is beschikbaar in [!DNL Target] automatisch. Maar [!DNL Adobe Analytics] het delen van het publiek vereist een beetje handopstelling. Schakel gewoon het vakje &quot;Make this an Experience Cloud publiek&quot; in tijdens het publieksopbouwproces in [!DNL Analytics] . Klik vervolgens in [!DNL Target] op &quot;Experience Cloud-publiek importeren&quot;.
 
@@ -39,11 +39,11 @@ Zie [ Combinerend veelvoudige publiek ](/help/main/c-target/combining-multiple-a
 
 Met respontokens kunnen beheerders eenvoudig gegevens ophalen uit [!DNL Target] en in gereedschappen van derden. Dit kan handig zijn als u gegevens wilt toevoegen aan gegevens die zijn verzameld in een enquêteprogramma. Als een enquête bijvoorbeeld een voorbeeld toont van een populatie met een score van &quot;9&quot; en een andere met een score van &quot;4&quot; toont, kunt u uw gegevens gebruiken om te zien wie ervaring A heeft gezien en wie ervaring B heeft gezien. U kunt ook responstokens gebruiken om [!DNL Target] -gegevens te exporteren naar uw interne gegevenspakhuis. Klik eenvoudig &quot;Beleid,&quot;dan knevel de schakelaar naast het gewenste Symbolische van de Reactie aan op positie. Maak vervolgens een activiteit. De gegevens kunnen vervolgens naar de externe leverancier worden overgedragen. U kunt controleren of [!DNL Target] de gegevens exporteert met de foutopsporingsgereedschappen.
 
-Zie [ tokens van de Reactie ](/help/main/administrating-target/response-tokens.md) voor geleidelijke instructies.
+Zie [&#x200B; tokens van de Reactie &#x200B;](/help/main/administrating-target/response-tokens.md) voor geleidelijke instructies.
 
 **Nuttige wenk**: Alvorens een beheerder een reactietoken kan activeren verbonden aan een derde, moet een ontwikkelaar aan opstelling een partnerschap met dat derdebedrijf.
 
-Zie [ tokens van de Reactie ](/help/main/administrating-target/response-tokens.md) voor geleidelijke instructies.
+Zie [&#x200B; tokens van de Reactie &#x200B;](/help/main/administrating-target/response-tokens.md) voor geleidelijke instructies.
 
 **doe dit eerst**: Zorg ervoor u at.js versie 1.1 of later gebruikt. Als u een vorige versie gebruikt, zult u de reactietokens zien, maar at.js zal niet hen kunnen gebruiken.
 
@@ -61,17 +61,17 @@ Houd bij het opbouwen van doelgroepen voor het maken van promoties en aanbieding
 
 Maak het gemakkelijk om met de gegevens van uw organisatie te werken terwijl het houden van het veilig. Met [!DNL Target Premium] kunnen beheerders het toegangsniveau voor verschillende interne en externe teams bepalen.
 
-Zie [ de gebruikerstoestemmingen van de Onderneming ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) voor meer informatie.
+Zie [&#x200B; de gebruikerstoestemmingen van de Onderneming &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) voor meer informatie.
 
 **Nuttige wenk**: Wanneer het toevoegen van gebruikers, als de naam van een teamlid niet eerder aan uw organisatie is toegevoegd, zoals het geval met een werknemer van de derdeorganisatie zou kunnen zijn, zal het ingaan van hun e-mailadres en wachtwoord een e-mailuitnodiging teweegbrengen om zich bij de werkruimte van een team aan te sluiten.
 
-Target Standard gebruiken? U kunt nog [ drie niveaus van toegang ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) voor uw gebruikers met read-only, redacteur, en goedkeurende rollen toewijzen!
+Target Standard gebruiken? U kunt nog [&#x200B; drie niveaus van toegang &#x200B;](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) voor uw gebruikers met read-only, redacteur, en goedkeurende rollen toewijzen!
 
 ## Tip 6: Ontdek hoe een aanbieding over een klantenreis door het over elke pagina in de reis te testen presteert.
 
 Ontdek hoe een aanbieding, zoals gratis verzending, functioneert tijdens een reis van de klant die op meerdere pagina&#39;s van uw website plaatsvindt.
 
-Zie [ Multipage activiteit ](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) voor geleidelijke instructies.
+Zie [&#x200B; Multipage activiteit &#x200B;](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) voor geleidelijke instructies.
 
 **Nuttige wenk**: Het veranderen van URL nadat u een paginabereik hebt gespecificeerd zal de ervaring terugstellen. Dit betekent dat de opgegeven variaties niet meer worden weergegeven. Als u de URL moet wijzigen, vergeet dan niet de ervaring opnieuw te definiëren.
 
@@ -79,19 +79,19 @@ Zie [ Multipage activiteit ](/help/main/c-experiences/c-visual-experience-compos
 
 Met de Versies van de Ervaring, kunt u één test met variaties voor zoveel publiek in werking stellen als u houdt van. U kunt bijvoorbeeld een banneradvertentie maken die gratis verzending biedt—met afbeeldingen en valutamaraties voor klanten in de VS, het VK en de VS—zonder tests voor drie verschillende soorten publiek uit te voeren.
 
-Zie voor [ Veelvoudig ervaringspubliek in een Test A/B ](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) voor geleidelijke instructies.
+Zie voor [&#x200B; Veelvoudig ervaringspubliek in een Test A/B &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) voor geleidelijke instructies.
 
 ## Tip 8: Bespaar tijd door activiteiten op vergelijkbare pagina&#39;s te repliceren.
 
 Maak een variatie op één webpagina, zoals een nieuwe knopkleur, en pas deze automatisch toe op alle pagina&#39;s met dezelfde sjabloon. U kunt pagina&#39;s opgeven of de variaties toepassen op alle vergelijkbare pagina&#39;s op uw website.
 
-Zie [ de zelfde ervaring op gelijkaardige pagina&#39;s ](/help/main/c-experiences/c-visual-experience-composer/temtest.md) voor geleidelijke instructies omvatten.
+Zie [&#x200B; de zelfde ervaring op gelijkaardige pagina&#39;s &#x200B;](/help/main/c-experiences/c-visual-experience-composer/temtest.md) voor geleidelijke instructies omvatten.
 
 ## Tip 9: Verminder de rommel in uw Audience Library door eenmalig publiek te maken.
 
 Als u een segment richt weet u niet zal richten opnieuw-voor voorbeeld, kunnen de klanten die door onverwacht weer gebeurtenis-creërend een eenmalig gebruikspubliek worden beïnvloed u helpen de baan krijgen gedaan zonder het toevoegen van rommelige aan uw Bibliotheek van de Publiek. Hierdoor is het gemakkelijker om steeds weer een publiek te vinden dat u gebruikt.
 
-Zie [ een activiteit-slechts publiek ](/help/main/c-target/creating-activity-only-audience.md) voor geleidelijke instructies creëren.
+Zie [&#x200B; een activiteit-slechts publiek &#x200B;](/help/main/c-target/creating-activity-only-audience.md) voor geleidelijke instructies creëren.
 
 **hoogst gevraagd vermogen**: Onze klanten vroegen ons om het mogelijk te maken om enig-gebruikspubliek te houden van automatisch wordt bewaard aan de Bibliotheek van het Publiek. Nu hoeven ze niet langer handmatig het publiek te verwijderen om hun bibliotheken te organiseren.
 
@@ -99,7 +99,7 @@ Zie [ een activiteit-slechts publiek ](/help/main/c-target/creating-activity-onl
 
 Er is niets erger dan een activiteit klaar om te gaan en dan weken te wachten tot het het standaard QA proces voltooit. U kunt de meeste activiteiten QA door eenvoudig rond een paar verbindingen QA aan collega&#39;s over te gaan om hen op diverse browsers te proberen. U zult hoogstwaarschijnlijk meer QA tests voor inspanningen willen doen die dramatisch plaatsfunctie veranderen, maar in werkelijkheid, zou u minder van die activiteiten en veel meer van de meer basisactiviteiten moeten hebben. Het toevoegen van betere rechtencontroles zodat minder mensen dingen volledig kunnen doordringen voegt ook zinvolle grenzen toe en laat u doen wat u nodig hebt zonder snelheid en efficiency te offeren. Een andere optie is een aangewezen middel van IT te hebben om tijdig toezicht op het proces van QA te verstrekken.
 
-Zie [ QA van de Activiteit ](/help/main/c-activities/c-activity-qa/activity-qa.md) voor geleidelijke instructies.
+Zie [&#x200B; QA van de Activiteit &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa.md) voor geleidelijke instructies.
 
 ## Tip 11: Voer tests uit op pagina&#39;s met veel verkeer, zodat ze sneller statistisch significant worden.
 
@@ -109,7 +109,7 @@ Vele marketers lanceren optimaliseringsprogramma&#39;s voor publiekssegmentatie 
 * Wat is de omrekeningskoers voor de pagina?
 * Hoe lang verwacht u dat u de test moet uitvoeren voordat u deze met vertrouwen volledig kunt noemen?
 
-**Nuttige Uiteinde**: Gebruik [!DNL Adobe Target] [ calculator van de Grootte van de Steekproef ](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) helpen de steekproefgrootte bepalen nodig voor een succesvolle test.
+**Nuttige Uiteinde**: Gebruik [!DNL Adobe Target] [&#x200B; calculator van de Grootte van de Steekproef &#x200B;](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) helpen de steekproefgrootte bepalen nodig voor een succesvolle test.
 
 ## Tip 12: Ontwerp eenvoudigere tests om ervoor te zorgen dat u deze kunt maken en implementeren.
 
@@ -119,13 +119,13 @@ Na het overwegen van alle aspecten van hoe te om een test te ontwerpen, kan een 
 
 In plaats van één grote test met meerdere variabelen en complexe ontwikkeling te ontwikkelen, ontwikkelt u een minder complexe reeks kleinere tests met minimale variabelen. Dit maakt een beter inzicht in de testprestaties mogelijk op basis van specifieke variabelen. Het vermindert ook mogelijke technische kwesties die met de ontwikkeling van grotere projecten gepaard gaan.
 
-![ de complexe testenillustratie van de Onderbreking ](/help/main/c-intro/assets/break-complex-tasks.png)
+![&#x200B; de complexe testenillustratie van de Onderbreking &#x200B;](/help/main/c-intro/assets/break-complex-tasks.png)
 
 ## Tip 14: Maximaliseer uw testimpact door dichter bij het einde van de conversietrechter te testen.
 
 Testen net als de pagina waarop bezoekers op Aankoop voltooien, Toepassing verzenden of op een andere manier een conversie uitvoeren klikken, levert meestal de meest onbruikbare resultaten op. Bezoekers die het einde van de trechter bereiken, zijn beter gekwalificeerd, hebben meer tijd geïnvesteerd en zijn klaar om te kopen. Het testen van inzichten in hun voorkeuren en acties kan u dus helpen rendabele wijzigingen aan te brengen. Omdat pagina&#39;s op het aankooppad van essentieel belang zijn voor de conversiekoersen, moeten de tests die op deze pagina&#39;s worden uitgevoerd, worden gesocialiseerd naar de belangrijkste belanghebbenden voordat ze worden uitgerold.
 
-![ de illustratie van het trechter van de Omzetting ](/help/main/c-intro/assets/conversion-funnel.png)
+![&#x200B; de illustratie van het trechter van de Omzetting &#x200B;](/help/main/c-intro/assets/conversion-funnel.png)
 
 ## Tip 15: Werk uw tests voortdurend bij om herhalende verbeteringen aan te brengen.
 

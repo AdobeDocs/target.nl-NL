@@ -26,7 +26,7 @@ Met [!DNL Target] kunt u op schaal gepersonaliseerde ervaringen bieden op basis 
 ## Overwegingen
 
 Houd rekening met het volgende terwijl u met AEM [!UICONTROL Experience Fragments] en [!UICONTROL Content Fragments] in [!DNL Target] werkt:
-* Deze functies vereisen dat u een [!DNL Adobe Experience Manager] (AEM)-klant bent. Zorg ervoor dat u aan de vereisten voor elk fragmenttype voldoet: [ het Fragment van de Ervaring ](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements) of [ het Fragment van de Inhoud ](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements).
+* Deze functies vereisen dat u een [!DNL Adobe Experience Manager] (AEM)-klant bent. Zorg ervoor dat u aan de vereisten voor elk fragmenttype voldoet: [&#x200B; het Fragment van de Ervaring &#x200B;](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements) of [&#x200B; het Fragment van de Inhoud &#x200B;](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements).
 * [!UICONTROL Experience Fragments] en [!UICONTROL Content Fragments] zijn beschikbaar voor de volgende typen activiteiten:
 
    * [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md)
@@ -40,11 +40,11 @@ Houd rekening met het volgende terwijl u met AEM [!UICONTROL Experience Fragment
    * [[!UICONTROL Multivariate Test] (MV)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
-* U kunt [!UICONTROL Experience Fragments] in [!DNL Target] activiteiten verbruiken gebruikend [ Visuele Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) en [ op vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md).
-* U kunt [!UICONTROL Content Fragments] in [!DNL Target] activiteiten gebruiken gebruikend [ op vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) slechts.
+* U kunt [!UICONTROL Experience Fragments] in [!DNL Target] activiteiten verbruiken gebruikend [&#x200B; Visuele Composer van de Ervaring &#x200B;](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) en [&#x200B; op vorm-Gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md).
+* U kunt [!UICONTROL Content Fragments] in [!DNL Target] activiteiten gebruiken gebruikend [&#x200B; op vorm-Gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md) slechts.
 
 ## Wat is het verschil tussen [!UICONTROL Experience Fragments] en [!UICONTROL Content Fragments]?
 
 [!DNL Adobe Experience Manager] [!UICONTROL Experience Fragments] en [!UICONTROL Content Fragments] lijken op het oppervlak misschien op elkaar, maar elk fragmenttype speelt in verschillende gebruiksgevallen een sleutelrol.
 
-Voor meer informatie over hoe [!UICONTROL Experience Fragments] en [!UICONTROL Content Fragments] gelijkaardig zijn, verschillend, en wanneer en hoe te om elk te gebruiken zie [ [!UICONTROL Content Fragments] begrijpen en [!UICONTROL Experience Fragments] ](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=nl-NL){target=_blank} in de [ de video&#39;s en de leerprogramma&#39;s van AEM Sites gids ](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=nl-NL){target=_blank}.
+Voor meer informatie over hoe [!UICONTROL Experience Fragments] en [!UICONTROL Content Fragments] gelijkaardig zijn, verschillend, en wanneer en hoe te om elk te gebruiken zie [&#x200B; [!UICONTROL Content Fragments] begrijpen en [!UICONTROL Experience Fragments] &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=nl-NL){target=_blank} in de [&#x200B; de video&#39;s en de leerprogramma&#39;s van AEM Sites gids &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=nl-NL){target=_blank}.

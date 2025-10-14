@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Gebruik metriek in een [!DNL Adobe Target] A/B-activiteit om te bepalen wanneer een bezoek succesvol is.
 
-Voor gedetailleerde informatie over succesmetriek, zie [ Metriek van het Succes ](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+Voor gedetailleerde informatie over succesmetriek, zie [&#x200B; Metriek van het Succes &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
-1. In de **[!UICONTROL Reporting Settings]** sectie van de **[!UICONTROL Goals & Settings]** pagina, selecteer metrische a [ succes ](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+1. In de **[!UICONTROL Reporting Settings]** sectie van de **[!UICONTROL Goals & Settings]** pagina, selecteer metrische a [&#x200B; succes &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
-   ![ Uitgezochte metrische succes ](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
+   ![&#x200B; Uitgezochte metrische succes &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
 
    De optie [!UICONTROL Select Metrics] geeft een overzicht van de succesmaatstaven die u voor uw activiteit kunt kiezen. De succeswaarden zijn verdeeld in de volgende categorieën:
 
@@ -33,7 +33,7 @@ Voor gedetailleerde informatie over succesmetriek, zie [ Metriek van het Succes 
 
    Welke instellingen beschikbaar zijn, is afhankelijk van de succesmaatstaf die u gebruikt.
 
-   Als deze optie is ingeschakeld, levert het veld [!UICONTROL Estimated Value of the Conversion] (niet beschikbaar voor de [!UICONTROL Page Score] -meetgegevens) een waarde voor uw doel. Met deze waarde kan [!DNL Target] een geschatte lift in inkomsten berekenen. Dit veld is facultatief, maar incrementele inkomsten voor elke metrische waarde zonder inkomsten kunnen niet worden berekend. Het gegevenstype is currency. Dit veld wordt progressief weergegeven nadat de gebruiker de actie aangeeft die is ondernomen om het doel te bereiken. Zie [ Schatting Lift in Inkomsten ](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) voor meer informatie.
+   Als deze optie is ingeschakeld, levert het veld [!UICONTROL Estimated Value of the Conversion] (niet beschikbaar voor de [!UICONTROL Page Score] -meetgegevens) een waarde voor uw doel. Met deze waarde kan [!DNL Target] een geschatte lift in inkomsten berekenen. Dit veld is facultatief, maar incrementele inkomsten voor elke metrische waarde zonder inkomsten kunnen niet worden berekend. Het gegevenstype is currency. Dit veld wordt progressief weergegeven nadat de gebruiker de actie aangeeft die is ondernomen om het doel te bereiken. Zie [&#x200B; Schatting Lift in Inkomsten &#x200B;](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) voor meer informatie.
 
    De correcte configuratie van succesmetriek is kritiek om ervoor te zorgen u de gegevens krijgt die u verwacht.
 
@@ -54,7 +54,7 @@ Wanneer u metrisch noemt of anders noemt, worden de volgende karakters niet toeg
 | - | Min |
 | @ | Bij ondertekenen |
 
-## De video van de opleiding: Metriek van de activiteit (7 :43) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: Metriek van de activiteit (7 :43) ![&#x200B; badge van het Leerprogramma &#x200B;](/help/main/assets/tutorial.png)
 
 Deze video bevat informatie over het werken met succesmetriek.
 

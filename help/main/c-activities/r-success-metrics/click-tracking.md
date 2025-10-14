@@ -38,7 +38,7 @@ Wanneer een deelnemer aan een activiteit op een geselecteerd element klikt, word
 
 Voor [!UICONTROL A/B Test]-, [!UICONTROL Experience Targeting] (XT)-, [!UICONTROL Automated Personalization] (AP)- en [!UICONTROL Multivariate Test] (MVT)-activiteiten worden in het deelvenster [!UICONTROL Selected Elements] de geselecteerde elementen weergegeven voor klik op bijhouden aan de linkerkant.
 
-![ Geselecteerde paneel van Elementen ](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
+![&#x200B; Geselecteerde paneel van Elementen &#x200B;](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
 Er zijn verschillende acties die u kunt toepassen wanneer u op een element klikt in het deelvenster [!UICONTROL Tracked Components] . In de volgende tabel wordt elke actie beschreven die op een element kan worden uitgevoerd:
 
@@ -60,9 +60,9 @@ Bij het selecteren van elementen moet u rekening houden met verschillende zaken:
 
   Net als bij het maken van ervaringen in stap 1 in de workflow voor het maken van activiteiten, kunt u met de padkiezer voor DOM onder aan de pagina een element kiezen. Bij het selecteren van een element van de weg DOM, toont het overeenkomstige element in VEC als &quot;Geselecteerd.&quot; Als u de selectie van een geselecteerd element wilt opheffen, klikt u opnieuw op het element in de DOM-padkiezer of klikt u op het vak &quot;Geselecteerd&quot; in de VEC.
 
-  Voor meer informatie, zie [ elementen navigeren gebruikend de weg DOM ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *de Opties van Composer van de Ervaring van de Visuele*.
+  Voor meer informatie, zie [&#x200B; elementen navigeren gebruikend de weg DOM &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *de Opties van Composer van de Ervaring van de Visuele*.
 
-* U kunt naar een andere pagina bladeren om te volgen klikt op een pagina waar u de inhoud wellicht niet wijzigt. Deze verschillende pagina moet in de activiteit worden omvat gebruikend de [ multipage eigenschap ](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) en [!DNL at.js] moet op het worden uitgevoerd.
+* U kunt naar een andere pagina bladeren om te volgen klikt op een pagina waar u de inhoud wellicht niet wijzigt. Deze verschillende pagina moet in de activiteit worden omvat gebruikend de [&#x200B; multipage eigenschap &#x200B;](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) en [!DNL at.js] moet op het worden uitgevoerd.
 * Als u meer dan één element selecteert, als een gegadigde op om het even welke gekozen elementen klikt, wordt de klik geteld. Als u elk onderdeel afzonderlijk wilt tellen, stelt u voor elk element afzonderlijke succesmaatstaven in. Als u één item wilt tellen door op meerdere elementen op een pagina te klikken, bewerkt u de CSS-elementkiezer zodat deze overeenkomt met meerdere elementen.
 * Selecteer het niveau van het element dat u wilt bijhouden. Wanneer u bijvoorbeeld een knop opgeeft, moet u de koppeling selecteren en niet de knoptekst.
 * Klikgebeurtenissen worden naar [!DNL Target] verzonden op dezelfde pagina als de klik.
@@ -94,7 +94,7 @@ Bij het selecteren van elementen moet u rekening houden met verschillende zaken:
 
   Dit standaardgedrag kan problemen opleveren met [!DNL Analytics] klikken bijhouden. Als u [!DNL Analytics] gebruikt, moet u voor het bijhouden van klikken op [!DNL Analytics] vertrouwen in plaats van op [!DNL Target] .
 
-* Klik op Tekstspatiëring wordt niet opgenomen op pagina&#39;s waarvan de pagina en activiteit-URL tot verschillende eigenschappen behoren. Machtigingen voor Enterprise-gebruikers zijn een [!DNL Target Premium] -functie. Voor meer informatie, zie [ de gebruikerstoestemmingen van de Onderneming ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+* Klik op Tekstspatiëring wordt niet opgenomen op pagina&#39;s waarvan de pagina en activiteit-URL tot verschillende eigenschappen behoren. Machtigingen voor Enterprise-gebruikers zijn een [!DNL Target Premium] -functie. Voor meer informatie, zie [&#x200B; de gebruikerstoestemmingen van de Onderneming &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
 * Metrische gegevens voor het bijhouden van klikken zijn niet gekoppeld aan een specifieke ervaring in een activiteit.
 

@@ -30,7 +30,7 @@ Wanneer een waarde als extreem wordt gemarkeerd, wordt de waarde van de volgorde
 **om extreme waarden van uw rapporten uit te sluiten:**
 
 1. Open een activiteit die [!UICONTROL Revenue] of [!UICONTROL Engagement] metrische types omvat, dan klik de **[!UICONTROL Reports]** tabel.
-1. Klik het pictogram van de Montages van het Rapport ( ![ pictogram van de Montages van het Rapport ](/help/main/assets/icons/Setting.svg) ) om het **[!UICONTROL Settings]** dialoogvakje te tonen.
+1. Klik het pictogram van de Montages van het Rapport ( ![&#x200B; pictogram van de Montages van het Rapport &#x200B;](/help/main/assets/icons/Setting.svg) ) om het **[!UICONTROL Settings]** dialoogvakje te tonen.
 
 1. Sleep de schakeloptie **[!UICONTROL Exclude Extreme Values]** naar de positie &quot;aan&quot; of &quot;uit&quot;.
 1. Klik op **[!UICONTROL Save]**.

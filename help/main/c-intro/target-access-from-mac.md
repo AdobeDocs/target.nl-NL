@@ -17,17 +17,17 @@ Informatie over toegang tot [!DNL Adobe Target] vanuit [!DNL Adobe Experience Cl
 
 ## Meld u aan bij Adobe [!DNL Target] en stel de standaardorganisatie in.
 
-1. Teken in [ Adobe Experience Cloud ](https://experience.adobe.com/).
+1. Teken in [&#x200B; Adobe Experience Cloud &#x200B;](https://experience.adobe.com/).
 
 1. Klik op **[!UICONTROL App icon]** in de navigatiebalk en klik vervolgens op **[!UICONTROL Target]** .
 
    U kunt ook op het deelvenster [!DNL Target] in het hoofdvenster klikken om [!DNL Target] (of een andere [!DNL Adobe Experience Cloud] -oplossing waartoe u toegang hebt) te openen.
 
-   ![ toepassingspictogram ](/help/main/c-intro/assets/appmenu-new.png)
+   ![&#x200B; toepassingspictogram &#x200B;](/help/main/c-intro/assets/appmenu-new.png)
 
 1. (Optioneel) Als u de standaardorganisatie wilt instellen wanneer u zich aanmeldt bij de [!DNL Experience Cloud] , klikt u op **[!UICONTROL Preferences]** onder de profielavatar en stelt u de standaardorganisatie in.
 
-   ![ het Bestaan pagina ](/help/main/c-intro/assets/pagepref-new.png)
+   ![&#x200B; het Bestaan pagina &#x200B;](/help/main/c-intro/assets/pagepref-new.png)
 
 ## De standaardtaal voor de gebruikersinterface van [!DNL Target] wijzigen {#language}
 
@@ -35,7 +35,7 @@ Informatie over toegang tot [!DNL Adobe Target] vanuit [!DNL Adobe Experience Cl
 
 1. Klik op **[!UICONTROL Adobe Account]** om uw [!DNL Adobe] -profiel te openen.
 
-   ![ Adobe- Rekening ](/help/main/c-intro/assets/adobe-account.png)
+   ![&#x200B; Adobe- Rekening &#x200B;](/help/main/c-intro/assets/adobe-account.png)
 
 1. In de sectie **[!UICONTROL Preferred languages]** op de [!UICONTROL Account] pagina, **[!UICONTROL Add]** .
 
@@ -64,9 +64,9 @@ Informatie over toegang tot [!DNL Adobe Target] vanuit [!DNL Adobe Experience Cl
 
 Uw besturingssysteem- of browserinstellingen moeten uw voorkeurstaal detecteren en de documentatie in die taal weergeven (indien beschikbaar). De documentatie van [!DNL Target] wordt automatisch vertaald en is synchroon met de Engelse versie binnen uren van veranderingen die aan Engelse documentatie worden aangebracht.
 
-U kunt de taal in om het even welke gesteunde taal snel veranderen door het pictogram van de Globe in het hoogste recht van de paginakopbal te klikken ( ![ taalschakelaar ](/help/main/assets/icons/GlobeGrid.svg) ).
+U kunt de taal in om het even welke gesteunde taal snel veranderen door het pictogram van de Globe in het hoogste recht van de paginakopbal te klikken ( ![&#x200B; taalschakelaar &#x200B;](/help/main/assets/icons/GlobeGrid.svg) ).
 
-![ taal van de Verandering ](/help/main/c-intro/assets/mt-original.png)
+![&#x200B; taal van de Verandering &#x200B;](/help/main/c-intro/assets/mt-original.png)
 
 De documentatie van [!DNL Target] is beschikbaar in de volgende talen:
 

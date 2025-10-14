@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Organiseer uw sites en pre-productieomgevingen voor eenvoudig beheer en gescheiden rapportage in [!DNL Adobe Target] .
 
-Het primaire doel van hostbeheer is ervoor te zorgen dat er niet per ongeluk inactieve inhoud op websites wordt weergegeven. Het beheer van de gastheer laat u ook rapportgegevens door [ milieu ](/help/main/administrating-target/environments.md) scheiden.
+Het primaire doel van hostbeheer is ervoor te zorgen dat er niet per ongeluk inactieve inhoud op websites wordt weergegeven. Het beheer van de gastheer laat u ook rapportgegevens door [&#x200B; milieu &#x200B;](/help/main/administrating-target/environments.md) scheiden.
 
 Een host is elk domein waaruit een [!DNL Target] -aanvraag wordt gedaan. Op een website is dit doorgaans de eigenschap `location.hostname` van de URL die de [!DNL Target] request uitvoert.
 
@@ -51,7 +51,7 @@ Nadat een host aan de lijst van [!UICONTROL Host] is toegevoegd, controleert u o
 
    Standaard wordt een nieuw herkende host in de [!UICONTROL Production] -omgeving geplaatst. De [!UICONTROL Production] -omgeving is de veiligste omgeving omdat inactieve activiteiten niet van deze hosts kunnen worden bekeken.
 
-1. (Voorwaardelijk) klik het **[!UICONTROL Move]** pictogram ( ![ bewegingspictogram ](/help/main/assets/icons/MoveTo.svg)) om de gastheer in [!UICONTROL Development], [!UICONTROL Staging], of ander milieu te bewegen.
+1. (Voorwaardelijk) klik het **[!UICONTROL Move]** pictogram ( ![&#x200B; bewegingspictogram &#x200B;](/help/main/assets/icons/MoveTo.svg)) om de gastheer in [!UICONTROL Development], [!UICONTROL Staging], of ander milieu te bewegen.
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Als een [!DNL Target] -aanvraag wordt ingediend op een niet-geautoriseerde host,
 
 >[!IMPORTANT]
 >
->**beste praktijken van de Veiligheid**: Als u ubox functionaliteit van [!DNL Target] gebruikt, controleert deze lijst van gewenste personen ook de lijst van domeinen waaraan uw [ redirector ](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=nl-NL){target=_blank} kan navigeren. Zorg ervoor dat u alle domeinen toevoegt waarnaar u wilt omleiden wanneer u ubox als onderdeel van uw implementatie gebruikt. Als de lijst van gewenste personen niet is opgegeven, kan [!DNL Adobe] de omleidings-URL&#39;s niet controleren en beschermen tegen mogelijke kwaadwillige omleidingen.
+>**beste praktijken van de Veiligheid**: Als u ubox functionaliteit van [!DNL Target] gebruikt, controleert deze lijst van gewenste personen ook de lijst van domeinen waaraan uw [&#x200B; redirector &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=nl-NL){target=_blank} kan navigeren. Zorg ervoor dat u alle domeinen toevoegt waarnaar u wilt omleiden wanneer u ubox als onderdeel van uw implementatie gebruikt. Als de lijst van gewenste personen niet is opgegeven, kan [!DNL Adobe] de omleidings-URL&#39;s niet controleren en beschermen tegen mogelijke kwaadwillige omleidingen.
 >
 >De lijst van gewenste personen heeft voorrang op omgevingen. Wis uit alle gastheren alvorens de eigenschap van de lijst van gewenste personen te gebruiken, dan slechts verschijnen de gastheren die door de lijst van gewenste personen worden toegestaan in uw gastheerlijst. Vervolgens kunt u de hosts naar de gewenste omgeving verplaatsen.
 
@@ -103,7 +103,7 @@ U kunt ook een lijst van gewezen personen maken die hosts (domeinen) opgeeft die
 
 U kunt een host verwijderen als deze niet meer nodig is.
 
-1. Van de [!UICONTROL Hosts] lijst, klik het **[!UICONTROL Delete]** pictogram ( ![ pictogram van de Schrapping ](/help/main/assets/icons/DeleteOutline.svg)).
+1. Van de [!UICONTROL Hosts] lijst, klik het **[!UICONTROL Delete]** pictogram ( ![&#x200B; pictogram van de Schrapping &#x200B;](/help/main/assets/icons/DeleteOutline.svg)).
 1. Klik op **[!UICONTROL Delete]** om het verwijderen te bevestigen.
 
 >[!NOTE]

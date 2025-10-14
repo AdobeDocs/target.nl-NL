@@ -18,23 +18,23 @@ Soorten publiek in [!DNL Adobe Target] bepalen wie inhoud en ervaringen in een d
 Het publiek wordt gebruikt overal waar het richten beschikbaar is. Wanneer u een activiteit als doel instelt, hebt u de volgende opties:
 
 * Selecteer een herbruikbaar publiek in de lijst [!UICONTROL Audiences]
-* [ creeer een activiteit-specifiek publiek ](/help/main/c-target/creating-activity-only-audience.md) en richt het
-* [ combineer veelvoudige publiek ](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) om een ad hoc publiek tot stand te brengen
+* [&#x200B; creeer een activiteit-specifiek publiek &#x200B;](/help/main/c-target/creating-activity-only-audience.md) en richt het
+* [&#x200B; combineer veelvoudige publiek &#x200B;](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) om een ad hoc publiek tot stand te brengen
 
-U kunt ook publieksgegevens gebruiken die door [!DNL Adobe Analytics] zijn verzameld voor realtime doelen en personalisatie in [!DNL Target] en andere [!DNL Adobe Experience Cloud] -toepassingen. Zie [ het Soorten publiek van Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=nl-NL) in de *3&rbrace; gids van de Componenten van de Interface van Experience Cloud Centrale.*
+U kunt ook publieksgegevens gebruiken die door [!DNL Adobe Analytics] zijn verzameld voor realtime doelen en personalisatie in [!DNL Target] en andere [!DNL Adobe Experience Cloud] -toepassingen. Zie [&#x200B; het Soorten publiek van Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=nl-NL) in de *3&rbrace; gids van de Componenten van de Interface van Experience Cloud Centrale.*
 
 Er zijn twee soorten publiek in [!DNL Target]:
 
 * **richtend publiek:** Gebruikt om verschillende inhoud aan verschillende soorten bezoekers te leveren.
 * **Meldend publiek:** gebruikt om te bepalen hoe de verschillende types van bezoekers aan de zelfde inhoud antwoorden zodat kunt u uw testresultaten analyseren.
 
-  In [!DNL Target] kunt u het rapportpubliek alleen configureren als u [!DNL Target] als rapportbron gebruikt. Als u [ Adobe Analytics als uw rapporteringsbron ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) gebruikt, moet u uw rapporterend publiek binnen vormen [!DNL Analytics].
+  In [!DNL Target] kunt u het rapportpubliek alleen configureren als u [!DNL Target] als rapportbron gebruikt. Als u [&#x200B; Adobe Analytics als uw rapporteringsbron &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) gebruikt, moet u uw rapporterend publiek binnen vormen [!DNL Analytics].
 
 ## De lijst [!UICONTROL Audiences] gebruiken {#use-list}
 
 Als u de lijst [!UICONTROL Audiences] wilt openen, klikt u op **[!UICONTROL Audiences]** in de bovenste menubalk:
 
-![[!UICONTROL Audiences] list ](assets/audiences_list.png)
+![[!UICONTROL Audiences] list &#x200B;](assets/audiences_list.png)
 
 De lijst [!UICONTROL Audiences] bevat het publiek dat u kunt gebruiken in uw activiteiten. Met de lijst [!UICONTROL Audiences] kunt u soorten publiek maken, bewerken, dupliceren, kopiëren of combineren. De lijst toont ook de bron waar het publiek werd gecreeerd:
 
@@ -45,11 +45,11 @@ De lijst [!UICONTROL Audiences] bevat het publiek dat u kunt gebruiken in uw act
 
   >[!NOTE]
   >
-  >De [!DNL Adobe Experience Platform] bron is beschikbaar aan alle [!DNL Target] klanten die [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} gebruiken. Het publiek beschikbaar van [!DNL Adobe Experience Platform] kan worden gebruikt zoals is of [ gecombineerd met bestaand publiek ](/help/main/c-target/combining-multiple-audiences.md).
+  >De [!DNL Adobe Experience Platform] bron is beschikbaar aan alle [!DNL Target] klanten die [&#x200B; SDK van het Web van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} gebruiken. Het publiek beschikbaar van [!DNL Adobe Experience Platform] kan worden gebruikt zoals is of [&#x200B; gecombineerd met bestaand publiek &#x200B;](/help/main/c-target/combining-multiple-audiences.md).
   >
   >Gebruikers moeten de status [!UICONTROL Approver] of hoger in [!DNL Target] hebben om [!DNL Target] [!UICONTROL Destinations] -kaarten in AEP/RTCDP ([!DNL Real-time Customer Data Platform]) te configureren.
   >
-  >Voor meer informatie zie [ publiek van het Gebruik van Adobe Experience Platform ](#aep).
+  >Voor meer informatie zie [&#x200B; publiek van het Gebruik van Adobe Experience Platform &#x200B;](#aep).
 
 Vooraf gedefinieerde soorten publiek, zoals &quot;[!UICONTROL New Visitors]&quot; en &quot;[!UICONTROL Returning Visitors]&quot;, kunnen niet worden hernoemd.
 
@@ -62,7 +62,7 @@ U kunt ook aangepaste profielparameters en `user.` -parameters als doel instelle
 
 Gebruik de knop [!UICONTROL Filters] om de [!UICONTROL Audiences] -lijst te filteren op bron: [!DNL Adobe Target] , [!DNL Adobe Target Classic] , [!DNL Experience Cloud] en [!DNL Adobe Experience Platform] .
 
-![ optie van Filters in de [!UICONTROL Audiences] lijst ](assets/filters.png)
+![&#x200B; optie van Filters in de [!UICONTROL Audiences] lijst &#x200B;](assets/filters.png)
 
 Gebruik het vak [!UICONTROL Search audiences] om te zoeken in de lijst van [!UICONTROL Audiences] . U kunt zoeken naar een willekeurig deel van een publieksnaam of u kunt een specifieke tekenreeks tussen aanhalingstekens plaatsen.
 
@@ -74,19 +74,19 @@ U kunt de definitiedetails van het publiek op een pop-up kaart op diverse plaats
 
 De volgende publieksdefinitiekaart is bijvoorbeeld toegankelijk door op het pictogram [!UICONTROL View Details] voor het gewenste publiek te klikken:
 
-![ Activiteiten > de definitie van het Publiek ](assets/audience_definition_list.png)
+![&#x200B; Activiteiten > de definitie van het Publiek &#x200B;](assets/audience_definition_list.png)
 
 De volgende publieksdefinitiekaart wordt benaderd door op het pictogram [!UICONTROL View Details] op de pagina van een activiteit [!UICONTROL Overview] te klikken:
 
-![ Activiteiten > de definitie van het Publiek ](assets/view-details-activity-overview.png)
+![&#x200B; Activiteiten > de definitie van het Publiek &#x200B;](assets/view-details-activity-overview.png)
 
 De publieksdefinitiekaart toont zij het type, de bron, en de attributen van het publiek. Klik op **[!UICONTROL View full details]** om andere activiteiten weer te geven die naar dat publiek verwijzen, indien van toepassing. Als u een publieksdefinitiekaart van de pagina van een activiteit [!UICONTROL Overview] bekijkt, klik **[!UICONTROL Audience Usage]**.
 
-De informatie over het gebruik van het publiek kan u helpen onbedoelde gevolgen voor andere activiteiten te vermijden terwijl het uitgeven van publiek. Voorbeelden van informatie zijn [!UICONTROL Live Activities] , [!UICONTROL Inactive Activities] , [!UICONTROL Archived Activities] en [!UICONTROL Syncing Activities] . Deze eigenschap is beschikbaar voor alle publiek (het publiek van de Bibliotheek en [ activiteit-slechts publiek ](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
+De informatie over het gebruik van het publiek kan u helpen onbedoelde gevolgen voor andere activiteiten te vermijden terwijl het uitgeven van publiek. Voorbeelden van informatie zijn [!UICONTROL Live Activities] , [!UICONTROL Inactive Activities] , [!UICONTROL Archived Activities] en [!UICONTROL Syncing Activities] . Deze eigenschap is beschikbaar voor alle publiek (het publiek van de Bibliotheek en [&#x200B; activiteit-slechts publiek &#x200B;](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
 
-Als een publiek [ met een ander publiek ](/help/main/c-target/combining-multiple-audiences.md) wordt gecombineerd en het gecombineerde publiek wordt gebruikt om een activiteit tot stand te brengen, maakt de gebruiksinformatie voor beide publiek een lijst dat de pas gecreëerde activiteit.
+Als een publiek [&#x200B; met een ander publiek &#x200B;](/help/main/c-target/combining-multiple-audiences.md) wordt gecombineerd en het gecombineerde publiek wordt gebruikt om een activiteit tot stand te brengen, maakt de gebruiksinformatie voor beide publiek een lijst dat de pas gecreëerde activiteit.
 
-![ publiek_definition_list_usage beeld ](assets/audience_definition_list_usage.png)
+![&#x200B; publiek_definition_list_usage beeld &#x200B;](assets/audience_definition_list_usage.png)
 
 <!--The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
 
@@ -109,9 +109,9 @@ Keep the following points in mind as you work with imported audiences:
 
 Het gebruik van publiek dat in [!DNL Adobe Experience Platform] is gemaakt, levert rijkere klantgegevens die tot een onuitvoerbaardere personalisatie leiden.
 
-Voor meer informatie, zie [ publiek van het Gebruik van  [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
+Voor meer informatie, zie [&#x200B; publiek van het Gebruik van  [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
 
-## De video van de opleiding: Het gebruiken van de badge van het publiek ![ Zelfstudie ](/help/main/assets/tutorial.png)
+## De video van de opleiding: Het gebruiken van de badge van het publiek ![&#x200B; Zelfstudie &#x200B;](/help/main/assets/tutorial.png)
 
 Deze video bevat informatie over het gebruik van soorten publiek.
 

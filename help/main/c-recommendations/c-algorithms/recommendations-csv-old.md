@@ -19,7 +19,7 @@ Upload een CSV-bestand om uw aanbevelingen in [!DNL Adobe Target] aan te passen.
 Er zijn meerdere manieren om het [!UICONTROL Create New Criteria] -scherm te bereiken. Sommige schermopties variëren afhankelijk van de manier waarop u het scherm bereikt.
 
 * Klik in het scherm **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** Bibliotheek op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** . De criteria die u hier maakt, worden automatisch beschikbaar gesteld voor alle [!DNL Recommendations] -activiteiten.
-* Wanneer u een [!DNL Recommendations] -activiteit maakt met behulp van [!UICONTROL Visual Experience Composer] (VEC), wordt u direct naar het [!UICONTROL Select Criteria] -scherm geleid nadat u een element op de pagina hebt geselecteerd en op [!UICONTROL Replace w/ Recommendations] , [!UICONTROL Insert Recommendations Before] of [!UICONTROL Insert Recommendations After] hebt geklikt. U kunt vervolgens een beschikbare criteria selecteren of op **[!UICONTROL Create Criteria]** klikken. Als u nieuwe criteria maakt, kunt u uw criteria opslaan voor gebruik met andere [!DNL Recommendations] -activiteiten. Voor meer informatie, zie [ een activiteit van Aanbevelingen ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) creëren.
+* Wanneer u een [!DNL Recommendations] -activiteit maakt met behulp van [!UICONTROL Visual Experience Composer] (VEC), wordt u direct naar het [!UICONTROL Select Criteria] -scherm geleid nadat u een element op de pagina hebt geselecteerd en op [!UICONTROL Replace w/ Recommendations] , [!UICONTROL Insert Recommendations Before] of [!UICONTROL Insert Recommendations After] hebt geklikt. U kunt vervolgens een beschikbare criteria selecteren of op **[!UICONTROL Create Criteria]** klikken. Als u nieuwe criteria maakt, kunt u uw criteria opslaan voor gebruik met andere [!DNL Recommendations] -activiteiten. Voor meer informatie, zie [&#x200B; een activiteit van Aanbevelingen &#x200B;](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) creëren.
 * Wanneer u een [!DNL Recommendations] -activiteit bewerkt, klikt u in een [!UICONTROL Recommendations Location] -vak op de pagina en selecteert u **[!UICONTROL Change Criteria]** . Klik op [!UICONTROL Select Criteria] in het **[!UICONTROL Create Criteria]** -scherm. U kunt uw nieuwe criteria opslaan voor gebruik met andere [!DNL Recommendations] activiteiten.
 
 In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create New Criteria] -scherm opent via de eerste methode: het **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** -bibliotheekscherm.
@@ -28,7 +28,7 @@ In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create New Cr
 
 1. Klik op **[!UICONTROL Create Criteria]**.
 
-1. Vul de informatie in de [ Basisinformatie ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) sectie in.
+1. Vul de informatie in de [&#x200B; Basisinformatie &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) sectie in.
 
    1. Selecteer **[!UICONTROL Select Algorithm]** in de vervolgkeuzelijst **[!UICONTROL Custom Criteria]** Type.
 
@@ -38,13 +38,13 @@ In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create New Cr
       >
       >De voorgaande stappen zorgen ervoor dat de sectie [!UICONTROL Upload CSV] onder in het dialoogvenster [!UICONTROL Create New Criteria] wordt weergegeven.
 
-1. (Voorwaardelijk) Vul de informatie in de [ ReserveInhoud ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) sectie in.
+1. (Voorwaardelijk) Vul de informatie in de [&#x200B; ReserveInhoud &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) sectie in.
 
-1. (Voorwaardelijk) Vul de informatie in de [ sectie van de Regels van de Opname ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) in.
+1. (Voorwaardelijk) Vul de informatie in de [&#x200B; sectie van de Regels van de Opname &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) in.
 
 1. Selecteer in de sectie **[!UICONTROL Upload CSV]** de **[!UICONTROL Location]** van het CSV-bestand.
 
-   ![ uploadt sectie CSV ](assets/upload-csv.png)
+   ![&#x200B; uploadt sectie CSV &#x200B;](assets/upload-csv.png)
 
    Het CSV-bestand moet correct zijn opgemaakt om te kunnen worden geüpload. Klik op **[!UICONTROL Download the CSV template]** om een CSV-bestand met de juiste indeling te verkrijgen.
 
@@ -80,7 +80,7 @@ In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create New Cr
   | Map niet gevonden | Geef een map op die op de server aanwezig is. |
   | Bestand niet gevonden | Geef de naam op van een bestand dat op de server in de aangegeven directory staat. |
 
-## De video van de opleiding: Creeer criteria in Aanbevelingen (12 :33) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: Creeer criteria in Aanbevelingen (12 :33) ![&#x200B; badge van het Leerprogramma &#x200B;](/help/main/assets/tutorial.png)
 
 Deze video bevat de volgende informatie (details over het uploaden van douanecriteria beginnen bij 11 :43):
 

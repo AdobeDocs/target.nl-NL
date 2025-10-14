@@ -25,11 +25,11 @@ De test gebruikt de Bonferroni-correctie om meerdere vergelijkingen te corrigere
 
 [!UICONTROL Traffic Estimator] verstrekt ook terugkoppelt die u laat weten of u voldoende verkeer voor de test hebt u ontworpen om succesvol te zijn.
 
-1. Van de [!UICONTROL Experiences] pagina van [!UICONTROL Visual Experience Composer] in a [!UICONTROL Multivariate] activiteit, klik het **[!UICONTROL Traffic]** pictogram ( ![ pictogram van de Schatter van het Verkeer ](/help/main/assets/icons/Gauge2.svg)) in de hoogste linkerhoek van de [!UICONTROL Experiences] pagina.
+1. Van de [!UICONTROL Experiences] pagina van [!UICONTROL Visual Experience Composer] in a [!UICONTROL Multivariate] activiteit, klik het **[!UICONTROL Traffic]** pictogram ( ![&#x200B; pictogram van de Schatter van het Verkeer &#x200B;](/help/main/assets/icons/Gauge2.svg)) in de hoogste linkerhoek van de [!UICONTROL Experiences] pagina.
 
    De lus [!UICONTROL Traffic Estimator] wordt geopend.
 
-   ![ het gebruikersinterface van de schatter van het Verkeer ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-est.png)
+   ![&#x200B; het gebruikersinterface van de schatter van het Verkeer &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-est.png)
 
    U kunt opnieuw op het pictogram klikken om de [!UICONTROL Traffic Estimator] te verbergen.
 

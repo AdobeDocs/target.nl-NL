@@ -18,11 +18,11 @@ U kunt URL&#39;s met voorvertoningen genereren voor [!DNL Target] [!UICONTROL Au
 
 >[!NOTE]
 >
->U kunt voorbeeld-URL&#39;s maken voor andere typen [!DNL Target] -activiteiten. Het proces is echter iets anders. Voor meer informatie, zie [ Activiteit QA ](/help/main/c-activities/c-activity-qa/activity-qa.md#preview).
+>U kunt voorbeeld-URL&#39;s maken voor andere typen [!DNL Target] -activiteiten. Het proces is echter iets anders. Voor meer informatie, zie [&#x200B; Activiteit QA &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa.md#preview).
 
 Gebruik de ervaring voorproef URLs om ervaringen met teamleden en aan ervaring van QA over browsers en milieu&#39;s te delen, zonder een afzonderlijke activiteit van QA te creëren. Deze functie is vooral handig als een site complex is of als het beveiligingsbeleid het niet toestaat dat de site in een simulator wordt weergegeven.
 
-1. Creeer een [ activiteit van Automated Personalization ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) of klik de activiteit om het te openen.
+1. Creeer een [&#x200B; activiteit van Automated Personalization &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) of klik de activiteit om het te openen.
 
    De activiteit hoeft niet live te zijn voor een voorvertoning van een ervaring.
 

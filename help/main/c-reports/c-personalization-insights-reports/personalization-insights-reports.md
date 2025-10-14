@@ -20,7 +20,7 @@ Er zijn twee gespecialiseerde rapporten beschikbaar voor gebruikers van [!UICONT
 
 Houd rekening met het volgende wanneer u [!UICONTROL Personalization Insights] -rapporten gebruikt:
 
-* AP en de activiteiten van AT zijn beschikbaar als deel van de [[!DNL Target Premium]  oplossing ](/help/main/c-intro/intro.md#premium). Ze worden niet zonder [!DNL Target Standard] -licentie opgenomen in [!DNL Target Premium] .
+* AP en de activiteiten van AT zijn beschikbaar als deel van de [[!DNL Target Premium]  oplossing &#x200B;](/help/main/c-intro/intro.md#premium). Ze worden niet zonder [!DNL Target Standard] -licentie opgenomen in [!DNL Target Premium] .
 
 * [!UICONTROL Personalization Insights] -rapporten zijn alleen beschikbaar voor AP- en AT-activiteiten die als volgt zijn geconfigureerd:
 
@@ -28,31 +28,31 @@ Houd rekening met het volgende wanneer u [!UICONTROL Personalization Insights] -
 
      Bijvoorbeeld:
 
-     ![ het Rapport van het Doel > Omzetting ](/help/main/c-reports/assets/conversion.png)
+     ![&#x200B; het Rapport van het Doel > Omzetting &#x200B;](/help/main/c-reports/assets/conversion.png)
 
    * [!DNL Analytics] reporting > [!DNL Conversion]
 
      Bijvoorbeeld:
 
-     ![ Analytische Rapportering > Omzetting ](/help/main/c-reports/assets/analytics-reporting-conversion.png)
+     ![&#x200B; Analytische Rapportering > Omzetting &#x200B;](/help/main/c-reports/assets/analytics-reporting-conversion.png)
 
    * [!DNL Analytics] reporting > [!UICONTROL Use an Analytics metric] > [!UICONTROL Maximize Visit Conversion Rate]
 
      Bijvoorbeeld:
 
-     ![ gebruik metrische Analytics > Maximize het Tarief van de Omzetting van het Bezoek ](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
+     ![&#x200B; gebruik metrische Analytics > Maximize het Tarief van de Omzetting van het Bezoek &#x200B;](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
 
 * Activiteiten waarbij de optimalisatiedoelstelling werd gewijzigd in een omrekening van inkomsten nadat de activiteit al actief was, worden ook niet ondersteund.
 
 * [!UICONTROL Personalization Insights] -rapporten zijn alleen beschikbaar als [!UICONTROL Primary Goal] is geselecteerd in de vervolgkeuzelijst [!UICONTROL Report Metric] .
 
-* [!UICONTROL Personalization Insights] de rapporten worden gesteund in het [ standaardmilieu ](/help/main/administrating-target/hosts.md) slechts.
+* [!UICONTROL Personalization Insights] de rapporten worden gesteund in het [&#x200B; standaardmilieu &#x200B;](/help/main/administrating-target/hosts.md) slechts.
 
 * [!UICONTROL Personalization Insights] -rapporten worden alleen gegenereerd voor activiteiten die de status [!UICONTROL Live] hebben en die gedurende ten minste 15 dagen zijn geactiveerd en verzonden.
 
 ## Overzicht Personalization Insights Reporting {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
-Het doel van de [!UICONTROL Personalization Insights] rapporten is meer informatie te verstrekken over hoe de [!UICONTROL Target] verpersoonlijkingsmodellen achter uw AP en de activiteiten van AT bezoekersverkeer verpersoonlijken. Het [ Willekeurige Bosalgoritme ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) is de basis voor de [!DNL Target] verpersoonlijkingsmodellen.
+Het doel van de [!UICONTROL Personalization Insights] rapporten is meer informatie te verstrekken over hoe de [!UICONTROL Target] verpersoonlijkingsmodellen achter uw AP en de activiteiten van AT bezoekersverkeer verpersoonlijken. Het [&#x200B; Willekeurige Bosalgoritme &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) is de basis voor de [!DNL Target] verpersoonlijkingsmodellen.
 
 Omdat het doel van de [!UICONTROL Personalization Insights] -rapporten is te begrijpen hoe de [!DNL Target] personalisatiemodellen hebben besloten om de bezoeker naar welk(e) stuk(ken) inhoud te sturen, weerspiegelen de [!UICONTROL Personalization Insights] -rapporten slechts een subsegment van alle verkeer dat door uw AP of AT-activiteit wordt bediend. Specifiek, zijn de twee rapporten weerspiegelend van al verkeer dat het verpersoonlijkingsmodel gebruikte. Met andere woorden, in [!UICONTROL Personalization Insights] -rapporten wordt geen rekening gehouden met het beheer van het verkeer of het verkeer dat wordt bediend door het algemene winnersmodel.
 
@@ -67,8 +67,8 @@ Er zijn twee [!UICONTROL Personalization Insights] -rapporten beschikbaar:
 
 Er zijn twee typen kenmerken in [!UICONTROL Personalization Insights] -rapporten die worden gebruikt in uw AP- of Auto Target-modellen:
 
-* **Attributen die automatisch door Doel worden verzameld:** [!DNL Target] gebruikt een reeks van basisgegevens om zijn verpersoonlijkingsalgoritmen in AP en bij activiteiten te bouwen die in de Inzichten van Personalization worden weerspiegeld. Zie [ Inzameling van Gegevens voor de Algoritmen van Personalization van het Doel ](/help/main/c-activities/t-automated-personalization/ap-data.md) voor gegevenstypes, voorbeeldattributen, en hun [!UICONTROL Personalization Insights] noemende overeenkomst. Hoewel deze kenmerken in overweging worden genomen, gebruiken de modellen van een individuele activiteit mogelijk niet al deze kenmerken in het uiteindelijke model.
-* **Attributen die tot Doel worden overgegaan:** zie [ Uploadend Gegevens voor de Algoritmen van Personalization van het Doel ](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+* **Attributen die automatisch door Doel worden verzameld:** [!DNL Target] gebruikt een reeks van basisgegevens om zijn verpersoonlijkingsalgoritmen in AP en bij activiteiten te bouwen die in de Inzichten van Personalization worden weerspiegeld. Zie [&#x200B; Inzameling van Gegevens voor de Algoritmen van Personalization van het Doel &#x200B;](/help/main/c-activities/t-automated-personalization/ap-data.md) voor gegevenstypes, voorbeeldattributen, en hun [!UICONTROL Personalization Insights] noemende overeenkomst. Hoewel deze kenmerken in overweging worden genomen, gebruiken de modellen van een individuele activiteit mogelijk niet al deze kenmerken in het uiteindelijke model.
+* **Attributen die tot Doel worden overgegaan:** zie [&#x200B; Uploadend Gegevens voor de Algoritmen van Personalization van het Doel &#x200B;](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 [!DNL Target] biedt verschillende manieren waarop u aanvullende gegevens aan [!DNL Target] kunt doorgeven om de set met basisgegevens die wordt gebruikt voor het maken van de aanpassingsalgoritmen van de gegevensset in AP- en AT-activiteiten te verrijken:
 
@@ -92,14 +92,14 @@ Lijst met veelgestelde vragen over [!UICONTROL Automated Personalization] (AP)- 
 
 [!UICONTROL Automated Personalization] (AP) en [!UICONTROL Auto-Target] -modellen behouden het gebruikersgedrag, de trainingsrecords en de modelbeslissingsgegevens gedurende 90 dagen om [!UICONTROL Insights] -rapporten te produceren. Na 90 dagen worden trainingsgegevens en modelbeslissingen genegeerd. [!UICONTROL Automated Personalization] (AP)- en [!UICONTROL Auto-Target] -modellen behouden voor rapportagedoeleinden ook gedurende twee jaar samengevoegde gegevens over ervaring/aanbod en conversie. Deze gegevens zijn alleen gegevens op geaggregeerd niveau en bevatten geen profielgegevens op individueel niveau.
 
-## De video van de opleiding: Het gebruiken van de rapporten van de Inzichten van Personalization ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: Het gebruiken van de rapporten van de Inzichten van Personalization ![&#x200B; badge van het Leerprogramma &#x200B;](/help/main/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
-Voor meer informatie, zie [ Gebruikend de Rapporten van de Inzichten van Personalization in Adobe Target ](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+Voor meer informatie, zie [&#x200B; Gebruikend de Rapporten van de Inzichten van Personalization in Adobe Target &#x200B;](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
 
 ## Adobe-blogs
 
-* Deel 1: [ Gebruikend het Mysterie uit Magisch van AI-Gedreven Personalization ](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
-* Deel 2: [ Een blik achter het Gordijn van AI voor Personalization in Adobe Target ](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
-* Deel 3: [ MAGIX — de Oplossing aan de Zwarte Doos Uitgave van AI-Gedreven Personalization ](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)
+* Deel 1: [&#x200B; Gebruikend het Mysterie uit Magisch van AI-Gedreven Personalization &#x200B;](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
+* Deel 2: [&#x200B; Een blik achter het Gordijn van AI voor Personalization in Adobe Target &#x200B;](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
+* Deel 3: [&#x200B; MAGIX — de Oplossing aan de Zwarte Doos Uitgave van AI-Gedreven Personalization &#x200B;](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)

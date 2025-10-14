@@ -17,7 +17,7 @@ Wanneer u op een pagina-element in de map [!DNL Adobe Target] [!UICONTROL Visual
 
 De verschillende [!UICONTROL Visual Experience Composer] (VEC) acties worden gegroepeerd in de juiste menuopties om uw taak sneller en efficiënter te maken:
 
-![ VEC optiemenu ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/vec-options.png)
+![&#x200B; VEC optiemenu &#x200B;](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/vec-options.png)
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ U opent het deelvenster [!UICONTROL Styles] door vanuit de VEC op een pagina-ele
 
 Het deelvenster [!UICONTROL Styles] wordt weergegeven aan de rechterkant van de VEC. Het deelvenster bevat een lijst met stijlen waarmee u het geselecteerde element kunt bewerken of uitbreiden. Met een real-time CSS-editor kunt u wijzigingen weergeven en stijlen toevoegen als u dit comfortabel vindt met CSS (Cascading Style Sheets) of als u code van uw ontwikkelaar ontvangt.
 
-![ het paneel van Stijlen ](/help/main/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
+![&#x200B; het paneel van Stijlen &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
 
 Als u verschillende stijlen toepast, kunt u uw wijzigingen altijd herstellen door te klikken op het pictogram [!UICONTROL Revert] dat in de rechterbovenhoek van het deelvenster [!UICONTROL Styles] wordt weergegeven nadat u een sectie hebt gewijzigd. Als u op het pictogram [!UICONTROL Revert] klikt, worden alle wijzigingen in het deelvenster van de huidige sectie ongedaan gemaakt.
 
@@ -88,7 +88,7 @@ Blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillende s
 
   De typografie van een element wijzigen. Typografie-bewerkingen zijn snel en eenvoudig.
 
-  Hoewel de rijke tekstredacteur (geef Tekst/HTML uit) beschikbaar voor het fijnstemmen is, zijn de snelle acties om het volledige element te veranderen beschikbaar via deze optie. Als u typografie veranderingen op slechts een deel van de tekst (niet op de volledige tekst) wilt toepassen, gebruik de [ rijke tekstredacteur ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+  Hoewel de rijke tekstredacteur (geef Tekst/HTML uit) beschikbaar voor het fijnstemmen is, zijn de snelle acties om het volledige element te veranderen beschikbaar via deze optie. Als u typografie veranderingen op slechts een deel van de tekst (niet op de volledige tekst) wilt toepassen, gebruik de [&#x200B; rijke tekstredacteur &#x200B;](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 
   U kunt de volgende typografiestijlen bewerken:
 
@@ -121,7 +121,7 @@ Blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillende s
 
   Opvulling ondersteunt de breedte vanaf 0.
 
-  Het doel steunt ook [ andere grootteeenheden ](https://www.w3.org/Style/Examples/007/units.en.html), zoals rem, pc, em.
+  Het doel steunt ook [&#x200B; andere grootteeenheden &#x200B;](https://www.w3.org/Style/Examples/007/units.en.html), zoals rem, pc, em.
 
 * **[!UICONTROL Border]**
 
@@ -135,11 +135,11 @@ Blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillende s
 
   Rand ondersteunt breedteschalen vanaf 0.
 
-  Het doel steunt ook [ andere grootteeenheden ](https://www.w3.org/Style/Examples/007/units.en.html), zoals rem, pc, em.
+  Het doel steunt ook [&#x200B; andere grootteeenheden &#x200B;](https://www.w3.org/Style/Examples/007/units.en.html), zoals rem, pc, em.
 
 * **[!UICONTROL Position]**
 
-  Verplaats het geselecteerde element vanaf de huidige positie. U kunt de bovenkant van het element, bodem, linker, recht, en [ z-index ](https://www.w3schools.com/cssref/pr_pos_z-index.asp) positie veranderen.
+  Verplaats het geselecteerde element vanaf de huidige positie. U kunt de bovenkant van het element, bodem, linker, recht, en [&#x200B; z-index &#x200B;](https://www.w3schools.com/cssref/pr_pos_z-index.asp) positie veranderen.
 
   Klik op de vervolgkeuzelijst [!UICONTROL Static] om een van de volgende positieopties te kiezen:
 
@@ -156,7 +156,7 @@ Blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillende s
 
   De positie ondersteunt positieve en negatieve waarden.
 
-  Het doel steunt ook [ andere grootteeenheden ](https://www.w3.org/Style/Examples/007/units.en.html), zoals rem, pc, em.
+  Het doel steunt ook [&#x200B; andere grootteeenheden &#x200B;](https://www.w3.org/Style/Examples/007/units.en.html), zoals rem, pc, em.
 
 * **[!UICONTROL Size]**
 
@@ -187,7 +187,7 @@ Blauwe stippen in het hoofddeelvenster en naast elke optie in de verschillende s
 
   In de CSS-editor worden alle wijzigingen weergegeven die u aanbrengt in het deelvenster Stijlen. Zoals in de onderstaande afbeelding wordt getoond, zijn de tekengrootte, de bovenrand en de afbeeldingsgrootte gewijzigd:
 
-  ![ CSS redacteur met veranderingen ](/help/main/c-experiences/c-visual-experience-composer/assets/css-changes.png)
+  ![&#x200B; CSS redacteur met veranderingen &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/css-changes.png)
 
   U ziet de blauwe stippen naast de opties [!UICONTROL Typography] , [!UICONTROL Border] en [!UICONTROL Size] in de vorige illustratie. Deze punten geven aan dat u deze secties hebt gewijzigd. Als u deze sectievensters opent, worden blauwe stippen weergegeven naast de specifieke opties die u hebt gewijzigd.
 
@@ -217,11 +217,11 @@ De volgende opties zijn beschikbaar:
 
 ### [!UICONTROL Offer Decision]
 
-Voeg een [ aanbieding toe die in  [!DNL Adobe Journey Optimizer] wordt gecreeerd ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=nl-NL){target=_blank} om de beste aanbieding en ervaring aan uw klanten voor te stellen gebruikend aanbiedingsbesluit.
+Voeg een [&#x200B; aanbieding toe die in  [!DNL Adobe Journey Optimizer] wordt gecreeerd &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=nl-NL){target=_blank} om de beste aanbieding en ervaring aan uw klanten voor te stellen gebruikend aanbiedingsbesluit.
 
-**Nota:** Deze optie is beschikbaar wanneer het uitgeven van of het creëren van [ handboek [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) of [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) slechts activiteiten. Deze optie is niet beschikbaar voor andere typen activiteiten.
+**Nota:** Deze optie is beschikbaar wanneer het uitgeven van of het creëren van [&#x200B; handboek [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) of [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) slechts activiteiten. Deze optie is niet beschikbaar voor andere typen activiteiten.
 
-Voor meer informatie, zie [ Aanbiedingsbesluiten van het Gebruik ](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
+Voor meer informatie, zie [&#x200B; Aanbiedingsbesluiten van het Gebruik &#x200B;](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 
 ### [!UICONTROL Image] , [!UICONTROL HTML] en [!UICONTROL Text]
 
@@ -237,7 +237,7 @@ Het gedrag van het ingevoegde element is afhankelijk van de structuur van de pag
 
 ### Aanbeveling
 
-Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Voor meer informatie, zie [ Aanbevelingen als aanbieding ](/help/main/c-recommendations/recommendations-as-an-offer.md).
+Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Voor meer informatie, zie [&#x200B; Aanbevelingen als aanbieding &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 ### [!UICONTROL Experience Fragment]
 
@@ -249,11 +249,11 @@ De volgende opties zijn beschikbaar:
 
 ### [!UICONTROL Offer Decision]
 
-Voeg een [ aanbieding toe die in  [!DNL Adobe Journey Optimizer] wordt gecreeerd ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=nl-NL){target=_blank} om de beste aanbieding en ervaring aan uw klanten voor te stellen gebruikend aanbiedingsbesluit.
+Voeg een [&#x200B; aanbieding toe die in  [!DNL Adobe Journey Optimizer] wordt gecreeerd &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=nl-NL){target=_blank} om de beste aanbieding en ervaring aan uw klanten voor te stellen gebruikend aanbiedingsbesluit.
 
-**Nota:** Deze optie is beschikbaar wanneer het uitgeven van of het creëren van [ handboek [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) of [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) slechts activiteiten. Deze optie is niet beschikbaar voor andere typen activiteiten.
+**Nota:** Deze optie is beschikbaar wanneer het uitgeven van of het creëren van [&#x200B; handboek [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) of [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) slechts activiteiten. Deze optie is niet beschikbaar voor andere typen activiteiten.
 
-Voor meer informatie, zie [ Aanbiedingsbesluiten van het Gebruik ](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
+Voor meer informatie, zie [&#x200B; Aanbiedingsbesluiten van het Gebruik &#x200B;](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 
 ### [!UICONTROL Image] , [!UICONTROL HTML] en [!UICONTROL Text]
 
@@ -269,7 +269,7 @@ Het gedrag van het ingevoegde element is afhankelijk van de structuur van de pag
 
 ### Aanbeveling
 
-Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Voor meer informatie, zie [ Aanbevelingen als aanbieding ](/help/main/c-recommendations/recommendations-as-an-offer.md).
+Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Voor meer informatie, zie [&#x200B; Aanbevelingen als aanbieding &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 ### [!UICONTROL Experience Fragment]
 
@@ -281,11 +281,11 @@ De volgende opties zijn beschikbaar:
 
 ### [!UICONTROL Offer Decision]
 
-Voeg een [ aanbieding toe die in  [!DNL Adobe Journey Optimizer] wordt gecreeerd ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=nl-NL){target=_blank} om de beste aanbieding en ervaring aan uw klanten voor te stellen gebruikend aanbiedingsbesluit.
+Voeg een [&#x200B; aanbieding toe die in  [!DNL Adobe Journey Optimizer] wordt gecreeerd &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=nl-NL){target=_blank} om de beste aanbieding en ervaring aan uw klanten voor te stellen gebruikend aanbiedingsbesluit.
 
-**Nota:** Deze optie is beschikbaar wanneer het uitgeven van of het creëren van [ handboek [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) of [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) slechts activiteiten. Deze optie is niet beschikbaar voor andere typen activiteiten.
+**Nota:** Deze optie is beschikbaar wanneer het uitgeven van of het creëren van [&#x200B; handboek [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) of [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) slechts activiteiten. Deze optie is niet beschikbaar voor andere typen activiteiten.
 
-Voor meer informatie, zie [ Aanbiedingsbesluiten van het Gebruik ](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
+Voor meer informatie, zie [&#x200B; Aanbiedingsbesluiten van het Gebruik &#x200B;](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 
 ### [!UICONTROL Image]
 
@@ -315,7 +315,7 @@ Een HTML-aanbieding kan maximaal 256 kB bedragen.
 
 ### Aanbeveling
 
-Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Voor meer informatie, zie [ Aanbevelingen als aanbieding ](/help/main/c-recommendations/recommendations-as-an-offer.md).
+Neem aanbevelingen op in A/B-testactiviteiten (inclusief Automatische toewijzing en Auto-Target) en Gericht op ervaring (XT). Voor meer informatie, zie [&#x200B; Aanbevelingen als aanbieding &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 ### [!UICONTROL Experience Fragment]
 
@@ -371,17 +371,17 @@ Wijzigingen die u tijdens een bewerkingssessie in uw activiteiten aanbrengt, ong
 
 ## Overwegingen {#considerations}
 
-* Als een aanbieding de inhoud van HTML bevat, zie &quot;hoe at.js aanbiedingen met de inhoud van HTML&quot;in [ &quot;hoe at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=nl-NL){target=_blank} voor meer informatie teruggeeft.
+* Als een aanbieding de inhoud van HTML bevat, zie &quot;hoe at.js aanbiedingen met de inhoud van HTML&quot;in [&#x200B; &quot;hoe at.js &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=nl-NL){target=_blank} voor meer informatie teruggeeft.
 
 ## Ondersteuning voor aangepaste elementen {#custom}
 
-VEC steunt {de Componenten van het Web 0} [ om u gepersonaliseerde ervaringen en aanbiedingen op douaneelementen en op elementen binnen douaneelementen tot stand te brengen en te testen. ](https://developer.mozilla.org/en-US/docs/Web/Web_Components) Deze functionaliteit is beschikbaar in VEC voor alle [!DNL Target] activiteitstypen.
+VEC steunt {de Componenten van het Web 0} [&#x200B; om u gepersonaliseerde ervaringen en aanbiedingen op douaneelementen en op elementen binnen douaneelementen tot stand te brengen en te testen. &#x200B;](https://developer.mozilla.org/en-US/docs/Web/Web_Components) Deze functionaliteit is beschikbaar in VEC voor alle [!DNL Target] activiteitstypen.
 
 >[!NOTE]
 >
->De steun VEC voor douaneelementen wordt gesteund in [ at.js versie ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} 2.7.0 (of later) {target=_blank}. Zorg ervoor dat de vereiste versie van uw website is geïmplementeerd. Als u de [ Visuele de helperuitbreiding van Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) gebruikt, moet het ook de vereiste versie van at.js hebben opgesteld. De hierboven beschreven VEC-opties zijn niet zichtbaar en zijn beschikbaar voor gebruik met niet-ondersteunde versies van at.js.
+>De steun VEC voor douaneelementen wordt gesteund in [&#x200B; at.js versie &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} 2.7.0 (of later) {target=_blank}. Zorg ervoor dat de vereiste versie van uw website is geïmplementeerd. Als u de [&#x200B; Visuele de helperuitbreiding van Composer van de Ervaring &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) gebruikt, moet het ook de vereiste versie van at.js hebben opgesteld. De hierboven beschreven VEC-opties zijn niet zichtbaar en zijn beschikbaar voor gebruik met niet-ondersteunde versies van at.js.
 >
->De steun VEC voor douaneelementen wordt momenteel niet gesteund met het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+>De steun VEC voor douaneelementen wordt momenteel niet gesteund met het [&#x200B; Web SDK van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 De meeste acties VEC worden gesteund op douanegebeurtenissen en binnen douanegebeurtenissen, met de volgende uitzonderingen:
 
@@ -403,7 +403,7 @@ De volgende actie is niet beschikbaar in aangepaste elementen:
 
 Wanneer u een element op de pagina klikt, toont het VEC optiesmenu. Wanneer u op een element klikt, wordt bovendien het bijbehorende DOM-pad onder aan de pagina weergegeven.
 
-![ DOM weg ](/help/main/c-experiences/c-visual-experience-composer/assets/dom-path.png)
+![&#x200B; DOM weg &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/dom-path.png)
 
 U kunt het DOM-pad gebruiken om snel informatie over het geselecteerde element (type, id en klasse) weer te geven en het DOM-pad omhoog of omlaag te verplaatsen om het gewenste element te selecteren.
 
@@ -411,4 +411,4 @@ Wanneer u de cursor op het DOM-pad plaatst, wordt het bijbehorende element in de
 
 U kunt gemakkelijk aan om het even welk ouder, sibling, of kindelement binnen VEC navigeren gebruikend de weg DOM.
 
-De DOM wegeigenschap is ook beschikbaar wanneer vestiging [ het volgen ](/help/main/c-activities/r-success-metrics/click-tracking.md) klikt.
+De DOM wegeigenschap is ook beschikbaar wanneer vestiging [&#x200B; het volgen &#x200B;](/help/main/c-activities/r-success-metrics/click-tracking.md) klikt.

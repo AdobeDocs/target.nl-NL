@@ -18,11 +18,11 @@ Als u [!DNL Adobe Analytics] gebruikt als gegevensbron voor gedragingen, kunnen 
 
 Het gebruik van [!DNL Analytics] als de gegevensbron voor gedragingen kan fungeren als een rijke bron van informatie over het gedrag van gebruikers. Deze informatie kan gegevens bevatten van een bron of feed van een derde die alleen met [!DNL Analytics] wordt gedeeld.
 
-Terwijl [ creërend criteria ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) in [!DNL Recommendations], zijn er twee radioknopen die u laten kiezen welke gegevensbron moet worden gebruikt: [!UICONTROL mboxes] of [!UICONTROL Analytics]. Klik op [!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria] om criteria te maken. Voor meer informatie, zie [ criteria ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) creëren.
+Terwijl [&#x200B; creërend criteria &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) in [!DNL Recommendations], zijn er twee radioknopen die u laten kiezen welke gegevensbron moet worden gebruikt: [!UICONTROL mboxes] of [!UICONTROL Analytics]. Klik op [!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria] om criteria te maken. Voor meer informatie, zie [&#x200B; criteria &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) creëren.
 
 >[!NOTE]
 >
->Als deze twee knopen niet in uw rekening tonen, reik uit aan [ de Zorg van de Klant ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+>Als deze twee knopen niet in uw rekening tonen, reik uit aan [&#x200B; de Zorg van de Klant &#x200B;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
 ## Gevallen gebruiken voor [!DNL Analytics] -gegevens in [!DNL Target]
 
@@ -47,7 +47,7 @@ Een [!DNL Target Recommendations] -voorbeeldvoederindeling fungeert als leidraad
 >
 >Als het een inhoudssite is, moeten de respectievelijke inhoudsonderdelen worden behandeld als &quot;producten&quot; en de bijbehorende kenmerken over die inhoud worden doorgegeven als kenmerken. Dergelijke kenmerken kunnen de auteursnaam, publicatiedatum, inhoudstitel, maand van versie, enzovoort omvatten. Het bedrijf moet op basis van de gebruiksaanwijzing beslissen over de mate waarin een categorie of categorie in aanmerking komt.
 
-Voor meer details op hoe te opstellings productvariabelen, zie [ producten ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=nl-NL) in *Adobe Analytics* gids uitvoeren. Sommige nota&#39;s in die documentatie hebben behoefte aan discretie van het team dat het opstelt (voorbeeld: Categorie). Het wordt altijd aangeraden [!DNL Adobe] te raadplegen voordat u deze activiteit uitvoert.
+Voor meer details op hoe te opstellings productvariabelen, zie [&#x200B; producten &#x200B;](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=nl-NL) in *Adobe Analytics* gids uitvoeren. Sommige nota&#39;s in die documentatie hebben behoefte aan discretie van het team dat het opstelt (voorbeeld: Categorie). Het wordt altijd aangeraden [!DNL Adobe] te raadplegen voordat u deze activiteit uitvoert.
 
 ### Overwegingen
 

@@ -28,7 +28,7 @@ Als u de configuratiepagina van [!UICONTROL Visual Experience Composer] wilt ope
 
 U kunt algemene instellingen opgeven voor de [!UICONTROL Visual Experience Composer] .
 
-![ Algemene sectie van Montages ](/help/main/administrating-target/assets/general-settings.png)
+![&#x200B; Algemene sectie van Montages &#x200B;](/help/main/administrating-target/assets/general-settings.png)
 
 De volgende instellingen zijn beschikbaar:
 
@@ -40,7 +40,7 @@ Stel de standaard-URL in die door de [!UICONTROL Visual Experience Composer] wor
 
 Hiermee kunt u iFrame-sites en sites met gemengde inhoud bewerken. Sommige sites zijn mogelijk niet compatibel met de verbeterde versie. Schakel deze optie uit als u het origineel wilt herstellen [!UICONTROL Visual Experience Composer] . Deze keuze heeft geen invloed op de levering van activiteiten op sites.
 
-Voor meer informatie, zie [ het Oplossen van problemen de Visuele Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+Voor meer informatie, zie [&#x200B; het Oplossen van problemen de Visuele Composer van de Ervaring &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
 U kunt [!UICONTROL Enhanced Experience Composer] ook inschakelen op activiteitsniveau.
 
@@ -61,22 +61,22 @@ Als u ervaringsmomentopnamen inschakelt, worden miniaturen voor uw ervaringen in
 
 >[!NOTE]
 >
->De [!UICONTROL Mobile Viewport Configuration] montages is a [ Target Premium ](/help/main/c-intro/intro.md#premium) eigenschap.
+>De [!UICONTROL Mobile Viewport Configuration] montages is a [&#x200B; Target Premium &#x200B;](/help/main/c-intro/intro.md#premium) eigenschap.
 
 
 U kunt apparaten toevoegen om te gebruiken wanneer het previewing ervaringen. Elk apparaat heeft een bijbehorend publiek.
 
-![ Mobiele sectie van de Configuratie van de Viewport ](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
+![&#x200B; Mobiele sectie van de Configuratie van de Viewport &#x200B;](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
 Klik op **[!UICONTROL Add]** , geef een beschrijvende naam op voor de mobiele viewport, geef de breedte en hoogte op, selecteer het gewenste besturingssysteem en klik op [!UICONTROL Save] .
 
-Voor informatie over hoe te om een mobiele viewport toe te voegen, zie [ Mobiele Configuratie van de Viewport ](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md).
+Voor informatie over hoe te om een mobiele viewport toe te voegen, zie [&#x200B; Mobiele Configuratie van de Viewport &#x200B;](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md).
 
 ## CSS-kiezers {#css}
 
 Geef op hoe [!DNL Target] CSS-kiezers genereert.
 
-![ CSS de sectie van Kiezers ](/help/main/administrating-target/assets/css-selectors.png)
+![&#x200B; CSS de sectie van Kiezers &#x200B;](/help/main/administrating-target/assets/css-selectors.png)
 
 Met deze opties krijgt [!DNL Target] inzicht in de structuur van uw site, zodat u betere CSS-kiezers voor de levering van inhoud kunt genereren. Standaard genereert [!DNL Target] kiezers op basis van element-id&#39;s op de pagina. Als uw site weinig id&#39;s gebruikt of ID&#39;s op dezelfde pagina dupliceert, kunt u beter klassen gebruiken.
 
@@ -98,9 +98,9 @@ U kunt deze instelling per activiteit overschrijven (klik op het tandwielpictogr
 
 >[!NOTE]
 >
->Het overschrijven van de instelling per activiteit is niet beschikbaar in [!UICONTROL Automated Personalization] - en [!UICONTROL Multivariate Testing] -activiteiten.  Zie [ de Kiezers van het Element die in de Visuele Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) voor extra informatie over selecteurs worden gebruikt.
+>Het overschrijven van de instelling per activiteit is niet beschikbaar in [!UICONTROL Automated Personalization] - en [!UICONTROL Multivariate Testing] -activiteiten.  Zie [&#x200B; de Kiezers van het Element die in de Visuele Composer van de Ervaring &#x200B;](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) voor extra informatie over selecteurs worden gebruikt.
 
-## De video van de opleiding: De Voorkeur van de Rekening (7 :33) ![ badge van het Overzicht ](/help/main/assets/overview.png)
+## De video van de opleiding: De Voorkeur van de Rekening (7 :33) ![&#x200B; badge van het Overzicht &#x200B;](/help/main/assets/overview.png)
 
 Deze video bevat informatie over accountvoorkeuren.
 

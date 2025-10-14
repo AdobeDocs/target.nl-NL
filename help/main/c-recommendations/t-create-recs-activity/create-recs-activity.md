@@ -20,15 +20,15 @@ Gebruik [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) om een [!DNL
 
 1. Selecteer **[!UICONTROL Visual]**, indien nodig.
 
-   Selecteer [!UICONTROL Form-Based Experience Composer] als u de [!UICONTROL Form] -toets liever wilt gebruiken. Zie [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) voor meer informatie.
+   Selecteer [!UICONTROL Form-Based Experience Composer] als u de [!UICONTROL Form] -toets liever wilt gebruiken. Zie [&#x200B; vorm-Gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md) voor meer informatie.
 
    >[!NOTE]
    >
-   >Naast de VEC en [!UICONTROL Form-Based Experience Composer] biedt [!DNL Target] ook de VEC. [!UICONTROL Single Page Application] Voor meer informatie over de diverse composers, zie [ Ervaringen en Aanbiedingen ](/help/main/c-experiences/experiences.md).
+   >Naast de VEC en [!UICONTROL Form-Based Experience Composer] biedt [!DNL Target] ook de VEC. [!UICONTROL Single Page Application] Voor meer informatie over de diverse composers, zie [&#x200B; Ervaringen en Aanbiedingen &#x200B;](/help/main/c-experiences/experiences.md).
    >
-   >Voor het oplossen van problemeninformatie over VEC, als u problemen hebt, zie [ het Oplossen van problemen de Visuele Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+   >Voor het oplossen van problemeninformatie over VEC, als u problemen hebt, zie [&#x200B; het Oplossen van problemen de Visuele Composer van de Ervaring &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-1. (Voorwaardelijk) kies a [ werkruimte ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Voorwaardelijk) kies a [&#x200B; werkruimte &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. Geef een activiteit-URL op en klik op **[!UICONTROL Create]** .
 
@@ -44,7 +44,7 @@ Gebruik [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) om een [!DNL
 
    Bezoekers van uw site zien de aanbevolen inhoud alleen als ze in aanmerking komen voor de aanbeveling. Bezoekers die niet in aanmerking komen voor de aanbeveling, zien de standaardinhoud.
 
-   ![ de opties van Aanbevelingen ](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
+   ![&#x200B; de opties van Aanbevelingen &#x200B;](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
    * **[!UICONTROL Replace w/ Recommendations]**: als u een element vervangt door aanbevelingen, wordt de huidige inhoud verwijderd en vervangen door uw aanbevelingen. Wanneer bezoekers uw site bezoeken en in aanmerking komen voor de aanbeveling, zien ze de aanbevolen items in het opgegeven gebied in plaats van de bestaande inhoud.
    * **[!UICONTROL Insert Recommendations Before]**: wanneer u aanbevelingen invoegt voordat het geselecteerde element de aanbevolen inhoud vóór dat element plaatst. Afhankelijk van de constructie van uw pagina wordt de aanbeveling boven of links van het geselecteerde element weergegeven.
@@ -65,17 +65,17 @@ Gebruik [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) om een [!DNL
    * Dankbriefje
    * Overige
 
-   ![ Uitgezochte opties van het Type van Pagina ](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
+   ![&#x200B; Uitgezochte opties van het Type van Pagina &#x200B;](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
 
-1. Selecteer één of meerdere [ criteria ](/help/main/c-recommendations/c-algorithms/algorithms.md).
+1. Selecteer één of meerdere [&#x200B; criteria &#x200B;](/help/main/c-recommendations/c-algorithms/algorithms.md).
 
    De criteria worden getoond als kaarten die informatie over elke criteria tonen. Standaard worden in het scherm [!UICONTROL Select Criteria] criteria weergegeven die compatibel zijn met de verticale instellingen van uw bedrijf en het paginatype dat u in de vorige stap hebt geselecteerd. U kunt deze opties wijzigen en andere criteria weergeven.
 
    >[!NOTE]
    >
-   >Niet alle criteria worden op elke pagina correct uitgevoerd. De pagina of het selectievakje moet `entity.id` of `entity.categoryId` doorgeven om de huidige aanbevelingen voor het item of de huidige categorie compatibel te maken. Over het algemeen is het beter alleen compatibele criteria te laten zien. Als u echter incompatibele criteria voor de activiteit wilt gebruiken, schakelt u het selectievakje **[!UICONTROL Compatible]** uit. De optie [!UICONTROL Compatible] wordt mogelijk niet weergegeven, afhankelijk van de instellingen voor Aanbevelingen ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]** ). Voor meer informatie, zie [ Montages ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank}.
+   >Niet alle criteria worden op elke pagina correct uitgevoerd. De pagina of het selectievakje moet `entity.id` of `entity.categoryId` doorgeven om de huidige aanbevelingen voor het item of de huidige categorie compatibel te maken. Over het algemeen is het beter alleen compatibele criteria te laten zien. Als u echter incompatibele criteria voor de activiteit wilt gebruiken, schakelt u het selectievakje **[!UICONTROL Compatible]** uit. De optie [!UICONTROL Compatible] wordt mogelijk niet weergegeven, afhankelijk van de instellingen voor Aanbevelingen ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]** ). Voor meer informatie, zie [&#x200B; Montages &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank}.
 
-   ![ Uitgezochte de dialoogdoos van Criteria ](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
+   ![&#x200B; Uitgezochte de dialoogdoos van Criteria &#x200B;](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
    Als u meerdere criteria selecteert, wordt het verkeer gelijkmatig over de geselecteerde criteria verdeeld. Als u bijvoorbeeld twee criteria hebt geselecteerd en uw activiteit is ontworpen om standaardinhoud weer te geven voor 20% van de deelnemers aan de activiteit, dan zal 40% van de deelnemers aan de activiteit de aanbevelingen zien die door elke criteria worden gecontroleerd. Er is geen optie om de percentages voor elke criteria te wijzigen.
 
@@ -83,15 +83,15 @@ Gebruik [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) om een [!DNL
 
      Sommige criteria worden geleverd bij [!DNL Recommendations] . U en uw team kunnen ook uw eigen aangepaste criteria maken.
 
-   * Als u nieuwe criteria wilt maken, klikt u op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** en vult u de gegevens voor de nieuwe criteria in. Voor informatie over het creëren van nieuwe criteria, zie [ Creërend Criteria ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
-   * U kunt criteria ook in reeksen groeperen. Klik op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]** om een nieuwe reeks criteria te maken. Zie [ de Opeenvolging van Criteria ](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md) voor meer informatie creëren.
+   * Als u nieuwe criteria wilt maken, klikt u op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** en vult u de gegevens voor de nieuwe criteria in. Voor informatie over het creëren van nieuwe criteria, zie [&#x200B; Creërend Criteria &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
+   * U kunt criteria ook in reeksen groeperen. Klik op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]** om een nieuwe reeks criteria te maken. Zie [&#x200B; de Opeenvolging van Criteria &#x200B;](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md) voor meer informatie creëren.
 
 1. Klik op **[!UICONTROL Next]**.
-1. Selecteer a [ ontwerp ](/help/main/c-recommendations/c-design-overview/design-overview.md).
+1. Selecteer a [&#x200B; ontwerp &#x200B;](/help/main/c-recommendations/c-design-overview/design-overview.md).
 
-   Een ontwerp is een sjabloon die het uiterlijk van de locaties op de pagina bepaalt. [!DNL Target] bevat verschillende vooraf geconfigureerde ontwerpen. U kunt ook uw eigen aangepaste ontwerpen maken. Voor meer informatie, zie [ een Ontwerp ](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) creëren en [ Aanpassen van een Ontwerp ](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
+   Een ontwerp is een sjabloon die het uiterlijk van de locaties op de pagina bepaalt. [!DNL Target] bevat verschillende vooraf geconfigureerde ontwerpen. U kunt ook uw eigen aangepaste ontwerpen maken. Voor meer informatie, zie [&#x200B; een Ontwerp &#x200B;](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) creëren en [&#x200B; Aanpassen van een Ontwerp &#x200B;](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
 
-   ![ Uitgezochte de dialoogdoos van het Ontwerp ](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
+   ![&#x200B; Uitgezochte de dialoogdoos van het Ontwerp &#x200B;](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
    Elk ontwerp toont een grafische voorstelling van hoe het eruit zal zien, en pictogrammen die tonen hoeveel van uw levende en inactieve activiteiten momenteel dat ontwerp gebruiken.
 
@@ -99,11 +99,11 @@ Gebruik [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) om een [!DNL
 
      Als u meerdere criteria hebt geselecteerd, kunt u slechts één ontwerp selecteren.
 
-   * Als u een aangepast ontwerp wilt maken, klikt u op **[!UICONTROL Create Design]** en vult u vervolgens de naam en de code voor het nieuwe ontwerp in. Klik op **[!UICONTROL Next]**, selecteer of upload een afbeelding en klik op **[!UICONTROL Done]** > **[!UICONTROL Done]** . Voor informatie over het creëren van een nieuw ontwerp, zie [ een Ontwerp ](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) creëren.
+   * Als u een aangepast ontwerp wilt maken, klikt u op **[!UICONTROL Create Design]** en vult u vervolgens de naam en de code voor het nieuwe ontwerp in. Klik op **[!UICONTROL Next]**, selecteer of upload een afbeelding en klik op **[!UICONTROL Done]** > **[!UICONTROL Done]** . Voor informatie over het creëren van een nieuw ontwerp, zie [&#x200B; een Ontwerp &#x200B;](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) creëren.
 
 1. Klik op **[!UICONTROL Next]**.
 
-   U kunt speciale acties toevoegen aan uw aanbevelingen. Voor meer informatie over het toevoegen van voor en achter bevorderingen, zie [ Toevoegend Bevorderingen ](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   U kunt speciale acties toevoegen aan uw aanbevelingen. Voor meer informatie over het toevoegen van voor en achter bevorderingen, zie [&#x200B; Toevoegend Bevorderingen &#x200B;](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -119,7 +119,7 @@ Gebruik [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) om een [!DNL
 
 1. Controleer uw [!DNL Recommendations] activiteit in het stroomdiagram en breng de noodzakelijke veranderingen aan.
 
-   ![ de stroomdiagram van de Aanbevelingen ](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
+   ![&#x200B; de stroomdiagram van de Aanbevelingen &#x200B;](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
 
    Het stroomdiagram leidt u door de stappen om het publiek voor de activiteit te kiezen, opstellingservaringen, en succesmetriek te specificeren.
 
@@ -129,7 +129,7 @@ Gebruik [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) om een [!DNL
 
      >[!NOTE]
      >
-     >Naast het selecteren van een bestaand publiek, kunt u [ tot een activiteit-slechts publiek ](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) leiden of [ veelvoudige publiek ](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) combineren om ad hoc publiek eerder dan het creëren van een nieuw publiek tot stand te brengen.
+     >Naast het selecteren van een bestaand publiek, kunt u [&#x200B; tot een activiteit-slechts publiek &#x200B;](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) leiden of [&#x200B; veelvoudige publiek &#x200B;](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) combineren om ad hoc publiek eerder dan het creëren van een nieuw publiek tot stand te brengen.
 
      Standaard zien alle gebruikers de aanbevelingen. U kunt de aanbeveling echter richten op een specifiek publiek.
 
@@ -168,7 +168,7 @@ Gebruik [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) om een [!DNL
 
 1. (Optioneel) Open de pagina [!UICONTROL Reports] om het rapport weer te geven met de prestaties van uw [!DNL Recommendations] -activiteit.
 
-1. (Facultatief) open de [!UICONTROL Collisions] pagina om het even welke [ activiteitenbotsingen ](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md) te bekijken die zouden kunnen voorkomen.
+1. (Facultatief) open de [!UICONTROL Collisions] pagina om het even welke [&#x200B; activiteitenbotsingen &#x200B;](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md) te bekijken die zouden kunnen voorkomen.
 
    Er treden conflicten op wanneer meerdere activiteiten zijn ingesteld om inhoud te leveren aan dezelfde pagina. Hierdoor kan onverwachte inhoud worden weergegeven.
 

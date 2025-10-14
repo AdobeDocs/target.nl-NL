@@ -89,7 +89,7 @@ Als u substantiële wijzigingen wilt aanbrengen in de inhoud van uw [!UICONTROL 
 +++Antwoord
 De tijd die het voor modellen vergt om in uw [!UICONTROL Auto-Target] activiteit te bouwen hangt typisch van het verkeer aan uw geselecteerde activiteitenplaatsen en omzettingen verbonden aan uw metrische activiteit af.
 
-[!UICONTROL Auto-Target] probeert geen gepersonaliseerd model voor een bepaalde ervaring te bouwen tot er minstens 50 omzettingen voor die ervaring zijn. Voorts als het gebouwde model van ontoereikende kwaliteit is (zoals die door off-line evaluatie op greep-out &quot;test&quot;gegevens wordt bepaald, gebruikend [ metrisch die als AUC ](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve) wordt bekend), wordt het model niet gebruikt om verkeer op een gepersonaliseerde manier te dienen.
+[!UICONTROL Auto-Target] probeert geen gepersonaliseerd model voor een bepaalde ervaring te bouwen tot er minstens 50 omzettingen voor die ervaring zijn. Voorts als het gebouwde model van ontoereikende kwaliteit is (zoals die door off-line evaluatie op greep-out &quot;test&quot;gegevens wordt bepaald, gebruikend [&#x200B; metrisch die als AUC &#x200B;](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve) wordt bekend), wordt het model niet gebruikt om verkeer op een gepersonaliseerde manier te dienen.
 
 Houd rekening met het volgende: [!UICONTROL Auto-Target] modelgebouw:
 
@@ -116,11 +116,11 @@ U kunt de resultaten van de [!UICONTROL Auto-Target] -test bekijken nadat u mins
 ### Kan ik een specifieke ervaring specificeren die als controle moet worden gebruikt?
 
 +++Antwoord
-U kunt een ervaring selecteren die als controle wordt gebruikt terwijl het creëren van a [ Automated Personalization ](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) of [ auto-Doel ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) activiteit.
+U kunt een ervaring selecteren die als controle wordt gebruikt terwijl het creëren van a [&#x200B; Automated Personalization &#x200B;](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) of [&#x200B; auto-Doel &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) activiteit.
 
 Deze eigenschap laat u het volledige controleverkeer aan een specifieke ervaring leiden, die op het verkeer-toewijzingspercentage wordt gebaseerd dat in de activiteit wordt gevormd. U kunt de prestatiesrapporten van het gepersonaliseerde verkeer tegen controleverkeer aan die één ervaring dan evalueren.
 
-Voor meer informatie, zie [ Gebruik een specifieke ervaring als controle ](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
+Voor meer informatie, zie [&#x200B; Gebruik een specifieke ervaring als controle &#x200B;](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
 
 +++
 

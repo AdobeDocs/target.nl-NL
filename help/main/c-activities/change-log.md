@@ -26,8 +26,8 @@ Vernieuw de pagina om statuswijzigingen te zien. U kunt ook een lijst weergeven 
 
 ## Doel controlelogboek-API&#39;s
 
-* [ Revisions: Krijg het controlelogboek door de naam van de laatste auteur en een gewijzigd-na timestamp ](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
-* [ de activiteitverandering van de Lijst ](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
+* [&#x200B; Revisions: Krijg het controlelogboek door de naam van de laatste auteur en een gewijzigd-na timestamp &#x200B;](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
+* [&#x200B; de activiteitverandering van de Lijst &#x200B;](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
 
 
 

@@ -29,7 +29,7 @@ Er zijn geen ervaringen als u een [!UICONTROL Recommendations] -activiteit maakt
 
    De lus [!UICONTROL Form-Based Experience Composer] wordt geopend.
 
-   ![ location_affinements beeld ](assets/location_refinements.png)
+   ![&#x200B; location_affinements beeld &#x200B;](assets/location_refinements.png)
 
    Dit scherm is anders als u een [!UICONTROL Recommendations] activiteit creeert. [!UICONTROL Recommendations] -activiteiten omvatten geen ervaringen.
 
@@ -44,15 +44,15 @@ Er zijn geen ervaringen als u een [!UICONTROL Recommendations] -activiteit maakt
    >
    >Als u een handmatig ingevoerde locatie maakt tijdens het maken van een activiteit, wordt niet automatisch een nieuwe locatie gemaakt. De locatienaam wordt alleen opgeslagen in de context van de activiteit. De plaats wordt gecreeerd wanneer er een vraag van de inhoudslevering is. Na de locatie die wordt gemaakt, zal deze beschikbaar zijn voor gebruik in andere activiteiten, voor het creëren van publiek, enz. in de vervolgkeuzelijst met beschikbare locaties.
 
-1. Klik **[!UICONTROL Add Audience Refinements]**, kies één of meerdere [ publiek ](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) voor deze activiteit, dan klik **[!UICONTROL Done]**.
+1. Klik **[!UICONTROL Add Audience Refinements]**, kies één of meerdere [&#x200B; publiek &#x200B;](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) voor deze activiteit, dan klik **[!UICONTROL Done]**.
 
-   ![ location_raffements_2 beeld ](assets/location_refinements_2.png)
+   ![&#x200B; location_raffements_2 beeld &#x200B;](assets/location_refinements_2.png)
 
-   In [!UICONTROL Form-based Experience Composer] zijn verfijningen vervangen door volledige publieksfunctionaliteit. De verfijningen voor bestaande activiteiten zijn gemigreerd aan [ activiteit-slechts publiek ](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   In [!UICONTROL Form-based Experience Composer] zijn verfijningen vervangen door volledige publieksfunctionaliteit. De verfijningen voor bestaande activiteiten zijn gemigreerd aan [&#x200B; activiteit-slechts publiek &#x200B;](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
 1. Selecteer het type inhoud dat u op die locatie wilt weergeven.
 
-   ![ form_content beeld ](assets/form_content.png)
+   ![&#x200B; form_content beeld &#x200B;](assets/form_content.png)
 
 1. Geef voor het geselecteerde inhoudstype de inhoud op.
 
@@ -68,11 +68,11 @@ Er zijn geen ervaringen als u een [!UICONTROL Recommendations] -activiteit maakt
 
    **de aanbieding van JSON van de Verandering:** kies een json aanbieding.
 
-   **de Fragment van de Ervaring van de Verandering:** kies een Fragment van de Ervaring. Voor meer informatie, zie [ Fragment van de Ervaring ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
+   **de Fragment van de Ervaring van de Verandering:** kies een Fragment van de Ervaring. Voor meer informatie, zie [&#x200B; Fragment van de Ervaring &#x200B;](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-   **Verandering richt Aanbieding om:** kies een omleidingsaanbieding. Voor meer informatie, zie [ leiden aanbiedingen ](/help/main/c-experiences/c-manage-content/offer-redirect.md) om.
+   **Verandering richt Aanbieding om:** kies een omleidingsaanbieding. Voor meer informatie, zie [&#x200B; leiden aanbiedingen &#x200B;](/help/main/c-experiences/c-manage-content/offer-redirect.md) om.
 
-   **Verre Aanbieding van de Verandering:** kies een verre aanbieding. Voor meer informatie, zie [ verre aanbiedingen ](/help/main/c-experiences/c-manage-content/about-remote-offers.md) creëren.
+   **Verre Aanbieding van de Verandering:** kies een verre aanbieding. Voor meer informatie, zie [&#x200B; verre aanbiedingen &#x200B;](/help/main/c-experiences/c-manage-content/about-remote-offers.md) creëren.
 
    **creeer de Aanbieding van HTML:**
 
@@ -92,30 +92,30 @@ Er zijn geen ervaringen als u een [!UICONTROL Recommendations] -activiteit maakt
 
    **voeg Aanbeveling toe:**
 
-   Voor een activiteit van Aanbevelingen, geeft de drop-down Inhoud u de [!UICONTROL Add Recommendation] optie. Klik op **[!UICONTROL Add Recommendation]** en selecteer het paginatype. Dan volg de gebruikelijke stappen zoals die in de interface worden bepaald [ creeer een activiteit van Aanbevelingen ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+   Voor een activiteit van Aanbevelingen, geeft de drop-down Inhoud u de [!UICONTROL Add Recommendation] optie. Klik op **[!UICONTROL Add Recommendation]** en selecteer het paginatype. Dan volg de gebruikelijke stappen zoals die in de interface worden bepaald [&#x200B; creeer een activiteit van Aanbevelingen &#x200B;](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
    Bij het selecteren van criteria voor Aanbevelingen in de Form-Based Experience Composer is er nu een directe koppeling naar de geselecteerde Criteria Card zodat u de criteria snel en eenvoudig kunt bewerken.
 
-   ![ change_criteria beeld ](assets/change_criteria.png)
+   ![&#x200B; change_criteria beeld &#x200B;](assets/change_criteria.png)
 
    Van de Doelpagina van het Doel driestappe geleide werkschema:
 
-   ![ change_criteria_2 beeld ](assets/change_criteria_2.png)
+   ![&#x200B; change_criteria_2 beeld &#x200B;](assets/change_criteria_2.png)
 
    **voeg Besluit van de Aanbieding toe:**
 
    Voeg een aanbieding die in [!DNL Adobe Journey Optimizer] (AJO) is gemaakt toe aan een [!DNL Adobe Target] -activiteit om de beste dynamische aanbieding en ervaring aan uw bezoekers op uw website of mobiele site te presenteren met behulp van de functie voor het bepalen van aanbiedingen. Deze optie is alleen beschikbaar voor handmatige [!UICONTROL A/B Test] - en [!UICONTROL Experience Targeting] -activiteiten (XT).
 
-   Voor meer informatie, zie [ Aanbiedingsbesluiten van het Gebruik ](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
+   Voor meer informatie, zie [&#x200B; Aanbiedingsbesluiten van het Gebruik &#x200B;](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 
 1. (Optioneel, voor [!UICONTROL A/B Test] -, [!UICONTROL Automated Personalization] - en [!UICONTROL Experience Targeting] -activiteiten) Als u dit proces voor extra locaties wilt herhalen, klikt u op **[!UICONTROL Add Location]** en configureert u de locatie en inhoud.
 1. Klik op **[!UICONTROL Next]** en voer de gebruikelijke stappen voor het maken van activiteiten uit voor het type activiteit.
 
-* [ creeer een Test A/B ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-* [ creeer een Ervaring richtend Activiteit ](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+* [&#x200B; creeer een Test A/B &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
+* [&#x200B; creeer een Ervaring richtend Activiteit &#x200B;](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [Een activiteit voor aanbevelingen maken](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## De video van de opleiding: Op vorm-Gebaseerde Composer ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: Op vorm-Gebaseerde Composer ![&#x200B; badge van het Leerprogramma &#x200B;](/help/main/assets/tutorial.png)
 
 Deze video bevat een demo van de op formulieren gebaseerde composer.
 

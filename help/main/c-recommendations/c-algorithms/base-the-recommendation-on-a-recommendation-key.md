@@ -28,13 +28,13 @@ Elk type algoritme verstrekt verschillende algoritmen aangewezen voor zijn type,
 
 Elk criterium wordt gedefinieerd in een eigen tabblad. Het verkeer wordt gelijkmatig verdeeld over uw verschillende criteria testen. Met andere woorden, als je twee criteria hebt, is het verkeer gelijk verdeeld. Als u twee criteria en twee ontwerpen hebt, wordt het verkeer gelijkmatig verdeeld tussen de vier combinaties. U kunt ook een percentage bezoekers van de site opgeven die de standaardinhoud ter vergelijking zien. In dat geval ziet het opgegeven percentage bezoekers de standaardinhoud en worden de rest opgedeeld tussen uw criteria en ontwerpcombinaties.
 
-Voor meer informatie over het creëren van criteria en het bepalen van zijn algoritmenypes en algoritmen, zie [ criteria ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) creëren.
+Voor meer informatie over het creëren van criteria en het bepalen van zijn algoritmenypes en algoritmen, zie [&#x200B; criteria &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) creëren.
 
 Verschillende aanbevelingen voor algoritmen kunnen op verschillende typen pagina&#39;s worden geplaatst. Raadpleeg de volgende secties voor meer informatie over elk type algoritme en de beschikbare algoritmen.
 
 ## Op basis van winkelwagentje {#cart-based}
 
-Met het algoritme [!UICONTROL Cart-Based] kunt u items aanbevelen op basis van de inhoud van het huidige winkelwagentje van de bezoeker. De aanbevelingssleutels worden geleverd door [ mbox parameter `cartIds` ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} in komma-gescheiden waarden. Alleen de eerste tien waarden worden in aanmerking genomen.
+Met het algoritme [!UICONTROL Cart-Based] kunt u items aanbevelen op basis van de inhoud van het huidige winkelwagentje van de bezoeker. De aanbevelingssleutels worden geleverd door [&#x200B; mbox parameter `cartIds` &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} in komma-gescheiden waarden. Alleen de eerste tien waarden worden in aanmerking genomen.
 
 De op kunst-gebaseerde aanbeveling logica is gelijkaardig aan &quot;[!UICONTROL Recommended For You]&quot;op gebruiker-gebaseerd algoritme en aan &quot;[!UICONTROL People Who Viewed These, Bought Those]&quot;en &quot;[!UICONTROL People Who Bought These, Bought Those]&quot;op punt-gebaseerde algoritmen.
 
@@ -240,7 +240,7 @@ Als u dit algoritme selecteert, kunt u het volgende selecteren [!UICONTROL Recom
 * [!UICONTROL Last Viewed Item]
 * [!UICONTROL Most Viewed Item]
 
-Voor meer informatie, zie [ Vergelijkbaarheid van de Inhoud ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
+Voor meer informatie, zie [&#x200B; Vergelijkbaarheid van de Inhoud &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
 ## [!UICONTROL User-Based]
 
@@ -252,7 +252,7 @@ De volgende algoritmen zijn beschikbaar met het algoritme [!UICONTROL User-Based
 
 Gebruikt de geschiedenis van de bezoeker (overspannend zittingen) om de laatste *x* punten voor te stellen de bezoeker heeft bekeken, die op het aantal groeven in het ontwerp worden gebaseerd.
 
-Het [!UICONTROL Recently Viewed Items] algoritme keert resultaat specifiek op a bepaalde [ milieu ](/help/main/administrating-target/hosts.md) terug. Als twee sites tot verschillende omgevingen behoren en een bezoeker tussen de twee sites schakelt, worden op elke site alleen recent bekeken items van de desbetreffende site weergegeven. Als twee sites zich in dezelfde omgeving bevinden en een bezoeker schakelt tussen de twee sites, ziet de bezoeker dezelfde onlangs weergegeven items voor beide sites.
+Het [!UICONTROL Recently Viewed Items] algoritme keert resultaat specifiek op a bepaalde [&#x200B; milieu &#x200B;](/help/main/administrating-target/hosts.md) terug. Als twee sites tot verschillende omgevingen behoren en een bezoeker tussen de twee sites schakelt, worden op elke site alleen recent bekeken items van de desbetreffende site weergegeven. Als twee sites zich in dezelfde omgeving bevinden en een bezoeker schakelt tussen de twee sites, ziet de bezoeker dezelfde onlangs weergegeven items voor beide sites.
 
 >[!NOTE]
 >
@@ -261,7 +261,7 @@ Het [!UICONTROL Recently Viewed Items] algoritme keert resultaat specifiek op a 
 [!UICONTROL Recently Viewed Items] of [!UICONTROL Recently Viewed Media] kan worden gefilterd, zodat alleen items met een bepaald kenmerk worden weergegeven.
 
 * De criteria van [!UICONTROL Recently Viewed] zijn configureerbaar, zoals andere criteria in aanbevelingen.
-* U kunt [ inzamelingen ](/help/main/c-recommendations/c-products/collections.md) gebruiken, [ uitsluitingen ](/help/main/c-recommendations/c-products/exclusions.md), en [ opneming ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (met inbegrip van de speciale regels voor Prijs en Inventaris) op de zelfde manier zoals om het even welke andere criteria.
+* U kunt [&#x200B; inzamelingen &#x200B;](/help/main/c-recommendations/c-products/collections.md) gebruiken, [&#x200B; uitsluitingen &#x200B;](/help/main/c-recommendations/c-products/exclusions.md), en [&#x200B; opneming &#x200B;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (met inbegrip van de speciale regels voor Prijs en Inventaris) op de zelfde manier zoals om het even welke andere criteria.
 
 Mogelijke gebruiksgevallen zijn onder andere: een multinationaal bedrijf met meerdere bedrijven kan bezoekers artikelen laten zien over meerdere digitale eigenschappen. In dit geval kunt u de onlangs weergegeven items beperken tot weergave voor de desbetreffende eigenschap waar deze is weergegeven. Hiermee voorkomt u dat onlangs bekeken items worden weergegeven op de site van een andere digitale eigenschap.
 
@@ -308,7 +308,7 @@ Deze functionaliteit houdt in dat u met [!DNL Target] personalisatie kunt toevoe
 Met toevoeging van inclusieregels op [!UICONTROL Custom Criteria], verandert dit anders statische aanbevelingen in dynamische aanbevelingen gebaseerd op de belangen van een bezoeker.
 
 * De criteria van de douane zijn configureerbaar, zoals andere criteria in aanbevelingen.
-* U kunt [ inzamelingen ](/help/main/c-recommendations/c-products/collections.md) gebruiken, [ uitsluitingen ](/help/main/c-recommendations/c-products/exclusions.md), en [ opneming ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (met inbegrip van de speciale regels voor Prijs en Inventaris) op de zelfde manier zoals om het even welke andere criteria.
+* U kunt [&#x200B; inzamelingen &#x200B;](/help/main/c-recommendations/c-products/collections.md) gebruiken, [&#x200B; uitsluitingen &#x200B;](/help/main/c-recommendations/c-products/exclusions.md), en [&#x200B; opneming &#x200B;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (met inbegrip van de speciale regels voor Prijs en Inventaris) op de zelfde manier zoals om het even welke andere criteria.
 
 Mogelijke gebruiksgevallen zijn:
 

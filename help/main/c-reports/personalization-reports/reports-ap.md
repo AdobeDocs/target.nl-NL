@@ -18,13 +18,13 @@ Gespecialiseerde samenvattingsrapporten zijn beschikbaar voor gebruikers van [!U
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization] is beschikbaar als onderdeel van de [!DNL Target Premium] -oplossing. Het is niet inbegrepen met [!DNL Target Standard] zonder a [ Target Premium vergunning ](/help/main/c-intro/intro.md#premium).
+>[!UICONTROL Automated Personalization] is beschikbaar als onderdeel van de [!DNL Target Premium] -oplossing. Het is niet inbegrepen met [!DNL Target Standard] zonder a [&#x200B; Target Premium vergunning &#x200B;](/help/main/c-intro/intro.md#premium).
 
 1. Klik op **[!UICONTROL Activities]** , klik in de lijst op de gewenste [!UICONTROL Automated Personalization] -activiteit en klik vervolgens op de tab **[!UICONTROL Reports]** .
 
-   Als u vele activiteiten hebt, klik het pictogram van de Filter ( ![ pictogram van de Filter ](/help/main/assets/icons/Filter.svg)) om de lijst te filtreren door opties van [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], en [!UICONTROL Activity Source] drop-down lijsten te selecteren.
+   Als u vele activiteiten hebt, klik het pictogram van de Filter ( ![&#x200B; pictogram van de Filter &#x200B;](/help/main/assets/icons/Filter.svg)) om de lijst te filtreren door opties van [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], en [!UICONTROL Activity Source] drop-down lijsten te selecteren.
 
-1. (Facultatief) klik **[!UICONTROL Download]** ( ![ pictogram van de Download ](/help/main/assets/icons/Download.svg)) pictogram om de summiere mening (bijvoorbeeld, het vergelijken van Controle en Gericht verkeer) te downloaden zoals die door alle beschikbare succesmetriek wordt verdeeld.
+1. (Facultatief) klik **[!UICONTROL Download]** ( ![&#x200B; pictogram van de Download &#x200B;](/help/main/assets/icons/Download.svg)) pictogram om de summiere mening (bijvoorbeeld, het vergelijken van Controle en Gericht verkeer) te downloaden zoals die door alle beschikbare succesmetriek wordt verdeeld.
 
 [!UICONTROL Automated Personalization] geeft de volgende rapporten:
 
@@ -37,7 +37,7 @@ Gespecialiseerde samenvattingsrapporten zijn beschikbaar voor gebruikers van [!U
 
 In het [!UICONTROL Activity Level] -rapport worden de geaggregeerde prestaties van het gebruik van een [!UICONTROL Automated Personalization] -algoritme vergeleken met willekeurig aangeboden inhoud (besturingselement).
 
-De standaardregels voor de interpretatie van resultaten voor A/B-tests zijn nog steeds van toepassing, zoals lift, betrouwbaarheid, trending, duur, enzovoort. Voor meer informatie over het interpreteren van resultaten, zie [ Statistische berekeningen in tests A/Bn ](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+De standaardregels voor de interpretatie van resultaten voor A/B-tests zijn nog steeds van toepassing, zoals lift, betrouwbaarheid, trending, duur, enzovoort. Voor meer informatie over het interpreteren van resultaten, zie [&#x200B; Statistische berekeningen in tests A/Bn &#x200B;](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Rapport op aanbodniveau {#section_CAA6409879E349C6906E2BE8156D87A1}
 
@@ -49,19 +49,19 @@ Klik op het ervaringsalgoritme (Willekeurig bos of besturingselement) om het [!U
 >
 >Een klokpictogram geeft aan dat het algoritmemodel nog steeds bezig is met samenstellen. Een vinkje geeft aan dat het basisalgoritme is ingesteld.
 
-Aanbiedingen kunnen binnen [ worden getoond rapporterend groepen ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md), en deze rapporteringsgroepen kunnen worden doen ineenstorten en worden uitgebreid. Klik op **[!UICONTROL Control]** of **[!UICONTROL Targeted]** in de tabel om opgerolde gegevens te bekijken door groepen te melden in plaats van op aanbiedingen.
+Aanbiedingen kunnen binnen [&#x200B; worden getoond rapporterend groepen &#x200B;](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md), en deze rapporteringsgroepen kunnen worden doen ineenstorten en worden uitgebreid. Klik op **[!UICONTROL Control]** of **[!UICONTROL Targeted]** in de tabel om opgerolde gegevens te bekijken door groepen te melden in plaats van op aanbiedingen.
 
 ## Geautomatiseerde segmenten
 
 Klik op het pictogram [!UICONTROL Automated Segments] . Dit rapport laat zien hoe verschillende bezoekers anders reageren op de aanbiedingen/ervaringen in uw AP/AT-activiteit. Dit rapport laat zien hoe verschillende geautomatiseerde segmenten die door de personalisatiemodellen van Target worden gedefinieerd, op de aanbiedingen/ervaringen in de activiteit hebben gereageerd.
 
-Voor meer informatie, zie [ Geautomatiseerd rapport van Segmenten ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+Voor meer informatie, zie [&#x200B; Geautomatiseerd rapport van Segmenten &#x200B;](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Belangrijke kenmerken
 
 Klik op het pictogram [!UICONTROL Important Attributes] . Dit rapport toont aan hoe, in verschillende activiteiten, verschillende attributen (of minder) belangrijker voor zijn hoe het model besluit om te personaliseren. Dit rapport toont de belangrijkste kenmerken die het model en hun relatieve belang beïnvloedden.
 
-Voor meer informatie, zie [ Belangrijk rapport van Attributen ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
+Voor meer informatie, zie [&#x200B; Belangrijk rapport van Attributen &#x200B;](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 
 ## Veelgestelde vragen
 

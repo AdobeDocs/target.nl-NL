@@ -60,7 +60,7 @@ De volgende secties bevatten het oplossen van problemeninformatie over activitei
 ## Analyses en [!DNL Target] integratie (A4T)
 
 * [Analyse van problemen en doelintegratie](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-* &quot;Office Hours&quot;-video, een initiatief van het Adobe Customer Care-team. Zie [ Adobe Analytics als Rapporterende Source voor Adobe Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+* &quot;Office Hours&quot;-video, een initiatief van het Adobe Customer Care-team. Zie [&#x200B; Adobe Analytics als Rapporterende Source voor Adobe Target (A4T) &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 * A4T Veelgestelde vragen
    * [Aanvankelijke levering - Veelgestelde vragen A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
    * [Instellingen voor activiteiten - Veelgestelde vragen voor A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
@@ -96,7 +96,7 @@ De volgende secties bevatten het oplossen van problemeninformatie over activitei
 
 ## Globale mbox
 
-* [ Globale mbox ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=nl-NL)
+* [&#x200B; Globale mbox &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=nl-NL)
 
 ## Gastheren/omgevingen
 
@@ -108,23 +108,23 @@ De volgende secties bevatten het oplossen van problemeninformatie over het uitvo
 
 ### Algemene uitvoering
 
-* [ Ondersteunde browsers ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=nl-NL)
-* [ Gebruikend op wolk-gebaseerde instanties met Doel ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html?lang=nl-NL)
+* [&#x200B; Ondersteunde browsers &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=nl-NL)
+* [&#x200B; Gebruikend op wolk-gebaseerde instanties met Doel &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html?lang=nl-NL)
 
 ### Algemene vakken
 
-* [ Globale mbox Veelgestelde vragen ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=nl-NL)
+* [&#x200B; Globale mbox Veelgestelde vragen &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=nl-NL)
 
 ### at.js
 
-* [ at.js FAQ ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=nl-NL)
-* [ het Zuiveren bij.js die debugger van Adobe Experience Cloud gebruiken ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=nl-NL)
-* [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL)
+* [&#x200B; at.js FAQ &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=nl-NL)
+* [&#x200B; het Zuiveren bij.js die debugger van Adobe Experience Cloud gebruiken &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=nl-NL)
+* [&#x200B; at.js versiedetails &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL)
 * &quot;Office Hours&quot;-video, een initiatief van het Adobe Customer Care-team.
 
 ## Mobiele apps
 
-* [ Doel voor mobiele apps Veelgestelde vragen ](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=nl-NL)
+* [&#x200B; Doel voor mobiele apps Veelgestelde vragen &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=nl-NL)
 
 ## Rapportage
 
@@ -133,11 +133,11 @@ De volgende secties bevatten het oplossen van problemeninformatie over het uitvo
 
 ## SEO (Search Engine Optimization)
 
-* [ Van de Optimalisering van de Motor van het Onderzoek (SEO) vriendschappelijke het testen ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=nl-NL)
+* [&#x200B; Van de Optimalisering van de Motor van het Onderzoek (SEO) vriendschappelijke het testen &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=nl-NL)
 
 ## Beveiliging
 
-* [ de richtlijnen van het Beleid van de Veiligheid van de Inhoud (CSP) ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=nl-NL)
+* [&#x200B; de richtlijnen van het Beleid van de Veiligheid van de Inhoud (CSP) &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=nl-NL)
 
 ## Systeemstatus
 
@@ -158,4 +158,4 @@ De volgende secties bevatten het oplossen van problemeninformatie over het uitvo
 * [Aanbevolen werkwijzen en beperkingen van Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [Wijzigingen](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
 * [De extensie Visuele bewerkingshulp](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
-* &quot;Office Hours&quot;-video, een initiatief van het Adobe Customer Care-team. Zie [ Visuele Composer van de Ervaring (VEC) ](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md).
+* &quot;Office Hours&quot;-video, een initiatief van het Adobe Customer Care-team. Zie [&#x200B; Visuele Composer van de Ervaring (VEC) &#x200B;](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md).

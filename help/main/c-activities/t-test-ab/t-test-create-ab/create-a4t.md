@@ -15,7 +15,7 @@ ht-degree: 0%
 
 U kunt een activiteit in [!DNL Adobe Target] vormen om [!DNL Adobe Analytics] als rapporteringsbron (A4T) te gebruiken.
 
-Voor gedetailleerde informatie over vestiging [!DNL Analytics] als gegevensbron voor [!DNL Target], zie [ Adobe Analytics als Rapporterende Source voor Adobe Target ](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+Voor gedetailleerde informatie over vestiging [!DNL Analytics] als gegevensbron voor [!DNL Target], zie [&#x200B; Adobe Analytics als Rapporterende Source voor Adobe Target &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
 Voordat u een activiteit instelt die [!DNL Analytics] als bron voor rapportage gebruikt, stelt u het doel voor de activiteit in, zoals het verbeteren van de omzet per bezoeker (RPV) of het verhogen van de klikt op uw winkelwagentje. Kies een uiteindelijke succesmaatstaf voor de activiteit. Hoewel u op elk moment in [!DNL Analytics] aanvullende metriek kunt selecteren, moet u toch een bepaalde metrische waarde opgeven die deze test waarschijnlijk beïnvloedt.
 
@@ -25,7 +25,7 @@ Voordat u een activiteit instelt die [!DNL Analytics] als bron voor rapportage g
 
 Wanneer u [!DNL Analytics] selecteert als de rapportbron voor [!DNL Target] , selecteert u een [!DNL Analytics] -rapportsuite die [!DNL Target] activiteitsgegevens ontvangt. Als u wel een rapportbron wilt opgeven, kiest u eerst een van de [!DNL Analytics] -bedrijven waaraan uw account is gekoppeld en selecteert u vervolgens de juiste rapportsuite voor de activiteit. Alleen rapportsuites die zijn ingericht om verbinding te maken met [!DNL Adobe Target] zijn beschikbaar voor selectie. Als u de rapportsuite die u verwacht niet ziet, meldt u zich eerst af en meldt u zich opnieuw aan bij de [!DNL Adobe Experience Cloud] om het opnieuw te proberen. Als de rapportsuite nog steeds ontbreekt in de lijst, neemt u contact op met de klantenservice.
 
-[!UICONTROL Analytics for Target] (A4T) vereist een volgende server om resultaten correct te melden. Er wordt een standaard traceringsserver weergegeven in het veld [!UICONTROL Tracking Server] . Als u meer dan één volgende server gebruikt, zorg ervoor dat u de correcte het volgen server in dit gebied omvat. Zie [ Gebruikend een Analytics die Server ](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) volgen voor meer informatie.
+[!UICONTROL Analytics for Target] (A4T) vereist een volgende server om resultaten correct te melden. Er wordt een standaard traceringsserver weergegeven in het veld [!UICONTROL Tracking Server] . Als u meer dan één volgende server gebruikt, zorg ervoor dat u de correcte het volgen server in dit gebied omvat. Zie [&#x200B; Gebruikend een Analytics die Server &#x200B;](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) volgen voor meer informatie.
 
 >[!NOTE]
 >

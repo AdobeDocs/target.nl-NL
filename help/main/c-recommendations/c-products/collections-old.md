@@ -20,7 +20,7 @@ Een verzameling is doorgaans een set van vergelijkbare of verwante items, zoals 
 
 Gebruik verzamelingen om uw producten in logische emmers te ordenen. Als sommige items bijvoorbeeld beschikbaar zijn in een bepaalde regio, maar niet in een andere regio, kunt u een verzameling maken waarin items worden uitgesloten die niet beschikbaar zijn in de regio van de bezoeker. U kunt ook verzamelingen gebruiken om seizoensgebonden items te ordenen, of andere organisatorische parameters die van toepassing zijn op uw bedrijf.
 
-De [ reserveaanbevelingen ](/help/main/c-recommendations/c-algorithms/backup-recs.md) die voor elke criteria binnen de aanbeveling worden geproduceerd gebruiken ook deze inzameling, zodat slechts de punten in de inzameling zijn inbegrepen in de reserveaanbeveling. Met inzamelingen, kunt u zeker zijn dat slechts de producten die steek houden om in een plaats te tonen worden getoond.
+De [&#x200B; reserveaanbevelingen &#x200B;](/help/main/c-recommendations/c-algorithms/backup-recs.md) die voor elke criteria binnen de aanbeveling worden geproduceerd gebruiken ook deze inzameling, zodat slechts de punten in de inzameling zijn inbegrepen in de reserveaanbeveling. Met inzamelingen, kunt u zeker zijn dat slechts de producten die steek houden om in een plaats te tonen worden getoond.
 
 De inzamelingen worden herbouwd of bijgewerkt telkens als elke criteria loopt.
 
@@ -40,19 +40,19 @@ Maak een verzameling om de producten of inhoud te ordenen die u wilt weergeven i
 
 1. Klik op **[!UICONTROL Recommendations]** > **[!UICONTROL Collections]** om de lijst met bestaande verzamelingen weer te geven.
 
-   ![ lijst van Inzamelingen ](assets/collections_list.png)
+   ![&#x200B; lijst van Inzamelingen &#x200B;](assets/collections_list.png)
 
    Op de pagina [!UICONTROL Collections] wordt een lijst met uw bestaande verzamelingen weergegeven. U maakt nieuwe verzamelingen door op de knop [!UICONTROL Create Collection] te klikken. U kunt ook bestaande verzamelingen bewerken, kopiëren en verwijderen door de muisaanwijzer boven de gewenste verzameling te plaatsen en op het gewenste pictogram te klikken.
 
-   ![ pictogrammen van de Bedekking: geef uit, kopieer, en schrap ](/help/main/c-recommendations/c-products/assets/hover-icons.png)
+   ![&#x200B; pictogrammen van de Bedekking: geef uit, kopieer, en schrap &#x200B;](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Het &quot;Aantal Punten&quot;voor elke inzameling op de [!UICONTROL Collections] lijstmening wordt gemeld is het aantal producten die de regels voor die inzameling aanpassen binnen de gevormde standaardgroep van Aanbevelingen [&#128279;](/help/main/administrating-target/hosts.md) (milieu). Zie [ Montages ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} om de standaardgastheergroep te veranderen.
+   Het &quot;Aantal Punten&quot;voor elke inzameling op de [!UICONTROL Collections] lijstmening wordt gemeld is het aantal producten die de regels voor die inzameling aanpassen binnen de gevormde standaardgroep van Aanbevelingen [&#128279;](/help/main/administrating-target/hosts.md) (milieu). Zie [&#x200B; Montages &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} om de standaardgastheergroep te veranderen.
 
 1. Klik op **[!UICONTROL Create Collection]**.
 
 1. (Voorwaardelijk) Kies een omgeving van het filter **[!UICONTROL Environment]** wanneer u een verzameling maakt (of bijwerkt) om een voorvertoning van de inhoud van de verzameling in die omgeving weer te geven. Standaard worden de resultaten van de standaardhostgroep weergegeven.
 
-   ![ creeer Inzameling ](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
+   ![&#x200B; creeer Inzameling &#x200B;](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
 
 1. Typ een **[!UICONTROL Name]** voor de verzameling.
 
@@ -68,9 +68,9 @@ Maak een verzameling om de producten of inhoud te ordenen die u wilt weergeven i
 
 ## Een verzameling maken met Geavanceerd zoeken
 
-U kunt inzamelingen tot stand brengen gebruikend Geavanceerd Onderzoek op de [ pagina van het Onderzoek van de Catalogus ](/help/main/c-recommendations/c-products/catalog-search.md#save-as) ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+U kunt inzamelingen tot stand brengen gebruikend Geavanceerd Onderzoek op de [&#x200B; pagina van het Onderzoek van de Catalogus &#x200B;](/help/main/c-recommendations/c-products/catalog-search.md#save-as) ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
-![ sparen als dialoog ](/help/main/c-recommendations/c-products/assets/save-as.png)
+![&#x200B; sparen als dialoog &#x200B;](/help/main/c-recommendations/c-products/assets/save-as.png)
 
 Nadat u een zoekopdracht hebt gemaakt met &#39;id > contains&#39;, kunt u bijvoorbeeld op [!UICONTROL Save As] > [!UICONTROL Collection] klikken.
 
@@ -82,7 +82,7 @@ Nadat u een zoekopdracht hebt gemaakt met &#39;id > contains&#39;, kunt u bijvoo
 
 Houd de muisaanwijzer boven de gewenste verzameling in de lijst en klik op het juiste pictogram: bewerken, kopiëren of verwijderen.
 
-![ pictogrammen van de Bedekking voor een inzameling ](/help/main/c-recommendations/c-products/assets/hover-collections.png)
+![&#x200B; pictogrammen van de Bedekking voor een inzameling &#x200B;](/help/main/c-recommendations/c-products/assets/hover-collections.png)
 
 U kunt een bestaande verzameling kopiëren om een dubbele verzameling te maken die u vervolgens kunt wijzigen. Hierdoor kunt u een vergelijkbare uitsluiting maken met minder moeite.
 
@@ -92,17 +92,17 @@ Houd er rekening mee dat verzamelingen beschikbaar zijn voor de gehele account. 
 
 1. Maak een verzameling met een van de bovenstaande methoden.
 
-1. Klik **[!UICONTROL Activities]** en [ creeer een nieuwe activiteit van Aanbevelingen ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) of geef een bestaande activiteit uit.
+1. Klik **[!UICONTROL Activities]** en [&#x200B; creeer een nieuwe activiteit van Aanbevelingen &#x200B;](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) of geef een bestaande activiteit uit.
 
 1. Nadat u criteria en een ontwerp hebt geselecteerd, wordt de pagina [!UICONTROL Options] weergegeven op de locatie waar u de gewenste verzameling hebt geselecteerd.
 
-   ![ kies inzamelingsoptie ](/help/main/c-recommendations/c-products/assets/choose-collection.png)
+   ![&#x200B; kies inzamelingsoptie &#x200B;](/help/main/c-recommendations/c-products/assets/choose-collection.png)
 
 1. (Voorwaardelijk) Als u een bestaande verzamelingsinstelling wilt wijzigen, klikt u op de pagina **[!UICONTROL Experiences]** (stap 2 van de geleide workflow met drie delen) op de locatie waar u de aanbevelingen hebt geplaatst, klikt u op **[!UICONTROL Change Collection]** en selecteert u vervolgens de gewenste verzameling.
 
-   ![ de optie van de Inzameling van de Verandering ](/help/main/c-recommendations/c-products/assets/change-collection.png)
+   ![&#x200B; de optie van de Inzameling van de Verandering &#x200B;](/help/main/c-recommendations/c-products/assets/change-collection.png)
 
-## De video van de opleiding: Creeer inzamelingen en uitsluitingen in Aanbevelingen (7 :05) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: Creeer inzamelingen en uitsluitingen in Aanbevelingen (7 :05) ![&#x200B; badge van het Leerprogramma &#x200B;](/help/main/assets/tutorial.png)
 
 Deze video bevat de volgende informatie:
 

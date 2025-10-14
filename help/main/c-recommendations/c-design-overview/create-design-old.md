@@ -27,11 +27,11 @@ Houd rekening met de volgende informatie wanneer u met ontwerpen werkt:
 
 Deze illustratie toont het standaard 1 x 4 ontwerp:
 
-![ 1 x 4 standaardontwerp ](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
+![&#x200B; 1 x 4 standaardontwerp &#x200B;](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
 
 In deze afbeelding ziet u een aangepast ontwerp:
 
-![ Het ontwerp van de Douane ](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
+![&#x200B; Het ontwerp van de Douane &#x200B;](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
 
 U kunt een ontwerp tijdens het activiteit-creatie proces van binnen Visual Experience Composer (VEC) of van de ontwerpbibliotheek buiten de activiteitenverwezenlijking tot stand brengen. In de volgende secties wordt aangenomen dat u ontwerpen maakt vanuit de bibliotheek, maar dat de stappen op elkaar lijken.
 
@@ -43,15 +43,15 @@ U kunt een ontwerp tot stand brengen dat op een standaardontwerp wordt gebaseerd
 
 1. Klik op **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** om de [!UICONTROL Designs] -bibliotheek weer te geven.
 
-   ![ de bibliotheek van Ontwerpen ](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
+   ![&#x200B; de bibliotheek van Ontwerpen &#x200B;](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
 
 1. Plaats de muis boven de kaart voor het ontwerp dat u wilt maken en klik vervolgens op het pictogram **[!UICONTROL Copy]** .
 
-   ![ beeld Card_CopyDesign ](assets/Card_CopyDesign.png)
+   ![&#x200B; beeld Card_CopyDesign &#x200B;](assets/Card_CopyDesign.png)
 
    Het dialoogvenster [!UICONTROL Create Design] wordt weergegeven.
 
-   ![ createDesign beeld ](assets/createDesign.png)
+   ![&#x200B; createDesign beeld &#x200B;](assets/createDesign.png)
 
 1. Voeg in het deelvenster **[!UICONTROL Information]** een **[!UICONTROL Content Name]** en een optionele voorvertoning toe die u op de ontwerpkaart wilt weergeven.
 
@@ -59,7 +59,7 @@ U kunt een ontwerp tot stand brengen dat op een standaardontwerp wordt gebaseerd
 
 1. (Voorwaardelijk) Bewerk het ontwerp **[!UICONTROL Code]** naar wens.
 
-   Bij het ontwerpen van aanbevelingen wordt de ontwerptaal open-source [!DNL Velocity] gebruikt. De informatie over [!DNL Velocity] kan in [ https://velocity.apache.org ](https://velocity.apache.org) worden gevonden en in [ past een ontwerp aan gebruikend  [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
+   Bij het ontwerpen van aanbevelingen wordt de ontwerptaal open-source [!DNL Velocity] gebruikt. De informatie over [!DNL Velocity] kan in [&#x200B; https://velocity.apache.org &#x200B;](https://velocity.apache.org) worden gevonden en in [&#x200B; past een ontwerp aan gebruikend  [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
    Een ontwerp kan HTML of niet-HTML zijn. HTML-ontwerpen worden standaard voorzien van een tag `<div>` , zodat muisklik kan worden gevolgd in een webomgeving. Niet-HTML-ontwerpen zijn bedoeld voor omgevingen die geen webomgeving zijn waar klik-tracking niet mogelijk is. Sleep de schakeloptie [!UICONTROL HTML Design] naar de uitstand om niet-HTML-code te gebruiken.
 
@@ -91,7 +91,7 @@ U kunt een standaardontwerp niet bewerken of kopiëren. U kunt alleen standaardo
 
 Houd de muisaanwijzer boven het gewenste ontwerp in de [!UICONTROL Design] -bibliotheek en klik vervolgens op het juiste pictogram: bewerken, kopiëren of verwijderen.
 
-![ pictogrammen van de Bedekking voor een ontwerp ](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
+![&#x200B; pictogrammen van de Bedekking voor een ontwerp &#x200B;](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
 
 U kunt een bestaand ontwerp kopiëren om een dubbel ontwerp tot stand te brengen dat u dan kunt wijzigen. Met dit proces kunt u een vergelijkbaar ontwerp maken met minder moeite.
 
@@ -105,7 +105,7 @@ In het volgende voorbeeld ziet u hoe JSON-reacties kunnen worden geretourneerd w
 
 1. Zorg ervoor dat de optie &quot;HTML Design&quot; is uitgeschakeld:
 
-   ![ html_design_toggle beeld ](assets/html_design_toggle.png)
+   ![&#x200B; html_design_toggle beeld &#x200B;](assets/html_design_toggle.png)
 
 1. De volgende code is een voorbeeld van wat u in uw ontwerp kunt plakken:
 
@@ -170,7 +170,7 @@ In het volgende voorbeeld ziet u hoe JSON-reacties kunnen worden geretourneerd w
 
 Nadat het algoritme is uitgevoerd en u resultaten hebt, moet uw reactie er ongeveer als volgt uitzien:
 
-![ json_recommended beeld ](assets/json_recommendation.png){width="575px"}
+![&#x200B; json_recommended beeld &#x200B;](assets/json_recommendation.png){width="575px"}
 
 ## Extra tips en trucs voor JSON-objecten {#section_C305673C68944749969DB239E3221DC2}
 
@@ -320,7 +320,7 @@ U kunt ook aanvullende informatie in de reactie verzenden. Het volgende codedoss
     }  
 ```
 
-## De video van de opleiding: Creeer douaneontwerpen in Aanbevelingen (3 :20) ![ de badge van het Overzicht ](/help/main/assets/overview.png)
+## De video van de opleiding: Creeer douaneontwerpen in Aanbevelingen (3 :20) ![&#x200B; de badge van het Overzicht &#x200B;](/help/main/assets/overview.png)
 
 Deze video bevat de volgende informatie:
 

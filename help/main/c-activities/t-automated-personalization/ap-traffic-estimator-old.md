@@ -26,11 +26,11 @@ Vergeet niet dat [!DNL Target] op willekeurige wijze ervaringen oplevert totdat 
 
 1. Klik op het pictogram [!UICONTROL Experiences] op de pagina [!UICONTROL Visual Experience Composer] van de [!UICONTROL Automated Personalization] in een **[!UICONTROL Traffic]** -activiteit.
 
-   ![ pictogram van het Verkeer ](/help/main/c-activities/t-automated-personalization/assets/icon-traffic.png)
+   ![&#x200B; pictogram van het Verkeer &#x200B;](/help/main/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
    De lus [!UICONTROL Traffic Estimator] wordt geopend. U kunt nogmaals op **[!UICONTROL Traffic]** klikken om de [!UICONTROL Traffic Estimator] te verbergen.
 
-   ![ het gebruikersinterface van de schatter van het Verkeer ](assets/ap_est.png)
+   ![&#x200B; het gebruikersinterface van de schatter van het Verkeer &#x200B;](assets/ap_est.png)
 
 1. Geef de gebruikelijke conversiesnelheid (of de conversiesnelheid die u van deze activiteit verwacht), de geschatte activiteitsimpressies per dag en de testduur op.
 
@@ -45,19 +45,19 @@ Vergeet niet dat [!DNL Target] op willekeurige wijze ervaringen oplevert totdat 
 
    Boven aan de [!UICONTROL Traffic Estimator] worden de ingevoerde waarden berekend en worden de resultaten weergegeven.
 
-   ![ Schatting van het Verkeer met getoonde waarden en resultaten ](assets/ap_est_no.png)
+   ![&#x200B; Schatting van het Verkeer met getoonde waarden en resultaten &#x200B;](assets/ap_est_no.png)
 
    Terwijl u de getallen wijzigt, verandert de schatting. Als u bijvoorbeeld een groot aantal combinaties test en de conversiesnelheid en -indrukkingen te laag zijn, geeft de [!UICONTROL Traffic Estimator] aan hoe lang de test moet duren om te slagen. Als uw verkeer laag is, kan [!UICONTROL Traffic Estimator] een lager aantal aanbiedingscombinaties voorstellen zodat u de test het gewenste aantal dagen kunt uitvoeren.
 
    Als u niet voldoende verkeer hebt, overweeg het volgende:
 
-   * Overweeg het gebruiken van een [ auto-Doel ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) activiteit in plaats van [!UICONTROL Automated Personalization] om ervaringen met verscheidene aanbiedingsveranderingen in één ervaringsvariatie tot stand te brengen.
+   * Overweeg het gebruiken van een [&#x200B; auto-Doel &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) activiteit in plaats van [!UICONTROL Automated Personalization] om ervaringen met verscheidene aanbiedingsveranderingen in één ervaringsvariatie tot stand te brengen.
    * Verminder het aantal aanbiedingscombinaties binnen uw [!UICONTROL Automated Personalization] activiteit.
    * Verhoog de duur van de activiteit.
 
    Pas de getallen aan totdat [!UICONTROL Traffic Estimator] aangeeft dat u voldoende verkeer hebt en stel vervolgens de test dienovereenkomstig in.
 
-   ![ die de schatter van het Verkeer voldoende verkeersbericht ](assets/ap_est_yes.png) toont
+   ![&#x200B; die de schatter van het Verkeer voldoende verkeersbericht &#x200B;](assets/ap_est_yes.png) toont
 
    Als het verkeer voldoende is, wordt op het pictogram [!UICONTROL Traffic] een groene controle weergegeven. Als dit niet voldoende is, wordt een rood waarschuwingslabel weergegeven.
 

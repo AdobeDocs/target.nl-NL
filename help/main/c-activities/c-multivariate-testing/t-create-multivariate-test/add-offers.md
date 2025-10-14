@@ -21,7 +21,7 @@ Voor meer informatie over het gebruiken van VEC om aanbiedingen tot stand te bre
 >
 >U kunt op **[!UICONTROL Expand Selection]** klikken wanneer u objecten op de pagina selecteert om naast het oorspronkelijk geselecteerde element ook het bovenliggende element te selecteren. Wanneer u een bovenliggend element selecteert, worden alle onderliggende elementen van dat element automatisch geselecteerd. U kunt de selectie meerdere keren uitbreiden.
 >
->U kunt de [ weg van het DOM ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) ook gebruiken om elementen te navigeren.
+>U kunt de [&#x200B; weg van het DOM &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) ook gebruiken om elementen te navigeren.
 
 ## Afbeeldingsaanbiedingen {#section_A48333211DB149ED926AE467D0032914}
 
@@ -52,7 +52,7 @@ Elke HTML-aanbieding wordt een aparte ervaring op die locatie.
 * Neem niet meer locaties op dan nodig is voor de test. Elke ervaring die u in de test opneemt, verhoogt aanzienlijk de hoeveelheid verkeer en de tijd die nodig is om acceptabele resultaten te bereiken. Als u bijvoorbeeld pagina-elementen hebt met elk drie aanbiedingen, zijn er negen mogelijke combinaties (3x3). Drie elementen, waarbij twee mogelijke aanbiedingen bevatten en één twee aanbiedingen, bieden 18 opties (3x3x2). De aantallen stijgen substantieel met elk extra element en aanbod.
 * Wanneer het creëren van multivariate tests, kunt u meer dan 10 percenten van ervaringen van de test uitsluiten, op voorwaarde dat u de waarschuwing erkent dat u dan off-line rapportering voor analyse moet gebruiken.
 * Gebruik de voorvertoningsfuncties om ongewenste combinaties van inhoud te voorkomen. Je hebt bijvoorbeeld twee afbeeldingen die verschillende kortingen bieden op hetzelfde object of dezelfde service. Het weergeven van beide afbeeldingen op dezelfde pagina is onlogisch en kan tot verwarring leiden.
-* Gebruik de [ schatter van het Verkeer ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) om ervoor te zorgen dat uw test voor de hoeveelheid verkeer wordt ontworpen uw pagina ontvangt. Zorg ervoor dat de schatter van het Verkeer uw testconfiguratie het groene licht geeft zodat kunt u de resultaten krijgen u wenst.
+* Gebruik de [&#x200B; schatter van het Verkeer &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) om ervoor te zorgen dat uw test voor de hoeveelheid verkeer wordt ontworpen uw pagina ontvangt. Zorg ervoor dat de schatter van het Verkeer uw testconfiguratie het groene licht geeft zodat kunt u de resultaten krijgen u wenst.
 * U moet ten minste drie elementen hebben om te testen. Als u minder hebt, stel een reeks tests A/B in werking.
 * De alternatieven van elk element moeten aanzienlijk van elkaar verschillen.
 * Hoewel niet vereist, is het een goede praktijk voor elk element om het zelfde aantal alternatieven te hebben.

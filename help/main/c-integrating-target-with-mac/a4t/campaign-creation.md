@@ -27,11 +27,11 @@ Het maken van een [!DNL Target] -activiteit die [!DNL Analytics] als rapportageb
    >
    >Een activiteitsnaam mag niet het teken &quot;%&quot; bevatten als [!DNL Analytics] wordt gebruikt als rapportagebron.
    >
-   >Gebruik niet de zelfde activiteitennaam voor twee activiteiten van afzonderlijke [ werkruimten ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) die A4T het melden gebruiken.
+   >Gebruik niet de zelfde activiteitennaam voor twee activiteiten van afzonderlijke [&#x200B; werkruimten &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) die A4T het melden gebruiken.
 
 1. Selecteer het type activiteit en begin met het instellen van de activiteit.
 
-   Als u [!UICONTROL Auto-Allocate] of [!UICONTROL Auto-Target] activiteit wilt tot stand brengen, zie [ steun A4T voor auto-Toewijzing en Auto-Doel activiteiten ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) voor meer informatie.
+   Als u [!UICONTROL Auto-Allocate] of [!UICONTROL Auto-Target] activiteit wilt tot stand brengen, zie [&#x200B; steun A4T voor auto-Toewijzing en Auto-Doel activiteiten &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) voor meer informatie.
 
 1. Wanneer u het **[!UICONTROL Settings]** gedeelte van de stroom van de activiteitenverwezenlijking krijgt, kies **[!UICONTROL Adobe Analytics]** en specificeer uw bedrijf.
 1. Selecteer een rapportsuite.
@@ -48,11 +48,11 @@ Het maken van een [!DNL Target] -activiteit die [!DNL Analytics] als rapportageb
 
      Alleen rapportsuites die zijn ingericht om verbinding te maken met [!DNL Target] zijn beschikbaar voor selectie. Als u de rapportsuites niet ziet die u verwacht, probeer eerst het programma openen en opnieuw binnen aan [!DNL Adobe Experience Cloud] proberen opnieuw te proberen.
 
-   Als één of meerdere rapportsuites nog van de lijst ontbreken, gelieve [ de Zorg van de Klant van het contact ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+   Als één of meerdere rapportsuites nog van de lijst ontbreken, gelieve [&#x200B; de Zorg van de Klant van het contact &#x200B;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
 1. Geef de trackingserver op.
 
-   Zie [ Gebruikend een Analytics die Server ](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) volgen.
+   Zie [&#x200B; Gebruikend een Analytics die Server &#x200B;](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) volgen.
 
 1. Definieer de ervaring.
 1. Geef het doel van de activiteit op.
@@ -75,4 +75,4 @@ Het maken van een [!DNL Target] -activiteit die [!DNL Analytics] als rapportageb
 
 ## A4T- en Auto-Allocate- en Auto-Target-activiteiten
 
-Voor meer informatie, zie [ steun A4T voor auto-Wijs en auto-Doel activiteiten ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) toe.
+Voor meer informatie, zie [&#x200B; steun A4T voor auto-Wijs en auto-Doel activiteiten &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) toe.

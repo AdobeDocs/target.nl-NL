@@ -29,7 +29,7 @@ U kunt bezoekers aanwijzen met [!DNL Adobe Target] die een bepaald besturingssys
 
 In de volgende afbeelding ziet u een publiek dat op een Macintosh-besturingssysteem is gericht.
 
-![ target_os beeld ](assets/target_os.png)
+![&#x200B; target_os beeld &#x200B;](assets/target_os.png)
 
 ## Trainingsvideo: Soorten publiek maken
 

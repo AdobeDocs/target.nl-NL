@@ -20,7 +20,7 @@ In de volgende secties worden de beschikbare instellingen voor een [!UICONTROL R
 
 ## Naam
 
-Klik het Meer pictogram van Acties ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallListVert.svg)), dan klik **[!UICONTROL Rename]** om een beschrijvende naam te verstrekken die u en uw team zal helpen de activiteit identificeren.
+Klik het Meer pictogram van Acties ( ![&#x200B; Meer pictogram van Acties &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)), dan klik **[!UICONTROL Rename]** om een beschrijvende naam te verstrekken die u en uw team zal helpen de activiteit identificeren.
 
 De volgende tekens zijn niet toegestaan in een naam van een activiteit:
 
@@ -59,15 +59,15 @@ De activiteit kan beginnen wanneer geactiveerd, of u kunt een specifieke datum e
    * [!DNL Adobe Analytics]
    * [!DNL Adobe Customer Journey Analytics]
 
-  Als een rapporteringsoplossing in uw [ rekeningsmontages ](/help/main/administrating-target/reporting.md) wordt gespecificeerd, wordt de gespecificeerde oplossing gebruikt en dit het plaatsen is niet zichtbaar.
+  Als een rapporteringsoplossing in uw [&#x200B; rekeningsmontages &#x200B;](/help/main/administrating-target/reporting.md) wordt gespecificeerd, wordt de gespecificeerde oplossing gebruikt en dit het plaatsen is niet zichtbaar.
 
   U kunt de rapportbron niet wijzigen nadat de activiteit live gaat om rapporten consistent te houden.
 
   **[!DNL Adobe Analytics]**: Zie [[!DNL Adobe Analytics]  als rapporteringsbron voor  [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) om over de verschillen tussen de het melden oplossingen en de voordelen van elk te leren.
 
-  Wanneer u [!DNL Analytics] selecteert als de rapportbron voor [!DNL Target] (A4T), selecteert u een [!DNL Analytics] -rapportsuite die [!DNL Target] activiteitsgegevens ontvangt. Hiervoor kiest u eerst een van de [!DNL Analytics] -bedrijven waaraan uw account is gekoppeld en selecteert u vervolgens de juiste rapportsuite voor de activiteit. Alleen rapportsuites die zijn ingericht om verbinding te maken met [!DNL Target] zijn beschikbaar voor selectie. Als u de rapportsuite die u verwacht niet ziet, meldt u zich eerst af en meldt u zich opnieuw aan bij de [!DNL Adobe Experience Cloud] om het opnieuw te proberen. Als de rapportreeks nog van de lijst mist, contacteer [ de Zorg van de Klant ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+  Wanneer u [!DNL Analytics] selecteert als de rapportbron voor [!DNL Target] (A4T), selecteert u een [!DNL Analytics] -rapportsuite die [!DNL Target] activiteitsgegevens ontvangt. Hiervoor kiest u eerst een van de [!DNL Analytics] -bedrijven waaraan uw account is gekoppeld en selecteert u vervolgens de juiste rapportsuite voor de activiteit. Alleen rapportsuites die zijn ingericht om verbinding te maken met [!DNL Target] zijn beschikbaar voor selectie. Als u de rapportsuite die u verwacht niet ziet, meldt u zich eerst af en meldt u zich opnieuw aan bij de [!DNL Adobe Experience Cloud] om het opnieuw te proberen. Als de rapportreeks nog van de lijst mist, contacteer [&#x200B; de Zorg van de Klant &#x200B;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-  [!DNL Analytics for Target] (A4T) vereist een volgende server om resultaten correct te melden. Er wordt een standaard traceringsserver weergegeven in het veld [!UICONTROL Tracking Server] . Als u meer dan één volgende server gebruikt, zorg ervoor u de correcte het volgen server in dit gebied omvat. Zie [ Gebruikend een Analytics die Server ](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) volgen voor meer informatie.
+  [!DNL Analytics for Target] (A4T) vereist een volgende server om resultaten correct te melden. Er wordt een standaard traceringsserver weergegeven in het veld [!UICONTROL Tracking Server] . Als u meer dan één volgende server gebruikt, zorg ervoor u de correcte het volgen server in dit gebied omvat. Zie [&#x200B; Gebruikend een Analytics die Server &#x200B;](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) volgen voor meer informatie.
 
   **[!DNL Adobe Customer Journey Analytics]**: Zie [[!DNL Target]  rapporterend in  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) voor meer informatie over de integratie tussen [!DNL Adobe Customer Journey Analytics] en [!DNL Target].
 
@@ -79,7 +79,7 @@ De activiteit kan beginnen wanneer geactiveerd, of u kunt een specifieke datum e
 
 Voer opmerkingen in over je activiteiten.
 
-## De video van de opleiding: De Montages van de activiteit (3 :02) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: De Montages van de activiteit (3 :02) ![&#x200B; badge van het Leerprogramma &#x200B;](/help/main/assets/tutorial.png)
 
 Deze video bevat informatie over instellingen voor activiteit.
 

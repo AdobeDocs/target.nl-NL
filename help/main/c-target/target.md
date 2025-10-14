@@ -27,7 +27,7 @@ Wanneer een bezoeker op een pagina landt waarop u een activiteit hebt ingesteld,
 
 Als de bezoeker wordt geïdentificeerd als deel van een doelpubliek, bepaalt [!DNL Target] welke ervaring aan vertoning, op de criteria wordt gebaseerd die werden bepaald toen de activiteit werd gecreeerd.
 
-## De Video van de opleiding: Activiteit richtend (2 :13) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De Video van de opleiding: Activiteit richtend (2 :13) ![&#x200B; badge van het Leerprogramma &#x200B;](/help/main/assets/tutorial.png)
 
 Deze video bevat informatie over het instellen van doelgroepen en doelgroepen.
 

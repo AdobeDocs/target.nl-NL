@@ -19,7 +19,7 @@ Gebruik [!UICONTROL Experience Fragments] (XF&#39;s) die zijn gemaakt in [!DNL A
 
 Houd rekening met het volgende terwijl u met AEM [!UICONTROL Experience Fragments] werkt in [!DNL Target] :
 
-* Deze functie vereist dat u een [!DNL Adobe Experience Manager] (AEM)-klant bent. Voor meer informatie, zie [ Vereisten ](#section_AE6F0971E1574B3AA324003599B96E5A) hieronder.
+* Deze functie vereist dat u een [!DNL Adobe Experience Manager] (AEM)-klant bent. Voor meer informatie, zie [&#x200B; Vereisten &#x200B;](#section_AE6F0971E1574B3AA324003599B96E5A) hieronder.
 * [!UICONTROL Experience Fragments] en [!UICONTROL Content Fragments] zijn beschikbaar voor de volgende typen activiteiten:
 
    * [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md)
@@ -33,9 +33,9 @@ Houd rekening met het volgende terwijl u met AEM [!UICONTROL Experience Fragment
    * [[!UICONTROL Multivariate Test] (MV)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
-* U kunt [!UICONTROL Experience Fragments] in [!DNL Target] activiteiten verbruiken gebruikend [ Visuele Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) en [ op vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md).
+* U kunt [!UICONTROL Experience Fragments] in [!DNL Target] activiteiten verbruiken gebruikend [&#x200B; Visuele Composer van de Ervaring &#x200B;](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) en [&#x200B; op vorm-Gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md).
 
-Meer over AEM [!UICONTROL Experience Fragments] en [!UICONTROL Content Fragments] leren, zie [ AEM [!UICONTROL Experience Fragments] en het overzicht van de Fragmenten van de Inhoud ](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
+Meer over AEM [!UICONTROL Experience Fragments] en [!UICONTROL Content Fragments] leren, zie [&#x200B; AEM [!UICONTROL Experience Fragments] en het overzicht van de Fragmenten van de Inhoud &#x200B;](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
 
 ## Vereisten {#requirements}
 
@@ -48,7 +48,7 @@ U moet de [!UICONTROL Experience Fragments] -functionaliteit binnen [!DNL Target
 
 [!DNL Adobe Experience Manager] 6.3 en 6.4 hebben het einde van de levensduur bereikt en worden niet meer ondersteund (behalve voor klanten die uitgebreide ondersteuning hebben aangeschaft).
 
-De Zorg van de Klant van Adobe Target van het contact [ om de integratie toe te laten en u van authentificatiedetails te voorzien.](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
+De Zorg van de Klant van Adobe Target van het contact [&#x200B; om de integratie toe te laten en u van authentificatiedetails te voorzien.](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
 
 ## [!UICONTROL Experience Fragments] maken en configureren in [!DNL AEM] {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
@@ -58,18 +58,18 @@ Als u [!DNL AEM] [!UICONTROL Experience Fragments] in [!DNL Target] wilt gebruik
 
 Zie voor meer informatie:
 
-* **AEM as a Cloud Service**: [ Integrerend met Adobe Target ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank} in de *as a Cloud Service van Experience Manager* gids.
-* **Adobe Developer**: [ Integratie met Adobe Target gebruikend Adobe I/0 ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html?lang=nl-NL){target=_blank} in de *Beherende documentatie van de Gids van de Gebruiker*.
-* **[!DNL AEM]6.5**: [ Opting in Adobe Analytics en Adobe Target ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=nl-NL){target=_blank} in *Adobe Experience Manager 6.5* documentatie.
-* **[!DNL AEM]6.4**: [ Opting in Adobe Analytics en Adobe Target ](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=nl-NL){target=_blank} in *Adobe Experience Manager 6.4* documentatie.
+* **AEM as a Cloud Service**: [&#x200B; Integrerend met Adobe Target &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank} in de *as a Cloud Service van Experience Manager* gids.
+* **Adobe Developer**: [&#x200B; Integratie met Adobe Target gebruikend Adobe I/0 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html?lang=nl-NL){target=_blank} in de *Beherende documentatie van de Gids van de Gebruiker*.
+* **[!DNL AEM]6.5**: [&#x200B; Opting in Adobe Analytics en Adobe Target &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=nl-NL){target=_blank} in *Adobe Experience Manager 6.5* documentatie.
+* **[!DNL AEM]6.4**: [&#x200B; Opting in Adobe Analytics en Adobe Target &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=nl-NL){target=_blank} in *Adobe Experience Manager 6.4* documentatie.
 
 ### Stap 2: Maak het ervaringsfragment
 
 [!UICONTROL Experience Fragments] worden gemaakt in [!DNL AEM] . Zie voor meer informatie:
 
-* **AEM as a Cloud Service**: [[!UICONTROL Experience Fragments] ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/experience-fragments.html?lang=nl-NL){target=_blank} in de *as a Cloud Service van Experience Manager* gids.
-* **[!DNL AEM]6.5**: [[!UICONTROL Experience Fragments] ](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/experience-fragments.html?lang=nl-NL){target=_blank} in *Adobe Experience Manager 6.5* documentatie.
-* **[!DNL AEM]6.4**: [[!UICONTROL Experience Fragments] ](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/experience-fragments.html?lang=nl-NL){target=_blank} in *Adobe Experience Manager 6.4* documentatie.
+* **AEM as a Cloud Service**: [[!UICONTROL Experience Fragments] &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/experience-fragments.html?lang=nl-NL){target=_blank} in de *as a Cloud Service van Experience Manager* gids.
+* **[!DNL AEM]6.5**: [[!UICONTROL Experience Fragments] &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/experience-fragments.html?lang=nl-NL){target=_blank} in *Adobe Experience Manager 6.5* documentatie.
+* **[!DNL AEM]6.4**: [[!UICONTROL Experience Fragments] &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/experience-fragments.html?lang=nl-NL){target=_blank} in *Adobe Experience Manager 6.4* documentatie.
 
 ### Stap 3: Configureer [!DNL AEM] om de lus [!UICONTROL Experience Fragment] with [!DNL Target] te delen
 
@@ -84,9 +84,9 @@ Zie voor meer informatie:
 
 Afhankelijk van uw [!DNL AEM] versie, zie de volgende verbindingen voor geleidelijke instructies:
 
-* **AEM as a Cloud Service**: [ Exporterend [!UICONTROL Experience Fragments] aan Adobe Target ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank} in de *as a Cloud Service van Experience Manager* gids.
-* **[!DNL AEM]6.5**: [ Exporterend een Fragment van de Ervaring aan Doel ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=nl-NL){target=_blank} in *Adobe Experience Manager 6.5* documentatie.
-* **[!DNL AEM]6.4**: [ Exporterend een Fragment van de Ervaring aan Doel ](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=nl-NL){target=_blank} in *Adobe Experience Manager 6.4* documentatie.
+* **AEM as a Cloud Service**: [&#x200B; Exporterend [!UICONTROL Experience Fragments] aan Adobe Target &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank} in de *as a Cloud Service van Experience Manager* gids.
+* **[!DNL AEM]6.5**: [&#x200B; Exporterend een Fragment van de Ervaring aan Doel &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=nl-NL){target=_blank} in *Adobe Experience Manager 6.5* documentatie.
+* **[!DNL AEM]6.4**: [&#x200B; Exporterend een Fragment van de Ervaring aan Doel &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=nl-NL){target=_blank} in *Adobe Experience Manager 6.4* documentatie.
 
 ## [!UICONTROL Experience Fragments] gebruiken in [!DNL Target] -activiteiten {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -98,25 +98,25 @@ Nadat u de voorgaande taken hebt uitgevoerd, wordt [!UICONTROL Experience Fragme
 
 U kunt filteren en zoeken op [!UICONTROL HTML XFs] en [!UICONTROL JSON XFs] om u te helpen onderscheid te maken tussen [!UICONTROL Experience Fragment] typen die worden geëxporteerd naar [!DNL Target] .
 
-![ Filter door de types van Fragment van de Ervaring: HTML of JSON in het Doel UI ](/help/main/c-integrating-target-with-mac/aem/assets/fragment-types.png)
+![&#x200B; Filter door de types van Fragment van de Ervaring: HTML of JSON in het Doel UI &#x200B;](/help/main/c-integrating-target-with-mac/aem/assets/fragment-types.png)
 
-U kunt over [!UICONTROL Experience Fragment] in de lijst bewegen, dan het [!UICONTROL View] pictogram ![ pictogram van Info ](/help/main/assets/icons/InfoOutline.svg) klikken om extra informatie over [!UICONTROL Experience Fragment], met inbegrip van zijn [!UICONTROL Name], [!UICONTROL Type], [!UICONTROL Offer ID], [!UICONTROL Offer path], en laatste wijzigingsinformatie te zien. Klik op [!UICONTROL [!UICONTROL View Full Details]] om de activiteiten te bekijken die naar deze aanbieding verwijzen.
+U kunt over [!UICONTROL Experience Fragment] in de lijst bewegen, dan het [!UICONTROL View] pictogram ![&#x200B; pictogram van Info &#x200B;](/help/main/assets/icons/InfoOutline.svg) klikken om extra informatie over [!UICONTROL Experience Fragment], met inbegrip van zijn [!UICONTROL Name], [!UICONTROL Type], [!UICONTROL Offer ID], [!UICONTROL Offer path], en laatste wijzigingsinformatie te zien. Klik op [!UICONTROL [!UICONTROL View Full Details]] om de activiteiten te bekijken die naar deze aanbieding verwijzen.
 
-![ de informatie pop-up van het Fragment van de Ervaring ](/help/main/c-integrating-target-with-mac/aem/assets/xf-info-popup.png)
+![&#x200B; de informatie pop-up van het Fragment van de Ervaring &#x200B;](/help/main/c-integrating-target-with-mac/aem/assets/xf-info-popup.png)
 
-U kunt [!UICONTROL Experience Fragments] in [!DNL Target] activiteiten verbruiken gebruikend [ Visuele Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) en [ op vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md).
+U kunt [!UICONTROL Experience Fragments] in [!DNL Target] activiteiten verbruiken gebruikend [&#x200B; Visuele Composer van de Ervaring &#x200B;](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) en [&#x200B; op vorm-Gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md).
 
 >[!TIP]
 >
 >Gebruik Kunstmatige intelligentie, Machine Learning en aanbevelingen met [!UICONTROL Experience Fragments] :
 >
->* Om de [!DNL Target] functionaliteit van AI en van ML volledig te gebruiken, kunt u [ auto-toewijzen ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) of [ auto-Doel ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) terwijl het creëren van een activiteit selecteren.
+>* Om de [!DNL Target] functionaliteit van AI en van ML volledig te gebruiken, kunt u [&#x200B; auto-toewijzen &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) of [&#x200B; auto-Doel &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) terwijl het creëren van een activiteit selecteren.
 >
->* [!UICONTROL Experience Fragments] wordt niet ondersteund in [!DNL Recommendations] -activiteiten. Nochtans, om [!UICONTROL Experience Fragments] voor aanbevelingen te gebruiken kunt u een [!UICONTROL A/B Test] activiteit (met inbegrip van [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]) of een [!UICONTROL Experience Targeting] (XT) activiteit tot stand brengen en [ omvatten aanbevelingen als aanbieding ](/help/main/c-recommendations/recommendations-as-an-offer.md).
+>* [!UICONTROL Experience Fragments] wordt niet ondersteund in [!DNL Recommendations] -activiteiten. Nochtans, om [!UICONTROL Experience Fragments] voor aanbevelingen te gebruiken kunt u een [!UICONTROL A/B Test] activiteit (met inbegrip van [!UICONTROL Auto-Allocate] en [!UICONTROL Auto-Target]) of een [!UICONTROL Experience Targeting] (XT) activiteit tot stand brengen en [&#x200B; omvatten aanbevelingen als aanbieding &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 **om [!UICONTROL Experience Fragments] te verbruiken gebruikend VEC:**
 
-1. In [!DNL Target], terwijl het creëren van of het uitgeven van een ervaring in [ Visuele Composer van de Ervaring ](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), klik de plaats op de pagina waar u [!DNL AEM] inhoud wilt opnemen, dan klik **[!UICONTROL Replace Content]** > **[!UICONTROL Experience Fragment]** om de [!UICONTROL Experience Fragment] dialoogdoos te tonen.
+1. In [!DNL Target], terwijl het creëren van of het uitgeven van een ervaring in [&#x200B; Visuele Composer van de Ervaring &#x200B;](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), klik de plaats op de pagina waar u [!DNL AEM] inhoud wilt opnemen, dan klik **[!UICONTROL Replace Content]** > **[!UICONTROL Experience Fragment]** om de [!UICONTROL Experience Fragment] dialoogdoos te tonen.
 
    In het dialoogvenster [!UICONTROL Experience Fragment] wordt de inhoud weergegeven die is gemaakt in [!DNL AEM] en die nu in het programma oorspronkelijk beschikbaar is vanuit [!DNL Target] .
 
@@ -124,27 +124,27 @@ U kunt [!UICONTROL Experience Fragments] in [!DNL Target] activiteiten verbruike
    >
    >De optie [!UICONTROL Replace Content] is niet beschikbaar voor afbeeldingen. Als u deze optie bij een afbeelding wilt gebruiken, klikt u op het containerelement dat de gewenste afbeelding bevat.
 
-   ![ experience_fragment_list beeld ](/help/main/c-integrating-target-with-mac/aem/assets/experience_fragment_list.png)
+   ![&#x200B; experience_fragment_list beeld &#x200B;](/help/main/c-integrating-target-with-mac/aem/assets/experience_fragment_list.png)
 
 1. Selecteer de gewenste [!UICONTROL Experience Fragment] en klik op **[!UICONTROL Add]** .
 1. Voltooi de configuratie van de activiteit.
 
    Voor meer informatie over het vormen van de diverse activiteitentypes, zie de volgende onderwerpen:
 
-   * **Test A/B:** [ creeer een Test A/B ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-   * **auto-Wijs toe:** [ auto-Wijst ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) toe
-   * **auto-Doel:** [ auto-Doel ](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * **Automated Personalization (AP):** [ Creërend een Activiteit van Automated Personalization ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-   * **Ervaring richtend (XT):** [ creeer een Ervaring richtend Activiteit ](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-   * **Aanbevelingen in een A/B Test of activiteit XT:** [ Aanbevelingen als aanbieding ](/help/main/c-recommendations/recommendations-as-an-offer.md)
+   * **Test A/B:** [&#x200B; creeer een Test A/B &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
+   * **auto-Wijs toe:** [&#x200B; auto-Wijst &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) toe
+   * **auto-Doel:** [&#x200B; auto-Doel &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+   * **Automated Personalization (AP):** [&#x200B; Creërend een Activiteit van Automated Personalization &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+   * **Ervaring richtend (XT):** [&#x200B; creeer een Ervaring richtend Activiteit &#x200B;](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+   * **Aanbevelingen in een A/B Test of activiteit XT:** [&#x200B; Aanbevelingen als aanbieding &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md)
 
-   [!UICONTROL Experience Fragments] geëxporteerd als JSON in [!DNL Target] kan niet worden gebruikt in activiteiten die zijn gemaakt met de VEC. Alleen HTML [!UICONTROL Experience Fragments] wordt ondersteund in op VEC gebaseerde activiteiten. Als u JSON [!UICONTROL Experience Fragments] wilt gebruiken, gebruik hen in activiteiten die gebruikend [ op vorm-gebaseerde ervaringscomposer ](/help/main/c-experiences/form-experience-composer.md) worden gecreeerd.
+   [!UICONTROL Experience Fragments] geëxporteerd als JSON in [!DNL Target] kan niet worden gebruikt in activiteiten die zijn gemaakt met de VEC. Alleen HTML [!UICONTROL Experience Fragments] wordt ondersteund in op VEC gebaseerde activiteiten. Als u JSON [!UICONTROL Experience Fragments] wilt gebruiken, gebruik hen in activiteiten die gebruikend [&#x200B; op vorm-gebaseerde ervaringscomposer &#x200B;](/help/main/c-experiences/form-experience-composer.md) worden gecreeerd.
 
 **om [!UICONTROL Experience Fragments] te verbruiken gebruikend [!UICONTROL Form-based Experience Composer]:**
 
-1. In [!DNL Target], terwijl het creëren van of het uitgeven van een ervaring in [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), selecteer de plaats op de pagina waar u [!DNL AEM] inhoud wilt opnemen, klik het **[!UICONTROL More Details]** pictogram ( ![ Meer pictogram van Details ](/help/main/assets/icons/MoreSmall.svg) ), dan uitgezocht **[!UICONTROL Change Experience Fragment]** om de [!UICONTROL Change Experience Fragment] dialoogdoos te tonen.
+1. In [!DNL Target], terwijl het creëren van of het uitgeven van een ervaring in [&#x200B; vorm-Gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), selecteer de plaats op de pagina waar u [!DNL AEM] inhoud wilt opnemen, klik het **[!UICONTROL More Details]** pictogram ( ![&#x200B; Meer pictogram van Details &#x200B;](/help/main/assets/icons/MoreSmall.svg) ), dan uitgezocht **[!UICONTROL Change Experience Fragment]** om de [!UICONTROL Change Experience Fragment] dialoogdoos te tonen.
 
-   ![ experience_fragment_list beeld ](/help/main/c-integrating-target-with-mac/aem/assets/experience_fragment_list.png)
+   ![&#x200B; experience_fragment_list beeld &#x200B;](/help/main/c-integrating-target-with-mac/aem/assets/experience_fragment_list.png)
 
    In het dialoogvenster [!UICONTROL Experience Fragment] wordt de inhoud weergegeven die is gemaakt in [!DNL AEM] en die nu in het programma oorspronkelijk beschikbaar is vanuit [!DNL Target] .
 
@@ -164,7 +164,7 @@ Wanneer u [!UICONTROL Experience Fragment] -aanbiedingen gebruikt met [!DNL Targ
 
 Soms lopen hele HTML-pagina&#39;s de [!UICONTROL Experience Fragment] om en veroorzaken ze problemen. Zorg ervoor dat [!UICONTROL Experience Fragment] een klein stukje HTML is en geen volledige HTML-pagina met HTML, HEAD, BODY enzovoort.
 
-Voor meer informatie, zie de volgende blogpost: [ AEM 6.5: Verwijderend clientlibs van [!UICONTROL Experience Fragments] die naar Doel ](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser/){target=_blank} wordt uitgevoerd.
+Voor meer informatie, zie de volgende blogpost: [&#x200B; AEM 6.5: Verwijderend clientlibs van [!UICONTROL Experience Fragments] die naar Doel &#x200B;](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser/){target=_blank} wordt uitgevoerd.
 
 ## Trainingsvideo: AEM gebruiken [!UICONTROL Experience Fragments] met [!DNL Adobe Target]
 
@@ -176,4 +176,4 @@ In de volgende video wordt getoond hoe u [!UICONTROL Experience Fragments] kunt 
 >
 >De [!DNL AEM] deplink eigenschap die bij 4 :54 wordt besproken is verwijderd.
 
-Voor meer gedetailleerde informatie, zie [ Gebruikend [!UICONTROL Experience Fragments] met Adobe Target ](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html?lang=nl-NL) op de *pagina van de Video&#39;s en van Leerprogramma&#39;s van AEM Sites*.
+Voor meer gedetailleerde informatie, zie [&#x200B; Gebruikend [!UICONTROL Experience Fragments] met Adobe Target &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html?lang=nl-NL) op de *pagina van de Video&#39;s en van Leerprogramma&#39;s van AEM Sites*.

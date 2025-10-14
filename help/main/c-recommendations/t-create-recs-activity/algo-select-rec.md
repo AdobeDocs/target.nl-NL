@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Criteria selecteren
 
-Selecteer de [ criteria ](/help/main/c-recommendations/c-algorithms/algorithms.md) in uw [!DNL Adobe Target Recommendations] activiteit te gebruiken. Criteria zijn regels die bepalen welke producten moeten worden aanbevolen op basis van een vooraf bepaalde reeks gedragingen van bezoekers.
+Selecteer de [&#x200B; criteria &#x200B;](/help/main/c-recommendations/c-algorithms/algorithms.md) in uw [!DNL Adobe Target Recommendations] activiteit te gebruiken. Criteria zijn regels die bepalen welke producten moeten worden aanbevolen op basis van een vooraf bepaalde reeks gedragingen van bezoekers.
 
 U kunt veelvoudige aanbevelingstypes tegen elkaar testen door meer dan één criteria toe te voegen.
 
@@ -24,11 +24,11 @@ Als u meerdere criteria selecteert, wordt het verkeer gelijkmatig over de gesele
 
   Sommige criteria worden geleverd bij [!DNL Recommendations] . U en uw team kunnen ook uw eigen aangepaste criteria maken.
 
-* Als u nieuwe criteria wilt maken, klikt u op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** en vult u de gegevens voor de nieuwe criteria in. Voor informatie over het creëren van nieuwe criteria, zie [ een Nieuwe Criteria ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) creëren.
+* Als u nieuwe criteria wilt maken, klikt u op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** en vult u de gegevens voor de nieuwe criteria in. Voor informatie over het creëren van nieuwe criteria, zie [&#x200B; een Nieuwe Criteria &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) creëren.
 
 **om criteria te selecteren:**
 
-1. Terwijl [ creërend een nieuwe aanbeveling ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F), in het **[!UICONTROL Select Criteria]** dialoogvakje, bepaal de plaats en selecteer van één of meerdere criteria.
+1. Terwijl [&#x200B; creërend een nieuwe aanbeveling &#x200B;](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F), in het **[!UICONTROL Select Criteria]** dialoogvakje, bepaal de plaats en selecteer van één of meerdere criteria.
 
    U kunt het selectievakje [!UICONTROL Industry Type] filter, [!UICONTROL Page Type] filter en [!UICONTROL Compatible] gebruiken om de lijst met criteria te filteren. Met deze opties kunt u de gewenste criteria vinden.
 
@@ -36,4 +36,4 @@ Als u meerdere criteria selecteert, wordt het verkeer gelijkmatig over de gesele
    * **Type van Pagina:** het paginatype helpt u uw aanbevelingen categoriseren. Er zijn ook ingebouwde criteria die voor elk paginatype kunnen worden gekozen.
    * **Compatibel:** toon slechts die criteria waar de geselecteerde pagina de vereiste gegevens overgaat. Niet alle criteria worden op elke pagina correct uitgevoerd. De pagina of het kader moet `entity.id` of `entity.categoryId` doorgeven om de huidige aanbevelingen voor het item of de huidige categorie compatibel te maken. Over het algemeen is het beter alleen compatibele criteria te laten zien. Als u echter incompatibele criteria voor de activiteit wilt gebruiken, schakelt u het selectievakje **[!UICONTROL Compatible]** uit. U kunt deze optie uitschakelen of inschakelen in de volgende instellingen: **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** .
 
-1. Klik **[!UICONTROL Next]** om het [ Uitgezochte de dialoogvakje van het Ontwerp ](/help/main/c-recommendations/c-design-overview/design-overview.md) te tonen.
+1. Klik **[!UICONTROL Next]** om het [&#x200B; Uitgezochte de dialoogvakje van het Ontwerp &#x200B;](/help/main/c-recommendations/c-design-overview/design-overview.md) te tonen.

@@ -15,15 +15,15 @@ ht-degree: 0%
 
 De [!UICONTROL Activity URL] bepaalt de pagina die wordt gebruikt in een [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT) activiteit. Dit is de pagina die in [!UICONTROL Visual Experience Composer] (VEC) of [!UICONTROL Form-Based Experience Composer] wordt geopend wanneer de activiteit wordt ontworpen.
 
-1. Wanneer ertoe aangezet terwijl [ het creëren van een XT activiteit ](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), specificeer de activiteit URL. Typ de volledige URL (inclusief `https://`) en klik vervolgens op **[!UICONTROL Create Activity]** .
+1. Wanneer ertoe aangezet terwijl [&#x200B; het creëren van een XT activiteit &#x200B;](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), specificeer de activiteit URL. Typ de volledige URL (inclusief `https://`) en klik vervolgens op **[!UICONTROL Create Activity]** .
 
    >[!NOTE]
    >
    >[!DNL Target] maakt geen onderscheid tussen URL-protocollen ( [!DNL https] en [!DNL http] ). Hierdoor komen [!DNL `https://www.adobe.com`] en [!DNL `http://www.adobe.com`] beide overeen.
    >
-   >Door gebrek, opent VEC of [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) de pagina die in uw [ Visuele montages van Composer van de Ervaring wordt gespecificeerd ](/help/main/administrating-target/visual-experience-composer-set-up.md). U kunt een andere pagina opgeven tijdens het maken van activiteiten.
+   >Door gebrek, opent VEC of [&#x200B; vorm-Gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md) de pagina die in uw [&#x200B; Visuele montages van Composer van de Ervaring wordt gespecificeerd &#x200B;](/help/main/administrating-target/visual-experience-composer-set-up.md). U kunt een andere pagina opgeven tijdens het maken van activiteiten.
    >
-   >Als u een URL voor een plaats specificeert die a [[!DNL Target]  at.js de bibliotheek van JavaScript of  [!DNL Adobe Experience Platform Web SDK] ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=nl-NL){target=_blank} niet omvat, kunt u geen pagina-elementen selecteren.
+   >Als u een URL voor een plaats specificeert die a [[!DNL Target]  at.js de bibliotheek van JavaScript of  [!DNL Adobe Experience Platform Web SDK] &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=nl-NL){target=_blank} niet omvat, kunt u geen pagina-elementen selecteren.
 
 1. (Voorwaardelijk) Als u een andere pagina wilt weergeven nadat de VEC is geopend, klikt u op **[!UICONTROL Configure]** , selecteert u **[!UICONTROL Page Delivery]** en geeft u vervolgens de URL op in het veld [!UICONTROL URL] .
 

@@ -44,7 +44,7 @@ U kunt publiek in [!DNL Adobe Target] tot stand brengen die op netwerkdetails, z
      >
      >Wanneer het richten gebaseerd op ISP, gebruik de ISP naam, niet de populaire naam. Zorg ervoor dat u de regel maakt zodat deze niet hoofdlettergevoelig is of altijd de indeling in kleine letters gebruikt.
 
-     U kunt de waarden voor de ISP- en domeinnaam testen. [ https://www.whoismyisp.org ](https://www.whoismyisp.org) is een goed middel voor het richten van doeleinden. U kunt de steekproefIP adressen gebruiken die in de lijst hierboven worden gegeven, of uw ingaan. Gebruik vervolgens de parameter `mboxOverride.browserIp= URL` om dat IP-adres na te bootsen.
+     U kunt de waarden voor de ISP- en domeinnaam testen. [&#x200B; https://www.whoismyisp.org &#x200B;](https://www.whoismyisp.org) is een goed middel voor het richten van doeleinden. U kunt de steekproefIP adressen gebruiken die in de lijst hierboven worden gegeven, of uw ingaan. Gebruik vervolgens de parameter `mboxOverride.browserIp= URL` om dat IP-adres na te bootsen.
 
    * **Naam van het Domein:** Deze naam is de domeinnaam voor het IP van de bezoeker adres. Deze naam is niet de domeinnaam van de website waarmee u [!DNL Target] gebruikt. Deze domeinnaam is gerelateerd aan het IP-adres van de bezoeker en wordt soms een hostnaam genoemd. Het is gelijkaardig aan de ISP naam. Soms verwijzingen hostname oudere namen van bedrijven die hun ISP naam maar niet de domeinnaam hebben herbrandd.
    * **Snelheid van de Verbinding:** Deze snelheid is de snelheid van de verbinding van de bezoeker aan Internet. De opties omvatten: breedband, kabel, dialup, mobiel, oc3, oc12, satelliet, t1, t2, en radio, en xdsl.
@@ -56,7 +56,7 @@ U kunt publiek in [!DNL Adobe Target] tot stand brengen die op netwerkdetails, z
 
 In de volgende afbeelding ziet u een publiek dat is gericht op bezoekers die AT&amp;T gebruiken met een verbindingssnelheid van [!UICONTROL Mobile] .
 
-![ het doel van het Netwerk ](assets/target_network.png)
+![&#x200B; het doel van het Netwerk &#x200B;](assets/target_network.png)
 
 ## Trainingsvideo: Soorten publiek maken
 

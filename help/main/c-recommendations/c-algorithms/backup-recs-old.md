@@ -20,7 +20,7 @@ Als u geen reserveaanbeveling gebruikt, als een aanbeveling niet genoeg punten h
 
 >[!NOTE]
 >
->De extra informatie is inbegrepen in de [ sectie van de Inhoud van Create criteria ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) onderwerp, met inbegrip van een matrijs die de resultaten verklaart u wanneer het gebruiken van [!UICONTROL Partial Design Rendering] en [!UICONTROL Show Backup Recommendations] opties samen of afzonderlijk zult waarnemen.
+>De extra informatie is inbegrepen in de [&#x200B; sectie van de Inhoud van Create criteria &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) onderwerp, met inbegrip van een matrijs die de resultaten verklaart u wanneer het gebruiken van [!UICONTROL Partial Design Rendering] en [!UICONTROL Show Backup Recommendations] opties samen of afzonderlijk zult waarnemen.
 
 De functie voor back-upaanbevelingen gebruikt altijd de items op de site die als bovenste worden weergegeven om de resterende sleuven in te vullen nadat de gegevens van het algoritme zijn gebruikt. Bijvoorbeeld, wordt uw malplaatje gevormd om vijf geadviseerde punten te tonen, en u gebruikt het *algoritme van de Aankoopaffiniteiten*. U hebt echter slechts voldoende gegevens om twee van de vijf sleuven te vullen. De functie voor back-upaanbevelingen vult de andere drie punten met items die u het beste kunt bekijken.
 
@@ -49,4 +49,4 @@ Duplicaten worden verwijderd uit batches met aanbevelingen.
 
 Het gebruik van back-upaanbevelingen maakt doorgaans deel uit van de discussie met het implementatieteam tijdens de eerste installatie. Neem contact op met uw accountmanager als u de instelling voor de back-upaanbeveling na de implementatie wilt wijzigen.
 
-Als Gedeeltelijke Teruggeven van het Ontwerp toelaat (zie [ Montages van de Inhoud ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) niet wordt toegelaten en het malplaatje niet toont, dan of wordt de reserveaanbeveling of standaardinhoud in plaats daarvan getoond.
+Als Gedeeltelijke Teruggeven van het Ontwerp toelaat (zie [&#x200B; Montages van de Inhoud &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) niet wordt toegelaten en het malplaatje niet toont, dan of wordt de reserveaanbeveling of standaardinhoud in plaats daarvan getoond.

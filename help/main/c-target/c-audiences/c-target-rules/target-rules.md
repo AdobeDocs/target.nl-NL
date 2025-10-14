@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Met [!DNL Adobe Target] kunt u zich richten op een van de verschillende categoriekenmerken. Om het richten regels (of groepen) voor elk attribuut tot stand te brengen, sleep en laat vallen de gewenste attributen in de ruit van de Bouwer van de Publiek.
 
-![ Attributen voor publiek ](/help/main/c-target/c-audiences/assets/attributes.png)
+![&#x200B; Attributen voor publiek &#x200B;](/help/main/c-target/c-audiences/assets/attributes.png)
 
 Als een bepaalde categorie is geselecteerd, kunt u een of meer doelvoorwaarden toepassen. In de categorie Geo definieert u bijvoorbeeld een regel als City=San Francisco. Als u meerdere waarden toevoegt, wordt een OR-voorwaarde gemaakt. De bezoeker moet slechts één van de waarden aanpassen om aan de het richten voorwaarde te voldoen. Voor EN-voorwaarden op dezelfde parameter maakt u een aangepast expressiedoel.
 
@@ -31,7 +31,7 @@ Gebruik het zoekvak om te zoeken in de lijst [!UICONTROL Audiences] . U kunt zoe
 
 U kunt de [!UICONTROL Audience] lijst sorteren op publieksnaam of op de datum waarop deze voor het laatst is gewijzigd. Als u op naam of datum wilt sorteren, klikt u op de kolomkop en selecteert u deze om het publiek in oplopende of aflopende volgorde weer te geven.
 
-## De video van de opleiding: Creërend publiek ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: Creërend publiek ![&#x200B; badge van het Leerprogramma &#x200B;](/help/main/assets/tutorial.png)
 
 Deze video bevat informatie over het gebruik van publiekscategorieën.
 

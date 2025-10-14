@@ -27,14 +27,14 @@ Voor inkomstenmetriek die het zelfde plaatsen gebruiken, slechts de eerste orde 
 
 >[!NOTE]
 >
->Voor activiteiten die [ Analytics als rapporterende bron ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) gebruiken (A4T), het doel metrisch gebruikt altijd &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; en &quot;[!UICONTROL On Every Impression]&quot;montages. Deze montages zijn *niet* configureerbaar.
+>Voor activiteiten die [&#x200B; Analytics als rapporterende bron &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) gebruiken (A4T), het doel metrisch gebruikt altijd &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; en &quot;[!UICONTROL On Every Impression]&quot;montages. Deze montages zijn *niet* configureerbaar.
 
 De volgende maatstaven voor succes kunnen worden geconfigureerd in de sectie [!UICONTROL Reporting Settings] op de [!UICONTROL Activity Settings page] , onder de stap [!UICONTROL Goals & Settings] :
 
 | Metrisch met succes | Meetmethode | Definitie |
 |--- |--- |--- |
 | [!UICONTROL Conversion] | Op basis van conversie | Omzetten is wanneer een bezoeker een door u gedefinieerde handeling op uw site uitvoert, zoals <ul><li>Pagina&#39;s weergeven</li><li>Een box weergegeven</li><li>Op een element klikken</li></ul>Een conversie kan één keer per bezoeker worden meegeteld of telkens wanneer een bezoeker een conversie voltooit. |
-| [!UICONTROL Revenue] | Op basis van conversie | Door het bezoek gegenereerde inkomsten. U kunt slechts één metrische omzet kiezen:<ul><li>Een box weergegeven</li></ul>Voor meer informatie over veranderingen in bijgewerkte [!DNL Target] UI aangezien het aan de metriek van het opbrengstsucces heeft, zie [ Bijgewerkte  [!DNL Target]  veranderingen UI ](#changes) hieronder. |
+| [!UICONTROL Revenue] | Op basis van conversie | Door het bezoek gegenereerde inkomsten. U kunt slechts één metrische omzet kiezen:<ul><li>Een box weergegeven</li></ul>Voor meer informatie over veranderingen in bijgewerkte [!DNL Target] UI aangezien het aan de metriek van het opbrengstsucces heeft, zie [&#x200B; Bijgewerkte  [!DNL Target]  veranderingen UI &#x200B;](#changes) hieronder. |
 | [!UICONTROL Engagement] | Op betrokkenheid gebaseerd | Betrokkenheid bij het bezoek. U kunt uit de volgende betrokkenheidsmetriek kiezen:<UL><li>Paginaweergaven: elk uniek bezoek wordt geteld als een conversie.</li><li>[!UICONTROL Custom Scoring]: geaggregeerde score op basis van de waarde die is toegewezen aan pagina&#39;s die op de site zijn bezocht, vanaf het punt waarop de bezoeker de eerste weergave van de [!DNL Target] -aanvraag van de activiteit ziet.</li>[!DNL Time on Site]: De tijd die in het bezoek (in seconden) is doorgebracht vanaf het punt waarop de bezoeker de eerste weergave [!DNL Target] van de activiteit ziet bij het laden van de laatste pagina met een aanvraag in de sessie.</UL> |
 
 Voor op betrokkenheid gebaseerde metriek (in tegenstelling tot op conversie gebaseerde en op opbrengst-gebaseerde metriek), moeten de bezoekers voor de activiteit op elk bezoek opnieuw kwalificeren om de telling voor die zitting te verhogen. De bijbehorende metrische waarde begint na herkwalificatie te stijgen en stopt aan het einde van de sessie van elke bezoeker. Een sessie eindigt na 30 minuten inactiviteit. Daarom ziet u niet onmiddellijk resultaten tijdens het testen; nochtans, zijn alle resultaten van die zitting beschikbaar binnen een paar notulen van de zitting die beëindigt.
@@ -45,7 +45,7 @@ U kunt ook aangepaste succesmaatstaven maken.
 
 Selecteer de maatstaf voor succes en selecteer de actie die een bezoeker heeft uitgevoerd om het doel te bereiken. Kies bijvoorbeeld een [!UICONTROL Conversion] -metrische waarde, stel deze in op één keer per bezoeker en stel vervolgens in of succes wordt geboekt wanneer een bezoeker een bepaalde pagina (of set pagina&#39;s) bekijkt, een specifieke [!DNL Target] -aanvraag weergeeft of op een specifieke koppeling klikt.
 
-Als deze optie is ingeschakeld, biedt het veld [!UICONTROL Estimated Value of one conversion] (niet beschikbaar voor de [!UICONTROL Page Score] -meetgegevens) een waarde voor uw doel, maar niet voor andere meetwaarden. Met deze waarde kan [!DNL Target] een geschatte lift in inkomsten berekenen. Dit veld is facultatief, maar incrementele inkomsten voor elke metrische waarde zonder inkomsten kunnen niet worden berekend. Voor alle inkomstenmetriek ([!UICONTROL Revenue per Visitor], [!UICONTROL Average Order Value], [!UICONTROL Total Sales], en [!UICONTROL Orders]), gebruikt de schatting [!UICONTROL Revenue per Visitor]. Het gegevenstype is currency. Zie [ Schatting Lift in Inkomsten ](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) voor meer informatie.
+Als deze optie is ingeschakeld, biedt het veld [!UICONTROL Estimated Value of one conversion] (niet beschikbaar voor de [!UICONTROL Page Score] -meetgegevens) een waarde voor uw doel, maar niet voor andere meetwaarden. Met deze waarde kan [!DNL Target] een geschatte lift in inkomsten berekenen. Dit veld is facultatief, maar incrementele inkomsten voor elke metrische waarde zonder inkomsten kunnen niet worden berekend. Voor alle inkomstenmetriek ([!UICONTROL Revenue per Visitor], [!UICONTROL Average Order Value], [!UICONTROL Total Sales], en [!UICONTROL Orders]), gebruikt de schatting [!UICONTROL Revenue per Visitor]. Het gegevenstype is currency. Zie [&#x200B; Schatting Lift in Inkomsten &#x200B;](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) voor meer informatie.
 
 De succesmetriek die u voor uw activiteit kiest zijn beschikbaar in de rapportmontages wanneer u een rapport voor de activiteit bekijkt.
 
@@ -55,15 +55,15 @@ Voor sommige meetgegevens, zoals [!UICONTROL Custom Scoring] en [!UICONTROL Reve
 
 Gebruik de geavanceerde instellingen om te bepalen hoe succesvol u bent. De opties omvatten het toevoegen van gebiedsdelen, het kiezen of om de gebruiker in de activiteit te houden of hen te verwijderen, en of om metrisch één keer per ingang of op elke indruk te tellen.
 
-Om tot de [!UICONTROL Advanced Settings] opties toegang te hebben, klik het **[!UICONTROL More Actions]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallListVert.svg)), dan klik **[!UICONTROL Advanced Settings]**.
+Om tot de [!UICONTROL Advanced Settings] opties toegang te hebben, klik het **[!UICONTROL More Actions]** pictogram ( ![&#x200B; Meer pictogram van Acties &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)), dan klik **[!UICONTROL Advanced Settings]**.
 
-![ Geavanceerde het menu van Montages ](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
+![&#x200B; Geavanceerde het menu van Montages &#x200B;](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
 
-Voor meer informatie over [!UICONTROL Advanced Settings] opties (&quot;[!UICONTROL What will happen after a user encounters this goal]&quot; en &quot;[!UICONTROL How will the count be incremented]&quot;) zie [ wat gebeurt nadat een gebruiker dit doel metrisch ](#what-happens) ontmoet?
+Voor meer informatie over [!UICONTROL Advanced Settings] opties (&quot;[!UICONTROL What will happen after a user encounters this goal]&quot; en &quot;[!UICONTROL How will the count be incremented]&quot;) zie [&#x200B; wat gebeurt nadat een gebruiker dit doel metrisch &#x200B;](#what-happens) ontmoet?
 
 >[!NOTE]
 >
->Als u [!DNL Adobe Analytics] als rapportbron gebruikt, worden de instellingen beheerd door de [!DNL Analytics] -server. De optie [!UICONTROL Advanced Settings] is niet beschikbaar. Voor meer informatie, zie [ Adobe Analytics als rapporteringsbron voor Adobe Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+>Als u [!DNL Adobe Analytics] als rapportbron gebruikt, worden de instellingen beheerd door de [!DNL Analytics] -server. De optie [!UICONTROL Advanced Settings] is niet beschikbaar. Voor meer informatie, zie [&#x200B; Adobe Analytics als rapporteringsbron voor Adobe Target (A4T) &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
 ### Afhankelijkheid toevoegen
 
@@ -74,7 +74,7 @@ Een testconversie is bijvoorbeeld alleen geldig als een bezoeker op de aanbiedin
 De functionaliteit van de afhankelijkheid wordt *niet* gesteund voor het volgende:
 
 * [!UICONTROL Recommendations] -activiteiten. Deze functionaliteit wordt ondersteund voor alle andere typen activiteiten.
-* Als u [ Analytics als uw rapporteringsbron ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) gebruikt.
+* Als u [&#x200B; Analytics als uw rapporteringsbron &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) gebruikt.
 * Het metrische type &quot;Viewed a Page&quot;.
 * Het metrische type &quot;Clicked an Element&quot; voor VEC-activiteiten (Visual Experience Composer).
 
@@ -113,7 +113,7 @@ Kies het gewenste gedrag:
 
 ## Bijgewerkte [!DNL Target] UI-wijzigingen {#changes}
 
-De [[!DNL Target Standard/Premium]  versie 25.2.1 ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2), gelanceerd op 17 februari 2015, introduceerde bijgewerkte [!DNL Target] en [!UICONTROL Visual Experience Composer] (VEC) UIs. Deze sectie schetst de belangrijkste verschillen tussen de erfenis en bijgewerkte UI, specifiek aangezien zij op het vormen en het beheren van succesmetriek betrekking hebben.
+De [[!DNL Target Standard/Premium]  versie 25.2.1 &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2), gelanceerd op 17 februari 2015, introduceerde bijgewerkte [!DNL Target] en [!UICONTROL Visual Experience Composer] (VEC) UIs. Deze sectie schetst de belangrijkste verschillen tussen de erfenis en bijgewerkte UI, specifiek aangezien zij op het vormen en het beheren van succesmetriek betrekking hebben.
 
 ### Wijzigingen in de gebruikersinterface die betrekking hebben op gegevens over succes van [!UICONTROL Revenue]
 

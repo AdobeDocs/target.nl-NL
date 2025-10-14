@@ -20,7 +20,7 @@ Gebruik [!UICONTROL Profile Attribute Matching] als u aanbevelingen wilt weergev
 
 >[!NOTE]
 >
->Het [ proces om inclusieregels ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) voor criteria en bevorderingen tot stand te brengen en te gebruiken is gelijkaardig, zoals de gebruiksgevallen en de voorbeelden zijn.
+>Het [&#x200B; proces om inclusieregels &#x200B;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) voor criteria en bevorderingen tot stand te brengen en te gebruiken is gelijkaardig, zoals de gebruiksgevallen en de voorbeelden zijn.
 
 De volgende scenario&#39;s laten zien hoe u [!UICONTROL Profile Attribute Matching] kunt gebruiken:
 
@@ -35,7 +35,7 @@ In [!UICONTROL Profile Attribute Matching] kunt u alleen de items aanbevelen die
 
 Met de optie [!UICONTROL Profile Attribute Matching] kunt u bijvoorbeeld een regel maken die alleen items aanbeveelt als het merk gelijk is aan de waarde of tekst die in `profile.favoritebrand` is opgeslagen. Met een dergelijke regel geldt dat als een bezoeker korte berichten van een bepaald merk bekijkt, alleen aanbevelingen worden weergegeven die overeenkomen met het favoriete merk van die gebruiker (de waarde die is opgeslagen in `profile.favoritebrand` in het profiel van de bezoeker).
 
-![ Favoriete merk ](/help/main/c-recommendations/c-algorithms/assets/favorite-brand.png)
+![&#x200B; Favoriete merk &#x200B;](/help/main/c-recommendations/c-algorithms/assets/favorite-brand.png)
 
 ```
 Profile Attribute Matching
@@ -48,7 +48,7 @@ Stel dat je probeert banen te koppelen aan werkzoekenden. U wilt alleen taken aa
 
 U kunt inclusieregels gebruiken om de plaats van een baanzoeker van het profiel van zijn of haar bezoeker aan een baanlijst aan te passen, zoals in het volgende voorbeeld:
 
-![ Plaats van de Gebruiker ](/help/main/c-recommendations/c-algorithms/assets/city.png)
+![&#x200B; Plaats van de Gebruiker &#x200B;](/help/main/c-recommendations/c-algorithms/assets/city.png)
 
 ```
 Profile Attribute Matching
@@ -67,8 +67,8 @@ Als de bezoeker vervolgens terugkeert naar de startpagina, ziet hij of zij gefil
 
 Aanbevelingen op basis van het bekijken van meer kleine ventilatoren op de website:
 
-![ kleine ventilatoraanbevelingen ](/help/main/c-recommendations/c-algorithms/assets/small-fans.png)
+![&#x200B; kleine ventilatoraanbevelingen &#x200B;](/help/main/c-recommendations/c-algorithms/assets/small-fans.png)
 
 Aanbevelingen op basis van het weergeven van grotere ventilatoren op de website:
 
-![ grote ventilatoraanbevelingen ](/help/main/c-recommendations/c-algorithms/assets/large-fans.png)
+![&#x200B; grote ventilatoraanbevelingen &#x200B;](/help/main/c-recommendations/c-algorithms/assets/large-fans.png)

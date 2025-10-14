@@ -23,13 +23,13 @@ Geef de activiteit-URL op wanneer hierom wordt gevraagd tijdens het maken van ac
 
 ## Een andere URL opgeven
 
-Door gebrek, opent [!UICONTROL Visual Experience Composer] de pagina die in uw [ Visuele montages van Composer van de Ervaring ](/help/main/administrating-target/visual-experience-composer-set-up.md) wordt gespecificeerd. U kunt een andere pagina opgeven tijdens het maken van activiteiten.
+Door gebrek, opent [!UICONTROL Visual Experience Composer] de pagina die in uw [&#x200B; Visuele montages van Composer van de Ervaring &#x200B;](/help/main/administrating-target/visual-experience-composer-set-up.md) wordt gespecificeerd. U kunt een andere pagina opgeven tijdens het maken van activiteiten.
 
 1. Als u een andere pagina wilt weergeven nadat [!UICONTROL Visual Experience Composer] is geopend, klikt u op de **[!UICONTROL Experiences]** -pagina op het tandwielpictogram **[!UICONTROL Configure]** en selecteert u vervolgens **[!UICONTROL Page Delivery]** .
 
 1. Geef de URL op in het veld **[!UICONTROL URL]** .
 
-   ![ de dialoogdoos van de Levering van de Pagina ](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
+   ![&#x200B; de dialoogdoos van de Levering van de Pagina &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
 
 1. (Voorwaardelijk) Klik **[!UICONTROL Add Template Rule]** om meer pagina&#39;s of secties aan de activiteit toe te voegen.
 

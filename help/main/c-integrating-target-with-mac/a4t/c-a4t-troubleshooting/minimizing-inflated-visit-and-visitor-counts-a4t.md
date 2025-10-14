@@ -43,8 +43,8 @@ De geïdentificeerde oorzaken van gedeeltelijke gegevens zijn onder meer:
 * **Verkeerd richten rapportreeks IDs (Implementatie):** de rapportreeks die tijdens activiteitenopstelling wordt gespecificeerd past niet de rapportreeks op de pagina aan waar de test wordt geleverd. De gegevens kunnen niet worden afgestemd op [!DNL Analytics] -servers, zodat het lijkt op gedeeltelijke gegevens.
 * **Trage pagina&#39;s:** [!DNL Target] de vraag is bij de bovenkant van de pagina en [!DNL Analytics] de vraag is typisch bij de bodem van de pagina. Als de pagina langzaam wordt geladen, vergroot dit de kans dat een bezoeker de pagina verlaat nadat de aanroep van [!DNL Target] is geactiveerd, maar vóór de aanroep van [!DNL Analytics] . Trage pagina&#39;s kunnen vooral problematisch zijn op mobiele websites, waar de verbindingen vaak trager zijn.
 * **fouten van de Pagina:** als er de fouten van JavaScript of andere scenario&#39;s zijn waar elk van aanraakpunten niet (de dienst van identiteitskaart van Experience Cloud, Doel, en Analytics) in brand steken, gedeeltelijke gegevensresultaten.
-* **richt aanbiedingen in [!DNL Target] activiteit om:** voor omleiding aanbiedingen in activiteiten die A4T gebruiken, moet uw implementatie aan bepaalde minimumvereisten voldoen. Bovendien is er belangrijke informatie die u moet weten. Voor meer informatie, zie [ Aanbiedingen opnieuw richten - Veelgestelde vragen A4T ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
-* **Oude versies van de bibliotheken:** In het afgelopen jaar heeft Adobe verscheidene verbeteringen aangebracht in de bibliotheken van JavaScript ( [!DNL appMeasurement.js], `at.js`, en `visitorAPI.js`) om ervoor te zorgen dat de gegevens zo efficiënt mogelijk worden verzonden. Meer over implementatievereisten leren, zie [ alvorens u ](/help/main/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543) uitvoert.
+* **richt aanbiedingen in [!DNL Target] activiteit om:** voor omleiding aanbiedingen in activiteiten die A4T gebruiken, moet uw implementatie aan bepaalde minimumvereisten voldoen. Bovendien is er belangrijke informatie die u moet weten. Voor meer informatie, zie [&#x200B; Aanbiedingen opnieuw richten - Veelgestelde vragen A4T &#x200B;](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
+* **Oude versies van de bibliotheken:** In het afgelopen jaar heeft Adobe verscheidene verbeteringen aangebracht in de bibliotheken van JavaScript ( [!DNL appMeasurement.js], `at.js`, en `visitorAPI.js`) om ervoor te zorgen dat de gegevens zo efficiënt mogelijk worden verzonden. Meer over implementatievereisten leren, zie [&#x200B; alvorens u &#x200B;](/help/main/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543) uitvoert.
 
 ## Wat zijn de beste praktijken om gedeeltelijke gegevens te verminderen? {#section_065C38501527451C8058278054A1818D}
 
@@ -52,10 +52,10 @@ Controleer de volgende stappen om gedeeltelijke gegevensverzameling te verminder
 
 | Stap | Taak |
 | --- | --- |
-| ![ Stap 1 ](assets/step1_icon.png) | Zorg ervoor dat de rapportsuite die u hebt geselecteerd in [!DNL Target] gelijk is aan de suite op de pagina&#39;s waar de activiteit wordt weergegeven. |
-| ![ Stap 2 ](assets/step2_icon.png) | Zorg ervoor dat de bibliotheken bezoekerAPI.js, appMeasurement.js en at.js zich in versies bevinden die compatibel zijn met A4T. Meer over implementatievereisten leren, zie [ alvorens u ](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) uitvoert. |
-| ![ Stap 3 ](assets/step3_icon.png) | Zorg ervoor dat de SDID wordt ingesteld voor alle [!DNL Target] - en [!DNL Analytics] -aanroepen die de pagina verlaten en dat deze overeenkomen.<br/> gebruik een netwerkanalysator of het zuiveren hulpmiddel om ervoor te zorgen dat de `mboxMCSDID` parameter op [!DNL Target] vraag de parameter van SDID in de [!DNL Analytics] vraag aanpast. |
-| ![ Stap 4 ](assets/step4_icon.png) | Controleer of de implementatiebibliotheken in de juiste volgorde op uw sites worden geladen. Voor meer informatie, zie [ Analytics voor de Implementatie van het Doel ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| ![&#x200B; Stap 1 &#x200B;](assets/step1_icon.png) | Zorg ervoor dat de rapportsuite die u hebt geselecteerd in [!DNL Target] gelijk is aan de suite op de pagina&#39;s waar de activiteit wordt weergegeven. |
+| ![&#x200B; Stap 2 &#x200B;](assets/step2_icon.png) | Zorg ervoor dat de bibliotheken bezoekerAPI.js, appMeasurement.js en at.js zich in versies bevinden die compatibel zijn met A4T. Meer over implementatievereisten leren, zie [&#x200B; alvorens u &#x200B;](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) uitvoert. |
+| ![&#x200B; Stap 3 &#x200B;](assets/step3_icon.png) | Zorg ervoor dat de SDID wordt ingesteld voor alle [!DNL Target] - en [!DNL Analytics] -aanroepen die de pagina verlaten en dat deze overeenkomen.<br/> gebruik een netwerkanalysator of het zuiveren hulpmiddel om ervoor te zorgen dat de `mboxMCSDID` parameter op [!DNL Target] vraag de parameter van SDID in de [!DNL Analytics] vraag aanpast. |
+| ![&#x200B; Stap 4 &#x200B;](assets/step4_icon.png) | Controleer of de implementatiebibliotheken in de juiste volgorde op uw sites worden geladen. Voor meer informatie, zie [&#x200B; Analytics voor de Implementatie van het Doel &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
 ## Hoe kan ik zien hoeveel gedeeltelijke gegevens ik heb? {#section_89B663E2824A4805AB934153508A0F4B}
 
@@ -71,11 +71,11 @@ In de meeste gevallen wordt een [!DNL Target] -hit gekoppeld aan een [!DNL Analy
 
 **Partial-gegevens klappen:** de gebruikers blijven soms niet lang genoeg op een pagina om een [!DNL Analytics] vraag te verzenden, maar [!DNL Target] heeft juiste MCID. Dit scenario resulteert in resultaten met gedeeltelijke gegevens (resultaten zonder paginaweergave [!DNL Analytics] ). Als deze gebruikers terugkeren naar uw site en een pagina met [!DNL Analytics] -code weergeven, worden ze correct geteld als bezoekers met terugzending. Deze treffers zouden verloren zijn gegaan als u slechts [!DNL Analytics] code op de pagina had. Sommige cliënten willen geen gegevens voor deze klappen omdat zij bepaalde metriek (bezoeken) opblazen en andere metriek (paginameningen per bezoek, tijd per bezoek, etc.) leegmaken. U ziet ook bezoeken zonder paginaweergaven. Er zijn echter nog geldige redenen om deze gegevens te bewaren.
 
-Om gedeeltelijk-gegevensklappen te minimaliseren, kunt u uw paginalading sneller maken, aan de recentste versies van de bibliotheken bijwerken, of a [ virtuele rapportreeks ](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=nl-NL) creëren die die klappen uitsluiten. Voor geleidelijke instructies, zie [ virtuele rapportsuites ](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=nl-NL) in de *Gids van Componenten van Analytics* creëren.
+Om gedeeltelijk-gegevensklappen te minimaliseren, kunt u uw paginalading sneller maken, aan de recentste versies van de bibliotheken bijwerken, of a [&#x200B; virtuele rapportreeks &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=nl-NL) creëren die die klappen uitsluiten. Voor geleidelijke instructies, zie [&#x200B; virtuele rapportsuites &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=nl-NL) in de *Gids van Componenten van Analytics* creëren.
 
 De volgende illustratie toont voor de segmentdefinitie voor de virtuele rapportreeks:
 
-![ ts_a4t beeld ](assets/ts_a4t.png)
+![&#x200B; ts_a4t beeld &#x200B;](assets/ts_a4t.png)
 
 Wanneer het creëren van de virtuele rapportreeks, specificeer de volgende configuratie voor de segmentdefinitie (zoals aangetoond in de bovengenoemde illustratie):
 
@@ -92,7 +92,7 @@ Wanneer het creëren van de virtuele rapportreeks, specificeer de volgende confi
 
 **Geweesde klappen:** In minder situaties, blijven de gebruikers niet lang genoeg op de pagina voor een vraag van de Analyse en het Doel kreeg geen juiste MCID. Deze hits worden door Adobe gedefinieerd als &#39;zwevende&#39; hits. Deze treffers vertegenwoordigen klanten die zelden terugkeren en ze verhogen bezoek en bezoekers tellen onterecht.
 
-Om deze &quot;weesse&quot;klappen te minimaliseren, kunt u a [ virtuele rapportreeks ](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=nl-NL) tot stand brengen die die klappen, zoals hierboven verklaard uitsluit.
+Om deze &quot;weesse&quot;klappen te minimaliseren, kunt u a [&#x200B; virtuele rapportreeks &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=nl-NL) tot stand brengen die die klappen, zoals hierboven verklaard uitsluit.
 
 ## Wat betekent dit voor mijn [!DNL Target] rapportage? {#section_AAD354C722BE46D4875507F0FCBA5E36}
 

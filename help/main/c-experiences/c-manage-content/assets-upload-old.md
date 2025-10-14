@@ -19,7 +19,7 @@ U kunt afbeeldingen uploaden naar de [!UICONTROL Image Offers] -lijst in [!DNL A
 
 1. Klik op **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]** .
 
-   ![ Aanbiedingen > Aanbiedingen van het Beeld ](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
+   ![&#x200B; Aanbiedingen > Aanbiedingen van het Beeld &#x200B;](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
 
 1. Klik op **[!UICONTROL Create]** > **[!UICONTROL Files]** .
 1. Blader naar het item dat u wilt toevoegen en selecteer dit item. Klik vervolgens op **[!UICONTROL Open]** .
@@ -33,13 +33,13 @@ Houd de muisaanwijzer in [!UICONTROL Card View] boven het gewenste afbeeldingsaa
 
 Klik in [!UICONTROL List View] op de miniatuurafbeelding aan de linkerkant van de lijst om het gewenste afbeeldingsaanbod of de gewenste afbeeldingsmap te selecteren en klik vervolgens op **[!UICONTROL Delete]** , zoals hieronder wordt weergegeven:
 
-![ Schrap geselecteerd punt ](/help/main/c-experiences/c-manage-content/assets/delete-image-offer.png)
+![&#x200B; Schrap geselecteerd punt &#x200B;](/help/main/c-experiences/c-manage-content/assets/delete-image-offer.png)
 
-## De video van de opleiding: De inhouds Bewaarplaats ![ badge van het Overzicht ](/help/main/assets/overview.png)
+## De video van de opleiding: De inhouds Bewaarplaats ![&#x200B; badge van het Overzicht &#x200B;](/help/main/assets/overview.png)
 
 Deze video bevat informatie over het beheren van inhoud.
 
-* Verbinding tussen de [ Bibliotheek van Activa van Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=nl-NL) en de Bibliotheek van de Inhoud van het Doel
+* Verbinding tussen de [&#x200B; Bibliotheek van Activa van Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=nl-NL) en de Bibliotheek van de Inhoud van het Doel
 * Aangepaste HTML-aanbiedingen
 * Aangepaste HTML-aanbieding in Visual Experience Composer
 

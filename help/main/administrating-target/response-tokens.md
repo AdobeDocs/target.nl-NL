@@ -28,8 +28,8 @@ Een belangrijk verschil tussen plug-ins en responstokens is dat plug-ins JavaScr
 
 | Doel SDK | Voorgestelde acties |
 |--- |--- |
-| [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Zorg ervoor dat u Platform Web SDK versie 2.6.0 of later gebruikt. Voor informatie over het downloaden van de recentste versie van het Web SDK van het Platform, zie [ SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=nl-NL){target=_blank} in de *overzicht van SDK van het Web van het Platform* gids installeren. Voor informatie over nieuwe functionaliteit in elke versie van het Web SDK van het Platform, zie [ de nota&#39;s van de Versie ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=nl-NL) in de *overzicht van SDK van het Web van het Platform* gids. |
-| [ at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=nl-NL){target=_blank} | Zorg ervoor dat u at.js versie 1.1 of later gebruikt. Voor informatie over het downloaden van de recentste versie van at.js, zie [ Download at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=nl-NL){target=_blank}. Voor informatie over nieuwe functionaliteit in elke versie van at.js, zie [ at.js de Details van de Versie ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank}.<br> Klanten die at.js gebruiken worden aangemoedigd om reactietokens te gebruiken en zich van stop-ins weg te bewegen. Sommige plug-ins die afhankelijk zijn van interne methoden die in mbox.js (nu afgekeurd) bestaan, maar niet in at.js, worden geleverd, maar mislukken. |
+| [&#x200B; SDK van het Web van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Zorg ervoor dat u Platform Web SDK versie 2.6.0 of later gebruikt. Voor informatie over het downloaden van de recentste versie van het Web SDK van het Platform, zie [&#x200B; SDK &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=nl-NL){target=_blank} in de *overzicht van SDK van het Web van het Platform* gids installeren. Voor informatie over nieuwe functionaliteit in elke versie van het Web SDK van het Platform, zie [&#x200B; de nota&#39;s van de Versie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=nl-NL) in de *overzicht van SDK van het Web van het Platform* gids. |
+| [&#x200B; at.js &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=nl-NL){target=_blank} | Zorg ervoor dat u at.js versie 1.1 of later gebruikt. Voor informatie over het downloaden van de recentste versie van at.js, zie [&#x200B; Download at.js &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=nl-NL){target=_blank}. Voor informatie over nieuwe functionaliteit in elke versie van at.js, zie [&#x200B; at.js de Details van de Versie &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank}.<br> Klanten die at.js gebruiken worden aangemoedigd om reactietokens te gebruiken en zich van stop-ins weg te bewegen. Sommige plug-ins die afhankelijk zijn van interne methoden die in mbox.js (nu afgekeurd) bestaan, maar niet in at.js, worden geleverd, maar mislukken. |
 
 ## Reactietokens gebruiken {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -37,8 +37,8 @@ Een belangrijk verschil tussen plug-ins en responstokens is dat plug-ins JavaScr
 
    Voor meer informatie:
 
-   * **SDK van het Web van het Platform**: Zie [ SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=nl-NL) in de *overzicht van SDK van het Platform van het Web* gids installeren.
-   * **at.js**: Zie [ Download at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=nl-NL){target=_blank}.
+   * **SDK van het Web van het Platform**: Zie [&#x200B; SDK &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=nl-NL) in de *overzicht van SDK van het Platform van het Web* gids installeren.
+   * **at.js**: Zie [&#x200B; Download at.js &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=nl-NL){target=_blank}.
 
 1. Klik in [!DNL Target] op **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]** .
 
@@ -58,7 +58,7 @@ Een belangrijk verschil tussen plug-ins en responstokens is dat plug-ins JavaScr
    |  | `profile.categoryAffinity` | Geeft de favoriete categorie van de bezoeker. |
    |  | `profile.categoryAffinities` | Retourneert een array van de bovenste 5 categorieën van de bezoeker als tekenreeksen. |
    | Activiteit | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | Details van de huidige activiteit.<br> Merk op dat de waarden voor aanbiedingsparameters op het ervaringsniveau worden geëvalueerd. |
-   | Geo | `geo.country`<br>`geo.countryCode`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Zie [ Geo ](/help/main/c-target/c-audiences/c-target-rules/geo.md) voor meer informatie over het gebruiken van geo het richten in activiteiten. |
+   | Geo | `geo.country`<br>`geo.countryCode`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Zie [&#x200B; Geo &#x200B;](/help/main/c-target/c-audiences/c-target-rules/geo.md) voor meer informatie over het gebruiken van geo het richten in activiteiten. |
    | De Methode van de Toewijzing van het verkeer <br> (is op [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization] slechts activiteiten van toepassing.) | `experience.trafficAllocationId` | Keert 0 terug als een bezoeker een ervaring van het zijn in &quot;controle&quot;verkeer en 1 ontving als een bezoeker een ervaring van de &quot;gerichte&quot;verkeersdistributie ontving. |
    |  | `experience.trafficAllocationType` | Retourneer &quot;besturingselement&quot; of &quot;gericht&quot;. |
 
@@ -78,7 +78,7 @@ Een belangrijk verschil tussen plug-ins en responstokens is dat plug-ins JavaScr
 
 Het proces dat u gebruikt om te luisteren naar [!DNL Target] reacties en om responstokens te lezen, hangt af van het feit of u een [!DNL Platform Web SDK] - of at.js-implementatie hebt.
 
-### ![ ](/help/main/assets/platform.png) gebruiken van de de objecten van de Handle klasse van SDK van het Web van Adobe Experience Platform[!DNL Platform Web SDK] {#platform-web-sdk}
+### ![&#x200B; &#x200B;](/help/main/assets/platform.png) gebruiken van de de objecten van de Handle klasse van SDK van het Web van Adobe Experience Platform[!DNL Platform Web SDK] {#platform-web-sdk}
 
 Gebruik de Object Handle-klasse, die een metagegevensobject en een gegevensobject bevat om te luisteren naar [!DNL Target] -reacties en de reactietokens te lezen.
 
@@ -145,9 +145,9 @@ In het volgende reactievoorbeeld wordt een [!DNL Platform Web SDK] aangepaste ge
 </html>
 ```
 
-### ![ at.js badge ](/help/main/assets/atjs.png) at.js die douanegebeurtenissen gebruiken
+### ![&#x200B; at.js badge &#x200B;](/help/main/assets/atjs.png) at.js die douanegebeurtenissen gebruiken
 
-Het gebruik [ at.js douanegebeurtenissen ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=nl-NL){target=_blank} om op de [!DNL Target] reactie te luisteren en de reactietokens te lezen.
+Het gebruik [&#x200B; at.js douanegebeurtenissen &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=nl-NL){target=_blank} om op de [!DNL Target] reactie te luisteren en de reactietokens te lezen.
 
 In het volgende codevoorbeeld wordt een [!DNL at.js] aangepaste gebeurtenishandler rechtstreeks aan de HTML-pagina toegevoegd:
 
@@ -218,7 +218,7 @@ Zoals hierboven vermeld, werken responstokens aan de profielgegevens die zijn op
 
 In de volgende secties wordt beschreven hoe u [!DNL Target] -gegevens naar Google Analytics 4 kunt verzenden. Gegevens die door responstokens worden verzonden, kunnen ook naar andere integratie van derden worden verzonden.
 
-### ![ AEP badge ](/help/main/assets/platform.png) die gegevens naar Google Analytics via het Web SDK van het Platform verzendt
+### ![&#x200B; AEP badge &#x200B;](/help/main/assets/platform.png) die gegevens naar Google Analytics via het Web SDK van het Platform verzendt
 
 Google Analytics kan via Platform Web SDK versie 2.6.0 (of hoger) gegevens worden verzonden door de volgende code toe te voegen in de HTML-pagina.
 
@@ -256,7 +256,7 @@ Google Analytics kan via Platform Web SDK versie 2.6.0 (of hoger) gegevens worde
 </script>
 ```
 
-### ![ at.js badge ](/help/main/assets/atjs.png) verzendt gegevens naar Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![&#x200B; at.js badge &#x200B;](/help/main/assets/atjs.png) verzendt gegevens naar Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Google Analytics kan gegevens verzenden via at.js door de volgende code toe te voegen op de HTML-pagina:
 
@@ -312,7 +312,7 @@ Google Analytics kan gegevens verzenden via at.js door de volgende code toe te v
 
 De volgende secties verstrekken informatie over het zuiveren reactietokens:
 
-### ![ at.js badge ](/help/main/assets/atjs.png) Google Analytics en het zuiveren
+### ![&#x200B; at.js badge &#x200B;](/help/main/assets/atjs.png) Google Analytics en het zuiveren
 
 Met de volgende code kunt u fouten opsporen met behulp van Google Analytics:
 
@@ -416,7 +416,7 @@ Het equivalent van de ttMeta-insteekmodule voor foutopsporingsdoeleinden kan wor
 </script>
 ```
 
-## ![ at.js ](/help/main/assets/atjs.png) de Video van de Opleiding: De Tokens van de Reactie en de Gebeurtenissen van de Douane at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## ![&#x200B; at.js &#x200B;](/help/main/assets/atjs.png) de Video van de Opleiding: De Tokens van de Reactie en de Gebeurtenissen van de Douane at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 In de volgende video wordt uitgelegd hoe u responstokens en aangepaste gebeurtenissen at.js kunt gebruiken om profielgegevens van [!DNL Target] naar systemen van derden te delen.
 

@@ -24,7 +24,7 @@ Houd rekening met de wijzigingen die van invloed zijn op de VEC en EEC wanneer u
 >
 >De volgende wijziging is van invloed op de drie updates die hieronder worden beschreven:
 >
-> * Zal ** niet VEC zonder de [ geïnstalleerde en toegelaten uitbreiding van de Helper VEC ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) voor wachtwoord-beschermde pagina&#39;s van uw plaatsen kunnen gebruiken. Inlogcookies van uw site worden beschouwd als cookies van derden en worden niet verzonden met aanmeldingsaanvragen in de VEC-editor in de modus [!UICONTROL Browse] . De enige uitzondering is wanneer voor uw aanmeldcookies van de site de kenmerken `SameSite=None` en `Secure` zijn ingesteld.
+> * Zal ** niet VEC zonder de [&#x200B; geïnstalleerde en toegelaten uitbreiding van de Helper VEC &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) voor wachtwoord-beschermde pagina&#39;s van uw plaatsen kunnen gebruiken. Inlogcookies van uw site worden beschouwd als cookies van derden en worden niet verzonden met aanmeldingsaanvragen in de VEC-editor in de modus [!UICONTROL Browse] . De enige uitzondering is wanneer voor uw aanmeldcookies van de site de kenmerken `SameSite=None` en `Secure` zijn ingesteld.
 
 **Chrome 94 (21 september, 2021)**: Met de aanstaande veranderingen die voor de versie van Chrome 94 (21 september, 2021) worden gepland, beïnvloedt de volgende verandering alle gebruikers met Chrome 94+ browser versies:
 
@@ -80,13 +80,13 @@ Als de CSP-headers van uw website bibliotheken [!DNL Target] blokkeren, wordt de
 
 >[!NOTE]
 >
->Naast de volgende informatie, kunt u de [ browser van de Helper van Adobe Target gebruiken VEC uitbreiding ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) voor [!DNL Google Chrome].
+>Naast de volgende informatie, kunt u de [&#x200B; browser van de Helper van Adobe Target gebruiken VEC uitbreiding &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) voor [!DNL Google Chrome].
 
-![ cps_headers beeld ](assets/cps_headers.png)
+![&#x200B; cps_headers beeld &#x200B;](assets/cps_headers.png)
 
 Als tussenoplossing kunt u een [!DNL Requestly] -regel configureren om CSP-headers te verwijderen, zoals hieronder wordt weergegeven:
 
-![ cps_headers_2 beeld ](assets/cps_headers_2.png)
+![&#x200B; cps_headers_2 beeld &#x200B;](assets/cps_headers_2.png)
 
 U kunt een gelijkaardige [!DNL Requestly] regel voor om het even welke kopbal vormen die een middel ertoe leidt om niet binnen VEC te laden.
 
@@ -114,7 +114,7 @@ Standaard blokkeert de VEC JavaScript-elementen. U kunt met deze elementen werke
 ## Wanneer ik één element op de pagina verander, veranderen de veelvoudige elementen. (VEC en EEG) {#section_309188ACF34942989BE473F63C5710AF}
 
 +++Details
-Als dezelfde DOM-element-id wordt gebruikt op meerdere elementen op de pagina en u een van deze elementen wijzigt, worden alle elementen met die id gewijzigd. Om dit te voorkomen, zou een identiteitskaart slechts eenmaal op elke pagina moeten worden gebruikt. Dit is een standaard beste HTML-praktijk. Voor meer informatie, zie [ Scenario&#39;s van de Wijziging van de Pagina ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Als dezelfde DOM-element-id wordt gebruikt op meerdere elementen op de pagina en u een van deze elementen wijzigt, worden alle elementen met die id gewijzigd. Om dit te voorkomen, zou een identiteitskaart slechts eenmaal op elke pagina moeten worden gebruikt. Dit is een standaard beste HTML-praktijk. Voor meer informatie, zie [&#x200B; Scenario&#39;s van de Wijziging van de Pagina &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 +++
 

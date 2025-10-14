@@ -25,7 +25,7 @@ Test de elementen op de pagina die waarschijnlijk belangrijke resultaten zullen 
 
 Tot slot alvorens u uw test creeert, zou u de inhoud moeten tot stand brengen u wilt testen. Begrijp de inhoudverschillen voor elke aanbieding, en creeer om het even welke beelden, tekst, en de aanbiedingen van HTML die u in de test verwacht te gebruiken.
 
-## De video van de opleiding: Creërend Multivariate Tests (9 :25) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: Creërend Multivariate Tests (9 :25) ![&#x200B; badge van het Leerprogramma &#x200B;](/help/main/assets/tutorial.png)
 
 In deze video ziet u hoe u een multivariate test plant en maakt met behulp van de [!DNL Target] driestapige geleide workflow.
 

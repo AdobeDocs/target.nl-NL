@@ -25,7 +25,7 @@ Afzonderlijke rubrieken met een komma om een object in meerdere rubrieken op te 
 
 Op basis van de frequentie en de frequentie van bezoeken aan de productcategorieën wordt de categoriaffiniteit (indien van toepassing) geregistreerd die een gebruiker heeft. De affiniteit van de categorie kan worden gebruikt om populaties voor uw activiteiten te richten.
 
-U kunt `user.categoryAffinities[]` in een profielscript gebruiken om een array met affiniteiten te retourneren die een bezoeker heeft gevuld. Voor meer informatie, zie [ user.categoryAffinities onder Voorwerpen en methodes in de attributen van het Profiel ](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects).
+U kunt `user.categoryAffinities[]` in een profielscript gebruiken om een array met affiniteiten te retourneren die een bezoeker heeft gevuld. Voor meer informatie, zie [&#x200B; user.categoryAffinities onder Voorwerpen en methodes in de attributen van het Profiel &#x200B;](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects).
 
 >[!IMPORTANT]
 >
@@ -114,11 +114,11 @@ De volgende secties bevatten informatie om u te helpen een publiek van de catego
 1. Klik op **[!UICONTROL + Add Rule]** > **[!UICONTROL Visitor Profile]** .
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Visitor Profile]** de optie **[!UICONTROL Category Affinity]**.
 
-   ![ het Profiel van de Bezoeker > de Affiniteit van de Categorie ](assets/affinity.png)
+   ![&#x200B; het Profiel van de Bezoeker > de Affiniteit van de Categorie &#x200B;](assets/affinity.png)
 
 1. Selecteer de gewenste categorie:
 
-   ![ Affiniteit van de Categorie > Categorie ](assets/affinity-category.png)
+   ![&#x200B; Affiniteit van de Categorie > Categorie &#x200B;](assets/affinity-category.png)
 
    Tot de categorieën behoren:
 

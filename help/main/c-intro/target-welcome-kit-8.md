@@ -17,6 +17,6 @@ Als u een activiteit in werking stelt en verbazingwekkende resultaten hebt, moet
 
 Bij het communiceren van deze resultaten is het handig om deze te benaderen zoals u een artikel vertelt. Maak het interessant en verklaar duidelijk wat het werd getest of gepersonaliseerd en waarom, en wat de resultaten waren. Gebruik de taal en de terminologie die worden begrepen door degenen die de resultaten evalueren.
 
-Wij hebben een [ Samenvattend malplaatje van Resultaten ](/help/main/assets/executive-summary.zip) in Microsoft PowerPoint omvat. Geef deze weer met het kleurenschema en het logo van uw organisatie en gebruik deze om de resultaten van uw eerste test- of personalisatieactiviteit weer te geven. Net als bij de Activiteitenplanner is de werkset als een zelfstandig bestand opgenomen, maar hier is ook een afbeelding van toegevoegd, samen met een voorbeeld van het type informatie dat in elk gedeelte van de sjabloon moet worden opgenomen.
+Wij hebben een [&#x200B; Samenvattend malplaatje van Resultaten &#x200B;](/help/main/assets/executive-summary.zip) in Microsoft PowerPoint omvat. Geef deze weer met het kleurenschema en het logo van uw organisatie en gebruik deze om de resultaten van uw eerste test- of personalisatieactiviteit weer te geven. Net als bij de Activiteitenplanner is de werkset als een zelfstandig bestand opgenomen, maar hier is ook een afbeelding van toegevoegd, samen met een voorbeeld van het type informatie dat in elk gedeelte van de sjabloon moet worden opgenomen.
 
-![ Uitvoerend Samenvattend rapport ](/help/main/c-intro/assets/executive-summary-report.png)
+![&#x200B; Uitvoerend Samenvattend rapport &#x200B;](/help/main/c-intro/assets/executive-summary-report.png)

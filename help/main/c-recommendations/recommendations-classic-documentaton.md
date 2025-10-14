@@ -17,10 +17,10 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] is een verouderd product en heeft geen licentie meer voor nieuwe klanten. Voor de beste [!DNL Recommendations] ervaring, bevorder aan [!DNL Recommendations] activiteiten beschikbaar in [ de Premium van Adobe Target ](/help/main/c-intro/intro.md).
+>[!DNL Recommendations Classic] is een verouderd product en heeft geen licentie meer voor nieuwe klanten. Voor de beste [!DNL Recommendations] ervaring, bevorder aan [!DNL Recommendations] activiteiten beschikbaar in [&#x200B; de Premium van Adobe Target &#x200B;](/help/main/c-intro/intro.md).
 
 Aanbevelingen helpen klanten te leiden naar objecten die ze anders wellicht niet kennen, waardoor de verkoop op uw website wordt verbeterd.
 
-Voor informatie om u te helpen tussen [!DNL Recommendations Classic] en de activiteiten van Aanbevelingen in [!DNL Target Premium] kiezen, zie [ Klassieke van Aanbevelingen tegenover de activiteiten van Aanbevelingen in Target Premium ](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+Voor informatie om u te helpen tussen [!DNL Recommendations Classic] en de activiteiten van Aanbevelingen in [!DNL Target Premium] kiezen, zie [&#x200B; Klassieke van Aanbevelingen tegenover de activiteiten van Aanbevelingen in Target Premium &#x200B;](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
-Download de documentatie voor [ Klassieke Adobe Recommendations ](/help/main/assets/adobe-recommendations-classic.pdf) in formaat van PDF.
+Download de documentatie voor [&#x200B; Klassieke Adobe Recommendations &#x200B;](/help/main/assets/adobe-recommendations-classic.pdf) in formaat van PDF.

@@ -39,7 +39,7 @@ Gebruik zowel [!DNL Target] als [!DNL Campaign] om verschillende onderdelen van 
 
 >[!NOTE]
 >
->Wanneer het gebruiken van een rawbox en [!DNL Target], zie de belangrijke veiligheidskennisgeving onder [ lijsten van gewenste personen creëren die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel ](/help/main/administrating-target/hosts.md#allowlist) te verzenden.
+>Wanneer het gebruiken van een rawbox en [!DNL Target], zie de belangrijke veiligheidskennisgeving onder [&#x200B; lijsten van gewenste personen creëren die gastheren specificeren die worden gemachtigd om mbox vraag naar Doel &#x200B;](/help/main/administrating-target/hosts.md#allowlist) te verzenden.
 
 * De levering in [!DNL Campaign]
 
@@ -49,11 +49,11 @@ Voordat u [!DNL Adobe Campaign] gebruikt om uw beoogde e-mailaanbiedingen in te 
 
 * Twee of meer [!DNL Target] omleidingsvoorstellen
 
-  Zie [ opnieuw richten aanbieding ](/help/main/c-experiences/c-manage-content/offer-redirect.md).
+  Zie [&#x200B; opnieuw richten aanbieding &#x200B;](/help/main/c-experiences/c-manage-content/offer-redirect.md).
 
-* A [!DNL Target] activiteit met een ervaring voor elke aanbieding en het gewenste [ metrische succes ](/help/main/c-activities/r-success-metrics/success-metrics.md).
+* A [!DNL Target] activiteit met een ervaring voor elke aanbieding en het gewenste [&#x200B; metrische succes &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md).
 
-  Zie [ opnieuw richten aan een URL ](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md).
+  Zie [&#x200B; opnieuw richten aan een URL &#x200B;](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
 Start de activiteit in [!DNL Target] voordat u het gedeelte [!DNL Campaign] van de integratie instelt.
 

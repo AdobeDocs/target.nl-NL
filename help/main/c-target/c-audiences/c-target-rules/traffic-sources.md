@@ -24,7 +24,7 @@ U kunt veelvoudige verkeersbronnen combineren om een complexe het richten regel 
    1. Geef een naam op voor het publiek en voeg een optionele beschrijving toe.
 1. Sleep **[!UICONTROL Traffic Sources]** naar het deelvenster van de publieksbuilder.
 
-   ![ target_traffic_source beeld ](assets/target_traffic_source.png)
+   ![&#x200B; target_traffic_source beeld &#x200B;](assets/target_traffic_source.png)
 
 1. Klik op **[!UICONTROL Select]** en selecteer een van de volgende opties:
 
@@ -43,7 +43,7 @@ U kunt veelvoudige verkeersbronnen combineren om een complexe het richten regel 
 
 U kunt zich richten op gebruikers die door een specifiek zoekprogramma of een specifieke bestemmingspagina naar uw site worden verwezen.
 
-## De video van de opleiding: Creërend publiek ![ badge van het Overzicht ](/help/main/assets/overview.png)
+## De video van de opleiding: Creërend publiek ![&#x200B; badge van het Overzicht &#x200B;](/help/main/assets/overview.png)
 
 Deze video bevat informatie over het gebruik van publiekscategorieën.
 

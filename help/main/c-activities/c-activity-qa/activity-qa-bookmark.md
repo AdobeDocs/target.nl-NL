@@ -21,7 +21,7 @@ Informatie die u helpt bij het gebruik van de [!DNL Target] QA-bladwijzer om [!D
 
 ## Activity QA bookmarklet voor at.js 1.*x*
 
-Omdat [ wijze QA ](/help/main/c-activities/c-activity-qa/activity-qa.md) kleverig is, nadat u een website op wijze QA doorbladert, moet uw [!DNL Target] zitting verlopen of u moet [!DNL Target] geven u van wijze QA alvorens u uw plaats als een typische bezoeker kunt bekijken. Gebruik de bladwijzer QA [!DNL Target] om uzelf uit de modus QA te forceren.
+Omdat [&#x200B; wijze QA &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa.md) kleverig is, nadat u een website op wijze QA doorbladert, moet uw [!DNL Target] zitting verlopen of u moet [!DNL Target] geven u van wijze QA alvorens u uw plaats als een typische bezoeker kunt bekijken. Gebruik de bladwijzer QA [!DNL Target] om uzelf uit de modus QA te forceren.
 
 Als u de [!DNL Target] QA-bladwijzer wilt gebruiken, maakt u een bladwijzer met de volgende JavaScript-code en voegt u deze toe aan de werkbalk Bladwijzers van uw browser:
 

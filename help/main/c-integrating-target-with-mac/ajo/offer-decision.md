@@ -19,15 +19,15 @@ Voeg via [!DNL Adobe Journey Optimizer] gemaakte aanbiedingsbeslissingen toe aan
 
 Raadpleeg de volgende onderwerpen in de [!DNL Adobe Journey Optimizer] -documentatie voor meer informatie over *[!DNL Journey Optimizer]* en de opties die u kunt kiezen:
 
-* [ krijgen Begonnen met Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=nl-NL)
+* [&#x200B; krijgen Begonnen met Journey Optimizer &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=nl-NL)
 
-* [ Ongeveer Beslissingsbeheer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=nl-NL)
+* [&#x200B; Ongeveer Beslissingsbeheer &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=nl-NL)
 
 ## Vereisten
 
 Als u de aanbiedingsbeslissingen in [!DNL Target] wilt gebruiken, hebt u het volgende nodig:
 
-* [!DNL Adobe Target Standard] of [!DNL Adobe Target Premium] uitgevoerd gebruikend [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+* [!DNL Adobe Target Standard] of [!DNL Adobe Target Premium] uitgevoerd gebruikend [&#x200B; SDK van het Web van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
   De functie is niet beschikbaar wanneer u [!DNL Target] implementeert met at.js of andere [!DNL Target] SDK&#39;s.
 
@@ -56,9 +56,9 @@ In [!DNL Adobe Journey Optimizer] kunt u een gepersonaliseerde homepage-hoofdaan
 
 ## Maak een ervaring die gebruikmaakt van een beslissing over een aanbieding:
 
-1. Terwijl het uitgeven van of het creëren van een handboek [!UICONTROL A/B Test] of [!UICONTROL Experience Targeting] (XT) activiteit in [!UICONTROL Visual Experience Composer] (VEC), klik een paginaelement om het [ optiemenu ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) te tonen.
+1. Terwijl het uitgeven van of het creëren van een handboek [!UICONTROL A/B Test] of [!UICONTROL Experience Targeting] (XT) activiteit in [!UICONTROL Visual Experience Composer] (VEC), klik een paginaelement om het [&#x200B; optiemenu &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) te tonen.
 
-   ![ menu van Opties in de Visuele Composer van de Ervaring ](assets/options-menu1.png)
+   ![&#x200B; menu van Opties in de Visuele Composer van de Ervaring &#x200B;](assets/options-menu1.png)
 
    >[!NOTE]
    >
@@ -66,25 +66,25 @@ In [!DNL Adobe Journey Optimizer] kunt u een gepersonaliseerde homepage-hoofdaan
 
 1. Klik op **[!UICONTROL Replace Content]** en vervolgens op **[!UICONTROL Offer Decision]** .
 
-   De optie [!UICONTROL Offer Decision] is alleen beschikbaar bij het bewerken of maken van [ handmatige [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) of [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activiteiten. Deze optie is niet beschikbaar voor andere typen activiteiten. Welke opties beschikbaar zijn in het menu, is afhankelijk van het geselecteerde element.
+   De optie [!UICONTROL Offer Decision] is alleen beschikbaar bij het bewerken of maken van [&#x200B; handmatige [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) of [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activiteiten. Deze optie is niet beschikbaar voor andere typen activiteiten. Welke opties beschikbaar zijn in het menu, is afhankelijk van het geselecteerde element.
 
-   ![ menu van Opties in de Visuele Composer van de Ervaring ](assets/options-menu.png)
+   ![&#x200B; menu van Opties in de Visuele Composer van de Ervaring &#x200B;](assets/options-menu.png)
 
 1. Selecteer in de **[!UICONTROL Add Offer Decision]** -rail rechts van de VEC de gewenste sandbox en klik vervolgens op Offerte Decision.placement selecteren.
 
-   A [ zandbak ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=nl-NL){target=_blank} in [!DNL Adobe Experience Platform] laat u uw instantie in virtuele milieu&#39;s verdelen. U hebt bijvoorbeeld een productieomgeving en een testomgeving. A [ plaatsing ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=nl-NL){target=_blank} in [!DNL Adobe Journey Optimizer] hulp zorgt ervoor dat de juiste vertoningen van de aanbiedingsinhoud in de juiste plaats.
+   A [&#x200B; zandbak &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=nl-NL){target=_blank} in [!DNL Adobe Experience Platform] laat u uw instantie in virtuele milieu&#39;s verdelen. U hebt bijvoorbeeld een productieomgeving en een testomgeving. A [&#x200B; plaatsing &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=nl-NL){target=_blank} in [!DNL Adobe Journey Optimizer] hulp zorgt ervoor dat de juiste vertoningen van de aanbiedingsinhoud in de juiste plaats.
 
-   ![ Sandbox en de drop-down lijsten van Plaatsen in de Add de dialoogdoos van het Besluit van de Aanbieding ](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
+   ![&#x200B; Sandbox en de drop-down lijsten van Plaatsen in de Add de dialoogdoos van het Besluit van de Aanbieding &#x200B;](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
 1. Selecteer de gewenste plaatsing van de aanbieding en de keuze voor de aanbieding en klik op **[!UICONTROL Add]** .
 
-   ![ Uitgezochte de besluitvormingsdialoogdoos van het Voorstel ](/help/main/c-integrating-target-with-mac/ajo/assets/select-offer-decision.png)
+   ![&#x200B; Uitgezochte de besluitvormingsdialoogdoos van het Voorstel &#x200B;](/help/main/c-integrating-target-with-mac/ajo/assets/select-offer-decision.png)
 
    Uw website wordt weergegeven in de VEC waar u het nieuwe besluit over aanbiedingen kunt zien in de [!UICONTROL Modifications] rail. U kunt op een aanbieding onder [!UICONTROL Offer Preview] onder aan de [!UICONTROL Offer Decision] -rail klikken om het besluit over de aanbieding te bekijken.
 
    <!--You can examine the various offers contained in the offer by clicking the appropriate icon at the bottom of the [!UICONTROL Offer Preview] dialog box, including the fallback offer. A fallback offer is the default offer displayed when a visitor is not eligible for any of the personalized offers in the collection.-->
 
-   ![ voorproef van de Aanbieding ](assets/offer-preview2.png)
+   ![&#x200B; voorproef van de Aanbieding &#x200B;](assets/offer-preview2.png)
 
 1. Voltooi het maken van de activiteit door de stappen [!UICONTROL Targeting] en [!UICONTROL Goals & Settings] van de driedelige geleide workflow te voltooien.
 
@@ -96,14 +96,14 @@ In [!DNL Adobe Journey Optimizer] kunt u een gepersonaliseerde homepage-hoofdaan
 
 Neem de volgende informatie in overweging wanneer u met de beslissingen over aanbiedingen werkt:
 
-* De integratie van de aanbiedingsbeslissing werkt voor [!DNL Target] implementaties die op het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} worden gebaseerd. Deze functie is niet beschikbaar wanneer u [!DNL Target] implementeert met at.js of andere [!DNL Target] SDK&#39;s.
+* De integratie van de aanbiedingsbeslissing werkt voor [!DNL Target] implementaties die op het [&#x200B; Web SDK van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} worden gebaseerd. Deze functie is niet beschikbaar wanneer u [!DNL Target] implementeert met at.js of andere [!DNL Target] SDK&#39;s.
 
-* De [!DNL Target]/ [!DNL Adobe Journey Optimizer] integratie steunt [ handboek [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) en [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) slechts activiteiten. Deze functie is niet beschikbaar voor andere typen activiteiten.
+* De [!DNL Target]/ [!DNL Adobe Journey Optimizer] integratie steunt [&#x200B; handboek [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) en [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) slechts activiteiten. Deze functie is niet beschikbaar voor andere typen activiteiten.
 
 * U kunt [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) niet gebruiken als u aanbiedingsbesluiten in een activiteit gebruikt. Kies [!DNL Target] als de rapportbron op de [!UICONTROL Goals and Settings] -pagina tijdens het instellen van de activiteit als u beslissingen aanbiedt in de activiteit.
 
-* Aanbiedingen met het inhoudstype text/html bieden geen ondersteuning voor levering van inhoud via de URL. DeliveringURL wordt gesteund door [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) slechts waar de cliënt voor uitdrukkelijk het halen en het samenstellen van de inhoud verantwoordelijk is.
+* Aanbiedingen met het inhoudstype text/html bieden geen ondersteuning voor levering van inhoud via de URL. DeliveringURL wordt gesteund door [&#x200B; vorm-Gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md) slechts waar de cliënt voor uitdrukkelijk het halen en het samenstellen van de inhoud verantwoordelijk is.
 
 * [!DNL Target] reporting biedt geen rapportage op aanbodbeslissingsniveau.
 
-* Het visualiseren van [ verbindingen QA ](/help/main/c-activities/c-activity-qa/activity-qa.md) voor [!DNL Target] ervaringen die aanbiedingsbesluiten bevatten beïnvloedt frequentiecapping die in [!DNL Adobe Journey Optimizer] voor die aanbiedingsbesluiten wordt geplaatst.
+* Het visualiseren van [&#x200B; verbindingen QA &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa.md) voor [!DNL Target] ervaringen die aanbiedingsbesluiten bevatten beïnvloedt frequentiecapping die in [!DNL Adobe Journey Optimizer] voor die aanbiedingsbesluiten wordt geplaatst.

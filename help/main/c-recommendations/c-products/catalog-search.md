@@ -22,7 +22,7 @@ De catalogi verwijzen naar uw volledige productreeks (entiteiten). Uw catalogus 
 
 1. Klik op [!UICONTROL Catalog Search] > **[!UICONTROL Recommendations]** om de pagina **[!UICONTROL Catalog Search]** te openen.
 
-1. (Facultatief) om filters op uw onderzoek toe te passen, klik het **[!UICONTROL Show Filters]** pictogram ( ![ toon het pictogram van Filters ](/help/main/assets/icons/Filter.svg)). U kunt filteren op [!UICONTROL Environment] , [!UICONTROL Collections] , [!UICONTROL Category] , [!UICONTROL Brand] , [!UICONTROL Inventory] en [!UICONTROL Value] .
+1. (Facultatief) om filters op uw onderzoek toe te passen, klik het **[!UICONTROL Show Filters]** pictogram ( ![&#x200B; toon het pictogram van Filters &#x200B;](/help/main/assets/icons/Filter.svg)). U kunt filteren op [!UICONTROL Environment] , [!UICONTROL Collections] , [!UICONTROL Category] , [!UICONTROL Brand] , [!UICONTROL Inventory] en [!UICONTROL Value] .
 
 ## Een eenvoudige zoekopdracht uitvoeren
 
@@ -42,7 +42,7 @@ De catalogi verwijzen naar uw volledige productreeks (entiteiten). Uw catalogus 
    >
    > Wanneer u een cataloguszoekopdracht uitvoert op een aangepast kenmerk met een numerieke waarde, wordt het aangepaste kenmerk in de resultaten behandeld als een tekenreeks in plaats van een numerieke waarde.
    >
-   >Er is momenteel geen functionaliteit beschikbaar waarmee u het type van een kenmerk kunt wijzigen. Om een verandering aan te brengen, [ open een klantenkwestie ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) van verwijzingen voorzien van de attributen die het type vereisen dat van koord in numeriek wordt veranderd.
+   >Er is momenteel geen functionaliteit beschikbaar waarmee u het type van een kenmerk kunt wijzigen. Om een verandering aan te brengen, [&#x200B; open een klantenkwestie &#x200B;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) van verwijzingen voorzien van de attributen die het type vereisen dat van koord in numeriek wordt veranderd.
 
 <!-- ### Perform an advanced search {#advanced-search}
 
@@ -84,7 +84,7 @@ Alle informatie over dat item wordt verwijderd uit de catalogusindex. Het item w
 
 ## De catalogus vernieuwen
 
-De index van uw catalogus wordt automatisch gecreeerd wanneer u uw eerste voer uploadt, en volgens het [ gespecificeerde programma ](/help/main/c-recommendations/c-products/feeds.md#steps) verfrist.
+De index van uw catalogus wordt automatisch gecreeerd wanneer u uw eerste voer uploadt, en volgens het [&#x200B; gespecificeerde programma &#x200B;](/help/main/c-recommendations/c-products/feeds.md#steps) verfrist.
 
 De catalogus wordt automatisch vernieuwd wanneer updates worden ontvangen via feed-bestanden, API- of mbox-updates. Updates worden meestal binnen een uur voltooid. Als er updates worden uitgevoerd, wordt de tijd weergegeven waarop de meest recente update is gestart. Als er geen updates worden uitgevoerd, wordt de tijd weergegeven waarop de meest recente update is gestart en voltooid.
 
@@ -104,9 +104,9 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 ## De omgeving wijzigen
 
-[ Milieu&#39;s ](/help/main/administrating-target/environments.md) laten u uw plaatsen en pre-productiemilieu&#39;s voor gemakkelijk beheer en gescheiden rapportering organiseren.
+[&#x200B; Milieu&#39;s &#x200B;](/help/main/administrating-target/environments.md) laten u uw plaatsen en pre-productiemilieu&#39;s voor gemakkelijk beheer en gescheiden rapportering organiseren.
 
-1. Klik het pictogram van Filters van de Show ( ![ toon het pictogram van Filters ](/help/main/assets/icons/Filter.svg)).
+1. Klik het pictogram van Filters van de Show ( ![&#x200B; toon het pictogram van Filters &#x200B;](/help/main/assets/icons/Filter.svg)).
 
 1. Selecteer de gewenste omgeving in de vervolgkeuzelijst **[!UICONTROL Environment]** .
 
@@ -132,7 +132,7 @@ Keep in mind that the additional filter facets are available in the current sess
 
 U kunt de actieve kolommen op de [!UICONTROL Catalog Search] pagina wijzigen.
 
-1. Klik het **[!UICONTROL Customize Table]** pictogram ( ![ pas het pictogram van de Lijst ](/help/main/assets/icons/ColumnSetting.svg) aan).
+1. Klik het **[!UICONTROL Customize Table]** pictogram ( ![&#x200B; pas het pictogram van de Lijst &#x200B;](/help/main/assets/icons/ColumnSetting.svg) aan).
 
 1. Schakel de kolommen in of uit die u wilt weergeven of verbergen.
 

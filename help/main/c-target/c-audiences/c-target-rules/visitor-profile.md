@@ -21,7 +21,7 @@ Maak een publiek in [!DNL Adobe Target] om bezoekers aan te wijzen die aan speci
 
 1. Klik op **[!UICONTROL Select]** en selecteer een van de volgende opties:
 
-   ![ target_bezoeker_profile beeld ](assets/target_visitor_profile.png)
+   ![&#x200B; target_bezoeker_profile beeld &#x200B;](assets/target_visitor_profile.png)
 
    Bezoekerprofielparameters worden doorgegeven via het mbox (profiel). U kunt nieuwe of terugkerende bezoekers richten, of alle gebruikers omvatten.
 
@@ -42,7 +42,7 @@ Maak een publiek in [!DNL Adobe Target] om bezoekers aan te wijzen die aan speci
 1. (Optioneel) Stel aanvullende regels voor het publiek in.
 1. Klik op **[!UICONTROL Done]**.
 
-## De video van de opleiding: Creërend publiek ![ badge van het Overzicht ](/help/main/assets/overview.png)
+## De video van de opleiding: Creërend publiek ![&#x200B; badge van het Overzicht &#x200B;](/help/main/assets/overview.png)
 
 Deze video bevat informatie over het gebruik van publiekscategorieën.
 

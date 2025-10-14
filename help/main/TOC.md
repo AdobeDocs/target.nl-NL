@@ -37,7 +37,7 @@ ht-degree: 2%
       + [Overzicht van de welkomstkit](/help/main/c-intro/target-welcome-kit.md)
       + [Hoofdstuk 1: Inleiding](/help/main/c-intro/target-welcome-kit-1.md)
       + [Hoofdstuk 2: Doel in één oogopslag](/help/main/c-intro/target-welcome-kit-2.md)
-      + [ Hoofdstuk 3: Ontwikkel uw het testen en verpersoonlijkingsideeën ](/help/main/c-intro/target-welcome-kit-3.md)
+      + [&#x200B; Hoofdstuk 3: Ontwikkel uw het testen en verpersoonlijkingsideeën &#x200B;](/help/main/c-intro/target-welcome-kit-3.md)
       + [Hoofdstuk 4: Tips voor het gebruik van Doel](/help/main/c-intro/target-welcome-kit-4.md)
       + [Hoofdstuk 5: Inspiratie voor test- en personalisatieactiviteiten](/help/main/c-intro/target-welcome-kit-5.md)
       + [Hoofdstuk 6: Eenvoudig te vermijden valkuilen](/help/main/c-intro/target-welcome-kit-6.md)
@@ -72,7 +72,7 @@ ht-degree: 2%
          + [Adobe I/O-integratie toegang verlenen tot werkruimten en rollen toewijzen](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Aanbevelingen](/help/main/administrating-target/recommendations-settings.md)
 + Doel implementeren {#implement-target}
-   + [ voer het overzicht van het Doel uit ](c-implementing-target/implementing-target.md)
+   + [&#x200B; voer het overzicht van het Doel uit &#x200B;](c-implementing-target/implementing-target.md)
 + Doel integreren met de Experience Cloud {#integrate}
    + Adobe Analytics als de rapportagebron voor Target (A4T) {#a4t}
       + [A4T-overzicht](c-integrating-target-with-mac/a4t/a4t.md)
@@ -100,7 +100,7 @@ ht-degree: 2%
       + [Doelrapportage in Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Doel integreren met Adobe Journey Optimizer (AJO) {#ajo}
       + [Besluiten over aanbiedingen gebruiken](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-      + [ integreren  [!DNL Adobe Target Recommendations]  en  [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
+      + [&#x200B; integreren  [!DNL Adobe Target Recommendations]  en  [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
       + Adobe Journey Optimizer Use cases {#use-cases}
          + [Gebruiksscenario&#39;s voor optimalisatie bovenaan in Adobe Journey Optimizer - web- en op code gebaseerde kanalen](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + [Inhoud wijzigt via A/B-tests in Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
@@ -302,7 +302,7 @@ ht-degree: 2%
       + [Verzamelingen](c-recommendations/c-products/collections.md)
       + [Uitsluitingen](c-recommendations/c-products/exclusions.md)
    + Criteria {#criteria}
-      + [ Overzicht van Criteria ](c-recommendations/c-algorithms/algorithms.md)
+      + [&#x200B; Overzicht van Criteria &#x200B;](c-recommendations/c-algorithms/algorithms.md)
       + [Criteria maken](c-recommendations/c-algorithms/create-new-algorithm.md)
       + [Criteria-reeksen maken](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [De aanbeveling baseren op een aanbevelingen](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
@@ -339,4 +339,4 @@ ht-degree: 2%
    + [Limieten](r-troubleshooting-target/target-limits.md)
 + Doel-API&#39;s {#apis}
    + [Overzicht Adobe Target API](/help/main/api/api-overview.md)
-+ [ Middelen en contactinformatie ](cmp-resources-and-contact-information.md)
++ [&#x200B; Middelen en contactinformatie &#x200B;](cmp-resources-and-contact-information.md)

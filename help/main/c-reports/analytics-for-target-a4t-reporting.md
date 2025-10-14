@@ -15,4 +15,4 @@ ht-degree: 0%
 
 Het gebruiken van Analytics als uw rapporteringsbron voor Doel (A4T) geeft u toegang tot de rapporten van Analytics voor uw activiteiten van het Doel.
 
-Voor meer informatie over rapporten A4T, zie [ A4T die ](/help/main/c-integrating-target-with-mac/a4t/reporting.md#concept_716AF8D545AD404EAAEE99A6DB7B9483) in [ Adobe Analytics melden als Rapporterende Source voor Adobe Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) sectie.
+Voor meer informatie over rapporten A4T, zie [&#x200B; A4T die &#x200B;](/help/main/c-integrating-target-with-mac/a4t/reporting.md#concept_716AF8D545AD404EAAEE99A6DB7B9483) in [&#x200B; Adobe Analytics melden als Rapporterende Source voor Adobe Target (A4T) &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) sectie.

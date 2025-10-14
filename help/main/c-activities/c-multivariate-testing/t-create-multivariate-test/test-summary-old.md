@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Het testoverzicht biedt een visueel overzicht van uw [!DNL Adobe Target] [!UICONTROL Multivariate Test] .
 
-![ de summiere dialoogdoos van de Test ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary2new.png)
+![&#x200B; de summiere dialoogdoos van de Test &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary2new.png)
 
 De samenvatting van de test toont:
 

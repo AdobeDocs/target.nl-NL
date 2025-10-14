@@ -22,21 +22,21 @@ JSON-aanbiedingen kunnen worden gebruikt in op formulieren gebaseerde activiteit
 Houd rekening met de volgende informatie terwijl u met JSON werkt:
 
 * JSON-aanbiedingen zijn momenteel alleen beschikbaar voor [!UICONTROL A/B Test]-, [!UICONTROL Automated Personalization] (AP)- en [!UICONTROL Experience Targeting] (XT)-activiteiten.
-* De aanbiedingen JSON kunnen in [ vorm-gebaseerde activiteiten ](/help/main/c-experiences/form-experience-composer.md) slechts worden gebruikt.
-* De aanbiedingen JSON kunnen direct worden teruggewonnen wanneer u de [ Zijde APIs van de Server en Mobiele Node.js, Java, .NET, en Python SDKs ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=nl-NL){target=_blank} gebruikt.
-* In browser, kunnen de aanbiedingen JSON slechts via at.js 1.2.3 (of recenter) worden teruggewonnen en [ getOffer () gebruiken ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html?lang=nl-NL){target=_blank} door acties te filtreren gebruikend de `setJson` actie.
+* De aanbiedingen JSON kunnen in [&#x200B; vorm-gebaseerde activiteiten &#x200B;](/help/main/c-experiences/form-experience-composer.md) slechts worden gebruikt.
+* De aanbiedingen JSON kunnen direct worden teruggewonnen wanneer u de [&#x200B; Zijde APIs van de Server en Mobiele Node.js, Java, .NET, en Python SDKs &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=nl-NL){target=_blank} gebruikt.
+* In browser, kunnen de aanbiedingen JSON slechts via at.js 1.2.3 (of recenter) worden teruggewonnen en [&#x200B; getOffer () gebruiken &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html?lang=nl-NL){target=_blank} door acties te filtreren gebruikend de `setJson` actie.
 * JSON-aanbiedingen worden geleverd als native JSON-objecten in plaats van als tekenreeksen. Consumenten van deze objecten hoeven objecten niet langer als tekenreeksen te verwerken en deze in JSON-objecten om te zetten.
-* JSON-aanbiedingen worden niet automatisch toegepast in tegenstelling tot andere aanbiedingen (zoals HTML-aanbiedingen) omdat JSON-aanbiedingen niet-visuele aanbiedingen zijn. De ontwikkelaars moeten code schrijven om de aanbieding uitdrukkelijk te krijgen gebruikend [ getOffer () ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html?lang=nl-NL){target=_blank}.
+* JSON-aanbiedingen worden niet automatisch toegepast in tegenstelling tot andere aanbiedingen (zoals HTML-aanbiedingen) omdat JSON-aanbiedingen niet-visuele aanbiedingen zijn. De ontwikkelaars moeten code schrijven om de aanbieding uitdrukkelijk te krijgen gebruikend [&#x200B; getOffer () &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html?lang=nl-NL){target=_blank}.
 
 ## Een JSON-aanbieding maken {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
 1. Klik op **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]** .
 
-   ![ Aanbiedingen > het lusje van de Aanbiedingen van de Code ](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
+   ![&#x200B; Aanbiedingen > het lusje van de Aanbiedingen van de Code &#x200B;](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
 
 1. Klik op **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]** .
 
-   ![ aanbieding-json beeld ](assets/offer-json.png)
+   ![&#x200B; aanbieding-json beeld &#x200B;](assets/offer-json.png)
 
 1. Typ een naam voor het voorstel.
 1. Typ of plak de JSON-code in het vak **[!UICONTROL Code]** .
@@ -44,7 +44,7 @@ Houd rekening met de volgende informatie terwijl u met JSON werkt:
 
 ## JSON-voorbeeld {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
-De aanbiedingen JSON worden gesteund slechts in activiteiten die worden gecreeerd gebruikend [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md). De enige manier om JSON-aanbiedingen te kunnen gebruiken is momenteel via directe API/SDK-aanroepen.
+De aanbiedingen JSON worden gesteund slechts in activiteiten die worden gecreeerd gebruikend [&#x200B; vorm-Gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md). De enige manier om JSON-aanbiedingen te kunnen gebruiken is momenteel via directe API/SDK-aanroepen.
 
 Hier volgt een voorbeeld:
 
@@ -135,10 +135,10 @@ adobe.target.getOffer({
 
 CDP-profielkenmerken in realtime kunnen worden gedeeld met [!DNL Target] voor gebruik in HTML- en JSON-aanbiedingen.
 
-Voor meer informatie, zie [ de Attributen van het Profiel in real time CDP van het Aandeel met  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
+Voor meer informatie, zie [&#x200B; de Attributen van het Profiel in real time CDP van het Aandeel met  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
 
 ## Aanbiedingen filteren door het type JSON-aanbieding {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
 U kunt de [!UICONTROL Offers] bibliotheek filteren op het JSON-aanbiedingstype door op de vervolgkeuzelijst **[!UICONTROL Type]** te klikken en vervolgens het selectievakje **[!UICONTROL JSON]** in te schakelen.
 
-![ aanbod-json-filter beeld ](assets/offer-json-filter.png)
+![&#x200B; aanbod-json-filter beeld &#x200B;](assets/offer-json-filter.png)

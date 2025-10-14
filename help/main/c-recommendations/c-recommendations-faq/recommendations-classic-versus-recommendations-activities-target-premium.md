@@ -41,24 +41,24 @@ Deze functionaliteit opent volledig nieuwe mogelijkheden, zoals:
 
 Als u aan de slag wilt gaan, maakt u een [!UICONTROL A/B Test] - of [!UICONTROL Experience Targeting] -activiteit met behulp van [!UICONTROL Visual Experience Composer] en gebruikt u de handeling [!UICONTROL Insert Before] , [!UICONTROL Insert After] of [!UICONTROL Replace With] om aanbevelingen aan een ervaring toe te voegen.
 
-Voor meer informatie, zie [ Aanbevelingen als aanbieding ](/help/main/c-recommendations/recommendations-as-an-offer.md).
+Voor meer informatie, zie [&#x200B; Aanbevelingen als aanbieding &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 ## Criteria {#section_117709846DAA404580EBE879FFCBD9BA}
 
 [!DNL Target Recommendations] bevat een bibliotheek met criteria die voorverpakte sets regels en configuraties bevat. In [!DNL Recommendations Classic] is elke aanbeveling handmatig opgebouwd door een formulier in te vullen en een keuze te maken in de grote lijst met regels. Wanneer u nu een [!DNL Recommendations] -activiteit maakt, kiest u gewoon een vooraf geconfigureerde set criteria. U kunt nog steeds aangepaste aanbevelingen maken, maar de Criteria Library bevat veel van de meest gebruikte configuraties, vooraf gebouwd om het proces te vereenvoudigen en taal te gebruiken die mensen begrijpen. Deze vooraf verpakte criteria kunnen worden gebruikt zoals is, of zij kunnen worden gekopieerd en worden uitgegeven om uw specifieke behoeften te passen.
 
-![ overview_criteria beeld ](assets/overview_criteria.png)
+![&#x200B; overview_criteria beeld &#x200B;](assets/overview_criteria.png)
 
 De criteria worden pre-gevormd en gesorteerd door de industrie verticals, paginatypen, en implementatie. U kunt bijvoorbeeld zoeken naar de criteria die van toepassing zijn op de verticale handelsversie, voor gebruik op een productpagina, waarbij producten uit een bepaalde categorie worden weergegeven (zoals gedefinieerd door de parameter `entity.categoryID` ).
 
-Voor meer informatie over het gebruiken van en het creëren van criteria, zie [ Criteria ](/help/main/c-recommendations/c-algorithms/algorithms.md).
+Voor meer informatie over het gebruiken van en het creëren van criteria, zie [&#x200B; Criteria &#x200B;](/help/main/c-recommendations/c-algorithms/algorithms.md).
 
 ## Workflow {#section_76B4A26297BF422382DE2C79A2713D3C}
 
 De [!DNL Recommendations] -workflow is vereenvoudigd. In plaats van ingewikkelde formulieren in te vullen, volgt u een visuele workflow om:
 
 1. Selecteer de criteria.
-1. Selecteer een pre-gevormd [ ontwerp ](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+1. Selecteer een pre-gevormd [&#x200B; ontwerp &#x200B;](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 1. Bekijk de resulterende aanbevelingen.
 
 ## Visuele voorvertoning {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
@@ -69,10 +69,10 @@ U kunt uw aanbevelingen voorvertonen nadat u ze hebt ingesteld en de benodigde w
 
 In [!DNL Recommendations Classic] waren er zes doelopties. Bij de activiteiten van de aanbevelingen wordt gebruikgemaakt van het volledige scala van doelopties. Definieer een publiek met [!DNL Target] of een ander [!DNL Adobe Experience Cloud] publiek (zoals [!DNL Audience Manager] en [!DNL Analytics] ) en selecteer vervolgens het percentage van de items in de activiteit die elk ontwerp zien, en de percentages die het besturingselement zien.
 
-![ overview_targeting beeld ](assets/overview_targeting.png)
+![&#x200B; overview_targeting beeld &#x200B;](assets/overview_targeting.png)
 
 ## Rapportage {#section_25C2FCCE4BC1488496C517C0470B5CD6}
 
 In [!DNL Target] biedt [!DNL Recommendations] verbeterde rapportage die de mogelijkheden benut die worden geboden door [!DNL Target] en [!DNL Experience Cloud] . In plaats van alleen maar de lift te tonen die door [!DNL Recommendations] wordt geleverd in vergelijking met de resultaten zonder deze, kunt u volledige informatie over uw [!DNL Recommendations] -activiteit bekijken.
 
-![ overview_report beeld ](assets/overview_report.png)
+![&#x200B; overview_report beeld &#x200B;](assets/overview_report.png)

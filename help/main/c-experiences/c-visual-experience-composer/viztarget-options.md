@@ -17,15 +17,15 @@ In de release [!DNL Adobe Target Standard/Premium] 25.2.1 (17 februari 2015) wor
 
 >[!TIP]
 >
->Om te leren hoe bijgewerkte VEC van erfenisVEC verschilt, zie [ de Veranderingen van Composer van de Visuele Ervaring ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
+>Om te leren hoe bijgewerkte VEC van erfenisVEC verschilt, zie [&#x200B; de Veranderingen van Composer van de Visuele Ervaring &#x200B;](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
 
 >[!IMPORTANT]
 >
->Voor de bijgewerkte [!UICONTROL Visual Editing Composer] is de [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] -extensie ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) beschikbaar op de [!DNL Chrome Web Store] .
+>Voor de bijgewerkte [!UICONTROL Visual Editing Composer] is de [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] -extensie &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) beschikbaar op de [!DNL Chrome Web Store] .
 
 De VEC wordt weergegeven wanneer u een bestaande activiteit maakt of bewerkt.
 
-![ Visuele Composer van de Ervaring (VEC) ](/help/main/c-experiences/c-visual-experience-composer/assets/new-vec.png)
+![&#x200B; Visuele Composer van de Ervaring (VEC) &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/new-vec.png)
 
 ## Overzicht van VEC UI
 
@@ -35,45 +35,45 @@ In de volgende secties worden de opties beschreven die beschikbaar zijn in de bi
 
 De [!UICONTROL Experiences] -rail wordt weergegeven in de linkerspoorstaaf van de VEC.
 
-![ Ervaringen spoorstaaf ](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
+![&#x200B; Ervaringen spoorstaaf &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
 
 U kunt ervaringen weergeven, maken, hernoemen of verwijderen met de [!UICONTROL Experiences] -rail.
 
 De volgende opties zijn beschikbaar in de [!UICONTROL Experiences] rail:
 
 * **Mening een ervaring**: Om een ervaring te bekijken, klik de gewenste ervaring om het in het [!UICONTROL Design] canvas te tonen.
-* **voeg een ervaring** toe: Klik het **[!UICONTROL Add]** pictogram ( ![ voeg pictogram ](/help/main/assets/icons/Add.svg) toe) om een nieuwe ervaring toe te voegen. Configureer de nieuwe ervaring naar wens.
-* **noem een ervaring** anders: Klik het **[!UICONTROL Rename]** pictogram ( ![ anders noemen pictogram ](/help/main/assets/icons/Rename.svg)) om de [!UICONTROL Rename Experience] dialoogdoos te tonen. Geef de nieuwe naam op en klik op **[!UICONTROL Save]** .
-* **dupliceer, schrap, of richt een ervaring** opnieuw: klik het **[!UICONTROL More Actions]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmall.svg)), dan kies **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, of **[!UICONTROL Redirect to URL]**.
+* **voeg een ervaring** toe: Klik het **[!UICONTROL Add]** pictogram ( ![&#x200B; voeg pictogram &#x200B;](/help/main/assets/icons/Add.svg) toe) om een nieuwe ervaring toe te voegen. Configureer de nieuwe ervaring naar wens.
+* **noem een ervaring** anders: Klik het **[!UICONTROL Rename]** pictogram ( ![&#x200B; anders noemen pictogram &#x200B;](/help/main/assets/icons/Rename.svg)) om de [!UICONTROL Rename Experience] dialoogdoos te tonen. Geef de nieuwe naam op en klik op **[!UICONTROL Save]** .
+* **dupliceer, schrap, of richt een ervaring** opnieuw: klik het **[!UICONTROL More Actions]** pictogram ( ![&#x200B; Meer pictogram van Acties &#x200B;](/help/main/assets/icons/MoreSmall.svg)), dan kies **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, of **[!UICONTROL Redirect to URL]**.
 
 ### Activiteitsinstellingen/configuratie {#settings}
 
-Klik het [!UICONTROL Configure] pictogram ( ![ vorm pictogram ](/help/main/assets/icons/Setting.svg)) dat bovenop het [!UICONTROL Design] canvas wordt getoond om het menu van activiteiteneigenschappen te tonen.
+Klik het [!UICONTROL Configure] pictogram ( ![&#x200B; vorm pictogram &#x200B;](/help/main/assets/icons/Setting.svg)) dat bovenop het [!UICONTROL Design] canvas wordt getoond om het menu van activiteiteneigenschappen te tonen.
 
-![ de configuratieopties van de Activiteit ](/help/main/c-experiences/c-visual-experience-composer/assets/configure-options.png)
+![&#x200B; de configuratieopties van de Activiteit &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/configure-options.png)
 
 De volgende opties zijn beschikbaar:
 
-* **[!UICONTROL Properties]**: Wijs eigenschappen toe aan de activiteit of verwijder eigenschappen uit de activiteit. [!UICONTROL Properties] is een functie ([[!DNL Target Premium]](/help/main/c-intro/intro.md#premium) . Voor meer informatie, zie [ de gebruikerstoestemmingen van de Onderneming ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
-* **[!UICONTROL Page Delivery]**: Neem dezelfde ervaring op op vergelijkbare pagina&#39;s op uw site. Gebruik een paginasjabloon om uw pagina&#39;s een structuur te geven of als uw pagina&#39;s vergelijkbare elementen bevatten, om variaties in pagina-elementen met een vergelijkbare structuur of in het hele domein te testen. Voor meer informatie, zie [ de zelfde ervaring op gelijkaardige pagina&#39;s ](/help/main/c-experiences/c-visual-experience-composer/temtest.md) omvatten.
-* **[!UICONTROL Site Preferences]**: Configureer uw sitevoorkeuren om op te geven hoe [!DNL Target] CSS-kiezers genereert. Voor meer informatie, zie _CSS selecteurs_ in [ vormen [!UICONTROL Visual Experience Composer]](/help/main/administrating-target/visual-experience-composer-set-up.md).
-* **voegt Extra Pagina&#39;s** toe: Voeg extra pagina&#39;s aan de activiteit toe om een activiteit tot stand te brengen die u een verhaal over veelvoudige pagina&#39;s laat tot stand brengen, met een ontwerp dat voor elke pagina specifiek is. Voor meer informatie, zie [ Multipage activiteit ](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md).
+* **[!UICONTROL Properties]**: Wijs eigenschappen toe aan de activiteit of verwijder eigenschappen uit de activiteit. [!UICONTROL Properties] is een functie ([[!DNL Target Premium]](/help/main/c-intro/intro.md#premium) . Voor meer informatie, zie [&#x200B; de gebruikerstoestemmingen van de Onderneming &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+* **[!UICONTROL Page Delivery]**: Neem dezelfde ervaring op op vergelijkbare pagina&#39;s op uw site. Gebruik een paginasjabloon om uw pagina&#39;s een structuur te geven of als uw pagina&#39;s vergelijkbare elementen bevatten, om variaties in pagina-elementen met een vergelijkbare structuur of in het hele domein te testen. Voor meer informatie, zie [&#x200B; de zelfde ervaring op gelijkaardige pagina&#39;s &#x200B;](/help/main/c-experiences/c-visual-experience-composer/temtest.md) omvatten.
+* **[!UICONTROL Site Preferences]**: Configureer uw sitevoorkeuren om op te geven hoe [!DNL Target] CSS-kiezers genereert. Voor meer informatie, zie _CSS selecteurs_ in [&#x200B; vormen [!UICONTROL Visual Experience Composer]](/help/main/administrating-target/visual-experience-composer-set-up.md).
+* **voegt Extra Pagina&#39;s** toe: Voeg extra pagina&#39;s aan de activiteit toe om een activiteit tot stand te brengen die u een verhaal over veelvoudige pagina&#39;s laat tot stand brengen, met een ontwerp dat voor elke pagina specifiek is. Voor meer informatie, zie [&#x200B; Multipage activiteit &#x200B;](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md).
 * **Enige Publiek**: Gebruik één enkel publiek voor de activiteit.
-* **Veelvoudige Soorten publiek**: Wijs veelvoudige publiek aan de activiteit toe. Klik het Add pictogram van het publiek ( ![ voeg pictogram ](/help/main/assets/icons/Add.svg) toe), dan selecteer één of meerdere publiek van de lijst. U kunt ook [ publiek ](/help/main/c-target/combining-multiple-audiences.md) combineren of [ een nieuw publiek ](/help/main/c-target/c-audiences/create-audience.md) van het [!UICONTROL Add Audiences] dialoogvakje creëren.
+* **Veelvoudige Soorten publiek**: Wijs veelvoudige publiek aan de activiteit toe. Klik het Add pictogram van het publiek ( ![&#x200B; voeg pictogram &#x200B;](/help/main/assets/icons/Add.svg) toe), dan selecteer één of meerdere publiek van de lijst. U kunt ook [&#x200B; publiek &#x200B;](/help/main/c-target/combining-multiple-audiences.md) combineren of [&#x200B; een nieuw publiek &#x200B;](/help/main/c-target/c-audiences/create-audience.md) van het [!UICONTROL Add Audiences] dialoogvakje creëren.
 
 ### [!UICONTROL Design]/[!UICONTROL Browse] modi
 
 Gebruik de [!UICONTROL Design]/ [!UICONTROL Browse] knevels die bovenop het ontwerpcanvas worden getoond om tussen ontwerp en doorbladerwijze te schakelen.
 
-![ Ontwerp en doorblader knevels ](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
+![&#x200B; Ontwerp en doorblader knevels &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
 Met de modus [!UICONTROL Browse] navigeert u door uw site en kiest u de weergave of pagina die u wilt bijwerken. Schakel terug naar de modus [!UICONTROL Design] om uw wijzigingen toe te voegen of te bewerken.
 
 ### [!UICONTROL Undo]/[!UICONTROL Redo]
 
-U kunt veranderingen ongedaan maken die door het [!UICONTROL Undo] pictogram ( ![ worden aangebracht ongedaan maken pictogram ](/help/main/assets/icons/Undo.svg)).
+U kunt veranderingen ongedaan maken die door het [!UICONTROL Undo] pictogram ( ![&#x200B; worden aangebracht ongedaan maken pictogram &#x200B;](/help/main/assets/icons/Undo.svg)).
 
-![ ongedaan maak pictogram in VEC ](/help/main/c-experiences/c-visual-experience-composer/assets/undo.png)
+![&#x200B; ongedaan maak pictogram in VEC &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/undo.png)
 
 Om een actie opnieuw te doen, breid  ongedaan maken/ [!UICONTROL Redo] knoopgroep en kies [!UICONTROL Redo].
 
@@ -81,13 +81,13 @@ Om een actie opnieuw te doen, breid  ongedaan maken/ [!UICONTROL Redo] knoopgroe
 
 U kunt een aantal componenten aan uw webpagina toevoegen en deze naar wens bewerken met de nieuwe [!UICONTROL Components] -rail.
 
-![ spoorstaaf van Componenten ](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
+![&#x200B; spoorstaaf van Componenten &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
 >[!NOTE]
 >
->Als u [!UICONTROL Modifications] spoor in dit gebied in plaats van [!UICONTROL Components] spoor ziet, klik het **[!UICONTROL Show Components]** pictogram ( ![ toon het pictogram van Componenten ](/help/main/assets/icons/Add.svg)). Het [!UICONTROL Show Components] pictogram ( ![ toon het pictogram van Componenten ](/help/main/assets/icons/Add.svg)) en het [!UICONTROL Show Modifications] pictogram ( ![ toon de spoorstaaf van Wijzigingen ](/help/main/assets/icons/History.svg)) dienst als knevels om de aangewezen opties te tonen.
+>Als u [!UICONTROL Modifications] spoor in dit gebied in plaats van [!UICONTROL Components] spoor ziet, klik het **[!UICONTROL Show Components]** pictogram ( ![&#x200B; toon het pictogram van Componenten &#x200B;](/help/main/assets/icons/Add.svg)). Het [!UICONTROL Show Components] pictogram ( ![&#x200B; toon het pictogram van Componenten &#x200B;](/help/main/assets/icons/Add.svg)) en het [!UICONTROL Show Modifications] pictogram ( ![&#x200B; toon de spoorstaaf van Wijzigingen &#x200B;](/help/main/assets/icons/History.svg)) dienst als knevels om de aangewezen opties te tonen.
 >
->Om het [!UICONTROL Components] spoor samen te vouwen en het [!UICONTROL Design] canvas te vergroten, terwijl het [!UICONTROL Components] spoor open is, klik het ( ![ toont het pictogram van Componenten ](/help/main/assets/icons/Add.svg)).
+>Om het [!UICONTROL Components] spoor samen te vouwen en het [!UICONTROL Design] canvas te vergroten, terwijl het [!UICONTROL Components] spoor open is, klik het ( ![&#x200B; toont het pictogram van Componenten &#x200B;](/help/main/assets/icons/Add.svg)).
 
 Een nieuwe component toevoegen aan een ervaring:
 
@@ -113,49 +113,49 @@ Een nieuwe component toevoegen aan een ervaring:
 
 ### [!UICONTROL Modifications] rail
 
-Om het [!UICONTROL Modifications] spoor te openen, klik het [!UICONTROL Show Modifications] pictogram ( ![ toon de spoorstaaf van Wijzigingen ](/help/main/assets/icons/History.svg)) in [!UICONTROL Components] spoor.
+Om het [!UICONTROL Modifications] spoor te openen, klik het [!UICONTROL Show Modifications] pictogram ( ![&#x200B; toon de spoorstaaf van Wijzigingen &#x200B;](/help/main/assets/icons/History.svg)) in [!UICONTROL Components] spoor.
 
-![ de spoorstaaf van Wijzigingen ](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+![&#x200B; de spoorstaaf van Wijzigingen &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
 >[!NOTE]
 >
->Het [!UICONTROL Show Components] pictogram ( ![ toon het pictogram van Componenten ](/help/main/assets/icons/Add.svg)) en het [!UICONTROL Show Modifications] pictogram ( ![ toon de spoorstaaf van Wijzigingen ](/help/main/assets/icons/History.svg)) dienst als knevels om de aangewezen opties te tonen.
+>Het [!UICONTROL Show Components] pictogram ( ![&#x200B; toon het pictogram van Componenten &#x200B;](/help/main/assets/icons/Add.svg)) en het [!UICONTROL Show Modifications] pictogram ( ![&#x200B; toon de spoorstaaf van Wijzigingen &#x200B;](/help/main/assets/icons/History.svg)) dienst als knevels om de aangewezen opties te tonen.
 >
->Om [!UICONTROL Modifications] spoorstaaf samen te vouwen en het [!UICONTROL Design] canvas te vergroten, terwijl de [!UICONTROL Modifications] spoorstaaf open is, klik het [!UICONTROL Show Modifications] pictogram ( ![ toon de spoorstaaf van Wijzigingen ](/help/main/assets/icons/History.svg) ).
+>Om [!UICONTROL Modifications] spoorstaaf samen te vouwen en het [!UICONTROL Design] canvas te vergroten, terwijl de [!UICONTROL Modifications] spoorstaaf open is, klik het [!UICONTROL Show Modifications] pictogram ( ![&#x200B; toon de spoorstaaf van Wijzigingen &#x200B;](/help/main/assets/icons/History.svg) ).
 
 In de track [!UICONTROL Modifications] worden alle wijzigingen weergegeven die in de pagina zijn aangebracht in [!UICONTROL Visual Experience Composer] (VEC) en kunt u aanvullende wijzigingen aanbrengen (zoals CSS-kiezer, Mbox en Aangepaste code).
 
-Klik het **[!UICONTROL More Options]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmall.svg)) in de spoorkopbal om een wijziging toe te voegen, alle wijzigingen te schrappen, of alle ongeldige wijzigingen te schrappen. Klik op [!UICONTROL Select] om bulkbewerkingen uit te voeren: [!UICONTROL Apply to All Pages] of [!UICONTROL Delete] .
+Klik het **[!UICONTROL More Options]** pictogram ( ![&#x200B; Meer pictogram van Acties &#x200B;](/help/main/assets/icons/MoreSmall.svg)) in de spoorkopbal om een wijziging toe te voegen, alle wijzigingen te schrappen, of alle ongeldige wijzigingen te schrappen. Klik op [!UICONTROL Select] om bulkbewerkingen uit te voeren: [!UICONTROL Apply to All Pages] of [!UICONTROL Delete] .
 
-Klik het **[!UICONTROL More Options]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmall.svg)) naast elke wijziging om zijn informatie te bekijken, de wijziging te schrappen, of de wijziging op meer meningen toe te passen.
+Klik het **[!UICONTROL More Options]** pictogram ( ![&#x200B; Meer pictogram van Acties &#x200B;](/help/main/assets/icons/MoreSmall.svg)) naast elke wijziging om zijn informatie te bekijken, de wijziging te schrappen, of de wijziging op meer meningen toe te passen.
 
 ### [!UICONTROL Design] canvas
 
-Met het canvas [!UICONTROL Design] kunt u viewports selecteren, waaronder fit-to-screen [!UICONTROL Desktop] , [!UICONTROL Tablet] , [!UICONTROL Mobile Landscape] en [!UICONTROL Mobile Portrait] . Door gebrek, past het canvas de pagina aan het scherm samen met viewports die in de [ sectie van het Beleid ](/help/main/administrating-target/visual-experience-composer-set-up.md) worden bepaald.
+Met het canvas [!UICONTROL Design] kunt u viewports selecteren, waaronder fit-to-screen [!UICONTROL Desktop] , [!UICONTROL Tablet] , [!UICONTROL Mobile Landscape] en [!UICONTROL Mobile Portrait] . Door gebrek, past het canvas de pagina aan het scherm samen met viewports die in de [&#x200B; sectie van het Beleid &#x200B;](/help/main/administrating-target/visual-experience-composer-set-up.md) worden bepaald.
 
-![ Viewport opties ](/help/main/c-experiences/c-visual-experience-composer/assets/viewports.png)
+![&#x200B; Viewport opties &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/viewports.png)
 
-U kunt ook inzoomen of uitzoomen door het aangewezen pictogram te klikken ( ![ Gezoem binnen pictogram ](/help/main/assets/icons/ZoomIn.svg) of ![ Gezoem uit pictogram ](/help/main/assets/icons/ZoomOut.svg)).
+U kunt ook inzoomen of uitzoomen door het aangewezen pictogram te klikken ( ![&#x200B; Gezoem binnen pictogram &#x200B;](/help/main/assets/icons/ZoomIn.svg) of ![&#x200B; Gezoem uit pictogram &#x200B;](/help/main/assets/icons/ZoomOut.svg)).
 
 Wanneer u op een pagina-element in het canvas van [!UICONTROL Design] klikt, wordt in een menu weergegeven welke opties beschikbaar zijn voor dat elementtype. Bovendien wordt onder aan de pagina een DOM-pad weergegeven waarmee u gemakkelijk door de paginastructuur kunt navigeren.
 
 De verschillende [!UICONTROL Visual Experience Composer] (VEC) acties worden gegroepeerd in de juiste menuopties om uw taak sneller en efficiënter te maken:
 
-![ VEC optiemenu ](/help/main/c-experiences/c-visual-experience-composer/assets/vec-options.png)
+![&#x200B; VEC optiemenu &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/vec-options.png)
 
 >[!NOTE]
 >
->Welke opties beschikbaar zijn, is afhankelijk van het type activiteit en het element dat u maakt of bewerkt. Voor meer informatie over het uitgeven van beelden en aanbiedingen in een [!UICONTROL A/B Test] activiteit, zie [ elementen uitgeven gebruikend het [!UICONTROL Design] canvas ](#design) hieronder.
+>Welke opties beschikbaar zijn, is afhankelijk van het type activiteit en het element dat u maakt of bewerkt. Voor meer informatie over het uitgeven van beelden en aanbiedingen in een [!UICONTROL A/B Test] activiteit, zie [&#x200B; elementen uitgeven gebruikend het [!UICONTROL Design] canvas &#x200B;](#design) hieronder.
 
 ### [!UICONTROL Properties] rail
 
 Met de track [!UICONTROL Properties] kunt u eigenschappen van geselecteerde elementen op de pagina wijzigen, ongeacht of dit HTML-elementen of objecten zijn die specifiek zijn voor [!DNL Target] , zoals aanbevelingen of aanbiedingen.
 
-![ spoorstaaf van Eigenschappen ](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
+![&#x200B; spoorstaaf van Eigenschappen &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
 Klik op de pictogrammen boven op de rails om HTML-code te bewerken of om elementen te verwijderen, te dupliceren of te verbergen. Wijzigingen worden weergegeven in de [!UICONTROL Modifications] rail.
 
-De [!UICONTROL Properties] -rail kan in de rechterrail worden samengevouwen om het ontwerpcanvas te verbergen en het ontwerpcanvas te vergroten. Klik het [!UICONTROL Show/Hide Properties] pictogram ( ![ pictogram van Eigenschappen ](/help/main/assets/icons/Propertie.svg)) rechts van de spoorstaaf om [!UICONTROL Properties] spoorstaaf samen te vouwen of te tonen.
+De [!UICONTROL Properties] -rail kan in de rechterrail worden samengevouwen om het ontwerpcanvas te verbergen en het ontwerpcanvas te vergroten. Klik het [!UICONTROL Show/Hide Properties] pictogram ( ![&#x200B; pictogram van Eigenschappen &#x200B;](/help/main/assets/icons/Propertie.svg)) rechts van de spoorstaaf om [!UICONTROL Properties] spoorstaaf samen te vouwen of te tonen.
 
 ## Elementen bewerken met het canvas [!UICONTROL Design] {#design}
 
@@ -165,29 +165,29 @@ In de volgende secties ziet u hoe u afbeeldingen en tekst op het canvas van [!UI
 
 Als u in een [!UICONTROL A/B Test] -activiteit op een afbeelding klikt, ziet de VEC er ongeveer als volgt uit:
 
-![ VEC met geselecteerd beeld ](/help/main/c-experiences/c-visual-experience-composer/assets/vec-image.png)
+![&#x200B; VEC met geselecteerd beeld &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/vec-image.png)
 
 Selecteer componenten in het [!UICONTROL Components] -frame aan de linkerkant om de volgende elementen in te voegen:
 
 * Eenvoudig (scheidingsteken, HTML, afbeelding).
 * Tekst (kop, alinea, koppeling).
-* Dynamisch ([ Aanbeveling ](/help/main/c-recommendations/recommendations-as-an-offer.md), [ het Fragment van de Ervaring ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), aanbieding van HTML).
+* Dynamisch ([&#x200B; Aanbeveling &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md), [&#x200B; het Fragment van de Ervaring &#x200B;](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), aanbieding van HTML).
 
 Met het menu boven aan de afbeelding kunt u het volgende doen:
 
-* Neem een verbinding ( ![ het pictogram van de Verbinding van het Tussenvoegsel ](/help/main/assets/icons/Link.svg)) op.
-* Verander het beeld ( ![ kies het pictogram van het Beeld ](/help/main/assets/icons/Images.svg)).
-* Voeg verpersoonlijking toe ( ![ voeg het pictogram van Personalization ](/help/main/assets/icons/PersonalizationField.svg) toe).
-* Schrap het beeld ( ![ pictogram van de Schrapping ](/help/main/assets/icons/Delete.svg)).
+* Neem een verbinding ( ![&#x200B; het pictogram van de Verbinding van het Tussenvoegsel &#x200B;](/help/main/assets/icons/Link.svg)) op.
+* Verander het beeld ( ![&#x200B; kies het pictogram van het Beeld &#x200B;](/help/main/assets/icons/Images.svg)).
+* Voeg verpersoonlijking toe ( ![&#x200B; voeg het pictogram van Personalization &#x200B;](/help/main/assets/icons/PersonalizationField.svg) toe).
+* Schrap het beeld ( ![&#x200B; pictogram van de Schrapping &#x200B;](/help/main/assets/icons/Delete.svg)).
 
 In het deelvenster [!UICONTROL Properties] aan de rechterkant kunt u de eigenschappen van de afbeelding verder configureren.
 
 Met de pictogrammen boven aan het frame kunt u het volgende doen:
 
-* Bewerk HTML ( ![ het pictogram van HTML van het Tussenvoegsel ](/help/main/assets/icons/Code.svg)). Zie [ HTML ](#html) hieronder voor meer informatie uitgeven.
-* Dupliceer het beeld ( ![ Dupliceer pictogram ](/help/main/assets/icons/Code.svg)).
-* Schrap het beeld ( ![ pictogram van de Schrapping ](/help/main/assets/icons/Delete.svg)).
-* Verberg het beeld ( ![ pictogram van de Verbergen ](/help/main/assets/icons/VisibilityOff.svg)).
+* Bewerk HTML ( ![&#x200B; het pictogram van HTML van het Tussenvoegsel &#x200B;](/help/main/assets/icons/Code.svg)). Zie [&#x200B; HTML &#x200B;](#html) hieronder voor meer informatie uitgeven.
+* Dupliceer het beeld ( ![&#x200B; Dupliceer pictogram &#x200B;](/help/main/assets/icons/Code.svg)).
+* Schrap het beeld ( ![&#x200B; pictogram van de Schrapping &#x200B;](/help/main/assets/icons/Delete.svg)).
+* Verberg het beeld ( ![&#x200B; pictogram van de Verbergen &#x200B;](/help/main/assets/icons/VisibilityOff.svg)).
 
 Met de opties in het rechterframe kunt u het volgende doen:
 
@@ -204,36 +204,36 @@ Met de opties in het rechterframe kunt u het volgende doen:
 
 Als u op tekst in een [!UICONTROL A/B Test] -activiteit klikt, ziet de VEC er ongeveer als volgt uit:
 
-![ VEC met geselecteerde tekst ](/help/main/c-experiences/c-visual-experience-composer/assets/vec-text.png)
+![&#x200B; VEC met geselecteerde tekst &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/vec-text.png)
 
 Selecteer componenten in het [!UICONTROL Components] -frame aan de linkerkant om de volgende elementen in te voegen:
 
 * Eenvoudig (scheidingsteken, HTML, afbeelding).
 * Tekst (kop, alinea, koppeling).
-* Dynamisch ([ Aanbeveling ](/help/main/c-recommendations/recommendations-as-an-offer.md), [ het Fragment van de Ervaring ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), aanbieding van HTML).
+* Dynamisch ([&#x200B; Aanbeveling &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md), [&#x200B; het Fragment van de Ervaring &#x200B;](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), aanbieding van HTML).
 
-Klik het [!UICONTROL Show Modifications] pictogram ( ![ toon het pictogram van Wijzigingen ](/help/main/assets/icons/History.svg)) om de wijzigingen in de ervaring te tonen.
+Klik het [!UICONTROL Show Modifications] pictogram ( ![&#x200B; toon het pictogram van Wijzigingen &#x200B;](/help/main/assets/icons/History.svg)) om de wijzigingen in de ervaring te tonen.
 
 Met het menu boven aan het tekstelement kunt u het volgende doen:
 
 * De eigenschappen van de tekst configureren (kopniveau, alinea, aanhalingsteken voor blokken of monospace)
-* Selecteer de kleur van de tekst ( ![ pictogram van de Kleur van de Tekst ](/help/main/assets/icons/TextColor.svg) )
-* Vorm de attributen van de tekst (gewaagd, cursief, onderstrepen, of slaan door) ( ![ kies het pictogram van tekstAttributen ](/help/main/assets/icons/Text.svg)).
-* Vorm de groepering van de tekst (links, centrum, recht, rechtvaardigen) ( ![ pictogram van de Groepering van de Tekst ](/help/main/assets/icons/TextAlignCenter.svg)).
-* Neem een verbinding ( ![ het pictogram van de Verbinding van het Tussenvoegsel ](/help/main/assets/icons/Link.svg)) op.
-* Vervang de inhoud met een aanbieding van HTML, [ het Fragment van de Ervaring ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), of [ Aanbeveling ](/help/main/c-recommendations/recommendations-as-an-offer.md).
-* Bewerk HTML ( ![ het pictogram van HTML van het Tussenvoegsel ](/help/main/assets/icons/Code.svg)).
-* Voeg verpersoonlijking toe ( ![ voeg het pictogram van Personalization ](/help/main/assets/icons/PersonalizationField.svg) toe).
-* Schrap het beeld ( ![ pictogram van de Schrapping ](/help/main/assets/icons/Delete.svg)).
+* Selecteer de kleur van de tekst ( ![&#x200B; pictogram van de Kleur van de Tekst &#x200B;](/help/main/assets/icons/TextColor.svg) )
+* Vorm de attributen van de tekst (gewaagd, cursief, onderstrepen, of slaan door) ( ![&#x200B; kies het pictogram van tekstAttributen &#x200B;](/help/main/assets/icons/Text.svg)).
+* Vorm de groepering van de tekst (links, centrum, recht, rechtvaardigen) ( ![&#x200B; pictogram van de Groepering van de Tekst &#x200B;](/help/main/assets/icons/TextAlignCenter.svg)).
+* Neem een verbinding ( ![&#x200B; het pictogram van de Verbinding van het Tussenvoegsel &#x200B;](/help/main/assets/icons/Link.svg)) op.
+* Vervang de inhoud met een aanbieding van HTML, [&#x200B; het Fragment van de Ervaring &#x200B;](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), of [&#x200B; Aanbeveling &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md).
+* Bewerk HTML ( ![&#x200B; het pictogram van HTML van het Tussenvoegsel &#x200B;](/help/main/assets/icons/Code.svg)).
+* Voeg verpersoonlijking toe ( ![&#x200B; voeg het pictogram van Personalization &#x200B;](/help/main/assets/icons/PersonalizationField.svg) toe).
+* Schrap het beeld ( ![&#x200B; pictogram van de Schrapping &#x200B;](/help/main/assets/icons/Delete.svg)).
 
 Met de [!UICONTROL Properties] -rail aan de rechterkant kunt u de eigenschappen van de tekst verder configureren.
 
 Met de pictogrammen boven aan het frame kunt u het volgende doen:
 
-* Bewerk HTML ( ![ het pictogram van HTML van het Tussenvoegsel ](/help/main/assets/icons/Code.svg)). Zie [ HTML ](#html) hieronder voor meer informatie uitgeven.
-* Dupliceer de tekst ( ![ Dupliceer pictogram ](/help/main/assets/icons/Code.svg)).
-* Schrap de tekst ( ![ pictogram van de Schrapping ](/help/main/assets/icons/Delete.svg)).
-* Verberg de tekst ( ![ pictogram van de Verbergen ](/help/main/assets/icons/VisibilityOff.svg)).
+* Bewerk HTML ( ![&#x200B; het pictogram van HTML van het Tussenvoegsel &#x200B;](/help/main/assets/icons/Code.svg)). Zie [&#x200B; HTML &#x200B;](#html) hieronder voor meer informatie uitgeven.
+* Dupliceer de tekst ( ![&#x200B; Dupliceer pictogram &#x200B;](/help/main/assets/icons/Code.svg)).
+* Schrap de tekst ( ![&#x200B; pictogram van de Schrapping &#x200B;](/help/main/assets/icons/Delete.svg)).
+* Verberg de tekst ( ![&#x200B; pictogram van de Verbergen &#x200B;](/help/main/assets/icons/VisibilityOff.svg)).
 
 Met de opties in het rechterframe kunt u het volgende doen:
 
@@ -267,9 +267,9 @@ De volgende HTML5-tags kunnen worden genest:
 
 Wanneer u een element op de pagina klikt, toont het VEC optiesmenu. Wanneer u op een element klikt, wordt bovendien het bijbehorende DOM-pad onder aan de pagina weergegeven.
 
-![ DOM weg ](/help/main/c-experiences/c-visual-experience-composer/assets/dom-path-refresh.png)
+![&#x200B; DOM weg &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/dom-path-refresh.png)
 
-Als u niet de weg DOM ziet, klik het [!UICONTROL Show DOM] pictogram ( ![ toon het pictogram van het DOM ](/help/main/assets/icons/LayersBringToFront.svg)).
+Als u niet de weg DOM ziet, klik het [!UICONTROL Show DOM] pictogram ( ![&#x200B; toon het pictogram van het DOM &#x200B;](/help/main/assets/icons/LayersBringToFront.svg)).
 
 U kunt het DOM-pad gebruiken om snel informatie over het geselecteerde element (type, id en klasse) weer te geven en het DOM-pad omhoog of omlaag te verplaatsen om het gewenste element te selecteren.
 
@@ -277,21 +277,21 @@ U kunt het DOM-pad gebruiken om snel informatie over het geselecteerde element (
 
 U kunt gemakkelijk aan om het even welk ouder, sibling, of kindelement binnen VEC navigeren gebruikend de weg DOM.
 
-De DOM wegeigenschap is ook beschikbaar wanneer vestiging [ het volgen ](/help/main/c-activities/r-success-metrics/click-tracking.md) klikt.
+De DOM wegeigenschap is ook beschikbaar wanneer vestiging [&#x200B; het volgen &#x200B;](/help/main/c-activities/r-success-metrics/click-tracking.md) klikt.
 
 ## Meer informatie over de bijgewerkte gebruikersinterface
 
-* [[!DNL Target Standard/Premium]  25.2.1 (17 februari, 2025) versienota&#39;s ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Verstrekt een samenvatting van de belangrijkste veranderingen UI in [!DNL Target] voor [!UICONTROL Activities], [!UICONTROL Recommendations], en [!UICONTROL Visual Experience Composer] (VEC).
+* [[!DNL Target Standard/Premium]  25.2.1 (17 februari, 2025) versienota&#39;s &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Verstrekt een samenvatting van de belangrijkste veranderingen UI in [!DNL Target] voor [!UICONTROL Activities], [!UICONTROL Recommendations], en [!UICONTROL Visual Experience Composer] (VEC).
 
-* [[!DNL Target Standard/Premium]  25.1.1 (9 Januari, 2025) versienota&#39;s ](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Verstrekt een samenvatting van de belangrijkste veranderingen UI in [!DNL Target] voor [!UICONTROL Offers Library].
+* [[!DNL Target Standard/Premium]  25.1.1 (9 Januari, 2025) versienota&#39;s &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Verstrekt een samenvatting van de belangrijkste veranderingen UI in [!DNL Target] voor [!UICONTROL Offers Library].
 
-* [ begrijp  [!DNL Target]  UI ](/help/main/c-intro/understand-the-target-ui.md): Verstrekt een kort overzicht om u te helpen vertrouwd worden met [!DNL Target] en verleent verbindingen voor meer diepgaande informatie en geleidelijke instructies.
+* [&#x200B; begrijp  [!DNL Target]  UI &#x200B;](/help/main/c-intro/understand-the-target-ui.md): Verstrekt een kort overzicht om u te helpen vertrouwd worden met [!DNL Target] en verleent verbindingen voor meer diepgaande informatie en geleidelijke instructies.
 
-* [[!UICONTROL Visual Experience Composer] changes ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : In de release [!DNL Adobe Target Standard/Premium] 25.2.1 (17 februari 2015) wordt een bijgewerkte versie van [!UICONTROL Visual Experience Composer] (VEC) geïntroduceerd. Dit artikel verklaart de verschillen tussen de erfenis en bijgewerkte versies van VEC.
+* [[!UICONTROL Visual Experience Composer] changes &#x200B;](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : In de release [!DNL Adobe Target Standard/Premium] 25.2.1 (17 februari 2015) wordt een bijgewerkte versie van [!UICONTROL Visual Experience Composer] (VEC) geïntroduceerd. Dit artikel verklaart de verschillen tussen de erfenis en bijgewerkte versies van VEC.
 
-* [[!UICONTROL Visual Experience Composer] opties ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): Dit artikel verklaart bijgewerkte UI VEC en zijn opties.
+* [[!UICONTROL Visual Experience Composer] opties &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): Dit artikel verklaart bijgewerkte UI VEC en zijn opties.
 
-* [[!DNL Target]  UI update FAQs ](/help/main/c-intro/updated-ui-faq.md): Deze veelgestelde vragen behandelt gemeenschappelijke vragen over nieuwe [!DNL Target] UI en [!UICONTROL Visual Experience Composer] (VEC), met inbegrip van navigatieveranderingen, eigenschapplaatsen, en de veroudering van de tijdelijke UI versiesknevel. Of u nu een markeerteken, ontwikkelaar of beheerder bent, deze veelgestelde vragen helpen u een vloeiende overgang te maken en de bijgewerkte gebruikersinterface optimaal te benutten.
+* [[!DNL Target]  UI update FAQs &#x200B;](/help/main/c-intro/updated-ui-faq.md): Deze veelgestelde vragen behandelt gemeenschappelijke vragen over nieuwe [!DNL Target] UI en [!UICONTROL Visual Experience Composer] (VEC), met inbegrip van navigatieveranderingen, eigenschapplaatsen, en de veroudering van de tijdelijke UI versiesknevel. Of u nu een markeerteken, ontwikkelaar of beheerder bent, deze veelgestelde vragen helpen u een vloeiende overgang te maken en de bijgewerkte gebruikersinterface optimaal te benutten.
 
 <!--## [!UICONTROL Edit]
 

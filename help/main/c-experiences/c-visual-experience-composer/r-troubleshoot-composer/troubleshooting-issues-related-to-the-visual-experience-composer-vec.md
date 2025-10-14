@@ -41,13 +41,13 @@ Als u [!UICONTROL Enhanced Experience Composer] wilt uitschakelen, gaat u naar *
 
 Sommige gebruikers zien het volgende foutbericht in de console:
 
-![ de foutenmelding van de Console ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)
+![&#x200B; de foutenmelding van de Console &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)
 
-Als [!UICONTROL Visual Experience Composer] noch [!UICONTROL Enhanced Experience Composer] werkt, gebruik een browser uitbreiding zoals [!DNL Requestly] ( [!DNL Chrome] of [!DNL Firefox]) of wijzigt de Kopballen van de Reactie (Firefox) die de X-Kaders kopbalopties voor uw plaats kan overschrijven en hen om in iFrames toelaat worden geladen, toelatend VEC. Als u browser uitbreidingen niet kunt gebruiken, gebruik [ Op vorm-gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md).
+Als [!UICONTROL Visual Experience Composer] noch [!UICONTROL Enhanced Experience Composer] werkt, gebruik een browser uitbreiding zoals [!DNL Requestly] ( [!DNL Chrome] of [!DNL Firefox]) of wijzigt de Kopballen van de Reactie (Firefox) die de X-Kaders kopbalopties voor uw plaats kan overschrijven en hen om in iFrames toelaat worden geladen, toelatend VEC. Als u browser uitbreidingen niet kunt gebruiken, gebruik [&#x200B; Op vorm-gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md).
 
 >[!NOTE]
 >
->Naast de volgende informatie kunt u de extensie [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper] ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) for [!DNL Google Chrome] gebruiken.
+>Naast de volgende informatie kunt u de extensie [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper] &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) for [!DNL Google Chrome] gebruiken.
 
 >[!NOTE]
 >
@@ -85,11 +85,11 @@ Als [!UICONTROL Visual Experience Composer] noch [!UICONTROL Enhanced Experience
 
       * Wijzig **[!UICONTROL Equals]** in **[!UICONTROL Contains]** als de voorwaarde voor de bron-URL en voer de URL in van de activiteit die u wilt laden in de VEC.
 
-     ![ chroom_extension beeld ](assets/chrome_extension.png)
+     ![&#x200B; chroom_extension beeld &#x200B;](assets/chrome_extension.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
-   ![ vaak beeld ](assets/requestly.png)
+   ![&#x200B; vaak beeld &#x200B;](assets/requestly.png)
 
    U moet nu de pagina snel kunnen laden met de [!UICONTROL Visual Experience Composer] .
 
@@ -104,7 +104,7 @@ Als [!UICONTROL Visual Experience Composer] noch [!UICONTROL Enhanced Experience
 1. Klik op **[!UICONTROL Add]**.
 1. Klik op **[!UICONTROL Start]**.
 
-![ uitbreiding Firefox ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox_extension.png)
+![&#x200B; uitbreiding Firefox &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox_extension.png)
 
 Open [!DNL Target] nadat u een extensie hebt ingesteld. De pagina&#39;s moeten nu in de [!UICONTROL Visual Experience Composer] worden geladen, zelfs als de [!UICONTROL Enhanced Experience Composer] is uitgeschakeld.
 
@@ -148,11 +148,11 @@ Open [!DNL Target] nadat u een extensie hebt ingesteld. De pagina&#39;s moeten n
 ## De VEC wordt verbroken weergegeven wanneer ik de modus [!UICONTROL Browse] gebruik. (alleen VEC) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 +++Details
-Terwijl het gebruiken van [!UICONTROL Browse] wijze, als u tot een URL toegang hebt die [!DNL Target] uitgevoerde bibliotheken ([ at.js ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} of [ Adobe Experience Platform Web SDK ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) niet heeft of een kader-Buster kopbal bevat, lijkt VEC gebroken. Vanwege beveiligingsproblemen in de browser heeft [!DNL Target] geen toegang tot de URL waarnaar u hebt genavigeerd of wordt de VEC-URL niet consistent bijgewerkt als de pagina wordt geladen.
+Terwijl het gebruiken van [!UICONTROL Browse] wijze, als u tot een URL toegang hebt die [!DNL Target] uitgevoerde bibliotheken ([&#x200B; at.js &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} of [&#x200B; Adobe Experience Platform Web SDK &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) niet heeft of een kader-Buster kopbal bevat, lijkt VEC gebroken. Vanwege beveiligingsproblemen in de browser heeft [!DNL Target] geen toegang tot de URL waarnaar u hebt genavigeerd of wordt de VEC-URL niet consistent bijgewerkt als de pagina wordt geladen.
 
 Dit probleem doet zich voor omdat VEC de webpagina in een `<iframe>` laadt. De huidige beveiligingsmechanismen van browsers verhinderen dat de gebruikersinterface van [!DNL Target] toegang krijgt tot de elementen van het opgegeven frame vanwege het beleid van dezelfde oorsprong. Browsers blokkeren scripts die toegang proberen te krijgen tot een frame met een andere oorsprong en die informatie bevatten zoals de `location.href` .
 
-U moet de nieuwe [ Visuele het Uitgeven uitbreiding van de Helper ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) gebruiken om de [!DNL Target] bibliotheek in de pagina&#39;s in te spuiten om hen optimaal te doorbladeren.
+U moet de nieuwe [&#x200B; Visuele het Uitgeven uitbreiding van de Helper &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) gebruiken om de [!DNL Target] bibliotheek in de pagina&#39;s in te spuiten om hen optimaal te doorbladeren.
 
 +++
 

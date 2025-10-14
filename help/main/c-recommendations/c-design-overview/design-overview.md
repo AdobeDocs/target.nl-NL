@@ -19,7 +19,7 @@ In ontwerpen in [!DNL Adobe Target Recommendations] wordt gedefinieerd hoe aanbe
 
 [!DNL Target] kan uw aanbevelingen volledig vormgeven, zoals in de volgende afbeelding wordt getoond. Het ontwerp kan HTML, JavaScript en CSS bevatten. Dit ontwerp heet een ontwerp van 4 x 1: vier spaties in één rij.
 
-![ snelheid_example beeld ](assets/velocity_example.png)
+![&#x200B; snelheid_example beeld &#x200B;](assets/velocity_example.png)
 
 Het doel kan uw aanbevelingen als voorwerpen ook verzenden JSON die in e-mailberichten, apparaten IoT (Internet van Dingen), console, of kwesties van het stemgebruik (Amazon Alexa of Google Huis) kunnen worden gebruikt.
 

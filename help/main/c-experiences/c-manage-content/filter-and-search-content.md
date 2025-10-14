@@ -22,14 +22,14 @@ Zoeken naar elementen op trefwoorden in de [!UICONTROL Offers] -bibliotheek in [
 
    Met de vervolgkeuzelijst kunt u filteren op [!UICONTROL Offer name] , [!UICONTROL AEM Paths] of [!UICONTROL AEM Tags] .
 
-   U kunt ook filtreren door [!UICONTROL Type] te gebruiken, [!UICONTROL Source], en [!UICONTROL AEM Type] opties door het [!UICONTROL Show Filters] pictogram ![ te klikken tonen het pictogram van Filters ](/help/main/assets/icons/Filter.svg) om uw onderzoek verder te verfijnen.
+   U kunt ook filtreren door [!UICONTROL Type] te gebruiken, [!UICONTROL Source], en [!UICONTROL AEM Type] opties door het [!UICONTROL Show Filters] pictogram ![&#x200B; te klikken tonen het pictogram van Filters &#x200B;](/help/main/assets/icons/Filter.svg) om uw onderzoek verder te verfijnen.
 
 ## Aanbiedingen voor afbeeldingen zoeken op trefwoord {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
 1. Klik op **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]** .
 
-1. (Facultatief) knevel tussen [!UICONTROL Card View] en [!UICONTROL List View], klik het [!UICONTROL Card View] pictogram ( ![ pictogram van de de meningsmening van de Kaart ](/help/main/assets/icons/ViewCard.svg)) of het [!UICONTROL List View] pictogram ( ![ pictogram van de lijstmening ](/help/main/assets/icons/ViewList.svg) ) in de hogere juiste hoek van de [!UICONTROL Asset] bibliotheek.
-1. Klik het **[!UICONTROL Content Only]** pictogram ( ![ Inhoud slechts pictogram ](/help/main/assets/icons/RailLeft.svg)) in de hoogste linkerhoek om de onderzoeksdoos te tonen.
+1. (Facultatief) knevel tussen [!UICONTROL Card View] en [!UICONTROL List View], klik het [!UICONTROL Card View] pictogram ( ![&#x200B; pictogram van de de meningsmening van de Kaart &#x200B;](/help/main/assets/icons/ViewCard.svg)) of het [!UICONTROL List View] pictogram ( ![&#x200B; pictogram van de lijstmening &#x200B;](/help/main/assets/icons/ViewList.svg) ) in de hogere juiste hoek van de [!UICONTROL Asset] bibliotheek.
+1. Klik het **[!UICONTROL Content Only]** pictogram ( ![&#x200B; Inhoud slechts pictogram &#x200B;](/help/main/assets/icons/RailLeft.svg)) in de hoogste linkerhoek om de onderzoeksdoos te tonen.
 1. Typ in het zoekvak een trefwoord voor de elementen die u wilt zoeken en druk op [!UICONTROL Enter] .
 1. (Voorwaardelijk) gebruik de ruit **[!UICONTROL Filters & Options]** op de linkerkant om uw onderzoek te verfijnen.
 

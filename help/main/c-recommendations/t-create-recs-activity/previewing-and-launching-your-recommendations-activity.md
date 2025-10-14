@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Activiteiten van uw aanbevelingen voorvertonen en starten
 
-Nadat u uw [!UICONTROL Recommendations] hebt gecreeerd, [!UICONTROL A/B Test], of [!UICONTROL Experience Targeting] (XT) activiteit die [ aanbiedingen van Aanbevelingen ](/help/main/c-recommendations/recommendations-as-an-offer.md) bevat, zult u voorproef uw aanbevelingen willen ervoor zorgen dat de resultaten beschikbaar zijn alvorens de activiteit te lanceren. [!DNL Target Recommendations] biedt meerdere manieren om een voorbeeld van uw aanbevelingen te bekijken.
+Nadat u uw [!UICONTROL Recommendations] hebt gecreeerd, [!UICONTROL A/B Test], of [!UICONTROL Experience Targeting] (XT) activiteit die [&#x200B; aanbiedingen van Aanbevelingen &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md) bevat, zult u voorproef uw aanbevelingen willen ervoor zorgen dat de resultaten beschikbaar zijn alvorens de activiteit te lanceren. [!DNL Target Recommendations] biedt meerdere manieren om een voorbeeld van uw aanbevelingen te bekijken.
 
 ## Status van algoritme voor aanbevelingen controleren
 
@@ -21,7 +21,7 @@ Nadat [!DNL Recommendations] een activiteit heeft gemaakt, wordt een algoritme u
 
 U kunt controleren of het algoritme in het [!UICONTROL Activity] overzichtsdiagram is gebeëindigd, waar de status van de criteria wordt vermeld. De volgende afbeelding toont de status in het activiteitsdiagram op de pagina [!DNL Recommendations] van een [!UICONTROL Overview] activiteit:
 
-![ pagina van het Overzicht van de activiteit van Aanbevelingen ](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
+![&#x200B; pagina van het Overzicht van de activiteit van Aanbevelingen &#x200B;](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
 De statusresultaten zijn als volgt:
 
@@ -29,7 +29,7 @@ De statusresultaten zijn als volgt:
 * [!UICONTROL Results Not Ready]: geeft aan dat het algoritme niet is voltooid.
 * [!UICONTROL Feed Failure]: geeft aan dat het feed-bestand met aangepaste criteria niet kan worden opgehaald.
 
-![ de dialoogdoos van Resultaten ](/help/main/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
+![&#x200B; de dialoogdoos van Resultaten &#x200B;](/help/main/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 
 ## Hoe lang duurt het om het algoritme uit te voeren?
 
@@ -55,7 +55,7 @@ Als de criteria [!DNL Adobe Analytics] als gedragsgegevensbron gebruiken, zodra 
 
 ## QA-koppelingen gebruiken om aanbevelingen voor te vertonen
 
-Nadat het algoritme resultaten klaar heeft, kunt u die resultaten voorproef gebruikend de [ verbinding QA ](/help/main/c-activities/c-activity-qa/activity-qa.md) functionaliteit van [!DNL Adobe Target]. QA-koppelingen zijn beschikbaar in de sectie [!UICONTROL Activity Location] van de overzichtspagina van [!UICONTROL Activity] :
+Nadat het algoritme resultaten klaar heeft, kunt u die resultaten voorproef gebruikend de [&#x200B; verbinding QA &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa.md) functionaliteit van [!DNL Adobe Target]. QA-koppelingen zijn beschikbaar in de sectie [!UICONTROL Activity Location] van de overzichtspagina van [!UICONTROL Activity] :
 
 >[!NOTE]
 >
@@ -63,11 +63,11 @@ Nadat het algoritme resultaten klaar heeft, kunt u die resultaten voorproef gebr
 
 Als u een koppeling QA gebruikt, kunt u de aanbevelingen op uw pagina bekijken:
 
-![ Aanbevolen producten ](/help/main/c-recommendations/t-create-recs-activity/assets/featured-products.png)
+![&#x200B; Aanbevolen producten &#x200B;](/help/main/c-recommendations/t-create-recs-activity/assets/featured-products.png)
 
 >[!NOTE]
 >
->* De doel-QA-modus is &quot;plakken&quot; en wordt in een cookie opgeslagen. Als u de QA-modus niet afsluit, blijven de resultaten van de QA op de hele site zichtbaar. Om wijze QA weg te gaan, gebruik [ bookmarklet ](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
+>* De doel-QA-modus is &quot;plakken&quot; en wordt in een cookie opgeslagen. Als u de QA-modus niet afsluit, blijven de resultaten van de QA op de hele site zichtbaar. Om wijze QA weg te gaan, gebruik [&#x200B; bookmarklet &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
 >
 >* In de QA-modus heeft het bladeren door de site geen invloed op de profielen [!UICONTROL Recently Viewed Items] en [!UICONTROL Recently Purchased Items] van uw profiel. Dit gedrag gebeurt door het ontwerp om onopzettelijke verontreiniging van gedragsgegevens van de productie te voorkomen. Als u de resultaten wilt voorvertonen op basis van een [!UICONTROL Recently Viewed Items] - of [!UICONTROL User-Based Recommendations] -criterium, bladert u eerst naar de site buiten de QA-modus en opent u vervolgens met dezelfde sessie een koppeling in de QA-modus.
 
@@ -79,15 +79,15 @@ De resultaten zijn pas beschikbaar voor downloaden als de status [!UICONTROL Res
 
 Als u de resultaten voor de voorvertoning wilt downloaden, klikt u op het menupictogram in de rechterbovenhoek van de pagina Activiteiten en klikt u vervolgens op **[!UICONTROL Download data]** .
 
-![ de gegevensoptie van de Download ](/help/main/c-recommendations/t-create-recs-activity/assets/download-data.png)
+![&#x200B; de gegevensoptie van de Download &#x200B;](/help/main/c-recommendations/t-create-recs-activity/assets/download-data.png)
 
 Er wordt een CSV-bestand gedownload. Open het venster om de aanbevolen items weer te geven:
 
-![ Aanbevolen punten CSV dossier ](/help/main/c-recommendations/t-create-recs-activity/assets/recommended-items.png)
+![&#x200B; Aanbevolen punten CSV dossier &#x200B;](/help/main/c-recommendations/t-create-recs-activity/assets/recommended-items.png)
 
 Van links naar rechts is een lijst met aanbevolen items, in dit geval de meest bekeken items. De aanbevelingen worden gescheiden door het milieu, in dit geval heeft alleen de productieomgeving aanbevelingen.
 
-Als een asterisk (*) de eerste waarde van een rij is, wijst het op [ reservepunten ](/help/main/c-recommendations/c-algorithms/backup-recs.md). Back-upitems worden weergegeven als niet alle sleuven in een ontwerp kunnen worden ingevuld door de aanbevolen items van het algoritme (criteria).
+Als een asterisk (*) de eerste waarde van een rij is, wijst het op [&#x200B; reservepunten &#x200B;](/help/main/c-recommendations/c-algorithms/backup-recs.md). Back-upitems worden weergegeven als niet alle sleuven in een ontwerp kunnen worden ingevuld door de aanbevolen items van het algoritme (criteria).
 
 Voor andere algoritmenypen die op een zeer belangrijke waarde, zoals [!UICONTROL People Who Viewed This, Viewed That] worden gebaseerd, zijn de zeer belangrijke waarden (d.w.z. de &quot;Deze&quot;punten) vermeld in de meest linkse kolom en de geadviseerde punten (d.w.z. de &quot;die&quot;punten) worden vermeld van links naar rechts in Recommendation_X kolommen.
 

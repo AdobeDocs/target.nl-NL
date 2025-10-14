@@ -17,7 +17,7 @@ Voor elke ervaring worden de omrekeningskoers, de lift, het betrouwbaarheidsinte
 
 In de volgende afbeelding ziet u de diagramkop voor een voorbeeldactiviteit met de kopteksten [!UICONTROL Conversion Rate] , [!UICONTROL Lift] en [!UICONTROL Confidence] gemarkeerd.
 
-![ omzetting-tarief beeld ](assets/conversion-rate.jpg)
+![&#x200B; omzetting-tarief beeld &#x200B;](assets/conversion-rate.jpg)
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Hiermee geeft u de mediaan van de conversiesnelheid, het vertrouwen, het interva
 
 Kijk bijvoorbeeld naar de volgende rapportkolom Conversiesnelheid:
 
-![ omzetting-tarief-detailbeeld ](assets/conversion-rate-detail.jpg)
+![&#x200B; omzetting-tarief-detailbeeld &#x200B;](assets/conversion-rate-detail.jpg)
 
 De eerste regel is de besturingservaring. Het toont een 15% omzettingspercentage, met drie omzettingen. De tweede regel, Experience B, toont een 15% conversiesnelheid, met een betrouwbaarheidsinterval van 15,65% of minder en drie conversies.
 
@@ -62,7 +62,7 @@ Het vertrouwen van een getoonde ervaring of aanbieding is een waarschijnlijkheid
 
 Het vertrouwen beloopt tot 100,00% wanneer het vertrouwen 99,995% of meer bedraagt.
 
-![ conf_report beeld ](assets/conf_report.png) ![ conf_report_detail beeld ](assets/conf_report_detail.png)
+![&#x200B; conf_report beeld &#x200B;](assets/conf_report.png) ![&#x200B; conf_report_detail beeld &#x200B;](assets/conf_report_detail.png)
 
 Alvorens om het even welke bedrijfsbesluiten te nemen, probeer om te wachten tot uw steekproefgrootte groot genoeg is en dat de vier bars van vertrouwen op één of meerdere ervaringen voor een ononderbroken tijdsduur verenigbaar blijven om de resultaten te verzekeren stabiel zijn.
 
@@ -75,7 +75,7 @@ Alvorens om het even welke bedrijfsbesluiten te nemen, probeer om te wachten tot
 
 Het *betrouwbaarheidsinterval* is een waaier van ramingen waarbinnen de ware waarde van metrisch op een bepaald betrouwbaarheidsniveau kan worden gevonden. Doel geeft altijd een betrouwbaarheidsinterval van 95% weer. Het betrouwbaarheidsinterval wordt weergegeven als een lichtgrijs +/- percentage in de kolom Conversiesnelheid. In het onderstaande voorbeeld is het betrouwbaarheidsinterval voor de lift van Experience B plus of min 15,65%.
 
-![ conversion_rate beeld ](assets/conversion_rate.png)
+![&#x200B; conversion_rate beeld &#x200B;](assets/conversion_rate.png)
 
 **Voorbeeld:** De waargenomen RPV van een ervaring is $10, en zijn 95% **betrouwbaarheidsinterval** is $5 aan $15. Onbekend voor ons is de werkelijke RPV $12. Dan, als wij deze test veelvoudige tijden in werking stellen, zal 95% van de tijd het vertrouwensinterval wij berekenen de _ware_ waarde van RPV van $12 bevatten.
 
@@ -86,9 +86,9 @@ Het *betrouwbaarheidsinterval* is een waaier van ramingen waarbinnen de ware waa
 
 ## De Berekening van het vertrouwen en hoe te om het off-line uit te voeren {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
-Het [ gedownloade rapport CSV ](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) omvat slechts ruwe gegevens en omvat geen berekende metriek, zoals opbrengst per bezoeker, lift, of vertrouwen dat voor tests A/B wordt gebruikt.
+Het [&#x200B; gedownloade rapport CSV &#x200B;](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) omvat slechts ruwe gegevens en omvat geen berekende metriek, zoals opbrengst per bezoeker, lift, of vertrouwen dat voor tests A/B wordt gebruikt.
 
-Om deze berekende metriek te berekenen, download het Volledige dossier van het Vertrouwen van het Doel [&#128279;](/help/main/assets/complete_confidence_calculator.xlsx) Excel om de waarde van de activiteit in te voeren, of herzie [ Statistische berekeningen in tests A/Bn ](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+Om deze berekende metriek te berekenen, download het Volledige dossier van het Vertrouwen van het Doel [&#128279;](/help/main/assets/complete_confidence_calculator.xlsx) Excel om de waarde van de activiteit in te voeren, of herzie [&#x200B; Statistische berekeningen in tests A/Bn &#x200B;](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Om deze berekende metriek te berekenen, download het Volledige dossier van het V
 
 U kunt offlineberekeningen voor A4T uitvoeren, maar het vereist een stap met gegevens het uitvoeren in [!DNL Analytics].
 
-Voor A4T, gebruiken wij t-test van a [ Welch ](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} berekening voor ononderbroken variabelen (eerder dan binaire metriek). In Analytics wordt een bezoeker altijd bijgehouden en wordt elke actie geteld. Daarom als de bezoeker veelvoudige tijden koopt of een succes metrisch veelvoudige tijden bezoekt, worden die extra treffers geteld. Dit maakt metrisch een ononderbroken variabele. Om de t-test-berekening van het Welch uit te voeren, is de &quot;som van de vierkanten&quot; vereist om de variantie te berekenen, die wordt gebruikt in de noemer van de t-statistiek. [ Statistische berekeningen in tests A/Bn ](/help/main/c-reports/statistical-methodology/statistical-calculations.md) verklaart de details van de gebruikte wiskundige formules. De som van de vierkanten kan worden opgehaald uit [!DNL Analytics] . Om de som gegevens van vierkanten te krijgen, moet u een bezoekersvlakke uitvoer voor metrisch uitvoeren u aan optimaliseert, voor een steekproeftijdspanne.
+Voor A4T, gebruiken wij t-test van a [&#x200B; Welch &#x200B;](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} berekening voor ononderbroken variabelen (eerder dan binaire metriek). In Analytics wordt een bezoeker altijd bijgehouden en wordt elke actie geteld. Daarom als de bezoeker veelvoudige tijden koopt of een succes metrisch veelvoudige tijden bezoekt, worden die extra treffers geteld. Dit maakt metrisch een ononderbroken variabele. Om de t-test-berekening van het Welch uit te voeren, is de &quot;som van de vierkanten&quot; vereist om de variantie te berekenen, die wordt gebruikt in de noemer van de t-statistiek. [&#x200B; Statistische berekeningen in tests A/Bn &#x200B;](/help/main/c-reports/statistical-methodology/statistical-calculations.md) verklaart de details van de gebruikte wiskundige formules. De som van de vierkanten kan worden opgehaald uit [!DNL Analytics] . Om de som gegevens van vierkanten te krijgen, moet u een bezoekersvlakke uitvoer voor metrisch uitvoeren u aan optimaliseert, voor een steekproeftijdspanne.
 
 Bijvoorbeeld, als u aan paginameningen per bezoeker optimaliseert, zou u een steekproef van het totale aantal paginameningen op een per bezoekersbasis voor een gespecificeerd tijdkader uitvoeren, misschien een paar dagen (een paar duizend gegevenspunten is allen u nodig). Vervolgens vigeert u elke waarde en somt u de totalen op (de volgorde van de bewerkingen is hier van essentieel belang). Deze &quot;som van vierkanten&quot;waarde wordt dan gebruikt in de Volledige Berekening van het Vertrouwen. Gebruik de sectie &quot;opbrengst&quot; van dat spreadsheet voor deze waarden.
 
@@ -108,17 +108,17 @@ Bijvoorbeeld, als u aan paginameningen per bezoeker optimaliseert, zou u een ste
 1. Klik op **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** .
 1. Vul op het tabblad **[!UICONTROL Data Warehouse Request]** de velden in.
 
-   Voor meer informatie over elk gebied, zie &quot;beschrijvingen van Data Warehouse&quot;in [ Data Warehouse ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=nl-NL).
+   Voor meer informatie over elk gebied, zie &quot;beschrijvingen van Data Warehouse&quot;in [&#x200B; Data Warehouse &#x200B;](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=nl-NL).
 
    | Veld | Instructies |
    |--- |--- |
    | Naam aanvraag | Geef een naam op voor uw aanvraag. |
-   | Datum van rapportage | Geef een tijdsperiode en granulariteit op.<br> als beste praktijken, kies niet meer dan een uur of één dag van gegevens voor uw eerste verzoek.  Het duurt langer om Data Warehouse-bestanden te verwerken met een langere periode. Het is daarom altijd aan te raden om eerst gegevens over een kleine periode aan te vragen om ervoor te zorgen dat het bestand het gewenste resultaat oplevert. Ga vervolgens naar de Request Manager, dupliceer uw verzoek en vraag de tweede keer om meer gegevens. Ook, als u granularity aan om het even wat buiten &quot;niets&quot;schakelt, zal de dossiergrootte drastisch stijgen.<br>![ Data Warehouse ](/help/main/c-reports/assets/datawarehouse.png) |
+   | Datum van rapportage | Geef een tijdsperiode en granulariteit op.<br> als beste praktijken, kies niet meer dan een uur of één dag van gegevens voor uw eerste verzoek.  Het duurt langer om Data Warehouse-bestanden te verwerken met een langere periode. Het is daarom altijd aan te raden om eerst gegevens over een kleine periode aan te vragen om ervoor te zorgen dat het bestand het gewenste resultaat oplevert. Ga vervolgens naar de Request Manager, dupliceer uw verzoek en vraag de tweede keer om meer gegevens. Ook, als u granularity aan om het even wat buiten &quot;niets&quot;schakelt, zal de dossiergrootte drastisch stijgen.<br>![&#x200B; Data Warehouse &#x200B;](/help/main/c-reports/assets/datawarehouse.png) |
    | Beschikbare segmenten | Pas indien nodig een segment toe. |
    | Uitsplitsingen | Selecteer de gewenste afmetingen: Standaard is uit-van-de-doos (OOTB), terwijl de Douane eVars &amp; steunen omvat. Je kunt het beste &#39;Bezoeker-id&#39; gebruiken als je informatie op bezoekersidentiteitsniveau nodig hebt in plaats van &#39;Experience Cloud Bezoeker-id&#39;.<ul><li>Bezoeker-id is de laatste id die wordt gebruikt door Analytics. Het zal of identiteitskaart (als de klant erfenis is) of MID (als de klant nieuwe of ontruimde koekjes is sinds de dienst van bezoekersidentiteitskaart van MC werd gelanceerd) zijn.</li><li>De Experience Cloud Bezoeker-id wordt alleen ingesteld voor klanten die nieuwe of verwijderde cookies zijn sinds de service MC bezoeker-id is gestart.</li></ul> |
    | Metrisch | Selecteer de gewenste meetgegevens. Standaard is OOTB, terwijl Aangepast aangepaste gebeurtenissen bevat. |
-   | Voorvertoning van rapport | Controleer uw instellingen voordat u het rapport plant.<br>![ Data Warehouse 2 ](/help/main/c-reports/assets/datawarehouse2.png) |
-   | Levering plannen | Voer een e-mailadres in waarnaar het bestand moet worden verzonden, geef het bestand een naam en selecteer vervolgens [!UICONTROL Send Immediately] .<br> Nota: Het dossier kan via FTP onder [!UICONTROL Advanced Delivery Options]<br>![ Levering van het Programma worden geleverd ](/help/main/c-reports/assets/datawarehouse3.png). |
+   | Voorvertoning van rapport | Controleer uw instellingen voordat u het rapport plant.<br>![&#x200B; Data Warehouse 2 &#x200B;](/help/main/c-reports/assets/datawarehouse2.png) |
+   | Levering plannen | Voer een e-mailadres in waarnaar het bestand moet worden verzonden, geef het bestand een naam en selecteer vervolgens [!UICONTROL Send Immediately] .<br> Nota: Het dossier kan via FTP onder [!UICONTROL Advanced Delivery Options]<br>![&#x200B; Levering van het Programma worden geleverd &#x200B;](/help/main/c-reports/assets/datawarehouse3.png). |
 
 1. Klik op **[!UICONTROL Request this Report]**.
 
@@ -128,8 +128,8 @@ Bijvoorbeeld, als u aan paginameningen per bezoeker optimaliseert, zou u een ste
 
 Raadpleeg de volgende koppelingen in de Help van [!DNL Data Warehouse] voor meer informatie over [!DNL Analytics] :
 
-* [ creeer een verzoek van Data Warehouse ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=nl-NL)
-* [ de beste praktijken van Data Warehouse ](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=nl-NL)
+* [&#x200B; creeer een verzoek van Data Warehouse &#x200B;](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=nl-NL)
+* [&#x200B; de beste praktijken van Data Warehouse &#x200B;](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=nl-NL)
 
 ## Telmethode {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -172,13 +172,13 @@ U kunt rapporten weergeven met de volgende telmethoden:
 
 A/B-tests zijn experimenten om de gemiddelde waarde van bepaalde metrische bedrijfswaarden in een besturingsvariant (ook wel een ervaring genoemd) te vergelijken met de gemiddelde waarde van die metrische waarde in een of meer alternatieve ervaringen.
 
-[!DNL Target] adviseert het gebruiken van [ Welch t-test ](https://en.wikipedia.org/wiki/Welch%27s_t-test), aangezien deze minder veronderstellingen dan alternatieven zoals z-tests vereisen, en de aangewezen statistische test voor het doen van paarsgewijze vergelijkingen van (kwantitatieve) bedrijfsmetriek tussen een controleervaringen en afwisselende ervaringen zijn.
+[!DNL Target] adviseert het gebruiken van [&#x200B; Welch t-test &#x200B;](https://en.wikipedia.org/wiki/Welch%27s_t-test), aangezien deze minder veronderstellingen dan alternatieven zoals z-tests vereisen, en de aangewezen statistische test voor het doen van paarsgewijze vergelijkingen van (kwantitatieve) bedrijfsmetriek tussen een controleervaringen en afwisselende ervaringen zijn.
 
 ### Meer details
 
 Wanneer het runnen van online A/B tests, wordt elke gebruiker/bezoeker willekeurig toegewezen aan één enkele variant. Vervolgens meten we de relevante maatstaven voor het bedrijf (bijvoorbeeld omzettingen, bestellingen, inkomsten, enz.) voor bezoekers in elke variant. De statistische test die we vervolgens gebruiken, test de hypothese dat de gemiddelde maatstaf van het bedrijf (bijvoorbeeld conversiesnelheid, orders per gebruiker, inkomsten per gebruiker, enz.) gelijk is voor de controle en een bepaalde alternatieve variant.
 
-Hoewel zaken metrisch zelf volgens één of andere willekeurige distributie zou kunnen worden verdeeld, zou de distributie van het gemiddelde van dit metrisch (binnen elke variant) in een normale distributie via de [ Centrale Grenswaarden Theorem ](https://en.wikipedia.org/wiki/Central_limit_theorem) moeten samenkomen. Hoewel er geen garantie is voor de snelheid waarmee deze bemonsteringsspreiding van het gemiddelde zal converteren naar normaal, wordt deze voorwaarde doorgaans bereikt gezien de omvang van de bezoekers bij online testen.
+Hoewel zaken metrisch zelf volgens één of andere willekeurige distributie zou kunnen worden verdeeld, zou de distributie van het gemiddelde van dit metrisch (binnen elke variant) in een normale distributie via de [&#x200B; Centrale Grenswaarden Theorem &#x200B;](https://en.wikipedia.org/wiki/Central_limit_theorem) moeten samenkomen. Hoewel er geen garantie is voor de snelheid waarmee deze bemonsteringsspreiding van het gemiddelde zal converteren naar normaal, wordt deze voorwaarde doorgaans bereikt gezien de omvang van de bezoekers bij online testen.
 
 Gezien deze normaliteit van het gemiddelde kan worden aangetoond dat de te gebruiken teststatistiek een t-verdeling volgt, omdat het de verhouding is tussen een normaal verdeelde waarde (het verschil in gemiddelden) en een schaaltermijn op basis van een schatting op basis van de gegevens (de standaardfout van het verschil in gemiddelden). **t-test** is dan de aangewezen hypothesetest, gezien de teststatistiek een t-distributie volgt.
 

@@ -29,19 +29,19 @@ U test twee ervaringen, een geo-gerichte banner versus een generische banner. De
 
 In dit geval hebt u geospecifieke versies van de ervaring nodig, zodat u de geo-gerichte ervaring kunt testen tegen een niet-geo-gerichte controle.
 
-1. [ creeer een activiteit A/B ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) aangezien u normaal zou.
+1. [&#x200B; creeer een activiteit A/B &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) aangezien u normaal zou.
 
    Wanneer het vormen van de ervaring die veelvoudige versies zal hebben, selecteer het publiek voor elke versie, zoals aangetoond in de volgende stappen.
 
 1. Selecteer de ervaring en klik vervolgens op **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]** .
 
-   ![ Veelvoudige optie van het publiek ](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
+   ![&#x200B; Veelvoudige optie van het publiek &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
 1. Klik op **[!UICONTROL Add Audience]** en selecteer vervolgens het eerste publiek dat u als doel wilt instellen. Herhaal dit voor elk publiek.
 
-   ![ exp-versies beeld ](assets/exp-versions.png)
+   ![&#x200B; exp-versies beeld &#x200B;](assets/exp-versions.png)
 
-   Als het publiek nog niet bestaat, klik [ leidt tot Audience ](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) en opstelling het.
+   Als het publiek nog niet bestaat, klik [&#x200B; leidt tot Audience &#x200B;](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) en opstelling het.
 
    Als een bezoeker voor meer dan één publiek in aanmerking komt, wordt de inhoud voor alle soorten publiek geretourneerd, waarbij de laatste in de lijst daadwerkelijk op de pagina wordt weergegeven.
 

@@ -30,17 +30,17 @@ Zoeken naar elementen op trefwoorden in de [!UICONTROL Offers] -bibliotheek in [
 
    In de volgende afbeelding worden de beschikbare opties getoond wanneer u de [!UICONTROL List View] bekijkt:
 
-   ![ de opties van de Mening van de Lijst ](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
+   ![&#x200B; de opties van de Mening van de Lijst &#x200B;](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 1. Klik op het pictogram **[!UICONTROL Content Only]** linksboven in het zoekvak.
 
-   ![ slechts optie van de Inhoud ](/help/main/c-experiences/c-manage-content/assets/content-only.png)
+   ![&#x200B; slechts optie van de Inhoud &#x200B;](/help/main/c-experiences/c-manage-content/assets/content-only.png)
 
 1. Typ in het zoekvak een trefwoord voor de elementen die u wilt zoeken en druk op Enter.
 
 1. (Optioneel) Gebruik het deelvenster **[!UICONTROL Filters and Options]** om de zoekopdracht verder te verfijnen.
 
-   ![ de Filter en ruit van Opties ](/help/main/c-experiences/c-manage-content/assets/filter-and-options.png)
+   ![&#x200B; de Filter en ruit van Opties &#x200B;](/help/main/c-experiences/c-manage-content/assets/filter-and-options.png)
 
    U kunt filteren op:
 

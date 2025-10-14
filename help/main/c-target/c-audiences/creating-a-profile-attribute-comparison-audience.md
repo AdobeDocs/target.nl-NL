@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Een vergelijkingspubliek voor profielkenmerken maken
 
-Bepaal een publiek in [!DNL Adobe Target] om twee profielattributen voor uw [ bibliotheek van de Publiek ](/help/main/c-target/c-audiences/audiences.md) of in een [ activiteit-slechts publiek ](/help/main/c-target/creating-activity-only-audience.md) te vergelijken. Met operatoren, zoals groter dan, kleiner dan of gelijk aan, definieert u een publiek om de waarden van twee verschillende profielkenmerken dynamisch te vergelijken.
+Bepaal een publiek in [!DNL Adobe Target] om twee profielattributen voor uw [&#x200B; bibliotheek van de Publiek &#x200B;](/help/main/c-target/c-audiences/audiences.md) of in een [&#x200B; activiteit-slechts publiek &#x200B;](/help/main/c-target/creating-activity-only-audience.md) te vergelijken. Met operatoren, zoals groter dan, kleiner dan of gelijk aan, definieert u een publiek om de waarden van twee verschillende profielkenmerken dynamisch te vergelijken.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Stel bijvoorbeeld dat u voor een meubelbedrijf werkt en twee scores voor klantvr
 
 Je zou een publiek kunnen maken dat gedefinieerd wordt als de neiging om eetkamermeubilair te kopen groter is dan de neiging om meubilair van woonkamertjes te kopen. [!DNL Target] vergelijkt vervolgens dynamisch de scores voor de eetruimte en de dichtheid van de woonkamer voor een specifieke bezoeker om te bepalen of die bezoeker voor dit publiek in aanmerking komt.
 
-Voor meer informatie, zie [ Methoden om Gegevens in Doel ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=nl-NL){target=_blank} te krijgen.
+Voor meer informatie, zie [&#x200B; Methoden om Gegevens in Doel &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=nl-NL){target=_blank} te krijgen.
 
 ## Een vergelijkingspubliek voor profielkenmerken maken {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
@@ -39,17 +39,17 @@ Voor meer informatie, zie [ Methoden om Gegevens in Doel ](https://experiencelea
 1. Sleep **[!UICONTROL Visitor Profile]** naar het deelvenster van de publieksbuilder.
 1. Kies een kenmerk in de vervolgkeuzelijst **[!UICONTROL Visitor Profile]** :
 
-   ![ Score van de Volheid 1 ](assets/propensity_score_1.png)
+   ![&#x200B; Score van de Volheid 1 &#x200B;](assets/propensity_score_1.png)
 
 1. Kies uw evaluator:
 
-   ![ Score van de Volheid 2 ](assets/propensity_score_2.png)
+   ![&#x200B; Score van de Volheid 2 &#x200B;](assets/propensity_score_2.png)
 
 1. Kies **[!UICONTROL Choose Comparison Type]** in de vervolgkeuzelijst **[!UICONTROL Attribute]** .
 
    Met het vergelijkingstype &quot;statische waarde&quot; kunt u het kenmerk &quot;profiel van de bezoeker&quot; vergelijken met specifieke waarden.
 
-   ![ Score van de Eigenschap 3 ](assets/propensity_score_3.png)
+   ![&#x200B; Score van de Eigenschap 3 &#x200B;](assets/propensity_score_3.png)
 
    >[!NOTE]
    >
@@ -57,11 +57,11 @@ Voor meer informatie, zie [ Methoden om Gegevens in Doel ](https://experiencelea
 
 1. Kies het extra kenmerk dat u met het oorspronkelijke kenmerk wilt vergelijken.
 
-   ![ propensity_score_4 beeld ](assets/propensity_score_4.png)
+   ![&#x200B; propensity_score_4 beeld &#x200B;](assets/propensity_score_4.png)
 
 1. Klik op **[!UICONTROL Done]**.
 
-## De video van de opleiding ![ badge van het Overzicht ](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## De video van de opleiding ![&#x200B; badge van het Overzicht &#x200B;](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 Bekijk de volgende video voor meer informatie en een scenario waarin u deze functie kunt gebruiken:
 

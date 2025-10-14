@@ -68,6 +68,6 @@ Stel dat u met uw A/A-test een betrouwbaarheidsniveau van 95% wilt bereiken. Met
 
 Als u besluit dat een A/A test in uw organisatie noodzakelijk is, ben zich ervan bewust dat de identieke ervaringen tijdelijk een verschil van de controle zouden kunnen tonen. Dit kan normaal zijn, afhankelijk van de tijd de test wordt toegestaan te lopen. Het verschil zou moeten verminderen gegeven meer tijd en bezoekers.
 
-De beste praktijken moeten regelmatige A/B testende methodologie gebruiken: besluit de steekproefgrootte voor tijd die op een minimale relevante effect grootte, gewenste macht, en betekenis door de [ calculator van de Grootte van Adobe Target ](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) wordt gebaseerd te gebruiken.
+De beste praktijken moeten regelmatige A/B testende methodologie gebruiken: besluit de steekproefgrootte voor tijd die op een minimale relevante effect grootte, gewenste macht, en betekenis door de [&#x200B; calculator van de Grootte van Adobe Target &#x200B;](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) wordt gebaseerd te gebruiken.
 
 Zorg er vervolgens voor dat er voldoende tijd en bezoekers zijn voordat u tot conclusies komt. Vergeet niet dat er, afhankelijk van het significantieniveau van uw test, een kans is dat je ervaring een verschil in lift laat zien en zelfs tot winnaar wordt uitgeroepen.

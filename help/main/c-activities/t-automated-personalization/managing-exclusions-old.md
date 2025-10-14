@@ -27,19 +27,19 @@ U kunt ook beperken welke doelgroepen specifieke aanbiedingen kunnen zien in AP-
 
 **om een uitsluitingsgroep tot stand te brengen:**
 
-1. Terwijl [ creërend of het uitgeven van een AP activiteit ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), klik **[!UICONTROL Manage Content]** in de kopbalbar.
+1. Terwijl [&#x200B; creërend of het uitgeven van een AP activiteit &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), klik **[!UICONTROL Manage Content]** in de kopbalbar.
 
-   ![ beheer de verbinding van de Inhoud ](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
+   ![&#x200B; beheer de verbinding van de Inhoud &#x200B;](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
 
 1. Klik in het dialoogvenster [!UICONTROL Manage Content] op **[!UICONTROL Exclusion Groups]** .
 
-   ![ beheert Inhoud > de dialoogdoos van de Groepen van de Uitsluiting ](/help/main/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
+   ![&#x200B; beheert Inhoud > de dialoogdoos van de Groepen van de Uitsluiting &#x200B;](/help/main/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
 
    Als u eerder uitsluitingsgroepen hebt gemaakt, worden deze weergegeven in de lijst. Als u nog geen uitsluitingsgroep hebt gemaakt, wordt u gevraagd om er een te maken.
 
 1. Klikken **[!UICONTROL Create Exclusion Group.]**
 
-   ![ creeer de dialoogdoos van de Groep van de Uitsluiting ](/help/main/c-activities/t-automated-personalization/assets/exclusion_group_create_dialog-new.png)
+   ![&#x200B; creeer de dialoogdoos van de Groep van de Uitsluiting &#x200B;](/help/main/c-activities/t-automated-personalization/assets/exclusion_group_create_dialog-new.png)
 
 1. (Vereist) Geef een beschrijvende naam op voor de uitsluitingsgroep.
 
@@ -61,7 +61,7 @@ U hebt bijvoorbeeld een activiteit met zes locaties op een pagina met 12 aanbied
 
 Klik op **[!UICONTROL Configure]** versnelling > **[!UICONTROL Duplicate Offers]** en klik vervolgens op **[!UICONTROL Allow Duplicates]** of **[!UICONTROL Disallow Duplicates]** .
 
-![ de dubbel aanbiedingsopties van aanbiedingen ](/help/main/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
+![&#x200B; de dubbel aanbiedingsopties van aanbiedingen &#x200B;](/help/main/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
 ## Specifieke ervaringen uitsluiten {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
@@ -69,9 +69,9 @@ Sluit specifieke ervaringen uit als u bepaalde aanbiedingscombinaties wilt uitsl
 
 Er zouden bepaalde combinaties kunnen zijn die niet samenwerken, of u zou het aantal geteste ervaringen kunnen beperken om verkeersvereisten voor uw activiteit te verminderen.
 
-1. Terwijl [ creërend of het uitgeven van een AP activiteit ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), klik **leidt Inhoud** in de kopbalbar.
+1. Terwijl [&#x200B; creërend of het uitgeven van een AP activiteit &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), klik **leidt Inhoud** in de kopbalbar.
 
-   ![ beheer de verbinding van de Inhoud ](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
+   ![&#x200B; beheer de verbinding van de Inhoud &#x200B;](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
 
    In de lijst [!UICONTROL Experiences] wordt elke ervaring weergegeven die is gegenereerd op basis van de permutaties van alle opties voor inhoud en locatie.
 
@@ -79,17 +79,17 @@ Er zouden bepaalde combinaties kunnen zijn die niet samenwerken, of u zou het aa
 
    U kunt specifieke ervaringen uitsluiten door de muisaanwijzer boven de gewenste ervaring te houden en vervolgens op het pictogram voor uitsluiten te klikken.
 
-   ![ sluit ervaring uit door te bedekken ](/help/main/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
+   ![&#x200B; sluit ervaring uit door te bedekken &#x200B;](/help/main/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
 
    U kunt ervaringen ook in batch uitsluiten door het selectievakje voor relevante ervaringen in te schakelen en vervolgens op het pictogram **[!UICONTROL Exclude]** in de rechterbovenhoek van het dialoogvenster te klikken. Het pictogram [!UICONTROL Exclude] wordt weergegeven wanneer een of meer ervaringen worden gecontroleerd.
 
-   ![ Partij sluit ervaringen ](/help/main/c-activities/t-automated-personalization/assets/exclude_exp_2a.png) uit
+   ![&#x200B; Partij sluit ervaringen &#x200B;](/help/main/c-activities/t-automated-personalization/assets/exclude_exp_2a.png) uit
 
    U kunt deze lijstweergave filteren om alleen uitgesloten of alleen opgenomen activiteiten weer te geven door op de vervolgkeuzelijst [!UICONTROL Status] te klikken.
 
    De ervaringen zijn nu uitgesloten van de activiteit en de [!UICONTROL Status] show as [!UICONTROL Excluded] .
 
-   ![ Uitgesloten ervaringen ](/help/main/c-activities/t-automated-personalization/assets/exclude_exp_3a.png)
+   ![&#x200B; Uitgesloten ervaringen &#x200B;](/help/main/c-activities/t-automated-personalization/assets/exclude_exp_3a.png)
 
 ## Standaardinhoud uitsluiten {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
@@ -99,28 +99,28 @@ Het uitsluiten van standaardinhoud is een goede manier om de vormgeving van de r
 
 **om standaardinhoud uit te sluiten gebruikend [!UICONTROL Visual Experience Composer] (VEC):**
 
-1. Terwijl [ creërend of het uitgeven van een AP activiteit ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), selecteer de inhoud u wilt vervangen en klikken om tot **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, of **[!UICONTROL Change Background Color]** toegang te hebben.
+1. Terwijl [&#x200B; creërend of het uitgeven van een AP activiteit &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), selecteer de inhoud u wilt vervangen en klikken om tot **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, of **[!UICONTROL Change Background Color]** toegang te hebben.
 1. In de dialoogdoos, creeer uw nieuwe inhoud en uncheck **omvatten** rechts van de standaardinhoud (of uncheck het StandaardBeeld/Video in het [!UICONTROL Select Content] scherm).
 
    Afhankelijk van het type inhoud of aanbieding bevindt het selectievakje [!UICONTROL Include] zich op een iets andere plaats.
 
    Voor Text/HTML-inhoud:
 
-   ![ omvatten checkbox in Edit Text/HTML dialoogdoos ](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_1a.png)
+   ![&#x200B; omvatten checkbox in Edit Text/HTML dialoogdoos &#x200B;](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_1a.png)
 
    Voor inhoud van afbeelding/video:
 
-   ![ omvatten checkbox in Uitgezochte de dialoogdoos van de Inhoud ](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_2a.png)
+   ![&#x200B; omvatten checkbox in Uitgezochte de dialoogdoos van de Inhoud &#x200B;](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_2a.png)
 
    Voor achtergrondkleur:
 
-   ![ omvat checkbox in Edit de dialoogdoos van de Kleur van de Achtergrond ](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
+   ![&#x200B; omvat checkbox in Edit de dialoogdoos van de Kleur van de Achtergrond &#x200B;](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
    U kunt de ervaringen zien die zijn gemaakt met de aanbiedingen die u onder [!UICONTROL Manage Content] hebt opgegeven. U ziet dat er in [!UICONTROL Manage Content] geen ervaringen zijn gemaakt met de standaardaanbieding die u hebt uitgesloten.
 
-   ![ exclude_content_vec_4 beeld ](assets/exclude_content_vec_4.png)
+   ![&#x200B; exclude_content_vec_4 beeld &#x200B;](assets/exclude_content_vec_4.png)
 
 **om standaardinhoud uit te sluiten gebruikend [!UICONTROL Form-Based Experience Composer]:**
 
@@ -131,14 +131,14 @@ Het uitsluiten van standaardinhoud is een goede manier om de vormgeving van de r
 
    Voor Text/HTML-inhoud:
 
-   ![ exclude_content_form_1 beeld ](assets/exclude_content_form_1.png)
+   ![&#x200B; exclude_content_form_1 beeld &#x200B;](assets/exclude_content_form_1.png)
 
    Voor inhoud van afbeelding/video:
 
-   ![ exclude_content_form_2 beeld ](assets/exclude_content_form_2.png)
+   ![&#x200B; exclude_content_form_2 beeld &#x200B;](assets/exclude_content_form_2.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
    U kunt de ervaringen zien die zijn gemaakt met de aanbiedingen die u onder [!UICONTROL Manage Content] hebt opgegeven. U ziet dat er in [!UICONTROL Manage Content] geen ervaringen zijn gemaakt met de standaardaanbieding die u hebt uitgesloten.
 
-   ![ exclude_content_form_3 beeld ](assets/exclude_content_form_3.png)
+   ![&#x200B; exclude_content_form_3 beeld &#x200B;](assets/exclude_content_form_3.png)

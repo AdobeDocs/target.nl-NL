@@ -24,8 +24,8 @@ U kunt afbeeldingen uploaden naar de [!UICONTROL Image Offers] bibliotheek in [!
 
 ## Aanbiedingen of mappen voor afbeeldingen verwijderen
 
-1. (Voorwaardelijk) om tussen [!UICONTROL Card View] en [!UICONTROL List View] van een knevel te voorzien, klik [!UICONTROL Card View] ( ![ pictogram van de de meningsmening van de Kaart ](/help/main/assets/icons/ViewCard.svg) ) of [!UICONTROL List View] ( ![ pictogram van de de meningsmening van de Lijst ](/help/main/assets/icons/ViewList.svg) ) in de hogere juiste hoek van de inhoudsbibliotheek.
+1. (Voorwaardelijk) om tussen [!UICONTROL Card View] en [!UICONTROL List View] van een knevel te voorzien, klik [!UICONTROL Card View] ( ![&#x200B; pictogram van de de meningsmening van de Kaart &#x200B;](/help/main/assets/icons/ViewCard.svg) ) of [!UICONTROL List View] ( ![&#x200B; pictogram van de de meningsmening van de Lijst &#x200B;](/help/main/assets/icons/ViewList.svg) ) in de hogere juiste hoek van de inhoudsbibliotheek.
 
-1. Van [!UICONTROL Card View], houd over de gewenste beeldaanbieding of omslag, klik het **[!UICONTROL Select]** pictogram ( ![ Uitgezochte pictogram ](/help/main/assets/icons/CheckmarkCircleOutline.svg)), dan klik het **[!UICONTROL Delete]** pictogram ( ![ pictogram van de Schrapping ](/help/main/assets/icons/DeleteOutline.svg)).
+1. Van [!UICONTROL Card View], houd over de gewenste beeldaanbieding of omslag, klik het **[!UICONTROL Select]** pictogram ( ![&#x200B; Uitgezochte pictogram &#x200B;](/help/main/assets/icons/CheckmarkCircleOutline.svg)), dan klik het **[!UICONTROL Delete]** pictogram ( ![&#x200B; pictogram van de Schrapping &#x200B;](/help/main/assets/icons/DeleteOutline.svg)).
 
-1. Van [!UICONTROL List View], klik het beeld duimnagelbeeld op de linkerkant van de lijst om de gewenste beeldaanbieding of omslag te selecteren, dan klik het **[!UICONTROL Delete]** pictogram ( ![ pictogram van de Schrapping ](/help/main/assets/icons/DeleteOutline.svg)).
+1. Van [!UICONTROL List View], klik het beeld duimnagelbeeld op de linkerkant van de lijst om de gewenste beeldaanbieding of omslag te selecteren, dan klik het **[!UICONTROL Delete]** pictogram ( ![&#x200B; pictogram van de Schrapping &#x200B;](/help/main/assets/icons/DeleteOutline.svg)).

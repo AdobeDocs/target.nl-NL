@@ -26,7 +26,7 @@ Informatie over het [!UICONTROL Important Attributes] -rapport, een van de twee 
 >
 >* [!UICONTROL Personalization Insights] -rapporten zijn alleen beschikbaar als [!UICONTROL Primary Goal] is geselecteerd in de vervolgkeuzelijst [!UICONTROL Report Metric] .
 >
->* [!UICONTROL Personalization Insights] de rapporten worden gesteund in het [ standaardmilieu ](/help/main/administrating-target/hosts.md) slechts.
+>* [!UICONTROL Personalization Insights] de rapporten worden gesteund in het [&#x200B; standaardmilieu &#x200B;](/help/main/administrating-target/hosts.md) slechts.
 >
 >* [!UICONTROL Personalization Insights] -rapporten worden alleen gegenereerd voor activiteiten die de status [!UICONTROL Live] hebben en die gedurende ten minste 15 dagen zijn geactiveerd en verzonden.
 
@@ -34,13 +34,13 @@ In verschillende activiteiten zijn verschillende kenmerken meer of minder belang
 
 ## Open het [!UICONTROL Important Attributes] -rapport {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Klik **[!UICONTROL Activities]**, dan klik de gewenste [ Automated Personalization ](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) of [ auto-Doel ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) activiteit van de lijst.
+1. Klik **[!UICONTROL Activities]**, dan klik de gewenste [&#x200B; Automated Personalization &#x200B;](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) of [&#x200B; auto-Doel &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) activiteit van de lijst.
 
-   Als u vele activiteiten hebt, klik het pictogram van de Filter ( ![ pictogram van de Filter ](/help/main/assets/icons/Filter.svg)) om de lijst te filtreren door opties van [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], en [!UICONTROL Activity Source] drop-down lijsten te selecteren.
+   Als u vele activiteiten hebt, klik het pictogram van de Filter ( ![&#x200B; pictogram van de Filter &#x200B;](/help/main/assets/icons/Filter.svg)) om de lijst te filtreren door opties van [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], en [!UICONTROL Activity Source] drop-down lijsten te selecteren.
 
 1. Klik op **[!UICONTROL Reports]**.
 
-   Het [ Samenvatting van Automated Personalization ](/help/main/c-reports/personalization-reports/reports-ap.md) of [ auto-Doel Summiere ](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) rapportvertoningen, die informatie over de prestaties van uw activiteiten verstrekt, die door het eerste het schermpictogram worden vertegenwoordigd. De twee extra pictogrammen vertegenwoordigen de twee [!UICONTROL Personalization Insights] rapporten: **[!UICONTROL Automated Segments]** ( ![ Geautomatiseerde het rapport van Segmenten ](/help/main/assets/icons/AutomatedSegment.svg)) en **[!UICONTROL Important Attributes]** ( ![ Belangrijk pictogram van Attributen ](/help/main/assets/icons/ViewList.svg)).
+   Het [&#x200B; Samenvatting van Automated Personalization &#x200B;](/help/main/c-reports/personalization-reports/reports-ap.md) of [&#x200B; auto-Doel Summiere &#x200B;](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) rapportvertoningen, die informatie over de prestaties van uw activiteiten verstrekt, die door het eerste het schermpictogram worden vertegenwoordigd. De twee extra pictogrammen vertegenwoordigen de twee [!UICONTROL Personalization Insights] rapporten: **[!UICONTROL Automated Segments]** ( ![&#x200B; Geautomatiseerde het rapport van Segmenten &#x200B;](/help/main/assets/icons/AutomatedSegment.svg)) en **[!UICONTROL Important Attributes]** ( ![&#x200B; Belangrijk pictogram van Attributen &#x200B;](/help/main/assets/icons/ViewList.svg)).
 
 
    [!UICONTROL Auto-Target] heeft een extra grafiekpictogram voor de grafische weergave van het [!UICONTROL Summary] -rapport.
@@ -49,7 +49,7 @@ In verschillende activiteiten zijn verschillende kenmerken meer of minder belang
    >
    >Het [!UICONTROL Important Attributes] -rapport is pas beschikbaar 15 dagen nadat u uw activiteit hebt geactiveerd. Tijdens deze eerste periode hebt u geen toegang tot dit rapport of kunt u op het pictogram [!UICONTROL Important Attributes] klikken. Nadat er 15 dagen zijn verstreken, is het [!UICONTROL Important Attributes] -rapport beschikbaar, ervan uitgaande dat er voldoende gepersonaliseerd verkeer in uw activiteit is.
 
-1. Na 15 dagen van het activeren van de activiteit, klik **[!UICONTROL Important Attributes]** ( ![ Belangrijk pictogram van Attributen ](/help/main/assets/icons/ViewList.svg)) pictogram.
+1. Na 15 dagen van het activeren van de activiteit, klik **[!UICONTROL Important Attributes]** ( ![&#x200B; Belangrijk pictogram van Attributen &#x200B;](/help/main/assets/icons/ViewList.svg)) pictogram.
 
 1. Selecteer het gewenste datumbereik.
 
@@ -61,7 +61,7 @@ In verschillende activiteiten zijn verschillende kenmerken meer of minder belang
 
 1. Controleer de rapportgegevens van [!UICONTROL Important Attributes] .
 
-1. (Facultatief) klik de Download ( ![ pictogram van de Download ](/help/main/assets/icons/Download.svg)) pictogram [ het rapport in formaat CSV ](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) voor analyse in Excel en andere hulpmiddelen downloaden.
+1. (Facultatief) klik de Download ( ![&#x200B; pictogram van de Download &#x200B;](/help/main/assets/icons/Download.svg)) pictogram [&#x200B; het rapport in formaat CSV &#x200B;](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) voor analyse in Excel en andere hulpmiddelen downloaden.
 
    >[!NOTE]
    >
@@ -73,7 +73,7 @@ De volgende lijst verklaart hoe te om het rapport te interpreteren en beschrijft
 
 | Element | Details |
 |--- |--- |
-| Staafgrafiek | Met de gekleurde staafgrafiek boven aan het scherm kunt u deze relatieve belangrijkscores visualiseren en kunt u de punten toewijzen aan de kleur van de punt naast elk van de respectieve kenmerken in de tabel. U kunt de muisaanwijzer ook boven een specifieke kleur in het staafdiagram plaatsen om het kenmerk dat het vertegenwoordigt te zien.  De belangrijke scores over de top 100 attributen voegen aan 100% toe. Voor meer informatie over hoe te om meer attributen toe te voegen die de verpersoonlijkingsmodellen van het Doel kunnen gebruiken, zie [ Uploadend Gegevens voor de Algoritmen van Personalization van het Doel ](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md). |
+| Staafgrafiek | Met de gekleurde staafgrafiek boven aan het scherm kunt u deze relatieve belangrijkscores visualiseren en kunt u de punten toewijzen aan de kleur van de punt naast elk van de respectieve kenmerken in de tabel. U kunt de muisaanwijzer ook boven een specifieke kleur in het staafdiagram plaatsen om het kenmerk dat het vertegenwoordigt te zien.  De belangrijke scores over de top 100 attributen voegen aan 100% toe. Voor meer informatie over hoe te om meer attributen toe te voegen die de verpersoonlijkingsmodellen van het Doel kunnen gebruiken, zie [&#x200B; Uploadend Gegevens voor de Algoritmen van Personalization van het Doel &#x200B;](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md). |
 | Modelkenmerkdiagram | De rangschikking van modelkenmerken bevat de tien bovenste kenmerken die het belangrijkst waren voor de manier waarop het personalisatiemodel van Target besloot welke inhoud elke bezoeker moet worden weergegeven. De belangrijke score toont, met betrekking tot de hoogste 100 attributen, hoe belangrijk een specifiek attribuut aan de verpersoonlijkingsmodellen van Target in deze activiteit was. |
 
 ## Belangrijke veelgestelde vragen over kenmerken {#section_740910A52FA646B4AC9452F98C2F5719}
@@ -85,20 +85,20 @@ Raadpleeg de volgende veelgestelde vragen voor antwoorden op veelgestelde vragen
 Er zijn verschillende redenen waarom de [!UICONTROL Personalization Insights] -rapporten nog niet beschikbaar zijn voor uw activiteiten:
 
 * Er is geen 15 dagen verstreken sinds u de activiteit hebt geactiveerd. De geautomatiseerde Segmenten en de Belangrijke rapporten van Attributen zullen niet tot minstens 15 dagen beschikbaar zijn nadat u uw activiteit hebt begonnen. Tijdens deze eerste periode kunt u deze rapporten niet openen of op de pictogrammen Geautomatiseerde segmenten en Belangrijke kenmerken klikken.
-* Uw activiteit heeft niet voldoende verkeer tijdens het gespecificeerde tijdkader gehad. Na 15 dagen zijn overgegaan, veronderstellend is er voldoende gepersonaliseerd verkeer [ in uw activiteit om de verpersoonlijkingsmodellen te bouwen, zullen de Geautomatiseerde Segmenten en de Belangrijke rapporten van Attributen beschikbaar zijn.](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB)
+* Uw activiteit heeft niet voldoende verkeer tijdens het gespecificeerde tijdkader gehad. Na 15 dagen zijn overgegaan, veronderstellend is er voldoende gepersonaliseerd verkeer [&#x200B; in uw activiteit om de verpersoonlijkingsmodellen te bouwen, zullen de Geautomatiseerde Segmenten en de Belangrijke rapporten van Attributen beschikbaar zijn.](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB)
 * Uw activiteit heeft een opbrengstoptimalisatiedoel. Op dit moment is [!UICONTROL Personalization Insights] alleen beschikbaar voor doelactiviteiten voor het optimaliseren van conversies. In een toekomstige release zullen we ondersteuning toevoegen voor activiteiten die gericht zijn op het optimaliseren van de inkomsten.
 
 ### Wat is een kenmerk?
 
 Een attribuut is informatie over een bezoeker of zijn of haar specifiek bezoek dat door de verpersoonlijkingsalgoritmen wordt gebruikt om te leren hoe te om verkeer te personaliseren. Een kenmerk kan bijvoorbeeld het browsertype, de locatie, het tijdstip van het bezoek zijn, enzovoort.
 
-Voor meer informatie over welke attributen [!DNL Target] gebruikt in zijn verpersoonlijkingsmodellen, zie [ Inzameling van Gegevens voor de Algoritmen van Personalization van het Doel ](/help/main/c-activities/t-automated-personalization/ap-data.md). Voor meer informatie over hoe te om nieuwe attributen in Doel te uploaden om in de verpersoonlijkingsmodellen van het Doel te gebruiken, zie [ Methoden om Gegevens in Doel ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=nl-NL){target=_blank} te krijgen.
+Voor meer informatie over welke attributen [!DNL Target] gebruikt in zijn verpersoonlijkingsmodellen, zie [&#x200B; Inzameling van Gegevens voor de Algoritmen van Personalization van het Doel &#x200B;](/help/main/c-activities/t-automated-personalization/ap-data.md). Voor meer informatie over hoe te om nieuwe attributen in Doel te uploaden om in de verpersoonlijkingsmodellen van het Doel te gebruiken, zie [&#x200B; Methoden om Gegevens in Doel &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=nl-NL){target=_blank} te krijgen.
 
 ### Ik zie een of meer kenmerken die ik niet wil gebruiken voor training. Kan ik deze kenmerken verwijderen uit het trainingsmodel? {#models-api}
 
 Met [!UICONTROL Models API], ook wel de Lijst van gewezen personen-API genoemd, kunnen gebruikers de lijst met kenmerken (ook wel functies genoemd) weergeven en beheren die wordt gebruikt in modellen voor machinaal leren voor [!UICONTROL Automated Personalization] (AP)- en [!UICONTROL Auto-Target] (AT)-activiteiten. Als u een of meer kenmerken wilt uitsluiten van gebruik door de modellen voor AP- of AT-activiteiten, kunt u de Modellen API gebruiken om die kenmerken toe te voegen aan de &quot;lijst van gewezen personen&quot;.
 
-Voor gedetailleerde informatie, zie [ Modellen API overzicht ](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=nl-NL){target=_blank} in de *Gids van de Ontwikkelaar van Adobe Target*. Om API te gebruiken om attributen te blokkeren, zie [ Modellen API ](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=nl-NL){target=_blank}.
+Voor gedetailleerde informatie, zie [&#x200B; Modellen API overzicht &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=nl-NL){target=_blank} in de *Gids van de Ontwikkelaar van Adobe Target*. Om API te gebruiken om attributen te blokkeren, zie [&#x200B; Modellen API &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=nl-NL){target=_blank}.
 
 ### Is de informatie in de rapporten [!UICONTROL Automated Segments] en [!UICONTROL Important Attributes] het zelfde als in de download CSV?
 
@@ -110,7 +110,7 @@ Personalization Insights-rapportage (zowel [!UICONTROL Automated Segments] als [
 
 ### Hoe wordt [!UICONTROL Personalization Insights] gemaakt?
 
-[!UICONTROL Personalization Insights] wordt gemaakt met behulp van een Adobe-techniek waarvoor een patent is aangevraagd, MAGIX (Model Agnostic Global Interpretable Explanations). U kunt meer over MAGIX in het gepubliceerde document van het onderzoeksteam van Adobe op de [ arXiv.org ](https://arxiv.org/abs/1706.07160) leren.
+[!UICONTROL Personalization Insights] wordt gemaakt met behulp van een Adobe-techniek waarvoor een patent is aangevraagd, MAGIX (Model Agnostic Global Interpretable Explanations). U kunt meer over MAGIX in het gepubliceerde document van het onderzoeksteam van Adobe op de [&#x200B; arXiv.org &#x200B;](https://arxiv.org/abs/1706.07160) leren.
 
 ### Is [!UICONTROL Personalization Insights] beschikbaar voor op opbrengst-gebaseerde modelleringsdoelstellingen/primair doel?
 

@@ -23,7 +23,7 @@ Geef de activiteit-URL op wanneer hierom wordt gevraagd tijdens het maken van ac
 
 ## Een andere URL opgeven
 
-Door gebrek, opent [!UICONTROL Visual Experience Composer] de pagina die in uw [ Visuele montages van Composer van de Ervaring ](/help/main/administrating-target/visual-experience-composer-set-up.md) wordt gespecificeerd. U kunt een andere pagina opgeven tijdens het maken van activiteiten.
+Door gebrek, opent [!UICONTROL Visual Experience Composer] de pagina die in uw [&#x200B; Visuele montages van Composer van de Ervaring &#x200B;](/help/main/administrating-target/visual-experience-composer-set-up.md) wordt gespecificeerd. U kunt een andere pagina opgeven tijdens het maken van activiteiten.
 
 1. (Voorwaardelijk) Als u een andere pagina wilt weergeven nadat [!UICONTROL Visual Experience Composer] is geopend, klikt u op de **[!UICONTROL Experiences]** -pagina **[!UICONTROL Configure]** boven aan de pagina en selecteert u vervolgens **[!UICONTROL Page Delivery]** .
 

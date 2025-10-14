@@ -25,11 +25,11 @@ Dankzij deze integratie kunt u meer conversies aansturen en de impact van e-mail
 
 Als u de integratie [!DNL Target Recommendations] en [!DNL Adobe Journey Optimizer] wilt gebruiken, hebt u het volgende nodig:
 
-* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) uitgevoerd gebruikend het [ Web SDK van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
+* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) uitgevoerd gebruikend het [&#x200B; Web SDK van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
 
   Deze functie is niet beschikbaar met een [!DNL Target Standard] -licentie of bij de implementatie van [!DNL Target] met at.js of andere [!DNL Target] SDK&#39;s.
 
-* [[!DNL Adobe Journey Optimizer] ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target=_blank}.
+* [[!DNL Adobe Journey Optimizer] &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target=_blank}.
 
 ## Gebruiksscenario&#39;s
 
@@ -39,11 +39,11 @@ Deze gebruiksgevallen zijn slechts een paar mogelijke gebruiksgevallen voor het 
 
   Stel bijvoorbeeld dat een bezoeker de website van een kledingbedrijf bezoekt en twee winterjassen en een sweatshirt in het winkelwagentje plaatst. De bezoeker wordt dan afgeleid en verlaat de website of is niet zeker van de aankopen en sluit de browser of app.
 
-  Na een gespecificeerde periode, misschien een paar uren of een dag, maakt een douaneactie in [!DNL Journey Optimizer] een vraag aan [!DNL Target Recommendations] om de inhoud van de verlaten het winkelwagentje te bepalen gebruikend a [ op kar-gebaseerde aanbevelingen ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) algoritme. [!DNL Journey Optimizer] stuurt deze bezoeker vervolgens een gepersonaliseerde e-mail als herinnering dat het aankoopproces niet is voltooid, samen met afbeeldingen en koppelingen naar de verlaten items.
+  Na een gespecificeerde periode, misschien een paar uren of een dag, maakt een douaneactie in [!DNL Journey Optimizer] een vraag aan [!DNL Target Recommendations] om de inhoud van de verlaten het winkelwagentje te bepalen gebruikend a [&#x200B; op kar-gebaseerde aanbevelingen &#x200B;](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) algoritme. [!DNL Journey Optimizer] stuurt deze bezoeker vervolgens een gepersonaliseerde e-mail als herinnering dat het aankoopproces niet is voltooid, samen met afbeeldingen en koppelingen naar de verlaten items.
 
 * **[!DNL Adobe Journey Optimizer]verzendt een grote e-mail na sitebezoeken om bezoekers eraan te herinneren welke items zijn weergegeven** : Deze kwestie is gebaseerd op bezoekers die een website bezoeken, verschillende items bekijken en vervolgens de site of de app verlaten zonder items in het winkelwagentje te plaatsen.
 
-  Na een gespecificeerde periode, maakt een douaneactie in [!DNL Journey Optimizer] een vraag aan [!DNL Target Recommendations] om te bepalen welke punten elke bezoeker bekeken, gebruikend de 2&rbrace; van elke bezoeker (EDID), het profiel van de bezoeker [!DNL Adobe Experience Cloud Identifier], en a [!DNL Target] gebruiker-gebaseerd [ algoritme. ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) [!DNL Adobe Journey Optimizer] stuurt vervolgens een gepersonaliseerde e-mail naar elk lid van het gekwalificeerde publiek met afbeeldingen en koppelingen naar de weergegeven items van elke bezoeker om de bezoeker te laten terugkeren en een aankoop te doen.
+  Na een gespecificeerde periode, maakt een douaneactie in [!DNL Journey Optimizer] een vraag aan [!DNL Target Recommendations] om te bepalen welke punten elke bezoeker bekeken, gebruikend de 2&rbrace; van elke bezoeker (EDID), het profiel van de bezoeker [!DNL Adobe Experience Cloud Identifier], en a [!DNL Target] gebruiker-gebaseerd [&#x200B; algoritme. &#x200B;](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) [!DNL Adobe Journey Optimizer] stuurt vervolgens een gepersonaliseerde e-mail naar elk lid van het gekwalificeerde publiek met afbeeldingen en koppelingen naar de weergegeven items van elke bezoeker om de bezoeker te laten terugkeren en een aankoop te doen.
 
   In dit scenario worden het profiel [!UICONTROL Experience Cloud Visitor ID] (ECID) en de inhoud van het profiel [!DNL Target] van elke bezoeker gebruikt om de aanbeveling te genereren op basis van het onlangs weergegeven algoritme.
 
@@ -51,4 +51,4 @@ Deze gebruiksgevallen zijn slechts een paar mogelijke gebruiksgevallen voor het 
 
 * **[!DNL Adobe Journey Optimizer]stuurt na een bezoek aan de site een grote hoeveelheid e-mail naar gekwalificeerde bezoekers om veelgebruikte items voor te stellen.** : Deze kwestie is gebaseerd op een bezoeker die een website bezoekt, maar niet op bepaalde items. Het e-mailbericht wordt bulksgewijs verzonden naar alle bezoekers die voor een bepaald publiek in aanmerking komen, bijvoorbeeld:
 
-  Stel dat de bezoeker geen bepaalde stalen ziet. Misschien heeft de bezoeker gewoon rond de site geklikt en rubriekpagina&#39;s of blogberichten weergegeven. Het resultaat is dat het profiel [!DNL Target] geen specifieke informatie bevat over onlangs weergegeven items. In deze situatie, [!DNL Target Recommendations] gebruikt a [ reserveaanbeveling ](/help/main/c-recommendations/c-algorithms/backup-recs.md) zodat [!DNL Journey Optimizer] een e-mail met beelden en verbindingen naar populaire punten op de website kan verzenden om de bezoeker te krijgen om terug te keren en misschien een aankoop te maken.
+  Stel dat de bezoeker geen bepaalde stalen ziet. Misschien heeft de bezoeker gewoon rond de site geklikt en rubriekpagina&#39;s of blogberichten weergegeven. Het resultaat is dat het profiel [!DNL Target] geen specifieke informatie bevat over onlangs weergegeven items. In deze situatie, [!DNL Target Recommendations] gebruikt a [&#x200B; reserveaanbeveling &#x200B;](/help/main/c-recommendations/c-algorithms/backup-recs.md) zodat [!DNL Journey Optimizer] een e-mail met beelden en verbindingen naar populaire punten op de website kan verzenden om de bezoeker te krijgen om terug te keren en misschien een aankoop te maken.

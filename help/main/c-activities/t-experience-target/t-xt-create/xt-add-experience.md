@@ -17,9 +17,9 @@ ht-degree: 0%
 
 1. Selecteer de elementen die u wilt wijzigen en breng de gewenste wijzigingen aan.
 
-   Terwijl [ creërend een [!UICONTROL Experience Targeting] activiteit ](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), stap één van het driedelige geleide werkschema ([!UICONTROL Experiences]) toont het gebrek [!UICONTROL Experience A] met een [!UICONTROL All Visitors] publiek.
+   Terwijl [&#x200B; creërend een [!UICONTROL Experience Targeting] activiteit &#x200B;](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), stap één van het driedelige geleide werkschema ([!UICONTROL Experiences]) toont het gebrek [!UICONTROL Experience A] met een [!UICONTROL All Visitors] publiek.
 
-   ![ Alle bezoekers publiek ](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors-new.png)
+   ![&#x200B; Alle bezoekers publiek &#x200B;](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors-new.png)
 
    Alle wijzigingen die u nu aanbrengt, zijn van toepassing op [!UICONTROL Experience A] . In een onderstaande stap klikt u op **[!UICONTROL Add Experience Targeting]** om meer ervaringen te creëren.
 
@@ -29,13 +29,13 @@ ht-degree: 0%
    >
    >Standaard staat de VEC geen wijzigingen toe in elementen die JavaScript bevatten, zoals draaiende banners. U kunt JavaScript uitschakelen om deze elementen te wijzigen met behulp van de VEC.
 
-1. Om extra ervaringen tot stand te brengen, klik **[!UICONTROL Add]** ( ![ voeg knoop ](/help/main/assets/icons/Add.svg) toe).
+1. Om extra ervaringen tot stand te brengen, klik **[!UICONTROL Add]** ( ![&#x200B; voeg knoop &#x200B;](/help/main/assets/icons/Add.svg) toe).
 
    Het dialoogvenster [!UICONTROL Add Audience] wordt weergegeven. Als u een ervaring wilt richten tot een publiek, selecteert u het publiek voordat u de ervaring toevoegt.
 
-   De publieksbibliotheek bevat publiek dat eerder is gedefinieerd, inclusief een aantal algemene doelgroepen die vooraf zijn gebouwd als onderdeel van [!DNL Target] . U kunt een publiek van de bibliotheek selecteren of [ tot een nieuw publiek ](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271) leiden.
+   De publieksbibliotheek bevat publiek dat eerder is gedefinieerd, inclusief een aantal algemene doelgroepen die vooraf zijn gebouwd als onderdeel van [!DNL Target] . U kunt een publiek van de bibliotheek selecteren of [&#x200B; tot een nieuw publiek &#x200B;](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271) leiden.
 
-   Naast het selecteren van een bestaand publiek, kunt u veelvoudige publiek combineren om op bestelling gecombineerd publiek tot stand te brengen eerder dan het creëren van een nieuw publiek. Voor meer informatie, zie [ Combinerend Veelvoudige Soorten publiek ](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   Naast het selecteren van een bestaand publiek, kunt u veelvoudige publiek combineren om op bestelling gecombineerd publiek tot stand te brengen eerder dan het creëren van een nieuw publiek. Voor meer informatie, zie [&#x200B; Combinerend Veelvoudige Soorten publiek &#x200B;](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
    Wanneer u een publiek maakt, kunt u een locatie selecteren en parameters voor die locatie opgeven. Selecteer onder [!UICONTROL Custom] ([!UICONTROL Create Audience] > [!UICONTROL Custom] ) de locatie en geef vervolgens de gewenste parameters op.
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
    Het activiteitendiagram toont:
 
-   ![ XT richtend diagram ](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-refresh.png)
+   ![&#x200B; XT richtend diagram &#x200B;](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-refresh.png)
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 1. (Voorwaardelijk) Sleep publiek en ervaar paren tijdens het maken of bewerken van [!UICONTROL Experience Targeting] -activiteiten om de paren in de gewenste volgorde te rangschikken.
 
-   Klik het Reorder pictogram ( ![ pictogram van de Herschikking ](/help/main/assets/icons/Reorder.svg)) om de [!UICONTROL Experiences] kolom op de rechterkant te tonen, dan de ervaringen opnieuw te rangschikken zoals gewenst.
+   Klik het Reorder pictogram ( ![&#x200B; pictogram van de Herschikking &#x200B;](/help/main/assets/icons/Reorder.svg)) om de [!UICONTROL Experiences] kolom op de rechterkant te tonen, dan de ervaringen opnieuw te rangschikken zoals gewenst.
 
    Bezoekers worden op volgorde geëvalueerd, van boven naar beneden.
 
@@ -77,14 +77,14 @@ ht-degree: 0%
 
 Klik op een ervaring in het diagram in een [!UICONTROL Experience Targeting] -activiteit om de kolom [!UICONTROL Experiences] rechts weer te geven.
 
-![ noem en geef opties ](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience_edit-refresh.png) anders uit
+![&#x200B; noem en geef opties &#x200B;](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience_edit-refresh.png) anders uit
 
 Kies desgewenst uit de volgende opties:
 
 * **[!UICONTROL Rename]** : typ de gewenste naam in het veld [!UICONTROL Name] .
-* **[!UICONTROL Edit]**: Klik het Edit pictogram ( ![ geef pictogram ](/help/main/assets/icons/Edit.svg) uit), dan breng uw gewenste veranderingen aan.
-* **[!UICONTROL Duplicate]**: Kopieer een ervaring in een [!UICONTROL Experience Targeting] -activiteit zodat u er kleine wijzigingen in kunt aanbrengen zonder dat u de hele ervaring opnieuw hoeft te maken. Klik het [!UICONTROL Duplicate] pictogram ( ![ Dupliceer pictogram ](/help/main/assets/icons/Duplicate.svg)), dan geef zonodig de ervaring uit.
-* **[!UICONTROL Delete]**: Klik het [!UICONTROL Delete] pictogram (![ pictogram van de Schrapping ](/help/main/assets/icons/Delete.svg)), dan bevestig uw schrapping.
+* **[!UICONTROL Edit]**: Klik het Edit pictogram ( ![&#x200B; geef pictogram &#x200B;](/help/main/assets/icons/Edit.svg) uit), dan breng uw gewenste veranderingen aan.
+* **[!UICONTROL Duplicate]**: Kopieer een ervaring in een [!UICONTROL Experience Targeting] -activiteit zodat u er kleine wijzigingen in kunt aanbrengen zonder dat u de hele ervaring opnieuw hoeft te maken. Klik het [!UICONTROL Duplicate] pictogram ( ![&#x200B; Dupliceer pictogram &#x200B;](/help/main/assets/icons/Duplicate.svg)), dan geef zonodig de ervaring uit.
+* **[!UICONTROL Delete]**: Klik het [!UICONTROL Delete] pictogram (![&#x200B; pictogram van de Schrapping &#x200B;](/help/main/assets/icons/Delete.svg)), dan bevestig uw schrapping.
 
 ## Trainingsvideo&#39;s:
 

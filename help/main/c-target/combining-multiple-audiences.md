@@ -17,9 +17,9 @@ Combineer meerdere soorten publiek (inclusief [!DNL Adobe Experience Cloud] -, [
 
 >[!NOTE]
 >
->De [!DNL Adobe Experience Platform] bron is beschikbaar aan alle [!DNL Target] klanten die [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank} gebruiken. De publiek beschikbaar bij [!DNL Adobe Experience Platform] kan worden gebruikt zoals is of met bestaand publiek wordt gecombineerd, zoals die in dit onderwerp wordt verklaard.
+>De [!DNL Adobe Experience Platform] bron is beschikbaar aan alle [!DNL Target] klanten die [&#x200B; SDK van het Web van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank} gebruiken. De publiek beschikbaar bij [!DNL Adobe Experience Platform] kan worden gebruikt zoals is of met bestaand publiek wordt gecombineerd, zoals die in dit onderwerp wordt verklaard.
 >
->Voor meer informatie zie [ publiek van het Gebruik van Adobe Experience Platform ](/help/main/c-target/c-audiences/audiences.md#aep).
+>Voor meer informatie zie [&#x200B; publiek van het Gebruik van Adobe Experience Platform &#x200B;](/help/main/c-target/c-audiences/audiences.md#aep).
 
 Stel dat u een publiek hebt met de doelgroep &#39;Nieuwe bezoekers&#39; en een publiek met de doelgroep &#39;Chrome Users&#39;. Voor een specifieke activiteit, zou u deze bestaande publiek kunnen willen combineren om nieuwe bezoekers te richten gebruikend browsers van Chrome. In plaats van een derde publiek te maken en dit op te slaan in de [!UICONTROL Audiences] -bibliotheek, kunt u deze twee soorten publiek combineren tijdens het maken van activiteiten of tijdens het bewerken van een bestaande activiteit.
 
@@ -33,19 +33,19 @@ U kunt een gecombineerd publiek maken en gebruiken op verschillende plaatsen in 
 
 U kunt een gecombineerd ad-hocpubliek maken op de pagina met instructies [!UICONTROL Target] van de activiteit tijdens de driestappenworkflow met instructies.
 
-1. Terwijl het creëren van een [ activiteit ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), op de **[!UICONTROL Targeting]** pagina, klik de drie verticale ellipsen, dan klik **[!UICONTROL Replace Audience]**.
+1. Terwijl het creëren van een [&#x200B; activiteit &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), op de **[!UICONTROL Targeting]** pagina, klik de drie verticale ellipsen, dan klik **[!UICONTROL Replace Audience]**.
 
-   ![ Resultaat van de Stap ](assets/edit_audience.png)
+   ![&#x200B; Resultaat van de Stap &#x200B;](assets/edit_audience.png)
 
 1. Selecteer op de pagina **[!UICONTROL Choose Audience]** de selectievakjes naast het gewenste publiek dat u als bouwstenen voor uw gecombineerde publiek wilt gebruiken.
 
    Gebruik het vak [!UICONTROL Search Audiences] om uw zoekopdracht naar het gewenste publiek te verfijnen.
 
-   ![ Resultaat van de Stap ](assets/combine_multiple_audiences1.png)
+   ![&#x200B; Resultaat van de Stap &#x200B;](assets/combine_multiple_audiences1.png)
 
 1. Klik op **[!UICONTROL Combine Multiple Audiences]** in de rechterbovenhoek.
 
-   ![ Resultaat van de Stap ](assets/combine_multiple_audiences2.png)
+   ![&#x200B; Resultaat van de Stap &#x200B;](assets/combine_multiple_audiences2.png)
 
 1. (Voorwaardelijk) Bewerk het nieuwe gecombineerde publiek naar wens.
 
@@ -55,7 +55,7 @@ U kunt een gecombineerd ad-hocpubliek maken op de pagina met instructies [!UICON
 
       Stel dat u in het vorige voorbeeld nu Safari-gebruikers wilt opnemen in het gecombineerde publiek. Zoek naar en sleep het publiek &quot;Safari Browser&quot;in de Browser van Firefox&quot;doos op de rechterkant, zoals in het volgende voorbeeld:
 
-      ![ combine_multiple_audiences3 beeld ](assets/combine_multiple_audiences3.png)
+      ![&#x200B; combine_multiple_audiences3 beeld &#x200B;](assets/combine_multiple_audiences3.png)
 
       De operator tussen het twee publiek van het browsertype is AND. Selecteer de vervolgkeuzelijst [!UICONTROL And] en wijzig deze in &#39;&#39;OR&#39;&#39; om een nieuw, gecombineerd publiek te maken voor nieuwe bezoekers met Firefox of Safari. Zorg ervoor dat u geen regels maakt die alle mogelijke publieksleden uitsluiten. Het is bijvoorbeeld niet mogelijk dat iemand een pagina gelijktijdig bezoekt met Firefox en Safari.
 
@@ -65,7 +65,7 @@ U kunt een gecombineerd ad-hocpubliek maken op de pagina met instructies [!UICON
 
    1. Klik op **[!UICONTROL Exclude]** om een uitsluiting aan een regel toe te voegen.
 
-      ![ combine_multiple_audiences3a beeld ](assets/combine_multiple_audiences3a.png)
+      ![&#x200B; combine_multiple_audiences3a beeld &#x200B;](assets/combine_multiple_audiences3a.png)
 
       Sleep een publiek.
 
@@ -83,27 +83,27 @@ U kunt een gecombineerd ad-hocpubliek maken op de pagina met instructies [!UICON
 
 U kunt een gecombineerd publiek ad hoc op de pagina van de activiteit [!UICONTROL Goals & Settings] tot stand brengen voor gebruik in metrisch richten. Bijvoorbeeld om het richten tot stand te brengen die op omzetting gebruikend een gecombineerd publiek wordt gebaseerd:
 
-1. Terwijl het uitgeven van of het creëren van een [ activiteit ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), op de **[!UICONTROL Goals & Settings]** pagina, selecteer **[!UICONTROL Conversion]** voor succes metrisch, dan uitgezocht **[!UICONTROL Viewed an Mbox]** als actie.
+1. Terwijl het uitgeven van of het creëren van een [&#x200B; activiteit &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), op de **[!UICONTROL Goals & Settings]** pagina, selecteer **[!UICONTROL Conversion]** voor succes metrisch, dan uitgezocht **[!UICONTROL Viewed an Mbox]** als actie.
 1. Selecteer het gewenste mbox in het **[!UICONTROL Search mbox]** gebied.
 
-   ![ combine_multiple_audiences4 beeld ](assets/combine_multiple_audiences4.png)
+   ![&#x200B; combine_multiple_audiences4 beeld &#x200B;](assets/combine_multiple_audiences4.png)
 
 1. Klik op het tandwielpictogram en klik vervolgens op **[!UICONTROL Add Audience Targeting]** .
 1. Klik op de koppeling **[!UICONTROL Add Audience/Targeting Condition]** om het dialoogvenster [!UICONTROL Choose Audience] weer te geven.
 
-   ![ combine_multiple_audiences5 beeld ](assets/combine_multiple_audiences5.png)
+   ![&#x200B; combine_multiple_audiences5 beeld &#x200B;](assets/combine_multiple_audiences5.png)
 
-1. Ga met [ Stap 2 ](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) onder &quot;creeer een Gecombineerd publiek terwijl het Creëren van een Activiteit&quot;te werk om het gecombineerde publiek tot stand te brengen.
+1. Ga met [&#x200B; Stap 2 &#x200B;](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) onder &quot;creeer een Gecombineerd publiek terwijl het Creëren van een Activiteit&quot;te werk om het gecombineerde publiek tot stand te brengen.
 
 ## Een gecombineerd publiek maken voor rapportage {#section_4682D342EFBB43C38E54B99B3A1E14CD}
 
 U kunt een gecombineerd ad-hocpubliek op de pagina [!UICONTROL Goals & Settings] van de activiteit maken dat u in de rapportage kunt gebruiken.
 
-1. Terwijl het uitgeven van of het creëren van een [ activiteit ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), op de **[!UICONTROL Goals & Settings]** pagina, klik het **[!UICONTROL Add Audience]** pictogram onder [!UICONTROL Audiences for Reporting] om de [!UICONTROL Choose Audience] pagina te tonen.
+1. Terwijl het uitgeven van of het creëren van een [&#x200B; activiteit &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), op de **[!UICONTROL Goals & Settings]** pagina, klik het **[!UICONTROL Add Audience]** pictogram onder [!UICONTROL Audiences for Reporting] om de [!UICONTROL Choose Audience] pagina te tonen.
 
-   ![ combine_multiple_audiences6 beeld ](assets/combine_multiple_audiences6.png)
+   ![&#x200B; combine_multiple_audiences6 beeld &#x200B;](assets/combine_multiple_audiences6.png)
 
-1. Ga met [ Stap 2 ](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) onder &quot;creeer een Gecombineerd publiek terwijl het Creëren van een Activiteit&quot;te werk om het gecombineerde publiek tot stand te brengen.
+1. Ga met [&#x200B; Stap 2 &#x200B;](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) onder &quot;creeer een Gecombineerd publiek terwijl het Creëren van een Activiteit&quot;te werk om het gecombineerde publiek tot stand te brengen.
 
 ## Een gecombineerd publiek maken tijdens het bewerken van een activiteit {#section_364A12CE96E04B61B7C18113AA586C2C}
 
@@ -117,10 +117,10 @@ U kunt een gecombineerd ad-hocpubliek maken terwijl u een bestaande activiteit b
 
 1. Klik op **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]** .
 
-   ![ vorm > Soorten publiek > Veelvoudig publiek ](assets/combine_multiple_audiences7.png)
+   ![&#x200B; vorm > Soorten publiek > Veelvoudig publiek &#x200B;](assets/combine_multiple_audiences7.png)
 
 1. Klik op het pictogram Meer opties (drie verticale ellipsen) naast het huidige publiek van de activiteit en klik vervolgens op **[!UICONTROL Change Audience]** .
 
-   ![ Publiek van de Verandering ](assets/combine_multiple_audiences8.png)
+   ![&#x200B; Publiek van de Verandering &#x200B;](assets/combine_multiple_audiences8.png)
 
-1. Ga met [ Stap 2 ](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) onder &quot;creeer een Gecombineerd publiek terwijl het Creëren van een Activiteit&quot;te werk om het gecombineerde publiek tot stand te brengen.
+1. Ga met [&#x200B; Stap 2 &#x200B;](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) onder &quot;creeer een Gecombineerd publiek terwijl het Creëren van een Activiteit&quot;te werk om het gecombineerde publiek tot stand te brengen.

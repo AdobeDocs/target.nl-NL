@@ -20,20 +20,20 @@ Alleen voor activiteiten bestemd publiek biedt de volgende voordelen:
 * Met alleen activiteiten kunt u een publiek maken dat u maar één keer wilt gebruiken en niet in de [!UICONTROL Audiences Library] wilt opslaan. Met alleen activiteiten kunt u voorkomen dat het publiek in [!UICONTROL Audiences Library] wordt overspoeld met soorten publiek die u nooit meer wilt gebruiken.
 * Activiteit-slechts publiek is niet zichtbaar in [!UICONTROL Audiences Library]. Omdat deze doelgroepen niet zichtbaar zijn in de bibliotheek, worden ze beschermd tegen ongewenste wijzigingen door anderen in uw organisatie.
 
-1. Terwijl het creëren van een [ activiteit ](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), op de **[!UICONTROL Targeting]** pagina, klik de drie verticale ellipsen, dan klik **[!UICONTROL Replace Audience]**.
+1. Terwijl het creëren van een [&#x200B; activiteit &#x200B;](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), op de **[!UICONTROL Targeting]** pagina, klik de drie verticale ellipsen, dan klik **[!UICONTROL Replace Audience]**.
 
-   ![ Resultaat van de Stap ](assets/edit_audience.png)
+   ![&#x200B; Resultaat van de Stap &#x200B;](assets/edit_audience.png)
 
 1. Klik op **[!UICONTROL Create Audience]**.
 
 1. Klik op **[!UICONTROL This activity only]**.
 
-   ![ activiteit-slechts-aud beeld ](assets/activity-only-aud.png)
+   ![&#x200B; activiteit-slechts-aud beeld &#x200B;](assets/activity-only-aud.png)
 
 1. Typ een beschrijvende publieksnaam.
 1. Sleep de gewenste kenmerken naar de builder van het publiek.
 
-   Regels maken het mogelijk om uw publiek te beperken tot een subset van uw sitebezoekers. Elk regeltype heeft zijn eigen parameters. Zie [ Categorieën voor Soorten publiek ](/help/main/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) voor meer informatie bij het vormen van elk type van publieksregel.
+   Regels maken het mogelijk om uw publiek te beperken tot een subset van uw sitebezoekers. Elk regeltype heeft zijn eigen parameters. Zie [&#x200B; Categorieën voor Soorten publiek &#x200B;](/help/main/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) voor meer informatie bij het vormen van elk type van publieksregel.
 
 1. Klik op **[!UICONTROL Done]**.
 
@@ -46,10 +46,10 @@ Houd rekening met de volgende informatie wanneer u alleen werkt met activiteiten
 * Verfijningen voor bestaande activiteiten worden gemigreerd naar alleen-activiteiten-publiek.
 * Toegankelijk publiek heeft de status [!UICONTROL Used] of [!UICONTROL Unused] . Ongebruikte publiek met alleen activiteit wordt weergegeven totdat de activiteit is opgeslagen. Als u de activiteit niet gebruikt en probeert op te slaan, wordt een waarschuwingsbericht weergegeven met de melding dat ongebruikte publiek met alleen de activiteit wordt verwijderd.
 * U kunt de definitiedetails van het publiek op een pop-up kaart bekijken die van de publiekskiezer wordt betreden zonder het publiek te openen.
-* U kunt [ veelvoudige publiek ](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) combineren om tot activiteit-slechts publiek te leiden.
+* U kunt [&#x200B; veelvoudige publiek &#x200B;](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) combineren om tot activiteit-slechts publiek te leiden.
 * Activiteits-slechts publiek steunt geen regels.
 
   U kunt de volgende alternatieven gebruiken om regels uit te sluiten:
 
-   * [ creeer en gebruik een bibliotheekpubliek ](/help/main/c-target/c-audiences/create-audience.md) in plaats van een activiteit-slechts publiek.
-   * [ combineer veelvoudige ](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) (tot 20) bibliotheekpubliek in een activiteit-slechts publiek. Wanneer het combineren van publiek, omvat en sluit regels in individuele bibliotheekpubliek uit kan worden gebruikt zelfs wanneer het gecombineerde publiek als activiteit-slechts publiek wordt bewaard.
+   * [&#x200B; creeer en gebruik een bibliotheekpubliek &#x200B;](/help/main/c-target/c-audiences/create-audience.md) in plaats van een activiteit-slechts publiek.
+   * [&#x200B; combineer veelvoudige &#x200B;](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) (tot 20) bibliotheekpubliek in een activiteit-slechts publiek. Wanneer het combineren van publiek, omvat en sluit regels in individuele bibliotheekpubliek uit kan worden gebruikt zelfs wanneer het gecombineerde publiek als activiteit-slechts publiek wordt bewaard.

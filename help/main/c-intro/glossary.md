@@ -248,9 +248,9 @@ Een bezoeker wordt opgenomen in het segment Nieuwe bezoekers als aan een van de 
 
 * Het is de eerste keer dat de bezoeker de site bezoekt.
 * Het is de eerste keer dat de bezoeker de site bezoekt sinds hij cookies wist.
-* Het is de eerste keer die van de bezoeker de plaats bezoekt aangezien het [ leven van het het profielleven van de Bezoeker ](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) is verlopen.
+* Het is de eerste keer die van de bezoeker de plaats bezoekt aangezien het [&#x200B; leven van het het profielleven van de Bezoeker &#x200B;](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) is verlopen.
 
-Voor meer informatie, zie [ hoe worden de Nieuwe Bezoekers en de Terugkerende metriek van Bezoekers geteld?](/help/main/c-reports/reporting-frequently-asked-questions.md#methodology) in Vragen en antwoorden rapporteren. Contrast met &quot;Terugkerende Bezoeker&quot; hieronder.
+Voor meer informatie, zie [&#x200B; hoe worden de Nieuwe Bezoekers en de Terugkerende metriek van Bezoekers geteld?](/help/main/c-reports/reporting-frequently-asked-questions.md#methodology) in Vragen en antwoorden rapporteren. Contrast met &quot;Terugkerende Bezoeker&quot; hieronder.
 
 ## O {#section_A2C1A057EC87445CBDB535E80C371105}
 
@@ -298,7 +298,7 @@ Geeft waarden door aan het vak van de doelpagina als verwijzende URL-parameters 
 
 De bezoeker wordt opgenomen in het segment Terugkerende bezoekers als de gebruiker de site eerder heeft bezocht, ten minste 30 minuten heeft verlaten en opnieuw met dezelfde cookies naar de site is teruggekeerd. Zolang een bezoeker binnen zijn profielleven terugkeert, deze bezoeker een terugkerende bezoeker.
 
-Voor meer informatie, zie [ hoe de Nieuwe Bezoekers en de Terugkerende metriek van Bezoekers ](/help/main/c-reports/reporting-frequently-asked-questions.md#methodology) in het Melden van Q&amp;A worden geteld. Contrast met de bovenstaande &quot;Nieuwe bezoeker&quot;.
+Voor meer informatie, zie [&#x200B; hoe de Nieuwe Bezoekers en de Terugkerende metriek van Bezoekers &#x200B;](/help/main/c-reports/reporting-frequently-asked-questions.md#methodology) in het Melden van Q&amp;A worden geteld. Contrast met de bovenstaande &quot;Nieuwe bezoeker&quot;.
 
 **rol**
 

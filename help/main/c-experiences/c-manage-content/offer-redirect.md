@@ -19,13 +19,13 @@ U hebt misschien twee volledig verschillende pagina&#39;s om te testen in plaats
 
 >[!NOTE]
 >
-> * Omleiden aanbiedingen kunnen op [!UICONTROL Offers] > [!UICONTROL Code Offers] pagina of in [ op Forms-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) worden gecreeerd. U kunt geen omleidingsvoorstellen maken of toepassen in [!UICONTROL Visual Experience Composer] (VEC). Inhoud wordt ingespoten op de aanvraaglocaties van [!DNL Target] , zodat deze locaties meestal niet geschikt zijn voor een algemene [!DNL Target] -aanvraag.
+> * Omleiden aanbiedingen kunnen op [!UICONTROL Offers] > [!UICONTROL Code Offers] pagina of in [&#x200B; op Forms-Gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md) worden gecreeerd. U kunt geen omleidingsvoorstellen maken of toepassen in [!UICONTROL Visual Experience Composer] (VEC). Inhoud wordt ingespoten op de aanvraaglocaties van [!DNL Target] , zodat deze locaties meestal niet geschikt zijn voor een algemene [!DNL Target] -aanvraag.
 >
 >* Je kunt geen omleidingsvoorstellen gebruiken in AJAX-vakken (`mboxUpdate`).
 >
->* Voor omleidingsaanbiedingen in activiteiten die [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) gebruiken, moet uw implementatie aan bepaalde minimumvereisten voldoen. Bovendien is er belangrijke informatie die u moet weten. Zie [ Vergelijkende Aanbiedingen - Veelgestelde vragen A4T ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+>* Voor omleidingsaanbiedingen in activiteiten die [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) gebruiken, moet uw implementatie aan bepaalde minimumvereisten voldoen. Bovendien is er belangrijke informatie die u moet weten. Zie [&#x200B; Vergelijkende Aanbiedingen - Veelgestelde vragen A4T &#x200B;](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 >
->* Voor informatie over vestiging een ervaring die opnieuw richt, zie [ opnieuw richten aan een URL ](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA).
+>* Voor informatie over vestiging een ervaring die opnieuw richt, zie [&#x200B; opnieuw richten aan een URL &#x200B;](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA).
 
 De omleidingsaanbieding voert de code van JavaScript uit om browser om te leiden. De methode `window.location.replace();` wordt gebruikt, zodat de pagina waarvan de bezoeker is omgeleid, niet in de browsergeschiedenis wordt opgeslagen. Met dit proces kunnen bezoekers de knop Vorige in hun browsers gebruiken.
 
@@ -41,7 +41,7 @@ De omleidingsaanbieding voert de code van JavaScript uit om browser om te leiden
 
    Met een beschrijvende naam kunnen u en anderen snel de aanbieding in de [!UICONTROL Assets] -bibliotheek vinden.
 
-1. (Voorwaardelijk) als u de rekening van a [ Target Premium ](/help/main/c-intro/intro.md#premium) hebt, selecteer de gewenste [ werkruimte ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
+1. (Voorwaardelijk) als u de rekening van a [&#x200B; Target Premium &#x200B;](/help/main/c-intro/intro.md#premium) hebt, selecteer de gewenste [&#x200B; werkruimte &#x200B;](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
 
 1. Geef de URL op voor de unieke inhoud of bestemming waarnaar u wilt omleiden. Deze URL moet een absolute URL zijn.
 
@@ -67,8 +67,8 @@ De omleidingsaanbieding voert de code van JavaScript uit om browser om te leiden
 
 ## Een omleidingsvoorstel maken met de [!UICONTROL Form-Based Experience Composer]
 
-1. Terwijl het creëren van een activiteit die [ op vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) gebruikt, selecteer de plaats om de **[!UICONTROL Content]** sectie te tonen.
-1. Klik de **[!UICONTROL Content]** drop-down lijst, klik het **[!UICONTROL List]** pictogram ( ![ Lijst ](/help/main/assets/icons/MoreSmallList.svg)), dan klik **[!UICONTROL Change Redirect Offer]**.
+1. Terwijl het creëren van een activiteit die [&#x200B; op vorm-Gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md) gebruikt, selecteer de plaats om de **[!UICONTROL Content]** sectie te tonen.
+1. Klik de **[!UICONTROL Content]** drop-down lijst, klik het **[!UICONTROL List]** pictogram ( ![&#x200B; Lijst &#x200B;](/help/main/assets/icons/MoreSmallList.svg)), dan klik **[!UICONTROL Change Redirect Offer]**.
 1. Klik op **[!UICONTROL Create Offer]** > **[!UICONTROL Redirect Offer]** .
 1. Geef een beschrijvende naam op voor de aanbieding.
 
@@ -104,10 +104,10 @@ Pas omleidingsvoorstellen toe gebruikend [[!UICONTROL Form-Based Experience Comp
 
 1. Maak of bewerk een activiteit in de [!UICONTROL Form-Based Experience Composer] .
 
-   Zie [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) voor gedetailleerde geleidelijke instructies.
+   Zie [&#x200B; vorm-Gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md) voor gedetailleerde geleidelijke instructies.
 
 1. Geef de gewenste locatie op en voeg desgewenst verfijningen voor de doelgroep toe.
 
-1. Klik de **[!UICONTROL Content]** drop-down lijst, klik het **[!UICONTROL List]** pictogram ( ![ Lijst ](/help/main/assets/icons/MoreSmallList.svg)), dan klik **[!UICONTROL Change Redirect Offer]**.
+1. Klik de **[!UICONTROL Content]** drop-down lijst, klik het **[!UICONTROL List]** pictogram ( ![&#x200B; Lijst &#x200B;](/help/main/assets/icons/MoreSmallList.svg)), dan klik **[!UICONTROL Change Redirect Offer]**.
 1. Selecteer het gewenste omleidingsaanbod in het dialoogvenster [!UICONTROL Select Redirect Offer] en klik op **[!UICONTROL Add]** .
 1. Voltooi de configuratie van de activiteit.

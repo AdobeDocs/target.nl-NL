@@ -18,21 +18,21 @@ Omdat bij [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)-activi
 
 1. Klik in het vak [!UICONTROL Visual Experience Composer] (VEC) op **[!UICONTROL Preview]** .
 
-   ![ pictogram van de Voorproef ](/help/main/c-activities/t-automated-personalization/assets/preview.png)
+   ![&#x200B; pictogram van de Voorproef &#x200B;](/help/main/c-activities/t-automated-personalization/assets/preview.png)
 
    Er wordt een lijst met alle ervaringen weergegeven.
 
-   ![ Ervaringen van de Voorproef ](/help/main/c-activities/t-automated-personalization/assets/ap_preview-new.png)
+   ![&#x200B; Ervaringen van de Voorproef &#x200B;](/help/main/c-activities/t-automated-personalization/assets/ap_preview-new.png)
 
 1. Klik op een specifieke ervaring in de lijst om die ervaring weer te geven.
 
 1. (Voorwaardelijk) Als u een of meer ervaringen wilt uitsluiten van de activiteit, klikt u op het pictogram **[!UICONTROL Exclude]** .
 
-   ![ sluit pictogram ](/help/main/c-activities/t-automated-personalization/assets/ap_exclude-new.png) uit
+   ![&#x200B; sluit pictogram &#x200B;](/help/main/c-activities/t-automated-personalization/assets/ap_exclude-new.png) uit
 
    Het dialoogvenster [!UICONTROL Manage Content] wordt weergegeven.
 
-   ![ beheert de dialoogdoos van de Inhoud ](/help/main/c-activities/t-automated-personalization/assets/preview-exclude.png)
+   ![&#x200B; beheert de dialoogdoos van de Inhoud &#x200B;](/help/main/c-activities/t-automated-personalization/assets/preview-exclude.png)
 
    U kunt een ervaring uitsluiten die conflicterende variaties vertoont of een ervaring die niet esthetisch in evenwicht is.
 

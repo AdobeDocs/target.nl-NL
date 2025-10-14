@@ -50,7 +50,7 @@ De standaardomgeving voor rapportage instellen:
 >
 >[!DNL Recommendations] -gebruikers moeten hun gedragsdatabase en productdatabase opnieuw opbouwen als hosts van hostgroepen veranderen.
 >
->Als u a [ standaardmilieu in a  [!DNL Adobe Experience Platform]  datastream ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=nl-NL#target){target=_blank} specificeert, treedt dit het plaatsen in [!DNL Target] met voeten.
+>Als u a [&#x200B; standaardmilieu in a  [!DNL Adobe Experience Platform]  datastream &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=nl-NL#target){target=_blank} specificeert, treedt dit het plaatsen in [!DNL Target] met voeten.
 
 ## De naam van een omgeving wijzigen {#section_9F5F94285F8E495E9CE69810CE94CA08}
 

@@ -18,9 +18,9 @@ Dit artikel bevat de eerste stappen die [!DNL Adobe Target] -beheerders moeten u
 
 ## Welkom bij [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-Een systeembeheerder in [!DNL Adobe Admin Console] moet u als gebruiker in [!DNL Target] toevoegen door u uit te nodigen om zich aan te sluiten. De systeembeheerder zou u dan aan één of meerdere rol-specifieke productprofielen (groepen gebruikers) moeten toevoegen. Beide taken worden uitgevoerd in [ Adobe Admin Console ](https://adminconsole.adobe.com).
+Een systeembeheerder in [!DNL Adobe Admin Console] moet u als gebruiker in [!DNL Target] toevoegen door u uit te nodigen om zich aan te sluiten. De systeembeheerder zou u dan aan één of meerdere rol-specifieke productprofielen (groepen gebruikers) moeten toevoegen. Beide taken worden uitgevoerd in [&#x200B; Adobe Admin Console &#x200B;](https://adminconsole.adobe.com).
 
-Voor meer informatie, zie [ gebruikersgroepen ](https://helpx.adobe.com/nl/enterprise/using/users.html) leiden.
+Voor meer informatie, zie [&#x200B; gebruikersgroepen &#x200B;](https://helpx.adobe.com/nl/enterprise/using/users.html) leiden.
 
 U ontvangt een uitnodigingse-mail nadat de systeembeheerder deze stappen heeft uitgevoerd.
 
@@ -46,21 +46,21 @@ Nadat u de uitnodiging hebt ontvangen om deel te nemen aan de [!DNL Adobe Experi
    U hebt op dit moment nog geen groepen ingesteld met rechten die u kunt koppelen.
 1. Bekijk desgewenst de video waarin u wordt geïntroduceerd op de [!DNL Adobe Experience Cloud] .
 1. Als u de nieuwe rechten wilt zien en toegang wilt krijgen tot het product, meldt u zich af bij [!DNL Adobe Experience Cloud] en meldt u zich vervolgens weer aan.
-1. Ga aan de volgende stap verder, [ toewijzend zelf de rol Approver ](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
+1. Ga aan de volgende stap verder, [&#x200B; toewijzend zelf de rol Approver &#x200B;](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
 ## Wijs me de rol van fiatteur toe {#task_15CAA437A71444E2932B333D5E66A3C7}
 
 Nadat u de uitnodiging om deel te nemen aan [!DNL Adobe Experience Cloud] hebt geaccepteerd en zich hebt aangemeld, bevestigt u dat [!DNL Target] is toegevoegd aan uw [!DNL Experience Cloud] -account en wijst u uzelf vervolgens de [!UICONTROL Approver] rol voor [!DNL Target] toe.
 
-Als uw organisatie a [ Target Standard ](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) vergunning heeft, zie [ rollen en toestemmingen ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Gebruikers* specificeren.
+Als uw organisatie a [&#x200B; Target Standard &#x200B;](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) vergunning heeft, zie [&#x200B; rollen en toestemmingen &#x200B;](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Gebruikers* specificeren.
 
-Als uw organisatie a [ Target Premium ](/help/main/c-intro/intro.md#premium) vergunning heeft, zie [ Stap 6: Specificeer rollen en toestemmingen ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) in *vorm ondernemingstoestemmingen*.
+Als uw organisatie a [&#x200B; Target Premium &#x200B;](/help/main/c-intro/intro.md#premium) vergunning heeft, zie [&#x200B; Stap 6: Specificeer rollen en toestemmingen &#x200B;](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) in *vorm ondernemingstoestemmingen*.
 
-In de volgende stap moeten gebruikers worden ingesteld in [!DNL Target Standard] en [!DNL Target Premium] . Voor meer informatie, zie [ Gebruikersbeheer ](/help/main/administrating-target/c-user-management/user-management.md).
+In de volgende stap moeten gebruikers worden ingesteld in [!DNL Target Standard] en [!DNL Target Premium] . Voor meer informatie, zie [&#x200B; Gebruikersbeheer &#x200B;](/help/main/administrating-target/c-user-management/user-management.md).
 
 ## Machtigingen vereist voor het bewerken van [!UICONTROL Administration] -instellingen {#admin-permissions}
 
-**vóór 22 April, 2025**: De gebruikers met [!UICONTROL Approvers] rechten in [!DNL Adobe Admin Console] kunnen alle montages op de [[!UICONTROL Administration] pagina ](/help/main/administrating-target/administrating-target.md) pagina van [!DNL Target] uitgeven of veranderen, ongeacht hun [!DNL Target] rol.
+**vóór 22 April, 2025**: De gebruikers met [!UICONTROL Approvers] rechten in [!DNL Adobe Admin Console] kunnen alle montages op de [[!UICONTROL Administration] pagina &#x200B;](/help/main/administrating-target/administrating-target.md) pagina van [!DNL Target] uitgeven of veranderen, ongeacht hun [!DNL Target] rol.
 
 **Ingetreden 22 April, 2025**: Slechts [!UICONTROL Product] en [!UICONTROL Solutions] admins zullen montages in de [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) secties, ongeacht hun rollen in [!DNL Target] werkruimten kunnen bijwerken. Gebruikers zonder deze machtiging hebben alleen-lezen toegang tot de secties van [!UICONTROL Administration] .
 

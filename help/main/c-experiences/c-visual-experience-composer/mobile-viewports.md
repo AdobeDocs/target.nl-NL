@@ -19,7 +19,7 @@ De voorvertoningsfunctie voor mobiele viewport is ontworpen voor responsieve sit
 
 >[!NOTE]
 >
-> * Gebruik mobiele viewports als uw site reageert en dezelfde elementen op uw desktoppagina in een andere configuratie op uw mobiele pagina worden gebruikt. Als u een afzonderlijke mobiele plaats met een afzonderlijke structuur, zoals `m.mysite.com` hebt, gebruik in plaats daarvan a [ multipage activiteit ](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48).
+> * Gebruik mobiele viewports als uw site reageert en dezelfde elementen op uw desktoppagina in een andere configuratie op uw mobiele pagina worden gebruikt. Als u een afzonderlijke mobiele plaats met een afzonderlijke structuur, zoals `m.mysite.com` hebt, gebruik in plaats daarvan a [&#x200B; multipage activiteit &#x200B;](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48).
 >
 >* Mobiele viewports zijn niet beschikbaar als deze worden overlapt door een overlay voor omleidingsaanbiedingen.
 
@@ -83,7 +83,7 @@ Hieronder staan de viewports en de resoluties voor populaire apparaten. Vergeet 
 
 Om een activiteit aan bezoekers op een bepaald apparaat te leveren, verkies het aangewezen publiek voor dat apparaat in het activiteitendiagram. Met de Mobile Web Composer kunt u de pagina bewerken in de activiteit voor dat apparaat. Om een activiteit over uw volledige digitale ervaring in werking te stellen om het te verzekeren goed kijkt over alle apparaten, pas geen het richten toe. Gebruik in plaats daarvan mobiele viewports om een voorvertoning van de activiteit op elke schermgrootte weer te geven.
 
-Voor responsieve sites is uw site doorgaans ontworpen om in een andere weergave te worden geopend wanneer deze wordt geopend door een apparaat met een specifieke schermgrootte. De schermgrootten die de nieuwe weergaven activeren, worden CSS-onderbrekingspunten genoemd. CSS-onderbrekingspunten zijn punten waar de website-inhoud afhankelijk van de apparaatbreedte reageert om de optimale lay-out voor bezoekers weer te geven. CSS de breekpunten worden ook genoemd [ media vragen ](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries).
+Voor responsieve sites is uw site doorgaans ontworpen om in een andere weergave te worden geopend wanneer deze wordt geopend door een apparaat met een specifieke schermgrootte. De schermgrootten die de nieuwe weergaven activeren, worden CSS-onderbrekingspunten genoemd. CSS-onderbrekingspunten zijn punten waar de website-inhoud afhankelijk van de apparaatbreedte reageert om de optimale lay-out voor bezoekers weer te geven. CSS de breekpunten worden ook genoemd [&#x200B; media vragen &#x200B;](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries).
 
 Sla de CSS-onderbrekingspunten op in [!DNL Target] zodat u een voorvertoning van uw ervaringen kunt weergeven voor elke weergave die u definieert. Elk van deze ervaringen wordt weergegeven in een mobiele viewport in de [!DNL Target] -interface. Open de weergave voor elke schermgrootte door op die viewport boven aan de weergave te klikken.
 
@@ -100,7 +100,7 @@ Configureer mobiele viewports die u beschikbaar wilt maken tijdens het maken van
 1. Klik op **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** .
 1. Klik in de sectie **[!UICONTROL Mobile viewports configuration]** op **[!UICONTROL Add]** .
 
-   ![ voeg viewport ](/help/main/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png) toe
+   ![&#x200B; voeg viewport &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png) toe
 
    of
 
@@ -124,7 +124,7 @@ Configureer mobiele viewports die u beschikbaar wilt maken tijdens het maken van
    * Symbian
    * Blackberry
 
-   Als u [ Uitgebreide Composer van de Ervaring ](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) gebruikt en een werkend systeem kiest, [!DNL Target] emuleert dat apparaat wanneer u de pagina bekijkt. Als er bijvoorbeeld een ander uiterlijk voor Android dan voor iOS op uw responsieve site staat, navigeert [!DNL Target] dat gedrag.
+   Als u [&#x200B; Uitgebreide Composer van de Ervaring &#x200B;](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) gebruikt en een werkend systeem kiest, [!DNL Target] emuleert dat apparaat wanneer u de pagina bekijkt. Als er bijvoorbeeld een ander uiterlijk voor Android dan voor iOS op uw responsieve site staat, navigeert [!DNL Target] dat gedrag.
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -136,14 +136,14 @@ Configureer mobiele viewports die u beschikbaar wilt maken tijdens het maken van
 
 Voeg mobiele viewports toe aan uw [!DNL Target] activiteiten om responsieve ervaringen voor mobiele schermen te creëren.
 
-1. Creeer de [ gewenste activiteit ](/help/main/c-activities/activities.md).
+1. Creeer de [&#x200B; gewenste activiteit &#x200B;](/help/main/c-activities/activities.md).
 1. Klik in [!UICONTROL Visual Experience Composer] (VEC) op het tandwielpictogram **[!UICONTROL Settings]** en selecteer vervolgens **[!UICONTROL Add Mobile Viewports]** .
 
-   ![ voeg Mobiele Viewports optie ](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png) toe
+   ![&#x200B; voeg Mobiele Viewports optie &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png) toe
 
 1. Klik op het pictogram **[!UICONTROL Devices]** en schakel vervolgens elk apparaat in dat een mobiele viewport moet hebben.
 
-   ![ laat mobiele viewports ](/help/main/c-experiences/c-visual-experience-composer/assets/mobileviewports.png) toe
+   ![&#x200B; laat mobiele viewports &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/mobileviewports.png) toe
 
    De mobiele viewports worden vermeld van kleinste tot grootste volgens breedte.
 
@@ -153,17 +153,17 @@ Voeg mobiele viewports toe aan uw [!DNL Target] activiteiten om responsieve erva
 
    Plaats de muis boven de naam van een viewport om de grootte van de viewport weer te geven.
 
-   ![ iPhone 11 Pro Max ontvankelijke ervaring ](/help/main/c-experiences/c-visual-experience-composer/assets/iphone11.png)
+   ![&#x200B; iPhone 11 Pro Max ontvankelijke ervaring &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/iphone11.png)
 
 1. U kunt desgewenst schakelen tussen de modi Staand en Liggend door op het pictogram voor de gewenste richting te klikken.
 
-   ![ de opties van de Richtlijn ](/help/main/c-experiences/c-visual-experience-composer/assets/orientation.png)
+   ![&#x200B; de opties van de Richtlijn &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/orientation.png)
 
 ## Trainingsvideo&#39;s
 
 De volgende video&#39;s bevatten meer informatie over de concepten die in dit artikel worden besproken.
 
-### De visuele Composer van de Ervaring (2 van 2) (7 :29) ![ de badge van het Overzicht ](/help/main/assets/overview.png)
+### De visuele Composer van de Ervaring (2 van 2) (7 :29) ![&#x200B; de badge van het Overzicht &#x200B;](/help/main/assets/overview.png)
 
 De volgende demo video omvat informatie over het gebruiken van de composer van de Ervaring van Visual Studio om met mobiele viewports te werken:
 
@@ -176,7 +176,7 @@ De volgende demo video omvat informatie over het gebruiken van de composer van d
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### De Voorkeur van de rekening in Adobe Target ![ badge van het Overzicht ](/help/main/assets/overview.png)
+### De Voorkeur van de rekening in Adobe Target ![&#x200B; badge van het Overzicht &#x200B;](/help/main/assets/overview.png)
 
 Deze video omvat informatie over vestiging mobiele viewports, die bij 4 :40 in de video beginnen.
 

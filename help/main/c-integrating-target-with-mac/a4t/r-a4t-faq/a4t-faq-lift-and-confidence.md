@@ -18,7 +18,7 @@ Dit onderwerp bevat antwoorden op vragen die vaak worden gesteld over optillen e
 ## Kan ik off-line berekeningen voor A4T uitvoeren? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
 +++Antwoord
-U kunt offlineberekeningen voor A4T uitvoeren, maar het vereist een stap met gegevens het uitvoeren in [!DNL Analytics]. Voor meer informatie, zie [ Statistische berekeningen in tests A/Bn ](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+U kunt offlineberekeningen voor A4T uitvoeren, maar het vereist een stap met gegevens het uitvoeren in [!DNL Analytics]. Voor meer informatie, zie [&#x200B; Statistische berekeningen in tests A/Bn &#x200B;](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 +++
 
@@ -32,7 +32,7 @@ Lift is het percentageverschil tussen uw resultaten van de controlepagina en een
 ## Hoe wordt het vertrouwen berekend? {#section_97DB24D833E742988318CA65DA65DAD9}
 
 +++Antwoord
-Het betrouwbaarheidsniveau is een waarschijnlijkheid, uitgedrukt als een percentage, dat gelijk is aan `1 - p-value`, waarbij `p-value` wordt berekend op basis van een t-test. Zie [ Statistische berekeningen in tests A/Bn ](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+Het betrouwbaarheidsniveau is een waarschijnlijkheid, uitgedrukt als een percentage, dat gelijk is aan `1 - p-value`, waarbij `p-value` wordt berekend op basis van een t-test. Zie [&#x200B; Statistische berekeningen in tests A/Bn &#x200B;](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 +++
 

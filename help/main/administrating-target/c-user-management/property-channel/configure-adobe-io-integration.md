@@ -19,7 +19,7 @@ Met [!UICONTROL Enterprise Permissions] kunnen [!DNL Target] -klanten één orga
 
 >[!NOTE]
 >
->De eigenschappen en de functionaliteit van Toestemmingen zijn beschikbaar als deel van de [ Target Premium ](/help/main/c-intro/intro.md#premium) oplossing. Ze zijn niet beschikbaar in [!DNL Target Standard] zonder een [!DNL Target Premium] -licentie.
+>De eigenschappen en de functionaliteit van Toestemmingen zijn beschikbaar als deel van de [&#x200B; Target Premium &#x200B;](/help/main/c-intro/intro.md#premium) oplossing. Ze zijn niet beschikbaar in [!DNL Target Standard] zonder een [!DNL Target Premium] -licentie.
 
 Met de functie [!UICONTROL Enterprise Permissions] kunt u optimalisatieprogramma&#39;s in verschillende teams op effectieve wijze schalen. Hoewel de functie beschikbaar was in de gebruikersinterface van [!DNL Target] , hadden de API&#39;s voor beheerders tot eerder in 2019 geen ondersteuning. In de release van [!DNL Target] februari 2019 heeft Adobe de API&#39;s voor beheer bijgewerkt, zodat u met het integratieaccount toegang kunt krijgen tot alle werkruimten die in uw organisatie zijn gemaakt. Dus, terwijl eerdere versies, waren Admin APIs beperkt tot enkel de standaardwerkruimte, verleende de update van februari 2019 toegang tot alle werkruimten met [!UICONTROL Approver] toegang.
 
@@ -43,19 +43,19 @@ Deze update biedt ondersteuning voor de volgende gebruiksgevallen:
 
 **om de integraties van Adobe I/O toegang tot werkruimten te verlenen en rollen toe te wijzen:**
 
-1. Open **[Adobe Admin Console ](https://adminconsole.adobe.com)**.
+1. Open **[Adobe Admin Console &#x200B;](https://adminconsole.adobe.com)**.
 
 1. Klik op het tabblad **[!UICONTROL Products]** en selecteer vervolgens de naam van het gewenste product.
 
-   ![ kies product in Adobe Admin Console ](/help/main/administrating-target/c-user-management/property-channel/assets/io-choose-product.png)
+   ![&#x200B; kies product in Adobe Admin Console &#x200B;](/help/main/administrating-target/c-user-management/property-channel/assets/io-choose-product.png)
 
 1. Selecteer de gewenste werkruimte (Productprofiel).
 
-   ![ selecteer het productprofiel ](/help/main/administrating-target/c-user-management/property-channel/assets/io-select-product-profile.png)
+   ![&#x200B; selecteer het productprofiel &#x200B;](/help/main/administrating-target/c-user-management/property-channel/assets/io-select-product-profile.png)
 
 1. Klik op de tab **[!UICONTROL Integrations]** .
 
-   ![ het lusje van Integraties ](/help/main/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
+   ![&#x200B; het lusje van Integraties &#x200B;](/help/main/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
 
 1. (Voorwaardelijk) Als u een nieuwe integratie wilt toevoegen, klikt u op **[!UICONTROL Add Integration]** , selecteert u de gewenste integratie en klikt u op **[!UICONTROL Save]** .
 

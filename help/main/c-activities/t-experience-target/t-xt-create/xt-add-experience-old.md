@@ -17,9 +17,9 @@ ht-degree: 0%
 
 1. Selecteer de elementen die u wilt wijzigen en breng de gewenste wijzigingen aan.
 
-   Terwijl [ creërend een [!UICONTROL Experience Targeting] activiteit ](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), stap één van het driedelige geleide werkschema ([!UICONTROL Experiences]) toont het gebrek [!UICONTROL Experience A] met een [!UICONTROL All Visitors] publiek.
+   Terwijl [&#x200B; creërend een [!UICONTROL Experience Targeting] activiteit &#x200B;](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), stap één van het driedelige geleide werkschema ([!UICONTROL Experiences]) toont het gebrek [!UICONTROL Experience A] met een [!UICONTROL All Visitors] publiek.
 
-   ![ Alle bezoekers publiek ](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
+   ![&#x200B; Alle bezoekers publiek &#x200B;](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
    Alle wijzigingen die u nu aanbrengt, zijn van toepassing op [!UICONTROL Experience A] . In een onderstaande stap klikt u op **[!UICONTROL Add Experience Targeting]** om meer ervaringen te creëren.
 
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 1. Klik op **[!UICONTROL Add Experience Targeting]** als u meer ervaringen wilt opdoen.
 
-   ![ voeg Ervaring toe richtend verbinding ](/help/main/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
+   ![&#x200B; voeg Ervaring toe richtend verbinding &#x200B;](/help/main/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
    Het dialoogvenster [!UICONTROL Add Audience] wordt weergegeven. Als u een ervaring wilt richten tot een publiek, selecteert u het publiek voordat u de ervaring toevoegt.
 
-   De publieksbibliotheek bevat publiek dat eerder is gedefinieerd, inclusief een aantal algemene doelgroepen die vooraf zijn gebouwd als onderdeel van [!DNL Target] . U kunt een publiek van de bibliotheek selecteren of [ tot een nieuw publiek ](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271) leiden.
+   De publieksbibliotheek bevat publiek dat eerder is gedefinieerd, inclusief een aantal algemene doelgroepen die vooraf zijn gebouwd als onderdeel van [!DNL Target] . U kunt een publiek van de bibliotheek selecteren of [&#x200B; tot een nieuw publiek &#x200B;](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271) leiden.
 
-   Naast het selecteren van een bestaand publiek kunt u meerdere soorten publiek combineren om een gecombineerd ad-hocpubliek te maken in plaats van een nieuw publiek te maken. Voor meer informatie, zie [ Combinerend Veelvoudige Soorten publiek ](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   Naast het selecteren van een bestaand publiek kunt u meerdere soorten publiek combineren om een gecombineerd ad-hocpubliek te maken in plaats van een nieuw publiek te maken. Voor meer informatie, zie [&#x200B; Combinerend Veelvoudige Soorten publiek &#x200B;](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
    Wanneer u een publiek maakt, kunt u een locatie selecteren en parameters voor die locatie opgeven. Selecteer onder [!UICONTROL Custom] ([!UICONTROL Create Audience] > [!UICONTROL Custom] ) de locatie en geef vervolgens de gewenste parameters op.
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 1. Selecteer een of meer soorten publiek voor de ervaring en klik op **[!UICONTROL Done]** .
 
-   ![ Ervaring B ](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
+   ![&#x200B; Ervaring B &#x200B;](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
 
    De ervaring B wordt nu weergegeven in de voorgaande illustratie en deze ervaring is gericht op het publiek van de Amerikaanse bezoekers.
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
    Het activiteitendiagram toont:
 
-   ![ XT richtend diagram ](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-new.png)
+   ![&#x200B; XT richtend diagram &#x200B;](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-new.png)
 
    >[!NOTE]
    >
@@ -69,7 +69,7 @@ ht-degree: 0%
 
    Bezoekers worden op volgorde geëvalueerd, van boven naar beneden.
 
-   ![ ervaringen van de Beweging ](/help/main/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
+   ![&#x200B; ervaringen van de Beweging &#x200B;](/help/main/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
 
    [!UICONTROL Experience Targeting] gaat ervan uit dat volgorde van belang is. Als een bezoeker in het eerste publiek valt en het eerste paar ervaart, wordt de eerste ervaring geleverd.
 
@@ -84,13 +84,13 @@ U kunt op het pictogram [!UICONTROL Edit] (de verticale ellips) klikken op een e
 * [!UICONTROL Rename]
 * [!UICONTROL Edit]
 
-![ noem en geef opties ](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience_edit-new.png) anders uit
+![&#x200B; noem en geef opties &#x200B;](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience_edit-new.png) anders uit
 
 ## Een ervaring verwijderen
 
 Klik op de pagina **[!UICONTROL Experiences]** (de eerste stap in de driestappenworkflow met instructies) op de verticale ellips > **[!UICONTROL Delete]** .
 
-![ ervaring van de Schrapping ](/help/main/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
+![&#x200B; ervaring van de Schrapping &#x200B;](/help/main/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
 
 ## Een ervaring dupliceren
 
@@ -98,7 +98,7 @@ U kunt een ervaring in een [!UICONTROL Experience Targeting] activiteit kopiëre
 
 Klik op de pagina **[!UICONTROL Experiences]** (de eerste stap in de driestappenworkflow met instructies) op de verticale ellips > **[!UICONTROL Duplicate]** .
 
-![ Dubbele ervaring ](/help/main/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
+![&#x200B; Dubbele ervaring &#x200B;](/help/main/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
 
 ## Trainingsvideo&#39;s:
 

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Met de [!DNL Target]/ [!DNL Audience Manager] -integratie kunt u [!DNL Audience Manager] -segmenten naar [!DNL Target] verzenden.
 
-Voor meer informatie, zie [  [!DNL Audience Manager]  met  [!DNL Target] ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=nl-NL) in de *[!DNL Audience Manager]Gids van de Gebruiker* integreren.
+Voor meer informatie, zie [&#x200B;  [!DNL Audience Manager]  met  [!DNL Target] &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=nl-NL) in de *[!DNL Audience Manager]Gids van de Gebruiker* integreren.
 
 ## Video: [!DNL Target] integreren met [!DNL Adobe Audience Manager] (3 :06)
 

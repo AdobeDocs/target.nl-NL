@@ -26,7 +26,7 @@ Informatie over het [!UICONTROL Automated Segments] -rapport, een van de twee ge
 >
 >* [!UICONTROL Personalization Insights] -rapporten zijn alleen beschikbaar als [!UICONTROL Primary Goal] is geselecteerd in de vervolgkeuzelijst [!UICONTROL Report Metric] .
 >
->* [!UICONTROL Personalization Insights] de rapporten worden gesteund in het [ standaardmilieu ](/help/main/administrating-target/hosts.md) slechts.
+>* [!UICONTROL Personalization Insights] de rapporten worden gesteund in het [&#x200B; standaardmilieu &#x200B;](/help/main/administrating-target/hosts.md) slechts.
 >
 >* [!UICONTROL Personalization Insights] -rapporten worden alleen gegenereerd voor activiteiten die de status [!UICONTROL Live] hebben en die gedurende ten minste 15 dagen zijn geactiveerd en verzonden.
 
@@ -34,13 +34,13 @@ Verschillende bezoekers reageren anders op de aanbiedingen/ervaringen in uw AP/A
 
 ## Heb toegang tot het Geautomatiseerde rapport van Segmenten {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Klik **[!UICONTROL Activities]**, dan klik de gewenste [ Automated Personalization ](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) of [ auto-Doel ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) activiteit van de lijst.
+1. Klik **[!UICONTROL Activities]**, dan klik de gewenste [&#x200B; Automated Personalization &#x200B;](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) of [&#x200B; auto-Doel &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) activiteit van de lijst.
 
-   Als u vele activiteiten hebt, klik het pictogram van de Filter ( ![ pictogram van de Filter ](/help/main/assets/icons/Filter.svg)) om de lijst te filtreren door opties van [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], en [!UICONTROL Activity Source] drop-down lijsten te selecteren.
+   Als u vele activiteiten hebt, klik het pictogram van de Filter ( ![&#x200B; pictogram van de Filter &#x200B;](/help/main/assets/icons/Filter.svg)) om de lijst te filtreren door opties van [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], en [!UICONTROL Activity Source] drop-down lijsten te selecteren.
 
 1. Klik op **[!UICONTROL Reports]**.
 
-   Het [ Samenvatting van Automated Personalization ](/help/main/c-reports/personalization-reports/reports-ap.md) of [ auto-Doel Summiere ](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) rapportvertoningen, die informatie over de prestaties van uw activiteiten verstrekt, die door het eerste het schermpictogram worden vertegenwoordigd. De twee extra pictogrammen vertegenwoordigen de twee [!UICONTROL Personalization Insights] rapporten: **[!UICONTROL Automated Segments]** ( ![ Geautomatiseerde het rapport van Segmenten ](/help/main/assets/icons/AutomatedSegment.svg)) en **[!UICONTROL Important Attributes]** ( ![ Belangrijk pictogram van Attributen ](/help/main/assets/icons/ViewList.svg)). Auto-Target heeft een extra grafiekpictogram voor de grafische mening van het [!UICONTROL Summary] rapport.
+   Het [&#x200B; Samenvatting van Automated Personalization &#x200B;](/help/main/c-reports/personalization-reports/reports-ap.md) of [&#x200B; auto-Doel Summiere &#x200B;](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) rapportvertoningen, die informatie over de prestaties van uw activiteiten verstrekt, die door het eerste het schermpictogram worden vertegenwoordigd. De twee extra pictogrammen vertegenwoordigen de twee [!UICONTROL Personalization Insights] rapporten: **[!UICONTROL Automated Segments]** ( ![&#x200B; Geautomatiseerde het rapport van Segmenten &#x200B;](/help/main/assets/icons/AutomatedSegment.svg)) en **[!UICONTROL Important Attributes]** ( ![&#x200B; Belangrijk pictogram van Attributen &#x200B;](/help/main/assets/icons/ViewList.svg)). Auto-Target heeft een extra grafiekpictogram voor de grafische mening van het [!UICONTROL Summary] rapport.
 
    >[!IMPORTANT]
    >
@@ -56,7 +56,7 @@ Verschillende bezoekers reageren anders op de aanbiedingen/ervaringen in uw AP/A
 
 1. Controleer de rapportgegevens van [!UICONTROL Automated Segments] .
 
-1. (Facultatief) klik **[!UICONTROL Download]** ( ![ pictogram van de Download ](/help/main/assets/icons/Download.svg) ) pictogram aan [ download het rapport in formaat CSV ](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) voor analyse in Excel en andere hulpmiddelen.
+1. (Facultatief) klik **[!UICONTROL Download]** ( ![&#x200B; pictogram van de Download &#x200B;](/help/main/assets/icons/Download.svg) ) pictogram aan [&#x200B; download het rapport in formaat CSV &#x200B;](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) voor analyse in Excel en andere hulpmiddelen.
 
    >[!NOTE]
    >
@@ -68,9 +68,9 @@ De volgende lijst verklaart hoe te om het rapport te interpreteren en beschrijft
 
 | Element | Details |
 |--- |--- |
-| Linkerzijpaneel | Het linkerpaneel maakt een lijst van de 20 grootste &quot;geautomatiseerde segmenten&quot;die door de verpersoonlijkingsmodellen van Target voor deze activiteit worden geïdentificeerd. Een &quot;geautomatiseerd segment&quot;is als een publiek, maar het wordt bepaald door de verpersoonlijkingsmodellen van Target in plaats van door de telleraar. Elk geautomatiseerd segment bestaat uit specifieke waarden (of waardebereiken) van specifieke kenmerken.<br> de geautomatiseerde segmenten kunnen overlappen. Geautomatiseerde segmenten kunnen worden gedefinieerd door één, twee, drie of vier kenmerken. Zie de voorbeelden hieronder voor meer informatie.<br> om meer over de verpersoonlijkingsmodellen van het Doel te leren, zie [ Willekeurig Bosalgoritme ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md). Meer over de verpersoonlijkingsmodellen van het attribuutDoel gebruiken om de geautomatiseerde segmenten tot stand te brengen, zie {de Inzameling van 0} Gegevens voor de Algoritmen van Personalization van het Doel [.](/help/main/c-activities/t-automated-personalization/ap-data.md) |
+| Linkerzijpaneel | Het linkerpaneel maakt een lijst van de 20 grootste &quot;geautomatiseerde segmenten&quot;die door de verpersoonlijkingsmodellen van Target voor deze activiteit worden geïdentificeerd. Een &quot;geautomatiseerd segment&quot;is als een publiek, maar het wordt bepaald door de verpersoonlijkingsmodellen van Target in plaats van door de telleraar. Elk geautomatiseerd segment bestaat uit specifieke waarden (of waardebereiken) van specifieke kenmerken.<br> de geautomatiseerde segmenten kunnen overlappen. Geautomatiseerde segmenten kunnen worden gedefinieerd door één, twee, drie of vier kenmerken. Zie de voorbeelden hieronder voor meer informatie.<br> om meer over de verpersoonlijkingsmodellen van het Doel te leren, zie [&#x200B; Willekeurig Bosalgoritme &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md). Meer over de verpersoonlijkingsmodellen van het attribuutDoel gebruiken om de geautomatiseerde segmenten tot stand te brengen, zie {de Inzameling van 0} Gegevens voor de Algoritmen van Personalization van het Doel [.](/help/main/c-activities/t-automated-personalization/ap-data.md) |
 | Grafiek midden | De middelste grafieken tonen hoe de inhoud van uw activiteit voor het benadrukte geautomatiseerde segment wordt uitgevoerd. Als u op verschillende segmenten in het linkerdeelvenster klikt, worden de middelste grafieken bijgewerkt. |
-| Cirkeldiagrammen | De schijfgrafieken bij de bovenkant van het centrumpaneel tonen de grootte van het geautomatiseerde segment, evenals het totale aantal gepersonaliseerde bezoeken in de activiteit (bijvoorbeeld, verkeer aan deze activiteit die door het verpersoonlijkingsmodel werd gediend. Het omvat geen controleverkeer of verkeer dat door het algemene windenermodel wordt gediend). De omvang van het segment is uitsluitend gebaseerd op individuele bezoeken.<br>![ Schijfgrafiek ](/help/main/c-reports/assets/pie.png) |
+| Cirkeldiagrammen | De schijfgrafieken bij de bovenkant van het centrumpaneel tonen de grootte van het geautomatiseerde segment, evenals het totale aantal gepersonaliseerde bezoeken in de activiteit (bijvoorbeeld, verkeer aan deze activiteit die door het verpersoonlijkingsmodel werd gediend. Het omvat geen controleverkeer of verkeer dat door het algemene windenermodel wordt gediend). De omvang van het segment is uitsluitend gebaseerd op individuele bezoeken.<br>![&#x200B; Schijfgrafiek &#x200B;](/help/main/c-reports/assets/pie.png) |
 | Streepjesgrafiek met twee assen | Het staafdiagram met twee assen bevat informatie over bezoeken en conversie door de aanbieding of ervaring voor dat specifieke geautomatiseerde segment. |
 | Roze balk | De roze balk vertegenwoordigt de conversiesnelheid en gebruikt de onderste as van de grafiek. U kunt de muisaanwijzer op de balk plaatsen voor meer informatie |
 | Blauwe balk | De blauwe balk geeft het aantal bezoeken aan en gebruikt de bovenste as van de grafiek. U kunt de muisaanwijzer op de balk plaatsen voor meer informatie. |
@@ -80,13 +80,13 @@ De volgende lijst verklaart hoe te om het rapport te interpreteren en beschrijft
 
 Dit geautomatiseerde segment wordt gedefinieerd op basis van slechts één kenmerk. Bezoekers die in dit geautomatiseerde segment zijn opgenomen, zagen deze AP-activiteit op een weekdag buiten de gebruikelijke werkuren of in een weekend.
 
-![ Geautomatiseerde het rapportvoorbeeld van Segmenten 1 ](/help/main/c-reports/assets/automated_segment_example_1.png)
+![&#x200B; Geautomatiseerde het rapportvoorbeeld van Segmenten 1 &#x200B;](/help/main/c-reports/assets/automated_segment_example_1.png)
 
 **Geautomatiseerd Voorbeeld 2 van het Segment**
 
 Dit geautomatiseerde segment wordt gedefinieerd op basis van twee kenmerken. Bezoekers die in dit geautomatiseerde segment waren opgenomen en die deze AP-activiteit zagen, hadden tijdens hun huidige bezoek minder dan drie pagina&#39;s en waren geografisch gevestigd in de Latitude 42.57 en 47.29 (ongeveer tussen New Hampshire/Oregon en Washington/Maine voor een in de VS gevestigd bedrijf).
 
-![ Geautomatiseerde het rapportvoorbeeld van Segmenten 2 ](/help/main/c-reports/assets/automated_segment_example_2.png)
+![&#x200B; Geautomatiseerde het rapportvoorbeeld van Segmenten 2 &#x200B;](/help/main/c-reports/assets/automated_segment_example_2.png)
 
 ## Veelgestelde vragen over geautomatiseerde segmenten {#section_740910A52FA646B4AC9452F98C2F5719}
 
@@ -102,7 +102,7 @@ Er zijn verschillende redenen waarom de [!UICONTROL Personalization Insights] -r
 
 Een attribuut is informatie over een bezoeker of zijn of haar specifiek bezoek dat door de verpersoonlijkingsalgoritmen wordt gebruikt om te leren hoe te om verkeer te personaliseren. Een kenmerk kan bijvoorbeeld het browsertype, de locatie, het tijdstip van het bezoek zijn, enzovoort.
 
-Voor meer informatie over welke attributen [!DNL Target] gebruikt in zijn verpersoonlijkingsmodellen, zie [ Inzameling van Gegevens voor de Algoritmen van Personalization van het Doel ](/help/main/c-activities/t-automated-personalization/ap-data.md). Voor meer informatie over hoe te om nieuwe attributen in Doel te uploaden om in de verpersoonlijkingsmodellen van het Doel te gebruiken, zie [ Methoden om Gegevens in Doel ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=nl-NL){target=_blank} te krijgen.
+Voor meer informatie over welke attributen [!DNL Target] gebruikt in zijn verpersoonlijkingsmodellen, zie [&#x200B; Inzameling van Gegevens voor de Algoritmen van Personalization van het Doel &#x200B;](/help/main/c-activities/t-automated-personalization/ap-data.md). Voor meer informatie over hoe te om nieuwe attributen in Doel te uploaden om in de verpersoonlijkingsmodellen van het Doel te gebruiken, zie [&#x200B; Methoden om Gegevens in Doel &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=nl-NL){target=_blank} te krijgen.
 
 **wat is een geautomatiseerd segment?**
 
@@ -110,7 +110,7 @@ Een &quot;geautomatiseerd segment&quot;is als een publiek, maar het wordt bepaal
 
 Een geautomatiseerd segment bestaat uit specifieke waarden (of waardebereiken) van specifieke kenmerken. Zie Stap 5 hierboven, bijvoorbeeld geautomatiseerde segmenten. Segmenten kunnen elkaar overlappen.
 
-Meer over het willekeurige bosverpersoonlijkingsalgoritme leren, dat de basis voor de verpersoonlijkingsmodellen van het Doel is, zie [ Willekeurig Bosalgoritme ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
+Meer over het willekeurige bosverpersoonlijkingsalgoritme leren, dat de basis voor de verpersoonlijkingsmodellen van het Doel is, zie [&#x200B; Willekeurig Bosalgoritme &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
 
 **wat beslist de orde van de geautomatiseerde segmenten?**
 
@@ -138,7 +138,7 @@ Personalization Insights-rapportage (zowel [!UICONTROL Automated Segments] als [
 
 **hoe wordt [!UICONTROL Personalization Insights] gecreeerd?**
 
-[!UICONTROL Personalization Insights] wordt gemaakt met behulp van een Adobe-techniek waarvoor een patent is aangevraagd, MAGIX (Model Agnostic Global Interpretable Explanations). U kunt meer over MAGIX in het gepubliceerde document van het onderzoeksteam van Adobe op de [ arXiv.org ](https://arxiv.org/abs/1706.07160) leren.
+[!UICONTROL Personalization Insights] wordt gemaakt met behulp van een Adobe-techniek waarvoor een patent is aangevraagd, MAGIX (Model Agnostic Global Interpretable Explanations). U kunt meer over MAGIX in het gepubliceerde document van het onderzoeksteam van Adobe op de [&#x200B; arXiv.org &#x200B;](https://arxiv.org/abs/1706.07160) leren.
 
 **waarom past de totale gegevens van het bezoekersverkeer in het [!UICONTROL Automated Segments] rapport niet mijn AP of bij Samenvatting/Prestaties rapport aan?**
 

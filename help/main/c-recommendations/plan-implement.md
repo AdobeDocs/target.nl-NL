@@ -16,6 +16,6 @@ ht-degree: 0%
 
 Voordat u [!DNL Adobe Target Recommendations] gaat gebruiken, moet u verschillende stappen uitvoeren.
 
-De [ Gids van de Ontwikkelaar van Adobe Target ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=nl-NL){target=_blank} bevat informatie over hoe te om [!DNL Recommendations] op uw plaats uit te voeren, evenals hoe te om [!DNL Target] uit te voeren.
+De [&#x200B; Gids van de Ontwikkelaar van Adobe Target &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=nl-NL){target=_blank} bevat informatie over hoe te om [!DNL Recommendations] op uw plaats uit te voeren, evenals hoe te om [!DNL Target] uit te voeren.
 
-Voor meer informatie en geleidelijke instructies, zie [ Plan en voer Aanbevelingen ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} in het *Adobe Target 3&rbrace; portaal van de Gids van de Ontwikkelaar van uit.*
+Voor meer informatie en geleidelijke instructies, zie [&#x200B; Plan en voer Aanbevelingen &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} in het *Adobe Target 3&rbrace; portaal van de Gids van de Ontwikkelaar van uit.*

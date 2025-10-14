@@ -29,7 +29,7 @@ Een standaard A4T-use-case met meerdere pagina&#39;s implementeren:
 ## Hoe weet ik of A4T is ingeschakeld voor mijn [!DNL Target] account? {#section_4437D284448F4313BF953D4B6EDBACA6}
 
 +++Antwoord
-Voordat u een rapportsuite kunt selecteren wanneer u een analyseactiviteit definieert, hebt u zowel een Analytics-gebruikersaccount als een Target-gebruikersaccount nodig. Uw gebruikersaccounts moeten zijn geconfigureerd zoals wordt beschreven in de documentatie. Zie [ Vereisten van de Toestemming van de Gebruiker ](/help/main/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083).
+Voordat u een rapportsuite kunt selecteren wanneer u een analyseactiviteit definieert, hebt u zowel een Analytics-gebruikersaccount als een Target-gebruikersaccount nodig. Uw gebruikersaccounts moeten zijn geconfigureerd zoals wordt beschreven in de documentatie. Zie [&#x200B; Vereisten van de Toestemming van de Gebruiker &#x200B;](/help/main/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083).
 
 Nadat u lid bent van een of meer Experience Cloud-groepen die toegang hebben tot Analytics en Target en u toegang hebt tot alle rapportsuites, kunt u onder **[!UICONTROL Create Activity]** een A/B-test maken met Analytics.
 

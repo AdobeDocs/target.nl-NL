@@ -38,8 +38,8 @@ Met [!UICONTROL Parameter Matching] kunt u inhoud aanbevelen die overeenkomt met
 
 Overweeg de volgende vraag van het voorbeeldDoel:
 
-![ vraag van het Doel ](/help/main/c-recommendations/c-algorithms/assets/example-target-call-2.png)
+![&#x200B; vraag van het Doel &#x200B;](/help/main/c-recommendations/c-algorithms/assets/example-target-call-2.png)
 
 Op de pagina die een bezoeker bekijkt, ziet hij of zij producten voor mobiele apparaten.
 
-![ Mobiele apparatenproducten ](/help/main/c-recommendations/c-algorithms/assets/phones.png)
+![&#x200B; Mobiele apparatenproducten &#x200B;](/help/main/c-recommendations/c-algorithms/assets/phones.png)

@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* [!UICONTROL Auto-Target] is beschikbaar als onderdeel van de [!DNL Target Premium] -oplossing. Deze functie is niet beschikbaar in [!DNL Target Standard] zonder een [!DNL Target Premium] -licentie. Voor meer informatie over de geavanceerde eigenschappen verstrekt deze vergunning, zie [ Target Premium ](/help/main/c-intro/intro.md).
+>* [!UICONTROL Auto-Target] is beschikbaar als onderdeel van de [!DNL Target Premium] -oplossing. Deze functie is niet beschikbaar in [!DNL Target Standard] zonder een [!DNL Target Premium] -licentie. Voor meer informatie over de geavanceerde eigenschappen verstrekt deze vergunning, zie [&#x200B; Target Premium &#x200B;](/help/main/c-intro/intro.md).
 >
->* [!UICONTROL Analytics for Target] (A4T) ondersteunt [!UICONTROL Auto-Target] -activiteiten. Voor meer informatie, zie [ steun A4T voor auto-Wijs en auto-Doel activiteiten ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) toe.
+>* [!UICONTROL Analytics for Target] (A4T) ondersteunt [!UICONTROL Auto-Target] -activiteiten. Voor meer informatie, zie [&#x200B; steun A4T voor auto-Wijs en auto-Doel activiteiten &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) toe.
 
 ## Real-world succesverhaal met Auto-Target {#success}
 
@@ -32,13 +32,13 @@ Lees verder om te leren hoe u [!UICONTROL Auto-Target] kunt gebruiken om de lift
 
 ## Overzicht {#section_972257739A2648AFA7E7556B693079C9}
 
-Terwijl [ creërend een activiteit A/B ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) gebruikend het driestappe geleide werkschema, kies de **[!UICONTROL Auto-Target for personalized experiences]** optie op de **[!UICONTROL Targeting]** pagina (stap 2).
+Terwijl [&#x200B; creërend een activiteit A/B &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) gebruikend het driestappe geleide werkschema, kies de **[!UICONTROL Auto-Target for personalized experiences]** optie op de **[!UICONTROL Targeting]** pagina (stap 2).
 
-![ montages van de Methode van de Toewijzing van het Verkeer ](/help/main/c-activities/automated-traffic-allocation/assets/auto-target.png)
+![&#x200B; montages van de Methode van de Toewijzing van het Verkeer &#x200B;](/help/main/c-activities/automated-traffic-allocation/assets/auto-target.png)
 
 Met de optie [!UICONTROL Auto-Target] in de activiteitsstroom A/B kunt u automatisch leren aanpassen op basis van een aantal ervaringen die met behulp van een marketer zijn gedefinieerd. [!UICONTROL Auto-Target] is ontworpen om maximale optimalisatie te bieden in vergelijking met traditionele A/B-tests of [!UICONTROL Auto Allocate] door te bepalen welke ervaring voor elke bezoeker moet worden weergegeven. In tegenstelling tot een A/B-activiteit waarbij het doel is één winnaar te vinden, bepaalt [!UICONTROL Auto-Target] automatisch de beste ervaring voor een bepaalde bezoeker. De beste ervaring is gebaseerd op het profiel van de bezoeker en andere contextafhankelijke informatie voor een zeer persoonlijke ervaring.
 
-Vergelijkbaar met [!UICONTROL Automated Personalization], [!UICONTROL Auto-Target] gebruikt a [ Willekeurig Bosalgoritme ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md), een belangrijke methode van het de materiaalensemble van gegevenswetenschap, om de beste ervaring te bepalen om aan een bezoeker te tonen. Omdat [!UICONTROL Auto-Target] zich kan aanpassen aan wijzigingen in het gedrag van de bezoeker, kan het permanent worden uitgevoerd om een lift te leveren. Deze methode wordt soms ook wel de &quot;always-on&quot;-modus genoemd.
+Vergelijkbaar met [!UICONTROL Automated Personalization], [!UICONTROL Auto-Target] gebruikt a [&#x200B; Willekeurig Bosalgoritme &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md), een belangrijke methode van het de materiaalensemble van gegevenswetenschap, om de beste ervaring te bepalen om aan een bezoeker te tonen. Omdat [!UICONTROL Auto-Target] zich kan aanpassen aan wijzigingen in het gedrag van de bezoeker, kan het permanent worden uitgevoerd om een lift te leveren. Deze methode wordt soms ook wel de &quot;always-on&quot;-modus genoemd.
 
 In tegenstelling tot een activiteit A/B waarin de ervaringstoewijzing voor een bepaalde bezoeker kleverig is, optimaliseert [!UICONTROL Auto-Target] het gespecificeerde bedrijfsdoel over elk bezoek. Net als in [!UICONTROL Auto Personalization], [!UICONTROL Auto-Target], door gebrek, reserveert een deel van het verkeer van de activiteit als controlegroep om lift te meten. Bezoekers in de controlegroep krijgen een willekeurige ervaring in de activiteit.
 
@@ -62,9 +62,9 @@ De volgende termen zijn handig wanneer u [!UICONTROL Auto-Target] bespreekt:
 
 | Term | Definitie |
 |---|---|
-| [ Meervoudig-gewapende bandit ](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} | Een veelbewapende bandibenadering voor optimalisering brengt een evenwicht tot stand tussen verkennend leren en het benutten van dat leren. |
-| [ Willekeurig bos ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Random Forest is een toonaangevende aanpak voor machinaal leren. Op het gebied van gegevenswetenschappen is het een ensemble classificatie, of regressiemethode, die werkt door veel beslissingsbomen te bouwen op basis van bezoekers en bezoekkenmerken. Binnen [!DNL Target] wordt Random Forest gebruikt om te bepalen welke ervaring naar verwachting de hoogste kans op conversie (of hoogste inkomsten per bezoek) voor elke specifieke bezoeker zal hebben. |
-| [ Thompson Steekproef ](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | Het doel van Thompson Sampling is te bepalen welke ervaring de beste algemene (niet-gepersonaliseerde) ervaring is, terwijl de &#39;kosten&#39; van het vinden van die ervaring tot een minimum worden beperkt. Thompson-steekproeven kiezen altijd een winnaar, zelfs als er geen statistisch verschil tussen twee ervaringen is. |
+| [&#x200B; Meervoudig-gewapende bandit &#x200B;](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} | Een veelbewapende bandibenadering voor optimalisering brengt een evenwicht tot stand tussen verkennend leren en het benutten van dat leren. |
+| [&#x200B; Willekeurig bos &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Random Forest is een toonaangevende aanpak voor machinaal leren. Op het gebied van gegevenswetenschappen is het een ensemble classificatie, of regressiemethode, die werkt door veel beslissingsbomen te bouwen op basis van bezoekers en bezoekkenmerken. Binnen [!DNL Target] wordt Random Forest gebruikt om te bepalen welke ervaring naar verwachting de hoogste kans op conversie (of hoogste inkomsten per bezoek) voor elke specifieke bezoeker zal hebben. |
+| [&#x200B; Thompson Steekproef &#x200B;](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | Het doel van Thompson Sampling is te bepalen welke ervaring de beste algemene (niet-gepersonaliseerde) ervaring is, terwijl de &#39;kosten&#39; van het vinden van die ervaring tot een minimum worden beperkt. Thompson-steekproeven kiezen altijd een winnaar, zelfs als er geen statistisch verschil tussen twee ervaringen is. |
 
 ## Hoe [!UICONTROL Auto-Target] werkt {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
@@ -72,9 +72,9 @@ Meer informatie over de onderliggende gegevens en algoritmen [!UICONTROL Auto-Ta
 
 | Term | Details |
 |--- |--- |
-| [ Willekeurig Bos Algorithm ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Het belangrijkste verpersoonlijkingsalgoritme van [!DNL Target] dat zowel in [!UICONTROL Auto-Target] als [!UICONTROL Automated Personalization] wordt gebruikt is Random Forest. Met methoden zoals Random Forest kunt u meerdere leeralgoritmen gebruiken om betere voorspellende prestaties te verkrijgen dan met elk van de deelleeralgoritmen. Het algoritme Random Forest in de [!UICONTROL Automated Personalization] - en [!UICONTROL Auto-Target] -activiteiten is een classificatie- of regressiemethode die werkt door tijdens de training een groot aantal beslissingsbomen te maken. |
-| [ uploadend Gegevens voor  [!DNL Target] de Algoritmen van Personalization ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Er zijn verschillende manieren om gegevens in te voeren voor [!UICONTROL Auto-Target] - en [!UICONTROL Automated Personalization] -modellen. |
-| [ Inzameling van Gegevens voor  [!DNL Target] de Algoritmen van Personalization ](/help/main/c-activities/t-automated-personalization/ap-data.md) | De personalisatiealgoritmen van [!DNL Target] verzamelen automatisch verschillende gegevens. |
+| [&#x200B; Willekeurig Bos Algorithm &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Het belangrijkste verpersoonlijkingsalgoritme van [!DNL Target] dat zowel in [!UICONTROL Auto-Target] als [!UICONTROL Automated Personalization] wordt gebruikt is Random Forest. Met methoden zoals Random Forest kunt u meerdere leeralgoritmen gebruiken om betere voorspellende prestaties te verkrijgen dan met elk van de deelleeralgoritmen. Het algoritme Random Forest in de [!UICONTROL Automated Personalization] - en [!UICONTROL Auto-Target] -activiteiten is een classificatie- of regressiemethode die werkt door tijdens de training een groot aantal beslissingsbomen te maken. |
+| [&#x200B; uploadend Gegevens voor  [!DNL Target] de Algoritmen van Personalization &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Er zijn verschillende manieren om gegevens in te voeren voor [!UICONTROL Auto-Target] - en [!UICONTROL Automated Personalization] -modellen. |
+| [&#x200B; Inzameling van Gegevens voor  [!DNL Target] de Algoritmen van Personalization &#x200B;](/help/main/c-activities/t-automated-personalization/ap-data.md) | De personalisatiealgoritmen van [!DNL Target] verzamelen automatisch verschillende gegevens. |
 
 ## Verkeerstoewijzing bepalen {#section_AB3656F71D2D4C67A55A24B38092958F}
 
@@ -86,7 +86,7 @@ In de vervolgkeuzelijst [!UICONTROL Custom Allocation] kunt u uit de volgende op
 * [!UICONTROL Maximize Personalization Traffic (90/10)]
 * [!UICONTROL Custom Allocation]
 
-![ drop-down lijst van het Doel van de Toewijzing ](/help/main/c-activities/assets/split-new-ui.png)
+![&#x200B; drop-down lijst van het Doel van de Toewijzing &#x200B;](/help/main/c-activities/assets/split-new-ui.png)
 
 In de volgende tabel worden de drie opties beschreven:
 
@@ -98,7 +98,7 @@ In de volgende tabel worden de drie opties beschreven:
 
 Als u het percentage [!UICONTROL Control] wilt aanpassen, klikt u op [!UICONTROL Experiences] in het deelvenster [!UICONTROL Traffic Allocation] en past u vervolgens de percentages naar wens aan. U kunt de controlegroep niet tot minder dan 10% verminderen.
 
-U kunt [ een specifieke ervaring selecteren om als controle ](/help/main/c-activities/t-automated-personalization/experience-as-control.md) te gebruiken of u kunt de Willekeurige ervaringsoptie gebruiken.
+U kunt [&#x200B; een specifieke ervaring selecteren om als controle &#x200B;](/help/main/c-activities/t-automated-personalization/experience-as-control.md) te gebruiken of u kunt de Willekeurige ervaringsoptie gebruiken.
 
 ## Wanneer moet u [!UICONTROL Auto-Target] over [!UICONTROL Automated Personalization] kiezen? {#section_BBC4871C87944DD7A8B925811A30C633}
 
@@ -120,7 +120,7 @@ Er zijn verschillende scenario&#39;s waarin u [!UICONTROL Auto-Target] over [!UI
 
 * De multi-armbandit zorgt ervoor dat het model altijd een klein fractie verkeer &quot;uitgeeft&quot;om door het leven van het activiteit leren te blijven leren en overexploitatie van eerder geleerde tendensen te verhinderen.
 * De onderliggende modellen worden elke 24 uur opnieuw samengesteld met behulp van de meest recente gedragsgegevens van de bezoeker, zodat [!DNL Target] altijd misbruik maakt van het wijzigen van de voorkeuren van de bezoeker.
-* Als het algoritme het winnen van ervaringen voor individuen niet kan bepalen, schakelt het automatisch aan het tonen van de algemene best-presterende ervaring terwijl nog steeds het zoeken naar gepersonaliseerde winnaars blijft. De best-presterende ervaring wordt gevonden gebruikend [ steekproef van Thompson ](https://en.wikipedia.org/wiki/Thompson_sampling).
+* Als het algoritme het winnen van ervaringen voor individuen niet kan bepalen, schakelt het automatisch aan het tonen van de algemene best-presterende ervaring terwijl nog steeds het zoeken naar gepersonaliseerde winnaars blijft. De best-presterende ervaring wordt gevonden gebruikend [&#x200B; steekproef van Thompson &#x200B;](https://en.wikipedia.org/wiki/Thompson_sampling).
 
 ### Het algoritme optimaliseert voortdurend voor één enkel doel metrisch.
 
@@ -128,15 +128,15 @@ Er zijn verschillende scenario&#39;s waarin u [!UICONTROL Auto-Target] over [!UI
 
 ### [!DNL Target] verzamelt automatisch informatie over bezoekers om de verpersoonlijkingsmodellen samen te stellen.
 
-* Voor meer informatie over de parameters die in [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization] worden gebruikt, zie [ de Inzameling van Gegevens van Automated Personalization ](/help/main/c-activities/t-automated-personalization/ap-data.md).
+* Voor meer informatie over de parameters die in [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization] worden gebruikt, zie [&#x200B; de Inzameling van Gegevens van Automated Personalization &#x200B;](/help/main/c-activities/t-automated-personalization/ap-data.md).
 
 ### [!DNL Target] gebruikt automatisch alle [!DNL Adobe Experience Cloud] gedeelde soorten publiek om de aanpassingsmodellen te maken.
 
-* U hoeft niets specifiek te doen om publiek aan het model toe te voegen. Voor informatie over het gebruiken van [!DNL Experience Cloud Audiences] met [!DNL Target], zie [ publiek van Experience Cloud ](/help/main/c-integrating-target-with-mac/mmp.md).
+* U hoeft niets specifiek te doen om publiek aan het model toe te voegen. Voor informatie over het gebruiken van [!DNL Experience Cloud Audiences] met [!DNL Target], zie [&#x200B; publiek van Experience Cloud &#x200B;](/help/main/c-integrating-target-with-mac/mmp.md).
 
 ### Marketers kunnen offlinegegevens, proxyscores of andere aangepaste gegevens uploaden om personalisatiemodellen samen te stellen.
 
-* Meer informatie over [ het uploaden van gegevens voor [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+* Meer informatie over [&#x200B; het uploaden van gegevens voor [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 ## Hoe verschilt [!UICONTROL Auto-Target] van [!UICONTROL Automated Personalization] ? {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
@@ -153,7 +153,7 @@ Voor [!UICONTROL Auto-Target], kunnen de eenvoudige regels van duim worden gebru
 
 ### [!UICONTROL Auto-Target] heeft volledige instellingsfunctionaliteit.
 
-* Omdat [!UICONTROL Auto-Target] is ingesloten in de A/B-activiteitsworkflow, profiteert [!UICONTROL Auto-Target] van de meer volwassen en volledige [!UICONTROL Visual Experience Composer] (VEC). U kunt [ verbindingen QA ](/help/main/c-activities/c-activity-qa/activity-qa.md) met [!UICONTROL Auto-Target] ook gebruiken.
+* Omdat [!UICONTROL Auto-Target] is ingesloten in de A/B-activiteitsworkflow, profiteert [!UICONTROL Auto-Target] van de meer volwassen en volledige [!UICONTROL Visual Experience Composer] (VEC). U kunt [&#x200B; verbindingen QA &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa.md) met [!UICONTROL Auto-Target] ook gebruiken.
 
 ### [!UICONTROL Auto-Target] biedt een uitgebreid onlinetestframework.
 
@@ -162,4 +162,4 @@ Voor [!UICONTROL Auto-Target], kunnen de eenvoudige regels van duim worden gebru
 
 ## Rapportage en [!UICONTROL Auto-Target] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
-Voor meer informatie, zie [ Meldend en auto-Doel ](/help/main/c-activities/auto-target/reporting-and-auto-target.md).
+Voor meer informatie, zie [&#x200B; Meldend en auto-Doel &#x200B;](/help/main/c-activities/auto-target/reporting-and-auto-target.md).

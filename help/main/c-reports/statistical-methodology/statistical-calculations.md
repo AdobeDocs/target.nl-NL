@@ -19,7 +19,7 @@ In dit artikel worden de gedetailleerde statistische berekeningen beschreven die
 >
 >De informatie in dit artikel vervangt de *Berekeningen van Adobe Target voor het Testen A/B* pdf- dossier dat eerder voor download op deze plaats beschikbaar was.
 
-![ rapport dat van het Doel [!UICONTROL Conversion Rate] toont, [!UICONTROL Average Lift and Confidence Interval], en [!UICONTROL Confidence] van een activiteit van de Test A/B.](/help/main/c-reports/statistical-methodology/img/target_report.png)
+![&#x200B; rapport dat van het Doel [!UICONTROL Conversion Rate] toont, [!UICONTROL Average Lift and Confidence Interval], en [!UICONTROL Confidence] van een activiteit van de Test A/B.](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
 ## Gemiddelde prestaties
 
@@ -99,7 +99,7 @@ Vervolgens is het 95% betrouwbaarheidsinterval van de lift:
 
 <p style="text-align:center;"><img width="40%" src="img/lift_CI.png"></p>
 
-Deze berekening gebruikt de &quot;Delta&quot;methode, en wordt beschreven [ meer in detail in dit document ](/help/main/assets/confidence_interval_lift.pdf)
+Deze berekening gebruikt de &quot;Delta&quot;methode, en wordt beschreven [&#x200B; meer in detail in dit document &#x200B;](/help/main/assets/confidence_interval_lift.pdf)
 
 ## [!UICONTROL Confidence]
 
@@ -139,6 +139,6 @@ Tot slot wordt het in [!DNL Target] gerapporteerde vertrouwen gedefinieerd als:
 
 ## Berekeningen offline uitvoeren
 
-Het [ gedownloade rapport CSV ](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) omvat slechts ruwe gegevens en omvat geen berekende metriek, zoals opbrengst per bezoeker, lift, of vertrouwen dat voor tests A/B wordt gebruikt.
+Het [&#x200B; gedownloade rapport CSV &#x200B;](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) omvat slechts ruwe gegevens en omvat geen berekende metriek, zoals opbrengst per bezoeker, lift, of vertrouwen dat voor tests A/B wordt gebruikt.
 
-Om deze statistische hoeveelheden gegevens te verwerken, download het [!DNL Target] [ Volledige dossier van Excel van de Rekenmachine van het Vertrouwen ](/help/main/assets/complete_confidence_calculator.xlsx) om de waarde van de activiteit in te voeren.
+Om deze statistische hoeveelheden gegevens te verwerken, download het [!DNL Target] [&#x200B; Volledige dossier van Excel van de Rekenmachine van het Vertrouwen &#x200B;](/help/main/assets/complete_confidence_calculator.xlsx) om de waarde van de activiteit in te voeren.

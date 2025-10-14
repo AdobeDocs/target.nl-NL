@@ -20,7 +20,7 @@ Gebruik reeksen van maximaal vijf criteria om meer controle uit te oefenen over 
 >
 >Criteria-reeksen kunnen niet worden gebruikt met [!UICONTROL Recommendations] -activiteiten die zijn gemaakt vóór de release van oktober 2016 van [!DNL Target Premium] .
 
-Als u een reeks criteria wilt maken, moet u eerst de criteria maken die u in de reeks wilt opnemen. Zie [ criteria ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) voor meer informatie creëren.
+Als u een reeks criteria wilt maken, moet u eerst de criteria maken die u in de reeks wilt opnemen. Zie [&#x200B; criteria &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) voor meer informatie creëren.
 
 Door een criteria opeenvolging te gebruiken, kunt u extra gerichte aanbevelingen verstrekken, in plaats van het gebruiken van generischere reserveaanbevelingen, wanneer een criteria niet genoeg resultaten terugkeren om uw ontwerp te vullen. Doorgaans gaat een reeks criteria van specifiekere gerichtheid, die minder resultaten tot meer algemene doelgerichtheid zou kunnen terugbrengen, wat gewoonlijk meer resultaten oplevert.
 
@@ -47,7 +47,7 @@ In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create Criter
 
 1. Klik op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]** .
 
-1. Vul de informatie in de [ Basisinformatie ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) sectie in.
+1. Vul de informatie in de [&#x200B; Basisinformatie &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) sectie in.
 
 1. Klik in de sectie **[!UICONTROL Criteria Sequence]** op het plusteken ( +) om een of meer criteria in een reeks toe te voegen.
 
@@ -65,16 +65,16 @@ In de volgende stappen wordt ervan uitgegaan dat u het [!UICONTROL Create Criter
 
      De aanbevolen lade kan er op uw site als volgt uitzien:
 
-     ![ Aanbevolen de aanbevelingen van Producten het dienblad ](/help/main/c-recommendations/c-algorithms/assets/featured-products.png)
+     ![&#x200B; Aanbevolen de aanbevelingen van Producten het dienblad &#x200B;](/help/main/c-recommendations/c-algorithms/assets/featured-products.png)
 
    * **Geval 2 van het Gebruik**: U wilt een mengeling van zowel alternatieve punten als complementaire punten. Stel één criterium in om een weergegeven/weergegeven algoritme te gebruiken en gebruik een dynamisch filter dat de aanbevolen items beperkt tot de categorie van het huidige item. Stel de tweede criteria in om een weergegeven/gekocht algoritme te gebruiken en gebruik een dynamisch filter dat alleen aanbevolen items bevat die niet overeenkomen met de categorie van het huidige item. Ten slotte kunt u beide criteria toevoegen aan een reeks en de eerste criteria beperken tot twee sleuven.
 
 1. Voeg aanvullende criteria aan uw reeks toe. U kunt maximaal vijf criteria toevoegen aan een reeks.
 
-1. Laat [ de opties van de ReserveInhoud ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) toe.
+1. Laat [&#x200B; de opties van de ReserveInhoud &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) toe.
 
 1. Klik op **[!UICONTROL Create]**.
 
    De volgorde van criteria wordt weergegeven in de lijst [!UICONTROL Criteria] .
 
-   Voor meer informatie over de opties van de aanbeveling logica, zie [ Criteria ](/help/main/c-recommendations/c-algorithms/algorithms.md).
+   Voor meer informatie over de opties van de aanbeveling logica, zie [&#x200B; Criteria &#x200B;](/help/main/c-recommendations/c-algorithms/algorithms.md).

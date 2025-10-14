@@ -40,7 +40,7 @@ Als u [!UICONTROL Enhanced Experience Composer] op activiteitsniveau wilt inscha
 +++Zie details
 Problemen bij het laden van de [!UICONTROL Enhanced Experience Composer] kunnen worden opgelost door de volgende IP-adressen te voegend op lijst van gewenste personen. Deze IP-adressen zijn bedoeld voor [!DNL Adobe] -servers die worden gebruikt voor de [!UICONTROL Enhanced Experience Composer] -proxy. Ze zijn alleen vereist voor het bewerken van activiteiten. Bezoekers van uw site hebben deze op de lijst met gewenste personen staan IP-adressen niet nodig.
 
-Voor meer informatie, zie [ EEG geen interne QA URL laden die niet op openbare IP ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) in *kwesties van het Oplossen van problemen met betrekking tot de Verbeterde Composer van de Ervaring* toegankelijk is.
+Voor meer informatie, zie [&#x200B; EEG geen interne QA URL laden die niet op openbare IP &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) in *kwesties van het Oplossen van problemen met betrekking tot de Verbeterde Composer van de Ervaring* toegankelijk is.
 
 +++
 
@@ -122,7 +122,7 @@ Elke verandering leidt tot een nieuw element in VEC. Omdat de tweede actie Eleme
 
 Met andere woorden, als u een element met tekst toevoegt, dan in een afzonderlijke actie bewerkt u dat element met verschillende tekst, toont de code redacteur beide acties als afzonderlijke elementen. Wanneer u het element hebt bewerkt, hebt u een nieuw element gemaakt dat het oorspronkelijke element wijzigt dat u hebt gemaakt en dat de bewerkte tekst bevat. Als u vervolgens het oorspronkelijke element verwijdert, kan de bewerkte tekst het bewerkte element niet vinden en wordt deze niet weergegeven. Het tweede element blijft in de lijst met elementen, maar heeft geen invloed op de pagina omdat het element dat wordt gewijzigd, niet meer bestaat.
 
-Zie [ die Selectors van het Element in [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) worden gebruikt.
+Zie [&#x200B; die Selectors van het Element in [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) worden gebruikt.
 
 +++
 
@@ -244,7 +244,7 @@ Houd rekening met het volgende wanneer u [!UICONTROL Visual Experience Composer]
 ### De functie [!UICONTROL Move] biedt geen ondersteuning voor Z-index.
 
 +++Details
-Omdat er geen Z-indexfunctionaliteit is, kan het verplaatste element niet boven op een ander element worden geplaatst. Zie [ Beperkingen ](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721) voor meer details.
+Omdat er geen Z-indexfunctionaliteit is, kan het verplaatste element niet boven op een ander element worden geplaatst. Zie [&#x200B; Beperkingen &#x200B;](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721) voor meer details.
 
 +++
 
@@ -302,7 +302,7 @@ Houd rekening met de volgende beperkingen wanneer u met de VEC werkt:
 ### VEC-compatibiliteit met [!DNL Chrome] beleidswijzigingen voor extensies verwerken. {#ext}
 
 +++Details
-Wegens bijgewerkt [ V3 Manifest beleid in Google Chrome ](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}, kunnen de uitbreidingen originele DOM niet meer wijzigen alvorens het door browser wordt ontleed. Dientengevolge, zouden bepaalde veiligheidsmanuscripten-zoals iframe-het bouwen implementaties-pagina&#39;s van het laden in VEC kunnen blokkeren.
+Wegens bijgewerkt [&#x200B; V3 Manifest beleid in Google Chrome &#x200B;](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}, kunnen de uitbreidingen originele DOM niet meer wijzigen alvorens het door browser wordt ontleed. Dientengevolge, zouden bepaalde veiligheidsmanuscripten-zoals iframe-het bouwen implementaties-pagina&#39;s van het laden in VEC kunnen blokkeren.
 
 Om de compatibiliteit te garanderen, moeten deze scripts voorwaardelijk worden uitgeschakeld wanneer de pagina in het iframe [!DNL Target] wordt geladen. Dit proces kan veilig worden uitgevoerd door te controleren op de aanwezigheid van het `window.adobeVecExtension` -object, dat door [!DNL Target] tijdens het laden met VEC wordt geïnjecteerd.
 

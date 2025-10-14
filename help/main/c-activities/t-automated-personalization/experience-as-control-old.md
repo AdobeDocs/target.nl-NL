@@ -29,7 +29,7 @@ Er zijn twee opties beschikbaar voor uw besturing in uw [!UICONTROL Automated Pe
 
 ## Een specifieke ervaring opgeven als besturingselement
 
-1. Tijdens het creëren van of het uitgeven van een [[!UICONTROL Automated Personalization] activiteit ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) of [[!UICONTROL Auto-Target] activiteit ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), vorm de ervaringen zoals gewenst.
+1. Tijdens het creëren van of het uitgeven van een [[!UICONTROL Automated Personalization] activiteit &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) of [[!UICONTROL Auto-Target] activiteit &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), vorm de ervaringen zoals gewenst.
 1. Selecteer op de pagina [!UICONTROL Targeting] (stap 2 van de geleide workflow met drie delen) de gewenste ervaring als besturingselement.
 1. Specificeer de gewenste verkeerstoewijzing voor de controleervaring en de andere ervaringen.
 

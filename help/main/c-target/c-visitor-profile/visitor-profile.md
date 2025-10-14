@@ -24,6 +24,6 @@ De volgende secties bevatten meer informatie:
 - [Levensduur van bezoekersprofiel](visitor-profile-lifetime.md)
 - [Profielkenmerken](profile-parameters.md)
 - [Categorie-affiniteit](category-affinity.md)
-- [ de attributen van de Klant ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=nl-NL)
+- [&#x200B; de attributen van de Klant &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=nl-NL)
 - [Profielsynchronisatie in realtime voor mbox3rdPartyID](3rd-party-id.md)
 - [Profiel en verklarende woordenlijst voor variabelen](variables-profiles-parameters-methods.md)

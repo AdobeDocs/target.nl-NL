@@ -18,9 +18,9 @@ Dit onderwerp bevat antwoorden op vragen die vaak worden gesteld over het weerge
 ## Kan ik mijn [!DNL Target] activiteitsgegevens weergeven in [!DNL Analysis Workspace] ? {#workspace}
 
 +++Antwoord
-Met [!DNL Analysis Workspace] kunt u uw [!DNL Target] -activiteiten en -ervaringen analyseren. De [ Analytics voor het paneel van het Doel ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=nl-NL) laat u optillen &amp; vertrouwen voor maximaal drie succesmetriek zien. U kunt ook dieper graven met behulp van tabellen en visualisaties.
+Met [!DNL Analysis Workspace] kunt u uw [!DNL Target] -activiteiten en -ervaringen analyseren. De [&#x200B; Analytics voor het paneel van het Doel &#x200B;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=nl-NL) laat u optillen &amp; vertrouwen voor maximaal drie succesmetriek zien. U kunt ook dieper graven met behulp van tabellen en visualisaties.
 
-Voor gedetailleerde informatie en voorbeelden, open [ Analytics &amp; Doel: Beste praktijken voor het leerprogramma van de Analyse ](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), dat door [!UICONTROL Adobe Experience League] wordt verstrekt.
+Voor gedetailleerde informatie en voorbeelden, open [&#x200B; Analytics &amp; Doel: Beste praktijken voor het leerprogramma van de Analyse &#x200B;](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), dat door [!UICONTROL Adobe Experience League] wordt verstrekt.
 
 +++
 
@@ -54,7 +54,7 @@ Wanneer u voor een activiteit segmenteert om in een klap aanwezig te zijn, krijg
 +++Antwoord
 Voor activiteiten die [!DNL Analytics] als rapporteringsbron (A4T) gebruiken, metrische doel gebruikt &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot;en &quot;[!UICONTROL On Every Impression]&quot;montages. Deze montages zijn *niet* configureerbaar.
 
-Voor meer informatie, zie &quot;terwijl het vormen van mijn doelmetriek, waarom kan ik niet tot de Geavanceerde opties van Montages toegang hebben?&quot; in [ Metrische definities - Veelgestelde vragen A4T ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
+Voor meer informatie, zie &quot;terwijl het vormen van mijn doelmetriek, waarom kan ik niet tot de Geavanceerde opties van Montages toegang hebben?&quot; in [&#x200B; Metrische definities - Veelgestelde vragen A4T &#x200B;](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 +++
 
@@ -74,7 +74,7 @@ Overweeg het volgende:
 * De bovenstaande metrische trigger wanneer een gebruiker in aanmerking komt voor een activiteit en inhoud wordt geretourneerd vanuit [!DNL Target] . Dit betekent niet noodzakelijk dat de gebruiker het aanbod zag. Als een activiteit onder de vouw is en de gebruiker niet onderaan de pagina scrolt, dan werd de aanbieding gediend door [!DNL Target] maar niet door de gebruiker gezien.
 * [!UICONTROL Activity Impressions] (gemeten door [!DNL Target]) en [!UICONTROL Instances] (gemeten door [!DNL Analytics]) zijn gelijk, tenzij er meerdere mbox-aanroepen op dezelfde pagina plaatsvinden in dezelfde activiteit. Hierdoor worden meerdere [!UICONTROL Activity Impressions] geteld, maar slechts één [!UICONTROL Instance] .
 
-Voor meer informatie, zie [ hoe te opstelling A4T rapporten in Analysis Workspace voor activiteiten Auto-Doel ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=nl-NL) in *Zelfstudies van Adobe Target*.
+Voor meer informatie, zie [&#x200B; hoe te opstelling A4T rapporten in Analysis Workspace voor activiteiten Auto-Doel &#x200B;](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=nl-NL) in *Zelfstudies van Adobe Target*.
 
 +++
 
@@ -83,7 +83,7 @@ Voor meer informatie, zie [ hoe te opstelling A4T rapporten in Analysis Workspac
 +++Antwoord
 [!DNL Reports & Analytics] past een attributiemodel met dezelfde aanraakinstelling toe op &#39;activity-impressions&#39; en &#39;activity-conversies&#39;, terwijl [!DNL Analysis Workspace] de onbewerkte metriek weergeeft, die opgeblazen kan lijken vanwege de persistentie van de [!DNL Target] -dimensie.
 
-Als u nauwkeurige [!UICONTROL Activity Impressions] - en [!UICONTROL Activity Conversions] metriek in [!DNL Analysis Workspace] wilt evalueren, moet u ervoor zorgen dat op beide metriek [!UICONTROL Same Touch] -attributiemodellen zijn toegepast. Modellen kunnen worden toegepast door op het tandwieltje voor kolominstellingen te klikken, [!UICONTROL Non-default attribution models] in te schakelen en vervolgens [!UICONTROL Same Touch] te selecteren. Leer meer over attributie in [ overzicht van Attributen IQ ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=nl-NL) in de *Gids van Hulpmiddelen van de Analyse*.
+Als u nauwkeurige [!UICONTROL Activity Impressions] - en [!UICONTROL Activity Conversions] metriek in [!DNL Analysis Workspace] wilt evalueren, moet u ervoor zorgen dat op beide metriek [!UICONTROL Same Touch] -attributiemodellen zijn toegepast. Modellen kunnen worden toegepast door op het tandwieltje voor kolominstellingen te klikken, [!UICONTROL Non-default attribution models] in te schakelen en vervolgens [!UICONTROL Same Touch] te selecteren. Leer meer over attributie in [&#x200B; overzicht van Attributen IQ &#x200B;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=nl-NL) in de *Gids van Hulpmiddelen van de Analyse*.
 
 +++
 
@@ -149,7 +149,7 @@ De gebruiker komt dan terug op 1 april, bekijkt nog vijf pagina&#39;s en koopt. 
 
 Omdat beide ervaringen werden gezien vóór de conversie, krijgen ze allebei &#39;krediet&#39; voor de bestelling. Maar er vond slechts één orde plaats in het systeem en het totaal weerspiegelt dat. Voor [!DNL Target] -rapportage, omdat u een [!DNL Target] -activiteit niet tegen een andere activiteit plaatst om te zien welke meer succes heeft, maakt het niet uit dat alle activiteiten die de gebruiker zag, krediet hebben gekregen. U vergelijkt de resultaten van twee items binnen één activiteit. Het is niet mogelijk voor een gebruiker om verschillende ervaringen in de zelfde activiteit te zien zodat moet u zich niet over kruisbesmetting van orderkrediet ongerust maken.
 
-Voor meer informatie, zie [ Variabelen van de Omzetting (eVar ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=nl-NL)) in de *Gids Admin van Analytics*.
+Voor meer informatie, zie [&#x200B; Variabelen van de Omzetting (eVar &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=nl-NL)) in de *Gids Admin van Analytics*.
 
 +++
 
@@ -163,9 +163,9 @@ Een bron van beelden aan het rapport van een activiteit A4T na deactivatie kan v
 ## Waarom berekenen [!DNL Analytics] en [!UICONTROL Analytics for Adobe Target] (A4T) getallen voor de [!UICONTROL Unique Visitors] metrische waarde verschillend? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 +++Antwoord
-Wanneer u een test A/B in werking stelt, die t-test van het [ Welch ](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (het vertrouwen metrisch) gebruikt om een winnaar van een test te kiezen, is één van de veronderstellingen dat er een vaste tijdhorizon is. De test is niet statistisch geldig tenzij u die vaste steekproefgrootte bekijkt.
+Wanneer u een test A/B in werking stelt, die t-test van het [&#x200B; Welch &#x200B;](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (het vertrouwen metrisch) gebruikt om een winnaar van een test te kiezen, is één van de veronderstellingen dat er een vaste tijdhorizon is. De test is niet statistisch geldig tenzij u die vaste steekproefgrootte bekijkt.
 
-De [!UICONTROL Unique Visitors] -metrische waarde verschilt alleen in [!DNL Analytics] en [!DNL Target] als u naar een periode kijkt die korter is dan de werkelijke test. Als u uw steekproefgrootte niet hebt bereikt, is de test niet zo betrouwbaar. Zie [ hoe niet om een Test A/B ](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) op [ Evan Miller&#39;s website ](https://www.evanmiller.org/index.html) voor meer informatie in werking te stellen.
+De [!UICONTROL Unique Visitors] -metrische waarde verschilt alleen in [!DNL Analytics] en [!DNL Target] als u naar een periode kijkt die korter is dan de werkelijke test. Als u uw steekproefgrootte niet hebt bereikt, is de test niet zo betrouwbaar. Zie [&#x200B; hoe niet om een Test A/B &#x200B;](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) op [&#x200B; Evan Miller&#39;s website &#x200B;](https://www.evanmiller.org/index.html) voor meer informatie in werking te stellen.
 
 De [!UICONTROL Unique Visitors] -meting geeft het aantal personen weer dat tijdens de opgegeven periode aan de test is blootgesteld en dat de site heeft bezocht. Deze mensen maken deel uit van de test en moeten worden geteld. Als u slechts het aantal mensen wilt zien die tijdens één enkele week werden blootgesteld, kunt u een segment van bezoekers tot stand brengen die een activiteitenindruk hadden en het toepassen op het rapport.
 
@@ -179,7 +179,7 @@ U kunt de hoeveelheid tijd verkorten die de [!DNL Target] variabele tot een zitt
 In de volgende lijst worden de redenen beschreven waarom dezelfde bezoeker kan worden geteld in meerdere ervaringen in [!DNL Analytics] :
 
 * Het [!DNL Target] -profiel is verlopen, maar het [!DNL Analytics] -cookie is er nog steeds. In deze situatie herevalueert [!DNL Target] de gebruiker, maar [!DNL Analytics] beschouwt de bezoeker als dezelfde persoon.
-* Als de bezoeker de `mbox3rdPartyId` gebruikt en de anonieme bezoeker wordt samengevoegd met het profiel voor de id van derden, kan [!DNL Target] de bezoeker in een andere ervaring plaatsen om overeen te komen met de id van derden. Voor meer informatie, zie [ Real-Time Profiel die voor mbox3rdPartyID ](/help/main/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732) synchroniseert.
+* Als de bezoeker de `mbox3rdPartyId` gebruikt en de anonieme bezoeker wordt samengevoegd met het profiel voor de id van derden, kan [!DNL Target] de bezoeker in een andere ervaring plaatsen om overeen te komen met de id van derden. Voor meer informatie, zie [&#x200B; Real-Time Profiel die voor mbox3rdPartyID &#x200B;](/help/main/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732) synchroniseert.
 * [!DNL Analytics] volgt mogelijk verschillende apparaten op een andere manier als dezelfde bezoeker dan [!DNL Target] deze apparaten bijhoudt: de instellingen voor de id van derden in [!DNL Target] verschillen van die in Analytics.
 
 +++
@@ -221,7 +221,7 @@ Hier volgen enkele punten waarmee u rekening moet houden bij het weergeven van [
 Activiteitenafbeeldingen weergeven in [!DNL Analysis Workspace] :
 
 1. Klik in de gebruikersinterface van [!DNL Target] op **[!UICONTROL View in Analytics]** .
-1. Voeg de **[!UICONTROL Activity Impressions]** kolom aan het [[!DNL Analytics Workspace] ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=nl-NL){target=_blank} rapport toe.
+1. Voeg de **[!UICONTROL Activity Impressions]** kolom aan het [[!DNL Analytics Workspace] &#x200B;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=nl-NL){target=_blank} rapport toe.
 1. Klik in de kolom **[!UICONTROL Activity Impressions]** op het pictogram [!UICONTROL Gear] .
 1. Klik op **[!UICONTROL Use non-default attribution model]**.
 1. Selecteer **[!UICONTROL Same Touch Model]** > **[!UICONTROL Apply]** .

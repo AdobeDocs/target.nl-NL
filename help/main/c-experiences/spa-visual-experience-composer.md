@@ -15,9 +15,9 @@ ht-degree: 0%
 
 In [!DNL Adobe Target] biedt [!UICONTROL Visual Experience Composer] (VEC) marketers de mogelijkheid om zelf activiteiten te maken en ervaringen aan te passen die dynamisch kunnen worden aangeboden in traditionele toepassingen voor meerdere pagina&#39;s via Adobe Target global mbox. Nochtans, baseert dit zich op het terugwinnen van aanbiedingen op pagina-lading of verdere servervraag, die latentie, zoals aangetoond in het hieronder diagram introduceert. Deze benadering werkt niet goed met de Toepassingen van de Enige Pagina (SPAs) omdat het de gebruikerservaring en toepassingsprestaties degradeert.
 
-![ Traditionele levenscyclus vs. Levenscyclus van het KUUROORD ](/help/main/c-experiences/assets/trad-vs-spa.png)
+![&#x200B; Traditionele levenscyclus vs. Levenscyclus van het KUUROORD &#x200B;](/help/main/c-experiences/assets/trad-vs-spa.png)
 
-Met de recentste versie, introduceren wij nu VEC voor SPAs. VEC voor SPAs laat marketers toe om tests tot stand te brengen en inhoud op SPAs op een doe-het-zelfmanier zonder ononderbroken ontwikkelingsgebiedsdelen te personaliseren. VEC kan worden gebruikt om [ te creëren A/B Test ](/help/main/c-activities/t-test-ab/test-ab.md) en [ Ervaring richtend ](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activiteiten op populaire kaders, zoals Reageren en Angular.
+Met de recentste versie, introduceren wij nu VEC voor SPAs. VEC voor SPAs laat marketers toe om tests tot stand te brengen en inhoud op SPAs op een doe-het-zelfmanier zonder ononderbroken ontwikkelingsgebiedsdelen te personaliseren. VEC kan worden gebruikt om [&#x200B; te creëren A/B Test &#x200B;](/help/main/c-activities/t-test-ab/test-ab.md) en [&#x200B; Ervaring richtend &#x200B;](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activiteiten op populaire kaders, zoals Reageren en Angular.
 
 ## Adobe [!DNL Target] Weergaven en toepassingen voor één pagina
 
@@ -25,29 +25,29 @@ Adobe Target VEC voor SPAs haalt voordeel uit een nieuw concept genoemd Bekijken
 
 Als u meer wilt weten over de weergaven, navigeert u naar deze hypothetische online e-commercesite die u in Reageren hebt geïmplementeerd en verkent u enkele voorbeeldweergaven. Klik op de onderstaande koppelingen om deze site te openen in een nieuw browsertabblad.
 
-**Verbinding: [ Plaats van het Huis ](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/)**
+**Verbinding: [&#x200B; Plaats van het Huis &#x200B;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/)**
 
-![ homesite ](/help/main/c-experiences/assets/home.png)
+![&#x200B; homesite &#x200B;](/help/main/c-experiences/assets/home.png)
 
 Wanneer we naar de thuissite navigeren, kunnen we meteen een hoofdafbeelding zien die een paasverkoop bevordert en de nieuwste producten die op de site worden verkocht. In dit geval, kan een Mening als volledige homesite worden gedefinieerd. Dit is handig om op te merken, aangezien we hier meer over zullen doen in de sectie Adobe Target-weergaven implementeren hieronder.
 
-**Verbinding: [ Plaats van het Product ](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products)**
+**Verbinding: [&#x200B; Plaats van het Product &#x200B;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products)**
 
-![ productplaats ](/help/main/c-experiences/assets/product-site.png)
+![&#x200B; productplaats &#x200B;](/help/main/c-experiences/assets/product-site.png)
 
 Aangezien wij meer in de producten geïnteresseerd raken, besluiten wij om de verbinding van Producten te klikken. Net als op de thuissite kan de hele productsite worden gedefinieerd als een weergave. Deze weergave kan net als de padnaam in `https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products` &#39;producten&#39; worden genoemd.
 
-![ productplaats 2 ](/help/main/c-experiences/assets/product-site-2.png)
+![&#x200B; productplaats 2 &#x200B;](/help/main/c-experiences/assets/product-site-2.png)
 
 In het begin van deze sectie definieerden we Weergaven als de gehele site of zelfs als een groep visuele elementen op de site. Zoals hierboven wordt getoond, kunnen de vier producten die op de plaats worden getoond ook als Mening worden gegroepeerd en worden beschouwd. Als we deze weergave een naam willen geven, kunnen we deze &quot;producten&quot; noemen.
 
-![ productplaats 3 ](/help/main/c-experiences/assets/product-site-3.png)
+![&#x200B; productplaats 3 &#x200B;](/help/main/c-experiences/assets/product-site-3.png)
 
 We besluiten op de knop Meer laden te klikken om meer producten op de site te verkennen. De URL van de website verandert in dit geval niet. Maar een weergave hier kan alleen de tweede rij producten weergeven die hierboven wordt weergegeven. De weergavenaam kan &#39;PRODUCTS-PAGE-2&#39; worden genoemd.
 
-**Verbinding: [ Controle ](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/checkout)**
+**Verbinding: [&#x200B; Controle &#x200B;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/checkout)**
 
-![ controle-uit pagina ](/help/main/c-experiences/assets/checkout.png)
+![&#x200B; controle-uit pagina &#x200B;](/help/main/c-experiences/assets/checkout.png)
 
 Omdat we bepaalde producten op de site leuk vonden, besloten we een paar te kopen. Nu krijgen we op de uitchecksite enkele opties om normale levering of expreslevering te kiezen. Omdat een weergave elke groep visuele elementen op een site kan zijn, kunnen we deze &quot;Voorkeuren voor levering weergeven&quot; noemen.
 
@@ -63,11 +63,11 @@ Nu wij hebben behandeld wat de Weergaven van Adobe Target zijn, kunnen wij hefbo
 
    Eerst moeten we installeren op .js 2.x. Deze versie van at.js werd ontwikkeld met SPAs in mening. Eerdere versies van at.js en bieden geen ondersteuning voor Adobe Target Views en VEC for SPA.
 
-   ![ de dialoogdoos van de Details van de Implementatie ](/help/main/c-experiences/assets/imp-200.png)
+   ![&#x200B; de dialoogdoos van de Details van de Implementatie &#x200B;](/help/main/c-experiences/assets/imp-200.png)
 
-   Download het bestand at.js 2.x via de gebruikersinterface van Adobe Target in [!UICONTROL Administration > Implementation] . at.js 2.x kan ook via markeringen in [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=nl-NL){target=_blank} worden opgesteld. De Adobe Target-extensies zijn momenteel echter niet up-to-date en worden wel ondersteund.
+   Download het bestand at.js 2.x via de gebruikersinterface van Adobe Target in [!UICONTROL Administration > Implementation] . at.js 2.x kan ook via markeringen in [&#x200B; Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=nl-NL){target=_blank} worden opgesteld. De Adobe Target-extensies zijn momenteel echter niet up-to-date en worden wel ondersteund.
 
-1. Implementeer de nieuwste functie van at.js 2.x: [ triggerView () ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html?lang=nl-NL){target=_blank} op uw plaatsen.
+1. Implementeer de nieuwste functie van at.js 2.x: [&#x200B; triggerView () &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html?lang=nl-NL){target=_blank} op uw plaatsen.
 
    Na het bepalen van de Weergaven van uw SPA waar u een A/B of XT test wilt in werking stellen, voer de functie van at.js 2.x `triggerView()` met de Bekijken uit die binnen als parameter worden overgegaan. Dit staat marketers toe om VEC te gebruiken om de tests A/B en XT voor die Gedefinieerde Kijken te ontwerpen en in werking te stellen. Als de `triggerView()` functie niet voor die Kijken wordt bepaald, zal VEC niet de Kijken ontdekken en zo kunnen de verkopers VEC niet gebruiken om A/B en XT tests te ontwerpen en in werking te stellen.
 
@@ -81,9 +81,9 @@ Nu wij hebben behandeld wat de Weergaven van Adobe Target zijn, kunnen wij hefbo
 
    Nu ga door één of ander voorbeeld gebruiksgevallen op hoe te om de `triggerView()` functie in React voor onze hypothetische e-commerce SPA aan te halen:
 
-   **Verbinding: [ Plaats van het Huis ](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/)**
+   **Verbinding: [&#x200B; Plaats van het Huis &#x200B;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/)**
 
-   ![ huis-reactie-1 ](/help/main/c-experiences/assets/react1.png)
+   ![&#x200B; huis-reactie-1 &#x200B;](/help/main/c-experiences/assets/react1.png)
 
    Als marketers, als wij A/B tests op de volledige homesite willen in werking stellen, dan zouden wij de mening &quot;huis&quot;kunnen noemen die uit URL kan worden gehaald:
 
@@ -112,11 +112,11 @@ Nu wij hebben behandeld wat de Weergaven van Adobe Target zijn, kunnen wij hefbo
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Verbinding: [ Plaats van Producten ](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products)**
+   **Verbinding: [&#x200B; Plaats van Producten &#x200B;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products)**
 
    Laten we nu eens kijken naar een voorbeeld dat wat gecompliceerder is. Laten we bijvoorbeeld als marketers de tweede rij van de producten personaliseren door de kleur van het prijslabel te wijzigen in rood nadat een gebruiker op de knop Meer laden heeft geklikt.
 
-   ![ reacties producten ](/help/main/c-experiences/assets/react4.png)
+   ![&#x200B; reacties producten &#x200B;](/help/main/c-experiences/assets/react4.png)
 
    ```javascript
    function targetView(viewName) {
@@ -141,9 +141,9 @@ Nu wij hebben behandeld wat de Weergaven van Adobe Target zijn, kunnen wij hefbo
    }
    ```
 
-   **Verbinding: [ Controle ](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/checkout)**
+   **Verbinding: [&#x200B; Controle &#x200B;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/checkout)**
 
-   ![ reactie controle ](/help/main/c-experiences/assets/react6.png)
+   ![&#x200B; reactie controle &#x200B;](/help/main/c-experiences/assets/react6.png)
 
    Als marketers de inhoud op de site willen aanpassen, afhankelijk van de geselecteerde leveringsvoorkeur, kan een Weergave worden gemaakt voor elke leveringsvoorkeur. In dit geval, wanneer wij Normale Levering selecteren, kan de Mening &quot;Normale Levering&quot;worden genoemd. Als Express Delivery is geselecteerd, kan de weergave de naam &quot;Express Delivery&quot; hebben.
 
@@ -188,7 +188,7 @@ Nu wij hebben behandeld wat de Weergaven van Adobe Target zijn, kunnen wij hefbo
    >
    >VEC voor SPAs is werkelijk het zelfde VEC dat u op regelmatige Web-pagina&#39;s gebruikt, maar sommige extra mogelijkheden zijn beschikbaar wanneer u één enkele paginaapp opent met `triggerView()` uitgevoerd.
 
-Er zijn twee belangrijke verbeteringen aan het [ paneel van Veranderingen ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) en Acties voor VEC die VEC toestaan om goed met SPAs te werken.
+Er zijn twee belangrijke verbeteringen aan het [&#x200B; paneel van Veranderingen &#x200B;](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) en Acties voor VEC die VEC toestaan om goed met SPAs te werken.
 
 **het Comité van Wijzigingen**
 
@@ -198,7 +198,7 @@ In het deelvenster [!UICONTROL Modifications] worden, zoals hieronder wordt weer
 
 Wanneer u op een handeling klikt, wordt het element op de site gemarkeerd waarop deze handeling wordt toegepast. Elke VEC-actie die onder een Weergave wordt gemaakt, heeft de volgende pictogrammen, zoals hieronder wordt weergegeven: Informatie, Bewerken, Klonen, Verplaatsen en Verwijderen.
 
-![ Wijzigingen ](/help/main/c-experiences/assets/modifications.png)
+![&#x200B; Wijzigingen &#x200B;](/help/main/c-experiences/assets/modifications.png)
 
 In de volgende tabel wordt elke actie beschreven:
 
@@ -223,7 +223,7 @@ Laten we het bovenstaande voorbeeld gebruiken waarin we een weergave Home hebben
 
 Om deze doelstellingen uit te voeren, in VEC, klik [!UICONTROL Compose] en pas die veranderingen op de mening van het Huis toe.
 
-![ Voorbeeld 1 ](/help/main/c-experiences/assets/example1.png)
+![&#x200B; Voorbeeld 1 &#x200B;](/help/main/c-experiences/assets/example1.png)
 
 **Voorbeeld 2**
 
@@ -234,7 +234,7 @@ Laten we het voorbeeld hierboven gebruiken waarin we een PRODUCTS-PAGE-2-weergav
 1. Klik op [!UICONTROL Compose].
 1. Pas handelingen toe om het tekstlabel te wijzigen in Verkoopprijs en de kleur in rood.
 
-![ Voorbeeld 2 ](/help/main/c-experiences/assets/example2.png)
+![&#x200B; Voorbeeld 2 &#x200B;](/help/main/c-experiences/assets/example2.png)
 
 **Voorbeeld 3**
 
@@ -248,7 +248,7 @@ Tot slot kunnen, zoals eerder vermeld, weergaven in korreligheid worden gedefini
 1. Klik op [!UICONTROL Compose].
 1. Klik op de knop Betalen om de knop Volgorde voltooien te lezen en de kleur rood te wijzigen.
 
-![ Voorbeeld 3 ](/help/main/c-experiences/assets/example3.png)
+![&#x200B; Voorbeeld 3 &#x200B;](/help/main/c-experiences/assets/example3.png)
 
 >[!NOTE]
 >
@@ -315,7 +315,7 @@ Met andere woorden, 2.x in.js steunt een manier om meningen, acties, en aanbiedi
 
 Ja, in.js 2.x wordt A4T voor SPA ondersteund via de functie `triggerView()` , aangezien u Adobe Analytics en de Experience Cloud Visitor ID Service hebt geïmplementeerd. Zie het onderstaande diagram met stapsgewijze beschrijvingen.
 
-![ Stroom van het Doel ](/help/main/c-experiences/assets/atjs-spa-flow.png)
+![&#x200B; Stroom van het Doel &#x200B;](/help/main/c-experiences/assets/atjs-spa-flow.png)
 
 | Stap | Beschrijving |
 | --- | --- |
@@ -335,14 +335,14 @@ Ja, in.js 2.x wordt A4T voor SPA ondersteund via de functie `triggerView()` , aa
 
 | Type activiteit | Ondersteund? |
 | --- | --- |
-| [ Test A/B ](/help/main/c-activities/t-test-ab/test-ab.md) | Ja |
-| [ Aanbevelingen als aanbieding ](/help/main/c-recommendations/recommendations-as-an-offer.md)<br> in de Test van A/B en Ervaring die (XT) activiteiten richten | Ja |
-| [ automatisch-toewijst ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Ja |
-| [ Ervaring richtend ](/help/main/c-activities/t-experience-target/experience-target.md) | Ja |
-| [ Multivariate Test ](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Nee |
-| [ auto-Doel ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Nee |
-| [ Automated Personalization ](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Nee |
-| [ Aanbevelingen ](/help/main/c-recommendations/recommendations.md) | Nee |
+| [&#x200B; Test A/B &#x200B;](/help/main/c-activities/t-test-ab/test-ab.md) | Ja |
+| [&#x200B; Aanbevelingen als aanbieding &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md)<br> in de Test van A/B en Ervaring die (XT) activiteiten richten | Ja |
+| [&#x200B; automatisch-toewijst &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Ja |
+| [&#x200B; Ervaring richtend &#x200B;](/help/main/c-activities/t-experience-target/experience-target.md) | Ja |
+| [&#x200B; Multivariate Test &#x200B;](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Nee |
+| [&#x200B; auto-Doel &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Nee |
+| [&#x200B; Automated Personalization &#x200B;](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Nee |
+| [&#x200B; Aanbevelingen &#x200B;](/help/main/c-recommendations/recommendations.md) | Nee |
 
 **als wij bij.js 2.x installeerden en `triggerView()` op onze plaatsen ten uitvoer legden, hoe wij auto-Doel A/B activiteiten in werking stellen omdat het KUUROORD VEC auto-Doel niet steunt?**
 
@@ -352,22 +352,22 @@ Als u Auto-Doel A/B activiteiten wilt gebruiken, kunt u al uw acties bewegen die
 
 | Integratie | Ondersteund? |
 | --- | --- |
-| [ Analytics voor Doel (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | Ja |
-| [ publiek van Experience Cloud ](/help/main/c-integrating-target-with-mac/mmp.md) | Ja |
-| [ Attributen van de Klant ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=nl-NL){target=_blank} | Ja |
-| [ de Fragmenten van de Ervaring van AEM ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Ja |
+| [&#x200B; Analytics voor Doel (A4T) &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | Ja |
+| [&#x200B; publiek van Experience Cloud &#x200B;](/help/main/c-integrating-target-with-mac/mmp.md) | Ja |
+| [&#x200B; Attributen van de Klant &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=nl-NL){target=_blank} | Ja |
+| [&#x200B; de Fragmenten van de Ervaring van AEM &#x200B;](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Ja |
 
 ## Ondersteunde functies {#supported-features}
 
 | Functie | Ondersteund? |
 | --- | --- |
-| [ Werkruimten en Eigenschappen ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) | Ja |
-| [ Verbindingen QA ](/help/main/c-activities/c-activity-qa/activity-qa.md) | Ja |
-| [ Op vorm-gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) | Nee |
-| [ de Code van de Douane ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Ja |
-| [ opties VEC ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Alles |
-| [ klik-volgt ](/help/main/c-activities/r-success-metrics/click-tracking.md) | Ja |
-| [ multi-activity levering ](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) | Ja |
+| [&#x200B; Werkruimten en Eigenschappen &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) | Ja |
+| [&#x200B; Verbindingen QA &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa.md) | Ja |
+| [&#x200B; Op vorm-gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md) | Nee |
+| [&#x200B; de Code van de Douane &#x200B;](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Ja |
+| [&#x200B; opties VEC &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Alles |
+| [&#x200B; klik-volgt &#x200B;](/help/main/c-activities/r-success-metrics/click-tracking.md) | Ja |
+| [&#x200B; multi-activity levering &#x200B;](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) | Ja |
 
 ## De montages van de Levering van de pagina voor SPA VEC {#page-delivery-settings}
 
@@ -375,7 +375,7 @@ Met instellingen van [!UICONTROL Page Delivery] kunt u regels configureren om te
 
 Als u vanuit de [!UICONTROL Page Delivery] stap toegang wilt tot de **[!UICONTROL Experiences]** -opties vanuit de workflow voor het maken van activiteiten met instructies in drie delen van de VEC, klikt u op **[!UICONTROL Configure]** (het tandwielpictogram) > **[!UICONTROL Page Delivery]** .
 
-![ de optiesdialoogdoos van de Levering van de Pagina ](/help/main/c-experiences/assets/page-delivery.png)
+![&#x200B; de optiesdialoogdoos van de Levering van de Pagina &#x200B;](/help/main/c-experiences/assets/page-delivery.png)
 
 Bijvoorbeeld, zoals die door de [!UICONTROL Page Delivery] hierboven getoonde montages wordt bepaald, kwalificeert een activiteit van het Doel en voert uit wanneer een bezoeker direct op `https://www.adobe.com` *of* wanneer een bezoeker op om het even welke URL landt die `https://www.adobe.com/products` bevat. Dit werkt perfect voor elke toepassing met meerdere pagina&#39;s waarin elke interactie met de pagina een pagina opnieuw laadt, waarvoor at.js de activiteiten ophaalt die in aanmerking komen voor de URL waarnaar de gebruiker navigeert.
 
@@ -385,39 +385,39 @@ Nochtans, omdat SPAs verschillend werkt, moeten de [!UICONTROL Page Delivery] mo
 
 Overweeg dit voorbeeld use-case:
 
-![ het paneel van Wijzigingen van SPA VEC ](/help/main/c-experiences/assets/page-delivery-example.png)
+![&#x200B; het paneel van Wijzigingen van SPA VEC &#x200B;](/help/main/c-experiences/assets/page-delivery-example.png)
 
 De volgende wijzigingen zijn aangebracht:
 
-* Veranderde achtergrondkleur in de mening van het Huis, die onder URL wordt gevestigd: [ https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/ ](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/).
-* Veranderde knoopkleur in de mening van Producten, die onder URL wordt gevestigd: [ https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products ](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products).
+* Veranderde achtergrondkleur in de mening van het Huis, die onder URL wordt gevestigd: [&#x200B; https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/ &#x200B;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/).
+* Veranderde knoopkleur in de mening van Producten, die onder URL wordt gevestigd: [&#x200B; https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products &#x200B;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products).
 
-Met het voorbeeld hierboven in mening, wat zou gebeuren wanneer wij [!UICONTROL Page Delivery] montages vormen om slechts te omvatten: [ https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/ ](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/) in een KUUROORD met at.js 2.*x*?
+Met het voorbeeld hierboven in mening, wat zou gebeuren wanneer wij [!UICONTROL Page Delivery] montages vormen om slechts te omvatten: [&#x200B; https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/ &#x200B;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/) in een KUUROORD met at.js 2.*x*?
 
-![ de dialoogdoos van de Levering van de Pagina ](/help/main/c-experiences/assets/spa-page-delivery.png)
+![&#x200B; de dialoogdoos van de Levering van de Pagina &#x200B;](/help/main/c-experiences/assets/spa-page-delivery.png)
 
 In de volgende afbeelding ziet u de aanvraag voor het laden van de doelstroom - pagina in at.js 2.*x*:
 
-![ Stroom van het Doel - bij.js 2.0 het Verzoek van de Lading van de Pagina ](/help/main/c-experiences/assets/page-load-request.png)
+![&#x200B; Stroom van het Doel - bij.js 2.0 het Verzoek van de Lading van de Pagina &#x200B;](/help/main/c-experiences/assets/page-load-request.png)
 
 **Reis van de Gebruiker #1**
 
-* Een gebruiker navigeert direct aan [ https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/ ](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/).
-* te.js 2.*x* maakt een vraag aan Edge om te zien of moet om het even welke activiteit voor URL uitvoeren: [ https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/ ](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/).
+* Een gebruiker navigeert direct aan [&#x200B; https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/ &#x200B;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/).
+* te.js 2.*x* maakt een vraag aan Edge om te zien of moet om het even welke activiteit voor URL uitvoeren: [&#x200B; https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/ &#x200B;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/).
 * In stap 6, keert het Doel Edge de acties voor de mening van het Huis en van Producten terug zodat zij binnen browser in het voorgeheugen ondergebracht zijn.
 
-**Resultaat**: De gebruiker ziet de groene achtergrondkleur in de mening van het Huis. Wanneer de gebruiker dan aan [ https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products ](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products) navigeert, wordt de blauwe achtergrondkleur van de knoop gezien omdat de actie in browser onder de mening van Producten in het voorgeheugen onder wordt gebracht.
+**Resultaat**: De gebruiker ziet de groene achtergrondkleur in de mening van het Huis. Wanneer de gebruiker dan aan [&#x200B; https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products &#x200B;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products) navigeert, wordt de blauwe achtergrondkleur van de knoop gezien omdat de actie in browser onder de mening van Producten in het voorgeheugen onder wordt gebracht.
 
-Nota: De gebruiker die aan [ https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products ](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products) navigeert bracht geen paginading teweeg.
+Nota: De gebruiker die aan [&#x200B; https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products &#x200B;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products) navigeert bracht geen paginading teweeg.
 
 **Reis van de Gebruiker #2**
 
-* Een gebruiker navigeert direct aan [ https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products ](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products).
-* te.js 2.*x* maakt een vraag aan Edge om te zien of moet om het even welke activiteit voor URL uitvoeren: [ https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products ](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products).
-* Er zijn geen activiteiten die voor [ https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products ](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products) worden gekwalificeerd.
+* Een gebruiker navigeert direct aan [&#x200B; https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products &#x200B;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products).
+* te.js 2.*x* maakt een vraag aan Edge om te zien of moet om het even welke activiteit voor URL uitvoeren: [&#x200B; https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products &#x200B;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products).
+* Er zijn geen activiteiten die voor [&#x200B; https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products &#x200B;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products) worden gekwalificeerd.
 * Omdat er geen activiteiten gekwalificeerd zijn, zijn er geen acties en meningen om voor at.js 2 worden in het voorgeheugen onder te brengen.*x* aan trekker van.
 
-**Resultaat**: Zelfs als u `triggerView()` voor de Mening van Producten hebt bepaald en een actie aan de Mening van Producten door het KUUROORD VEC gemaakt, zult u niet de verwachte actie zien aangezien u geen regel creeerde die [ https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products ](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products) in de montages van de Levering van de Pagina omvatte.
+**Resultaat**: Zelfs als u `triggerView()` voor de Mening van Producten hebt bepaald en een actie aan de Mening van Producten door het KUUROORD VEC gemaakt, zult u niet de verwachte actie zien aangezien u geen regel creeerde die [&#x200B; https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products &#x200B;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=nl-NL#/products) in de montages van de Levering van de Pagina omvatte.
 
 ### Beste praktijken
 
@@ -425,13 +425,13 @@ U kunt zien dat het beheren van de gebruikersreis vrij moeilijk kan zijn aangezi
 
 Als u bijvoorbeeld het bovenstaande probleem wilt verhelpen, kunnen we de basis-URL opgeven in de instellingen voor het leveren van pagina&#39;s als zodanig:
 
-![ de dialoogdoos van de Levering van de Pagina ](/help/main/c-experiences/assets/conclusion.png)
+![&#x200B; de dialoogdoos van de Levering van de Pagina &#x200B;](/help/main/c-experiences/assets/conclusion.png)
 
 Dit zorgt ervoor dat wanneer een bezoeker op het KUUROORD landt en naar of het Huis of de Mening van de Pagina navigeert de toegepaste acties zullen zien.
 
 Nu, wanneer u een actie aan een Mening in het KUUROORD VEC toevoegt, zullen wij u het volgende pop-up bericht tonen om u eraan te herinneren om over de [!UICONTROL Page Delivery] regels te denken.
 
-![ het bericht van de Montages van de Levering van de Pagina ](/help/main/c-experiences/assets/pop-up-message.png)
+![&#x200B; het bericht van de Montages van de Levering van de Pagina &#x200B;](/help/main/c-experiences/assets/pop-up-message.png)
 
 Dit bericht wordt weergegeven wanneer u de eerste actie toevoegt aan een Weergave voor elke nieuwe activiteit die u maakt. Dit bericht helpt ervoor te zorgen dat iedereen in uw organisatie leert hoe te om deze [!UICONTROL Page Delivery] regels correct toe te passen.
 
@@ -439,4 +439,4 @@ Dit bericht wordt weergegeven wanneer u de eerste actie toevoegt aan een Weergav
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-Zie [ Gebruikend de Visuele Composer van de Ervaring voor Enige Toepassing van de Pagina (SPA VEC) in Adobe Target ](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) voor meer informatie.
+Zie [&#x200B; Gebruikend de Visuele Composer van de Ervaring voor Enige Toepassing van de Pagina (SPA VEC) in Adobe Target &#x200B;](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) voor meer informatie.

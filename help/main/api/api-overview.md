@@ -16,14 +16,14 @@ ht-degree: 0%
 
 Voordat u [!DNL Adobe Target] gaat gebruiken, moet u deze op uw site implementeren.
 
-De [ Gids van de Ontwikkelaar van Adobe Target ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=nl-NL){target=_blank} bevat informatie u moet weten alvorens u [!DNL Target] uitvoert.
+De [&#x200B; Gids van de Ontwikkelaar van Adobe Target &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=nl-NL){target=_blank} bevat informatie u moet weten alvorens u [!DNL Target] uitvoert.
 
 Het Developer-portaal bevat informatie over de volgende implementatietypen:
 
 * Client-kant, inclusief informatie over implementatie met behulp van [!DNL Adobe Experience Platform Web SDK] of [!DNL Target Web SDK] (at.js).
 * Server-kant, met inbegrip van informatie over het uitvoeren over het gebruiken van Node.JS, JAVA, .NET, en Python SDKs.
 * Hybride, informatie om u te helpen uitvoeren als u een combinatie cliënt-kant en server-zijimplementaties gebruikt.
-* Aanbevelingen, informatie om u te helpen [!DNL Recommendations] uitvoeren, het aanbieden van a [ Target Premium ](/help/main/c-intro/intro.md#premium).
+* Aanbevelingen, informatie om u te helpen [!DNL Recommendations] uitvoeren, het aanbieden van a [&#x200B; Target Premium &#x200B;](/help/main/c-intro/intro.md#premium).
 * Mobiele apps.
 * E-mail.
 
@@ -33,4 +33,4 @@ Het Developer-portaal bevat informatie over de volgende implementatietypen:
 * API&#39;s rapporteren.
 * Aanbeveling-API&#39;s.
 
-Voor meer informatie, zie [ Doel API Overzicht ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html?lang=nl-NL){target=_blank} in de [ Gids van de Ontwikkelaar van Adobe Target ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=nl-NL){target=_blank}.
+Voor meer informatie, zie [&#x200B; Doel API Overzicht &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html?lang=nl-NL){target=_blank} in de [&#x200B; Gids van de Ontwikkelaar van Adobe Target &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=nl-NL){target=_blank}.

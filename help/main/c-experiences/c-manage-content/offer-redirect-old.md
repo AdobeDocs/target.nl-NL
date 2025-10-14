@@ -19,13 +19,13 @@ U hebt misschien twee volledig verschillende pagina&#39;s om te testen in plaats
 
 >[!NOTE]
 >
-> * Omleiden aanbiedingen kunnen op [!UICONTROL Offers] > [!UICONTROL Code Offers] pagina of in [ op Forms-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) worden gecreeerd. U kunt geen omleidingsaanbiedingen in Visual Experience Composer (VEC) tot stand brengen of toepassen. Inhoud wordt ingespoten op de aanvraaglocaties van [!DNL Target] , zodat deze niet geschikt zijn voor een algemene [!DNL Target] -aanvraag.
+> * Omleiden aanbiedingen kunnen op [!UICONTROL Offers] > [!UICONTROL Code Offers] pagina of in [&#x200B; op Forms-Gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md) worden gecreeerd. U kunt geen omleidingsaanbiedingen in Visual Experience Composer (VEC) tot stand brengen of toepassen. Inhoud wordt ingespoten op de aanvraaglocaties van [!DNL Target] , zodat deze niet geschikt zijn voor een algemene [!DNL Target] -aanvraag.
 >
 >* Je kunt geen omleidingsvoorstellen gebruiken in ajax-vakken (`mboxUpdate`).
 >
->* Voor omleidingsaanbiedingen in activiteiten die A4T gebruiken, moet uw implementatie aan bepaalde minimumvereisten voldoen. Bovendien is er belangrijke informatie die u moet weten. Voor meer informatie, zie [ Aanbiedingen opnieuw richten - Veelgestelde vragen A4T ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+>* Voor omleidingsaanbiedingen in activiteiten die A4T gebruiken, moet uw implementatie aan bepaalde minimumvereisten voldoen. Bovendien is er belangrijke informatie die u moet weten. Voor meer informatie, zie [&#x200B; Aanbiedingen opnieuw richten - Veelgestelde vragen A4T &#x200B;](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 >
->* Voor informatie over vestiging een ervaring die opnieuw richt, zie [ opnieuw richten aan een URL ](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA).
+>* Voor informatie over vestiging een ervaring die opnieuw richt, zie [&#x200B; opnieuw richten aan een URL &#x200B;](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA).
 
 De omleidingsaanbieding voert de code van JavaScript uit om browser om te leiden. De methode `window.location.replace();` wordt gebruikt, zodat de pagina waarvan de bezoeker is omgeleid, niet in de browsergeschiedenis wordt opgeslagen. Hierdoor kan de bezoeker de knop Terug in zijn browser nog steeds gebruiken.
 
@@ -37,11 +37,11 @@ De omleidingsaanbieding voert de code van JavaScript uit om browser om te leiden
 
 1. Klik op **[!UICONTROL Offers]** en selecteer vervolgens het tabblad **[!UICONTROL Code Offers]**.
 
-   ![ de Aanbiedingen van de Code tabel ](/help/main/c-experiences/c-manage-content/assets/offers-code-offers.png)
+   ![&#x200B; de Aanbiedingen van de Code tabel &#x200B;](/help/main/c-experiences/c-manage-content/assets/offers-code-offers.png)
 
 1. Klik op **[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]** .
 
-   ![ creeer Redirect de dialoogdoos van de Aanbieding ](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
+   ![&#x200B; creeer Redirect de dialoogdoos van de Aanbieding &#x200B;](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
 
 1. Geef een beschrijvende naam op voor de aanbieding.
 
@@ -71,17 +71,17 @@ De omleidingsaanbieding voert de code van JavaScript uit om browser om te leiden
 
 ## Een omleidingsvoorstel maken met de Form-Based Experience Composer
 
-1. Terwijl het creëren van een activiteit die [ op vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) gebruikt, selecteer de plaats om de **[!UICONTROL Content]** sectie te tonen.
+1. Terwijl het creëren van een activiteit die [&#x200B; op vorm-Gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md) gebruikt, selecteer de plaats om de **[!UICONTROL Content]** sectie te tonen.
 
-   ![ sectie van de Inhoud in vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
+   ![&#x200B; sectie van de Inhoud in vorm-Gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
 
 1. Klik op de vervolgkeuzelijst **[!UICONTROL Default Content]** en klik vervolgens op **[!UICONTROL Change Redirect Offer]** .
 
-   ![ Redirect de optie van de Aanbieding van de Verandering ](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option.png)
+   ![&#x200B; Redirect de optie van de Aanbieding van de Verandering &#x200B;](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option.png)
 
 1. Klik op **[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]** .
 
-   ![ creeer Redirect de dialoogdoos van de Aanbieding ](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
+   ![&#x200B; creeer Redirect de dialoogdoos van de Aanbieding &#x200B;](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
 
 1. Geef een beschrijvende naam op voor de aanbieding.
 
@@ -117,19 +117,19 @@ U moet omleidingsvoorstellen toepassen gebruikend [!UICONTROL Form-Based Experie
 
 1. Maak of bewerk een activiteit in de [!UICONTROL Form-Based Experience Composer] .
 
-   Zie [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) voor gedetailleerde geleidelijke instructies.
+   Zie [&#x200B; vorm-Gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md) voor gedetailleerde geleidelijke instructies.
 
 1. Geef de gewenste locatie op en voeg desgewenst verfijningen voor de doelgroep toe.
 
 1. Klik op de vervolgkeuzelijst in de sectie **[!UICONTROL Content]** en klik vervolgens op **[!UICONTROL Change Redirect Offer]** .
 
-   ![ Redirect de optie van de Aanbieding van de Verandering ](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option2.png)
+   ![&#x200B; Redirect de optie van de Aanbieding van de Verandering &#x200B;](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option2.png)
 
 1. Selecteer het gewenste omleidingsaanbod in het dialoogvenster [!UICONTROL Select Remote Offer] en klik op **[!UICONTROL Done]** .
 
 1. Voltooi de configuratie van de activiteit.
 
-## De video van de opleiding: Op vorm-Gebaseerde Composer ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: Op vorm-Gebaseerde Composer ![&#x200B; badge van het Leerprogramma &#x200B;](/help/main/assets/tutorial.png)
 
 Deze video bevat een demo van de op formulieren gebaseerde composer, waarmee u omleidingsaanbiedingen kunt maken.
 

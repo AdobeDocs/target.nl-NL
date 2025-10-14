@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Een elementkiezer is een CSS-expressie waarmee een of meer elementen kunnen worden geïdentificeerd.
 
-U kunt basisinformatie over CSS selecteurs in het [ document van de Kiezers ](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) op *[!DNL Mozilla Developer Network]* (MDN) vinden.
+U kunt basisinformatie over CSS selecteurs in het [&#x200B; document van de Kiezers &#x200B;](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) op *[!DNL Mozilla Developer Network]* (MDN) vinden.
 
 U kunt instellen of u in uw accountvoorkeuren een elementklasse- of element-id wilt gebruiken. Klik op **[!UICONTROL Administration > Visual Experience Composer]** en kies de gewenste CSS-kiezers.
 
@@ -73,7 +73,7 @@ Voor informatie over wanneer om CSS selecteurs te gebruiken en wanneer om unieke
 
    Selector: `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (&quot; > &quot; geeft het directe onderliggende item aan.)
 
-   `eq` vertelt de index dat er een element is met &quot;tagName=UL&quot; en de eerste klasse is `navigation` . Daarom is `index` 0. Zie het [ artikel van Kiezers ](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) in MDN voor meer informatie.
+   `eq` vertelt de index dat er een element is met &quot;tagName=UL&quot; en de eerste klasse is `navigation` . Daarom is `index` 0. Zie het [&#x200B; artikel van Kiezers &#x200B;](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) in MDN voor meer informatie.
 
 1. Als een element geen klasse bevat, gebruikt [!DNL Target] `tagName` voor het element en doorloopt het bovenliggende element totdat het element `<HTML>` of een element met een id is gevonden.
 

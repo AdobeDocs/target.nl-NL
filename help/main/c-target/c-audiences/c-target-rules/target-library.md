@@ -15,13 +15,13 @@ ht-degree: 0%
 
 Gebruik [!DNL Adobe Target] om gebruikers als doel in te stellen op basis van vooraf gebouwde doelregels.
 
-Het vooraf gebouwde publiek in de categorie [!UICONTROL Target Library] is verouderd publiek en bestaat in andere categorieën. Voor meer informatie en beste praktijken, zie [ Doelstellingen en publiek vaak gestelde vragen ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
+Het vooraf gebouwde publiek in de categorie [!UICONTROL Target Library] is verouderd publiek en bestaat in andere categorieën. Voor meer informatie en beste praktijken, zie [&#x200B; Doelstellingen en publiek vaak gestelde vragen &#x200B;](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
 1. Klik in de interface [!DNL Target] op **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]** .
 1. Geef een naam op voor het publiek en voeg een optionele beschrijving toe.
 1. Sleep **[!UICONTROL Target Library]** naar het deelvenster van de publieksbuilder.
 
-   ![ Bibliotheek van het Doel ](assets/target_library.png)
+   ![&#x200B; Bibliotheek van het Doel &#x200B;](assets/target_library.png)
 
 1. Klik op **[!UICONTROL Select]** en selecteer vervolgens een vooraf gebouwde doelregel.
 

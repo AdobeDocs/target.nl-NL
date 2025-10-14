@@ -19,7 +19,7 @@ Als u een oudere versie van at.js gebruikt, moet u een [!DNL Analytics] tracking
 >
 >U hoeft tijdens het maken van activiteiten geen trackingserver op te geven als u at.js versie 0.9.1 (of hoger) gebruikt. De bibliotheek at.js verzendt automatisch de waarden van de volgende server naar [!DNL Target]. Tijdens het maken van activiteiten kunt u het veld [!UICONTROL Tracking Server] leeg laten op de pagina [!UICONTROL Goals & Settings] .
 >
->Het team van [!DNL Target] ondersteunt beide at.js 1.*x* en at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie, zie [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank}.
+>Het team van [!DNL Target] ondersteunt beide at.js 1.*x* en at.js 2.*x*. Voer een upgrade uit naar de meest recente update van een van de belangrijkste versies van at.js om ervoor te zorgen dat u een ondersteunde versie uitvoert. Voor meer informatie, zie [&#x200B; at.js versiedetails &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank}.
 
 Om ervoor te zorgen dat gegevens van [!DNL Target] naar de correcte plaats in [!DNL Analytics] gaan, vereist A4T dat een [!DNL Analytics] volgende server in alle vraag van [!DNL Target] naar Modstats wordt verzonden. Voor implementaties die meerdere trackingservers gebruiken, gebruikt u [!DNL Adobe Experience Platform Debugger] of de Developer Tools van uw browser om de juiste trackingserver voor uw activiteit te bepalen.
 
@@ -29,11 +29,11 @@ Foutopsporing zou op een pagina moeten worden bekeken waar de activiteit wordt g
 
 1. Open [!DNL Adobe Experience Platform Debugger] vanaf de pagina waarop u uw activiteit maakt.
 
-   Als u debugger niet hebt geïnstalleerd, zie [ overzicht van Adobe Experience Platform Debugger ](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=nl-NL).
+   Als u debugger niet hebt geïnstalleerd, zie [&#x200B; overzicht van Adobe Experience Platform Debugger &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=nl-NL).
 
 1. Klik op **[!UICONTROL Analytics]** in het navigatiemenu links.
 
-   ![ Screen_DebuggerTrackServ beeld ](assets/Screen_DebuggerTrackServ.png)
+   ![&#x200B; Screen_DebuggerTrackServ beeld &#x200B;](assets/Screen_DebuggerTrackServ.png)
 
    De [!DNL Analytics] tracking-server bevindt zich in de [!UICONTROL Hostname] -sectie van het foutopsporingsprogramma.
 
@@ -55,13 +55,13 @@ De Developer Tools moet worden weergegeven op een pagina waarop de activiteit wo
 
 1. Open de Developer Tools van de browser op de pagina waarop u uw activiteit maakt (klik in Google Chrome op de drie verticale ellipsen in de rechterbovenhoek > Meer gereedschappen > Gereedschappen voor ontwikkelaars).
 
-   ![ de ontwikkelaarshulpmiddelen van Chrome ](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
+   ![&#x200B; de ontwikkelaarshulpmiddelen van Chrome &#x200B;](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
 
 1. Klik op de tab **[!UICONTROL Network]** .
 
 1. Filter voor `/ss,` om de [!DNL Analytics] -aanvragen weer te geven.
 
-   ![ de ontwikkelaarshulpmiddelen van Chrome met /ss onderzoek ](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
+   ![&#x200B; de ontwikkelaarshulpmiddelen van Chrome met /ss onderzoek &#x200B;](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
    De volgende server is hostname van het verzoek.
 

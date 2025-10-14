@@ -29,7 +29,7 @@ De schatter van het Verkeer verstrekt ook terugkoppelt die u laat weten of u vol
 
    De schatter van het Verkeer opent. U kunt nogmaals op het pictogram **[!UICONTROL Traffic]** klikken om de verkeersschatting te verbergen.
 
-   ![ schatmatorempty beeld ](assets/estimatorempty.png)
+   ![&#x200B; schatmatorempty beeld &#x200B;](assets/estimatorempty.png)
 
 1. Geef de gemiddelde conversiesnelheid, de geschatte bezoekers per dag en de testduur op.
 
@@ -42,7 +42,7 @@ De schatter van het Verkeer verstrekt ook terugkoppelt die u laat weten of u vol
 
    Boven aan de Verkeersschatting worden de ingevoerde waarden berekend en worden de resultaten weergegeven.
 
-   ![ schatten ontoereikende beeld ](assets/estimatorinsufficient.png)
+   ![&#x200B; schatten ontoereikende beeld &#x200B;](assets/estimatorinsufficient.png)
 
    Terwijl u de getallen wijzigt, verandert de schatting. Bijvoorbeeld, als u vele ervaringen test en uw omzettingspercentage en de beelden te laag zijn, toont de Schatter van het Verkeer hoe lang de test moet lopen om succesvol te zijn. Of, als uw verkeer laag is, zou de schatter van het Verkeer een lager aantal ervaringen kunnen voorstellen zodat kunt u de test het gewenste aantal dagen in werking stellen.
 
@@ -53,4 +53,4 @@ De schatter van het Verkeer verstrekt ook terugkoppelt die u laat weten of u vol
 
    Pas de aantallen aan tot de schatter van het Verkeer zegt u voldoende verkeer hebt, dan ontwerp dienovereenkomstig uw test.
 
-   ![ schatter beeld ](assets/estimatorok.png)
+   ![&#x200B; schatter beeld &#x200B;](assets/estimatorok.png)

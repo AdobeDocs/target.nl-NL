@@ -17,7 +17,7 @@ Gebruik externe aanbiedingen om inhoud te hosten buiten [!DNL Adobe Target] dat 
 
 >[!NOTE]
 >
->De verre aanbiedingen kunnen op [!UICONTROL Offers] > [!UICONTROL Code Offers] pagina of in [ op Forms-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) worden gecreeerd. U kunt geen verre aanbiedingen in de Visuele Composer van de Ervaring (VEC) tot stand brengen of toepassen. Inhoud wordt ingespoten op de aanvraaglocaties van [!DNL Target] , zodat deze niet geschikt zijn voor een algemene [!DNL Target] -aanvraag.
+>De verre aanbiedingen kunnen op [!UICONTROL Offers] > [!UICONTROL Code Offers] pagina of in [&#x200B; op Forms-Gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md) worden gecreeerd. U kunt geen verre aanbiedingen in de Visuele Composer van de Ervaring (VEC) tot stand brengen of toepassen. Inhoud wordt ingespoten op de aanvraaglocaties van [!DNL Target] , zodat deze niet geschikt zijn voor een algemene [!DNL Target] -aanvraag.
 >
 >[!DNL Target Classic] bevat vergelijkbare functies: [!UICONTROL Offer on Your Site] en [!UICONTROL Offer Outside Test&Target] .
 
@@ -42,17 +42,17 @@ Aanbevolen procedures voor het gebruik van externe aanbiedingen in uw activiteit
 
 * Als bij de test gegevens worden gebruikt die dynamisch door de server worden gegenereerd, is de optie [!UICONTROL Dynamic] mogelijk de juiste keuze.
 * Als u alleen de weergave van uw bestaande externe aanbiedingsinhoud wilt testen, gebruikt u [!UICONTROL Visual Experience Composer] om de weergave van de inhoud die wordt geretourneerd vanuit het inhoudsbeheersysteem te wijzigen.
-* Gebruik de [ Verre Matrijs van de Selectie van de Aanbieding ](#reference_B23BEDD29DDD47709A7651AFD27E776B) (hieronder) om u te helpen de aanbieding het best geschikt voor uw specifiek geval kiezen. Vraag uw accountvertegenwoordiger.
+* Gebruik de [&#x200B; Verre Matrijs van de Selectie van de Aanbieding &#x200B;](#reference_B23BEDD29DDD47709A7651AFD27E776B) (hieronder) om u te helpen de aanbieding het best geschikt voor uw specifiek geval kiezen. Vraag uw accountvertegenwoordiger.
 
 ## Een externe aanbieding maken op de pagina Codeaanbiedingen
 
 1. Klik op **[!UICONTROL Offers]** en selecteer vervolgens het tabblad **[!UICONTROL Code Offers]**.
 
-   ![ Aanbiedingen > de Aanbiedingen van de Code ](/help/main/c-experiences/c-manage-content/assets/offers-code-offers.png)
+   ![&#x200B; Aanbiedingen > de Aanbiedingen van de Code &#x200B;](/help/main/c-experiences/c-manage-content/assets/offers-code-offers.png)
 
 1. Klik op **[!UICONTROL Create]** > **[!UICONTROL Remote Offer]** .
 
-   ![ creeer Verre de dialoogdoos van de Aanbieding ](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui.png)
+   ![&#x200B; creeer Verre de dialoogdoos van de Aanbieding &#x200B;](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui.png)
 
 1. Geef een beschrijvende naam op voor de aanbieding.
 
@@ -60,7 +60,7 @@ Aanbevolen procedures voor het gebruik van externe aanbiedingen in uw activiteit
 
 1. Geef het type Redirect URL op.
 
-   Zie [ Redirect URL Type: In cache geplaatst of Dynamisch ](#url-type) hieronder voor meer informatie.
+   Zie [&#x200B; Redirect URL Type: In cache geplaatst of Dynamisch &#x200B;](#url-type) hieronder voor meer informatie.
 
 1. Geef de externe URL voor de externe aanbieding op.
 
@@ -68,17 +68,17 @@ Aanbevolen procedures voor het gebruik van externe aanbiedingen in uw activiteit
 
 ## Een externe aanbieding maken met de Form-Based Experience Composer
 
-1. Terwijl het creëren van een activiteit die [ op vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) gebruikt, selecteer de plaats om de **[!UICONTROL Content]** sectie te tonen.
+1. Terwijl het creëren van een activiteit die [&#x200B; op vorm-Gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md) gebruikt, selecteer de plaats om de **[!UICONTROL Content]** sectie te tonen.
 
-   ![ sectie van de Inhoud in vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
+   ![&#x200B; sectie van de Inhoud in vorm-Gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
 
 1. Klik op de vervolgkeuzelijst **[!UICONTROL Default Content]** en klik vervolgens op **[!UICONTROL Change Remote Offer]** .
 
-   ![ de Verre optie van de Aanbieding van de Verandering ](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
+   ![&#x200B; de Verre optie van de Aanbieding van de Verandering &#x200B;](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
 
 1. Klik op **[!UICONTROL Create]** > **[!UICONTROL Remote Offer]** .
 
-   ![ creeer Verre de dialoogdoos van de Aanbieding ](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui.png)
+   ![&#x200B; creeer Verre de dialoogdoos van de Aanbieding &#x200B;](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui.png)
 
 1. Geef een beschrijvende naam op voor de aanbieding.
 
@@ -86,7 +86,7 @@ Aanbevolen procedures voor het gebruik van externe aanbiedingen in uw activiteit
 
 1. Geef het type Redirect URL op.
 
-   Zie [ Redirect URL Type: In cache geplaatst of Dynamisch ](#url-type) hieronder voor meer informatie.
+   Zie [&#x200B; Redirect URL Type: In cache geplaatst of Dynamisch &#x200B;](#url-type) hieronder voor meer informatie.
 
 1. Geef de externe URL voor de externe aanbieding op.
 
@@ -122,13 +122,13 @@ U moet externe aanbiedingen toepassen met de [!UICONTROL Form-Based Experience C
 
 1. Maak of bewerk een activiteit in de [!UICONTROL Form-Based Experience Composer] .
 
-   Zie [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) voor gedetailleerde geleidelijke instructies.
+   Zie [&#x200B; vorm-Gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md) voor gedetailleerde geleidelijke instructies.
 
 1. Geef de gewenste locatie op en voeg desgewenst verfijningen voor de doelgroep toe.
 
 1. Klik op de vervolgkeuzelijst in de sectie **[!UICONTROL Content]** en klik vervolgens op **[!UICONTROL Change Remote Offer]** .
 
-   ![ de Verre optie van de Aanbieding van de Verandering ](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
+   ![&#x200B; de Verre optie van de Aanbieding van de Verandering &#x200B;](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
 
 1. Selecteer de gewenste aanbieding op afstand in het dialoogvenster [!UICONTROL Select Remote Offer] en klik op **[!UICONTROL Done]** .
 
@@ -140,7 +140,7 @@ Dynamische externe aanbiedingen gebruiken uw dynamische paginatechnologie om waa
 
 De aanbieding wordt uitgevoerd nadat u de pagina teruggeeft. Een onzichtbaar iframe verzamelt de gegevens, kopieert het uit het frame en voegt in op de pagina en laadt de doorgegeven waarden.
 
-![ remote_offer_howitworks_2 beeld ](assets/remote_offer_howitworks_2.jpeg)
+![&#x200B; remote_offer_howitworks_2 beeld &#x200B;](assets/remote_offer_howitworks_2.jpeg)
 
 ## Selectiematrix voor externe aanbiedingen {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 
@@ -156,7 +156,7 @@ Met de selectiematrix voor externe aanbiedingen kunt u bepalen welk type externe
 | Aanbiedings-URL | Absoluut of Relatief | Relatief |
 | De computer aanvragen | Adobe-servers | De computer van de bezoeker, die de cookies van de bezoeker draagt |
 
-## De video van de opleiding: Op vorm-Gebaseerde Composer ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: Op vorm-Gebaseerde Composer ![&#x200B; badge van het Leerprogramma &#x200B;](/help/main/assets/tutorial.png)
 
 Deze video bevat een demo van de op formulieren gebaseerde composer, waarmee u externe aanbiedingen kunt maken.
 

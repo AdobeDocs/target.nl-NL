@@ -15,13 +15,13 @@ ht-degree: 0%
 
 De activiteit-URL bepaalt de pagina die in [!UICONTROL Multivariate Test] (MVT) wordt gebruikt, en die opent wanneer de test in [!DNL Adobe Target] wordt ontworpen.
 
-1. Wanneer ertoe aangezet tijdens [ activiteitenverwezenlijking ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md), specificeer de activiteit URL. Typ de volledige URL (inclusief `https://`) en klik vervolgens op **[!UICONTROL Create]** .
+1. Wanneer ertoe aangezet tijdens [&#x200B; activiteitenverwezenlijking &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md), specificeer de activiteit URL. Typ de volledige URL (inclusief `https://`) en klik vervolgens op **[!UICONTROL Create]** .
 
    >[!NOTE]
    >
    >[!DNL Target] maakt geen onderscheid tussen URL-protocollen ( [!DNL https] en [!DNL http] ). Hierdoor komen [!DNL `https://www.adobe.com`] en [!DNL `http://www.adobe.com`] beide overeen.
 
-   Door gebrek, opent [!UICONTROL Visual Experience Composer] (VEC) de pagina die in uw [ Visuele montages van Composer van de Ervaring wordt gespecificeerd ](/help/main/administrating-target/visual-experience-composer-set-up.md). U kunt een andere pagina opgeven tijdens het maken van activiteiten.
+   Door gebrek, opent [!UICONTROL Visual Experience Composer] (VEC) de pagina die in uw [&#x200B; Visuele montages van Composer van de Ervaring wordt gespecificeerd &#x200B;](/help/main/administrating-target/visual-experience-composer-set-up.md). U kunt een andere pagina opgeven tijdens het maken van activiteiten.
 
 1. (Voorwaardelijk) Als u een andere pagina wilt weergeven nadat de VEC is geopend, klikt u op het pictogram **[!UICONTROL Configure]** en selecteert u **[!UICONTROL Page Delivery]** . Geef vervolgens de URL op.
 

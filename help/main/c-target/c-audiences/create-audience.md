@@ -27,7 +27,7 @@ U kunt beide Booleaanse operatoren vermengen om complexe regels te maken. Operat
 
 Bijvoorbeeld, richt de volgende regel bezoekers die of [!DNL Chrome] *of* [!DNL Firefox] op een [!DNL Windows] computer gebruiken:
 
-![ creeer publiek ](assets/audience_create.png)
+![&#x200B; creeer publiek &#x200B;](assets/audience_create.png)
 
 >[!NOTE]
 >
@@ -37,13 +37,13 @@ Bijvoorbeeld, richt de volgende regel bezoekers die of [!DNL Chrome] *of* [!DNL 
 
 1. Klik op **[!UICONTROL Audiences]** in de bovenste menubalk.
 
-   ![ publiek_list beeld ](assets/audiences_list.png)
+   ![&#x200B; publiek_list beeld &#x200B;](assets/audiences_list.png)
 
 1. Klik in de lijst [!UICONTROL Audiences] op **[!UICONTROL Create Audience]** .
 
    of
 
-   Om een bestaand publiek, van de [!UICONTROL Audiences] lijst te kopiëren, klik het **[!UICONTROL More Actions]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallListVert.svg)) voor het publiek dat u wilt kopiëren, dan klikken **[!UICONTROL Duplicate]**. Vervolgens kunt u het publiek bewerken om een vergelijkbaar publiek te maken.
+   Om een bestaand publiek, van de [!UICONTROL Audiences] lijst te kopiëren, klik het **[!UICONTROL More Actions]** pictogram ( ![&#x200B; Meer pictogram van Acties &#x200B;](/help/main/assets/icons/MoreSmallListVert.svg)) voor het publiek dat u wilt kopiëren, dan klikken **[!UICONTROL Duplicate]**. Vervolgens kunt u het publiek bewerken om een vergelijkbaar publiek te maken.
 
 1. Typ een unieke, beschrijvende publieksnaam en een optionele beschrijving.
 
@@ -57,15 +57,15 @@ Bijvoorbeeld, richt de volgende regel bezoekers die of [!DNL Chrome] *of* [!DNL 
 
 1. Sleep de gewenste kenmerken uit de lijst **[!UICONTROL Attributes]** aan de linkerkant naar het deelvenster van de publieksbuilder.
 
-   ![ belemmering en dalingsattributen ](assets/drag-attribute.png)
+   ![&#x200B; belemmering en dalingsattributen &#x200B;](assets/drag-attribute.png)
 
-   Elk regeltype heeft zijn eigen parameters. Zie [ Categorieën voor Soorten publiek ](/help/main/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) voor meer informatie bij het vormen van elk type van publieksregel.
+   Elk regeltype heeft zijn eigen parameters. Zie [&#x200B; Categorieën voor Soorten publiek &#x200B;](/help/main/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) voor meer informatie bij het vormen van elk type van publieksregel.
 
 1. Definieer de regelparameters.
 
    Het volgende publiek richt zich bijvoorbeeld op bezoekers van Utah via het besturingssysteem [!DNL Macintosh] .
 
-   ![ Utah/Macintosh publiek ](assets/adience-builder.png)
+   ![&#x200B; Utah/Macintosh publiek &#x200B;](assets/adience-builder.png)
 
 1. (Voorwaardelijk) Ga verder met het toevoegen en definiëren van de gewenste kenmerken.
 
@@ -75,7 +75,7 @@ Bijvoorbeeld, richt de volgende regel bezoekers die of [!DNL Chrome] *of* [!DNL 
 
    Nieuw gemaakt publiek wordt na een paar seconden verwerkingstijd in de lijst weergegeven. Als het publiek niet direct in de lijst wordt weergegeven, probeert u naar het publiek te zoeken of vernieuwt u de lijst.
 
-## De video van de opleiding: Creërend publiek ![ badge van het Overzicht ](/help/main/assets/overview.png)
+## De video van de opleiding: Creërend publiek ![&#x200B; badge van het Overzicht &#x200B;](/help/main/assets/overview.png)
 
 Deze video bevat informatie over het maken van soorten publiek.
 

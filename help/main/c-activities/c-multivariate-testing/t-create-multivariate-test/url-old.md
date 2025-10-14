@@ -15,17 +15,17 @@ ht-degree: 0%
 
 De activiteit-URL bepaalt de pagina die in [!UICONTROL Multivariate Test] (MVT) wordt gebruikt, en die opent wanneer de test in [!DNL Adobe Target] wordt ontworpen.
 
-Wanneer ertoe aangezet tijdens [ activiteitenverwezenlijking ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md), specificeer de activiteit URL. Typ de volledige URL (inclusief `https://`) en klik vervolgens op **[!UICONTROL Next]** .
+Wanneer ertoe aangezet tijdens [&#x200B; activiteitenverwezenlijking &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md), specificeer de activiteit URL. Typ de volledige URL (inclusief `https://`) en klik vervolgens op **[!UICONTROL Next]** .
 
 >[!NOTE]
 >
 >[!DNL Target] maakt geen onderscheid tussen URL-protocollen ( [!DNL https] en [!DNL http] ). Hierdoor komen [!DNL `https://www.adobe.com`] en [!DNL `http://www.adobe.com`] beide overeen.
 
-Door gebrek, opent [!UICONTROL Visual Experience Composer] (VEC) de pagina die in uw [ Visuele montages van Composer van de Ervaring wordt gespecificeerd ](/help/main/administrating-target/visual-experience-composer-set-up.md). U kunt een andere pagina opgeven tijdens het maken van activiteiten.
+Door gebrek, opent [!UICONTROL Visual Experience Composer] (VEC) de pagina die in uw [&#x200B; Visuele montages van Composer van de Ervaring wordt gespecificeerd &#x200B;](/help/main/administrating-target/visual-experience-composer-set-up.md). U kunt een andere pagina opgeven tijdens het maken van activiteiten.
 
 Als u een andere pagina wilt weergeven nadat de VEC is geopend, klikt u op het pictogram **[!UICONTROL Configure]** en selecteert u **[!UICONTROL Page Delivery]** . Geef vervolgens de URL op.
 
-![ de dialoogdoos van de Levering van de Pagina ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/url-config.png)
+![&#x200B; de dialoogdoos van de Levering van de Pagina &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/url-config.png)
 
 Klik op **[!UICONTROL Add Template Rule]** om meer pagina&#39;s of secties aan de activiteit toe te voegen.
 

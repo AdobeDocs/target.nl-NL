@@ -22,7 +22,7 @@ Leer hoe u de meest gebruikte voorbeelden voor optimalisatie in [!DNL Adobe Jour
 
 Om de volgende gebruiksgevallen uit te voeren, hebt u het volgende nodig:
 
-* [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
+* [&#x200B; Adobe Journey Optimizer &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
 * Voor deze gebruiksgevallen is geen [!DNL Adobe Target] -licentie vereist. Deze gebruiksgevallen tonen aan hoe u bekende taken kunt uitvoeren in [!DNL Target] met [!DNL Journey Optimizer] , zodat u dezelfde resultaten kunt verkennen en bereiken met [!DNL Journey Optimizer] .
 
 ## Gebruik hoofdletters

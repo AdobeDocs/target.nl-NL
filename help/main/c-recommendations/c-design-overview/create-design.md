@@ -27,11 +27,11 @@ Houd rekening met de volgende informatie wanneer u met ontwerpen werkt:
 
 Deze illustratie toont het standaard 1 x 4 ontwerp:
 
-![ 1 x 4 standaardontwerp ](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
+![&#x200B; 1 x 4 standaardontwerp &#x200B;](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
 
 In deze afbeelding ziet u een aangepast ontwerp:
 
-![ Het ontwerp van de Douane ](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
+![&#x200B; Het ontwerp van de Douane &#x200B;](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
 
 U kunt een ontwerp maken tijdens het proces voor het maken van activiteiten vanuit [!UICONTROL Visual Experience Composer] (VEC) of vanuit de ontwerpbibliotheek buiten het maken van activiteiten. In de volgende secties wordt aangenomen dat u ontwerpen maakt vanuit de bibliotheek, maar dat de stappen op elkaar lijken.
 
@@ -44,7 +44,7 @@ U kunt een ontwerp tot stand brengen dat op een standaardontwerp wordt gebaseerd
 1. Klik op **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** om de [!UICONTROL Designs] -bibliotheek weer te geven.
 
 
-1. Klik het Meer pictogram van Acties ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallList.svg)) voor het ontwerp u wilt tot stand brengen, dan klik **[!UICONTROL Copy]**.
+1. Klik het Meer pictogram van Acties ( ![&#x200B; Meer pictogram van Acties &#x200B;](/help/main/assets/icons/MoreSmallList.svg)) voor het ontwerp u wilt tot stand brengen, dan klik **[!UICONTROL Copy]**.
 
    Het dialoogvenster [!UICONTROL Create Design] wordt weergegeven.
 
@@ -54,7 +54,7 @@ U kunt een ontwerp tot stand brengen dat op een standaardontwerp wordt gebaseerd
 
 1. (Voorwaardelijk) Bewerk het ontwerp **[!UICONTROL Code]** naar wens.
 
-   De ontwerpen van de aanbeveling gebruiken de open-source ontwerptaal van de Snelheid. De informatie over Snelheid kan in [ https://velocity.apache.org ](https://velocity.apache.org) worden gevonden en in [ past een ontwerp aan gebruikend Snelheid ](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
+   De ontwerpen van de aanbeveling gebruiken de open-source ontwerptaal van de Snelheid. De informatie over Snelheid kan in [&#x200B; https://velocity.apache.org &#x200B;](https://velocity.apache.org) worden gevonden en in [&#x200B; past een ontwerp aan gebruikend Snelheid &#x200B;](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
    Een ontwerp kan HTML of niet-HTML zijn. HTML-ontwerpen worden standaard voorzien van een tag `<div>` , zodat muisklik kan worden gevolgd in een webomgeving. Niet-HTML-ontwerpen zijn bedoeld voor omgevingen die geen webomgeving zijn waar klik-tracking niet mogelijk is. Sleep de schakeloptie [!UICONTROL HTML Design] naar de uitstand om niet-HTML-code te gebruiken.
 
@@ -70,7 +70,7 @@ U kunt een ontwerp tot stand brengen dat op een standaardontwerp wordt gebaseerd
 
 1. Klik op **[!UICONTROL Create Design]**.
 
-   Als u uw nieuw douaneontwerp op een bestaand ontwerp wilt baseren, klik het [!UICONTROL More Actions] pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallList.svg) ) voor het ontwerp u wilt creëren, dan klik [!UICONTROL Copy]. U kunt de kopie vervolgens bewerken om een nieuw aangepast ontwerp te maken.
+   Als u uw nieuw douaneontwerp op een bestaand ontwerp wilt baseren, klik het [!UICONTROL More Actions] pictogram ( ![&#x200B; Meer pictogram van Acties &#x200B;](/help/main/assets/icons/MoreSmallList.svg) ) voor het ontwerp u wilt creëren, dan klik [!UICONTROL Copy]. U kunt de kopie vervolgens bewerken om een nieuw aangepast ontwerp te maken.
 
 1. Voeg een **[!UICONTROL Name]** en een optionele voorvertoningsafbeelding toe.
 
@@ -84,7 +84,7 @@ U kunt een ontwerp tot stand brengen dat op een standaardontwerp wordt gebaseerd
 
 U kunt een standaardontwerp niet bewerken of kopiëren. U kunt alleen standaardontwerpen kopiëren.
 
-Klik het [!UICONTROL More Actions] pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallList.svg)) voor het ontwerp u wilt uitgeven of schrappen, dan het aangewezen pictogram klikken: [!UICONTROL Edit], [!UICONTROL Copy], of [!UICONTROL Delete].
+Klik het [!UICONTROL More Actions] pictogram ( ![&#x200B; Meer pictogram van Acties &#x200B;](/help/main/assets/icons/MoreSmallList.svg)) voor het ontwerp u wilt uitgeven of schrappen, dan het aangewezen pictogram klikken: [!UICONTROL Edit], [!UICONTROL Copy], of [!UICONTROL Delete].
 
 U kunt een bestaand ontwerp kopiëren om een dubbel ontwerp tot stand te brengen dat u dan kunt wijzigen. Met dit proces kunt u een vergelijkbaar ontwerp maken met minder moeite.
 
@@ -92,13 +92,13 @@ Houd er rekening mee dat ontwerpen beschikbaar zijn voor de gehele account. Zorg
 
 ## JSON-voorbeeld {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-Het volgende voorbeeld toont hoe de reacties JSON kunnen zijn teruggekeerd wanneer het vormen van een activiteit via de [ vorm-gebaseerde redacteur ](/help/main/c-experiences/form-experience-composer.md).
+Het volgende voorbeeld toont hoe de reacties JSON kunnen zijn teruggekeerd wanneer het vormen van een activiteit via de [&#x200B; vorm-gebaseerde redacteur &#x200B;](/help/main/c-experiences/form-experience-composer.md).
 
 1. Maak een ontwerp vanuit [!UICONTROL Design library] of vanuit de formuliergebaseerde workflow. Als u een ontwerp probeert te maken in de [!UICONTROL Visual Experience Composer] (VEC)-workflow, kunt u alleen een HTML-ontwerp maken dat in een `<div>` is opgenomen voor kliktraceringsdoeleinden.
 
 1. Zorg ervoor dat de optie &quot;HTML Design&quot; is uitgeschakeld:
 
-   ![ html_design_toggle beeld ](assets/html_design_toggle.png)
+   ![&#x200B; html_design_toggle beeld &#x200B;](assets/html_design_toggle.png)
 
 1. De volgende code is een voorbeeld van wat u in uw ontwerp kunt plakken:
 
@@ -163,7 +163,7 @@ Het volgende voorbeeld toont hoe de reacties JSON kunnen zijn teruggekeerd wanne
 
 Nadat het algoritme is uitgevoerd en u resultaten hebt, moet uw reactie er ongeveer als volgt uitzien:
 
-![ json_recommended beeld ](assets/json_recommendation.png){width="575px"}
+![&#x200B; json_recommended beeld &#x200B;](assets/json_recommendation.png){width="575px"}
 
 ## Extra tips en trucs voor JSON-objecten {#section_C305673C68944749969DB239E3221DC2}
 
@@ -313,7 +313,7 @@ U kunt ook aanvullende informatie in de reactie verzenden. Het volgende codedoss
     }  
 ```
 
-## De video van de opleiding: Creeer douaneontwerpen in Aanbevelingen (3 :20) ![ de badge van het Overzicht ](/help/main/assets/overview.png)
+## De video van de opleiding: Creeer douaneontwerpen in Aanbevelingen (3 :20) ![&#x200B; de badge van het Overzicht &#x200B;](/help/main/assets/overview.png)
 
 Deze video bevat de volgende informatie:
 

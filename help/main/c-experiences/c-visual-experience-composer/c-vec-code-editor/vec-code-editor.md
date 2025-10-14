@@ -15,13 +15,13 @@ ht-degree: 0%
 
 Informatie over de [!UICONTROL Modifications] pagina in [!DNL Adobe Target] waarmee u wijzigingen op de pagina kunt bekijken en aanvullende wijzigingen (CSS-kiezer, Mbox en Aangepaste code) kunt toevoegen.
 
-De [!UICONTROL Modifications] pagina toont alle veranderingen die aan uw pagina in Visuele Composer van de Ervaring (VEC) zijn aangebracht en laat u extra veranderingen aanbrengen door elk element op de pagina te klikken en [ een actie ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81) te selecteren. Elke wijziging die u aanbrengt, wordt weergegeven als een afzonderlijke actie of als een afzonderlijk element in de lijst van [!UICONTROL Modifications] . U kunt ook wijzigingen toevoegen, waaronder de volgende wijzigingstypen: CSS Selector, Mbox. en Aangepaste code.
+De [!UICONTROL Modifications] pagina toont alle veranderingen die aan uw pagina in Visuele Composer van de Ervaring (VEC) zijn aangebracht en laat u extra veranderingen aanbrengen door elk element op de pagina te klikken en [&#x200B; een actie &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81) te selecteren. Elke wijziging die u aanbrengt, wordt weergegeven als een afzonderlijke actie of als een afzonderlijk element in de lijst van [!UICONTROL Modifications] . U kunt ook wijzigingen toevoegen, waaronder de volgende wijzigingstypen: CSS Selector, Mbox. en Aangepaste code.
 
 ## Overzicht van wijzigingen {#section_EE27E7572AA74397BBDED563B2B3D509}
 
 Op de pagina [!UICONTROL Modifications] worden alle wijzigingen weergegeven die in de VEC op uw pagina zijn aangebracht. Elke wijziging die u aanbrengt, wordt weergegeven als een afzonderlijke actie of als een afzonderlijk element in de lijst van [!UICONTROL Modifications] .
 
-![ codeeditor_page_mods beeld ](assets/codeeditor_page_mods.png)
+![&#x200B; codeeditor_page_mods beeld &#x200B;](assets/codeeditor_page_mods.png)
 
 Gebruik de pagina van Wijzigingen om kleine veranderingen in selecteur aan te brengen die het Doel kiest wanneer u VEC gebruikt om te vormen hoe de inhoud wordt geleverd. U kunt de inhoud of een HTML-kenmerk wijzigen. U kunt de code ook bewerken om het equivalent van een HTML-aanbieding binnen een mbox te maken.
 
@@ -29,51 +29,51 @@ Met de pagina Wijzigingen kunt u:
 
 * Bekijk een handeling die in de visuele composer is uitgevoerd.
 
-  ![ codeeditor_viewchange beeld ](assets/codeeditor_viewchange.png)
+  ![&#x200B; codeeditor_viewchange beeld &#x200B;](assets/codeeditor_viewchange.png)
 
 * Bewerk een bestaande handeling. Houd de cursor boven de gewenste wijziging en klik op het pictogram **[!UICONTROL Edit]** .
 
-  ![ codeeditor_edit beeld ](assets/codeeditor_edit.png)
+  ![&#x200B; codeeditor_edit beeld &#x200B;](assets/codeeditor_edit.png)
 
   Breng de gewenste wijzigingen aan.
 
-  ![ codeeditor_changechange1 beeld ](assets/codeeditor_changechange1.png)
+  ![&#x200B; codeeditor_changechange1 beeld &#x200B;](assets/codeeditor_changechange1.png)
 
 * Een bestaande handeling verwijderen. Houd de cursor boven de gewenste wijziging en klik op het pictogram **[!UICONTROL Delete]** .
 
-  ![ codeditor_delete beeld ](assets/codeditor_delete.png)
+  ![&#x200B; codeditor_delete beeld &#x200B;](assets/codeditor_delete.png)
 
 * Voeg een nieuwe wijziging toe. Klik op **[!UICONTROL Add Modification]** of het pictogram + en geef de wijzigingen op zoals hieronder beschreven.
 
-  ![ codeeditor_new image ](assets/codeeditor_new.png)
+  ![&#x200B; codeeditor_new image &#x200B;](assets/codeeditor_new.png)
 
   Nadat één wijziging is gemaakt, wordt boven in het deelvenster Wijzigingen een pictogram + weergegeven in plaats van de knop Wijziging toevoegen onder in het deelvenster.
 
 * Koppel het deelvenster Wijzigingen verticaal langs de zijkant van de doelinterface of horizontaal onder aan het venster. Klik op het pictogram [!UICONTROL Dock] om te schakelen tussen de twee instellingen.
 
-  ![ codeditor_dock beeld ](assets/codeditor_dock.png)
+  ![&#x200B; codeditor_dock beeld &#x200B;](assets/codeditor_dock.png)
 
   In het volgende voorbeeld ziet u het deelvenster Wijzigingen dat aan de onderkant van het scherm is gekoppeld:
 
-  ![ codeeditor_dock_bottom image ](assets/codeeditor_dock_bottom.png)
+  ![&#x200B; codeeditor_dock_bottom image &#x200B;](assets/codeeditor_dock_bottom.png)
 
 ## Wijzigingen toevoegen {#section_C7ABCD5731A048CB8F90EDC31A32EDF9}
 
 1. Als u de pagina [!UICONTROL Modifications] voor een geselecteerde ervaring wilt weergeven, klikt u in de VEC op het pictogram **[!UICONTROL Modifications]** &lt;/>.
 
-   ![ codeeditor_icon_big beeld ](assets/codeeditor_icon_big.png)
+   ![&#x200B; codeeditor_icon_big beeld &#x200B;](assets/codeeditor_icon_big.png)
 
    >[!NOTE]
    >
-   >Als u het deelvenster Wijzigingen wilt openen in de Form-based Experience Composer, maakt of bewerkt u een HTML-aanbieding. Voor meer informatie, zie [ Op vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E).
+   >Als u het deelvenster Wijzigingen wilt openen in de Form-based Experience Composer, maakt of bewerkt u een HTML-aanbieding. Voor meer informatie, zie [&#x200B; Op vorm-Gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E).
 
    De pagina [!UICONTROL Modifications] wordt geopend, waarbij het scherm wordt gesplitst tussen de visuele modus aan de linkerkant en het deelvenster Wijzigingen aan de rechterkant. Klik op het pictogram [!UICONTROL Dock] om het deelvenster Wijzigingen verticaal langs de zijde van de doelinterface of horizontaal onder aan het venster te koppelen. U ziet dat de ervaring A in de volgende afbeelding geen eerdere wijzigingen heeft ondergaan.
 
-   ![ codeeditor_page beeld ](assets/codeeditor_page.png)
+   ![&#x200B; codeeditor_page beeld &#x200B;](assets/codeeditor_page.png)
 
    De ervaring B toont de vorige wijzigingen in het [!UICONTROL Modifications] paneel op het recht.
 
-   ![ codeeditor_page_mods beeld ](assets/codeeditor_page_mods.png)
+   ![&#x200B; codeeditor_page_mods beeld &#x200B;](assets/codeeditor_page_mods.png)
 
 1. Een wijziging toevoegen:
 
@@ -82,7 +82,7 @@ Met de pagina Wijzigingen kunt u:
 
    In het deelvenster Wijzigingen wordt het volgende weergegeven:
 
-   ![ codeeditor_page_mods_add beeld ](assets/codeeditor_page_mods_add.png)
+   ![&#x200B; codeeditor_page_mods_add beeld &#x200B;](assets/codeeditor_page_mods_add.png)
 
 1. Kies het gewenste type in de vervolgkeuzelijst **[!UICONTROL Modifications Type]** :
 
@@ -104,7 +104,7 @@ Kiezers voor volgende visuele handelingen zijn afhankelijk van de HTML-elementen
 
 Het deelvenster Aangepaste code wordt doorgaans gebruikt om JavaScript of CSS boven aan de pagina toe te voegen.
 
-![ codeeditor_custom beeld ](assets/codeeditor_custom.png)
+![&#x200B; codeeditor_custom beeld &#x200B;](assets/codeeditor_custom.png)
 
 Gebruik de tab **[!UICONTROL Custom Code]** om:
 
@@ -175,7 +175,7 @@ Gebruik de tab **[!UICONTROL Custom Code]** om:
 
 * Voeg Adobe Target Experience Templates toe voor gebruik in aangepaste code. De Malplaatjes van de Ervaring van het doel zijn vooraf gecodeerde steekproeven met configureerbare input die moeten worden gebruikt om gemeenschappelijke telleruse-cases uit te voeren. Deze ervaringssjablonen worden gratis aan ontwikkelaars en marketers aangeboden als uitgangspunt voor het uitvoeren van veelvoorkomende gebruiksgevallen, hetzij via de VEC of de Form-based Experience Composer. Gebruiksscenario&#39;s zijn onder andere lichtbakken, carrousels, aftellingen en meer.
 
-  Voor meer informatie, zie [ Malplaatjes van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652).
+  Voor meer informatie, zie [&#x200B; Malplaatjes van de Ervaring &#x200B;](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652).
 
 ## Aangepaste aanbevolen procedures voor code {#section_10DFFD9FB92A43C1BB444A45E0272B28}
 
@@ -221,7 +221,7 @@ Dit bericht geeft aan dat de structuur van de pagina is gewijzigd sinds de activ
 
 De ontbrekende kiezers zijn mogelijk bereikt in de modus Bladeren. We raden u aan elke ervaring te verwijderen en opnieuw te maken om ervoor te zorgen dat de inhoud er zo uitziet als u verwacht, zoals in het waarschuwingsbericht wordt aangegeven.
 
-![ code_editor_2 beeld ](assets/code_editor_2.png)
+![&#x200B; code_editor_2 beeld &#x200B;](assets/code_editor_2.png)
 
 ***wanneer ik een element schrapt, zie ik een waarschuwing me vertelt dat het schrappen van deze actie verdere acties kan beïnvloeden.&quot; Wat betekent dit?***
 

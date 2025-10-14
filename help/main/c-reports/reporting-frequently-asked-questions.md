@@ -29,7 +29,7 @@ Een bezoeker wordt opgenomen in het segment Nieuwe bezoekers als aan een van de 
 
 * Het is de eerste keer dat de bezoeker de site bezoekt.
 * Het is de eerste keer dat de bezoeker de site bezoekt sinds hij cookies wist.
-* Het is de eerste keer die van de bezoeker de plaats bezoekt aangezien het [ leven van het het profielleven van de Bezoeker ](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) is verlopen.
+* Het is de eerste keer die van de bezoeker de plaats bezoekt aangezien het [&#x200B; leven van het het profielleven van de Bezoeker &#x200B;](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) is verlopen.
 
 ### Bezoekers terugsturen
 
@@ -53,7 +53,7 @@ Neem bijvoorbeeld het volgende voorbeeld, waarbij u de hierboven vermelde voorwa
 
 Deze bezoeker wordt geteld als één enkele bezoeker in het totale aantal bezoekers van de activiteit, ook al wordt het geteld in zowel de segmenten Nieuwe Bezoekers als Terugkerende Bezoekers.
 
-**Voorbeeld 2**: De discrepanties tussen de tellingen voor Nieuwe Bezoekers en Terugkerende Bezoekers hangen ook van af hoe u de 2&rbrace; succesmetriek van de activiteit [ vormt.](/help/main/c-activities/r-success-metrics/success-metrics.md)
+**Voorbeeld 2**: De discrepanties tussen de tellingen voor Nieuwe Bezoekers en Terugkerende Bezoekers hangen ook van af hoe u de 2&rbrace; succesmetriek van de activiteit [&#x200B; vormt.](/help/main/c-activities/r-success-metrics/success-metrics.md)
 
 Bijvoorbeeld:
 
@@ -83,14 +83,14 @@ Er zijn een paar mogelijke redenen waarom gegevens ontbreken in activiteitenvers
 
 ### U hebt niet het correcte milieu geselecteerd in de montages van het rapport:
 
-Als de inhoud van een activiteit met succes aan gebruikers werd geleverd maar zijn rapport bevat geen gegevens, zorg ervoor dat u het correcte milieu ([ die gastheergroep ](/help/main/administrating-target/hosts.md)) in de montages van het rapport wordt geselecteerd hebt.
+Als de inhoud van een activiteit met succes aan gebruikers werd geleverd maar zijn rapport bevat geen gegevens, zorg ervoor dat u het correcte milieu ([&#x200B; die gastheergroep &#x200B;](/help/main/administrating-target/hosts.md)) in de montages van het rapport wordt geselecteerd hebt.
 
 Om het milieu voor het rapport van een activiteit te veranderen:
 
 1. Klik op **[!UICONTROL Activities]** , klik in de lijst op de gewenste activiteit en klik vervolgens op de tab **[!UICONTROL Reports]** .
 1. Klik op het tandwielpictogram om de rapportinstellingen te configureren.
 
-   ![ de dialoogdoos van Montages A/B ](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
+   ![&#x200B; de dialoogdoos van Montages A/B &#x200B;](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
 
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Environment]** de optie **[!UICONTROL Production]**.
 
@@ -98,7 +98,7 @@ Om het milieu voor het rapport van een activiteit te veranderen:
 
 1. Klik op **[!UICONTROL Save]**.
 
-Voor meer informatie over milieu&#39;s, zie [ Gastheren ](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+Voor meer informatie over milieu&#39;s, zie [&#x200B; Gastheren &#x200B;](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 ### U hebt geen verkeer dat aan de controleervaring wordt toegewezen
 
@@ -113,18 +113,18 @@ Als de inhoud van een activiteit met succes aan gebruikers werd geleverd maar zi
 
 >[!NOTE]
 >
->Voor meer informatie over hoe te om een [!UICONTROL Automated Personalization] (AP) activiteit bij te werken en de controleervaring in een ervaring te veranderen die verkeer ontvangt, zie [ de controle voor uw activiteit van Automated Personalization of Auto-Doel ](/help/main/c-activities/t-automated-personalization/experience-as-control.md) selecteren.
+>Voor meer informatie over hoe te om een [!UICONTROL Automated Personalization] (AP) activiteit bij te werken en de controleervaring in een ervaring te veranderen die verkeer ontvangt, zie [&#x200B; de controle voor uw activiteit van Automated Personalization of Auto-Doel &#x200B;](/help/main/c-activities/t-automated-personalization/experience-as-control.md) selecteren.
 
 
 ## Waarom is het verkeer verdeeld tussen mijn ervaringen ongelijk in mijn activiteit A/B of MVT? {#uneven}
 
 Bijvoorbeeld, plaatste ik de verkeersverdeling aan 50/50 of 25/25/25/25 maar ik zie een zeer verschillende verdeling tussen ervaringen in de rapportering. Er zijn verschillende oorzaken die kunnen worden verklaard door het feit dat een bezoeker in [!DNL Target] -rapporten een ongelijk aantal bezoekers telt:
 
-* Wanneer een [!DNL Target] -activiteit voor het eerst wordt gestart, kan de verkeersdistributie ongelijk zijn vanwege de architectuur van het randknooppunt die [!DNL Target] gebruikt om de levering van de ervaring te optimaliseren. De beste praktijk is een activiteit wat tijd te geven om meer gegevens te verzamelen en de distributie zal normaliseren. Voor meer informatie over [!DNL Adobe Target] architectuur en de knopen van Edge, zie [ hoe Adobe Target ](/help/main/c-intro/how-target-works.md) werkt.
+* Wanneer een [!DNL Target] -activiteit voor het eerst wordt gestart, kan de verkeersdistributie ongelijk zijn vanwege de architectuur van het randknooppunt die [!DNL Target] gebruikt om de levering van de ervaring te optimaliseren. De beste praktijk is een activiteit wat tijd te geven om meer gegevens te verzamelen en de distributie zal normaliseren. Voor meer informatie over [!DNL Adobe Target] architectuur en de knopen van Edge, zie [&#x200B; hoe Adobe Target &#x200B;](/help/main/c-intro/how-target-works.md) werkt.
 * Als u in [!DNL Target] of [!DNL Analytics] bent en u **[!UICONTROL Visits]** metrisch gebruikt, herinner me dat [!DNL Target] een op bezoekers-gebaseerd systeem is en de verkeersdistributie voor een test A/B of MVT wordt toegewezen op het bezoekersniveau. Als u dus de resultaten van de activiteit bekijkt met de **[!UICONTROL Visits]** -meting, kan de verkeersdistributie ongelijk lijken, omdat bepaalde bezoekers mogelijk meerdere bezoeken hebben. Bezoekers zijn de standaard die metrische gegevens normaliseren bij het evalueren van de prestaties van de activiteit.
 * De beste praktijk voor A/B- en MVT-tests is het gelijkmatig verdelen van het verkeer. Het wijzigen van de verkeersverdeling tussen ervaringen (bijvoorbeeld van 90/10 naar 50/50) tijdens een test kan leiden tot ongelijke ervaringen tussen bezoekers. De lagere verkeerservaring zou nooit &quot;inhalen.&quot;
 * Als u de bovenstaande beste praktijken volgt en de verkeerssplitsing niet in tijd normaliseert, zou u het volgende moeten controleren:
 
-   * Gebruikt u de nieuwste bibliotheek van at.js? Voor meer informatie over de huidige versie en de bijbehorende versiedetails, zie [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank}.
+   * Gebruikt u de nieuwste bibliotheek van at.js? Voor meer informatie over de huidige versie en de bijbehorende versiedetails, zie [&#x200B; at.js versiedetails &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank}.
 
-   * Is het een omleidingstest? Onjuiste timing van het afvuren van tags op de pagina kan leiden tot ongelijke verkeerspleten, vooral wanneer [!DNL Analytics] als gegevensbron voor een [!DNL Target] -activiteit wordt gebruikt. Voor details om ongelijkmatige verkeersdistributie op een omleidingsactiviteit met Analytics voor Doel (A4T) te verhelpen, zie [ Redirect aanbiedingen - Veelgestelde vragen A4T ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).
+   * Is het een omleidingstest? Onjuiste timing van het afvuren van tags op de pagina kan leiden tot ongelijke verkeerspleten, vooral wanneer [!DNL Analytics] als gegevensbron voor een [!DNL Target] -activiteit wordt gebruikt. Voor details om ongelijkmatige verkeersdistributie op een omleidingsactiviteit met Analytics voor Doel (A4T) te verhelpen, zie [&#x200B; Redirect aanbiedingen - Veelgestelde vragen A4T &#x200B;](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

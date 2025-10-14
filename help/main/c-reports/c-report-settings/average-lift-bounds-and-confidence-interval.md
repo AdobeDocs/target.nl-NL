@@ -17,13 +17,13 @@ Rapporten bevatten verschillende gegevenspunten en visualisatieweergaven die u h
 
 >[!NOTE]
 >
->Deze functie is alleen beschikbaar wanneer u rapporten weergeeft in [!UICONTROL Table] Weergave. Deze eigenschap is niet beschikbaar voor activiteiten die [ Analytics als rapporteringsbron (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) gebruiken.
+>Deze functie is alleen beschikbaar wanneer u rapporten weergeeft in [!UICONTROL Table] Weergave. Deze eigenschap is niet beschikbaar voor activiteiten die [&#x200B; Analytics als rapporteringsbron (A4T) &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) gebruiken.
 
 ## De gegevens interpreteren {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
 
 In de volgende afbeelding worden [!UICONTROL Lift Bounds and Confidence Level] -gegevens getoond:
 
-![ Gemiddelde Lift en het rapport van het Niveau van het Vertrouwen ](/help/main/c-reports/c-report-settings/assets/lift-screenshot-new.png)
+![&#x200B; Gemiddelde Lift en het rapport van het Niveau van het Vertrouwen &#x200B;](/help/main/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
 De informatie over lift en betrouwbaarheid in de rapportinterface van [!DNL Target] bevat:
 
@@ -33,7 +33,7 @@ Het grote getal en de pijl geven de verwachte waarde van de lift aan. Dit getal 
 
 ### Grenzen optillen
 
-Dit is het 95% betrouwbaarheidsinterval van de lift. Het wordt weergegeven als een bereik onder de gemiddelde lift. Zie [ berekening van het Voorbeeld ](#example) hieronder voor een voorbeeld van hoe deze liftgrenzen worden berekend.
+Dit is het 95% betrouwbaarheidsinterval van de lift. Het wordt weergegeven als een bereik onder de gemiddelde lift. Zie [&#x200B; berekening van het Voorbeeld &#x200B;](#example) hieronder voor een voorbeeld van hoe deze liftgrenzen worden berekend.
 
 ### Boxplot-grafiek
 
@@ -49,7 +49,7 @@ Het vertrouwen van een ervaring of een aanbieding die wordt getoond is een waars
 
 ## Begrijp hoe het betrouwbaarheidsinterval voor lift wordt bepaald {#pdf}
 
-Download het [ Interval van het Vertrouwen voor Lift pdf- dossier ](/help/main/assets/confidence_interval_lift.pdf) voor meer informatie.
+Download het [&#x200B; Interval van het Vertrouwen voor Lift pdf- dossier &#x200B;](/help/main/assets/confidence_interval_lift.pdf) voor meer informatie.
 
 ## Hoe worden liftgrenzen berekend? {#section_1D360781D972483693680BE0F07AEAD1}
 
@@ -57,18 +57,18 @@ De grenzen van de lift vertegenwoordigen de 95% betrouwbaarheidsintervallen van 
 
 De grenzen van de lift worden berekend met behulp van de volgende formule:
 
-![ lift_diagram beeld ](assets/lift_diagram.png)
+![&#x200B; lift_diagram beeld &#x200B;](assets/lift_diagram.png)
 
 Er is een extra berekening om de invoer aan onze liftgrenzen te bereiken:
 
-* **t-waarde:** de kritieke statistiek voor ons 95% betrouwbaarheidsniveau is 1.96. U kunt meer over [ t-waarden hier ](https://en.wikipedia.org/wiki/T-statistic) leren.
+* **t-waarde:** de kritieke statistiek voor ons 95% betrouwbaarheidsniveau is 1.96. U kunt meer over [&#x200B; t-waarden hier &#x200B;](https://en.wikipedia.org/wiki/T-statistic) leren.
 * **de Variantie van het Lift:** De StandaardFout van het succes van N van de Ervaring en de StandaardFout van het succes van de Ervaring van de Controle metrische zijn nodig om de hefboomvariantie te bepalen, die gebruikend de volgende formule wordt berekend (die in het geval wordt geïllustreerd metrisch succes is omzetting).
 
-  ![ lift_variance beeld ](assets/lift_variance.png)
+  ![&#x200B; lift_variance beeld &#x200B;](assets/lift_variance.png)
 
-* **het Tarief van de Omzetting/de Metrische Standaard van het Succes Fout:** de Standaardfout wordt berekend op de zelfde manier voor Ervaring N en de Controle, gebruikend de volgende formule (die in het geval wordt geïllustreerd metrisch succes is omzetting). U kunt meer over [ standaardfout hier ](https://en.wikipedia.org/wiki/Standard_error) leren.
+* **het Tarief van de Omzetting/de Metrische Standaard van het Succes Fout:** de Standaardfout wordt berekend op de zelfde manier voor Ervaring N en de Controle, gebruikend de volgende formule (die in het geval wordt geïllustreerd metrisch succes is omzetting). U kunt meer over [&#x200B; standaardfout hier &#x200B;](https://en.wikipedia.org/wiki/Standard_error) leren.
 
-  ![ standard_error beeld ](assets/standard_error.png)
+  ![&#x200B; standard_error beeld &#x200B;](assets/standard_error.png)
 
   >[!NOTE]
   >
@@ -87,25 +87,25 @@ Op basis van onze formules kunnen we de inputs berekenen die we nodig hebben voo
 
 **StandaardFout voor Ervaring A (Controle)**
 
-![ standard_error_A beeld ](assets/standard_error_A.png)
+![&#x200B; standard_error_A beeld &#x200B;](assets/standard_error_A.png)
 
 **StandaardFout voor Ervaring B**
 
-![ standard_error_B beeld ](assets/standard_error_B.png)
+![&#x200B; standard_error_B beeld &#x200B;](assets/standard_error_B.png)
 
 **tilt Variantie voor Ervaring B**
 
-![ lift_variance_B beeld ](assets/lift_variance_B.png)
+![&#x200B; lift_variance_B beeld &#x200B;](assets/lift_variance_B.png)
 
 **Lift Grenzen voor Ervaring B**
 
 Verwacht optillen voor ervaring B:
 
-![ lift_bounds_B beeld ](assets/lift_bounds_B.png)
+![&#x200B; lift_bounds_B beeld &#x200B;](assets/lift_bounds_B.png)
 
 De limieten voor de lift voor ervaring B zouden daarom als volgt zijn:
 
-![ lift_bounds_B2 beeld ](assets/lift_bounds_B2.png)
+![&#x200B; lift_bounds_B2 beeld &#x200B;](assets/lift_bounds_B2.png)
 
 >[!NOTE]
 >

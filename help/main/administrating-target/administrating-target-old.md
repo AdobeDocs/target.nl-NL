@@ -28,4 +28,4 @@ Als u de menu-items [!UICONTROL Administration] wilt openen, klikt u op **[!UICO
 * [Reactiepunten](/help/main/administrating-target/response-tokens.md)
 * [Gebruikers](/help/main/administrating-target/c-user-management/user-management.md)
 
-![ het menu van het Beleid van Adobe Target ](/help/main/administrating-target/assets/administration.png)
+![&#x200B; het menu van het Beleid van Adobe Target &#x200B;](/help/main/administrating-target/assets/administration.png)

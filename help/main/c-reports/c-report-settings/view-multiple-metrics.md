@@ -17,9 +17,9 @@ U kunt meerdere metriek selecteren om in een [!DNL Adobe Target] rapport te beki
 
 Houd rekening met de volgende informatie wanneer u met meerdere metriek werkt in rapporten:
 
-* De capaciteit om veelvoudige metriek te bekijken is beschikbaar voor [ Test A/B ](/help/main/c-activities/t-test-ab/test-ab.md), [ auto-Wijs ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [ auto-Doel ](/help/main/c-activities/auto-target/auto-target-to-optimize.md), en [ Ervaring richtend ](/help/main/c-activities/t-experience-target/experience-target.md) (XT) slechts activiteiten.
-* U kunt niet meer dan 20 metriek aan een rapport voor een activiteit toevoegen die [ Analytics voor Doel ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) gebruikt. U kunt zo vele metriek toevoegen aangezien u in uw activiteit aan rapporten voor activiteiten hebt die *niet* A4T gebruiken.
-* U kunt niet de [ optie van de Download ](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) gebruiken om rapporten aan CSV te downloaden als u veelvoudige metriek hebt geselecteerd. U moet slechts één meting selecteren om de optie [!UICONTROL Download] in te schakelen.
+* De capaciteit om veelvoudige metriek te bekijken is beschikbaar voor [&#x200B; Test A/B &#x200B;](/help/main/c-activities/t-test-ab/test-ab.md), [&#x200B; auto-Wijs &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [&#x200B; auto-Doel &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md), en [&#x200B; Ervaring richtend &#x200B;](/help/main/c-activities/t-experience-target/experience-target.md) (XT) slechts activiteiten.
+* U kunt niet meer dan 20 metriek aan een rapport voor een activiteit toevoegen die [&#x200B; Analytics voor Doel &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) gebruikt. U kunt zo vele metriek toevoegen aangezien u in uw activiteit aan rapporten voor activiteiten hebt die *niet* A4T gebruiken.
+* U kunt niet de [&#x200B; optie van de Download &#x200B;](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) gebruiken om rapporten aan CSV te downloaden als u veelvoudige metriek hebt geselecteerd. U moet slechts één meting selecteren om de optie [!UICONTROL Download] in te schakelen.
 * U kunt geen meerdere metriek weergeven voor activiteiten die zijn gemaakt vóór de release van juli 2015 [!DNL Target] (30 juli 2015).
 
 **om veelvoudige metriek te selecteren in het rapport te tonen:**

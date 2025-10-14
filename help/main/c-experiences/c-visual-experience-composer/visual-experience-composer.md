@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De release [!DNL Target Standard/Premium] 25.2.1 (17 februari 2025) bevat een bijgewerkte versie van de VEC. Voor informatie over hoe bijgewerkte VEC van de vorige versie verschilt, zie {de veranderingen van de Composer van de 1} Visuele Ervaring [. ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) Voor een overzicht van de diverse opties in bijgewerkte VEC, zie {de opties van Composer van de 1} Visuele Ervaring.[&#128279;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
+>De release [!DNL Target Standard/Premium] 25.2.1 (17 februari 2025) bevat een bijgewerkte versie van de VEC. Voor informatie over hoe bijgewerkte VEC van de vorige versie verschilt, zie {de veranderingen van de Composer van de 1} Visuele Ervaring [. &#x200B;](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) Voor een overzicht van de diverse opties in bijgewerkte VEC, zie {de opties van Composer van de 1} Visuele Ervaring.[&#128279;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
 
 Met de VEC kunt u gemakkelijk persoonlijke ervaringen en aanbiedingen maken en testen in de context van de site. U kunt ervaringen en aanbiedingen voor [!DNL Target] -activiteiten maken door de lay-out en inhoud van een webpagina (of aanbieding) of mobiele webpagina te slepen en neer te zetten, te wisselen en te wijzigen.
 
@@ -27,7 +27,7 @@ Op het tabblad [!DNL Target] **[!UICONTROL Administration]** > **[!UICONTROL Vis
 
 Deze URL bepaalt waar u begint wanneer u VEC opent. Als u geen standaard-URL opgeeft, begint u met een lege pagina wanneer u de editor opent en kunt u een URL opgeven.
 
-![ VEC benadrukte ](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-refresh.png)
+![&#x200B; VEC benadrukte &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-refresh.png)
 
 >[!NOTE]
 >

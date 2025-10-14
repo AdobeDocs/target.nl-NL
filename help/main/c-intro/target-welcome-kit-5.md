@@ -49,7 +49,7 @@ Als bezoekers die vanuit Google naar u worden doorverwezen, worden verzonden naa
 
 Neem bijvoorbeeld aanbevelingen op een pagina met productdetails om bezoekers te laten zien die een vergelijkbaar, gepersonaliseerd product hebben gezien dat buiten de voorraad valt, of dat ze onlangs items hebben bekeken op basis van het gedrag van hun bezoeker tijdens de sessie en de affiniteit van de categorie. Gebruikers kunnen deze bestanden met één klik bekijken, zodat u ze weer kunt activeren op uw website of ze een aankoop kunnen doen.
 
-![ de illustratie van Aanbevelingen ](/help/main/c-intro/assets/recs-illustration.png)
+![&#x200B; de illustratie van Aanbevelingen &#x200B;](/help/main/c-intro/assets/recs-illustration.png)
 
 ## Idea 7: Neem het gedrag van economische tactieken op in uw tests.
 
@@ -57,7 +57,7 @@ Denk aan de paradox van keuze wanneer het runnen van tests A/B en een paar ervar
 
 Misschien wijzigt u gewoon de volgorde van opties waaruit u kunt kiezen wanneer klanten actie willen ondernemen. Als er bijvoorbeeld verschillende prijsmodellen naast elkaar staan, geeft u opties voor productprijzen op, van lagere prijzen tot hogere waarden of andersom, en meet u het effect van elke optie.
 
-![ de illustratie van de Tactiek van het Gedrag ](/help/main/c-intro/assets/behavioral.png)
+![&#x200B; de illustratie van de Tactiek van het Gedrag &#x200B;](/help/main/c-intro/assets/behavioral.png)
 
 ## Idee 8: Promoot uw mobiele app op uw website.
 

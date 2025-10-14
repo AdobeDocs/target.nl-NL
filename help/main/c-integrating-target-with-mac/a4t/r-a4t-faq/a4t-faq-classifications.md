@@ -18,7 +18,7 @@ Dit onderwerp bevat antwoorden op vragen die vaak worden gesteld over classifica
 ## Nadat u classificaties hebt gedownload met [!UICONTROL Classifications Importer] , hoe moet ik de waarde voor post-tnt-action afstemmen op de naam van een activiteit? {#section_6045DAC488B248418F430E663C38D001}
 
 +++Antwoord
-U kunt de classificaties voor het koord A4T/TNT van Admin Hulpmiddelen [ Importer van de Classificatie ](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=nl-NL) downloaden. De variabele wordt &quot;TNT&quot; genoemd in de exportlijst. De gedownloade gegevens bevatten de vriendelijke namen voor activiteiten, ervaringen enzovoort.
+U kunt de classificaties voor het koord A4T/TNT van Admin Hulpmiddelen [&#x200B; Importer van de Classificatie &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=nl-NL) downloaden. De variabele wordt &quot;TNT&quot; genoemd in de exportlijst. De gedownloade gegevens bevatten de vriendelijke namen voor activiteiten, ervaringen enzovoort.
 
 Dit opzoekbestand is handig voor klanten die de [!DNL Adobe] -feed clickStream-gegevens ontvangen. Het bestand bevat vriendelijke namen voor de kolommen `post_tnt` en `post_tnt_action` .
 

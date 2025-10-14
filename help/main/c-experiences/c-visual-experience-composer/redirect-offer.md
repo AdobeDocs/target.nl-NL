@@ -21,7 +21,7 @@ De omleidingsaanbieding voert de code van JavaScript uit om browser om te leiden
 
 Aanbiedingen voor omleiding hebben een aantal beperkingen:
 
-* Voor omleidingsaanbiedingen in activiteiten die A4T gebruiken, moet uw implementatie aan bepaalde minimumvereisten voldoen. Bovendien is er belangrijke informatie die u moet weten. Voor meer informatie, zie [ Aanbiedingen opnieuw richten - Veelgestelde vragen A4T ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+* Voor omleidingsaanbiedingen in activiteiten die A4T gebruiken, moet uw implementatie aan bepaalde minimumvereisten voldoen. Bovendien is er belangrijke informatie die u moet weten. Voor meer informatie, zie [&#x200B; Aanbiedingen opnieuw richten - Veelgestelde vragen A4T &#x200B;](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 * Als u de op formulieren gebaseerde Experience Composer gebruikt, mogen omleidingsvoorstellen niet worden gebruikt in vakken die deel uitmaken van de pagina. Een omleidingsaanbieding mag alleen worden gebruikt vanuit een scripttag die deel uitmaakt van de HTML `<head>` . Gebruik altijd Automatisch maken en stel de omleidingsaanbieding voor de globale mbox in.
 
 >[!NOTE]
@@ -31,7 +31,7 @@ Aanbiedingen voor omleiding hebben een aantal beperkingen:
 Een omleidingsvoorstel maken:
 
 1. Maak een ervaring.
-1. Van het [!UICONTROL Experiences] kader, klik het **[!UICONTROL More Actions]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallList.svg)) voor de gewenste ervaring.
+1. Van het [!UICONTROL Experiences] kader, klik het **[!UICONTROL More Actions]** pictogram ( ![&#x200B; Meer pictogram van Acties &#x200B;](/help/main/assets/icons/MoreSmallList.svg)) voor de gewenste ervaring.
 1. Klik op **[!UICONTROL Redirect to URL]**.
 1. Typ de URL in het dialoogvenster Omleiden naar URL.
 1. Selecteer desgewenst de optie om de huidige queryparameters op te nemen.
@@ -53,4 +53,4 @@ Een omleidingsvoorstel maken:
 
 ## Bekende problemen
 
-* De omleiding van activiteiten in implementaties at.js zou de voorproef URL kunnen veroorzaken om in een lijn in te gaan (de aanbieding wordt herhaaldelijk geleverd). U kunt [ Wijze QA ](/help/main/c-activities/c-activity-qa/activity-qa.md) gebruiken in plaats daarvan om Voorproef en QA uit te voeren. Deze kwestie heeft geen invloed op de daadwerkelijke levering van het aanbod. (TGT-23019)
+* De omleiding van activiteiten in implementaties at.js zou de voorproef URL kunnen veroorzaken om in een lijn in te gaan (de aanbieding wordt herhaaldelijk geleverd). U kunt [&#x200B; Wijze QA &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa.md) gebruiken in plaats daarvan om Voorproef en QA uit te voeren. Deze kwestie heeft geen invloed op de daadwerkelijke levering van het aanbod. (TGT-23019)

@@ -19,7 +19,7 @@ De VEC is een van de belangrijkste kenmerken van [!DNL Adobe Target] . VEC is ee
 
 De EEG is een uitbreiding van VEC die u helpt een ervaring voor een iframe-bouwend plaats of pagina&#39;s uitgeven die nog niet de implementatie van het Doel omvatten. Als u problemen hebt met het openen van uw pagina in de VEC, probeert u de EEG.
 
-Voor informatie over VEC en EEG, zie [ Ervaringen ](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+Voor informatie over VEC en EEG, zie [&#x200B; Ervaringen &#x200B;](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 Sommige kwesties betreffen zowel de VEC als de EEG en sommige kwesties betreffen slechts één van de twee composers. Controleer de juiste pagina voor meer informatie.
 

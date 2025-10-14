@@ -15,11 +15,11 @@ ht-degree: 0%
 
 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) verstrekt een visuele interface voor het toevoegen van en het uitgeven van de ervaringen op uw pagina.
 
-Voor extra detail over ervaringen, zie [ Ervaringen ](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+Voor extra detail over ervaringen, zie [&#x200B; Ervaringen &#x200B;](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 1. Klik op de pagina **[!UICONTROL Experiences]** in de VEC op **[!UICONTROL Add Experience]** .
 
-   ![ voegt de optie van de Ervaring toe ](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/add-experience.png)
+   ![&#x200B; voegt de optie van de Ervaring toe &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/add-experience.png)
 
    >[!NOTE]
    >
@@ -43,7 +43,7 @@ Voor extra detail over ervaringen, zie [ Ervaringen ](/help/main/c-experiences/e
 
 1. Klik op het pictogram **[!UICONTROL Rename Experience]** op een ervaring in een [!UICONTROL A/B Test] - of [!UICONTROL Experience Targeting] -activiteit (XT) om de ervaring een nieuwe naam te geven.
 
-   ![ noem ervaring anders ](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
+   ![&#x200B; noem ervaring anders &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
 
 2. Geef een nieuwe naam op.
 
@@ -64,7 +64,7 @@ Voor extra detail over ervaringen, zie [ Ervaringen ](/help/main/c-experiences/e
 
 1. Klik op het pictogram **[!UICONTROL More]** (de verticale ellips) op een ervaring in een [!UICONTROL A/B Test] - of [!UICONTROL Experience Targeting] -activiteit (XT) en klik vervolgens op **[!UICONTROL Redirect to URL]** .
 
-   Voor meer informatie, zie [ Redirect aan URL ](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md).
+   Voor meer informatie, zie [&#x200B; Redirect aan URL &#x200B;](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
    **NOTA**: Wanneer u noemt of een ervaring anders noemt, worden de volgende karakters niet toegestaan:
 
@@ -89,13 +89,13 @@ U kunt een ervaring in een [!UICONTROL A/B Test] kopiëren zodat u kleine verand
 
 1. Klik op de pagina **[!UICONTROL Experiences]** (de eerste stap in de driestappenworkflow met instructies) op het pictogram voor de verticale ellips > **[!UICONTROL Duplicate]** .
 
-   ![ Dupliceer ervaringsoptie ](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
+   ![&#x200B; Dupliceer ervaringsoptie &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
 
 ## Een ervaring verwijderen
 
 1. Klik op de pagina **[!UICONTROL Experiences]** (de eerste stap in de driestappenworkflow met instructies) op het pictogram voor de verticale ellips > **[!UICONTROL Duplicate]** .
 
-   ![ de ervaringsoptie van de Schrapping ](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
+   ![&#x200B; de ervaringsoptie van de Schrapping &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
 ## Trainingsvideo: de [!UICONTROL Visual Experience Composer] gebruiken
 

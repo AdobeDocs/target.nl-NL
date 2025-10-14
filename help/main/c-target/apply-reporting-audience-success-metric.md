@@ -17,7 +17,7 @@ Kies een succesmaatstaf die de gebruiker voor het rapportagepubliek in [!DNL Ado
 
 Voor alle activiteiten, laat de [!UICONTROL Applied At] drop-down lijst u een publiek op succes metrisch toepassen zodat kunt u rapportaantallen bekijken nadat metrisch is bereikt en voor verdere acties.
 
-![ success_metalimage ](assets/success_metric.png)
+![&#x200B; success_metalimage &#x200B;](assets/success_metric.png)
 
 Stel dat u een activiteit hebt gemaakt voor alle bezoekers die uw startpagina betreden en de conversiepagina bereiken, maar u wilt ook meer informatie weergeven over bezoekers die meer dan € 50 aan de winkelwagentje hebben toegevoegd voordat u deze omzet.
 
@@ -31,7 +31,7 @@ Of, om het anders te formuleren, kunt u specificeren dat een bezoeker een mbox o
 
 >[!NOTE]
 >
->[ metriek van het Succes ](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) is beschikbaar slechts als u hen voor uw activiteit hebt gevormd. Als u geen succesmaatstaven hebt gedefinieerd, ziet u slechts twee opties in de vervolgkeuzelijst: [!UICONTROL Campaign Entry] en [!UICONTROL Conversion] .
+>[&#x200B; metriek van het Succes &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) is beschikbaar slechts als u hen voor uw activiteit hebt gevormd. Als u geen succesmaatstaven hebt gedefinieerd, ziet u slechts twee opties in de vervolgkeuzelijst: [!UICONTROL Campaign Entry] en [!UICONTROL Conversion] .
 
 
 ## Overwegingen
@@ -46,7 +46,7 @@ Overweeg de volgende informatie wanneer het toepassen van een rapporterend publi
 
 Als u de segmentatie in de rapportage wilt weergeven, selecteert u het gewenste publiek in de vervolgkeuzelijst [!UICONTROL Audience] in het activiteitenrapport.
 
-![ reporting_publiek_dropdown beeld ](assets/reporting_audience_dropdown.png)
+![&#x200B; reporting_publiek_dropdown beeld &#x200B;](assets/reporting_audience_dropdown.png)
 
 ## Voorbeeld
 

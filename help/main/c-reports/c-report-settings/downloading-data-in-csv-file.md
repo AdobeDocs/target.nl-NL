@@ -19,10 +19,10 @@ Gegevens downloaden in een CSV-bestand:
 
 1. Klik op **[!UICONTROL Activities]** en klik vervolgens op de gewenste activiteit in de lijst.
 
-   Als u vele activiteiten hebt, klik het pictogram van de Filter ( ![ pictogram van de Filter ](/help/main/assets/icons/Filter.svg)) om de lijst te filtreren door opties van [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], en [!UICONTROL Activity Source] drop-down lijsten te selecteren.
+   Als u vele activiteiten hebt, klik het pictogram van de Filter ( ![&#x200B; pictogram van de Filter &#x200B;](/help/main/assets/icons/Filter.svg)) om de lijst te filtreren door opties van [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], en [!UICONTROL Activity Source] drop-down lijsten te selecteren.
 
 1. Klik op de tab **[!UICONTROL Reports]** .
-1. Klik het **[!UICONTROL Download]** ( ![ pictogram van de Download ](/help/main/assets/icons/Download.svg) ) pictogram, dan selecteer een rapporttype voor analyse in Excel en andere hulpmiddelen te downloaden.
+1. Klik het **[!UICONTROL Download]** ( ![&#x200B; pictogram van de Download &#x200B;](/help/main/assets/icons/Download.svg) ) pictogram, dan selecteer een rapporttype voor analyse in Excel en andere hulpmiddelen te downloaden.
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
@@ -38,7 +38,7 @@ Gegevens worden opgeslagen tot het einde van de activiteit.
 
 >[!NOTE]
 >
->Het CSV-rapport bevat alleen onbewerkte gegevens en bevat geen berekende gegevens, zoals inkomsten per bezoeker, lift of betrouwbaarheid die worden gebruikt voor A/B-tests. Om deze berekende metriek te berekenen, download het [!DNL Target] [ Volledige dossier van de Rekenmachine van het Vertrouwen ](/help/main/assets/complete_confidence_calculator.xlsx) Excel om de waarde van de activiteit in te voeren, of herzie [ Statistische berekeningen in tests A/Bn ](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+>Het CSV-rapport bevat alleen onbewerkte gegevens en bevat geen berekende gegevens, zoals inkomsten per bezoeker, lift of betrouwbaarheid die worden gebruikt voor A/B-tests. Om deze berekende metriek te berekenen, download het [!DNL Target] [&#x200B; Volledige dossier van de Rekenmachine van het Vertrouwen &#x200B;](/help/main/assets/complete_confidence_calculator.xlsx) Excel om de waarde van de activiteit in te voeren, of herzie [&#x200B; Statistische berekeningen in tests A/Bn &#x200B;](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## [!UICONTROL Export Order Details to CSV] {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
@@ -51,7 +51,7 @@ Het [!UICONTROL Order Details] -rapport geeft u informatie over uw bestellingen,
 
 * Order, markering (dubbele of extreme orders)
 
-  Een orde wordt gemarkeerd als uiterste als het meer dan +/- 3 standaardafwijkingen van de gemiddelde ordewaarde is. Bij deze berekening wordt de laatste maand van de gegevens gebruikt (tot het tijdstip waarop de berekening is gemaakt). Een activiteit zal zijn extreme orden uitgesloten zodra de activiteit een uur of tot na 15 orden heeft gelopen, welke eerst komt. Voor meer informatie, zie [ Excluding Extreme Orders ](/help/main/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+  Een orde wordt gemarkeerd als uiterste als het meer dan +/- 3 standaardafwijkingen van de gemiddelde ordewaarde is. Bij deze berekening wordt de laatste maand van de gegevens gebruikt (tot het tijdstip waarop de berekening is gemaakt). Een activiteit zal zijn extreme orden uitgesloten zodra de activiteit een uur of tot na 15 orden heeft gelopen, welke eerst komt. Voor meer informatie, zie [&#x200B; Excluding Extreme Orders &#x200B;](/help/main/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 * Product-id
 

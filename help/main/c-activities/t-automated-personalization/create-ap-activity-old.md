@@ -20,19 +20,19 @@ De werkstroom [!UICONTROL Automated Personalization] (AP) activiteit in [!DNL Ta
 
 1. Klik in de lijst [!DNL Target] [!UICONTROL Activities] op **[!UICONTROL Create Activity]** > **[!UICONTROL Automated Personalization]** .
 
-   ![ creeer Activiteit: Automated Personalization ](/help/main/c-activities/t-automated-personalization/assets/ap-create-new.png)
+   ![&#x200B; creeer Activiteit: Automated Personalization &#x200B;](/help/main/c-activities/t-automated-personalization/assets/ap-create-new.png)
 
 1. Klik op [!UICONTROL Visual Experience Composer] als u **[!UICONTROL Visual]** (VEC) wilt gebruiken.
 
-   Selecteer [!UICONTROL Form-Based Experience Composer] als u [!UICONTROL Form] wilt gebruiken. Zie [ vorm-Gebaseerde Composer van de Ervaring ](/help/main/c-experiences/form-experience-composer.md) voor meer informatie.
+   Selecteer [!UICONTROL Form-Based Experience Composer] als u [!UICONTROL Form] wilt gebruiken. Zie [&#x200B; vorm-Gebaseerde Composer van de Ervaring &#x200B;](/help/main/c-experiences/form-experience-composer.md) voor meer informatie.
 
    >[!NOTE]
    >
-   >Naast de VEC en [!UICONTROL Form-Based Experience Composer] biedt [!DNL Target] de [!UICONTROL Single Page Application VEC] . Voor meer informatie over de diverse composers, zie [ Ervaringen en Aanbiedingen ](/help/main/c-experiences/experiences.md).
+   >Naast de VEC en [!UICONTROL Form-Based Experience Composer] biedt [!DNL Target] de [!UICONTROL Single Page Application VEC] . Voor meer informatie over de diverse composers, zie [&#x200B; Ervaringen en Aanbiedingen &#x200B;](/help/main/c-experiences/experiences.md).
    >
-   >Voor het oplossen van problemeninformatie over VEC, zie [ het Oplossen van problemen de Visuele Composer van de Ervaring ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+   >Voor het oplossen van problemeninformatie over VEC, zie [&#x200B; het Oplossen van problemen de Visuele Composer van de Ervaring &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-1. (Voorwaardelijk) [ kies een werkruimte ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Voorwaardelijk) [&#x200B; kies een werkruimte &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. Verifieer of voer de activiteit-URL in en klik vervolgens op **[!UICONTROL Create]** .
 
@@ -44,7 +44,7 @@ De werkstroom [!UICONTROL Automated Personalization] (AP) activiteit in [!DNL Ta
 
 1. Klik op het veld **[!UICONTROL Name]** en typ de naam van uw activiteit.
 
-   ![ het gebied van de Naam ](/help/main/c-activities/t-automated-personalization/assets/ap-new-name.png)
+   ![&#x200B; het gebied van de Naam &#x200B;](/help/main/c-activities/t-automated-personalization/assets/ap-new-name.png)
 
    De naam van de activiteit mag niet met een van de volgende tekens beginnen:
 
@@ -70,17 +70,17 @@ De werkstroom [!UICONTROL Automated Personalization] (AP) activiteit in [!DNL Ta
    | `[`&quot; | Vierkante haak openen, dubbele aanhalingstekens |
    | &quot;`]` | Dubbele aanhalingstekens, vierkant haakje sluiten |
 
-1. Wijzig paginaelementen zoals die in [ de opties van Composer van de Ervaring worden verklaard Visuele ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. Wijzig paginaelementen zoals die in [&#x200B; de opties van Composer van de Ervaring worden verklaard Visuele &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    U kunt meerdere afbeeldingen tegelijk selecteren in het middelenbeheer. Zo kunt u snel de pagina weergeven met elk van de afbeeldingen die voor de activiteit zijn geconfigureerd. U kunt ook gemakkelijk tekstelementen in uw aanbiedingen bewerken. Wanneer u een element bewerkt, verschijnen er balken op dat element om aan te geven dat u het element hebt gewijzigd.
 
 1. Klik op **[!UICONTROL Manage Content]** om de beschikbare combinaties te configureren.
 
-   ![ beheert de optie van de Inhoud ](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
+   ![&#x200B; beheert de optie van de Inhoud &#x200B;](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
 
    Er wordt een dialoogvenster weergegeven met drie opties boven aan het scherm: [!UICONTROL Experiences], [!UICONTROL Offers] en [!UICONTROL Exclusion Groups] .
 
-   ![ beheert de dialoogdoos van de Inhoud ](/help/main/c-activities/t-automated-personalization/assets/ap_content-new.png)
+   ![&#x200B; beheert de dialoogdoos van de Inhoud &#x200B;](/help/main/c-activities/t-automated-personalization/assets/ap_content-new.png)
 
    >[!NOTE]
    >
@@ -90,21 +90,21 @@ De werkstroom [!UICONTROL Automated Personalization] (AP) activiteit in [!DNL Ta
 
    U kunt specifieke ervaringen uitsluiten door de muisaanwijzer boven de gewenste ervaring te houden en vervolgens op het pictogram [!UICONTROL Exclude] te klikken.
 
-   ![ sluit pictogramaanwijzer ](/help/main/c-activities/t-automated-personalization/assets/icon-exclude.png) uit
+   ![&#x200B; sluit pictogramaanwijzer &#x200B;](/help/main/c-activities/t-automated-personalization/assets/icon-exclude.png) uit
 
    U kunt ervaringen in batch uitsluiten of opnemen door het selectievakje voor relevante ervaringen in te schakelen en vervolgens op het pictogram [!UICONTROL Exclude] rechtsboven in het dialoogvenster te klikken.
 
-   ![ Partij sluit opties ](/help/main/c-activities/t-automated-personalization/assets/batch-exclude.png) uit
+   ![&#x200B; Partij sluit opties &#x200B;](/help/main/c-activities/t-automated-personalization/assets/batch-exclude.png) uit
 
    U kunt deze lijstweergave filteren om alleen uitgesloten of alleen opgenomen activiteiten weer te geven door op de vervolgkeuzelijst [!UICONTROL Status] te klikken.
 
 1. (Voorwaardelijk) Klik **[!UICONTROL Offers]** om stukken inhoud te selecteren en deze toe te wijzen aan rapportagegroepen of om alleen bepaalde bezoekers toe te staan bepaalde aanbiedingen te zien waarvoor ze zich richten.
 
-   Voor meer informatie over het melden van groepen, zie [ Aanbieding die groepen in Automated Personalization ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) melden.
+   Voor meer informatie over het melden van groepen, zie [&#x200B; Aanbieding die groepen in Automated Personalization &#x200B;](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) melden.
 
 1. (Voorwaardelijk) Klik **[!UICONTROL Exclusion Groups]** om een willekeurige combinatie van elementen te kiezen die u van de activiteit wilt uitsluiten.
 
-   ![ het lusje van de Groepen van de Uitsluiting van Manage de dialoogdoos van de Inhoud ](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
+   ![&#x200B; het lusje van de Groepen van de Uitsluiting van Manage de dialoogdoos van de Inhoud &#x200B;](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
    Hoewel u tot 30.000 ervaringen in een AP test kunt tot stand brengen, voert het algoritme zijn beste uit wanneer minder dan 10.000 verschillende ervaringen worden gebruikt. Deze limiet wordt ook toegepast wanneer de activiteit de optie [!UICONTROL Disalow Duplicates] heeft ingeschakeld.
 
@@ -118,13 +118,13 @@ De werkstroom [!UICONTROL Automated Personalization] (AP) activiteit in [!DNL Ta
 
    In de vervolgkeuzelijst [!UICONTROL Custom Allocation] kunt u uit de volgende opties kiezen:
 
-   ![ drop-down lijst van het Doel van de Toewijzing van het Verkeer ](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
+   ![&#x200B; drop-down lijst van het Doel van de Toewijzing van het Verkeer &#x200B;](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
    * **[!UICONTROL Evaluate Personalization Algorithm (50/50)]:** als uw doel het algoritme moet testen, gebruik een 50/50 percenten verdeling van bezoekers tussen de controle en het gerichte algoritme. Deze splitsing geeft de meest nauwkeurige schatting van de lift. Voorgesteld voor gebruik met &quot;willekeurige ervaringen&quot; als controle.
    * **[!UICONTROL Maximizing Personalization Traffic (90/10)]:** Als uw doel &quot;altijd op&quot;activiteit is tot stand te brengen, zet 10% van de bezoekers in de controle. Deze optie zorgt ervoor dat er genoeg gegevens zijn voor de algoritmen om door te gaan met het leren in de tijd. De handel hier is dat in ruil voor het personaliseren van een groter deel van je verkeer, je minder nauwkeurigheid hebt in wat de exacte lift is. Geen kwestie uw doel, is deze optie de geadviseerde verkeerspleet wanneer het gebruiken van een specifieke ervaring als controle.
    * **[!UICONTROL Custom Allocation]:** verdeel manueel het percentage zoals gewenst.
 
-1. (Voorwaardelijk) van de [!UICONTROL Control] drop-down lijst, [ selecteer een specifieke ervaring die als controle ](/help/main/c-activities/t-automated-personalization/experience-as-control.md) moet worden gebruikt of [!UICONTROL Random Experience.] selecteren
+1. (Voorwaardelijk) van de [!UICONTROL Control] drop-down lijst, [&#x200B; selecteer een specifieke ervaring die als controle &#x200B;](/help/main/c-activities/t-automated-personalization/experience-as-control.md) moet worden gebruikt of [!UICONTROL Random Experience.] selecteren
 
    De ervaring met het bedieningsorgaan levert een vergelijking op om te bepalen hoeveel lift door de geautomatiseerde test wordt geleverd.
 
@@ -164,4 +164,4 @@ De werkstroom [!UICONTROL Automated Personalization] (AP) activiteit in [!DNL Ta
 
 Nadat u op **[!UICONTROL Save & Close]** hebt geklikt, wordt de [!UICONTROL Overview] -pagina van de activiteit weergegeven. Klik **Ervaringen van de Voorproef** aan voorproef hoe uw ervaringen wanneer geleverd kijken. Er wordt een pop-up weergegeven die u kunt gebruiken om koppelingen naar uw AP-ervaringen op uw site weer te geven en te delen voor een &quot;echte voorvertoning&quot; van de ervaringen buiten de [!UICONTROL Target] [!UICONTROL Visual Experience Composer] (VEC). U moet de koppelingen vanuit het bericht delen om de voorvertoning te kunnen delen. U kunt niet op een koppeling klikken en de URL rechtstreeks vanuit de browser kopiëren. Als u de koppeling kopieert, bevat de URL een parameter die de pagina alleen correct weergeeft wanneer u de pagina opent via de koppeling in het bericht.
 
-Voor informatie over het melden, zie [ Rapporten van Automated Personalization ](/help/main/c-reports/personalization-reports/reports-ap.md).
+Voor informatie over het melden, zie [&#x200B; Rapporten van Automated Personalization &#x200B;](/help/main/c-reports/personalization-reports/reports-ap.md).

@@ -23,11 +23,11 @@ Gebruik de pagina [!UICONTROL Adobe System Status] om de status van [!DNL Target
 >
 >Een melding in het product wordt altijd weergegeven tijdens de maandelijkse release van [!DNL Target] , maar soms vinden kleine updates plaats en worden deze weergegeven op deze pagina.
 
-1. Heb toegang tot [[!UICONTROL System Status] ](https://status.adobe.com/){target=_blank}.
+1. Heb toegang tot [[!UICONTROL System Status] &#x200B;](https://status.adobe.com/){target=_blank}.
 
 1. Klik op het tabblad [!DNL Experience Cloud] om de status van [!DNL Target] -oplossingen, inclusief [!UICONTROL Experience Cloud] , weer te geven.
 
-   ![ system_status beeld ](assets/system_status.png)
+   ![&#x200B; system_status beeld &#x200B;](assets/system_status.png)
 
    Bovenaan op de pagina vindt u informatie over onderhoudsgebeurtenissen die worden uitgevoerd en een koppeling voor het beheren van abonnementen voor updates voor afzonderlijke oplossingen.
 
@@ -49,6 +49,6 @@ Proactieve berichten zijn e-mailwaarschuwingen die naar geregistreerde klanten w
 
 De volgende illustraties zijn voorbeelden van de e-mailwaarschuwing voor proactieve meldingen:
 
-![ Proactief bericht 1 ](/help/main/r-release-notes/assets/proactive-notification-1.png)
+![&#x200B; Proactief bericht 1 &#x200B;](/help/main/r-release-notes/assets/proactive-notification-1.png)
 
-![ Proactief bericht 2 ](/help/main/r-release-notes/assets/proactive-notification-2.png)
+![&#x200B; Proactief bericht 2 &#x200B;](/help/main/r-release-notes/assets/proactive-notification-2.png)

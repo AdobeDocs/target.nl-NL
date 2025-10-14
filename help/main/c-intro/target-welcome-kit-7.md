@@ -19,19 +19,19 @@ De sleutel tot uw eerste activiteit niettemin, vestigt een basislijn van zaken m
 
 ## Route 1: A/B het testen aan al bezoekersverkeer
 
-U kon opstelling een basis [ activiteit van de Test A/B ](/help/main/c-activities/t-test-ab/test-ab.md) waarin u één variatie van een aanbieding of ervaring tegen één of meerdere andere variaties test om te zien welke degenen uw bezoekers verkiezen. Als u slechts de winnende variant zoekt, kunt u aan hefboomwerking AI kiezen om snellere resultaten te krijgen door [ auto-Wijs ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) in de tweede stap van het werkschema van de A/B testopstelling te selecteren.
+U kon opstelling een basis [&#x200B; activiteit van de Test A/B &#x200B;](/help/main/c-activities/t-test-ab/test-ab.md) waarin u één variatie van een aanbieding of ervaring tegen één of meerdere andere variaties test om te zien welke degenen uw bezoekers verkiezen. Als u slechts de winnende variant zoekt, kunt u aan hefboomwerking AI kiezen om snellere resultaten te krijgen door [&#x200B; auto-Wijs &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) in de tweede stap van het werkschema van de A/B testopstelling te selecteren.
 
 Voorbeeld: een mediabedrijf test zijn huidige kopie op een geschenuwabonnement op de homepage van zijn website of mobiele site om te zien welke variatie ertoe leidt dat meer bezoekers een geschenk kopen. Als zij Auto-Toewijzing selecteren, zal de activiteit meer verkeer naar de winnende variant verschuiven aangezien de test loopt. Als dat niet het geval is, wordt gewacht totdat u de winnende ervaring handmatig live kunt duwen nadat de test is voltooid.
 
 ## Route 2: Personaliseren aan een specifiek publiek
 
-U kon opstelling een [ Ervaring richtend ](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activiteit die een specifiek publiek richt u weet waardevol met een aanbieding of een ervaring bent u weet met hen zou resoneren.
+U kon opstelling een [&#x200B; Ervaring richtend &#x200B;](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activiteit die een specifiek publiek richt u weet waardevol met een aanbieding of een ervaring bent u weet met hen zou resoneren.
 
 Voorbeeld: een luchtvaartmaatschappij richt zich op haar leden op platina-niveau met een speciale aanbieding die hun punten op hun volgende vliegaankoop verdubbelt om hen te belonen en klantenloyaliteit verder op te bouwen.
 
 ## Route 3: Toepassing van AI en automatisering om individuele bezoekers op schaal te personaliseren
 
-U kunt opstelling een AI-Gedreven activiteit om de beste ervaring uit verscheidene voor elke bezoeker te leveren door [ auto-Doel ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) in de tweede stap van het werkschema van de A/B testopstelling eenvoudig te selecteren. Het gebruik van Auto-Target met uw eerste activiteit kan bijzonder nuttig zijn wanneer u niet weet welke ervaring voor verschillende bezoekers zal remonteren. Met Auto-Doel kunt u automatisch leren voorspellende kenmerken in real-time evalueren en scoren en bepalen welke kenmerken van uw bezoekers het belangrijkst zijn bij het bepalen van welke ervaring ze moeten leveren.
+U kunt opstelling een AI-Gedreven activiteit om de beste ervaring uit verscheidene voor elke bezoeker te leveren door [&#x200B; auto-Doel &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) in de tweede stap van het werkschema van de A/B testopstelling eenvoudig te selecteren. Het gebruik van Auto-Target met uw eerste activiteit kan bijzonder nuttig zijn wanneer u niet weet welke ervaring voor verschillende bezoekers zal remonteren. Met Auto-Doel kunt u automatisch leren voorspellende kenmerken in real-time evalueren en scoren en bepalen welke kenmerken van uw bezoekers het belangrijkst zijn bij het bepalen van welke ervaring ze moeten leveren.
 
 Voorbeeld: een telco die meerdere telefoonmerken en -modellen verkoopt, schakelt Auto-Target in om automatisch te leren en computerleren te gebruiken om te bepalen welke van vier verschillende ervaringen of aanbiedingen op zijn homepage of mobiele app het openingsscherm het best met zijn grote verscheidenheid van bezoekers zal resoneren.
 
@@ -51,11 +51,11 @@ Aangezien u met uw het testen idee komt, houd in mening dat u, idealiter met geg
 
 ## Uw activiteiten plannen met Activiteitenplanner
 
-Wij hebben het [ Plan van de Activiteit van Adobe Target ](/help/main/assets/activity-planner.pdf) als standalone PDF omvat die u kunt bewaren en opnieuw gebruiken. Klik op de koppeling om het PDF-bestand weer te geven. Klik met de rechtermuisknop om het PDF-bestand te downloaden.
+Wij hebben het [&#x200B; Plan van de Activiteit van Adobe Target &#x200B;](/help/main/assets/activity-planner.pdf) als standalone PDF omvat die u kunt bewaren en opnieuw gebruiken. Klik op de koppeling om het PDF-bestand weer te geven. Klik met de rechtermuisknop om het PDF-bestand te downloaden.
 
 Als u een effectieve activiteit wilt uitvoeren, moet u elk gebied van de planner invullen. U kunt dit gereedschap gebruiken terwijl u en anderen ideeën uitwisselen voor het testen en personaliseren van activiteiten.
 
-![ de Planner van de Activiteit van Adobe Target ](/help/main/c-intro/assets/activity-planner.png)
+![&#x200B; de Planner van de Activiteit van Adobe Target &#x200B;](/help/main/c-intro/assets/activity-planner.png)
 
 Hier is het soort gedachte dat in elk gebied van de planner gaat:
 
@@ -69,7 +69,7 @@ Leg duidelijk uit wat het probleem is met de huidige ervaring op de webpagina, i
 
 ### Welk type activiteit is nodig?
 
-Schakel het vakje in van het type activiteit dat u wilt uitvoeren. U kunt [ de activiteitentypes van het Doel ](/help/main/c-activities/target-activities-guide.md) onderwerp of [ Adobe Target bij een hoofdstuk van de Blik ](/help/main/c-intro/target-welcome-kit-2.md) herzien om de verschillende soorten beschikbare activiteiten te begrijpen.
+Schakel het vakje in van het type activiteit dat u wilt uitvoeren. U kunt [&#x200B; de activiteitentypes van het Doel &#x200B;](/help/main/c-activities/target-activities-guide.md) onderwerp of [&#x200B; Adobe Target bij een hoofdstuk van de Blik &#x200B;](/help/main/c-intro/target-welcome-kit-2.md) herzien om de verschillende soorten beschikbare activiteiten te begrijpen.
 
 ### Wie is het doelpubliek?
 
@@ -91,7 +91,7 @@ Als uw activiteit de medewerker van een ontwerper, een Webontwikkelaar, of een g
 
 U moet een bepaald aantal bezoekers in de testpopulatie opnemen om een statistisch significante conclusie uit de test te trekken. Denk er eens over na, als er maar twee mensen deelnemen aan je test, ben je dan zeker van de resultaten?
 
-[!DNL Target] baseert zich op statistische principes om de resultaten van een test statistisch geldig te bepalen. De [!DNL Adobe Target] [ calculator van de Grootte van de Steekproef ](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) helpt u de lengte van tijd bepalen om een test in werking te stellen die op het vertrouwen wordt gebaseerd u in uw resultaten wenst. Klik op de koppeling [!UICONTROL Learn More] in dit vak om de rekenmachine te openen en te gebruiken.
+[!DNL Target] baseert zich op statistische principes om de resultaten van een test statistisch geldig te bepalen. De [!DNL Adobe Target] [&#x200B; calculator van de Grootte van de Steekproef &#x200B;](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) helpt u de lengte van tijd bepalen om een test in werking te stellen die op het vertrouwen wordt gebaseerd u in uw resultaten wenst. Klik op de koppeling [!UICONTROL Learn More] in dit vak om de rekenmachine te openen en te gebruiken.
 
 ### Hoe belangrijk is deze activiteit?
 

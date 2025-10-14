@@ -40,7 +40,7 @@ function targetPageParams() {
 }
 ```
 
-Voor meer informatie, zie [ Uitvoerend multi-waardeattributen ](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) in *de entiteitattributen van de Douane*.
+Voor meer informatie, zie [&#x200B; Uitvoerend multi-waardeattributen &#x200B;](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) in *de entiteitattributen van de Douane*.
 
 ## Een kenmerk van een entiteit met meerdere waarden doorgeven in een CSV-bestand
 

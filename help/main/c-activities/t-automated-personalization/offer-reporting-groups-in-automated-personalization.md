@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Rapportgroepen aanbieden in [!UICONTROL Automated Personalization]
 
-Informatie over het gebruiken van rapporteringsgroepen in [!DNL Adobe Target] [ Automated Personalization ](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) activiteiten.
+Informatie over het gebruiken van rapporteringsgroepen in [!DNL Adobe Target] [&#x200B; Automated Personalization &#x200B;](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) activiteiten.
 
 Rapporterende groepen voeren twee belangrijke functies uit:
 
@@ -33,9 +33,9 @@ Deze aanpak werkt goed als bezoekers op dezelfde manier reageren op alle aanbied
 
 ## Rapportgroepen instellen
 
-1. Voor de **[!UICONTROL Experiences]** pagina van een AP activiteit, klik het **[!UICONTROL Manage Content]** pictogram ( ![ leidt het pictogram van de Inhoud ](/help/main/assets/icons/Experience.svg))
+1. Voor de **[!UICONTROL Experiences]** pagina van een AP activiteit, klik het **[!UICONTROL Manage Content]** pictogram ( ![&#x200B; leidt het pictogram van de Inhoud &#x200B;](/help/main/assets/icons/Experience.svg))
 1. Klik op de tab **[!UICONTROL Offers]** boven in het dialoogvenster [!UICONTROL Manage Content] .
-1. (Voorwaardelijk) voeg specifieke ervaringen aan een rapporteringsgroep toe door het [!UICONTROL More Actions] pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmall.svg)) voor de gewenste aanbieding te klikken en dan door **[!UICONTROL Reporting Group]** te klikken.
+1. (Voorwaardelijk) voeg specifieke ervaringen aan een rapporteringsgroep toe door het [!UICONTROL More Actions] pictogram ( ![&#x200B; Meer pictogram van Acties &#x200B;](/help/main/assets/icons/MoreSmall.svg)) voor de gewenste aanbieding te klikken en dan door **[!UICONTROL Reporting Group]** te klikken.
 
 1. (Voorwaardelijk) De partij omvat ervaringen in een rapporteringsgroep door controledozen voor de relevante ervaringen te selecteren en dan te klikken **[!UICONTROL Reporting Group]** bij de bodem van de dialoogdoos.
 
@@ -47,7 +47,7 @@ Deze aanpak werkt goed als bezoekers op dezelfde manier reageren op alle aanbied
 
 Met de lijst [!UICONTROL Location] kunt u aanbiedingen filteren op locatie. Gebruik de lijst [!UICONTROL Report Group] om aanbiedingen te filteren op rapportagegroepen. U kunt de lijst [!UICONTROL Report Group] ook gebruiken om te filteren voor [!UICONTROL Unassigned Offers] , zodat u een rapportgroep kunt toewijzen aan een aanbieding die momenteel niet aan een rapportgroep is toegewezen.
 
-Voor informatie over het richten van een aanbieding aan specifiek publiek, zie [ Aanbiedingen van het Doel [!UICONTROL Automated Personalization] ](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+Voor informatie over het richten van een aanbieding aan specifiek publiek, zie [&#x200B; Aanbiedingen van het Doel [!UICONTROL Automated Personalization] &#x200B;](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
 
 ## Caveats
 
@@ -63,12 +63,12 @@ Voor informatie over het richten van een aanbieding aan specifiek publiek, zie [
 
 ## Voorstellen weergeven in een rapportgroep
 
-1. Klik **[!UICONTROL Activities]**, klik de gewenste [!UICONTROL Automated Personalization] activiteit van de lijst, dan klik het **[!UICONTROL Reports]** lusje om het [ Niveau van de Aanbieding ](/help/main/c-reports/personalization-reports/reports-ap.md) rapport te tonen.
+1. Klik **[!UICONTROL Activities]**, klik de gewenste [!UICONTROL Automated Personalization] activiteit van de lijst, dan klik het **[!UICONTROL Reports]** lusje om het [&#x200B; Niveau van de Aanbieding &#x200B;](/help/main/c-reports/personalization-reports/reports-ap.md) rapport te tonen.
 
    Als u veel activiteiten hebt, klikt u op het pictogram [!UICONTROL Show Filters] (trechter) en schakelt u het selectievakje [!UICONTROL Automated Personalization] in om de lijst te filteren en alleen [!UICONTROL Automated Personalization] -activiteiten weer te geven.
 
 1. Klik op **[!UICONTROL Control]** of **[!UICONTROL Targeted]** in de tabel om de niet-gegroepeerde voorstellen en voorstellen in rapportgroepen weer te geven.
 
-   ![ groepen van de Aanbieding: Controle en Gericht ](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
+   ![&#x200B; groepen van de Aanbieding: Controle en Gericht &#x200B;](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
 
-Voor informatie over het gebruiken van [!UICONTROL Automated Personalization] rapporten (met inbegrip van het [!UICONTROL Offer Level] rapport), zie [ de Samenvattingsrapporten van Automated Personalization ](/help/main/c-reports/personalization-reports/reports-ap.md).
+Voor informatie over het gebruiken van [!UICONTROL Automated Personalization] rapporten (met inbegrip van het [!UICONTROL Offer Level] rapport), zie [&#x200B; de Samenvattingsrapporten van Automated Personalization &#x200B;](/help/main/c-reports/personalization-reports/reports-ap.md).

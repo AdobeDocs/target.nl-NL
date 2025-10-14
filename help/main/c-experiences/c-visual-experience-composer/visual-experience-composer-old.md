@@ -21,7 +21,7 @@ De VEC is een van de belangrijkste kenmerken van [!DNL Adobe Target] . Met VEC k
 
 Op het tabblad Doel **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** kunt u de URL van de standaardcomposer voor visuele ervaring invoeren.
 
-![ StandaardVEC URL montages ](/help/main/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
+![&#x200B; StandaardVEC URL montages &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
 Deze URL bepaalt waar u begint wanneer u VEC opent. Als u geen standaardwaarde opgeeft, begint u met een lege pagina wanneer u de editor opent en geeft u op dat moment een URL op.
 
@@ -39,11 +39,11 @@ U kunt de vervolgkeuzemenu&#39;s boven aan de pagina gebruiken om de pagina zo t
 
 Terwijl u de muis over de pagina beweegt, volgt er een contextgevoelig vak de cursor, waarin de elementen op de pagina worden gemarkeerd.
 
-![ VEC benadrukte ](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-new.png)
+![&#x200B; VEC benadrukte &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-new.png)
 
 Klik op het pictogram **[!UICONTROL Overlays]** om de manier te wijzigen waarop de markering wordt weergegeven. U kunt bijvoorbeeld alleen afbeeldingen, koppelingen, regionale kaders, wijzigingen of JavaScript markeren. U kunt de kleur van de markering wijzigen. U kunt ook een markeerkleur en een type vulling opgeven waarmee verschillende elementtypen worden gemarkeerd.
 
-![ de montages van de Bedekking van de Verandering ](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
+![&#x200B; de montages van de Bedekking van de Verandering &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
 
 Klik op een gemarkeerd element voor een menu met opties die beschikbaar zijn voor dat elementtype. U kunt bijvoorbeeld op een afbeelding klikken en **[!UICONTROL Edit > Text/HTML]** selecteren om de tekst te wijzigen, of op een knop klikken en de achtergrondkleur wijzigen. Met de knoppen linksboven op de pagina kunt u de overlays in- en uitschakelen.
 
@@ -74,7 +74,7 @@ Terwijl de pagina wordt geladen (of nadat deze niet is geladen), zijn het deelve
 
 In de volgende afbeelding ziet u dat u aangepaste code kunt invoegen of andere handelingen kunt uitvoeren terwijl de pagina nog steeds wordt geladen:
 
-![ het laden van de Pagina ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/loading-page.png)
+![&#x200B; het laden van de Pagina &#x200B;](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/loading-page.png)
 
 ## Het laden van een pagina in de VEC annuleren {#cancel-loading}
 
@@ -98,24 +98,24 @@ Nadat u het laden van de pagina in VEC hebt geannuleerd, kunt u schakelen tussen
 
 Als u het laden van een pagina in de VEC wilt annuleren, klikt u op de knop **[!UICONTROL Cancel Loading]** terwijl de pagina wordt geladen. De pagina wordt tijdens de huidige bewerkingssessie niet in de VEC voor deze activiteit geladen.
 
-![ annuleert het Laden knoop ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/cancel-loading.png)
+![&#x200B; annuleert het Laden knoop &#x200B;](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/cancel-loading.png)
 
 Als u ervaringen met de huidige activiteit wilt blijven beheren of nieuwe wijzigingen wilt toevoegen, klikt u op de knop **[!UICONTROL Reload]** .
 
-![ opnieuw laden knoop ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/reload-in-vec.png)
+![&#x200B; opnieuw laden knoop &#x200B;](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/reload-in-vec.png)
 
 ## Trainingsvideo&#39;s
 
 De volgende video&#39;s bevatten meer informatie over de concepten die in dit artikel worden besproken.
 
-### De visuele Composer van de Ervaring (1 van 2) (7 :17) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+### De visuele Composer van de Ervaring (1 van 2) (7 :17) ![&#x200B; badge van het Leerprogramma &#x200B;](/help/main/assets/tutorial.png)
 
 * De inhoud van een pagina wijzigen
 * De lay-out van een pagina wijzigen
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### De visuele Composer van de Ervaring (2 van 2) (7 :29) ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+### De visuele Composer van de Ervaring (2 van 2) (7 :29) ![&#x200B; badge van het Leerprogramma &#x200B;](/help/main/assets/tutorial.png)
 
 * Een ervaring hernoemen en dupliceren
 * Omleiden maken
@@ -126,9 +126,9 @@ De volgende video&#39;s bevatten meer informatie over de concepten die in dit ar
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### De uren van het bureau: De visuele Laag van de Ervaring Composer ![ van de Leerprogramma ](/help/main/assets/tutorial.png)
+### De uren van het bureau: De visuele Laag van de Ervaring Composer ![&#x200B; van de Leerprogramma &#x200B;](/help/main/assets/tutorial.png)
 
-Deze video is een opname van &quot; [ Uren van het Bureau ](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7),&quot;een initiatief dat door het team van de Zorg van de Klant van Adobe wordt geleid.
+Deze video is een opname van &quot; [&#x200B; Uren van het Bureau &#x200B;](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7),&quot;een initiatief dat door het team van de Zorg van de Klant van Adobe wordt geleid.
 
 * Hoe werkt VEC
 * Hoe te vermijden gemeenschappelijke kwesties met VEC

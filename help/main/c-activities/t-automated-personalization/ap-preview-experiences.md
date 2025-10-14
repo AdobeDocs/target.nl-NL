@@ -18,13 +18,13 @@ Omdat bij [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)-activi
 
 1. Klik in het vak [!UICONTROL Visual Experience Composer] (VEC) op **[!UICONTROL Preview]** .
 
-1. Klik het **[!UICONTROL Show Experiences]** pictogram ( ![ toon het pictogram van Ervaring ](/help/main/assets/icons/WebPages.svg)) om de lijst van alle ervaringen in het linkerkader te tonen.
+1. Klik het **[!UICONTROL Show Experiences]** pictogram ( ![&#x200B; toon het pictogram van Ervaring &#x200B;](/help/main/assets/icons/WebPages.svg)) om de lijst van alle ervaringen in het linkerkader te tonen.
 
 1. Klik op een specifieke ervaring in de lijst om die ervaring weer te geven.
 
-1. (Voorwaardelijk) om één of meerdere ervaringen van de activiteit uit te sluiten, klik het **[!UICONTROL Manage Content]** pictogram ( ![ beheer het pictogram van de Inhoud ](/help/main/assets/icons/Experience.svg)) om het [!UICONTROL Manage Content] dialoogvakje te tonen.
+1. (Voorwaardelijk) om één of meerdere ervaringen van de activiteit uit te sluiten, klik het **[!UICONTROL Manage Content]** pictogram ( ![&#x200B; beheer het pictogram van de Inhoud &#x200B;](/help/main/assets/icons/Experience.svg)) om het [!UICONTROL Manage Content] dialoogvakje te tonen.
 
-1. (Voorwaardelijk) in het [!UICONTROL Manage Content] dialoogvakje, klik het **[!UICONTROL More Actions]** pictogram ( ![ Meer pictogram van Acties ](/help/main/assets/icons/MoreSmallList.svg)) naast de ervaring die u wilt uitsluiten, dan klik **[!UICONTROL Exclude]**.
+1. (Voorwaardelijk) in het [!UICONTROL Manage Content] dialoogvakje, klik het **[!UICONTROL More Actions]** pictogram ( ![&#x200B; Meer pictogram van Acties &#x200B;](/help/main/assets/icons/MoreSmallList.svg)) naast de ervaring die u wilt uitsluiten, dan klik **[!UICONTROL Exclude]**.
 
    U kunt een ervaring uitsluiten die conflicterende variaties vertoont of een ervaring die niet esthetisch in evenwicht is.
 

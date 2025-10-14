@@ -28,7 +28,7 @@ Nee. [!DNL Recommendations] -activiteiten met visuele aanbiedingen die zijn gema
 
 Wanneer u een cataloguszoekopdracht uitvoert op een aangepast kenmerk met een numerieke waarde, wordt het aangepaste kenmerk in de resultaten behandeld als een tekenreeks in plaats van een numerieke waarde.
 
-Er is momenteel geen functionaliteit beschikbaar waarmee klanten het type van een kenmerk kunnen wijzigen. Om een verandering aan te brengen, [ open een klantenkwestie ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) van verwijzingen voorzien van de attributen die het type vereisen dat van koord in numeriek wordt veranderd.
+Er is momenteel geen functionaliteit beschikbaar waarmee klanten het type van een kenmerk kunnen wijzigen. Om een verandering aan te brengen, [&#x200B; open een klantenkwestie &#x200B;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) van verwijzingen voorzien van de attributen die het type vereisen dat van koord in numeriek wordt veranderd.
 
 ## Hoe lang duurt het voordat updates van items in mijn catalogus op mijn site worden weergegeven?
 
@@ -103,7 +103,7 @@ Als de plaats waarop u deze criteria toepast niet de categorie ID bevat, zijn be
 
 Als u een locatie gebruikt waar categorie-id aanwezig is in het vak, bevat de kiezer voor criteria alle toepasselijke criteria.
 
-[!DNL Target] heeft a [ Incompatibele Criteria van de Filter ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} plaatsen om intelligent filtreren van de algoritmekiezer te controleren.
+[!DNL Target] heeft a [&#x200B; Incompatibele Criteria van de Filter &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=nl-NL){target=_blank} plaatsen om intelligent filtreren van de algoritmekiezer te controleren.
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ Als u een locatie gebruikt waar categorie-id aanwezig is in het vak, bevat de ki
 
 Klik op [!UICONTROL Filter Incompatible Criteria] > [!UICONTROL Recommendations] om de instelling [!UICONTROL Settings] te openen:
 
-![ recs_settings_filter beeld ](assets/recs_settings_filter.png)
+![&#x200B; recs_settings_filter beeld &#x200B;](assets/recs_settings_filter.png)
 
 Als de instelling [!UICONTROL Filter Incompatible Criteria] NIET is ingeschakeld, filtert [!DNL Target] geen algoritmen in de Algorituurkiezer en worden alle algoritmen weergegeven.
 
@@ -119,7 +119,7 @@ Als de instelling [!UICONTROL Filter Incompatible Criteria] is ingeschakeld, lee
 
 Als de instelling [!UICONTROL Filter Incompatible Criteria] is ingeschakeld, kunt u nog steeds niet-compatibele algoritmen weergeven door het selectievakje [!UICONTROL Compatible] uit te schakelen terwijl u criteria selecteert.
 
-![ compatible_checkbox beeld ](assets/compatible_checkbox.png)
+![&#x200B; compatible_checkbox beeld &#x200B;](assets/compatible_checkbox.png)
 
 De volgende lijst bevat speciale gevallen waarin [!DNL Target] het selectievakje [!UICONTROL Compatible] niet weergeeft:
 
@@ -135,12 +135,12 @@ Overweeg de volgende informatie als u een inzameling ziet gaan naar nul die eerd
 * U kunt de verzameling opnieuw opslaan en zien of het nummer wordt bijgewerkt. Door op te slaan, herstelt de inzameling alle algoritmen die die inzameling gebruiken.
 * Kijk je naar de juiste omgeving? Ga naar [!DNL /target/products.html#recsSettings] om te dubbelklikken (zoals hieronder wordt weergegeven).
 
-  ![ product_catalog beeld ](assets/product_catalog.png)
+  ![&#x200B; product_catalog beeld &#x200B;](assets/product_catalog.png)
 
 * Is uw index up-to-date? Ga naar [!DNL /target/products.html#productSearch] en controleer hoeveel uren de index is (bijvoorbeeld &quot;Geïndexeerde 3 uur geleden&quot;). U kunt de index naar wens vernieuwen.
 * Heeft u iets in de feed of de gegevenslaag gewijzigd waardoor de entiteiten niet meer overeenkomen met de verzamelingsregels? Zorg ervoor dat uw HOOFDLETTERS overeenkomen (hoofdlettergevoelig).
 * Is uw feed gelukt? Heeft iemand de FTP-map, het wachtwoord enzovoort gewijzigd?
-* [!DNL Target] doet zijn best om updates voor de levering (op de pagina/app van de klant) zo snel mogelijk uit te voeren. Toch moet [!DNL Target] ook een representatie in de gebruikersinterface bieden voor de markeerteken. [!DNL Target] zorgt ervoor dat de leveringsupdates niet worden vertraagd totdat de UI-updates gesynchroniseerd zijn. U kunt [ mboxTrace ](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) gebruiken om te zien wat in het systeem op het tijdstip is een verzoek binnen komt.
+* [!DNL Target] doet zijn best om updates voor de levering (op de pagina/app van de klant) zo snel mogelijk uit te voeren. Toch moet [!DNL Target] ook een representatie in de gebruikersinterface bieden voor de markeerteken. [!DNL Target] zorgt ervoor dat de leveringsupdates niet worden vertraagd totdat de UI-updates gesynchroniseerd zijn. U kunt [&#x200B; mboxTrace &#x200B;](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) gebruiken om te zien wat in het systeem op het tijdstip is een verzoek binnen komt.
 
 ## Wat is het verschil tussen de algemene weging van de Waarden van Attributen en Inhoud gelijksoortig-specifieke attributen? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -148,13 +148,13 @@ Kenmerkweging bestaat in twee vormen: &quot;weging van standaardkenmerken&quot; 
 
 De &quot;Standaard kenmerkenweging&quot; is van toepassing op de meeste, zo niet alle, definitietypen (niet alleen de Gelijksoortigheid van de Inhoud). Dit type weging geeft meer gewicht aan bepaalde kenmerkwaarden. In het volgende voorbeeld krijgen Nike-producten een reliëf in de aanbevelingen voor uitvoer.
 
-![ attribute_weight_example beeld ](assets/attribute_weighting_example.png)
+![&#x200B; attribute_weight_example beeld &#x200B;](assets/attribute_weighting_example.png)
 
 De &quot;weging van de gelijksoortige eigenschappen van de inhoud&quot;is slechts op de criteria van de Gelijksoortigheid van de Inhoud van toepassing.
 
 Dit type weging is dynamischer en is gebaseerd op de huidige &quot;aanbeveling key&quot; (het momenteel bekeken item). In het volgende voorbeeld (merk x 16), als een bezoeker Nike sneakers zou bekijken, zal die bezoeker eerder andere Nike-producten (niet noodzakelijkerwijs alleen sneakers) dan concurrenten-sneakers aanraden. Als een bezoeker Adidas sneakers bekijkt, zal die bezoeker eerder Adidas producten worden geadviseerd.
 
-![ content_similarity_example beeld ](assets/content_similarity_example.png)
+![&#x200B; content_similarity_example beeld &#x200B;](assets/content_similarity_example.png)
 
 ## Waarom kan [!DNL Target] soms geen aanbevelingen weergeven? {#section_DB3F40673AED42228E407C05437D99E9}
 
@@ -198,7 +198,7 @@ Zorg ervoor dat het publiek een unieke naam heeft. Als u het publiek de zelfde n
 
 ## Wat is de maximumgrootte van een CSV-bestand voor een feed-upload? {#section_20F1AF4839A447B9889B246D6E873538}
 
-Het aantal rijen of de bestandsgrootte voor het uploaden van een CSV-bestand van een feed is niet hard beperkt. Adobe raadt echter aan om de CSV-bestandsgrootte te beperken tot 1 GB om fouten tijdens het uploaden van bestanden te voorkomen. Als de grootte van het bestand groter is dan 1 GB, kan het bestand idealiter in meerdere feed-bestanden worden gesplitst. Het maximumaantal kolommen voor aangepaste kenmerken is 100 en de aangepaste kenmerken zijn beperkt tot 4096 tekens. Andere grenzen op de lengte van vereiste kolommen zijn beschikbaar op de [[!DNL Target]  pagina van Beperkingen ](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+Het aantal rijen of de bestandsgrootte voor het uploaden van een CSV-bestand van een feed is niet hard beperkt. Adobe raadt echter aan om de CSV-bestandsgrootte te beperken tot 1 GB om fouten tijdens het uploaden van bestanden te voorkomen. Als de grootte van het bestand groter is dan 1 GB, kan het bestand idealiter in meerdere feed-bestanden worden gesplitst. Het maximumaantal kolommen voor aangepaste kenmerken is 100 en de aangepaste kenmerken zijn beperkt tot 4096 tekens. Andere grenzen op de lengte van vereiste kolommen zijn beschikbaar op de [[!DNL Target]  pagina van Beperkingen &#x200B;](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## Kan ik een entiteit dynamisch uitsluiten? {#exclude}
 
@@ -274,11 +274,11 @@ Sommige klanten in media en uitgevers willen ervoor zorgen dat de aanbevolen ite
 
 ### Configureer het profielscript:
 
-![ het profielmanuscript van de Steekproef ](/help/main/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
+![&#x200B; het profielmanuscript van de Steekproef &#x200B;](/help/main/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
 
 ### Configureer de insluitingsregel:
 
-![ de integratieregel van de Steekproef ](/help/main/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
+![&#x200B; de integratieregel van de Steekproef &#x200B;](/help/main/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
 
 >[!NOTE]
 >

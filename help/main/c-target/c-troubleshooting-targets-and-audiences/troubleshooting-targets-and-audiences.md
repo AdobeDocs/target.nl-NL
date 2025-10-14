@@ -25,9 +25,9 @@ Neem bijvoorbeeld de volgende URL:
 
 ### URL-doelgroep
 
-Om publiek URL toe te passen richtend, terwijl het creëren van een activiteit, op de **[!UICONTROL Experiences]** pagina (stap één van de drie-stap geleide werkschema), klik het **[!UICONTROL Configure]** pictogram ( ![ vormt pictogram ](/help/main/assets/icons/Setting.svg)), klik **[!UICONTROL Page Delivery]**, dan specificeer gewenste URL.
+Om publiek URL toe te passen richtend, terwijl het creëren van een activiteit, op de **[!UICONTROL Experiences]** pagina (stap één van de drie-stap geleide werkschema), klik het **[!UICONTROL Configure]** pictogram ( ![&#x200B; vormt pictogram &#x200B;](/help/main/assets/icons/Setting.svg)), klik **[!UICONTROL Page Delivery]**, dan specificeer gewenste URL.
 
-![ URL van de Levering van de Pagina ](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
+![&#x200B; URL van de Levering van de Pagina &#x200B;](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
 URL van publiek zoekt naar een exacte URL-overeenkomst. Als de URL overeenkomt, overweegt Doel geen verdere logica. Als in de bovenstaande URL de activiteit is ingesteld op geactiveerd door `www.example.com` , komt de URL overeen met de volgende URL&#39;s, omdat de URL van het publiek niet specifiek is voor query&#39;s:
 
@@ -43,7 +43,7 @@ URL-doel voor publiek en URL-doel toegevoegd via [!UICONTROL Template Rules] eva
 
 Als u een doel voor de URL wilt toepassen, klikt u tijdens het maken van een publiek op slepen **[!UICONTROL Site Pages]** en zet u deze neer in het deelvenster [!UICONTROL Create Audiences] , klikt u op **[!UICONTROL Site Pages]** , selecteert u een optie in de eerste vervolgkeuzelijst ( [!UICONTROL Current Page] , [!UICONTROL Previous Page] of [!UICONTROL Landing Page] ), selecteert u [!UICONTROL URL] in de tweede vervolgkeuzelijst, geeft u een beoordelaar op en geeft u vervolgens de gewenste URL op.
 
-![ de Pagina&#39;s van de Plaats > Huidige Pagina > URL ](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+![&#x200B; de Pagina&#39;s van de Plaats > Huidige Pagina > URL &#x200B;](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
 URL die richt transformeert URL in een reeks regels om te evalueren:
 
@@ -94,7 +94,7 @@ Sommige doelgroepen zijn vooraf gedefinieerd, zoals &quot;Nieuwe bezoekers&quot;
 
 ## Waarom worden niet alle profielparameters weergegeven in de gebruikersinterface van [!DNL Target] ? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
-[!DNL Target] heeft een limiet van 50 unieke profielkenmerken per mbox-aanroep. Als u meer dan 50 profielkenmerken moet doorgeven aan [!DNL Target] , kunt u deze doorgeven met de API-methode [!UICONTROL Profile Update] . Voor meer informatie, zie [ Update van het Profiel ](https://developers.adobetarget.com/api/#authentication-tokens) in de documentatie van Adobe Target API.
+[!DNL Target] heeft een limiet van 50 unieke profielkenmerken per mbox-aanroep. Als u meer dan 50 profielkenmerken moet doorgeven aan [!DNL Target] , kunt u deze doorgeven met de API-methode [!UICONTROL Profile Update] . Voor meer informatie, zie [&#x200B; Update van het Profiel &#x200B;](https://developers.adobetarget.com/api/#authentication-tokens) in de documentatie van Adobe Target API.
 
 ## Waarom zien bezoekers ervaringen voor een AP-activiteit die ze niet zouden moeten zien? {#section_41CECEAE0881446A8D9F3B016857914B}
 

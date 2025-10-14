@@ -38,13 +38,13 @@ In de volgende tabel worden de verschillende algoritmische typen en de bijbehore
 
 | Het type Algorithm | Wanneer gebruiken | Beschikbare algoritmen |
 | --- | --- | --- |
-| [!UICONTROL Cart-Based] | Aanbevelingen doen op basis van de inhoud van het winkelwagentje. | <ul><li>[!UICONTROL People Who Viewed These, Also Viewed]</li><li>[!UICONTROL People Who Viewed These, Also Bought]</li><li>[!UICONTROL People Who Bought These, Also Bought]</li></ul>Voor meer informatie, zie [ op klei-Gebaseerd ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *Baseer de aanbeveling op een aanbeveling sleutel*. |
+| [!UICONTROL Cart-Based] | Aanbevelingen doen op basis van de inhoud van het winkelwagentje. | <ul><li>[!UICONTROL People Who Viewed These, Also Viewed]</li><li>[!UICONTROL People Who Viewed These, Also Bought]</li><li>[!UICONTROL People Who Bought These, Also Bought]</li></ul>Voor meer informatie, zie [&#x200B; op klei-Gebaseerd &#x200B;](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *Baseer de aanbeveling op een aanbeveling sleutel*. |
 | [!UICONTROL Popularity-Based] | Aanbevelingen doen op basis van de algemene populariteit van een item op uw site of op basis van de populariteit van items in de favoriete of meest bekeken categorie, het merk, het genre enzovoort van een gebruiker. | <ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul> |
 | [!UICONTROL Item-Based] | Aanbevelingen doen op basis van het zoeken naar objecten die vergelijkbaar zijn met een item dat de gebruiker momenteel bekijkt of onlangs heeft bekeken. | <ul><li>[!UICONTROL People Who Viewed This, Viewed That]</li><li>[!UICONTROL People Who Viewed This, Bought That]</li><li>[!UICONTROL People Who Bought This, Bought That]</li><li>[!UICONTROL Items with Similar Attributes]</li></ul> |
 | [!UICONTROL User-Based] | Aanbevelingen doen op basis van het gedrag van de gebruiker. | <ul><li>[!UICONTROL Recently Viewed Items]</li><li>[!UICONTROL Recommended for You]</li></ul> |
 | [!UICONTROL Custom Criteria] | Aanbevelingen doen op basis van een aangepast bestand dat u uploadt. | <ul><li>Aangepast algoritme</li></ul> |
 
-Voor meer informatie over elk algoritme, zie [ Baseer de aanbeveling op een aanbeveling sleutel ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+Voor meer informatie over elk algoritme, zie [&#x200B; Baseer de aanbeveling op een aanbeveling sleutel &#x200B;](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ## Een aangepaste aanbevolen toets gebruiken {#custom-key}
 
@@ -60,9 +60,9 @@ Stel dat u aanbevolen films wilt weergeven op basis van de film die een gebruike
 
 1. Klik op **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** .
 
-1. Vul de informatie in de [ Basissectie van de Informatie ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) in.
+1. Vul de informatie in de [&#x200B; Basissectie van de Informatie &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) in.
 
-1. In de [ Geadviseerde sectie van het Algoritme ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo), uitgezochte **[!UICONTROL Item Based]** van de **[!UICONTROL Algorithm Type]** lijst.
+1. In de [&#x200B; Geadviseerde sectie van het Algoritme &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo), uitgezochte **[!UICONTROL Item Based]** van de **[!UICONTROL Algorithm Type]** lijst.
 
 1. Selecteer **[!UICONTROL People Who Viewed This, Viewed That]** in de lijst **[!UICONTROL Algorithm]** .
 
@@ -78,4 +78,4 @@ In de sectie **[!UICONTROL Usage]** kunt u een lijst weergeven met activiteiten 
 
 >[!NOTE]
 >
->De functie [!UICONTROL Algorithm Usage] wordt momenteel alleen ondersteund voor [!DNL Recommendations] -activiteiten. Deze eigenschap wordt momenteel niet gesteund voor [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], en [!UICONTROL Experience Targeting] (XT) activiteiten die [ aanbevelingen als aanbieding ](/help/main/c-recommendations/recommendations-as-an-offer.md) omvatten.
+>De functie [!UICONTROL Algorithm Usage] wordt momenteel alleen ondersteund voor [!DNL Recommendations] -activiteiten. Deze eigenschap wordt momenteel niet gesteund voor [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], en [!UICONTROL Experience Targeting] (XT) activiteiten die [&#x200B; aanbevelingen als aanbieding &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md) omvatten.

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 [!UICONTROL Experience Targeting] (XT) levert inhoud aan een specifiek publiek dat op een reeks van tellers-bepaalde regels en criteria wordt gebaseerd.
 
-[!UICONTROL Experience Targeting], met inbegrip van [ geo-gericht ](/help/main/c-target/c-audiences/c-target-rules/geo.md), is waardevol voor het bepalen van regels die een specifieke ervaring of inhoud aan een bepaald publiek richten. Verschillende regels kunnen in een activiteit worden gedefinieerd om verschillende inhoudvariaties aan verschillende doelgroepen te bieden.
+[!UICONTROL Experience Targeting], met inbegrip van [&#x200B; geo-gericht &#x200B;](/help/main/c-target/c-audiences/c-target-rules/geo.md), is waardevol voor het bepalen van regels die een specifieke ervaring of inhoud aan een bepaald publiek richten. Verschillende regels kunnen in een activiteit worden gedefinieerd om verschillende inhoudvariaties aan verschillende doelgroepen te bieden.
 
 Wanneer bezoekers uw site bekijken, worden deze bezoekers door [!UICONTROL Experience Targeting] (XT) geëvalueerd om te bepalen of ze voldoen aan de criteria die u instelt. Als zij aan de criteria voldoen, gaan zij de activiteit en de ervaring in die voor kwalificerende publieksvertoningen worden ontworpen. U kunt ervaringen maken voor meerdere soorten publiek binnen één activiteit.
 
@@ -25,7 +25,7 @@ Wanneer bezoekers uw site bekijken, worden deze bezoekers door [!UICONTROL Exper
 
 Stel dat uw website buitenapparatuur bevat. Uit uw rapporten voor A/B-tests blijkt dat u drie ervaringen hebt die op verschillende soorten publiek reageren. Als u deze detectie wilt toepassen, wilt u een andere hoofdafbeelding op uw homepage weergeven om een beroep te doen op deze verschillende soorten publiek, afhankelijk van de locatie of hobby&#39;s van de bezoekers. In dit scenario wilt u bezoekers uit New Jersey een wandelende afbeelding tonen en een surfende afbeelding voor bezoekers uit Hawaii. Je hebt ook een publiek dat van fietsen houdt. U wilt een derde hoofdafbeelding weergeven die naar uw fietspubliek verwijst.
 
-Met een [!UICONTROL Experience Targeting] -activiteit kunt u deze drie soorten publiek richten op een andere hoofdafbeelding die voor elk publiek aantrekkelijk is. De video hieronder, *van het Testen A/B aan Ervaring richtend* toont u hoe te om ervaringen tot stand te brengen die aan beide staten en een derde ervaring worden gericht tot het kikken van enthousiastelingen. De video laat ook zien hoe u de drie ervaringen kunt bestellen om uw doelen te bereiken. Bekijk de video, dan met [ verdergaat creeer een Ervaring richtend activiteit ](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md).
+Met een [!UICONTROL Experience Targeting] -activiteit kunt u deze drie soorten publiek richten op een andere hoofdafbeelding die voor elk publiek aantrekkelijk is. De video hieronder, *van het Testen A/B aan Ervaring richtend* toont u hoe te om ervaringen tot stand te brengen die aan beide staten en een derde ervaring worden gericht tot het kikken van enthousiastelingen. De video laat ook zien hoe u de drie ervaringen kunt bestellen om uw doelen te bereiken. Bekijk de video, dan met [&#x200B; verdergaat creeer een Ervaring richtend activiteit &#x200B;](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md).
 
 ## Trainingsvideo&#39;s:
 

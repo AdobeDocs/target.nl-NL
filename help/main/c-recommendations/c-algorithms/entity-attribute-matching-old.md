@@ -18,7 +18,7 @@ Filter dynamisch in [!DNL Adobe Target] [!DNL Recommendations] door een groep po
 
 >[!NOTE]
 >
->Het [ proces om inclusieregels ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) voor criteria en bevorderingen tot stand te brengen en te gebruiken is gelijkaardig, zoals de gebruiksgevallen en de voorbeelden zijn.
+>Het [&#x200B; proces om inclusieregels &#x200B;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) voor criteria en bevorderingen tot stand te brengen en te gebruiken is gelijkaardig, zoals de gebruiksgevallen en de voorbeelden zijn.
 
 U kunt bijvoorbeeld alleen items aanbevelen die overeenkomen met het merk van het huidige item, zoals in het volgende voorbeeld:
 
@@ -44,21 +44,21 @@ In het volgende voorbeeld worden aanbevelingen getoond die overeenkomen met het 
 
 Wanneer u een pagina bezoekt die een merk A-product bevat, stelt de pagina de waarde van de parameter `entity.brand` in op &quot;MerkA&quot;.
 
-![ de vraag van het Doel van het Voorbeeld ](/help/main/c-recommendations/c-algorithms/assets/example-target-call.png)
+![&#x200B; de vraag van het Doel van het Voorbeeld &#x200B;](/help/main/c-recommendations/c-algorithms/assets/example-target-call.png)
 
 In de aanbevelingen op de pagina ziet u alleen Merk A-producten.
 
-![ merkA aanbevelingen ](/help/main/c-recommendations/c-algorithms/assets/brandA.png)
+![&#x200B; merkA aanbevelingen &#x200B;](/help/main/c-recommendations/c-algorithms/assets/brandA.png)
 
 Als u vervolgens een productpagina van merk B weergeeft, wordt de waarde van `entity.brand` opnieuw ingesteld op &quot;MerkB&quot; en worden de producten van merk B aanbevolen op de productpagina&#39;s van merk B.
 
-![ aanbevelingen van 0&rbrace; Merk B](/help/main/c-recommendations/c-algorithms/assets/brandB.png)
+![&#x200B; aanbevelingen van 0&rbrace; Merk B](/help/main/c-recommendations/c-algorithms/assets/brandB.png)
 
 ### Upsellen naar een duurder product
 
 Stel dat je een apparel retailer bent en gebruikers wil aanmoedigen om duurdere en dus winstgevender objecten te overwegen. U kunt de operatoren ‘gelijk aan’ en ‘gelijk aan’ gebruiken om duurdere objecten van dezelfde categorie en hetzelfde merk te promoten. Een schoenen retailer kan bijvoorbeeld duurdere loopschoenen promoten in een poging om een bezoeker die op zoek is naar loopschoenen te uploaden, zoals in het volgende voorbeeld:
 
-![ Upselling ](/help/main/c-recommendations/c-algorithms/assets/upsell.png)
+![&#x200B; Upselling &#x200B;](/help/main/c-recommendations/c-algorithms/assets/upsell.png)
 
 ```
 Entity Attribute Matching
@@ -75,7 +75,7 @@ value - is between - 100% and 1000% of - current item's - value
 
 U kunt dynamische en statische filters mengen om privé-etiketproducten te bevorderen. Zo kan een kantoorbedrijf bijvoorbeeld tonercartridges van het huismerk van het bedrijf promoten om een rendabelere verkoop aan te sturen voor een bezoeker die naar toner kijkt — en pennen van het huismerk van het bedrijf promoten om een winstgevender verkoop te stimuleren voor een bezoeker die naar pennen kijkt, zoals in het volgende voorbeeld:
 
-![ Merk van het Huis ](/help/main/c-recommendations/c-algorithms/assets/housebrand.png)
+![&#x200B; Merk van het Huis &#x200B;](/help/main/c-recommendations/c-algorithms/assets/housebrand.png)
 
 ```
 Entity Attribute Matching
