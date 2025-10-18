@@ -48,4 +48,4 @@ Als u de functie [!UICONTROL AI Assistant] in [!UICONTROL Target] wilt gebruiken
 
 Leer hoe u toegang en machtigingen voor [!DNL AI Assistant] in [!DNL Adobe Experience Platform] instelt.
 
->[!VIDEO](https://video.tv.adobe.com/v/3436470/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3475925/?captions=dut&learn=on&#x26;enablevpops)
