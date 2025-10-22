@@ -6,9 +6,9 @@ short-description: Leer over de nieuwe eigenschappen, de verhogingen, en de moei
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f0536e466d59fc4e3cccd61c25b7fe7f48f03954
+source-git-commit: 7d73870275c266055825c2fce90489ef82825fca
 workflow-type: tm+mt
-source-wordcount: '4858'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -21,217 +21,89 @@ Ontdek de nieuwste functies, verbeteringen en oplossingen in [!DNL Adobe Target]
 
 ## Tijdgevoelige updates die u moet weten {#time-sensitive}
 
-[!BADGE &#x200B; Belangrijk &#x200B;]{type=Informative}
+[!BADGE  Belangrijk ]{type=Informative}
 
 Voor tijdgevoelige updates die betrekking hebben op [!DNL Adobe Target] en uw implementatie, verschaft [!DNL Adobe] gedetailleerde opmerkingen en documentatie bij de release via [!UICONTROL Experience League] . Hier volgen enkele belangrijke punten die relevant zijn voor uw implementatie:
 
 ### Veroudering van interfaceversie [!DNL Target] in-/uitschakelen
 
-Voor meer informatie, zie [[!DNL Target]  UI update FAQs &#x200B;](/help/main/c-intro/updated-ui-faq.md).
+Voor meer informatie, zie [[!DNL Target]  UI update FAQs ](/help/main/c-intro/updated-ui-faq.md).
 
-## [!DNL Target Standard/Premium] 25.9.3 (30 september 2025)
+## [!DNL Target Standard/Premium] 25.10.1 (22 oktober 2025)
 
-Deze versie bevat de volgende verbeteringen en oplossingen.
+Deze release bevat de volgende updates en oplossingen:
 
-+++[!UICONTROL Audiences]
+**Activiteiten**
 
-* **de uitsluitingsregels van het publiek werden verkeerd getoond als opneming in [!DNL Target] UI.** Met uitsluitingsregels geconfigureerde soorten publiek werden als onderdeel van de bewerking voor het maken van doelen in een activiteit weergegeven. Hoewel de uitsluitingslogica correct werd toegepast tijdens uitvoering, slaagde UI er niet in de regel correct te weerspiegelen, die het &quot;exclusief&quot;etiket weglaat. In de gebruikersinterface van [!DNL Target] worden nu correct uitsluitingsregels weergegeven in zowel publieksconfiguratie als doelworkflows, zodat duidelijke en consistente instellingen voor de campagne mogelijk zijn. (TGT-53808)
-* **de [!UICONTROL Targeting] sectie gaf niet aan dat een publieksregel werd geplaatst om uit te sluiten.** Met uitsluitingslogica geconfigureerde soorten publiek werden onjuist weergegeven als onderdeel van de sectie [!UICONTROL Targeting] van de interface voor het maken van activiteiten. Hoewel de backend correct de uitsluitingsregel toepaste, slaagde UI er niet in om het visueel te vertegenwoordigen, die het etiket &quot;uitsluiten&quot;weglaten en verwarring tijdens campagneopstelling veroorzaken. In de sectie [!UICONTROL Targeting] worden nu duidelijk uitsluitingsregels weergegeven, zodat de configuratie van de doelgroep consistent is en de visualisatie wordt afgestemd. (TGT-53809)
-
-+++
-
-+++Lokalisatie
-
-* **Vaste een terminologische inconsistentie in de Vereenvoudigde Chinese vertaling van &quot;Volledige detailmening.&quot;**
-Eerder werd de term &quot;Details&quot; onjuist vertaald als &quot;详 情&quot; in de landinstelling Vereenvoudigd Chinees (zh_CN), wat in strijd is met de gevestigde terminologierichtlijnen. Dit is gecorrigeerd naar &quot;详 细 信 息&quot; om consistentie met de termbase te waarborgen. (TGT-53741)
++++ Zie details
+* **Oplossing een bruikbaarheidskwestie in bijgewerkte UI**. [!UICONTROL Observers] kan nu een voorbeeld van activiteiten weergeven met de optie [!UICONTROL View Activity] , net als in de oudere gebruikersinterface. (TGT-51741)
+* **[!UICONTROL Observer]-gebruikers kunnen nu de inhoud van de activiteit weergeven in de bijgewerkte gebruikersinterface.** De zichtbaarheid van gebruikers met een observerrol in de bijgewerkte gebruikersinterface voor activiteiten is hersteld. Eerder konden waarnemers geen wijzigingen, aanbiedingen en wijzigingen in de inhoud weergeven, functionaliteit die beschikbaar was in de oudere gebruikersinterface. (TGT-53785)
+* **[!UICONTROL Approver]-gebruikers kunnen nu activiteitendoelen bewerken zonder fout met bevoegdheden in de editor.** Oplossing voor een machtigingsprobleem in de interface Activiteit creëren die gebruikers op niveau van fiatteurs verhinderde wijzigingen in geavanceerde doelinstellingen op te slaan. Betrokken gebruikers hebben een `403 Forbidden.Resource` -fout ontvangen waarvoor editorrechten vereist zijn, ondanks dat ze voldoende toegangsrechten hebben. (TGT-53819)
 
 +++
 
-+++[!UICONTROL Recommendations]
-
-* **de dozen van de Aanbeveling waren moeilijk om van en in VEC de plaats te bepalen.** Na het toevoegen van een adviesaanbieding in (VEC), klikte het klikken van de wijziging in het linkerpaneel niet of scrolde aan het overeenkomstige aanbevelingsvakje op de pagina. Hierdoor was het moeilijk om het aanbod te vinden en te bewerken, vooral als het onder kiezers is verborgen of minimaal is vormgegeven. Als u op een aanbevolen wijziging klikt, wordt het bijbehorende element gemarkeerd en naar het bijbehorende element geschoven. Hierdoor wordt de bruikbaarheid verbeterd en wordt de efficiëntie van het bijgewerkte proces voor het maken van activiteiten verbeterd. (TGT-52571)
-* **de selecteurs van de Aanbeveling werden verkeerd herschreven na het bewaren van een activiteit.** Wanneer het toevoegen van een aanbeveling aan een element in VEC, was selecteur aanvankelijk correct, maar na het bewaren van en het heropenen van de activiteit, veranderde het in een generische selecteur. Pogingen om de oorspronkelijke kiezer handmatig te herstellen, resulteerden in validatiefouten. De selecteurs van de aanbeveling blijven nu nauwkeurig na sparen, die betrouwbare het richten en editability in het bijgewerkte activiteit-creeert proces verzekeren. (TGT-53709)
-* **de inhoud van Criteria kon niet worden uitgegeven wanneer het wijzigen van een bestaande activiteit.** Tijdens het bewerken van een activiteit werd de sectie [!UICONTROL Criteria] -inhoud uitgeschakeld. De knoppen werden grijs weergegeven en reageren niet. Dit probleem is opgelost door ervoor te zorgen dat configuraties van [!UICONTROL Criteria] volledig bewerkbaar zijn tijdens het bijwerken van activiteiten. Klanten kunnen nu [!UICONTROL Criteria] -inhoud wijzigen zonder dat ze hoeven over te schakelen op andere selecties of tijdelijke oplossingen te gebruiken, waardoor ze flexibeler en bruikbaarder worden in het bijgewerkte activity-create proces. (TGT-53812)
-* **de Criteria konden niet binnen een activiteit worden uitgegeven.** De opties [!UICONTROL Edit Criteria] en [!UICONTROL Remove Criteria] zijn uitgeschakeld wanneer u criteria benadert vanuit een activiteit. Dezelfde criteria kunnen echter wel met succes worden bewerkt via het tabblad [!UICONTROL Recommendations] . De criteria kunnen nu volledig worden bewerkt, zowel vanuit de workflow voor bewerken van activiteiten als vanuit het tabblad [!UICONTROL Recommendations] . Hierdoor wordt een consistente en efficiënte bewerkingservaring gegarandeerd. (TGT-53814)
-
-+++
-
-+++[!UICONTROL Reports]
-
-* **producerend ad-hoc aanbiedingen in A [!UICONTROL utomated Personalization] activiteiten veroorzaakte rapporteringsinconsistenties.** Het gebruik van de functie Ad-hocaanbiedingen genereren in [!UICONTROL Automated Personalization] -activiteiten (AP) leidde tot onjuiste rapportage. De aanbod-id&#39;s zijn hergebruikt op verschillende locaties, waardoor rapportgegevens onjuist zijn toegewezen of worden overschreven. Ad-hoc aanbiedingen produceren nu met verschillende herkenningstekens per plaats, die nauwkeurige het volgen en het melden over alle gevormde ervaringen verzekeren. (TGT-53757)
-* **de rapporten van de Activiteit slaagden er niet in toe te schrijven aan een fout van JavaScript.** Klanten kregen een melding &quot;Er is iets fout gegaan&quot; tijdens het openen van het tabblad [!UICONTROL Reports] voor bepaalde activiteiten. De fout is veroorzaakt door een JavaScript-uitzondering: kan geen eigenschappen lezen van undefined (lezen &#39;indexOf&#39;), die worden geactiveerd tijdens de `getAnalyticsReportSummary` GraphQL-aanroep. Rapporten worden nu correct geladen en foutafhandeling is verbeterd om vergelijkbare fouten in de bijgewerkte workflow voor het maken van activiteiten te voorkomen. (TGT-53797)
-* **de Rapporten crashten na het in wisselwerking staan met scrollbar.** Wanneer u op de schuifbalk op het tabblad [!UICONTROL Reports] klikt, loopt de pagina vast, samen met een JavaScript-fout:
-  `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.` Rapporten worden nu correct geladen en geschoven zonder fouten of vastlopen te veroorzaken. (TGT-53828)
-* **de rapporten gaven niet primaire metrisch.** Primaire metrische waarde, die als omzettingsmetrisch gebruikend mbox wordt gevormd ontbrak in de activiteitenrapporten. Als u naar de naam van de metrische waarde of de box zoekt, heeft dit geen resultaat opgeleverd, zodat belangrijke prestatiegegevens niet zichtbaar zijn. De primaire meetgegevens worden nu correct weergegeven op het tabblad [!UICONTROL Reports] , zodat u de prestaties van de campagne nauwkeurig kunt bijhouden en analyseren. (TGT-53773)
-* **het [!UICONTROL Reports] lusje in bijgewerkte UI crashte wanneer het in wisselwerking staan met de horizontale rolbar.** De weergave van [!UICONTROL Reports] is periodiek vastgelopen met de fout &quot;Er is iets misgegaan&quot; wanneer de horizontale schuifbalk wordt gebruikt om metrische gegevens weer te geven als deze niet zichtbaar zijn. De schuifbalk werkt nu betrouwbaar, zodat klanten alle metriek kunnen bekijken en analyseren zonder dat er werkgrenzen nodig zijn, zoals uitzoomen of Shift-scroll. (TGT-53824)
-
-+++
-
-+++[!UICONTROL Visual Experience Composer] (VEC)
-
-* **klikkende broodkruimels in VEC niet constant tonen uitgeeft menu.**
-Als u HTML-elementen selecteert via de breadcrumbs in VEC (breadcrumbs), wordt het bewerkingsmenu soms niet weergegeven of verdwijnt het snel, waardoor de selectie van elementen onbetrouwbaar wordt. Het bewerkingsmenu wordt nu consistent weergegeven wanneer u navigeert via broodkruimels, waardoor de workflow voor het selecteren van elementen in het bijgewerkte activity-create proces wordt verbeterd. (TGT-52873)
-* **het contextmenu is periodiek er niet in geslaagd om in VEC te verschijnen.** Het contextmenu in de bijgewerkte VEC-gebruikersinterface werd niet altijd weergegeven wanneer u op elementen klikte, waardoor het moeilijk was om bewerkingsopties te openen. Het contextmenu wordt nu betrouwbaar weergegeven op basis van de selectie van elementen, waardoor de bewerkingsworkflow en de algemene bruikbaarheid in het bijgewerkte activity-create proces worden verbeterd. (TGT-53015)
-* **het contextmenu slaagde er niet in om voor bepaalde elementen in VEC te verschijnen.** Het contextmenu werd niet weergegeven wanneer u specifieke elementen in de bijgewerkte VEC selecteerde, waardoor het moeilijk was om wijzigingen toe te passen. Het contextmenu wordt nu consistent weergegeven voor alle ondersteunde elementen, waardoor de betrouwbaarheid en bruikbaarheid van de bewerkervaring in de bijgewerkte workflow voor het maken van activiteiten worden verbeterd. (TGT-53248)
-* **het menu van de Context verdween op de eerste klik wanneer het gebruiken van broodkruimels in VEC.** Door een bovenliggend element via de broodkruimels in VEC te selecteren, werd het contextmenu kort weergegeven en verdwenen het, waardoor het moeilijk werd om bewerkingsopties te openen. Het contextmenu blijft nu zichtbaar en functioneel wanneer u door elementen door broodkruimels navigeert, wat de betrouwbaarheid van de workflow voor elementselectie in het bijgewerkte activity-create proces verbetert. (TGT-53424)
-* **het contextmenu verscheen niet voor top-level elementen in VEC.** Het selecteren van elementen op hoofdniveau, zoals `<div>` - of `<main>` -tags, via de breadcrumbs in de VEC heeft het contextmenu niet geactiveerd, waardoor verdere bewerkhandelingen niet mogelijk zijn. Het contextmenu wordt nu consistent weergegeven voor alle ondersteunde elementen, inclusief containers op hoofdniveau, waardoor de workflow voor het maken van activiteiten flexibeler en gebruiksvriendelijker wordt. (TGT-53770)
-* **Elementen op een specifieke pagina waren niet editable in VEC.** Bepaalde elementen op de pagina kunnen niet worden geselecteerd of bewerkt in de bijgewerkte VEC. Deze uitgave is geïsoleerd voor die pagina en heeft geen invloed op andere pagina&#39;s binnen dezelfde account. Alle elementen op de pagina zijn nu selecteerbaar en bewerkbaar zoals u had verwacht, zodat de volledige functionaliteit van de workflow voor het maken van activiteiten wordt hersteld. (TGT-53353)
-* **verbeterde het werkschema wanneer het bekijken van kindelementen tijdens elementenselectie in VEC.** Om de bruikbaarheid en nauwkeurigheid tijdens het maken van activiteiten te verbeteren, geeft de VEC nu onderliggende elementen weer wanneer u de muisaanwijzer op een bovenliggend HTML-element plaatst of dit selecteert. Dankzij deze verbetering kunnen klanten de structuur van de pagina beter begrijpen en nauwkeurigere wijzigingen aanbrengen, waardoor de bewerkingsworkflow in de bijgewerkte gebruikersinterface wordt gestroomlijnd. (TGT-53416)
-* **Elementen in bestaande activiteiten konden niet worden uitgegeven gebruikend de wijzigingsbar.** Tijdens het bewerken van eerder gemaakte activiteiten kon de wijzigingsbalk niet worden geactiveerd voor bepaalde elementen op de pagina, waardoor updates werden voorkomen. Dit probleem werd voornamelijk in gewijzigde activiteiten waargenomen en was moeilijk te reproduceren in nieuw opgerichte activiteiten. De wijzigingsbalk geeft nu consistent alle ondersteunde elementen weer en staat het bewerken toe, waardoor de betrouwbaarheid en bruikbaarheid in de bijgewerkte workflow voor het maken van activiteiten worden verbeterd. (TGT-53013)
-
-+++
-
-+++[!UICONTROL Workspaces]
-
-* **het Klonen van een activiteit aan een verschillende werkruimte teweegbracht een &quot;Ongeldige fout van de Input van de Gebruiker&quot;teweeg.** Als u een activiteit probeert te klonen van de ene werkruimte naar de andere, is er een fout opgetreden: &quot;InvalidProperty.Json - Unrecognized property name &#39;content&#39;. Dit probleem is veroorzaakt door een onjuiste verwerking van metagegevens over activiteiten tijdens het klonen. De activiteiten kunnen nu met succes over werkruimten worden gekloond zonder bevestigingsfouten teweeg te brengen, die vlottere werkschema&#39;s van de activiteitenplaatsing verzekeren. (TGT-53731 &amp; TGT-53736)
-
-+++
-
-## [!DNL Target Standard/Premium] 25.9.2 (22 september 2025)
-
-Deze release bevat de volgende correcties en verbeteringen:
-
-**[!UICONTROL Audiences]**
+**Soorten publiek**
 
 +++Zie details
-* **Vaste een kwestie waar de activiteiten niet wegens ongeldige publiek IDs konden worden gekopieerd.** Klanten die activiteiten in het bijgewerkte activity-create proces proberen te kopiëren, hebben een fout aangetroffen die wordt veroorzaakt door ongeldige gebruikers-id&#39;s (bijvoorbeeld -1752722444307). Door dit probleem van backend-validatie zijn dubbele activiteiten binnen dezelfde werkruimte voorkomen. Dit probleem is opgelost en activiteiten kunnen nu met succes worden gekopieerd zonder publieksfouten. (TGT-53717)
-* **verholpen een kwestie waar de ongeldige fouten van de gebruikersinput voor activiteit-slechts publiek in [!UICONTROL Automated Personalization] activiteiten [!UICONTROL Manage Content] modaal verschenen.** Klanten ondervonden ongeldige fouten bij gebruikersinvoer tijdens het configureren van alleen-activiteit publiek in het modaal [!UICONTROL &#x200B; Manage Content] voor AP-activiteiten. Dit probleem is opgetreden ondanks het feit dat het publiek voorheen correct werd gebruikt. Gecombineerde publieksconfiguraties besparen nu correct zonder validatiefouten te veroorzaken. (TGT-53749)
+* **de Selectie van het multi-publiek die in &quot;Deze activiteit slechts&quot;wordt teruggezet het Melden.** Oplossing voor een probleem in de interface Activiteit maken dat ervoor zorgde dat gebruikers niet meerdere soorten publiek konden selecteren onder de sectie [!UICONTROL This activity only] in [!UICONTROL Goals & Settings] . (TGT-53283)
+* **op publiek-gebaseerde rapporteringsgrafieken tonen nu correct omzettingsgegevens.** Oplossing voor een probleem op het tabblad [!UICONTROL Reports] dat ertoe heeft geleid dat grafieken zijn mislukt bij het selecteren van niet-standaardsoorten publiek. Hoewel gegevens en betrouwbaarheidsmetriek beschikbaar waren, toonde de visuele grafiek slechts een stevige lijn, die analyse bemoeilijkt. (TGT-53769)
+* **UI wijst nu duidelijk op uitgesloten publieksregels. [!UICONTROL Targeting]** Oplossing voor een probleem in de sectie [!UICONTROL Targeting] van de sectie Activity Create UI dat ertoe leidde dat de publieksregels die op [!UICONTROL Exclude] waren ingesteld, niet duidelijk werden weergegeven. Dit heeft tot verwarring geleid bij het controleren van de logica voor doelgroepen, met name voor doelgroepen die specifieke URL&#39;s uitsluiten. (TGT-53809)
+* **de definitiewaarden van de Publiek nu selecteerbaar en copyable in [!UICONTROL Targeting] tabel.** Oplossing voor een probleem in de interface Activiteit maken dat ervoor zorgde dat gebruikers geen waarden voor de publieksregel konden selecteren en kopiëren op het tabblad [!UICONTROL Targeting] . Deze functionaliteit was beschikbaar in de oudere gebruikersinterface, maar ontbreekt in de bijgewerkte gebruikersinterface. (TGT-53856)
 
 +++
 
-**Documentatie**
+**Localization**
 
 +++Zie details
-* **Verplaatste doel-specifieke de documentatiepagina&#39;s van SDK van het Web naar de bewaarplaats van Adobe Target.** Als deel van de de documentatieherstructurering van SDK van het Web, [!DNL Target] - specifieke inhoud is gemigreerd van de algemene documenten van SDK van het Web aan de [!DNL Adobe Target] [&#x200B; gids van de Ontwikkelaar &#x200B;](https://experienceleague.adobe.com/nl/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Deze verandering verbetert inhoudsontdekkingsbaarheid en zorgt ervoor dat oplossing-specifieke begeleiding door het aangewezen productteam wordt gehandhaafd. (TGT-53374)
+* **Correcteerde vertaling van &quot;citaat&quot;in de context van de zh_CN paginaredacteur.** Correctie van een contextuele vertaalfout in de landinstelling zh_CN waar de term &quot;quote&quot; onjuist is vertaald als &quot;报 价&quot;, wat een commercieel prijsopgave impliceert. In de sectie Typografie > Kopstijl > Blockquote verwijst de bedoelde betekenis naar een opmaakelement (prijsblok voor aanhalingstekens) en niet naar de prijs. (TGT-53841)
+* **Correcteerde vertaling van &quot;geschrapt citaat&quot;in zh_CN context van de paginaredacteur.** Correctie van een vertaalfout in de landinstelling zh_CN waar &quot;quote verwijderd&quot; onjuist is weergegeven als &quot;移 除 报 价&quot;, wat een commercieel prijsopgave impliceert. In de sectie Typografie > Kopstijl > Blockquote verwijst de term naar een opmaakelement (prijsblok voor aanhalingstekens) en niet naar de prijsaanduiding. (TGT-53843)
+* **Correcteerde vertaling van &quot;citaat herschikte&quot;in de context van de paginageditor zh_CN.** Correctie van een contextafhankelijke vertaalfout in de landinstelling zh_CN waarbij &quot;quote herschikt&quot; onjuist werd vertaald als &quot;重 排 列 了 价&quot;, wat een commerciële prijsopgave impliceert. In de sectie Typografie > Kopstijl > Blockquote verwijst de term naar een opmaakelement (prijsblok voor aanhalingstekens) en niet naar de prijsaanduiding. (TGT-53844)
+* **Correcteerde vertaling van &quot;citaat veranderde&quot;in de context van de zh_CN paginaredacteur.** Correctie van een vertaalfout in de landinstelling zh_CN waar &quot;prijswijziging&quot; onjuist is weergegeven als &quot;更 改 报 价&quot;, wat een commerciële prijsopgave suggereert. In de sectie Typografie > Kopstijl > Blockquote verwijst de term naar een opmaakelement (prijsblok voor aanhalingstekens) en niet naar de prijsaanduiding. (TGT-53845)
 
 +++
 
-**[!UICONTROL Offer Decisions]**
+**Aanbevelingen**
 
 +++Zie details
-* **de optie van het Besluit van de aanbieding nu constant zichtbaar tijdens aanvankelijke activiteitenverwezenlijking.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface waarbij de optie [!UICONTROL Offer Decision] niet werd weergegeven tijdens de eerste aanmaakstroom voor A/B-activiteiten, met name als deze optie wordt geopend in de incognitomodus bij huurders waarvoor de optie Aanbiedingsbesluiten is ingeschakeld. De optie werd alleen weergegeven nadat u naar de stap [!UICONTROL Targeting] ging en weer terug naar [!UICONTROL Experiences] . Deze correctie zorgt ervoor dat de optie [!UICONTROL Offer Decision] direct beschikbaar is tijdens de eerste installatie, waardoor de bruikbaarheid wordt verbeterd en verwarring wordt verminderd. (TGT-51888)
-
-+++
-
-**[!UICONTROL Offers]**
-
-+++Zie details
-* **Oplossing voor een probleem waarbij omleidingsvoorstellen `redirectOptions` niet in de payload hadden opgenomen wanneer `includeContent=true` .** Klanten die omleidingsvoorstellen ophalen met `includeContent=true ` ontbraken het veld `redirectOptions` in de antwoordlading. Deze inconsistentie beïnvloedde werkstromen, zoals het aanbieden kopiëren en het creëren van activiteit. Omleidingsvoorstellen bevatten nu correct `redirectOptions` wanneer inhoud wordt aangevraagd. (TGT-53737)
-
-+++
-
-**[!DNL Recommendations]**
-
-+++Zie details
-* **klik het volgen herstelde voor [!UICONTROL Recommendations] activiteiten die in bijgewerkte UI worden gecreeerd.** Oplossing voor een probleem waarbij [!UICONTROL Recommendations] -activiteiten die in de bijgewerkte gebruikersinterface zijn gemaakt, kliktracking niet konden registreren. Dit leidde tot nul gerapporteerde conversies. De activiteiten die in de erfenis UI worden gebouwd volgden correct kliks en rapporteerden omzettingen zoals verwacht. Deze correctie zorgt ervoor dat de activiteiten van Aanbevelingen die in de bijgewerkte UI worden gecreeerd nu de correcte volgende attributen omvatten, herstellend omzetting rapportering en groepering met metriek A4T. (TGT-53287)
-* **klik het volgen hersteld voor de activiteiten van de Aanbeveling.** Oplossing voor een probleem waarbij [!UICONTROL Recommendations] -activiteiten die in de bijgewerkte gebruikersinterface zijn gemaakt, kliktracking niet konden registreren. Dit leidde tot nul gerapporteerde conversies. De oudere UI paste correct een volgende identiteitskaart (`at-track-click`) op [!UICONTROL Recommendations] inhoud toe, terwijl bijgewerkte UI per ongeluk placeholder (`__recsClickTrackIdPlaceholder__`) opnam, verhinderend achterste het volgen. Met deze correctie zorgt u ervoor dat [!DNL Recommendations] -inhoud nu de juiste tracking-id bevat en dat de conversierapportage en de uitlijning met A4T-meetgegevens worden hersteld. (TGT-53496)
-* **de redacteur van de Inzameling crashte in bijgewerkte UI.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface van [!UICONTROL Visual Experience Composer] (VEC) waarbij het openen van een verzameling in het deelvenster Editor ertoe heeft geleid dat de pagina vastliep met een TypeError: Kan de eigenschappen van undefined niet lezen (met &#39;customLocale&#39;). Deze fout is opgetreden bij meerdere typen activiteit, waaronder [!UICONTROL Recommendations] - en A/B-tests. (TGT-53703)
-* **Optie om geselecteerde inzameling te verwijderen die in VEC wordt hersteld.** Oplossing voor een probleem in de VEC waarbij gebruikers een geselecteerde verzameling alleen in een [!UICONTROL Recommendations] -activiteit konden vervangen, maar dit niet volledig konden verwijderen. Door deze beperking werden gebruiksgevallen geblokkeerd die een schone verwijdering van de collectie zonder vervanging vereisen. Deze correctie introduceert een duidelijke optie om de geselecteerde inzameling te verwijderen, die grotere flexibiliteit in activiteitenopstelling en groepering met verouderd gedrag UI toestaat. (TGT-53652)
-* **de de criteria van de Douane inzamelingen tonen nu correct in [!UICONTROL Recommendations] UI.** Oplossing voor een probleem in de interface Aanbevelingen waarbij verzamelingen die zijn gemaakt op basis van aangepaste criteria, de productresultaten niet konden weergeven. Terwijl de standaard op attribuut-gebaseerde inzamelingen zoals verwacht werkten, die douanefilters gebruikten &quot;Geen Resultaten die&quot;ondanks geldige catalogusgelijken terugkwamen. Deze correctie zorgt ervoor dat verzamelingen die aangepaste kenmerken gebruiken, nu correct worden gevuld op het tabblad [!UICONTROL Product] en dat de volledige functionaliteit voor workflows met gepersonaliseerde aanbevelingen wordt hersteld. (TGT-53653)
-* **verholpen een kwestie waar de inzamelingen geen producten toen eerste het openen van de [!UICONTROL Products] pagina tonen.** Klanten die in de sectie [!UICONTROL Recommendations] verzamelingen openen, hebben lege productresultaten ervaren bij het openen van de pagina [!UICONTROL Products] . Dit probleem is veroorzaakt door een backendfout in de GraphQL-query, die productgegevens voor verzamelingen met aangepaste criteria niet heeft geladen. Het probleem is opgelost en producten worden nu correct weergegeven zonder dat het omschakelen naar een andere omgeving vereist is. (TGT-53694)
-* **verholpen een kwestie waar de inzamelingen niet in op vorm-gebaseerde [!UICONTROL Recommendations] activiteiten konden worden verwijderd.** Klanten die [!UICONTROL Recommendations] -activiteiten maken met [!UICONTROL Form-Based Experience Composer] , kunnen de selectie van een eerder gekozen verzameling niet opheffen. In de gebruikersinterface moest een verzameling worden geselecteerd voordat deze kon worden opgeslagen, zodat gebruikers niet konden terugkeren naar &quot;Alle verzamelingen&quot;. Dit gedrag is bijgewerkt om de functionaliteit aan te passen VEC, toestaand klanten om zonder een geselecteerde inzameling te bewaren en het gebrek aan &quot;Alle Verzamelingen&quot;zoals verwacht. (TGT-53708)
-* **Vaste een kwestie waar de bevorderingen niet door attribuut wegens ontbrekende inzameling of het filtreren regelwaarden konden worden geplaatst.** Klanten die bevorderingen door attribuut in activiteit-creeren proces vormden ondervonden een fout verklarend dat een bevordering of een inzamelingsidentiteitskaart of het filtreren regelwaarden mist. Deze validatie blokkeerde progressie, zelfs als de installatie volledig leek. De bevorderingen kunnen nu met succes worden bewaard wanneer gevormd door attribuut. (TGT-53750)
-* **verholpen een kwestie waar de activiteiten niet wegens dubbele ervaringsnamen konden worden bewaard.** Klanten hebben een ongeldige fout met gebruikersinvoer aangetroffen bij het opslaan van activiteiten die specifieke combinaties van criteria en ontwerpen bevatten. De fout werd teweeggebracht door dubbele ervaringsnamen, zelfs toen de opstelling geldig leek. Activiteiten met verschillende configuraties kunnen nu worden opgeslagen zonder conflicten te benoemen. (TGT-53805)
-* **Vaste een kwestie waar de bevestiging ongeldig bleef voor bevorderingen die door attribuut worden gevormd.** Klanten stuitten permanente validatiefouten bij het instellen van promoties per kenmerk tijdens het maken van activiteiten, zelfs als alle vereiste velden correct zijn ingevuld. Dit probleem is veroorzaakt door onjuiste validatielogica in de [!UICONTROL Recommendations] -workflow. Op kenmerken gebaseerde promoties valideren en opslaan nu naar behoren. (TGT-53811)
-* **Oplossing een kwestie waar het toepassen van een bevordering op een levende [!UICONTROL Recommendations] activiteit een fout teweegbracht.** Klanten vonden de fout &quot;Een Bevordering mist of een identiteitskaart van de Inzameling of het filtreren regelwaarden&quot;wanneer het proberen om een voorbevordering op een levende [!UICONTROL Recommendations] activiteit toe te passen, zelfs na het verstrekken van geldige configuratiedetails. Promoties kunnen nu met succes worden toegepast op live-activiteiten zonder validatiefouten te veroorzaken, zodat de bijgewerkte interface voor het maken van activiteiten vloeiender wordt. (TGT-53738)
-* **verholpen een kwestie waar de producten niet zichtbaar in inzamelingen binnen [!UICONTROL Recommendations] UI waren.** Klanten van één huurder hebben gemeld dat productlijsten niet konden worden geladen wanneer ze bepaalde verzamelingen in het gedeelte [!UICONTROL Recommendations] van de nieuwe gebruikersinterface konden weergeven. Het probleem is tijdelijk opgelost door van omgeving te veranderen, maar dit probleem heeft tot een slechte gebruikerservaring geleid. Productentiteiten worden nu consistent geladen zonder dat omgevingsschakelingen vereist zijn. (TGT-53783)
-* **Vaste een kwestie waar de criteria en de ontwerpen niet op één lijn in activiteit-creeer UI werden getoond.** Eerder werden criteria en ontwerpen in het activity-create proces weergegeven in een gecomprimeerde indeling, waardoor het voor klanten moeilijk was om afzonderlijke items weer te geven en te beheren. Elk criterium en ontwerp worden nu op een eigen regel weergegeven, waardoor de leesbaarheid en bruikbaarheid in de bijgewerkte gebruikersinterface worden verbeterd. (TGT-53818)
+* **CSS selecteerveranderingen voor aanbevelingen bewaren nu correct.** Oplossing voor een probleem in de gebruikersinterface voor het maken van activiteiten dat ervoor zorgde dat gebruikers de CSS-kiezer niet konden bijwerken voor aanbevelingen. Wijzigingen zijn na het opslaan ongedaan gemaakt, zodat updates voor het aanwijzen van containers worden geblokkeerd. (TGT-53835)
+* **de gebeurtenisselectie van de ladingsgebeurtenis van de Pagina blijft nu in aanbevelingen wijzigingen.** Oplossing voor een probleem in de gebruikersinterface voor het maken van activiteiten waardoor gebruikers geen wijzigingen konden opslaan wanneer ze het gebeurtenistype van een aanbeveling van [!UICONTROL View] naar [!UICONTROL Page Load] schakelden. Hoewel de selectie succesvol leek, werd deze hersteld nadat was genavigeerd en de publicatie van de activiteit werd geblokkeerd. (TGT-53957)
 
 +++
 
 **Rapporten**
 
 +++Zie details
-* **[!UICONTROL Total Revenue]is nu opgenomen in CSV-exportbewerkingen van activiteitenrapporten.** Oplossing voor een probleem in de bijgewerkte [!UICONTROL Overview] UI waarbij de totale opbrengsten correct werden weergegeven in de weergave Activiteitenrapport, maar die ontbraken in de CSV-export, met $0. Door deze discrepantie konden gebruikers niet vertrouwen op geëxporteerde gegevens voor offline analyse en rapportage. (TGT-53325)
-* **[!UICONTROL Total Sales]is nu opgenomen in CSV-exportbewerkingen van activiteitenrapporten.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface waarin [!UICONTROL Total Sales] correct werd weergegeven in de weergave Activiteitenrapport, maar dat niet aanwezig was in de CSV-export. Door deze discrepantie hebben gebruikers geen toegang tot volledige prestatiegegevens in gedownloade rapporten. Deze correctie zorgt ervoor dat [!UICONTROL Total Sales] -waarden nu op de juiste wijze worden opgenomen in CSV-export, zodat de consistentie tussen in-app-rapportage en offline-analyse wordt hersteld. (TGT-5330)
-* **Verbeterd foutenoverseinen voor [!UICONTROL Graph View] wanneer de metriek niet worden toegelaten.** Oplossing voor een probleem in de VEC waarbij [!UICONTROL Graph View] een algemeen bericht &#39;Er is iets fout gegaan&#39; weergaf wanneer een gevraagde metrische waarde niet was ingeschakeld in de bijbehorende [!DNL Analytics] rapportsuite. Dit probleem is veroorzaakt door een `not_enabled_metric` -fout in het GraphQL-antwoord op de achtergrond. Deze correctie vervangt de vage fout door een informatieve boodschap die gebruikers helpt configuratieproblemen in [!DNL Analytics] te identificeren, die verwarring en onnodige ondersteuningsescalaties verminderen. (TGT-53577)
-* **Vaste een kwestie waar de rapportduur de gesteunde grens van 90 dagen overschreed.** Klanten die het filter &quot;[!UICONTROL Last X Days]&quot; in de sectie [!UICONTROL Reports] gebruiken, konden een langere periode dan 90 dagen selecteren, wat tot prestatieproblemen en onvolledige gegevens kon leiden. Het filter is bijgewerkt om een maximumbereik van 90 dagen te handhaven, zodat consistente en betrouwbare rapportage wordt gegarandeerd. (TGT-53795)
-* **Vaste een kwestie waar de prestatiesCSV rapporten werden geproduceerd gebruikend het standaardmilieu in plaats van geselecteerde.** Eerder, toen klanten de omgeving in rapportinstellingen veranderden en een prestatierapport genereerden, bevatte de resulterende CSV gegevens van de standaardomgeving in plaats van de geselecteerde.  De gebruikersinterface geeft nu correct de parameter `environmentId` door, zodat in het rapport de gekozen omgeving wordt weergegeven. Bovendien is de foutafhandeling verbeterd. Als GraphQL-fouten optreden tijdens het genereren van CSV-bestanden, wordt in de gebruikersinterface nu een duidelijk foutbericht weergegeven in plaats van een leeg CSV-bestand te maken. (TGT-53064)
-* **verholpen een kwestie waar de Analytics voor Doel (A4T) het melden er niet in slaagde om gegevens in [!UICONTROL Graph View] te tonen.** Klanten die [!DNL Target] met integratie A4T gebruiken ondervonden een fout &quot;Er is iets fout gegaan&quot;toen het schakelen naar de Mening van de Grafiek op het lusje van de Rapportering van A/B testactiviteiten. Hoewel [!UICONTROL Table View] correct is geladen, kon [!UICONTROL Graph View] geen metrische trends renderen over het geselecteerde tijdbereik. [!UICONTROL Graph View] geeft nu de verwachte prestatiegegevens weer voor alle ondersteunde metingen, waardoor de zichtbaarheid en de rapportnauwkeurigheid in de bijgewerkte gebruikersinterface worden verbeterd. (TGT-53573)
+* **&quot;[!UICONTROL Export order details to CSV]&quot;downloadt nu volledige gegevens.** Oplossing voor een probleem in de bijgewerkte [!UICONTROL Overview] UI dat ertoe leidde dat de optie &quot;[!UICONTROL Export Order details to CSV]&quot; lege bestanden downloadde, zelfs als er geldige rapportgegevens aanwezig waren. (TGT-53787)
+
++++
+
+**Veiligheid**
+
++++Zie details
+* **IMS prefilter die wordt toegevoegd om GQL eindpunten tegen dwars-org gegevensblootstelling te beschermen.** Oplossing voor een beveiligingskwetsbaarheid op het tabblad Beheer die invloed heeft op de GraphQL-eindpunten licensegroups en targetProperties. Het probleem is ontstaan door het gebruik van de JIL API met een beheerdersclient-token dat kan worden gebruikt om toegang te krijgen tot productgegevens op verschillende platformen. (TGT-53837)
 
 +++
 
 **Visuele Composer van de Ervaring (VEC)**
 
 +++Zie details
-* **de meta-gegevens van het Element is nu zichtbaar op omslag in het broodkruimelmenu.** Het menu breadcrumb in de VEC is verbeterd en bevat nu meer elementdetails, zoals id, klasse en naam wanneer u de muisaanwijzer op een item plaatst. Deze verbetering helpt gebruikers elementen gemakkelijker identificeren en onderscheiden tijdens activiteitenopstelling. (TGT-53409)
-* **Breadcrumb hover benadrukt nu het overeenkomstige element in VEC.** Verbeterd [!UICONTROL Visual Experience Composer] om het overeenkomende element in de editor te markeren wanneer u de muisaanwijzer op items in het menu breadcrumb plaatst. Het elementtype wordt ook weergegeven, zoals container, vette tekst of knop. Dit gedrag is van toepassing op elementen op hetzelfde niveau en sluit niet-ondersteunde typen uit, zoals SVG, op basis van de validatielijst. (TGT-53411)
-* **Unsaved veranderingsalarm die in de veranderingswerkschema&#39;s wordt hersteld VEC.** Oplossing voor een probleem in de VEC waarbij gebruikers niet meer op de hoogte werden gesteld van niet-opgeslagen wijzigingen in aangepaste codewijzigingen. In tegenstelling tot de oudere UI, ontbrak de nieuwe ervaring herinneringen wanneer het navigeren weg of het sluiten van de verpersoonlijkingsredacteur, die tot toevallig verlies van vooruitgang leidde. Met deze correctie worden waarschuwingen voor alle wijzigingstypen, inclusief aangepaste code, hersteld en wordt ervoor gezorgd dat gebruikers worden gewaarschuwd voordat ze afsluiten zonder op te slaan. (TGT-53435).
-* **de codeveranderingen van de Douane blijven nu tijdens pagina verfrissen in VEC.** Oplossing voor een probleem in de VEC waarbij wijzigingen in aangepaste code verloren gingen tijdens het vernieuwen van de website. Dit probleem is opgetreden op pagina&#39;s met meerdere herladingen, waardoor de editor niet-opgeslagen wijzigingen opnieuw kon instellen en herstellen. De correctie zorgt ervoor dat aangepaste codebewerkingen intact blijven, zelfs als de pagina tijdens het bewerken opnieuw wordt geladen, zodat er geen onbedoeld verlies van voortgang optreedt. (TTGT-53501)
-* **Login probleem dat voor plaatstoegang binnen VEC wordt opgelost.** Oplossing voor een probleem waarbij gebruikers zich niet konden aanmelden bij hun site terwijl ze deze via de VEC opvroegen. De aanmeldstroom heeft gebruikers herhaaldelijk omgeleid naar de aanmeldingspagina, waardoor het instellen en voorvertonen van activiteiten niet mogelijk is. Deze moeilijke situatie zorgt ervoor dat VEC niet meer met login gedrag interfereert, die verwachte toegang voor voor authentiek verklaarde gebruikers herstellen. (TGT-53524)
-* **de kwestie van de duplicaties van het Koekje die in uitbreiding VEC Helper wordt opgelost.** Oplossing voor een probleem waarbij de [!UICONTROL Adobe Experience Cloud Visual Editing Helper] -extensie het `at_qa_mode` -cookie tijdens QA dupliceerde via voorbeeldkoppelingen. Wanneer handmatig van voorvertoningsindexen wordt gewisseld, zijn er meerdere cookies gemaakt met conflicterende waarden in verschillende domeinen, zodat testers niet op betrouwbare wijze van variant kunnen wisselen. Dit gedrag werd zelfs buiten de interface van het Doel waargenomen en beïnvloedde zowel interne als cliëntrekeningen. Deze oplossing zorgt voor een consistente verwerking van cookies door dubbele vermeldingen te voorkomen en het domeinbereik uit te lijnen, zodat u naadloze variantschakelingen kunt uitvoeren zonder handmatig cookie op te ruimen. (TGT-53579)
-* **Vaste een kwestie waar het klikken van elementen op een bepaalde homepage geheugenlekken veroorzaakte.** Klanten die activiteiten op deze website maken, hebben geheugenlekken ervaren tijdens het werken met pagina-elementen. De kwestie werd verbonden aan bovenmatige consolewaarschuwingen en stijgend geheugengebruik in subframes, met name met betrekking tot misvormde prijszetattributen. Geheugengebruik blijft nu stabiel tijdens interactie. (TGT-53761)
-* **Vaste een kwestie waar VEC vastliep en een leeg scherm toonde toen het laden van bepaalde activiteiten.** Klanten van een specifieke huurder hebben gemeld dat de editor specifieke activiteiten niet heeft geladen. De VEC bleef vastzitten op &quot;Aanvankelijke wijzigingen toepassen&quot; alvorens te crashen en een leeg scherm te tonen. De VEC laadt nu betrokken activiteiten zonder fouten in het bijgewerkte activity-create proces. (TGT-52932)
-* **Oplossing voor een probleem waarbij de [!UICONTROL Manage Content] rail in [!UICONTROL Automated Personalization] -activiteiten inconsistente plaatslabels weergeven.** Klanten hebben gemeld dat in de [!UICONTROL Manage Content] -rail onjuist overeenkomende locatienummers op de tabbladen [!UICONTROL Experiences] en [!UICONTROL Offers] werden weergegeven. (bijvoorbeeld, Plaats 2 en Plaats 4 in Ervaring, en Plaats 1 en Plaats 2 in Aanbieding) zelfs wanneer slechts twee plaatsen werden gevormd. De etiketten van de plaats zijn nu verenigbaar en nauwkeurig in kaart gebracht aan wijzigingen, die helderheid en bruikbaarheid in activiteit-creeer proces verbeteren. (TGT-52934)
-* **Vaste een kwestie waar de wijzigingen in VEC na sparen werden verloren.** Klanten hebben gemeld dat de pagina na het opslaan van een wijziging in de VEC zou worden vernieuwd en de wijziging zou terugkeren naar de vorige versie. Dit probleem heeft ertoe geleid dat de meest recente updates verloren zijn gegaan, tenzij de volledige activiteit onmiddellijk werd opgeslagen. Wijzigingen blijven nu correct na het opslaan behouden en de editor keert wijzigingen niet meer onverwacht terug, zodat een betrouwbare ervaring in de workflow voor het maken van activiteiten wordt gegarandeerd. (TGT-53500)
-* **Verbeterde elementselectie in VEC door elementtype op te tonen over aanwijzen en selectie.** Om de bruikbaarheid tijdens het maken van activiteiten te verbeteren, simuleert VEC nu HTML-elementen met het type wanneer deze worden aangeroepen of geselecteerd. Deze verbetering helpt klanten gemakkelijker de correcte elementen identificeren en selecteren. Geselecteerde elementen worden gemarkeerd met een duidelijke kleur en aangehechte elementen worden omlijnd in blauw. Het elementtype wordt ook weergegeven, zodat de context tijdens het bewerken duidelijker wordt. (TGT-53502)
-
-+++
-
-## DataStream-updates (19 september 2025)
-
-De combinatie van gegevensstroom-id en sandbox moet uniek zijn voor [!DNL Adobe Target] -doelverbindingen.
-
-Bijgewerkte validatielogica voor [!DNL Target] -doelverbindingen om te zorgen dat de combinatie van de gegevensstroom-id en de naam van de sandbox uniek moet zijn binnen een IMS-organisatie. Dit betekent:
-
-* Dezelfde gegevensstroom-id + naamcombinatie van sandbox kan niet opnieuw worden gebruikt via meerdere [!DNL Target] doelverbindingen.
-* Dezelfde gegevensstroom-id kan alleen voor verschillende verbindingen worden gebruikt als deze in verschillende sandboxen zijn geconfigureerd.
-* Deze regel is van toepassing op alle gegevensstroomselecties, ook wanneer Geen is geselecteerd.
-
-Deze update zorgt voor een consistente configuratie en voorkomt conflicten in omgevingen met meerdere sandboxen. Voor meer informatie, zie [&#x200B; verbinding van Adobe Target &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} in de *3&rbrace; gids van de Doelen van Experience Platform &lbrace;.*
-
-## [!DNL Target Standard/Premium] 25.9.1 (5 september 2025)
-
-Deze release bevat de volgende updates en oplossingen:
-
-**[!UICONTROL Experience Fragments]**
-
-+++Zie details
-* **Verbeterde gebruikerstoewijzing voor [!UICONTROL AEM Experience Fragment] aanbiedingen.** Oplossing voor een probleem in VEC waarbij het veld [!UICONTROL Last updated] voor [!UICONTROL AEM Experience Fragment] (XF) een code-id onjuist weergeeft in plaats van de gebruikersnaam. Deze discrepantie kwam tijdens aanbiedingsselectie in bijgewerkte UI voor, die tot inconsistentie met de erfenis UI en aanbiedingen van HTML leidt, die correct de naam van de laatste redacteur toonde. Deze correctie zorgt voor consistente toewijzing van gebruikers over aanbiedingstypen, waardoor de transparantie en de uitlijning met het verwachte gedrag worden verbeterd. (TGT-52880 &amp; TGT-52898)
-
-+++
-
-**Offer Decisioning**
-
-+++Zie details
-* **de fout van het Besluit van de Aanbieding wordt opgelost voor de aanbiedingen van ODE.** Oplossing voor een probleem waarbij ODE-aanbiedingen (Offer Decision Engine) die via [!DNL Target] zijn geïnjecteerd, een fout van 400 hebben geretourneerd omdat metagegevens over indelingen ontbreken. Het foutbericht geeft aan dat het MIME-type null is, waardoor succesvolle verwerking van biedingsbesluiten wordt voorkomen. Deze oplossing zorgt voor een juiste verwerking van de metagegevens van de aanbieding, herstelt functionaliteit voor levering van gepersonaliseerde inhoud en maakt het mogelijk dat marketingcampagnes zonder onderbreking worden uitgevoerd. (TGT-53635)
-* **ODS biedt het teruggeven probleem opgelost aan.** Het volgende probleem is opgelost: [!DNL Offer Decision Service] (ODS)-aanbiedingen die via [!DNL Adobe Journey Optimizer] (AJO) zijn gemaakt, worden niet gerenderd wanneer activiteiten met behulp van de VEC in de bijgewerkte gebruikersinterface zijn gemaakt. Dezelfde configuratie werkte correct in de oudere gebruikersinterface, wat tot verwarring en een geblokkeerde uitvoering van de campagne leidde. Deze oplossing zorgt voor een consistente levering van de aanbieding in beide gebruikersinterfaceversies en herstelt het verwachte gedrag voor AJO-gedreven personalisatie.
-
-+++
-
-**Rapporten**
-
-+++Zie details
-* **optie van de Download wordt hersteld in rapportensectie van de bijgewerkte overzichtsUI van Rapporten.** Oplossing voor een probleem in de nieuwe interface voor het overzicht waarin de knop [!UICONTROL Download] ontbreekt in de sectie Rapporten, zodat gebruikers geen scores voor kenmerkbelang kunnen exporteren. Deze update herstelt de volledige exportfunctionaliteit, waardoor gestroomlijnde toegang tot downloadbare gegevens voor analyse en rapportage mogelijk is. (TGT-53222)
-* **[!UICONTROL Download full CSV report]wordt hersteld in de weergave [!UICONTROL Important attributes] .** Oplossing voor een probleem in de bijgewerkte interface voor het maken van activiteiten waarbij de knop [!UICONTROL Download full CSV report] ontbreekt in de sectie [!UICONTROL Important Attributes] in de rapportweergave. Met deze oplossing herstelt u de toegang tot downloadbare inzichten en zorgt u voor consistente functionaliteit voor zowel de bijgewerkte als de verouderde gebruikersinterface. (TGT-53238)
-* **Opgeloste kwesties UI die [!UICONTROL Auto Target] rapportering in bijgewerkte overzichtsUI beïnvloeden.** Oplossing voor meerdere problemen met de gebruikersinterface in de bijgewerkte interface die gevolgen hebben voor de [!UICONTROL Auto Target] -rapportage. Deze correcties zijn onder andere:
-
-   * Ontbrekende cijfers over lift en betrouwbaarheid in samenvattingsrapporten
-   * Onjuiste kleurindicator voor het selectievakje &quot;Modellen gebouwd&quot;
-   * Niet-functioneel grafiekrapport ondanks verschillen in gegevens [!DNL Analytics]
-   * Ontbrekende downloadkoppeling voor [!UICONTROL Automated Segments] - en [!UICONTROL Important Attributes] -rapporten
-   * Verbroken [!UICONTROL Automated Segments] rapportweergave
-
-  Met deze correcties wordt het verwachte rapportgedrag hersteld en wordt de zichtbaarheid van [!UICONTROL Auto Target] -prestaties in de bijgewerkte gebruikersinterface verbeterd. (TGT-53484)
-
-+++
-
-**[!UICONTROL Visual Experience Composer]**
-
-+++Zie details
-* **Bevestiging van de Vorm die voor de voorwaarden van de parameteraanwezigheid in bijgewerkte UI wordt verbeterd.** Oplossing voor een probleem in bijgewerkte UI waar het selecteren van &quot; [!UICONTROL Custom mbox parameter value is present]&quot;of &quot;[!UICONTROL Parameter is present]&quot;klanten verkeerd vereiste om een waarde in te gaan. Dit gedrag was in strijd met de bedoelde logica, die eenvoudig controleert of een parameter bestaat, ongeacht de waarde ervan. Met deze correctie wordt formuliervalidatie uitgelijnd op het verwachte gedrag, waardoor de activiteiten vloeiender kunnen worden ingesteld en de bijgewerkte gebruikersinterface volledig kan worden toegepast. (TGT-53638)
-* **logica van de Vorm die voor de regels van de parameteraanwezigheid in paginalevering wordt verbeterd.&quot;** Oplossing een kwestie in bijgewerkte UI waar het selecteren van de regels van de paginalevering zoals &quot;[!UICONTROL Parameter is present],&quot;[!UICONTROL Parameter is not present],&quot;[!UICONTROL Parameter value is present],&quot; of &quot;[!UICONTROL Parameter value is not present]&quot;verkeerd vereiste gebruikers om een extra parameterwaarde in te gaan. Dit gedrag was inconsistent met de oudere UI en drukte de voorgenomen logica tegen om parameteraanwezigheid te ontdekken zonder een waarde te specificeren. Deze moeilijke situatie herstelt het verwachte gedrag van de regelconfiguratie, stroomlijnt activiteitenopstelling en verbetert bruikbaarheid. (TGT-53640)
-* **de logica van de Bevestiging verbeterde voor multi-page regelbouwer in bijgewerkte UI.** Meerdere validatieproblemen in de builder van meerdere pagina&#39;s in de bijgewerkte gebruikersinterface opgelost. Deze correcties zijn onder andere:
-
-   * Het voorkomen van het maken van regels wanneer de parameter mbox leeg is
-   * De juiste foutberichten voor ongeldige regelstatussen weergeven
-   * Validatielogica corrigeren voor unaire operatoren en operatoren op basis van parameters die geen operandwaarden vereisen
-   * Hash-fragmentregels inschakelen met unaire operatoren door functie voor opslaan te herstellen
-
-  Deze updates verzekeren nauwkeurige regelconfiguratie en verbeteren bruikbaarheid over de complexe scenario&#39;s van de paginalevering. (TGT-53722)
-* **het anders noemen van plaats probleem dat in A/B en activiteiten MVT wordt opgelost.** Oplossing voor een fout in de bijgewerkte gebruikersinterface waarbij de naam van een locatie in een [!UICONTROL A/B Test] - of [!UICONTROL Multivariate Test] -activiteit (MVT) niet werd gewijzigd nadat was genavigeerd tussen de lijst met locaties, de locatie van de doellocatie en de locatie van de gebruiker. Deze update zorgt ervoor dat wijzigingen in de locatienaam worden opgeslagen en consistent worden weerspiegeld in de gehele werkstroom. (TGT-52367)
-* **de naampersistentie van de Plaats die voor activiteiten MVT en AP in bijgewerkte UI wordt bevestigd.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface waarbij locatienamen die werden bewerkt in [!UICONTROL Multivariate Test] (MVT)- en [!UICONTROL Automated Personalization] (AP)-activiteiten niet correct werden opgeslagen. Nadat de naam van een locatie was gewijzigd, werd door navigatie tussen tabbladen, zoals [!UICONTROL Targeting] en [!UICONTROL Experiences] , de vorige status van de namen hersteld. Deze moeilijke situatie verzekert verenigbare plaats het noemen over lusjes en verbetert betrouwbaarheid tijdens activiteitenopstelling. (TGT-52927)
-* **het etiketteren van de Plaats die in het beheer ervaringspaneel voor MVT activiteiten wordt verbeterd.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface waarbij in het deelvenster [!UICONTROL Manage Experiences] in [!UICONTROL Multivariate Test] -activiteiten (MVT) inconsistente plaatsnummering werd weergegeven. Deze correctie zorgt ervoor dat locatielabels opeenvolgend zijn en correct zijn uitgelijnd met door de gebruiker gedefinieerde wijzigingen, waardoor de helderheid en bruikbaarheid tijdens het instellen van de ervaring worden verbeterd. (TGT-52929)
+* **Authoring stabiliteit hersteld in Activiteit leidt UI.** Oplossing voor een periodiek probleem in VEC UI dat het ontwerpen veroorzaakte om te ontbreken en de verbindingen onverwacht klikbaar werden, die gebruikers buiten de pagina richten. (TGT-53153)
+* **het uitgeven herstelde voor bewaarde activiteiten in Activiteit leidt UI.** Oplossing voor een probleem waardoor gebruikers hun activiteiten niet konden bewerken nadat ze wijzigingen hadden opgeslagen. Betrokken activiteiten bleven vastzitten in &quot;[!UICONTROL Applying initial modifications]&quot;, waardoor verdere updates worden geblokkeerd en de knop [!UICONTROL Cancel] wordt verborgen. (TGT-53631)
+* **VEC blijft niet meer op &quot;[!UICONTROL Applying initial modifications].&quot;** Oplossing voor een prestatieprobleem in de VEC dat lange vertragingen veroorzaakte bij het laden van toepassingen met een groot aantal wijzigingen. Betrokken gebruikers zagen UI op &quot;[!UICONTROL Applying initial modifications]&quot;verscheidene notulen, vooral in de scenario&#39;s van de Ervaring B bleef. (TGT-53727)
+* **VEC laadt nu wijzigingen zonder wortelelementen.**
+Oplossing van een kwestie in VEC die ervaringen veroorzaakte om te blokkeren wanneer het laden van wijzigingen die een duidelijk wortelelement ontbraken. Deze wijzigingen veroorzaakten eerder UI om voor onbepaalde tijd op &quot;A [!UICONTROL pplying initial modifications] te hangen.&quot; (TGT-53799)
+* **het Opslaan van veranderingen in activiteiten werkt nu zoals verwacht.** Oplossing voor een probleem met betrekking tot machtigingen in de interface Nieuwe interface maken dat gebruikers verhindert wijzigingen op te slaan bij het bewerken van doelen en geavanceerde instellingen in activiteiten. De betrokken gebruikers zagen een rood foutenlint en een &quot;Forbidden.Resource&quot;bericht, ondanks het hebben van aangewezen toegang. (TGT-53816)
+* **VEC UI bewaart nu ervaringswijzigingen over meningen.** Oplossing voor meerdere problemen in de bijgewerkte VEC die invloed hadden op de ontwikkeling van de ervaring. Wijzigingen bleven niet goed doorgaan, vooral wanneer u HTML-aanbiedingen gebruikt of schakelt tussen weergaven. (TGT-53825)
+* **Alle meningen tonen nu correct wanneer een wijziging veelvoudige ervaringen overspant.** Oplossing voor een probleem in de interface voor het maken van activiteiten waarbij slechts één weergave werd weergegeven toen een wijziging werd toegepast op meerdere weergaven. De knopinfo voor aanwijzen kan niet alle bijbehorende weergaven weergeven, ook al is de wijziging correct toegepast. (TGT-53827)
+* **VEC blijft niet meer periodiek op &quot;[!UICONTROL Applying initial modifications].&quot;** Oplossing voor een periodiek probleem in VEC waarbij ervaringen niet konden worden geladen en vastbleven op &quot; [!UICONTROL Applying initial modifications]&quot;. Dit gedrag was inconsistent en leidde soms tot omleidingslijnen of vereiste handmatige cacheverwerking. (TGT-53916)
+* **VEC ladingskwestie kon niet worden gereproduceerd.** Er is een probleem onderzocht waarbij de VEC tijdens het bewerken van bestaande activiteiten vastbleef op &quot;[!UICONTROL Applying initial modifications]&quot;. Het gedrag zou gerelateerd zijn aan HTML-inhoud zonder bovenliggend element. We zullen de controle op herhalingen voortzetten en het gebruik van gestructureerde containers voor HTML-aanbiedingen aanbevelen om de stabiliteit te garanderen. (TGT-53972)
+* De modus **[!UICONTROL Design]in de VEC gedraagt zich niet meer als de modus [!UICONTROL Browse] .** Oplossing voor een probleem in de gebruikersinterface waarbij de [!UICONTROL Design] modus zich periodiek gedraagt als de [!UICONTROL Browse] -modus, zodat op klikbare `<a>` koppelingen kan worden geklikt en elementen niet kunnen worden geselecteerd. Hierdoor verdween het aanwijsvak en werden de wijzigingsworkflows geblokkeerd. (TGT-53136)
+* **klikt de knoop op [!UICONTROL Composer] wijze niet meer teweegbrengt paginaomleiding.** Oplossing voor een probleem in de bijgewerkte VEC-gebruikersinterface dat er door het klikken op een knop in de modus [!UICONTROL Composer] een onverwachte omleiding naar de doel-URL van de knop veroorzaakte. Hierdoor konden gebruikers call-to-action (CTA)-elementen niet bewerken en werd de ontwerpworkflow verstoord. (TGT-53137)
+* **de codeupdates van de aanbieding in geautomatiseerde verpersoonlijkingsactiviteiten sparen nu zonder fout.** Oplossing voor een probleem in de Nieuwe Create UI dat een fout &quot;[!UICONTROL Invalid user input]&quot; veroorzaakte bij het bijwerken van aanbiedingscode in [!UICONTROL Automated Personalization] -activiteiten. Door deze fout konden gebruikers geen wijzigingen opslaan, zelfs niet als de invoer geldig was. (TGT-53586)
+* **[!UICONTROL Design]in de VEC blokkeert nu de koppelingsnavigatie voor bewerkbare componenten.** Oplossing voor een probleem in de bijgewerkte VEC waarbij klikbare elementen (zoals knoppen en koppelingen) paginareuchting hebben geactiveerd, zelfs in de modus [!UICONTROL Design] . Door dit gedrag werd de modus [!UICONTROL Browse] nagebootst en konden gebruikers geen sleutelcomponenten wijzigen. (TGT-53696)
+* **&quot;[!UICONTROL Clicked an element]&quot;metrisch werkt nu zonder omleiding of fout.** Oplossing voor een probleem in Nieuwe Create UI dat onverwachte omleidingen en lege schermen veroorzaakte wanneer het selecteren van metrische conversie &quot;[!UICONTROL Clicked an element]&quot;. Het klikken van een knoop tijdens opstelling teweeggebrachte navigatie in plaats van het registreren van het element, resulterend in &quot;[!UICONTROL element not found]&quot;fout. (TGT-53817)
+* **Bestaande activiteiten blijven niet meer vastzitten in oneindige ladingslijn tijdens uitgeven.** Oplossing voor een probleem in de Nieuwe Create UI waarbij het bewerken van een bestaande activiteit in de VEC ertoe leidde dat de pagina vastliep in een oneindige laadlus. Deze kwestie beïnvloedde pas gecreëerde activiteiten niet en werd teweeggebracht door reeds bestaande wijzigingen op de pagina. (TGT-53913)
+* **Bestaande activiteitenpagina&#39;s met wijzigingen laden nu correct in VEC.** Oplossing voor een probleem in de bijgewerkte VEC dat ervoor zorgde dat pagina&#39;s vastzaten in de laadfase tijdens het bewerken van een bestaande activiteit met opgeslagen wijzigingen. De nieuwe activiteiten die zonder kwestie worden geladen, maar eerder gevormde activiteiten slaagden er niet in om terug te geven. (TGT-53967)
 
 +++
 
@@ -239,8 +111,8 @@ Deze release bevat de volgende updates en oplossingen:
 
 | Bron | Details |
 |--- |--- |
-| [&#x200B; de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=nl-NL) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
-| [&#x200B; at.js versiedetails &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
+| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
+| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
 
 ## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release van Experience Cloud
 
@@ -248,9 +120,9 @@ Naast de notities voor elke release bevatten de volgende bronnen aanvullende inf
 
 | Bron | Details |
 |--- |--- |
-| [&#x200B; Veranderingen van de Documentatie &#x200B;](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
-| [&#x200B; de nota&#39;s van de Versie voor vorige versies &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
-| [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl-NL){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
+| [ Veranderingen van de Documentatie ](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
+| [ de nota&#39;s van de Versie voor vorige versies ](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
+| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
 
 ## Prerelease-informatie {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
@@ -258,5 +130,5 @@ De volgende middelen laten u zien wat in de volgende versie van het Doel komt.
 
 | Bron | Details |
 |--- |--- |
-| [&#x200B; de Prioritaire Update van het Product van Adobe &#x200B;](https://www.adobe.com/subscription/priority-product-update.html){target=_blank} | Ontvang voorafgaande meldingen over aanstaande productverbeteringen voor [!DNL Target] en andere [!DNL Adobe Experience Cloud] -oplossingen. |
-| [&#x200B; de Nota&#39;s van de Versie van het Doel - preRelease &#x200B;](/help/main/r-release-notes/target-release-notes.md){target=_blank} | Informatie over de versies van het Doel van de huidige maand, met inbegrip van pre-releaseinformatie. |
+| [ de Prioritaire Update van het Product van Adobe ](https://www.adobe.com/subscription/priority-product-update.html){target=_blank} | Ontvang voorafgaande meldingen over aanstaande productverbeteringen voor [!DNL Target] en andere [!DNL Adobe Experience Cloud] -oplossingen. |
+| [ de Nota&#39;s van de Versie van het Doel - preRelease ](/help/main/r-release-notes/target-release-notes.md){target=_blank} | Informatie over de versies van het Doel van de huidige maand, met inbegrip van pre-releaseinformatie. |
