@@ -5,7 +5,7 @@ title: Wat zijn het diverse karakter, de grootte, en andere grenzen in  [!DNL Ad
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 09874362863144992c69d4b79a935c9d9a769dc1
+source-git-commit: 720f70a97c5c9457f134085696dd79196c7869bc
 workflow-type: tm+mt
 source-wordcount: '1734'
 ht-degree: 0%
@@ -220,7 +220,7 @@ Tekenbeperkingen en andere beperkingen (grootte, publiek, profielen, waarden, pa
    * profielparameters 50
    * naam van profielparameter max. lengte 128
    * waarde van profielparameter mag niet null zijn
-   * waarde van profielparameter max. lengte 5000
+   * waarde van profielparameter max. lengte 256
 
   **Eind van levering API**:
 
@@ -231,7 +231,7 @@ Tekenbeperkingen en andere beperkingen (grootte, publiek, profielen, waarden, pa
    * profielparameters 50
    * naam van profielparameter max. lengte 128
    * waarde van profielparameter mag niet null zijn
-   * waarde van profielparameter max. lengte 5000
+   * waarde van profielparameter max. lengte 256
 
 ### verzoek-URL&#39;s
 
@@ -285,7 +285,7 @@ Voor aanbiedingen gelden de volgende groottegrenzen:
 
 * **geadviseerde grens van totale profielmanuscripten per rekening**: 2.000
 
-* **Aanbevelingen voor het beperken van de ingewikkeldheid van het profielmanuscript**: De manuscripten van het profiel kunnen een beperkt aantal instructies uitvoeren. Voor meer informatie, zie [&#x200B; Beste praktijken &#x200B;](/help/main/c-target/c-visitor-profile/profile-parameters.md#best) in *attributen van het Profiel*.
+* **Aanbevelingen voor het beperken van de ingewikkeldheid van het profielmanuscript**: De manuscripten van het profiel kunnen een beperkt aantal instructies uitvoeren. Voor meer informatie, zie [ Beste praktijken ](/help/main/c-target/c-visitor-profile/profile-parameters.md#best) in *attributen van het Profiel*.
 
 ## Eigenschappen
 
