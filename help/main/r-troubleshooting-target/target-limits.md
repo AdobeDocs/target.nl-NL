@@ -285,7 +285,7 @@ Voor aanbiedingen gelden de volgende groottegrenzen:
 
 * **geadviseerde grens van totale profielmanuscripten per rekening**: 2.000
 
-* **Aanbevelingen voor het beperken van de ingewikkeldheid van het profielmanuscript**: De manuscripten van het profiel kunnen een beperkt aantal instructies uitvoeren. Voor meer informatie, zie [ Beste praktijken ](/help/main/c-target/c-visitor-profile/profile-parameters.md#best) in *attributen van het Profiel*.
+* **Aanbevelingen voor het beperken van de ingewikkeldheid van het profielmanuscript**: De manuscripten van het profiel kunnen een beperkt aantal instructies uitvoeren. Voor meer informatie, zie [&#x200B; Beste praktijken &#x200B;](/help/main/c-target/c-visitor-profile/profile-parameters.md#best) in *attributen van het Profiel*.
 
 ## Eigenschappen
 
