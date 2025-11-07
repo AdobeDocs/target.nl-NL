@@ -23,17 +23,17 @@ Profielkenmerken instellen:
 
 1. Klik op **[!UICONTROL Audiences]** > **[!UICONTROL Profile Scripts.]**
 
-   ![ Scripts tabel van het Profiel ](/help/main/c-target/c-visitor-profile/assets/create-script.png)
+   ![&#x200B; Scripts tabel van het Profiel &#x200B;](/help/main/c-target/c-visitor-profile/assets/create-script.png)
 
 1. Klik op **[!UICONTROL Create Script]**.
 
-   ![ creeer de dialoogdoos van het Manuscript van het Profiel ](/help/main/c-target/c-visitor-profile/assets/profile-script.png)
+   ![&#x200B; creeer de dialoogdoos van het Manuscript van het Profiel &#x200B;](/help/main/c-target/c-visitor-profile/assets/profile-script.png)
 
    De volgende typen profielkenmerken zijn beschikbaar:
 
    | Type parameter | Beschrijving |
    |--- |--- |
-   | mbox | Direct door paginacode doorgegeven tijdens het maken van het mbox. Zie {de Parameters van 0} overgaan tot een Globale Mbox [ in de ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} Gids van de Ontwikkelaar van het Doel *.*<P>**Nota**: [!DNL Target] heeft een grens van 50 unieke profielattributen per mbox vraag. Als u meer dan 50 profielkenmerken moet doorgeven aan [!DNL Target] , geeft u deze door met de methode [!UICONTROL Profile Update API] . Voor meer informatie, zie [ profielen van de Update ](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} in de *Gids van de Ontwikkelaar van het Doel*. |
+   | mbox | Direct door paginacode doorgegeven tijdens het maken van het mbox. Zie {de Parameters van 0} overgaan tot een Globale Mbox [&#x200B; in de &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} Gids van de Ontwikkelaar van het Doel *.*<P>**Nota**: [!DNL Target] heeft een grens van 50 unieke profielattributen per mbox vraag. Als u meer dan 50 profielkenmerken moet doorgeven aan [!DNL Target] , geeft u deze door met de methode [!UICONTROL Profile Update API] . Voor meer informatie, zie [&#x200B; profielen van de Update &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} in de *Gids van de Ontwikkelaar van het Doel*. |
    | Profiel | Direct gedefinieerd met een JavaScript-codefragment. Deze fragmenten kunnen lopende totalen opslaan, zoals het totale geld dat de consument besteedt, en worden uitgevoerd op elke mbox-aanvraag. Zie *het manuscriptattributen van het Profiel* hieronder. |
 
 ## Profielscriptkenmerken {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -89,11 +89,11 @@ De volgende profielscriptinformatiekaart is bijvoorbeeld toegankelijk door te kl
 
 Het tabblad [!UICONTROL Script Info] bevat de volgende informatie: Naam, Beschrijving en scriptcode.
 
-![ de infokaart van het Manuscript van het Profiel ](assets/profile_script_info_card.png)
+![&#x200B; de infokaart van het Manuscript van het Profiel &#x200B;](assets/profile_script_info_card.png)
 
 Klik op **[!UICONTROL View full details]** om het publiek en de activiteiten te zien die naar het geselecteerde profielscript verwijzen.
 
-![ de infokaart van het Manuscript van het Profiel > lusje van het Gebruik van het Manuscript ](assets/profile_script_info_card_usage_tab.png)
+![&#x200B; de infokaart van het Manuscript van het Profiel > lusje van het Gebruik van het Manuscript &#x200B;](assets/profile_script_info_card_usage_tab.png)
 
 >[!NOTE]
 >
@@ -108,18 +108,18 @@ In [!DNL Target] worden profielscripts in bepaalde situaties automatisch uitgesc
 
 Wanneer een profielscript is uitgeschakeld, wordt een geel waarschuwingspictogram weergegeven naast het profielscript in de doelinterface, zoals hieronder wordt geïllustreerd:
 
-![ profile_script_invalid beeld ](assets/profile_script_invalid.png)
+![&#x200B; profile_script_invalid beeld &#x200B;](assets/profile_script_invalid.png)
 
 Bij aanwijzen worden details op de foutweergave weergegeven, zoals hieronder wordt geïllustreerd:
 
-![ profile_script_hover beeld ](assets/profile_script_hover.png)
+![&#x200B; profile_script_hover beeld &#x200B;](assets/profile_script_hover.png)
 
 De meest gangbare redenen voor het uitschakelen van profielscripts zijn:
 
 * Een niet-gedefinieerde variabele waarnaar wordt verwezen.
 * Er wordt verwezen naar een ongeldige waarde. Deze fout wordt vaak veroorzaakt door naar URL-waarden en andere door de gebruiker ingevoerde gegevens te verwijzen zonder juiste validatie.
 * Er worden te veel JavaScript-instructies gebruikt. [!DNL Target] heeft een limiet van 2.000 JavaScript instructies per script, maar deze limiet kan niet eenvoudig worden berekend door de JavaScript handmatig te lezen. Rhino behandelt bijvoorbeeld alle functieaanroepen en &quot;nieuwe&quot; aanroepen als 100 instructies. Om het even welke vraag aan om het even welke functie verbruikt 100 instructies. Ook, kan de grootte van om het even welke ingangsgegevens, zoals waarden URL, de instructietelling beïnvloeden.
-* Na punten niet die in de [ worden benadrukt beste praktijken ](/help/main/c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0) hieronder sectie.
+* Na punten niet die in de [&#x200B; worden benadrukt beste praktijken &#x200B;](/help/main/c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0) hieronder sectie.
 
 ## Aanbevolen procedures {#best}
 
@@ -142,7 +142,7 @@ De volgende richtlijnen zijn bedoeld om vereenvoudigde profielmanuscripten te sc
    * Vermijd reguliere expressies of gebruik alleen eenvoudige reguliere expressies. Zelfs eenvoudige expressies kunnen veel instructies gebruiken om te evalueren.
    * Vermijd herhaling.
    * Profielscripts moeten op prestaties worden getest voordat ze aan [!DNL Target] worden toegevoegd. Alle profielscripts worden uitgevoerd op elke mbox-aanvraag. Als profielscripts niet correct worden uitgevoerd, duurt het langer om mbox-aanvragen uit te voeren, wat invloed kan hebben op verkeer en conversie.
-   * Als de profielmanuscripten te complex worden, overweeg in plaats daarvan gebruikend [ reactietokens ](/help/main/administrating-target/response-tokens.md).
+   * Als de profielmanuscripten te complex worden, overweeg in plaats daarvan gebruikend [&#x200B; reactietokens &#x200B;](/help/main/administrating-target/response-tokens.md).
 
 * Zie de documentatie van de JS Rhino-engine voor meer informatie.
 
@@ -160,7 +160,7 @@ De volgende methoden kunnen worden gebruikt om fouten op te sporen in profielscr
 
   Telkens wanneer u een pagina voor uw site laadt met [!DNL Target] erop, bevat een deel van de reactie van [!DNL Target] uw waarde voor het opgegeven profielscript, zoals hieronder wordt getoond:
 
-  ![ debug_profile_script_1 beeld ](assets/debug_profile_script_1.png)
+  ![&#x200B; debug_profile_script_1 beeld &#x200B;](assets/debug_profile_script_1.png)
 
 * **gebruik het mboxTrace het zuiveren hulpmiddel om profielmanuscripten te zuiveren.**
 
@@ -170,13 +170,13 @@ De volgende methoden kunnen worden gebruikt om fouten op te sporen in profielscr
 
   Het toevoegen van deze parameters is een weinig informatiefunctie dan het reactietoken omdat u een voor-uitgevoerde momentopname en een na-momentopname van uw profiel krijgt. Ook worden alle beschikbare profielen weergegeven.
 
-  ![ debug_profile_script_2 beeld ](assets/debug_profile_script_2.png)
+  ![&#x200B; debug_profile_script_2 beeld &#x200B;](assets/debug_profile_script_2.png)
 
 ## Veelgestelde vragen over profielscript {#section_1389497BB6D84FC38958AE43AAA6E712}
 
 **is het mogelijk om profielmanuscripten te gebruiken om informatie van een pagina te vangen die in een gegevenslaag verblijft?**
 
-Profielscripts kunnen de pagina niet rechtstreeks lezen omdat ze aan de serverzijde worden uitgevoerd. De gegevens moeten binnen door een mbox verzoek of door andere [ methodes worden overgegaan om gegevens in Doel ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} te krijgen. Nadat de gegevens zich in [!DNL Target] bevinden, kunnen profielmanuscripten de gegevens als mbox parameter of profielparameter lezen.
+Profielscripts kunnen de pagina niet rechtstreeks lezen omdat ze aan de serverzijde worden uitgevoerd. De gegevens moeten binnen door een mbox verzoek of door andere [&#x200B; methodes worden overgegaan om gegevens in Doel &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} te krijgen. Nadat de gegevens zich in [!DNL Target] bevinden, kunnen profielmanuscripten de gegevens als mbox parameter of profielparameter lezen.
 
 ## JavaScript-referentie voor scriptprofielparameters
 
@@ -235,7 +235,7 @@ else if (mbox.param("adobeQA"))
      return mbox.param("adobeQA");
 ```
 
-Creeert een geroepen variabele `adobeQA` om een gebruiker voor [ Activiteit QA ](/help/main/c-activities/c-activity-qa/activity-qa.md) te volgen.
+Creeert een geroepen variabele `adobeQA` om een gebruiker voor [&#x200B; Activiteit QA &#x200B;](/help/main/c-activities/c-activity-qa/activity-qa.md) te volgen.
 
 ### Objecten en methoden {#objects}
 
@@ -275,7 +275,7 @@ Alle standaard JavaScript-operatoren zijn aanwezig en kunnen worden gebruikt. Ja
 | `\|\|` | Logisch &quot;ORs&quot;de uitdrukkingen aan de linkerzijde en het recht van het - is slechts waar als één van de kanten (vals anders) waar is. |
 | `//` | Controleert of de bron alle elementen van doel boolean bevat (Array-bron, Array-doel).<br>`//` extraheert de subtekenreeks van het doel (overeenkomend met regexp) en decodeert deze `Array/*String*/ decode(String encoding, String regexp, String target)` .<br> de eigenschap steunt ook het gebruik van constante koordwaarden, groeperend (`condition1 \|\| condition2) && condition3`), en regelmatige uitdrukkingen (`/[^a-z]$/.test(landing.referring.url)`). |
 
-## De video van de opleiding: De Manuscripten van het profiel ![ badge van het Leerprogramma ](/help/main/assets/tutorial.png)
+## De video van de opleiding: De Manuscripten van het profiel ![&#x200B; badge van het Leerprogramma &#x200B;](/help/main/assets/tutorial.png)
 
 Deze video bevat informatie over het gebruik en het maken van profielscripts.
 
