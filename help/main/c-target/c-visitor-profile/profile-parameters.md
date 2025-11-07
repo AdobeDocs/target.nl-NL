@@ -33,7 +33,7 @@ Profielkenmerken instellen:
 
    | Type parameter | Beschrijving |
    |--- |--- |
-   | mbox | Direct door paginacode doorgegeven tijdens het maken van het mbox. Zie {de Parameters van 0} overgaan tot een Globale Mbox [&#x200B; in de &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} Gids van de Ontwikkelaar van het Doel *.*<P>**Nota**: [!DNL Target] heeft een grens van 50 unieke profielattributen per mbox vraag. Als u meer dan 50 profielkenmerken moet doorgeven aan [!DNL Target] , geeft u deze door met de methode [!UICONTROL Profile Update API] . Voor meer informatie, zie [&#x200B; profielen van de Update &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} in de *Gids van de Ontwikkelaar van het Doel*. |
+   | mbox | Direct door paginacode doorgegeven tijdens het maken van het mbox. Zie {de Parameters van 0} overgaan tot een Globale Mbox [&#x200B; in de &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=nl-NL){target=_blank} Gids van de Ontwikkelaar van het Doel *.*<P>**Nota**: [!DNL Target] heeft een grens van 50 unieke profielattributen per mbox vraag. Als u meer dan 50 profielkenmerken moet doorgeven aan [!DNL Target] , geeft u deze door met de methode [!UICONTROL Profile Update API] . Voor meer informatie, zie [&#x200B; profielen van de Update &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=nl-NL){target=_blank} in de *Gids van de Ontwikkelaar van het Doel*. |
    | Profiel | Direct gedefinieerd met een JavaScript-codefragment. Deze fragmenten kunnen lopende totalen opslaan, zoals het totale geld dat de consument besteedt, en worden uitgevoerd op elke mbox-aanvraag. Zie *het manuscriptattributen van het Profiel* hieronder. |
 
 ## Profielscriptkenmerken {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -176,7 +176,7 @@ De volgende methoden kunnen worden gebruikt om fouten op te sporen in profielscr
 
 **is het mogelijk om profielmanuscripten te gebruiken om informatie van een pagina te vangen die in een gegevenslaag verblijft?**
 
-Profielscripts kunnen de pagina niet rechtstreeks lezen omdat ze aan de serverzijde worden uitgevoerd. De gegevens moeten binnen door een mbox verzoek of door andere [&#x200B; methodes worden overgegaan om gegevens in Doel &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} te krijgen. Nadat de gegevens zich in [!DNL Target] bevinden, kunnen profielmanuscripten de gegevens als mbox parameter of profielparameter lezen.
+Profielscripts kunnen de pagina niet rechtstreeks lezen omdat ze aan de serverzijde worden uitgevoerd. De gegevens moeten binnen door een mbox verzoek of door andere [&#x200B; methodes worden overgegaan om gegevens in Doel &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=nl-NL){target=_blank} te krijgen. Nadat de gegevens zich in [!DNL Target] bevinden, kunnen profielmanuscripten de gegevens als mbox parameter of profielparameter lezen.
 
 ## JavaScript-referentie voor scriptprofielparameters
 
