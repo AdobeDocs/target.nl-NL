@@ -4,7 +4,7 @@ description: Vind antwoorden op vragen over het gebruiken van redirect aanbiedin
 title: Waar kan ik veelgestelde vragen vinden over omleidingsaanbiedingen met A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: bb41de751246a77e71e65c11f020bc39f3105da6
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '1431'
 ht-degree: 0%
@@ -18,11 +18,11 @@ Dit onderwerp bevat antwoorden op vragen die vaak worden gesteld over het gebrui
 ## Biedt Analytics for Adobe Target (A4T) ondersteuning voor omleidingsaanbiedingen? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
 +++Antwoord
-Ja, als uw implementatie gebruikmaakt van [!DNL at.js] . Nochtans, moet uw implementatie aan de hieronder vermelde minimumvereisten voldoen om [&#x200B; te gebruiken herleidt aanbiedingen &#x200B;](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) in activiteiten die Analytics als rapporteringsbron gebruiken.
+Ja, als uw implementatie gebruikmaakt van [!DNL at.js] . Nochtans, moet uw implementatie aan de hieronder vermelde minimumvereisten voldoen om [ te gebruiken herleidt aanbiedingen ](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) in activiteiten die Analytics als rapporteringsbron gebruiken.
 
 +++
 
-## ![&#x200B; SDK van het Web van Adobe Experience Platform badge &#x200B;](/help/main/assets/platform.png) Omleidt de [!DNL Adobe Experience Platform Web SDK] steun aanbiedingen voor A4T opnieuw? {#platform}
+## ![ SDK van het Web van Adobe Experience Platform badge ](/help/main/assets/platform.png) Omleidt de [!DNL Adobe Experience Platform Web SDK] steun aanbiedingen voor A4T opnieuw? {#platform}
 
 +++Antwoord
 De volgende veelgestelde vragen bieden meer informatie over het gebruik van een A4T en het omleiden van aanbiedingen met de [!DNL Platform Web SDK] .
@@ -32,7 +32,7 @@ De volgende veelgestelde vragen bieden meer informatie over het gebruik van een 
 ### Biedt Analytics for Target (A4T) ondersteuning voor omleidingsaanbiedingen?
 
 +++Antwoord
-Ja, A4T via het Web SDK van het Platform steunt [&#x200B; opnieuw gerichte aanbiedingen &#x200B;](/help/main/c-experiences/c-manage-content/offer-redirect.md).
+Ja, A4T via het Web SDK van het Platform steunt [ opnieuw gerichte aanbiedingen ](/help/main/c-experiences/c-manage-content/offer-redirect.md).
 
 +++
 
@@ -59,7 +59,7 @@ De drie bibliotheken moeten op zowel de pagina met het omleidingsaanbod als de p
 ## Waarom zijn er soms gegevensdiscrepanties tussen A4T en Analytics?
 
 +++Antwoord
-Sommige gegevensdiscrepanties worden verwacht. Voor meer informatie, zie [&#x200B; Verwachte gegevensvariaties tussen Doel en Analytics wanneer het gebruiken van en het niet gebruiken van A4T &#x200B;](/help/main/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
+Sommige gegevensdiscrepanties worden verwacht. Voor meer informatie, zie [ Verwachte gegevensvariaties tussen Doel en Analytics wanneer het gebruiken van en het niet gebruiken van A4T ](/help/main/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
 
 +++
 
@@ -84,7 +84,7 @@ Overweeg het volgende:
 ## Waarom worden paginaweergaven op de oorspronkelijke pagina en op de omleidingspagina soms geteld? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 +++Antwoord
-Wanneer u at.js versie 1.6.3 of hoger gebruikt, is het niet van belang om paginaweergaven op beide pagina&#39;s te tellen. Deze rasvoorwaarde beïnvloedt slechts klanten die vroegere versies gebruiken. Het team van het Doel handhaaft twee versies van at.js: de huidige versie en de tweede recentste versie. De verbetering at.js zonodig om ervoor te zorgen dat u a [&#x200B; gesteunde versie &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} in werking stelt.
+Wanneer u at.js versie 1.6.3 of hoger gebruikt, is het niet van belang om paginaweergaven op beide pagina&#39;s te tellen. Deze rasvoorwaarde beïnvloedt slechts klanten die vroegere versies gebruiken. Het team van het Doel handhaaft twee versies van at.js: de huidige versie en de tweede recentste versie. De verbetering at.js zonodig om ervoor te zorgen dat u a [ gesteunde versie ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in werking stelt.
 
 Als u een vroegere, niet-gesteunde versie van at.js gebruikt, is er een mogelijkheid dat een rassenvoorwaarde kan voorkomen die de Analytische vraag zou kunnen veroorzaken om te vuren alvorens redirect op de eerste pagina uitvoert. Hierdoor kunnen paginaweergaven op de oorspronkelijke pagina en op de omleidingspagina worden geteld. Deze situatie leidt tot een extra paginaweergave op de eerste pagina, wanneer de bezoeker deze eerste pagina nooit echt &#39;zag&#39;.
 
@@ -110,7 +110,7 @@ De volgende parameters van het vraagkoord worden geassocieerd met omleidingsaanb
 
 | Parameter | Beschrijving |
 |--- |--- |
-| `adobe_mc_sdid` | De parameter `adobe_mc_sdid` geeft de aanvullende gegevens-id (SDID) en Experience Cloud-code-id door van de standaardpagina naar de nieuwe pagina. Met deze id&#39;s kan A4T het doelverzoek samenvoegen op de standaardpagina met het analyseverzoek op de nieuwe pagina.<br> Het verwachte formaat dat in url (voor hybride apps of van één app aan de website of één website aan een andere) wordt overgegaan is `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` |
+| `adobe_mc_sdid` | De parameter `adobe_mc_sdid` geeft de aanvullende gegevens-id (SDID) en Experience Cloud-code-id door van de standaardpagina naar de nieuwe pagina. Met deze id&#39;s kan A4T het doelverzoek samenvoegen op de standaardpagina met het analyseverzoek op de nieuwe pagina.<br> Het verwachte formaat dat in url (voor hybride apps of van één app aan de website of één website aan een andere) wordt overgegaan is `ex. adobe_mc_sdid=SDID=123\|MCORGID=123456789@AdobeOrg\|TS=1498569322` |
 | `adobe_mc_ref` | De parameter `adobe_mc_ref` geeft de verwijzende URL van de standaardpagina door aan de nieuwe pagina. Bij gebruik met AppMeasurement.js versie 2.1 (of hoger) gebruikt Analytics deze parameterwaarde als verwijzende URL op de nieuwe pagina. |
 
 Deze parameters worden automatisch toegevoegd aan omleiding URLs wanneer het gebruiken van de ingebouwde omleidingsaanbiedingen in VEC en op vorm-Gebaseerde Composer van de Ervaring wanneer de dienst van Bezoeker Id op de pagina wordt uitgevoerd. Als u uw eigen aangepaste omleidingscode in de VEC of op vorm gebaseerde Composer gebruikt, moet u ervoor zorgen dat u deze parameters doorgeeft met uw aangepaste code.

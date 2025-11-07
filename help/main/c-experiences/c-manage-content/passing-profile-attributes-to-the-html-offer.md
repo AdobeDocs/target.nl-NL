@@ -4,7 +4,7 @@ description: Leer hoe te om dynamische gegevens in Aanbiedingen in  [!DNL Adobe 
 title: Hoe geef ik dynamische gegevens in aanbiedingen door?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: 2e607b92e9d3408c1e91abd4646fe8eb840f2c30
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -47,7 +47,7 @@ De volgende waarden kunnen worden vervangen door een token:
 
 Loggegevens in de console voor foutopsporingsdoeleinden, zoals `${campaign.name}` , `${campaign.id}` , `${campaign.recipe.name}` , `${campaign.recipe.id}` , `${offer.name}` , `${offer.id}` , `${campaign.name}`
 
-Voor [!DNL Recommendations] ontwerpen, zie extra voorbeelden in [&#x200B; Overzicht van het Ontwerp &#x200B;](/help/main/c-recommendations/c-design-overview/design-overview.md).
+Voor [!DNL Recommendations] ontwerpen, zie extra voorbeelden in [ Overzicht van het Ontwerp ](/help/main/c-recommendations/c-design-overview/design-overview.md).
 
 ## Implementatie
 
