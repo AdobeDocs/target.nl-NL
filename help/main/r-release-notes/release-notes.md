@@ -6,9 +6,9 @@ short-description: Leer over de nieuwe eigenschappen, de verhogingen, en de moei
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 693b862bc39fc3b1b7d93988bd80cdd51657354b
+source-git-commit: e5bc137ed1f32b07569a4f1a31746da19fb164d3
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1736'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,32 @@ Ontdek de nieuwste functies, verbeteringen en oplossingen in [!DNL Adobe Target]
 
 ## Tijdgevoelige updates die u moet weten {#time-sensitive}
 
-[!BADGE &#x200B; Belangrijk &#x200B;]{type=Informative}
+[!BADGE  Belangrijk ]{type=Informative}
 
 Voor tijdgevoelige updates die betrekking hebben op [!DNL Adobe Target] en uw implementatie, verschaft [!DNL Adobe] gedetailleerde opmerkingen en documentatie bij de release via [!UICONTROL Experience League] . Hier volgen enkele belangrijke punten die relevant zijn voor uw implementatie:
 
 ### Veroudering van interfaceversie [!DNL Target] in-/uitschakelen
 
-Voor meer informatie, zie [[!DNL Target]  UI update FAQs &#x200B;](/help/main/c-intro/updated-ui-faq.md).
+Voor meer informatie, zie [[!DNL Target]  UI update FAQs ](/help/main/c-intro/updated-ui-faq.md).
+
+## [!DNL Target Standard/Premium] 25.11.2 (14 november 2025)
+
+**Beslissende aanbiedingen**
+
++++Zie details
+* **de besluiten van de aanbieding met verborgen of ongeldige selecteurs niet editable in bijgewerkte UI.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface waarbij aan verborgen of ongeldige kiezers gekoppelde aanbiedingsbeslissingen niet konden worden bewerkt, tenzij het element zichtbaar was in Visual Experience Composer (VEC). Bewerken wordt nu rechtstreeks vanuit het deelvenster ondersteund. Hierdoor wordt functionaliteit in de oudere gebruikersinterface hersteld en worden de beslissingen over de aanbieding altijd gewijzigd, ongeacht de zichtbaarheid van de kiezer. (TGT-53899)
+
++++
+
+**Aanbevelingen**
+
++++Zie details
+* **het uitgeven criteria in een activiteit veroorzaakte de pagina om te crashen.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface dat ertoe leidde dat bewerkingscriteria ertoe leidden dat de pagina vastliep met consolefouten met betrekking tot `useCrudActionsCtx` . De criteria-editor laadt en werkt nu correct, zodat activiteiten zonder onderbreking kunnen worden bewerkt. (TGT-53971)
+* **[!UICONTROL Message]-kolom kan soms de productgegevens niet weergeven in de bijgewerkte gebruikersinterface.** Oplossing voor een probleem in de bijgewerkte [!UICONTROL Recommendations] UI waarbij de kolom [!UICONTROL Message] in [!UICONTROL Catalog Search] soms geen productgegevens kon weergeven, ook al waren er waarden aanwezig in de feed. De kolom toont nu constant de correcte berichtwaarden over alle producten, die betrouwbare zicht verzekeren zonder handkolomherconfiguratie te vereisen. (TGT-52777)
+* **[!UICONTROL Download Recommendations Data]niet zichtbaar na het opslaan van activiteit in bijgewerkte gebruikersinterface.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface waarbij de knop [!UICONTROL Download Recommendations Data] niet werd weergegeven voor bepaalde opgeslagen activiteiten, zelfs niet na het opnieuw opslaan. De knop wordt nu consistent weergegeven in alle activiteiten, zodat gebruikers gegevens met aanbevelingen betrouwbaar kunnen exporteren zonder dat hiervoor een tijdelijke oplossing nodig is. (TGT-53802)
+* **het openen van bepaalde producten van een inzameling teruggekeerde &quot;Gevraagde middel werd niet gevonden&quot;en modaal ontbrak een dichte optie.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface van Aanbevelingen waarbij het openen van bepaalde producten uit een verzameling een fout met de tekst &#39;Gevraagde bron is niet gevonden&#39; veroorzaakte en een leeg modaal modaal voorbeeld zonder een sluitoptie weergaf. Met het modaal wordt de productinformatie nu correct geladen en u kunt de gegevens altijd sluiten als u deze netjes wilt afsluiten. (TGT-53986)
+
++++
 
 ## [!DNL Target Standard/Premium] 25.11.1 (10 november 2025)
 
@@ -79,18 +98,18 @@ Voor meer informatie, zie [[!DNL Target]  UI update FAQs &#x200B;](/help/main/c-
 **[!UICONTROL Reports]**
 
 +++Zie details
-* **[!UICONTROL Multivariate Test] (MVT) plaatsen en grafiekrapporteringskwestie verhinderden rapportgeneratie.** Oplossing voor een probleem waarbij MVT-activiteiten [!UICONTROL Location Contribution] en Grafiekrapporten niet konden genereren in de doelinterface en de fout &#39;Er is iets fout opgetreden. We kunnen uw verzoek niet voltooien.&quot; Rapporten worden nu correct geladen in de gebruikersinterface en zorgen voor volledige zichtbaarheid. (TGT-53654)
+* **[!UICONTROL Multivariate Test](MVT) plaatsen en grafiekrapporteringskwestie verhinderden rapportgeneratie.** Oplossing voor een probleem waarbij MVT-activiteiten [!UICONTROL Location Contribution] en Grafiekrapporten niet konden genereren in de doelinterface en de fout &#39;Er is iets fout opgetreden. We kunnen uw verzoek niet voltooien.&quot; Rapporten worden nu correct geladen in de gebruikersinterface en zorgen voor volledige zichtbaarheid. (TGT-53654)
 * **MVT meldt niet ladend wegens [!UICONTROL Element] fout van het bijdragerapport.** Oplossing voor een probleem waarbij MVT-activiteitenrapporten niet konden worden geladen in de doelinterface en waarbij de fout &quot;Rapport voor elementbijdrage kon niet worden opgehaald&quot; werd weergegeven. Rapporten worden nu correct weergegeven, zodat de bijdragen aan elementen volledig zichtbaar zijn. (TGT-53691)
 * **de orderdetails van de uitvoer aan CSV kwestie voor [!UICONTROL Experience Targeting] (XT) activiteiten.** Oplossing voor een probleem waarbij de optie [!UICONTROL Export Order Details to CSV] onjuist werd weergegeven voor XT-activiteiten en een leeg bestand werd geretourneerd. De optie wordt nu alleen weergegeven voor AP-activiteiten, zodat nauwkeurige exportfunctionaliteit wordt gegarandeerd en verwarring wordt voorkomen. (TGT-53798)
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Zie details
 * **[!UICONTROL Delete Modification]. Kan wijzigingen in de activiteit niet verwijderen.** Oplossing voor een probleem waarbij de knop [!UICONTROL Delete Modification] in de gebruikersinterface [!DNL Target] niet werkte, zodat gebruikers geen wijzigingen binnen activiteiten konden verwijderen. De knop werkt nu zoals u had verwacht, zodat wijzigingen zonder vertraging op betrouwbare wijze kunnen worden verwijderd. (TGT-53728)
 * **Gewenste selecteurs niet erkend in bijgewerkte UI.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface waarbij voorkeurskiezers, zoals `data-target-component-id` , niet werden weergegeven in de lijst met CSS-kiezers in de VEC. De gebruikers kunnen aangewezen attributen in plaats van dynamisch geproduceerde klassennamen nu betrouwbaar selecteren, die het stabiele richten over de pagina van het KUUROORD updates verzekeren. (TGT-53908)
-* De **de plaatshulding van de Activiteit tussen [!UICONTROL Edit] en [!UICONTROL Overview] pagina&#39;s.** Oplossing voor een probleem waarbij de paginanummering van de locatie van de activiteit op de [!UICONTROL Overview] -pagina niet werd uitgelijnd met updates die op de [!UICONTROL &#x200B; Edit Experience] -pagina zijn aangebracht. Locaties blijven nu consistent in beide weergaven, zodat u nauwkeurige uitlijning kunt toepassen en ontbrekende of onjuist genummerde posities kunt voorkomen. (TGT-53960 &amp; TGT-53954)
+* De **de plaatshulding van de Activiteit tussen [!UICONTROL Edit] en [!UICONTROL Overview] pagina&#39;s.** Oplossing voor een probleem waarbij de paginanummering van de locatie van de activiteit op de [!UICONTROL Overview] -pagina niet werd uitgelijnd met updates die op de [!UICONTROL  Edit Experience] -pagina zijn aangebracht. Locaties blijven nu consistent in beide weergaven, zodat u nauwkeurige uitlijning kunt toepassen en ontbrekende of onjuist genummerde posities kunt voorkomen. (TGT-53960 &amp; TGT-53954)
 * **Kon niet terug naar [!UICONTROL Design] wijze in bijgewerkte VEC.** Oplossing voor een probleem in de bijgewerkte VEC-gebruikersinterface waarbij gebruikers na het navigeren naar een nieuwe pagina in de modus [!UICONTROL Design] niet konden terugschakelen naar de [!UICONTROL Browse] -modus. De schakeloptie [!UICONTROL Design] werkt nu correct, zodat wijzigingen naadloos op alle pagina&#39;s kunnen worden toegepast. (TGT-53988 &amp; TGT-53993)
 * **parameter van de Vraag niet getoond in activiteitenoverzicht.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface dat er op de pagina van [!UICONTROL Overview] geen parameters voor query&#39;s werden weergegeven, waardoor er discrepanties ontstonden tussen de URL&#39;s voor query&#39;s van [!UICONTROL Overview] en van de pagina. De parameters van de vraag tonen nu correct, die ervoor zorgen de activiteitenplaatsen volledig worden vertegenwoordigd en over meningen verenigbaar zijn. (TGT-53701)
 
@@ -100,8 +119,8 @@ Voor meer informatie, zie [[!DNL Target]  UI update FAQs &#x200B;](/help/main/c-
 
 | Bron | Details |
 |--- |--- |
-| [&#x200B; de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=nl-NL) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
-| [&#x200B; at.js versiedetails &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
+| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
+| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
 
 ## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release van Experience Cloud
 
@@ -109,9 +128,9 @@ Naast de notities voor elke release bevatten de volgende bronnen aanvullende inf
 
 | Bron | Details |
 |--- |--- |
-| [&#x200B; Veranderingen van de Documentatie &#x200B;](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
-| [&#x200B; de nota&#39;s van de Versie voor vorige versies &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
-| [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl-NL){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
+| [ Veranderingen van de Documentatie ](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
+| [ de nota&#39;s van de Versie voor vorige versies ](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
+| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
 
 ## Prerelease-informatie {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
@@ -119,5 +138,5 @@ De volgende middelen laten u zien wat in de volgende versie van het Doel komt.
 
 | Bron | Details |
 |--- |--- |
-| [&#x200B; de Prioritaire Update van het Product van Adobe &#x200B;](https://www.adobe.com/subscription/priority-product-update.html){target=_blank} | Ontvang voorafgaande meldingen over aanstaande productverbeteringen voor [!DNL Target] en andere [!DNL Adobe Experience Cloud] -oplossingen. |
-| [&#x200B; de Nota&#39;s van de Versie van het Doel - preRelease &#x200B;](/help/main/r-release-notes/target-release-notes.md){target=_blank} | Informatie over de versies van het Doel van de huidige maand, met inbegrip van pre-releaseinformatie. |
+| [ de Prioritaire Update van het Product van Adobe ](https://www.adobe.com/subscription/priority-product-update.html){target=_blank} | Ontvang voorafgaande meldingen over aanstaande productverbeteringen voor [!DNL Target] en andere [!DNL Adobe Experience Cloud] -oplossingen. |
+| [ de Nota&#39;s van de Versie van het Doel - preRelease ](/help/main/r-release-notes/target-release-notes.md){target=_blank} | Informatie over de versies van het Doel van de huidige maand, met inbegrip van pre-releaseinformatie. |
