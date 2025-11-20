@@ -27,7 +27,7 @@ De beste praktijken van de industrie worden geïntegreerd in [!DNL Target Standa
 
 ## [!DNL Target Premium] {#premium}
 
-[!BADGE  Premium ]{type=Positive}
+[!BADGE &#x200B; Premium &#x200B;]{type=Positive}
 
 [!DNL Target Premium] is een geavanceerd aanbod waarvoor een licentie vereist is om premiumfuncties toe te voegen aan [!DNL Target Standard] . Alle [!DNL Target Premium] -artikelen in [!DNL Target] -hulplijnen bevatten het [!UICONTROL Premium] -symbool boven aan elke pagina of inline bij de desbetreffende tekst. U kunt op het badge [!UICONTROL Premium] klikken en koppelingen naar deze sectie maken.
 
@@ -43,11 +43,11 @@ AP is volledig geautomatiseerd, voortdurend leerend met minimale menselijke anal
 
 ### [!UICONTROL Auto-Target]
 
-[ auto-Doel ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) gebruikt het geavanceerde machine leren om hoog-presterende telleregerichte ervaringen te identificeren. Vervolgens krijgt elke bezoeker de meest op maat gemaakte ervaring op basis van individuele klantprofielen en het gedrag van eerdere bezoekers met vergelijkbare profielen. Met [!UICONTROL Auto-Target] kunt u inhoud en schijfconversies personaliseren.
+[&#x200B; auto-Doel &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) gebruikt het geavanceerde machine leren om hoog-presterende telleregerichte ervaringen te identificeren. Vervolgens krijgt elke bezoeker de meest op maat gemaakte ervaring op basis van individuele klantprofielen en het gedrag van eerdere bezoekers met vergelijkbare profielen. Met [!UICONTROL Auto-Target] kunt u inhoud en schijfconversies personaliseren.
 
 ### Aanbevelingen
 
-[ de activiteiten van de aanbevelingen ](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) {tonen automatisch producten of inhoud die uw klanten zouden kunnen interesseren die op vorige gebruikersactiviteit worden gebaseerd. [!UICONTROL Recommendations] helpt klanten bij het doorsturen van relevante items waarvan ze wellicht geen kennis hebben.
+[&#x200B; de activiteiten van de aanbevelingen &#x200B;](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) &lbrace;tonen automatisch producten of inhoud die uw klanten zouden kunnen interesseren die op vorige gebruikersactiviteit worden gebaseerd. [!UICONTROL Recommendations] helpt klanten bij het doorsturen van relevante items waarvan ze wellicht geen kennis hebben.
 
 Een aanbeveling bepaalt hoe een product aan een klant, afhankelijk van de activiteiten van die klant op de plaats wordt voorgesteld. Bijvoorbeeld:
 
@@ -65,7 +65,7 @@ Een aanbeveling bepaalt hoe een product aan een klant, afhankelijk van de activi
 
 ### Aanbevelingen als voorstel
 
-[ Aanbevelingen als aanbieding ](/help/main/c-recommendations/recommendations-as-an-offer.md) laat u aanbevelingen binnen [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], en [!UICONTROL Experience Targeting] (XT) activiteiten omvatten.
+[&#x200B; Aanbevelingen als aanbieding &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md) laat u aanbevelingen binnen [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target], en [!UICONTROL Experience Targeting] (XT) activiteiten omvatten.
 
 Deze functionaliteit opent volledig nieuwe mogelijkheden, zoals:
 
@@ -76,11 +76,11 @@ Deze functionaliteit opent volledig nieuwe mogelijkheden, zoals:
 
 ### Machtigingen voor zakelijke gebruikers
 
-[ de functionaliteit van de Toestemmingen van de Gebruiker van de Onderneming ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) laat u verschillende projecten (genoemd &quot;Profielen van het Product&quot;in [!DNL Adobe Admin Console for Enterprise]) tot stand brengen. Met [!UICONTROL Enterprise User Permissions] kunt u verschillende machtigingen toewijzen aan één gebruiker die de toegangsrechten van die gebruiker voor elk project instelt. Deze afzonderlijke projecten kunnen worden vergeleken met de manier waarop de rapportsuites werken in [!DNL Adobe Analytics] . Elk project kan specifieke gebruikers met specifieke rollen hebben die op een reeks eigenschappen van toepassing zijn. Het resultaat is dat klanten de weergave kunnen beperken, de toegang tot hun gebruikers kunnen bewerken, goedkeuren en publiceren. U kunt gebruikers beperken op basis van regio-, omgeving- (dvd/stage/prod), kanaal- of andere aangepaste criteria.
+[&#x200B; de functionaliteit van de Toestemmingen van de Gebruiker van de Onderneming &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) laat u verschillende projecten (genoemd &quot;Profielen van het Product&quot;in [!DNL Adobe Admin Console for Enterprise]) tot stand brengen. Met [!UICONTROL Enterprise User Permissions] kunt u verschillende machtigingen toewijzen aan één gebruiker die de toegangsrechten van die gebruiker voor elk project instelt. Deze afzonderlijke projecten kunnen worden vergeleken met de manier waarop de rapportsuites werken in [!DNL Adobe Analytics] . Elk project kan specifieke gebruikers met specifieke rollen hebben die op een reeks eigenschappen van toepassing zijn. Het resultaat is dat klanten de weergave kunnen beperken, de toegang tot hun gebruikers kunnen bewerken, goedkeuren en publiceren. U kunt gebruikers beperken op basis van regio-, omgeving- (dvd/stage/prod), kanaal- of andere aangepaste criteria.
 
 ## Beta-functies {#beta}
 
-[!BADGE  Beta ]{type=Informative}
+[!BADGE &#x200B; Beta &#x200B;]{type=Informative}
 
 Het team van [!DNL Adobe Target] laat vaak nieuwe eigenschappen voor bepaalde klanten voor het testen en terugkoppelen doeleinden toe. Nadat de testperiode is voltooid, worden deze functies in toekomstige versies van [!DNL Target Standard/Premium] voor alle klanten ingeschakeld en in releaseopmerkingen aangekondigd.
 
@@ -94,7 +94,7 @@ Artikelen in [!DNL Target] -hulplijnen die Beta-functies beschrijven, hebben de 
 
 [!DNL Recommendations Classic] geeft automatisch producten of inhoud weer die uw klanten interessant kan maken op basis van eerdere gebruikersactiviteiten op uw website. Aanbevelingen helpen klanten te leiden naar objecten die ze anders wellicht niet kennen, waardoor de verkoop op uw website wordt verbeterd.
 
-Voor meer informatie, zie de [ Klassieke documentatie van Aanbevelingen ](/help/main/assets/adobe-recommendations-classic.pdf).
+Voor meer informatie, zie de [&#x200B; Klassieke documentatie van Aanbevelingen &#x200B;](/help/main/assets/adobe-recommendations-classic.pdf).
 
 ## Experience League: De Adobe [!DNL Target] welkomstkit {#kit}
 
@@ -102,7 +102,7 @@ Bouw uw optimalisatie- en personalisatieprogramma op [!DNL Adobe Target] met dez
 
 [De Adobe Target-welkomstkit](/help/main/c-intro/target-welcome-kit.md)
 
-## De video van de opleiding: De Types van Activiteit (9 :03) ![ badge van het Overzicht ](/help/main/assets/overview.png)
+## De video van de opleiding: De Types van Activiteit (9 :03) ![&#x200B; badge van het Overzicht &#x200B;](/help/main/assets/overview.png)
 
 In de volgende video wordt uitgelegd welke soorten activiteiten beschikbaar zijn in [!DNL Target Standard/Premium] en hoe u uw sitedoelen kunt bereiken met behulp van de driestappenworkflow in [!DNL Target] .
 
