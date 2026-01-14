@@ -4,16 +4,16 @@ description: Kies voor Adobe Target om uw programma voor optimalisatie en person
 title: Hoe ga ik aan de slag met Target?
 feature: Overview
 exl-id: c7943c6d-03c9-439c-9e1a-1ad805c18073
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
 
 # Hoofdstuk 1: Inleiding
 
-Als u vandaag net als de meeste andere bedrijven werkt, hebt u de digitale marketingkanalen gemoderniseerd. Nu bent u op zoek naar manieren om uw merk te onderscheiden: om af te breken van het pakket en zo de omzet, conversietarieven en andere belangrijke bedrijfsmetingen te verhogen. Een manier om dat te doen is door de digitale ervaringen die u aan uw klanten levert te optimaliseren en aan te passen door gebruik te maken van wat u over hen kent om optimaal te profiteren van hun interacties op uw website, mobiele site, mobiele app of een ander merkartikel. U zou zelfs deze optimalisering en verpersoonlijking voorbij uw traditionele digitale aanraakpunten aan aanraakpunten zoals kiosken, apparaten Internet van de Dingen (IoT), call center interactie, en stemmedewerkers zoals Alexa kunnen willen uitbreiden. Merken die [!DNL Target] hebben gebruikt om hun digitale ervaringen te testen en te personaliseren, hebben ongelooflijke resultaten behaald.
+Als u vandaag net als de meeste andere bedrijven werkt, hebt u de digitale marketingkanalen gemoderniseerd. Nu bent u op zoek naar manieren om uw merk te onderscheiden: om af te breken van het pakket en zo de omzet, conversietarieven en andere belangrijke bedrijfsmetingen te verhogen. Een manier om dat te doen is door de digitale ervaringen die u aan uw klanten levert te optimaliseren en aan te passen door gebruik te maken van wat u over hen kent om optimaal te profiteren van hun interacties op uw website, mobiele site, mobiele app of een ander merkartikel. Misschien wilt u deze optimalisatie en personalisatie zelfs uitbreiden tot meer dan uw traditionele digitale aanraakpunten, tot aanraakpunten zoals kiosken, IoT-apparaten, callcenter-interacties en spraakassistenten zoals Alexa. Merken die [!DNL Target] hebben gebruikt om hun digitale ervaringen te testen en te personaliseren, hebben ongelooflijke resultaten behaald.
 
 Bijvoorbeeld:
 
