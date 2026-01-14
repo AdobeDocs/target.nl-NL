@@ -2,7 +2,7 @@
 keywords: optimalisatie;personalisatie;adobe-reis optimizer;ajo;use cases;scenario's;voeg inhoud toe;verberg inhoud;voeg componenten toe;verberg componenten
 description: Leer hoe te om componenten op uw Web-pagina toe te voegen of te verbergen gebruikend  [!DNL Adobe Journey Optimizer].
 title: Componenten aan uw webpagina toevoegen of verbergen in  [!DNL Adobe Journey Optimizer]
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#beta newtab=true" tooltip="Wat zijn de eigenschappen van Beta in  [!DNL Adobe Target]."
 feature: Integrations
 hide: true
 hidefromtoc: true
@@ -38,7 +38,7 @@ Dit gebruiksgeval wordt ontworpen om aan te tonen hoe te om vertrouwde taken uit
 
 >[!NOTE]
 >
->In de instructies in deze sectie wordt de nadruk gelegd op de stappen die nodig zijn om een afbeelding te wijzigen en om profielkenmerken te gebruiken om tekstberichten aan te passen. Voor meer informatie over beschikbare opties in de [!DNL Journey Optimizer] Webontwerper, zie [&#x200B; Werk met de Webontwerper &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} in de *documentatie van Journey Optimizer*.
+>In de instructies in deze sectie wordt de nadruk gelegd op de stappen die nodig zijn om een afbeelding te wijzigen en om profielkenmerken te gebruiken om tekstberichten aan te passen. Voor meer informatie over beschikbare opties in de [!DNL Journey Optimizer] Webontwerper, zie [&#x200B; Werk met de Webontwerper &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} in de *documentatie van Journey Optimizer*.
 >
 >De video onder aan de pagina is vooral handig.
 
@@ -64,7 +64,7 @@ Voer de volgende stappen uit om componenten toe te voegen of componenten op uw w
 
    Een Webconfiguratie, of kanaaloppervlakte, is een configuratie die door een systeembeheerder wordt bepaald. De webconfiguratie bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameter, subdomein, mobiele apps enzovoort.
 
-   Voor meer informatie, zie [&#x200B; de oppervlakken van het het kanaalkanaal van de Opstelling &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} in de *documentatie van Journey Optimizer*.
+   Voor meer informatie, zie [&#x200B; de oppervlakken van het het kanaalkanaal van de Opstelling &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} in de *documentatie van Journey Optimizer*.
 
 1. Klik in de sectie **[!UICONTROL Action]** op **[!UICONTROL Edit Content]** om uw website te openen in de webontwerper van [!DNL Journey Optimizer] .
 
@@ -91,9 +91,9 @@ Klik op de knop [!UICONTROL Reports] en klik vervolgens op de gewenste rapportag
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-Voor meer informatie, zie [&#x200B; begonnen worden met nieuwe Rapporterende interface &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} in de *documentatie van Journey Optimizer*.
+Voor meer informatie, zie [&#x200B; begonnen worden met nieuwe Rapporterende interface &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} in de *documentatie van Journey Optimizer*.
 
 >[!MORELIKETHIS]
 >
->[&#x200B; Werk met de Webontwerper &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} in de *documentatie van Journey Optimizer*
->[Creeer een campagne &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} in *Zelfstudies van Journey Optimizer*
+>[&#x200B; Werk met de Webontwerper &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} in de *documentatie van Journey Optimizer*
+>[Creeer een campagne &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} in *Zelfstudies van Journey Optimizer*
