@@ -29,15 +29,15 @@ Machtigingen voor zakelijke gebruikers zijn een manier om de toegang tot [!DNL A
 
 Als u wilt weten of uw organisatie een Standard- of Premium-licentie heeft, klikt u op de koppeling [!UICONTROL Administration] boven aan de gebruikersinterface van [!DNL Target] .
 
-* **[!DNL Target Standard]Klanten**: Als u het tabblad [!UICONTROL Users] ([!UICONTROL Administration > Users]) ziet (en niet het tabblad [!UICONTROL Properties] ), heeft uw organisatie een [!DNL Target Standard] licentie. [!DNL Target Standard] klanten zouden de instructies in [ Gebruikers ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) moeten volgen om gebruikers toe te voegen en toestemmingen in [!DNL Adobe Admin Console] toe te wijzen.
+* **[!DNL Target Standard]Klanten**: Als u het tabblad [!UICONTROL Users] ([!UICONTROL Administration > Users]) ziet (en niet het tabblad [!UICONTROL Properties] ), heeft uw organisatie een [!DNL Target Standard] licentie. [!DNL Target Standard] klanten zouden de instructies in [&#x200B; Gebruikers &#x200B;](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) moeten volgen om gebruikers toe te voegen en toestemmingen in [!DNL Adobe Admin Console] toe te wijzen.
 
-* **[!DNL Target Premium]Klanten**: Als u het tabblad [!UICONTROL Properties] ([!UICONTROL Administration > Properties]) en [!UICONTROL Users] ziet, heeft uw organisatie een [!DNL Target Premium] licentie. [!DNL Target Premium] klanten zouden de instructies in dit artikel en in [ moeten volgen vormen ondernemingstoestemmingen ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
+* **[!DNL Target Premium]Klanten**: Als u het tabblad [!UICONTROL Properties] ([!UICONTROL Administration > Properties]) en [!UICONTROL Users] ziet, heeft uw organisatie een [!DNL Target Premium] licentie. [!DNL Target Premium] klanten zouden de instructies in dit artikel en in [&#x200B; moeten volgen vormen ondernemingstoestemmingen &#x200B;](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 ## Voordat u aan de slag gaat met bedrijfsmachtigingen
 
 >[!IMPORTANT]
 >
->Zorg ervoor dat u de [ Caveats ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) hieronder sectie alvorens met ondernemingstoestemmingen leest te werk te gaan.
+>Zorg ervoor dat u de [&#x200B; Caveats &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) hieronder sectie alvorens met ondernemingstoestemmingen leest te werk te gaan.
 
 ## In deze sectie gebruikte termen en definities {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
 
@@ -108,13 +108,13 @@ In de volgende informatie wordt uitgelegd hoe machtigingen eerder in [!DNL Targe
 
 Met de nieuwe functie [!UICONTROL Permissions] kunt u verschillende projecten maken (in het dialoogvenster [!DNL Adobe Admin Console for Enterprise] genaamd &#39;Productprofielen&#39;). De projecten staan u toe om verschillende toestemmingen voor één enkele gebruiker toe te wijzen die de toegangsrechten van die gebruiker voor elk project dicteren. Deze afzonderlijke projecten kunnen worden vergeleken met de manier waarop de rapportsuites werken in [!DNL Adobe Analytics] . Elk project kan specifieke gebruikers met specifieke rollen hebben die op een reeks eigenschappen van toepassing zijn. Het resultaat is dat klanten de weergave, bewerking en goedkeuringstoegang kunnen beperken tot hun gebruikers op basis van regio, omgeving (dvd/stage/prod), kanaal of andere aangepaste criteria, zoals hieronder wordt getoond:
 
-![ toestemmingenbeeld ](assets/permissions.png)
+![&#x200B; toestemmingenbeeld &#x200B;](assets/permissions.png)
 
 Een specifieke gebruiker kan bijvoorbeeld toegang tot goedkeuring hebben op de Amerikaanse websites, maar alleen toegang tot de Europese mobiele app bekijken. Dezelfde gebruiker heeft mogelijk geen toegang om zelfs maar de activiteiten te bekijken die op het web en mobiele eigenschappen in de APAC-regio worden aangeboden.
 
 Het [!DNL Target] [!UICONTROL Permissions] -model heeft de volgende machtigingsrollen (Observer, Editor, Approver en Observer). De rol van waarnemer wordt niet weergegeven in illustraties in dit artikel.
 
-![ permissions_1 beeld ](assets/permissions_1.png)
+![&#x200B; permissions_1 beeld &#x200B;](assets/permissions_1.png)
 
 Elke rol heeft verschillende machtigingsniveaus:
 
@@ -127,17 +127,17 @@ Elke rol heeft verschillende machtigingsniveaus:
 
 Het is belangrijk om te weten dat de rol van elke gebruiker van toepassing is op elke pagina, eigenschap of site in uw account die [!DNL Target] -tags bevat, zoals hieronder wordt weergegeven:
 
-![ permissions_2 beeld ](assets/permissions_2.png)
+![&#x200B; permissions_2 beeld &#x200B;](assets/permissions_2.png)
 
 Het nieuwe model [!DNL Target] [!UICONTROL Permissions] heeft dezelfde drie machtigingsrollen (Observer, Editor en fiatteur), maar u kunt de machtigingsrollen van een gebruiker afzonderlijk toewijzen voor afzonderlijke pagina&#39;s, eigenschappen of sites, zoals hieronder wordt weergegeven:
 
-![ permissions_3 beeld ](assets/permissions_3.png)
+![&#x200B; permissions_3 beeld &#x200B;](assets/permissions_3.png)
 
 In dit voorbeeld heeft Jan de toestemmingen van de fiatteur aan de Homepage van de V.S. en de Plaats en de toestemmingen van de Waarnemer aan de Plaats van Frankrijk.
 
 Bovendien kan Jan geen pagina&#39;s, eigenschappen of sites in [!DNL Target] zien die ze niet mag zien, zoals hieronder wordt getoond:
 
-![ permissions_4 beeld ](assets/permissions_4.png)
+![&#x200B; permissions_4 beeld &#x200B;](assets/permissions_4.png)
 
 In dit voorbeeld ziet Jan de Productpagina&#39;s, de Russische Site en de Careers Site niet.
 
@@ -261,7 +261,7 @@ Als een gebruiker veelvoudige rollen en toestemmingen heeft, wordt de rol met de
 
 ### Kan ik een activiteit van één werkruimte naar een andere verplaatsen?
 
-Helaas kunt u activiteiten niet van de ene werkruimte naar de andere verplaatsen. U kunt een activiteit echter naar elke werkruimte kopiëren in de wetenschap dat de rapportgegevens niet worden overgedragen. Voor meer informatie, zie &quot;het Kopiëren/het Uitgeven van een Activiteit wanneer het Gebruiken van Werkruimten&quot;in [ het Kopiëren/het Uitgeven van een Activiteit wanneer het Gebruiken van Werkruimten ](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
+Helaas kunt u activiteiten niet van de ene werkruimte naar de andere verplaatsen. U kunt een activiteit echter naar elke werkruimte kopiëren in de wetenschap dat de rapportgegevens niet worden overgedragen. Voor meer informatie, zie &quot;het Kopiëren/het Uitgeven van een Activiteit wanneer het Gebruiken van Werkruimten&quot;in [&#x200B; het Kopiëren/het Uitgeven van een Activiteit wanneer het Gebruiken van Werkruimten &#x200B;](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
 
 Activiteiten die vóór de migratie zijn gemaakt, worden in de standaard-Workspace op dezelfde manier uitgevoerd, tenzij ze worden bewerkt en toegewezen eigenschappen. Activiteiten die onder een specifieke werkruimte vallen, respecteren de eigenschap die aan die werkruimte is toegewezen. Daarom is het mogelijk dat gedrag niet hetzelfde blijft als vóór de migratie.
 
@@ -271,11 +271,11 @@ Ja, u kunt een publiek tussen werkruimten verplaatsen met de optie [!UICONTROL M
 
 1. Klik op de knop **[!UICONTROL More Actions]** (de drie ovalen) en klik vervolgens op **[!UICONTROL Move]** .
 
-   ![ Meer Acties > Beweging ](/help/main/administrating-target/c-user-management/property-channel/assets/move-audience.png)
+   ![&#x200B; Meer Acties > Beweging &#x200B;](/help/main/administrating-target/c-user-management/property-channel/assets/move-audience.png)
 
 1. Selecteer de gewenste werkruimte in de vervolgkeuzelijst **[!UICONTROL Workspace]** en klik op **[!UICONTROL Move]** .
 
-   ![ Uitgezocht gewenst publiek om naar nieuwe werkruimte ](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-move.png) te bewegen
+   ![&#x200B; Uitgezocht gewenst publiek om naar nieuwe werkruimte &#x200B;](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-move.png) te bewegen
 
 >[!NOTE]
 >
@@ -297,13 +297,13 @@ Overweeg het volgende scenario:
 
 Wanneer een bezoeker Pagina1 in browser opent, wordt de bezoeker opnieuw gericht aan Pagina2. Omdat Page2 niet kwalificeert om de activiteit te leveren, bevat zijn vraag van het Doel geen kliksporen in zijn reactie.
 
-Als de omleidingspagina en de activiteit-URL tot dezelfde eigenschap behoren, werkt het klikken op de tracks zoals verwacht. Voor meer informatie, zie [ het volgen van de Klik ](/help/main/c-activities/r-success-metrics/click-tracking.md).
+Als de omleidingspagina en de activiteit-URL tot dezelfde eigenschap behoren, werkt het klikken op de tracks zoals verwacht. Voor meer informatie, zie [&#x200B; het volgen van de Klik &#x200B;](/help/main/c-activities/r-success-metrics/click-tracking.md).
 
 ## Trainingsvideo&#39;s
 
 De volgende video&#39;s bevatten meer informatie over de concepten die in dit artikel worden besproken.
 
-### De video van de opleiding: De Opleiding van de Toestemmingen van de onderneming Video ![ badge van het Overzicht ](/help/main/assets/overview.png)
+### De video van de opleiding: De Opleiding van de Toestemmingen van de onderneming Video ![&#x200B; badge van het Overzicht &#x200B;](/help/main/assets/overview.png)
 
 Leerdoelstellingen:
 

@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Met dit gebruiksgeval kunt u de geheimen ontgrendelen zodat wijzigingen in de inhoud van A/B-tests in [!DNL Adobe Journey Optimizer] worden doorgevoerd.
 
-Dit gebruiksgeval toont aan hoe te om vertrouwde taken uit te voeren, zoals het testen A/B met een [ activiteit van de Test A/B ](/help/main/c-activities/t-test-ab/test-ab.md), gebruikend [!DNL Journey Optimizer] in plaats van [!DNL Adobe Target].
+Dit gebruiksgeval toont aan hoe te om vertrouwde taken uit te voeren, zoals het testen A/B met een [&#x200B; activiteit van de Test A/B &#x200B;](/help/main/c-activities/t-test-ab/test-ab.md), gebruikend [!DNL Journey Optimizer] in plaats van [!DNL Adobe Target].
 
-Dit gebruiksgeval wordt ontworpen om aan te tonen hoe te om vertrouwde taken uit te voeren u het gebruiken van [!DNL Adobe Target], A/B het testen gebruikend een [ activiteit van de Test A/B ](/help/main/c-activities/t-test-ab/test-ab.md) zou kunnen hebben uitgevoerd, maar het gebruiken [!DNL Journey Optimizer].
+Dit gebruiksgeval wordt ontworpen om aan te tonen hoe te om vertrouwde taken uit te voeren u het gebruiken van [!DNL Adobe Target], A/B het testen gebruikend een [&#x200B; activiteit van de Test A/B &#x200B;](/help/main/c-activities/t-test-ab/test-ab.md) zou kunnen hebben uitgevoerd, maar het gebruiken [!DNL Journey Optimizer].
 
 ## Voordelen en waarde
 
@@ -38,7 +38,7 @@ Dit gebruiksgeval wordt ontworpen om aan te tonen hoe te om vertrouwde taken uit
 
 >[!NOTE]
 >
->In de instructies in deze sectie wordt de nadruk gelegd op de stappen die nodig zijn om een afbeelding te wijzigen en om profielkenmerken te gebruiken om tekstberichten aan te passen. Voor meer informatie over beschikbare opties in de [!DNL Journey Optimizer] Webontwerper, zie [ Werk met de Webontwerper ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} in de *documentatie van Journey Optimizer*.
+>In de instructies in deze sectie wordt de nadruk gelegd op de stappen die nodig zijn om een afbeelding te wijzigen en om profielkenmerken te gebruiken om tekstberichten aan te passen. Voor meer informatie over beschikbare opties in de [!DNL Journey Optimizer] Webontwerper, zie [&#x200B; Werk met de Webontwerper &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} in de *documentatie van Journey Optimizer*.
 >
 >De video onder aan de pagina is vooral handig.
 
@@ -46,13 +46,13 @@ Voer de volgende stappen uit om componenten toe te voegen of componenten op uw w
 
 1. In [!DNL Adobe Journey Optimizer], klik **Campagnes** in het linkerspoor om de [!UICONTROL Campaigns] pagina te tonen.
 
-   ![ Adobe Journey Optimizer het landen pagina met benadrukte het lusje van Campagnes.](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
+   ![&#x200B; Adobe Journey Optimizer het landen pagina met benadrukte het lusje van Campagnes.](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
 
 1. Klik op **[!UICONTROL Create Campaign]** in de rechterbovenhoek van de pagina [!UICONTROL Campaigns] .
 
 1. Selecteer **[!UICONTROL Scheduled - Marketing]** (het gebrek), dan klik **creëren** om de [!UICONTROL Campaign] detailspagina te tonen.
 
-   ![ pagina van de Details van de Campagne in Adobe Journey Optimizer ](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
+   ![&#x200B; pagina van de Details van de Campagne in Adobe Journey Optimizer &#x200B;](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
 1. Geef in de sectie **[!UICONTROL Properties]** een beschrijvende naam en een optionele beschrijving voor de campagne op.
 
@@ -64,11 +64,11 @@ Voer de volgende stappen uit om componenten toe te voegen of componenten op uw w
 
    Een Webconfiguratie, of kanaaloppervlakte, is een configuratie die door een systeembeheerder wordt bepaald. De webconfiguratie bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameter, subdomein, mobiele apps enzovoort.
 
-   Voor meer informatie, zie [ de oppervlakken van het het kanaalkanaal van de Opstelling ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} in de *documentatie van Journey Optimizer*.
+   Voor meer informatie, zie [&#x200B; de oppervlakken van het het kanaalkanaal van de Opstelling &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} in de *documentatie van Journey Optimizer*.
 
 1. Klik in de sectie **[!UICONTROL Action]** op **[!UICONTROL Edit Content]** om uw website te openen in de webontwerper van [!DNL Journey Optimizer] .
 
-   ![ Yoga landende pagina op de website LUMA ](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
+   ![&#x200B; Yoga landende pagina op de website LUMA &#x200B;](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
 1. Als u een element wilt verbergen, klikt u op **[!UICONTROL Edit Web Page]** in de rechtertrack.
 
@@ -76,11 +76,11 @@ Voer de volgende stappen uit om componenten toe te voegen of componenten op uw w
 
    De juiste spoorvertoningen optie die u op het geselecteerde element kunt uitvoeren. Deze opties variëren, afhankelijk van het geselecteerde element.
 
-   ![ de elementenknoop van de Huid ](/help/main/c-integrating-target-with-mac/ajo/assets/hide-element.png)
+   ![&#x200B; de elementenknoop van de Huid &#x200B;](/help/main/c-integrating-target-with-mac/ajo/assets/hide-element.png)
 
 1. Klik op de pijl Vorige in de linkerbovenhoek om terug te keren naar de webontwerper.
 
-   ![ de pijl van de Rug ](/help/main/c-integrating-target-with-mac/ajo/assets/back-arrow.png)
+   ![&#x200B; de pijl van de Rug &#x200B;](/help/main/c-integrating-target-with-mac/ajo/assets/back-arrow.png)
 
 1. Klik **[!UICONTROL Review to Activate]**, zorg ervoor dat alles zoals verwacht kijkt, dan klik **activeert**.
 
@@ -91,9 +91,9 @@ Klik op de knop [!UICONTROL Reports] en klik vervolgens op de gewenste rapportag
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-Voor meer informatie, zie [ begonnen worden met nieuwe Rapporterende interface ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} in de *documentatie van Journey Optimizer*.
+Voor meer informatie, zie [&#x200B; begonnen worden met nieuwe Rapporterende interface &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} in de *documentatie van Journey Optimizer*.
 
 >[!MORELIKETHIS]
 >
->[ Werk met de Webontwerper ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} in de *documentatie van Journey Optimizer*
->[Creeer een campagne ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} in *Zelfstudies van Journey Optimizer*
+>[&#x200B; Werk met de Webontwerper &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} in de *documentatie van Journey Optimizer*
+>[Creeer een campagne &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} in *Zelfstudies van Journey Optimizer*
