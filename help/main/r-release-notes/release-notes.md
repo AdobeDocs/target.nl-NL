@@ -6,9 +6,9 @@ short-description: Leer over de nieuwe eigenschappen, de verhogingen, en de moei
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e5bc137ed1f32b07569a4f1a31746da19fb164d3
+source-git-commit: 550fa1e8d4127babe02403708b73862505bf8c99
 workflow-type: tm+mt
-source-wordcount: '1736'
+source-wordcount: '1772'
 ht-degree: 0%
 
 ---
@@ -21,97 +21,70 @@ Ontdek de nieuwste functies, verbeteringen en oplossingen in [!DNL Adobe Target]
 
 ## Tijdgevoelige updates die u moet weten {#time-sensitive}
 
-[!BADGE &#x200B; Belangrijk &#x200B;]{type=Informative}
+[!BADGE  Belangrijk ]{type=Informative}
 
 Voor tijdgevoelige updates die betrekking hebben op [!DNL Adobe Target] en uw implementatie, verschaft [!DNL Adobe] gedetailleerde opmerkingen en documentatie bij de release via [!UICONTROL Experience League] . Hier volgen enkele belangrijke punten die relevant zijn voor uw implementatie:
 
 ### Veroudering van interfaceversie [!DNL Target] in-/uitschakelen
 
-Voor meer informatie, zie [[!DNL Target]  UI update FAQs &#x200B;](/help/main/c-intro/updated-ui-faq.md).
+Voor meer informatie, zie [[!DNL Target]  UI update FAQs ](/help/main/c-intro/updated-ui-faq.md).
 
-## [!DNL Target Standard/Premium] 25.11.2 (14 november 2025)
+## [!DNL Target Standard/Premium] 26.1.1 (18 januari 2026)
 
-**Beslissende aanbiedingen**
+**Activiteiten**
 
 +++Zie details
-* **de besluiten van de aanbieding met verborgen of ongeldige selecteurs niet editable in bijgewerkte UI.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface waarbij aan verborgen of ongeldige kiezers gekoppelde aanbiedingsbeslissingen niet konden worden bewerkt, tenzij het element zichtbaar was in Visual Experience Composer (VEC). Bewerken wordt nu rechtstreeks vanuit het deelvenster ondersteund. Hierdoor wordt functionaliteit in de oudere gebruikersinterface hersteld en worden de beslissingen over de aanbieding altijd gewijzigd, ongeacht de zichtbaarheid van de kiezer. (TGT-53899)
+
+* **Onbekwaam om activiteit te kopiëren - ongeldige gebruikersinput.** Het probleem waarbij gebruikers een onhandige fout in de gebruikersinvoer zien wanneer ze een activiteit kopiëren, is opgelost. Eerder, toen een activiteit werd gedupliceerd, werden zijn werkruimte-specifieke bezitstoewijzingen niet bewaard, veroorzakend het achtereind om sparen verzoek te verwerpen omdat ABActivity minstens één bezit vereist die tot een niet-gebrek werkruimte behoort. Dit probleem teweegbracht een generische fout in UI teweeg, verlatend gebruikers zonder begeleiding. Met deze correctie blijven werkruimtetoewijzingen tijdens kopieerbewerkingen op de juiste wijze behouden, zodat gebruikers de gekopieerde activiteit zonder wijzigingen kunnen opslaan en misleidende validatiefouten worden voorkomen. (TGT-54282)
+* **laat werkruimtekolom de Web editoraanbieding toe.** Deze update verhelpt klantverwarring die wordt veroorzaakt door aanbiedingen van [!UICONTROL Default Workspace] die in andere werkruimten in de webeditor worden weergegeven. Hoewel dit gedrag werkt zoals het is ontworpen, zijn de aanbiedingen van [!UICONTROL Default Workspace] bewust zichtbaar over alle werkruimten, rapporteerden de klanten dat UI werkruimteoorsprong niet duidelijk maakte, vooral wanneer het creëren van activiteiten in een niet-standaardwerkruimte zoals &quot;Approvers.&quot; Om de duidelijkheid te verbeteren, is de kolom [!UICONTROL Workspace] nu toegelaten in de de aanbiedingslijst van de Redacteur van het Web, die gebruikers toestaat om gemakkelijk te onderscheiden welke werkruimte elke aanbieding tot behoort en misinterpretatie van de extra getoonde aanbiedingen te verhinderen. (TGT-54138)
+* **Verbindingen met doel=&quot;_blank&quot;open in een nieuw lusje.** Deze moeilijke situatie verhelpt een kwestie waar authored websites die verbindingen met ~ target= &quot;_blank&quot;~ bevatten op een nieuw browser lusje zouden openen wanneer geklikt op [!UICONTROL Browse] wijze, die de ervaring van de in-redacteursvoorproef onderbreken. Het gedrag trad op omdat de native koppelingskenmerken van de geschreven pagina niet werden onderschept door de geïnjecteerde JavaScript van de extensie, in tegenstelling tot in de oudere UI waar ankerelementen werden getransformeerd en hun doelen werden overschreven om navigatie binnen de editor te houden. De update zorgt ervoor dat de verbindingen die ~ gebruiken target= &quot;_blank&quot;~ nu behoorlijk binnen de Redacteur van het Web worden behandeld zodat openen zij externe lusjes niet meer tijdens het ontwerpen. (TGT-54134)
+* **schrap de waarschuwing van het Bezit.** Deze update introduceert een visuele waarschuwing om gebruikers duidelijk te informeren wanneer ze een automatisch gedetecteerde eigenschap in de Activiteiteneditor uitschakelen. Eerder, die een auto-ontdekte bezit verwijdert voorzag geen aanwijzing dat het bezit permanent zou worden geschrapt, dat c0zou leiden tot toevallig verlies van het richten configuratie. Met deze correctie wordt een waarschuwingspictogram toegevoegd dat consistent is met het gedrag in de verouderde gebruikersinterface om gebruikers te laten weten dat de selectie van de eigenschap de toepassing uit de activiteit verwijdert. (TGT-54121)
+* **[!UICONTROL Workspaces]-vervolgkeuzelijst is beperkt tot 20 in de [!UICONTROL Users] -sectie.** Met deze oplossing verhelpt u een probleem waarbij het vervolgkeuzemenu [!UICONTROL Workspaces] in de sectie [!UICONTROL Administration] > [!UICONTROL Users] slechts 20 werkruimten weergeeft, zelfs als een gebruiker toegang tot nog veel meer werkruimten had. De onderliggende GraphQL-aanroep naar `licenseGroups` was ook beperkt tot 20 resultaten, waardoor de gebruikersinterface een onvolledige lijst weergeeft ondanks dat de gebruiker toegang heeft tot meer werkruimten in de organisatie. De update verwijdert deze vaste limiet zodat de volledige set beschikbare werkruimten nu wordt geretourneerd en correct wordt weergegeven. (TGT-53820)
+* **Vaste een kwestie waar de aanbiedingen modaal niet de werkruimtekollom tonen.** Oplossing voor een probleem waarbij de kolom met werkruimte in de bijgewerkte gebruikersinterface niet werd weergegeven met de modale aanbiedingsmodus. Dit leidde tot verwarring voor klanten omdat aanbiedingen van [!UICONTROL Default Workspace] naast aanbiedingen van de geselecteerde werkruimte werden weergegeven zonder aanduiding van hun oorsprong. De werkruimtekolom is nu ingeschakeld, zodat klanten duidelijk kunnen aangeven tot welke werkruimte elk aanbod behoort. (TGT-52320)
+
++++
+
+**Eigenschappen**
+
++++Zie details
+* **de Activiteit geeft zou geen auto-ontdekt bezit moeten toevoegen als reeds verwijderd.** Met deze correctie wordt een probleem verholpen waarbij bij het bewerken van een activiteit automatisch een automatisch gedetecteerde eigenschap wordt geïntroduceerd die de gebruiker eerder had verwijderd. Wanneer een activiteit opnieuw wordt geopend voor bewerking, heeft het systeem de verwijderde eigenschap onjuist hersteld, wat leidt tot inconsequent gedrag en verwarring in de [!UICONTROL Properties List] . De update zorgt ervoor dat een automatisch gedetecteerde eigenschap wordt verwijderd als deze tijdens alle volgende bewerkingen wordt verwijderd en niet opnieuw wordt weergegeven, tenzij de gebruiker deze expliciet terugvoegt. (TGT-54182)
+* **voeg auto-ontdekte eigenschappen niet toe als reeds verwijderd.** Met deze correctie zorgt u ervoor dat een automatisch gedetecteerde eigenschap niet meer door het systeem wordt geïntroduceerd tijdens volgende navigatie in de activiteiteneditor nadat een gebruiker handmatig een automatisch gedetecteerde eigenschap heeft verwijderd uit een activiteit. Eerder, als een gebruiker een auto-ontdekte bezit schrapte, aan de [!UICONTROL Targeting] stap werd verplaatst, en toen aan [!UICONTROL Experiences] terugkwam, zou de redacteur de verwijderde eigenschap herhalen die op de auto-ontdekte lijst wordt gebaseerd die in het de staatssegment van de Redacteur van de Activiteit wordt opgeslagen. De bijgewerkte logica vergelijkt nu de auto-ontdekte eigenschappen met de huidige eigenschappen in het ~ ~ segment ActivityState en verhindert het opnieuw toevoegen van om het even welk auto-ontdekt bezit dat de gebruiker reeds heeft verwijderd. Dit resulteert in consistent gedrag in verschillende stappen en houdt rekening met de intentie van de gebruiker. (TGT-54181)
+* **voeg auto-ontdekte tekst in de eigenschappenlijst toe.** Deze verbetering werkt [!UICONTROL Properties List] bij om eigenschappen duidelijk te etiketteren die automatisch door het systeem werden ontdekt. Wanneer een auto-ontdekt bezit ook in user-visible [!UICONTROL Properties List] aanwezig is, toont het nu de &quot;(Auto-Gedetecteerd)&quot;tekst naast zijn naam, gebruikend de waarde die in de ~ wordt opgeslagen ActivityEditorSegment ~ staat. Dit weerspiegelt het gedrag van erfenis UI en helpt gebruikers gemakkelijk tussen manueel geselecteerde eigenschappen en die eigenschappen onderscheiden die automatisch worden geïdentificeerd. (TGT-54120)
+* **voeg auto-ontdekt [!UICONTROL Properties] in het staat toe.** Deze update zorgt ervoor dat de {~ staat 1} ActivityEditorSlice.ExperienceEditor constant een bijgewerkte lijst van alle auto-ontdekte bezit IDs handhaaft die van de Redacteur van het Web in het lusje van de Activiteit ~ worden overgegaan. [!UICONTROL Experiences] Telkens wanneer de gebruiker naar het tabblad [!UICONTROL Experiences] navigeert, wordt de status vernieuwd met de nieuw gedetecteerde eigenschappen en worden duplicaten voorkomen, zodat nauwkeurige tracering en betrouwbaar gedrag verderop in het scherm worden weergegeven. (TGT-54119)
 
 +++
 
 **Aanbevelingen**
 
 +++Zie details
-* **het uitgeven criteria in een activiteit veroorzaakte de pagina om te crashen.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface dat ertoe leidde dat bewerkingscriteria ertoe leidden dat de pagina vastliep met consolefouten met betrekking tot `useCrudActionsCtx` . De criteria-editor laadt en werkt nu correct, zodat activiteiten zonder onderbreking kunnen worden bewerkt. (TGT-53971)
-* **[!UICONTROL Message]-kolom kan soms de productgegevens niet weergeven in de bijgewerkte gebruikersinterface.** Oplossing voor een probleem in de bijgewerkte [!UICONTROL Recommendations] UI waarbij de kolom [!UICONTROL Message] in [!UICONTROL Catalog Search] soms geen productgegevens kon weergeven, ook al waren er waarden aanwezig in de feed. De kolom toont nu constant de correcte berichtwaarden over alle producten, die betrouwbare zicht verzekeren zonder handkolomherconfiguratie te vereisen. (TGT-52777)
-* **[!UICONTROL Download Recommendations Data]niet zichtbaar na het opslaan van activiteit in bijgewerkte gebruikersinterface.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface waarbij de knop [!UICONTROL Download Recommendations Data] niet werd weergegeven voor bepaalde opgeslagen activiteiten, zelfs niet na het opnieuw opslaan. De knop wordt nu consistent weergegeven in alle activiteiten, zodat gebruikers gegevens met aanbevelingen betrouwbaar kunnen exporteren zonder dat hiervoor een tijdelijke oplossing nodig is. (TGT-53802)
-* **het openen van bepaalde producten van een inzameling teruggekeerde &quot;Gevraagde middel werd niet gevonden&quot;en modaal ontbrak een dichte optie.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface van Aanbevelingen waarbij het openen van bepaalde producten uit een verzameling een fout met de tekst &#39;Gevraagde bron is niet gevonden&#39; veroorzaakte en een leeg modaal modaal voorbeeld zonder een sluitoptie weergaf. Met het modaal wordt de productinformatie nu correct geladen en u kunt de gegevens altijd sluiten als u deze netjes wilt afsluiten. (TGT-53986)
+* In de vervolgkeuzelijst **[!UICONTROL Environment]worden slechts 100 resultaten weergegeven.** Met deze correctie wordt een beperking verholpen waarbij klanten met meer dan 100 omgevingen alleen de eerste 100 items in de [!UICONTROL Environment] vervolgkeuzelijst [!UICONTROL Recommendations] konden zien. De onderliggende vraag van GraphQL (~ getEnvironmentsV2 ~) werd gepagineerd met een hard-gecodeerde paginagrootte van 100, veroorzakend UI om slechts een gedeeltelijke lijst te tonen zelfs wanneer de extra pagina&#39;s beschikbaar waren. Voor klanten met meer dan 100 omgevingen leidde dit probleem tot ontbrekende opties en een onvolledige selectie. De update verhoogt de limiet, zodat alle omgevingen worden geretourneerd en weergegeven, zodat volledige zichtbaarheid wordt gegarandeerd, ongeacht het aantal omgevingen. (TGT-53903)
 
 +++
 
-## [!DNL Target Standard/Premium] 25.11.1 (10 november 2025)
-
-
-**Analytics voor Doel (A4T)**
+**Rapporten**
 
 +++Zie details
-* **[!UICONTROL Goals & Settings]foutbericht wanneer u [!DNL Adobe Analytics] als rapportbron in bijgewerkte gebruikersinterface gebruikt.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface van [!UICONTROL Overview] waarin in de sectie Doelen de fout &#39;&#39;Er is iets misgegaan&#39;&#39; werd weergegeven. Je aanvraag kan niet worden voltooid. Neem contact op met [!DNL Adobe Client Care] als het probleem zich blijft voordoen&quot; wanneer [!DNL Adobe Analytics] (A4T) als rapportbron is geselecteerd. De doelen worden nu correct weergegeven met [!UICONTROL Adobe Analytics] -meetwaarden, zodat ze consistent zichtbaar zijn voor alle rapportbronnen. (TGT-54021)
+
+* **verholpen een kwestie waar de [!UICONTROL Reports] pijl niet duidelijk op uitbreidbare kolommen wees.** Oplossing voor een probleem waarbij de rapporttabel niet duidelijk aantoonde dat extra kolommen konden worden uitgebreid in de bijgewerkte gebruikersinterface. De verdwijnende knopinfo is toegevoegd aan de pijl [!UICONTROL Reports] bij de kolomkoppen om klanten te helpen begrijpen dat er meer kolommen beschikbaar zijn.
 
 +++
 
-**Soorten publiek**
+**Weergaven**
 
 +++Zie details
-* **Onbekwaam om veelvoudige rapporteringspubliek in bijgewerkte UI te selecteren.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface waarbij gebruikers niet meerdere nieuw gecreëerde rapportagesoorten tegelijk konden selecteren tijdens het bewerken van een activiteit. Meerdere doelgroepen kunnen nu tegelijk worden toegewezen, waardoor de flexibiliteit en efficiëntie van de rapportinstellingen worden verbeterd. (TGT-53253)
+
+* **Onbekwaam om wijzigingen te schrappen die op meningen worden toegepast.** Met deze correctie wordt een probleem verholpen waarbij gebruikers geen wijzigingen konden verwijderen binnen een activiteit, tenzij de wijziging eerst opnieuw was toegepast op extra weergaven. Wanneer u een activiteit bewerkt (bijvoorbeeld activiteit-id 302467), hadden pogingen om een wijziging te verwijderen geen effect, zodat gebruikers ongewenste wijzigingen niet kunnen verwijderen. Als een wijziging echter opnieuw is toegepast met &quot;Toepassen op meer weergaven&quot; en toegewezen aan een `Page Load` -gebeurtenis, werkte het verwijderen plotseling zoals verwacht. (TGT-54088)
 
 +++
 
-**Beslissende aanbiedingen**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Zie details
-* **Onbekwaam om besluitaanbiedingen in bijgewerkte UI uit te geven of te vervangen.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface dat ertoe leidde dat beslissingsvoorstellen niet konden worden bewerkt of vervangen via het deelvenster [!UICONTROL Modifications] . De aanbiedingsnamen werden leeg weergegeven. Beslissingsaanbiedingen zijn nu volledig toegankelijk en bewerkbaar, zodat ze pariteit herstellen met de oudere gebruikersinterface en ervoor zorgen dat klanten aanbiedingen rechtstreeks binnen activiteiten kunnen beheren. (TGT-53884)
-
-+++
-
-**Localization**
-
-+++Zie details
-* **Correcteerde verscheidene localisatiefouten in Koreaans en Japans UI.** (TGT-54003, TGT-54004, TGT-54006, TGT-54007 en TGT-54018)
-
-+++
-
-**[!UICONTROL Recommendations]**
-
-+++Zie details
-* **Bevordering door Attribuut met de Vergelijking van Attributen van de Entiteit ontbrak om aanbeveling sleutel na activiteit te laden sparen.** Oplossing voor een probleem waarbij speciale acties van het type [!UICONTROL Promotion by Attribute] met regeltype [!UICONTROL Entity Attribute Matching] de aanbevelingssleutel niet laden na het opslaan van een activiteit. Het probleem is veroorzaakt doordat `customKeyId` niet via GraphQL is aangevraagd. Aanbevelingssleutels worden nu correct geladen tijdens promotiebewerkingen. (TGT-53117)
-* **Aanbeveling blijft visueel voortbestaan wanneer het schakelen van ExpB aan ExpA.** Oplossing voor een probleem waarbij het invoegen van een aanbeveling in Experience B en het overschakelen naar Experience A het vak met de aanbevolen aanbieding zichtbaar maakten. Dit was slechts een visuele inconsistentie; de wijzigingen geven nu correct terug wanneer het schakelen tussen ervaringen, die nauwkeurige gedrag UI verzekeren. (TGT-53911)
-* **de sleutel van de Aanbeveling laadt niet voor [!UICONTROL Promotion by Attribute] met [!UICONTROL Entity Attribute] Vergelijking.** Oplossing voor een probleem waarbij promoties van het type [!UICONTROL Promotion by Attribute] met regeltype [!UICONTROL Entity Attribute Matching] de aanbevelingssleutel niet laden als ze werden bewerkt nadat een activiteit was opgeslagen. De sleutel van de aanbeveling wordt nu correct teruggewonnen door GraphQL, die bevorderingsvertoning verzekert en functioneert zoals verwacht. (TGT-53917)
-* **het uitgeven aanbevelingen op verborgen elementen van HTML die niet in bijgewerkte UI werken.** Oplossing voor een probleem in de gebruikersinterface van [!UICONTROL New Create] en VEC dat adviesactiviteiten die zijn toegepast op verborgen HTML-elementen niet konden worden bewerkt. Deze functionaliteit werkt nu zoals verwacht, waarbij de pariteit met de oudere UI wordt hersteld en wordt gecontroleerd of aanbevelingen kunnen worden gewijzigd, ongeacht de zichtbaarheid van elementen. (TGT-53953)
-* **Onbekwaam om aanbevelingsactiviteiten op verborgen elementen van HTML in bijgewerkte UI uit te geven.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface waarin de aanbevolen activiteiten die op verborgen HTML-elementen zijn toegepast, niet konden worden bewerkt. Deze functionaliteit werkt nu zoals verwacht, waarbij de pariteit met de oudere UI wordt hersteld en wordt gecontroleerd of aanbevelingen kunnen worden gewijzigd, ongeacht de zichtbaarheid van elementen. (TGT-53951)
-* **de catalogus van de Aanbeveling mist periodiek kenmerkwaarden in bijgewerkte UI.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface van [!UICONTROL Recommendations] waarbij zoekopdrachten in catalogi soms bepaalde kenmerkwaarden (bijvoorbeeld bericht) niet konden weergeven, zelfs niet als deze in de productreeks stonden. Kenmerkwaarden worden nu consistent geladen in zoekresultaten zonder dat de kolom opnieuw moet worden geconfigureerd, waardoor de betrouwbaarheid en efficiëntie voor het catalogusbeheer worden verbeterd. (TGT-52769)
-* **[!UICONTROL Download Recommendations]ontbreekt voor [!DNL Recommendations] -activiteiten in de bijgewerkte gebruikersinterface.** Oplossing voor een probleem in de bijgewerkte [!DNL Recommendations] UI waarbij de knop [!UICONTROL Download Recommendations] niet zichtbaar was voor A/B-activiteiten aan de hand van aanbevelingen. De knop wordt nu op de juiste wijze weergegeven, zodat gebruikers aanbevelingen kunnen exporteren zoals verwacht, in overeenstemming met de functionaliteit in de oudere gebruikersinterface. (TGT-53768)
-* **[!UICONTROL Download Recommendation Data]ontbreekt in de bijgewerkte interface van het Overzicht.** Oplossing voor een probleem in de bijgewerkte [!UICONTROL Overview] UI waarbij de knop [!UICONTROL Download Recommendation Data] niet zichtbaar was voor activiteiten met aanbevelingen. De knop wordt nu op de juiste wijze weergegeven, zodat gebruikers de gegevens met aanbevelingen rechtstreeks kunnen exporteren zonder terug te moeten schakelen naar de oudere gebruikersinterface. (TGT-53772)
-* **het uitgeven activiteitencriteria resulteerden soms in leeg scherm in bijgewerkte UI.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface dat er soms leidde tot een leeg scherm wanneer u op [!UICONTROL Edit Criteria in Experiences] klikte voor bepaalde activiteiten. De criteria-editor wordt nu betrouwbaar geladen voor alle activiteiten, zodat gebruikers deze zonder onderbreking kunnen bewerken. (TGT-53961)
-* **Onbekwaam om opeenvolgingscriteria in bijgewerkte UI uit te geven.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface waarbij het bewerken van [!UICONTROL Sequence Criteria] ertoe leidde dat popup met criteria vastliep tijdens het laden en vervolgens een leeg scherm weergaf. De criteria-editor wordt nu correct geladen, zodat gebruikers de criteria van de reeks zonder onderbreking kunnen bewerken en bijwerken. (TGT-53985)
-
-+++
-
-**[!UICONTROL Reports]**
-
-+++Zie details
-* **[!UICONTROL Multivariate Test] (MVT) plaatsen en grafiekrapporteringskwestie verhinderden rapportgeneratie.** Oplossing voor een probleem waarbij MVT-activiteiten [!UICONTROL Location Contribution] en Grafiekrapporten niet konden genereren in de doelinterface en de fout &#39;Er is iets fout opgetreden. We kunnen uw verzoek niet voltooien.&quot; Rapporten worden nu correct geladen in de gebruikersinterface en zorgen voor volledige zichtbaarheid. (TGT-53654)
-* **MVT meldt niet ladend wegens [!UICONTROL Element] fout van het bijdragerapport.** Oplossing voor een probleem waarbij MVT-activiteitenrapporten niet konden worden geladen in de doelinterface en waarbij de fout &quot;Rapport voor elementbijdrage kon niet worden opgehaald&quot; werd weergegeven. Rapporten worden nu correct weergegeven, zodat de bijdragen aan elementen volledig zichtbaar zijn. (TGT-53691)
-* **de orderdetails van de uitvoer aan CSV kwestie voor [!UICONTROL Experience Targeting] (XT) activiteiten.** Oplossing voor een probleem waarbij de optie [!UICONTROL Export Order Details to CSV] onjuist werd weergegeven voor XT-activiteiten en een leeg bestand werd geretourneerd. De optie wordt nu alleen weergegeven voor AP-activiteiten, zodat nauwkeurige exportfunctionaliteit wordt gegarandeerd en verwarring wordt voorkomen. (TGT-53798)
-
-+++
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++Zie details
-* **[!UICONTROL Delete Modification]. Kan wijzigingen in de activiteit niet verwijderen.** Oplossing voor een probleem waarbij de knop [!UICONTROL Delete Modification] in de gebruikersinterface [!DNL Target] niet werkte, zodat gebruikers geen wijzigingen binnen activiteiten konden verwijderen. De knop werkt nu zoals u had verwacht, zodat wijzigingen zonder vertraging op betrouwbare wijze kunnen worden verwijderd. (TGT-53728)
-* **Gewenste selecteurs niet erkend in bijgewerkte UI.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface waarbij voorkeurskiezers, zoals `data-target-component-id` , niet werden weergegeven in de lijst met CSS-kiezers in de VEC. De gebruikers kunnen aangewezen attributen in plaats van dynamisch geproduceerde klassennamen nu betrouwbaar selecteren, die het stabiele richten over de pagina van het KUUROORD updates verzekeren. (TGT-53908)
-* De **de plaatshulding van de Activiteit tussen [!UICONTROL Edit] en [!UICONTROL Overview] pagina&#39;s.** Oplossing voor een probleem waarbij de paginanummering van de locatie van de activiteit op de [!UICONTROL Overview] -pagina niet werd uitgelijnd met updates die op de [!UICONTROL &#x200B; Edit Experience] -pagina zijn aangebracht. Locaties blijven nu consistent in beide weergaven, zodat u nauwkeurige uitlijning kunt toepassen en ontbrekende of onjuist genummerde posities kunt voorkomen. (TGT-53960 &amp; TGT-53954)
-* **Kon niet terug naar [!UICONTROL Design] wijze in bijgewerkte VEC.** Oplossing voor een probleem in de bijgewerkte VEC-gebruikersinterface waarbij gebruikers na het navigeren naar een nieuwe pagina in de modus [!UICONTROL Design] niet konden terugschakelen naar de [!UICONTROL Browse] -modus. De schakeloptie [!UICONTROL Design] werkt nu correct, zodat wijzigingen naadloos op alle pagina&#39;s kunnen worden toegepast. (TGT-53988 &amp; TGT-53993)
-* **parameter van de Vraag niet getoond in activiteitenoverzicht.** Oplossing voor een probleem in de bijgewerkte gebruikersinterface dat er op de pagina van [!UICONTROL Overview] geen parameters voor query&#39;s werden weergegeven, waardoor er discrepanties ontstonden tussen de URL&#39;s voor query&#39;s van [!UICONTROL Overview] en van de pagina. De parameters van de vraag tonen nu correct, die ervoor zorgen de activiteitenplaatsen volledig worden vertegenwoordigd en over meningen verenigbaar zijn. (TGT-53701)
+* **[!UICONTROL Experience Fragment]naam werd afgebroken in nieuwe UI VEC** (TGT-54312)
+* **Kan [!UICONTROL Advanced Settings] for [!UICONTROL Revenue] niet gebruiken.** Met deze correctie wordt een probleem verholpen waarbij gebruikers een fout van 403 tegenkwamen bij het configureren van [!UICONTROL Advanced Settings] voor de metrische waarde [!UICONTROL Revenue] in [!UICONTROL Goals & Settings] . Het probleem kwam voor wanneer het toevoegen van een gebiedsdeelvoorwaarde verbonden aan het primaire doel; het backend vereiste verkeerd het redacteursrecht zelfs voor gebruikers die reeds voldoende toestemmingen hadden om activiteiten tot stand te brengen en uit te geven. Als gevolg hiervan is het opslaan van de activiteit mislukt, ondanks een geldige configuratie. De update verbetert de toestemmingscontrole zodat de gebruikers met aangewezen toegang met succes de metrische gebiedsdelen van de Opbrengst kunnen toevoegen zonder een verboden-middelfout te veroorzaken. (TGT-54092)
+* **Vaste een kwestie waar de Add knoop niet op geselecteerde beelden van toepassing was.** Oplossing voor een probleem dat ervoor zorgde dat klanten bepaalde afbeeldingen niet mochten toevoegen wanneer ze een afbeelding tijdens het maken van de activiteit selecteren of bijwerken. Wanneer klanten naar specifieke elementen hebben gezocht, bijvoorbeeld, zijn afbeeldingen die zijn geretourneerd bij het zoeken naar &#39;ipp&#39; en op de knop [!UICONTROL Add] klikken, niet van toepassing op de geselecteerde afbeelding en is er geen wijziging gemaakt. Het selecteren van andere afbeeldingen, zoals `Homepage-banner-1-moz.jpg` , bleef werken zoals u had verwacht. Deze update zorgt ervoor dat alle geldige afbeeldingen consistent kunnen worden toegepast in de bijgewerkte gebruikersinterface. (TGT-53610)
+* **Vaste een kwestie waar het schrappen van een voorwaarde URL de doel metrische configuratie terugstelt.** Oplossing voor een probleem waarbij door het verwijderen van één URL-voorwaarde in de [!UICONTROL Goal] -norm de volledige configuratie opnieuw werd ingesteld in de bijgewerkte gebruikersinterface. Wanneer klanten een opgeslagen URL-voorwaarde probeerden te verwijderen onder [!UICONTROL Conversion] > [!UICONTROL Viewed a Page] , werd het doeltype onverwachts overgeschakeld naar [!UICONTROL Viewed an Mbox] en werden alle eerder geconfigureerde instellingen verwijderd. Deze update zorgt ervoor dat alleen de geselecteerde URL-voorwaarde wordt verwijderd en dat alle resterende doelinstellingen intact blijven. (TGT-53271)
+* **Vaste een kwestie waar het onderzoek niet door subfolders keek.** Oplossing voor een probleem waarbij het zoeken naar voorstellen geen resultaten van submappen in de bijgewerkte gebruikersinterface heeft opgeleverd. Klanten konden een aanbieding slechts vinden als zij manueel aan de omslag navigeerden waar het werd opgeslagen, makend onderzoeksgedrag inconsistent met API mogelijkheden. Zoeken ondersteunt nu recursief zoeken in mappen, zodat klanten aanbiedingen kunnen vinden zonder elke map afzonderlijk te hoeven openen. (TGT-51954)
 
 +++
 
@@ -119,8 +92,8 @@ Voor meer informatie, zie [[!DNL Target]  UI update FAQs &#x200B;](/help/main/c-
 
 | Bron | Details |
 |--- |--- |
-| [&#x200B; de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=nl-NL) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
-| [&#x200B; at.js versiedetails &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
+| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
+| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
 
 ## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release van Experience Cloud
 
@@ -128,9 +101,9 @@ Naast de notities voor elke release bevatten de volgende bronnen aanvullende inf
 
 | Bron | Details |
 |--- |--- |
-| [&#x200B; Veranderingen van de Documentatie &#x200B;](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
-| [&#x200B; de nota&#39;s van de Versie voor vorige versies &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
-| [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl-NL){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
+| [ Veranderingen van de Documentatie ](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
+| [ de nota&#39;s van de Versie voor vorige versies ](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
+| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
 
 ## Prerelease-informatie {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
@@ -138,5 +111,5 @@ De volgende middelen laten u zien wat in de volgende versie van het Doel komt.
 
 | Bron | Details |
 |--- |--- |
-| [&#x200B; de Prioritaire Update van het Product van Adobe &#x200B;](https://www.adobe.com/subscription/priority-product-update.html){target=_blank} | Ontvang voorafgaande meldingen over aanstaande productverbeteringen voor [!DNL Target] en andere [!DNL Adobe Experience Cloud] -oplossingen. |
-| [&#x200B; de Nota&#39;s van de Versie van het Doel - preRelease &#x200B;](/help/main/r-release-notes/target-release-notes.md){target=_blank} | Informatie over de versies van het Doel van de huidige maand, met inbegrip van pre-releaseinformatie. |
+| [ de Prioritaire Update van het Product van Adobe ](https://www.adobe.com/subscription/priority-product-update.html){target=_blank} | Ontvang voorafgaande meldingen over aanstaande productverbeteringen voor [!DNL Target] en andere [!DNL Adobe Experience Cloud] -oplossingen. |
+| [ de Nota&#39;s van de Versie van het Doel - preRelease ](/help/main/r-release-notes/target-release-notes.md){target=_blank} | Informatie over de versies van het Doel van de huidige maand, met inbegrip van pre-releaseinformatie. |
