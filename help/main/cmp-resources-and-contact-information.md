@@ -27,7 +27,7 @@ Ontdek [!UICONTROL Adobe Target Community]: Uw hub voor inzichten en samenwerkin
 
 Doe mee aan het gesprek, draag uw expertise bij en krijg de antwoorden die u nodig hebt, allemaal op één plaats.
 
-Bezoek het [&#x200B; Communautaire Forum van het Doel &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) om begonnen te worden.
+Bezoek het [&#x200B; Communautaire Forum van het Doel &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=nl) om begonnen te worden.
 
 +++
 
@@ -68,7 +68,7 @@ De Zorg van de klant is bereid om u te helpen om het even welke kwesties oplosse
 
 Als u problemen ondervindt of vragen hebt bij het gebruik van Target, hebt u een aantal opties
 
-Voor vragen, kunt u de deskundigen van Adobe Target in de [&#x200B; Gemeenschap van Adobe Target &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank} vragen.
+Voor vragen, kunt u de deskundigen van Adobe Target in de [&#x200B; Gemeenschap van Adobe Target &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=nl){target=_blank} vragen.
 
 Voor technische problemen of om een probleem te registreren kunt u contact opnemen met de klantenservice. Bel 1-800-497-0335 om telefonisch contact op te nemen met de klantenservice. De vrije aantallen van de toll buiten de Verenigde Staten kunnen op de [&#x200B; Adobe Digitale Verkoop de Regionale pagina van de Aantallen van de Telefoon van de Klant van de Zorg van de Plaats &#x200B;](https://helpx.adobe.com/nl/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) worden gevonden. Wanneer gevraagd om een optie voor uw product te selecteren, druk 3 om het team van het Doel te contacteren.
 
@@ -119,7 +119,7 @@ Afhankelijk van uw oplossingsconfiguratie zijn sommige opties die in deze docume
 
 ### Feedback {#section_8154D6D712054220A90D85FA8E92933E}
 
-We zijn blij met eventuele suggesties of feedback met betrekking tot deze oplossing. De ideeën en de suggesties van de verbetering kunnen aan de [&#x200B; Gemeenschap van Adobe Target Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) worden toegevoegd. Klik op de tab [!UICONTROL Ideas] .
+We zijn blij met eventuele suggesties of feedback met betrekking tot deze oplossing. De ideeën en de suggesties van de verbetering kunnen aan de [&#x200B; Gemeenschap van Adobe Target Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=nl) worden toegevoegd. Klik op de tab [!UICONTROL Ideas] .
 
 ### Juridisch {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 

@@ -48,7 +48,7 @@ Blijf up-to-date met [!DNL Target] releases.
 **heeft [!DNL Adobe] een Gemeenschap/Forum waar ik antwoorden en meer informatie over [!DNL Target] kan vinden?**
 
 +++Zie details
-Verbind met medegangers [!DNL Target] in het [&#x200B; Communautaire Forum van het Doel &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}. Deel uw expertise, stel vragen en werk samen met anderen die [!DNL Target] gebruiken om personalisatie en experimenten te stimuleren. Een bloeiende gemeenschap is afhankelijk van actieve deelname. Uw inzichten en ervaringen kunnen anderen helpen slagen. Kom binnen, draag bij, en vind de antwoorden u nodig hebt.
+Verbind met medegangers [!DNL Target] in het [&#x200B; Communautaire Forum van het Doel &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=nl){target=_blank}. Deel uw expertise, stel vragen en werk samen met anderen die [!DNL Target] gebruiken om personalisatie en experimenten te stimuleren. Een bloeiende gemeenschap is afhankelijk van actieve deelname. Uw inzichten en ervaringen kunnen anderen helpen slagen. Kom binnen, draag bij, en vind de antwoorden u nodig hebt.
 
 +++
 

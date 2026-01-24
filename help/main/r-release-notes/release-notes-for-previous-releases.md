@@ -3989,7 +3989,7 @@ Deze release van [!DNL Target] bevat de volgende klantgerichte verbeteringen en 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nieuwe locatie voor doelforum </p> </td> 
-   <td colname="col2"> <p> Het doelforum is verplaatst naar het nieuwe <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community" format="https" scope="external"> Adobe Community Platform </a> . </p> </td> 
+   <td colname="col2"> <p> Het doelforum is verplaatst naar het nieuwe <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=nl" format="https" scope="external"> Adobe Community Platform </a> . </p> </td> 
   </tr> 
  </tbody> 
 </table>
