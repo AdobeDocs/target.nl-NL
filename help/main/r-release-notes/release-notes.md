@@ -21,13 +21,13 @@ Ontdek de nieuwste functies, verbeteringen en oplossingen in [!DNL Adobe Target]
 
 ## Tijdgevoelige updates die u moet weten {#time-sensitive}
 
-[!BADGE  Belangrijk ]{type=Informative}
+[!BADGE &#x200B; Belangrijk &#x200B;]{type=Informative}
 
 Voor tijdgevoelige updates die betrekking hebben op [!DNL Adobe Target] en uw implementatie, verschaft [!DNL Adobe] gedetailleerde opmerkingen en documentatie bij de release via [!UICONTROL Experience League] . Hier volgen enkele belangrijke punten die relevant zijn voor uw implementatie:
 
 ### Veroudering van interfaceversie [!DNL Target] in-/uitschakelen
 
-Voor meer informatie, zie [[!DNL Target]  UI update FAQs ](/help/main/c-intro/updated-ui-faq.md).
+Voor meer informatie, zie [[!DNL Target]  UI update FAQs &#x200B;](/help/main/c-intro/updated-ui-faq.md).
 
 ## [!DNL Target Standard/Premium] 26.1.2 (30 januari 2026)
 
@@ -35,7 +35,7 @@ Voor meer informatie, zie [[!DNL Target]  UI update FAQs ](/help/main/c-intro/up
 
 Adobe Target bevat nu een nieuw dashboard voor inzichten dat een overzicht biedt op hoog niveau van de manier waarop uw organisatie Target gebruikt voor experimenten en personalisatie. Het dashboard heeft te maken met belangrijke metriek, zoals live activiteiten, activiteiten live en gewijzigd, voltooide activiteiten, gepubliceerde activiteiten en A/B-testactiviteiten. Gebruik de tijdbereikkiezer om trends gedurende verschillende perioden te verkennen, inclusief een rechthoekweergave voor 2025. Dit dashboard blijft beschikbaar als een doorlopende manier om adoptie en activiteit in de loop van de tijd te volgen.
 
-Zie [ dashboard van de Inzichten van Adobe Target ](/help/main/c-activities/insights-dashboard.md)
+Zie [&#x200B; dashboard van de Inzichten van Adobe Target &#x200B;](/help/main/c-activities/insights-dashboard.md)
 
 ## [!DNL Target Standard/Premium] 26.1.1 (18 januari 2026)
 
@@ -87,7 +87,7 @@ Zie [ dashboard van de Inzichten van Adobe Target ](/help/main/c-activities/insi
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Zie details
 
@@ -103,8 +103,8 @@ Zie [ dashboard van de Inzichten van Adobe Target ](/help/main/c-activities/insi
 
 | Bron | Details |
 |--- |--- |
-| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
-| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
+| [&#x200B; de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
+| [&#x200B; at.js versiedetails &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
 
 ## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release van Experience Cloud
 
@@ -112,9 +112,9 @@ Naast de notities voor elke release bevatten de volgende bronnen aanvullende inf
 
 | Bron | Details |
 |--- |--- |
-| [ Veranderingen van de Documentatie ](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
-| [ de nota&#39;s van de Versie voor vorige versies ](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
-| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
+| [&#x200B; Veranderingen van de Documentatie &#x200B;](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
+| [&#x200B; de nota&#39;s van de Versie voor vorige versies &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
+| [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
 
 ## Prerelease-informatie {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
@@ -122,5 +122,5 @@ De volgende middelen laten u zien wat in de volgende versie van het Doel komt.
 
 | Bron | Details |
 |--- |--- |
-| [ de Prioritaire Update van het Product van Adobe ](https://www.adobe.com/subscription/priority-product-update.html){target=_blank} | Ontvang voorafgaande meldingen over aanstaande productverbeteringen voor [!DNL Target] en andere [!DNL Adobe Experience Cloud] -oplossingen. |
-| [ de Nota&#39;s van de Versie van het Doel - preRelease ](/help/main/r-release-notes/target-release-notes.md){target=_blank} | Informatie over de versies van het Doel van de huidige maand, met inbegrip van pre-releaseinformatie. |
+| [&#x200B; de Prioritaire Update van het Product van Adobe &#x200B;](https://www.adobe.com/subscription/priority-product-update.html){target=_blank} | Ontvang voorafgaande meldingen over aanstaande productverbeteringen voor [!DNL Target] en andere [!DNL Adobe Experience Cloud] -oplossingen. |
+| [&#x200B; de Nota&#39;s van de Versie van het Doel - preRelease &#x200B;](/help/main/r-release-notes/target-release-notes.md){target=_blank} | Informatie over de versies van het Doel van de huidige maand, met inbegrip van pre-releaseinformatie. |
