@@ -6,9 +6,9 @@ short-description: Leer over de nieuwe eigenschappen, de verhogingen, en de moei
 title: Wat is inbegrepen in de huidige Versie?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f06882e99ba67f4c1fb13656b218744f8c0428e1
+source-git-commit: 6b92e823c854996e074716a7b8c4856176710c24
 workflow-type: tm+mt
-source-wordcount: '1862'
+source-wordcount: '1772'
 ht-degree: 0%
 
 ---
@@ -21,21 +21,13 @@ Ontdek de nieuwste functies, verbeteringen en oplossingen in [!DNL Adobe Target]
 
 ## Tijdgevoelige updates die u moet weten {#time-sensitive}
 
-[!BADGE &#x200B; Belangrijk &#x200B;]{type=Informative}
+[!BADGE  Belangrijk ]{type=Informative}
 
 Voor tijdgevoelige updates die betrekking hebben op [!DNL Adobe Target] en uw implementatie, verschaft [!DNL Adobe] gedetailleerde opmerkingen en documentatie bij de release via [!UICONTROL Experience League] . Hier volgen enkele belangrijke punten die relevant zijn voor uw implementatie:
 
 ### Veroudering van interfaceversie [!DNL Target] in-/uitschakelen
 
-Voor meer informatie, zie [[!DNL Target]  UI update FAQs &#x200B;](/help/main/c-intro/updated-ui-faq.md).
-
-## [!DNL Target Standard/Premium] 26.1.2 (30 januari 2026)
-
-**het Dashboard van de Inzichten van Adobe Target**
-
-Adobe Target bevat nu een nieuw dashboard voor inzichten dat een overzicht biedt op hoog niveau van de manier waarop uw organisatie Target gebruikt voor experimenten en personalisatie. Het dashboard heeft te maken met belangrijke metriek, zoals live activiteiten, activiteiten live en gewijzigd, voltooide activiteiten, gepubliceerde activiteiten en A/B-testactiviteiten. Gebruik de tijdbereikkiezer om trends gedurende verschillende perioden te verkennen, inclusief een rechthoekweergave voor 2025. Dit dashboard blijft beschikbaar als een doorlopende manier om adoptie en activiteit in de loop van de tijd te volgen.
-
-Zie [&#x200B; dashboard van de Inzichten van Adobe Target &#x200B;](/help/main/c-activities/insights-dashboard.md)
+Voor meer informatie, zie [[!DNL Target]  UI update FAQs ](/help/main/c-intro/updated-ui-faq.md).
 
 ## [!DNL Target Standard/Premium] 26.1.1 (18 januari 2026)
 
@@ -55,7 +47,6 @@ Zie [&#x200B; dashboard van de Inzichten van Adobe Target &#x200B;](/help/main/c
 **Eigenschappen**
 
 +++Zie details
-
 * **de Activiteit geeft zou geen auto-ontdekt bezit moeten toevoegen als reeds verwijderd.** Met deze correctie wordt een probleem verholpen waarbij bij het bewerken van een activiteit automatisch een automatisch gedetecteerde eigenschap wordt geïntroduceerd die de gebruiker eerder had verwijderd. Wanneer een activiteit opnieuw wordt geopend voor bewerking, heeft het systeem de verwijderde eigenschap onjuist hersteld, wat leidt tot inconsequent gedrag en verwarring in de [!UICONTROL Properties List] . De update zorgt ervoor dat een automatisch gedetecteerde eigenschap wordt verwijderd als deze tijdens alle volgende bewerkingen wordt verwijderd en niet opnieuw wordt weergegeven, tenzij de gebruiker deze expliciet terugvoegt. (TGT-54182)
 * **voeg auto-ontdekte eigenschappen niet toe als reeds verwijderd.** Met deze correctie zorgt u ervoor dat een automatisch gedetecteerde eigenschap niet meer door het systeem wordt geïntroduceerd tijdens volgende navigatie in de activiteiteneditor nadat een gebruiker handmatig een automatisch gedetecteerde eigenschap heeft verwijderd uit een activiteit. Eerder, als een gebruiker een auto-ontdekte bezit schrapte, aan de [!UICONTROL Targeting] stap werd verplaatst, en toen aan [!UICONTROL Experiences] terugkwam, zou de redacteur de verwijderde eigenschap herhalen die op de auto-ontdekte lijst wordt gebaseerd die in het de staatssegment van de Redacteur van de Activiteit wordt opgeslagen. De bijgewerkte logica vergelijkt nu de auto-ontdekte eigenschappen met de huidige eigenschappen in het ~ ~ segment ActivityState en verhindert het opnieuw toevoegen van om het even welk auto-ontdekt bezit dat de gebruiker reeds heeft verwijderd. Dit resulteert in consistent gedrag in verschillende stappen en houdt rekening met de intentie van de gebruiker. (TGT-54181)
 * **voeg auto-ontdekte tekst in de eigenschappenlijst toe.** Deze verbetering werkt [!UICONTROL Properties List] bij om eigenschappen duidelijk te etiketteren die automatisch door het systeem werden ontdekt. Wanneer een auto-ontdekt bezit ook in user-visible [!UICONTROL Properties List] aanwezig is, toont het nu de &quot;(Auto-Gedetecteerd)&quot;tekst naast zijn naam, gebruikend de waarde die in de ~ wordt opgeslagen ActivityEditorSegment ~ staat. Dit weerspiegelt het gedrag van erfenis UI en helpt gebruikers gemakkelijk tussen manueel geselecteerde eigenschappen en die eigenschappen onderscheiden die automatisch worden geïdentificeerd. (TGT-54120)
@@ -66,7 +57,6 @@ Zie [&#x200B; dashboard van de Inzichten van Adobe Target &#x200B;](/help/main/c
 **Aanbevelingen**
 
 +++Zie details
-
 * In de vervolgkeuzelijst **[!UICONTROL Environment]worden slechts 100 resultaten weergegeven.** Met deze correctie wordt een beperking verholpen waarbij klanten met meer dan 100 omgevingen alleen de eerste 100 items in de [!UICONTROL Environment] vervolgkeuzelijst [!UICONTROL Recommendations] konden zien. De onderliggende vraag van GraphQL (~ getEnvironmentsV2 ~) werd gepagineerd met een hard-gecodeerde paginagrootte van 100, veroorzakend UI om slechts een gedeeltelijke lijst te tonen zelfs wanneer de extra pagina&#39;s beschikbaar waren. Voor klanten met meer dan 100 omgevingen leidde dit probleem tot ontbrekende opties en een onvolledige selectie. De update verhoogt de limiet, zodat alle omgevingen worden geretourneerd en weergegeven, zodat volledige zichtbaarheid wordt gegarandeerd, ongeacht het aantal omgevingen. (TGT-53903)
 
 +++
@@ -87,10 +77,9 @@ Zie [&#x200B; dashboard van de Inzichten van Adobe Target &#x200B;](/help/main/c
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Zie details
-
 * **[!UICONTROL Experience Fragment]naam werd afgebroken in nieuwe UI VEC** (TGT-54312)
 * **Kan [!UICONTROL Advanced Settings] for [!UICONTROL Revenue] niet gebruiken.** Met deze correctie wordt een probleem verholpen waarbij gebruikers een fout van 403 tegenkwamen bij het configureren van [!UICONTROL Advanced Settings] voor de metrische waarde [!UICONTROL Revenue] in [!UICONTROL Goals & Settings] . Het probleem kwam voor wanneer het toevoegen van een gebiedsdeelvoorwaarde verbonden aan het primaire doel; het backend vereiste verkeerd het redacteursrecht zelfs voor gebruikers die reeds voldoende toestemmingen hadden om activiteiten tot stand te brengen en uit te geven. Als gevolg hiervan is het opslaan van de activiteit mislukt, ondanks een geldige configuratie. De update verbetert de toestemmingscontrole zodat de gebruikers met aangewezen toegang met succes de metrische gebiedsdelen van de Opbrengst kunnen toevoegen zonder een verboden-middelfout te veroorzaken. (TGT-54092)
 * **Vaste een kwestie waar de Add knoop niet op geselecteerde beelden van toepassing was.** Oplossing voor een probleem dat ervoor zorgde dat klanten bepaalde afbeeldingen niet mochten toevoegen wanneer ze een afbeelding tijdens het maken van de activiteit selecteren of bijwerken. Wanneer klanten naar specifieke elementen hebben gezocht, bijvoorbeeld, zijn afbeeldingen die zijn geretourneerd bij het zoeken naar &#39;ipp&#39; en op de knop [!UICONTROL Add] klikken, niet van toepassing op de geselecteerde afbeelding en is er geen wijziging gemaakt. Het selecteren van andere afbeeldingen, zoals `Homepage-banner-1-moz.jpg` , bleef werken zoals u had verwacht. Deze update zorgt ervoor dat alle geldige afbeeldingen consistent kunnen worden toegepast in de bijgewerkte gebruikersinterface. (TGT-53610)
@@ -103,8 +92,8 @@ Zie [&#x200B; dashboard van de Inzichten van Adobe Target &#x200B;](/help/main/c
 
 | Bron | Details |
 |--- |--- |
-| [&#x200B; de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=nl-NL) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
-| [&#x200B; at.js versiedetails &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=nl-NL){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
+| [ de nota&#39;s van de Versie: De Ervaring van het Platform van Adobe Target Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Details over veranderingen in elke versie van het Web SDK van het Platform. |
+| [ at.js versiedetails ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Informatie over de wijzigingen in elke versie van de JavaScript-bibliotheek [!DNL Adobe Target] at.js. |
 
 ## Documentatiewijzigingen, Opmerkingen bij de vorige release en Opmerkingen bij de release van Experience Cloud
 
@@ -112,9 +101,9 @@ Naast de notities voor elke release bevatten de volgende bronnen aanvullende inf
 
 | Bron | Details |
 |--- |--- |
-| [&#x200B; Veranderingen van de Documentatie &#x200B;](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
-| [&#x200B; de nota&#39;s van de Versie voor vorige versies &#x200B;](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
-| [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=nl-NL){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
+| [ Veranderingen van de Documentatie ](/help/main/r-release-notes/doc-change.md) | Gedetailleerde informatie weergeven over updates van deze handleiding die niet zijn opgenomen in deze releaseopmerkingen. |
+| [ de nota&#39;s van de Versie voor vorige versies ](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Informatie weergeven over nieuwe functies en verbeteringen in vorige versies van Target Standard en Target Premium. |
+| [ de Nota&#39;s van de Versie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target=_blank} | Bekijk de nieuwste releaseopmerkingen voor de Adobe Experience Cloud-oplossingen. |
 
 ## Prerelease-informatie {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
@@ -122,5 +111,5 @@ De volgende middelen laten u zien wat in de volgende versie van het Doel komt.
 
 | Bron | Details |
 |--- |--- |
-| [&#x200B; de Prioritaire Update van het Product van Adobe &#x200B;](https://www.adobe.com/subscription/priority-product-update.html){target=_blank} | Ontvang voorafgaande meldingen over aanstaande productverbeteringen voor [!DNL Target] en andere [!DNL Adobe Experience Cloud] -oplossingen. |
-| [&#x200B; de Nota&#39;s van de Versie van het Doel - preRelease &#x200B;](/help/main/r-release-notes/target-release-notes.md){target=_blank} | Informatie over de versies van het Doel van de huidige maand, met inbegrip van pre-releaseinformatie. |
+| [ de Prioritaire Update van het Product van Adobe ](https://www.adobe.com/subscription/priority-product-update.html){target=_blank} | Ontvang voorafgaande meldingen over aanstaande productverbeteringen voor [!DNL Target] en andere [!DNL Adobe Experience Cloud] -oplossingen. |
+| [ de Nota&#39;s van de Versie van het Doel - preRelease ](/help/main/r-release-notes/target-release-notes.md){target=_blank} | Informatie over de versies van het Doel van de huidige maand, met inbegrip van pre-releaseinformatie. |

@@ -3,9 +3,9 @@ user-guide-title: Handleiding Adobe Target Business Practitioner
 breadcrumb-title: Handleiding Target
 user-guide-description: Ontdek hoe u de ervaringen van klanten op verschillende websites, apps en sociale kanalen kunt aanpassen om hun inkomsten te verhogen.
 feature-set: Target
-source-git-commit: f06882e99ba67f4c1fb13656b218744f8c0428e1
+source-git-commit: 6b92e823c854996e074716a7b8c4856176710c24
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1273'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 1%
       + [Overzicht van de welkomstkit](/help/main/c-intro/target-welcome-kit.md)
       + [Hoofdstuk 1: Inleiding](/help/main/c-intro/target-welcome-kit-1.md)
       + [Hoofdstuk 2: Doel in één oogopslag](/help/main/c-intro/target-welcome-kit-2.md)
-      + [&#x200B; Hoofdstuk 3: Ontwikkel uw het testen en verpersoonlijkingsideeën &#x200B;](/help/main/c-intro/target-welcome-kit-3.md)
+      + [ Hoofdstuk 3: Ontwikkel uw het testen en verpersoonlijkingsideeën ](/help/main/c-intro/target-welcome-kit-3.md)
       + [Hoofdstuk 4: Tips voor het gebruik van Doel](/help/main/c-intro/target-welcome-kit-4.md)
       + [Hoofdstuk 5: Inspiratie voor test- en personalisatieactiviteiten](/help/main/c-intro/target-welcome-kit-5.md)
       + [Hoofdstuk 6: Eenvoudig te vermijden valkuilen](/help/main/c-intro/target-welcome-kit-6.md)
@@ -72,7 +72,7 @@ ht-degree: 1%
          + [Adobe I/O-integratie toegang verlenen tot werkruimten en rollen toewijzen](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Aanbevelingen](/help/main/administrating-target/recommendations-settings.md)
 + Doel implementeren {#implement-target}
-   + [&#x200B; voer het overzicht van het Doel uit &#x200B;](c-implementing-target/implementing-target.md)
+   + [ voer het overzicht van het Doel uit ](c-implementing-target/implementing-target.md)
 + Doel integreren met de Experience Cloud {#integrate}
    + Adobe Analytics als de rapportagebron voor Target (A4T) {#a4t}
       + [A4T-overzicht](c-integrating-target-with-mac/a4t/a4t.md)
@@ -117,7 +117,6 @@ ht-degree: 1%
    + [Doel integreren met Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
 + Activiteiten {#activities}
    + [Overzicht van activiteiten](c-activities/activities.md)
-   + [Insights-dashboard](c-activities/insights-dashboard.md)
    + [Doelactiviteitstypen](c-activities/target-activities-guide.md)
    + A/B-test {#abtest}
       + [Overzicht van de A/B-test](c-activities/t-test-ab/test-ab.md)
@@ -303,7 +302,7 @@ ht-degree: 1%
       + [Verzamelingen](c-recommendations/c-products/collections.md)
       + [Uitsluitingen](c-recommendations/c-products/exclusions.md)
    + Criteria {#criteria}
-      + [&#x200B; Overzicht van Criteria &#x200B;](c-recommendations/c-algorithms/algorithms.md)
+      + [ Overzicht van Criteria ](c-recommendations/c-algorithms/algorithms.md)
       + [Criteria maken](c-recommendations/c-algorithms/create-new-algorithm.md)
       + [Criteria-reeksen maken](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [De aanbeveling baseren op een aanbevelingen](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
@@ -340,4 +339,4 @@ ht-degree: 1%
    + [Limieten](r-troubleshooting-target/target-limits.md)
 + Doel-API&#39;s {#apis}
    + [Overzicht Adobe Target API](/help/main/api/api-overview.md)
-+ [&#x200B; Middelen en contactinformatie &#x200B;](cmp-resources-and-contact-information.md)
++ [ Middelen en contactinformatie ](cmp-resources-and-contact-information.md)
